@@ -99,11 +99,15 @@ const endLabels = {
     ctx.restore();
   },
 };
-Chart.register(endLabels);
+/** Whether Chart.js loaded; it comes from a CDN, which can be unreachable. */
+export const chartJsLoaded = typeof Chart !== "undefined";
 
-Chart.defaults.font.family = "Public Sans, system-ui, sans-serif";
-Chart.defaults.color = "#4C6076";
-Chart.defaults.borderColor = "rgba(18,35,58,.12)";
+if (chartJsLoaded) {
+  Chart.register(endLabels);
+  Chart.defaults.font.family = "Public Sans, system-ui, sans-serif";
+  Chart.defaults.color = "#4C6076";
+  Chart.defaults.borderColor = "rgba(18,35,58,.12)";
+}
 
 /**
  * Build the Chart.js config for `view`.

@@ -14,7 +14,9 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "check": "npm run format:check && npm run lint",
-    "test": "playwright test"
+    "test": "npm run test:unit && npm run test:smoke",
+    "test:unit": "node --test \"tests/unit/*.test.js\"",
+    "test:smoke": "playwright test"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

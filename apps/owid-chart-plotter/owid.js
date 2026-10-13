@@ -9,6 +9,20 @@
  */
 
 /**
+ * A #Column hint may be URL-encoded ("Coal%20(%25)") or typed as is
+ * ("Coal (%)"), which decodeURIComponent would reject.
+ *
+ * @param {string} s
+ */
+function decodeHint(s) {
+  try {
+    return decodeURIComponent(s);
+  } catch {
+    return s;
+  }
+}
+
+/**
  * @param {string} value what the user typed, or a full grapher URL
  * @returns {{display: string, slug: string, colHint: string, base: string}}
  *   `display` for the input box, `slug` with its query, `colHint` the
@@ -20,7 +34,7 @@ export function splitSlug(value) {
     .replace(/^https?:\/\/[^/]+\/grapher\//, "")
     .replace(/\/+$/, "");
   const hash = display.indexOf("#");
-  const colHint = hash >= 0 ? decodeURIComponent(display.slice(hash + 1)) : "";
+  const colHint = hash >= 0 ? decodeHint(display.slice(hash + 1)) : "";
   const slug = hash >= 0 ? display.slice(0, hash) : display;
   return { display, slug, colHint, base: slug.split("?")[0] };
 }

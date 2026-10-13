@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dev server",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "geo-apps",
+        "pattern": { "regexp": "^x^" },
+        "background": {
+          "activeBegins": ".",
+          "activeEnds": "Geo apps running at"
+        }
+      }
+    },
+    {
+      "label": "check (format + lint)",
+      "type": "npm",
+      "script": "check",
+      "problemMatcher": ["$eslint-stylish"]
+    },
+    {
+      "label": "unit tests",
+      "type": "npm",
+      "script": "test:unit",
+      "group": "test",
+      "problemMatcher": []
+    },
+    { "label": "build", "type": "npm", "script": "build", "group": "build", "problemMatcher": [] }
+  ]
+}

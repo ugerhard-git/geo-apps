@@ -14,7 +14,14 @@
 import { $ } from "../../shared/dom.js";
 import { downloadBlob } from "../../shared/sheet.js";
 import { setupPresetChecker } from "./checker.js";
-import { buildConfig, isSingleYear, MAX_SERIES, PALETTE, TYPE_NAMES } from "./charts.js";
+import {
+  buildConfig,
+  chartJsLoaded,
+  isSingleYear,
+  MAX_SERIES,
+  PALETTE,
+  TYPE_NAMES,
+} from "./charts.js";
 import { buildData, csvCell, fmt, safeName, series } from "./data.js";
 import { renderExport } from "./export-png.js";
 import { fetchCSV, splitSlug } from "./owid.js";
@@ -493,6 +500,14 @@ els.file.addEventListener("change", () => {
   r.readAsText(f);
 });
 
+if (!chartJsLoaded) {
+  setStatus(
+    "err",
+    "The charting library (Chart.js, from cdn.jsdelivr.net) didn't load, so nothing can be drawn. Check the connection and reload.",
+  );
+  els.load.disabled = true;
+}
+
 setupPresetChecker({
   preset: els.preset,
   run: button("checkrun"),
@@ -501,4 +516,4 @@ setupPresetChecker({
   out: $("checkout"),
 });
 
-load("life-expectancy");
+if (chartJsLoaded) load("life-expectancy");

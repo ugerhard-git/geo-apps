@@ -30,7 +30,9 @@ import { parseCsv } from "../../shared/net.js";
  * @returns {string[][]}
  */
 export function parseCSV(text) {
-  return parseCsv(text.replace(/^\uFEFF/, "")).filter((r) => r.length > 1 || (r[0] || "").trim() !== "");
+  return parseCsv(text.replace(/^\uFEFF/, "")).filter(
+    (r) => r.length > 1 || (r[0] || "").trim() !== "",
+  );
 }
 
 const UNIT_WORDS =

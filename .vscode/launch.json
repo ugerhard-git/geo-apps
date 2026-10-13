@@ -1,0 +1,16 @@
+{
+  // F5 starts the dev server and opens the site in Chrome with the debugger
+  // attached, so breakpoints in apps/*/*.js and shared/*.js just work.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open the geo apps in Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://127.0.0.1:8080/",
+      "webRoot": "${workspaceFolder}",
+      "pathMapping": { "/": "${workspaceFolder}/site/" },
+      "preLaunchTask": "dev server"
+    }
+  ]
+}
