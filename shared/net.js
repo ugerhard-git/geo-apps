@@ -6,6 +6,13 @@
 /** jsDelivr's npm mirror, which serves the CLDR and Natural Earth packages. */
 export const NPM_CDN = "https://cdn.jsdelivr.net/npm";
 
+/**
+ * The datasets/country-codes table: ISO 3166 alpha-2, alpha-3 and numeric
+ * codes, FIPS codes and UN regions for every country, as CSV.
+ */
+export const URL_COUNTRY_CODES =
+  "https://cdn.jsdelivr.net/gh/datasets/country-codes@main/data/country-codes.csv";
+
 /** The Wikidata SPARQL endpoint. */
 export const WDQS = "https://query.wikidata.org/sparql";
 
