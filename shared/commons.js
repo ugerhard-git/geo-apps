@@ -8,6 +8,7 @@
  */
 
 import { httpError } from "./net.js";
+import { cleanText } from "./text.js";
 
 export const COMMONS_API = "https://commons.wikimedia.org/w/api.php";
 
@@ -194,6 +195,28 @@ export function licenceAllows(mode, rec) {
  */
 export const licenceClass = (licence) =>
   licence.id === "pd" ? "pd" : licence.id === "by" ? "by" : "sa";
+
+/**
+ * The file title in a `Special:FilePath` URL, as Wikidata gives image values:
+ * "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Germany.svg"
+ * → "File:Flag of Germany.svg".
+ *
+ * @param {unknown} u
+ * @returns {string} the title, or "" when `u` is not such a URL
+ */
+export function fileTitleFromFilePath(u) {
+  const s = String(u || "");
+  const m = /Special:FilePath\/(.+)$/.exec(s);
+  if (!m) return "";
+  let name;
+  try {
+    name = decodeURIComponent(m[1]);
+  } catch {
+    name = m[1];
+  }
+  name = cleanText(name.replace(/_/g, " "), 160);
+  return name ? "File:" + name : "";
+}
 
 /**
  * A permanent link to a Commons file page, built from its page id.
