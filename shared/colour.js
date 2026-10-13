@@ -3,7 +3,8 @@
  * @module shared/colour
  */
 
-const HEX6 = /^#?([0-9a-f]{6})$/i;
+/** A six-digit hex colour, with or without the leading "#". */
+export const HEX6 = /^#?([0-9a-f]{6})$/i;
 
 /**
  * Return `value` as a lower-case `#rrggbb` string, or `fallback` when it is not
