@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>GeoCards — country statistics as cards</title>
+    <meta name="description" content="Country statistics drawn as cards, with no country name on any of them." />
+    <meta name="geo-apps:tags" content="REST Countries, World Bank, cards, API key" />
     <!-- The page holds an API key, so the important line here is connect-src:
      even if something were injected, it could only talk to these five hosts.
      frame-ancestors cannot be set from a meta tag; send it as a header if you
@@ -141,9 +143,9 @@
           <code>yourname.github.io</code>) and, for local development with <code>npm run dev</code>,
           <code>localhost</code>. The key itself is never part of the page or the repository.<br /><br />
           Remembering the key writes it to this browser’s local storage in plain text. It is shared with the other geo
-          apps on this site, so it only needs entering once, but any other page served from the same origin can read
-          it. Leave that unticked on a shared machine. Forget key wipes it from the page and from storage straight
-          away, for every app; without it the key is only ever held in memory for this tab.
+          apps on this site, so it only needs entering once, but any other page served from the same origin can read it.
+          Leave that unticked on a shared machine. Forget key wipes it from the page and from storage straight away, for
+          every app; without it the key is only ever held in memory for this tab.
         </p>
       </section>
       <p class="hint">

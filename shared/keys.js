@@ -20,6 +20,7 @@
  * @property {string} id short identifier used in the storage key
  * @property {string} name human-readable name
  * @property {string} url where to get a key
+ * @property {string[]} usedBy app folders that use the key
  * @property {string[]} [legacyKeys] older storage keys to migrate from
  */
 
@@ -29,12 +30,14 @@ export const SERVICES = /** @type {const} */ ({
     id: "restcountries",
     name: "REST Countries",
     url: "https://restcountries.com/",
+    usedBy: ["geocards"],
     legacyKeys: ["geocards.key", "meridian.key"],
   },
   oec: {
     id: "oec",
     name: "OEC (Observatory of Economic Complexity)",
     url: "https://oec.world/en/account",
+    usedBy: ["export-treemap"],
     legacyKeys: [],
   },
 });

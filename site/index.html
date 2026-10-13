@@ -1,1 +1,56 @@
-<!doctype html><title>Geo apps</title><ul><!-- APPS --></ul>
+<!doctype html>
+<!--
+  Template for the overview page. scripts/apps.mjs fills in the two
+  placeholder comments from each app's <title> and <meta> tags; nothing here
+  needs editing when an app is added.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="color-scheme" content="dark light" />
+    <title>Geo apps</title>
+    <meta name="description" content="Clue generators for a geography guessing game." />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%23f2c14e' stroke-width='3'/%3E%3Cpath d='M3 16h26M16 3c-6 7-6 19 0 26M16 3c6 7 6 19 0 26' fill='none' stroke='%23f2c14e' stroke-width='2'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <h1>Geo apps</h1>
+      <p>
+        <!-- APP_COUNT -->
+        clue generators for a geography guessing game. Each one turns a country into something to recognise — a sheet, a
+        chart, a shape — without naming it.
+      </p>
+    </header>
+
+    <main>
+      <ul class="apps">
+        <!-- APPS -->
+      </ul>
+
+      <section class="keys" aria-labelledby="keys-title">
+        <h2 id="keys-title">Saved API keys</h2>
+        <p class="muted">
+          Some apps can use a personal API key. Save it once here, or tick “remember” in the app, and every app on this
+          site picks it up. Keys stay in this browser only; they are never uploaded anywhere but to the service itself.
+        </p>
+        <ul id="keyList" class="key-list"></ul>
+        <p id="keyNote" class="muted" hidden>This browser blocks storage, so keys can't be remembered here.</p>
+      </section>
+    </main>
+
+    <footer>
+      <a href="https://github.com/ugerhard-git/geo-apps">Source on GitHub</a>
+    </footer>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
