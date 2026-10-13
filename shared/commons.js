@@ -85,12 +85,18 @@ export async function filesIn(title, limit) {
 /**
  * Accept a URL only if it is HTTPS on Wikimedia's upload host.
  *
+ * A protocol-relative "//upload.wikimedia.org/..." (as rendered wiki HTML
+ * uses) has no scheme, so parsing it without a base would throw and look like
+ * a wrong host; it is resolved against the upload host instead.
+ *
  * @param {unknown} u
  * @returns {string | null} the normalised URL, or `null`
  */
 export function safeImageUrl(u) {
+  const raw = String(u || "");
+  if (!raw) return null;
   try {
-    const url = new URL(String(u));
+    const url = new URL(raw, "https://" + UPLOAD_HOST + "/");
     if (url.protocol !== "https:" || url.hostname !== UPLOAD_HOST) return null;
     return url.href;
   } catch {

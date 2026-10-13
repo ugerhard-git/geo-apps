@@ -1,208 +1,260 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Plotting Table — Our World in Data charts</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="wrap">
-
-  <header class="mast">
-    <div class="eyebrow"><span>Plotting table</span><span>Source: Our World in Data</span><span>Runs offline · one file</span></div>
-    <h1>Pick an indicator.<br>Pick countries.<br><em>Draw the chart.</em></h1>
-    <p class="sub">Loads any Our World in Data chart dataset straight from their public CSV endpoint, then plots the countries and years you choose. Export the result as a PNG image or a trimmed CSV.</p>
-  </header>
-
-  <div class="cols">
-
-    <!-- ============ CONTROLS ============ -->
-    <form class="panel" id="form" autocomplete="off">
-      <h2>Form <span id="rows">no data</span></h2>
-      <div class="panel-body">
-
-        <fieldset>
-          <legend>1 — Indicator</legend>
-          <label class="lbl" for="preset">Common datasets</label>
-          <select id="preset">
-            <optgroup label="Population &amp; demography">
-              <option value="population">Population</option>
-              <option value="population-growth-rates">Population growth rate</option>
-              <option value="population-density">Population density</option>
-              <option value="children-born-per-woman">Fertility rate</option>
-              <option value="median-age">Median age</option>
-              <option value="share-of-population-urban">Urban population share</option>
-              <option value="life-expectancy">Life expectancy at birth</option>
-            </optgroup>
-            <optgroup label="Health">
-              <option value="child-mortality">Child mortality rate</option>
-              <option value="infant-mortality">Infant mortality rate</option>
-              <option value="maternal-mortality">Maternal mortality ratio</option>
-              <option value="happiness-cantril-ladder">Self-reported life satisfaction</option>
-              <option value="share-of-adults-defined-as-obese">Adult obesity rate</option>
-              <option value="share-of-adults-who-smoke">Adults who smoke</option>
-              <option value="total-alcohol-consumption-per-capita-litres-of-pure-alcohol">Alcohol consumption per adult</option>
-              <option value="physicians-per-1000-people">Physicians per 1,000 people</option>
-              <option value="total-healthcare-expenditure-gdp">Health spending, share of GDP</option>
-                            <option value="prevalence-of-undernourishment">Undernourishment</option>
-            </optgroup>
-            <optgroup label="Economy &amp; work">
-              <option value="gdp-per-capita-worldbank">GDP per capita</option>
-              <option value="share-of-population-in-extreme-poverty">Extreme poverty rate</option>
-              <option value="unemployment-rate">Unemployment rate</option>
-              <option value="annual-working-hours-per-worker">Annual working hours per worker</option>
-              <option value="inflation-of-consumer-prices">Consumer price inflation</option>
-              <option value="trade-as-share-of-gdp">Trade, share of GDP</option>
-            </optgroup>
-            <optgroup label="Energy">
-              <option value="energy-mix?metric=per_capita&amp;source=total">Energy use per person</option>
-              <option value="electricity-mix?frequency=annual&amp;metric=per_capita&amp;source=total">Electricity generation per person</option>
-            </optgroup>
-            <optgroup label="Climate &amp; environment">
-              <option value="co-emissions-per-capita">CO₂ emissions per person</option>
-              <option value="annual-co2-emissions-per-country">Annual CO₂ emissions</option>
-              <option value="cumulative-co-emissions">Cumulative CO₂ emissions</option>
-              <option value="total-ghg-emissions">Total greenhouse gas emissions</option>
-              <option value="methane-emissions">Methane emissions</option>
-              <option value="temperature-anomaly">Global temperature anomaly</option>
-              <option value="annual-share-of-co2-emissions">Share of global CO₂ emissions</option>
-              <option value="forest-area-as-share-of-land-area">Forest area, share of land</option>
-            </optgroup>
-            <optgroup label="Education &amp; research">
-              <option value="mean-years-of-schooling-long-run">Mean years of schooling</option>
-              <option value="literacy?age_group=adult&amp;sex=both">Adult literacy rate</option>
-              <option value="research-spending-gdp">R&amp;D spending, share of GDP</option>
-            </optgroup>
-            <optgroup label="Society &amp; technology">
-              <option value="human-development-index">Human Development Index</option>
-              <option value="share-of-individuals-using-the-internet">Internet users</option>
-              <option value="mobile-cellular-subscriptions-per-100-people">Mobile subscriptions per 100 people</option>
-              <option value="share-of-women-in-parliament">Women in parliament</option>
-              <option value="political-regime">Political regime</option>
-              <option value="homicide-rate-unodc">Homicide rate</option>
-            </optgroup>
-            <optgroup label="Food &amp; agriculture">
-              <option value="daily-meat-consumption-per-person">Meat consumption per person</option>
-              <option value="cereal-yield">Cereal yields</option>
-            </optgroup>
-          </select>
-          <label class="lbl" for="slug" style="margin-top:10px">Or a chart slug from ourworldindata.org/grapher/…</label>
-          <div class="row">
-            <input type="text" id="slug" value="life-expectancy" spellcheck="false" />
-            <button type="button" class="primary" id="load" style="flex:0 0 auto">Load data</button>
-          </div>
-          <label class="lbl" for="valcol" id="valcollbl" style="margin-top:10px;display:none">Value column</label>
-          <select id="valcol" style="display:none"></select>
-          <p class="hint">Grouped by theme — 44 datasets, each verified to load. For anything else, open a chart on <a href="https://ourworldindata.org/charts" target="_blank" rel="noopener">ourworldindata.org</a> and copy the last part of its URL.</p>
-          <details class="check">
-            <summary>Check every dataset</summary>
-            <p class="hint">Loads all listed datasets one by one and reports which fail and which column each one parses to. OWID renames charts from time to time, so this is how you find dead slugs. It downloads a lot of data and takes a few minutes.</p>
-            <div class="row">
-              <button type="button" id="checkrun" style="flex:0 0 auto">Run check</button>
-              <button type="button" id="checkstop" style="flex:0 0 auto" disabled>Stop</button>
-              <span class="hint" id="checkprog" style="align-self:center"></span>
-            </div>
-            <div id="checkout"></div>
-          </details>
-        </fieldset>
-
-        <fieldset>
-          <legend>2 — Countries</legend>
-          <label class="lbl sr" for="search">Search countries</label>
-          <input type="search" id="search" placeholder="Search countries…" disabled />
-          <div class="picker" id="picker" role="listbox" aria-label="Available countries"></div>
-          <div class="chips" id="chips" aria-live="polite"></div>
-          <p class="hint">Click a chip to remove it. Up to 8 series are drawn at once.</p>
-        </fieldset>
-
-        <fieldset>
-          <legend>3 — Chart type</legend>
-          <div class="seg" id="types">
-            <button type="button" data-t="line" aria-pressed="true">Trend lines<span>over time</span></button>
-            <button type="button" data-t="area">Stacked area<span>composition</span></button>
-            <button type="button" data-t="bar">Grouped bars<span>compare years</span></button>
-            <button type="button" data-t="rank">Ranking<span>one year</span></button>
-            <button type="button" data-t="donut">Share<span>one year</span></button>
-            <button type="button" data-t="change">Change<span>first vs last</span></button>
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <legend>4 — Years</legend>
-          <div class="row">
-            <div><label class="lbl" for="y0">From</label><select id="y0" disabled></select></div>
-            <div><label class="lbl" for="y1">To</label><select id="y1" disabled></select></div>
-          </div>
-          <p class="hint" id="yearhint">Single-year chart types use the “To” year.</p>
-        </fieldset>
-
-        <fieldset>
-          <legend>5 — Options</legend>
-          <label class="lbl" for="title">Chart title</label>
-          <input type="text" id="title" placeholder="Filled in from the dataset" />
-          <div class="row" style="margin-top:10px">
-            <div><label class="lbl" for="scale">Value axis</label><select id="scale"><option value="linear">Linear</option><option value="log">Logarithmic</option><option value="zero">Linear, start at zero</option></select></div>
-            <div><label class="lbl" for="marks">Point marks</label><select id="marks"><option value="off">Hidden</option><option value="on">Shown</option></select></div>
-          </div>
-          <div class="row" style="margin-top:10px">
-            <div><label class="lbl" for="names">Country names</label><select id="names">
-              <option value="legend">Legend below</option>
-              <option value="inline">At the end of each line</option>
-              <option value="off">Hidden</option>
-            </select></div>
-            <div><label class="lbl" for="bg">Image background</label><select id="bg">
-              <option value="white">White</option>
-              <option value="transparent">Transparent</option>
-              <option value="paper">Paper (#F4F7FA)</option>
-              <option value="ink">Ink (dark)</option>
-            </select></div>
-          </div>
-          <p class="hint">Exported PNG is always 2400 × 1600 px. Transparent keeps text and lines, drops the fill.</p>
-        </fieldset>
-
-        <details class="fallback">
-          <summary>No internet? Paste a CSV instead</summary>
-          <p class="hint" style="margin-top:0">Expects Our World in Data column order: Entity, Code, Year, value.</p>
-          <textarea id="paste" placeholder="Entity,Code,Year,Life expectancy&#10;Germany,DEU,2000,78.1"></textarea>
-          <div class="row" style="margin-top:8px">
-            <button type="button" id="usepaste">Use pasted CSV</button>
-            <button type="button" id="usefile">Open CSV file…</button>
-          </div>
-          <input type="file" id="file" accept=".csv,text/csv" class="sr" />
-        </details>
-
-      </div>
-    </form>
-
-    <!-- ============ OUTPUT ============ -->
-    <div>
-      <div class="status" id="status">Ready. Choose an indicator and press <b>Load data</b>.</div>
-
-      <div class="table">
-        <div class="tablehead">
-          <div class="kicker" id="kicker">Awaiting data</div>
-          <h3 id="ctitle">Nothing plotted yet</h3>
-          <p id="csub">The chart draws here as soon as a dataset is loaded.</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plotting Table — Our World in Data charts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="mast">
+        <div class="eyebrow">
+          <span>Plotting table</span><span>Source: Our World in Data</span><span>Runs offline · one file</span>
         </div>
-        <div class="canvasbox"><canvas id="chart" role="img" aria-label="Chart of the selected indicator"></canvas></div>
-        <div class="tablefoot">
-          <div id="stamp">Data: Our World in Data</div>
-          <div class="acts">
-            <button type="button" id="png" disabled>Download PNG 2400×1600</button>
-            <button type="button" id="csv" disabled>Download CSV</button>
+        <h1>Pick an indicator.<br />Pick countries.<br /><em>Draw the chart.</em></h1>
+        <p class="sub">
+          Loads any Our World in Data chart dataset straight from their public CSV endpoint, then plots the countries
+          and years you choose. Export the result as a PNG image or a trimmed CSV.
+        </p>
+      </header>
+
+      <div class="cols">
+        <!-- ============ CONTROLS ============ -->
+        <form class="panel" id="form" autocomplete="off">
+          <h2>Form <span id="rows">no data</span></h2>
+          <div class="panel-body">
+            <fieldset>
+              <legend>1 — Indicator</legend>
+              <label class="lbl" for="preset">Common datasets</label>
+              <select id="preset">
+                <optgroup label="Population &amp; demography">
+                  <option value="population">Population</option>
+                  <option value="population-growth-rates">Population growth rate</option>
+                  <option value="population-density">Population density</option>
+                  <option value="children-born-per-woman">Fertility rate</option>
+                  <option value="median-age">Median age</option>
+                  <option value="share-of-population-urban">Urban population share</option>
+                  <option value="life-expectancy">Life expectancy at birth</option>
+                </optgroup>
+                <optgroup label="Health">
+                  <option value="child-mortality">Child mortality rate</option>
+                  <option value="infant-mortality">Infant mortality rate</option>
+                  <option value="maternal-mortality">Maternal mortality ratio</option>
+                  <option value="happiness-cantril-ladder">Self-reported life satisfaction</option>
+                  <option value="share-of-adults-defined-as-obese">Adult obesity rate</option>
+                  <option value="share-of-adults-who-smoke">Adults who smoke</option>
+                  <option value="total-alcohol-consumption-per-capita-litres-of-pure-alcohol">
+                    Alcohol consumption per adult
+                  </option>
+                  <option value="physicians-per-1000-people">Physicians per 1,000 people</option>
+                  <option value="total-healthcare-expenditure-gdp">Health spending, share of GDP</option>
+                  <option value="prevalence-of-undernourishment">Undernourishment</option>
+                </optgroup>
+                <optgroup label="Economy &amp; work">
+                  <option value="gdp-per-capita-worldbank">GDP per capita</option>
+                  <option value="share-of-population-in-extreme-poverty">Extreme poverty rate</option>
+                  <option value="unemployment-rate">Unemployment rate</option>
+                  <option value="annual-working-hours-per-worker">Annual working hours per worker</option>
+                  <option value="inflation-of-consumer-prices">Consumer price inflation</option>
+                  <option value="trade-as-share-of-gdp">Trade, share of GDP</option>
+                </optgroup>
+                <optgroup label="Energy">
+                  <option value="energy-mix?metric=per_capita&amp;source=total">Energy use per person</option>
+                  <option value="electricity-mix?frequency=annual&amp;metric=per_capita&amp;source=total">
+                    Electricity generation per person
+                  </option>
+                </optgroup>
+                <optgroup label="Climate &amp; environment">
+                  <option value="co-emissions-per-capita">CO₂ emissions per person</option>
+                  <option value="annual-co2-emissions-per-country">Annual CO₂ emissions</option>
+                  <option value="cumulative-co-emissions">Cumulative CO₂ emissions</option>
+                  <option value="total-ghg-emissions">Total greenhouse gas emissions</option>
+                  <option value="methane-emissions">Methane emissions</option>
+                  <option value="temperature-anomaly">Global temperature anomaly</option>
+                  <option value="annual-share-of-co2-emissions">Share of global CO₂ emissions</option>
+                  <option value="forest-area-as-share-of-land-area">Forest area, share of land</option>
+                </optgroup>
+                <optgroup label="Education &amp; research">
+                  <option value="mean-years-of-schooling-long-run">Mean years of schooling</option>
+                  <option value="literacy?age_group=adult&amp;sex=both">Adult literacy rate</option>
+                  <option value="research-spending-gdp">R&amp;D spending, share of GDP</option>
+                </optgroup>
+                <optgroup label="Society &amp; technology">
+                  <option value="human-development-index">Human Development Index</option>
+                  <option value="share-of-individuals-using-the-internet">Internet users</option>
+                  <option value="mobile-cellular-subscriptions-per-100-people">
+                    Mobile subscriptions per 100 people
+                  </option>
+                  <option value="share-of-women-in-parliament">Women in parliament</option>
+                  <option value="political-regime">Political regime</option>
+                  <option value="homicide-rate-unodc">Homicide rate</option>
+                </optgroup>
+                <optgroup label="Food &amp; agriculture">
+                  <option value="daily-meat-consumption-per-person">Meat consumption per person</option>
+                  <option value="cereal-yield">Cereal yields</option>
+                </optgroup>
+              </select>
+              <label class="lbl" for="slug" style="margin-top: 10px"
+                >Or a chart slug from ourworldindata.org/grapher/…</label
+              >
+              <div class="row">
+                <input type="text" id="slug" value="life-expectancy" spellcheck="false" />
+                <button type="button" class="primary" id="load" style="flex: 0 0 auto">Load data</button>
+              </div>
+              <label class="lbl" for="valcol" id="valcollbl" style="margin-top: 10px; display: none"
+                >Value column</label
+              >
+              <select id="valcol" style="display: none"></select>
+              <p class="hint">
+                Grouped by theme — 44 datasets, each verified to load. For anything else, open a chart on
+                <a href="https://ourworldindata.org/charts" target="_blank" rel="noopener">ourworldindata.org</a> and
+                copy the last part of its URL.
+              </p>
+              <details class="check">
+                <summary>Check every dataset</summary>
+                <p class="hint">
+                  Loads all listed datasets one by one and reports which fail and which column each one parses to. OWID
+                  renames charts from time to time, so this is how you find dead slugs. It downloads a lot of data and
+                  takes a few minutes.
+                </p>
+                <div class="row">
+                  <button type="button" id="checkrun" style="flex: 0 0 auto">Run check</button>
+                  <button type="button" id="checkstop" style="flex: 0 0 auto" disabled>Stop</button>
+                  <span class="hint" id="checkprog" style="align-self: center"></span>
+                </div>
+                <div id="checkout"></div>
+              </details>
+            </fieldset>
+
+            <fieldset>
+              <legend>2 — Countries</legend>
+              <label class="lbl sr" for="search">Search countries</label>
+              <input type="search" id="search" placeholder="Search countries…" disabled />
+              <div class="picker" id="picker" role="listbox" aria-label="Available countries"></div>
+              <div class="chips" id="chips" aria-live="polite"></div>
+              <p class="hint">Click a chip to remove it. Up to 8 series are drawn at once.</p>
+            </fieldset>
+
+            <fieldset>
+              <legend>3 — Chart type</legend>
+              <div class="seg" id="types">
+                <button type="button" data-t="line" aria-pressed="true">Trend lines<span>over time</span></button>
+                <button type="button" data-t="area">Stacked area<span>composition</span></button>
+                <button type="button" data-t="bar">Grouped bars<span>compare years</span></button>
+                <button type="button" data-t="rank">Ranking<span>one year</span></button>
+                <button type="button" data-t="donut">Share<span>one year</span></button>
+                <button type="button" data-t="change">Change<span>first vs last</span></button>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>4 — Years</legend>
+              <div class="row">
+                <div>
+                  <label class="lbl" for="y0">From</label
+                  ><select id="y0" disabled></select>
+                </div>
+                <div>
+                  <label class="lbl" for="y1">To</label
+                  ><select id="y1" disabled></select>
+                </div>
+              </div>
+              <p class="hint" id="yearhint">Single-year chart types use the “To” year.</p>
+            </fieldset>
+
+            <fieldset>
+              <legend>5 — Options</legend>
+              <label class="lbl" for="title">Chart title</label>
+              <input type="text" id="title" placeholder="Filled in from the dataset" />
+              <div class="row" style="margin-top: 10px">
+                <div>
+                  <label class="lbl" for="scale">Value axis</label
+                  ><select id="scale">
+                    <option value="linear">Linear</option>
+                    <option value="log">Logarithmic</option>
+                    <option value="zero">Linear, start at zero</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="lbl" for="marks">Point marks</label
+                  ><select id="marks">
+                    <option value="off">Hidden</option>
+                    <option value="on">Shown</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row" style="margin-top: 10px">
+                <div>
+                  <label class="lbl" for="names">Country names</label
+                  ><select id="names">
+                    <option value="legend">Legend below</option>
+                    <option value="inline">At the end of each line</option>
+                    <option value="off">Hidden</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="lbl" for="bg">Image background</label
+                  ><select id="bg">
+                    <option value="white">White</option>
+                    <option value="transparent">Transparent</option>
+                    <option value="paper">Paper (#F4F7FA)</option>
+                    <option value="ink">Ink (dark)</option>
+                  </select>
+                </div>
+              </div>
+              <p class="hint">
+                Exported PNG is always 2400 × 1600 px. Transparent keeps text and lines, drops the fill.
+              </p>
+            </fieldset>
+
+            <details class="fallback">
+              <summary>No internet? Paste a CSV instead</summary>
+              <p class="hint" style="margin-top: 0">
+                Expects Our World in Data column order: Entity, Code, Year, value.
+              </p>
+              <textarea id="paste" placeholder="Entity,Code,Year,Life expectancy&#10;Germany,DEU,2000,78.1"></textarea>
+              <div class="row" style="margin-top: 8px">
+                <button type="button" id="usepaste">Use pasted CSV</button>
+                <button type="button" id="usefile">Open CSV file…</button>
+              </div>
+              <input type="file" id="file" accept=".csv,text/csv" class="sr" />
+            </details>
+          </div>
+        </form>
+
+        <!-- ============ OUTPUT ============ -->
+        <div>
+          <div class="status" id="status">Ready. Choose an indicator and press <b>Load data</b>.</div>
+
+          <div class="table">
+            <div class="tablehead">
+              <div class="kicker" id="kicker">Awaiting data</div>
+              <h3 id="ctitle">Nothing plotted yet</h3>
+              <p id="csub">The chart draws here as soon as a dataset is loaded.</p>
+            </div>
+            <div class="canvasbox">
+              <canvas id="chart" role="img" aria-label="Chart of the selected indicator"></canvas>
+            </div>
+            <div class="tablefoot">
+              <div id="stamp">Data: Our World in Data</div>
+              <div class="acts">
+                <button type="button" id="png" disabled>Download PNG 2400×1600</button>
+                <button type="button" id="csv" disabled>Download CSV</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-  </div>
-</div>
-
-<script type="module" src="main.js"></script>
-</body>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>

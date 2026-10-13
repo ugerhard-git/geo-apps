@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
   No external scripts. Requests reach CLDR and the religion CSV through
   jsDelivr, and the World Bank indicators API. Nothing else.
 -->
-<meta http-equiv="Content-Security-Policy" content="
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
   default-src 'none';
   script-src 'self';
   style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
@@ -16,124 +18,162 @@
   img-src data: blob:;
   base-uri 'none';
   form-action 'none';
-  object-src 'none'">
-<title>Country statistics</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="shell">
-
-  <aside class="rail">
-    <div class="rail-head">
-      <h1>Country statistics</h1>
-      <p>Charts of a country's make-up, composed for a quiz sheet.</p>
-    </div>
-
-    <div class="group">
-      <div class="field search-wrap">
-        <label for="country">Country</label>
-        <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled>
-        <div class="results" id="countryResults"></div>
-      </div>
-    </div>
-
-    <div class="group">
-      <h2>Sheet</h2>
-      <div class="field">
-        <label for="frame">Size</label>
-        <select id="frame">
-          <option value="2400x1600">2400 × 1600 · 3:2</option>
-          <option value="1920x1080">1920 × 1080 · 16:9</option>
-          <option value="1600x1600">1600 × 1600 · 1:1</option>
-          <option value="3200x2400">3200 × 2400 · 4:3</option>
-          <option value="custom">Custom…</option>
-        </select>
-      </div>
-      <div class="field two" id="customSize" hidden>
-        <div><label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000"></div>
-        <div><label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000"></div>
-      </div>
-      <div class="field">
-        <label for="palette">Palette</label>
-        <select id="palette"></select>
-        <div class="swatches" id="swatches"></div>
-      </div>
-      <label class="chk"><input type="checkbox" id="optValues" checked><span>Show percentages</span></label>
-      <label class="chk"><input type="checkbox" id="optSource" checked><span>Source line on each chart</span></label>
-      <label class="chk"><input type="checkbox" id="optCountry"><span>Name the country</span><em id="revealTag" hidden>reveals</em></label>
-    </div>
-
-    <div class="group">
-      <h2>Caption</h2>
-      <div class="field">
-        <input type="text" id="capText" value="Country statistics" placeholder="Leave empty for no caption" maxlength="120" autocomplete="off">
-      </div>
-      <div class="field" id="capPosField">
-        <div class="seg" role="group">
-          <button id="capTop" aria-pressed="true">Above</button>
-          <button id="capBottom" aria-pressed="false">Below</button>
+  object-src 'none'"
+    />
+    <title>Country statistics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Country statistics</h1>
+          <p>Charts of a country's make-up, composed for a quiz sheet.</p>
         </div>
-      </div>
-    </div>
 
-    <div class="group">
-      <h2>Colours</h2>
-      <div class="field two">
-        <div>
-          <label for="fgHex">Text</label>
-          <div class="colour">
-            <input type="color" id="fgColor" value="#e8eaf0" aria-label="Text colour swatch">
-            <input type="text" id="fgHex" value="#e8eaf0" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Text colour as hex">
+        <div class="group">
+          <div class="field search-wrap">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+            <div class="results" id="countryResults"></div>
           </div>
         </div>
-        <div>
-          <label for="bgHex">Background</label>
-          <div class="colour">
-            <input type="color" id="bgColor" value="#12141a" aria-label="Background colour swatch">
-            <input type="text" id="bgHex" value="#12141a" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Background colour as hex">
+
+        <div class="group">
+          <h2>Sheet</h2>
+          <div class="field">
+            <label for="frame">Size</label>
+            <select id="frame">
+              <option value="2400x1600">2400 × 1600 · 3:2</option>
+              <option value="1920x1080">1920 × 1080 · 16:9</option>
+              <option value="1600x1600">1600 × 1600 · 1:1</option>
+              <option value="3200x2400">3200 × 2400 · 4:3</option>
+              <option value="custom">Custom…</option>
+            </select>
+          </div>
+          <div class="field two" id="customSize" hidden>
+            <div>
+              <label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000" />
+            </div>
+            <div>
+              <label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="palette">Palette</label>
+            <select id="palette"></select>
+            <div class="swatches" id="swatches"></div>
+          </div>
+          <label class="chk"><input type="checkbox" id="optValues" checked /><span>Show percentages</span></label>
+          <label class="chk"
+            ><input type="checkbox" id="optSource" checked /><span>Source line on each chart</span></label
+          >
+          <label class="chk"
+            ><input type="checkbox" id="optCountry" /><span>Name the country</span
+            ><em id="revealTag" hidden>reveals</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              value="Country statistics"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+            />
+          </div>
+          <div class="field" id="capPosField">
+            <div class="seg" role="group">
+              <button id="capTop" aria-pressed="true">Above</button>
+              <button id="capBottom" aria-pressed="false">Below</button>
+            </div>
           </div>
         </div>
-      </div>
-      <label class="chk"><input type="checkbox" id="optTransparent"><span>Transparent background</span><em id="pngOnly" hidden>PNG only</em></label>
+
+        <div class="group">
+          <h2>Colours</h2>
+          <div class="field two">
+            <div>
+              <label for="fgHex">Text</label>
+              <div class="colour">
+                <input type="color" id="fgColor" value="#e8eaf0" aria-label="Text colour swatch" />
+                <input
+                  type="text"
+                  id="fgHex"
+                  value="#e8eaf0"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Text colour as hex"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="bgHex">Background</label>
+              <div class="colour">
+                <input type="color" id="bgColor" value="#12141a" aria-label="Background colour swatch" />
+                <input
+                  type="text"
+                  id="bgHex"
+                  value="#12141a"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Background colour as hex"
+                />
+              </div>
+            </div>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optTransparent" /><span>Transparent background</span
+            ><em id="pngOnly" hidden>PNG only</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <div class="actions">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="empty" id="empty">
+          <strong>Pick a country to see what there is.</strong>
+          Six statistics are offered; whichever a country has data for can go on the sheet, up to four at a time.
+        </div>
+        <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="note" id="note"></div>
+
+        <section class="card" id="picker" hidden>
+          <header><h2>Statistics</h2></header>
+          <div class="body"><div class="statlist" id="statList"></div></div>
+        </section>
+
+        <section class="card sources" id="sources" hidden>
+          <header><h2>Sources</h2></header>
+          <div class="body">
+            <dl id="sourceList"></dl>
+            <p class="cav" id="caveat"></p>
+          </div>
+        </section>
+      </main>
     </div>
 
-    <div class="group">
-      <h2>Export</h2>
-      <div class="actions">
-        <button id="dlPng" disabled>PNG</button>
-        <button id="dlJpg" disabled>JPG</button>
-      </div>
-    </div>
-  </aside>
-
-  <main class="stage">
-    <div class="empty" id="empty">
-      <strong>Pick a country to see what there is.</strong>
-      Six statistics are offered; whichever a country has data for can go on the sheet, up to four at a time.
-    </div>
-    <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
-    <div class="bar" id="bar"><i></i></div>
-    <div class="loading" id="loadLabel"></div>
-    <div class="note" id="note"></div>
-
-    <section class="card" id="picker" hidden>
-      <header><h2>Statistics</h2></header>
-      <div class="body"><div class="statlist" id="statList"></div></div>
-    </section>
-
-    <section class="card sources" id="sources" hidden>
-      <header><h2>Sources</h2></header>
-      <div class="body">
-        <dl id="sourceList"></dl>
-        <p class="cav" id="caveat"></p>
-      </div>
-    </section>
-  </main>
-</div>
-
-<script type="module" src="main.js"></script>
-</body>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>

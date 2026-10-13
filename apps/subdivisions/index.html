@@ -1,11 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- No external scripts. Requests reach CLDR through jsDelivr and the
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- No external scripts. Requests reach CLDR through jsDelivr and the
      Wikidata query service. Nothing else. -->
-<meta http-equiv="Content-Security-Policy" content="
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
   default-src 'none';
   script-src 'self';
   style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
@@ -14,147 +16,189 @@
   img-src data: blob:;
   base-uri 'none';
   form-action 'none';
-  object-src 'none'">
-<title>Subdivision clouds</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="shell">
-
-  <aside class="rail">
-    <div class="rail-head">
-      <h1>Subdivision clouds</h1>
-      <p>A country's states, regions or prefectures, sized by how big they are.</p>
-    </div>
-
-    <div class="group">
-      <div class="field search-wrap">
-        <label for="country">Country</label>
-        <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled>
-        <div class="results" id="countryResults"></div>
-      </div>
-      <div class="field">
-        <label>Sized by</label>
-        <div class="seg" role="group">
-          <button id="byPop" aria-pressed="true">Population</button>
-          <button id="byArea" aria-pressed="false">Area</button>
+  object-src 'none'"
+    />
+    <title>Subdivision clouds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Subdivision clouds</h1>
+          <p>A country's states, regions or prefectures, sized by how big they are.</p>
         </div>
-      </div>
-      <div class="field">
-        <label for="count">How many to show <span id="countOut"></span></label>
-        <input type="range" id="count" min="1" max="1" value="1" step="1" disabled>
-        <div class="hint" id="countHint"></div>
-      </div>
-      <div class="actions">
-        <button class="ghost" id="shuffle" disabled>Shuffle the selection</button>
-      </div>
-    </div>
 
-    <div class="group">
-      <h2>Cloud</h2>
-      <div class="field">
-        <label>Layout</label>
-        <div class="seg" role="group">
-          <button id="layWrap" aria-pressed="true">Wrapped lines</button>
-          <button id="laySpiral" aria-pressed="false">Packed spiral</button>
-        </div>
-      </div>
-      <div class="field">
-        <label for="palette">Palette</label>
-        <select id="palette"></select>
-        <div class="swatches" id="swatches"></div>
-      </div>
-      <label class="chk" id="affixRow" hidden><input type="checkbox" id="optAffix" checked><span id="affixLabel">Drop the repeated word</span></label>
-      <label class="chk"><input type="checkbox" id="optRotate" checked><span>Turn some tags sideways</span></label>
-      <label class="chk" id="valuesRow"><input type="checkbox" id="optValues"><span>Show the figures</span></label>
-      <label class="chk"><input type="checkbox" id="optCountry"><span>Name the country</span><em id="revealTag" hidden>reveals</em></label>
-    </div>
-
-    <div class="group">
-      <h2>Sheet</h2>
-      <div class="field">
-        <label for="frame">Size</label>
-        <select id="frame">
-          <option value="2400x1600">2400 × 1600 · 3:2</option>
-          <option value="1920x1080">1920 × 1080 · 16:9</option>
-          <option value="1600x1600">1600 × 1600 · 1:1</option>
-          <option value="3200x2400">3200 × 2400 · 4:3</option>
-          <option value="custom">Custom…</option>
-        </select>
-      </div>
-      <div class="field two" id="customSize" hidden>
-        <div><label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000"></div>
-        <div><label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000"></div>
-      </div>
-    </div>
-
-    <div class="group">
-      <h2>Caption</h2>
-      <div class="field">
-        <input type="text" id="capText" value="Regions of this country" placeholder="Leave empty for no caption" maxlength="120" autocomplete="off">
-      </div>
-      <div class="field" id="capPosField">
-        <div class="seg" role="group">
-          <button id="capTop" aria-pressed="true">Above</button>
-          <button id="capBottom" aria-pressed="false">Below</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="group">
-      <h2>Colours</h2>
-      <div class="field two">
-        <div>
-          <label for="fgHex">Caption</label>
-          <div class="colour">
-            <input type="color" id="fgColor" value="#22201c" aria-label="Caption colour swatch">
-            <input type="text" id="fgHex" value="#22201c" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Caption colour as hex">
+        <div class="group">
+          <div class="field search-wrap">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+            <div class="results" id="countryResults"></div>
+          </div>
+          <div class="field">
+            <label>Sized by</label>
+            <div class="seg" role="group">
+              <button id="byPop" aria-pressed="true">Population</button>
+              <button id="byArea" aria-pressed="false">Area</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="count">How many to show <span id="countOut"></span></label>
+            <input type="range" id="count" min="1" max="1" value="1" step="1" disabled />
+            <div class="hint" id="countHint"></div>
+          </div>
+          <div class="actions">
+            <button class="ghost" id="shuffle" disabled>Shuffle the selection</button>
           </div>
         </div>
-        <div>
-          <label for="bgHex">Background</label>
-          <div class="colour">
-            <input type="color" id="bgColor" value="#f7f4ee" aria-label="Background colour swatch">
-            <input type="text" id="bgHex" value="#f7f4ee" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Background colour as hex">
+
+        <div class="group">
+          <h2>Cloud</h2>
+          <div class="field">
+            <label>Layout</label>
+            <div class="seg" role="group">
+              <button id="layWrap" aria-pressed="true">Wrapped lines</button>
+              <button id="laySpiral" aria-pressed="false">Packed spiral</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="palette">Palette</label>
+            <select id="palette"></select>
+            <div class="swatches" id="swatches"></div>
+          </div>
+          <label class="chk" id="affixRow" hidden
+            ><input type="checkbox" id="optAffix" checked /><span id="affixLabel">Drop the repeated word</span></label
+          >
+          <label class="chk"
+            ><input type="checkbox" id="optRotate" checked /><span>Turn some tags sideways</span></label
+          >
+          <label class="chk" id="valuesRow"
+            ><input type="checkbox" id="optValues" /><span>Show the figures</span></label
+          >
+          <label class="chk"
+            ><input type="checkbox" id="optCountry" /><span>Name the country</span
+            ><em id="revealTag" hidden>reveals</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Sheet</h2>
+          <div class="field">
+            <label for="frame">Size</label>
+            <select id="frame">
+              <option value="2400x1600">2400 × 1600 · 3:2</option>
+              <option value="1920x1080">1920 × 1080 · 16:9</option>
+              <option value="1600x1600">1600 × 1600 · 1:1</option>
+              <option value="3200x2400">3200 × 2400 · 4:3</option>
+              <option value="custom">Custom…</option>
+            </select>
+          </div>
+          <div class="field two" id="customSize" hidden>
+            <div>
+              <label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000" />
+            </div>
+            <div>
+              <label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000" />
+            </div>
           </div>
         </div>
-      </div>
-      <label class="chk"><input type="checkbox" id="optTransparent"><span>Transparent background</span><em id="pngOnly" hidden>PNG only</em></label>
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              value="Regions of this country"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+            />
+          </div>
+          <div class="field" id="capPosField">
+            <div class="seg" role="group">
+              <button id="capTop" aria-pressed="true">Above</button>
+              <button id="capBottom" aria-pressed="false">Below</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Colours</h2>
+          <div class="field two">
+            <div>
+              <label for="fgHex">Caption</label>
+              <div class="colour">
+                <input type="color" id="fgColor" value="#22201c" aria-label="Caption colour swatch" />
+                <input
+                  type="text"
+                  id="fgHex"
+                  value="#22201c"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Caption colour as hex"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="bgHex">Background</label>
+              <div class="colour">
+                <input type="color" id="bgColor" value="#f7f4ee" aria-label="Background colour swatch" />
+                <input
+                  type="text"
+                  id="bgHex"
+                  value="#f7f4ee"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Background colour as hex"
+                />
+              </div>
+            </div>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optTransparent" /><span>Transparent background</span
+            ><em id="pngOnly" hidden>PNG only</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <div class="actions">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="empty" id="empty">
+          <strong>Pick a country to see its regions.</strong>
+          Wikidata supplies the first-level divisions with their population and area. Choose how many to show and the
+          app draws a random handful.
+        </div>
+        <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="note" id="note"></div>
+
+        <section class="card sources" id="sources" hidden>
+          <header><h2>Sources</h2></header>
+          <div class="body">
+            <dl id="sourceList"></dl>
+            <p class="cav" id="caveat"></p>
+          </div>
+        </section>
+      </main>
     </div>
 
-    <div class="group">
-      <h2>Export</h2>
-      <div class="actions">
-        <button id="dlPng" disabled>PNG</button>
-        <button id="dlJpg" disabled>JPG</button>
-      </div>
-    </div>
-  </aside>
-
-  <main class="stage">
-    <div class="empty" id="empty">
-      <strong>Pick a country to see its regions.</strong>
-      Wikidata supplies the first-level divisions with their population and area.
-      Choose how many to show and the app draws a random handful.
-    </div>
-    <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
-    <div class="bar" id="bar"><i></i></div>
-    <div class="loading" id="loadLabel"></div>
-    <div class="note" id="note"></div>
-
-    <section class="card sources" id="sources" hidden>
-      <header><h2>Sources</h2></header>
-      <div class="body">
-        <dl id="sourceList"></dl>
-        <p class="cav" id="caveat"></p>
-      </div>
-    </section>
-  </main>
-</div>
-
-<script type="module" src="main.js"></script>
-</body>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>

@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
   No external scripts are loaded, so script-src names no host: an injected
   <script src> can't fetch anything. connect-src is limited to the one CDN the
   data comes from; fonts come from Google and nothing else is reachable.
 -->
-<meta http-equiv="Content-Security-Policy" content="
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
   default-src 'none';
   script-src 'self';
   style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
@@ -17,128 +19,165 @@
   img-src data: blob:;
   base-uri 'none';
   form-action 'none';
-  object-src 'none'">
-<title>Alphabets by country</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="shell">
-
-  <aside class="rail">
-    <div class="rail-head">
-      <h1>Alphabets by country</h1>
-      <p>Letter inventories from Unicode CLDR, drawn as a 2400 × 1600 sheet.</p>
-    </div>
-
-    <div class="group">
-      <div class="field search-wrap">
-        <label for="country">Country</label>
-        <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled>
-        <div class="results" id="countryResults"></div>
-      </div>
-      <div class="field">
-        <label>Languages <span id="langCount" style="color:var(--mark)"></span></label>
-        <div class="langs" id="langs"></div>
-      </div>
-    </div>
-
-    <div class="group">
-      <h2>Contents</h2>
-      <label class="chk"><input type="checkbox" id="optAux"><span>Include loanword letters</span></label>
-      <label class="chk"><input type="checkbox" id="optSentence"><span>Add an example sentence</span></label>
-      <label class="chk"><input type="checkbox" id="optPairs" checked><span>Show capitals with lowercase</span></label>
-      <label class="chk"><input type="checkbox" id="optNames"><span>Name the languages</span></label>
-      <div class="field" id="genericField" style="margin-top:8px">
-        <label for="genericLabel">Heading when they are unnamed</label>
-        <input type="text" id="genericLabel" value="Language {n}" maxlength="40"
-               placeholder="Leave empty for no heading" autocomplete="off">
-        <div class="hint">{n} becomes 1, 2, 3 … Try “Alphabet {n}”, “Sample {n}”, or clear it.</div>
-      </div>
-    </div>
-
-    <div class="group">
-      <h2>Caption</h2>
-      <div class="field">
-        <input type="text" id="capText" placeholder="Leave empty for no caption" maxlength="120" autocomplete="off">
-      </div>
-      <div class="field" id="capPosField" hidden>
-        <div class="seg" role="group">
-          <button id="capTop" aria-pressed="true">Above</button>
-          <button id="capBottom" aria-pressed="false">Below</button>
+  object-src 'none'"
+    />
+    <title>Alphabets by country</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Alphabets by country</h1>
+          <p>Letter inventories from Unicode CLDR, drawn as a 2400 × 1600 sheet.</p>
         </div>
-      </div>
-    </div>
 
-    <div class="group">
-      <h2>Colours</h2>
-      <div class="field two">
-        <div>
-          <label for="fgHex">Text</label>
-          <div class="colour">
-            <input type="color" id="fgColor" value="#191b1c" aria-label="Text colour swatch">
-            <input type="text" id="fgHex" value="#191b1c" maxlength="7" spellcheck="false"
-                   autocomplete="off" aria-label="Text colour as hex">
+        <div class="group">
+          <div class="field search-wrap">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+            <div class="results" id="countryResults"></div>
+          </div>
+          <div class="field">
+            <label>Languages <span id="langCount" style="color: var(--mark)"></span></label>
+            <div class="langs" id="langs"></div>
           </div>
         </div>
-        <div>
-          <label for="bgHex">Background</label>
-          <div class="colour">
-            <input type="color" id="bgColor" value="#f7f5f0" aria-label="Background colour swatch">
-            <input type="text" id="bgHex" value="#f7f5f0" maxlength="7" spellcheck="false"
-                   autocomplete="off" aria-label="Background colour as hex">
+
+        <div class="group">
+          <h2>Contents</h2>
+          <label class="chk"><input type="checkbox" id="optAux" /><span>Include loanword letters</span></label>
+          <label class="chk"><input type="checkbox" id="optSentence" /><span>Add an example sentence</span></label>
+          <label class="chk"
+            ><input type="checkbox" id="optPairs" checked /><span>Show capitals with lowercase</span></label
+          >
+          <label class="chk"><input type="checkbox" id="optNames" /><span>Name the languages</span></label>
+          <div class="field" id="genericField" style="margin-top: 8px">
+            <label for="genericLabel">Heading when they are unnamed</label>
+            <input
+              type="text"
+              id="genericLabel"
+              value="Language {n}"
+              maxlength="40"
+              placeholder="Leave empty for no heading"
+              autocomplete="off"
+            />
+            <div class="hint">{n} becomes 1, 2, 3 … Try “Alphabet {n}”, “Sample {n}”, or clear it.</div>
           </div>
         </div>
-      </div>
-      <label class="chk"><input type="checkbox" id="optTransparent"><span>Transparent background</span><em id="pngOnly" hidden>PNG only</em></label>
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+            />
+          </div>
+          <div class="field" id="capPosField" hidden>
+            <div class="seg" role="group">
+              <button id="capTop" aria-pressed="true">Above</button>
+              <button id="capBottom" aria-pressed="false">Below</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Colours</h2>
+          <div class="field two">
+            <div>
+              <label for="fgHex">Text</label>
+              <div class="colour">
+                <input type="color" id="fgColor" value="#191b1c" aria-label="Text colour swatch" />
+                <input
+                  type="text"
+                  id="fgHex"
+                  value="#191b1c"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Text colour as hex"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="bgHex">Background</label>
+              <div class="colour">
+                <input type="color" id="bgColor" value="#f7f5f0" aria-label="Background colour swatch" />
+                <input
+                  type="text"
+                  id="bgHex"
+                  value="#f7f5f0"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Background colour as hex"
+                />
+              </div>
+            </div>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optTransparent" /><span>Transparent background</span
+            ><em id="pngOnly" hidden>PNG only</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <div class="actions">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+          <div class="field" style="margin-top: 12px">
+            <label for="copyFormat">Copy as text</label>
+            <select id="copyFormat">
+              <option value="pairs">Pairs — Aa Bb Cc</option>
+              <option value="lower">Lowercase — a b c</option>
+              <option value="upper">Capitals — A B C</option>
+              <option value="comma">Lowercase, comma separated</option>
+              <option value="plain">Run together — abc</option>
+              <option value="lines">One letter per line</option>
+            </select>
+          </div>
+          <div class="actions">
+            <button class="ghost" id="copyBtn" disabled>Copy</button>
+          </div>
+          <textarea id="copyOut" readonly hidden aria-label="Alphabet as text"></textarea>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="empty" id="empty">
+          <strong>Choose a country, then one or more languages.</strong>
+          Everything shown comes from Unicode CLDR, and the sources panel below links to the exact file behind each
+          chart so you can check it.
+        </div>
+        <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="note" id="note"></div>
+
+        <section class="sources" id="sources" hidden>
+          <h2>Sources</h2>
+          <p>
+            Every character below was read from these files at the moment you loaded them. Open one to check a chart
+            against the data.
+          </p>
+          <dl id="sourceList"></dl>
+          <p class="cav" id="caveat"></p>
+        </section>
+      </main>
     </div>
 
-    <div class="group">
-      <h2>Export</h2>
-      <div class="actions">
-        <button id="dlPng" disabled>PNG</button>
-        <button id="dlJpg" disabled>JPG</button>
-      </div>
-      <div class="field" style="margin-top:12px">
-        <label for="copyFormat">Copy as text</label>
-        <select id="copyFormat">
-          <option value="pairs">Pairs — Aa Bb Cc</option>
-          <option value="lower">Lowercase — a b c</option>
-          <option value="upper">Capitals — A B C</option>
-          <option value="comma">Lowercase, comma separated</option>
-          <option value="plain">Run together — abc</option>
-          <option value="lines">One letter per line</option>
-        </select>
-      </div>
-      <div class="actions">
-        <button class="ghost" id="copyBtn" disabled>Copy</button>
-      </div>
-      <textarea id="copyOut" readonly hidden aria-label="Alphabet as text"></textarea>
-    </div>
-  </aside>
-
-  <main class="stage">
-    <div class="empty" id="empty">
-      <strong>Choose a country, then one or more languages.</strong>
-      Everything shown comes from Unicode CLDR, and the sources panel below links
-      to the exact file behind each chart so you can check it.
-    </div>
-    <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
-    <div class="bar" id="bar"><i></i></div>
-    <div class="loading" id="loadLabel"></div>
-    <div class="note" id="note"></div>
-
-    <section class="sources" id="sources" hidden>
-      <h2>Sources</h2>
-      <p>Every character below was read from these files at the moment you loaded them. Open one to check a chart against the data.</p>
-      <dl id="sourceList"></dl>
-      <p class="cav" id="caveat"></p>
-    </section>
-  </main>
-</div>
-
-<script type="module" src="main.js"></script>
-</body>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>

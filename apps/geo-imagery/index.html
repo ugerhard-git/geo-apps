@@ -1,15 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
   No external scripts are loaded, so script-src omits every host: an injected
   <script src> cannot fetch anything. The remaining allowances are the exact
   origins this tool needs and nothing else, which caps what a successful
   injection could reach or exfiltrate.
 -->
-<meta http-equiv="Content-Security-Policy" content="
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
   default-src 'none';
   script-src 'self';
   style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
@@ -18,209 +20,231 @@
   img-src https://gibs.earthdata.nasa.gov https://tiles.maps.eox.at data: blob:;
   base-uri 'none';
   form-action 'none';
-  object-src 'none'">
-<title>Country &amp; City Imagery</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="shell">
+  object-src 'none'"
+    />
+    <title>Country &amp; City Imagery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <!-- ══════════ control rail ══════════ -->
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Country &amp; City Imagery</h1>
+          <p>Satellite frames cropped to one country or city.</p>
+        </div>
 
-  <!-- ══════════ control rail ══════════ -->
-  <aside class="rail">
-    <div class="rail-head">
-      <h1>Country &amp; City Imagery</h1>
-      <p>Satellite frames cropped to one country or city.</p>
-    </div>
-
-    <div class="group">
-      <div class="field">
-        <div class="seg" role="group">
-          <button id="modeCountry" aria-pressed="true">Country</button>
-          <button id="modeCity" aria-pressed="false">City</button>
-        </div>
-      </div>
-      <div class="field search-wrap">
-        <input type="text" id="q" placeholder="Loading country outlines…" autocomplete="off" disabled>
-        <div class="results" id="results"></div>
-      </div>
-    </div>
-
-    <div class="group">
-      <h2>Imagery</h2>
-      <div class="field">
-        <div class="seg" role="group">
-          <button id="segDay" aria-pressed="false">Daytime</button>
-          <button id="segNight" aria-pressed="true">Night</button>
-        </div>
-      </div>
-      <div class="field">
-        <label for="layer">Source</label>
-        <select id="layer"></select>
-      </div>
-      <div class="field" id="dateField" hidden>
-        <label for="date">Date</label>
-        <input type="date" id="date">
-      </div>
-    </div>
-
-    <div class="group">
-      <h2>Framing</h2>
-      <div class="field">
-        <div class="seg" role="group">
-          <button id="segMain" aria-pressed="true">Mainland</button>
-          <button id="segFull" aria-pressed="false">Full extent</button>
-        </div>
-      </div>
-      <div class="field">
-        <label for="pad">Framing <output id="padOut2"></output></label>
-        <div class="slider-row">
-          <input type="range" id="pad" min="25" max="300" value="108" step="1">
-          <output id="padOut">1.08×</output>
-        </div>
-      </div>
-      <div class="field">
-        <label for="nudgeX">Move east or west <output id="nudgeXOut">centred</output></label>
-        <div class="slider-row">
-          <input type="range" id="nudgeX" min="-100" max="100" value="0" step="1">
-        </div>
-      </div>
-      <div class="field">
-        <label for="nudgeY">Move north or south <output id="nudgeYOut">centred</output></label>
-        <div class="slider-row">
-          <input type="range" id="nudgeY" min="-100" max="100" value="0" step="1">
-        </div>
-      </div>
-
-      <div class="field" id="projField">
-        <label for="proj">Projection</label>
-        <select id="proj">
-          <option value="3857">Web Mercator — familiar map shapes</option>
-          <option value="4326">Equirectangular — true latitude spacing</option>
-          <option value="eqearth" id="eqearthOpt">Equal Earth — equal-area</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="group">
-      <h2>Overlays</h2>
-      <label class="chk"><input type="checkbox" id="ovOutline"><span id="outlineLabel">Country outline</span><small>local</small></label>
-      <label class="chk" id="rowCoast"><input type="checkbox" id="ovCoast"><span>Coastlines</span><small>GIBS</small></label>
-      <label class="chk" id="rowFeat"><input type="checkbox" id="ovFeat"><span>Borders &amp; rivers</span><small>GIBS</small></label>
-    </div>
-
-    <div class="group">
-      <h2>Frame</h2>
-      <div class="field">
-        <label for="frame">Output size</label>
-        <select id="frame">
-          <option value="fit:1600">Fit to subject · 1600 px tall</option>
-          <option value="fit:2400">Fit to subject · 2400 px tall</option>
-          <option value="fit:3200">Fit to subject · 3200 px tall</option>
-          <option value="native">Native — 1:1 with the data</option>
-          <option value="2400x1600">2400 × 1600 · 3:2</option>
-          <option value="1920x1080">1920 × 1080 · 16:9</option>
-          <option value="1600x1600">1600 × 1600 · 1:1</option>
-          <option value="3200x2400">3200 × 2400 · 4:3</option>
-          <option value="custom">Custom…</option>
-        </select>
-      </div>
-      <div class="field two" id="customSize" hidden>
-        <div>
-          <label for="customW">Width</label>
-          <input type="number" id="customW" value="2400" min="64" max="16000" step="1">
-        </div>
-        <div>
-          <label for="customH">Height</label>
-          <input type="number" id="customH" value="1600" min="64" max="16000" step="1">
-        </div>
-      </div>
-      <div class="field" id="fillField" hidden>
-        <label>Space around the country</label>
-        <div class="seg" role="group">
-          <button id="fillImg" aria-pressed="true">Fill with imagery</button>
-          <button id="fillBars" aria-pressed="false">Letterbox</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="group">
-      <h2>Caption</h2>
-      <div class="field">
-        <input type="text" id="capText" placeholder="Leave empty for no caption" maxlength="120" autocomplete="off">
-      </div>
-      <label class="chk" id="projCreditRow"><input type="checkbox" id="showProj"><span id="creditLabel">Name the projection, bottom right</span></label>
-      <p class="hint" id="attribNotice" hidden></p>
-      <div id="capTextOpts" hidden>
-        <div class="field">
-          <div class="seg" role="group">
-            <button id="capTop" aria-pressed="false">Top</button>
-            <button id="capBottom" aria-pressed="true">Bottom</button>
+        <div class="group">
+          <div class="field">
+            <div class="seg" role="group">
+              <button id="modeCountry" aria-pressed="true">Country</button>
+              <button id="modeCity" aria-pressed="false">City</button>
+            </div>
+          </div>
+          <div class="field search-wrap">
+            <input type="text" id="q" placeholder="Loading country outlines…" autocomplete="off" disabled />
+            <div class="results" id="results"></div>
           </div>
         </div>
-        <div class="field">
-          <div class="seg" role="group">
-            <button id="capOverlay" aria-pressed="false">Over the image</button>
-            <button id="capBand" aria-pressed="true">Solid band</button>
+
+        <div class="group">
+          <h2>Imagery</h2>
+          <div class="field">
+            <div class="seg" role="group">
+              <button id="segDay" aria-pressed="false">Daytime</button>
+              <button id="segNight" aria-pressed="true">Night</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="layer">Source</label>
+            <select id="layer"></select>
+          </div>
+          <div class="field" id="dateField" hidden>
+            <label for="date">Date</label>
+            <input type="date" id="date" />
           </div>
         </div>
-        <div class="field">
-          <label for="capSize">Caption size</label>
-          <div class="slider-row">
-            <input type="range" id="capSize" min="18" max="70" value="36" step="1">
-            <output id="capSizeOut">3.6%</output>
+
+        <div class="group">
+          <h2>Framing</h2>
+          <div class="field">
+            <div class="seg" role="group">
+              <button id="segMain" aria-pressed="true">Mainland</button>
+              <button id="segFull" aria-pressed="false">Full extent</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="pad">Framing <output id="padOut2"></output></label>
+            <div class="slider-row">
+              <input type="range" id="pad" min="25" max="300" value="108" step="1" />
+              <output id="padOut">1.08×</output>
+            </div>
+          </div>
+          <div class="field">
+            <label for="nudgeX">Move east or west <output id="nudgeXOut">centred</output></label>
+            <div class="slider-row">
+              <input type="range" id="nudgeX" min="-100" max="100" value="0" step="1" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="nudgeY">Move north or south <output id="nudgeYOut">centred</output></label>
+            <div class="slider-row">
+              <input type="range" id="nudgeY" min="-100" max="100" value="0" step="1" />
+            </div>
+          </div>
+
+          <div class="field" id="projField">
+            <label for="proj">Projection</label>
+            <select id="proj">
+              <option value="3857">Web Mercator — familiar map shapes</option>
+              <option value="4326">Equirectangular — true latitude spacing</option>
+              <option value="eqearth" id="eqearthOpt">Equal Earth — equal-area</option>
+            </select>
           </div>
         </div>
-      </div>
-      <div class="field" id="capColorField" hidden>
-        <label for="capColor">Caption colour</label>
-        <input type="color" id="capColor" value="#f5efe6">
-      </div>
-      <div id="creditOpts" hidden>
-        <div class="field">
-          <label>Attribution</label>
-          <div class="seg" role="group">
-            <button id="crdOverlay" aria-pressed="false">Over the image</button>
-            <button id="crdBand" aria-pressed="true">Solid band</button>
+
+        <div class="group">
+          <h2>Overlays</h2>
+          <label class="chk"
+            ><input type="checkbox" id="ovOutline" /><span id="outlineLabel">Country outline</span
+            ><small>local</small></label
+          >
+          <label class="chk" id="rowCoast"
+            ><input type="checkbox" id="ovCoast" /><span>Coastlines</span><small>GIBS</small></label
+          >
+          <label class="chk" id="rowFeat"
+            ><input type="checkbox" id="ovFeat" /><span>Borders &amp; rivers</span><small>GIBS</small></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Frame</h2>
+          <div class="field">
+            <label for="frame">Output size</label>
+            <select id="frame">
+              <option value="fit:1600">Fit to subject · 1600 px tall</option>
+              <option value="fit:2400">Fit to subject · 2400 px tall</option>
+              <option value="fit:3200">Fit to subject · 3200 px tall</option>
+              <option value="native">Native — 1:1 with the data</option>
+              <option value="2400x1600">2400 × 1600 · 3:2</option>
+              <option value="1920x1080">1920 × 1080 · 16:9</option>
+              <option value="1600x1600">1600 × 1600 · 1:1</option>
+              <option value="3200x2400">3200 × 2400 · 4:3</option>
+              <option value="custom">Custom…</option>
+            </select>
+          </div>
+          <div class="field two" id="customSize" hidden>
+            <div>
+              <label for="customW">Width</label>
+              <input type="number" id="customW" value="2400" min="64" max="16000" step="1" />
+            </div>
+            <div>
+              <label for="customH">Height</label>
+              <input type="number" id="customH" value="1600" min="64" max="16000" step="1" />
+            </div>
+          </div>
+          <div class="field" id="fillField" hidden>
+            <label>Space around the country</label>
+            <div class="seg" role="group">
+              <button id="fillImg" aria-pressed="true">Fill with imagery</button>
+              <button id="fillBars" aria-pressed="false">Letterbox</button>
+            </div>
           </div>
         </div>
-        <div class="field">
-          <label for="crdColor">Attribution colour</label>
-          <input type="color" id="crdColor" value="#f5efe6">
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+            />
+          </div>
+          <label class="chk" id="projCreditRow"
+            ><input type="checkbox" id="showProj" /><span id="creditLabel"
+              >Name the projection, bottom right</span
+            ></label
+          >
+          <p class="hint" id="attribNotice" hidden></p>
+          <div id="capTextOpts" hidden>
+            <div class="field">
+              <div class="seg" role="group">
+                <button id="capTop" aria-pressed="false">Top</button>
+                <button id="capBottom" aria-pressed="true">Bottom</button>
+              </div>
+            </div>
+            <div class="field">
+              <div class="seg" role="group">
+                <button id="capOverlay" aria-pressed="false">Over the image</button>
+                <button id="capBand" aria-pressed="true">Solid band</button>
+              </div>
+            </div>
+            <div class="field">
+              <label for="capSize">Caption size</label>
+              <div class="slider-row">
+                <input type="range" id="capSize" min="18" max="70" value="36" step="1" />
+                <output id="capSizeOut">3.6%</output>
+              </div>
+            </div>
+          </div>
+          <div class="field" id="capColorField" hidden>
+            <label for="capColor">Caption colour</label>
+            <input type="color" id="capColor" value="#f5efe6" />
+          </div>
+          <div id="creditOpts" hidden>
+            <div class="field">
+              <label>Attribution</label>
+              <div class="seg" role="group">
+                <button id="crdOverlay" aria-pressed="false">Over the image</button>
+                <button id="crdBand" aria-pressed="true">Solid band</button>
+              </div>
+            </div>
+            <div class="field">
+              <label for="crdColor">Attribution colour</label>
+              <input type="color" id="crdColor" value="#f5efe6" />
+            </div>
+          </div>
         </div>
-      </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <label class="chk"><input type="checkbox" id="revealName" /><span>Put the name in the filename</span></label>
+          <label class="chk" id="pairRow" hidden
+            ><input type="checkbox" id="pairExport" /><span>Also save a clean copy</span></label
+          >
+          <div class="actions" style="margin-top: 10px">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+          <div class="actions" style="margin-top: 8px">
+            <button class="ghost" id="copyUrl" disabled>Copy image URL</button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ══════════ stage ══════════ -->
+      <main class="stage">
+        <div class="empty" id="empty">
+          <strong>Pick a country or city to begin.</strong>
+          Imagery is public domain NASA data. Nothing is labelled unless you switch an overlay on.
+        </div>
+        <canvas id="preview"></canvas>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="readout" id="readout"></div>
+        <div class="note" id="note"></div>
+      </main>
     </div>
 
-    <div class="group">
-      <h2>Export</h2>
-      <label class="chk"><input type="checkbox" id="revealName"><span>Put the name in the filename</span></label>
-      <label class="chk" id="pairRow" hidden><input type="checkbox" id="pairExport"><span>Also save a clean copy</span></label>
-      <div class="actions" style="margin-top:10px">
-        <button id="dlPng" disabled>PNG</button>
-        <button id="dlJpg" disabled>JPG</button>
-      </div>
-      <div class="actions" style="margin-top:8px">
-        <button class="ghost" id="copyUrl" disabled>Copy image URL</button>
-      </div>
-    </div>
-  </aside>
-
-  <!-- ══════════ stage ══════════ -->
-  <main class="stage">
-    <div class="empty" id="empty">
-      <strong>Pick a country or city to begin.</strong>
-      Imagery is public domain NASA data. Nothing is labelled unless you switch an overlay on.
-    </div>
-    <canvas id="preview"></canvas>
-    <div class="bar" id="bar"><i></i></div>
-    <div class="loading" id="loadLabel"></div>
-    <div class="readout" id="readout"></div>
-    <div class="note" id="note"></div>
-  </main>
-</div>
-
-<script type="module" src="main.js"></script>
-</body>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>
