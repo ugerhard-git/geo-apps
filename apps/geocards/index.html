@@ -136,13 +136,14 @@
           A key adds fourteen fields the open data set does not carry, among them time zones, driving side, the working
           week, local number formatting and bloc memberships. It costs three requests per session out of the free plan's
           500 a month.<br /><br />
-          REST Countries blocks browser requests unless this page's hostname is on the key's allowed origins, so opening
-          the file directly with <code>file://</code> will always fail. Serve the folder with
-          <code>python3 -m http.server</code>, open <code>http://localhost:8000</code>, and add
-          <code>localhost</code> on the API Keys page. Keep this file off any public host while a key is saved in it.<br /><br />
-          Remembering the key writes it to this browser’s local storage in plain text, where any other page served from
-          the same origin can read it. Leave that unticked on a shared machine. Forget key wipes it from the page and
-          from storage straight away; without it the key is only ever held in memory for this tab.
+          REST Countries blocks browser requests unless this page's hostname is on the key's allowed origins, so add the
+          host you open this page from on the API Keys page: your GitHub Pages host (for example
+          <code>yourname.github.io</code>) and, for local development with <code>npm run dev</code>,
+          <code>localhost</code>. The key itself is never part of the page or the repository.<br /><br />
+          Remembering the key writes it to this browser’s local storage in plain text. It is shared with the other geo
+          apps on this site, so it only needs entering once, but any other page served from the same origin can read
+          it. Leave that unticked on a shared machine. Forget key wipes it from the page and from storage straight
+          away, for every app; without it the key is only ever held in memory for this tab.
         </p>
       </section>
       <p class="hint">
