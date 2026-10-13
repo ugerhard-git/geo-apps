@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- No external scripts. CLDR for names, English Wikipedia for which species
+     are endemic, Commons for the photographs and their licences. -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src https://cdn.jsdelivr.net https://en.wikipedia.org https://commons.wikimedia.org;
+  img-src https://upload.wikimedia.org data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'">
+<title>Endemic animals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+
+  <aside class="rail">
+    <div class="rail-head">
+      <h1>Endemic animals</h1>
+      <p>Species that live in one country and nowhere else.</p>
+    </div>
+
+    <div class="group">
+      <div class="field search-wrap">
+        <label for="country">Country</label>
+        <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled>
+        <div class="results" id="countryResults"></div>
+      </div>
+      <div class="field">
+        <label for="licFilter">Licences to offer</label>
+        <select id="licFilter">
+          <option value="all" selected>Everything, including share-alike</option>
+          <option value="open">Public domain, CC0 and CC BY</option>
+          <option value="pd">Public domain and CC0 only</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Difficulty</h2>
+      <label class="chk"><input type="checkbox" id="optDecoys"><span>Mix in species from elsewhere</span></label>
+      <div class="field hint" id="decoyHint">
+        An endemic animal usually names its country outright. Adding species
+        endemic to other countries turns recognition into a question of which
+        one actually narrows it down.
+      </div>
+      <div class="field" id="decoyCountField" hidden>
+        <label for="decoyShare">How many are from elsewhere <output id="decoyShareOut">half</output></label>
+        <input type="range" id="decoyShare" min="1" max="4" value="2" step="1">
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Sheet</h2>
+      <div class="field">
+        <label for="frame">Size</label>
+        <select id="frame">
+          <option value="2400x1600" selected>2400 × 1600 · 3:2</option>
+          <option value="1920x1080">1920 × 1080 · 16:9</option>
+          <option value="1600x1600">1600 × 1600 · 1:1</option>
+          <option value="custom">Custom…</option>
+        </select>
+      </div>
+      <div class="field two" id="customSize" hidden>
+        <div><label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000"></div>
+        <div><label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000"></div>
+      </div>
+      <label class="chk"><input type="checkbox" id="optNames"><span>Print the species names</span><em id="nameTag" hidden>reveals</em></label>
+      <label class="chk"><input type="checkbox" id="optCountry"><span>Name the country</span><em id="revealTag" hidden>reveals</em></label>
+      <label class="chk"><input type="checkbox" id="optTransparent"><span>Transparent background</span><em id="pngOnly" hidden>PNG only</em></label>
+    </div>
+
+    <div class="group">
+      <h2>Caption</h2>
+      <div class="field">
+        <input type="text" id="capText" value="One of these lives only here" placeholder="Leave empty for no caption" maxlength="120" autocomplete="off">
+      </div>
+      <div class="field" id="capPosField">
+        <div class="seg" role="group">
+          <button id="capTop" aria-pressed="true">Above</button>
+          <button id="capBottom" aria-pressed="false">Below</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Colours</h2>
+      <div class="field two">
+        <div>
+          <label for="fgHex">Text</label>
+          <div class="colour">
+            <input type="color" id="fgColor" value="#e9efe2" aria-label="Text colour swatch">
+            <input type="text" id="fgHex" value="#e9efe2" placeholder="#rrggbb" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Text colour as hex">
+          </div>
+        </div>
+        <div>
+          <label for="bgHex">Background</label>
+          <div class="colour">
+            <input type="color" id="bgColor" value="#12170f" aria-label="Background colour swatch">
+            <input type="text" id="bgHex" value="#12170f" placeholder="#rrggbb" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Background colour as hex">
+          </div>
+        </div>
+      </div>
+      <div class="field">
+        <label for="atHex">Attribution text</label>
+        <div class="colour">
+          <input type="color" id="atColor" value="#8e9c82" aria-label="Attribution colour swatch">
+          <input type="text" id="atHex" value="#8e9c82" placeholder="#rrggbb" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Attribution colour as hex">
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Export</h2>
+      <div class="actions">
+        <button id="dlPng" disabled>PNG</button>
+        <button id="dlJpg" disabled>JPG</button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="stage">
+    <div class="empty" id="empty">
+      <strong>Pick a country to see what lives only there.</strong>
+      Endemism is concentrated in islands and the megadiverse countries.
+      Madagascar, New Zealand, Australia and the Philippines are rich;
+      most of continental Europe has almost nothing, and the app will say so.
+    </div>
+    <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+    <div class="bar" id="bar"><i></i></div>
+    <div class="loading" id="loadLabel"></div>
+    <div class="note" id="note"></div>
+
+    <section class="card" id="picker" hidden>
+      <header>
+        <h2>Species found</h2>
+        <p id="pickerCount"></p>
+        <span class="spacer"></span>
+        <input type="text" id="filter" placeholder="Filter by name" maxlength="60"
+               autocomplete="off" spellcheck="false" style="max-width:220px;padding:5px 8px">
+      </header>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section class="card sources" id="sources" hidden>
+      <header><h2>Sources</h2></header>
+      <div class="body">
+        <dl id="sourceList"></dl>
+        <p class="cav" id="caveat"></p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- No external scripts. CLDR for names, Wikidata for which file is the flag,
+     Commons for the rendering, and Wikimedia's upload host for the image. -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src https://cdn.jsdelivr.net https://query.wikidata.org https://commons.wikimedia.org;
+  img-src https://upload.wikimedia.org data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'">
+<title>Flag colours</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+
+  <aside class="rail">
+    <div class="rail-head">
+      <h1>Flag colours</h1>
+      <p>A flag reduced to how much of it is each colour. The proportions give it away, not the palette.</p>
+    </div>
+
+    <div class="group">
+      <div class="field search-wrap">
+        <label for="country">Country</label>
+        <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled>
+        <div class="results" id="countryResults"></div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Which colours count</h2>
+      <label class="chk"><input type="checkbox" id="optFold" checked><span>Fold emblem colours into the main ones</span></label>
+      <div class="field hint" id="foldHint">
+        A crest or coat of arms carries dozens of shades. Folded, each one joins
+        the nearest flag colour; unfolded, they become slices of their own.
+      </div>
+      <div class="field">
+        <label for="threshold">Smallest slice <output id="thresholdOut">1.0%</output></label>
+        <input type="range" id="threshold" min="1" max="50" value="10" step="1">
+        <div class="hint">Anything under this joins its nearest neighbour.</div>
+      </div>
+      <div class="field">
+        <label for="maxSlices">Most slices <output id="maxSlicesOut">10</output></label>
+        <input type="range" id="maxSlices" min="2" max="20" value="10" step="1">
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Chart</h2>
+      <label class="chk"><input type="checkbox" id="optPercent" checked><span>Print the percentages</span></label>
+      <label class="chk"><input type="checkbox" id="optHex"><span>Print the colour codes</span><em id="hexTag" hidden>reveals</em></label>
+      <label class="chk"><input type="checkbox" id="optRing"><span>Draw it as a ring</span></label>
+      <label class="chk"><input type="checkbox" id="optCountry"><span>Name the country</span><em id="revealTag" hidden>reveals</em></label>
+      <div class="field" style="margin-top:8px">
+        <label for="startAngle">Start angle <output id="startOut">0°</output></label>
+        <input type="range" id="startAngle" min="0" max="359" value="0" step="1">
+        <div class="hint">Turning the pie makes a familiar arrangement less familiar.</div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Sheet</h2>
+      <div class="field">
+        <label for="frame">Size</label>
+        <select id="frame">
+          <option value="1600x1600">1600 × 1600 · 1:1</option>
+          <option value="2400x1600" selected>2400 × 1600 · 3:2</option>
+          <option value="1920x1080">1920 × 1080 · 16:9</option>
+          <option value="custom">Custom…</option>
+        </select>
+      </div>
+      <div class="field two" id="customSize" hidden>
+        <div><label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000"></div>
+        <div><label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000"></div>
+      </div>
+      <div class="field two">
+        <div>
+          <label for="fgHex">Text</label>
+          <div class="colour">
+            <input type="color" id="fgColor" value="#e8ecf3" aria-label="Text colour swatch">
+            <input type="text" id="fgHex" value="#e8ecf3" placeholder="#rrggbb" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Text colour as hex">
+          </div>
+        </div>
+        <div>
+          <label for="bgHex">Background</label>
+          <div class="colour">
+            <input type="color" id="bgColor" value="#101319" aria-label="Background colour swatch">
+            <input type="text" id="bgHex" value="#101319" placeholder="#rrggbb" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Background colour as hex">
+          </div>
+        </div>
+      </div>
+      <label class="chk"><input type="checkbox" id="optTransparent"><span>Transparent background</span><em id="pngOnly" hidden>PNG only</em></label>
+    </div>
+
+    <div class="group">
+      <h2>Caption</h2>
+      <div class="field">
+        <input type="text" id="capText" value="These are the colours of this country’s flag" placeholder="Leave empty for no caption" maxlength="120" autocomplete="off">
+      </div>
+      <div class="field" id="capPosField">
+        <div class="seg" role="group">
+          <button id="capTop" aria-pressed="true">Above</button>
+          <button id="capBottom" aria-pressed="false">Below</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Export</h2>
+      <div class="actions">
+        <button id="dlPng" disabled>PNG</button>
+        <button id="dlJpg" disabled>JPG</button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="stage">
+    <div class="empty" id="empty">
+      <strong>Pick a country to measure its flag.</strong>
+      The flag is rendered, every pixel counted, and the result drawn as a pie
+      in the flag's own colours. The flag itself never appears.
+    </div>
+    <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+    <div class="bar" id="bar"><i></i></div>
+    <div class="loading" id="loadLabel"></div>
+    <div class="note" id="note"></div>
+
+    <section class="card" id="breakdown" hidden>
+      <header><h2>What was measured</h2></header>
+      <div class="body">
+        <div class="measured">
+          <figure class="flagshot" id="flagShot" hidden></figure>
+          <div class="swatches" id="swatchList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card sources" id="sources" hidden>
+      <header><h2>Sources</h2></header>
+      <div class="body">
+        <dl id="sourceList"></dl>
+        <p class="cav" id="caveat"></p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>

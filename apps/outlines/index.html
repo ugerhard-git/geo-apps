@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- No external scripts. One data host: jsDelivr, for Natural Earth geometry. -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src https://cdn.jsdelivr.net https://raw.githubusercontent.com https://media.githubusercontent.com https://www.geoboundaries.org;
+  img-src data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'">
+<title>Outlines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+
+  <aside class="rail">
+    <div class="rail-head">
+      <h1>Outlines</h1>
+      <p>A country or region reduced to its shape, turned around so it takes work to place.</p>
+    </div>
+
+    <div class="group">
+      <div class="field">
+        <label>Draw</label>
+        <div class="seg" role="group">
+          <button id="modeCountry" aria-pressed="true">A country</button>
+          <button id="modeRegion" aria-pressed="false">One region</button>
+        </div>
+      </div>
+      <div class="field search-wrap">
+        <label for="country">Country</label>
+        <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled>
+        <div class="results" id="countryResults"></div>
+      </div>
+      <div class="field" id="regionField" hidden>
+        <label for="region">Region</label>
+        <select id="region" disabled></select>
+        <div class="hint" id="regionHint"></div>
+      </div>
+      <div class="field" id="extentField">
+        <label>Extent</label>
+        <div class="seg" role="group">
+          <button id="extMain" aria-pressed="true">Main landmass</button>
+          <button id="extAll" aria-pressed="false">Everything</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Turn it around</h2>
+      <div class="field">
+        <label for="rotate">Rotation <output id="rotateOut">0°</output></label>
+        <input type="range" id="rotate" min="0" max="359" value="0" step="1">
+      </div>
+      <div class="field row-btns">
+        <button id="rot0" type="button">0°</button>
+        <button id="rot90" type="button">90°</button>
+        <button id="rot180" type="button">180°</button>
+        <button id="rot270" type="button">270°</button>
+      </div>
+      <div class="field row-btns">
+        <button id="flipH" type="button" aria-pressed="false">Mirror ↔</button>
+        <button id="flipV" type="button" aria-pressed="false">Mirror ↕</button>
+      </div>
+      <div class="field">
+        <label for="margin">Margin <output id="marginOut">8%</output></label>
+        <input type="range" id="margin" min="0" max="30" value="8" step="1">
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Ink</h2>
+      <div class="field">
+        <label for="lineHex">Outline</label>
+        <div class="colour">
+          <input type="color" id="lineColor" value="#f0a048" aria-label="Outline colour swatch">
+          <input type="text" id="lineHex" placeholder="#rrggbb" value="#f0a048" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Outline colour as hex">
+        </div>
+      </div>
+      <div class="field">
+        <label for="lineWidth">Outline weight <output id="lineWidthOut">2</output></label>
+        <input type="range" id="lineWidth" min="0" max="24" value="2" step="1">
+      </div>
+      <div class="field">
+        <label for="fillHex">Fill</label>
+        <div class="colour">
+          <input type="color" id="fillColor" value="#2b303b" aria-label="Fill colour swatch">
+          <input type="text" id="fillHex" placeholder="#rrggbb" value="#2b303b" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Fill colour as hex">
+        </div>
+      </div>
+      <label class="chk"><input type="checkbox" id="fillNone"><span>Fill is a hole, not a colour</span><em id="holeTag" hidden>PNG only</em></label>
+      <div class="field hint" id="holeHint" hidden>
+        The inside is cut clean through, so whatever sits behind the image shows there. The background colour still applies outside the shape.
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Sheet</h2>
+      <div class="field">
+        <label for="frame">Size</label>
+        <select id="frame">
+          <option value="2400x1600">2400 × 1600 · 3:2</option>
+          <option value="1920x1080">1920 × 1080 · 16:9</option>
+          <option value="1600x1600">1600 × 1600 · 1:1</option>
+          <option value="3200x2400">3200 × 2400 · 4:3</option>
+          <option value="custom">Custom…</option>
+        </select>
+      </div>
+      <div class="field two" id="customSize" hidden>
+        <div><label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000"></div>
+        <div><label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000"></div>
+      </div>
+      <div class="field">
+        <label for="bgHex">Background</label>
+        <div class="colour">
+          <input type="color" id="bgColor" value="#0f1115" aria-label="Background colour swatch">
+          <input type="text" id="bgHex" placeholder="#rrggbb" value="#0f1115" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Background colour as hex">
+        </div>
+      </div>
+      <label class="chk"><input type="checkbox" id="bgNone"><span>Transparent background</span><em id="pngOnly" hidden>PNG only</em></label>
+      <label class="chk" style="margin-top:6px"><input type="checkbox" id="optName"><span>Name it on the sheet</span><em id="revealTag" hidden>reveals</em></label>
+    </div>
+
+    <div class="group">
+      <h2>Caption</h2>
+      <div class="field">
+        <input type="text" id="capText" value="Which country is this?" placeholder="Leave empty for no caption" maxlength="120" autocomplete="off">
+      </div>
+      <div class="field" id="capPosField">
+        <div class="seg" role="group">
+          <button id="capTop" aria-pressed="true">Above</button>
+          <button id="capBottom" aria-pressed="false">Below</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="noteText">Footnote, along the bottom</label>
+        <input type="text" id="noteText" value="This outline may be rotated or mirrored."
+               placeholder="Leave empty for no footnote" maxlength="160" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="capHex">Caption colour</label>
+        <div class="colour">
+          <input type="color" id="capColor" value="#e9ecf2" aria-label="Caption colour swatch">
+          <input type="text" id="capHex" placeholder="#rrggbb" value="#e9ecf2" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Caption colour as hex">
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Export</h2>
+      <div class="actions">
+        <button id="dlPng" disabled>PNG</button>
+        <button id="dlJpg" disabled>JPG</button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="stage">
+    <div class="empty" id="empty">
+      <strong>Pick a country to see its shape.</strong>
+      Turn it, mirror it, and strip the colour out of it until nobody can place it at a glance.
+    </div>
+    <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+    <div class="bar" id="bar"><i></i></div>
+    <div class="loading" id="loadLabel"></div>
+    <div class="note" id="note"></div>
+
+    <section class="card sources" id="sources" hidden>
+      <header><h2>Sources</h2></header>
+      <div class="body">
+        <dl id="sourceList"></dl>
+        <p class="cav" id="caveat"></p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>

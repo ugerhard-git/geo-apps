@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  No external scripts, so script-src names no host. Requests go to the Commons
+  API alone; images come from Wikimedia's upload host alone.
+-->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src https://commons.wikimedia.org https://en.wikipedia.org https://cdn.jsdelivr.net;
+  img-src https://upload.wikimedia.org data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'">
+<title>Licence plate sheets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Archivo+Narrow:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+
+  <aside class="rail">
+    <div class="rail-head">
+      <h1>Licence plate sheets</h1>
+      <p>Plate images from Wikimedia Commons, composed and blurred for a quiz sheet.</p>
+    </div>
+
+    <div class="group">
+      <div class="field search-wrap">
+        <label for="country">Country</label>
+        <input type="text" id="country" placeholder="Loading country list…" autocomplete="off" spellcheck="false" disabled>
+        <div class="results" id="countryResults"></div>
+      </div>
+      <div class="field">
+        <label for="licFilter">Licences to offer</label>
+        <select id="licFilter">
+          <option value="all" selected>Everything, including share-alike</option>
+          <option value="open">Public domain, CC0 and CC BY</option>
+          <option value="pd">Public domain and CC0 only</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Blur</h2>
+      <div class="field">
+        <div class="seg" role="group">
+          <button id="blurWhole" aria-pressed="true">Whole image</button>
+          <button id="blurRegions" aria-pressed="false">Drawn regions</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="blurAmount">Strength</label>
+        <div class="slider-row">
+          <input type="range" id="blurAmount" min="0" max="150" value="25" step="1">
+          <output id="blurOut">2.5%</output>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Sheet</h2>
+      <div class="field">
+        <label for="frame">Size</label>
+        <select id="frame">
+          <option value="2400x1600">2400 × 1600 · 3:2</option>
+          <option value="1920x1080">1920 × 1080 · 16:9</option>
+          <option value="1600x1600">1600 × 1600 · 1:1</option>
+          <option value="3200x2400">3200 × 2400 · 4:3</option>
+          <option value="custom">Custom…</option>
+        </select>
+      </div>
+      <div class="field two" id="customSize" hidden>
+        <div><label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000"></div>
+        <div><label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000"></div>
+      </div>
+      <label class="chk"><input type="checkbox" id="optSections" checked><span>Label the sections</span></label>
+      <label class="chk"><input type="checkbox" id="optCountry"><span>Name the country</span><em id="revealTag" hidden>reveals</em></label>
+      <label class="chk"><input type="checkbox" id="optSpec" checked><span>Plate details on the sheet</span></label>
+      <div class="field" id="specPosField" style="margin-top:8px">
+        <div class="seg" role="group">
+          <button id="specTop" aria-pressed="false">Above</button>
+          <button id="specBottom" aria-pressed="true">Below</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Caption</h2>
+      <div class="field">
+        <input type="text" id="capText" value="Car license plate designs from this country (blurred)"
+               placeholder="Leave empty for no caption" maxlength="120" autocomplete="off">
+      </div>
+      <div class="field" id="capPosField">
+        <div class="seg" role="group">
+          <button id="capTop" aria-pressed="true">Above</button>
+          <button id="capBottom" aria-pressed="false">Below</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h2>Colours</h2>
+      <div class="field two">
+        <div>
+          <label for="fgHex">Text</label>
+          <div class="colour">
+            <input type="color" id="fgColor" value="#e4e6ea" aria-label="Text colour swatch">
+            <input type="text" id="fgHex" value="#e4e6ea" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Text colour as hex">
+          </div>
+        </div>
+        <div>
+          <label for="bgHex">Background</label>
+          <div class="colour">
+            <input type="color" id="bgColor" value="#12141a" aria-label="Background colour swatch">
+            <input type="text" id="bgHex" value="#12141a" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Background colour as hex">
+          </div>
+        </div>
+      </div>
+      <div class="field">
+        <label for="atHex">Attribution text</label>
+        <div class="colour">
+          <input type="color" id="atColor" value="#8b91a0" aria-label="Attribution colour swatch">
+          <input type="text" id="atHex" value="#8b91a0" maxlength="7" spellcheck="false" autocomplete="off" aria-label="Attribution colour as hex">
+        </div>
+      </div>
+      <label class="chk"><input type="checkbox" id="optTransparent"><span>Transparent background</span><em id="pngOnly" hidden>PNG only</em></label>
+    </div>
+
+    <div class="group">
+      <h2>Export</h2>
+      <div class="actions">
+        <button id="dlPng" disabled>PNG</button>
+        <button id="dlJpg" disabled>JPG</button>
+      </div>
+    </div>
+  </aside>
+
+  <main class="stage">
+    <div class="empty" id="empty">
+      <strong>Pick a country to see what Commons has.</strong>
+      Nothing is chosen for you — categories mix current plates with historic ones,
+      close-ups and oddities, so you select what belongs on the sheet.
+    </div>
+    <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+    <div class="bar" id="bar"><i></i></div>
+    <div class="loading" id="loadLabel"></div>
+    <div class="note" id="note"></div>
+
+    <section class="sources" id="spec" hidden>
+      <h2>Plate requirements</h2>
+      <p id="specNote"></p>
+      <dl id="specList"></dl>
+    </section>
+
+    <section class="editor" id="editor" hidden>
+      <h2 id="editTitle">Blur regions</h2>
+      <p>Drag to cover an area — the registration characters, or a country code on a Euroband. Click a box to remove it.</p>
+      <canvas id="editCanvas"></canvas>
+      <div class="actions" style="margin-top:12px;max-width:420px">
+        <button class="ghost" id="editClear">Clear boxes</button>
+        <button class="ghost" id="editClose">Done</button>
+      </div>
+    </section>
+
+    <section class="picker" id="picker" hidden>
+      <header>
+        <h2>Available plates</h2>
+        <p id="pickerCount"></p>
+        <span class="spacer"></span>
+        <select id="catFilter" style="max-width:250px;padding:5px 8px"></select>
+        <input type="text" id="filter" placeholder="…and by name" maxlength="60"
+               autocomplete="off" spellcheck="false" style="max-width:200px;padding:5px 8px">
+        <span class="spacer"></span>
+        <p id="pickerHint"></p>
+      </header>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section class="sources" id="sources" hidden>
+      <h2>Sources</h2>
+      <p>Each plate links to its file page on Wikimedia Commons, where the licence, author and full history are recorded.</p>
+      <dl id="sourceList"></dl>
+      <p class="cav" id="caveat"></p>
+    </section>
+  </main>
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
