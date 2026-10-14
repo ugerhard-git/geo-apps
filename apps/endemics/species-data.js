@@ -10,15 +10,8 @@
  * which articles are in "Endemic fauna of <country>".
  */
 
-import {
-  classifyLicence,
-  commonsFileUrl,
-  firstSafeImageUrl,
-  mediawiki,
-  widenThumb,
-} from "../../shared/commons.js";
-import { cleanText, htmlToText, norm } from "../../shared/text.js";
-import { own } from "../../shared/util.js";
+import { fileInfos } from "../../shared/commons.js";
+import { cleanText, norm } from "../../shared/text.js";
 import { wikipedia } from "../../shared/wikipedia.js";
 import { FULL_W, MAX_SPECIES, NOT_A_SPECIES, THUMB_W } from "./config.js";
 
@@ -234,50 +227,21 @@ export async function endemicsOf(country) {
  */
 export async function photographs(taxa) {
   const byTitle = new Map(taxa.map((t) => [t.fileTitle, t]));
-  const titles = [...byTitle.keys()];
   /** @type {Species[]} */
   const out = [];
-  for (let i = 0; i < titles.length; i += 50) {
-    let data;
-    try {
-      data = await mediawiki({
-        action: "query",
-        prop: "imageinfo",
-        titles: titles.slice(i, i + 50).join("|"),
-        iiprop: "url|extmetadata|size|mime",
-        iiurlwidth: String(THUMB_W),
-      });
-    } catch {
-      continue;
-    }
-    const pages = data && data.query && data.query.pages;
-    for (const page of Array.isArray(pages) ? pages : []) {
-      const info = page && Array.isArray(page.imageinfo) ? page.imageinfo[0] : null;
-      if (!info) continue;
-      if (typeof info.mime === "string" && !/^image\//.test(info.mime)) continue;
-      const pageid = Number.isInteger(page.pageid) && page.pageid > 0 ? page.pageid : null;
-      if (!pageid) continue;
-      const thumb = firstSafeImageUrl(info.thumburl, info.url);
-      if (!thumb) continue;
-      const taxon = byTitle.get(cleanText(String(page.title || ""), 160));
-      if (!taxon) continue;
-      const ex = info.extmetadata || {};
-      /** @param {string} k */
-      const val = (k) => {
-        const f = own(ex, k);
-        return f && typeof f.value === "string" ? f.value : "";
-      };
-      out.push({
-        ...taxon,
-        pageid,
-        thumb,
-        full: widenThumb(thumb, info.width, FULL_W) || thumb,
-        author: htmlToText(val("Artist"), 70),
-        licence: classifyLicence(htmlToText(val("LicenseShortName"), 40), val("LicenseUrl")),
-        describeUrl: commonsFileUrl(pageid),
-        keywords: norm(taxon.name),
-      });
-    }
+  for (const f of await fileInfos([...byTitle.keys()], THUMB_W, FULL_W)) {
+    const taxon = byTitle.get(f.title);
+    if (!taxon) continue;
+    out.push({
+      ...taxon,
+      pageid: f.pageid,
+      thumb: f.thumb,
+      full: f.full,
+      author: f.author,
+      licence: f.licence,
+      describeUrl: f.describeUrl,
+      keywords: norm(taxon.name),
+    });
   }
   return out;
 }

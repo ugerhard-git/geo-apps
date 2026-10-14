@@ -8,7 +8,8 @@
  */
 
 import { httpError } from "./net.js";
-import { cleanText } from "./text.js";
+import { cleanText, htmlToText } from "./text.js";
+import { own } from "./util.js";
 
 export const COMMONS_API = "https://commons.wikimedia.org/w/api.php";
 
@@ -226,3 +227,73 @@ export function fileTitleFromFilePath(u) {
  */
 export const commonsFileUrl = (pageid) =>
   `https://commons.wikimedia.org/w/index.php?curid=${pageid}`;
+
+/**
+ * @typedef {object} FileInfo what a sheet needs to show and credit a file
+ * @property {string} title "File:…", as Commons normalised it
+ * @property {number} pageid
+ * @property {string} thumb a small render on upload.wikimedia.org
+ * @property {string} full a larger render (or the thumb when none is larger)
+ * @property {number} width the original's size
+ * @property {number} height
+ * @property {string} author plain text, from the file's metadata
+ * @property {Licence} licence
+ * @property {string} describeUrl permanent link to the file page
+ */
+
+/**
+ * Renders, sizes, authors and licences for Commons files, 50 per request.
+ * Files that are missing, not images, or without a usable URL are left out;
+ * a failed batch is skipped rather than failing the rest.
+ *
+ * @param {string[]} titles "File:…" titles
+ * @param {number} thumbW width of the small render
+ * @param {number} fullW widest large render wanted
+ * @returns {Promise<FileInfo[]>} in the order Commons answers
+ */
+export async function fileInfos(titles, thumbW, fullW) {
+  /** @type {FileInfo[]} */
+  const out = [];
+  for (let i = 0; i < titles.length; i += 50) {
+    let data;
+    try {
+      data = await mediawiki({
+        action: "query",
+        prop: "imageinfo",
+        titles: titles.slice(i, i + 50).join("|"),
+        iiprop: "url|extmetadata|size|mime",
+        iiurlwidth: String(thumbW),
+      });
+    } catch {
+      continue;
+    }
+    const pages = data && data.query && data.query.pages;
+    for (const page of Array.isArray(pages) ? pages : []) {
+      const info = page && Array.isArray(page.imageinfo) ? page.imageinfo[0] : null;
+      if (!info) continue;
+      if (typeof info.mime === "string" && !/^image\//.test(info.mime)) continue;
+      const pageid = Number.isInteger(page.pageid) && page.pageid > 0 ? page.pageid : null;
+      if (!pageid) continue;
+      const thumb = firstSafeImageUrl(info.thumburl, info.url);
+      if (!thumb) continue;
+      const ex = info.extmetadata || {};
+      /** @param {string} k */
+      const val = (k) => {
+        const f = own(ex, k);
+        return f && typeof f.value === "string" ? f.value : "";
+      };
+      out.push({
+        title: cleanText(String(page.title || ""), 160),
+        pageid,
+        thumb,
+        full: widenThumb(thumb, info.width, fullW) || thumb,
+        width: Number.isFinite(info.width) ? info.width : 0,
+        height: Number.isFinite(info.height) ? info.height : 0,
+        author: htmlToText(val("Artist"), 70),
+        licence: classifyLicence(htmlToText(val("LicenseShortName"), 40), val("LicenseUrl")),
+        describeUrl: commonsFileUrl(pageid),
+      });
+    }
+  }
+  return out;
+}

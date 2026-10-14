@@ -1,5 +1,5 @@
 /**
- * Endemic animals — fitting a photo credit under its photograph, in full.
+ * Fitting a photo credit under its photograph, in full.
  *
  * A credit ("Author · CC BY-SA 4.0 · commons.wikimedia.org/…") must never be
  * cut off. It wraps onto several lines — between words, and inside long links
@@ -7,6 +7,8 @@
  * font get smaller.
  *
  * Pure apart from the `measure` callback, so it can be unit-tested.
+ *
+ * @module shared/credits
  */
 
 /**

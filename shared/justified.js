@@ -1,5 +1,5 @@
 /**
- * Endemic animals — laying photographs out without cropping them.
+ * Laying photographs out without cropping them (Endemic animals, Landmarks).
  *
  * "Justified rows", as photo galleries do it: photographs keep their own
  * aspect ratio, every photograph in a row shares the row's height, and each
@@ -7,11 +7,12 @@
  * shots therefore fits together without cutting anything off or adding bars.
  *
  * The order of the photographs is kept; what varies is where the rows break.
- * Every possible set of breaks is tried (2^5 = 32 for the 6-photo limit in
- * config.js) and the one that shows the photographs largest — and most
+ * Every possible set of breaks is tried (2^5 = 32 for six photographs) and the one that shows the photographs largest — and most
  * evenly — wins.
  *
- * Pure: no DOM. Unit tests in tests/unit/apps.test.js.
+ * Pure: no DOM. Unit tests in tests/unit/shared.test.js.
+ *
+ * @module shared/justified
  */
 
 /**
