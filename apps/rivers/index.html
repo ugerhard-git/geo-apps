@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- No external scripts. One data host: jsDelivr, for Natural Earth rivers, lakes and borders, and CLDR names. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src https://cdn.jsdelivr.net;
+  img-src data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'"
+    />
+    <title>Rivers</title>
+    <meta name="description" content="A country's rivers and lakes on their own — no borders, no cities, no names." />
+    <meta name="geo-apps:tags" content="Natural Earth, maps" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Rivers</h1>
+          <p>A country's rivers and lakes on their own — no borders, no cities, no names.</p>
+        </div>
+
+        <div class="group">
+          <div class="field search-wrap">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+            <div class="results" id="countryResults"></div>
+          </div>
+          <div class="field">
+            <label>Extent</label>
+            <div class="seg" role="group">
+              <button id="extMain" aria-pressed="true">Main landmass</button>
+              <button id="extAll" aria-pressed="false">Everything</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Water</h2>
+          <div class="field">
+            <label>Rivers</label>
+            <div class="seg" role="group">
+              <button id="detailMore" aria-pressed="true">Detailed</button>
+              <button id="detailMajor" aria-pressed="false">Major only</button>
+            </div>
+            <div class="hint">Detailed adds smaller rivers in Europe, North America and Australia.</div>
+          </div>
+          <div class="field">
+            <label for="weight">Line weight <output id="weightOut">100%</output></label>
+            <input type="range" id="weight" min="30" max="300" value="100" step="10" />
+          </div>
+          <div class="field">
+            <label for="waterHex">Colour</label>
+            <div class="colour">
+              <input type="color" id="waterColor" value="#5bb8f0" aria-label="Water colour swatch" />
+              <input
+                type="text"
+                id="waterHex"
+                placeholder="#rrggbb"
+                value="#5bb8f0"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Water colour as hex"
+              />
+            </div>
+          </div>
+          <label class="chk"><input type="checkbox" id="optLakes" checked /><span>Lakes</span></label>
+          <label class="chk"><input type="checkbox" id="optOutline" /><span>Faint country outline</span></label>
+        </div>
+
+        <div class="group">
+          <h2>Sheet</h2>
+          <div class="field">
+            <label for="frame">Size</label>
+            <select id="frame">
+              <option value="2400x1600">2400 × 1600 · 3:2</option>
+              <option value="1920x1080">1920 × 1080 · 16:9</option>
+              <option value="1600x1600">1600 × 1600 · 1:1</option>
+              <option value="3200x2400">3200 × 2400 · 4:3</option>
+              <option value="custom">Custom…</option>
+            </select>
+          </div>
+          <div class="field two" id="customSize" hidden>
+            <div>
+              <label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000" />
+            </div>
+            <div>
+              <label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="margin">Margin <output id="marginOut">6%</output></label>
+            <input type="range" id="margin" min="0" max="30" value="6" step="1" />
+          </div>
+          <div class="field">
+            <label for="bgHex">Background</label>
+            <div class="colour">
+              <input type="color" id="bgColor" value="#0f1115" aria-label="Background colour swatch" />
+              <input
+                type="text"
+                id="bgHex"
+                placeholder="#rrggbb"
+                value="#0f1115"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Background colour as hex"
+              />
+            </div>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="bgNone" /><span>Transparent background</span
+            ><em id="pngOnly" hidden>PNG only</em></label
+          >
+          <label class="chk"
+            ><input type="checkbox" id="optName" /><span>Name it on the sheet</span
+            ><em id="revealTag" hidden>reveals</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              value="Whose rivers are these?"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+              aria-label="Caption"
+            />
+          </div>
+          <div class="field" id="capPosField">
+            <div class="seg" role="group">
+              <button id="capTop" aria-pressed="true">Above</button>
+              <button id="capBottom" aria-pressed="false">Below</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="noteText">Footnote, along the bottom</label>
+            <input
+              type="text"
+              id="noteText"
+              value=""
+              placeholder="Leave empty for no footnote"
+              maxlength="160"
+              autocomplete="off"
+            />
+          </div>
+          <div class="field">
+            <label for="capHex">Caption colour</label>
+            <div class="colour">
+              <input type="color" id="capColor" value="#e9ecf2" aria-label="Caption colour swatch" />
+              <input
+                type="text"
+                id="capHex"
+                placeholder="#rrggbb"
+                value="#e9ecf2"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Caption colour as hex"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <div class="actions">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="empty" id="empty">
+          <strong>Pick a country to see where its people live.</strong>
+          Each dot is a town or city; the bigger the dot, the more people. Without borders or names, the pattern is the
+          clue.
+        </div>
+        <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="note" id="note"></div>
+
+        <section class="card sources" id="sources" hidden>
+          <header><h2>Sources</h2></header>
+          <div class="body">
+            <dl id="sourceList"></dl>
+            <p class="cav" id="caveat"></p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

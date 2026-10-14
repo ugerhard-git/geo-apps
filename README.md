@@ -93,7 +93,7 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `colour.js`         | Parsing and validating colours typed by people                                     |
 | `dom.js`            | `$`, segmented controls, the status note, progress bar, colour pickers, `debounce` |
 | `sheet.js`          | The export canvas: frame size, canvas → blob, downloading                          |
-| `net.js`            | `getJson`, `parseCsv`, shared endpoints (jsDelivr, Wikidata SPARQL)                |
+| `net.js`            | `getJson`, size-capped `fetchBytes`/`getLargeJson`, `parseCsv`, shared endpoints   |
 | `cldr.js`           | Country names and ISO codes from Unicode CLDR                                      |
 | `country-picker.js` | The type-ahead country search and its ranking                                      |
 | `commons.js`        | Wikimedia Commons API, safe image URLs, licence classification                     |
@@ -104,6 +104,7 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `geo.js`            | TopoJSON decoding, distances, finding a country's mainland                         |
 | `world.js`          | Country shapes from world-atlas (Natural Earth), point-in-polygon tests            |
 | `projection.js`     | Web Mercator, the mainland of a country, bounds — for the map apps                 |
+| `map-countries.js`  | CLDR countries matched to their world-atlas outlines, for the map apps             |
 | `keys.js`           | API keys shared by all apps (see below)                                            |
 | `back-link.js`      | The "Back to apps overview" link, shown only on the published site                 |
 
