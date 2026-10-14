@@ -1,4 +1,191 @@
 {
  "country": "NC",
- "items": []
+ "items": [
+  {
+   "id": "Q892783",
+   "name": "La Tontouta International Airport",
+   "sl": 24,
+   "file": "Hangar - Aéroport Nouméa-La Tontouta.JPG",
+   "lat": -22.0164,
+   "lon": 166.2161,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Tontouta International Airport"
+  },
+  {
+   "id": "Q1945432",
+   "name": "Mont Panié",
+   "sl": 22,
+   "file": "Montpanie.jpg",
+   "lat": -20.5883,
+   "lon": 164.7706,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont Panié"
+  },
+  {
+   "id": "Q1909475",
+   "name": "Matthew Island and Hunter Island",
+   "sl": 16,
+   "file": "Ile hunter.JPG",
+   "lat": -22.3469,
+   "lon": 171.3414,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "island group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "VU"
+   ],
+   "cat": "Matthew and Hunter Islands"
+  },
+  {
+   "id": "Q656777",
+   "name": "Nouméa Magenta Airport",
+   "sl": 16,
+   "file": "Aerial view of Nouméa Magenta Airport.jpg",
+   "lat": -22.2583,
+   "lon": 166.4728,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nouméa Magenta Airport"
+  },
+  {
+   "id": "Q2039568",
+   "name": "Amédée lighthouse",
+   "sl": 11,
+   "file": "Amedee Lighthouse - New Caledonia.jpg",
+   "lat": -22.4772,
+   "lon": 166.4681,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Le Phare Amédée"
+  },
+  {
+   "id": "Q2942368",
+   "name": "Nouméa Cathedral",
+   "sl": 10,
+   "file": "View over Noumea.jpg",
+   "lat": -22.2728,
+   "lon": 166.4444,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Saint-Joseph de Nouméa"
+  },
+  {
+   "id": "Q182992",
+   "name": "Stade Numa-Daly Magenta",
+   "sl": 10,
+   "file": "Athletics track event at the 2011 Pacific Games.jpg",
+   "lat": -22.2642,
+   "lon": 166.4679,
+   "kind": "built",
+   "types": [
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q144278",
+   "name": "Lifou Airport",
+   "sl": 9,
+   "file": "Landing Wanaham Lifou New Caledonia Air Caledonie.jpg",
+   "lat": -20.7748,
+   "lon": 167.2399,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1547446",
+   "name": "Mount Humboldt",
+   "sl": 9,
+   "file": "Mont Humboldt - Crête (3482023481).jpg",
+   "lat": -21.8839,
+   "lon": 166.4203,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont Humboldt"
+  },
+  {
+   "id": "Q11824849",
+   "name": "Île des Pins Airport",
+   "sl": 8,
+   "file": "Ile des Pins airport.jpg",
+   "lat": -22.5869,
+   "lon": 167.4512,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7113158",
+   "name": "Ouvéa Airport",
+   "sl": 8,
+   "file": "OuvéaAirport.jpg",
+   "lat": -20.6417,
+   "lon": 166.5733,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ouvéa Airport"
+  }
+ ]
 }

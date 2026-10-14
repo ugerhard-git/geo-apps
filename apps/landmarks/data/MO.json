@@ -2,6 +2,558 @@
  "country": "MO",
  "items": [
   {
+   "id": "Q525486",
+   "name": "Macau International Airport",
+   "sl": 33,
+   "file": "Macao airport terminal.jpg",
+   "lat": 22.1494,
+   "lon": 113.5914,
+   "kind": "both",
+   "types": [
+    "artificial island airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Macau International Airport"
+  },
+  {
+   "id": "Q1033099",
+   "name": "Grand Lisboa",
+   "sl": 31,
+   "file": "Macao Grand Lisboa200712.jpg",
+   "lat": 22.1906,
+   "lon": 113.5431,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Lisboa"
+  },
+  {
+   "id": "Q1551411",
+   "name": "Ruins of St. Paul's",
+   "sl": 31,
+   "file": "Cathedral of Saint Paul in Macau, 2023 (04).jpg",
+   "lat": 22.1975,
+   "lon": 113.5409,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ruins of Saint Paul's"
+  },
+  {
+   "id": "Q1022920",
+   "name": "Coloane",
+   "sl": 30,
+   "file": "Hac Sa Beach 01.JPG",
+   "lat": 22.1261,
+   "lon": 113.5669,
+   "kind": "natural",
+   "types": [
+    "administrative territorial entity",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Coloane"
+  },
+  {
+   "id": "Q1568304",
+   "name": "Macau Tower",
+   "sl": 28,
+   "file": "20250816 Torre de Macau.jpg",
+   "lat": 22.1797,
+   "lon": 113.5367,
+   "kind": "built",
+   "types": [
+    "observation tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Macau Tower"
+  },
+  {
+   "id": "Q2149114",
+   "name": "A-Ma Temple",
+   "sl": 24,
+   "file": "Templo de A-Má.JPG",
+   "lat": 22.1861,
+   "lon": 113.5311,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2601433",
+    "name": "Historic Centre of Macau"
+   },
+   "also": [],
+   "cat": "A-Ma Temple"
+  },
+  {
+   "id": "Q1362196",
+   "name": "Cotai",
+   "sl": 24,
+   "file": "Cotai 2013.jpg",
+   "lat": 22.1408,
+   "lon": 113.5631,
+   "kind": "natural",
+   "types": [
+    "parish of Macau",
+    "reclaimed land"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cotai"
+  },
+  {
+   "id": "Q1156708",
+   "name": "The Venetian Macao",
+   "sl": 23,
+   "file": "Venetian Macau.jpg",
+   "lat": 22.1486,
+   "lon": 113.5606,
+   "kind": "built",
+   "types": [
+    "casino",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Venetian Macao"
+  },
+  {
+   "id": "Q977841",
+   "name": "Governor Nobre de Carvalho Bridge",
+   "sl": 19,
+   "file": "Puente Gobernador Nobre de Carvalho, Macao, 2013-08-08, DD 03.jpg",
+   "lat": 22.1764,
+   "lon": 113.5461,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte Governador Nobre de Carvalho"
+  },
+  {
+   "id": "Q4130614",
+   "name": "St. Dominic's Church",
+   "sl": 17,
+   "file": "StDominicsMacau.JPG",
+   "lat": 22.1947,
+   "lon": 113.5404,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Igreja de São Domingos (Macau)"
+  },
+  {
+   "id": "Q1318003",
+   "name": "Amizade Bridge",
+   "sl": 16,
+   "file": "Puente de Amistad, Macao, 2013-08-08, DD 02-03-04 PAN.jpg",
+   "lat": 22.1893,
+   "lon": 113.5632,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte da Amizade (Macau)"
+  },
+  {
+   "id": "Q995564",
+   "name": "MGM Macau",
+   "sl": 16,
+   "file": "MGM Grand Macau edit1.jpg",
+   "lat": 22.1858,
+   "lon": 113.5472,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "MGM Macau"
+  },
+  {
+   "id": "Q5147805",
+   "name": "Alto de Coloane",
+   "sl": 15,
+   "file": "Alto de Coloane.jpg",
+   "lat": 22.1239,
+   "lon": 113.5639,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alto de Coloane"
+  },
+  {
+   "id": "Q1674107",
+   "name": "Estádio Campo Desportivo",
+   "sl": 15,
+   "file": "Macau Stadium 17-01-2023.jpg",
+   "lat": 22.1545,
+   "lon": 113.5533,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio de Macau"
+  },
+  {
+   "id": "Q838085",
+   "name": "Fortaleza do Monte",
+   "sl": 15,
+   "file": "I bastioni della Fortaleza do Monte a Macao.jpg",
+   "lat": 22.1969,
+   "lon": 113.5422,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "fortress"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Fortaleza do Monte"
+  },
+  {
+   "id": "Q1414111",
+   "name": "Wynn Macau",
+   "sl": 15,
+   "file": "Wynn Macau Resort.jpg",
+   "lat": 22.188,
+   "lon": 113.5472,
+   "kind": "built",
+   "types": [
+    "resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wynn Macau"
+  },
+  {
+   "id": "Q1106554",
+   "name": "Igreja da Sé",
+   "sl": 14,
+   "file": "Catedral de la Natividad de Nuestra Señora, Macao, 2013-08-08, DD 01.jpg",
+   "lat": 22.1936,
+   "lon": 113.5417,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of the Nativity of Our Lady of Macau"
+  },
+  {
+   "id": "Q3078465",
+   "name": "Guia Fortress",
+   "sl": 13,
+   "file": "Macau - Fortaleza de Guia.JPG",
+   "lat": 22.1965,
+   "lon": 113.55,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guia Fortress"
+  },
+  {
+   "id": "Q3181816",
+   "name": "Leal Senado Building",
+   "sl": 13,
+   "file": "Macao Edificio do Leal Senado.jpg",
+   "lat": 22.1933,
+   "lon": 113.5394,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "public building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Leal Senado"
+  },
+  {
+   "id": "Q1137940",
+   "name": "Sai Van Bridge",
+   "sl": 13,
+   "file": "Southwest View Macau Peninsula2021.jpg",
+   "lat": 22.1722,
+   "lon": 113.5361,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "multi-level bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte de Sai Van"
+  },
+  {
+   "id": "Q837935",
+   "name": "Senado Square",
+   "sl": 13,
+   "file": "Centre of Makau.jpg",
+   "lat": 22.1936,
+   "lon": 113.5397,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Largo do Senado"
+  },
+  {
+   "id": "Q10300753",
+   "name": "St. Joseph the Worker Church",
+   "sl": 13,
+   "file": "SJoséOperário 2.JPG",
+   "lat": 22.2126,
+   "lon": 113.5514,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Igreja de São José Operário (Macau)"
+  },
+  {
+   "id": "Q3182054",
+   "name": "Dom Pedro V Theatre",
+   "sl": 12,
+   "file": "Teatro Don Pedro V, Macao, 2013-08-08, DD 02.jpg",
+   "lat": 22.1919,
+   "lon": 113.5382,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "movie theater",
+    "theatre building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Dom Pedro V Theatre"
+  },
+  {
+   "id": "Q1318967",
+   "name": "Lótus Bridge",
+   "sl": 12,
+   "file": "Lotus-bridge-macau.jpg",
+   "lat": 22.1402,
+   "lon": 113.5468,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lotus Bridge"
+  },
+  {
+   "id": "Q15243366",
+   "name": "Macau Mosque and Cemetery",
+   "sl": 12,
+   "file": "Macau Mosque.JPG",
+   "lat": 22.2028,
+   "lon": 113.5543,
+   "kind": "built",
+   "types": [
+    "cemetery",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Macau Mosque and Cemetery"
+  },
+  {
+   "id": "Q842525",
+   "name": "Museum of Macau",
+   "sl": 12,
+   "file": "Veduta del Museo di Macao, Macao (Museu de Macau).jpg",
+   "lat": 22.1972,
+   "lon": 113.5422,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Macau"
+  },
+  {
+   "id": "Q3271236",
+   "name": "St Lawrence's Church",
+   "sl": 12,
+   "file": "Exterior of Igreja de São Lourenço (Macau), 2023 (03).jpg",
+   "lat": 22.1907,
+   "lon": 113.5368,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Igreja de São Lourenço (Macau)"
+  },
+  {
+   "id": "Q5123666",
+   "name": "City of Dreams",
+   "sl": 11,
+   "file": "The City of Dreams 200907.jpg",
+   "lat": 22.1497,
+   "lon": 113.5661,
+   "kind": "built",
+   "types": [
+    "casino"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "City of Dreams (Macau)"
+  },
+  {
+   "id": "Q995639",
+   "name": "Galaxy Macau",
+   "sl": 11,
+   "file": "GalaxyMacauSign1.jpg",
+   "lat": 22.1497,
+   "lon": 113.5528,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galaxy Macau"
+  },
+  {
+   "id": "Q1047611",
+   "name": "Hotel Lisboa Macau",
+   "sl": 11,
+   "file": "Casino Lisboa (5234400075).jpg",
+   "lat": 22.1898,
+   "lon": 113.545,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casino Lisboa, Macau"
+  },
+  {
+   "id": "Q709079",
+   "name": "Na Tcha Temple",
+   "sl": 11,
+   "file": "Macau Cathedral of Saint Paul Na Tcha Temple 2.JPG",
+   "lat": 22.1977,
+   "lon": 113.5407,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Na Tcha Temple"
+  },
+  {
+   "id": "Q5175282",
+   "name": "Venetian Arena",
+   "sl": 11,
+   "file": "55672-The-Rolling-Stones-14-On-Fire (13063245954).jpg",
+   "lat": 22.1476,
+   "lon": 113.5589,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "CotaiArena"
+  },
+  {
+   "id": "Q11610891",
+   "name": "Capela de São Francisco Xavier",
+   "sl": 10,
+   "file": "Coloane2.jpg",
+   "lat": 22.1169,
+   "lon": 113.5514,
+   "kind": "built",
+   "types": [
+    "chapel",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capela de São Francisco Xavier (Macau)"
+  },
+  {
    "id": "Q6961151",
    "name": "Nam Van Lake",
    "sl": 10,
@@ -14,10 +566,356 @@
    ],
    "whs": false,
    "partOf": null,
-   "also": [
-    "CN"
-   ],
+   "also": [],
    "cat": "Nam Van Lake"
+  },
+  {
+   "id": "Q4310094",
+   "name": "Santa Casa da Misericórdia",
+   "sl": 10,
+   "file": "La Santa Casa da Misericordia, in Largo do Senado, Macao.jpg",
+   "lat": 22.1936,
+   "lon": 113.5403,
+   "kind": "built",
+   "types": [
+    "building",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy House of Mercy of Macau"
+  },
+  {
+   "id": "Q4579079",
+   "name": "St. Joseph's Seminary and Church",
+   "sl": 10,
+   "file": "Exterior of Igreja e Seminário de São José (Macau), 2023 (02).jpg",
+   "lat": 22.1919,
+   "lon": 113.537,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Igreja e Seminário de São José (Macau)"
+  },
+  {
+   "id": "Q281550",
+   "name": "Templo de Kun Iam Tong",
+   "sl": 10,
+   "file": "Pou Chai Temple outside.jpg",
+   "lat": 22.2044,
+   "lon": 113.5503,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kun Iam Temple"
+  },
+  {
+   "id": "Q4118961",
+   "name": "Macau East Asian Games Dome",
+   "sl": 9,
+   "file": "Nave Desportiva Dos Jogos Da Ásia Oriental De Macau.JPG",
+   "lat": 22.14,
+   "lon": 113.57,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Macau East Asian Games Dome"
+  },
+  {
+   "id": "Q6757684",
+   "name": "Mandarin's House",
+   "sl": 9,
+   "file": "Mandarin's House, 2023 (06).jpg",
+   "lat": 22.1886,
+   "lon": 113.5344,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mandarin's House"
+  },
+  {
+   "id": "Q3272047",
+   "name": "Portas do Cerco",
+   "sl": 9,
+   "file": "Portas do Cerco (Macau).jpg",
+   "lat": 22.2158,
+   "lon": 113.5492,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "city gate",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Portas do Cerco"
+  },
+  {
+   "id": "Q7375637",
+   "name": "Rua do Cunha",
+   "sl": 9,
+   "file": "Rua do Cunha.jpg",
+   "lat": 22.1536,
+   "lon": 113.557,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rua do Cunha, Macau"
+  },
+  {
+   "id": "Q7399823",
+   "name": "Sai Van Lake",
+   "sl": 9,
+   "file": "Nam Van Lake - Macau.jpg",
+   "lat": 22.1829,
+   "lon": 113.5351,
+   "kind": "natural",
+   "types": [
+    "artificial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago Sai Van"
+  },
+  {
+   "id": "Q3320500",
+   "name": "Sir Robert Ho Tung Library",
+   "sl": 9,
+   "file": "Sir Robert Ho Tung Library, Macau - 20050716-02.jpg",
+   "lat": 22.1925,
+   "lon": 113.5378,
+   "kind": "built",
+   "types": [
+    "public building",
+    "public library"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sir Robert Ho Tung Library"
+  },
+  {
+   "id": "Q7416895",
+   "name": "The Londoner Macao",
+   "sl": 9,
+   "file": "THE LONDONER MACAU 1.jpg",
+   "lat": 22.1458,
+   "lon": 113.5656,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Londoner Macao"
+  },
+  {
+   "id": "Q16925204",
+   "name": "Wynn Palace",
+   "sl": 9,
+   "file": "Wynn Palace 201602.jpg",
+   "lat": 22.1477,
+   "lon": 113.5711,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wynn Palace"
+  },
+  {
+   "id": "Q7217785",
+   "name": "Camoes Garden",
+   "sl": 8,
+   "file": "Entrance of Camoes Garden.jpg",
+   "lat": 22.2005,
+   "lon": 113.5393,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Camoes Garden"
+  },
+  {
+   "id": "Q4570262",
+   "name": "Casa Garden",
+   "sl": 8,
+   "file": "Casa Garden, 2023 (03).jpg",
+   "lat": 22.2003,
+   "lon": 113.54,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "house"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Casa Garden"
+  },
+  {
+   "id": "Q5594934",
+   "name": "Grand Prix Museum",
+   "sl": 8,
+   "file": "Macau Grand Prix Museum 2.jpg",
+   "lat": 22.1949,
+   "lon": 113.553,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Prix Museum in Macau"
+  },
+  {
+   "id": "Q3274095",
+   "name": "Macau Fisherman's Wharf",
+   "sl": 8,
+   "file": "Macau Fisherman's Wharf2.JPG",
+   "lat": 22.1915,
+   "lon": 113.5566,
+   "kind": "built",
+   "types": [
+    "theme park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Macau Fisherman's Wharf"
+  },
+  {
+   "id": "Q19853330",
+   "name": "MGM Cotai",
+   "sl": 8,
+   "file": "MGM COTAI.jpg",
+   "lat": 22.1458,
+   "lon": 113.568,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "MGM Cotai"
+  },
+  {
+   "id": "Q10924038",
+   "name": "Our Lady of Carmel Church",
+   "sl": 8,
+   "file": "Igreja de Nossa Senhora do Carmo (Macau) 01.JPG",
+   "lat": 22.1535,
+   "lon": 113.5588,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Igreja de Nossa Senhora do Carmo (Macau)"
+  },
+  {
+   "id": "Q6706523",
+   "name": "Our Lady of Penha Chapel",
+   "sl": 8,
+   "file": "Xi wang yang shan sheng tang.jpg",
+   "lat": 22.1869,
+   "lon": 113.5351,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capela de Nossa Senhora da Penha (Macau)"
+  },
+  {
+   "id": "Q2200748",
+   "name": "Sam Kai Vui Kun",
+   "sl": 8,
+   "file": "20260711 Templo de Kuan Tai.jpg",
+   "lat": 22.194,
+   "lon": 113.5394,
+   "kind": "built",
+   "types": [
+    "Guandi temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sam Kai Vui Kun"
+  },
+  {
+   "id": "Q6730196",
+   "name": "St. Anthony's Church",
+   "sl": 8,
+   "file": "Exterior of Igreja de Santo António (Macau), 2023 (02).jpg",
+   "lat": 22.199,
+   "lon": 113.5395,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Igreja de Santo António (Macau)"
+  },
+  {
+   "id": "Q18207985",
+   "name": "The Parisian Macao",
+   "sl": 8,
+   "file": "The Parisian Macao.jpg",
+   "lat": 22.1437,
+   "lon": 113.5607,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Parisian Macao"
   }
  ]
 }

@@ -14,10 +14,112 @@
    ],
    "whs": false,
    "partOf": null,
-   "also": [
-    "US"
-   ],
+   "also": [],
    "cat": "Arecibo Observatory"
+  },
+  {
+   "id": "Q1360523",
+   "name": "Luis Muñoz Marín International Airport",
+   "sl": 30,
+   "file": "Puerto Rico — San Juan — Luis Muñoz Marín International Airport (outside, pick-up-drop-off area).jpg",
+   "lat": 18.4392,
+   "lon": -66.0019,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Luis Muñoz Marín International Airport"
+  },
+  {
+   "id": "Q1638733",
+   "name": "La Fortaleza",
+   "sl": 22,
+   "file": "LaFortaleza SanJuan PuertoRico.jpg",
+   "lat": 18.4641,
+   "lon": -66.1192,
+   "kind": "built",
+   "types": [
+    "fortification",
+    "official residence",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Fortaleza"
+  },
+  {
+   "id": "Q281149",
+   "name": "San Juan National Historic Site",
+   "sl": 19,
+   "file": "San Felipe del Morro view across bay.jpg",
+   "lat": 18.4675,
+   "lon": -66.1103,
+   "kind": "both",
+   "types": [
+    "fortification",
+    "National Historic Site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Juan National Historic Site"
+  },
+  {
+   "id": "Q2375961",
+   "name": "El Yunque National Forest",
+   "sl": 18,
+   "file": "El Yunque in Puerto Rico.jpg",
+   "lat": 18.3167,
+   "lon": -65.7833,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "proclaimed forest",
+    "rainforest",
+    "United States National Forest"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Yunque National Forest"
+  },
+  {
+   "id": "Q2714342",
+   "name": "Cerro de Punta",
+   "sl": 16,
+   "file": "Cerro Punta Puerto Rico.JPG",
+   "lat": 18.1725,
+   "lon": -66.5919,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro de Punta"
+  },
+  {
+   "id": "Q1171030",
+   "name": "Juan Ramón Loubriel Stadium",
+   "sl": 16,
+   "file": "Orangestarsultra.jpg",
+   "lat": 18.3933,
+   "lon": -66.1508,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juan Ramón Loubriel Stadium"
   },
   {
    "id": "Q1369267",
@@ -36,6 +138,39 @@
    "cat": "Estadio Hiram Bithorn"
   },
   {
+   "id": "Q550502",
+   "name": "Castillo San Felipe del Morro",
+   "sl": 14,
+   "file": "Castillo San Felipe del Morro3.jpg",
+   "lat": 18.4711,
+   "lon": -66.1244,
+   "kind": "built",
+   "types": [
+    "fort",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castillo San Felipe del Morro"
+  },
+  {
+   "id": "Q5052384",
+   "name": "Cathedral of San Juan Bautista",
+   "sl": 14,
+   "file": "Catedral de San Juan Bautista a.jpg",
+   "lat": 18.4658,
+   "lon": -66.1178,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de San Juan Bautista de Puerto Rico"
+  },
+  {
    "id": "Q3137182",
    "name": "Museo de Arte de Ponce",
    "sl": 13,
@@ -50,6 +185,238 @@
    "partOf": null,
    "also": [],
    "cat": "Museo de Arte de Ponce"
+  },
+  {
+   "id": "Q2276582",
+   "name": "Rafael Hernández Airport",
+   "sl": 13,
+   "file": "Aguadilla airport.jpg",
+   "lat": 18.495,
+   "lon": -67.1294,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rafael Hernández Airport"
+  },
+  {
+   "id": "Q3850219",
+   "name": "Roosevelt Roads Naval Station",
+   "sl": 13,
+   "file": "NSRooseveltRoads.png",
+   "lat": 18.2451,
+   "lon": -65.6434,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naval Station Roosevelt Roads"
+  },
+  {
+   "id": "Q5408306",
+   "name": "Eugenio María de Hostos Airport",
+   "sl": 12,
+   "file": "Eugenio Maria de Hostos Airport Tower.jpg",
+   "lat": 18.2557,
+   "lon": -67.1485,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5444795",
+   "name": "Fernando Luis Ribas Dominicci Airport",
+   "sl": 12,
+   "file": "Isla Grande Airport (SIG), San Juan, Puerto Rico (12173864883).jpg",
+   "lat": 18.4567,
+   "lon": -66.0983,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fernando Luis Ribas Dominicci Airport"
+  },
+  {
+   "id": "Q2901846",
+   "name": "José Aponte de la Torre Airport",
+   "sl": 12,
+   "file": "AeropuertoJoseAponteDeLaTorre Ceiba PR.jpg",
+   "lat": 18.2453,
+   "lon": -65.6433,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "José Aponte de la Torre Airport"
+  },
+  {
+   "id": "Q1321656",
+   "name": "Antonio Rivera Rodríguez Airport",
+   "sl": 11,
+   "file": "Antonio Rivera Rodríguez Airport VQS.jpg",
+   "lat": 18.1347,
+   "lon": -65.4936,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antonio Rivera Rodríguez Airport"
+  },
+  {
+   "id": "Q620090",
+   "name": "Benjamín Rivera Noriega Airport",
+   "sl": 11,
+   "file": "Culebra Airport.JPG",
+   "lat": 18.3133,
+   "lon": -65.3044,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Benjamín Rivera Noriega Airport"
+  },
+  {
+   "id": "Q2889550",
+   "name": "José Miguel Agrelot Coliseum",
+   "sl": 11,
+   "file": "Coliseum of PR.JPG",
+   "lat": 18.4277,
+   "lon": -66.0614,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "José Miguel Agrelot Coliseum"
+  },
+  {
+   "id": "Q652578",
+   "name": "Mercedita Airport",
+   "sl": 11,
+   "file": "Mercedita Airport.JPG",
+   "lat": 18.0083,
+   "lon": -66.5631,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3748608",
+   "name": "Castillo San Cristóbal",
+   "sl": 10,
+   "file": "Fort San Cristóbal (Puerto Rico) - IMG 0173.JPG",
+   "lat": 18.4672,
+   "lon": -66.1111,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castillo San Cristóbal"
+  },
+  {
+   "id": "Q4212987",
+   "name": "Capitol of Puerto Rico",
+   "sl": 9,
+   "file": "Puerto Rico Capitol.JPG",
+   "lat": 18.4667,
+   "lon": -66.1058,
+   "kind": "built",
+   "types": [
+    "capitol building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capitol of Puerto Rico"
+  },
+  {
+   "id": "Q5400221",
+   "name": "Estadio Francisco Montaner",
+   "sl": 8,
+   "file": "Main Entrance to Paquito Montaner Stadium in Barrio Canas, Ponce, Puerto Rico (IMG-3349).jpg",
+   "lat": 18.0024,
+   "lon": -66.6318,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5457193",
+   "name": "Flamenco Beach",
+   "sl": 8,
+   "file": "Culebra - Playa de Flamenco.jpg",
+   "lat": 18.328,
+   "lon": -65.3163,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Flamenco Beach"
+  },
+  {
+   "id": "Q6796783",
+   "name": "Mayagüez Athletics Stadium",
+   "sl": 8,
+   "file": "Centralamericanstadium.jpg",
+   "lat": 18.1911,
+   "lon": -67.1558,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mayagüez Athletics Stadium"
   }
  ]
 }
