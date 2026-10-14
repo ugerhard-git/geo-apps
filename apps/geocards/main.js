@@ -435,21 +435,28 @@ $("toggleKey").addEventListener("click", () => {
 function paintKeyToggle() {
   const open = !$("keypanel").hidden;
   const has = !!$("apikey").value.trim();
-  $("toggleKey").textContent = open
-    ? "Hide API key settings"
-    : has
-      ? "API key settings (a key is saved)"
-      : "API key settings";
+  const checking = $("checkKey").disabled;
+  const status = state.keyOk
+    ? " (key active)"
+    : checking
+      ? " (checking key\u2026)"
+      : has
+        ? " (key not active)"
+        : "";
+  $("toggleKey").textContent = open ? "Hide API key settings" : "API key settings" + status;
 }
 
-$("checkKey").addEventListener("click", async () => {
-  const key = $("apikey").value.trim();
-  if (!key) {
-    keySay("Paste a key first.", true);
-    return;
-  }
-  $("checkKey").disabled = true;
-  keySay("Checking\u2026");
+/**
+ * Check a REST Countries key and, if it is accepted, switch to that data set.
+ * Used by the "Check key" button and, at start-up, for a saved key.
+ *
+ * @param {string} key
+ * @param {{auto?: boolean}} [opts] auto: started by the page, not the user
+ */
+async function applyKey(key, { auto = false } = {}) {
+  $("checkKey").disabled = true; // also tells paintKeyToggle a check is running
+  paintKeyToggle();
+  keySay(auto ? "Checking the saved key\u2026" : "Checking\u2026");
   try {
     const total = await rcCheckKey(key);
     state.apiKey = key;
@@ -460,17 +467,31 @@ $("checkKey").addEventListener("click", async () => {
     if ($("rememberKey").checked) saveKey("restcountries", key);
     paintSource();
     await useSource("rest");
+    if (auto && !state.country) say("Your saved REST Countries key is active.");
   } catch (err) {
     state.keyOk = false;
     state.apiKey = "";
     state.keyToken++;
     invalidateAtlas();
     paintSource();
-    keySay(err.hint || err.message || "The key could not be checked.", true);
+    const why = err.hint || err.message || "The key could not be checked.";
+    keySay(why, true);
+    if (auto)
+      say("Your saved REST Countries key didn\u2019t work, so open data is in use. " + why, true);
     console.error(err);
   } finally {
     $("checkKey").disabled = false;
+    paintKeyToggle();
   }
+}
+
+$("checkKey").addEventListener("click", () => {
+  const key = $("apikey").value.trim();
+  if (!key) {
+    keySay("Paste a key first.", true);
+    return;
+  }
+  applyKey(key);
 });
 
 $("forgetKey").addEventListener("click", async () => {
@@ -545,9 +566,11 @@ const saved = getKey("restcountries");
 if (saved) {
   $("apikey").value = saved;
   $("rememberKey").checked = true;
-  keySay("A saved key is loaded. Check it to switch to REST Countries.");
 }
 paintSource();
 paintKeyToggle();
 buildPicker();
 ensureFonts();
+// A saved key is checked and applied straight away; the page works with open
+// data in the meantime, and stays on it if the key is refused.
+if (saved) applyKey(saved, { auto: true });
