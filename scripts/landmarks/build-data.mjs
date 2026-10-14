@@ -48,25 +48,6 @@ async function sparql(text) {
         signal: AbortSignal.timeout(120_000),
       });
       const reply = await r.text();
-      if (process.env.LANDMARKS_QUICK) {
-        let detail = "";
-        if (!r.ok) {
-          try {
-            const j = JSON.parse(reply);
-            detail = Object.entries(j)
-              .map(([k, v]) => k + "=" + JSON.stringify(v).slice(0, 200))
-              .join(" ; ");
-          } catch {
-            detail = reply.slice(0, 400);
-          }
-        }
-        const head = text
-          .slice(text.indexOf("SELECT"), text.indexOf("SELECT") + 40)
-          .replace(/\s+/g, " ");
-        console.log(
-          `::notice title=timing::${head} → HTTP ${r.status}, ${reply.length} bytes ${detail.replace(/\s+/g, " ").slice(0, 1500)}`,
-        );
-      }
       if (r.status === 429 && !reply.startsWith("{")) {
         // Rate-limited (an HTML page), as opposed to a query timeout (JSON).
         const after = parseInt(r.headers.get("retry-after") || "", 10);
@@ -149,6 +130,11 @@ for (const [i, t] of countries.entries()) {
     const why = {};
     for (const d of dropped)
       why[d.reason.replace(/\d+/g, "n")] = (why[d.reason.replace(/\d+/g, "n")] || 0) + 1;
+    // For a partial run, the top of each list as an annotation. Names come
+    // from a wiki, so "%" and line breaks are escaped: the runner must see
+    // one command, with plain text in it.
+    /** @param {string} x */
+    const esc = (x) => x.replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A");
     if (process.env.GITHUB_ACTIONS && wanted.length)
       console.log(
         `::notice title=${t.code}::` +
@@ -156,13 +142,13 @@ for (const [i, t] of countries.entries()) {
             .slice(0, 25)
             .map(
               (k, n) =>
-                `${n + 1}. ${k.name} [${k.sl}] ${k.kind}${k.whs ? " WHS" : ""}${k.also.length ? " ALSO " + k.also.join(",") : ""} (${k.types.join(", ")})`,
+                `${n + 1}. ${esc(k.name)} [${k.sl}] ${k.kind}${k.whs ? " WHS" : ""}${k.also.length ? " ALSO " + k.also.join(",") : ""} (${esc(k.types.join(", "))})`,
             )
             .join("%0A") +
           `%0ADropped: ` +
           dropped
             .slice(0, 15)
-            .map((d) => `${d.name} [${d.sl}] → ${d.reason}`)
+            .map((d) => `${esc(d.name)} [${d.sl}] → ${d.reason}`)
             .join("; "),
       );
     console.log(
@@ -180,6 +166,8 @@ for (const [i, t] of countries.entries()) {
       console.log(
         `::warning title=${t.code} failed::${String((e && e.stack) || e)
           .slice(0, 800)
+          .replace(/%/g, "%25")
+          .replace(/\r/g, "%0D")
           .replace(/\n/g, "%0A")}`,
       );
     // Keep the previous file's count in the index, if there is one.

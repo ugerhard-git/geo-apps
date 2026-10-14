@@ -96,9 +96,10 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `net.js`            | `getJson`, size-capped `fetchBytes`/`getLargeJson`, `parseCsv`, shared endpoints   |
 | `cldr.js`           | Country names and ISO codes from Unicode CLDR                                      |
 | `country-picker.js` | The type-ahead country search and its ranking                                      |
-| `commons.js`        | Wikimedia Commons API, safe image URLs, licence classification                     |
+| `commons.js`        | Wikimedia Commons API, safe image URLs, licences, file info for sheets             |
 | `images.js`         | Loading remote images so a canvas stays exportable                                 |
 | `image-grid.js`     | Laying images out on a sheet with attribution lines                                |
+| `photo-sheet.js`    | Photos on a sheet, uncropped (`justified.js`), credits in full (`credits.js`)      |
 | `blur.js`           | Blurring regions of an image                                                       |
 | `wikipedia.js`      | Reading an article's infobox                                                       |
 | `geo.js`            | TopoJSON decoding, distances, finding a country's mainland                         |
@@ -108,6 +109,25 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `geonames.js`       | The GeoNames city list (all-the-cities): a bounds-checked decoder and loader       |
 | `keys.js`           | API keys shared by all apps (see below)                                            |
 | `back-link.js`      | The "Back to apps overview" link, shown only on the published site                 |
+
+## Precomputed data: Landmarks
+
+The Landmarks app reads one file per country from `apps/landmarks/data/`. They are
+built by `scripts/landmarks/build-data.mjs`, which asks
+[QLever](https://qlever.cs.uni-freiburg.de/wikidata) (a fast query engine over
+Wikidata) for each country's buildings, monuments and natural sights, ranks them by
+the number of Wikipedias with an article about them, and filters out what can't be
+pictured as one sight (seas, regions, towns, tunnels). The rules are in
+`scripts/landmarks/select.js`, with unit tests.
+
+`.github/workflows/landmarks-data.yml` reruns it on the 1st of every month (about 50
+minutes) and opens a pull request with whatever changed; it can also be started by
+hand under **Actions → Landmarks data → Run workflow**. For the pull request to be
+opened automatically, enable **Settings → Actions → General → Allow GitHub Actions to
+create and approve pull requests**; otherwise the workflow pushes a
+`landmarks-data-<date>` branch and says so.
+
+To rebuild a few countries locally: `node scripts/landmarks/build-data.mjs FR JP`.
 
 ## API keys
 
@@ -146,7 +166,8 @@ rules that keep that in check:
   REST Countries key.
 - **API keys** live only in the visitor's browser, opt-in, and are only sent to
   their own service (`shared/keys.js`).
-- **CI** runs with read-only permissions; only the Pages deploy job can publish.
+- **CI** runs with read-only permissions; only the Pages deploy job can publish,
+  and only the Landmarks data job can push (to its own branch, via a pull request).
 
 ## Editor setup
 

@@ -2,9 +2,15 @@
 # opens a pull request with the changes, so nothing reaches the site without
 # a review. Also runs on demand: Actions → "Landmarks data" → Run workflow.
 #
-# The job only runs code from this repository; the data it fetches from
-# Wikidata (via QLever) is cleaned by scripts/landmarks/select.js and written
-# as JSON, never executed.
+# This is the only workflow besides the Pages deploy that can write, so it is
+# kept narrow:
+#   - it runs only on a schedule or by hand, never for pull requests, so it
+#     only ever runs code from main;
+#   - it installs nothing (no npm), and its actions are pinned to commits;
+#   - the token is only handed to git in the last step, after the data has
+#     been built, and only to push a new branch and open a pull request.
+# The data it fetches from Wikidata (via QLever) is cleaned by
+# scripts/landmarks/select.js and written as JSON, never executed.
 name: Landmarks data
 
 on:
@@ -27,8 +33,10 @@ jobs:
       contents: write # to push the data branch
       pull-requests: write # to open the pull request
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version-file: .nvmrc
       - name: Build the data
@@ -47,8 +55,8 @@ jobs:
           git switch -c "$branch"
           git add apps/landmarks/data
           git commit -m "Landmarks data: monthly refresh $(date -u +%Y-%m-%d)"
-          git push origin "$branch"
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$branch"
           gh pr create --base main --head "$branch" \
             --title "Landmarks data: monthly refresh $(date -u +%Y-%m-%d)" \
-            --body "Refreshed by the Landmarks data workflow (run ${{ github.run_id }}). Review the changed countries, then merge to publish." \
+            --body "Refreshed by the Landmarks data workflow (run ${GITHUB_RUN_ID}). Check the changed countries, then merge to publish." \
           || echo "::warning::Couldn't open the pull request. Enable Settings → Actions → General → 'Allow GitHub Actions to create and approve pull requests', or open one from the $branch branch."
