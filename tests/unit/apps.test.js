@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { casePair, parseUnicodeSet, scriptOf } from "../../apps/alphabets/unicode.js";
+import { fitCredit, wrapCredit } from "../../apps/endemics/credits.js";
 import { justifiedRows } from "../../apps/endemics/layout.js";
 import { joinChoices } from "../../apps/export-treemap/countries.js";
 import { cubeFor, toProducts } from "../../apps/export-treemap/oec.js";
@@ -186,4 +187,30 @@ test("endemics: justifiedRows keeps every photo's shape and fits the box", () =>
     aspects.map((_, i) => i),
   );
   assert.deepEqual(justifiedRows([], box, gap, 0), []);
+});
+
+test("endemics: credits wrap in full, breaking links after / ? & =", () => {
+  const measure = (/** @type {string} */ t) => t.length; // 1 unit per character
+  const credit = "Ann Lee · CC BY-SA 4.0 · commons.wikimedia.org/w/index.php?curid=798034";
+  const lines = wrapCredit(credit, 24, 4, measure);
+  assert.ok(lines);
+  assert.ok(
+    lines.every((l) => l.length <= 24),
+    JSON.stringify(lines),
+  );
+  // nothing lost: the lines put back together give the whole credit
+  assert.equal(lines.join(" ").replace(/\/ /g, "/").replace(/\? /g, "?"), credit);
+  assert.equal(wrapCredit(credit, 24, 2, measure), null, "too many lines needed");
+  assert.deepEqual(wrapCredit("short", 24, 1, measure), ["short"]);
+});
+
+test("endemics: fitCredit shrinks the font only when wrapping isn't enough", () => {
+  // width grows with font size: px/10 units per character
+  const measureAt = (/** @type {string} */ t, /** @type {number} */ px) => (t.length * px) / 10;
+  const credit = "Ann Lee · CC BY 4.0 · commons.wikimedia.org/x";
+  const wide = fitCredit(credit, 200, 1, 20, 8, measureAt);
+  assert.equal(wide?.px, 20, "fits on one line at full size");
+  const narrow = fitCredit(credit, 40, 3, 20, 8, measureAt);
+  assert.ok(narrow && narrow.px < 20 && narrow.lines.length <= 3);
+  assert.equal(fitCredit(credit, 5, 1, 20, 8, measureAt), null);
 });

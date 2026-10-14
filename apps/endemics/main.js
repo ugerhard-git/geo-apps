@@ -1,10 +1,10 @@
 /**
- * Endemic animals — photographs of species found only in one country, with
- * decoys from elsewhere, arranged on a quiz sheet.
+ * Endemic animals — photographs of species found only in one country,
+ * arranged on a quiz sheet.
  *
  * Flow: pick a country → Wikipedia's endemic-fauna category lists its
- * species → their lead photographs come from Commons → decoys from other
- * countries are mixed in → click thumbnails to put them on the sheet → export.
+ * species → their lead photographs come from Commons → click thumbnails to
+ * put them on the sheet → export.
  *
  * This file holds the app's state, the panels and the wiring. Fetching lives
  * in species-data.js and drawing in render.js.
@@ -18,8 +18,8 @@ import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../.
 import { createImageLoader, TAINTED_MESSAGE } from "../../shared/images.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { bareName, cleanText, norm, slugify } from "../../shared/text.js";
-import { clamp, own, rng } from "../../shared/util.js";
-import { ALIASES, DECOY_POOL, DECOY_SEED, MAX_SELECTED } from "./config.js";
+import { own } from "../../shared/util.js";
+import { ALIASES, MAX_SELECTED } from "./config.js";
 import { drawSheet } from "./render.js";
 import { endemicsOf, photographs } from "./species-data.js";
 
@@ -40,8 +40,6 @@ let COUNTRIES = [];
 let chosen = null;
 /** @type {Species[]} endemic to the chosen country */
 let homeSpecies = [];
-/** @type {Species[]} endemic to other countries, mixed in as decoys */
-let decoySpecies = [];
 /** @type {Species[]} everything offered in the picker */
 let candidates = [];
 /** @type {Species[]} what's on the sheet, in order */
@@ -50,12 +48,6 @@ let selected = [];
 let busy = 0;
 
 const images = createImageLoader();
-
-/** @param {string} code */
-const nameOf = (code) => {
-  const c = COUNTRIES.find((x) => x.code === code);
-  return c ? c.name : code;
-};
 
 /** @returns {import("./render.js").SheetOptions} */
 function currentOptions() {
@@ -81,17 +73,14 @@ const licenceAllowed = (rec) => licenceAllows($("licFilter").value, rec);
    Panels
    ═══════════════════════════════════════════════════════════ */
 
-/** The picker grid of thumbnails; decoys are marked with where they're from. */
+/** The picker grid of thumbnails. */
 function renderGrid() {
   const q = norm($("filter").value);
   const list = candidates.filter(
     (r) => licenceAllowed(r) && (!q || (r.keywords || "").includes(q)),
   );
-  const fromElsewhere = candidates.filter((r) => r.home !== (chosen ? chosen.code : "")).length;
   $("pickerCount").textContent =
-    `${list.length} shown of ${candidates.length}` +
-    (fromElsewhere ? ` · ${fromElsewhere} from elsewhere` : "") +
-    ` · ${selected.length} of ${MAX_SELECTED} chosen`;
+    `${list.length} shown of ${candidates.length} · ${selected.length} of ${MAX_SELECTED} chosen`;
   $("grid").replaceChildren(...list.map(tileFor));
   $("picker").hidden = !candidates.length;
 }
@@ -102,8 +91,7 @@ function renderGrid() {
  */
 function tileFor(rec) {
   const tile = document.createElement("div");
-  const isDecoy = chosen && rec.home !== chosen.code;
-  tile.className = "tile" + (selected.includes(rec) ? " on" : "") + (isDecoy ? " decoy" : "");
+  tile.className = "tile" + (selected.includes(rec) ? " on" : "");
 
   const thumb = document.createElement("div");
   thumb.className = "thumb";
@@ -119,12 +107,6 @@ function tileFor(rec) {
   const name = document.createElement("b");
   name.textContent = rec.name; // text, never markup
   meta.append(name);
-  if (isDecoy) {
-    const tag = document.createElement("span");
-    tag.className = "tag";
-    tag.textContent = "from " + nameOf(rec.home);
-    meta.append(tag);
-  }
 
   const lic = document.createElement("span");
   lic.className = "lic " + licenceClass(rec.licence);
@@ -199,11 +181,6 @@ function renderSources() {
     "Only articles carrying a lead photograph can appear, which skews the result towards vertebrates. A country's endemic species are in reality mostly insects, snails and other invertebrates, few of which are illustrated.",
     "Pages that are lists or overviews rather than single species are left out by their titles, which is a rule of thumb rather than a guarantee.",
   ];
-  const decoys = candidates.filter((r) => chosen && r.home !== chosen.code);
-  if (decoys.length)
-    caveats.push(
-      `${decoys.length} species on offer are endemic to other countries and are marked as such in the picker; they are there to make the sheet a question rather than a recognition test.`,
-    );
   $("caveat").textContent = caveats.join(" ");
   $("sources").hidden = !selected.length;
 }
@@ -229,7 +206,6 @@ async function pickCountry(c) {
   if (!c) return;
   chosen = c;
   homeSpecies = [];
-  decoySpecies = [];
   candidates = [];
   selected = [];
   $("country").value = c.name;
@@ -270,7 +246,7 @@ async function pickCountry(c) {
       );
       return;
     }
-    await rebuildCandidates();
+    await showCandidates();
   } catch (e) {
     note("Couldn't look up endemic species: " + cleanText(e && e.message, 90) + ".", true);
   } finally {
@@ -278,43 +254,10 @@ async function pickCountry(c) {
   }
 }
 
-/**
- * Mix species from elsewhere in, so the sheet asks a question rather than
- * testing recognition. They come from other countries' endemic lists, which
- * means everything on the sheet looks equally exotic.
- */
-async function rebuildCandidates() {
-  decoySpecies = [];
-  if ($("optDecoys").checked && chosen) {
-    const want = clamp(+$("decoyShare").value || 2, 1, 4);
-    const pool = DECOY_POOL.filter((code) => code !== chosen?.code);
-    // A proper shuffle: sorting by a random comparator is both biased and
-    // inconsistent, which some engines object to.
-    const rand = rng(DECOY_SEED + chosen.code.charCodeAt(0));
-    for (let i = pool.length - 1; i > 0; i--) {
-      const j = Math.floor(rand() * (i + 1));
-      [pool[i], pool[j]] = [pool[j], pool[i]];
-    }
-    const picks = pool.slice(0, Math.min(3, want + 1));
-    for (const code of picks) {
-      progress(`Fetching species from ${nameOf(code)} to mix in`, true);
-      try {
-        const other = COUNTRIES.find((x) => x.code === code);
-        if (!other) continue;
-        const got = await endemicsOf(other);
-        decoySpecies.push(...(await photographs(got.taxa.slice(0, 12))));
-      } catch {
-        /* a decoy source that fails is not worth stopping for */
-      }
-    }
-    progress(null);
-  }
-  candidates = [...homeSpecies, ...decoySpecies];
-  note(
-    `${homeSpecies.length} endemic to ${chosen ? chosen.name : "here"}` +
-      (decoySpecies.length ? `, plus ${decoySpecies.length} from elsewhere` : "") +
-      ".",
-  );
+/** Offer the country's species in the picker. */
+function showCandidates() {
+  candidates = [...homeSpecies];
+  note(`${homeSpecies.length} endemic to ${chosen ? chosen.name : "here"}.`);
   renderGrid();
   refresh();
 }
@@ -358,9 +301,6 @@ function syncUI() {
   $("pngOnly").hidden = !transparent;
   $("revealTag").hidden = !$("optCountry").checked;
   $("nameTag").hidden = !$("optNames").checked;
-  $("decoyCountField").hidden = !$("optDecoys").checked;
-  const share = clamp(+$("decoyShare").value || 2, 1, 4);
-  $("decoyShareOut").textContent = ["a few", "half", "most", "nearly all"][share - 1];
 }
 
 /**
@@ -405,16 +345,6 @@ $("licFilter").addEventListener("change", () => {
   refresh();
 });
 $("filter").addEventListener("input", debounce(renderGrid, 150));
-
-$("optDecoys").addEventListener("change", () => {
-  syncUI();
-  if (homeSpecies.length) rebuildCandidates();
-});
-$("decoyShare").addEventListener("change", () => {
-  syncUI();
-  if (homeSpecies.length && $("optDecoys").checked) rebuildCandidates();
-});
-$("decoyShare").addEventListener("input", syncUI);
 
 for (const id of ["optNames", "optCountry", "optTransparent"])
   $(id).addEventListener("change", () => {
