@@ -1,4 +1,1386 @@
 {
  "country": "NL",
- "items": []
+ "items": [
+  {
+   "id": "Q9694",
+   "name": "Amsterdam Schiphol Airport",
+   "sl": 94,
+   "file": "Ams-above-2007.jpg",
+   "lat": 52.3081,
+   "lon": 4.7642,
+   "kind": "built",
+   "types": [
+    "cadastral populated place in the Netherlands",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amsterdam Airport Schiphol"
+  },
+  {
+   "id": "Q190804",
+   "name": "Rijksmuseum",
+   "sl": 70,
+   "file": "Rijksmuseum in Amsterdam.jpg",
+   "lat": 52.36,
+   "lon": 4.8853,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "data set",
+    "history museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rijksmuseum Amsterdam"
+  },
+  {
+   "id": "Q185405",
+   "name": "Amstel",
+   "sl": 60,
+   "file": "Amsterdam Amstel 20041105.jpg",
+   "lat": 52.2875,
+   "lon": 4.8875,
+   "kind": "built",
+   "types": [
+    "gracht",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amstel"
+  },
+  {
+   "id": "Q224124",
+   "name": "Van Gogh Museum",
+   "sl": 60,
+   "file": "Van Gogh Museum.jpg",
+   "lat": 52.3583,
+   "lon": 4.8811,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "cultural institution",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Van Gogh Museum"
+  },
+  {
+   "id": "Q4121",
+   "name": "IJsselmeer",
+   "sl": 55,
+   "file": "North Holland, Flevoland and parts of Friesland by Sentinel-2, 2018-06-30 (small version).jpg",
+   "lat": 52.8167,
+   "lon": 5.25,
+   "kind": "natural",
+   "types": [
+    "artificial lake",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "IJsselmeer"
+  },
+  {
+   "id": "Q207109",
+   "name": "Johan Cruyff Arena",
+   "sl": 54,
+   "file": "Arena, Ajax stadion, Amsterdam.JPG",
+   "lat": 52.3142,
+   "lon": 4.9419,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Johan Cruijff ArenA"
+  },
+  {
+   "id": "Q18769666",
+   "name": "Keukenhof",
+   "sl": 52,
+   "file": "Keukenhof 2018 DSC 0508.jpg",
+   "lat": 52.2689,
+   "lon": 4.5472,
+   "kind": "built",
+   "types": [
+    "flower garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Keukenhof"
+  },
+  {
+   "id": "Q228655",
+   "name": "Zuiderzee",
+   "sl": 52,
+   "file": "Nederland 1916 rus.jpg",
+   "lat": 52.7,
+   "lon": 5.4,
+   "kind": "natural",
+   "types": [
+    "empoldered inlet",
+    "inland sea"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zuiderzee"
+  },
+  {
+   "id": "Q33426218",
+   "name": "Brielle",
+   "sl": 49,
+   "file": "060908 020 brielle centrum.jpg",
+   "lat": 51.9017,
+   "lon": 4.1625,
+   "kind": "built",
+   "types": [
+    "cadastral populated place in the Netherlands",
+    "fortified town",
+    "human settlement",
+    "place with town rights and privileges"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brielle"
+  },
+  {
+   "id": "Q221092",
+   "name": "Mauritshuis",
+   "sl": 49,
+   "file": "Mauritshuis Museum (14346890947).jpg",
+   "lat": 52.0804,
+   "lon": 4.3143,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mauritshuis"
+  },
+  {
+   "id": "Q159860",
+   "name": "Vaalserberg",
+   "sl": 47,
+   "file": "Ac vaalserberg.JPG",
+   "lat": 50.7547,
+   "lon": 6.0208,
+   "kind": "both",
+   "types": [
+    "hill",
+    "international tripoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BE",
+    "DE"
+   ],
+   "cat": "Vaalserberg"
+  },
+  {
+   "id": "Q330298",
+   "name": "De Kuip",
+   "sl": 46,
+   "file": "StadionFeyenoord.jpg",
+   "lat": 51.8939,
+   "lon": 4.5233,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Feijenoord Stadion"
+  },
+  {
+   "id": "Q834448",
+   "name": "Peace Palace",
+   "sl": 45,
+   "file": "Friedenspalast Den Haag (100MP).jpg",
+   "lat": 52.0866,
+   "lon": 4.2955,
+   "kind": "built",
+   "types": [
+    "courthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peace Palace"
+  },
+  {
+   "id": "Q240960",
+   "name": "Afsluitdijk",
+   "sl": 42,
+   "file": "Afsluitdijk 1031.jpg",
+   "lat": 53,
+   "lon": 5.1667,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Afsluitdijk"
+  },
+  {
+   "id": "Q1348234",
+   "name": "Eindhoven Airport",
+   "sl": 42,
+   "file": "Vertekhal Eindhoven airport.jpg",
+   "lat": 51.4506,
+   "lon": 5.3742,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eindhoven Airport"
+  },
+  {
+   "id": "Q733234",
+   "name": "Efteling",
+   "sl": 40,
+   "file": "Efteling The House of the Five Senses.jpg",
+   "lat": 51.6503,
+   "lon": 5.0481,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "theme park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Efteling"
+  },
+  {
+   "id": "Q1027807",
+   "name": "Port of Rotterdam",
+   "sl": 40,
+   "file": "Port of Rotterdam Landsat 8 Photo 8 May 2016.jpg",
+   "lat": 51.885,
+   "lon": 4.2867,
+   "kind": "both",
+   "types": [
+    "organization",
+    "seaport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Rotterdam"
+  },
+  {
+   "id": "Q855003",
+   "name": "Defence Line of Amsterdam",
+   "sl": 39,
+   "file": "Fort bij Spijkerboor bovenzijde geschutskoepel.JPG",
+   "lat": 52.3744,
+   "lon": 4.8931,
+   "kind": "built",
+   "types": [
+    "fortification",
+    "Nationaal Landschap",
+    "waterline"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64590253",
+    "name": "Dutch Water Defence Lines"
+   },
+   "also": [],
+   "cat": "Stelling van Amsterdam"
+  },
+  {
+   "id": "Q165366",
+   "name": "Anne Frank House",
+   "sl": 38,
+   "file": "Amsterdam (Paises Bajos) (15316045410).jpg",
+   "lat": 52.3751,
+   "lon": 4.884,
+   "kind": "built",
+   "types": [
+    "historic house museum",
+    "war memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anne Frank House"
+  },
+  {
+   "id": "Q849957",
+   "name": "Concertgebouw",
+   "sl": 38,
+   "file": "Concertgebouw in Amsterdam April 2015.jpg",
+   "lat": 52.3563,
+   "lon": 4.8791,
+   "kind": "built",
+   "types": [
+    "concert hall",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Concertgebouw, Amsterdam"
+  },
+  {
+   "id": "Q500972",
+   "name": "Philips Stadion",
+   "sl": 38,
+   "file": "Philips Stadion.jpg",
+   "lat": 51.4417,
+   "lon": 5.4674,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Philips Stadion"
+  },
+  {
+   "id": "Q924335",
+   "name": "Stedelijk Museum Amsterdam",
+   "sl": 38,
+   "file": "De nieuwe vleugel van het Stedelijk Museum Amsterdam.jpg",
+   "lat": 52.3578,
+   "lon": 4.8797,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "building",
+    "place"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stedelijk Museum Amsterdam"
+  },
+  {
+   "id": "Q503319",
+   "name": "Olympic Stadium",
+   "sl": 37,
+   "file": "Olstadion.jpg",
+   "lat": 52.3434,
+   "lon": 4.8542,
+   "kind": "built",
+   "types": [
+    "Olympic stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olympisch Stadion"
+  },
+  {
+   "id": "Q1056152",
+   "name": "Royal Palace of Amsterdam",
+   "sl": 37,
+   "file": "Palacio Real, Ámsterdam, Países Bajos, 2016-05-30, DD 07-09 HDR.jpg",
+   "lat": 52.3732,
+   "lon": 4.8914,
+   "kind": "built",
+   "types": [
+    "city hall",
+    "museum building",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Palace of Amsterdam"
+  },
+  {
+   "id": "Q669547",
+   "name": "Wieringen",
+   "sl": 37,
+   "file": "Oosterland Wieringen.jpg",
+   "lat": 52.9,
+   "lon": 4.97,
+   "kind": "natural",
+   "types": [
+    "island",
+    "place with town rights and privileges"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wieringen"
+  },
+  {
+   "id": "Q50719",
+   "name": "Amsterdam Central station",
+   "sl": 36,
+   "file": "Amsterdam centraal side.jpg",
+   "lat": 52.379,
+   "lon": 4.9002,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "geocode area",
+    "railway station",
+    "station building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amsterdam Central station"
+  },
+  {
+   "id": "Q914231",
+   "name": "Rietveld Schröder House",
+   "sl": 36,
+   "file": "Rietveld Schröderhuis HayKranen-20.JPG",
+   "lat": 52.0853,
+   "lon": 5.1476,
+   "kind": "built",
+   "types": [
+    "historic house museum",
+    "single-family detached home"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rietveld Schröder House"
+  },
+  {
+   "id": "Q747322",
+   "name": "Madurodam",
+   "sl": 35,
+   "file": "Madurodam pays bas.JPG",
+   "lat": 52.0994,
+   "lon": 4.2976,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "miniature park",
+    "sculpture",
+    "war memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madurodam"
+  },
+  {
+   "id": "Q656807",
+   "name": "Rotterdam The Hague Airport",
+   "sl": 34,
+   "file": "2010-05-16-rotterdam-by-RalfR-02.jpg",
+   "lat": 51.95,
+   "lon": 4.4333,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rotterdam The Hague Airport"
+  },
+  {
+   "id": "Q839050",
+   "name": "Dam Square",
+   "sl": 33,
+   "file": "Amsterdam - Dak van de Stad (14).jpg",
+   "lat": 52.3731,
+   "lon": 4.8928,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dam Square"
+  },
+  {
+   "id": "Q727389",
+   "name": "De Grolsch Veste",
+   "sl": 33,
+   "file": "Grolsch Veste wedstrijd.JPG",
+   "lat": 52.2367,
+   "lon": 6.8375,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "De Grolsch Veste"
+  },
+  {
+   "id": "Q939766",
+   "name": "Markermeer",
+   "sl": 33,
+   "file": "North Holland, Flevoland and parts of Friesland by Sentinel-2, 2018-06-30 (small version).jpg",
+   "lat": 52.5667,
+   "lon": 5.2167,
+   "kind": "natural",
+   "types": [
+    "artificial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Markermeer"
+  },
+  {
+   "id": "Q1067235",
+   "name": "GelreDome",
+   "sl": 32,
+   "file": "Gelredome.jpg",
+   "lat": 51.9625,
+   "lon": 5.8931,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "GelreDome"
+  },
+  {
+   "id": "Q1051928",
+   "name": "Kröller-Müller Museum",
+   "sl": 32,
+   "file": "Entrance Kröller-Müller Museum.JPG",
+   "lat": 52.0956,
+   "lon": 5.8174,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "cultural institution",
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kröller-Müller Museum"
+  },
+  {
+   "id": "Q1301834",
+   "name": "Mount Scenery",
+   "sl": 32,
+   "file": "Saba with cloud cover.jpg",
+   "lat": 17.635,
+   "lon": -63.2392,
+   "kind": "natural",
+   "types": [
+    "dormant volcano",
+    "mountain",
+    "stratovolcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Scenery"
+  },
+  {
+   "id": "Q679527",
+   "name": "Museum Boijmans Van Beuningen",
+   "sl": 32,
+   "file": "Museumpark 02.JPG",
+   "lat": 51.9142,
+   "lon": 4.4733,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum Boijmans Van Beuningen"
+  },
+  {
+   "id": "Q291590",
+   "name": "AFAS Stadion",
+   "sl": 31,
+   "file": "Vooraanzicht AFAS Stadion april2022.jpg",
+   "lat": 52.6125,
+   "lon": 4.7417,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "AFAS Stadion"
+  },
+  {
+   "id": "Q323420",
+   "name": "Westerbork Transit Camp",
+   "sl": 31,
+   "file": "Westerbork-monument2.jpg",
+   "lat": 52.9167,
+   "lon": 6.6069,
+   "kind": "built",
+   "types": [
+    "Ilag",
+    "Nazi concentration camp",
+    "transit camp",
+    "war memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamp Westerbork"
+  },
+  {
+   "id": "Q769099",
+   "name": "Groningen Airport Eelde",
+   "sl": 30,
+   "file": "Groningen Airport Eelde overview.jpg",
+   "lat": 53.1206,
+   "lon": 6.5781,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Groningen Airport Eelde"
+  },
+  {
+   "id": "Q713124",
+   "name": "Natura Artis Magistra",
+   "sl": 30,
+   "file": "NL-Artis-ingang.jpg",
+   "lat": 52.3661,
+   "lon": 4.9167,
+   "kind": "built",
+   "types": [
+    "museum",
+    "organization",
+    "public aquarium",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Artis"
+  },
+  {
+   "id": "Q1153251",
+   "name": "Veluwe",
+   "sl": 30,
+   "file": "Veluwe 5.88540E 52.13388N.jpg",
+   "lat": 52.1469,
+   "lon": 5.8776,
+   "kind": "natural",
+   "types": [
+    "area",
+    "Natura 2000 site",
+    "nature area",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Veluwe"
+  },
+  {
+   "id": "Q863935",
+   "name": "Binnenhof",
+   "sl": 29,
+   "file": "Binnenhof Panorama in Den Haag.jpg",
+   "lat": 52.0796,
+   "lon": 4.3134,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Binnenhof"
+  },
+  {
+   "id": "Q218377",
+   "name": "Dollart",
+   "sl": 29,
+   "file": "2013-05-03 Fotoflug Nordholz Papenburg HP 2662.JPG",
+   "lat": 53.2853,
+   "lon": 7.1561,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Dollard"
+  },
+  {
+   "id": "Q1623374",
+   "name": "Hoge Veluwe National Park",
+   "sl": 29,
+   "file": "De Hoge Veluwe landscape.jpg",
+   "lat": 52.0833,
+   "lon": 5.7986,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "nature area",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "De Hoge Veluwe"
+  },
+  {
+   "id": "Q1137714",
+   "name": "Juancho E. Yrausquin Airport",
+   "sl": 29,
+   "file": "Saba Flughafen.jpg",
+   "lat": 17.6456,
+   "lon": -63.2206,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saba Airport"
+  },
+  {
+   "id": "Q698063",
+   "name": "Maastricht Aachen Airport",
+   "sl": 29,
+   "file": "Passagiersterminal.jpg",
+   "lat": 50.9126,
+   "lon": 5.7695,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maastricht Aachen Airport"
+  },
+  {
+   "id": "Q936545",
+   "name": "St. Martin's Cathedral, Utrecht",
+   "sl": 29,
+   "file": "DomTorenUtrechtNederland.jpg",
+   "lat": 52.0909,
+   "lon": 5.1222,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Utrecht Dom church"
+  },
+  {
+   "id": "Q601223",
+   "name": "Eise Eisinga Planetarium",
+   "sl": 28,
+   "file": "Franeker, Planetarium.jpg",
+   "lat": 53.1874,
+   "lon": 5.5438,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Eise Eisinga Planetarium, Franeker"
+  },
+  {
+   "id": "Q1121835",
+   "name": "Ir.D.F. Woudagemaal",
+   "sl": 28,
+   "file": "Woudagemaal 1.jpg",
+   "lat": 52.8458,
+   "lon": 5.6789,
+   "kind": "built",
+   "types": [
+    "museum",
+    "steamdriven pumping station"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ir. D.F. Wouda-gemaal"
+  },
+  {
+   "id": "Q277316",
+   "name": "Rembrandt House Museum",
+   "sl": 28,
+   "file": "Rembrandshuis.jpg",
+   "lat": 52.3694,
+   "lon": 4.9014,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "historic house museum",
+    "history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rembrandt House Museum"
+  },
+  {
+   "id": "Q179426",
+   "name": "Rotterdam Ahoy",
+   "sl": 28,
+   "file": "Rotterdam Ahoy 2016.jpg",
+   "lat": 51.8828,
+   "lon": 4.4881,
+   "kind": "built",
+   "types": [
+    "event venue",
+    "performing arts building",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rotterdam Ahoy"
+  },
+  {
+   "id": "Q391162",
+   "name": "Walibi Holland",
+   "sl": 28,
+   "file": "Walibi Holland - Maingate.jpg",
+   "lat": 52.44,
+   "lon": 5.7625,
+   "kind": "built",
+   "types": [
+    "amusement park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Walibi Holland"
+  },
+  {
+   "id": "Q1131589",
+   "name": "Wereldmuseum Amsterdam",
+   "sl": 28,
+   "file": "Wereldmuseum Amsterdam (2025).jpg",
+   "lat": 52.3625,
+   "lon": 4.9211,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wereldmuseum Amsterdam"
+  },
+  {
+   "id": "Q1130722",
+   "name": "Westerkerk",
+   "sl": 28,
+   "file": "Amsterdam (NL), Westerkerk -- 2015 -- 7186.jpg",
+   "lat": 52.3745,
+   "lon": 4.8839,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Westerkerk (Amsterdam)"
+  },
+  {
+   "id": "Q1348188",
+   "name": "Erasmusbrug",
+   "sl": 27,
+   "file": "Rotterdam erasmusbrug.jpg",
+   "lat": 51.9086,
+   "lon": 4.4865,
+   "kind": "built",
+   "types": [
+    "bascule bridge",
+    "road bridge",
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erasmus bridge"
+  },
+  {
+   "id": "Q1551989",
+   "name": "Oude Maas",
+   "sl": 27,
+   "file": "Panorama Oude Maas, Puttershoek.JPG",
+   "lat": 51.8333,
+   "lon": 4.475,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oude Maas"
+  },
+  {
+   "id": "Q2328849",
+   "name": "Van Nelle Factory",
+   "sl": 27,
+   "file": "Rotterdam van nelle fabriek.jpg",
+   "lat": 51.9228,
+   "lon": 4.4336,
+   "kind": "built",
+   "types": [
+    "factory",
+    "office building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Van Nelle Factory, Rotterdam"
+  },
+  {
+   "id": "Q1374804",
+   "name": "Euroborg",
+   "sl": 26,
+   "file": "Euroborg.jpg",
+   "lat": 53.2061,
+   "lon": 6.5914,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Euroborg"
+  },
+  {
+   "id": "Q1419675",
+   "name": "Nieuwe Kerk",
+   "sl": 26,
+   "file": "Iglesia Nueva, Ámsterdam, Países Bajos, 2016-05-30, DD 10-12 HDR.jpg",
+   "lat": 52.3739,
+   "lon": 4.8919,
+   "kind": "built",
+   "types": [
+    "church building",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nieuwe Kerk (Amsterdam)"
+  },
+  {
+   "id": "Q969215",
+   "name": "Euromast",
+   "sl": 25,
+   "file": ".00 2435 Euromast - Rotterdam.jpg",
+   "lat": 51.9054,
+   "lon": 4.4666,
+   "kind": "built",
+   "types": [
+    "observation tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Euromast"
+  },
+  {
+   "id": "Q1072284",
+   "name": "Huis ten Bosch",
+   "sl": 25,
+   "file": "Huis ten bosch.jpg",
+   "lat": 52.0931,
+   "lon": 4.3439,
+   "kind": "built",
+   "types": [
+    "house",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Huis ten Bosch"
+  },
+  {
+   "id": "Q707801",
+   "name": "Limes Germanicus",
+   "sl": 25,
+   "file": "Limes Rhin.png",
+   "lat": 49.5,
+   "lon": 9.5,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "defense line",
+    "Kulturdenkmal",
+    "Roman limes"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Limes Germanicus"
+  },
+  {
+   "id": "Q678611",
+   "name": "Nieuwe Kerk Delft",
+   "sl": 25,
+   "file": "00 0725 Tower of Nieuwe Kerk - Delft.jpg",
+   "lat": 52.0121,
+   "lon": 4.3602,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nieuwe Kerk (Delft)"
+  },
+  {
+   "id": "Q1266165",
+   "name": "Oosterschelde",
+   "sl": 25,
+   "file": "Oosterschelde near Viane.jpg",
+   "lat": 51.5539,
+   "lon": 3.9656,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eastern Scheldt"
+  },
+  {
+   "id": "Q318125",
+   "name": "Abe Lenstra Stadion",
+   "sl": 24,
+   "file": "Abe Lenstra Stadion 08c.JPG",
+   "lat": 52.9586,
+   "lon": 5.9361,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abe Lenstra Stadion"
+  },
+  {
+   "id": "Q1430982",
+   "name": "Flamingo International Airport",
+   "sl": 24,
+   "file": "Flamingo Airport.jpg",
+   "lat": 12.1311,
+   "lon": -68.2686,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bonaire International Airport"
+  },
+  {
+   "id": "Q957787",
+   "name": "Hollands Diep",
+   "sl": 24,
+   "file": "Willemstad.jpg",
+   "lat": 51.7,
+   "lon": 4.5839,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hollandsch Diep"
+  },
+  {
+   "id": "Q1422000",
+   "name": "NEMO Science Center",
+   "sl": 24,
+   "file": "NEMO (Amsterdam).jpg",
+   "lat": 52.3741,
+   "lon": 4.9124,
+   "kind": "built",
+   "types": [
+    "museum",
+    "science museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "NEMO"
+  },
+  {
+   "id": "Q119314",
+   "name": "North Sea Canal",
+   "sl": 24,
+   "file": "Noordzeekanaal (North Sea Canal) 2020 Copernicus Sentinel-2.jpg",
+   "lat": 52.4289,
+   "lon": 4.7557,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Noordzeekanaal"
+  },
+  {
+   "id": "Q234048",
+   "name": "Soestdijk Palace",
+   "sl": 24,
+   "file": "Palace Soestdijk.jpg",
+   "lat": 52.1933,
+   "lon": 5.2794,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soestdijk Palace"
+  },
+  {
+   "id": "Q720978",
+   "name": "WerkTalent Stadion",
+   "sl": 24,
+   "file": "ADO Den Haag Stadion, Forepark.jpg",
+   "lat": 52.0628,
+   "lon": 4.3831,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "WerkTalent Stadion"
+  },
+  {
+   "id": "Q12012965",
+   "name": "Windmills at Kinderdijk",
+   "sl": 24,
+   "file": "KinderdijkMolens02.jpg",
+   "lat": 51.8886,
+   "lon": 4.6347,
+   "kind": "",
+   "types": [
+    "group of windmills"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kinderdijk windmills"
+  },
+  {
+   "id": "Q153713",
+   "name": "Herzogenbusch concentration camp",
+   "sl": 23,
+   "file": "Kamp Vught 1945.jpg",
+   "lat": 51.6658,
+   "lon": 5.2567,
+   "kind": "built",
+   "types": [
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamp Vught"
+  },
+  {
+   "id": "Q51411",
+   "name": "Homomonument",
+   "sl": 23,
+   "file": "Homomonument-overview2.jpg",
+   "lat": 52.3744,
+   "lon": 4.8847,
+   "kind": "built",
+   "types": [
+    "cautionary memorial",
+    "LGBT historic place",
+    "LGBT memorial",
+    "war memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Homomonument in Amsterdam"
+  },
+  {
+   "id": "Q639321",
+   "name": "Museumplein",
+   "sl": 23,
+   "file": "Dsc 0200 1 Jpg (151469793).jpeg",
+   "lat": 52.3576,
+   "lon": 4.8816,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museumplein"
+  },
+  {
+   "id": "Q641676",
+   "name": "Naturalis Biodiversity Center",
+   "sl": 23,
+   "file": "Naturalis-Leiden-2019-1.jpg",
+   "lat": 52.1647,
+   "lon": 4.4733,
+   "kind": "built",
+   "types": [
+    "academic publisher",
+    "government agency",
+    "national museum",
+    "natural history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naturalis Leiden"
+  },
+  {
+   "id": "Q1703055",
+   "name": "Veluwezoom National Park",
+   "sl": 23,
+   "file": "Nationaal Park Veluwezoom near Posbank.jpg",
+   "lat": 52.0484,
+   "lon": 6.0199,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "nature area",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Veluwezoom"
+  },
+  {
+   "id": "Q11969",
+   "name": "Asito Stadion",
+   "sl": 22,
+   "file": "Heracles Stadion.PNG",
+   "lat": 52.3386,
+   "lon": 6.6497,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asito Stadion"
+  },
+  {
+   "id": "Q2479758",
+   "name": "F.D. Roosevelt Airport",
+   "sl": 22,
+   "file": "Sint Eustatius runway.jpg",
+   "lat": 17.4964,
+   "lon": -62.9794,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "F.D. Roosevelt Airport"
+  },
+  {
+   "id": "Q1542668",
+   "name": "Groninger Museum",
+   "sl": 22,
+   "file": "Groninger Museum 2.jpg",
+   "lat": 53.2119,
+   "lon": 6.5656,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Groninger Museum"
+  }
+ ]
 }
