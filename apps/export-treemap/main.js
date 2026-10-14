@@ -12,7 +12,6 @@
 
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $ } from "../../shared/dom.js";
-import { canRemember, forgetKey, getKey, saveKey } from "../../shared/keys.js";
 import { downloadBlob } from "../../shared/sheet.js";
 import { addLabels, drawChart, el, money, resetMeasurements, SVGNS } from "./chart.js";
 import { ID_OK } from "./config.js";
@@ -30,8 +29,6 @@ const els = {
   country: /** @type {HTMLInputElement} */ ($("country")),
   countrySrc: $("countrySrc"),
   year: /** @type {HTMLInputElement} */ ($("year")),
-  token: /** @type {HTMLInputElement} */ ($("token")),
-  rememberToken: /** @type {HTMLInputElement} */ ($("rememberToken")),
   ratio: /** @type {HTMLSelectElement} */ ($("ratio")),
   width: /** @type {HTMLSelectElement} */ ($("width")),
   cutoff: /** @type {HTMLInputElement} */ ($("cutoff")),
@@ -69,9 +66,6 @@ let lastData = /** @type {{products: Product[], countryName: string, year: numbe
 const THIS_YEAR = new Date().getFullYear();
 els.year.max = String(THIS_YEAR);
 els.year.value = String(THIS_YEAR - 2);
-
-/** The OEC token as typed, or "" for free access. */
-const token = () => els.token.value.trim();
 
 /* ═══════════════════════════════════════════════════════════
    Messages
@@ -126,7 +120,7 @@ els.country.addEventListener("input", () => {
 });
 
 async function loadCountries() {
-  const loaded = await loadChoices(+els.year.value, token());
+  const loaded = await loadChoices(+els.year.value);
   choices = loaded.choices;
   els.country.disabled = false;
   els.country.placeholder = `${choices.length} countries — name or code`;
@@ -223,16 +217,14 @@ async function generate() {
     let used = want;
     let note = "";
     for (let y = want; y >= Math.max(1995, want - 6); y--) {
-      products = await fetchYear(id, y, token());
+      products = await fetchYear(id, y);
       if (products.length) {
         used = y;
         break;
       }
     }
     if (!products.length)
-      throw new Error(
-        `No data for ${name} around ${want}. Try an earlier year, or add a token if you're after the newest data.`,
-      );
+      throw new Error(`No data for ${name} around ${want}. Try an earlier year.`);
     if (used !== want)
       note = `${want} isn't published yet for this country — showing ${used} instead.`;
     render(products, name, used, note);
@@ -341,11 +333,7 @@ function downloadRaster(kind) {
 /** ~8 MB, far above any real response. */
 const MAX_PASTE = 8e6;
 
-const currentUrl = () => dataUrl(chosen ? chosen.oecId : "", parseInt(els.year.value, 10), token());
-
-function warnIfToken() {
-  if (token()) say("info", "That URL carries your API token — treat it like a password.");
-}
+const currentUrl = () => dataUrl(chosen ? chosen.oecId : "", parseInt(els.year.value, 10));
 
 els.copyUrl.onclick = async () => {
   try {
@@ -355,12 +343,10 @@ els.copyUrl.onclick = async () => {
     els.manualJson.value = currentUrl();
     els.copyUrl.textContent = "URL put in the box";
   }
-  warnIfToken();
   setTimeout(() => (els.copyUrl.textContent = "Copy query URL"), 1800);
 };
 
 els.openUrl.onclick = () => {
-  warnIfToken();
   window.open(currentUrl(), "_blank", "noopener,noreferrer");
 };
 
@@ -381,26 +367,6 @@ els.useJson.onclick = () => {
     say("err", "Couldn't read that: " + clip(err.message || err, 200));
   }
 };
-
-/* ═══════════════════════════════════════════════════════════
-   The API token, shared with the other geo apps (see shared/keys.js)
-   ═══════════════════════════════════════════════════════════ */
-
-const saved = getKey("oec");
-if (saved) {
-  els.token.value = saved;
-  els.rememberToken.checked = true;
-}
-if (!canRemember()) els.rememberToken.disabled = true;
-
-function storeToken() {
-  if (els.rememberToken.checked && token()) saveKey("oec", token());
-  else forgetKey("oec");
-}
-els.rememberToken.onchange = storeToken;
-els.token.addEventListener("change", () => {
-  if (els.rememberToken.checked) storeToken();
-});
 
 /* ═══════════════════════════════════════════════════════════
    Wiring

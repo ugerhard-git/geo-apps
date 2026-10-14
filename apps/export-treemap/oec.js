@@ -1,14 +1,12 @@
 /**
  * Export treemaps — the OEC (Observatory of Economic Complexity) API: the
- * country list and one country's exports by product.
- *
- * The API token is optional; when given it travels in the query string, so
- * requests carry no cookies or referrer and are never cached.
+ * country list and one country's exports by product. The free, keyless
+ * access is enough for this app.
  */
 
 import { API, FALLBACK_COUNTRIES, MAX_ROWS } from "./config.js";
 
-/** No cookies, no referrer (the token sits in the query string), no caching. */
+/** No cookies, no referrer, no caching. */
 const FETCH_OPTS = /** @type {RequestInit} */ ({
   credentials: "omit",
   referrerPolicy: "no-referrer",
@@ -48,18 +46,14 @@ export function cubeFor(y) {
   return "trade_i_baci_a_92";
 }
 
-/** @param {string} token */
-const tokenParam = (token) => (token ? "&token=" + encodeURIComponent(token) : "");
-
 /**
  * The query URL for one country's exports in one year.
  *
  * @param {string} countryId OEC id, e.g. "eudeu"
  * @param {number} year
- * @param {string} token "" for none
  * @returns {string}
  */
-export function dataUrl(countryId, year, token) {
+export function dataUrl(countryId, year) {
   return (
     API +
     "/data.jsonrecords" +
@@ -71,8 +65,7 @@ export function dataUrl(countryId, year, token) {
     encodeURIComponent(countryId) +
     ";Year:" +
     year +
-    "&limit=6000,0" +
-    tokenParam(token)
+    "&limit=6000,0"
   );
 }
 
@@ -92,16 +85,10 @@ export function parseFallback() {
  * the live one can't be fetched.
  *
  * @param {number} year
- * @param {string} token
  * @returns {Promise<{list: Array<{id: unknown, name: unknown}>, note: string}>}
  */
-export async function loadCountryList(year, token) {
-  const url =
-    API +
-    "/members.jsonrecords?cube=" +
-    cubeFor(year) +
-    "&level=Exporter+Country" +
-    tokenParam(token);
+export async function loadCountryList(year) {
+  const url = API + "/members.jsonrecords?cube=" + cubeFor(year) + "&level=Exporter+Country";
   try {
     const r = await fetch(url, FETCH_OPTS);
     if (!r.ok) throw new Error(String(r.status));
@@ -171,11 +158,10 @@ export function toProducts(json) {
  *
  * @param {string} countryId
  * @param {number} year
- * @param {string} token
  * @returns {Promise<Product[]>}
  */
-export async function fetchYear(countryId, year, token) {
-  const r = await fetch(dataUrl(countryId, year, token), FETCH_OPTS);
+export async function fetchYear(countryId, year) {
+  const r = await fetch(dataUrl(countryId, year), FETCH_OPTS);
   if (!r.ok) throw new Error("The OEC returned " + r.status + " for " + year + ".");
   return toProducts(await r.json());
 }

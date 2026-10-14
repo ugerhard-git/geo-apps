@@ -63,12 +63,11 @@ export function joinChoices(oecList, territories, alpha3) {
  * Load everything the picker needs.
  *
  * @param {number} year picks the OEC dataset whose country list is used
- * @param {string} token OEC API token, "" for none
  * @returns {Promise<{choices: Choice[], note: string}>}
  */
-export async function loadChoices(year, token) {
+export async function loadChoices(year) {
   const [oec, cldr] = await Promise.all([
-    loadCountryList(year, token),
+    loadCountryList(year),
     Promise.all([loadTerritories(), loadAlpha3()]).catch(() => null),
   ]);
   const choices = joinChoices(oec.list, cldr && cldr[0], cldr && cldr[1]);

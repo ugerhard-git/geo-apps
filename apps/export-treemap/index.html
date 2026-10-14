@@ -21,140 +21,114 @@
       name="description"
       content="A country's exports as an unlabelled treemap, sized by value and coloured by product group."
     />
-    <meta name="geo-apps:tags" content="OEC, chart, API key" />
+    <meta name="geo-apps:tags" content="OEC, chart" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrap">
-      <header>
-        <h1>Export treemaps</h1>
-        <p>
-          Pick a country and get its exports as an unlabeled treemap, sized by value and colored by product group — the
-          same shape the guessing game uses. Data comes live from the OEC.
-        </p>
-      </header>
-
-      <div class="layout">
-        <!-- ── controls ───────────────────────────────────────── -->
-        <div class="rail">
-          <div class="field">
-            <label for="country">Country</label>
-            <div class="search-wrap">
-              <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
-              <div class="results" id="countryResults"></div>
-            </div>
-            <div class="hint" id="countrySrc">Fetching the country list…</div>
+    <div class="layout">
+      <!-- ── controls ───────────────────────────────────────── -->
+      <aside class="rail">
+        <header class="rail-head">
+          <h1>Export treemaps</h1>
+          <p>A country's exports as an unlabelled treemap: block size shows value, colour shows the product group.</p>
+        </header>
+        <div class="field">
+          <label for="country">Country</label>
+          <div class="search-wrap">
+            <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+            <div class="results" id="countryResults"></div>
           </div>
-
-          <div class="field">
-            <label for="year">Year</label>
-            <input type="number" id="year" min="1995" step="1" />
-            <div class="hint">If that year has no data yet, the app steps back until it finds some.</div>
-          </div>
-
-          <div class="field">
-            <label for="token"
-              >OEC API token <span style="font-weight: 400; color: var(--muted)">— optional</span></label
-            >
-            <input
-              type="password"
-              id="token"
-              placeholder="Leave empty for free access"
-              autocomplete="off"
-              spellcheck="false"
-              autocapitalize="off"
-              autocorrect="off"
-            />
-            <div class="hint">Only needed for the most recent years and heavy use.</div>
-            <label style="display: flex; gap: 8px; align-items: center; font-weight: 400; margin-top: 6px">
-              <input type="checkbox" id="rememberToken" style="width: auto; margin: 0" />
-              Remember it in this browser, for all the geo apps
-            </label>
-          </div>
-
-          <div class="field">
-            <label for="ratio">Shape</label>
-            <div class="row">
-              <select id="ratio">
-                <option value="1.7778">16:9</option>
-                <option value="1.5" selected>3:2</option>
-                <option value="1.3333">4:3</option>
-                <option value="1">Square</option>
-              </select>
-              <select id="width">
-                <option value="1200" selected>1200 px</option>
-                <option value="1600">1600 px</option>
-                <option value="2000">2000 px</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="field">
-            <label for="labels">Labels</label>
-            <select id="labels">
-              <option value="full" selected>Product and share</option>
-              <option value="name">Product only</option>
-              <option value="none">None</option>
-            </select>
-            <div class="hint">Blocks too small for text stay bare.</div>
-          </div>
-
-          <div class="field">
-            <label for="cutoff">Smallest product shown: <span id="cutoffVal">0.30%</span></label>
-            <input type="range" id="cutoff" min="0" max="1" step="0.05" value="0.3" />
-            <div class="hint">Raise this to drop hair-thin slivers.</div>
-          </div>
-
-          <div class="field">
-            <label style="display: flex; gap: 8px; align-items: center; font-weight: 400">
-              <input type="checkbox" id="hideAnswer" style="width: auto; margin: 0" />
-              Hide the answer below the image
-            </label>
-          </div>
-
-          <button class="primary" id="go">Generate treemap</button>
-
-          <div class="field" style="margin-top: 14px">
-            <label>Download</label>
-            <div class="downloads">
-              <button id="dlPng" disabled>PNG</button>
-              <button id="dlJpg" disabled>JPG</button>
-              <button id="dlSvg" disabled>SVG</button>
-            </div>
-          </div>
-          <div class="field" style="margin-top: 8px">
-            <label for="scale">Image resolution</label>
-            <select id="scale">
-              <option value="1">1× — as sized</option>
-              <option value="2" selected>2× — sharp</option>
-              <option value="3">3× — print</option>
-            </select>
-            <div class="hint">Applies to PNG and JPG. SVG scales on its own.</div>
-          </div>
-
-          <details id="manualBox">
-            <summary>Blocked by your browser? Load the data by hand</summary>
-            <div class="hint" style="margin-bottom: 8px">
-              Open the query URL in a new tab, copy everything it returns, and paste it here.
-            </div>
-            <div class="row" style="margin-bottom: 8px">
-              <button id="copyUrl" type="button">Copy query URL</button>
-              <button id="openUrl" type="button">Open in tab</button>
-            </div>
-            <textarea id="manualJson" rows="4" placeholder="Paste the JSON response here"></textarea>
-            <button id="useJson" type="button" style="width: 100%; margin-top: 8px">Draw from pasted data</button>
-          </details>
+          <div class="hint" id="countrySrc">Fetching the country list…</div>
         </div>
 
-        <!-- ── output ─────────────────────────────────────────── -->
-        <div>
-          <div class="stage" id="stage">
-            <p class="empty">Your treemap appears here. Each block is one product; each color is a product group.</p>
-          </div>
-          <div class="caption hidden" id="caption"></div>
-          <div id="msg"></div>
+        <div class="field">
+          <label for="year">Year</label>
+          <input type="number" id="year" min="1995" step="1" />
+          <div class="hint">If that year has no data yet, the app steps back until it finds some.</div>
         </div>
-      </div>
+
+        <div class="field">
+          <label for="ratio">Shape</label>
+          <div class="row">
+            <select id="ratio">
+              <option value="1.7778">16:9</option>
+              <option value="1.5" selected>3:2</option>
+              <option value="1.3333">4:3</option>
+              <option value="1">Square</option>
+            </select>
+            <select id="width">
+              <option value="1200" selected>1200 px</option>
+              <option value="1600">1600 px</option>
+              <option value="2000">2000 px</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="labels">Labels</label>
+          <select id="labels">
+            <option value="full" selected>Product and share</option>
+            <option value="name">Product only</option>
+            <option value="none">None</option>
+          </select>
+          <div class="hint">Blocks too small for text stay bare.</div>
+        </div>
+
+        <div class="field">
+          <label for="cutoff">Smallest product shown: <span id="cutoffVal">0.30%</span></label>
+          <input type="range" id="cutoff" min="0" max="1" step="0.05" value="0.3" />
+          <div class="hint">Raise this to drop hair-thin slivers.</div>
+        </div>
+
+        <div class="field">
+          <label style="display: flex; gap: 8px; align-items: center; font-weight: 400">
+            <input type="checkbox" id="hideAnswer" style="width: auto; margin: 0" />
+            Hide the answer below the image
+          </label>
+        </div>
+
+        <button class="primary" id="go">Generate treemap</button>
+
+        <div class="field" style="margin-top: 14px">
+          <label>Download</label>
+          <div class="downloads">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+            <button id="dlSvg" disabled>SVG</button>
+          </div>
+        </div>
+        <div class="field" style="margin-top: 8px">
+          <label for="scale">Image resolution</label>
+          <select id="scale">
+            <option value="1">1× — as sized</option>
+            <option value="2" selected>2× — sharp</option>
+            <option value="3">3× — print</option>
+          </select>
+          <div class="hint">Applies to PNG and JPG. SVG scales on its own.</div>
+        </div>
+
+        <details id="manualBox">
+          <summary>Blocked by your browser? Load the data by hand</summary>
+          <div class="hint" style="margin-bottom: 8px">
+            Open the query URL in a new tab, copy everything it returns, and paste it here.
+          </div>
+          <div class="row" style="margin-bottom: 8px">
+            <button id="copyUrl" type="button">Copy query URL</button>
+            <button id="openUrl" type="button">Open in tab</button>
+          </div>
+          <textarea id="manualJson" rows="4" placeholder="Paste the JSON response here"></textarea>
+          <button id="useJson" type="button" style="width: 100%; margin-top: 8px">Draw from pasted data</button>
+        </details>
+      </aside>
+
+      <!-- ── output ─────────────────────────────────────────── -->
+      <main class="main">
+        <div class="stage" id="stage">
+          <p class="empty">Your treemap appears here. Each block is one product; each color is a product group.</p>
+        </div>
+        <div class="caption hidden" id="caption"></div>
+        <div id="msg"></div>
+      </main>
     </div>
 
     <script type="module" src="main.js"></script>

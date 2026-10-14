@@ -33,13 +33,6 @@ export const SERVICES = /** @type {const} */ ({
     usedBy: ["geocards"],
     legacyKeys: ["geocards.key", "meridian.key"],
   },
-  oec: {
-    id: "oec",
-    name: "OEC (Observatory of Economic Complexity)",
-    url: "https://oec.world/en/account",
-    usedBy: ["export-treemap"],
-    legacyKeys: [],
-  },
 });
 
 const PREFIX = "geo-apps.key.";
@@ -78,6 +71,14 @@ const store = {
     }
   },
 };
+
+/**
+ * Keys for services the apps no longer use. They are deleted from the
+ * visitor's browser the next time any app or the overview loads, so nothing
+ * unused lingers there.
+ */
+const RETIRED = ["geo-apps.key.oec"];
+for (const k of RETIRED) store.del(k);
 
 /**
  * Whether this browser lets the page store anything at all.
