@@ -1,0 +1,54 @@
+# Refreshes the Landmarks app's data (apps/landmarks/data) once a month and
+# opens a pull request with the changes, so nothing reaches the site without
+# a review. Also runs on demand: Actions → "Landmarks data" → Run workflow.
+#
+# The job only runs code from this repository; the data it fetches from
+# Wikidata (via QLever) is cleaned by scripts/landmarks/select.js and written
+# as JSON, never executed.
+name: Landmarks data
+
+on:
+  schedule:
+    - cron: "17 3 1 * *" # 03:17 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: landmarks-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    permissions:
+      contents: write # to push the data branch
+      pull-requests: write # to open the pull request
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: Build the data
+        run: node scripts/landmarks/build-data.mjs
+      - name: Open a pull request if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- apps/landmarks/data; then
+            echo "No changes."
+            exit 0
+          fi
+          branch="landmarks-data-$(date -u +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add apps/landmarks/data
+          git commit -m "Landmarks data: monthly refresh $(date -u +%Y-%m-%d)"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Landmarks data: monthly refresh $(date -u +%Y-%m-%d)" \
+            --body "Refreshed by the Landmarks data workflow (run ${{ github.run_id }}). Review the changed countries, then merge to publish." \
+          || echo "::warning::Couldn't open the pull request. Enable Settings → Actions → General → 'Allow GitHub Actions to create and approve pull requests', or open one from the $branch branch."

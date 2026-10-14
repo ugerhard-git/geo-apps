@@ -1,0 +1,32 @@
+# TEMPORARY — seeds the Landmarks data on the landmarks-app branch while the
+# app is being built. Removed before the pull request is merged; the monthly
+# landmarks-data.yml takes over from then on.
+name: Landmarks seed (temporary)
+
+on:
+  push:
+    branches: [landmarks-app]
+    paths: [scripts/landmarks/**, .github/workflows/landmarks-seed.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - run: node scripts/landmarks/build-data.mjs $(cat scripts/landmarks/seed-countries.txt 2>/dev/null)
+      - name: Commit the data to this branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apps/landmarks/data
+          git commit -m "Landmarks data: seed" || exit 0
+          git push
