@@ -16,7 +16,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadTerritories } from "../../shared/cldr.js";
-import { QLEVER, candidateQuery, detailQuery } from "./query.js";
+import { QLEVER, candidateQuery, detailQueries, mergeDetails } from "./query.js";
 import { selectLandmarks } from "./select.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -87,15 +87,13 @@ async function query(iso) {
     if (id) sl.set(id, String(r?.sl?.value || "0"));
   }
   if (!sl.size) return [];
-  const rows = [];
   const ids = [...sl.keys()];
-  for (let i = 0; i < ids.length; i += 100) {
-    for (const r of await sparql(detailQuery(ids.slice(i, i + 100)))) {
-      const id = (/\/(Q\d+)$/.exec(r?.item?.value || "") || [])[1];
-      if (id) rows.push({ ...r, sl: { value: sl.get(id) || "0" } });
-    }
-  }
-  return rows;
+  /** @type {Array<{part: string, rows: any[]}>} */
+  const parts = [];
+  for (let i = 0; i < ids.length; i += 100)
+    for (const { part, query: text } of detailQueries(ids.slice(i, i + 100)))
+      parts.push({ part, rows: await sparql(text) });
+  return mergeDetails(parts, sl);
 }
 
 await mkdir(OUT, { recursive: true });

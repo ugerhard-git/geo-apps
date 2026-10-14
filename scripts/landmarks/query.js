@@ -70,46 +70,136 @@ LIMIT ${Math.max(1, Math.min(1000, Math.floor(limit)))}`;
 }
 
 /**
- * Step 2: everything the app shows, for the candidates of step 1 only.
+ * Step 2: everything the app shows, for the candidates of step 1 only — as
+ * several small queries rather than one. A single query with all of this
+ * runs past QLever's 30-second limit; each part on its own is a quick lookup.
+ * build-data.mjs merges their rows by item.
  *
  * @param {string[]} ids Wikidata ids, checked here
- * @returns {string}
+ * @returns {Array<{part: string, query: string}>}
  */
-export function detailQuery(ids) {
+export function detailQueries(ids) {
   const safe = ids.filter((id) => /^Q\d{1,12}$/.test(id));
   if (!safe.length) throw new Error("no ids");
-  const roots = ROOTS.map(([q, g]) => `(wd:${q} "${g}")`).join(" ");
-  return `${PREFIXES}SELECT ?item (SAMPLE(?en) AS ?label)
-  (GROUP_CONCAT(DISTINCT ?other; separator=" || ") AS ?otherLabels)
-  (SAMPLE(?img) AS ?image) (SAMPLE(?pt) AS ?coord) (SAMPLE(?category) AS ?cat)
-  (GROUP_CONCAT(DISTINCT ?g; separator=" ") AS ?groups)
-  (GROUP_CONCAT(DISTINCT ?typeLabel; separator=" | ") AS ?types)
-  (GROUP_CONCAT(DISTINCT ?oiso; separator=" ") AS ?also)
-  (MAX(?w) AS ?whs) (SAMPLE(?site0) AS ?site) (SAMPLE(?siteName) AS ?siteLabel)
-  (MAX(?fClass) AS ?isClass) (MAX(?fPop) AS ?hasPop) (MAX(?fArch) AS ?arch)
-WHERE {
-  VALUES ?item { ${safe.map((id) => "wd:" + id).join(" ")} }
-  ?item wdt:P18 ?img .
+  const values = `VALUES ?item { ${safe.map((id) => "wd:" + id).join(" ")} }`;
+  const roots = [...ROOTS, ["Q839954", "arch"]].map(([q, g]) => `(wd:${q} "${g}")`).join(" ");
+  const q = (/** @type {string} */ vars, /** @type {string} */ body) =>
+    `${PREFIXES}SELECT DISTINCT ?item ${vars} WHERE {\n  ${values}\n  ${body}\n}`;
+  return [
+    {
+      part: "basic",
+      query: q(
+        "?en ?img ?pt ?category ?fPop ?fClass",
+        `?item wdt:P18 ?img .
+  OPTIONAL { ?item rdfs:label ?en . FILTER(LANG(?en) = "en") }
   OPTIONAL { ?item wdt:P625 ?pt . }
   OPTIONAL { ?item wdt:P373 ?category . }
-  OPTIONAL { ?item rdfs:label ?en . FILTER(LANG(?en) = "en") }
-  OPTIONAL {
-    ?item rdfs:label ?l2 .
-    FILTER(LANG(?l2) IN ("en-gb", "en-us", "mul", "fr", "es", "de", "it", "pt", "nl"))
-    BIND(CONCAT(LANG(?l2), "::", STR(?l2)) AS ?other)
-  }
-  OPTIONAL { VALUES (?root ?g) { ${roots} } ?item wdt:P31/wdt:P279* ?root . }
-  OPTIONAL { ?item wdt:P31 ?cls . ?cls rdfs:label ?typeLabel . FILTER(LANG(?typeLabel) = "en") }
-  OPTIONAL { ?item wdt:P17 ?oc . ?oc wdt:P297 ?oiso . }
-  OPTIONAL { ?item wdt:P1435 wd:Q9259 . BIND(1 AS ?w) }
-  OPTIONAL {
-    ?item wdt:P361 ?site0 . ?site0 wdt:P1435 wd:Q9259 .
-    BIND(1 AS ?w)
-    OPTIONAL { ?site0 rdfs:label ?siteName . FILTER(LANG(?siteName) = "en") }
-  }
-  OPTIONAL { ?item wdt:P279 ?super . BIND(1 AS ?fClass) }
   OPTIONAL { ?item wdt:P1082 ?pop . BIND(1 AS ?fPop) }
-  OPTIONAL { ?item wdt:P31/wdt:P279* wd:Q839954 . BIND(1 AS ?fArch) }
+  OPTIONAL { ?item wdt:P279 ?super . BIND(1 AS ?fClass) }`,
+      ),
+    },
+    {
+      part: "types",
+      query: q(
+        "?typeLabel",
+        `?item wdt:P31 ?cls . ?cls rdfs:label ?typeLabel . FILTER(LANG(?typeLabel) = "en")`,
+      ),
+    },
+    {
+      part: "groups",
+      query: q("?g", `VALUES (?root ?g) { ${roots} }\n  ?item wdt:P31/wdt:P279* ?root .`),
+    },
+    { part: "also", query: q("?oiso", `?item wdt:P17 ?oc . ?oc wdt:P297 ?oiso .`) },
+    {
+      part: "heritage",
+      query: q(
+        "?site ?siteLabel",
+        `{ ?item wdt:P1435 wd:Q9259 . BIND(?item AS ?site) }
+  UNION
+  { ?item wdt:P361 ?site . ?site wdt:P1435 wd:Q9259 . }
+  OPTIONAL { ?site rdfs:label ?siteLabel . FILTER(LANG(?siteLabel) = "en") }`,
+      ),
+    },
+    {
+      part: "labels",
+      query: q(
+        "?lang ?name",
+        `?item rdfs:label ?name .
+  BIND(LANG(?name) AS ?lang)
+  FILTER(?lang IN ("en-gb", "en-us", "mul", "fr", "es", "de", "it", "pt", "nl"))`,
+      ),
+    },
+  ];
 }
-GROUP BY ?item`;
+
+/**
+ * Merge the parts' rows into one row per item, shaped as select.js expects.
+ *
+ * @param {Array<{part: string, rows: any[]}>} parts
+ * @param {Map<string, string>} sitelinks by id, from step 1
+ * @returns {any[]}
+ */
+export function mergeDetails(parts, sitelinks) {
+  /** @type {Map<string, any>} */
+  const byId = new Map();
+  /** @param {any} r */
+  const idOf = (r) => (/\/(Q\d+)$/.exec((r && r.item && r.item.value) || "") || [])[1] || "";
+  /** @param {any} r @param {string} k */
+  const v = (r, k) => (r && r[k] && typeof r[k].value === "string" ? r[k].value : "");
+  /** @param {string} id */
+  const get = (id) => {
+    let m = byId.get(id);
+    if (!m)
+      byId.set(
+        id,
+        (m = {
+          item: { value: "http://www.wikidata.org/entity/" + id },
+          sl: { value: sitelinks.get(id) || "0" },
+          _types: new Set(),
+          _groups: new Set(),
+          _also: new Set(),
+          _labels: [],
+        }),
+      );
+    return m;
+  };
+  /** @param {any} m @param {string} k @param {string} val */
+  const setOnce = (m, k, val) => {
+    if (val && !m[k]) m[k] = { value: val };
+  };
+  for (const { part, rows } of parts)
+    for (const r of rows) {
+      const id = idOf(r);
+      if (!id || !sitelinks.has(id)) continue;
+      const m = get(id);
+      if (part === "basic") {
+        setOnce(m, "label", v(r, "en"));
+        setOnce(m, "image", v(r, "img"));
+        setOnce(m, "coord", v(r, "pt"));
+        setOnce(m, "cat", v(r, "category"));
+        if (v(r, "fPop") === "1") m.hasPop = { value: "1" };
+        if (v(r, "fClass") === "1") m.isClass = { value: "1" };
+      } else if (part === "types") m._types.add(v(r, "typeLabel"));
+      else if (part === "groups") {
+        if (v(r, "g") === "arch") m.arch = { value: "1" };
+        else m._groups.add(v(r, "g"));
+      } else if (part === "also") m._also.add(v(r, "oiso"));
+      else if (part === "heritage") {
+        m.whs = { value: "1" };
+        const site = v(r, "site");
+        if (site && site !== m.item.value) {
+          setOnce(m, "site", site);
+          setOnce(m, "siteLabel", v(r, "siteLabel"));
+        }
+      } else if (part === "labels") m._labels.push(v(r, "lang") + "::" + v(r, "name"));
+    }
+  return [...byId.values()]
+    .filter((m) => m.image)
+    .map(({ _types, _groups, _also, _labels, ...m }) => ({
+      ...m,
+      types: { value: [..._types].filter(Boolean).join(" | ") },
+      groups: { value: [..._groups].filter(Boolean).join(" ") },
+      also: { value: [..._also].filter(Boolean).join(" ") },
+      otherLabels: { value: _labels.join(" || ") },
+    }));
 }
