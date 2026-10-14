@@ -8,6 +8,7 @@
 import { fitLine } from "../../shared/image-grid.js";
 import { frameSpec } from "../../shared/sheet.js";
 import { clamp } from "../../shared/util.js";
+import { justifiedRows } from "./layout.js";
 
 /** @typedef {import("./species-data.js").Species} Species */
 
@@ -29,32 +30,6 @@ import { clamp } from "../../shared/util.js";
  * @property {Species[]} species in the order chosen
  * @property {(url: string) => Promise<HTMLImageElement>} loadImage
  */
-
-/**
- * Pick the column count that gives the largest cells. Photographs read best
- * near landscape, so cells far from that shape score lower.
- *
- * @param {number} n number of photographs
- * @param {number} w
- * @param {number} h
- * @param {number} gap
- * @param {number} extraPerCell height under each photograph for its labels
- */
-function chooseGrid(n, w, h, gap, extraPerCell) {
-  /** @type {{score: number, cols: number, rows: number, cellW: number, cellH: number, photoH: number} | null} */
-  let best = null;
-  for (let cols = 1; cols <= n; cols++) {
-    const rows = Math.ceil(n / cols);
-    const cellW = (w - gap * (cols - 1)) / cols;
-    const cellH = (h - gap * (rows - 1)) / rows;
-    const photoH = cellH - extraPerCell;
-    if (cellW <= 8 || photoH <= 8) continue;
-    const ratio = cellW / photoH;
-    const score = Math.min(cellW, photoH) * (ratio > 0.6 && ratio < 2.2 ? 1 : 0.6);
-    if (!best || score > best.score) best = { score, cols, rows, cellW, cellH, photoH };
-  }
-  return best;
-}
 
 /**
  * Draw the whole sheet onto `canvas`, resizing it to the chosen frame.
@@ -135,44 +110,30 @@ export async function drawSheet(canvas, opts, { country, species, loadImage }) {
   const labelPx = opts.names ? clamp(Math.round(boxH * 0.03), 12, 40) : 0;
   const credPx = needsCredit ? clamp(Math.round(boxH * 0.02), 9, 24) : 0;
   const extra = labelPx * 1.5 + credPx * 1.6;
-  const best = chooseGrid(ready.length, boxW, boxH, gap, extra);
-  if (!best) return;
-  const gridH = best.rows * best.cellH + gap * (best.rows - 1);
-  const yTop = top + Math.max(0, (boxH - gridH) / 2);
-
-  ready.forEach(({ rec, img }, i) => {
-    const r = Math.floor(i / best.cols);
-    const c = i % best.cols;
-    // Centre a short final row rather than leaving it hanging on the left.
-    const inRow = Math.min(best.cols, ready.length - r * best.cols);
-    const rowW = inRow * best.cellW + gap * (inRow - 1);
-    const x = pad + (boxW - rowW) / 2 + c * (best.cellW + gap);
-    const y = yTop + r * (best.cellH + gap);
-
-    // Cover the cell rather than letterbox it: a wildlife photograph with
-    // bars around it looks like a mistake.
+  const aspects = ready.map(({ img }) => {
     const iw = img.naturalWidth || img.width || 1;
     const ih = img.naturalHeight || img.height || 1;
-    const scale = Math.max(best.cellW / iw, best.photoH / ih);
-    const dw = iw * scale;
-    const dh = ih * scale;
-    ctx.save();
-    ctx.beginPath();
-    ctx.rect(x, y, best.cellW, best.photoH);
-    ctx.clip();
-    ctx.drawImage(img, x + (best.cellW - dw) / 2, y + (best.photoH - dh) / 2, dw, dh);
-    ctx.restore();
+    return iw / ih;
+  });
+  // Every photograph keeps its own shape: nothing is cropped (see layout.js).
+  const placed = justifiedRows(aspects, { x: pad, y: top, w: boxW, h: boxH }, gap, extra);
+  if (!placed.length) return;
 
-    let ty = y + best.photoH;
+  ready.forEach(({ rec, img }, i) => {
+    const { x, y, w, h } = placed[i];
+    ctx.drawImage(img, x, y, w, h);
+
+    // Labels sit under the photograph, as wide as it is.
+    let ty = y + h;
     if (labelPx) {
       ctx.font = `italic 500 ${labelPx}px "Lora", Georgia, serif`;
       ctx.fillStyle = opts.fg;
       ctx.textAlign = "center";
       ctx.textBaseline = "top";
       let line = rec.name;
-      while (line.length > 6 && ctx.measureText(line).width > best.cellW) line = line.slice(0, -2);
+      while (line.length > 6 && ctx.measureText(line).width > w) line = line.slice(0, -2);
       if (line !== rec.name) line = line.replace(/\s+\S*$/, "") + "…";
-      ctx.fillText(line, x + best.cellW / 2, ty + labelPx * 0.25);
+      ctx.fillText(line, x + w / 2, ty + labelPx * 0.25);
       ty += labelPx * 1.5;
     }
     if (credPx && rec.licence.attribution) {
@@ -187,11 +148,7 @@ export async function drawSheet(canvas, opts, { country, species, loadImage }) {
       ctx.fillStyle = opts.at;
       ctx.textAlign = "center";
       ctx.textBaseline = "top";
-      ctx.fillText(
-        fitLine(ctx, bits.join(" · "), best.cellW),
-        x + best.cellW / 2,
-        ty + credPx * 0.2,
-      );
+      ctx.fillText(fitLine(ctx, bits.join(" · "), w), x + w / 2, ty + credPx * 0.2);
     }
   });
 }

@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { casePair, parseUnicodeSet, scriptOf } from "../../apps/alphabets/unicode.js";
+import { justifiedRows } from "../../apps/endemics/layout.js";
 import { joinChoices } from "../../apps/export-treemap/countries.js";
 import { cubeFor, toProducts } from "../../apps/export-treemap/oec.js";
 import { squarify } from "../../apps/export-treemap/treemap.js";
@@ -154,4 +155,35 @@ test("OWID plotter: each entity keeps its Code column", () => {
   assert.equal(d.codes.get("Germany"), "DEU");
   assert.equal(d.codes.get("World"), "OWID_WRL");
   assert.equal(d.codes.has("X"), false);
+});
+
+test("endemics: justifiedRows keeps every photo's shape and fits the box", () => {
+  const box = { x: 10, y: 20, w: 1000, h: 600 };
+  const aspects = [1.5, 0.75, 1.33, 1, 2, 0.66, 1.5];
+  const gap = 10;
+  const placed = justifiedRows(aspects, box, gap, 30);
+  assert.equal(placed.length, aspects.length);
+  placed.forEach((p, i) => {
+    // no cropping: drawn shape = the photo's shape
+    assert.ok(Math.abs(p.w / p.h - aspects[i]) < 1e-9);
+    // inside the box
+    assert.ok(p.x >= box.x - 1e-6 && p.x + p.w <= box.x + box.w + 1e-6);
+    assert.ok(p.y >= box.y - 1e-6 && p.y + p.h + 30 <= box.y + box.h + 1e-6);
+  });
+  // photos in a row share its height, and rows don't overlap
+  const rows = [...new Set(placed.map((p) => p.y))].sort((a, b) => a - b);
+  for (const y of rows) {
+    const r = placed.filter((p) => p.y === y);
+    assert.equal(new Set(r.map((p) => p.h.toFixed(6))).size, 1);
+  }
+  // order is kept: reading left to right, top to bottom
+  const order = placed
+    .map((p, i) => ({ i, y: p.y, x: p.x }))
+    .sort((a, b) => a.y - b.y || a.x - b.x)
+    .map((p) => p.i);
+  assert.deepEqual(
+    order,
+    aspects.map((_, i) => i),
+  );
+  assert.deepEqual(justifiedRows([], box, gap, 0), []);
 });

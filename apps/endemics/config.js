@@ -5,7 +5,7 @@
 /** Most species articles read for one country. */
 export const MAX_SPECIES = 240;
 /** Most photographs that fit on one sheet. */
-export const MAX_SELECTED = 12;
+export const MAX_SELECTED = 6;
 /** Width of the picker thumbnails, in pixels. */
 export const THUMB_W = 400;
 /** Width of the renders drawn on the sheet, in pixels. */
