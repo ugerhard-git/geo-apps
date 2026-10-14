@@ -126,11 +126,12 @@ function sheetContent() {
  * @returns {CountryShape | null}
  */
 function shapeFor(t) {
-  const num = NUMERIC.get(t.code);
-  const byId = num ? SHAPES.find((s) => s.id === num) : null;
-  if (byId) return byId;
   const names = new Set([t.name, ...t.alts].map(bareName));
-  return SHAPES.find((s) => names.has(bareName(s.name))) || null;
+  const byName = (/** @type {CountryShape} */ s) => names.has(bareName(s.name));
+  const num = NUMERIC.get(t.code);
+  const byId = num ? SHAPES.filter((s) => s.id === num) : [];
+  // A code can be shared: Australia's also marks the Ashmore and Cartier Islands.
+  return byId.find(byName) || byId[0] || SHAPES.find(byName) || null;
 }
 
 /* ═══════════════════════════════════════════════════════════
