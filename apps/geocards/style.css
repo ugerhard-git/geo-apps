@@ -375,11 +375,29 @@ button {
   pointer-events: none;
 }
 
+/* The preview: cards on one panel in the chosen background colour (set
+   from main.js), so it looks like the downloaded sheet. */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
-  gap: 22px;
+  gap: 6px 4px;
   margin-top: 26px;
+  padding: 10px 10px 14px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(28, 42, 51, 0.12);
+}
+.grid:empty {
+  display: none;
+}
+.grid.alpha {
+  background-color: #f4f7f8;
+  background-image:
+    linear-gradient(45deg, #dde4e7 25%, transparent 25%, transparent 75%, #dde4e7 75%),
+    linear-gradient(45deg, #dde4e7 25%, transparent 25%, transparent 75%, #dde4e7 75%);
+  background-size: 18px 18px;
+  background-position:
+    0 0,
+    9px 9px;
 }
 .cell {
   display: flex;
@@ -387,20 +405,7 @@ button {
   gap: 9px;
 }
 .shot {
-  border-radius: 4px;
   line-height: 0;
-  overflow: hidden;
-  background: #cdd7db;
-}
-.shot.alpha {
-  background-color: #e4eaec;
-  background-image:
-    linear-gradient(45deg, #cfd8dc 25%, transparent 25%, transparent 75%, #cfd8dc 75%),
-    linear-gradient(45deg, #cfd8dc 25%, transparent 25%, transparent 75%, #cfd8dc 75%);
-  background-size: 18px 18px;
-  background-position:
-    0 0,
-    9px 9px;
 }
 .shot canvas {
   width: 100%;
@@ -409,6 +414,7 @@ button {
 }
 .cell button {
   align-self: flex-start;
+  margin-left: 4%;
   background: none;
   border: 0;
   color: var(--muted);
@@ -419,6 +425,13 @@ button {
 }
 .cell button:hover {
   color: var(--accent);
+}
+/* On a dark background the links switch to light text. */
+.grid.on-dark .cell button {
+  color: rgba(255, 255, 255, 0.82);
+}
+.grid.on-dark .cell button:hover {
+  color: #fff;
 }
 
 .empty {
@@ -548,6 +561,11 @@ button {
 }
 
 /* --- colour controls --- */
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+}
 .swatchpick {
   display: inline-flex;
   align-items: center;

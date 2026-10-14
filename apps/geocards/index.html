@@ -74,44 +74,6 @@
         </section>
 
         <section class="rail-section">
-          <h2>Cards</h2>
-          <div class="ctl">
-            <span>Preset</span>
-            <div class="seg" role="group" aria-label="Colour preset">
-              <button type="button" data-preset="light" aria-pressed="true">Light</button>
-              <button type="button" data-preset="dark" aria-pressed="false">Dark</button>
-            </div>
-          </div>
-          <div class="ctl">
-            <span>Colours</span>
-            <label class="swatchpick" for="cardBg"
-              ><input type="color" id="cardBg" value="#FBF9F3" /><span>Card</span></label
-            >
-            <label class="swatchpick" for="cardText"
-              ><input type="color" id="cardText" value="#16232E" /><span>Text</span></label
-            >
-          </div>
-          <div class="ctl ctl-stack">
-            <span>Transparent</span>
-            <label class="switch">
-              <input type="checkbox" id="alphaCard" />
-              <span class="track"></span>
-              inside cards
-            </label>
-            <label class="switch">
-              <input type="checkbox" id="alpha" />
-              <span class="track"></span>
-              behind cards
-            </label>
-          </div>
-          <p class="hint">
-            Labels and units are the text colour at reduced strength, so they stay in step with whatever you choose.
-            Pick two colours far enough apart and the card stays readable. Clearing the inside of the cards leaves the
-            text and a hairline border.
-          </p>
-        </section>
-
-        <section class="rail-section">
           <div class="section-head">
             <h2>Statistics</h2>
             <span class="tally" id="tally">6 cards</span>
@@ -127,6 +89,49 @@
             <li><i class="mark frozen">2026</i> final Factbook edition, no longer updated</li>
             <li><i class="mark key">key</i> needs a REST Countries API key</li>
           </ul>
+        </section>
+
+        <section class="rail-section">
+          <h2>Cards</h2>
+          <div class="ctl">
+            <span>Preset</span>
+            <div class="seg" role="group" aria-label="Colour preset">
+              <button type="button" data-preset="light" aria-pressed="true">Light</button>
+              <button type="button" data-preset="dark" aria-pressed="false">Dark</button>
+            </div>
+          </div>
+          <div class="ctl ctl-stack">
+            <span>Colours</span>
+            <div class="swatches">
+              <label class="swatchpick" for="cardBg"
+                ><input type="color" id="cardBg" value="#FBF9F3" /><span>Card</span></label
+              >
+              <label class="swatchpick" for="cardText"
+                ><input type="color" id="cardText" value="#16232E" /><span>Text</span></label
+              >
+              <label class="swatchpick" for="sheetBg"
+                ><input type="color" id="sheetBg" value="#EDECE7" /><span>Background</span></label
+              >
+            </div>
+          </div>
+          <div class="ctl ctl-stack">
+            <span>Transparent</span>
+            <label class="switch">
+              <input type="checkbox" id="alphaCard" />
+              <span class="track"></span>
+              inside cards
+            </label>
+            <label class="switch">
+              <input type="checkbox" id="alpha" />
+              <span class="track"></span>
+              background
+            </label>
+          </div>
+          <p class="hint">
+            Labels and units are the text colour at reduced strength, so they stay in step with whatever you choose.
+            Pick two colours far enough apart and the card stays readable. Clearing the inside of the cards leaves the
+            text and a hairline border.
+          </p>
         </section>
 
         <section class="rail-section">
