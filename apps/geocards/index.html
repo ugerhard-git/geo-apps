@@ -50,25 +50,17 @@
       <aside class="rail">
         <header class="rail-head">
           <h1 class="wordmark"><span>Geo</span>Cards</h1>
-          <p class="tagline">
-            Country statistics, drawn as cards you can download. Figures come from live data; no country name ever
-            appears on a card.
-          </p>
+          <p class="tagline">Country statistics, drawn as cards you can download.</p>
         </header>
 
         <section class="rail-section">
           <form id="form" autocomplete="off">
-            <label class="lede" for="q">Country</label>
+            <label class="lede" for="country">Country</label>
             <div class="search-wrap">
-              <input type="text" id="q" name="q" placeholder="Name or ISO code" spellcheck="false" autocomplete="off" />
+              <input type="text" id="country" placeholder="Name or code" spellcheck="false" autocomplete="off" />
               <div class="results" id="countryResults"></div>
             </div>
-            <button class="go" type="submit" id="go">Create cards</button>
           </form>
-          <p class="hint">
-            Pick from the suggestions as you type, or press Enter: English names, local names and ISO codes all work,
-            and near-misses get matched. The field empties once the cards are drawn, so the answer stays off screen.
-          </p>
           <p class="status" id="status" role="status"></p>
           <div class="progress" id="progress" hidden><i></i></div>
         </section>

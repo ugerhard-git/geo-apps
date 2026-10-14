@@ -189,7 +189,6 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function generate(country, quiet) {
   if (state.busy) return;
   state.busy = true;
-  $("go").disabled = true;
   $("progress").hidden = false;
   if (!quiet) say("Fetching figures…");
   try {
@@ -211,7 +210,6 @@ async function generate(country, quiet) {
     say("Could not reach the World Bank data service. Check your connection and try again.", true);
   } finally {
     state.busy = false;
-    $("go").disabled = false;
     $("progress").hidden = true;
   }
 }
@@ -232,7 +230,6 @@ const pickerOptions = {
 const picker = createCountryPicker({
   ...pickerOptions,
   items: () => COUNTRIES,
-  inputId: "q",
   onPick: (c) => {
     picker.close();
     lookUp(c.code, c.name);
@@ -246,6 +243,8 @@ Promise.all([loadTerritories(), loadAlpha3()])
       name: t.name,
       alts: alpha3.has(t.code) ? [...t.alts, alpha3.get(t.code) || ""] : t.alts,
     }));
+    /** @type {HTMLInputElement} */ ($("country")).placeholder =
+      `${COUNTRIES.length} countries — name or code`;
   })
   .catch(() => {
     /* no suggestions, but typing a name and pressing Enter still works */
@@ -253,7 +252,7 @@ Promise.all([loadTerritories(), loadAlpha3()])
 
 $("form").addEventListener("submit", (e) => {
   e.preventDefault();
-  const q = $("q").value.trim();
+  const q = $("country").value.trim();
   if (!q) return;
   const best = rankCountries(q, COUNTRIES, pickerOptions)[0];
   picker.close();
@@ -269,7 +268,6 @@ $("form").addEventListener("submit", (e) => {
  */
 async function lookUp(query, name) {
   if (state.busy) return;
-  $("go").disabled = true;
   $("progress").hidden = false;
   say(cache.atlas ? "Looking it up…" : "Loading the country data set, just this once…");
   let country = null,
@@ -282,7 +280,6 @@ async function lookUp(query, name) {
     failure = err;
     console.error(err);
   }
-  $("go").disabled = false;
   $("progress").hidden = true;
   if (failure) {
     if (state.source === "rest") {
@@ -313,7 +310,8 @@ async function lookUp(query, name) {
     );
     return;
   }
-  $("q").value = ""; // the answer never stays on screen
+  // Like the other apps, the chosen country stays in the box.
+  $("country").value = name || country.keys?.[0] || $("country").value;
   await generate(country, false);
 }
 
