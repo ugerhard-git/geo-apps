@@ -6,10 +6,11 @@
  * holds the page: state, picker, previews, API key and wiring.
  */
 
-import { hex2rgb, palette, PRESETS } from "./colours.js";
+import { palette, PRESETS } from "./colours.js";
 import { DEFAULTS } from "./catalogue.js";
 import {
   ensureFonts,
+  cardRects,
   renderSheet,
   renderSingle,
   SHEET_H,
@@ -98,28 +99,39 @@ function say(msg, isErr) {
   el.classList.toggle("err", !!isErr);
 }
 
-/* -- previews -- */
+/* -- previews --
+   The main area shows the sheet exactly as the combined download draws it:
+   same rows, same cards per row, same background. Each card gets a small
+   download button laid over its corner, placed from the same cardRects()
+   the sheet is drawn with. */
 function paintPreviews() {
   const grid = $("grid");
   const pal = currentPalette();
   paintSheetPanel();
-  grid.innerHTML = "";
-  state.cards.forEach((card) => {
-    const cell = document.createElement("div");
-    cell.className = "cell";
-    const shot = document.createElement("div");
-    shot.className = "shot";
-    const cv = renderSingle(card, pal, state.transparent);
-    cv.setAttribute("role", "img");
-    cv.setAttribute("aria-label", card.label + " card");
-    shot.appendChild(cv);
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.textContent = "Download this card";
-    btn.addEventListener("click", () => saveCanvas(cv, `card-${card.id}.png`));
-    cell.append(shot, btn);
-    grid.appendChild(cell);
-  });
+  grid.replaceChildren();
+  if (state.cards.length) {
+    const sheet = renderSheet(state.cards, pal, state.transparent);
+    sheet.setAttribute("role", "img");
+    sheet.setAttribute("aria-label", "Card sheet: " + state.cards.map((c) => c.label).join(", "));
+    grid.appendChild(sheet);
+    /** @param {number} v @param {number} total */
+    const pct = (v, total) => (v / total) * 100 + "%";
+    cardRects(state.cards.length).forEach((r, i) => {
+      const card = state.cards[i];
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "card-dl";
+      btn.textContent = "Download";
+      btn.title = `Download the ${card.label} card on its own`;
+      btn.setAttribute("aria-label", `Download the ${card.label} card`);
+      btn.style.left = pct(r.x + r.w, SHEET_W);
+      btn.style.top = pct(r.y, SHEET_H);
+      btn.addEventListener("click", () =>
+        saveCanvas(renderSingle(card, currentPalette(), state.transparent), `card-${card.id}.png`),
+      );
+      grid.appendChild(btn);
+    });
+  }
   $("empty").hidden = state.cards.length > 0;
   $("count").textContent = state.cards.length
     ? `${state.cards.length} ${state.cards.length === 1 ? "card" : "cards"} ready — sheet is ${SHEET_W} × ${SHEET_H} pixels`
@@ -131,18 +143,13 @@ function paintPreviews() {
 }
 
 /**
- * The preview grid sits on one panel in the sheet colour, so the cards look
- * as they will on the downloaded sheet. With a transparent sheet the panel
- * shows a checkerboard instead. The per-card links take whichever of dark or
- * light text reads better on that colour.
+ * Behind the sheet image: its own colour, or a checkerboard when the sheet is
+ * transparent.
  */
 function paintSheetPanel() {
   const grid = $("grid");
   grid.classList.toggle("alpha", state.transparent);
   grid.style.backgroundColor = state.transparent ? "" : state.sheetBg;
-  const [r, g, b] = hex2rgb(state.sheetBg);
-  const light = 0.299 * r + 0.587 * g + 0.114 * b > 150;
-  grid.classList.toggle("on-dark", !state.transparent && !light);
 }
 
 /* -- plain text -- */

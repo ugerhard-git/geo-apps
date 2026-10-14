@@ -375,19 +375,25 @@ button {
   pointer-events: none;
 }
 
-/* The preview: cards on one panel in the chosen background colour (set
-   from main.js), so it looks like the downloaded sheet. */
+/* The preview: the sheet image itself, scaled to the width of the main area,
+   with a small download button over each card's top-right corner. The
+   background (the sheet colour, or a checkerboard when transparent) is set
+   from main.js. */
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
-  gap: 6px 4px;
+  position: relative;
   margin-top: 26px;
-  padding: 10px 10px 14px;
   border-radius: 4px;
+  overflow: hidden;
   box-shadow: 0 0 0 1px rgba(28, 42, 51, 0.12);
+  line-height: 0;
 }
 .grid:empty {
   display: none;
+}
+.grid canvas {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .grid.alpha {
   background-color: #f4f7f8;
@@ -399,39 +405,32 @@ button {
     0 0,
     9px 9px;
 }
-.cell {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
+.card-dl {
+  position: absolute;
+  transform: translate(calc(-100% - 8px), 8px);
+  padding: 5px 9px;
+  border: 1px solid rgba(28, 42, 51, 0.25);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--text);
+  font-size: 12px;
+  line-height: 1.2;
+  opacity: 0;
+  transition: opacity 0.12s;
 }
-.shot {
-  line-height: 0;
+.grid:hover .card-dl,
+.card-dl:focus-visible {
+  opacity: 1;
 }
-.shot canvas {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.cell button {
-  align-self: flex-start;
-  margin-left: 4%;
-  background: none;
-  border: 0;
-  color: var(--muted);
-  font-size: 13px;
-  padding: 0;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-.cell button:hover {
+.card-dl:hover {
+  border-color: var(--accent);
   color: var(--accent);
 }
-/* On a dark background the links switch to light text. */
-.grid.on-dark .cell button {
-  color: rgba(255, 255, 255, 0.82);
-}
-.grid.on-dark .cell button:hover {
-  color: #fff;
+/* No hover on touch screens: keep the buttons visible. */
+@media (hover: none) {
+  .card-dl {
+    opacity: 1;
+  }
 }
 
 .empty {

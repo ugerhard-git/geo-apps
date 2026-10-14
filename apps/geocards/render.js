@@ -255,6 +255,24 @@ export function smallestScale(n) {
   return Math.min(...L.widths.map((w) => Math.min(w / 540, L.ch / 460)));
 }
 
+/**
+ * Where each card sits on the sheet, in sheet pixels, row by row. Used both to
+ * draw the sheet and to place the per-card buttons over the preview.
+ *
+ * @param {number} n number of cards
+ * @returns {Array<{x: number, y: number, w: number, h: number}>}
+ */
+export function cardRects(n) {
+  const L = layoutFor(n);
+  const rects = [];
+  L.counts.forEach((k, r) => {
+    const cw = L.widths[r];
+    const y = PAD + r * (L.ch + GAP);
+    for (let c = 0; c < k; c++) rects.push({ x: PAD + c * (cw + GAP), y, w: cw, h: L.ch });
+  });
+  return rects;
+}
+
 export function renderSheet(cards, pal, transparent) {
   const cv = document.createElement("canvas");
   cv.width = SHEET_W;
@@ -264,16 +282,7 @@ export function renderSheet(cards, pal, transparent) {
     ctx.fillStyle = pal.sheet;
     ctx.fillRect(0, 0, SHEET_W, SHEET_H);
   }
-
-  const L = layoutFor(cards.length);
-  let i = 0;
-  L.counts.forEach((k, r) => {
-    const cw = L.widths[r];
-    const y = PAD + r * (L.ch + GAP);
-    for (let c = 0; c < k; c++) {
-      drawCard(ctx, PAD + c * (cw + GAP), y, cw, L.ch, cards[i++], pal);
-    }
-  });
+  cardRects(cards.length).forEach((r, i) => drawCard(ctx, r.x, r.y, r.w, r.h, cards[i], pal));
   return cv;
 }
 
