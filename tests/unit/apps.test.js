@@ -4,6 +4,8 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { casePair, parseUnicodeSet, scriptOf } from "../../apps/alphabets/unicode.js";
+import { decodeCities, isFormatError } from "../../apps/city-dots/cities.js";
+import { extentOf, pickDots, radiusFor } from "../../apps/city-dots/dots.js";
 import { fitCredit, wrapCredit } from "../../apps/endemics/credits.js";
 import { justifiedRows } from "../../apps/endemics/layout.js";
 import { joinChoices } from "../../apps/export-treemap/countries.js";
@@ -213,4 +215,138 @@ test("endemics: fitCredit shrinks the font only when wrapping isn't enough", () 
   const narrow = fitCredit(credit, 40, 3, 20, 8, measureAt);
   assert.ok(narrow && narrow.px < 20 && narrow.lines.length <= 3);
   assert.equal(fitCredit(credit, 5, 1, 20, 8, measureAt), null);
+});
+
+/* ── City dots ───────────────────────────────────────────── */
+
+/** A tiny Protocol Buffers writer, enough to build test files. */
+function pbf() {
+  /** @type {number[]} */
+  const bytes = [];
+  const varint = (/** @type {number} */ v) => {
+    while (v >= 128) {
+      bytes.push((v % 128) | 128);
+      v = Math.floor(v / 128);
+    }
+    bytes.push(v);
+  };
+  return {
+    bytes,
+    varint,
+    key: (/** @type {number} */ tag, /** @type {number} */ wire) => varint(tag * 8 + wire),
+    svarint: (/** @type {number} */ v) => varint(v < 0 ? -v * 2 - 1 : v * 2),
+  };
+}
+
+/**
+ * One city record, length-prefixed, in all-the-cities' layout.
+ *
+ * @param {{country: string, feature?: string, pop?: number, dLon: number, dLat: number, extra?: boolean}} c
+ */
+function cityRecord(c) {
+  const m = pbf();
+  const str = (/** @type {number} */ tag, /** @type {string} */ s) => {
+    m.key(tag, 2);
+    const utf8 = Buffer.from(s, "utf8");
+    m.varint(utf8.length);
+    for (const b of utf8) m.bytes.push(b);
+  };
+  m.key(1, 0);
+  m.svarint(12345);
+  str(2, "Zürich");
+  str(3, c.country);
+  if (c.extra) (m.key(15, 5), m.bytes.push(1, 2, 3, 4)); // an unknown fixed32 field
+  str(7, c.feature || "PPL");
+  if (c.pop) (m.key(9, 0), m.varint(c.pop));
+  m.key(10, 0);
+  m.svarint(c.dLon);
+  m.key(11, 0);
+  m.svarint(c.dLat);
+  const out = pbf();
+  out.varint(m.bytes.length);
+  return [...out.bytes, ...m.bytes];
+}
+
+test("city dots: the city list decodes, with cumulative coordinates", () => {
+  const buf = Uint8Array.from([
+    ...cityRecord({ country: "CH", pop: 400000, dLon: 854000, dLat: 4737000 }),
+    ...cityRecord({
+      country: "CH",
+      feature: "PPLC",
+      pop: 130000,
+      dLon: -110000,
+      dLat: -42000,
+      extra: true,
+    }),
+    ...cityRecord({ country: "CH", feature: "PPLX", pop: 9e6, dLon: 1, dLat: 1 }), // a district: skipped
+    ...cityRecord({ country: "c", pop: 5, dLon: 0, dLat: 0 }), // a bad country code: skipped
+    ...cityRecord({ country: "LI", pop: 5000, dLon: 100000, dLat: 0 }),
+  ]);
+  const byCountry = decodeCities(buf);
+  assert.deepEqual([...byCountry.keys()].sort(), ["CH", "LI"]);
+  const ch = /** @type {any[]} */ (byCountry.get("CH"));
+  assert.equal(ch.length, 2);
+  assert.deepEqual(ch[0], { lon: 8.54, lat: 47.37, pop: 400000, capital: false });
+  assert.deepEqual(ch[1], { lon: 7.44, lat: 46.95, pop: 130000, capital: true });
+  // The skipped records still moved the running coordinates.
+  const li = /** @type {any[]} */ (byCountry.get("LI"))[0];
+  assert.ok(Math.abs(li.lon - 8.44001) < 1e-9 && Math.abs(li.lat - 46.95001) < 1e-9);
+});
+
+test("city dots: a damaged city list is rejected, not trusted", () => {
+  const good = cityRecord({ country: "CH", pop: 1, dLon: 0, dLat: 0 });
+  const bad = [
+    good.slice(0, good.length - 3), // cut short
+    [200, 1, ...good.slice(1)], // a record longer than the file
+    [3, 0x0b, 0, 0], // wire type 3
+    [11, ...Array(11).fill(0xff)], // a runaway varint
+  ];
+  for (const bytes of bad)
+    assert.throws(
+      () => decodeCities(Uint8Array.from(bytes)),
+      (e) => isFormatError(e),
+    );
+  assert.equal(decodeCities(new Uint8Array(0)).size, 0);
+});
+
+test("city dots: picking dots keeps to the subject and can add the capital", () => {
+  const cities = [
+    { lon: 10, lat: 50, pop: 900, capital: false },
+    { lon: 100, lat: 0, pop: 800, capital: false }, // far away: outside the boxes
+    { lon: 11, lat: 51, pop: 700, capital: false },
+    { lon: 12, lat: 52, pop: 100, capital: true },
+  ];
+  const r = Math.PI / 180;
+  const box = { x0: 9 * r, x1: 13 * r, y0: 0.9, y1: 1.1 };
+  const plain = pickDots(cities, 2, [box], 0.3);
+  assert.deepEqual(
+    plain.map((d) => d.pop),
+    [900, 700],
+  );
+  const withCap = pickDots(cities, 2, [box], 0.3, true);
+  assert.deepEqual(
+    withCap.map((d) => d.pop),
+    [900, 100],
+  );
+  // No outline: nothing to keep to.
+  assert.equal(pickDots(cities, 10, [], 0.3).length, 4);
+  // East of the antimeridian, a city is tried shifted round to join the outline.
+  const far = pickDots(
+    [{ lon: -175, lat: 65, pop: 1, capital: false }],
+    5,
+    [{ x0: 3.1, x1: 3.3, y0: 1.5, y1: 1.6 }],
+    0.3,
+  );
+  assert.equal(far.length, 1);
+  assert.ok(far[0].x > Math.PI);
+});
+
+test("city dots: dot areas follow population, with a floor", () => {
+  assert.equal(radiusFor(100, 100, 40, false), 40);
+  assert.ok(Math.abs(radiusFor(25, 100, 40, false) - 20) < 1e-9);
+  assert.equal(radiusFor(0, 100, 40, false), 40 * 0.14);
+  assert.equal(radiusFor(1, 100, 40, true), radiusFor(100, 100, 40, true));
+  const ext = extentOf([], [{ x: 1, y: 1, pop: 1, capital: false }]);
+  assert.ok(ext && ext.x1 > ext.x0 && ext.y1 > ext.y0);
+  assert.equal(extentOf([], []), null);
 });
