@@ -42,20 +42,29 @@ body {
   opacity: 0.5;
   z-index: 0;
 }
-.wrap {
+/* ---------- layout: settings rail on the left, cards on the right ---------- */
+.shell {
   position: relative;
   z-index: 1;
-  max-width: 1220px;
-  margin: 0 auto;
-  padding: 0 28px 96px;
+  display: grid;
+  grid-template-columns: 360px minmax(0, 1fr);
+  min-height: 100vh;
 }
-
-header {
-  padding: 46px 0 0;
+.rail {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  background: var(--ink-2);
+  border-right: 1px solid var(--line);
+}
+.rail-head {
+  padding: 28px 24px 22px;
+  border-bottom: 1px solid var(--line);
 }
 .wordmark {
   font:
-    500 34px/1 Fraunces,
+    500 30px/1 Fraunces,
     Georgia,
     serif;
   letter-spacing: -0.01em;
@@ -67,30 +76,41 @@ header {
 .tagline {
   margin: 10px 0 0;
   color: var(--slate);
-  max-width: 52ch;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.rail-section {
+  padding: 22px 24px 24px;
+  border-bottom: 1px solid var(--line);
+}
+.rail-section h2 {
+  margin: 0 0 14px;
+  font:
+    600 12px/1 Archivo,
+    sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--slate);
+}
+.stage {
+  padding: 28px 36px 72px;
+  min-width: 0;
 }
 
-/* ---------- hero / search ---------- */
-.hero {
-  margin: 52px 0 0;
-  border-top: 1px solid var(--line);
-  padding-top: 34px;
-}
+/* ---------- country search ---------- */
 form {
   display: flex;
+  flex-direction: column;
   gap: 14px;
-  align-items: flex-end;
-  flex-wrap: wrap;
-}
-.field {
-  flex: 1 1 340px;
-  min-width: 0;
 }
 label.lede {
   display: block;
   color: var(--slate);
   font-size: 14px;
   margin-bottom: 9px;
+}
+form label.lede {
+  margin-bottom: -6px; /* the form's own gap provides the spacing */
 }
 input[type="text"] {
   width: 100%;
@@ -99,7 +119,7 @@ input[type="text"] {
   border-bottom: 2px solid var(--line);
   color: var(--chalk);
   font:
-    500 30px/1.3 Fraunces,
+    500 24px/1.3 Fraunces,
     Georgia,
     serif;
   padding: 4px 2px 10px;
@@ -177,7 +197,8 @@ button {
   font:
     600 16px/1 Archivo,
     sans-serif;
-  padding: 16px 26px;
+  padding: 14px 20px;
+  width: 100%;
   transition: background 0.15s;
 }
 .go:hover {
@@ -193,13 +214,14 @@ button {
 }
 .hint {
   color: var(--slate-dim);
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 1.5;
   margin: 14px 0 0;
 }
 .status {
-  margin: 16px 0 0;
-  font-size: 15px;
-  min-height: 24px;
+  margin: 12px 0 0;
+  font-size: 14px;
+  min-height: 0;
   color: var(--verdigris);
 }
 .status.err {
@@ -207,23 +229,21 @@ button {
 }
 
 /* ---------- controls ---------- */
-.controls {
-  margin: 44px 0 0;
-  display: flex;
-  gap: 34px;
-  flex-wrap: wrap;
-  align-items: center;
-  border-top: 1px solid var(--line);
-  padding-top: 26px;
-}
 .ctl {
   display: flex;
   align-items: center;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+  margin-bottom: 14px;
 }
 .ctl > span {
   color: var(--slate);
   font-size: 14px;
+  width: 84px;
+}
+.ctl-stack {
+  flex-direction: column;
+  align-items: flex-start;
 }
 .seg {
   display: flex;
@@ -239,6 +259,12 @@ button {
   font:
     500 14px/1 Archivo,
     sans-serif;
+}
+.seg-full {
+  margin-bottom: 14px;
+}
+.seg-full button {
+  flex: 1;
 }
 .seg button[aria-pressed="true"] {
   background: var(--ink-3);
@@ -304,21 +330,10 @@ button {
 
 /* ---------- picker ---------- */
 .picker {
-  margin: 26px 0 0;
-  border: 1px solid var(--line);
-  border-radius: 3px;
-  padding: 24px 26px 28px;
-  background: rgba(19, 35, 48, 0.55);
+  margin: 16px 0 0;
 }
 .picker[hidden] {
   display: none;
-}
-.picker h2 {
-  font:
-    500 15px/1 Archivo,
-    sans-serif;
-  color: var(--slate);
-  margin: 0 0 16px;
 }
 .group {
   margin-bottom: 22px;
@@ -355,8 +370,8 @@ button {
   display: inline-block;
   border: 1px solid var(--line);
   border-radius: 2px;
-  padding: 7px 13px;
-  font-size: 14px;
+  padding: 6px 10px;
+  font-size: 13px;
   color: var(--slate);
   transition: 0.13s;
 }
@@ -381,8 +396,9 @@ button {
 }
 .picker footer {
   display: flex;
-  gap: 18px;
-  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
   margin-top: 18px;
   border-top: 1px solid var(--line);
   padding-top: 16px;
@@ -395,16 +411,13 @@ button {
 }
 
 /* ---------- output ---------- */
-.output {
-  margin: 48px 0 0;
-}
 .toolbar {
   display: flex;
-  gap: 14px;
+  gap: 12px;
   align-items: center;
   flex-wrap: wrap;
-  border-top: 1px solid var(--line);
-  padding-top: 26px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
 }
 .toolbar .count {
   color: var(--slate);
@@ -445,7 +458,7 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
   gap: 22px;
-  margin-top: 28px;
+  margin-top: 26px;
 }
 .cell {
   display: flex;
@@ -536,7 +549,7 @@ button {
 }
 
 .colophon {
-  margin: 72px 0 0;
+  margin: 64px 0 0;
   border-top: 1px solid var(--line);
   padding-top: 22px;
   color: var(--slate-dim);
@@ -549,11 +562,7 @@ button {
 
 /* --- key panel --- */
 .keypanel {
-  margin: 26px 0 0;
-  border: 1px solid var(--line);
-  border-radius: 3px;
-  padding: 24px 26px;
-  background: rgba(19, 35, 48, 0.55);
+  margin: 16px 0 0;
 }
 .keypanel[hidden] {
   display: none;
@@ -565,7 +574,12 @@ button {
   flex-wrap: wrap;
 }
 .keyrow .field {
-  flex: 1 1 300px;
+  flex: 1 1 100%;
+  min-width: 0;
+}
+.keyrow .btn {
+  flex: 1;
+  padding: 10px 12px;
 }
 .keypanel input[type="password"],
 .keypanel input[type="text"].key {
@@ -763,17 +777,18 @@ button {
   font-size: 13px;
 }
 
-@media (max-width: 640px) {
-  .wrap {
-    padding: 0 18px 64px;
+@media (max-width: 900px) {
+  .shell {
+    grid-template-columns: 1fr;
   }
-  .wordmark {
-    font-size: 27px;
+  .rail {
+    position: static;
+    height: auto;
+    overflow: visible;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
   }
-  input[type="text"] {
-    font-size: 24px;
-  }
-  .controls {
-    gap: 22px;
+  .stage {
+    padding: 24px 18px 56px;
   }
 }
