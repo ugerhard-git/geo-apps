@@ -1,0 +1,1420 @@
+{
+ "country": "JP",
+ "items": [
+  {
+   "id": "Q39231",
+   "name": "Mount Fuji",
+   "sl": 146,
+   "file": "Kodaki fuji frm shojinko refurb.jpg",
+   "lat": 35.3606,
+   "lon": 138.7275,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "highest point",
+    "isolated peak",
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16482294",
+    "name": "Fujisan, sacred place and source of artistic inspiration"
+   },
+   "also": [],
+   "cat": "Mount Fuji"
+  },
+  {
+   "id": "Q1030463",
+   "name": "Mode Gakuen Cocoon Tower",
+   "sl": 83,
+   "file": "2024 Cocoon Tower 02.jpg",
+   "lat": 35.6917,
+   "lon": 139.6969,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "vertical campus building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mode Gakuen Cocoon Tower"
+  },
+  {
+   "id": "Q221716",
+   "name": "Kiyomizu-dera",
+   "sl": 77,
+   "file": "Kiyomizu-dera, Kyoto, November 2016 -02.jpg",
+   "lat": 34.9948,
+   "lon": 135.785,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q874027",
+    "name": "Historic Monuments of Ancient Kyoto"
+   },
+   "also": [],
+   "cat": "Kiyomizu-dera"
+  },
+  {
+   "id": "Q200267",
+   "name": "Kamakura",
+   "sl": 76,
+   "file": "230128 Hasedera Kamakura Kanagawa pref Japan09s3.jpg",
+   "lat": 35.3192,
+   "lon": 139.5472,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "big city",
+    "city of Japan",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamakura, Kanagawa"
+  },
+  {
+   "id": "Q188754",
+   "name": "Himeji Castle",
+   "sl": 75,
+   "file": "Himeji castle in may 2015.jpg",
+   "lat": 34.8394,
+   "lon": 134.6936,
+   "kind": "built",
+   "types": [
+    "château",
+    "hirayamajiro",
+    "Japanese castle"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Himeji Castle"
+  },
+  {
+   "id": "Q204853",
+   "name": "Tokyo International Airport",
+   "sl": 73,
+   "file": "Tokyo-International-Airport Satellite.jpg",
+   "lat": 35.5533,
+   "lon": 139.7811,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tokyo International Airport"
+  },
+  {
+   "id": "Q57965",
+   "name": "Tokyo Skytree",
+   "sl": 72,
+   "file": "Tokyo Skytree 2023.jpg",
+   "lat": 35.7101,
+   "lon": 139.8107,
+   "kind": "built",
+   "types": [
+    "communication tower",
+    "observation tower",
+    "television tower",
+    "transmitter mast"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tokyo Skytree"
+  },
+  {
+   "id": "Q184213",
+   "name": "Akashi Kaikyō Bridge",
+   "sl": 71,
+   "file": "Akashi Bridge.JPG",
+   "lat": 34.6164,
+   "lon": 135.0203,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "steel bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akashi-Kaikyo Bridge"
+  },
+  {
+   "id": "Q231140",
+   "name": "Hiroshima Peace Memorial",
+   "sl": 70,
+   "file": "Genbaku Dome04-r.JPG",
+   "lat": 34.3956,
+   "lon": 132.4536,
+   "kind": "built",
+   "types": [
+    "A-bombed building",
+    "memorial"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Hiroshima Peace Memorial (Genbaku Dome)"
+  },
+  {
+   "id": "Q191763",
+   "name": "Itsukushima Shrine",
+   "sl": 69,
+   "file": "Itsukushima Gate.jpg",
+   "lat": 34.2958,
+   "lon": 132.3201,
+   "kind": "built",
+   "types": [
+    "Itsukushima shrine",
+    "Munakata shrine",
+    "Shikinaisha",
+    "Shinto shrine"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Itsukushima Shinto Shrine"
+  },
+  {
+   "id": "Q193682",
+   "name": "Kansai International Airport",
+   "sl": 69,
+   "file": "関西国際空港全体写真20220811.jpg",
+   "lat": 34.4306,
+   "lon": 135.2303,
+   "kind": "both",
+   "types": [
+    "artificial island airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kansai International Airport"
+  },
+  {
+   "id": "Q183536",
+   "name": "Tokyo Tower",
+   "sl": 69,
+   "file": "Tokyo Tower 2023.jpg",
+   "lat": 35.6586,
+   "lon": 139.7456,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "lattice tower",
+    "observation tower",
+    "transmitter mast"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tokyo Tower"
+  },
+  {
+   "id": "Q477675",
+   "name": "National Diet Library",
+   "sl": 68,
+   "file": "NDL Tokyo01st3200.jpg",
+   "lat": 35.6783,
+   "lon": 139.7442,
+   "kind": "built",
+   "types": [
+    "library building",
+    "national library",
+    "parliamentary library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Diet Library"
+  },
+  {
+   "id": "Q16318627",
+   "name": "Abeno Harukas",
+   "sl": 67,
+   "file": "Abeno Harukas Osaka Japan01-r.jpg",
+   "lat": 34.6459,
+   "lon": 135.5143,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abeno Harukas"
+  },
+  {
+   "id": "Q36454",
+   "name": "Narita International Airport",
+   "sl": 67,
+   "file": "Narita International Air Port (cropped).jpg",
+   "lat": 35.7649,
+   "lon": 140.3885,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Narita International Airport"
+  },
+  {
+   "id": "Q200239",
+   "name": "Lake Biwa",
+   "sl": 66,
+   "file": "Top view of Lake Biwa.jpg",
+   "lat": 35.255,
+   "lon": 136.08,
+   "kind": "natural",
+   "types": [
+    "ancient lake",
+    "Class A river",
+    "tectonic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Biwa"
+  },
+  {
+   "id": "Q270983",
+   "name": "Kinkaku-ji Temple",
+   "sl": 57,
+   "file": "Water reflection of Kinkaku-ji Temple a sunny day, Kyoto, Japan.jpg",
+   "lat": 35.0395,
+   "lon": 135.7285,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "Japanese garden"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q874027",
+    "name": "Historic Monuments of Ancient Kyoto"
+   },
+   "also": [],
+   "cat": "Kinkaku-ji"
+  },
+  {
+   "id": "Q261932",
+   "name": "Hōryū-ji Temple",
+   "sl": 53,
+   "file": "Horyu-ji45s2s4500.jpg",
+   "lat": 34.6144,
+   "lon": 135.7342,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1333799",
+    "name": "Buddhist Monuments in the Hōryū-ji Area"
+   },
+   "also": [],
+   "cat": "Hōryū-ji"
+  },
+  {
+   "id": "Q501638",
+   "name": "Shirakami-Sanchi",
+   "sl": 53,
+   "file": "Sirakami santi.JPG",
+   "lat": 40.4503,
+   "lon": 140.1986,
+   "kind": "natural",
+   "types": [
+    "montane ecosystem",
+    "mountain range",
+    "natural landscape"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Shirakami-Sanchi"
+  },
+  {
+   "id": "Q242730",
+   "name": "Mount Asama",
+   "sl": 52,
+   "file": "Mt.Asama (From saku city).jpg",
+   "lat": 36.4,
+   "lon": 138.5167,
+   "kind": "natural",
+   "types": [
+    "complex volcano",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Asama"
+  },
+  {
+   "id": "Q653433",
+   "name": "Tokyo National Museum",
+   "sl": 52,
+   "file": "Tokyo National Museum, Honkan 2010.jpg",
+   "lat": 35.7189,
+   "lon": 139.7764,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tokyo National Museum"
+  },
+  {
+   "id": "Q615767",
+   "name": "Aokigahara",
+   "sl": 51,
+   "file": "Aokigahara Forest (10863169686).jpg",
+   "lat": 35.4736,
+   "lon": 138.64,
+   "kind": "",
+   "types": [
+    "forest"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16482294",
+    "name": "Fujisan, sacred place and source of artistic inspiration"
+   },
+   "also": [],
+   "cat": "Aokigahara"
+  },
+  {
+   "id": "Q321242",
+   "name": "Osaka Castle",
+   "sl": 51,
+   "file": "Osaka Castle 02bs3200.jpg",
+   "lat": 34.6872,
+   "lon": 135.5258,
+   "kind": "built",
+   "types": [
+    "Japanese castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Osaka Castle"
+  },
+  {
+   "id": "Q128841",
+   "name": "Sakurajima",
+   "sl": 50,
+   "file": "Kagoshima and Sakurajima.jpg",
+   "lat": 31.5806,
+   "lon": 130.6581,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sakurajima"
+  },
+  {
+   "id": "Q739391",
+   "name": "Shiretoko National Park",
+   "sl": 50,
+   "file": "140829 Track Near Furepe Falls Shiretoko Hokkaido Japan00s3.jpg",
+   "lat": 44.1619,
+   "lon": 145.2356,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shiretoko"
+  },
+  {
+   "id": "Q733710",
+   "name": "Mount Aso",
+   "sl": 49,
+   "file": "20140516阿蘇山広域.jpg",
+   "lat": 32.885,
+   "lon": 131.1042,
+   "kind": "natural",
+   "types": [
+    "supervolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Aso"
+  },
+  {
+   "id": "Q242803",
+   "name": "Yasukuni Shrine",
+   "sl": 48,
+   "file": "2018 Haiden (Yasukuni Shrine).jpg",
+   "lat": 35.694,
+   "lon": 139.7427,
+   "kind": "built",
+   "types": [
+    "chokusaisha",
+    "gokoku shrine",
+    "Shinto shrine",
+    "war memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yasukuni Shrine"
+  },
+  {
+   "id": "Q679345",
+   "name": "Chubu Centrair International Airport",
+   "sl": 46,
+   "file": "Chubu Centrair International Airport - North Wing - 01.JPG",
+   "lat": 34.8583,
+   "lon": 136.8053,
+   "kind": "both",
+   "types": [
+    "artificial island airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chubu International Airport"
+  },
+  {
+   "id": "Q174170",
+   "name": "Suzuka Circuit",
+   "sl": 45,
+   "file": "Suzukacircuit main-straight.jpg",
+   "lat": 34.8417,
+   "lon": 136.5389,
+   "kind": "built",
+   "types": [
+    "leisure center",
+    "motorsport racing track"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suzuka Circuit"
+  },
+  {
+   "id": "Q500681",
+   "name": "Tokyo Imperial Palace",
+   "sl": 45,
+   "file": "Tatsumi-yagura, Tokyo Imperial Palace (52158185625).jpg",
+   "lat": 35.6825,
+   "lon": 139.7521,
+   "kind": "built",
+   "types": [
+    "Japanese Imperial Facilities",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tokyo Imperial Palace"
+  },
+  {
+   "id": "Q460367",
+   "name": "Tōdai-ji Temple",
+   "sl": 44,
+   "file": "Daibutsu-den in Todaiji Nara02bs3200.jpg",
+   "lat": 34.6892,
+   "lon": 135.8397,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "chokugan-ji",
+    "provincial temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1055749",
+    "name": "Historic Monuments of Ancient Nara"
+   },
+   "also": [],
+   "cat": "Tōdai-ji"
+  },
+  {
+   "id": "Q116601",
+   "name": "International Stadium Yokohama",
+   "sl": 43,
+   "file": "Nissan International Stadium Yokohama.jpg",
+   "lat": 35.51,
+   "lon": 139.6062,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "International Stadium Yokohama"
+  },
+  {
+   "id": "Q620860",
+   "name": "Mount Unzen",
+   "sl": 43,
+   "file": "Unzen pyroclastic and lahar deposits.jpg",
+   "lat": 32.7613,
+   "lon": 130.2987,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Unzen"
+  },
+  {
+   "id": "Q672056",
+   "name": "Kōtoku-in Temple",
+   "sl": 42,
+   "file": "230128 Kamakura Daibutsu Japan01s3.jpg",
+   "lat": 35.3169,
+   "lon": 139.5357,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kōtoku-in"
+  },
+  {
+   "id": "Q1754806",
+   "name": "Mount Ontake",
+   "sl": 42,
+   "file": "Kiso Ontake.jpg",
+   "lat": 35.8931,
+   "lon": 137.4806,
+   "kind": "natural",
+   "types": [
+    "sacred mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Ontake"
+  },
+  {
+   "id": "Q714828",
+   "name": "Fushimi Inari-taisha",
+   "sl": 41,
+   "file": "Fushimiinari-taisha, naihaiden-1.jpg",
+   "lat": 34.9672,
+   "lon": 135.7734,
+   "kind": "built",
+   "types": [
+    "Inari shrine",
+    "Shikinaisha",
+    "Shikinai Supershrine",
+    "Shinto shrine"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fushimi Inari-taisha"
+  },
+  {
+   "id": "Q14862239",
+   "name": "Japan National Stadium",
+   "sl": 41,
+   "file": "Exterior of Japan National Stadium.jpg",
+   "lat": 35.6778,
+   "lon": 139.7145,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "national stadium",
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Japan National Stadium"
+  },
+  {
+   "id": "Q171399",
+   "name": "Fuji Speedway",
+   "sl": 40,
+   "file": "Safety car 2024 WEC Fuji.jpg",
+   "lat": 35.3717,
+   "lon": 138.9267,
+   "kind": "built",
+   "types": [
+    "motorsport racing track"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fuji Speedway"
+  },
+  {
+   "id": "Q874027",
+   "name": "Historic Monuments of Ancient Kyoto",
+   "sl": 40,
+   "file": "Kinkakuji 2004-09-21.jpg",
+   "lat": 35.0603,
+   "lon": 135.7528,
+   "kind": "",
+   "types": [
+    "cultural heritage",
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Historic monuments of ancient Kyoto"
+  },
+  {
+   "id": "Q877626",
+   "name": "Historic Villages of Shirakawa-gō and Gokayama",
+   "sl": 40,
+   "file": "Ogi Shirakawa-gō, Gifu, Japan.jpg",
+   "lat": 36.2569,
+   "lon": 136.9064,
+   "kind": "",
+   "types": [
+    "architectural ensemble",
+    "group of settlements"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Historic villages of Shirakawa-go and Gokayama"
+  },
+  {
+   "id": "Q648629",
+   "name": "Nagoya Castle",
+   "sl": 40,
+   "file": "Nagoya Castle(Larger).jpg",
+   "lat": 35.1856,
+   "lon": 136.8986,
+   "kind": "built",
+   "types": [
+    "hirajiro",
+    "Japanese castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nagoya Castle"
+  },
+  {
+   "id": "Q907052",
+   "name": "Shuri Castle",
+   "sl": 40,
+   "file": "Naha Shuri Castle51s3s4200.jpg",
+   "lat": 26.217,
+   "lon": 127.7195,
+   "kind": "built",
+   "types": [
+    "government agency",
+    "gusuku",
+    "museum",
+    "official residence"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1333330",
+    "name": "Gusuku Sites and Related Properties of the Kingdom of Ryukyu"
+   },
+   "also": [],
+   "cat": "Shuri Castle"
+  },
+  {
+   "id": "Q843997",
+   "name": "Tokyo Disneyland",
+   "sl": 40,
+   "file": "Tokyo Disneyland Cinderella Castle 2023-07-02.jpg",
+   "lat": 35.6328,
+   "lon": 139.8806,
+   "kind": "built",
+   "types": [
+    "theme park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tokyo Disneyland"
+  },
+  {
+   "id": "Q865913",
+   "name": "Edo Castle",
+   "sl": 39,
+   "file": "Tokyo Imperial Palace Aerial photograph 2019.jpg",
+   "lat": 35.6883,
+   "lon": 139.7544,
+   "kind": "built",
+   "types": [
+    "hirajiro",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edo Castle"
+  },
+  {
+   "id": "Q748040",
+   "name": "Mount Hiei",
+   "sl": 39,
+   "file": "Sakura MtHiei.jpg",
+   "lat": 35.0667,
+   "lon": 135.8383,
+   "kind": "natural",
+   "types": [
+    "hometown Fuji",
+    "mountain",
+    "sacred mountain",
+    "sangō"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Hiei"
+  },
+  {
+   "id": "Q283196",
+   "name": "Tokyo Station",
+   "sl": 39,
+   "file": "Tokyo-STA Marunouchi-Entrance 2023.jpg",
+   "lat": 35.6808,
+   "lon": 139.7669,
+   "kind": "built",
+   "types": [
+    "central station",
+    "elevated station",
+    "interchange station",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tokyo Station"
+  },
+  {
+   "id": "Q613355",
+   "name": "Kumamoto Castle",
+   "sl": 38,
+   "file": "Kumamotojo.jpg",
+   "lat": 32.8061,
+   "lon": 130.706,
+   "kind": "built",
+   "types": [
+    "hirayamajiro",
+    "Japanese castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kumamoto Castle"
+  },
+  {
+   "id": "Q535065",
+   "name": "Mount Kōya",
+   "sl": 38,
+   "file": "Danjogaran Koyasan12n3200.jpg",
+   "lat": 34.2178,
+   "lon": 135.5833,
+   "kind": "both",
+   "types": [
+    "basin",
+    "hexad",
+    "mountain range",
+    "ōaza"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q611345",
+    "name": "Sacred Sites and Pilgrimage Routes in the Kii Mountain Range"
+   },
+   "also": [],
+   "cat": "Mount Kōya"
+  },
+  {
+   "id": "Q386246",
+   "name": "Nippon Budōkan",
+   "sl": 38,
+   "file": "Nippon Budokan 2018.jpg",
+   "lat": 35.6933,
+   "lon": 139.75,
+   "kind": "built",
+   "types": [
+    "arena",
+    "budōkan",
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nippon Budokan"
+  },
+  {
+   "id": "Q61094",
+   "name": "Byōdō-in Temple",
+   "sl": 37,
+   "file": "Phoenix Hall, Byodo-in, November 2016 -01.jpg",
+   "lat": 34.8894,
+   "lon": 135.8078,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q874027",
+    "name": "Historic Monuments of Ancient Kyoto"
+   },
+   "also": [],
+   "cat": "Byōdō-in"
+  },
+  {
+   "id": "Q739612",
+   "name": "Matsumoto Castle",
+   "sl": 37,
+   "file": "Matsumoto Castle05s5s4592.jpg",
+   "lat": 36.2389,
+   "lon": 137.9692,
+   "kind": "built",
+   "types": [
+    "hirajiro",
+    "Japanese castle",
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matsumoto Castle"
+  },
+  {
+   "id": "Q482446",
+   "name": "Saitama Stadium 2002",
+   "sl": 37,
+   "file": "Saitama stadium2002-1.jpg",
+   "lat": 35.9031,
+   "lon": 139.7175,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saitama Stadium"
+  },
+  {
+   "id": "Q494860",
+   "name": "Sapporo Dome",
+   "sl": 37,
+   "file": "Sapporo Dome Hovering Stage.jpg",
+   "lat": 43.0152,
+   "lon": 141.4098,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "music venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sapporo Dome"
+  },
+  {
+   "id": "Q1055749",
+   "name": "Historic Monuments of Ancient Nara",
+   "sl": 36,
+   "file": "Todaiji18s3200.jpg",
+   "lat": 34.6756,
+   "lon": 135.8394,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Historic monuments of ancient Nara"
+  },
+  {
+   "id": "Q746216",
+   "name": "Ueno Imperial Grant Park",
+   "sl": 36,
+   "file": "UenoPark Hanami.jpg",
+   "lat": 35.7122,
+   "lon": 139.7711,
+   "kind": "built",
+   "types": [
+    "Tokyo metropolitan park",
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ueno Park"
+  },
+  {
+   "id": "Q587108",
+   "name": "Yokohama Landmark Tower",
+   "sl": 36,
+   "file": "Yokohama Landmark Tower 02 cropped.jpg",
+   "lat": 35.4547,
+   "lon": 139.6317,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yokohama Landmark Tower"
+  },
+  {
+   "id": "Q1362629",
+   "name": "National Museum of Western Art",
+   "sl": 35,
+   "file": "National museum of western art05s3200.jpg",
+   "lat": 35.7154,
+   "lon": 139.7759,
+   "kind": "built",
+   "types": [
+    "academic publisher",
+    "art museum",
+    "museum building",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Western Art, Tokyo"
+  },
+  {
+   "id": "Q415672",
+   "name": "Akan Mashu National Park",
+   "sl": 34,
+   "file": "Hokkaido, Japan, Lake Mashū, 2008.jpg",
+   "lat": 43.5167,
+   "lon": 144.2667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akan-Mashu National Park"
+  },
+  {
+   "id": "Q118537",
+   "name": "Japan Trench",
+   "sl": 34,
+   "file": "Japan trench topographic.png",
+   "lat": 40.1167,
+   "lon": 144.3167,
+   "kind": "natural",
+   "types": [
+    "oceanic trench"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Japan Trench"
+  },
+  {
+   "id": "Q37580",
+   "name": "Kegon Falls",
+   "sl": 34,
+   "file": "Kegon Taki.jpg",
+   "lat": 36.7379,
+   "lon": 139.502,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kegon falls"
+  },
+  {
+   "id": "Q151776",
+   "name": "Matsue Castle",
+   "sl": 34,
+   "file": "Matsue castle01bs4592.jpg",
+   "lat": 35.475,
+   "lon": 133.0506,
+   "kind": "built",
+   "types": [
+    "hirayamajiro",
+    "Japanese castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matsue Castle"
+  },
+  {
+   "id": "Q287165",
+   "name": "Meiji Jingū",
+   "sl": 34,
+   "file": "Courtyard of Meiji Shrine 20190717.jpg",
+   "lat": 35.6761,
+   "lon": 139.6992,
+   "kind": "built",
+   "types": [
+    "chokusaisha",
+    "jingū",
+    "Shinto shrine"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Meiji Shrine"
+  },
+  {
+   "id": "Q330033",
+   "name": "National Stadium in Tokyo",
+   "sl": 34,
+   "file": "Yamazaki-nabisco-Cup final 2004.jpg",
+   "lat": 35.6781,
+   "lon": 139.7147,
+   "kind": "built",
+   "types": [
+    "defunct sports venue",
+    "national stadium",
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Olympic Stadium (Tokyo)"
+  },
+  {
+   "id": "Q494832",
+   "name": "Yanmar Stadium Nagai",
+   "sl": 34,
+   "file": "Yammar Stadium Nagai.jpg",
+   "lat": 34.6139,
+   "lon": 135.5183,
+   "kind": "built",
+   "types": [
+    "pitch",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nagai Stadium"
+  },
+  {
+   "id": "Q1137542",
+   "name": "Fuji-Hakone-Izu National Park",
+   "sl": 33,
+   "file": "Fujisan from Motohakone.jpg",
+   "lat": 34.6667,
+   "lon": 139,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fuji-Hakone-Izu National Park"
+  },
+  {
+   "id": "Q257473",
+   "name": "Ginkaku-ji Temple",
+   "sl": 33,
+   "file": "GinkakujiTemple.jpg",
+   "lat": 35.0267,
+   "lon": 135.7983,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "Japanese garden"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q874027",
+    "name": "Historic Monuments of Ancient Kyoto"
+   },
+   "also": [],
+   "cat": "Ginkaku-ji"
+  },
+  {
+   "id": "Q959811",
+   "name": "Koshien Stadium",
+   "sl": 33,
+   "file": "Summer Koshien 2009 Final.jpg",
+   "lat": 34.7214,
+   "lon": 135.3617,
+   "kind": "built",
+   "types": [
+    "baseball venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hanshin Koshien Stadium"
+  },
+  {
+   "id": "Q1202239",
+   "name": "Kyoto Imperial Palace",
+   "sl": 33,
+   "file": "Kyoto-gosho Kenreimon (open).JPG",
+   "lat": 35.0253,
+   "lon": 135.7622,
+   "kind": "built",
+   "types": [
+    "gosho",
+    "Japanese Imperial Facilities",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kyoto Imperial Palace"
+  },
+  {
+   "id": "Q714605",
+   "name": "Mount Bandai",
+   "sl": 33,
+   "file": "Mt.Bandai 10.jpg",
+   "lat": 37.6008,
+   "lon": 140.0722,
+   "kind": "natural",
+   "types": [
+    "hometown Fuji",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Bandai"
+  },
+  {
+   "id": "Q1046748",
+   "name": "Osaka International Airport",
+   "sl": 33,
+   "file": "Osaka Airport01.jpg",
+   "lat": 34.7855,
+   "lon": 135.4382,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Osaka International Airport"
+  },
+  {
+   "id": "Q605492",
+   "name": "Tokyo Disney Resort",
+   "sl": 33,
+   "file": "A8 Tokyo Disneyland.jpg",
+   "lat": 35.6297,
+   "lon": 139.8828,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tokyo Disney Resort"
+  },
+  {
+   "id": "Q859471",
+   "name": "Tsukiji fish market",
+   "sl": 33,
+   "file": "2018 Tsukiji fish market.jpg",
+   "lat": 35.6614,
+   "lon": 139.7697,
+   "kind": "built",
+   "types": [
+    "central wholesale market",
+    "destroyed building or structure",
+    "fish market"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsukiji fish market"
+  },
+  {
+   "id": "Q917195",
+   "name": "Enryaku-ji Temple",
+   "sl": 32,
+   "file": "Enryakuji Konponchudo02s5s3200.jpg",
+   "lat": 35.0706,
+   "lon": 135.8411,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q874027",
+    "name": "Historic Monuments of Ancient Kyoto"
+   },
+   "also": [],
+   "cat": "Enryaku-ji"
+  },
+  {
+   "id": "Q1137465",
+   "name": "Fukuoka Airport",
+   "sl": 32,
+   "file": "Fukuoka Airport Domestic Terminal.jpg",
+   "lat": 33.5844,
+   "lon": 130.4517,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fukuoka Airport"
+  },
+  {
+   "id": "Q494769",
+   "name": "Kashima Soccer Stadium",
+   "sl": 32,
+   "file": "Kashima Soccer Stadium 1.jpg",
+   "lat": 35.9917,
+   "lon": 140.6405,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kashima Soccer Stadium"
+  },
+  {
+   "id": "Q2639098",
+   "name": "Mount Haku",
+   "sl": 32,
+   "file": "Mount Haku from Onanjimine 2011-07-17.jpg",
+   "lat": 36.1,
+   "lon": 136.5,
+   "kind": "natural",
+   "types": [
+    "sacred mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Haku"
+  },
+  {
+   "id": "Q908296",
+   "name": "New Chitose Airport",
+   "sl": 32,
+   "file": "Hokkaido New Chitose Airport13n4272.jpg",
+   "lat": 42.7752,
+   "lon": 141.6923,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "New Chitose Airport"
+  },
+  {
+   "id": "Q587371",
+   "name": "Ryōan-ji Temple",
+   "sl": 32,
+   "file": "250201 Ryoan-ji Kyoto Japan06s3.jpg",
+   "lat": 35.0344,
+   "lon": 135.7183,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q874027",
+    "name": "Historic Monuments of Ancient Kyoto"
+   },
+   "also": [],
+   "cat": "Ryōan-ji"
+  },
+  {
+   "id": "Q611345",
+   "name": "Sacred Sites and Pilgrimage Routes in the Kii Mountain Range",
+   "sl": 32,
+   "file": "Daimonzaka8618.JPG",
+   "lat": 33.8369,
+   "lon": 135.7764,
+   "kind": "built",
+   "types": [
+    "pilgrims' way",
+    "reijō"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sacred sites and pilgrimage routes in the Kii mountain range"
+  },
+  {
+   "id": "Q733748",
+   "name": "Tokyo Dome",
+   "sl": 32,
+   "file": "Tokyo dome.JPG",
+   "lat": 35.7056,
+   "lon": 139.7519,
+   "kind": "built",
+   "types": [
+    "domed stadium",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tokyo Dome"
+  }
+ ]
+}

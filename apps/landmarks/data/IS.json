@@ -1,0 +1,1336 @@
+{
+ "country": "IS",
+ "items": [
+  {
+   "id": "Q39651",
+   "name": "Eyjafjallajökull",
+   "sl": 76,
+   "file": "Þórsmörk Eyjafjallajökull 1 Iceland.JPG",
+   "lat": 63.6333,
+   "lon": -19.6,
+   "kind": "natural",
+   "types": [
+    "ice cap"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eyjafjallajökull"
+  },
+  {
+   "id": "Q184975",
+   "name": "Hekla",
+   "sl": 62,
+   "file": "2006-05-21-153901 Iceland Stórinúpur.jpg",
+   "lat": 63.9922,
+   "lon": -19.6658,
+   "kind": "natural",
+   "types": [
+    "stratovolcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hekla"
+  },
+  {
+   "id": "Q107370",
+   "name": "Thingvellir National Park",
+   "sl": 62,
+   "file": "Thingvellir.jpg",
+   "lat": 64.2581,
+   "lon": -21.125,
+   "kind": "natural",
+   "types": [
+    "escarpment",
+    "graben",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Þingvellir"
+  },
+  {
+   "id": "Q179734",
+   "name": "Vatnajökull",
+   "sl": 61,
+   "file": "Island Vatnajökull 02.JPG",
+   "lat": 64.4,
+   "lon": -16.8,
+   "kind": "natural",
+   "types": [
+    "ice cap"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vatnajökull"
+  },
+  {
+   "id": "Q203726",
+   "name": "Laki",
+   "sl": 52,
+   "file": "Laki fissure (2).jpg",
+   "lat": 64.0675,
+   "lon": -18.23,
+   "kind": "natural",
+   "types": [
+    "fissure vent",
+    "volcanic crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laki (mountain)"
+  },
+  {
+   "id": "Q182913",
+   "name": "Grímsvötn",
+   "sl": 50,
+   "file": "Iceland Grimsvoetn 1972-B.jpg",
+   "lat": 64.42,
+   "lon": -17.33,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "caldera",
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grímsvötn"
+  },
+  {
+   "id": "Q201914",
+   "name": "Katla",
+   "sl": 48,
+   "file": "Katla 1918.jpg",
+   "lat": 63.6333,
+   "lon": -19.05,
+   "kind": "natural",
+   "types": [
+    "subglacial volcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katla"
+  },
+  {
+   "id": "Q139921",
+   "name": "Keflavík Airport",
+   "sl": 48,
+   "file": "SSJ100 Keflavik runways (5160518757).jpg",
+   "lat": 63.985,
+   "lon": -22.6056,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Keflavík International Airport"
+  },
+  {
+   "id": "Q1353292",
+   "name": "Vatnajökull National Park",
+   "sl": 48,
+   "file": "Skaftafellsjökull 2010.jpg",
+   "lat": 64.5,
+   "lon": -17,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Vatnajökull National Park"
+  },
+  {
+   "id": "Q210280",
+   "name": "Dettifoss",
+   "sl": 47,
+   "file": "Dettifoss Panorama 03.jpg",
+   "lat": 65.8143,
+   "lon": -16.3846,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dettifoss"
+  },
+  {
+   "id": "Q38519",
+   "name": "Gullfoss",
+   "sl": 47,
+   "file": "GullfossOverview.jpg",
+   "lat": 64.3261,
+   "lon": -20.1211,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gullfoss"
+  },
+  {
+   "id": "Q1315012",
+   "name": "Snæfellsjökull",
+   "sl": 47,
+   "file": "Snæfellsjökull in the Morning (7622876302) (cropped).jpg",
+   "lat": 64.8071,
+   "lon": -23.7762,
+   "kind": "natural",
+   "types": [
+    "ice cap",
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Snæfellsjökull"
+  },
+  {
+   "id": "Q212051",
+   "name": "Mývatn",
+   "sl": 46,
+   "file": "Myvatn-Skutustathagigar-26-2018-gje.jpg",
+   "lat": 65.6003,
+   "lon": -16.985,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mývatn"
+  },
+  {
+   "id": "Q271466",
+   "name": "Hallgrímskirkja",
+   "sl": 43,
+   "file": "Hallgrimskirkja mai 2026.jpg",
+   "lat": 64.1419,
+   "lon": -21.9269,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hallgrímskirkja"
+  },
+  {
+   "id": "Q886946",
+   "name": "Blue Lagoon",
+   "sl": 41,
+   "file": "Blue Lagoon 2012-08-23 (4).JPG",
+   "lat": 63.8792,
+   "lon": -22.4455,
+   "kind": "both",
+   "types": [
+    "hot spring",
+    "lake",
+    "outdoor swimming pool",
+    "thermal bath"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Lagoon"
+  },
+  {
+   "id": "Q177174",
+   "name": "Icelandic Phallological Museum",
+   "sl": 41,
+   "file": "Icelandic Phallological Museum visitors.jpg",
+   "lat": 64.1485,
+   "lon": -21.9358,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Icelandic Phallological Museum"
+  },
+  {
+   "id": "Q777882",
+   "name": "Seljalandsfoss",
+   "sl": 41,
+   "file": "Seljalandsfoss - panoramio (7).jpg",
+   "lat": 63.6155,
+   "lon": -19.9883,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seljalandsfoss"
+  },
+  {
+   "id": "Q335432",
+   "name": "Þingvallavatn",
+   "sl": 41,
+   "file": "2008-05-25 13 34 17 Iceland-Þingvellir.jpg",
+   "lat": 64.1875,
+   "lon": -21.135,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q107370",
+    "name": "Thingvellir National Park"
+   },
+   "also": [],
+   "cat": "Þingvallavatn"
+  },
+  {
+   "id": "Q211665",
+   "name": "Askja",
+   "sl": 40,
+   "file": "Island Askja.jpg",
+   "lat": 65.03,
+   "lon": -16.75,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "caldera",
+    "protected area",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Askja (central volcano)"
+  },
+  {
+   "id": "Q1018862",
+   "name": "Bárðarbunga",
+   "sl": 40,
+   "file": "Vatnajökull.jpeg",
+   "lat": 64.6408,
+   "lon": -17.5278,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "mountain",
+    "stratovolcano",
+    "subglacial volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bárðarbunga"
+  },
+  {
+   "id": "Q1128186",
+   "name": "Strokkur",
+   "sl": 40,
+   "file": "Strokkur Geysir (14135319580) (cropped).jpg",
+   "lat": 64.3127,
+   "lon": -20.3007,
+   "kind": "natural",
+   "types": [
+    "geyser"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Strokkur"
+  },
+  {
+   "id": "Q217274",
+   "name": "Eldfell",
+   "sl": 38,
+   "file": "Eldfell 01.jpg",
+   "lat": 63.4333,
+   "lon": -20.2488,
+   "kind": "natural",
+   "types": [
+    "cinder cone",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eldfell"
+  },
+  {
+   "id": "Q1137629",
+   "name": "Goðafoss",
+   "sl": 38,
+   "file": "Goðafoss Island.jpg",
+   "lat": 65.6831,
+   "lon": -17.5504,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goðafoss"
+  },
+  {
+   "id": "Q214818",
+   "name": "Mýrdalsjökull",
+   "sl": 38,
+   "file": "Myrdalsjökull 01.jpg",
+   "lat": 63.666,
+   "lon": -19.1294,
+   "kind": "natural",
+   "types": [
+    "ice cap"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mýrdalsjökull"
+  },
+  {
+   "id": "Q216846",
+   "name": "Great Geysir",
+   "sl": 37,
+   "file": "Geysir, Geysir geothermal field, 2019.jpg",
+   "lat": 64.3138,
+   "lon": -20.2995,
+   "kind": "natural",
+   "types": [
+    "geyser"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Geysir"
+  },
+  {
+   "id": "Q511933",
+   "name": "Jökulsárlón",
+   "sl": 37,
+   "file": "Jökulsárlón (3587109332).jpg",
+   "lat": 64.0703,
+   "lon": -16.2117,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "proglacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jökulsárlón"
+  },
+  {
+   "id": "Q298119",
+   "name": "Öræfajökull",
+   "sl": 37,
+   "file": "Öræfajökull - Mapillary (520905752282052).jpg",
+   "lat": 64.0254,
+   "lon": -16.6421,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Öræfajökull"
+  },
+  {
+   "id": "Q843204",
+   "name": "Reykjavík Airport",
+   "sl": 37,
+   "file": "Reykjavik Airport aerial.jpg",
+   "lat": 64.13,
+   "lon": -21.9406,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Reykjavík Airport"
+  },
+  {
+   "id": "Q1130718",
+   "name": "Skógafoss",
+   "sl": 37,
+   "file": "Skogafoss-02-2018-gje.jpg",
+   "lat": 63.5297,
+   "lon": -19.5139,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skógafoss"
+  },
+  {
+   "id": "Q291004",
+   "name": "Highlands of Iceland",
+   "sl": 35,
+   "file": "Iceland Landscape 4568.JPG",
+   "lat": 64.84,
+   "lon": -18.11,
+   "kind": "natural",
+   "types": [
+    "highland",
+    "massif",
+    "plateau",
+    "volcanic desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Highland of Iceland"
+  },
+  {
+   "id": "Q752994",
+   "name": "Krafla",
+   "sl": 34,
+   "file": "KraflaViti.jpg",
+   "lat": 65.7333,
+   "lon": -16.7833,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krafla (volcanic system)"
+  },
+  {
+   "id": "Q151212",
+   "name": "Laugardalsvöllur",
+   "sl": 34,
+   "file": "Laugardalsvöllur, Iceland's national football stadium.jpg",
+   "lat": 64.1436,
+   "lon": -21.879,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laugardalsvöllur"
+  },
+  {
+   "id": "Q374269",
+   "name": "Reykjanes",
+   "sl": 34,
+   "file": "Iceland (3), Reykjanes peninsula.JPG",
+   "lat": 63.9287,
+   "lon": -22.1228,
+   "kind": "natural",
+   "types": [
+    "geopark",
+    "peninsula"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Reykjanes peninsula"
+  },
+  {
+   "id": "Q554383",
+   "name": "Hofsjökull",
+   "sl": 33,
+   "file": "Hofsjökull.jpeg",
+   "lat": 64.8065,
+   "lon": -18.8148,
+   "kind": "natural",
+   "types": [
+    "ice cap"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hofsjökull"
+  },
+  {
+   "id": "Q737657",
+   "name": "Langjökull",
+   "sl": 33,
+   "file": "Hagavatn - Eystri-Hagafellsjökull.jpg",
+   "lat": 64.6919,
+   "lon": -20.1968,
+   "kind": "natural",
+   "types": [
+    "ice cap"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Langjökull"
+  },
+  {
+   "id": "Q945753",
+   "name": "Tjörnin",
+   "sl": 33,
+   "file": "Tjörnin, Reykjavik.jpg",
+   "lat": 64.1445,
+   "lon": -21.9426,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tjörnin"
+  },
+  {
+   "id": "Q682905",
+   "name": "Breiðafjörður",
+   "sl": 32,
+   "file": "The Baldur ferry arriving (6136451561).jpg",
+   "lat": 65.2192,
+   "lon": -23.2918,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Breiðafjörður"
+  },
+  {
+   "id": "Q604986",
+   "name": "Eyjafjörður",
+   "sl": 32,
+   "file": "Eyjafjörður.jpeg",
+   "lat": 65.85,
+   "lon": -18.1333,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eyjafjörður"
+  },
+  {
+   "id": "Q335940",
+   "name": "Þórisvatn",
+   "sl": 32,
+   "file": "Hofsjökull 1 Iceland.JPG",
+   "lat": 64.282,
+   "lon": -18.8729,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Þórisvatn"
+  },
+  {
+   "id": "Q38577",
+   "name": "Glymur",
+   "sl": 31,
+   "file": "Glymur pan 1-10-08.JPG",
+   "lat": 64.3909,
+   "lon": -21.2518,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Glymur"
+  },
+  {
+   "id": "Q1133116",
+   "name": "Skaftafell National Park",
+   "sl": 30,
+   "file": "Skaftafell Aerial Panorama 2023.jpg",
+   "lat": 64.0156,
+   "lon": -16.9717,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skaftafell National Park"
+  },
+  {
+   "id": "Q388641",
+   "name": "Eldgjá",
+   "sl": 29,
+   "file": "Эльдгьяу.jpg",
+   "lat": 63.9666,
+   "lon": -18.6091,
+   "kind": "natural",
+   "types": [
+    "canyon",
+    "fissure vent"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eldgjá"
+  },
+  {
+   "id": "Q116693",
+   "name": "Esja",
+   "sl": 29,
+   "file": "Esja (2571116699).jpg",
+   "lat": 64.26,
+   "lon": -21.6515,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Esjan"
+  },
+  {
+   "id": "Q1413846",
+   "name": "Hengill",
+   "sl": 29,
+   "file": "Hengill behind Hveragerdi.jpg",
+   "lat": 64.0856,
+   "lon": -21.3136,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hengill"
+  },
+  {
+   "id": "Q1145786",
+   "name": "Svartifoss",
+   "sl": 29,
+   "file": "SvartifossSummer.jpg",
+   "lat": 64.0277,
+   "lon": -16.9752,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Svartifoss"
+  },
+  {
+   "id": "Q27015522",
+   "name": "Fagradalsfjall",
+   "sl": 28,
+   "file": "Fagradalsfjall 194309.jpg",
+   "lat": 63.905,
+   "lon": -22.2725,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "plateau",
+    "tuya",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fagradalsfjall (Reykjanes)"
+  },
+  {
+   "id": "Q961546",
+   "name": "Herðubreið",
+   "sl": 28,
+   "file": "Herðubreið-Iceland-2.jpg",
+   "lat": 65.1833,
+   "lon": -16.35,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "tuya"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Herðubreið"
+  },
+  {
+   "id": "Q1429734",
+   "name": "Selfoss",
+   "sl": 27,
+   "file": "SelfossViewFromNorthEast.jpg",
+   "lat": 65.7983,
+   "lon": -16.3825,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Selfoss (waterfall)"
+  },
+  {
+   "id": "Q1827108",
+   "name": "Aldeyjarfoss",
+   "sl": 26,
+   "file": "Aldeyjarfoss.jpg",
+   "lat": 65.366,
+   "lon": -17.348,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aldeyjarfoss"
+  },
+  {
+   "id": "Q281535",
+   "name": "Dynjandi",
+   "sl": 26,
+   "file": "Cascada Dynjandi, Vestfirðir, Islandia, 2014-08-14, DD 148-150 HDR.JPG",
+   "lat": 65.7328,
+   "lon": -23.1993,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dynjandi"
+  },
+  {
+   "id": "Q1344692",
+   "name": "Lagarfljót",
+   "sl": 26,
+   "file": "Iceland - panoramio (46).jpg",
+   "lat": 65.1833,
+   "lon": -14.6,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lagarfljót"
+  },
+  {
+   "id": "Q1430749",
+   "name": "Akureyri Airport",
+   "sl": 25,
+   "file": "AkureyriAirport.JPG",
+   "lat": 65.66,
+   "lon": -18.0727,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akureyri Airport"
+  },
+  {
+   "id": "Q555948",
+   "name": "Drangajökull",
+   "sl": 25,
+   "file": "Drangajökull.jpg",
+   "lat": 66.15,
+   "lon": -22.25,
+   "kind": "natural",
+   "types": [
+    "ice cap"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Drangajökull"
+  },
+  {
+   "id": "Q1124746",
+   "name": "Hóp",
+   "sl": 25,
+   "file": "Hópið 775.jpg",
+   "lat": 65.5333,
+   "lon": -20.5,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hóp"
+  },
+  {
+   "id": "Q1435038",
+   "name": "Kverkfjöll",
+   "sl": 25,
+   "file": "Kverkfjöll @ Langihnjúkur 02.jpg",
+   "lat": 64.6611,
+   "lon": -16.6654,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kverkfjöll"
+  },
+  {
+   "id": "Q626963",
+   "name": "National Museum of Iceland",
+   "sl": 25,
+   "file": "Nationalmuseum 20120919 2.jpg",
+   "lat": 64.1419,
+   "lon": -21.9481,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Iceland"
+  },
+  {
+   "id": "Q307675",
+   "name": "Öxarárfoss",
+   "sl": 25,
+   "file": "Öxarárfoss, Parque Nacional de Þingvellir, Suðurland, Islandia, 2014-08-16, DD 029.JPG",
+   "lat": 64.2658,
+   "lon": -21.118,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Öxarárfoss"
+  },
+  {
+   "id": "Q1432927",
+   "name": "Tindfjallajökull",
+   "sl": 25,
+   "file": "Tindfjallajökull from aeroplane.jpg",
+   "lat": 63.7928,
+   "lon": -19.5806,
+   "kind": "natural",
+   "types": [
+    "ice cap",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tindfjallajökull"
+  },
+  {
+   "id": "Q388709",
+   "name": "Apavatn",
+   "sl": 24,
+   "file": "Laugarvatn01.jpg",
+   "lat": 64.1749,
+   "lon": -20.6561,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apavatn"
+  },
+  {
+   "id": "Q280822",
+   "name": "Brennisteinsalda",
+   "sl": 24,
+   "file": "Landmannalaugar Iceland 2005 2.JPG",
+   "lat": 63.9808,
+   "lon": -19.1458,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brennisteinsalda"
+  },
+  {
+   "id": "Q1034430",
+   "name": "Haukadalur",
+   "sl": 24,
+   "file": "Valle Haukadalur desde Laugarfjall, Suðurland, Islandia, 2014-08-16, DD 102.JPG",
+   "lat": 64.313,
+   "lon": -20.312,
+   "kind": "natural",
+   "types": [
+    "graben",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q593040",
+   "name": "Hvalfjörður",
+   "sl": 24,
+   "file": "Hvalfjordur-Iceland01.jpg",
+   "lat": 64.3012,
+   "lon": -21.8614,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hvalfjörður"
+  },
+  {
+   "id": "Q574165",
+   "name": "Kleifarvatn",
+   "sl": 24,
+   "file": "Lake Kleifarvatn, Iceland (41495264840).jpg",
+   "lat": 63.9268,
+   "lon": -21.9702,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kleifarvatn"
+  },
+  {
+   "id": "Q1474799",
+   "name": "Torfajökull",
+   "sl": 24,
+   "file": "Landmannalaugar 1 Iceland zoom.jpg",
+   "lat": 63.8942,
+   "lon": -19.0103,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torfajökull"
+  },
+  {
+   "id": "Q634146",
+   "name": "Bessastaðir",
+   "sl": 23,
+   "file": "Bessastaðir with Reykjavik in the background (cropped).jpg",
+   "lat": 64.1058,
+   "lon": -21.9956,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bessastaðir"
+  },
+  {
+   "id": "Q1310658",
+   "name": "Eiríksjökull",
+   "sl": 23,
+   "file": "Eiríksjökull 2008.jpg",
+   "lat": 64.7733,
+   "lon": -20.4094,
+   "kind": "natural",
+   "types": [
+    "ice cap",
+    "mountain",
+    "tuya"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eiríksjökull"
+  },
+  {
+   "id": "Q116484",
+   "name": "Imagine Peace Tower",
+   "sl": 23,
+   "file": "Iceland - Peace Tower 28 (6571385177).jpg",
+   "lat": 64.1632,
+   "lon": -21.8595,
+   "kind": "built",
+   "types": [
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imagine Peace Tower"
+  },
+  {
+   "id": "Q1435393",
+   "name": "Kerið",
+   "sl": 23,
+   "file": "Kerid-08-Krater-1980-gje.jpg",
+   "lat": 64.0408,
+   "lon": -20.8847,
+   "kind": "natural",
+   "types": [
+    "volcanic crater",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kerið"
+  },
+  {
+   "id": "Q1547402",
+   "name": "Kirkjufell",
+   "sl": 23,
+   "file": "Kirkjufell, Iceland (Unsplash LoKG7kKx7Zc).jpg",
+   "lat": 64.9373,
+   "lon": -23.3088,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kirkjufell"
+  },
+  {
+   "id": "Q283536",
+   "name": "Langisjór",
+   "sl": 23,
+   "file": "Langisjor 2006.jpg",
+   "lat": 64.1744,
+   "lon": -18.3019,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Langisjór"
+  },
+  {
+   "id": "Q1474806",
+   "name": "Tungnafellsjökull",
+   "sl": 23,
+   "file": "Tungnafellsjökull.JPG",
+   "lat": 64.73,
+   "lon": -17.92,
+   "kind": "natural",
+   "types": [
+    "ice cap"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tungnafellsjökull"
+  },
+  {
+   "id": "Q451045",
+   "name": "Alþingishúsið",
+   "sl": 22,
+   "file": "Alþingishúsið.jpg",
+   "lat": 64.1467,
+   "lon": -21.9403,
+   "kind": "built",
+   "types": [
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alþingishúsið"
+  },
+  {
+   "id": "Q619490",
+   "name": "Borgarfjörður",
+   "sl": 22,
+   "file": "Borgarfjörður (2488090520).jpg",
+   "lat": 64.4932,
+   "lon": -22.0253,
+   "kind": "natural",
+   "types": [
+    "fjord",
+    "inlet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Borgarfjörður"
+  },
+  {
+   "id": "Q1332555",
+   "name": "Elliðavatn",
+   "sl": 22,
+   "file": "A Sunset By A Lake-side (3072136330).jpg",
+   "lat": 64.0833,
+   "lon": -21.7833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elliðavatn"
+  },
+  {
+   "id": "Q1244151",
+   "name": "Háifoss",
+   "sl": 22,
+   "file": "Haifoss fall in Iceland 2005.JPG",
+   "lat": 64.2077,
+   "lon": -19.6867,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Háifoss"
+  },
+  {
+   "id": "Q1067075",
+   "name": "Höfði",
+   "sl": 22,
+   "file": "Hofdi House Reykjavik (cropped).jpg",
+   "lat": 64.1465,
+   "lon": -21.9064,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Höfði"
+  },
+  {
+   "id": "Q292937",
+   "name": "Ófærufoss",
+   "sl": 22,
+   "file": "Ofaerufoss 2013.JPG",
+   "lat": 63.9642,
+   "lon": -18.6174,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ófærufoss"
+  },
+  {
+   "id": "Q75071",
+   "name": "Öskjuvatn",
+   "sl": 22,
+   "file": "Askja.jpg",
+   "lat": 65.031,
+   "lon": -16.7466,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Öskjuvatn"
+  },
+  {
+   "id": "Q555119",
+   "name": "Sultartangalón",
+   "sl": 22,
+   "file": "Sultartangalón 0036.jpg",
+   "lat": 64.2094,
+   "lon": -19.48,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultartangalón"
+  },
+  {
+   "id": "Q748270",
+   "name": "Fimmvörðuháls",
+   "sl": 21,
+   "file": "Fimmvörðuháls (9).jpg",
+   "lat": 63.6314,
+   "lon": -19.4472,
+   "kind": "natural",
+   "types": [
+    "col"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fimmvörðuháls"
+  }
+ ]
+}

@@ -1,0 +1,749 @@
+{
+ "country": "LA",
+ "items": [
+  {
+   "id": "Q870258",
+   "name": "Plain of Jars",
+   "sl": 47,
+   "file": "20171115 Plain of Jars Laos 2540 DxO.jpg",
+   "lat": 19.4311,
+   "lon": 103.1525,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "highland",
+    "megalith",
+    "plain"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Plain of Jars"
+  },
+  {
+   "id": "Q579860",
+   "name": "Vat Phou",
+   "sl": 45,
+   "file": "Main path lined with stone pillars to the ruined Khmer Hindu temple of Wat Phou, Champasak, Laos.jpg",
+   "lat": 14.8489,
+   "lon": 105.8157,
+   "kind": "built",
+   "types": [
+    "Buddhist site",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3888860",
+    "name": "Champasak cultural landscape"
+   },
+   "also": [],
+   "cat": "Wat Phou"
+  },
+  {
+   "id": "Q239485",
+   "name": "Phou Bia",
+   "sl": 43,
+   "file": "PhouBia from Nam Ngum Lake.jpg",
+   "lat": 18.9833,
+   "lon": 103.1333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phou Bia"
+  },
+  {
+   "id": "Q38161",
+   "name": "Khone Phapheng Falls",
+   "sl": 39,
+   "file": "Khone Phapheng Falls - 1.jpg",
+   "lat": 13.9597,
+   "lon": 105.9867,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khone Phapheng Falls"
+  },
+  {
+   "id": "Q1059720",
+   "name": "Pha That Luang",
+   "sl": 39,
+   "file": "Pha That Luang Vientiane Laos.jpg",
+   "lat": 17.9762,
+   "lon": 102.6343,
+   "kind": "built",
+   "types": [
+    "stupa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pha That Luang, Vientiane"
+  },
+  {
+   "id": "Q221279",
+   "name": "Wattay International Airport",
+   "sl": 34,
+   "file": "Tour-Wattay-Airport.JPG",
+   "lat": 17.9883,
+   "lon": 102.5633,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wattay International Airport"
+  },
+  {
+   "id": "Q917862",
+   "name": "First Thai–Lao Friendship Bridge",
+   "sl": 31,
+   "file": "Pont de l'amitié 18-12-2010.jpg",
+   "lat": 17.8783,
+   "lon": 102.7156,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "prestressed concrete bridge",
+    "railway bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TH"
+   ],
+   "cat": "Thai-Lao Friendship Bridge"
+  },
+  {
+   "id": "Q891266",
+   "name": "Bolaven Plateau",
+   "sl": 26,
+   "file": "Tad Fane Waterfall.JPG",
+   "lat": 15.11,
+   "lon": 106.44,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bolaven Plateau"
+  },
+  {
+   "id": "Q1432294",
+   "name": "Pakse International Airport",
+   "sl": 26,
+   "file": "Pakxe Airport Laos.jpg",
+   "lat": 15.1339,
+   "lon": 105.7819,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pakse International Airport"
+  },
+  {
+   "id": "Q2584261",
+   "name": "Kuang Si Falls",
+   "sl": 25,
+   "file": "Kuang Si Falls and a turquoise water pool in Luang Prabang province Laos.jpg",
+   "lat": 19.7492,
+   "lon": 101.9917,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuang Si Falls"
+  },
+  {
+   "id": "Q1442518",
+   "name": "Patuxai",
+   "sl": 25,
+   "file": "Vientiane-Patu Xay-10-Allee-gje.jpg",
+   "lat": 17.9706,
+   "lon": 102.6186,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Patuxai"
+  },
+  {
+   "id": "Q655853",
+   "name": "Buddha Park",
+   "sl": 22,
+   "file": "Buddha Park.jpg",
+   "lat": 17.9123,
+   "lon": 102.7651,
+   "kind": "built",
+   "types": [
+    "sculpture garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buddha Park"
+  },
+  {
+   "id": "Q2671118",
+   "name": "Wat Xieng Thong",
+   "sl": 20,
+   "file": "Temple Wat Xieng Thong - Luang Prabang - Laos.jpg",
+   "lat": 19.8975,
+   "lon": 102.1431,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Xieng Thong"
+  },
+  {
+   "id": "Q233452",
+   "name": "Second Thai–Lao Friendship Bridge",
+   "sl": 19,
+   "file": "Bang Sai Yai, Mueang Mukdahan District, Mukdahan, Thailand - panoramio.jpg",
+   "lat": 16.6011,
+   "lon": 104.7358,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "prestressed concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TH"
+   ],
+   "cat": "Second Thai–Lao Friendship Bridge"
+  },
+  {
+   "id": "Q2875918",
+   "name": "Savannakhet Airport",
+   "sl": 18,
+   "file": "Aeroport-Savan.jpg",
+   "lat": 16.55,
+   "lon": 104.7597,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Savannakhet Airport"
+  },
+  {
+   "id": "Q581198",
+   "name": "Fourth Thai–Lao Friendship Bridge",
+   "sl": 16,
+   "file": "第4友好橋.jpg",
+   "lat": 20.2833,
+   "lon": 100.4167,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "international bridge",
+    "prestressed concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TH"
+   ],
+   "cat": "Fourth Thai–Lao Friendship Bridge"
+  },
+  {
+   "id": "Q11257134",
+   "name": "Laos National Stadium",
+   "sl": 16,
+   "file": "StadAnouvong.jpg",
+   "lat": 17.9685,
+   "lon": 102.6079,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anouvong Stadium"
+  },
+  {
+   "id": "Q5239706",
+   "name": "Louangnamtha Airport",
+   "sl": 15,
+   "file": "LuangNamtha Airport.JPG",
+   "lat": 20.9606,
+   "lon": 101.4025,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Louangnamtha Airport"
+  },
+  {
+   "id": "Q1259211",
+   "name": "Third Thai–Lao Friendship Bridge",
+   "sl": 15,
+   "file": "3rd Friendschip Laos 04.jpg",
+   "lat": 17.4925,
+   "lon": 104.7283,
+   "kind": "built",
+   "types": [
+    "prestressed concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TH"
+   ],
+   "cat": "Third Thai-Lao Friendship Bridge"
+  },
+  {
+   "id": "Q1442048",
+   "name": "Wat Si Saket",
+   "sl": 15,
+   "file": "Sisaket.2.jpg",
+   "lat": 17.9631,
+   "lon": 102.6111,
+   "kind": "built",
+   "types": [
+    "vihāra",
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Si Saket"
+  },
+  {
+   "id": "Q2572281",
+   "name": "Lao National Museum",
+   "sl": 14,
+   "file": "LaosNationalMuseum.jpg",
+   "lat": 17.9669,
+   "lon": 102.6072,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lao National Museum"
+  },
+  {
+   "id": "Q1441659",
+   "name": "Wat Si Muang",
+   "sl": 14,
+   "file": "Wat Si Muang.jpg",
+   "lat": 17.9579,
+   "lon": 102.617,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Si Muang, Vientiane"
+  },
+  {
+   "id": "Q1430931",
+   "name": "Ban Huoeisay Airport",
+   "sl": 13,
+   "file": "Ban Huoeisay Airport 01.jpg",
+   "lat": 20.2578,
+   "lon": 100.4369,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3361219",
+   "name": "Royal Palace, Luang Prabang",
+   "sl": 13,
+   "file": "Haw Kham palace (August 2009).jpg",
+   "lat": 19.8921,
+   "lon": 102.1356,
+   "kind": "built",
+   "types": [
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Haw Kham"
+  },
+  {
+   "id": "Q27922296",
+   "name": "Tam Pa Ling Cave",
+   "sl": 13,
+   "file": "Tam Pa Ling cave south entrance.jpg",
+   "lat": 20.2086,
+   "lon": 103.4097,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tam Pa Ling Cave"
+  },
+  {
+   "id": "Q4204392",
+   "name": "Xieng Khouang Airport",
+   "sl": 13,
+   "file": "Xieng Khouang Airport.jpg",
+   "lat": 19.45,
+   "lon": 103.1583,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Xieng Khouang Airport"
+  },
+  {
+   "id": "Q6132621",
+   "name": "Nam Ngum Dam",
+   "sl": 12,
+   "file": "Nam Ngum 1 Dam.JPG",
+   "lat": 18.5308,
+   "lon": 102.5475,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nam Ngum Dam"
+  },
+  {
+   "id": "Q2671098",
+   "name": "Pak Ou Caves",
+   "sl": 12,
+   "file": "Pak ou caves.JPG",
+   "lat": 20.0487,
+   "lon": 102.2105,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "VN"
+   ],
+   "cat": "Pak Ou Caves"
+  },
+  {
+   "id": "Q15268539",
+   "name": "Presidential Palace",
+   "sl": 11,
+   "file": "Ministry of Education, Laos.jpg",
+   "lat": 17.962,
+   "lon": 102.6099,
+   "kind": "built",
+   "types": [
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidential Palace in Vientiane"
+  },
+  {
+   "id": "Q1333880",
+   "name": "Xayaburi Dam",
+   "sl": 11,
+   "file": "Xayaburi Mainstream Mekong Dam (5603585266).jpg",
+   "lat": 19.254,
+   "lon": 101.8137,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Xayaburi Dam"
+  },
+  {
+   "id": "Q7972939",
+   "name": "Wat Mai Suwannaphumaham",
+   "sl": 10,
+   "file": "Vat May1.JPG",
+   "lat": 19.8906,
+   "lon": 102.135,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vat Mai"
+  },
+  {
+   "id": "Q1670535",
+   "name": "Wat Manorom",
+   "sl": 10,
+   "file": "Luang Prabang-Wat Manorom-05-gje.jpg",
+   "lat": 19.8827,
+   "lon": 102.1328,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Manorom"
+  },
+  {
+   "id": "Q7972946",
+   "name": "Wat Ong Teu Mahawihan",
+   "sl": 10,
+   "file": "Wat Ong Theu Vientiane Laos.jpg",
+   "lat": 17.9656,
+   "lon": 102.604,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Ong Teu, Vientiane"
+  },
+  {
+   "id": "Q125120548",
+   "name": "Bokeo International Airport",
+   "sl": 9,
+   "file": "ສະໜາມບິນສາກົນບໍ່ແກ້ວ, Bokeo Inter National Airport.jpg",
+   "lat": 20.3239,
+   "lon": 100.1656,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bokeo International Airport"
+  },
+  {
+   "id": "Q109020800",
+   "name": "Boten railway station",
+   "sl": 9,
+   "file": "Boten railway station, Laos.jpg",
+   "lat": 21.1549,
+   "lon": 101.6717,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boten Railway Station"
+  },
+  {
+   "id": "Q7187956",
+   "name": "Phou si",
+   "sl": 9,
+   "file": "Mount Phou Si from the Mekong.jpg",
+   "lat": 19.8904,
+   "lon": 102.1369,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Phou Si"
+  },
+  {
+   "id": "Q17606819",
+   "name": "Vientiane Jamia Mosque",
+   "sl": 9,
+   "file": "Vientiane - Jamia Masjid - 0001.jpg",
+   "lat": 17.9646,
+   "lon": 102.6088,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vientiane Jamia Mosque"
+  },
+  {
+   "id": "Q7972957",
+   "name": "Wat Sen",
+   "sl": 9,
+   "file": "Luang Prabang-Wat Sene-02-Buddha-gje.jpg",
+   "lat": 19.8956,
+   "lon": 102.142,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Sene"
+  },
+  {
+   "id": "Q1869315",
+   "name": "Long Tieng",
+   "sl": 8,
+   "file": "Duck Soup map.png",
+   "lat": 19.1077,
+   "lon": 102.9239,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Long Tieng"
+  },
+  {
+   "id": "Q6695002",
+   "name": "Luang Namtha Museum",
+   "sl": 8,
+   "file": "Luang Namtha Museum July 2021.jpg",
+   "lat": 21.0058,
+   "lon": 101.4082,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Luang Namtha Museum"
+  },
+  {
+   "id": "Q7049340",
+   "name": "Nong Fa Lake",
+   "sl": 8,
+   "file": "NongFa Lake.jpg",
+   "lat": 15.1075,
+   "lon": 107.4244,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "volcanic crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nong Fa Lake"
+  },
+  {
+   "id": "Q25017398",
+   "name": "Sacred Heart Cathedral, Vientiane",
+   "sl": 8,
+   "file": "Laos1 556.jpg",
+   "lat": 17.9615,
+   "lon": 102.6148,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of the Sacred Heart (Vientiane)"
+  },
+  {
+   "id": "Q7709772",
+   "name": "Tham Kong Lo",
+   "sl": 8,
+   "file": "Tham Kong Lo (2).JPG",
+   "lat": 17.9564,
+   "lon": 104.7611,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kong Lor Caves"
+  },
+  {
+   "id": "Q2091650",
+   "name": "Viengxay caves",
+   "sl": 8,
+   "file": "Grotte de spectacle.JPG",
+   "lat": 20.4,
+   "lon": 104.23,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

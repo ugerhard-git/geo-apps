@@ -1,8 +1,19 @@
 {
- "countries": {},
+ "countries": {
+  "AU": 80,
+  "BE": 80,
+  "BO": 80,
+  "EG": 80,
+  "FR": 80,
+  "IS": 80,
+  "JP": 80,
+  "KE": 80,
+  "KZ": 80,
+  "LA": 44,
+  "MT": 80,
+  "PE": 80
+ },
  "source": "Wikidata via QLever, ranked by sitelinks",
  "updated": "2026-10-14",
- "failed": [
-  "MT"
- ]
+ "failed": []
 }

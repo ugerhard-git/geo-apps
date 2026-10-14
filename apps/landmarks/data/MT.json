@@ -1,0 +1,1356 @@
+{
+ "country": "MT",
+ "items": [
+  {
+   "id": "Q216862",
+   "name": "Ġgantija",
+   "sl": 49,
+   "file": "Ggantija Temple on Gozo (cropped).jpg",
+   "lat": 36.0473,
+   "lon": 14.2691,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q753383",
+    "name": "Megalithic Temples of Malta"
+   },
+   "also": [],
+   "cat": "Ġgantija"
+  },
+  {
+   "id": "Q755514",
+   "name": "Hypogeum of Ħal Saflieni",
+   "sl": 47,
+   "file": "Malta Hypogeum Modell.jpg",
+   "lat": 35.8696,
+   "lon": 14.5069,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "hypogeum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Hypogeum of Ħal-Saflieni"
+  },
+  {
+   "id": "Q753383",
+   "name": "Megalithic Temples of Malta",
+   "sl": 46,
+   "file": "Central Temple, Tarxien ta17.png",
+   "lat": 36.0492,
+   "lon": 14.2694,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Megalithic Temples of Malta"
+  },
+  {
+   "id": "Q672289",
+   "name": "Malta International Airport",
+   "sl": 45,
+   "file": "Malta International Airport from tarmac.JPG",
+   "lat": 35.8575,
+   "lon": 14.4775,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malta International Airport"
+  },
+  {
+   "id": "Q794354",
+   "name": "Azure Window",
+   "sl": 43,
+   "file": "Azure Windownew.JPG",
+   "lat": 36.0535,
+   "lon": 14.1885,
+   "kind": "both",
+   "types": [
+    "destroyed building or structure",
+    "natural arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azure Window"
+  },
+  {
+   "id": "Q613619",
+   "name": "St. John's Co-Cathedral",
+   "sl": 35,
+   "file": "Concatedral de San Juan, La Valeta, isla de Malta, Malta, 2021-08-25, DD 246-248 HDR.jpg",
+   "lat": 35.8978,
+   "lon": 14.5128,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. John's Co-Cathedral"
+  },
+  {
+   "id": "Q584366",
+   "name": "Mnajdra",
+   "sl": 33,
+   "file": "02005 Mnajdra Temples, copper age, 2800 BC.jpg",
+   "lat": 35.8267,
+   "lon": 14.4364,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q753383",
+    "name": "Megalithic Temples of Malta"
+   },
+   "also": [],
+   "cat": "Mnajdra"
+  },
+  {
+   "id": "Q1354010",
+   "name": "Ta' Qali National Stadium",
+   "sl": 33,
+   "file": "Malta TaQali.JPG",
+   "lat": 35.8949,
+   "lon": 14.4154,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ta' Qali National Stadium"
+  },
+  {
+   "id": "Q220899",
+   "name": "Grand Harbour",
+   "sl": 30,
+   "file": "Grand harbour 2019-04-11 (2).jpg",
+   "lat": 35.8922,
+   "lon": 14.5128,
+   "kind": "natural",
+   "types": [
+    "natural harbor",
+    "physical location"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Harbour"
+  },
+  {
+   "id": "Q343053",
+   "name": "Ħaġar Qim",
+   "sl": 30,
+   "file": "Facade Hagar Qim.jpg",
+   "lat": 35.8278,
+   "lon": 14.4422,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "megalith"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q753383",
+    "name": "Megalithic Temples of Malta"
+   },
+   "also": [],
+   "cat": "Ħaġar Qim"
+  },
+  {
+   "id": "Q1850604",
+   "name": "Ta' Dmejrek",
+   "sl": 29,
+   "file": "Dingli Cliffs 2009.JPG",
+   "lat": 35.8458,
+   "lon": 14.3964,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ta' Dmejrek"
+  },
+  {
+   "id": "Q1064331",
+   "name": "Tarxien Temples",
+   "sl": 29,
+   "file": "Tarxien temple.jpg",
+   "lat": 35.8692,
+   "lon": 14.5119,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q753383",
+    "name": "Megalithic Temples of Malta"
+   },
+   "also": [],
+   "cat": "Tarxien Temples"
+  },
+  {
+   "id": "Q1368885",
+   "name": "Grandmaster's Palace",
+   "sl": 27,
+   "file": "Valletta St Johns square Malta 2014 3.jpg",
+   "lat": 35.8988,
+   "lon": 14.5141,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grandmaster's Palace"
+  },
+  {
+   "id": "Q2044535",
+   "name": "City Gate",
+   "sl": 26,
+   "file": "City Gate, Valletta 002.jpg",
+   "lat": 35.8962,
+   "lon": 14.5093,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valletta City Gate"
+  },
+  {
+   "id": "Q1630170",
+   "name": "St. Paul's Cathedral, Mdina",
+   "sl": 26,
+   "file": "Catedral de San Pablo, Mdina, isla de Malta, Malta, 2021-08-25, DD 137.jpg",
+   "lat": 35.8864,
+   "lon": 14.4039,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Paul's Cathedral, Mdina"
+  },
+  {
+   "id": "Q2499012",
+   "name": "Auberge de Castille",
+   "sl": 25,
+   "file": "Auberge de Castille, Valletta 001.jpg",
+   "lat": 35.8958,
+   "lon": 14.5114,
+   "kind": "built",
+   "types": [
+    "auberge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Auberge de Castille (Valletta)"
+  },
+  {
+   "id": "Q19401632",
+   "name": "Dwejra Tower",
+   "sl": 25,
+   "file": "Torre de Dwejra, isla de Gozo, Malta, 2021-08-22, DD 38.jpg",
+   "lat": 36.0494,
+   "lon": 14.1921,
+   "kind": "built",
+   "types": [
+    "watchtower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dwejra Tower"
+  },
+  {
+   "id": "Q742598",
+   "name": "Għar Dalam",
+   "sl": 25,
+   "file": "GharDalam-VueGrotte.jpg",
+   "lat": 35.8364,
+   "lon": 14.528,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Għar Dalam"
+  },
+  {
+   "id": "Q882491",
+   "name": "Blue Grotto",
+   "sl": 23,
+   "file": "Grotto0287.JPG",
+   "lat": 35.8214,
+   "lon": 14.4567,
+   "kind": "natural",
+   "types": [
+    "sea cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Grotto (Malta)"
+  },
+  {
+   "id": "Q2207146",
+   "name": "Fort St Angelo",
+   "sl": 23,
+   "file": "Fuerte de San Ángel, Birgu, isla de Malta, Malta, 2021-08-25, DD 193.jpg",
+   "lat": 35.8924,
+   "lon": 14.5177,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort St. Angelo"
+  },
+  {
+   "id": "Q1438745",
+   "name": "Fort Saint Elmo",
+   "sl": 22,
+   "file": "Fort St. Elmo; Valletta, Malta.jpg",
+   "lat": 35.9019,
+   "lon": 14.5186,
+   "kind": "built",
+   "types": [
+    "star fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Saint Elmo"
+  },
+  {
+   "id": "Q1280925",
+   "name": "Our Lady of Victory Church",
+   "sl": 22,
+   "file": "Victoria Church, Valletta.jpg",
+   "lat": 35.896,
+   "lon": 14.5107,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Our Lady of Victory (Valletta)"
+  },
+  {
+   "id": "Q991637",
+   "name": "Ta' Ħaġrat",
+   "sl": 22,
+   "file": "Ta'Hagrat2.jpg",
+   "lat": 35.9186,
+   "lon": 14.3686,
+   "kind": "built",
+   "types": [
+    "ancient monument",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q753383",
+    "name": "Megalithic Temples of Malta"
+   },
+   "also": [],
+   "cat": "Ta' Ħaġrat"
+  },
+  {
+   "id": "Q867647",
+   "name": "Cittadella",
+   "sl": 21,
+   "file": "Citadel-Gozo.jpg",
+   "lat": 36.0464,
+   "lon": 14.2394,
+   "kind": "built",
+   "types": [
+    "citadel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cittadella (Gozo)"
+  },
+  {
+   "id": "Q19882533",
+   "name": "Parliament House",
+   "sl": 21,
+   "file": "Parlimentmalta34.jpg",
+   "lat": 35.8961,
+   "lon": 14.5097,
+   "kind": "built",
+   "types": [
+    "building of public administration"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parliament House (Malta)"
+  },
+  {
+   "id": "Q1859009",
+   "name": "Popeye Village",
+   "sl": 21,
+   "file": "Pueblo de Popeye, Mellieħa, isla de Malta, Malta, 2021-08-24, DD 02-03 PAN.jpg",
+   "lat": 35.9608,
+   "lon": 14.3413,
+   "kind": "built",
+   "types": [
+    "leisure park",
+    "tourist attraction"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Popeye Village"
+  },
+  {
+   "id": "Q576808",
+   "name": "Royal Opera House",
+   "sl": 21,
+   "file": "Malta Opera House.jpg",
+   "lat": 35.8964,
+   "lon": 14.5103,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "opera house",
+    "organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Opera House (Valletta)"
+  },
+  {
+   "id": "Q1431801",
+   "name": "Fort Ricasoli",
+   "sl": 20,
+   "file": "Fuerte Ricasoli, Kalkara, isla de Malta, Malta, 2021-08-25, DD 200.jpg",
+   "lat": 35.8975,
+   "lon": 14.5258,
+   "kind": "built",
+   "types": [
+    "former hospital",
+    "fort",
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Ricasoli"
+  },
+  {
+   "id": "Q1039374",
+   "name": "Marsamxett Harbour",
+   "sl": 20,
+   "file": "Girolamo Gianni - Marsamxett Harbour.jpg",
+   "lat": 35.9017,
+   "lon": 14.5081,
+   "kind": "natural",
+   "types": [
+    "natural harbor"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marsamxett Harbour"
+  },
+  {
+   "id": "Q153816",
+   "name": "Rotunda of Mosta",
+   "sl": 20,
+   "file": "Rotonda de Mosta, isla de Malta, Malta, 2021-08-25, DD 84.jpg",
+   "lat": 35.9101,
+   "lon": 14.4259,
+   "kind": "built",
+   "types": [
+    "church building",
+    "minor basilica",
+    "rotunda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rotunda of St. Marija Assunta"
+  },
+  {
+   "id": "Q1734062",
+   "name": "Basilica of Our Lady of Mount Carmel",
+   "sl": 18,
+   "file": "Basilica Our Lady of Mount Carmel (Valletta).jpg",
+   "lat": 35.9003,
+   "lon": 14.5123,
+   "kind": "built",
+   "types": [
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q23800",
+    "name": "Valletta"
+   },
+   "also": [],
+   "cat": "Basilica Our Lady of Mount Carmel (Valletta)"
+  },
+  {
+   "id": "Q10300613",
+   "name": "Church of St Catherine of Italy, Valletta",
+   "sl": 18,
+   "file": "Church of St Catherine of Italy, Valletta.jpeg",
+   "lat": 35.8962,
+   "lon": 14.511,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Catherine of Alexandria (Valletta)"
+  },
+  {
+   "id": "Q1549852",
+   "name": "San Anton Palace",
+   "sl": 18,
+   "file": "Malta Attard San Anton Palace BW 2011-10-09 10-06-16.jpg",
+   "lat": 35.8964,
+   "lon": 14.4469,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Anton Palace"
+  },
+  {
+   "id": "Q672456",
+   "name": "Skorba Temples",
+   "sl": 18,
+   "file": "Templos de Skorba, Mġarr, isla de Malta, Malta, 2021-08-25, DD 173.jpg",
+   "lat": 35.9208,
+   "lon": 14.3778,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q753383",
+    "name": "Megalithic Temples of Malta"
+   },
+   "also": [],
+   "cat": "Skorba Temples"
+  },
+  {
+   "id": "Q2898298",
+   "name": "National Museum of Archaeology",
+   "sl": 17,
+   "file": "Malta - Valletta - Triq ir-Repubblika + Auberge de Provence 01 ies.jpg",
+   "lat": 35.8975,
+   "lon": 14.5113,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "art exhibition",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Archaeology (Malta)"
+  },
+  {
+   "id": "Q1280848",
+   "name": "St Paul's Pro-Cathedral",
+   "sl": 17,
+   "file": "Malta 250915 Triq Marsamxett 02.jpg",
+   "lat": 35.9003,
+   "lon": 14.5115,
+   "kind": "built",
+   "types": [
+    "Anglican church building",
+    "Anglican or Episcopal cathedral",
+    "church building",
+    "pro-cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St Paul's Pro-Cathedral (Valletta)"
+  },
+  {
+   "id": "Q991665",
+   "name": "Verdala Palace",
+   "sl": 17,
+   "file": "Malta-Schloss.JPG",
+   "lat": 35.8615,
+   "lon": 14.4006,
+   "kind": "built",
+   "types": [
+    "former hospital",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Verdala Palace"
+  },
+  {
+   "id": "Q1639436",
+   "name": "Dwejra Inland Sea",
+   "sl": 16,
+   "file": "Dwejra Inland Sea Tunnel 1.jpg",
+   "lat": 36.0537,
+   "lon": 14.1912,
+   "kind": "natural",
+   "types": [
+    "lagoon",
+    "natural arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Inland Sea, Gozo"
+  },
+  {
+   "id": "Q576800",
+   "name": "Manoel Theatre",
+   "sl": 16,
+   "file": "Manoel theatre (12843882153).jpg",
+   "lat": 35.8998,
+   "lon": 14.5128,
+   "kind": "built",
+   "types": [
+    "movie theater",
+    "opera house",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teatro Manoel"
+  },
+  {
+   "id": "Q20949683",
+   "name": "Palazzo Ferreria",
+   "sl": 16,
+   "file": "Palacio Ferreria, La Valeta, isla de Malta, Malta, 2021-08-25, DD 231-233 HDR.jpg",
+   "lat": 35.8968,
+   "lon": 14.51,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palazzo Ferreria"
+  },
+  {
+   "id": "Q16894983",
+   "name": "Mediterranean Conference Centre",
+   "sl": 15,
+   "file": "Malta - Valletta - Triq il-Mediterran-Triq it-Tramuntana - Mediterranean Conference Centre 01 ies.jpg",
+   "lat": 35.8995,
+   "lon": 14.518,
+   "kind": "built",
+   "types": [
+    "convention center",
+    "former hospital",
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mediterranean Conference Centre"
+  },
+  {
+   "id": "Q7401400",
+   "name": "Saint James Cavalier",
+   "sl": 15,
+   "file": "Saint James Cavalier, Valletta.jpeg",
+   "lat": 35.8958,
+   "lon": 14.5103,
+   "kind": "built",
+   "types": [
+    "arts center",
+    "cavalier",
+    "movie theater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. James Cavalier"
+  },
+  {
+   "id": "Q19726688",
+   "name": "Triq il-Wiesgħa Tower",
+   "sl": 15,
+   "file": "Sudika Xghajra towers.jpg",
+   "lat": 35.878,
+   "lon": 14.5643,
+   "kind": "built",
+   "types": [
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Triq il-Wiesgħa Tower"
+  },
+  {
+   "id": "Q16863312",
+   "name": "Auberge d'Italie",
+   "sl": 14,
+   "file": "Auberge d'Italie, Valletta 003.jpg",
+   "lat": 35.8965,
+   "lon": 14.5113,
+   "kind": "built",
+   "types": [
+    "auberge",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Auberge d'Italie (Valletta)"
+  },
+  {
+   "id": "Q1366489",
+   "name": "Fort Manoel",
+   "sl": 14,
+   "file": "Gzira Fort Manoel 20090321.jpg",
+   "lat": 35.9031,
+   "lon": 14.505,
+   "kind": "built",
+   "types": [
+    "star fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Manoel"
+  },
+  {
+   "id": "Q1760477",
+   "name": "Misraħ Għar il-Kbir",
+   "sl": 14,
+   "file": "Misrah Ghar il-Kbir 5.jpg",
+   "lat": 35.8522,
+   "lon": 14.3969,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Misraħ Għar il-Kbir"
+  },
+  {
+   "id": "Q909059",
+   "name": "Ramla Bay",
+   "sl": 14,
+   "file": "2022-01-01 12-16-38 Malta DSF0005 2.jpg",
+   "lat": 36.062,
+   "lon": 14.283,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ramla Bay, Gozo"
+  },
+  {
+   "id": "Q633017",
+   "name": "Victoria Lines",
+   "sl": 14,
+   "file": "Victoria Lines Malta 1.jpg",
+   "lat": 35.9319,
+   "lon": 14.4541,
+   "kind": "built",
+   "types": [
+    "fortification"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Victoria Lines"
+  },
+  {
+   "id": "Q1736126",
+   "name": "Cathedral of the Assumption of the Madonna",
+   "sl": 13,
+   "file": "Cathedral of St.Mary - 01.jpg",
+   "lat": 36.0462,
+   "lon": 14.2396,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of the Assumption, Gozo"
+  },
+  {
+   "id": "Q6786508",
+   "name": "Mater Dei Hospital",
+   "sl": 13,
+   "file": "Sptar Mater Dei (1).JPG",
+   "lat": 35.9018,
+   "lon": 14.4767,
+   "kind": "built",
+   "types": [
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mater Dei Hospital (Msida)"
+  },
+  {
+   "id": "Q1738896",
+   "name": "St. Agatha's Tower",
+   "sl": 13,
+   "file": "Red Tower 2 (6810149614).jpg",
+   "lat": 35.9747,
+   "lon": 14.3425,
+   "kind": "built",
+   "types": [
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Agatha's Tower"
+  },
+  {
+   "id": "Q248511",
+   "name": "Ta' Pinu",
+   "sl": 13,
+   "file": "Malta Gozo Ta Pinu BW 2011-10-08 10-18-54.JPG",
+   "lat": 36.0618,
+   "lon": 14.2148,
+   "kind": "built",
+   "types": [
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ta' Pinu Shrine"
+  },
+  {
+   "id": "Q4505301",
+   "name": "Church of the Jesuits",
+   "sl": 12,
+   "file": "Malta - Valletta - Triq il-Merkanti 07 ies.jpg",
+   "lat": 35.8996,
+   "lon": 14.5166,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Jesuit church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Jesuits, Valletta"
+  },
+  {
+   "id": "Q1997378",
+   "name": "Fort Saint Michael",
+   "sl": 12,
+   "file": "Senglea Land Front 1725.jpg",
+   "lat": 35.8847,
+   "lon": 14.5191,
+   "kind": "built",
+   "types": [
+    "cavalier",
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Saint Michael"
+  },
+  {
+   "id": "Q21476646",
+   "name": "Mariam Al-Batool Mosque",
+   "sl": 12,
+   "file": "Malta - Paola - Triq Kordin - Mosque 01 ies.jpg",
+   "lat": 35.8759,
+   "lon": 14.5088,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mariam Al-Batool Mosque (Paola)"
+  },
+  {
+   "id": "Q6974470",
+   "name": "MUŻA",
+   "sl": 12,
+   "file": "Auberge d'Italie, Valletta 002.jpg",
+   "lat": 35.8964,
+   "lon": 14.5114,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Fine Arts, Malta"
+  },
+  {
+   "id": "Q7231541",
+   "name": "Porte des Bombes",
+   "sl": 12,
+   "file": "Malta - Floriana - Triq Nazzjonali - Porte des Bombes (N) 02 ies.jpg",
+   "lat": 35.8906,
+   "lon": 14.5022,
+   "kind": "built",
+   "types": [
+    "gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Porte des Bombes"
+  },
+  {
+   "id": "Q815493",
+   "name": "Portomaso Business Tower",
+   "sl": 12,
+   "file": "Malta - St. Julian's - Vjal Portomaso+Portomaso Tower 01 ies.jpg",
+   "lat": 35.9219,
+   "lon": 14.4925,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Portomaso Tower"
+  },
+  {
+   "id": "Q1127061",
+   "name": "Tony Bezzina Stadium",
+   "sl": 12,
+   "file": "Hibernians Ground.jpg",
+   "lat": 35.8829,
+   "lon": 14.513,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hibernians Football Ground"
+  },
+  {
+   "id": "Q7898477",
+   "name": "Upper Barrakka Gardens",
+   "sl": 12,
+   "file": "Upper barrakka gardens-IMG 1669.jpg",
+   "lat": 35.895,
+   "lon": 14.512,
+   "kind": "built",
+   "types": [
+    "garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Upper Barrakka Gardens"
+  },
+  {
+   "id": "Q20949752",
+   "name": "Villa Guardamangia",
+   "sl": 12,
+   "file": "Villa Guardamangia.jpeg",
+   "lat": 35.8923,
+   "lon": 14.4951,
+   "kind": "built",
+   "types": [
+    "villa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa Guardamangia"
+  },
+  {
+   "id": "Q20949754",
+   "name": "Villa Parisio",
+   "sl": 12,
+   "file": "Lija Walking 11.jpg",
+   "lat": 35.9038,
+   "lon": 14.4481,
+   "kind": "built",
+   "types": [
+    "villa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa Parisio"
+  },
+  {
+   "id": "Q10300647",
+   "name": "Basilica of St Dominic",
+   "sl": 11,
+   "file": "Church of the Madonna of Fair Havens 01.jpg",
+   "lat": 35.8996,
+   "lon": 14.5162,
+   "kind": "built",
+   "types": [
+    "church building",
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q23800",
+    "name": "Valletta"
+   },
+   "also": [],
+   "cat": "Basilica of St. Dominic (Valletta)"
+  },
+  {
+   "id": "Q336509",
+   "name": "Ċirkewwa",
+   "sl": 11,
+   "file": "Cirkewwa.jpg",
+   "lat": 35.9865,
+   "lon": 14.3339,
+   "kind": "natural",
+   "types": [
+    "ferry port",
+    "harbor"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ċirkewwa"
+  },
+  {
+   "id": "Q2621907",
+   "name": "Cottonera Lines",
+   "sl": 11,
+   "file": "Stanta Margherita Lines.jpg",
+   "lat": 35.8769,
+   "lon": 14.5219,
+   "kind": "built",
+   "types": [
+    "fortification"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cottonera Lines"
+  },
+  {
+   "id": "Q1438478",
+   "name": "Fort Chambray",
+   "sl": 11,
+   "file": "Fort chambray 1.JPG",
+   "lat": 36.0208,
+   "lon": 14.2933,
+   "kind": "built",
+   "types": [
+    "former hospital",
+    "fort",
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Chambray"
+  },
+  {
+   "id": "Q2005526",
+   "name": "Għajn Tuffieħa",
+   "sl": 11,
+   "file": "Playa de Riviera, isla de Malta, Malta, 2021-08-23, DD 66-68 HDR.jpg",
+   "lat": 35.9322,
+   "lon": 14.3472,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Għajn Tuffieħa"
+  },
+  {
+   "id": "Q3284627",
+   "name": "Malta Freeport",
+   "sl": 11,
+   "file": "Freeport ISS.jpg",
+   "lat": 35.818,
+   "lon": 14.54,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malta freeport"
+  },
+  {
+   "id": "Q39487250",
+   "name": "St. Elmo Bridge",
+   "sl": 11,
+   "file": "Malta - Valletta - Triq il-Lanca - St. Elmo Bridge (MSTHC) 07 ies.jpg",
+   "lat": 35.9029,
+   "lon": 14.521,
+   "kind": "built",
+   "types": [
+    "footbridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Elmo Bridge"
+  },
+  {
+   "id": "Q3514403",
+   "name": "Tal-Qadi Temple",
+   "sl": 11,
+   "file": "Malta - Naxxar - Triq l-Imdawra - Tal-Qadi Temple 09 ies.jpg",
+   "lat": 35.9367,
+   "lon": 14.4206,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tal-Qadi Temple"
+  },
+  {
+   "id": "Q15527073",
+   "name": "Wignacourt Aqueduct",
+   "sl": 11,
+   "file": "Wignacourt Aqueduct Birkirkara Malta.jpg",
+   "lat": 35.8936,
+   "lon": 14.4556,
+   "kind": "built",
+   "types": [
+    "aqueduct"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wignacourt Aqueduct"
+  },
+  {
+   "id": "Q2400959",
+   "name": "Xewkija Heliport",
+   "sl": 11,
+   "file": "Gozo-Xewkija Heliport S1.jpg",
+   "lat": 36.0272,
+   "lon": 14.2719,
+   "kind": "built",
+   "types": [
+    "heliport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Xewkija Heliport"
+  },
+  {
+   "id": "Q19320674",
+   "name": "Buġibba Temple",
+   "sl": 10,
+   "file": "Malta - St. Paul's Bay - Dawret il-Gzejjer - Dolmen Hotel - Bugibba Temple 03 ies.jpg",
+   "lat": 35.9548,
+   "lon": 14.4181,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buġibba Temple"
+  },
+  {
+   "id": "Q48768960",
+   "name": "Centenary Stadium",
+   "sl": 10,
+   "file": "Malta - Attard - Ta' Qali Centenary Stadium 07 ies.jpg",
+   "lat": 35.8966,
+   "lon": 14.4154,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ta' Qali Centenary Stadium"
+  },
+  {
+   "id": "Q5146972",
+   "name": "Collegiate Parish Church of St Paul's Shipwreck",
+   "sl": 10,
+   "file": "Collegiate Parish Church of St Paul's Shipwreck façade.jpg",
+   "lat": 35.8974,
+   "lon": 14.514,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St Paul's Shipwreck"
+  },
+  {
+   "id": "Q5291392",
+   "name": "Domvs Romana",
+   "sl": 10,
+   "file": "Malta - Mdina - Wesgha tal-Muzew - Domus Romana ex 03 ies.jpg",
+   "lat": 35.8853,
+   "lon": 14.4003,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Domus Romana, Mdina"
+  },
+  {
+   "id": "Q3053256",
+   "name": "Empire Stadium, Gżira",
+   "sl": 10,
+   "file": "The stadium, Gzira, Malta.jpg",
+   "lat": 35.9025,
+   "lon": 14.4926,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Empire Stadium (Gżira)"
+  },
+  {
+   "id": "Q1525286",
+   "name": "Giordan Lighthouse",
+   "sl": 10,
+   "file": "Giordan Lighthouse front side.JPG",
+   "lat": 36.0717,
+   "lon": 14.2186,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Giordan Lighthouse"
+  },
+  {
+   "id": "Q20922695",
+   "name": "Ħalfa Rock",
+   "sl": 10,
+   "file": "Gebla tal Halfa1.jpg",
+   "lat": 36.0292,
+   "lon": 14.3308,
+   "kind": "natural",
+   "types": [
+    "rock"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ħalfa Rock"
+  },
+  {
+   "id": "Q20922739",
+   "name": "Il-Maqluba",
+   "sl": 10,
+   "file": "Malta - Qrendi - Misrah tal-Maqluba - Il-Maqluba 13 ies.jpg",
+   "lat": 35.8306,
+   "lon": 14.4578,
+   "kind": "natural",
+   "types": [
+    "doline"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Il-Maqluba"
+  }
+ ]
+}
