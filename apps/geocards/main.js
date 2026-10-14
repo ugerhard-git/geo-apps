@@ -6,7 +6,7 @@
  * holds the page: state, picker, previews, API key and wiring.
  */
 
-import { palette, PRESETS } from "./colours.js";
+import { hex2rgb, palette, PRESETS } from "./colours.js";
 import { DEFAULTS } from "./catalogue.js";
 import {
   ensureFonts,
@@ -24,7 +24,7 @@ import { loadAlpha3, loadTerritories } from "../../shared/cldr.js";
 import { createCountryPicker, rankCountries } from "../../shared/country-picker.js";
 
 function currentPalette() {
-  return palette(state.cardBg, state.cardText, state.cardTransparent);
+  return palette(state.cardBg, state.cardText, state.cardTransparent, state.sheetBg);
 }
 
 /* ============================================================
@@ -34,6 +34,7 @@ const $ = (id) => document.getElementById(id);
 const state = {
   cardBg: PRESETS.light.bg,
   cardText: PRESETS.light.text,
+  sheetBg: PRESETS.light.sheet,
   cardTransparent: false,
   transparent: false,
   selected: [...DEFAULTS],
@@ -101,12 +102,13 @@ function say(msg, isErr) {
 function paintPreviews() {
   const grid = $("grid");
   const pal = currentPalette();
+  paintSheetPanel();
   grid.innerHTML = "";
   state.cards.forEach((card) => {
     const cell = document.createElement("div");
     cell.className = "cell";
     const shot = document.createElement("div");
-    shot.className = "shot" + (state.transparent || state.cardTransparent ? " alpha" : "");
+    shot.className = "shot";
     const cv = renderSingle(card, pal, state.transparent);
     cv.setAttribute("role", "img");
     cv.setAttribute("aria-label", card.label + " card");
@@ -126,6 +128,21 @@ function paintPreviews() {
   $("dlSheet").disabled = !state.cards.length;
   $("showText").disabled = !state.cards.length;
   if (!$("textpanel").hidden) $("statstext").value = statsText();
+}
+
+/**
+ * The preview grid sits on one panel in the sheet colour, so the cards look
+ * as they will on the downloaded sheet. With a transparent sheet the panel
+ * shows a checkerboard instead. The per-card links take whichever of dark or
+ * light text reads better on that colour.
+ */
+function paintSheetPanel() {
+  const grid = $("grid");
+  grid.classList.toggle("alpha", state.transparent);
+  grid.style.backgroundColor = state.transparent ? "" : state.sheetBg;
+  const [r, g, b] = hex2rgb(state.sheetBg);
+  const light = 0.299 * r + 0.587 * g + 0.114 * b > 150;
+  grid.classList.toggle("on-dark", !state.transparent && !light);
 }
 
 /* -- plain text -- */
@@ -301,8 +318,10 @@ document.querySelectorAll(".seg button[data-preset]").forEach((b) => {
     const p = PRESETS[b.dataset.preset];
     state.cardBg = p.bg;
     state.cardText = p.text;
+    state.sheetBg = p.sheet;
     $("cardBg").value = p.bg;
     $("cardText").value = p.text;
+    $("sheetBg").value = p.sheet;
     markPreset(b.dataset.preset);
     if (state.cards.length) paintPreviews();
   });
@@ -311,16 +330,21 @@ document.querySelectorAll(".seg button[data-preset]").forEach((b) => {
 function onColour() {
   state.cardBg = $("cardBg").value;
   state.cardText = $("cardText").value;
+  state.sheetBg = $("sheetBg").value;
+  const same = (/** @type {string} */ a, /** @type {string} */ b) =>
+    a.toLowerCase() === b.toLowerCase();
   const match = Object.keys(PRESETS).find(
     (k) =>
-      PRESETS[k].bg.toLowerCase() === state.cardBg.toLowerCase() &&
-      PRESETS[k].text.toLowerCase() === state.cardText.toLowerCase(),
+      same(PRESETS[k].bg, state.cardBg) &&
+      same(PRESETS[k].text, state.cardText) &&
+      same(PRESETS[k].sheet, state.sheetBg),
   );
   markPreset(match || null);
   if (state.cards.length) paintPreviews();
 }
 $("cardBg").addEventListener("input", onColour);
 $("cardText").addEventListener("input", onColour);
+$("sheetBg").addEventListener("input", onColour);
 
 $("alphaCard").addEventListener("change", (e) => {
   state.cardTransparent = e.target.checked;
@@ -330,6 +354,7 @@ $("alphaCard").addEventListener("change", (e) => {
 
 $("alpha").addEventListener("change", (e) => {
   state.transparent = e.target.checked;
+  $("sheetBg").disabled = e.target.checked;
   if (state.cards.length) paintPreviews();
 });
 

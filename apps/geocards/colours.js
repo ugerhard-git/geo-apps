@@ -5,9 +5,10 @@
 /* ============================================================
  1. Card colours
  ============================================================ */
+/** Card fill, card text, and the sheet behind the cards. */
 export const PRESETS = {
-  light: { bg: "#FBF9F3", text: "#16232E" },
-  dark: { bg: "#1D303E", text: "#F5F2E9" },
+  light: { bg: "#FBF9F3", text: "#16232E", sheet: "#EDECE7" },
+  dark: { bg: "#1D303E", text: "#F5F2E9", sheet: "#2A3C48" },
 };
 
 export function hex2rgb(h) {
@@ -40,12 +41,20 @@ export function mix(a, b, t) {
   );
 }
 
-/* Everything on a card is the chosen text colour at a different strength,
- so the two pickers can never produce an unreadable combination. */
-export function palette(bg, text, clearCard) {
+/**
+ * Everything on a card is the chosen text colour at a different strength, so
+ * the card pickers can never produce an unreadable combination.
+ *
+ * @param {string} bg card fill
+ * @param {string} text card text
+ * @param {boolean} [clearCard] leave the inside of the cards transparent
+ * @param {string} [sheet] the background behind the cards; by default a
+ *   shade between the card and text colours
+ */
+export function palette(bg, text, clearCard, sheet) {
   return {
     surface: clearCard ? null : bg,
-    sheet: mix(bg, text, 0.06),
+    sheet: sheet || mix(bg, text, 0.06),
     value: text,
     unit: rgba(text, 0.8),
     label: rgba(text, 0.7),
