@@ -38,7 +38,7 @@ const SETTLEMENT =
 
 /* Built things that can't be shown as one recognisable picture. */
 const NOT_A_SIGHT =
-  /\b(tunnel|power station|power plant|circuit|racetrack|race track|railway line|railway|road|highway|motorway|expressway|route|pipeline|transmission line|mine|oil field|gas field)$/i;
+  /\b(tunnel|power station|power plant|circuit|racetrack|race track|racing track|railway line|railway|road|highway|motorway|expressway|route|pipeline|transmission line|mine|oil field|gas field)$/i;
 
 /* A type that makes a thing a sight even when another type is NOT_A_SIGHT. */
 const SIGHT =
@@ -117,7 +117,9 @@ export function dropReason(c) {
   if (c.isClass) return "a type, not a place";
   if (!c.hasCoord) return "no coordinates";
   if (c.also.length >= 3) return `spans ${c.also.length + 1} countries`;
-  if (c.hasPop && !c.arch) return "has a population (town, region or country)";
+  // A population means a town, region or country — even an ancient one
+  // (Cairo, Calais). Ancient sites nobody lives in (Thebes) have none.
+  if (c.hasPop) return "has a population (town, region or country)";
   if (!c.arch && c.types.some((t) => SETTLEMENT.test(t))) return "town or region";
   if (c.types.length && c.types.every((t) => BROAD.test(t))) return "broad geography";
   if (c.types.some((t) => NOT_A_SIGHT.test(t)) && !c.types.some((t) => SIGHT.test(t)))
