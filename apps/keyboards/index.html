@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- No external scripts. Data: this site (layouts) and jsDelivr (CLDR country names); fonts: Google Fonts. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src 'self' https://cdn.jsdelivr.net;
+  img-src data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'"
+    />
+    <title>Keyboard layouts</title>
+    <meta
+      name="description"
+      content="A country's keyboard, key by key — QWERTZ or AZERTY, its accents, its alphabet — with nothing to say whose it is."
+    />
+    <meta name="geo-apps:tags" content="CLDR, keyboard" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Keyboard layouts</h1>
+          <p>A country's keyboard, key by key — QWERTZ or AZERTY, its accents, its alphabet.</p>
+        </div>
+
+        <div class="group">
+          <div class="field search-wrap">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+            <div class="results" id="countryResults"></div>
+          </div>
+          <div class="field">
+            <label for="layout">Layout</label>
+            <select id="layout" disabled></select>
+            <div class="hint">The country's usual keyboard first, then the others in use there.</div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Keyboard</h2>
+          <div class="field">
+            <label>Shape</label>
+            <div class="seg" role="group">
+              <button id="shapeAuto" aria-pressed="true">As sold there</button>
+              <button id="shapeIso" aria-pressed="false">ISO</button>
+              <button id="shapeAnsi" aria-pressed="false">ANSI</button>
+            </div>
+            <div class="hint">ISO has a tall Enter and a key left of Z; ANSI (US style) a long one.</div>
+          </div>
+          <label class="chk"><input type="checkbox" id="optShift" checked /><span>Shift characters</span></label>
+          <label class="chk"><input type="checkbox" id="optAltgr" checked /><span>AltGr characters</span></label>
+          <label class="chk"
+            ><input type="checkbox" id="optLatin" checked /><span>Latin letters on non-Latin keyboards</span></label
+          >
+          <label class="chk"
+            ><input type="checkbox" id="optBottom" checked /><span>Bottom row (Space, Ctrl…)</span></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Colours</h2>
+          <div class="field two">
+            <div>
+              <label for="keyHex">Keys</label>
+              <div class="colour">
+                <input type="color" id="keyColor" value="#f2f0eb" aria-label="Key colour swatch" />
+                <input
+                  type="text"
+                  id="keyHex"
+                  value="#f2f0eb"
+                  placeholder="#rrggbb"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Key colour as hex"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="inkHex">Legends</label>
+              <div class="colour">
+                <input type="color" id="inkColor" value="#1e2228" aria-label="Legend colour swatch" />
+                <input
+                  type="text"
+                  id="inkHex"
+                  value="#1e2228"
+                  placeholder="#rrggbb"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Legend colour as hex"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="field two">
+            <div>
+              <label for="accentHex">Second script</label>
+              <div class="colour">
+                <input type="color" id="accentColor" value="#c0392b" aria-label="Second script colour swatch" />
+                <input
+                  type="text"
+                  id="accentHex"
+                  value="#c0392b"
+                  placeholder="#rrggbb"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Second script colour as hex"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="bgHex">Background</label>
+              <div class="colour">
+                <input type="color" id="bgColor" value="#2a2e35" aria-label="Background colour swatch" />
+                <input
+                  type="text"
+                  id="bgHex"
+                  value="#2a2e35"
+                  placeholder="#rrggbb"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Background colour as hex"
+                />
+              </div>
+            </div>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optTransparent" /><span>Transparent background</span
+            ><em id="pngOnly" hidden>PNG only</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Sheet</h2>
+          <div class="field">
+            <label for="frame">Size</label>
+            <select id="frame">
+              <option value="2400x1200">2400 × 1200 · 2:1</option>
+              <option value="2400x1600">2400 × 1600 · 3:2</option>
+              <option value="1920x1080">1920 × 1080 · 16:9</option>
+              <option value="1600x1600">1600 × 1600 · 1:1</option>
+              <option value="custom">Custom…</option>
+            </select>
+          </div>
+          <div class="field two" id="customSize" hidden>
+            <div>
+              <label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000" />
+            </div>
+            <div>
+              <label for="customH">Height</label><input type="number" id="customH" value="1200" min="64" max="8000" />
+            </div>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optName" /><span>Name the layout</span
+            ><em id="revealTag" hidden>reveals</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              value="Which country types on this keyboard?"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+              aria-label="Caption"
+            />
+          </div>
+          <div class="field" id="capPosField">
+            <div class="seg" role="group">
+              <button id="capTop" aria-pressed="true">Above</button>
+              <button id="capBottom" aria-pressed="false">Below</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <div class="actions">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="empty" id="empty">
+          <strong>Pick a country to see its keyboard.</strong>
+          Where the Z sits, which accents get their own key, which alphabet is printed beside the Latin one — a keyboard
+          says a lot about where it was sold.
+        </div>
+        <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="note" id="note"></div>
+
+        <section class="card sources" id="sources" hidden>
+          <header><h2>Sources</h2></header>
+          <div class="body">
+            <dl id="sourceList"></dl>
+            <p class="cav">
+              The layouts are Windows' own, as published by Unicode. Which ones a country uses is worked out from its
+              languages, with known exceptions set by hand — the Netherlands types on US-International, Poland on Polish
+              (Programmers). Real keyboards vary by maker; this shows the standard legends.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

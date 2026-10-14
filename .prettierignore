@@ -5,3 +5,4 @@ test-results/
 playwright-report/
 **/vendor/
 apps/landmarks/data/
+apps/keyboards/data/

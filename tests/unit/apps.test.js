@@ -24,6 +24,11 @@ import { Region, clipLines, clipPath } from "../../apps/rivers/clip.js";
 import { parseLakes, parseRivers } from "../../apps/rivers/data.js";
 import { rankWidth } from "../../apps/rivers/render.js";
 import { applyAffix, detectAffix, stripAffix } from "../../apps/subdivisions/names.js";
+import { parseData } from "../../apps/keyboards/data.js";
+import { capFor, isNonLatin, keyboard, printable, side } from "../../apps/keyboards/keys.js";
+import { insetPolygon } from "../../apps/keyboards/render.js";
+import { layoutsFor, localeOf } from "../../scripts/keyboards/countries.js";
+import { isAnsi, layerOf, layoutId, legend, parseLayout } from "../../scripts/keyboards/parse.js";
 
 test("alphabets: CLDR unicode sets, scripts and case pairs", () => {
   assert.deepEqual(parseUnicodeSet("[a b c {ch} d-f]"), ["a", "b", "c", "ch", "d", "e", "f"]);
@@ -791,4 +796,181 @@ test("landmarks app: data files are checked again on reading", () => {
     }),
     "Wikimedia Commons · CC BY 2.0 · commons.wikimedia.org/w/index.php?curid=5",
   );
+});
+
+test("keyboards data: CLDR keyboard files are read layer by layer, cleaned", () => {
+  assert.equal(layoutId("de-CH-t-k0-windows.xml"), "de-CH");
+  assert.equal(layoutId("en-t-k0-windows-extended.xml"), "en-extended");
+  assert.equal(layoutId("_platform.xml"), "");
+  assert.equal(layerOf(undefined), "base");
+  assert.equal(layerOf("shift caps"), "shift");
+  assert.equal(layerOf("shift+caps?"), "shift");
+  assert.equal(layerOf("altR+caps? ctrl+alt+caps?"), "altgr");
+  assert.equal(layerOf("altR+shift+caps? ctrl+alt+shift+caps?"), "altgrShift");
+  assert.equal(layerOf("ctrl+caps?"), "");
+  assert.equal(layerOf("caps"), "");
+  assert.equal(legend("&lt;"), "<");
+  assert.equal(legend("\\u{22}"), '"');
+  assert.equal(legend("\\u{1C}"), ""); // a control character
+  assert.equal(legend("\\u{200D}"), ""); // invisible joiner
+  assert.equal(legend("\\u{110000}"), ""); // not a code point
+  assert.equal(legend("abcdefgh"), ""); // too long for a keycap
+
+  const xml = `<keyboard><names><name value="Test &amp; Co (FYROM)"/></names>
+    <keyMap><map iso="D01" to="q"/><map iso="E00" to="^"/><map iso="Z99" to="x"/></keyMap>
+    <keyMap modifiers="shift caps"><map iso="D01" to="Q"/></keyMap>
+    <keyMap modifiers="caps"><map iso="D01" to="WRONG"/></keyMap>
+    <keyMap modifiers="altR+caps? ctrl+alt+caps?"><map iso="D01" to="@"/></keyMap>
+    <transforms type="simple"><transform from="^a" to="â"/></transforms></keyboard>`;
+  const l = parseLayout(xml);
+  assert.equal(l.name, "Test & Co");
+  assert.deepEqual(l.keys.D01, ["q", "Q", "@", ""]);
+  assert.equal(l.keys.Z99, undefined);
+  assert.equal(l.dead, "^");
+  assert.ok(isAnsi({ C12: ["\\", "|"], B00: ["\\", "|"] }));
+  assert.ok(!isAnsi({ C12: ["#", "'"], B00: ["<", ">"] }));
+});
+
+test("keyboards data: countries get their own layout, then their language's", () => {
+  const ids = [
+    "en",
+    "en-GB",
+    "en-dvorak",
+    "de",
+    "de-CH",
+    "fr",
+    "fr-CH",
+    "es",
+    "es-419",
+    "pt",
+    "pt-PT",
+    "sr",
+    "sr-Latn",
+  ];
+  assert.equal(localeOf("el-Latn-el220"), "el-Latn");
+  assert.equal(localeOf("es-419"), "es-419");
+  assert.equal(localeOf("fr-CA-var"), "fr-CA");
+  const lp = (/** @type {Record<string, [number, string]>} */ m) =>
+    Object.fromEntries(
+      Object.entries(m).map(([k, [p, s]]) => [
+        k,
+        { _populationPercent: String(p), _officialStatus: s },
+      ]),
+    );
+  assert.deepEqual(layoutsFor("AT", lp({ de: [97, "official"], en: [73, ""] }), ids), ["de"]);
+  assert.deepEqual(layoutsFor("MX", lp({ es: [92, "de_facto_official"] }), ids), ["es-419"]);
+  assert.deepEqual(layoutsFor("AO", lp({ pt: [70, "official"] }), ids), ["pt-PT"]);
+  assert.deepEqual(layoutsFor("RS", lp({ sr: [90, "official"], sr_Latn: [80, "official"] }), ids), [
+    "sr",
+    "sr-Latn",
+  ]);
+  // Dvorak never; no own layout → US.
+  assert.deepEqual(layoutsFor("KE", lp({ sw: [80, "official"] }), ids), ["en"]);
+  // The hand-set exceptions win.
+  assert.deepEqual(layoutsFor("CH", lp({ de: [64, "official"] }), ids), ["de-CH", "fr-CH"]);
+});
+
+test("keyboards app: the shapes add up to full rows", () => {
+  for (const shape of /** @type {const} */ (["iso", "ansi", "jis"])) {
+    const kb = keyboard(shape);
+    for (let y = 0; y < 5; y++) {
+      // Every row is 15 wide; the tall Enter counts on both of its rows.
+      const w = kb.keys
+        .filter((k) => k.y <= y && y < k.y + k.h)
+        .reduce((s, k) => s + (k.outline ? (y === 1 ? 1.5 : 1.25) : k.w), 0);
+      assert.equal(w, 15, `${shape} row ${y}`);
+    }
+  }
+  const pos = (/** @type {import("../../apps/keyboards/keys.js").KeyBox[]} */ keys) =>
+    keys.map((k) => k.pos).filter(Boolean);
+  assert.ok(pos(keyboard("iso").keys).includes("B00"));
+  assert.ok(!pos(keyboard("ansi").keys).includes("B00"));
+  assert.ok(pos(keyboard("jis").keys).includes("E13"));
+  assert.ok(pos(keyboard("iso", { b11: true }).keys).includes("B11"));
+  assert.equal(keyboard("iso", { bottom: false }).h, 4);
+  // The L-shaped Enter keeps its shape when inset.
+  const L = /** @type {Array<[number, number]>} */ ([
+    [13.5, 1],
+    [15, 1],
+    [15, 3],
+    [13.75, 3],
+    [13.75, 2],
+    [13.5, 2],
+  ]);
+  assert.deepEqual(insetPolygon(L, 0.1, 0.1, 0.1, 0.1), [
+    [13.6, 1.1],
+    [14.9, 1.1],
+    [14.9, 2.9],
+    [13.85, 2.9],
+    [13.85, 1.9],
+    [13.6, 1.9],
+  ]);
+});
+
+test("keyboards app: what each keycap prints", () => {
+  const opts = { shift: true, altgr: true, latin: true };
+  const us = { D01: ["q", "Q"], E02: ["2", "@"], E01: ["1", "!"] };
+  assert.deepEqual(side("q", "Q", true), { kind: "letter", ch: "Q" });
+  assert.deepEqual(side("1", "!", true), { kind: "pair", top: "!", bottom: "1" });
+  assert.deepEqual(side("1", "!", false), { kind: "pair", top: "", bottom: "1" });
+  assert.equal(printable("\u064E"), "\u25CC\u064E");
+  // German Q: a capital, with @ on AltGr.
+  const de = { D01: ["q", "Q", "@"] };
+  assert.deepEqual(capFor("D01", de, us, false, opts), {
+    left: { kind: "letter", ch: "Q" },
+    right: null,
+    altgr: { kind: "pair", top: "", bottom: "@" },
+  });
+  // Russian: Latin small on the left, Cyrillic on the right; a shared digit only once.
+  const ru = { D01: ["й", "Й"], E02: ["2", '"'], E01: ["1", "!"] };
+  assert.ok(isNonLatin({ D01: ["й", "Й"], C01: ["ф", "Ф"], B01: ["я", "Я"] }));
+  const q = capFor("D01", ru, us, true, opts);
+  assert.deepEqual(
+    [q.left, q.right],
+    [
+      { kind: "letter", ch: "Q" },
+      { kind: "letter", ch: "Й" },
+    ],
+  );
+  const two = capFor("E02", ru, us, true, opts);
+  assert.deepEqual(two.right, { kind: "pair", top: '"', bottom: "" });
+  assert.equal(capFor("E01", ru, us, true, opts).right, null);
+  // Without Latin legends, only the native side.
+  assert.equal(capFor("D01", ru, us, true, { ...opts, latin: false }).left, null);
+  // A key the layout doesn't have stays blank.
+  assert.deepEqual(capFor("E00", ru, us, true, opts), { left: null, right: null, altgr: null });
+  // Korean: printed jamo beside the Latin letter.
+  const ko = { D01: ["q", "Q", "", "", "ㅂ", "ㅃ"] };
+  const k = capFor("D01", ko, us, true, opts);
+  assert.deepEqual(k.right, { kind: "pair", top: "ㅃ", bottom: "ㅂ" });
+  assert.ok(k.printed);
+});
+
+test("keyboards app: the layout file is checked on reading", () => {
+  const many = Object.fromEntries(
+    ["E", "D", "C"].flatMap((r) =>
+      Array.from({ length: 12 }, (_, i) => [`${r}${String(i + 1).padStart(2, "0")}`, ["a", "A"]]),
+    ),
+  );
+  const data = parseData({
+    layouts: {
+      en: { name: "US", shape: "ansi", keys: many },
+      bad: { name: "<b>x</b>", shape: "round", keys: many },
+      "../x": { name: "Path", shape: "iso", keys: many },
+      ok: {
+        name: "OK",
+        shape: "iso",
+        keys: { ...many, Z01: ["x"], E01: ["far too long a legend"] },
+        latin: "nope",
+      },
+    },
+    countries: { DE: ["ok", "missing"], xx: ["ok"], FR: [] },
+  });
+  assert.deepEqual([...data.layouts.keys()].sort(), ["en", "ok"]);
+  const ok = /** @type {any} */ (data.layouts.get("ok"));
+  assert.equal(ok.keys.Z01, undefined);
+  assert.deepEqual(ok.keys.E01, [""]);
+  assert.equal(ok.latin, "en");
+  assert.deepEqual([...data.countries.entries()], [["DE", ["ok"]]]);
+  assert.throws(() => parseData({ layouts: {}, countries: {} }));
 });
