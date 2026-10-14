@@ -4,7 +4,9 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { casePair, parseUnicodeSet, scriptOf } from "../../apps/alphabets/unicode.js";
-import { decodeCities, isFormatError } from "../../apps/city-dots/cities.js";
+import { annual, archiveUrl, normalsFrom } from "../../apps/climate/climate.js";
+import { axesFor, niceRange } from "../../apps/climate/render.js";
+import { decodeCities, isFormatError } from "../../shared/geonames.js";
 import { extentOf, pickDots, radiusFor } from "../../apps/city-dots/dots.js";
 import { fitCredit, wrapCredit } from "../../apps/endemics/credits.js";
 import { justifiedRows } from "../../apps/endemics/layout.js";
@@ -287,6 +289,11 @@ test("city dots: the city list decodes, with cumulative coordinates", () => {
   ]);
   const byCountry = decodeCities(buf);
   assert.deepEqual([...byCountry.keys()].sort(), ["CH", "LI"]);
+  // Names only when asked for, decoded as UTF-8.
+  assert.equal(
+    /** @type {any[]} */ (decodeCities(buf, { names: true }).get("CH"))[0].name,
+    "Zürich",
+  );
   const ch = /** @type {any[]} */ (byCountry.get("CH"));
   assert.equal(ch.length, 2);
   assert.deepEqual(ch[0], { lon: 8.54, lat: 47.37, pop: 400000, capital: false });
@@ -509,4 +516,86 @@ test("rivers: GeoJSON is read defensively", () => {
   assert.equal(lakes.length, 1);
   assert.equal(lakes[0].rings.length, 1); // the broken hole is dropped
   assert.ok(rankWidth(0) > rankWidth(6) && rankWidth(6) > rankWidth(12) && rankWidth(12) > 0);
+});
+
+/* ── Climate charts ──────────────────────────────────────── */
+
+/** Thirty years of daily data: 10 °C in January rising by 1 °C a month, 1 mm of rain a day. */
+function dailyArchive() {
+  const time = [];
+  const mean = [];
+  for (let d = Date.UTC(1991, 0, 1); d <= Date.UTC(2020, 11, 31); d += 864e5) {
+    const dt = new Date(d);
+    time.push(dt.toISOString().slice(0, 10));
+    mean.push(10 + dt.getUTCMonth());
+  }
+  return {
+    elevation: 34,
+    daily: {
+      time,
+      temperature_2m_mean: mean,
+      temperature_2m_max: mean.map((v) => v + 5),
+      temperature_2m_min: mean.map((v) => v - 5),
+      precipitation_sum: mean.map(() => 1),
+    },
+  };
+}
+
+test("climate: thirty years of days average into twelve months", () => {
+  const n = normalsFrom(dailyArchive());
+  assert.deepEqual(n.mean, [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]);
+  assert.equal(n.high[0], 15);
+  assert.equal(n.low[11], 16);
+  assert.equal(n.precip[0], 31); // a month's total, not a daily figure
+  assert.ok(Math.abs(/** @type {number} */ (n.precip[1]) - (28 + 8 / 30)) < 1e-9); // 8 leap years in 30
+  assert.equal(n.elevation, 34);
+  const a = annual(n);
+  assert.ok(Math.abs(/** @type {number} */ (a.precip) - (365 + 8 / 30)) < 1e-9);
+});
+
+test("climate: gaps and bad values don't skew the normals", () => {
+  const data = dailyArchive();
+  const d = data.daily;
+  // Every March missing a day of rain: no March totals, so no March normal.
+  d.time.forEach((t, i) => {
+    if (t.endsWith("-03-15")) d.precipitation_sum[i] = /** @type {any} */ (null);
+    if (t.startsWith("2000-01")) d.temperature_2m_mean[i] = /** @type {any} */ ("hot");
+  });
+  const n = normalsFrom(data);
+  assert.equal(n.precip[2], null);
+  assert.equal(n.precip[3], 30);
+  assert.equal(n.mean[0], 10); // the junk January is simply skipped
+  assert.equal(annual(n).precip, null);
+  assert.throws(() => normalsFrom({ daily: { time: [1, 2], temperature_2m_mean: [1] } }));
+  assert.throws(() => normalsFrom(null));
+});
+
+test("climate: request URLs carry only checked coordinates", () => {
+  const u = new URL(archiveUrl(52.52437, 13.41053));
+  assert.equal(u.hostname, "archive-api.open-meteo.com");
+  assert.equal(u.searchParams.get("latitude"), "52.524");
+  assert.equal(u.searchParams.get("start_date"), "1991-01-01");
+  assert.throws(() => archiveUrl(NaN, 0));
+  assert.throws(() => archiveUrl(91, 0));
+});
+
+test("climate: axes — round ticks, and Walter–Lieth's tenfold shrink above 100 mm", () => {
+  assert.deepEqual(niceRange(-3.2, 21.7, 5), { lo: -5, hi: 25, step: 5 });
+  const n = {
+    mean: [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25],
+    high: Array(12).fill(30),
+    low: Array(12).fill(20),
+    precip: [300, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    elevation: null,
+  };
+  const wl = axesFor(n, { imperial: false, walterLieth: true, band: true });
+  assert.equal(wl.pPos(20), 10); // 20 mm = 10 °C
+  assert.equal(wl.pPos(100), 50);
+  assert.equal(wl.pPos(300), 60); // 200 mm more is only 10 °C more
+  assert.equal(wl.t.hi, 60);
+  assert.equal(wl.knee, 100);
+  assert.deepEqual(wl.pTicks.slice(-2), [100, 300]);
+  const fit = axesFor(n, { imperial: true, walterLieth: true, band: true });
+  assert.equal(fit.knee, null); // no Walter–Lieth in °F
+  assert.ok(fit.t.lo <= 68 && fit.t.hi >= 86);
 });

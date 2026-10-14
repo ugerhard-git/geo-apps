@@ -105,6 +105,7 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `world.js`          | Country shapes from world-atlas (Natural Earth), point-in-polygon tests            |
 | `projection.js`     | Web Mercator, the mainland of a country, bounds — for the map apps                 |
 | `map-countries.js`  | CLDR countries matched to their world-atlas outlines, for the map apps             |
+| `geonames.js`       | The GeoNames city list (all-the-cities): a bounds-checked decoder and loader       |
 | `keys.js`           | API keys shared by all apps (see below)                                            |
 | `back-link.js`      | The "Back to apps overview" link, shown only on the published site                 |
 
@@ -136,6 +137,9 @@ rules that keep that in check:
   `default-src 'none'`, scripts only from the site itself, and `connect-src`
   listing exactly the APIs the app uses. Adding a data source means adding its
   host there.
+- **Untrusted files are bounded.** Large downloads go through `fetchBytes`
+  with a size cap, and parsers check every length, count and coordinate
+  (see `shared/geonames.js` and `apps/rivers/data.js`).
 - **No third-party scripts.** Libraries are kept in the repository (see
   `apps/owid-chart-plotter/vendor/`) instead of loaded from a CDN, because all
   apps share one origin, and with it the browser storage that can hold the

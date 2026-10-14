@@ -6,7 +6,7 @@
  * Flow: CLDR names fill the picker, world-atlas supplies the outline that
  * frames the map (and decides what "mainland" means), and the GeoNames city
  * list loads in the background → pick a country → choose how many cities and
- * how they look → export. Decoding lives in cities.js, choosing and placing
+ * how they look → export. Decoding lives in shared/geonames.js, choosing and placing
  * the dots in dots.js, drawing in render.js.
  */
 
@@ -16,19 +16,18 @@ import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, setSeg } from "../../shared/dom.js";
 import { MAINLAND_OVERRIDE, isNum } from "../../shared/geo.js";
 import { ALIASES, loadMapCountries } from "../../shared/map-countries.js";
-import { fetchBytes } from "../../shared/net.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
 import { clamp, own } from "../../shared/util.js";
-import { decodeCities, isFormatError } from "./cities.js";
-import { CITIES_URL, COUNT_MAX, COUNT_MIN, MAX_BYTES } from "./config.js";
+import { isFormatError, loadCities } from "../../shared/geonames.js";
+import { COUNT_MAX, COUNT_MIN } from "./config.js";
 import { dotsFor, drawSheet } from "./render.js";
 
 addBackLink();
 
 /** @typedef {import("../../shared/cldr.js").Territory} Territory */
 /** @typedef {import("../../shared/world.js").CountryShape} CountryShape */
-/** @typedef {import("./cities.js").City} City */
+/** @typedef {import("../../shared/geonames.js").City} City */
 
 /* ═══════════════════════════════════════════════════════════
    State
@@ -356,14 +355,12 @@ $("dlJpg").addEventListener("click", () => exportSheet("image/jpeg", "jpg"));
    Start-up
    ═══════════════════════════════════════════════════════════ */
 
-async function loadCities() {
+async function loadCityList() {
   try {
-    const bytes = await fetchBytes(CITIES_URL, MAX_BYTES, (frac) => {
+    CITIES = await loadCities((frac) => {
       citiesFrac = frac;
       if (countriesDone) showLoading();
     });
-    CITIES = decodeCities(bytes);
-    if (!CITIES.size) throw new Error("no cities in the file");
   } catch (e) {
     CITIES = null;
     citiesError =
@@ -406,4 +403,4 @@ async function loadCountries() {
 
 syncUI();
 loadCountries();
-loadCities();
+loadCityList();

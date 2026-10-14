@@ -10,7 +10,7 @@
 import { mercator } from "../../shared/projection.js";
 
 /** @typedef {import("../../shared/world.js").Polys} Polys */
-/** @typedef {import("./cities.js").City} City */
+/** @typedef {import("../../shared/geonames.js").City} City */
 /** @typedef {import("../../shared/projection.js").Box} Box */
 
 /**
