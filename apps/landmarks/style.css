@@ -639,3 +639,11 @@ input[type="color"]:disabled {
 .alt .lic.sa {
   color: var(--warn);
 }
+.tile[hidden] {
+  display: none;
+}
+/* Tiles off-screen aren't laid out or painted until scrolled to. */
+.tile {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 280px;
+}
