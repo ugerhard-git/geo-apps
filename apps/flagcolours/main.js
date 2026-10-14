@@ -20,6 +20,10 @@ import { flagFileFor, flagRendering, loadFlagImage } from "./flag-data.js";
 import { histogram, quantise } from "./measure.js";
 import { drawSheet } from "./render.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("../../shared/cldr.js").Territory} Country */
 
 /* ═══════════════════════════════════════════════════════════

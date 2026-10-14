@@ -19,6 +19,10 @@ import { detectAffix } from "./names.js";
 import { drawSheet } from "./render.js";
 import { loadSubdivisions } from "./wikidata.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("../../shared/cldr.js").Territory} Country */
 /** @typedef {import("./wikidata.js").Subdivision} Subdivision */
 

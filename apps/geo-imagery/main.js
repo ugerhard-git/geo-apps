@@ -49,6 +49,10 @@ import {
 import { buildCountry, mainlandSet, topoToFeatures } from "./countries.js";
 import { isNum } from "../../shared/geo.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /* ═══════════════════════════════════════════════════════════
    State
    ═══════════════════════════════════════════════════════════ */

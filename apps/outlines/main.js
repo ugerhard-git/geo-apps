@@ -19,6 +19,10 @@ import { ALIASES, TOPO_URL } from "./config.js";
 import { drawSheet } from "./render.js";
 import { iso3For, loadRegionsFor, topoCountries } from "./shapes.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("./shapes.js").CountryShape} CountryShape */
 /** @typedef {import("./shapes.js").Region} Region */
 

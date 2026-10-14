@@ -19,6 +19,10 @@ import { ID_OK } from "./config.js";
 import { loadChoices } from "./countries.js";
 import { clip, dataUrl, fetchYear, toProducts } from "./oec.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("./oec.js").Product} Product */
 /** @typedef {import("./countries.js").Choice} Choice */
 

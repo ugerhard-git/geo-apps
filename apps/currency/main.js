@@ -32,6 +32,10 @@ import {
 import { loadReference } from "./reference.js";
 import { drawSheet } from "./render.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("../../shared/cldr.js").Territory} Country */
 /** @typedef {import("./commons-data.js").Piece} Piece */
 

@@ -23,6 +23,10 @@ import { ALIASES, DECOY_POOL, DECOY_SEED, MAX_SELECTED } from "./config.js";
 import { drawSheet } from "./render.js";
 import { endemicsOf, photographs } from "./species-data.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("../../shared/cldr.js").Territory} Country */
 /** @typedef {import("./species-data.js").Species} Species */
 
