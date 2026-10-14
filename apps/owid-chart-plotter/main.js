@@ -62,6 +62,10 @@ const els = {
   marks: select("marks"),
   names: select("names"),
   bg: select("bg"),
+  pngLegend: input("pngLegend"),
+  legendBox: $("legendBox"),
+  legendHint: $("legendHint"),
+  legendLabels: $("legendLabels"),
   status: $("status"),
   kicker: $("kicker"),
   ctitle: $("ctitle"),
@@ -110,7 +114,57 @@ function readView() {
     scale: els.scale.value,
     names: els.names.value,
     bg: els.bg.value,
+    labelOf: els.pngLegend.checked ? labelOf : undefined,
   };
+}
+
+/* ═══════════════════════════════════════════════════════════
+   Legend labels
+
+   With "Add a legend" ticked, each picked series can carry its own label
+   ("Country A"), shown in the PNG's legend and, so the page matches the
+   export, wherever the on-screen chart names the series. An empty label means
+   the country's own name.
+   ═══════════════════════════════════════════════════════════ */
+
+/** Custom labels by entity name; kept while the entity stays picked. */
+const customLabels = new Map();
+
+/** @param {string} entity */
+const labelOf = (entity) => customLabels.get(entity) || entity;
+
+/** One text box per picked series, next to its colour. */
+function renderLegendLabels() {
+  const on = els.pngLegend.checked;
+  els.legendBox.hidden = !on;
+  els.legendHint.hidden = on;
+  for (const e of [...customLabels.keys()]) if (!picked.includes(e)) customLabels.delete(e);
+  els.legendLabels.replaceChildren(
+    ...picked.map((e, i) => {
+      const li = document.createElement("li");
+      li.style.setProperty("--c", PALETTE[i % PALETTE.length]);
+      const box = document.createElement("input");
+      box.type = "text";
+      box.value = customLabels.get(e) || "";
+      box.placeholder = e; // entity names come from the CSV: set as text, never markup
+      box.maxLength = 60;
+      box.setAttribute("aria-label", "Legend label for " + e);
+      box.addEventListener("input", () => {
+        const v = box.value.trim();
+        if (v) customLabels.set(e, v);
+        else customLabels.delete(e);
+        draw();
+      });
+      li.append(box);
+      return li;
+    }),
+  );
+  if (on && !picked.length) {
+    const li = document.createElement("li");
+    li.className = "none";
+    li.textContent = "Add countries first.";
+    els.legendLabels.replaceChildren(li);
+  }
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -333,6 +387,7 @@ const picker = createCountryPicker({
 function renderChips() {
   const d = data;
   if (!d) return;
+  renderLegendLabels();
   els.chips.textContent = "";
   const frag = document.createDocumentFragment();
   picked.forEach((e, i) => {
@@ -426,6 +481,9 @@ async function exportPng() {
       view,
       title: els.ctitle.textContent || "",
       stamp: els.stamp.textContent || "",
+      legend: els.pngLegend.checked
+        ? picked.map((e, i) => ({ label: labelOf(e), colour: PALETTE[i % PALETTE.length] }))
+        : null,
     });
     const name =
       safeName(els.slug.value) +
@@ -507,6 +565,10 @@ els.y1.addEventListener("change", () => {
   draw();
 });
 for (const el of [els.scale, els.marks, els.names, els.bg]) el.addEventListener("change", draw);
+els.pngLegend.addEventListener("change", () => {
+  renderLegendLabels();
+  draw();
+});
 els.title.addEventListener("input", () => {
   if (chart) draw();
 });

@@ -223,6 +223,20 @@
               </p>
             </fieldset>
 
+            <fieldset>
+              <legend>6 — Legend in the PNG</legend>
+              <label class="tick"><input type="checkbox" id="pngLegend" /> Add a legend under the chart</label>
+              <div id="legendBox" hidden>
+                <p class="hint" style="margin-top: 6px">
+                  One label per colour. Leave a box empty to use the country's name, or type your own — “Country A”,
+                  say.
+                </p>
+                <ol class="legend-labels" id="legendLabels"></ol>
+              </div>
+              <p class="hint" id="legendHint">
+                Without it, the PNG shows no country names, so it works as a quiz clue.
+              </p>
+            </fieldset>
             <details class="fallback">
               <summary>No internet? Paste a CSV instead</summary>
               <p class="hint" style="margin-top: 0">

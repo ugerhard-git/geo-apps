@@ -21,6 +21,8 @@ import { fmt, valueAt } from "./data.js";
  * @property {"linear" | "zero" | "log" | string} scale
  * @property {"legend" | "inline" | "off" | string} names how countries are named
  * @property {string} bg background mode of the export
+ * @property {(entity: string) => string} [labelOf] the name shown for a
+ *   series, e.g. a custom legend label; the entity name when absent
  */
 
 /** Series colours, in pick order. */
@@ -120,6 +122,8 @@ if (chartJsLoaded) {
  */
 export function buildConfig(data, view, k, hideNames) {
   const { type, picked, y0, y1 } = view;
+  /** @param {string} e */
+  const label = (e) => (view.labelOf ? view.labelOf(e) : e);
   const colour = (/** @type {number} */ i) => PALETTE[i % PALETTE.length];
   /** @param {number} n */
   const F = (n) => Math.round(n * k);
@@ -162,7 +166,7 @@ export function buildConfig(data, view, k, hideNames) {
         datasets: picked.map((e, i) => {
           const m = /** @type {Map<number, number>} */ (data.byEntity.get(e));
           return {
-            label: e,
+            label: label(e),
             data: years.map((y) => (m.has(y) ? m.get(y) : null)),
             spanGaps: true,
             borderColor: colour(i),
@@ -199,7 +203,7 @@ export function buildConfig(data, view, k, hideNames) {
       data: {
         labels: years.map(String),
         datasets: picked.map((e, i) => ({
-          label: e,
+          label: label(e),
           data: years.map((y) => valueAt(data, e, y)),
           backgroundColor: colour(i),
           borderWidth: 0,
@@ -222,7 +226,7 @@ export function buildConfig(data, view, k, hideNames) {
     cfg = {
       type: "bar",
       data: {
-        labels: rows.map((r) => r.e),
+        labels: rows.map((r) => label(r.e)),
         datasets: [
           {
             label: String(y1),
@@ -254,7 +258,7 @@ export function buildConfig(data, view, k, hideNames) {
     cfg = {
       type: "doughnut",
       data: {
-        labels: rows.map((r) => r.e),
+        labels: rows.map((r) => label(r.e)),
         datasets: [
           {
             data: rows.map((r) => r.v),
@@ -292,7 +296,7 @@ export function buildConfig(data, view, k, hideNames) {
     cfg = {
       type: "bar",
       data: {
-        labels: rows.map((r) => r.e),
+        labels: rows.map((r) => label(r.e)),
         datasets: [
           {
             label: `Change ${y0} → ${y1}`,
@@ -346,7 +350,7 @@ export function buildConfig(data, view, k, hideNames) {
   cfg.options.plugins.endLabels = { enabled: inline, scale: k };
   if (inline) {
     // Leave room on the right for the labels.
-    const longest = picked.reduce((m, e) => Math.max(m, e.length), 0);
+    const longest = picked.reduce((m, e) => Math.max(m, label(e).length), 0);
     cfg.options.layout = { padding: { right: Math.round((longest * 7.6 + 18) * k) } };
   }
   if (nameMode === "off" && (type === "rank" || type === "change")) {
