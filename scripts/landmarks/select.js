@@ -132,9 +132,11 @@ export function dropReason(c) {
  *
  * @param {any[]} rows QLever bindings for one country
  * @param {string} iso the country, so it can be left out of `also`
+ * @param {string[]} [parents] countries a territory belongs to, also left out
  * @returns {{kept: Landmark[], dropped: Array<{id: string, name: string, sl: number, reason: string}>}}
  */
-export function selectLandmarks(rows, iso) {
+export function selectLandmarks(rows, iso, parents = []) {
+  const notAlso = new Set([iso, ...parents]);
   /** @type {Landmark[]} */
   const kept = [];
   const dropped = [];
@@ -157,7 +159,7 @@ export function selectLandmarks(rows, iso) {
       ...new Set(
         val(r, "also")
           .split(" ")
-          .filter((c) => /^[A-Z]{2}$/.test(c) && c !== iso),
+          .filter((c) => /^[A-Z]{2}$/.test(c) && !notAlso.has(c)),
       ),
     ].sort();
     const pt = /^Point\(\s*(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s*\)$/i.exec(

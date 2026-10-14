@@ -16,7 +16,14 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadTerritories } from "../../shared/cldr.js";
-import { QLEVER, candidateQuery, detailQueries, mergeDetails } from "./query.js";
+import {
+  QLEVER,
+  candidateQuery,
+  detailQueries,
+  mergeDetails,
+  parentQuery,
+  withinQuery,
+} from "./query.js";
 import { selectLandmarks } from "./select.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -26,6 +33,9 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 /** QLever is a free public service: at most one query every PACE_MS. */
 const PACE_MS = 1500;
+
+/** Fewer candidates than this and a place is searched by location as well. */
+const FEW = 30;
 let lastQuery = 0;
 
 /** @param {string} text a SPARQL query */
@@ -77,14 +87,26 @@ async function sparql(text) {
  * @param {string} iso
  */
 async function query(iso) {
-  const cand = await sparql(candidateQuery(iso, 300));
   /** @type {Map<string, string>} */
   const sl = new Map();
-  for (const r of cand) {
-    const id = (/\/(Q\d+)$/.exec(r?.item?.value || "") || [])[1];
-    if (id) sl.set(id, String(r?.sl?.value || "0"));
+  /** @param {any[]} rows */
+  const add = (rows) => {
+    for (const r of rows) {
+      const id = (/\/(Q\d+)$/.exec(r?.item?.value || "") || [])[1];
+      if (id && !sl.has(id)) sl.set(id, String(r?.sl?.value || "0"));
+    }
+  };
+  add(await sparql(candidateQuery(iso, 300)));
+  /** @type {string[]} */
+  let parents = [];
+  if (sl.size < FEW) {
+    // Probably a territory whose landmarks name its parent country.
+    add(await sparql(withinQuery(iso, 300)));
+    parents = (await sparql(parentQuery(iso)))
+      .map((r) => String(r?.p?.value || ""))
+      .filter((c) => /^[A-Z]{2}$/.test(c) && c !== iso);
   }
-  if (!sl.size) return [];
+  if (!sl.size) return { rows: [], parents };
   const ids = [...sl.keys()];
   /** @type {Array<{part: string, rows: any[]}>} */
   const parts = [];
@@ -105,7 +127,7 @@ async function query(iso) {
     const labels = detailQueries(unnamed).find((p) => p.part === "labels");
     if (labels) parts.push({ part: "labels", rows: await sparql(labels.query) });
   }
-  return mergeDetails(parts, sl);
+  return { rows: mergeDetails(parts, sl), parents };
 }
 
 await mkdir(OUT, { recursive: true });
@@ -122,8 +144,8 @@ const started = Date.now();
 for (const [i, t] of countries.entries()) {
   const t0 = Date.now();
   try {
-    const rows = await query(t.code);
-    const { kept, dropped } = selectLandmarks(rows, t.code);
+    const { rows, parents } = await query(t.code);
+    const { kept, dropped } = selectLandmarks(rows, t.code, parents);
     counts[t.code] = kept.length;
     const file = path.join(OUT, t.code + ".json");
     await writeFile(file, JSON.stringify({ country: t.code, items: kept }, null, 1) + "\n");

@@ -37,6 +37,60 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 `;
 
 /**
+ * The country's Wikidata item(s), bound to ?country. Usually the item with
+ * the ISO code; but some codes sit on a wider item — "NL" is on the Kingdom
+ * of the Netherlands, while Dutch landmarks name the Netherlands as their
+ * country — so a country that is part of the coded item and has no code of
+ * its own counts too (that leaves out Aruba and Curaçao, which have theirs).
+ *
+ * @param {string} iso checked by the caller
+ */
+function countryPattern(iso) {
+  return `{ ?country wdt:P297 "${iso}" . }
+  UNION
+  {
+    ?coded wdt:P297 "${iso}" .
+    ?country wdt:P361 ?coded .
+    ?country wdt:P31/wdt:P279* wd:Q6256 .
+    MINUS { ?country wdt:P297 ?own . }
+  }`;
+}
+
+/**
+ * For territories whose landmarks name the parent country as their country
+ * (Réunion, Puerto Rico, Hong Kong): candidates located in the territory.
+ *
+ * @param {string} iso ISO 3166-1 alpha-2, checked here
+ * @param {number} limit
+ * @returns {string}
+ */
+export function withinQuery(iso, limit) {
+  if (!/^[A-Z]{2}$/.test(iso)) throw new Error("bad country code");
+  return `${PREFIXES}SELECT ?item (MAX(?sl0) AS ?sl) WHERE {
+  ?t wdt:P297 "${iso}" .
+  VALUES ?root0 { ${ROOTS.map(([q]) => "wd:" + q).join(" ")} }
+  { ?item wdt:P131+ ?t . } UNION { ?item wdt:P706 ?t . }
+  ?item wdt:P31/wdt:P279* ?root0 .
+  ?item wikibase:sitelinks ?sl0 .
+  ?item wdt:P18 ?img .
+}
+GROUP BY ?item
+ORDER BY DESC(?sl)
+LIMIT ${Math.max(1, Math.min(1000, Math.floor(limit)))}`;
+}
+
+/**
+ * The ISO codes of the countries a territory belongs to, so they aren't
+ * flagged as "also in": a Réunion landmark's country is France.
+ *
+ * @param {string} iso checked here
+ */
+export function parentQuery(iso) {
+  if (!/^[A-Z]{2}$/.test(iso)) throw new Error("bad country code");
+  return `${PREFIXES}SELECT DISTINCT ?p WHERE { ?t wdt:P297 "${iso}" . ?t wdt:P17 ?c . ?c wdt:P297 ?p . }`;
+}
+
+/**
  * Step 1, kept light: the country's candidates and their sitelink counts,
  * best first. The expensive lookups wait for step 2, which only sees these.
  *
@@ -47,7 +101,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 export function candidateQuery(iso, limit) {
   if (!/^[A-Z]{2}$/.test(iso)) throw new Error("bad country code");
   return `${PREFIXES}SELECT ?item (MAX(?sl0) AS ?sl) WHERE {
-  ?country wdt:P297 "${iso}" .
+  ${countryPattern(iso)}
   {
     VALUES ?root0 { ${ROOTS.map(([q]) => "wd:" + q).join(" ")} }
     ?item wdt:P17 ?country .
