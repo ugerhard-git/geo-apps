@@ -88,17 +88,24 @@ export async function collectApps() {
   return apps.sort((a, b) => a.title.localeCompare(b.title));
 }
 
+/** What kind of clue an app makes, from its tags; drives the card's colour. */
+const KINDS = ["images", "chart", "maps", "text", "cards"];
+
 /**
- * Render one app's card.
+ * Render one app's card. `data-kind` colours it by the kind of clue; the
+ * "API key" tag gets its own style.
  *
  * @param {AppInfo} app
  */
 function card(app) {
+  const kind = app.tags.find((t) => KINDS.includes(t.toLowerCase()))?.toLowerCase() || "other";
   const tags = app.tags.length
-    ? `<ul class="tags">${app.tags.map((t) => `<li>${escapeHtml(t)}</li>`).join("")}</ul>`
+    ? `<ul class="tags">${app.tags
+        .map((t) => `<li${/^api key$/i.test(t) ? ' class="key"' : ""}>${escapeHtml(t)}</li>`)
+        .join("")}</ul>`
     : "";
   return `
-      <li class="app">
+      <li class="app" data-kind="${kind}">
         <a href="apps/${encodeURIComponent(app.slug)}/">
           <h2>${escapeHtml(app.title)}</h2>
           <p>${escapeHtml(app.description || "")}</p>
