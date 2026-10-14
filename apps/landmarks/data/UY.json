@@ -1,0 +1,1330 @@
+{
+ "country": "UY",
+ "items": [
+  {
+   "id": "Q498245",
+   "name": "Estadio Centenario",
+   "sl": 46,
+   "file": "Estadio Centenario (vista aérea).jpg",
+   "lat": -34.8944,
+   "lon": -56.1528,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Centenario"
+  },
+  {
+   "id": "Q786149",
+   "name": "Estadio Gran Parque Central",
+   "sl": 36,
+   "file": "Eliminatorias Uruguay-Colombia 2021.jpg",
+   "lat": -34.8845,
+   "lon": -56.159,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Gran Parque Central"
+  },
+  {
+   "id": "Q9064",
+   "name": "Carrasco International Airport",
+   "sl": 35,
+   "file": "Airport (235599585).jpeg",
+   "lat": -34.8383,
+   "lon": -56.0308,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carrasco International Airport"
+  },
+  {
+   "id": "Q876280",
+   "name": "Lagoa Mirim",
+   "sl": 34,
+   "file": "Lake Merin.jpg",
+   "lat": -32.75,
+   "lon": -52.8333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": "Lake Merin"
+  },
+  {
+   "id": "Q741103",
+   "name": "Pocitos Stadium",
+   "sl": 31,
+   "file": "EsquinaEstadio Pocitos.JPG",
+   "lat": -34.9051,
+   "lon": -56.1562,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Pocitos"
+  },
+  {
+   "id": "Q1055837",
+   "name": "Cerro Catedral",
+   "sl": 23,
+   "file": "CerroCatedral.jpg",
+   "lat": -34.3808,
+   "lon": -54.6736,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q9071",
+   "name": "Capitán de Corbeta Carlos A. Curbelo International Airport",
+   "sl": 21,
+   "file": "Flughafen Punta del Este.jpg",
+   "lat": -34.855,
+   "lon": -55.0942,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aeropuerto Internacional de Punta del Este"
+  },
+  {
+   "id": "Q26721344",
+   "name": "Church of Cristo Obrero y Nuestra Señora de Lourdes",
+   "sl": 21,
+   "file": "Iglesia Atlántida Dieste 7.jpg",
+   "lat": -34.744,
+   "lon": -55.766,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Iglesia Cristo Obrero y Nuestra Señora de Lourdes"
+  },
+  {
+   "id": "Q22342143",
+   "name": "Laguna Garzón Bridge",
+   "sl": 20,
+   "file": "Bridge Laguna Garzón¡.jpg",
+   "lat": -34.8024,
+   "lon": -54.5721,
+   "kind": "built",
+   "types": [
+    "circular bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Garzon Bridge"
+  },
+  {
+   "id": "Q1143026",
+   "name": "Cuchilla Grande",
+   "sl": 19,
+   "file": "Cerro Catedral en Uruguay.jpg",
+   "lat": -34.3803,
+   "lon": -55.6169,
+   "kind": "natural",
+   "types": [
+    "hill chain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1143047",
+   "name": "Cuchilla de Haedo",
+   "sl": 18,
+   "file": "Valle del Lunarejo 16.JPG",
+   "lat": -31.9048,
+   "lon": -56.2519,
+   "kind": "natural",
+   "types": [
+    "hill chain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q283417",
+   "name": "Legislative Palace",
+   "sl": 17,
+   "file": "Palaciolegislativouruguay.JPG",
+   "lat": -34.8911,
+   "lon": -56.1873,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "legislative building",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio Legislativo, Uruguay"
+  },
+  {
+   "id": "Q9074",
+   "name": "Nueva Hespérides International Airport",
+   "sl": 17,
+   "file": "Salto Airport.jpg",
+   "lat": -31.4347,
+   "lon": -57.9842,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nueva Hespérides International Airport, Salto"
+  },
+  {
+   "id": "Q2116393",
+   "name": "Salto Grande Dam",
+   "sl": 17,
+   "file": "Represa del lado Argentino.JPG",
+   "lat": -31.2749,
+   "lon": -57.9386,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Salto Grande Dam"
+  },
+  {
+   "id": "Q1432740",
+   "name": "Santa Bernardina International Airport",
+   "sl": 17,
+   "file": "Aeropuerto de Santa Bernardina02.jpg",
+   "lat": -33.3564,
+   "lon": -56.4961,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "general aviation aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Bernardina International Airport"
+  },
+  {
+   "id": "Q1055772",
+   "name": "Cerro Batoví",
+   "sl": 16,
+   "file": "CerroBatovi.jpg",
+   "lat": -31.8758,
+   "lon": -56.0114,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Batoví"
+  },
+  {
+   "id": "Q1050600",
+   "name": "Metropolitan Basilica Cathedral of the Immaculate Conception and San Felipe and Santiago",
+   "sl": 16,
+   "file": "Catedral de Montevideo 02.jpg",
+   "lat": -34.907,
+   "lon": -56.2041,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Montevideo"
+  },
+  {
+   "id": "Q16564746",
+   "name": "Estadio Campeón del Siglo",
+   "sl": 15,
+   "file": "Estadio Campeón del Siglo setiembre 2021.jpg",
+   "lat": -34.7968,
+   "lon": -56.0671,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Campeón del Siglo"
+  },
+  {
+   "id": "Q32197",
+   "name": "harwood 6417",
+   "sl": 15,
+   "file": "Estadio Jardines del Hipódromo Maria Mincheff de Lazarof.jpg",
+   "lat": -34.8387,
+   "lon": -56.1323,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Jardines del Hipódromo"
+  },
+  {
+   "id": "Q1519373",
+   "name": "Palacio Salvo",
+   "sl": 15,
+   "file": "Palaciosalvouruguay.jpg",
+   "lat": -34.9067,
+   "lon": -56.1983,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio Salvo"
+  },
+  {
+   "id": "Q2099121",
+   "name": "Plaza Independencia",
+   "sl": 15,
+   "file": "PlazaIndependencia2.jpg",
+   "lat": -34.9065,
+   "lon": -56.1997,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza Independencia, Montevideo"
+  },
+  {
+   "id": "Q29640",
+   "name": "Estadio Domingo Burgueño",
+   "sl": 14,
+   "file": "Estadio Domingo Burgueño Miguel en enero de 2017 - 01.jpg",
+   "lat": -34.9144,
+   "lon": -54.9553,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Domingo Burgueño Miguel"
+  },
+  {
+   "id": "Q1853634",
+   "name": "General Artigas Bridge",
+   "sl": 14,
+   "file": "Puente General Artigas.jpg",
+   "lat": -32.2646,
+   "lon": -58.1015,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Puente General Artigas"
+  },
+  {
+   "id": "Q1132178",
+   "name": "Libertador General San Martín Bridge",
+   "sl": 14,
+   "file": "Puente General San Martín cropped.jpg",
+   "lat": -33.1006,
+   "lon": -58.2487,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Puente Libertador General San Martín"
+  },
+  {
+   "id": "Q1432332",
+   "name": "Paysandú Airport",
+   "sl": 14,
+   "file": "Terminal de pasajeros Aeropuerto Internacional de Paysandú.jpg",
+   "lat": -32.3642,
+   "lon": -58.0622,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1313631",
+   "name": "Port of Montevideo",
+   "sl": 14,
+   "file": "Puerto De Montevideo (198751415).jpeg",
+   "lat": -34.9011,
+   "lon": -56.2097,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Montevideo"
+  },
+  {
+   "id": "Q1851759",
+   "name": "Sierra de las Ánimas",
+   "sl": 14,
+   "file": "Sierra de las Ánimas - panoramio (1).jpg",
+   "lat": -34.752,
+   "lon": -55.3196,
+   "kind": "natural",
+   "types": [
+    "hill chain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sierra de las Ánimas"
+  },
+  {
+   "id": "Q577232",
+   "name": "Belvedere Stadium",
+   "sl": 13,
+   "file": "BelvedereLFC.jpg",
+   "lat": -34.8549,
+   "lon": -56.2257,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Belvedere"
+  },
+  {
+   "id": "Q1431059",
+   "name": "Cerro Largo International Airport",
+   "sl": 13,
+   "file": "DSC 0154 (3863116268).jpg",
+   "lat": -32.3425,
+   "lon": -54.2219,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Largo International Airport"
+  },
+  {
+   "id": "Q48709",
+   "name": "Estadio José Nasazzi",
+   "sl": 13,
+   "file": "Estadio José Nasazzi.jpg",
+   "lat": -34.8615,
+   "lon": -56.209,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio José Nasazzi"
+  },
+  {
+   "id": "Q1786577",
+   "name": "National Museum of Visual Arts",
+   "sl": 13,
+   "file": "Entrega del Premio Legion del Libro en el Museo Nacional de Artes Visuales - 20221215dicimouyaf0074.jpg",
+   "lat": -34.9139,
+   "lon": -56.1647,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo Nacional de Artes Visuales"
+  },
+  {
+   "id": "Q2054006",
+   "name": "Santa Teresa National Park",
+   "sl": 13,
+   "file": "Parque Santa Tereza02.jpg",
+   "lat": -33.9975,
+   "lon": -53.567,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional de Santa Teresa"
+  },
+  {
+   "id": "Q586928",
+   "name": "Sierra Carapé",
+   "sl": 13,
+   "file": "SierraCarape.jpg",
+   "lat": -34.4397,
+   "lon": -54.9417,
+   "kind": "natural",
+   "types": [
+    "hill chain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sierra Carapé"
+  },
+  {
+   "id": "Q1570788",
+   "name": "Solis Theatre",
+   "sl": 13,
+   "file": "Teatro Solís remodelado.jpg",
+   "lat": -34.9079,
+   "lon": -56.201,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teatro Solís (Montevideo)"
+  },
+  {
+   "id": "Q2298630",
+   "name": "Telecommunications Tower",
+   "sl": 13,
+   "file": "Buildings in Montevideo,Uruguay.jpg",
+   "lat": -34.8919,
+   "lon": -56.1947,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre de las Comunicaciones"
+  },
+  {
+   "id": "Q1056077",
+   "name": "Cerro de las Ánimas",
+   "sl": 12,
+   "file": "CerroDeLasAnimas.JPG",
+   "lat": -34.752,
+   "lon": -55.3196,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q32255",
+   "name": "Estadio Luis Franzini",
+   "sl": 12,
+   "file": "Estadio Luis Franzini, enero 2026.jpg",
+   "lat": -34.9167,
+   "lon": -56.1667,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Luis Franzini"
+  },
+  {
+   "id": "Q29638",
+   "name": "Estadio Parque Artigas",
+   "sl": 12,
+   "file": "Fachada Estadio Parque Artigas.png",
+   "lat": -32.3228,
+   "lon": -58.0725,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Parque Artigas (Paysandú)"
+  },
+  {
+   "id": "Q48710",
+   "name": "Estadio Suppici",
+   "sl": 12,
+   "file": "Campus Municipal Profesor Alberto Suppici 2011.jpg",
+   "lat": -34.4669,
+   "lon": -57.8453,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Profesor Alberto Suppici"
+  },
+  {
+   "id": "Q73968",
+   "name": "Estadio Viera",
+   "sl": 12,
+   "file": "Estadio Parque Alfredo Victor Viera.jpg",
+   "lat": -34.8611,
+   "lon": -56.2042,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Parque Alfredo Víctor Viera"
+  },
+  {
+   "id": "Q1851746",
+   "name": "Plaza de Cagancha",
+   "sl": 12,
+   "file": "Estatua Plaza Cagancha Montevideo.jpg",
+   "lat": -34.9057,
+   "lon": -56.1915,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza Cagancha, Montevideo"
+  },
+  {
+   "id": "Q1430796",
+   "name": "Ángel Adami Airport",
+   "sl": 11,
+   "file": "Aeropuerto Internacional Ángel Adami en 2021.jpg",
+   "lat": -34.7892,
+   "lon": -56.2647,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aeropuerto Internacional Ángel Adami"
+  },
+  {
+   "id": "Q4425957",
+   "name": "Cathedral of Florida",
+   "sl": 11,
+   "file": "Catedral de Florida.jpg",
+   "lat": -34.1005,
+   "lon": -56.2141,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roman Catholic Diocese of Florida"
+  },
+  {
+   "id": "Q5908977",
+   "name": "Cathedral of Salto",
+   "sl": 11,
+   "file": "Iglesia Catedral San Juan Bautista.JPG",
+   "lat": -31.3888,
+   "lon": -57.9595,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Salto"
+  },
+  {
+   "id": "Q1055907",
+   "name": "Cerro Pan de Azúcar",
+   "sl": 11,
+   "file": "Cerro Pan de Azúcar 01.jpg",
+   "lat": -34.8092,
+   "lon": -55.2586,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Pan de Azúcar"
+  },
+  {
+   "id": "Q1369079",
+   "name": "Estadio Atilio Paiva Olivera",
+   "sl": 11,
+   "file": "Riveraestadio.jpg",
+   "lat": -30.9083,
+   "lon": -55.5483,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Atilio Paiva Olivera"
+  },
+  {
+   "id": "Q1369351",
+   "name": "Estadio Luis Tróccoli",
+   "sl": 11,
+   "file": "Inauguración Tróccoli - 22 DE AGOSTO DE 1964 - Cerro 5 River Arg 2.jpg",
+   "lat": -34.8675,
+   "lon": -56.2519,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Luis Tróccoli"
+  },
+  {
+   "id": "Q328189",
+   "name": "Estadio Parque Capurro",
+   "sl": 11,
+   "file": "Estadio Parque Capurro.png",
+   "lat": -34.8734,
+   "lon": -56.2124,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Parque Capurro"
+  },
+  {
+   "id": "Q45117",
+   "name": "Estadio Saroldi",
+   "sl": 11,
+   "file": "Estadio Parque Federico Omar Saroldi.jpg",
+   "lat": -34.8621,
+   "lon": -56.2016,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Parque Federico Omar Saroldi"
+  },
+  {
+   "id": "Q1892879",
+   "name": "Estévez Palace",
+   "sl": 11,
+   "file": "Palacio Estevez Montevideo.jpg",
+   "lat": -34.9071,
+   "lon": -56.1995,
+   "kind": "built",
+   "types": [
+    "museum building",
+    "seat of government"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio Estévez"
+  },
+  {
+   "id": "Q929934",
+   "name": "Executive Tower",
+   "sl": 11,
+   "file": "Presidência do Uruguai em novembro de 2023 2.jpg",
+   "lat": -34.9073,
+   "lon": -56.2,
+   "kind": "built",
+   "types": [
+    "government building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre Ejecutiva"
+  },
+  {
+   "id": "Q1726492",
+   "name": "Obelisk of Montevideo",
+   "sl": 11,
+   "file": "Obelisco a los constituyentes.jpg",
+   "lat": -34.8974,
+   "lon": -56.1644,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "obelisk",
+    "sculpture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Obelisk of Montevideo"
+  },
+  {
+   "id": "Q2055161",
+   "name": "Parva Domus",
+   "sl": 11,
+   "file": "Parva Domus.png",
+   "lat": -34.9261,
+   "lon": -56.1611,
+   "kind": "built",
+   "types": [
+    "association",
+    "built structure",
+    "micronation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parva Domus"
+  },
+  {
+   "id": "Q790443",
+   "name": "18 de Julio Avenue",
+   "sl": 10,
+   "file": "Centromontevideo.jpg",
+   "lat": -34.906,
+   "lon": -56.1926,
+   "kind": "built",
+   "types": [
+    "avenue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avenida 18 de Julio, Montevideo"
+  },
+  {
+   "id": "Q5758511",
+   "name": "Cathedral of Canelones",
+   "sl": 10,
+   "file": "Catedral \"Nuestra Señora de Guadalupe\" en Julio de 2021.jpg",
+   "lat": -34.5249,
+   "lon": -56.2821,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "religious building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roman Catholic Diocese of Canelones"
+  },
+  {
+   "id": "Q3291440",
+   "name": "Catholic University of Uruguay",
+   "sl": 10,
+   "file": "Universidad Católica del Uruguay Dámaso Antonio Larrañaga.jpg",
+   "lat": -34.8887,
+   "lon": -56.159,
+   "kind": "built",
+   "types": [
+    "Catholic university",
+    "Jesuit university",
+    "private university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Universidad Católica del Uruguay Dámaso Antonio Larrañaga"
+  },
+  {
+   "id": "Q1056025",
+   "name": "Cerro de Montevideo",
+   "sl": 10,
+   "file": "El Cerro contara con un nuevo espacio publico - 20240704dicimouyit.jpg",
+   "lat": -34.8885,
+   "lon": -56.26,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro de Montevideo"
+  },
+  {
+   "id": "Q1055949",
+   "name": "Cerro San Antonio",
+   "sl": 10,
+   "file": "Cerro San Antonio.jpg",
+   "lat": -34.8783,
+   "lon": -55.2739,
+   "kind": "both",
+   "types": [
+    "hill",
+    "scenic viewpoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro San Antonio, Piriápolis"
+  },
+  {
+   "id": "Q1369153",
+   "name": "Estadio José Pedro Damiani",
+   "sl": 10,
+   "file": "Las acacias peñarol.jpg",
+   "lat": -34.8417,
+   "lon": -56.1614,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Contador Damiani"
+  },
+  {
+   "id": "Q1580425",
+   "name": "Laguna del Sauce",
+   "sl": 10,
+   "file": "Лагуна-дель-Саусе.jpg",
+   "lat": -34.8253,
+   "lon": -55.0603,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna del Sauce"
+  },
+  {
+   "id": "Q48707",
+   "name": "Pedro Arispe Olympic Stadium",
+   "sl": 10,
+   "file": "Cancha Rampla.jpg",
+   "lat": -34.8931,
+   "lon": -56.2454,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Olímpico Pedro Arispe"
+  },
+  {
+   "id": "Q1132936",
+   "name": "Baron of Mauá International Bridge",
+   "sl": 9,
+   "file": "Frontera Brasil-Uruguay.JPG",
+   "lat": -32.5705,
+   "lon": -53.3781,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "railway bridge",
+    "road bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": "Puente Internacional Barón de Mauá"
+  },
+  {
+   "id": "Q1431043",
+   "name": "Carmelo Airport",
+   "sl": 9,
+   "file": "Aeropuerto Internacional de Carmelo (Zagarzazú).jpg",
+   "lat": -33.9661,
+   "lon": -58.3253,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aeropuerto Internacional Zagarzazú"
+  },
+  {
+   "id": "Q4426012",
+   "name": "Cathedral of Maldonado",
+   "sl": 9,
+   "file": "Catedral de Maldonado - Una tarde calida.jpg",
+   "lat": -34.9088,
+   "lon": -54.9589,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de San Fernando de Maldonado"
+  },
+  {
+   "id": "Q1050564",
+   "name": "Cathedral of San José de Mayo",
+   "sl": 9,
+   "file": "Basílica Catedral San José de Mayo 1.jpg",
+   "lat": -34.3404,
+   "lon": -56.7133,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roman Catholic Diocese of San José de Mayo"
+  },
+  {
+   "id": "Q1632358",
+   "name": "Constitution Square",
+   "sl": 9,
+   "file": "Plaza Constitución MRD.jpg",
+   "lat": -34.9066,
+   "lon": -56.2035,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza Constitución, Montevideo"
+  },
+  {
+   "id": "Q328097",
+   "name": "Parque Palermo",
+   "sl": 9,
+   "file": "Estadio Parque Palermo.jpg",
+   "lat": -34.8979,
+   "lon": -56.1536,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7260513",
+   "name": "Punta Brava Lighthouse",
+   "sl": 9,
+   "file": "Маяк Пунта Брава.jpg",
+   "lat": -34.9353,
+   "lon": -56.16,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Faro de Punta Brava"
+  },
+  {
+   "id": "Q9070",
+   "name": "Airport El Jagüel",
+   "sl": 8,
+   "file": "Jagüel Airport.jpg",
+   "lat": -34.9131,
+   "lon": -54.9192,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Jagüel Airport"
+  },
+  {
+   "id": "Q2053946",
+   "name": "Anchorena Park",
+   "sl": 8,
+   "file": "Torre Gaboto.jpg",
+   "lat": -34.2796,
+   "lon": -57.9806,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anchorena Park"
+  },
+  {
+   "id": "Q2972500",
+   "name": "British Cemetery Montevideo",
+   "sl": 8,
+   "file": "British Cemetery, Montevideo - March 2017.jpg",
+   "lat": -34.9006,
+   "lon": -56.1292,
+   "kind": "built",
+   "types": [
+    "cemetery",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "British Cemetery Montevideo"
+  },
+  {
+   "id": "Q377792",
+   "name": "Casapueblo",
+   "sl": 8,
+   "file": "Casapueblo.JPG",
+   "lat": -34.9089,
+   "lon": -55.0449,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casapueblo"
+  },
+  {
+   "id": "Q15188728",
+   "name": "Catholic Cathedral of Our Lady of Bzommar",
+   "sl": 8,
+   "file": "Armenian Catholic Church, Montevideo.jpg",
+   "lat": -34.8685,
+   "lon": -56.2048,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iglesia Católica Armenia Nuestra Señora de Bzommar, Montevideo"
+  },
+  {
+   "id": "Q1055691",
+   "name": "Cerro Artigas",
+   "sl": 8,
+   "file": "Cerro de Artigas, Minas, Lavalleja.JPG",
+   "lat": -34.3751,
+   "lon": -55.2164,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Artigas, Lavalleja"
+  },
+  {
+   "id": "Q5472521",
+   "name": "Cerro Fortress",
+   "sl": 8,
+   "file": "Fortaleza del Cerro.jpg",
+   "lat": -34.8883,
+   "lon": -56.26,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "fortress",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fortaleza del Cerro"
+  },
+  {
+   "id": "Q1163206",
+   "name": "Edificio Panamericano",
+   "sl": 8,
+   "file": "Edificio Panamericano.jpg",
+   "lat": -34.9089,
+   "lon": -56.1349,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edificio Panamericano"
+  },
+  {
+   "id": "Q5400133",
+   "name": "Estadio Charrúa",
+   "sl": 8,
+   "file": "Estadio-charrua-montevideo-2017.jpg",
+   "lat": -34.8784,
+   "lon": -56.0893,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Charrúa"
+  },
+  {
+   "id": "Q5124182",
+   "name": "Gateway of the Citadel",
+   "sl": 8,
+   "file": "Puerta ciudadela.JPG",
+   "lat": -34.9065,
+   "lon": -56.2008,
+   "kind": "built",
+   "types": [
+    "city gate",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ciudadela de Montevideo"
+  },
+  {
+   "id": "Q1322203",
+   "name": "Hipodromo Nacional de Maroñas",
+   "sl": 8,
+   "file": "Hipodromo Nacional.jpg",
+   "lat": -34.8395,
+   "lon": -56.1423,
+   "kind": "built",
+   "types": [
+    "horse racing venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hipódromo Nacional de Maroñas"
+  },
+  {
+   "id": "Q5969233",
+   "name": "Laguna de Rocha",
+   "sl": 8,
+   "file": "Laguna de Rocha, Rocha, Uruguay, snap.jpg",
+   "lat": -34.6232,
+   "lon": -54.2895,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna de Rocha, Uruguay"
+  }
+ ]
+}

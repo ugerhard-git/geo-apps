@@ -1,0 +1,1454 @@
+{
+ "country": "TR",
+ "items": [
+  {
+   "id": "Q12506",
+   "name": "Hagia Sophia",
+   "sl": 152,
+   "file": "Hagia Sophia Mars 2013.jpg",
+   "lat": 41.0083,
+   "lon": 28.98,
+   "kind": "built",
+   "types": [
+    "mosque",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5773394",
+    "name": "Historic Areas of Istanbul"
+   },
+   "also": [],
+   "cat": "Hagia Sophia"
+  },
+  {
+   "id": "Q16869",
+   "name": "Constantinople",
+   "sl": 128,
+   "file": "Byzantine Constantinople-en.png",
+   "lat": 41.0122,
+   "lon": 28.976,
+   "kind": "built",
+   "types": [
+    "administrative territorial entity",
+    "ancient city",
+    "city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Constantinople"
+  },
+  {
+   "id": "Q22647",
+   "name": "Troy",
+   "sl": 121,
+   "file": "Walls of Troy (2).jpg",
+   "lat": 39.9575,
+   "lon": 26.2389,
+   "kind": "built",
+   "types": [
+    "Bronze Age settlement",
+    "city-state",
+    "polis",
+    "settlement site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Troy"
+  },
+  {
+   "id": "Q72303",
+   "name": "Mount Ararat",
+   "sl": 112,
+   "file": "00 2399 Mount Ararat, Turkey.jpg",
+   "lat": 39.7019,
+   "lon": 44.2983,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Ararat"
+  },
+  {
+   "id": "Q47611",
+   "name": "Ephesus",
+   "sl": 96,
+   "file": "Ephesus Celsus Library Façade.jpg",
+   "lat": 37.9397,
+   "lon": 27.3408,
+   "kind": "built",
+   "types": [
+    "Ancient Greek archaeological site",
+    "polis",
+    "settlement site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64699469",
+    "name": "Ephesus"
+   },
+   "also": [],
+   "cat": "Ephesus"
+  },
+  {
+   "id": "Q43018",
+   "name": "Temple of Ephesian Artemis",
+   "sl": 94,
+   "file": "Ephesos.jpg",
+   "lat": 37.9497,
+   "lon": 27.3639,
+   "kind": "built",
+   "types": [
+    "Ancient Greek archaeological site",
+    "ancient Greek temple",
+    "Wonder of the Ancient World"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64699469",
+    "name": "Ephesus"
+   },
+   "also": [],
+   "cat": "Temple of Artemis"
+  },
+  {
+   "id": "Q126307",
+   "name": "Lake Van",
+   "sl": 90,
+   "file": "Lakevanlandsat.jpeg",
+   "lat": 38.6333,
+   "lon": 42.8167,
+   "kind": "natural",
+   "types": [
+    "salt lake",
+    "soda lake",
+    "tectonic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Van"
+  },
+  {
+   "id": "Q45368",
+   "name": "Mausoleum at Halicarnassus",
+   "sl": 90,
+   "file": "The ruins of the Mausoleum at Halicarnassus.jpg",
+   "lat": 37.0379,
+   "lon": 27.4241,
+   "kind": "built",
+   "types": [
+    "Ancient Greek archaeological site",
+    "destroyed building or structure",
+    "mausoleum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mausoleum at Halicarnassus"
+  },
+  {
+   "id": "Q80541",
+   "name": "Sultan Ahmed Mosque",
+   "sl": 89,
+   "file": "Exterior of Sultan Ahmed I Mosque in Istanbul, Turkey 002.jpg",
+   "lat": 41.0054,
+   "lon": 28.9768,
+   "kind": "built",
+   "types": [
+    "historic building",
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5773394",
+    "name": "Historic Areas of Istanbul"
+   },
+   "also": [],
+   "cat": "Sultan Ahmed I Mosque"
+  },
+  {
+   "id": "Q200441",
+   "name": "Antioch",
+   "sl": 81,
+   "file": "Antiochia su Oronte.PNG",
+   "lat": 36.2,
+   "lon": 36.15,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antioch"
+  },
+  {
+   "id": "Q170495",
+   "name": "Topkapı Palace",
+   "sl": 79,
+   "file": "Topkapi Palace Seen From Harem.JPG",
+   "lat": 41.013,
+   "lon": 28.984,
+   "kind": "built",
+   "types": [
+    "building or structure under construction",
+    "museum",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5773394",
+    "name": "Historic Areas of Istanbul"
+   },
+   "also": [],
+   "cat": "Topkapı Palace"
+  },
+  {
+   "id": "Q214944",
+   "name": "Göbekli Tepe",
+   "sl": 78,
+   "file": "Göbekli Tepe, Urfa.jpg",
+   "lat": 37.2231,
+   "lon": 38.9225,
+   "kind": "both",
+   "types": [
+    "Neolithic settlement",
+    "tell"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Göbekli Tepe"
+  },
+  {
+   "id": "Q86473",
+   "name": "Atatürk Airport",
+   "sl": 73,
+   "file": "Atatürk International Airport 2013-01-04.jpg",
+   "lat": 40.9761,
+   "lon": 28.8142,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Istanbul Atatürk Airport"
+  },
+  {
+   "id": "Q169460",
+   "name": "Miletus",
+   "sl": 73,
+   "file": "The Theater of Miletus.jpg",
+   "lat": 37.5302,
+   "lon": 27.2784,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Miletus"
+  },
+  {
+   "id": "Q18986",
+   "name": "Pergamon",
+   "sl": 72,
+   "file": "Temple of Trajan, Pergamon 01.jpg",
+   "lat": 39.1167,
+   "lon": 27.1833,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Ancient Greek archaeological site",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64705007",
+    "name": "Pergamon and its Multi-Layered Cultural Landscape"
+   },
+   "also": [],
+   "cat": "Pergamon"
+  },
+  {
+   "id": "Q181007",
+   "name": "Hattusa",
+   "sl": 71,
+   "file": "Lion Gate, Hattusa 13 (cropped).jpg",
+   "lat": 40.0197,
+   "lon": 34.6153,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64699502",
+    "name": "Hattusha: the Hittite Capital"
+   },
+   "also": [],
+   "cat": "Hattusa"
+  },
+  {
+   "id": "Q81492",
+   "name": "Rams Park",
+   "sl": 71,
+   "file": "Galatasaray Arena North-West Corner.jpg",
+   "lat": 41.1034,
+   "lon": 28.991,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rams Park"
+  },
+  {
+   "id": "Q192522",
+   "name": "Çatalhöyük",
+   "sl": 70,
+   "file": "CatalHoyukSouthArea.JPG",
+   "lat": 37.6675,
+   "lon": 32.8283,
+   "kind": "both",
+   "types": [
+    "Neolithic settlement",
+    "proto-city",
+    "tell"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Çatalhöyük"
+  },
+  {
+   "id": "Q178643",
+   "name": "Süleymaniye Mosque",
+   "sl": 69,
+   "file": "SüleymaniyeMosqueIstanbul (cropped).jpg",
+   "lat": 41.0161,
+   "lon": 28.9639,
+   "kind": "built",
+   "types": [
+    "historic building",
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5773394",
+    "name": "Historic Areas of Istanbul"
+   },
+   "also": [],
+   "cat": "Süleymaniye Mosque"
+  },
+  {
+   "id": "Q105893254",
+   "name": "Pamukkale",
+   "sl": 67,
+   "file": "Pamukkale, Denizli 2026 68.jpg",
+   "lat": 37.9236,
+   "lon": 29.1223,
+   "kind": "",
+   "types": [
+    "hot spring"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15924669",
+    "name": "Hierapolis-Pamukkale"
+   },
+   "also": [],
+   "cat": "Pamukkale"
+  },
+  {
+   "id": "Q184534",
+   "name": "Selimiye Mosque",
+   "sl": 67,
+   "file": "Edirne 7333 Nevit.JPG",
+   "lat": 41.6781,
+   "lon": 26.5594,
+   "kind": "built",
+   "types": [
+    "historic building",
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Selimiye Mosque"
+  },
+  {
+   "id": "Q3661908",
+   "name": "Istanbul Airport",
+   "sl": 63,
+   "file": "Istanbul asv2021-11 img72 IST Airport.jpg",
+   "lat": 41.2608,
+   "lon": 28.7422,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "greenfield airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Istanbul Airport"
+  },
+  {
+   "id": "Q207917",
+   "name": "Mount Nemrut",
+   "sl": 61,
+   "file": "Nemrut Mountain Peak.JPG",
+   "lat": 37.9807,
+   "lon": 38.7408,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "mountain",
+    "sanctuary"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Nemrut"
+  },
+  {
+   "id": "Q232615",
+   "name": "Sardis",
+   "sl": 59,
+   "file": "The Bath-Gymnasium complex at Sardis, late 2nd - early 3rd century AD, Sardis, Turkey (17098680002).jpg",
+   "lat": 38.4883,
+   "lon": 28.0403,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "heritage",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64735723",
+    "name": "Sardis and the Lydian Tumuli of Bin Tepe"
+   },
+   "also": [],
+   "cat": "Sardis"
+  },
+  {
+   "id": "Q4484",
+   "name": "Bosphorus Bridge",
+   "sl": 58,
+   "file": "Bosphore - Pont du Bosphore.jpg",
+   "lat": 41.0456,
+   "lon": 29.034,
+   "kind": "built",
+   "types": [
+    "cross-sea bridge",
+    "road bridge",
+    "steel bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bosphorus Bridge"
+  },
+  {
+   "id": "Q91274",
+   "name": "Galata Tower",
+   "sl": 58,
+   "file": "Istanbul asv2020-02 img48 Galata Tower.jpg",
+   "lat": 41.0256,
+   "lon": 28.9742,
+   "kind": "built",
+   "types": [
+    "museum",
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galata Tower"
+  },
+  {
+   "id": "Q723622",
+   "name": "Istanbul Sabiha Gökçen International Airport",
+   "sl": 56,
+   "file": "İstanbul Sabiha Gökçen Uluslararası Havalimanı.jpg",
+   "lat": 40.8983,
+   "lon": 29.3092,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sabiha Gökçen International Airport"
+  },
+  {
+   "id": "Q7428276",
+   "name": "Hierapolis",
+   "sl": 54,
+   "file": "The Roman theatre, built in the 2nd century AD under Hadrian on the ruins of an earlier theatre, later renovated under Septimius Severus, Hierapolis, Turkey - 17033895960.jpg",
+   "lat": 37.9074,
+   "lon": 29.146,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15924669",
+    "name": "Hierapolis-Pamukkale"
+   },
+   "also": [],
+   "cat": "Hierapolis"
+  },
+  {
+   "id": "Q274141",
+   "name": "Dolmabahçe Palace",
+   "sl": 53,
+   "file": "Palacio de Dolmabahçe, Estambul, Turquía, 2024-09-29, DD 24.jpg",
+   "lat": 41.0394,
+   "lon": 29.0017,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dolmabahçe Palace"
+  },
+  {
+   "id": "Q615404",
+   "name": "Anıtkabir",
+   "sl": 52,
+   "file": "Ankara asv2021-10 img04 Anıtkabir.jpg",
+   "lat": 39.925,
+   "lon": 32.8369,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "memorial",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anıtkabir"
+  },
+  {
+   "id": "Q5843680",
+   "name": "Halicarnassus",
+   "sl": 52,
+   "file": "The ruins of the Mausoleum at Halicarnassus.jpg",
+   "lat": 37.0352,
+   "lon": 27.4172,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Halicarnassus"
+  },
+  {
+   "id": "Q739037",
+   "name": "Nicaea",
+   "sl": 52,
+   "file": "Nicaea theatre 990.jpg",
+   "lat": 40.429,
+   "lon": 29.7195,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nicaea"
+  },
+  {
+   "id": "Q18871",
+   "name": "Sublime Porte",
+   "sl": 50,
+   "file": "Bab-i Ali.jpg",
+   "lat": 41.0111,
+   "lon": 28.9781,
+   "kind": "built",
+   "types": [
+    "gate",
+    "representative",
+    "synecdoche"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sublime Porte"
+  },
+  {
+   "id": "Q736072",
+   "name": "Taksim Square",
+   "sl": 50,
+   "file": "Istanbul Taksim.png",
+   "lat": 41.0369,
+   "lon": 28.9858,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taksim Square"
+  },
+  {
+   "id": "Q211823",
+   "name": "Lake Tuz",
+   "sl": 49,
+   "file": "Lake Tuz.jpg",
+   "lat": 38.8333,
+   "lon": 33.3333,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "hypersaline lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tuz"
+  },
+  {
+   "id": "Q126804",
+   "name": "Mount Erciyes",
+   "sl": 49,
+   "file": "Turkey.Mount Erciyes01.jpg",
+   "lat": 38.5317,
+   "lon": 35.45,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Erciyes"
+  },
+  {
+   "id": "Q387548",
+   "name": "Hippodrome of Constantinople",
+   "sl": 48,
+   "file": "Sultanahmet Square (Hippodrome), Istanbul.jpg",
+   "lat": 41.0064,
+   "lon": 28.9756,
+   "kind": "built",
+   "types": [
+    "hippodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hippodrome of Constantinople"
+  },
+  {
+   "id": "Q7784788",
+   "name": "Yavuz Sultan Selim Bridge",
+   "sl": 48,
+   "file": "Yavuz Sultan Selim Bridge1.JPG",
+   "lat": 41.2031,
+   "lon": 29.1117,
+   "kind": "built",
+   "types": [
+    "cable-stayed suspension bridge",
+    "cross-sea bridge",
+    "road bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yavuz Sultan Selim Bridge"
+  },
+  {
+   "id": "Q8077503",
+   "name": "1915 Çanakkale Bridge",
+   "sl": 47,
+   "file": "1915 Çanakkale Bridge2.JPG",
+   "lat": 40.3399,
+   "lon": 26.6367,
+   "kind": "built",
+   "types": [
+    "cross-sea bridge",
+    "road bridge",
+    "steel bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "1915 Çanakkale Bridge"
+  },
+  {
+   "id": "Q505954",
+   "name": "Grand Bazaar",
+   "sl": 46,
+   "file": "Ворота Beyazıt .jpg",
+   "lat": 41.0106,
+   "lon": 28.9679,
+   "kind": "built",
+   "types": [
+    "bazaar",
+    "market hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Bazaar, Istanbul"
+  },
+  {
+   "id": "Q209349",
+   "name": "Nicomedia",
+   "sl": 46,
+   "file": "Karte Nikomedia.png",
+   "lat": 40.7625,
+   "lon": 29.9175,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nicomedia"
+  },
+  {
+   "id": "Q222865",
+   "name": "Şükrü Saracoğlu Stadium",
+   "sl": 46,
+   "file": "Sukrusaracoglu.jpg",
+   "lat": 40.9875,
+   "lon": 29.0367,
+   "kind": "built",
+   "types": [
+    "association football pitch",
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Şükrü Saracoğlu Stadium"
+  },
+  {
+   "id": "Q827480",
+   "name": "Antalya Airport",
+   "sl": 45,
+   "file": "Antalya Airport Karakas-2.jpg",
+   "lat": 36.9003,
+   "lon": 30.7928,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antalya Airport"
+  },
+  {
+   "id": "Q848397",
+   "name": "Maiden's Tower",
+   "sl": 45,
+   "file": "Istanbul asv2020-02 img53 Maiden's Tower.jpg",
+   "lat": 41.0211,
+   "lon": 29.0042,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "lighthouse",
+    "monument",
+    "restaurant"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maiden's Tower"
+  },
+  {
+   "id": "Q221122",
+   "name": "Atatürk Olympic Stadium",
+   "sl": 44,
+   "file": "Trabzonspor vs Altay, 15.05.2022, Istanbul.jpg",
+   "lat": 41.0745,
+   "lon": 28.7657,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atatürk Olympic Stadium"
+  },
+  {
+   "id": "Q283680",
+   "name": "Carchemish",
+   "sl": 44,
+   "file": "Museum of Anatolian Civilizations091.jpg",
+   "lat": 36.8297,
+   "lon": 38.015,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historical country"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SY"
+   ],
+   "cat": "Carchemish"
+  },
+  {
+   "id": "Q849489",
+   "name": "Chora Church",
+   "sl": 44,
+   "file": "Chora Church 2024.jpg",
+   "lat": 41.0311,
+   "lon": 28.9392,
+   "kind": "built",
+   "types": [
+    "church building",
+    "mosque",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5773394",
+    "name": "Historic Areas of Istanbul"
+   },
+   "also": [],
+   "cat": "Kariye Mosque"
+  },
+  {
+   "id": "Q430490",
+   "name": "Ankara Esenboğa Airport",
+   "sl": 43,
+   "file": "Esenboga International Airport Ankara Turkey.jpg",
+   "lat": 40.1281,
+   "lon": 32.995,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ankara Esenboğa Airport"
+  },
+  {
+   "id": "Q644677",
+   "name": "Şehzade Mosque",
+   "sl": 43,
+   "file": "Princova mešita.jpg",
+   "lat": 41.0138,
+   "lon": 28.9572,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "congregational mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Şehzade Mosque"
+  },
+  {
+   "id": "Q464936",
+   "name": "Xanthos",
+   "sl": 43,
+   "file": "Entrance into theatre of Xanthos.jpg",
+   "lat": 36.3571,
+   "lon": 29.3193,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "city-state",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16912661",
+    "name": "Xanthos-Letoon"
+   },
+   "also": [],
+   "cat": "Xanthos"
+  },
+  {
+   "id": "Q618495",
+   "name": "Aphrodisias",
+   "sl": 42,
+   "file": "Aphrodisias turkey.jpg",
+   "lat": 37.7083,
+   "lon": 28.7236,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64699201",
+    "name": "Aphrodisias"
+   },
+   "also": [],
+   "cat": "Aphrodisias"
+  },
+  {
+   "id": "Q369967",
+   "name": "Fatih Sultan Mehmet Bridge",
+   "sl": 42,
+   "file": "Fatih Sultan Mehmet Bridge1.JPG",
+   "lat": 41.0911,
+   "lon": 29.0614,
+   "kind": "built",
+   "types": [
+    "cross-sea bridge",
+    "road bridge",
+    "suspension bridge",
+    "toll bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fatih Sultan Mehmet Bridge"
+  },
+  {
+   "id": "Q216511",
+   "name": "Basilica Cistern",
+   "sl": 41,
+   "file": "Cisterna Basílica, Estambul, Turquía, 2024-09-28, DD 58-60 HDR.jpg",
+   "lat": 41.0084,
+   "lon": 28.9779,
+   "kind": "built",
+   "types": [
+    "ancient Roman cistern",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica Cistern"
+  },
+  {
+   "id": "Q744406",
+   "name": "Library of Celsus",
+   "sl": 41,
+   "file": "Ephesus Celsus Library Façade.jpg",
+   "lat": 37.9391,
+   "lon": 27.3408,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "library",
+    "sepulchral monument"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64699469",
+    "name": "Ephesus"
+   },
+   "also": [],
+   "cat": "Library of Celsus"
+  },
+  {
+   "id": "Q652024",
+   "name": "Myra",
+   "sl": 41,
+   "file": "Myra theatre.jpg",
+   "lat": 36.2508,
+   "lon": 29.9936,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Myra"
+  },
+  {
+   "id": "Q911720",
+   "name": "New Mosque",
+   "sl": 41,
+   "file": "Mezquita Nueva, Estambul, Turquía, 2024-09-29, DD 39-41 HDR.jpg",
+   "lat": 41.0169,
+   "lon": 28.9721,
+   "kind": "built",
+   "types": [
+    "historic building",
+    "külliye",
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5773394",
+    "name": "Historic Areas of Istanbul"
+   },
+   "also": [],
+   "cat": "New Mosque (Istanbul)"
+  },
+  {
+   "id": "Q581641",
+   "name": "Divriği Great Mosque and Hospital",
+   "sl": 40,
+   "file": "Divrigi complex DSCF3028.jpg",
+   "lat": 39.3712,
+   "lon": 38.1216,
+   "kind": "built",
+   "types": [
+    "community health center",
+    "former hospital",
+    "group of structures or buildings",
+    "historic site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Divriği Great Mosque and Hospital"
+  },
+  {
+   "id": "Q542854",
+   "name": "Gordion",
+   "sl": 40,
+   "file": "Ruins of Gordion 3.JPG",
+   "lat": 39.6501,
+   "lon": 31.9786,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Gordion"
+  },
+  {
+   "id": "Q853935",
+   "name": "Kocatepe Mosque",
+   "sl": 40,
+   "file": "Ankara asv2021-10 img40 Kocatepe Mosque.jpg",
+   "lat": 39.9167,
+   "lon": 32.8606,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kocatepe Mosque"
+  },
+  {
+   "id": "Q754322",
+   "name": "Museum of Anatolian Civilizations",
+   "sl": 40,
+   "file": "Museum of Anatolian Civilizations001.jpg",
+   "lat": 39.9383,
+   "lon": 32.8619,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Anatolian Civilizations"
+  },
+  {
+   "id": "Q89917",
+   "name": "Walls of Constantinople",
+   "sl": 40,
+   "file": "Theodosianische Landmauer in Istanbul.jpg",
+   "lat": 41.0181,
+   "lon": 28.9233,
+   "kind": "built",
+   "types": [
+    "city walls",
+    "defensive wall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Walls of Constantinople"
+  },
+  {
+   "id": "Q81523",
+   "name": "Galata Bridge",
+   "sl": 39,
+   "file": "Galata Bridge From Tower.JPG",
+   "lat": 41.02,
+   "lon": 28.9731,
+   "kind": "built",
+   "types": [
+    "bascule bridge",
+    "road bridge"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5773394",
+    "name": "Historic Areas of Istanbul"
+   },
+   "also": [],
+   "cat": "Galata Bridge"
+  },
+  {
+   "id": "Q736676",
+   "name": "Hagia Irene",
+   "sl": 39,
+   "file": "Hagia Eirene, Topkapi Palace.JPG",
+   "lat": 41.0097,
+   "lon": 28.9811,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hagia Irene"
+  },
+  {
+   "id": "Q14914703",
+   "name": "Beşiktaş Stadium",
+   "sl": 38,
+   "file": "Tüpraş Stadyumu 20231011 2.jpg",
+   "lat": 41.0392,
+   "lon": 28.9942,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vodafone Park"
+  },
+  {
+   "id": "Q756189",
+   "name": "Fatih Istanbul Mosque",
+   "sl": 38,
+   "file": "Fatih Cami on a beautiful spring day.jpg",
+   "lat": 41.0197,
+   "lon": 28.9497,
+   "kind": "built",
+   "types": [
+    "historic building",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fatih Mosque"
+  },
+  {
+   "id": "Q176380",
+   "name": "Ortaköy Mosque",
+   "sl": 38,
+   "file": "Istanbul asv2020-02 img61 Ortaköy Mosque.jpg",
+   "lat": 41.0473,
+   "lon": 29.0268,
+   "kind": "built",
+   "types": [
+    "historic building",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ortaköy Mosque"
+  },
+  {
+   "id": "Q925688",
+   "name": "Uludağ",
+   "sl": 38,
+   "file": "Uludag.JPG",
+   "lat": 40.0705,
+   "lon": 29.222,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uludağ"
+  },
+  {
+   "id": "Q620593",
+   "name": "Göreme National Park",
+   "sl": 37,
+   "file": "00 0323 Göreme Nationalpark - Nevşehir (Cappadocia).jpg",
+   "lat": 38.6528,
+   "lon": 34.8631,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "national park",
+    "park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64705367",
+    "name": "Göreme National Park and the Rock Sites of Cappadocia"
+   },
+   "also": [],
+   "cat": "Göreme National Park"
+  },
+  {
+   "id": "Q703480",
+   "name": "Letoon",
+   "sl": 37,
+   "file": "Letoon Temple Area 2019.jpg",
+   "lat": 36.3319,
+   "lon": 29.2897,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "sanctuary"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16912661",
+    "name": "Xanthos-Letoon"
+   },
+   "also": [],
+   "cat": "Letoon"
+  },
+  {
+   "id": "Q1302768",
+   "name": "Mount Hasan",
+   "sl": 37,
+   "file": "Vulkan Hasan Bagi.jpg",
+   "lat": 38.1265,
+   "lon": 34.1651,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Hasan"
+  },
+  {
+   "id": "Q720583",
+   "name": "Tigranocerta",
+   "sl": 37,
+   "file": "Location of Tigranocerta within the Kingdom Armenia.png",
+   "lat": 38.1422,
+   "lon": 41.0014,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q135779",
+   "name": "House of the Virgin Mary",
+   "sl": 36,
+   "file": "House of the Virgin Mary.jpg",
+   "lat": 37.9115,
+   "lon": 27.334,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "monastery",
+    "shrine of Our Lady"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64699469",
+    "name": "Ephesus"
+   },
+   "also": [],
+   "cat": "House of the Virgin Mary"
+  },
+  {
+   "id": "Q636978",
+   "name": "Istanbul Archaeology Museums",
+   "sl": 36,
+   "file": "Istanbularcheology.jpg",
+   "lat": 41.0117,
+   "lon": 28.9814,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Istanbul Archaeological Museums"
+  },
+  {
+   "id": "Q344348",
+   "name": "İstiklal Avenue",
+   "sl": 36,
+   "file": "Istanbul, İstiklâl Caddesi, 2023.jpg",
+   "lat": 41.0342,
+   "lon": 28.9789,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "İstiklal Caddesi"
+  },
+  {
+   "id": "Q504382",
+   "name": "İzmir Adnan Menderes Airport",
+   "sl": 36,
+   "file": "Adnan Menderes Airport International Terminal.jpg",
+   "lat": 38.2892,
+   "lon": 27.155,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adnan Menderes Airport"
+  },
+  {
+   "id": "Q538605",
+   "name": "Kültepe",
+   "sl": 36,
+   "file": "KültepeOberstadtPalast.jpg",
+   "lat": 38.85,
+   "lon": 35.6333,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kültepe"
+  },
+  {
+   "id": "Q1144576",
+   "name": "Little Hagia Sophia",
+   "sl": 36,
+   "file": "Sergius and Bacchus.jpg",
+   "lat": 41.0028,
+   "lon": 28.9719,
+   "kind": "built",
+   "types": [
+    "church building",
+    "külliye",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sergius and Bacchus Church"
+  },
+  {
+   "id": "Q142819",
+   "name": "Priene",
+   "sl": 36,
+   "file": "Temple of Athena at Priene.jpg",
+   "lat": 37.6597,
+   "lon": 27.2978,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Priene"
+  },
+  {
+   "id": "Q369923",
+   "name": "Lake Beyşehir",
+   "sl": 35,
+   "file": "Lake Beysehir NASA.jpg",
+   "lat": 37.782,
+   "lon": 31.5076,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Beyşehir"
+  },
+  {
+   "id": "Q1334148",
+   "name": "Lake Eğirdir",
+   "sl": 35,
+   "file": "Lake Egirdir.jpg",
+   "lat": 37.9936,
+   "lon": 30.8884,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Eğirdir"
+  }
+ ]
+}

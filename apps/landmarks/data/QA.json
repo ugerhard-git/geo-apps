@@ -1,0 +1,674 @@
+{
+ "country": "QA",
+ "items": [
+  {
+   "id": "Q1186333",
+   "name": "Lusail Stadium",
+   "sl": 56,
+   "file": "Brésil vs Serbie.jpg",
+   "lat": 25.4209,
+   "lon": 51.4904,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lusail Stadium"
+  },
+  {
+   "id": "Q1198791",
+   "name": "Hamad International Airport",
+   "sl": 51,
+   "file": "Hamad International Airport Qatar.jpg",
+   "lat": 25.2731,
+   "lon": 51.6081,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "greenfield airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hamad International Airport"
+  },
+  {
+   "id": "Q1050220",
+   "name": "Al Bayt Stadium",
+   "sl": 48,
+   "file": "Al Bayt Stadium.jpg",
+   "lat": 25.6522,
+   "lon": 51.4878,
+   "kind": "built",
+   "types": [
+    "association football pitch",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Bayt Stadium"
+  },
+  {
+   "id": "Q1048774",
+   "name": "Education City Stadium",
+   "sl": 48,
+   "file": "2022 FIFA World Cup Korea Uruguay 01.jpg",
+   "lat": 25.3106,
+   "lon": 51.4243,
+   "kind": "built",
+   "types": [
+    "association football pitch",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Education City Stadium"
+  },
+  {
+   "id": "Q39049425",
+   "name": "Al Thumama Stadium",
+   "sl": 45,
+   "file": "2022 FIFA World Cup at Al Thumama Stadium.jpg",
+   "lat": 25.2351,
+   "lon": 51.5321,
+   "kind": "built",
+   "types": [
+    "association football pitch",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Thumama Stadium"
+  },
+  {
+   "id": "Q2727469",
+   "name": "Zubarah",
+   "sl": 42,
+   "file": "Ruins in Zubarah on a cloudy day.jpg",
+   "lat": 25.9834,
+   "lon": 51.0272,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Zubarah"
+  },
+  {
+   "id": "Q285531",
+   "name": "Al Janoub Stadium",
+   "sl": 41,
+   "file": "28 10 2019 Visita ao estádio de futebol Al Janoub (48977932316).jpg",
+   "lat": 25.1598,
+   "lon": 51.5741,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Janoub Stadium"
+  },
+  {
+   "id": "Q58754",
+   "name": "Doha International Airport",
+   "sl": 40,
+   "file": "Doha airport 10.JPG",
+   "lat": 25.2611,
+   "lon": 51.565,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doha International Airport"
+  },
+  {
+   "id": "Q737602",
+   "name": "Aspire Tower",
+   "sl": 28,
+   "file": "Aspire Park, Doha - panoramio.jpg",
+   "lat": 25.2625,
+   "lon": 51.4448,
+   "kind": "built",
+   "types": [
+    "hyperboloid structure",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aspire Tower"
+  },
+  {
+   "id": "Q1148353",
+   "name": "Museum of Islamic Art",
+   "sl": 27,
+   "file": "IslamicArtMuseumDohaSkyline.jpg",
+   "lat": 25.295,
+   "lon": 51.5393,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doha Museum of Islamic Art"
+  },
+  {
+   "id": "Q542588",
+   "name": "Al Udeid Air Base",
+   "sl": 26,
+   "file": "Al Udeid Air Base.jpg",
+   "lat": 25.1173,
+   "lon": 51.315,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Udeid Air Base"
+  },
+  {
+   "id": "Q1073161",
+   "name": "Jassim Bin Hamad Stadium",
+   "sl": 26,
+   "file": "World Cup Qualifiers.jpg",
+   "lat": 25.2674,
+   "lon": 51.4843,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jassim Bin Hamad Stadium"
+  },
+  {
+   "id": "Q3084218",
+   "name": "National Museum of Qatar",
+   "sl": 24,
+   "file": "Nmoq.jpg",
+   "lat": 25.2868,
+   "lon": 51.5497,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Qatar"
+  },
+  {
+   "id": "Q6181753",
+   "name": "Lekhwiya Sports Stadium",
+   "sl": 23,
+   "file": "Iran v Syria (39).jpg",
+   "lat": 25.3727,
+   "lon": 51.4693,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abdullah bin Khalifa Stadium"
+  },
+  {
+   "id": "Q428177",
+   "name": "Thani bin Jassim Stadium",
+   "sl": 23,
+   "file": "Entrance to Thani bin Jassim Stadium.jpg",
+   "lat": 25.3447,
+   "lon": 51.4406,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1151332",
+   "name": "Qatar SC Stadium",
+   "sl": 20,
+   "file": "Interior view of Suheim Bin Hamad Stadium in 2020.jpg",
+   "lat": 25.3172,
+   "lon": 51.5124,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1068443",
+   "name": "Khawr al Udayd",
+   "sl": 19,
+   "file": "Dunes at Khawr al Udayd in 2004.jpg",
+   "lat": 24.63,
+   "lon": 51.296,
+   "kind": "natural",
+   "types": [
+    "former settlement",
+    "inlet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khawr al Udayd"
+  },
+  {
+   "id": "Q10413351",
+   "name": "Doha Tower",
+   "sl": 18,
+   "file": "West Bay (5314687527).jpg",
+   "lat": 25.3175,
+   "lon": 51.5284,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doha Tower"
+  },
+  {
+   "id": "Q2454084",
+   "name": "Aspire Zone",
+   "sl": 16,
+   "file": "Asian Games Doha 2006 fireworks.jpg",
+   "lat": 25.2636,
+   "lon": 51.4481,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aspire Zone"
+  },
+  {
+   "id": "Q12242846",
+   "name": "Imam Muhammad ibn Abd al-Wahhab Mosque",
+   "sl": 16,
+   "file": "View of Lejbailat and State Mosque.jpg",
+   "lat": 25.3171,
+   "lon": 51.5051,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imam Muhammad ibn Abd al-Wahhab Mosque"
+  },
+  {
+   "id": "Q288320",
+   "name": "Al-Khawr Stadium",
+   "sl": 15,
+   "file": "Al-Khor SC Stadium2 Qatar.jpg",
+   "lat": 25.6794,
+   "lon": 51.4926,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Khor SC Stadium"
+  },
+  {
+   "id": "Q4117959",
+   "name": "Souq Waqif",
+   "sl": 15,
+   "file": "Souq Waqif, Doha, Catar, 2013-08-05, DD 09.JPG",
+   "lat": 25.2874,
+   "lon": 51.5332,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "souq"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Souq Waqif"
+  },
+  {
+   "id": "Q737587",
+   "name": "Aspire Dome",
+   "sl": 14,
+   "file": "2009 Emir of Qatar Cup Final - Al Khalifa Stadium Doha (3580966927).jpg",
+   "lat": 25.2667,
+   "lon": 51.4436,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aspire Dome"
+  },
+  {
+   "id": "Q630655",
+   "name": "Catholic Church of Our Lady of the Rosary",
+   "sl": 14,
+   "file": "Church of Our Lady of the Rosary, Doha, Qatar.jpg",
+   "lat": 25.2126,
+   "lon": 51.5219,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Our Lady of the Rosary Church (Doha)"
+  },
+  {
+   "id": "Q1207442",
+   "name": "Dubai Towers Doha",
+   "sl": 14,
+   "file": "Dubai Towers, Doha.jpg",
+   "lat": 25.3144,
+   "lon": 51.5222,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q18411229",
+   "name": "Lusail Sports Arena",
+   "sl": 14,
+   "file": "Lusail sports Arena, interior1.jpg",
+   "lat": 25.4809,
+   "lon": 51.4634,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lusail Sports Hall"
+  },
+  {
+   "id": "Q1633034",
+   "name": "Qurayn Abu al Bawl",
+   "sl": 14,
+   "file": "Al-Qalail Range depuis la Route Qatar-EAU.jpg",
+   "lat": 24.9461,
+   "lon": 51.1844,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3057368",
+   "name": "Abdulla Bin Zaid Al Mahmoud Islamic Cultural Center",
+   "sl": 13,
+   "file": "Doha, centro islamico culturale Abdullah Bin Zaid Al Mahmoud 01.jpg",
+   "lat": 25.289,
+   "lon": 51.5356,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abdulla Bin Zaid Al Mahmoud Islamic Cultural Center"
+  },
+  {
+   "id": "Q1234812",
+   "name": "Doha Corniche",
+   "sl": 13,
+   "file": "Doha Chorniche, Qatar - panoramio.jpg",
+   "lat": 25.2914,
+   "lon": 51.5372,
+   "kind": "built",
+   "types": [
+    "boardwalk"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doha Corniche"
+  },
+  {
+   "id": "Q20313129",
+   "name": "Al Khor Islands",
+   "sl": 12,
+   "file": "AlKhorIslandScenery.jpg",
+   "lat": 25.6928,
+   "lon": 51.5489,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Khor Island"
+  },
+  {
+   "id": "Q1908321",
+   "name": "Mathaf",
+   "sl": 12,
+   "file": "Steve Sabella Mathaf.jpg",
+   "lat": 25.3106,
+   "lon": 51.4197,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mathaf: Arab Museum of Modern Art"
+  },
+  {
+   "id": "Q30754661",
+   "name": "Katara Towers",
+   "sl": 11,
+   "file": "Lusail Marina Iconic Development (cropped).jpg",
+   "lat": 25.3901,
+   "lon": 51.5318,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katara Towers"
+  },
+  {
+   "id": "Q2778760",
+   "name": "Khalifa International Tennis and Squash Complex",
+   "sl": 11,
+   "file": "Qatar open 2017 SF, Murray vs Berdych1181.jpg",
+   "lat": 25.3124,
+   "lon": 51.5144,
+   "kind": "built",
+   "types": [
+    "tennis venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khalifa International Tennis and Squash Complex"
+  },
+  {
+   "id": "Q15270047",
+   "name": "Qatar University Stadium",
+   "sl": 11,
+   "file": "Qatar univ stadium Doha.jpg",
+   "lat": 25.3753,
+   "lon": 51.4958,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qatar University Stadium"
+  },
+  {
+   "id": "Q3200541",
+   "name": "Tornado Tower",
+   "sl": 11,
+   "file": "Skyscrapers in West Bay district of Doha from Dareen Tower.jpg",
+   "lat": 25.3192,
+   "lon": 51.5278,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tornado Tower"
+  },
+  {
+   "id": "Q4704233",
+   "name": "Al Khor Airport",
+   "sl": 9,
+   "file": "Al Khor Tower.jpg",
+   "lat": 25.6294,
+   "lon": 51.5067,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Khor Airport"
+  },
+  {
+   "id": "Q6375126",
+   "name": "Katara Cultural Village",
+   "sl": 9,
+   "file": "Katara village 09.jpg",
+   "lat": 25.3603,
+   "lon": 51.5264,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katara (cultural village)"
+  },
+  {
+   "id": "Q7267111",
+   "name": "Qatar Museums",
+   "sl": 9,
+   "file": "Qatar Museums Authority.jpg",
+   "lat": 25.2886,
+   "lon": 51.5459,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q18326505",
+   "name": "Ali Bin Hamad Al Attiya Arena",
+   "sl": 8,
+   "file": "Doha Qatar skyline at night Sept 2012.jpg",
+   "lat": 25.2702,
+   "lon": 51.4899,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q19406958",
+   "name": "Amiri Diwan of the State of Qatar",
+   "sl": 8,
+   "file": "Doha Palace.jpg",
+   "lat": 25.2908,
+   "lon": 51.5273,
+   "kind": "built",
+   "types": [
+    "official residence",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amiri Diwan of the State of Qatar"
+  },
+  {
+   "id": "Q7930800",
+   "name": "Villaggio Mall",
+   "sl": 8,
+   "file": "Villaggio mall (6).jpg",
+   "lat": 25.2606,
+   "lon": 51.4431,
+   "kind": "built",
+   "types": [
+    "shopping center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villaggio Mall, Doha"
+  }
+ ]
+}

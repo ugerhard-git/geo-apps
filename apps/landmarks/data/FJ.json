@@ -1,0 +1,261 @@
+{
+ "country": "FJ",
+ "items": [
+  {
+   "id": "Q1150557",
+   "name": "Nadi International Airport",
+   "sl": 31,
+   "file": "Aerial view of Nadi Airport from southwest.jpg",
+   "lat": -17.7553,
+   "lon": 177.4433,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nadi International Airport"
+  },
+  {
+   "id": "Q1513944",
+   "name": "Mount Tomanivi",
+   "sl": 26,
+   "file": "Vitilevu topo.jpg",
+   "lat": -17.6331,
+   "lon": 178.0167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1188985",
+   "name": "Nausori International Airport",
+   "sl": 22,
+   "file": "Sunflower Airlines Short 330 Spijkers-1.jpg",
+   "lat": -18.0433,
+   "lon": 178.5592,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nausori International Airport"
+  },
+  {
+   "id": "Q998980",
+   "name": "HFC Bank Stadium",
+   "sl": 20,
+   "file": "ANZ Stadium Fiji.jpg",
+   "lat": -18.1501,
+   "lon": 178.4491,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1138750",
+   "name": "Minerva Reefs",
+   "sl": 20,
+   "file": "Minerva Reefs.jpg",
+   "lat": -23.8333,
+   "lon": -179,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "disputed territory",
+    "reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TO"
+   ],
+   "cat": "Minerva Reefs"
+  },
+  {
+   "id": "Q2652153",
+   "name": "Fiji Museum",
+   "sl": 13,
+   "file": "Fiji Museum in Suva.jpg",
+   "lat": -18.1497,
+   "lon": 178.4257,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fiji Museum"
+  },
+  {
+   "id": "Q651562",
+   "name": "Matei Airport",
+   "sl": 13,
+   "file": "Matei Taveuni Airport in 2006.JPG",
+   "lat": -16.6906,
+   "lon": -179.8769,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matei Airport"
+  },
+  {
+   "id": "Q6387085",
+   "name": "Labasa Airport",
+   "sl": 12,
+   "file": "Labasa airport (5744700848).jpg",
+   "lat": -16.4667,
+   "lon": 179.3397,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6331537",
+   "name": "Rotuma Airport",
+   "sl": 12,
+   "file": "RotumaMap.png",
+   "lat": -12.4825,
+   "lon": 177.0711,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1288635",
+   "name": "Vunisea Airport",
+   "sl": 12,
+   "file": "Kadavu and Great Astrolabe Reef.jpg",
+   "lat": -19.0581,
+   "lon": 178.1569,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2313620",
+   "name": "Churchill Park",
+   "sl": 11,
+   "file": "ChurchillPark-Ltka.jpg",
+   "lat": -17.6067,
+   "lon": 177.4522,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q18416905",
+   "name": "Sacred Heart Cathedral, Suva",
+   "sl": 10,
+   "file": "Sacred Heart Cathedral, Suva Fiji July 2014.jpg",
+   "lat": -18.1416,
+   "lon": 178.442,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sacred Heart Cathedral, Suva"
+  },
+  {
+   "id": "Q6379205",
+   "name": "Savusavu Airport",
+   "sl": 10,
+   "file": "SavusavuArirportCrop.jpg",
+   "lat": -16.8028,
+   "lon": 179.3406,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Savusavu Airport"
+  },
+  {
+   "id": "Q5144771",
+   "name": "Mount Koroyanitu",
+   "sl": 8,
+   "file": "Koroyanitu.jpg",
+   "lat": -17.65,
+   "lon": 177.583,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q20894717",
+   "name": "Sacred Heart Church",
+   "sl": 8,
+   "file": "ChurchLevuka.jpg",
+   "lat": -17.6827,
+   "lon": 178.8342,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17304996",
+    "name": "Levuka Historical Port Town"
+   },
+   "also": [],
+   "cat": "Sacred Heart Church, Levuka"
+  }
+ ]
+}

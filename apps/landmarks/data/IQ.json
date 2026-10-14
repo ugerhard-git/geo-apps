@@ -1,0 +1,1375 @@
+{
+ "country": "IQ",
+ "items": [
+  {
+   "id": "Q5680",
+   "name": "Nineveh",
+   "sl": 86,
+   "file": "Nineveh mashki gate from west.JPG",
+   "lat": 36.3594,
+   "lon": 43.1528,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "tell",
+    "type site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nineveh"
+  },
+  {
+   "id": "Q5699",
+   "name": "Ur",
+   "sl": 86,
+   "file": "Ur-Nassiriyah.jpg",
+   "lat": 30.9622,
+   "lon": 46.1044,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q25933006",
+    "name": "Ahwar of Southern Iraq"
+   },
+   "also": [],
+   "cat": "Ur"
+  },
+  {
+   "id": "Q200200",
+   "name": "Assur",
+   "sl": 79,
+   "file": "Ashur (Qal'at Sherqat)-115188.jpg",
+   "lat": 35.4567,
+   "lon": 43.2625,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Assur (city)"
+  },
+  {
+   "id": "Q168518",
+   "name": "Uruk",
+   "sl": 75,
+   "file": "Part of front of Inanna temple of Kara Indasch from Uruk Vorderasiatisches Museum Berlin.jpg",
+   "lat": 31.3259,
+   "lon": 45.6374,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "city-state",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q133132919",
+    "name": "Warka"
+   },
+   "also": [],
+   "cat": "Uruk"
+  },
+  {
+   "id": "Q188395",
+   "name": "Nippur",
+   "sl": 69,
+   "file": "Ruins from a temple in Naffur.jpg",
+   "lat": 32.1261,
+   "lon": 45.2308,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nippur"
+  },
+  {
+   "id": "Q466614",
+   "name": "Hatra",
+   "sl": 62,
+   "file": "Hatra ruins.jpg",
+   "lat": 35.5881,
+   "lon": 42.7183,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "city-state"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Hatra"
+  },
+  {
+   "id": "Q237614",
+   "name": "Nimrud",
+   "sl": 61,
+   "file": "Nimrud 081119-F-5855M-033.jpg",
+   "lat": 36.0981,
+   "lon": 43.3289,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nimrud"
+  },
+  {
+   "id": "Q26082",
+   "name": "Ishtar Gate",
+   "sl": 55,
+   "file": "Ishtar Gate at Berlin Museum.jpg",
+   "lat": 32.5433,
+   "lon": 44.4222,
+   "kind": "built",
+   "types": [
+    "arch",
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Ishtar Gate"
+  },
+  {
+   "id": "Q838359",
+   "name": "Imam Ali Mosque",
+   "sl": 52,
+   "file": "Meshed ali usnavy (PD).jpg",
+   "lat": 31.9961,
+   "lon": 44.3142,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mausoleum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imam Ali Mosque"
+  },
+  {
+   "id": "Q253208",
+   "name": "Dur-Sharrukin",
+   "sl": 47,
+   "file": "Lammasu.jpg",
+   "lat": 36.5095,
+   "lon": 43.2293,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dur-Sharrukin"
+  },
+  {
+   "id": "Q501259",
+   "name": "Isin",
+   "sl": 47,
+   "file": "Papiermuseum Basel 2008 (1).jpg",
+   "lat": 31.9335,
+   "lon": 45.2852,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city-state",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isin"
+  },
+  {
+   "id": "Q334740",
+   "name": "Baghdad Central Prison",
+   "sl": 44,
+   "file": "Abu Ghraib cell block.jpg",
+   "lat": 33.2925,
+   "lon": 44.065,
+   "kind": "built",
+   "types": [
+    "defunct prison",
+    "military prison",
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baghdad Central Prison"
+  },
+  {
+   "id": "Q304438",
+   "name": "Baghdad International Airport",
+   "sl": 44,
+   "file": "Baghdadinternationalairportaerial.JPG",
+   "lat": 33.2625,
+   "lon": 44.2344,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baghdad International Airport"
+  },
+  {
+   "id": "Q740952",
+   "name": "Umma",
+   "sl": 44,
+   "file": "Plan of terrain AO5677 mp3h9127.jpg",
+   "lat": 31.6674,
+   "lon": 45.8877,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city-state",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Umma"
+  },
+  {
+   "id": "Q593115",
+   "name": "Great Mosque of Samarra",
+   "sl": 43,
+   "file": "Samara spiralovity minaret rijen1973.jpg",
+   "lat": 34.2062,
+   "lon": 43.8799,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "mosque",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q170047",
+    "name": "Samarra"
+   },
+   "also": [],
+   "cat": "Great Mosque of Samarra"
+  },
+  {
+   "id": "Q1136681",
+   "name": "Seleucia",
+   "sl": 43,
+   "file": "Karte Seleucia Ktesiphon-it.png",
+   "lat": 33.1,
+   "lon": 44.52,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seleucia on the Tigris"
+  },
+  {
+   "id": "Q202927",
+   "name": "Ziggurat of Ur",
+   "sl": 43,
+   "file": "Ancient ziggurat at Ali Air Base Iraq 2005.jpg",
+   "lat": 30.9625,
+   "lon": 46.1025,
+   "kind": "built",
+   "types": [
+    "ziggurat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Ziggurat of Ur"
+  },
+  {
+   "id": "Q909799",
+   "name": "Shanidar Cave",
+   "sl": 42,
+   "file": "Erbil governorate shanidar cave.jpg",
+   "lat": 36.8006,
+   "lon": 44.2433,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shanidar Cave"
+  },
+  {
+   "id": "Q375685",
+   "name": "Eshnunna",
+   "sl": 41,
+   "file": "Woman head Tell Asmas Louvre AO12434.jpg",
+   "lat": 33.75,
+   "lon": 44.75,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city-state",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eshnunna"
+  },
+  {
+   "id": "Q392725",
+   "name": "Shuruppak",
+   "sl": 40,
+   "file": "Bill of sale Louvre AO3765.jpg",
+   "lat": 31.7774,
+   "lon": 45.5098,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shuruppak"
+  },
+  {
+   "id": "Q309484",
+   "name": "Al-Askari Shrine",
+   "sl": 38,
+   "file": "Samarra - Oct 2018 01.jpg",
+   "lat": 34.1989,
+   "lon": 43.8736,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "mosque",
+    "shrine",
+    "zarih"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Askari Shrine"
+  },
+  {
+   "id": "Q1000577",
+   "name": "Jarmo",
+   "sl": 38,
+   "file": "Jarmo (Qal'at Jarmo), late 8th century BCE to late 6th century BCE. Sulaymaniyah, Iraq, March 2021. Aftermaths of 1948-1955 excavations conducted by the Oriental Institute of Chicago.jpg",
+   "lat": 35.5558,
+   "lon": 44.9303,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jarmo"
+  },
+  {
+   "id": "Q773704",
+   "name": "Imam Husayn Mausoleum",
+   "sl": 36,
+   "file": "Kerbela.JPG",
+   "lat": 32.6164,
+   "lon": 44.0325,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mausoleum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imam Husayn Shrine"
+  },
+  {
+   "id": "Q521251",
+   "name": "National Museum of Iraq",
+   "sl": 36,
+   "file": "المتحف الوطني العراقي 01.jpg",
+   "lat": 33.3286,
+   "lon": 44.3858,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Iraq"
+  },
+  {
+   "id": "Q310799",
+   "name": "Al-Hirah",
+   "sl": 35,
+   "file": "Kamal-ud-din Bihzad - Construction of the fort of Kharnaq.jpg",
+   "lat": 31.98,
+   "lon": 44.39,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "lost city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Hirah"
+  },
+  {
+   "id": "Q625134",
+   "name": "Borsippa",
+   "sl": 35,
+   "file": "Ruins of the ziggurat and temple of the god Nabu at Borsippa, Babel Governorate, Iraq. 6th century BC.jpg",
+   "lat": 32.392,
+   "lon": 44.3417,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Borsippa"
+  },
+  {
+   "id": "Q853946",
+   "name": "Girsu",
+   "sl": 35,
+   "file": "Basse Mesopotamie DA.PNG",
+   "lat": 31.5653,
+   "lon": 46.1896,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Girsu"
+  },
+  {
+   "id": "Q206236",
+   "name": "Citadel of Erbil",
+   "sl": 34,
+   "file": "Hawler Castle.jpg",
+   "lat": 36.191,
+   "lon": 44.009,
+   "kind": "both",
+   "types": [
+    "citadel",
+    "tell"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Citadel of Erbil"
+  },
+  {
+   "id": "Q285788",
+   "name": "Etemenanki",
+   "sl": 34,
+   "file": "Etemenanki Berlin.jpg",
+   "lat": 32.5364,
+   "lon": 44.4208,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "ziggurat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Etemenanki"
+  },
+  {
+   "id": "Q5599605",
+   "name": "Great Mosque of al-Nuri",
+   "sl": 34,
+   "file": "Great Mosque of al-Nuri (Mosul), 2020.jpg",
+   "lat": 36.3432,
+   "lon": 43.1269,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nouri Mosque"
+  },
+  {
+   "id": "Q346445",
+   "name": "Adab",
+   "sl": 33,
+   "file": "Male bust Louvre AO10921.jpg",
+   "lat": 31.95,
+   "lon": 45.9667,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adab"
+  },
+  {
+   "id": "Q154116",
+   "name": "Al-Kadhimiya Mosque",
+   "sl": 32,
+   "file": "العتبة الكاظمية (4).jpg",
+   "lat": 33.38,
+   "lon": 44.338,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mausoleum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Kadhimiya Mosque"
+  },
+  {
+   "id": "Q1486703",
+   "name": "Taq-i Kisra",
+   "sl": 32,
+   "file": "001125-TaqKasra-Iraq-IMG 7914-2.jpg",
+   "lat": 33.0937,
+   "lon": 44.5807,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "architectural landmark",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taq-i Kisra"
+  },
+  {
+   "id": "Q928707",
+   "name": "Esagila",
+   "sl": 29,
+   "file": "Etemenanki plan.png",
+   "lat": 32.5339,
+   "lon": 44.4214,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q622719",
+   "name": "Dur-Kurigalzu",
+   "sl": 28,
+   "file": "The ziggurat at Aqar Quf.jpg",
+   "lat": 33.3537,
+   "lon": 44.2023,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "region"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dur-Kurigalzu"
+  },
+  {
+   "id": "Q648423",
+   "name": "Erbil International Airport",
+   "sl": 28,
+   "file": "Erbil International Airport terminal building.JPG",
+   "lat": 36.2375,
+   "lon": 43.9631,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erbil International Airport"
+  },
+  {
+   "id": "Q334716",
+   "name": "Abu Hanifa Mosque",
+   "sl": 27,
+   "file": "مدخل جامع الإمام الأعظم.jpg",
+   "lat": 33.372,
+   "lon": 44.3584,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abu Hanifa Mosque"
+  },
+  {
+   "id": "Q1418829",
+   "name": "Basra International Airport",
+   "sl": 27,
+   "file": "Basrah Intl Airport terminal building april 1 2008.JPG",
+   "lat": 30.5489,
+   "lon": 47.6625,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1068860",
+   "name": "Cheekha Dar",
+   "sl": 27,
+   "file": "Cheekhedar.jpg",
+   "lat": 36.7753,
+   "lon": 44.9186,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cheekha Dar"
+  },
+  {
+   "id": "Q1640519",
+   "name": "Lake Tharthar",
+   "sl": 27,
+   "file": "04 metu Buhayrat 300 2.jpg",
+   "lat": 33.9667,
+   "lon": 43.1833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tharthar"
+  },
+  {
+   "id": "Q584605",
+   "name": "Nuzi",
+   "sl": 27,
+   "file": "Meso2mil.JPG",
+   "lat": 35.3025,
+   "lon": 44.2476,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q606561",
+   "name": "Mosul Dam",
+   "sl": 26,
+   "file": "Mosul Dam in hill.jpg",
+   "lat": 36.6308,
+   "lon": 42.8242,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosul Dam"
+  },
+  {
+   "id": "Q1372270",
+   "name": "Bad-tibira",
+   "sl": 25,
+   "file": "Foundation nail Entemena Louvre AO22934.jpg",
+   "lat": 31.3828,
+   "lon": 46.0044,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q672905",
+   "name": "Arrapha",
+   "sl": 24,
+   "file": "Villes assyriennes.PNG",
+   "lat": 35.45,
+   "lon": 44.3833,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q706970",
+   "name": "Eanna",
+   "sl": 24,
+   "file": "Vorderasiatisches Museum Berlin 048.jpg",
+   "lat": 31.3222,
+   "lon": 45.6361,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eanna"
+  },
+  {
+   "id": "Q3906396",
+   "name": "Great Mosque of Kufa",
+   "sl": 23,
+   "file": "Kufa Mosque (4).jpg",
+   "lat": 32.0286,
+   "lon": 44.4008,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Kufa"
+  },
+  {
+   "id": "Q342799",
+   "name": "Jemdet Nasr",
+   "sl": 23,
+   "file": "Sitting bull Louvre AO7021.jpg",
+   "lat": 32.7178,
+   "lon": 44.7794,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell",
+    "type site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jemdet Nasr period"
+  },
+  {
+   "id": "Q3500331",
+   "name": "Basra Sports City",
+   "sl": 22,
+   "file": "Basra International Stadium Opening 2.JPG",
+   "lat": 30.4403,
+   "lon": 47.7808,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basra Sport City"
+  },
+  {
+   "id": "Q326468",
+   "name": "Sulaimaniyah International Airport",
+   "sl": 22,
+   "file": "44929 The Sulayamaniyah International Airport in 2007.jpg",
+   "lat": 35.5608,
+   "lon": 45.3144,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3250647",
+   "name": "Al Abbas Mosque",
+   "sl": 21,
+   "file": "العتبة العباسية1.jpg",
+   "lat": 32.6172,
+   "lon": 44.0362,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mausoleum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Abbas Mosque"
+  },
+  {
+   "id": "Q4120608",
+   "name": "Dair Mar Elia",
+   "sl": 21,
+   "file": "Saint Elijah's Monastery 1.JPG",
+   "lat": 36.2924,
+   "lon": 43.131,
+   "kind": "built",
+   "types": [
+    "monastery",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dair Mar Elia"
+  },
+  {
+   "id": "Q262432",
+   "name": "Der",
+   "sl": 21,
+   "file": "Meso2mil.JPG",
+   "lat": 33.1236,
+   "lon": 45.9314,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city-state"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1659846",
+   "name": "Balawat",
+   "sl": 20,
+   "file": "Villes assyriennes.PNG",
+   "lat": 36.2167,
+   "lon": 43.4167,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Balawat"
+  },
+  {
+   "id": "Q1096108",
+   "name": "Kutha",
+   "sl": 20,
+   "file": "Basse Mesopotamie Ur3.png",
+   "lat": 32.76,
+   "lon": 44.6129,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "city",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1462261",
+   "name": "Wasit",
+   "sl": 20,
+   "file": "مدينة واسط الاثرية.jpg",
+   "lat": 32.1891,
+   "lon": 46.2817,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4703502",
+   "name": "Al Asad Airbase",
+   "sl": 19,
+   "file": "Al Asad Air Base Patch 2007.jpg",
+   "lat": 33.7856,
+   "lon": 42.4411,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Asad Airbase"
+  },
+  {
+   "id": "Q3499545",
+   "name": "Al Najaf International Airport",
+   "sl": 19,
+   "file": "AL NAJAF AL ASHRAF INT.AIRPORT - panoramio.jpg",
+   "lat": 31.9899,
+   "lon": 44.4043,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q771059",
+   "name": "Al-Ukhaidir Fortress",
+   "sl": 19,
+   "file": "Al-Ukhaidir Fortress (30655095821).jpg",
+   "lat": 32.4406,
+   "lon": 43.6022,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Ukhaidir Fortress"
+  },
+  {
+   "id": "Q607583",
+   "name": "Tepe Gawra",
+   "sl": 19,
+   "file": "Uruk period north.JPG",
+   "lat": 36.483,
+   "lon": 43.25,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tepe Gawra"
+  },
+  {
+   "id": "Q4115003",
+   "name": "Lake Dukan",
+   "sl": 18,
+   "file": "Dukan Lake - Sulymania Iraq.jpg",
+   "lat": 36.1333,
+   "lon": 44.9167,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Dukan"
+  },
+  {
+   "id": "Q1183843",
+   "name": "Marad",
+   "sl": 18,
+   "file": "Marad city 2.jpg",
+   "lat": 32.0928,
+   "lon": 44.7833,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marad"
+  },
+  {
+   "id": "Q387292",
+   "name": "Mosul Museum",
+   "sl": 18,
+   "file": "Views around the Mosul Museum in the old city of Mosul in 2019 during the summer, following war with the Islamic State 01.jpg",
+   "lat": 36.3379,
+   "lon": 43.1394,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q19414891",
+   "name": "Sulaymaniyah Museum",
+   "sl": 18,
+   "file": "The Sulaymaniyah Museum.JPG",
+   "lat": 35.5576,
+   "lon": 45.4258,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sulaymaniyah Museum"
+  },
+  {
+   "id": "Q1063054",
+   "name": "Charax Spasinu",
+   "sl": 17,
+   "file": "Hyspaosines.jpg",
+   "lat": 30.8979,
+   "lon": 47.5675,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "ancient port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Charax Spasinu"
+  },
+  {
+   "id": "Q941182",
+   "name": "Dukan Dam",
+   "sl": 17,
+   "file": "Dukan Dam.jpg",
+   "lat": 35.9542,
+   "lon": 44.9528,
+   "kind": "built",
+   "types": [
+    "arch dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dukan Dam"
+  },
+  {
+   "id": "Q2062054",
+   "name": "Mar Mattai monastery",
+   "sl": 17,
+   "file": "Mor-mattai.png",
+   "lat": 36.49,
+   "lon": 43.4428,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mar Mattai monastery"
+  },
+  {
+   "id": "Q1432089",
+   "name": "Mosul International Airport",
+   "sl": 17,
+   "file": "MOSUL AIRPORT . IRAQ - panoramio.jpg",
+   "lat": 36.3058,
+   "lon": 43.1475,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1340523",
+   "name": "Victory Arch",
+   "sl": 17,
+   "file": "UStanks baghdad 2003.JPEG",
+   "lat": 33.3052,
+   "lon": 44.3865,
+   "kind": "built",
+   "types": [
+    "sculpture",
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Swords of Qādisiyyah"
+  },
+  {
+   "id": "Q1074177",
+   "name": "Zabala",
+   "sl": 17,
+   "file": "Basse Mesopotamie DA.PNG",
+   "lat": 31.7433,
+   "lon": 45.8767,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zabala (Sumer)"
+  },
+  {
+   "id": "Q28114309",
+   "name": "Basrah Museum",
+   "sl": 16,
+   "file": "Basrah Museum in Iraq.jpg",
+   "lat": 30.4974,
+   "lon": 47.861,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basrah Museum"
+  },
+  {
+   "id": "Q1567496",
+   "name": "Haditha Dam",
+   "sl": 16,
+   "file": "Haditha Dam 01.jpg",
+   "lat": 34.2069,
+   "lon": 42.355,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Haditha Dam"
+  },
+  {
+   "id": "Q2539972",
+   "name": "Lake Habbaniyah",
+   "sl": 16,
+   "file": "Buhayrat al-Habbaniyah.jpg",
+   "lat": 32.2963,
+   "lon": 43.4707,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Habbaniyah"
+  },
+  {
+   "id": "Q2007652",
+   "name": "Lake Milh",
+   "sl": 16,
+   "file": "Lake Milh WorldWind Image.png",
+   "lat": 32.7683,
+   "lon": 43.6064,
+   "kind": "natural",
+   "types": [
+    "artificial lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Milh"
+  },
+  {
+   "id": "Q15260416",
+   "name": "Mustansiriyya Madrasa",
+   "sl": 16,
+   "file": "المدرسة المستنصرية في بغداد (3).jpg",
+   "lat": 33.3385,
+   "lon": 44.3896,
+   "kind": "built",
+   "types": [
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mustansiriyya Madrasa"
+  },
+  {
+   "id": "Q1317854",
+   "name": "Tell al-'Ubaid",
+   "sl": 16,
+   "file": "Tel Ubaid.jpg",
+   "lat": 30.9722,
+   "lon": 46.0306,
+   "kind": "both",
+   "types": [
+    "tell",
+    "type site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tell Al-Ubaid"
+  },
+  {
+   "id": "Q1407266",
+   "name": "Baghdad Tower",
+   "sl": 15,
+   "file": "برج بغداد.png",
+   "lat": 33.3033,
+   "lon": 44.3542,
+   "kind": "built",
+   "types": [
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baghdad tower"
+  },
+  {
+   "id": "Q19968534",
+   "name": "Bash Tapia Castle",
+   "sl": 15,
+   "file": "Bashtabia.jpg",
+   "lat": 36.3554,
+   "lon": 43.1216,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bash Tapia Castle"
+  },
+  {
+   "id": "Q2261799",
+   "name": "Darbandikhan Dam",
+   "sl": 15,
+   "file": "Darbandikhan Dam USACE NWD.jpg",
+   "lat": 35.1128,
+   "lon": 45.7064,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "water reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Darbandikhan Dam"
+  },
+  {
+   "id": "Q1305112",
+   "name": "Khafajah",
+   "sl": 15,
+   "file": "Votive wall plaque from Khafajah showing a wine drinking scene, Iraq, 2600-2370 BCE. Iraq Museum.jpg",
+   "lat": 33.75,
+   "lon": 44.75,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khafajah"
+  },
+  {
+   "id": "Q1144137",
+   "name": "Kirkuk Citadel",
+   "sl": 15,
+   "file": "Kirkuk citadel.jpg",
+   "lat": 35.4697,
+   "lon": 44.3958,
+   "kind": "built",
+   "types": [
+    "fort",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Citadel of Kirkuk"
+  }
+ ]
+}

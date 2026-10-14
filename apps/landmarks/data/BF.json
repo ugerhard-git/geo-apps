@@ -1,0 +1,364 @@
+{
+ "country": "BF",
+ "items": [
+  {
+   "id": "Q726863",
+   "name": "W National Park",
+   "sl": 55,
+   "file": "Elephants bath park w wide 2006.jpg",
+   "lat": 12.35,
+   "lon": 2.355,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q25379596",
+    "name": "W-Arly-Pendjari Complex"
+   },
+   "also": [
+    "BJ",
+    "NE"
+   ],
+   "cat": "W National Park"
+  },
+  {
+   "id": "Q173837",
+   "name": "Arli National Park",
+   "sl": 33,
+   "file": "Arli-NP MS1219.jpg",
+   "lat": 11.5836,
+   "lon": 1.4683,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "faunal reserve"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q25379596",
+    "name": "W-Arly-Pendjari Complex"
+   },
+   "also": [],
+   "cat": "Arli National Park"
+  },
+  {
+   "id": "Q773547",
+   "name": "Ouagadougou Airport",
+   "sl": 33,
+   "file": "Plane in Ouagadougou.jpg",
+   "lat": 12.3531,
+   "lon": -1.5122,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ouagadougou Airport"
+  },
+  {
+   "id": "Q116675",
+   "name": "Mount Tenakourou",
+   "sl": 26,
+   "file": "Mt Tenakourou MS 1954.JPG",
+   "lat": 10.75,
+   "lon": -5.4167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ML"
+   ],
+   "cat": "Mount Tenakourou"
+  },
+  {
+   "id": "Q25379596",
+   "name": "W-Arly-Pendjari Complex",
+   "sl": 25,
+   "file": "Elephants bath park w Niger 2006.jpg",
+   "lat": 11.53,
+   "lon": 2.29,
+   "kind": "",
+   "types": [
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "BJ",
+    "NE"
+   ],
+   "cat": "W-Arly-Pendjari Complex"
+  },
+  {
+   "id": "Q1269931",
+   "name": "Ruins of Loropéni",
+   "sl": 23,
+   "file": "2016.05-441-131ap wall Loropéni Ruins nr.Loropéni(Poni Prv.),BF sun15may2016-1106h.jpg",
+   "lat": 10.3103,
+   "lon": -3.5631,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Loropéni"
+  },
+  {
+   "id": "Q598661",
+   "name": "Bobo Dioulasso Airport",
+   "sl": 22,
+   "file": "Bobo Dioulasso Airport.jpg",
+   "lat": 11.16,
+   "lon": -4.3308,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aéroport de Bobo-Dioulasso"
+  },
+  {
+   "id": "Q1253262",
+   "name": "Lake Tengrela",
+   "sl": 22,
+   "file": "Lake tengrela2013.jpg",
+   "lat": 10.6333,
+   "lon": -4.85,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "Ramsar site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tengrela"
+  },
+  {
+   "id": "Q1736205",
+   "name": "Ouagadougou Cathedral",
+   "sl": 20,
+   "file": "Ouagacathedrale.png",
+   "lat": 12.362,
+   "lon": -1.527,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Our Lady of Immaculate Conception, Ouagadougou"
+  },
+  {
+   "id": "Q965446",
+   "name": "Stade du 4 Août",
+   "sl": 19,
+   "file": "Stade du 4-Août C.jpg",
+   "lat": 12.3687,
+   "lon": -1.5534,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade du 4-Août"
+  },
+  {
+   "id": "Q954384",
+   "name": "Karfiguéla waterfalls",
+   "sl": 18,
+   "file": "Cascades de Karfiguela (12567794645).jpg",
+   "lat": 10.7223,
+   "lon": -4.821,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banfora Cascades"
+  },
+  {
+   "id": "Q65684910",
+   "name": "Royal Court of Tiébélé",
+   "sl": 18,
+   "file": "Tiebele village in Burkina Faso 02.jpg",
+   "lat": 11.0897,
+   "lon": -0.9616,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Court of Tiébélé"
+  },
+  {
+   "id": "Q1778136",
+   "name": "Mare aux Hippopotames",
+   "sl": 16,
+   "file": "Mare aux hippos MS 2068.jpg",
+   "lat": 11.6167,
+   "lon": -4.1333,
+   "kind": "natural",
+   "types": [
+    "classified forest"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mare aux Hippopotames"
+  },
+  {
+   "id": "Q389707",
+   "name": "Kaboré Tambi National Park",
+   "sl": 14,
+   "file": "Demarche du pachyderme.jpg",
+   "lat": 11.5335,
+   "lon": -1.3226,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaboré Tambi National Park"
+  },
+  {
+   "id": "Q632463",
+   "name": "Lake Bam",
+   "sl": 14,
+   "file": "Lac de Bam MS 2553.jpg",
+   "lat": 13.4017,
+   "lon": -1.5175,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q683053",
+   "name": "Lake Kompienga",
+   "sl": 13,
+   "file": "Kompiengastausee MS1107.jpg",
+   "lat": 11.1389,
+   "lon": 0.6344,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lac de Kompienga"
+  },
+  {
+   "id": "Q1894498",
+   "name": "Mare of Oursi",
+   "sl": 12,
+   "file": "Mare d'oursi 2.JPG",
+   "lat": 14.6333,
+   "lon": -0.5,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mare d’Oursi"
+  },
+  {
+   "id": "Q787298",
+   "name": "Deux Balés National Park",
+   "sl": 11,
+   "file": "Baobob tree.jpg",
+   "lat": 11.6653,
+   "lon": -2.9711,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1186639",
+   "name": "Lake Dem",
+   "sl": 11,
+   "file": "Lac de Dem MS 2586.jpg",
+   "lat": 13.1881,
+   "lon": -1.1586,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1129303",
+   "name": "Stade Général Aboubacar Sangoulé Lamizana",
+   "sl": 10,
+   "file": "Stadiumbobodioulasso1.jpg",
+   "lat": 11.1903,
+   "lon": -4.3308,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q105708736",
+   "name": "Bobo Dioulasso Grand Mosque",
+   "sl": 8,
+   "file": "ASC Leiden - van Achterberg Collection - 5 - 021 - Un coin de la Grande Mosquée avec vingt niveaux de bâtons - Bobo-Dioulasso, Burkina Faso, 19-26 août 2001.tif",
+   "lat": 11.1778,
+   "lon": -4.2959,
+   "kind": "built",
+   "types": [
+    "mosque",
+    "religious site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Mosque of Bobo-Dioulasso"
+  }
+ ]
+}

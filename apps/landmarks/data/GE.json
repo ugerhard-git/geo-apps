@@ -1,0 +1,1343 @@
+{
+ "country": "GE",
+ "items": [
+  {
+   "id": "Q217457",
+   "name": "Shkhara",
+   "sl": 54,
+   "file": "Shahara peak near Ushguli 1870.jpg",
+   "lat": 42.9994,
+   "lon": 43.1117,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Shkhara"
+  },
+  {
+   "id": "Q679979",
+   "name": "Gelati Monastery",
+   "sl": 53,
+   "file": "Gelati Monastery 1.jpg",
+   "lat": 42.2947,
+   "lon": 42.7681,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Gelati Monastery"
+  },
+  {
+   "id": "Q37222",
+   "name": "Bagrati Cathedral",
+   "sl": 51,
+   "file": "2014 Kutaisi, Katedra Bagrati (04).jpg",
+   "lat": 42.2773,
+   "lon": 42.7043,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bagrati Cathedral"
+  },
+  {
+   "id": "Q946194",
+   "name": "Lake Ritsa",
+   "sl": 47,
+   "file": "Lake rica.jpg",
+   "lat": 43.4811,
+   "lon": 40.5415,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ritsa"
+  },
+  {
+   "id": "Q778213",
+   "name": "Tbilisi International Airport",
+   "sl": 45,
+   "file": "Tbilisi airport 1.jpg",
+   "lat": 41.6692,
+   "lon": 44.9547,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tbilisi International Airport"
+  },
+  {
+   "id": "Q919184",
+   "name": "Krubera Cave",
+   "sl": 39,
+   "file": "Пещера Крубера-Воронья. Колодец Фартук.jpg",
+   "lat": 43.4097,
+   "lon": 40.3622,
+   "kind": "natural",
+   "types": [
+    "solutional cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Voronya Cave"
+  },
+  {
+   "id": "Q290801",
+   "name": "Dinamo Arena",
+   "sl": 38,
+   "file": "Boris Paichadze Dinamo Arena, Samtredia - Qarabağ.jpg",
+   "lat": 41.723,
+   "lon": 44.7898,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boris Paichadze Stadium"
+  },
+  {
+   "id": "Q691813",
+   "name": "Vardzia",
+   "sl": 38,
+   "file": "Vardzia.jpg",
+   "lat": 41.3808,
+   "lon": 43.2838,
+   "kind": "built",
+   "types": [
+    "cave monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vardzia"
+  },
+  {
+   "id": "Q1200570",
+   "name": "Batumi International Airport",
+   "sl": 37,
+   "file": "Batumi Airport Karakas-2.jpg",
+   "lat": 41.6103,
+   "lon": 41.5994,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Batumi International Airport"
+  },
+  {
+   "id": "Q1262226",
+   "name": "Jvari",
+   "sl": 37,
+   "file": "Georgia Jvari monastery IMG 9345 2070.jpg",
+   "lat": 41.8384,
+   "lon": 44.7333,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16946829",
+    "name": "Historical Monuments of Mtskheta"
+   },
+   "also": [],
+   "cat": "Jvari monastery"
+  },
+  {
+   "id": "Q36996",
+   "name": "Holy Trinity Cathedral of Tbilisi",
+   "sl": 36,
+   "file": "Tbilisi Holy Trinity Cathedral (Sameba) IMG 8956 1920.jpg",
+   "lat": 41.6975,
+   "lon": 44.8167,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sameba Cathedral, Tbilisi"
+  },
+  {
+   "id": "Q1156904",
+   "name": "Kutaisi International Airport",
+   "sl": 36,
+   "file": "Airport Kutaisi, 2024 (04).jpg",
+   "lat": 42.1764,
+   "lon": 42.4825,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "David the Builder Kutaisi International Airport"
+  },
+  {
+   "id": "Q120352",
+   "name": "Paravani Lake",
+   "sl": 35,
+   "file": "ParavaniLake-1- C.jpg",
+   "lat": 41.4444,
+   "lon": 43.8122,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paravani Lake"
+  },
+  {
+   "id": "Q1860439",
+   "name": "Rustaveli Theatre",
+   "sl": 35,
+   "file": "Rustaveli National Theater in Georgia (Europe), built 19th century in Rococo style.jpg",
+   "lat": 41.6998,
+   "lon": 44.7979,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rustaveli Theatre"
+  },
+  {
+   "id": "Q1285832",
+   "name": "Ushba",
+   "sl": 34,
+   "file": "Ushba summit.jpg",
+   "lat": 43.1239,
+   "lon": 42.6596,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ushba"
+  },
+  {
+   "id": "Q1152972",
+   "name": "Svetitskhoveli Cathedral",
+   "sl": 33,
+   "file": "Svetitskhoveli Cathedral 09.23 (3).jpg",
+   "lat": 41.8423,
+   "lon": 44.7211,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property",
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Svetitskhoveli"
+  },
+  {
+   "id": "Q1178627",
+   "name": "David Gareja monastery complex",
+   "sl": 32,
+   "file": "David Gareja Monastery 2, Georgia.jpg",
+   "lat": 41.4475,
+   "lon": 45.3764,
+   "kind": "built",
+   "types": [
+    "cave monastery",
+    "eastern orthodox monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "David Gareja monastery complex"
+  },
+  {
+   "id": "Q2596393",
+   "name": "Tbilisi Opera and Ballet Theatre",
+   "sl": 32,
+   "file": "Evgeni Mikeladze bust near Tbilisi Opera.jpg",
+   "lat": 41.7011,
+   "lon": 44.7963,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tbilisi Opera House"
+  },
+  {
+   "id": "Q1511206",
+   "name": "Gergeti Trinity Church",
+   "sl": 31,
+   "file": "Gergeti Trinity Church and Mt. Kazbeg 01.jpg",
+   "lat": 42.6624,
+   "lon": 44.6205,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gergeti Trinity Church"
+  },
+  {
+   "id": "Q1147179",
+   "name": "Kartlis Deda",
+   "sl": 31,
+   "file": "Kartlis Deda - Mother of a Kartli or Mother of a Georgian - Photo by Mostafa Meraji 03.jpg",
+   "lat": 41.6881,
+   "lon": 44.8047,
+   "kind": "built",
+   "types": [
+    "colossal statue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kartlis Deda"
+  },
+  {
+   "id": "Q1545224",
+   "name": "Borjomi-Kharagauli National Park",
+   "sl": 30,
+   "file": "Borjomi mountains.jpg",
+   "lat": 41.8617,
+   "lon": 43.1315,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Borjomi Kharagauli National Park"
+  },
+  {
+   "id": "Q36998",
+   "name": "Freedom Square",
+   "sl": 29,
+   "file": "Freedom Square, Tbilisi, Georgia.jpg",
+   "lat": 41.6934,
+   "lon": 44.8015,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Freedom Square, Tbilisi"
+  },
+  {
+   "id": "Q2563760",
+   "name": "Joseph Stalin Museum",
+   "sl": 29,
+   "file": "Stalin Museum, Gori 04.jpg",
+   "lat": 41.9872,
+   "lon": 44.1136,
+   "kind": "built",
+   "types": [
+    "biographical museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stalin Museum, Gori"
+  },
+  {
+   "id": "Q155453",
+   "name": "Narikala",
+   "sl": 29,
+   "file": "Narikala, Tiflis, Georgia, 2016-09-29, DD 91.jpg",
+   "lat": 41.6878,
+   "lon": 44.8086,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "cultural property",
+    "fort",
+    "historic building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Narikala"
+  },
+  {
+   "id": "Q248050",
+   "name": "Sioni Cathedral",
+   "sl": 29,
+   "file": "Tbilisi Sioni Cathedral 09.23.jpg",
+   "lat": 41.6913,
+   "lon": 44.8075,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sioni Cathedral, Tbilisi"
+  },
+  {
+   "id": "Q1351318",
+   "name": "Uplistsikhe",
+   "sl": 29,
+   "file": "Uplistsikhe41.jpg",
+   "lat": 41.9667,
+   "lon": 44.2075,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "cave city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uplistsikhe"
+  },
+  {
+   "id": "Q1444561",
+   "name": "Kolkheti National Park",
+   "sl": 28,
+   "file": "Kolkheti National Park, Western Georgia, Sept. 2017.jpg",
+   "lat": 42.1108,
+   "lon": 41.6961,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kolkheti National Park"
+  },
+  {
+   "id": "Q944813",
+   "name": "Gonio",
+   "sl": 27,
+   "file": "Castle of Gonio.2.jpg",
+   "lat": 41.5731,
+   "lon": 41.5736,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castrum",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gonio Fortress"
+  },
+  {
+   "id": "Q2371265",
+   "name": "Lisi Lake",
+   "sl": 27,
+   "file": "2024-05-23 Lisi Lake 6.jpg",
+   "lat": 41.7441,
+   "lon": 44.7347,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lisi Lake"
+  },
+  {
+   "id": "Q1535913",
+   "name": "Mikheil Meskhi Stadium",
+   "sl": 27,
+   "file": "Mikhain Meskhi Stadium 2024.jpg",
+   "lat": 41.7096,
+   "lon": 44.7462,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mikheil Meskhi Stadium"
+  },
+  {
+   "id": "Q2562904",
+   "name": "Museum of Soviet Occupation",
+   "sl": 27,
+   "file": "Museum of the Soviet Occupation in Tbilisi.jpg",
+   "lat": 41.6958,
+   "lon": 44.8004,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Soviet Occupation, Tbilisi"
+  },
+  {
+   "id": "Q627095",
+   "name": "Pankisi Gorge",
+   "sl": 27,
+   "file": "Pankisi Gorge and Alazani Plain as seen from Tbatani.jpg",
+   "lat": 42.1167,
+   "lon": 45.2667,
+   "kind": "natural",
+   "types": [
+    "canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pankisi Gorge"
+  },
+  {
+   "id": "Q2917500",
+   "name": "Poti Sea Port",
+   "sl": 27,
+   "file": "POTI.JPG",
+   "lat": 42.1589,
+   "lon": 41.6583,
+   "kind": "both",
+   "types": [
+    "juridical person",
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Poti"
+  },
+  {
+   "id": "Q2600596",
+   "name": "Ananuri",
+   "sl": 26,
+   "file": "Ananuri Fortress 02.jpg",
+   "lat": 42.1636,
+   "lon": 44.7039,
+   "kind": "built",
+   "types": [
+    "castle",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ananuri"
+  },
+  {
+   "id": "Q2586798",
+   "name": "Georgian National Museum",
+   "sl": 26,
+   "file": "Museum of the Soviet Occupation in Tbilisi.jpg",
+   "lat": 41.696,
+   "lon": 44.8003,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Georgian National Museum"
+  },
+  {
+   "id": "Q421825",
+   "name": "Kartsakhi Lake",
+   "sl": 26,
+   "file": "კარწახი.jpg",
+   "lat": 41.2147,
+   "lon": 43.2147,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TR"
+   ],
+   "cat": "Lake Kartsakhi"
+  },
+  {
+   "id": "Q1802388",
+   "name": "Nikortsminda Cathedral",
+   "sl": 26,
+   "file": "Nikortsminda3.jpg",
+   "lat": 42.4594,
+   "lon": 43.0879,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nikortsminda Cathedral"
+  },
+  {
+   "id": "Q2038190",
+   "name": "Samtavro Monastery",
+   "sl": 25,
+   "file": "Mtshketa, Samtavro Kerk.jpg",
+   "lat": 41.8463,
+   "lon": 44.7183,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16946829",
+    "name": "Historical Monuments of Mtskheta"
+   },
+   "also": [],
+   "cat": "Samtavro Monastery"
+  },
+  {
+   "id": "Q46605456",
+   "name": "Veryovkina Cave",
+   "sl": 25,
+   "file": "Veryovkina cave. Babatunda pit.jpg",
+   "lat": 43.3961,
+   "lon": 40.3536,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Veryovkina Cave"
+  },
+  {
+   "id": "Q1749204",
+   "name": "Alaverdi Monastery",
+   "sl": 24,
+   "file": "Alaverdi Monastery, Kakheti, Georgia.jpg",
+   "lat": 42.0325,
+   "lon": 45.3771,
+   "kind": "built",
+   "types": [
+    "eastern orthodox monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alaverdi Monastery, Kakheti"
+  },
+  {
+   "id": "Q1280770",
+   "name": "Armaztsikhe",
+   "sl": 24,
+   "file": "Georgia Armazi IMG 9223 2050.jpg",
+   "lat": 41.8376,
+   "lon": 44.7217,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Armaztsikhe"
+  },
+  {
+   "id": "Q27574",
+   "name": "Bridge of Peace",
+   "sl": 24,
+   "file": "Tbilisi Peace Bridge and Kura River by Falco.jpg",
+   "lat": 41.693,
+   "lon": 44.8083,
+   "kind": "built",
+   "types": [
+    "deck arch bridge",
+    "footbridge",
+    "through arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peace Bridge, Tbilisi"
+  },
+  {
+   "id": "Q1906201",
+   "name": "Lake Paliastomi",
+   "sl": 24,
+   "file": "Paliastomi.jpg",
+   "lat": 42.1231,
+   "lon": 41.7298,
+   "kind": "natural",
+   "types": [
+    "liman"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paliastomi"
+  },
+  {
+   "id": "Q2255725",
+   "name": "Pitsunda Cathedral",
+   "sl": 24,
+   "file": "2014 Picunda, Sobór św. Andrzeja (07).jpg",
+   "lat": 43.1599,
+   "lon": 40.339,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pitsunda Cathedral"
+  },
+  {
+   "id": "Q16534749",
+   "name": "Rabati Castle",
+   "sl": 24,
+   "file": "Akhalcikhe, old city general view.jpg",
+   "lat": 41.6429,
+   "lon": 42.9782,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rabati fortress"
+  },
+  {
+   "id": "Q1269808",
+   "name": "Samtavisi Cathedral",
+   "sl": 24,
+   "file": "SamtavisiCathedral.jpg",
+   "lat": 42.0061,
+   "lon": 44.4092,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samtavisi Cathedral"
+  },
+  {
+   "id": "Q1754726",
+   "name": "Shota Rustaveli Avenue",
+   "sl": 24,
+   "file": "Rustaveli theatre.jpg",
+   "lat": 41.6985,
+   "lon": 44.7983,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shota Rustaveli Avenue, Tbilisi"
+  },
+  {
+   "id": "Q1899389",
+   "name": "Tbilisi Reservoir",
+   "sl": 24,
+   "file": "2023-12-26 Tbilisi Sea seen from The Chronicle of Georgia 1.jpg",
+   "lat": 41.7494,
+   "lon": 44.8456,
+   "kind": "both",
+   "types": [
+    "artificial lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tbilisi sea"
+  },
+  {
+   "id": "Q1474801",
+   "name": "Turtle Lake",
+   "sl": 24,
+   "file": "Kus tba (კუს ტბა).jpg",
+   "lat": 41.7003,
+   "lon": 44.7542,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Turtle Lake, Tbilisi"
+  },
+  {
+   "id": "Q2097137",
+   "name": "Vashlovani National Park",
+   "sl": 24,
+   "file": "Usakhelo Viewpoint in Vashlovani NP.jpg",
+   "lat": 41.2,
+   "lon": 46.3833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vashlovani State Reserve"
+  },
+  {
+   "id": "Q2028327",
+   "name": "Art Museum of Georgia",
+   "sl": 23,
+   "file": "Image-Tbilisi XIXc 05.jpg",
+   "lat": 41.697,
+   "lon": 44.8007,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Art Museum of Georgia"
+  },
+  {
+   "id": "Q4873358",
+   "name": "Batumi Stadium",
+   "sl": 23,
+   "file": "Dinamo Batumi vs. Bate Belarus.jpg",
+   "lat": 41.6353,
+   "lon": 41.6192,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Batumi Stadium"
+  },
+  {
+   "id": "Q42202",
+   "name": "New Athos Cave",
+   "sl": 23,
+   "file": "New Athos cave (3338661608).jpg",
+   "lat": 43.0906,
+   "lon": 40.81,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "New Athos Cave"
+  },
+  {
+   "id": "Q3645592",
+   "name": "Algeti National Park",
+   "sl": 22,
+   "file": "Algeti National Park (14 October 2007). 009.jpg",
+   "lat": 41.7216,
+   "lon": 44.3023,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Algeti National Park"
+  },
+  {
+   "id": "Q642366",
+   "name": "Bodbe Monastery",
+   "sl": 22,
+   "file": "Bodbe Monastery.JPG",
+   "lat": 41.6068,
+   "lon": 45.9331,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bodbe Monastery, Sighnaghi"
+  },
+  {
+   "id": "Q3610430",
+   "name": "Dadiani Palaces Historical and Architectural Museum",
+   "sl": 22,
+   "file": "ზუგდიდის დადიანების სასახლე და მუზეუმი.jpg",
+   "lat": 42.5122,
+   "lon": 41.8742,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dadiani Palaces Museum"
+  },
+  {
+   "id": "Q2511710",
+   "name": "Red Bridge",
+   "sl": 22,
+   "file": "Red bridge.jpg",
+   "lat": 41.3292,
+   "lon": 45.0731,
+   "kind": "built",
+   "types": [
+    "international bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AZ"
+   ],
+   "cat": "Red Bridge (Georgia-Azerbaijan)"
+  },
+  {
+   "id": "Q2388278",
+   "name": "Tetnuldi",
+   "sl": 22,
+   "file": "Tetnuldi (14511481627).jpg",
+   "lat": 43.0314,
+   "lon": 42.9931,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tetnuldi"
+  },
+  {
+   "id": "Q894643",
+   "name": "Batumi Botanical Garden",
+   "sl": 21,
+   "file": "Botanic Garden of Batumi.jpg",
+   "lat": 41.6927,
+   "lon": 41.7198,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Botanical Garden, Batumi"
+  },
+  {
+   "id": "Q3026890",
+   "name": "Didi Abuli",
+   "sl": 21,
+   "file": "Mt Didi Abuli (view from south).jpg",
+   "lat": 41.4381,
+   "lon": 43.6458,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Didi Abuli"
+  },
+  {
+   "id": "Q1734896",
+   "name": "Kashveti Church",
+   "sl": 21,
+   "file": "Kashveti1-2.jpg",
+   "lat": 41.698,
+   "lon": 44.7993,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kashveti Church"
+  },
+  {
+   "id": "Q2344182",
+   "name": "Katskhi Pillar",
+   "sl": 21,
+   "file": "Katskhi column. (Photo A. Muhranoff)-1.jpg",
+   "lat": 42.2876,
+   "lon": 43.2157,
+   "kind": "natural",
+   "types": [
+    "monolith"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katskhi pillar"
+  },
+  {
+   "id": "Q2478899",
+   "name": "Khertvisi",
+   "sl": 21,
+   "file": "Kelyje link Akhaltsikheės.jpg",
+   "lat": 41.4796,
+   "lon": 43.2857,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khertvisi fortress"
+  },
+  {
+   "id": "Q18822753",
+   "name": "Alphabetic Tower",
+   "sl": 20,
+   "file": "Alphabet Tower, Batumi.jpg",
+   "lat": 41.6559,
+   "lon": 41.6394,
+   "kind": "built",
+   "types": [
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alphabetic Tower"
+  },
+  {
+   "id": "Q1783374",
+   "name": "Gremi",
+   "sl": 20,
+   "file": "Gremi Kakheti01.jpg",
+   "lat": 42.0136,
+   "lon": 45.6703,
+   "kind": "built",
+   "types": [
+    "citadel",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gremi"
+  },
+  {
+   "id": "Q1777686",
+   "name": "Kvetera Church",
+   "sl": 20,
+   "file": "Akhmeta, Kvetera 13.jpg",
+   "lat": 42.0561,
+   "lon": 45.0994,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kvetera"
+  },
+  {
+   "id": "Q2586542",
+   "name": "Nokalakevi",
+   "sl": 20,
+   "file": "Nokalakevi Church.jpg",
+   "lat": 42.3572,
+   "lon": 42.1939,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nokalakevi"
+  },
+  {
+   "id": "Q3647379",
+   "name": "Prometheus Cave",
+   "sl": 20,
+   "file": "Kumistavi Cave - uphill view.jpg",
+   "lat": 42.3769,
+   "lon": 42.6005,
+   "kind": "both",
+   "types": [
+    "show cave",
+    "solutional cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kumistavi cave"
+  },
+  {
+   "id": "Q3215172",
+   "name": "Saghamo Lake",
+   "sl": 20,
+   "file": "Saghamo Lake, Javakheti Upland, Georgia (1).jpg",
+   "lat": 41.3053,
+   "lon": 43.7414,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saghamo Lake"
+  },
+  {
+   "id": "Q2899707",
+   "name": "Simon Janashia Museum of Georgia",
+   "sl": 20,
+   "file": "Rustaveli museum.jpg",
+   "lat": 41.6961,
+   "lon": 44.8003,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Simon Janashia Museum of Georgia"
+  },
+  {
+   "id": "Q1341835",
+   "name": "Tbilisi Central Station",
+   "sl": 20,
+   "file": "Tbilisi railway station june 2010.jpg",
+   "lat": 41.7233,
+   "lon": 44.7978,
+   "kind": "built",
+   "types": [
+    "central station",
+    "interchange station",
+    "last station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tbilisi Central Station"
+  },
+  {
+   "id": "Q277145",
+   "name": "Tbilisi National Park",
+   "sl": 20,
+   "file": "Tbilisi national park from Mtskheta.jpg",
+   "lat": 41.8667,
+   "lon": 44.9333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tbilisi National Park"
+  },
+  {
+   "id": "Q1407344",
+   "name": "Tbilisi TV Broadcasting Tower",
+   "sl": 20,
+   "file": "Mt Mtats'minda, Tbilisi, Georgia (view from Metekhi cliff).JPG",
+   "lat": 41.6958,
+   "lon": 44.7847,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tbilisi TV Broadcasting Tower"
+  },
+  {
+   "id": "Q12132935",
+   "name": "Tusheti National Park",
+   "sl": 20,
+   "file": "Tushethi5.jpg",
+   "lat": 42.41,
+   "lon": 45.4869,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tusheti National Park"
+  },
+  {
+   "id": "Q609419",
+   "name": "Anchiskhati Basilica",
+   "sl": 19,
+   "file": "Anchischati, 1890.jpg",
+   "lat": 41.6954,
+   "lon": 44.8068,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anchiskhati Basilica"
+  },
+  {
+   "id": "Q247960",
+   "name": "Ateni Sioni Church",
+   "sl": 19,
+   "file": "Ateni Sioni2.JPG",
+   "lat": 41.9043,
+   "lon": 44.0955,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ateni Sioni Church"
+  },
+  {
+   "id": "Q3906385",
+   "name": "Batumi Mosque",
+   "sl": 19,
+   "file": "Batumi Mosque.jpg",
+   "lat": 41.6487,
+   "lon": 41.6439,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Batumi Mosque"
+  },
+  {
+   "id": "Q107694185",
+   "name": "Colchic Rainforests and Wetlands",
+   "sl": 19,
+   "file": "Kolkheti National Park21.jpg",
+   "lat": 41.7022,
+   "lon": 41.9511,
+   "kind": "",
+   "types": [
+    "group of protected areas",
+    "natural geographic entity"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Euxine-Colchic broadleaf forests"
+  },
+  {
+   "id": "Q2028348",
+   "name": "Geguti",
+   "sl": 19,
+   "file": "Geguti.jpg",
+   "lat": 42.1911,
+   "lon": 42.6908,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "palace",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Geguti palace"
+  },
+  {
+   "id": "Q1951559",
+   "name": "Mtirala National Park",
+   "sl": 19,
+   "file": "Waterfall in Mtirala National Park.JPG",
+   "lat": 41.6842,
+   "lon": 41.8599,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q107694185",
+    "name": "Colchic Rainforests and Wetlands"
+   },
+   "also": [],
+   "cat": "Mtirala National Park"
+  }
+ ]
+}

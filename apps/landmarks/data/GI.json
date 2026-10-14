@@ -1,0 +1,403 @@
+{
+ "country": "GI",
+ "items": [
+  {
+   "id": "Q501083",
+   "name": "Gibraltar International Airport",
+   "sl": 47,
+   "file": "Gibraltar airport.JPG",
+   "lat": 36.1511,
+   "lon": -5.3497,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gibraltar Airport"
+  },
+  {
+   "id": "Q690347",
+   "name": "Rock of Gibraltar",
+   "sl": 46,
+   "file": "Rock of Gibraltar northwest.jpg",
+   "lat": 36.1258,
+   "lon": -5.3431,
+   "kind": "natural",
+   "types": [
+    "promontory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock of Gibraltar"
+  },
+  {
+   "id": "Q1355749",
+   "name": "Gorham's Cave",
+   "sl": 37,
+   "file": "Gorham's Cave.jpg",
+   "lat": 36.1208,
+   "lon": -5.3424,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "sea cave"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q60346199",
+    "name": "Gorham's Cave complex"
+   },
+   "also": [],
+   "cat": "Gorham's Cave"
+  },
+  {
+   "id": "Q1356809",
+   "name": "Ibrahim-al-Ibrahim Mosque",
+   "sl": 32,
+   "file": "Abdulaziz Mosque Gibraltar.jpg",
+   "lat": 36.1119,
+   "lon": -5.3456,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ibrahim-al-Ibrahim Mosque"
+  },
+  {
+   "id": "Q1579655",
+   "name": "Victoria Stadium",
+   "sl": 29,
+   "file": "Victoria Stadium (Gibraltar).jpg",
+   "lat": 36.1494,
+   "lon": -5.3503,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Victoria Stadium"
+  },
+  {
+   "id": "Q658246",
+   "name": "Europa Point",
+   "sl": 23,
+   "file": "Gibraltar-Europa-Point-LH-from-the-sea.jpg",
+   "lat": 36.1096,
+   "lon": -5.3463,
+   "kind": "natural",
+   "types": [
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Europa Point"
+  },
+  {
+   "id": "Q249047",
+   "name": "Moorish Castle",
+   "sl": 23,
+   "file": "The Moorish Castle.jpg",
+   "lat": 36.1439,
+   "lon": -5.35,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moorish Castle, Gibraltar"
+  },
+  {
+   "id": "Q583655",
+   "name": "St. Michael's Cave",
+   "sl": 19,
+   "file": "St Michaels cave2.jpg",
+   "lat": 36.1259,
+   "lon": -5.3465,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Michael's Cave"
+  },
+  {
+   "id": "Q651123",
+   "name": "Cathedral of St. Mary the Crowned",
+   "sl": 18,
+   "file": "Cathedral of St. Mary the Crowned west.jpg",
+   "lat": 36.1397,
+   "lon": -5.3537,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of St. Mary the Crowned, Gibraltar"
+  },
+  {
+   "id": "Q130775",
+   "name": "Gibraltar Museum",
+   "sl": 16,
+   "file": "Bomb House.jpg",
+   "lat": 36.139,
+   "lon": -5.3544,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gibraltar Museum"
+  },
+  {
+   "id": "Q942338",
+   "name": "Great Synagogue (Gibraltar)",
+   "sl": 16,
+   "file": "Door of the Great Synagogue, Gibraltar.jpg",
+   "lat": 36.1418,
+   "lon": -5.3525,
+   "kind": "built",
+   "types": [
+    "main synagogue",
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Synagogue, Gibraltar"
+  },
+  {
+   "id": "Q327543",
+   "name": "The Convent",
+   "sl": 15,
+   "file": "The Convent (Gibraltar).JPG",
+   "lat": 36.1371,
+   "lon": -5.3535,
+   "kind": "built",
+   "types": [
+    "official residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Convent, Gibraltar"
+  },
+  {
+   "id": "Q15946460",
+   "name": "Europa Sports Park",
+   "sl": 14,
+   "file": "Europa Point 2.jpg",
+   "lat": 36.1107,
+   "lon": -5.3467,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Europa Sports Park"
+  },
+  {
+   "id": "Q93896",
+   "name": "Cathedral of the Holy Trinity",
+   "sl": 13,
+   "file": "Cathedral of the Holy Trinity.jpg",
+   "lat": 36.1382,
+   "lon": -5.3541,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of the Holy Trinity, Gibraltar"
+  },
+  {
+   "id": "Q24433",
+   "name": "Gibraltar Botanic Gardens",
+   "sl": 13,
+   "file": "1a4.jpg",
+   "lat": 36.1313,
+   "lon": -5.3511,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gibraltar Botanic Gardens"
+  },
+  {
+   "id": "Q94837",
+   "name": "Gibraltar City Hall",
+   "sl": 13,
+   "file": "Gibraltar City Hall 01.jpg",
+   "lat": 36.1409,
+   "lon": -5.3545,
+   "kind": "built",
+   "types": [
+    "city hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "City Hall (Gibraltar)"
+  },
+  {
+   "id": "Q182528",
+   "name": "Catalan Bay",
+   "sl": 12,
+   "file": "Catalan Bay.jpg",
+   "lat": 36.1388,
+   "lon": -5.3413,
+   "kind": "built",
+   "types": [
+    "fishing village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catalan Bay"
+  },
+  {
+   "id": "Q631064",
+   "name": "Garrison Library",
+   "sl": 12,
+   "file": "Garrison Library, Gibraltar 17.jpg",
+   "lat": 36.139,
+   "lon": -5.3521,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "library",
+    "public library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Garrison Library, Gibraltar"
+  },
+  {
+   "id": "Q41321",
+   "name": "John Mackintosh Square",
+   "sl": 11,
+   "file": "View of John Mackintosh Square, Gibraltar.jpg",
+   "lat": 36.1408,
+   "lon": -5.3542,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "John Mackintosh Square"
+  },
+  {
+   "id": "Q3739779",
+   "name": "Europa Point Lighthouse",
+   "sl": 10,
+   "file": "Europa Point Lighthouse and cottages.jpg",
+   "lat": 36.1096,
+   "lon": -5.3448,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Europa Point Lighthouse"
+  },
+  {
+   "id": "Q5467217",
+   "name": "Forbes' Quarry",
+   "sl": 9,
+   "file": "Forbes' Quarry 2.jpg",
+   "lat": 36.1467,
+   "lon": -5.3466,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Forbes' Quarry"
+  },
+  {
+   "id": "Q1042622",
+   "name": "Main Street",
+   "sl": 9,
+   "file": "Main Street Gibraltar.JPG",
+   "lat": 36.1397,
+   "lon": -5.3538,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Main Street, Gibraltar"
+  },
+  {
+   "id": "Q3405335",
+   "name": "Vanguard Cave",
+   "sl": 9,
+   "file": "SQ Vanguard Cave.jpg",
+   "lat": 36.1204,
+   "lon": -5.3421,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q60346199",
+    "name": "Gorham's Cave complex"
+   },
+   "also": [],
+   "cat": "Vanguard Cave"
+  },
+  {
+   "id": "Q43318",
+   "name": "Shrine of Our Lady of Europe",
+   "sl": 8,
+   "file": "Shrine of Our Lady of Europe in Gibraltar (3).jpg",
+   "lat": 36.1113,
+   "lon": -5.3483,
+   "kind": "built",
+   "types": [
+    "Catholic parish church",
+    "national shrine",
+    "shrine of Our Lady"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shrine of Our Lady of Europe"
+  }
+ ]
+}

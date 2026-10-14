@@ -1,0 +1,1354 @@
+{
+ "country": "KE",
+ "items": [
+  {
+   "id": "Q5505",
+   "name": "Lake Victoria",
+   "sl": 162,
+   "file": "Getting out to fish at dusk.jpg",
+   "lat": -1,
+   "lon": 33,
+   "kind": "natural",
+   "types": [
+    "freshwater lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TZ",
+    "UG"
+   ],
+   "cat": "Lake Victoria"
+  },
+  {
+   "id": "Q172070",
+   "name": "Mount Kenya",
+   "sl": 89,
+   "file": "Mount kenya.JPG",
+   "lat": -0.1,
+   "lon": 37.2,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Kenya"
+  },
+  {
+   "id": "Q182719",
+   "name": "Lake Turkana",
+   "sl": 85,
+   "file": "LakeTurkanaSouthIsland.jpg",
+   "lat": 4.05,
+   "lon": 36.0167,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "salt lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1647948",
+    "name": "Lake Turkana National Parks"
+   },
+   "also": [
+    "ET"
+   ],
+   "cat": "Lake Turkana"
+  },
+  {
+   "id": "Q207724",
+   "name": "Masai Mara",
+   "sl": 57,
+   "file": "Mara River Massai Mara.jpg",
+   "lat": -1.49,
+   "lon": 35.14,
+   "kind": "natural",
+   "types": [
+    "protected area of Kenya"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masai Mara"
+  },
+  {
+   "id": "Q206349",
+   "name": "Jomo Kenyatta International Airport",
+   "sl": 50,
+   "file": "Jomo Kenyatta International Airport (JKIA).jpg",
+   "lat": -1.3192,
+   "lon": 36.9275,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jomo Kenyatta International Airport"
+  },
+  {
+   "id": "Q379080",
+   "name": "Fort Jesus Museum",
+   "sl": 48,
+   "file": "Fort Jesus, Mombasa1.jpg",
+   "lat": -4.0712,
+   "lon": 39.6821,
+   "kind": "both",
+   "types": [
+    "fort",
+    "historic landmark",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Jesus"
+  },
+  {
+   "id": "Q1639468",
+   "name": "Mount Kenya National Park",
+   "sl": 45,
+   "file": "Mount Kenya and the Gregory Glacier.jpg",
+   "lat": -0.1239,
+   "lon": 37.3367,
+   "kind": "natural",
+   "types": [
+    "Man and the Biosphere Programme",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Kenya National Park"
+  },
+  {
+   "id": "Q849508",
+   "name": "Lake Nakuru",
+   "sl": 44,
+   "file": "Overview lakenakuru.jpg",
+   "lat": -0.3667,
+   "lon": 36.0833,
+   "kind": "natural",
+   "types": [
+    "soda lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2384313",
+    "name": "Kenya Lake System in the Great Rift Valley"
+   },
+   "also": [],
+   "cat": "Lake Nakuru"
+  },
+  {
+   "id": "Q732838",
+   "name": "Mount Elgon",
+   "sl": 44,
+   "file": "Mount elgon topo.jpg",
+   "lat": 1.1185,
+   "lon": 34.5265,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UG"
+   ],
+   "cat": "Mount Elgon"
+  },
+  {
+   "id": "Q458423",
+   "name": "Amboseli National Park",
+   "sl": 42,
+   "file": "Elephants Kili 2.jpg",
+   "lat": -2.65,
+   "lon": 37.25,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amboseli National Park"
+  },
+  {
+   "id": "Q739993",
+   "name": "Nairobi National Park",
+   "sl": 42,
+   "file": "A lone giraffe in Nairobi National Park.jpg",
+   "lat": -1.3733,
+   "lon": 36.8589,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nairobi National Park"
+  },
+  {
+   "id": "Q790453",
+   "name": "Lake Baringo",
+   "sl": 41,
+   "file": "Dead tree in Lake Baringo, Kenya - by Ferdinand Reus.jpg",
+   "lat": 0.6333,
+   "lon": 36.0833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Baringo"
+  },
+  {
+   "id": "Q1365115",
+   "name": "Lake Naivasha",
+   "sl": 41,
+   "file": "Birds at Lake Naivasha (300261994).jpg",
+   "lat": -0.7685,
+   "lon": 36.3506,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Naivasha"
+  },
+  {
+   "id": "Q890651",
+   "name": "Lake Bogoria",
+   "sl": 39,
+   "file": "Lake Bogoria 2011.jpg",
+   "lat": 0.25,
+   "lon": 36.1,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "meromictic lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2384313",
+    "name": "Kenya Lake System in the Great Rift Valley"
+   },
+   "also": [],
+   "cat": "Lake Bogoria"
+  },
+  {
+   "id": "Q1774690",
+   "name": "Chalbi Desert",
+   "sl": 37,
+   "file": "Chalbi Desert Panorama.jpg",
+   "lat": 3.0317,
+   "lon": 37.3475,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chalbi Desert"
+  },
+  {
+   "id": "Q517633",
+   "name": "Lake Elmenteita",
+   "sl": 34,
+   "file": "Elementaita1.jpg",
+   "lat": -0.446,
+   "lon": 36.244,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2384313",
+    "name": "Kenya Lake System in the Great Rift Valley"
+   },
+   "also": [],
+   "cat": "Elementaita"
+  },
+  {
+   "id": "Q1362222",
+   "name": "Sacred Mijikenda Kaya Forests",
+   "sl": 33,
+   "file": "Kaya-skog.jpg",
+   "lat": -3.9319,
+   "lon": 39.5961,
+   "kind": "",
+   "types": [
+    "forest",
+    "sacred grove"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sacred Mijikenda Kaya Forests"
+  },
+  {
+   "id": "Q1135655",
+   "name": "Lake Magadi",
+   "sl": 31,
+   "file": "LakeMagadi.png",
+   "lat": -1.8667,
+   "lon": 36.2667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Magadi"
+  },
+  {
+   "id": "Q319356",
+   "name": "Aberdare National Park",
+   "sl": 30,
+   "file": "Aberdare gate.JPG",
+   "lat": -0.38,
+   "lon": 36.6992,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aberdare National Park"
+  },
+  {
+   "id": "Q3524629",
+   "name": "Thimlich Ohinga",
+   "sl": 28,
+   "file": "Thimlich Ohinga Cultural Landscape- Kenya.JPG",
+   "lat": -0.8913,
+   "lon": 34.3261,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Thimlich Ohinga"
+  },
+  {
+   "id": "Q2384313",
+   "name": "Kenya Lake System in the Great Rift Valley",
+   "sl": 27,
+   "file": "LakeBogoria.jpg",
+   "lat": 0.4425,
+   "lon": 36.24,
+   "kind": "natural",
+   "types": [
+    "depression",
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kenya lake system in the Great Rift Valley"
+  },
+  {
+   "id": "Q392784",
+   "name": "Moi International Airport",
+   "sl": 26,
+   "file": "Moi International Airport terminal building, 2025 (01).jpg",
+   "lat": -4.0347,
+   "lon": 39.5942,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moi International Airport"
+  },
+  {
+   "id": "Q1368818",
+   "name": "Tsavo East National Park",
+   "sl": 26,
+   "file": "TsavoGate67.jpg",
+   "lat": -2.7786,
+   "lon": 38.7717,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsavo East National Park"
+  },
+  {
+   "id": "Q1603133",
+   "name": "Hell's Gate National Park",
+   "sl": 25,
+   "file": "Hellsgate.jpg",
+   "lat": -0.8754,
+   "lon": 36.3191,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hell's Gate National Park (Kenya)"
+  },
+  {
+   "id": "Q542168",
+   "name": "Pate Island",
+   "sl": 24,
+   "file": "Siyu Fort, Pate Island.jpg",
+   "lat": -2.1,
+   "lon": 41.05,
+   "kind": "natural",
+   "types": [
+    "historical country",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pate Island"
+  },
+  {
+   "id": "Q502518",
+   "name": "Ruins of Gedi",
+   "sl": 24,
+   "file": "Great Mosque of Gede.jpg",
+   "lat": -3.3092,
+   "lon": 40.0167,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ruins of Gedi"
+  },
+  {
+   "id": "Q1672337",
+   "name": "Menengai",
+   "sl": 23,
+   "file": "Menengai crater,Nakuru kenya.jpg",
+   "lat": -0.2,
+   "lon": 36.0667,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Menengai Crater"
+  },
+  {
+   "id": "Q958964",
+   "name": "Mount Homa",
+   "sl": 23,
+   "file": "MountHoma.jpg",
+   "lat": -0.38,
+   "lon": 34.5,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Homa mountain"
+  },
+  {
+   "id": "Q1209035",
+   "name": "Diani Beach",
+   "sl": 22,
+   "file": "Diani Beach 02.jpg",
+   "lat": -4.3222,
+   "lon": 39.575,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Diani Beach"
+  },
+  {
+   "id": "Q1968136",
+   "name": "Koobi Fora",
+   "sl": 22,
+   "file": "National Museums of Kenya Koobi Fora Hq.jpg",
+   "lat": 3.9478,
+   "lon": 36.1872,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Koobi Fora"
+  },
+  {
+   "id": "Q1397614",
+   "name": "Kakamega Forest",
+   "sl": 21,
+   "file": "KakamegaForest.jpg",
+   "lat": 0.2668,
+   "lon": 34.8944,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "protected area of Kenya"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kakamega Forest National Reserve"
+  },
+  {
+   "id": "Q1755551",
+   "name": "Meru National Park",
+   "sl": 21,
+   "file": "Mt Meru.jpg",
+   "lat": -0.0936,
+   "lon": 38.2081,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Meru National Park"
+  },
+  {
+   "id": "Q1258402",
+   "name": "Eldoret International Airport",
+   "sl": 20,
+   "file": "Main lounge at Eldoret International Airport.jpg",
+   "lat": 0.4044,
+   "lon": 35.2389,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eldoret International Airport"
+  },
+  {
+   "id": "Q662811",
+   "name": "Lake Chew Bahir",
+   "sl": 20,
+   "file": "Lake Chew Bahir 2021-01-31 Sentinel-2 L2A True color(1).jpg",
+   "lat": 4.6867,
+   "lon": 36.8517,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ET"
+   ],
+   "cat": "Lake Chew Bahir"
+  },
+  {
+   "id": "Q783117",
+   "name": "Lamu Island",
+   "sl": 20,
+   "file": "Boat Limousine in Lamu Island Kenya.jpg",
+   "lat": -2.2833,
+   "lon": 40.8667,
+   "kind": "natural",
+   "types": [
+    "car-free place",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1273335",
+   "name": "Mount Elgon National Park",
+   "sl": 20,
+   "file": "Mount Elgon Forest.jpg",
+   "lat": 1.1333,
+   "lon": 34.5833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UG"
+   ],
+   "cat": "Mount Elgon National Park"
+  },
+  {
+   "id": "Q624443",
+   "name": "Arabuko Sokoke National Park",
+   "sl": 19,
+   "file": "The road in Arabuko Sokoke Forest - panoramio.jpg",
+   "lat": -3.2667,
+   "lon": 39.8167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arabuko Sokoke Forest Reserve"
+  },
+  {
+   "id": "Q3272625",
+   "name": "Kenyatta International Convention Centre",
+   "sl": 19,
+   "file": "KICC nairobi kenya.jpg",
+   "lat": -1.2886,
+   "lon": 36.8231,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kenyatta International Conference Centre"
+  },
+  {
+   "id": "Q1431734",
+   "name": "Kisumu International Airport",
+   "sl": 19,
+   "file": "Kisumu Airport (8373856262).jpg",
+   "lat": -0.0861,
+   "lon": 34.7289,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kisumu Airport"
+  },
+  {
+   "id": "Q3330879",
+   "name": "National Museums of Kenya",
+   "sl": 19,
+   "file": "Gourds used as decorations in the National Museum of Kenya.jpg",
+   "lat": -1.2739,
+   "lon": 36.815,
+   "kind": "built",
+   "types": [
+    "national museum",
+    "organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National museums of Kenya"
+  },
+  {
+   "id": "Q2032704",
+   "name": "Saadani National Park",
+   "sl": 19,
+   "file": "Saadani National Park road.jpg",
+   "lat": -6,
+   "lon": 38.75,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TZ"
+   ],
+   "cat": "Saadani National Park"
+  },
+  {
+   "id": "Q1817380",
+   "name": "Samburu National Reserve",
+   "sl": 19,
+   "file": "Reserve samburu faune 2.jpg",
+   "lat": 0.6167,
+   "lon": 37.5333,
+   "kind": "natural",
+   "types": [
+    "game reserve",
+    "protected area of Kenya"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samburu National Reserve"
+  },
+  {
+   "id": "Q1049288",
+   "name": "Wilson Airport",
+   "sl": 19,
+   "file": "Aerial view of Wilson Airport Nairobi.jpg",
+   "lat": -1.3217,
+   "lon": 36.8148,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wilson Airport"
+  },
+  {
+   "id": "Q1059382",
+   "name": "Lake Chala",
+   "sl": 18,
+   "file": "Lake Chala.jpg",
+   "lat": -3.3167,
+   "lon": 37.7,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TZ"
+   ],
+   "cat": "Lake Chala"
+  },
+  {
+   "id": "Q1106320",
+   "name": "Mount Marsabit",
+   "sl": 18,
+   "file": "Marsabit.jpg",
+   "lat": 2.3167,
+   "lon": 37.9667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Marsabit"
+  },
+  {
+   "id": "Q1692082",
+   "name": "Taita Hills",
+   "sl": 18,
+   "file": "Kasigau197.JPG",
+   "lat": -3.417,
+   "lon": 38.33,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5118629",
+   "name": "Chyulu Hills",
+   "sl": 17,
+   "file": "Tsavo West National Park, Kenya (53493414096).jpg",
+   "lat": -2.6,
+   "lon": 37.85,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area of Kenya"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chyulu Hills"
+  },
+  {
+   "id": "Q313071",
+   "name": "Lake Nakuru National Park",
+   "sl": 17,
+   "file": "Flamingoes-Lake Nakuru.jpg",
+   "lat": -0.3667,
+   "lon": 36.0833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Nakuru National Park"
+  },
+  {
+   "id": "Q1385710",
+   "name": "Moi International Sports Centre",
+   "sl": 17,
+   "file": "A few minutes before the match, Kasarani, Nairobi.jpg",
+   "lat": -1.2281,
+   "lon": 36.8906,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium",
+    "pitch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moi International Sports Centre"
+  },
+  {
+   "id": "Q1636810",
+   "name": "Saiwa Swamp National Park",
+   "sl": 17,
+   "file": "Sitatoenga.jpg",
+   "lat": 1.1,
+   "lon": 35.1167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saiwa Swamp National Park"
+  },
+  {
+   "id": "Q1602738",
+   "name": "Tsavo West National Park",
+   "sl": 17,
+   "file": "TsavoDawn.jpg",
+   "lat": -3.3167,
+   "lon": 38.1333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsavo West National Park"
+  },
+  {
+   "id": "Q4451415",
+   "name": "Cathedral Basilica of the Holy Family",
+   "sl": 16,
+   "file": "Catholic church in Nairobi (3200378679).jpg",
+   "lat": -1.2869,
+   "lon": 36.8206,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Family basilica (Nairobi, Kenya)"
+  },
+  {
+   "id": "Q1101364",
+   "name": "Lake Jipe",
+   "sl": 16,
+   "file": "Lake Jipe.png",
+   "lat": -3.6069,
+   "lon": 37.7617,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TZ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3622751",
+   "name": "Mount Suswa",
+   "sl": 16,
+   "file": "Mount Suswa - Peak.jpg",
+   "lat": -1.0495,
+   "lon": 36.3335,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Suswa (volcano)"
+  },
+  {
+   "id": "Q2748822",
+   "name": "Thomson's Falls",
+   "sl": 16,
+   "file": "Thomson's Falls.jpg",
+   "lat": 0.0442,
+   "lon": 36.3703,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thompson Falls"
+  },
+  {
+   "id": "Q367631",
+   "name": "Karen Blixen Museum",
+   "sl": 15,
+   "file": "Karen Blixen House, Nairobi, Kenya (22288985045).jpg",
+   "lat": -1.3519,
+   "lon": 36.7125,
+   "kind": "built",
+   "types": [
+    "house",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karen Blixen museum, Nairobi, Kenya"
+  },
+  {
+   "id": "Q1784196",
+   "name": "Kora National Park",
+   "sl": 15,
+   "file": "DM-SD-02-04679.jpg",
+   "lat": -0.2086,
+   "lon": 38.7361,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6961318",
+   "name": "Namarunu",
+   "sl": 15,
+   "file": "Suguta ali 2011010 lrg.jpg",
+   "lat": 1.98,
+   "lon": 36.43,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Namarunu"
+  },
+  {
+   "id": "Q1001903",
+   "name": "Buffalo Springs National Reserve",
+   "sl": 14,
+   "file": "Buffalo Springs NP - panoramio.jpg",
+   "lat": 0.5483,
+   "lon": 37.595,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buffalo Springs National Park"
+  },
+  {
+   "id": "Q2289515",
+   "name": "Lokichogio Airport",
+   "sl": 14,
+   "file": "Lokichogio Airport Potters-1.jpg",
+   "lat": 4.2041,
+   "lon": 34.3472,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lokichogio Airport"
+  },
+  {
+   "id": "Q1516724",
+   "name": "Marsabit National Park",
+   "sl": 14,
+   "file": "Marsabit-Moyale Rd.jpg",
+   "lat": 2.3831,
+   "lon": 37.9831,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marsabit National Park"
+  },
+  {
+   "id": "Q611606",
+   "name": "Nairobi Railway Museum",
+   "sl": 14,
+   "file": "EAR 2401.jpg",
+   "lat": -1.2937,
+   "lon": 36.8222,
+   "kind": "built",
+   "types": [
+    "national museum",
+    "railway museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nairobi Railway Museum"
+  },
+  {
+   "id": "Q4179179",
+   "name": "Ol Doinyo Eburru",
+   "sl": 14,
+   "file": "Ututu.jpg",
+   "lat": -0.6489,
+   "lon": 36.1872,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ol Doinyo Eburru"
+  },
+  {
+   "id": "Q4179169",
+   "name": "Olkaria",
+   "sl": 14,
+   "file": "Workers at power plant in Olkaria Kenya.jpg",
+   "lat": -0.8857,
+   "lon": 36.27,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q622515",
+   "name": "Shimba Hills National Reserve",
+   "sl": 14,
+   "file": "Shimba Hill 03.JPG",
+   "lat": -4.2572,
+   "lon": 39.3878,
+   "kind": "natural",
+   "types": [
+    "protected area of Kenya"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shimba Hills National Reserve"
+  },
+  {
+   "id": "Q2270735",
+   "name": "Kilindini Harbour",
+   "sl": 13,
+   "file": "Port of Mombasa.jpg",
+   "lat": -4.0806,
+   "lon": 39.6667,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Mombasa"
+  },
+  {
+   "id": "Q19833854",
+   "name": "Lomekwi",
+   "sl": 13,
+   "file": "Lake turkana satellite.jpg",
+   "lat": 3.9108,
+   "lon": 35.8503,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2614363",
+   "name": "Malindi Airport",
+   "sl": 13,
+   "file": "View of terminal building at Malindi International Airport.jpg",
+   "lat": -3.2292,
+   "lon": 40.1017,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malindi International Airport"
+  },
+  {
+   "id": "Q6923490",
+   "name": "Mount Satima",
+   "sl": 13,
+   "file": "Oldoinyo Lesatima.jpg",
+   "lat": -0.3497,
+   "lon": 36.6167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6418650",
+   "name": "Kitum Cave",
+   "sl": 12,
+   "file": "KITUM - Entrance of Kitum Cave surrounded by montane forest, Kenya, 2012.jpg",
+   "lat": 1.0491,
+   "lon": 34.5802,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kitum Cave"
+  },
+  {
+   "id": "Q8526587",
+   "name": "Cherangany Hills",
+   "sl": 11,
+   "file": "Cherangani Hills-1.jpg",
+   "lat": 1.2517,
+   "lon": 35.4505,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cherangany Hills"
+  },
+  {
+   "id": "Q8527882",
+   "name": "Elmenteita Badlands",
+   "sl": 11,
+   "file": "AVA Elmenteita Badlands.jpg",
+   "lat": -0.5167,
+   "lon": 36.2667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elmenteita Badlands"
+  },
+  {
+   "id": "Q6666523",
+   "name": "Lodwar Airport",
+   "sl": 11,
+   "file": "Lodwar Airport Terminal Building in Turkana County Kenya.JPG",
+   "lat": 3.1222,
+   "lon": 35.61,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2415471",
+   "name": "Manda Airport",
+   "sl": 11,
+   "file": "Airkenya De Havilland Canada DHC-8-100 Dash 8 Potters-1.jpg",
+   "lat": -2.2523,
+   "lon": 40.9131,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2595707",
+   "name": "Nairobi National Museum",
+   "sl": 11,
+   "file": "At Nairobi National Museum 2025 005.jpg",
+   "lat": -1.274,
+   "lon": 36.8145,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nairobi National Museum"
+  },
+  {
+   "id": "Q1582845",
+   "name": "Nyayo National Stadium",
+   "sl": 11,
+   "file": "Nyayo stadium.jpg",
+   "lat": -1.3036,
+   "lon": 36.8242,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium",
+    "pitch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1549127",
+   "name": "Ruma National Park",
+   "sl": 11,
+   "file": "Girafe de Rostchild.jpg",
+   "lat": -0.6167,
+   "lon": 34.3167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4384864",
+   "name": "Times Tower",
+   "sl": 11,
+   "file": "Times tower.jpg",
+   "lat": -1.2903,
+   "lon": 36.8239,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Times Tower"
+  },
+  {
+   "id": "Q2277725",
+   "name": "Amboseli Airport",
+   "sl": 10,
+   "file": "Amboseli Airstrip 2017 02 crop.jpg",
+   "lat": -2.6358,
+   "lon": 37.2508,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amboseli Airport"
+  },
+  {
+   "id": "Q28223286",
+   "name": "Britam Tower",
+   "sl": 10,
+   "file": "Britam tower.jpg",
+   "lat": -1.3001,
+   "lon": 36.813,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Britam Tower"
+  }
+ ]
+}

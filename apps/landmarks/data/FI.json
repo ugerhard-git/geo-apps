@@ -1,0 +1,1379 @@
+{
+ "country": "FI",
+ "items": [
+  {
+   "id": "Q192770",
+   "name": "Saimaa",
+   "sl": 77,
+   "file": "Luonteri Neitvuori.jpg",
+   "lat": 61.25,
+   "lon": 28.25,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saimaa"
+  },
+  {
+   "id": "Q203137",
+   "name": "Lake Inari",
+   "sl": 61,
+   "file": "BoatInari1.jpg",
+   "lat": 68.9597,
+   "lon": 27.6017,
+   "kind": "both",
+   "types": [
+    "lake",
+    "lake or pond",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Inari"
+  },
+  {
+   "id": "Q215327",
+   "name": "Helsinki Airport",
+   "sl": 58,
+   "file": "Helsinki Airport (17087444118).jpg",
+   "lat": 60.3172,
+   "lon": 24.9633,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Helsinki-Vantaa Airport"
+  },
+  {
+   "id": "Q1292442",
+   "name": "Suomenlinna",
+   "sl": 54,
+   "file": "Suomenlinna.jpg",
+   "lat": 60.1436,
+   "lon": 24.9844,
+   "kind": "both",
+   "types": [
+    "fortress",
+    "fortress island",
+    "sea fort"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Suomenlinna"
+  },
+  {
+   "id": "Q738015",
+   "name": "Helsinki Cathedral",
+   "sl": 51,
+   "file": "Lutheran Cathedral Helsinki.jpg",
+   "lat": 60.1704,
+   "lon": 24.9522,
+   "kind": "built",
+   "types": [
+    "church building",
+    "landmark",
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Helsinki Cathedral"
+  },
+  {
+   "id": "Q216035",
+   "name": "Halti",
+   "sl": 45,
+   "file": "Haltitunturi.jpg",
+   "lat": 69.3128,
+   "lon": 21.2856,
+   "kind": "natural",
+   "types": [
+    "fell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NO"
+   ],
+   "cat": "Halti"
+  },
+  {
+   "id": "Q213769",
+   "name": "Päijänne",
+   "sl": 44,
+   "file": "Päijänne aerial 2.jpg",
+   "lat": 61.5081,
+   "lon": 25.3791,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake or pond"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Päijänne"
+  },
+  {
+   "id": "Q332219",
+   "name": "Helsinki Olympic Stadium",
+   "sl": 43,
+   "file": "Olympiastadion 2 2020-08-12.jpg",
+   "lat": 60.1869,
+   "lon": 24.9261,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Olympic stadium",
+    "pitch",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Helsinki Olympic Stadium"
+  },
+  {
+   "id": "Q435829",
+   "name": "Petäjävesi Old Church",
+   "sl": 42,
+   "file": "Petäjävesi Old Church 2018.jpg",
+   "lat": 62.2501,
+   "lon": 25.1839,
+   "kind": "built",
+   "types": [
+    "church building",
+    "wooden church"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Petäjävesi Old Church"
+  },
+  {
+   "id": "Q155093",
+   "name": "Mannerheim Line",
+   "sl": 41,
+   "file": "28 Sj 5 Миллионник надолбы.jpg",
+   "lat": 60.5,
+   "lon": 29.4167,
+   "kind": "built",
+   "types": [
+    "defense line",
+    "fortification",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Mannerheim Line"
+  },
+  {
+   "id": "Q239748",
+   "name": "Sammallahdenmäki",
+   "sl": 40,
+   "file": "Sammallahdenmäki 1.jpg",
+   "lat": 61.1177,
+   "lon": 21.7752,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cemetery",
+    "grave cairn"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sammallahdenmäki"
+  },
+  {
+   "id": "Q580019",
+   "name": "Oulujärvi",
+   "sl": 38,
+   "file": "Paltaselkä.JPG",
+   "lat": 64.3091,
+   "lon": 27.2681,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake or pond"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oulujärvi"
+  },
+  {
+   "id": "Q217447",
+   "name": "Verla",
+   "sl": 38,
+   "file": "Verla.JPG",
+   "lat": 61.062,
+   "lon": 26.64,
+   "kind": "built",
+   "types": [
+    "factory",
+    "industrial heritage site",
+    "industrial landscape"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Verla groundwood and board mill"
+  },
+  {
+   "id": "Q1044613",
+   "name": "Helsinki Central Railway Station",
+   "sl": 36,
+   "file": "Helsinki Central railway station in Finland, 2021 July.jpg",
+   "lat": 60.171,
+   "lon": 24.9414,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "central station",
+    "dead-end railway station",
+    "station building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Helsinki Central railway station"
+  },
+  {
+   "id": "Q33176",
+   "name": "Helsinki Halli",
+   "sl": 36,
+   "file": "Veikkaus Arena (Helsinki-halli, Pasila, Helsinki, Finland) Jan 28, 2026.jpg",
+   "lat": 60.2057,
+   "lon": 24.9289,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Veikkaus Arena"
+  },
+  {
+   "id": "Q850269",
+   "name": "Ivalo Airport",
+   "sl": 34,
+   "file": "Ivalon lentoasema kesällä.jpg",
+   "lat": 68.6108,
+   "lon": 27.4139,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ivalo Airport"
+  },
+  {
+   "id": "Q824371",
+   "name": "Näsijärvi",
+   "sl": 34,
+   "file": "Tampere5.jpg",
+   "lat": 61.5667,
+   "lon": 23.7667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Näsijärvi"
+  },
+  {
+   "id": "Q845891",
+   "name": "Pielinen",
+   "sl": 34,
+   "file": "Pielinen-SU.jpg",
+   "lat": 63.251,
+   "lon": 29.6994,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake or pond"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pielinen"
+  },
+  {
+   "id": "Q1126306",
+   "name": "Tampere-Pirkkala Airport",
+   "sl": 34,
+   "file": "Tampere-Pirkkala Airport 1.jpg",
+   "lat": 61.4153,
+   "lon": 23.5878,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tampere-Pirkkala Airport"
+  },
+  {
+   "id": "Q1347310",
+   "name": "Kittilä Airport",
+   "sl": 32,
+   "file": "Kittilä.jpg",
+   "lat": 67.6986,
+   "lon": 24.8481,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kittilä Airport"
+  },
+  {
+   "id": "Q938172",
+   "name": "Lemmenjoki National Park",
+   "sl": 32,
+   "file": "Lemmenjoki Autumn.JPG",
+   "lat": 68.6119,
+   "lon": 25.8715,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lemmenjoki National Park"
+  },
+  {
+   "id": "Q1131604",
+   "name": "Oulu Airport",
+   "sl": 32,
+   "file": "Oulu Airport 20131020.JPG",
+   "lat": 64.9292,
+   "lon": 25.3556,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oulu Airport"
+  },
+  {
+   "id": "Q1130231",
+   "name": "Turku Airport",
+   "sl": 32,
+   "file": "Turku airport terminal.jpg",
+   "lat": 60.5147,
+   "lon": 22.2617,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Turku Airport"
+  },
+  {
+   "id": "Q1187606",
+   "name": "Turku Cathedral",
+   "sl": 32,
+   "file": "Turun tuomiokirkko 20091011.jpg",
+   "lat": 60.4525,
+   "lon": 22.2785,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building",
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Turku Cathedral"
+  },
+  {
+   "id": "Q754507",
+   "name": "Ateneum",
+   "sl": 31,
+   "file": "Art museum Ateneum in Kluuvi, Helsinki, Finland, 2014.jpg",
+   "lat": 60.1701,
+   "lon": 24.944,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ateneum"
+  },
+  {
+   "id": "Q23038",
+   "name": "Fasta Åland",
+   "sl": 31,
+   "file": "Fasta Åland.jpg",
+   "lat": 60.1481,
+   "lon": 19.7883,
+   "kind": "natural",
+   "types": [
+    "island",
+    "mainland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fasta Åland"
+  },
+  {
+   "id": "Q1323139",
+   "name": "Rovaniemi Airport",
+   "sl": 31,
+   "file": "Rovaniemi Airport March 6 2009 01.jpg",
+   "lat": 66.5617,
+   "lon": 25.8308,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rovaniemi Airport"
+  },
+  {
+   "id": "Q1129324",
+   "name": "Saimaa Canal",
+   "sl": 31,
+   "file": "Saimaa canal at Lappeenranta Finland.jpg",
+   "lat": 60.9926,
+   "lon": 28.49,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Saimaa Canal"
+  },
+  {
+   "id": "Q136893",
+   "name": "Turku Castle",
+   "sl": 31,
+   "file": "Turku Castle, Turku, Finland.jpg",
+   "lat": 60.4353,
+   "lon": 22.2276,
+   "kind": "built",
+   "types": [
+    "castle",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Turku Castle"
+  },
+  {
+   "id": "Q826447",
+   "name": "Lake Bodom",
+   "sl": 30,
+   "file": "Bodomjarvi talvella.jpg",
+   "lat": 60.2564,
+   "lon": 24.6667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Bodom"
+  },
+  {
+   "id": "Q254039",
+   "name": "Lappeenranta Airport",
+   "sl": 30,
+   "file": "Flughafen Lappeenranta.JPG",
+   "lat": 61.0458,
+   "lon": 28.1486,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lappeenranta Airport"
+  },
+  {
+   "id": "Q251272",
+   "name": "Olavinlinna Castle",
+   "sl": 30,
+   "file": "Savonlinna heinäkuu 2002 IMG 1635.JPG",
+   "lat": 61.8637,
+   "lon": 28.9012,
+   "kind": "built",
+   "types": [
+    "castle",
+    "museum",
+    "stronghold"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olavinlinna"
+  },
+  {
+   "id": "Q1142522",
+   "name": "Finlandia Hall",
+   "sl": 29,
+   "file": "Finlandia Wiki.jpg",
+   "lat": 60.1761,
+   "lon": 24.9335,
+   "kind": "built",
+   "types": [
+    "concert hall",
+    "convention center"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q127518238",
+    "name": "Aalto Works"
+   },
+   "also": [],
+   "cat": "Finlandia Hall"
+  },
+  {
+   "id": "Q1329554",
+   "name": "Senate Square",
+   "sl": 29,
+   "file": "Helsinki 1820.jpg",
+   "lat": 60.1695,
+   "lon": 24.9523,
+   "kind": "built",
+   "types": [
+    "open space",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Helsinki Senate Square"
+  },
+  {
+   "id": "Q1537700",
+   "name": "Urho Kekkonen National Park",
+   "sl": 29,
+   "file": "Harrijärvi UK-puisto 02.JPG",
+   "lat": 68.3388,
+   "lon": 28.3452,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Urho Kekkonen National Park"
+  },
+  {
+   "id": "Q523268",
+   "name": "Havis Amanda",
+   "sl": 28,
+   "file": "\"Havis Amanda\", la statue de la fontaine de Vallgren (Helsinki) (2744386193).jpg",
+   "lat": 60.1676,
+   "lon": 24.9515,
+   "kind": "built",
+   "types": [
+    "fountain",
+    "sculpture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Havis Amanda"
+  },
+  {
+   "id": "Q1418136",
+   "name": "National Museum of Finland",
+   "sl": 28,
+   "file": "FinlandNationalMuseum.jpg",
+   "lat": 60.175,
+   "lon": 24.9316,
+   "kind": "built",
+   "types": [
+    "cultural history museum",
+    "museum",
+    "museum building",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Finland"
+  },
+  {
+   "id": "Q135379",
+   "name": "Santa Claus Village",
+   "sl": 28,
+   "file": "Santa Land Rovaniemi Arctic Circle1.jpg",
+   "lat": 66.5435,
+   "lon": 25.8465,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "theme park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Claus' Village"
+  },
+  {
+   "id": "Q1132809",
+   "name": "Temppeliaukio Church",
+   "sl": 28,
+   "file": "Osa lehteria ja urut.jpg",
+   "lat": 60.173,
+   "lon": 24.9252,
+   "kind": "built",
+   "types": [
+    "cave church",
+    "church building",
+    "Lutheran church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temppeliaukio Church"
+  },
+  {
+   "id": "Q1737079",
+   "name": "Kauhaneva–Pohjankangas National Park",
+   "sl": 27,
+   "file": "Kauhaneva.jpg",
+   "lat": 62.1773,
+   "lon": 22.4126,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kauhaneva–Pohjankangas National Park"
+  },
+  {
+   "id": "Q1633361",
+   "name": "Kiasma",
+   "sl": 27,
+   "file": "Kiasmamodernartmuseum.JPG",
+   "lat": 60.1717,
+   "lon": 24.9369,
+   "kind": "built",
+   "types": [
+    "contemporary art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kiasma"
+  },
+  {
+   "id": "Q973283",
+   "name": "Kuopio Airport",
+   "sl": 27,
+   "file": "Kuopio airport from air cropped.jpg",
+   "lat": 63.0086,
+   "lon": 27.7944,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuopio Airport"
+  },
+  {
+   "id": "Q1031590",
+   "name": "Mariehamn Airport",
+   "sl": 27,
+   "file": "Mariehamn Airport.jpg",
+   "lat": 60.1219,
+   "lon": 19.8964,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mariehamn Airport"
+  },
+  {
+   "id": "Q7681773",
+   "name": "Tampere Deck Arena",
+   "sl": 27,
+   "file": "Nokia Arena May 2022 1.jpg",
+   "lat": 61.4936,
+   "lon": 23.7739,
+   "kind": "built",
+   "types": [
+    "indoor arena",
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nokia Arena (Tampere)"
+  },
+  {
+   "id": "Q1139153",
+   "name": "Three-Country Cairn",
+   "sl": 27,
+   "file": "Cairn des trois royaumes - close up.jpg",
+   "lat": 69.06,
+   "lon": 20.5486,
+   "kind": "built",
+   "types": [
+    "boundary marker",
+    "international tripoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NO",
+    "SE"
+   ],
+   "cat": "Tripoint Norway Sweden Finland"
+  },
+  {
+   "id": "Q1355001",
+   "name": "Uspenski Cathedral",
+   "sl": 27,
+   "file": "11-07-31-helsinki-by-RalfR-135.jpg",
+   "lat": 60.1683,
+   "lon": 24.96,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "city block",
+    "Eastern Orthodox cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uspenski Cathedral"
+  },
+  {
+   "id": "Q370924",
+   "name": "Joensuu Airport",
+   "sl": 26,
+   "file": "EFJO terminal 20110522.jpg",
+   "lat": 62.6589,
+   "lon": 29.6244,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Joensuu Airport"
+  },
+  {
+   "id": "Q739238",
+   "name": "Kajaani Airport",
+   "sl": 26,
+   "file": "Flughafen Kajaani 04.jpg",
+   "lat": 64.2842,
+   "lon": 27.6875,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kajaani Airport"
+  },
+  {
+   "id": "Q1413172",
+   "name": "Kemi-Tornio Airport",
+   "sl": 26,
+   "file": "Kemi-Tornio airport runway.jpg",
+   "lat": 65.7792,
+   "lon": 24.5847,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kemi-Tornio Airport"
+  },
+  {
+   "id": "Q890537",
+   "name": "Lake Keitele",
+   "sl": 26,
+   "file": "Autumn in Lake Keitele - panoramio.jpg",
+   "lat": 62.8823,
+   "lon": 25.9772,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake or pond"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Keitele (lake)"
+  },
+  {
+   "id": "Q262837",
+   "name": "Levi",
+   "sl": 26,
+   "file": "Levi - panoramio.jpg",
+   "lat": 67.7992,
+   "lon": 24.8214,
+   "kind": "built",
+   "types": [
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Levi, Finland"
+  },
+  {
+   "id": "Q303806",
+   "name": "Aavasaksa",
+   "sl": 25,
+   "file": "Aavasaksa 3.jpg",
+   "lat": 66.3978,
+   "lon": 23.7253,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "survey marker"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q192243",
+    "name": "Struve Geodetic Arc"
+   },
+   "also": [],
+   "cat": "Aavasaksa"
+  },
+  {
+   "id": "Q662933",
+   "name": "Enontekiö Airport",
+   "sl": 25,
+   "file": "Enontekiön lentoasema.JPG",
+   "lat": 68.3644,
+   "lon": 23.4275,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Enontekiö Airport"
+  },
+  {
+   "id": "Q890532",
+   "name": "Kallavesi",
+   "sl": 25,
+   "file": "Kuopio aerial 1.jpg",
+   "lat": 62.8167,
+   "lon": 27.7833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kallavesi"
+  },
+  {
+   "id": "Q1784850",
+   "name": "Korvatunturi",
+   "sl": 25,
+   "file": "Korvatunturi kesällä.jpg",
+   "lat": 68.0736,
+   "lon": 29.3153,
+   "kind": "natural",
+   "types": [
+    "fell",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Korvatunturi"
+  },
+  {
+   "id": "Q891569",
+   "name": "Lappajärvi",
+   "sl": 25,
+   "file": "Lappajärvi.jpg",
+   "lat": 63.1351,
+   "lon": 23.6424,
+   "kind": "natural",
+   "types": [
+    "impact crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Lappajärvi"
+  },
+  {
+   "id": "Q1851195",
+   "name": "Pallas-Yllästunturi National Park",
+   "sl": 25,
+   "file": "Pallastunturi and Hanhijärvi in Muonio, Lapland, Finland, 2021 June.jpg",
+   "lat": 68.0931,
+   "lon": 24.0199,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pallas-Yllästunturi National Park"
+  },
+  {
+   "id": "Q762945",
+   "name": "Rukatunturi",
+   "sl": 25,
+   "file": "Ruka from southeast.jpg",
+   "lat": 66.1656,
+   "lon": 29.1517,
+   "kind": "both",
+   "types": [
+    "fell",
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ruka"
+  },
+  {
+   "id": "Q954725",
+   "name": "Savonlinna Airport",
+   "sl": 25,
+   "file": "Savonlinna Airport AB.JPG",
+   "lat": 61.9428,
+   "lon": 28.945,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Savonlinna Airport"
+  },
+  {
+   "id": "Q1322467",
+   "name": "Vaasa Airport",
+   "sl": 25,
+   "file": "Vaasan lentoasema.jpg",
+   "lat": 63.0453,
+   "lon": 21.7642,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vaasa Airport"
+  },
+  {
+   "id": "Q1542451",
+   "name": "Ylläs",
+   "sl": 25,
+   "file": "Yllästunturi Ylläsjärven puolelta.jpg",
+   "lat": 67.5661,
+   "lon": 24.2331,
+   "kind": "natural",
+   "types": [
+    "fell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yllästunturi"
+  },
+  {
+   "id": "Q1139227",
+   "name": "Bolt Arena",
+   "sl": 24,
+   "file": "Finnair Stadium Helsinki.JPG",
+   "lat": 60.1875,
+   "lon": 24.9225,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bolt Arena"
+  },
+  {
+   "id": "Q1012561",
+   "name": "Häme Castle",
+   "sl": 24,
+   "file": "Hame Castle 2019-08.jpg",
+   "lat": 61.0035,
+   "lon": 24.4598,
+   "kind": "built",
+   "types": [
+    "castle",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Häme Castle"
+  },
+  {
+   "id": "Q375387",
+   "name": "Koli National Park",
+   "sl": 24,
+   "file": "Koli hill view.jpg",
+   "lat": 63.0575,
+   "lon": 29.8872,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Koli National Park"
+  },
+  {
+   "id": "Q18682083",
+   "name": "Kummakivi",
+   "sl": 24,
+   "file": "Kummakivi balancing rock in Ruokolahti, Finland.jpg",
+   "lat": 61.4933,
+   "lon": 28.4294,
+   "kind": "natural",
+   "types": [
+    "balancing rock",
+    "glacial erratic"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kummakivi"
+  },
+  {
+   "id": "Q1815268",
+   "name": "Nuuksio National Park",
+   "sl": 24,
+   "file": "Nuuksio National Park.JPG",
+   "lat": 60.3167,
+   "lon": 24.4667,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuuksio National Park"
+  },
+  {
+   "id": "Q1429179",
+   "name": "Pyhä-Luosto National Park",
+   "sl": 24,
+   "file": "Isokuru.JPG",
+   "lat": 67.0167,
+   "lon": 27.15,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyhä-Luosto National Park"
+  },
+  {
+   "id": "Q545559",
+   "name": "Pyhäjärvi",
+   "sl": 24,
+   "file": "Pyhäjärvi Nokialla.jpg",
+   "lat": 61.4833,
+   "lon": 23.6667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Pyhäjärvi (Tampere)"
+  },
+  {
+   "id": "Q594263",
+   "name": "Archipelago National Park",
+   "sl": 23,
+   "file": "Gullkrona-överblick.jpg",
+   "lat": 60,
+   "lon": 22,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Archipelago National Park"
+  },
+  {
+   "id": "Q937131",
+   "name": "Helvetinjärvi National Park",
+   "sl": 23,
+   "file": "Helvetinkolu.jpg",
+   "lat": 62.0333,
+   "lon": 23.85,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Helvetinjärvi National Park"
+  },
+  {
+   "id": "Q143224",
+   "name": "Jyväskylä Airport",
+   "sl": 23,
+   "file": "Jyväskylä airport terminal.jpg",
+   "lat": 62.4008,
+   "lon": 25.6728,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jyväskylä Airport"
+  },
+  {
+   "id": "Q1800990",
+   "name": "Kulosaari metro station",
+   "sl": 23,
+   "file": "Kulosaari M laituri.jpg",
+   "lat": 60.1887,
+   "lon": 25.0067,
+   "kind": "built",
+   "types": [
+    "metro station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kulosaari metro station"
+  },
+  {
+   "id": "Q2398213",
+   "name": "Kurjenrahka National Park",
+   "sl": 23,
+   "file": "Mosse från bergsknall Kurjenrahka nationalpark mars 2010.jpg",
+   "lat": 60.7206,
+   "lon": 22.3836,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kurjenrahka National Park"
+  },
+  {
+   "id": "Q530071",
+   "name": "Kuusamo Airport",
+   "sl": 23,
+   "file": "Kuusamo lentokenttä.JPG",
+   "lat": 65.9903,
+   "lon": 29.2319,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuusamo Airport"
+  },
+  {
+   "id": "Q127322",
+   "name": "Oulanka National Park",
+   "sl": 23,
+   "file": "FI-Oulanka NP1.jpg",
+   "lat": 66.3731,
+   "lon": 29.3386,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oulanka National Park"
+  },
+  {
+   "id": "Q608346",
+   "name": "Presidential Palace",
+   "sl": 23,
+   "file": "Helsinki Presidential Palace 02.jpg",
+   "lat": 60.1684,
+   "lon": 24.9563,
+   "kind": "built",
+   "types": [
+    "administrative building",
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidential Palace (Helsinki)"
+  },
+  {
+   "id": "Q31204",
+   "name": "Pyhän Henrikin katedraali",
+   "sl": 23,
+   "file": "Saint Henry's Cathedral Helsinki 2.jpg",
+   "lat": 60.1592,
+   "lon": 24.9543,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Henry's Cathedral (Helsinki)"
+  },
+  {
+   "id": "Q2313367",
+   "name": "Rokua National Park",
+   "sl": 23,
+   "file": "Rokuan kansallispuisto.JPG",
+   "lat": 64.5561,
+   "lon": 26.51,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rokua national park"
+  },
+  {
+   "id": "Q1801032",
+   "name": "Siilitie metro station",
+   "sl": 23,
+   "file": "Siilitien metroasema, Helsinki2.jpg",
+   "lat": 60.2051,
+   "lon": 25.0439,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siilitie metro station"
+  },
+  {
+   "id": "Q1236638",
+   "name": "Tampere Cathedral",
+   "sl": 23,
+   "file": "Tampereen tuomiokirkko (T03).jpg",
+   "lat": 61.5025,
+   "lon": 23.7697,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building",
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tampere Cathedral"
+  }
+ ]
+}

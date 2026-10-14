@@ -1,0 +1,1413 @@
+{
+ "country": "FR",
+ "items": [
+  {
+   "id": "Q243",
+   "name": "Eiffel Tower",
+   "sl": 191,
+   "file": "Tour Eiffel Wikimedia Commons.jpg",
+   "lat": 48.8583,
+   "lon": 2.2945,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "lattice tower",
+    "observation tower"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2233532",
+    "name": "banks of the Seine"
+   },
+   "also": [],
+   "cat": "Eiffel Tower"
+  },
+  {
+   "id": "Q19675",
+   "name": "Louvre Museum",
+   "sl": 170,
+   "file": "Cour Napoléon at night - Louvre.jpg",
+   "lat": 48.8611,
+   "lon": 2.3358,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée du Louvre"
+  },
+  {
+   "id": "Q583",
+   "name": "Mont Blanc",
+   "sl": 127,
+   "file": "Panorama of Mont Blanc du Tacul, Mont Maudit and Mont Blanc from Aiguille du Midi, Chamonix, Haute-Savoie.jpg",
+   "lat": 45.8328,
+   "lon": 6.865,
+   "kind": "natural",
+   "types": [
+    "four-thousander",
+    "highest point",
+    "ice dome",
+    "main peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Mont Blanc"
+  },
+  {
+   "id": "Q2981",
+   "name": "Notre-Dame de Paris",
+   "sl": 125,
+   "file": "Notre-Dame de Paris 2013-07-24.jpg",
+   "lat": 48.853,
+   "lon": 2.3498,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame de Paris"
+  },
+  {
+   "id": "Q23402",
+   "name": "Musée d'Orsay",
+   "sl": 122,
+   "file": "Gare d'Orsay (49570190081).jpg",
+   "lat": 48.86,
+   "lon": 2.3265,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée d'Orsay"
+  },
+  {
+   "id": "Q2946",
+   "name": "Palace of Versailles",
+   "sl": 109,
+   "file": "Vue aérienne du domaine de Versailles par ToucanWings - Creative Commons By Sa 3.0 - 083.jpg",
+   "lat": 48.8047,
+   "lon": 2.1203,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "château",
+    "palace",
+    "royal palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3034552",
+    "name": "Palace and Park of Versailles"
+   },
+   "also": [],
+   "cat": "Palace of Versailles"
+  },
+  {
+   "id": "Q6403",
+   "name": "Lake Geneva",
+   "sl": 101,
+   "file": "Lake Geneva aerial.jpg",
+   "lat": 46.45,
+   "lon": 6.55,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": "Lake Geneva"
+  },
+  {
+   "id": "Q1143049",
+   "name": "Château de Montsoreau",
+   "sl": 100,
+   "file": "Chateau de Montsoreau Museum of contemporary art Loire Valley France.jpg",
+   "lat": 47.2156,
+   "lon": 0.0622,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château",
+    "museum building",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2789507",
+    "name": "The Loire Valley between Sully-sur-Loire and Chalonnes"
+   },
+   "also": [],
+   "cat": "Château de Montsoreau"
+  },
+  {
+   "id": "Q550",
+   "name": "avenue des Champs-Élysées",
+   "sl": 95,
+   "file": "Avenue des Champs-Élysées, Paris 3 October 2010.jpg",
+   "lat": 48.8697,
+   "lon": 2.3079,
+   "kind": "built",
+   "types": [
+    "avenue",
+    "boulevard"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avenue des Champs-Élysées (Paris)"
+  },
+  {
+   "id": "Q46280",
+   "name": "Paris-Charles de Gaulle Airport",
+   "sl": 92,
+   "file": "Aeroport de Roissy.JPG",
+   "lat": 49.0097,
+   "lon": 2.5478,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paris-Charles de Gaulle Airport"
+  },
+  {
+   "id": "Q64436",
+   "name": "Arc de Triomphe",
+   "sl": 86,
+   "file": "Arc de Triomphe - Août 2026.jpg",
+   "lat": 48.8738,
+   "lon": 2.295,
+   "kind": "built",
+   "types": [
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arc de Triomphe de l'Étoile"
+  },
+  {
+   "id": "Q1865480",
+   "name": "Bastille",
+   "sl": 86,
+   "file": "Bastille Exterior 1790 or 1791.jpg",
+   "lat": 48.8533,
+   "lon": 2.3692,
+   "kind": "built",
+   "types": [
+    "castle",
+    "destroyed building or structure",
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bastille (fortress)"
+  },
+  {
+   "id": "Q99236",
+   "name": "Millau Viaduct",
+   "sl": 74,
+   "file": "00 0237 Millau - Département Aveyron.jpg",
+   "lat": 44.0803,
+   "lon": 3.0225,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge",
+    "steel bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Viaduc de Millau"
+  },
+  {
+   "id": "Q180274",
+   "name": "Notre-Dame de Chartres",
+   "sl": 73,
+   "file": "Westfassade Chartres.jpg",
+   "lat": 48.4478,
+   "lon": 1.4878,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "collection",
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame de Chartres"
+  },
+  {
+   "id": "Q13205",
+   "name": "Stade de France",
+   "sl": 72,
+   "file": "StadeFranceNationsLeague2018.jpg",
+   "lat": 48.9244,
+   "lon": 2.36,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "national stadium",
+    "Olympic stadium",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade de France"
+  },
+  {
+   "id": "Q193431",
+   "name": "Parc des Princes",
+   "sl": 70,
+   "file": "Paris Parc des Princes 1.jpg",
+   "lat": 48.8415,
+   "lon": 2.2531,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parc des Princes"
+  },
+  {
+   "id": "Q172125",
+   "name": "Lascaux",
+   "sl": 69,
+   "file": "Lascaux painting.jpg",
+   "lat": 45.0538,
+   "lon": 1.171,
+   "kind": "both",
+   "types": [
+    "cave with prehistoric art",
+    "Paleolithic site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q463159",
+    "name": "Prehistoric Sites and Decorated Caves of the Vézère Valley"
+   },
+   "also": [],
+   "cat": "Lascaux"
+  },
+  {
+   "id": "Q188190",
+   "name": "Élysée Palace",
+   "sl": 66,
+   "file": "Secretary Pompeo Arrives to Meet with French Foreign Minister Le Drian in Paris (50610423656) (cropped).jpg",
+   "lat": 48.8703,
+   "lon": 2.3164,
+   "kind": "built",
+   "types": [
+    "city palace",
+    "official residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palais de l'Élysée"
+  },
+  {
+   "id": "Q187843",
+   "name": "Vosges Mountains",
+   "sl": 65,
+   "file": "Massif des Vosges (52108206820).jpg",
+   "lat": 48,
+   "lon": 7,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "non-geologically related mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Massif des Vosges"
+  },
+  {
+   "id": "Q223416",
+   "name": "Orly Airport",
+   "sl": 64,
+   "file": "OrlyVal Orly.JPG",
+   "lat": 48.7233,
+   "lon": 2.3794,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paris-Orly Airport"
+  },
+  {
+   "id": "Q178065",
+   "name": "Centre Georges Pompidou",
+   "sl": 63,
+   "file": "Paris Montmartre Blick aufs Centre Georges-Pompidou.jpg",
+   "lat": 48.8606,
+   "lon": 2.3522,
+   "kind": "built",
+   "types": [
+    "collection",
+    "cultural center",
+    "museum",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Centre Georges-Pompidou"
+  },
+  {
+   "id": "Q187840",
+   "name": "Palais Garnier",
+   "sl": 63,
+   "file": "Paris Palais Garnier 2010-04-06 16.55.07.jpg",
+   "lat": 48.8719,
+   "lon": 2.3317,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Opéra Garnier"
+  },
+  {
+   "id": "Q36698440",
+   "name": "Château de Montsoreau-Museum of Contemporary Art",
+   "sl": 62,
+   "file": "Chateau de montsoreau museum of contemporary art map 3D.jpg",
+   "lat": 47.2156,
+   "lon": 0.0622,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "cultural center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Château de Montsoreau-Musée d'art contemporain"
+  },
+  {
+   "id": "Q76309",
+   "name": "Mount Pelée",
+   "sl": 62,
+   "file": "La Pelée vue du Carbet.jpg",
+   "lat": 14.8131,
+   "lon": -61.1656,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "lava dome",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montagne Pelée"
+  },
+  {
+   "id": "Q189503",
+   "name": "place de la Concorde",
+   "sl": 62,
+   "file": "Place de la Concorde from the Eiffel Tower, Paris April 2011.jpg",
+   "lat": 48.8656,
+   "lon": 2.3212,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Place de la Concorde (Paris)"
+  },
+  {
+   "id": "Q188856",
+   "name": "Panthéon",
+   "sl": 61,
+   "file": "Panthéon, Paris 25 March 2012.jpg",
+   "lat": 48.8462,
+   "lon": 2.3461,
+   "kind": "built",
+   "types": [
+    "church building",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Panthéon de Paris"
+  },
+  {
+   "id": "Q184407",
+   "name": "Basilica of Saint-Denis",
+   "sl": 60,
+   "file": "Basilique St Denis façade ouest St Denis Seine St Denis 20.jpg",
+   "lat": 48.9356,
+   "lon": 2.3597,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilique Saint-Denis"
+  },
+  {
+   "id": "Q206823",
+   "name": "Reims Cathedral",
+   "sl": 60,
+   "file": "Reims Cathedral 016 8341.jpg",
+   "lat": 49.2539,
+   "lon": 4.0342,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16912637",
+    "name": "Cathedral of Notre-Dame, Former Abbey of Saint-Rémi and Palace of Tau, Reims"
+   },
+   "also": [],
+   "cat": "Reims Cathedral"
+  },
+  {
+   "id": "Q28785",
+   "name": "Sacré-Cœur",
+   "sl": 60,
+   "file": "Le sacre coeur.jpg",
+   "lat": 48.8867,
+   "lon": 2.343,
+   "kind": "built",
+   "types": [
+    "church building",
+    "expiatory temple",
+    "minor basilica",
+    "votive church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilique du Sacré-Cœur de Montmartre"
+  },
+  {
+   "id": "Q374096",
+   "name": "Chauvet Cave",
+   "sl": 59,
+   "file": "Rhinocéros grotte Chauvet.jpg",
+   "lat": 44.3881,
+   "lon": 4.4161,
+   "kind": "both",
+   "types": [
+    "cave with prehistoric art",
+    "Paleolithic site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Grotte Chauvet 2 - Ardèche"
+  },
+  {
+   "id": "Q189764",
+   "name": "Pont du Gard",
+   "sl": 59,
+   "file": "Pont du Gard BLS.jpg",
+   "lat": 43.9473,
+   "lon": 4.5355,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "arch bridge",
+    "Roman aqueduct",
+    "Roman bridge"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Pont du Gard"
+  },
+  {
+   "id": "Q214654",
+   "name": "Sorbonne",
+   "sl": 59,
+   "file": "P1300735 Paris V chapelle La Sorbonne rwk.jpg",
+   "lat": 48.8486,
+   "lon": 2.3436,
+   "kind": "built",
+   "types": [
+    "higher education institution",
+    "school building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sorbonne (building)"
+  },
+  {
+   "id": "Q234364",
+   "name": "Tuileries Palace",
+   "sl": 59,
+   "file": "Tuileries jardin 1867.jpg",
+   "lat": 48.8622,
+   "lon": 2.3311,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palais des Tuileries"
+  },
+  {
+   "id": "Q206521",
+   "name": "Disneyland Paris",
+   "sl": 58,
+   "file": "Disneyland Park 05, Paris 22 August 2013.jpg",
+   "lat": 48.8687,
+   "lon": 2.7818,
+   "kind": "built",
+   "types": [
+    "amusement park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Disneyland Paris"
+  },
+  {
+   "id": "Q193193",
+   "name": "Sainte Chapelle",
+   "sl": 58,
+   "file": "Paris Sainte Chapelle East View 02.JPG",
+   "lat": 48.8554,
+   "lon": 2.345,
+   "kind": "built",
+   "types": [
+    "chapel",
+    "secularized church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sainte-Chapelle (Paris)"
+  },
+  {
+   "id": "Q202494",
+   "name": "Canal du Midi",
+   "sl": 57,
+   "file": "Canal du Midi, Carcassonne, Languedoc-Roussillon, France - panoramio (25).jpg",
+   "lat": 43.6111,
+   "lon": 1.4183,
+   "kind": "built",
+   "types": [
+    "summit level canal"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Canal du Midi"
+  },
+  {
+   "id": "Q217925",
+   "name": "Champ de Mars",
+   "sl": 57,
+   "file": "MG-Paris-Champ de Mars.jpg",
+   "lat": 48.8561,
+   "lon": 2.298,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Champ-de-Mars (Paris)"
+  },
+  {
+   "id": "Q106934",
+   "name": "Notre-Dame d'Amiens",
+   "sl": 57,
+   "file": "0 Amiens - Cathédrale Notre-Dame (1).JPG",
+   "lat": 49.8946,
+   "lon": 2.3021,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "legal person"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2962473",
+    "name": "Way of Saint James UNESCO World Heritage Sites in France"
+   },
+   "also": [],
+   "cat": "Cathédrale Notre-Dame d'Amiens"
+  },
+  {
+   "id": "Q201428",
+   "name": "Palace of Fontainebleau",
+   "sl": 56,
+   "file": "Le Grand Escalier à Fer de Cheval.jpg",
+   "lat": 48.4022,
+   "lon": 2.7006,
+   "kind": "built",
+   "types": [
+    "château",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Fontainebleau"
+  },
+  {
+   "id": "Q202150",
+   "name": "Stade Vélodrome",
+   "sl": 56,
+   "file": "Stade Vélodrome closeup.jpg",
+   "lat": 43.2692,
+   "lon": 5.3949,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue",
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Vélodrome"
+  },
+  {
+   "id": "Q205367",
+   "name": "Château de Chambord",
+   "sl": 55,
+   "file": "France Loir-et-Cher Chambord Chateau 03.jpg",
+   "lat": 47.6161,
+   "lon": 1.5172,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Château de Chambord"
+  },
+  {
+   "id": "Q151030",
+   "name": "Moulin Rouge",
+   "sl": 54,
+   "file": "Moulin Rouge, 17 April 2011.jpg",
+   "lat": 48.8842,
+   "lon": 2.3322,
+   "kind": "built",
+   "types": [
+    "cabaret",
+    "music venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moulin Rouge"
+  },
+  {
+   "id": "Q329852",
+   "name": "Luxembourg Palace",
+   "sl": 53,
+   "file": "2017 - Le palais du Luxembourg, dans le jardin du Luxembourg, Paris - 3.jpg",
+   "lat": 48.8483,
+   "lon": 2.3375,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Luxembourg Palace"
+  },
+  {
+   "id": "Q104314",
+   "name": "Maritime, Fluvial and Harbor Museum of Rouen",
+   "sl": 53,
+   "file": "Eingang zum Musee-maritime-de-rouen.jpg",
+   "lat": 49.4447,
+   "lon": 1.0607,
+   "kind": "built",
+   "types": [
+    "maritime museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée maritime fluvial et portuaire de Rouen"
+  },
+  {
+   "id": "Q1538826",
+   "name": "Musée des Arts et Métiers",
+   "sl": 53,
+   "file": "Musée des Arts et Métiers 337.jpg",
+   "lat": 48.8661,
+   "lon": 2.3553,
+   "kind": "built",
+   "types": [
+    "automobile museum",
+    "science museum",
+    "technology museum",
+    "university museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée des arts et métiers"
+  },
+  {
+   "id": "Q476516",
+   "name": "Rouen Cathedral",
+   "sl": 52,
+   "file": "Cathédrale de Rouen.jpg",
+   "lat": 49.4402,
+   "lon": 1.095,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame de Rouen"
+  },
+  {
+   "id": "Q207985",
+   "name": "Bourges Cathedral",
+   "sl": 51,
+   "file": "Bourges-Kathedrale-110-2008-gje.jpg",
+   "lat": 47.0822,
+   "lon": 2.3992,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2962473",
+    "name": "Way of Saint James UNESCO World Heritage Sites in France"
+   },
+   "also": [],
+   "cat": "Cathédrale Saint-Étienne de Bourges"
+  },
+  {
+   "id": "Q745460",
+   "name": "Cathedral of Our Lady of Strasbourg",
+   "sl": 51,
+   "file": "Strasbourg Cathedral Exterior - Diliff.jpg",
+   "lat": 48.5819,
+   "lon": 7.7511,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame de Strasbourg"
+  },
+  {
+   "id": "Q220301",
+   "name": "Cluny Abbey",
+   "sl": 51,
+   "file": "Cluny-Abtei-Ostfluegel-mtob.jpg",
+   "lat": 46.4341,
+   "lon": 4.6592,
+   "kind": "built",
+   "types": [
+    "abbey",
+    "benedictine abbey",
+    "building complex",
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abbaye de Cluny"
+  },
+  {
+   "id": "Q457318",
+   "name": "Grand Palais",
+   "sl": 51,
+   "file": "Grand Palais, Paris 13 March 2019.jpg",
+   "lat": 48.8661,
+   "lon": 2.3125,
+   "kind": "built",
+   "types": [
+    "convention center",
+    "event venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Palais"
+  },
+  {
+   "id": "Q216357",
+   "name": "Grande Arche",
+   "sl": 51,
+   "file": "Grande Arche, France - April 2011.jpg",
+   "lat": 48.8928,
+   "lon": 2.2358,
+   "kind": "built",
+   "types": [
+    "office building",
+    "skyscraper",
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grande Arche"
+  },
+  {
+   "id": "Q309458",
+   "name": "Jardin du Luxembourg",
+   "sl": 51,
+   "file": "Jardin du Luxembourg in Fall 2019.jpg",
+   "lat": 48.8469,
+   "lon": 2.3372,
+   "kind": "built",
+   "types": [
+    "urban garden",
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jardin du Luxembourg"
+  },
+  {
+   "id": "Q329948",
+   "name": "Palais-Royal",
+   "sl": 51,
+   "file": "Conseil d'Etat Paris WA.jpg",
+   "lat": 48.8633,
+   "lon": 2.3369,
+   "kind": "built",
+   "types": [
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palais-Royal"
+  },
+  {
+   "id": "Q156971",
+   "name": "EuroAirport Basel-Mulhouse-Freiburg",
+   "sl": 50,
+   "file": "Euroairport from the air (7262130986).jpg",
+   "lat": 47.5997,
+   "lon": 7.5316,
+   "kind": "built",
+   "types": [
+    "airport straddling borders",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Bâle-Mulhouse Airport"
+  },
+  {
+   "id": "Q209064",
+   "name": "Mont Ventoux",
+   "sl": 50,
+   "file": "Mont ventoux.jpg",
+   "lat": 44.1667,
+   "lon": 5.2833,
+   "kind": "natural",
+   "types": [
+    "free flight site",
+    "highest point",
+    "hogback",
+    "main peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont Ventoux"
+  },
+  {
+   "id": "Q220601",
+   "name": "Bassas da India",
+   "sl": 49,
+   "file": "Bassas da India atoll map-fr.png",
+   "lat": -21.4825,
+   "lon": 39.6719,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bassas da India"
+  },
+  {
+   "id": "Q209626",
+   "name": "bois de Boulogne",
+   "sl": 49,
+   "file": "La Défense and Bois de Boulogne from the Eiffel Tower, 11 June 2017 001.jpg",
+   "lat": 48.8647,
+   "lon": 2.2508,
+   "kind": "built",
+   "types": [
+    "forest",
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bois de Boulogne"
+  },
+  {
+   "id": "Q236601",
+   "name": "Glorioso Islands",
+   "sl": 49,
+   "file": "Glorioso Islands ISS002-E-6913.JPG",
+   "lat": -11.55,
+   "lon": 47.3333,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MG"
+   ],
+   "cat": "Glorioso Islands"
+  },
+  {
+   "id": "Q8507",
+   "name": "Parc Olympique Lyonnais",
+   "sl": 49,
+   "file": "Stade Lumière.jpg",
+   "lat": 45.7652,
+   "lon": 4.9821,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parc Olympique Lyonnais"
+  },
+  {
+   "id": "Q861000",
+   "name": "Stade Geoffroy-Guichard",
+   "sl": 49,
+   "file": "AS Saint-Étienne v Olympique Lyonnais, 10 November 2013.jpg",
+   "lat": 45.4607,
+   "lon": 4.3902,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Geoffroy-Guichard"
+  },
+  {
+   "id": "Q323767",
+   "name": "Montparnasse Tower",
+   "sl": 48,
+   "file": "Remote view of the Tour Montparnasse & Eiffel Tower in 2005.jpg",
+   "lat": 48.8421,
+   "lon": 2.322,
+   "kind": "built",
+   "types": [
+    "office building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tour Montparnasse"
+  },
+  {
+   "id": "Q821557",
+   "name": "Nice Côte d'Azur Airport",
+   "sl": 48,
+   "file": "Aéroport Nice vue aérienne.jpg",
+   "lat": 43.6653,
+   "lon": 7.215,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nice Côte d'Azur Airport"
+  },
+  {
+   "id": "Q820892",
+   "name": "Petit Palais",
+   "sl": 48,
+   "file": "Petit Palais Paris 2.jpg",
+   "lat": 48.866,
+   "lon": 2.3146,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "event venue",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Petit Palais"
+  },
+  {
+   "id": "Q818517",
+   "name": "Tuileries Garden",
+   "sl": 48,
+   "file": "Grande Roue de Paris - Louvre et Jardins des Tuileries.jpg",
+   "lat": 48.8639,
+   "lon": 2.3261,
+   "kind": "built",
+   "types": [
+    "event venue",
+    "garden",
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jardin des Tuileries"
+  },
+  {
+   "id": "Q271639",
+   "name": "Bois de Vincennes",
+   "sl": 47,
+   "file": "Bois de Vincennes DSC03761.JPG",
+   "lat": 48.8281,
+   "lon": 2.4331,
+   "kind": "built",
+   "types": [
+    "forest",
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bois de Vincennes"
+  },
+  {
+   "id": "Q745942",
+   "name": "Gare de Paris-Nord",
+   "sl": 47,
+   "file": "Gare-de-Paris-Nord-2026-06-msu--2418.jpg",
+   "lat": 48.8811,
+   "lon": 2.3553,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "dead-end railway station",
+    "railway station",
+    "S-Bahn station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gare de Paris-Nord"
+  },
+  {
+   "id": "Q392564",
+   "name": "Grand Mosque of Paris",
+   "sl": 47,
+   "file": "Grande Mosquée de Paris.JPG",
+   "lat": 48.8419,
+   "lon": 2.355,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Mosque of Paris"
+  },
+  {
+   "id": "Q330564",
+   "name": "La Madeleine",
+   "sl": 47,
+   "file": "Eglise de la Madeleine 2024.jpg",
+   "lat": 48.87,
+   "lon": 2.3244,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Église de la Madeleine (Paris)"
+  },
+  {
+   "id": "Q1547",
+   "name": "Lyon–Saint-Exupéry Airport",
+   "sl": 47,
+   "file": "Vue aérienne d'une partie de l'aéroport de Lyon Saint-Exupéry et de la gare TGV (septembre 2022).jpg",
+   "lat": 45.7256,
+   "lon": 5.0811,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lyon Saint-Exupéry Airport"
+  },
+  {
+   "id": "Q461340",
+   "name": "Paris Observatory, PSL University",
+   "sl": 47,
+   "file": "Obs-Paris-coupole-Arago.jpg",
+   "lat": 48.8051,
+   "lon": 2.2334,
+   "kind": "built",
+   "types": [
+    "astronomical observatory",
+    "grand établissement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Observatoire de Paris"
+  },
+  {
+   "id": "Q1410402",
+   "name": "Pierre Mauroy Stadium",
+   "sl": 47,
+   "file": "Finale Coupe Davis 2017 Pouille Goffin.jpg",
+   "lat": 50.612,
+   "lon": 3.1306,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Pierre-Mauroy"
+  },
+  {
+   "id": "Q28924",
+   "name": "Catacombs of Paris",
+   "sl": 46,
+   "file": "Catacumbas, París, Francia, 2022-11-01, DD 117-119 HDR.jpg",
+   "lat": 48.834,
+   "lon": 2.3325,
+   "kind": "built",
+   "types": [
+    "catacombs",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catacombes de Paris"
+  },
+  {
+   "id": "Q193215",
+   "name": "Château de Chenonceau",
+   "sl": 46,
+   "file": "Chenonceau-20050320.jpg",
+   "lat": 47.325,
+   "lon": 1.0706,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Château de Chenonceau"
+  },
+  {
+   "id": "Q143463",
+   "name": "Palais des Papes",
+   "sl": 46,
+   "file": "00 0711 Avignon (Frankreich) - Kathetrale und Papstpalast.jpg",
+   "lat": 43.9508,
+   "lon": 4.8075,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "palace",
+    "palace of the Popes"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15241016",
+    "name": "Historic Centre of Avignon"
+   },
+   "also": [],
+   "cat": "Palais des Papes d'Avignon"
+  },
+  {
+   "id": "Q651190",
+   "name": "Marseille Provence Airport",
+   "sl": 45,
+   "file": "Marseille Provence Airport 2017 05.jpg",
+   "lat": 43.4367,
+   "lon": 5.215,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marseille Provence Airport"
+  },
+  {
+   "id": "Q10369016",
+   "name": "Pierre-sur-Haute military radio station",
+   "sl": 45,
+   "file": "Base militaire de Pierre-sur-Haute.jpg",
+   "lat": 45.6531,
+   "lon": 3.8084,
+   "kind": "built",
+   "types": [
+    "military base",
+    "radio communication station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Military radio station of Pierre-sur-Haute"
+  },
+  {
+   "id": "Q390418",
+   "name": "Pont Alexandre III",
+   "sl": 45,
+   "file": "Pont Alexandre III from pont de la Concorde, Paris 17 May 2012.jpg",
+   "lat": 48.8636,
+   "lon": 2.3136,
+   "kind": "built",
+   "types": [
+    "deck arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pont Alexandre-III"
+  },
+  {
+   "id": "Q335277",
+   "name": "Pont Neuf",
+   "sl": 45,
+   "file": "Pont Neuf - Paris - France.jpg",
+   "lat": 48.8575,
+   "lon": 2.3417,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "stone bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pont Neuf"
+  },
+  {
+   "id": "Q252481",
+   "name": "Stade Atlantique",
+   "sl": 45,
+   "file": "500px photo (165733217).jpeg",
+   "lat": 44.8974,
+   "lon": -0.5613,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand stade Bordeaux"
+  },
+  {
+   "id": "Q854122",
+   "name": "Stade Bollaert-Delelis",
+   "sl": 45,
+   "file": "Stade Bollaert Delelis.JPG",
+   "lat": 50.4329,
+   "lon": 2.8149,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue",
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Bollaert-Delelis"
+  }
+ ]
+}

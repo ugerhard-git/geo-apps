@@ -1,0 +1,58 @@
+{
+ "country": "MQ",
+ "items": [
+  {
+   "id": "Q76309",
+   "name": "Mount Pelée",
+   "sl": 62,
+   "file": "La Pelée vue du Carbet.jpg",
+   "lat": 14.8131,
+   "lon": -61.1656,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "lava dome",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montagne Pelée"
+  },
+  {
+   "id": "Q651330",
+   "name": "Martinique Aimé Césaire International Airport",
+   "sl": 24,
+   "file": "Aeroport Aime Cesaire.jpg",
+   "lat": 14.5922,
+   "lon": -60.9964,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Martinique Aimé Césaire International Airport"
+  },
+  {
+   "id": "Q940137",
+   "name": "Fort-de-France Cathedral",
+   "sl": 9,
+   "file": "Cathédrale Saint Louis.jpg",
+   "lat": 14.6042,
+   "lon": -61.07,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Saint-Louis de Fort-de-France"
+  }
+ ]
+}

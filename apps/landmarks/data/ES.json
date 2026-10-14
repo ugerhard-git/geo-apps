@@ -1,0 +1,1427 @@
+{
+ "country": "ES",
+ "items": [
+  {
+   "id": "Q48435",
+   "name": "Basilica and Expiatory Church of the Holy Family",
+   "sl": 109,
+   "file": "SF maig 2026.jpg",
+   "lat": 41.4037,
+   "lon": 2.1743,
+   "kind": "built",
+   "types": [
+    "expiatory temple",
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sagrada Família"
+  },
+  {
+   "id": "Q38954",
+   "name": "Teide",
+   "sl": 105,
+   "file": "Teide von Nordosten (Zuschnitt 2).jpg",
+   "lat": 28.2726,
+   "lon": -16.6436,
+   "kind": "both",
+   "types": [
+    "active volcano",
+    "architectural landmark",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teide"
+  },
+  {
+   "id": "Q47476",
+   "name": "Alhambra",
+   "sl": 96,
+   "file": "Alhambra detail.jpg",
+   "lat": 37.1763,
+   "lon": -3.5882,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "garden",
+    "group of monuments",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q9603543",
+    "name": "Alhambra, Generalife and Albayzín, Granada"
+   },
+   "also": [],
+   "cat": "Alhambra"
+  },
+  {
+   "id": "Q159848",
+   "name": "Camp Nou",
+   "sl": 89,
+   "file": "Camp Nou aerial (cropped).jpg",
+   "lat": 41.3808,
+   "lon": 2.1228,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Camp Nou"
+  },
+  {
+   "id": "Q28471",
+   "name": "Royal Monastery of San Lorenzo de El Escorial",
+   "sl": 82,
+   "file": "Monasterio de El Escorial en Madrid.jpg",
+   "lat": 40.5892,
+   "lon": -4.1478,
+   "kind": "built",
+   "types": [
+    "Monument (Spain)",
+    "Roman Catholic monastery",
+    "royal palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5821857",
+    "name": "Monastery and Site of the Escurial, Madrid"
+   },
+   "also": [],
+   "cat": "Monastery of San Lorenzo de El Escorial"
+  },
+  {
+   "id": "Q164027",
+   "name": "Bernabéu",
+   "sl": 81,
+   "file": "Estadio Santiago Bernabéu Madrid.jpg",
+   "lat": 40.4531,
+   "lon": -3.6883,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bernabéu Stadium"
+  },
+  {
+   "id": "Q160112",
+   "name": "Museo del Prado",
+   "sl": 80,
+   "file": "Museo del Prado 2016 (25185969599).jpg",
+   "lat": 40.4139,
+   "lon": -3.6922,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum",
+    "organization",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo del Prado"
+  },
+  {
+   "id": "Q41150",
+   "name": "Way of Saint James",
+   "sl": 78,
+   "file": "Catedral de Santiago de Compostela agosto 2018 (cropped).jpg",
+   "lat": 42.8806,
+   "lon": -8.5439,
+   "kind": "both",
+   "types": [
+    "historic grouping",
+    "monument",
+    "trail system"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Way of Saint James"
+  },
+  {
+   "id": "Q133575",
+   "name": "Cave of Altamira",
+   "sl": 76,
+   "file": "Techo de Altamira (replica)-Museo Arqueológico Nacional.jpg",
+   "lat": 43.3769,
+   "lon": -4.1197,
+   "kind": "both",
+   "types": [
+    "cave with prehistoric art",
+    "monument",
+    "Stone Age site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q899302",
+    "name": "Cave of Altamira and Paleolithic Cave Art of Northern Spain"
+   },
+   "also": [],
+   "cat": "Cave of Altamira"
+  },
+  {
+   "id": "Q166276",
+   "name": "Madrid-Barajas Airport",
+   "sl": 74,
+   "file": "Barajas overview1.jpg",
+   "lat": 40.4722,
+   "lon": -3.5608,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madrid-Barajas Airport"
+  },
+  {
+   "id": "Q179199",
+   "name": "Guggenheim Museum Bilbao",
+   "sl": 68,
+   "file": "Museo Guggenheim, Bilbao (31273245344).jpg",
+   "lat": 43.2688,
+   "lon": -2.9341,
+   "kind": "built",
+   "types": [
+    "museum",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guggenheim Museum Bilbao"
+  },
+  {
+   "id": "Q205136",
+   "name": "Cathedral of Santiago de Compostela",
+   "sl": 65,
+   "file": "Santiago cathedral 2021.jpg",
+   "lat": 42.8806,
+   "lon": -8.5444,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "Catholic cathedral",
+    "Catholic pilgrimage church",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Santiago de Compostela"
+  },
+  {
+   "id": "Q651392",
+   "name": "Melilla Airport",
+   "sl": 63,
+   "file": "Melilla Airport.jpg",
+   "lat": 35.2797,
+   "lon": -2.9564,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Melilla Airport"
+  },
+  {
+   "id": "Q231606",
+   "name": "Seville Cathedral",
+   "sl": 63,
+   "file": "CATEDRAL DE SEVILLA.jpg",
+   "lat": 37.3857,
+   "lon": -5.9931,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Seville"
+  },
+  {
+   "id": "Q33200",
+   "name": "Mosque-Cathedral of Cordoba",
+   "sl": 61,
+   "file": "Mezquita de Córdoba desde el aire (Córdoba, España).jpg",
+   "lat": 37.8789,
+   "lon": -4.7793,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "congregational mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q10749904",
+    "name": "historic centre of Córdoba"
+   },
+   "also": [],
+   "cat": "Mosque-Cathedral of Córdoba"
+  },
+  {
+   "id": "Q715124",
+   "name": "Teide National Park",
+   "sl": 61,
+   "file": "Roque Cinchado und Teide (Zuschnitt).jpg",
+   "lat": 28.2647,
+   "lon": -16.6181,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Natura 2000 site",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque nacional del Teide"
+  },
+  {
+   "id": "Q244947",
+   "name": "Aqueduct of Segovia",
+   "sl": 58,
+   "file": "Aqueduct of Segovia 08.jpg",
+   "lat": 40.9479,
+   "lon": -4.1178,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "architectural heritage monument",
+    "Roman aqueduct",
+    "stone bridge"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15728389",
+    "name": "Old Town of Segovia and its Aqueduct"
+   },
+   "also": [],
+   "cat": "Aqueduct of Segovia"
+  },
+  {
+   "id": "Q56973",
+   "name": "Josep Tarradellas Airport Barcelona-El Prat",
+   "sl": 56,
+   "file": "Barcelona El Prat 05.jpg",
+   "lat": 41.2969,
+   "lon": 2.0783,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barcelona Airport"
+  },
+  {
+   "id": "Q14554",
+   "name": "Minho River",
+   "sl": 56,
+   "file": "Roman bridge, Ourense (Spain).jpg",
+   "lat": 41.8653,
+   "lon": -8.8697,
+   "kind": "natural",
+   "types": [
+    "main stem",
+    "Natura 2000 site",
+    "river",
+    "site of community importance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PT"
+   ],
+   "cat": "Minho River"
+  },
+  {
+   "id": "Q744420",
+   "name": "Burgos Cathedral",
+   "sl": 55,
+   "file": "Escaleras a la Catedral -- 2023 -- Burgos, Castilla y León, España.jpg",
+   "lat": 42.3408,
+   "lon": -3.7045,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Burgos"
+  },
+  {
+   "id": "Q212867",
+   "name": "Park Güell",
+   "sl": 55,
+   "file": "Güell BCN edited.jpg",
+   "lat": 41.4136,
+   "lon": 2.1528,
+   "kind": "built",
+   "types": [
+    "park",
+    "sculpture garden"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q921745",
+    "name": "Works of Antoni Gaudí"
+   },
+   "also": [],
+   "cat": "Parc Güell"
+  },
+  {
+   "id": "Q464942",
+   "name": "Garajonay National Park",
+   "sl": 54,
+   "file": "Bosque Encantado, Parque nacional de Garajonay, La Gomera, España, 2012-12-14, DD 19.jpg",
+   "lat": 28.1263,
+   "lon": -17.2372,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque nacional de Garajonay"
+  },
+  {
+   "id": "Q6812419",
+   "name": "Melilla la Vieja",
+   "sl": 54,
+   "file": "Frente de La Marina.jpg",
+   "lat": 35.294,
+   "lon": -2.934,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Melilla la Vieja"
+  },
+  {
+   "id": "Q245151",
+   "name": "Tower of Hercules",
+   "sl": 53,
+   "file": "Torre de Hércules 2023.jpg",
+   "lat": 43.3858,
+   "lon": -8.4064,
+   "kind": "built",
+   "types": [
+    "ancient lighthouse",
+    "fortified tower",
+    "lighthouse",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre de Hércules"
+  },
+  {
+   "id": "Q208081",
+   "name": "Aneto",
+   "sl": 52,
+   "file": "Aneto 01.jpg",
+   "lat": 42.631,
+   "lon": 0.6567,
+   "kind": "natural",
+   "types": [
+    "main peak",
+    "mountain",
+    "three-thousander"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aneto"
+  },
+  {
+   "id": "Q28964",
+   "name": "Auditorio de Tenerife",
+   "sl": 52,
+   "file": "Auditorio de Tenerife 2015 (50MP).jpg",
+   "lat": 28.4561,
+   "lon": -16.2513,
+   "kind": "built",
+   "types": [
+    "concert hall",
+    "opera house",
+    "performing arts center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Auditorio de Tenerife"
+  },
+  {
+   "id": "Q207870",
+   "name": "Casa Milà",
+   "sl": 52,
+   "file": "Casa Milà, general view.jpg",
+   "lat": 41.3953,
+   "lon": 2.1617,
+   "kind": "built",
+   "types": [
+    "multifamily residential"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q921745",
+    "name": "Works of Antoni Gaudí"
+   },
+   "also": [],
+   "cat": "Casa Milà"
+  },
+  {
+   "id": "Q463141",
+   "name": "Doñana National Park",
+   "sl": 52,
+   "file": "Vista de las marismas del Parque Doñana.jpg",
+   "lat": 37.02,
+   "lon": -6.44,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "European Diploma of Protected Areas",
+    "national park",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Doñana National and Natural Park"
+  },
+  {
+   "id": "Q209528",
+   "name": "Mulhacén",
+   "sl": 52,
+   "file": "Mulhacen Winter.jpg",
+   "lat": 37.0533,
+   "lon": -3.3114,
+   "kind": "natural",
+   "types": [
+    "main peak",
+    "mountain",
+    "three-thousander"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mulhacén"
+  },
+  {
+   "id": "Q461371",
+   "name": "Casa Batlló",
+   "sl": 51,
+   "file": "Casa Batllo Overview Barcelona Spain cut.jpg",
+   "lat": 41.3916,
+   "lon": 2.1649,
+   "kind": "built",
+   "types": [
+    "multifamily residential",
+    "residential building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casa Batlló"
+  },
+  {
+   "id": "Q1369687",
+   "name": "Metropolitano Stadium",
+   "sl": 51,
+   "file": "Wanda-Metropolitano.jpg",
+   "lat": 40.4361,
+   "lon": -3.5994,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Metropolitano, Madrid"
+  },
+  {
+   "id": "Q275429",
+   "name": "Ramón Sánchez Pizjuán Stadium",
+   "sl": 50,
+   "file": "2022-10-25 1 Estadio Ramón Sánchez Pizjuán (Sevilla FC).jpg",
+   "lat": 37.3839,
+   "lon": -5.9705,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Ramón Sánchez-Pizjuán"
+  },
+  {
+   "id": "Q130574",
+   "name": "Chafarinas Islands",
+   "sl": 49,
+   "file": "Chafarinas desde el cabo de Agua (3).jpg",
+   "lat": 35.1765,
+   "lon": -2.4304,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chafarinas Islands"
+  },
+  {
+   "id": "Q202762",
+   "name": "Mestalla Stadium",
+   "sl": 49,
+   "file": "CAMP DE MESTALLA GRADA DE LA MAR 2014.JPG",
+   "lat": 39.4747,
+   "lon": -0.3583,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mestalla Stadium"
+  },
+  {
+   "id": "Q645157",
+   "name": "Poblet Monastery",
+   "sl": 48,
+   "file": "Monestir de Poblet.JPG",
+   "lat": 41.3808,
+   "lon": 1.0825,
+   "kind": "built",
+   "types": [
+    "Cistercian monastery"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Reial Monestir de Poblet"
+  },
+  {
+   "id": "Q207626",
+   "name": "Vicente Calderón Stadium",
+   "sl": 48,
+   "file": "Aprobado el nuevo ámbito Mahou-Calderón (01).jpg",
+   "lat": 40.4017,
+   "lon": -3.7206,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vicente Calderón Stadium"
+  },
+  {
+   "id": "Q203950",
+   "name": "Cape Trafalgar",
+   "sl": 47,
+   "file": "Spain Cabo Trafalgar.jpg",
+   "lat": 36.1833,
+   "lon": -6.0333,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabo Trafalgar"
+  },
+  {
+   "id": "Q525811",
+   "name": "Generalife",
+   "sl": 47,
+   "file": "Generalife Palace, Alhambra, Granada, Spain.jpg",
+   "lat": 37.1769,
+   "lon": -3.5853,
+   "kind": "built",
+   "types": [
+    "Historic Garden (Spain)",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q9603543",
+    "name": "Alhambra, Generalife and Albayzín, Granada"
+   },
+   "also": [],
+   "cat": "Generalife"
+  },
+  {
+   "id": "Q331996",
+   "name": "Vizcaya Bridge",
+   "sl": 47,
+   "file": "Bizkaia zubia - Puente Bizkaia.jpg",
+   "lat": 43.3231,
+   "lon": -3.0169,
+   "kind": "built",
+   "types": [
+    "suspension bridge",
+    "transporter bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Transporter bridge of Biscay"
+  },
+  {
+   "id": "Q732115",
+   "name": "Montserrat",
+   "sl": 46,
+   "file": "Montserrat - 100.jpg",
+   "lat": 41.6054,
+   "lon": 1.8115,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muntanya de Montserrat"
+  },
+  {
+   "id": "Q460889",
+   "name": "Museo Nacional Centro de Arte Reina Sofía",
+   "sl": 46,
+   "file": "MNCARS 05.jpg",
+   "lat": 40.4086,
+   "lon": -3.694,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "arts center",
+    "former hospital",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo Nacional Centro de Arte Reina Sofía"
+  },
+  {
+   "id": "Q498261",
+   "name": "Reales Alcázares",
+   "sl": 46,
+   "file": "Patio de las doncellas.jpg",
+   "lat": 37.3844,
+   "lon": -5.9912,
+   "kind": "built",
+   "types": [
+    "alcázar",
+    "grave",
+    "hydraulic structure",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q9709444",
+    "name": "Cathedral, Alcázar and Archivo de Indias in Seville"
+   },
+   "also": [],
+   "cat": "Alcázar of Seville"
+  },
+  {
+   "id": "Q171517",
+   "name": "Royal Palace of Madrid",
+   "sl": 45,
+   "file": "Palacio Real de Madrid Julio 2016 (cropped).jpg",
+   "lat": 40.418,
+   "lon": -3.7143,
+   "kind": "built",
+   "types": [
+    "city palace",
+    "Monument (Spain)",
+    "museum",
+    "official residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Palace of Madrid"
+  },
+  {
+   "id": "Q11993457",
+   "name": "Royal Spanish Academy",
+   "sl": 45,
+   "file": "Fachada de la Real Academia Española.jpg",
+   "lat": 40.415,
+   "lon": -3.6909,
+   "kind": "built",
+   "types": [
+    "academy of sciences",
+    "collection",
+    "language regulator",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Real Academia Española"
+  },
+  {
+   "id": "Q17155",
+   "name": "Cathedral of the Holy Cross and Saint Eulalia",
+   "sl": 44,
+   "file": "Barcelona Cathedral Saint Eulalia.jpg",
+   "lat": 41.3839,
+   "lon": 2.1764,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Barcelona"
+  },
+  {
+   "id": "Q834479",
+   "name": "Giralda",
+   "sl": 44,
+   "file": "Giralda de Sevilla (3).jpg",
+   "lat": 37.3861,
+   "lon": -5.9924,
+   "kind": "built",
+   "types": [
+    "Monument (Spain)",
+    "steeple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Giralda"
+  },
+  {
+   "id": "Q327940",
+   "name": "Palau de la Música Catalana",
+   "sl": 44,
+   "file": "Palau música catalana exterior.jpg",
+   "lat": 41.3877,
+   "lon": 2.1753,
+   "kind": "built",
+   "types": [
+    "concert hall"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64955212",
+    "name": "Palau de la Música Catalana and Hospital de Sant Pau, Barcelona"
+   },
+   "also": [],
+   "cat": "Palau de la Música Catalana"
+  },
+  {
+   "id": "Q656993",
+   "name": "Palma de Mallorca Airport",
+   "sl": 44,
+   "file": "Mallorca Palma airport asv2023-04 img1.jpg",
+   "lat": 39.5517,
+   "lon": 2.7388,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palma de Mallorca Airport"
+  },
+  {
+   "id": "Q1123180",
+   "name": "Toledo Cathedral",
+   "sl": 44,
+   "file": "Cathedral of Toledo (7079311505).jpg",
+   "lat": 39.8571,
+   "lon": -4.0239,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Toledo"
+  },
+  {
+   "id": "Q849711",
+   "name": "Almudena Cathedral",
+   "sl": 43,
+   "file": "Almudena 2022 - overview.jpg",
+   "lat": 40.4156,
+   "lon": -3.7144,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Our Lady of La Almudena"
+  },
+  {
+   "id": "Q215662",
+   "name": "Monte Perdido",
+   "sl": 43,
+   "file": "Cirque de Soaso et massif du Mont-Perdu.jpg",
+   "lat": 42.6739,
+   "lon": 0.0333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monte Perdido"
+  },
+  {
+   "id": "Q368737",
+   "name": "Estadio de La Cartuja",
+   "sl": 42,
+   "file": "Panoramio - V&A Dudush - Estadio Olímpico 57 619.jpg",
+   "lat": 37.4172,
+   "lon": -6.0046,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Olímpico de la Cartuja"
+  },
+  {
+   "id": "Q741157",
+   "name": "Estadio de la Cerámica",
+   "sl": 42,
+   "file": "City v Villarreal.jpg",
+   "lat": 39.9442,
+   "lon": -0.1036,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Madrigal"
+  },
+  {
+   "id": "Q117157",
+   "name": "Gulf of Cádiz",
+   "sl": 42,
+   "file": "Golfo de Cádiz - ic Landsat.jpg",
+   "lat": 36.7833,
+   "lon": -7.2333,
+   "kind": "natural",
+   "types": [
+    "gulf",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PT"
+   ],
+   "cat": "Gulf of Cádiz"
+  },
+  {
+   "id": "Q588009",
+   "name": "Llotja de la Seda",
+   "sl": 42,
+   "file": "Consulado del Mar y Lonja de la Seda en Valencia.jpg",
+   "lat": 39.4744,
+   "lon": -0.3783,
+   "kind": "built",
+   "types": [
+    "lonja"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Llotja de la Seda"
+  },
+  {
+   "id": "Q182864",
+   "name": "San Mamés Stadium",
+   "sl": 42,
+   "file": "Bilbao San Mamés Stadium 4.jpg",
+   "lat": 43.2642,
+   "lon": -2.9494,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Mamés stadium (2013)"
+  },
+  {
+   "id": "Q849314",
+   "name": "Alicante Airport",
+   "sl": 41,
+   "file": "ALC aerial photo.jpg",
+   "lat": 38.2822,
+   "lon": -0.5581,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alicante Airport"
+  },
+  {
+   "id": "Q34562",
+   "name": "Cathedral of La Laguna",
+   "sl": 41,
+   "file": "La Laguna 2022 - main facade.jpg",
+   "lat": 28.4889,
+   "lon": -16.3161,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Laguna Cathedral"
+  },
+  {
+   "id": "Q932739",
+   "name": "La Masia",
+   "sl": 41,
+   "file": "La Masia - Centre de Formació Oriol Tort 01.jpg",
+   "lat": 41.3831,
+   "lon": 2.1231,
+   "kind": "built",
+   "types": [
+    "association football training venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Masia"
+  },
+  {
+   "id": "Q696803",
+   "name": "Las Médulas",
+   "sl": 41,
+   "file": "Las Medulas (17504738221).jpg",
+   "lat": 42.4587,
+   "lon": -6.759,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "mine",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Las Médulas"
+  },
+  {
+   "id": "Q275715",
+   "name": "Lluís Companys Olympic Stadium",
+   "sl": 41,
+   "file": "BCN-EstadiOlimpic-4860.jpg",
+   "lat": 41.3647,
+   "lon": 2.1556,
+   "kind": "built",
+   "types": [
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadi Olímpic Lluís Companys"
+  },
+  {
+   "id": "Q239935",
+   "name": "City of Arts and Sciences",
+   "sl": 40,
+   "file": "20211115.Valencia.-048.jpg",
+   "lat": 39.4545,
+   "lon": -0.3504,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "cultural center",
+    "museum",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ciutat de les Arts i les Ciències"
+  },
+  {
+   "id": "Q690894",
+   "name": "Málaga-Costa del Sol",
+   "sl": 40,
+   "file": "Malaga (AGP - LEMG) AN1863602.jpg",
+   "lat": 36.675,
+   "lon": -4.4992,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Málaga Airport"
+  },
+  {
+   "id": "Q850202",
+   "name": "Punta de Tarifa",
+   "sl": 40,
+   "file": "Tarifa SPOT 1165.jpg",
+   "lat": 36.0042,
+   "lon": -5.6103,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Punta de Tarifa"
+  },
+  {
+   "id": "Q530129",
+   "name": "Royal Palace of Aranjuez",
+   "sl": 40,
+   "file": "Palacio Real de Aranjuez (5).jpg",
+   "lat": 40.0364,
+   "lon": -3.6082,
+   "kind": "built",
+   "types": [
+    "museum",
+    "royal palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6057341",
+    "name": "Aranjuez Cultural Landscape"
+   },
+   "also": [],
+   "cat": "Royal Palace of Aranjuez"
+  },
+  {
+   "id": "Q336246",
+   "name": "Torre Glòries",
+   "sl": 40,
+   "file": "Torre Agbar - Barcelona, Spain - Jan 2007.jpg",
+   "lat": 41.4035,
+   "lon": 2.1895,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre Glòries"
+  },
+  {
+   "id": "Q810684",
+   "name": "Basilica of Our Lady of the Pillar",
+   "sl": 39,
+   "file": "Zaragoza - Basilica de Nuestra Señora del Pilar 01.jpg",
+   "lat": 41.6569,
+   "lon": -0.8783,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "Catholic parish church",
+    "Catholic pilgrimage church",
+    "co-cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral-Basílica de Nuestra Señora del Pilar de Zaragoza"
+  },
+  {
+   "id": "Q126844",
+   "name": "Estadio Benito Villamarín",
+   "sl": 39,
+   "file": "Stade Manuel Ruiz de Lopera Séville.JPG",
+   "lat": 37.3564,
+   "lon": -5.9816,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Benito Villamarín"
+  },
+  {
+   "id": "Q850593",
+   "name": "La Rambla",
+   "sl": 39,
+   "file": "15-10-27-Vista des de l'estàtua de Colom a Barcelona-WMA 2791.jpg",
+   "lat": 41.3814,
+   "lon": 2.1731,
+   "kind": "built",
+   "types": [
+    "rambla",
+    "street",
+    "urban ensemble"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Rambla"
+  },
+  {
+   "id": "Q211252",
+   "name": "Madinat Al-Zahra",
+   "sl": 39,
+   "file": "Madinat al-Zahra (52019329474).jpg",
+   "lat": 37.8861,
+   "lon": -4.8678,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "archaeological site",
+    "city"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Medina Azahara"
+  },
+  {
+   "id": "Q623407",
+   "name": "Numantia",
+   "sl": 39,
+   "file": "Nunmancia 1.JPG",
+   "lat": 41.8094,
+   "lon": -2.4444,
+   "kind": "built",
+   "types": [
+    "celtiberian town",
+    "Celtic archaeological site",
+    "hillfort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Numancia"
+  },
+  {
+   "id": "Q191697",
+   "name": "Peñón de Alhucemas",
+   "sl": 39,
+   "file": "L'ile de Nekor (cropped).jpg",
+   "lat": 35.2135,
+   "lon": -3.8895,
+   "kind": "both",
+   "types": [
+    "island",
+    "peñón"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peñón de Alhucemas"
+  },
+  {
+   "id": "Q1142410",
+   "name": "Girona-Costa Brava Airport",
+   "sl": 38,
+   "file": "Girona-Costa Brava Airport - View from plane.JPG",
+   "lat": 41.8981,
+   "lon": 2.766,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Girona-Costa Brava Airport"
+  },
+  {
+   "id": "Q1130612",
+   "name": "Gran Canaria Airport",
+   "sl": 38,
+   "file": "Gran Canaria Airport aerial.jpg",
+   "lat": 27.9319,
+   "lon": -15.3867,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "government organization",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gran Canaria Airport"
+  },
+  {
+   "id": "Q175874",
+   "name": "León Cathedral",
+   "sl": 38,
+   "file": "Catedral Gótica de León.jpg",
+   "lat": 42.5994,
+   "lon": -5.5667,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of León"
+  },
+  {
+   "id": "Q741610",
+   "name": "Ordesa y Monte Perdido National Park",
+   "sl": 38,
+   "file": "Valley of Ordesa, Ordesa y Monte Perdido National Park, Spain.jpg",
+   "lat": 42.6717,
+   "lon": 0.0556,
+   "kind": "natural",
+   "types": [
+    "Cola de Caballo",
+    "national park",
+    "protected area",
+    "site of community importance"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3411434",
+    "name": "Pyrénées – Mont Perdu World Heritage Site"
+   },
+   "also": [],
+   "cat": "Parque Nacional de Ordesa y Monte Perdido"
+  },
+  {
+   "id": "Q557337",
+   "name": "Royal Alcázar of Segovia",
+   "sl": 38,
+   "file": "Panorámica Otoño Alcázar de Segovia.jpg",
+   "lat": 40.9525,
+   "lon": -4.1325,
+   "kind": "built",
+   "types": [
+    "alcázar"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15728389",
+    "name": "Old Town of Segovia and its Aqueduct"
+   },
+   "also": [],
+   "cat": "Alcázar of Segovia"
+  },
+  {
+   "id": "Q750248",
+   "name": "Royal Monastery of Saint Mary of Guadalupe",
+   "sl": 38,
+   "file": "Royal Monastery of Santa Maria de Guadalupe.jpg",
+   "lat": 39.4528,
+   "lon": -5.3275,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Real Monasterio de Nuestra Señora de Guadalupe"
+  },
+  {
+   "id": "Q771935",
+   "name": "Santa Maria de Montserrat",
+   "sl": 38,
+   "file": "Montserrat Natural Park 4.jpg",
+   "lat": 41.5932,
+   "lon": 1.8371,
+   "kind": "built",
+   "types": [
+    "benedictine abbey"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monestir de Montserrat"
+  },
+  {
+   "id": "Q821984",
+   "name": "Tenerife South Airport",
+   "sl": 38,
+   "file": "Airport Tenerife Sur 05.jpg",
+   "lat": 28.0444,
+   "lon": -16.5725,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tenerife South Airport"
+  }
+ ]
+}

@@ -1,0 +1,1387 @@
+{
+ "country": "AT",
+ "items": [
+  {
+   "id": "Q4127",
+   "name": "Lake Constance",
+   "sl": 100,
+   "file": "Vorfrühling am Bodensee.jpg",
+   "lat": 47.65,
+   "lon": 9.3167,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "eutrophic lake",
+    "holomictic lake",
+    "hypertrophic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH",
+    "DE"
+   ],
+   "cat": "Lake Constance"
+  },
+  {
+   "id": "Q3375",
+   "name": "Zugspitze",
+   "sl": 75,
+   "file": "Zugspitzmassiv-von-Almkopf-2024.jpg",
+   "lat": 47.4212,
+   "lon": 10.9863,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Zugspitze"
+  },
+  {
+   "id": "Q32999",
+   "name": "Wien-Schwechat Airport",
+   "sl": 68,
+   "file": "2011-06-14 10-23-53 Austria Niederösterreich Fischamend Markt.jpg",
+   "lat": 48.1103,
+   "lon": 16.5697,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vienna International Airport"
+  },
+  {
+   "id": "Q131330",
+   "name": "Schönbrunn Palace",
+   "sl": 64,
+   "file": "Wien - Schloss Schönbrunn.JPG",
+   "lat": 48.1848,
+   "lon": 16.3123,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64596229",
+    "name": "Palace and gardens of Schönbrunn"
+   },
+   "also": [],
+   "cat": "Palace of Schönbrunn"
+  },
+  {
+   "id": "Q3388",
+   "name": "Grossglockner",
+   "sl": 63,
+   "file": "Großglockner1.jpg",
+   "lat": 47.0745,
+   "lon": 12.6939,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Großglockner"
+  },
+  {
+   "id": "Q6396",
+   "name": "Neusiedl Lake",
+   "sl": 63,
+   "file": "Neusiedler See im Winter.jpg",
+   "lat": 47.8333,
+   "lon": 16.75,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "Natura 2000 site",
+    "steppe lake"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "HU"
+   ],
+   "cat": "Lake Neusiedl"
+  },
+  {
+   "id": "Q211818",
+   "name": "Belvedere",
+   "sl": 61,
+   "file": "Wien - Schloss Belvedere, oberes (2).JPG",
+   "lat": 48.1934,
+   "lon": 16.3805,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belvedere (Vienna)"
+  },
+  {
+   "id": "Q5943",
+   "name": "St. Stephen's Cathedral",
+   "sl": 60,
+   "file": "Wien - Stephansdom (1).JPG",
+   "lat": 48.2084,
+   "lon": 16.3733,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Stephen's Cathedral, Vienna"
+  },
+  {
+   "id": "Q192201",
+   "name": "Wachau",
+   "sl": 57,
+   "file": "Wachau (2).JPG",
+   "lat": 48.3644,
+   "lon": 15.4342,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wachau"
+  },
+  {
+   "id": "Q46242",
+   "name": "Hofburg Palace",
+   "sl": 55,
+   "file": "Wien - Neue Hofburg.JPG",
+   "lat": 48.2064,
+   "lon": 16.3653,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château",
+    "museum",
+    "official residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hofburg"
+  },
+  {
+   "id": "Q209937",
+   "name": "Vienna State Opera house",
+   "sl": 55,
+   "file": "Staatsoper Wien DSC 5273w.jpg",
+   "lat": 48.2033,
+   "lon": 16.3692,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vienna State Opera"
+  },
+  {
+   "id": "Q157290",
+   "name": "Bohemian Forest",
+   "sl": 53,
+   "file": "Topo boehmerwald engleder.jpg",
+   "lat": 49,
+   "lon": 13.5,
+   "kind": "natural",
+   "types": [
+    "low mountain range",
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ",
+    "DE"
+   ],
+   "cat": "Šumava"
+  },
+  {
+   "id": "Q160139",
+   "name": "Mauthausen concentration camp",
+   "sl": 53,
+   "file": "Bundesarchiv Bild 192-269, KZ Mauthausen, Häftlinge im Steinbruch.jpg",
+   "lat": 48.2575,
+   "lon": 14.5004,
+   "kind": "built",
+   "types": [
+    "concentration camp",
+    "military museum",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "KZ Mauthausen main camp"
+  },
+  {
+   "id": "Q185741",
+   "name": "Ernst-Happel-Stadion",
+   "sl": 52,
+   "file": "Ernst-happel-stadion vienna.jpg",
+   "lat": 48.2072,
+   "lon": 16.4208,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ernst-Happel-Stadion"
+  },
+  {
+   "id": "Q95569",
+   "name": "Kunsthistorisches Museum",
+   "sl": 52,
+   "file": "Wien Kunsthistorisches Museum.jpg",
+   "lat": 48.2039,
+   "lon": 16.3616,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "cultural institution",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kunsthistorisches Museum"
+  },
+  {
+   "id": "Q371908",
+   "name": "Albertina",
+   "sl": 47,
+   "file": "Wien - Albertina (b).JPG",
+   "lat": 48.2047,
+   "lon": 16.3683,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Albertina, Vienna"
+  },
+  {
+   "id": "Q251246",
+   "name": "Vienna Woods",
+   "sl": 45,
+   "file": "Peilstein.jpg",
+   "lat": 48.0872,
+   "lon": 15.9119,
+   "kind": "natural",
+   "types": [
+    "alpine supergroup",
+    "forest",
+    "recreation area",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wienerwald"
+  },
+  {
+   "id": "Q679359",
+   "name": "High Tauern",
+   "sl": 44,
+   "file": "Hohe Tauern von Nordwest.jpg",
+   "lat": 47.1667,
+   "lon": 12.5,
+   "kind": "natural",
+   "types": [
+    "alpine subsection"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Hohe Tauern"
+  },
+  {
+   "id": "Q686841",
+   "name": "Hoher Dachstein",
+   "sl": 44,
+   "file": "Ramsau am Dachstein - Dachsteinsüdwand (c).JPG",
+   "lat": 47.4752,
+   "lon": 13.6057,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dachstein"
+  },
+  {
+   "id": "Q304037",
+   "name": "Austrian National Library",
+   "sl": 43,
+   "file": "State Hall of the Austrian National Library NightFall404 1.jpg",
+   "lat": 48.2061,
+   "lon": 16.3663,
+   "kind": "built",
+   "types": [
+    "cultural institution",
+    "museum",
+    "national library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Austrian National Library"
+  },
+  {
+   "id": "Q308720",
+   "name": "Burgtheater",
+   "sl": 43,
+   "file": "Wien - Burgtheater.JPG",
+   "lat": 48.2103,
+   "lon": 16.3614,
+   "kind": "built",
+   "types": [
+    "theatre building",
+    "theatre company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burgtheater"
+  },
+  {
+   "id": "Q508815",
+   "name": "Carnuntum",
+   "sl": 43,
+   "file": "Aerial image of Carnuntum (view from the southeast).jpg",
+   "lat": 48.1133,
+   "lon": 16.8614,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castrum",
+    "municipium",
+    "open-air museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carnuntum"
+  },
+  {
+   "id": "Q688704",
+   "name": "Natural History Museum, Vienna",
+   "sl": 43,
+   "file": "Naturhistorisches Museum Wien 2.jpg",
+   "lat": 48.2051,
+   "lon": 16.3599,
+   "kind": "built",
+   "types": [
+    "academic publisher",
+    "collection",
+    "natural history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naturhistorisches Museum Wien"
+  },
+  {
+   "id": "Q660082",
+   "name": "Melk Abbey",
+   "sl": 42,
+   "file": "Stift Melk, Westansicht.jpg",
+   "lat": 48.2284,
+   "lon": 15.3312,
+   "kind": "built",
+   "types": [
+    "abbey",
+    "monastery",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Melk Abbey"
+  },
+  {
+   "id": "Q408847",
+   "name": "Karlskirche",
+   "sl": 41,
+   "file": "Wien - Karlskirche (1).JPG",
+   "lat": 48.1983,
+   "lon": 16.3719,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karlskirche, Vienna"
+  },
+  {
+   "id": "Q206135",
+   "name": "Red Bull Arena",
+   "sl": 41,
+   "file": "EM-Stadion Wals-Siezenheim zur Euro.jpg",
+   "lat": 47.8162,
+   "lon": 12.9982,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Red Bull Arena (Wals-Siezenheim)"
+  },
+  {
+   "id": "Q679292",
+   "name": "Hohensalzburg Fortress",
+   "sl": 40,
+   "file": "Salzburg - Festung Hohensalzburg.JPG",
+   "lat": 47.795,
+   "lon": 13.0473,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fortress",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Festung Hohensalzburg"
+  },
+  {
+   "id": "Q251538",
+   "name": "Salzburg Airport",
+   "sl": 40,
+   "file": "Salzburg Airport from the air.jpg",
+   "lat": 47.7944,
+   "lon": 13.0033,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salzburg Airport"
+  },
+  {
+   "id": "Q203797",
+   "name": "Eggenberg Castle, Graz",
+   "sl": 39,
+   "file": "17-10-26-Graz-Schloß-Eggenberg RR79497.jpg",
+   "lat": 47.0739,
+   "lon": 15.3913,
+   "kind": "built",
+   "types": [
+    "museum",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2326418",
+    "name": "City of Graz – Historic Centre and Schloss Eggenberg"
+   },
+   "also": [],
+   "cat": "Schloss Eggenberg, Graz"
+  },
+  {
+   "id": "Q694434",
+   "name": "Innsbruck Airport",
+   "sl": 39,
+   "file": "12-06-05-innsbruck-by-ralfr-164.jpg",
+   "lat": 47.2603,
+   "lon": 11.3439,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Innsbruck Airport"
+  },
+  {
+   "id": "Q546146",
+   "name": "Wörthersee",
+   "sl": 39,
+   "file": "Aerial image of Wörthersee (view from the southeast).jpg",
+   "lat": 46.625,
+   "lon": 14.15,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wörthersee"
+  },
+  {
+   "id": "Q216167",
+   "name": "Wörthersee Stadion",
+   "sl": 39,
+   "file": "Stadium klagenfurt aerial view.jpg",
+   "lat": 46.6088,
+   "lon": 14.2783,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wörtherseestadion"
+  },
+  {
+   "id": "Q414219",
+   "name": "Academy of Fine Arts Vienna",
+   "sl": 38,
+   "file": "Akademie der bildenden Kuenste DSC 2400w.jpg",
+   "lat": 48.2013,
+   "lon": 16.3651,
+   "kind": "built",
+   "types": [
+    "academy of fine arts",
+    "art museum",
+    "public university",
+    "university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Academy of Fine Arts Vienna"
+  },
+  {
+   "id": "Q198007",
+   "name": "Karawanks",
+   "sl": 38,
+   "file": "Karavanke1.jpg",
+   "lat": 46.4167,
+   "lon": 14.4167,
+   "kind": "natural",
+   "types": [
+    "alpine subsection"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SI"
+   ],
+   "cat": "Karawanks"
+  },
+  {
+   "id": "Q204484",
+   "name": "Tivoli Stadion Tirol",
+   "sl": 38,
+   "file": "2014-05-30 Austria - Iceland football match, pre-game 9987.jpg",
+   "lat": 47.256,
+   "lon": 11.4108,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tivoli-Neu, Innsbruck"
+  },
+  {
+   "id": "Q679277",
+   "name": "Wildspitze",
+   "sl": 38,
+   "file": "Wildspitzefromtiefenbachkogel.JPG",
+   "lat": 46.8853,
+   "lon": 10.8672,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wildspitze"
+  },
+  {
+   "id": "Q698516",
+   "name": "Attersee",
+   "sl": 37,
+   "file": "Attersee - Südostansicht.JPG",
+   "lat": 47.8658,
+   "lon": 13.545,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Attersee"
+  },
+  {
+   "id": "Q178162",
+   "name": "Graz Airport",
+   "sl": 37,
+   "file": "Aerial image of the Graz airport.jpg",
+   "lat": 46.9931,
+   "lon": 15.4392,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Graz Airport"
+  },
+  {
+   "id": "Q639731",
+   "name": "Krimml Waterfalls",
+   "sl": 37,
+   "file": "1444 - Nationalpark Hohe Tauern - Krimmler Wasserfälle.JPG",
+   "lat": 47.1981,
+   "lon": 12.1714,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krimml Waterfalls"
+  },
+  {
+   "id": "Q187763",
+   "name": "Lake Zell",
+   "sl": 37,
+   "file": "Zell am See.Wiki.jpeg",
+   "lat": 47.3167,
+   "lon": 12.8,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zeller See, Salzburg"
+  },
+  {
+   "id": "Q752283",
+   "name": "Schönbrunn Zoo",
+   "sl": 37,
+   "file": "Kaiserpavillon1.jpg",
+   "lat": 48.1822,
+   "lon": 16.3025,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tiergarten Schönbrunn"
+  },
+  {
+   "id": "Q686468",
+   "name": "Vienna City Hall",
+   "sl": 37,
+   "file": "Wien Rathaus hochauflösend.jpg",
+   "lat": 48.2108,
+   "lon": 16.3574,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vienna City Hall"
+  },
+  {
+   "id": "Q697300",
+   "name": "Wien Hauptbahnhof",
+   "sl": 37,
+   "file": "Wien - Favoriten - Hauptbahnhof - 2025 05 07-1.jpg",
+   "lat": 48.185,
+   "lon": 16.3778,
+   "kind": "built",
+   "types": [
+    "central station",
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wien Hauptbahnhof"
+  },
+  {
+   "id": "Q698140",
+   "name": "Wiener Stadthalle",
+   "sl": 37,
+   "file": "Stadthalle Wien ca 1972.jpg",
+   "lat": 48.2023,
+   "lon": 16.3324,
+   "kind": "built",
+   "types": [
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wiener Stadthalle"
+  },
+  {
+   "id": "Q7411906",
+   "name": "Bavarian Alps",
+   "sl": 36,
+   "file": "Germany hike.jpg",
+   "lat": 47.64,
+   "lon": 11.77,
+   "kind": "natural",
+   "types": [
+    "alpine section"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Bavarian Alps"
+  },
+  {
+   "id": "Q493126",
+   "name": "Hundertwasserhaus",
+   "sl": 36,
+   "file": "Wien - Hundertwasserhaus (01).JPG",
+   "lat": 48.2075,
+   "lon": 16.3939,
+   "kind": "built",
+   "types": [
+    "Gemeindebau",
+    "multifamily residential"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hundertwasserhaus Wien"
+  },
+  {
+   "id": "Q258908",
+   "name": "Salzburg Cathedral",
+   "sl": 36,
+   "file": "Salzburg cathedral frontview01.jpg",
+   "lat": 47.7978,
+   "lon": 13.0469,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Catholic cathedral",
+    "Catholic parish church",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salzburger Dom"
+  },
+  {
+   "id": "Q700764",
+   "name": "Ambras Castle",
+   "sl": 35,
+   "file": "Schloss Ambras Park und Garten 10.jpg",
+   "lat": 47.2567,
+   "lon": 11.4347,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "château",
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ambras Castle"
+  },
+  {
+   "id": "Q254117",
+   "name": "Eisriesenwelt",
+   "sl": 34,
+   "file": "Eisriesenwelt toegangsweg.jpg",
+   "lat": 47.5028,
+   "lon": 13.1897,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eisriesenwelt"
+  },
+  {
+   "id": "Q220241",
+   "name": "Millstätter See",
+   "sl": 34,
+   "file": "Aerial image of Millstätter See (view from the south).jpg",
+   "lat": 46.795,
+   "lon": 13.5797,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Millstätter See"
+  },
+  {
+   "id": "Q686720",
+   "name": "Musikverein",
+   "sl": 34,
+   "file": "Wien - Haus des Wiener Musikvereins (1).JPG",
+   "lat": 48.2005,
+   "lon": 16.3727,
+   "kind": "built",
+   "types": [
+    "concert hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musikverein, Vienna"
+  },
+  {
+   "id": "Q250907",
+   "name": "Traunsee",
+   "sl": 34,
+   "file": "Aerial image of the Traunsee (view from the south).jpg",
+   "lat": 47.8667,
+   "lon": 13.8,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Traunsee"
+  },
+  {
+   "id": "Q615711",
+   "name": "Achensee",
+   "sl": 33,
+   "file": "380 m über dem Inntal liegt der Achensee. 03.jpg",
+   "lat": 47.4333,
+   "lon": 11.7167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Achensee"
+  },
+  {
+   "id": "Q17189229",
+   "name": "Arlberg Pass",
+   "sl": 33,
+   "file": "Arlbergpass- Arlbergpass 1800 m, Schild - LABW - Staatsarchiv Freiburg W 134 Nr. 112503a.jpg",
+   "lat": 47.1298,
+   "lon": 10.2106,
+   "kind": "natural",
+   "types": [
+    "mountain pass",
+    "mountain saddle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arlberg"
+  },
+  {
+   "id": "Q679384",
+   "name": "Berchtesgaden Alps",
+   "sl": 33,
+   "file": "Herbst in den Berchtesgadener Alpen.jpg",
+   "lat": 47.4211,
+   "lon": 13.0619,
+   "kind": "natural",
+   "types": [
+    "alpine subsection"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Berchtesgaden Alps"
+  },
+  {
+   "id": "Q190348",
+   "name": "Central Eastern Alps",
+   "sl": 33,
+   "file": "Venedigergruppe.jpg",
+   "lat": 47,
+   "lon": 13,
+   "kind": "natural",
+   "types": [
+    "alpine major sector"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Central Eastern Alps"
+  },
+  {
+   "id": "Q697907",
+   "name": "Großvenediger",
+   "sl": 33,
+   "file": "Großvenediger von Osten.jpg",
+   "lat": 47.1089,
+   "lon": 12.3464,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Großvenediger"
+  },
+  {
+   "id": "Q662652",
+   "name": "Imperial Crypt",
+   "sl": 33,
+   "file": "Wien - Kapuzinergruft, Maria-Theresia-Gruft (1).JPG",
+   "lat": 48.2056,
+   "lon": 16.3697,
+   "kind": "built",
+   "types": [
+    "burial vault",
+    "crypt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imperial Crypt"
+  },
+  {
+   "id": "Q694404",
+   "name": "Klagenfurt Airport",
+   "sl": 33,
+   "file": "Aerial image of the Klagenfurt airport.jpg",
+   "lat": 46.6428,
+   "lon": 14.3372,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Klagenfurt Airport"
+  },
+  {
+   "id": "Q698451",
+   "name": "Puster Valley",
+   "sl": 33,
+   "file": "CrodaDelBecco B.jpg",
+   "lat": 46.7405,
+   "lon": 12.3696,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Pustertal"
+  },
+  {
+   "id": "Q871525",
+   "name": "Vindobona",
+   "sl": 33,
+   "file": "Wien.Hofburg10.jpg",
+   "lat": 48.2108,
+   "lon": 16.3703,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vindobona"
+  },
+  {
+   "id": "Q254476",
+   "name": "Votive Church",
+   "sl": 33,
+   "file": "Wien - Votivkirche (a).JPG",
+   "lat": 48.2154,
+   "lon": 16.3591,
+   "kind": "built",
+   "types": [
+    "Catholic church building",
+    "Catholic parish church",
+    "votive church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Votive Church, Vienna"
+  },
+  {
+   "id": "Q264223",
+   "name": "Wetterstein",
+   "sl": 33,
+   "file": "Luftbild Alpen 04 (RaBoe).jpg",
+   "lat": 47.41,
+   "lon": 11.13,
+   "kind": "natural",
+   "types": [
+    "alpine supergroup"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Wetterstein"
+  },
+  {
+   "id": "Q262545",
+   "name": "Hochkönig",
+   "sl": 32,
+   "file": "Hochkönig 2025 (2).jpg",
+   "lat": 47.4208,
+   "lon": 13.0632,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hochkönig"
+  },
+  {
+   "id": "Q679248",
+   "name": "Hochosterwitz Castle",
+   "sl": 32,
+   "file": "St. Georgen am Längsee - Burg Hochosterwitz (a).JPG",
+   "lat": 46.7559,
+   "lon": 14.4524,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burg Hochosterwitz"
+  },
+  {
+   "id": "Q255743",
+   "name": "Hochwanner",
+   "sl": 32,
+   "file": "Hochwanner von S HQ.jpg",
+   "lat": 47.3958,
+   "lon": 11.0542,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Hochwanner"
+  },
+  {
+   "id": "Q699474",
+   "name": "Liechtenstein Castle",
+   "sl": 32,
+   "file": "Maria Enzersdorf - Burg Liechtenstein (1).JPG",
+   "lat": 48.0927,
+   "lon": 16.2704,
+   "kind": "built",
+   "types": [
+    "castle",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burg Liechtenstein"
+  },
+  {
+   "id": "Q609634",
+   "name": "Southern Limestone Alps",
+   "sl": 32,
+   "file": "Dolomiten Fanes Blau.jpg",
+   "lat": 46.5089,
+   "lon": 10.545,
+   "kind": "natural",
+   "types": [
+    "alpine major sector"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT",
+    "SI"
+   ],
+   "cat": "Southern Limestone Alps"
+  },
+  {
+   "id": "Q374336",
+   "name": "Theater an der Wien",
+   "sl": 32,
+   "file": "TheateranDerWienJakobAlt.jpg",
+   "lat": 48.1997,
+   "lon": 16.3639,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Theater an der Wien"
+  },
+  {
+   "id": "Q27265",
+   "name": "University of Salzburg",
+   "sl": 32,
+   "file": "BuildingUniversitySalzburg1.jpg",
+   "lat": 47.7972,
+   "lon": 13.0481,
+   "kind": "built",
+   "types": [
+    "building",
+    "open-access publisher",
+    "organization",
+    "university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Universität Salzburg"
+  },
+  {
+   "id": "Q688715",
+   "name": "Vienna Basin",
+   "sl": 32,
+   "file": "Wiener Blick Panorama.jpg",
+   "lat": 48.2055,
+   "lon": 16.3738,
+   "kind": "natural",
+   "types": [
+    "geomorphological subprovince",
+    "sedimentary basin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ"
+   ],
+   "cat": "Vienna Basin"
+  },
+  {
+   "id": "Q655747",
+   "name": "Allgäu Alps",
+   "sl": 31,
+   "file": "Allgaeuer Alpen.jpg",
+   "lat": 47.4,
+   "lon": 10.25,
+   "kind": "natural",
+   "types": [
+    "alpine subsection",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Allgäuer Alpen"
+  },
+  {
+   "id": "Q303139",
+   "name": "Belvedere",
+   "sl": 31,
+   "file": "Wien - Schloss Belvedere, oberes (1).JPG",
+   "lat": 48.1914,
+   "lon": 16.3808,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Österreichische Galerie Belvedere"
+  },
+  {
+   "id": "Q660390",
+   "name": "Carnic Alps",
+   "sl": 31,
+   "file": "Kleine und Große Kinigat Karnischer Hauptkamm 20070706.jpg",
+   "lat": 46.5,
+   "lon": 13,
+   "kind": "natural",
+   "types": [
+    "alpine subsection"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Carnic Alps"
+  },
+  {
+   "id": "Q592910",
+   "name": "Kitzbühel Alps",
+   "sl": 31,
+   "file": "Hahnenkamm in May.jpg",
+   "lat": 47.3333,
+   "lon": 12.3333,
+   "kind": "both",
+   "types": [
+    "alpine subsection",
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kitzbüheler Alpen"
+  },
+  {
+   "id": "Q700852",
+   "name": "Linz Airport",
+   "sl": 31,
+   "file": "Aerial image of the Linz airport.jpg",
+   "lat": 48.2353,
+   "lon": 14.1881,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Linz Airport"
+  },
+  {
+   "id": "Q688546",
+   "name": "Mirabell Palace",
+   "sl": 31,
+   "file": "Mirabell, Salzburg (1).jpg",
+   "lat": 47.8055,
+   "lon": 13.042,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Schloss Mirabell"
+  },
+  {
+   "id": "Q871584",
+   "name": "Wolfgangsee",
+   "sl": 31,
+   "file": "St. Gilgen - Nordwestansicht des Wolfgangsees.JPG",
+   "lat": 47.7528,
+   "lon": 13.3972,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wolfgangsee"
+  },
+  {
+   "id": "Q203151",
+   "name": "Zillertal Alps",
+   "sl": 31,
+   "file": "Schlegeisspeicher Panorama vom Berliner Höhenweg Nr 526 in den Zillertaler Alpen.jpg",
+   "lat": 47,
+   "lon": 11.8,
+   "kind": "natural",
+   "types": [
+    "alpine subsection"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Zillertaler Alpen"
+  },
+  {
+   "id": "Q704453",
+   "name": "Bohemian Massif",
+   "sl": 30,
+   "file": "Słonecznik Karkonosze.jpg",
+   "lat": 50.1333,
+   "lon": 14.9833,
+   "kind": "natural",
+   "types": [
+    "highland",
+    "physiographic province",
+    "Truncated upland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ",
+    "PL"
+   ],
+   "cat": "Bohemian Massif"
+  }
+ ]
+}

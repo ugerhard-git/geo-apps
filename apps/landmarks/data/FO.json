@@ -1,0 +1,713 @@
+{
+ "country": "FO",
+ "items": [
+  {
+   "id": "Q371471",
+   "name": "Vágar Airport",
+   "sl": 42,
+   "file": "Vágar Airport, Faroe Islands.JPG",
+   "lat": 62.0636,
+   "lon": -7.2772,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vágar Airport"
+  },
+  {
+   "id": "Q738746",
+   "name": "Slættaratindur",
+   "sl": 35,
+   "file": "Slættaratindur, Faroe Islands.JPG",
+   "lat": 62.2967,
+   "lon": -7.0132,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Slættaratindur"
+  },
+  {
+   "id": "Q845610",
+   "name": "Tórsvøllur",
+   "sl": 33,
+   "file": "Torsvollur Football Venue in Torshavn Faroe Islands.JPG",
+   "lat": 62.0192,
+   "lon": -6.7781,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tórsvøllur"
+  },
+  {
+   "id": "Q932408",
+   "name": "Sørvágsvatn",
+   "sl": 32,
+   "file": "Sørvágsvatn 4.jpg",
+   "lat": 62.05,
+   "lon": -7.2333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sørvágsvatn"
+  },
+  {
+   "id": "Q585416",
+   "name": "Cape Enniberg",
+   "sl": 22,
+   "file": "Enniberg 2000 (cropped).jpg",
+   "lat": 62.3833,
+   "lon": -6.5667,
+   "kind": "natural",
+   "types": [
+    "promontory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Enniberg"
+  },
+  {
+   "id": "Q476699",
+   "name": "Fjallavatn",
+   "sl": 20,
+   "file": "Fjallavatn.png",
+   "lat": 62.1225,
+   "lon": -7.2992,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q221052",
+   "name": "Gundadalur",
+   "sl": 20,
+   "file": "Gundadalur Stadium, Torshavn 01.jpg",
+   "lat": 62.0193,
+   "lon": -6.7811,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gundadalur Stadium"
+  },
+  {
+   "id": "Q601540",
+   "name": "Magnus Cathedral",
+   "sl": 20,
+   "file": "Kirkjubøur, Faroe Islands.JPG",
+   "lat": 61.9518,
+   "lon": -6.7921,
+   "kind": "built",
+   "types": [
+    "church ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Magnus-katedralen (Kirkjubøur)"
+  },
+  {
+   "id": "Q1072725",
+   "name": "Tórshavn Cathedral",
+   "sl": 20,
+   "file": "Tórshavn.2006.6.jpg",
+   "lat": 62.0096,
+   "lon": -6.7716,
+   "kind": "built",
+   "types": [
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Havnar Kirkja"
+  },
+  {
+   "id": "Q792079",
+   "name": "Beinisvørð",
+   "sl": 18,
+   "file": "Beinisvord.jpg",
+   "lat": 61.4264,
+   "lon": -6.7672,
+   "kind": "natural",
+   "types": [
+    "cliff",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beinisvørð"
+  },
+  {
+   "id": "Q1028361",
+   "name": "Gráfelli",
+   "sl": 17,
+   "file": "Funningur with Slaettaratindur and Grafelli.jpg",
+   "lat": 62.3,
+   "lon": -7,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gráfelli (Eysturoy)"
+  },
+  {
+   "id": "Q1130410",
+   "name": "Listasavn Føroya",
+   "sl": 17,
+   "file": "Listasavn Føroya.jpg",
+   "lat": 62.0175,
+   "lon": -6.7806,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Listasavn Føroya"
+  },
+  {
+   "id": "Q1060809",
+   "name": "Svangaskarð",
+   "sl": 17,
+   "file": "Toftir4.jpg",
+   "lat": 62.0997,
+   "lon": -6.7361,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Svangaskarð"
+  },
+  {
+   "id": "Q899139",
+   "name": "Skálafjørður",
+   "sl": 16,
+   "file": "Skálafjørður, Faroe Islands.JPG",
+   "lat": 62.1443,
+   "lon": -6.7429,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skálafjørður"
+  },
+  {
+   "id": "Q946378",
+   "name": "Faroe Islands National Museum",
+   "sl": 15,
+   "file": "Faroese skeletons.JPG",
+   "lat": 62.0319,
+   "lon": -6.7649,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Føroya Fornminnissavn"
+  },
+  {
+   "id": "Q846217",
+   "name": "Gluggarnir",
+   "sl": 15,
+   "file": "Famjin1.JPG",
+   "lat": 61.55,
+   "lon": -6.8667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gluggarnir"
+  },
+  {
+   "id": "Q1078945",
+   "name": "Nordic House in the Faroe Islands",
+   "sl": 15,
+   "file": "Nordens Hus pa Faeroerne.jpg",
+   "lat": 62.0221,
+   "lon": -6.7846,
+   "kind": "built",
+   "types": [
+    "cultural center",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nordic House in the Faroe Islands"
+  },
+  {
+   "id": "Q1257382",
+   "name": "Sandsvatn",
+   "sl": 15,
+   "file": "Sandsvatn a Lake on Sandoy in the Faroe Islands.JPG",
+   "lat": 61.8483,
+   "lon": -6.8196,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sandsvatn"
+  },
+  {
+   "id": "Q1187793",
+   "name": "Skansin",
+   "sl": 15,
+   "file": "Tórshavn skansin 8.jpg",
+   "lat": 62.0079,
+   "lon": -6.7631,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skansin"
+  },
+  {
+   "id": "Q845082",
+   "name": "Bøsdalafossur",
+   "sl": 14,
+   "file": "Bøsdalafossur Wasserfall auf Vágar.jpg",
+   "lat": 62.0237,
+   "lon": -7.2396,
+   "kind": "natural",
+   "types": [
+    "coastal waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bøsdalafossur"
+  },
+  {
+   "id": "Q631984",
+   "name": "Saint Olav's Church, Kirkjubøur",
+   "sl": 14,
+   "file": "Ólavskirkjan í Kirkjubø.JPG",
+   "lat": 61.9516,
+   "lon": -6.7932,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olavskirken, Streymoy"
+  },
+  {
+   "id": "Q1749193",
+   "name": "Sørvágsfjørður",
+   "sl": 14,
+   "file": "Salmon Aquaculture on Sørvágsfjørður 2014.JPG",
+   "lat": 62.0788,
+   "lon": -7.3626,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sørvágsfjørður"
+  },
+  {
+   "id": "Q845275",
+   "name": "Streymin bridge",
+   "sl": 14,
+   "file": "Bridge over Streymin, Faroe Islands.JPG",
+   "lat": 62.2083,
+   "lon": -7.0055,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Streymin Bridge"
+  },
+  {
+   "id": "Q602926",
+   "name": "Kirkjubøargarður",
+   "sl": 13,
+   "file": "Faroe Islands, Streymoy, Kirkjubøur (1).jpg",
+   "lat": 61.9558,
+   "lon": -6.7933,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kirkjubøur"
+  },
+  {
+   "id": "Q1759196",
+   "name": "Sandavágur stone",
+   "sl": 13,
+   "file": "Faroe stamp 059 runen stone.jpg",
+   "lat": 62.0538,
+   "lon": -7.1515,
+   "kind": "built",
+   "types": [
+    "Norse runestone"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q754872",
+   "name": "Borgarknappur",
+   "sl": 12,
+   "file": "Borgarknapppur.1.jpg",
+   "lat": 61.5,
+   "lon": -6.8333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Borgarknappur"
+  },
+  {
+   "id": "Q1366584",
+   "name": "Kunoyarnakkur",
+   "sl": 12,
+   "file": "Kunoyarnakkur 2000 (cropped).jpg",
+   "lat": 62.3636,
+   "lon": -6.6917,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kunoyarnakkur"
+  },
+  {
+   "id": "Q938587",
+   "name": "St. Mary's Church, Tórshavn",
+   "sl": 12,
+   "file": "Maria-Kirken2.jpg",
+   "lat": 62.0144,
+   "lon": -6.7798,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Mary's Catholic Church (Tórshavn)"
+  },
+  {
+   "id": "Q932387",
+   "name": "Sumbiarhólmur",
+   "sl": 12,
+   "file": "Sumbiarhólmur an islet near Sumba in Suðuroy, Faroe Islands.JPG",
+   "lat": 61.3983,
+   "lon": -6.7262,
+   "kind": "natural",
+   "types": [
+    "islet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sumbiarhólmur"
+  },
+  {
+   "id": "Q1416563",
+   "name": "Vágsfjørður",
+   "sl": 12,
+   "file": "Porkeri.3.2010.jpg",
+   "lat": 61.4625,
+   "lon": -6.7697,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vágsfjørður"
+  },
+  {
+   "id": "Q903556",
+   "name": "Villingadalsfjall",
+   "sl": 12,
+   "file": "Villingadalsfjall.jpg",
+   "lat": 62.3828,
+   "lon": -6.5685,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villingadalsfjall"
+  },
+  {
+   "id": "Q301633",
+   "name": "Akraberg",
+   "sl": 11,
+   "file": "Akraberg.Suðuroy.10.jpg",
+   "lat": 61.3928,
+   "lon": -6.6775,
+   "kind": "natural",
+   "types": [
+    "point"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akraberg"
+  },
+  {
+   "id": "Q683438",
+   "name": "Árnafjall",
+   "sl": 11,
+   "file": "Faroe stamp 453 gasadalur.jpg",
+   "lat": 62.1,
+   "lon": -7.45,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1269020",
+   "name": "Risin og Kellingin",
+   "sl": 11,
+   "file": "Risin and Killingin, sea stacks off Eysturoy.jpg",
+   "lat": 62.3231,
+   "lon": -7.1036,
+   "kind": "natural",
+   "types": [
+    "stack"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Risin og Kellingin"
+  },
+  {
+   "id": "Q368358",
+   "name": "Trongisvágsfjørður",
+   "sl": 11,
+   "file": "Trongisvagsfjordur and Tvoroyri Faroe Islands.JPG",
+   "lat": 61.5447,
+   "lon": -6.7942,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trongisvágsfjørður"
+  },
+  {
+   "id": "Q1055961",
+   "name": "Hotel Føroyar",
+   "sl": 10,
+   "file": "Hotel foroyar.jpg",
+   "lat": 62.0131,
+   "lon": -6.7992,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Føroyar"
+  },
+  {
+   "id": "Q10904309",
+   "name": "Djúpumýra Stadium",
+   "sl": 9,
+   "file": "Djúpumýra Stadium.jpg",
+   "lat": 62.2252,
+   "lon": -6.5792,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1459480",
+   "name": "Eysturtindur",
+   "sl": 9,
+   "file": "Detailed map vágar 2006.jpg",
+   "lat": 62.1167,
+   "lon": -7.4,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1322013",
+   "name": "Lake Toftir",
+   "sl": 9,
+   "file": "Toftavatn.jpg",
+   "lat": 62.0956,
+   "lon": -6.7163,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toftavatn"
+  },
+  {
+   "id": "Q1082994",
+   "name": "Christianskirkjan",
+   "sl": 8,
+   "file": "Christianskirkjan Klaksvik.JPG",
+   "lat": 62.2254,
+   "lon": -6.5865,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christianskirkjan"
+  },
+  {
+   "id": "Q3379802",
+   "name": "Funnings Church",
+   "sl": 8,
+   "file": "Faroe Islands, Eysturoy, Funningur (4).jpg",
+   "lat": 62.2868,
+   "lon": -6.9663,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Funnings kirkja"
+  },
+  {
+   "id": "Q728389",
+   "name": "Gjógvaráfjall",
+   "sl": 8,
+   "file": "Gjogvarafjall A Mountain in Vagur Seen From Toftalid.JPG",
+   "lat": 61.4739,
+   "lon": -6.8489,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gjógvaráfjall"
+  },
+  {
+   "id": "Q3780262",
+   "name": "Knúkur",
+   "sl": 8,
+   "file": "Skuvoy map.jpg",
+   "lat": 61.7706,
+   "lon": -6.8211,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1321091",
+   "name": "Vesturkirkjan",
+   "sl": 8,
+   "file": "Vesturkirkjan.2.jpg",
+   "lat": 62.0075,
+   "lon": -6.7842,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vesturkirkjan"
+  }
+ ]
+}

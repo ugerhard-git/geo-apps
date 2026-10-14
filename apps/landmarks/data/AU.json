@@ -1,0 +1,1385 @@
+{
+ "country": "AU",
+ "items": [
+  {
+   "id": "Q7343",
+   "name": "Great Barrier Reef",
+   "sl": 158,
+   "file": "GreatBarrierReef-EO.JPG",
+   "lat": -16.4,
+   "lon": 145.8,
+   "kind": "natural",
+   "types": [
+    "coral reef"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Barrier Reef"
+  },
+  {
+   "id": "Q45178",
+   "name": "Sydney Opera House",
+   "sl": 99,
+   "file": "Sydney Opera House Sails.jpg",
+   "lat": -33.8571,
+   "lon": 151.2149,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "historical cultural heritage site",
+    "opera house"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sydney Opera House"
+  },
+  {
+   "id": "Q33910",
+   "name": "Uluru",
+   "sl": 94,
+   "file": "Sunset at Uluru on July 30, 2005.jpg",
+   "lat": -25.345,
+   "lon": 131.0361,
+   "kind": "natural",
+   "types": [
+    "inselberg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uluru"
+  },
+  {
+   "id": "Q178167",
+   "name": "Mount Kosciuszko",
+   "sl": 86,
+   "file": "Kosciuszko Townsend.jpg",
+   "lat": -36.4558,
+   "lon": 148.2635,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Kosciuszko"
+  },
+  {
+   "id": "Q145165",
+   "name": "Great Victoria Desert",
+   "sl": 77,
+   "file": "Australia.A2002231.0145.250m NASA Nullarbor.jpg",
+   "lat": -29.1522,
+   "lon": 129.2597,
+   "kind": "natural",
+   "types": [
+    "bioregion",
+    "desert",
+    "IBRA bioregion",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Victoria Desert"
+  },
+  {
+   "id": "Q179970",
+   "name": "Kati Thanda–Lake Eyre",
+   "sl": 71,
+   "file": "NEO lake eyre big.jpg",
+   "lat": -28.6667,
+   "lon": 137.1667,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "intermittent lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Eyre"
+  },
+  {
+   "id": "Q54495",
+   "name": "Sydney Harbour Bridge",
+   "sl": 68,
+   "file": "Sydney harbour bridge new south wales.jpg",
+   "lat": -33.8522,
+   "lon": 151.2107,
+   "kind": "built",
+   "types": [
+    "historical cultural heritage site",
+    "road-rail bridge",
+    "steel bridge",
+    "through arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sydney Harbour Bridge"
+  },
+  {
+   "id": "Q189657",
+   "name": "Kakadu National Park",
+   "sl": 66,
+   "file": "00 2236 Kakadu National Park - Australien.jpg",
+   "lat": -13.0055,
+   "lon": 132.5195,
+   "kind": "natural",
+   "types": [
+    "national park of Australia",
+    "natural cultural heritage site",
+    "Ramsar site",
+    "Ramsar site in Australia"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65096742",
+    "name": "Kakadu National Park"
+   },
+   "also": [],
+   "cat": "Kakadu National Park"
+  },
+  {
+   "id": "Q17581",
+   "name": "Sydney Airport",
+   "sl": 60,
+   "file": "Sydney airport - International terminal.jpg",
+   "lat": -33.9483,
+   "lon": 151.1761,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sydney Airport"
+  },
+  {
+   "id": "Q623578",
+   "name": "National Library of Australia",
+   "sl": 59,
+   "file": "National Library of Australia-East side entrance.jpg",
+   "lat": -35.2964,
+   "lon": 149.1294,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "Government body of Australia",
+    "history museum",
+    "national library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Library of Australia"
+  },
+  {
+   "id": "Q326896",
+   "name": "Great Sandy Desert",
+   "sl": 55,
+   "file": "Landsat art - Great Sandy Desert, Australia.jpg",
+   "lat": -20.9161,
+   "lon": 124.6847,
+   "kind": "natural",
+   "types": [
+    "bioregion",
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Sandy Desert"
+  },
+  {
+   "id": "Q272577",
+   "name": "Gibson Desert",
+   "sl": 49,
+   "file": "Gibson Desert and moon from Alfred & Marie Range.jpg",
+   "lat": -23.73,
+   "lon": 127.9967,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "IBRA bioregion",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gibson Desert"
+  },
+  {
+   "id": "Q733738",
+   "name": "Melbourne Airport",
+   "sl": 49,
+   "file": "Tullamarine International terminal Vabre-1.jpg",
+   "lat": -37.6733,
+   "lon": 144.8433,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Melbourne Airport"
+  },
+  {
+   "id": "Q295886",
+   "name": "Accor Stadium",
+   "sl": 48,
+   "file": "Australia Stadium.jpg",
+   "lat": -33.8472,
+   "lon": 151.0633,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadium Australia"
+  },
+  {
+   "id": "Q330136",
+   "name": "Melbourne Cricket Ground",
+   "sl": 48,
+   "file": "2017 AFL Grand Final panorama during national anthem.jpg",
+   "lat": -37.8199,
+   "lon": 144.9834,
+   "kind": "built",
+   "types": [
+    "Australian rules football playing field",
+    "cricket field",
+    "historical cultural heritage site",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Melbourne Cricket Ground"
+  },
+  {
+   "id": "Q211839",
+   "name": "Simpson Desert",
+   "sl": 47,
+   "file": "Simpson-Desert-2007-12-16-NASA.jpg",
+   "lat": -24.57,
+   "lon": 137.42,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Simpson Desert"
+  },
+  {
+   "id": "Q251999",
+   "name": "Uluṟu-Kata Tjuṯa National Park",
+   "sl": 47,
+   "file": "UluruClip3ArtC1941.jpg",
+   "lat": -25.3221,
+   "lon": 130.9857,
+   "kind": "natural",
+   "types": [
+    "indigenous cultural heritage site",
+    "national park of Australia",
+    "natural cultural heritage site",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Uluru-Kata Tjuta National Park"
+  },
+  {
+   "id": "Q138170",
+   "name": "Tasmanian Wilderness",
+   "sl": 46,
+   "file": "CradleMountain.jpg",
+   "lat": -42.5957,
+   "lon": 146.1729,
+   "kind": "",
+   "types": [
+    "group of protected areas",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tasmanian Wilderness World Heritage Area"
+  },
+  {
+   "id": "Q695935",
+   "name": "Royal Exhibition Building",
+   "sl": 44,
+   "file": "Royal exhibition building tulips straight.jpg",
+   "lat": -37.8047,
+   "lon": 144.9714,
+   "kind": "",
+   "types": [
+    "exhibition park",
+    "historical cultural heritage site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278460",
+    "name": "Royal Exhibition Building and Carlton Gardens"
+   },
+   "also": [],
+   "cat": "Royal Exhibition Building"
+  },
+  {
+   "id": "Q643063",
+   "name": "Gondwana Rainforests of Australia",
+   "sl": 43,
+   "file": "Box Log Falls.jpg",
+   "lat": -29.6,
+   "lon": 149.6,
+   "kind": "",
+   "types": [
+    "natural cultural heritage site",
+    "rainforest",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Central Eastern Rainforest Reserves"
+  },
+  {
+   "id": "Q45935",
+   "name": "Perth Airport",
+   "sl": 42,
+   "file": "Singapore Airlines Boeing 777-200ER at Perth Airport Smith-1.jpg",
+   "lat": -31.94,
+   "lon": 115.965,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Perth Airport"
+  },
+  {
+   "id": "Q125846",
+   "name": "Q1 Tower",
+   "sl": 42,
+   "file": "Q1 Tower, Gold Coast, Queensland.jpg",
+   "lat": -28.0061,
+   "lon": 153.4294,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Q1 (building)"
+  },
+  {
+   "id": "Q747875",
+   "name": "Willandra Lakes Region",
+   "sl": 42,
+   "file": "Willandra Lakes.png",
+   "lat": -33.6181,
+   "lon": 143.1014,
+   "kind": "natural",
+   "types": [
+    "natural cultural heritage site",
+    "protected area",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Willandra Lakes Region"
+  },
+  {
+   "id": "Q45523",
+   "name": "Brisbane Airport",
+   "sl": 41,
+   "file": "Brisbane Airport domestic terminal Vabre.jpg",
+   "lat": -27.3833,
+   "lon": 153.1183,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brisbane Airport"
+  },
+  {
+   "id": "Q498671",
+   "name": "Lake Hillier",
+   "sl": 40,
+   "file": "Lake Hillier 2 Middle Island Recherche Archipelago NR IV-2011.JPG",
+   "lat": -34.0958,
+   "lon": 123.2028,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "Pink lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Hillier"
+  },
+  {
+   "id": "Q391496",
+   "name": "Australian Convict Sites",
+   "sl": 39,
+   "file": "PortArthurPenitentiary.jpg",
+   "lat": -33.3783,
+   "lon": 150.9944,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Australian Convict Sites"
+  },
+  {
+   "id": "Q270407",
+   "name": "Eureka Tower",
+   "sl": 39,
+   "file": "Eureka Tower 0944a.jpg",
+   "lat": -37.8217,
+   "lon": 144.9644,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eureka Tower"
+  },
+  {
+   "id": "Q674262",
+   "name": "Tanami Desert",
+   "sl": 39,
+   "file": "Tanami Track 23rd June.jpg",
+   "lat": -20.0004,
+   "lon": 129.9947,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tanami desert"
+  },
+  {
+   "id": "Q475623",
+   "name": "The Twelve Apostles",
+   "sl": 39,
+   "file": "12 Apostles Victoria Sunset.jpg",
+   "lat": -38.6406,
+   "lon": 143.0494,
+   "kind": "natural",
+   "types": [
+    "dodecad",
+    "island group",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Twelve apostles (geography)"
+  },
+  {
+   "id": "Q829338",
+   "name": "Carlton Gardens",
+   "sl": 37,
+   "file": "Aerial Photo of Royal Exhibition Building, Melbourne.jpg",
+   "lat": -37.8061,
+   "lon": 144.97,
+   "kind": "built",
+   "types": [
+    "botanical garden",
+    "public garden",
+    "urban park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278460",
+    "name": "Royal Exhibition Building and Carlton Gardens"
+   },
+   "also": [],
+   "cat": "Carlton Gardens, Melbourne"
+  },
+  {
+   "id": "Q1541665",
+   "name": "Ningaloo Reef",
+   "sl": 37,
+   "file": "00 2875 Western Australia - Ningaloo Reef.jpg",
+   "lat": -22.739,
+   "lon": 113.628,
+   "kind": "natural",
+   "types": [
+    "Australian marine park",
+    "natural cultural heritage site",
+    "reef",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ningaloo Reef"
+  },
+  {
+   "id": "Q1135808",
+   "name": "Wet Tropics of Queensland",
+   "sl": 36,
+   "file": "Daintree National Park.jpg",
+   "lat": -17.2,
+   "lon": 145.8,
+   "kind": "",
+   "types": [
+    "natural cultural heritage site",
+    "natural landscape",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wet Tropics of Queensland"
+  },
+  {
+   "id": "Q14302",
+   "name": "Adelaide Airport",
+   "sl": 35,
+   "file": "AdelaideAirportSkyline.jpg",
+   "lat": -34.945,
+   "lon": 138.5306,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adelaide Airport"
+  },
+  {
+   "id": "Q1135796",
+   "name": "Naracoorte Caves National Park",
+   "sl": 35,
+   "file": "Naracoorte Caves National Park 1.jpg",
+   "lat": -37.0361,
+   "lon": 140.7967,
+   "kind": "both",
+   "types": [
+    "national park",
+    "national park of Australia",
+    "show cave"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15933552",
+    "name": "Australian Fossil Mammal Sites (Riversleigh / Naracoorte)"
+   },
+   "also": [],
+   "cat": "Naracoorte Caves National Park"
+  },
+  {
+   "id": "Q2114101",
+   "name": "Mawson Peak",
+   "sl": 34,
+   "file": "Heard.jpg",
+   "lat": -53.1044,
+   "lon": 73.5178,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mawson Peak"
+  },
+  {
+   "id": "Q917998",
+   "name": "Docklands Stadium",
+   "sl": 33,
+   "file": "TelstraDomeDocklands.jpg",
+   "lat": -37.8164,
+   "lon": 144.9475,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Docklands Stadium"
+  },
+  {
+   "id": "Q279980",
+   "name": "Kata Tjuta",
+   "sl": 33,
+   "file": "Kata Tjuta Australia.jpg",
+   "lat": -25.3,
+   "lon": 130.7593,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kata Tjuta"
+  },
+  {
+   "id": "Q163855",
+   "name": "Lake Torrens",
+   "sl": 32,
+   "file": "E. C. Frome - First view of the salt desert - called Lake Torrens - Google Art Project.jpg",
+   "lat": -31.0444,
+   "lon": 137.8597,
+   "kind": "natural",
+   "types": [
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Torrens"
+  },
+  {
+   "id": "Q930096",
+   "name": "Siding Spring Observatory",
+   "sl": 32,
+   "file": "Anglo-Australian Telescope dome.JPG",
+   "lat": -31.272,
+   "lon": 149.0616,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siding Spring Observatory"
+  },
+  {
+   "id": "Q827268",
+   "name": "Sydney Tower",
+   "sl": 32,
+   "file": "(1)Sydney Tower-8.jpg",
+   "lat": -33.8703,
+   "lon": 151.2089,
+   "kind": "built",
+   "types": [
+    "hyperboloid structure",
+    "transmitter mast"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sydney Tower"
+  },
+  {
+   "id": "Q1464509",
+   "name": "National Gallery of Victoria",
+   "sl": 31,
+   "file": "National Gallery of Victoria from Eurkea Tower.jpg",
+   "lat": -37.8225,
+   "lon": 144.9689,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum",
+    "production company",
+    "publishing house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery of Victoria"
+  },
+  {
+   "id": "Q635473",
+   "name": "Riversleigh",
+   "sl": 31,
+   "file": "Riversleigh.jpg",
+   "lat": -19.0333,
+   "lon": 138.6299,
+   "kind": "natural",
+   "types": [
+    "natural cultural heritage site",
+    "paleontological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15933552",
+    "name": "Australian Fossil Mammal Sites (Riversleigh / Naracoorte)"
+   },
+   "also": [],
+   "cat": "Riversleigh"
+  },
+  {
+   "id": "Q643328",
+   "name": "Lang Park",
+   "sl": 30,
+   "file": "Suncorp Stadium 22 April 2012.jpg",
+   "lat": -27.4647,
+   "lon": 153.0094,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lang Park (sports venue)"
+  },
+  {
+   "id": "Q15498",
+   "name": "Hobart Airport",
+   "sl": 29,
+   "file": "Hobart Airportview.jpg",
+   "lat": -42.8361,
+   "lon": 147.5103,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hobart Airport"
+  },
+  {
+   "id": "Q584201",
+   "name": "Lake Amadeus",
+   "sl": 29,
+   "file": "Lake Amadeus ESA345627.jpg",
+   "lat": -24.75,
+   "lon": 130.9167,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Amadeus"
+  },
+  {
+   "id": "Q795228",
+   "name": "National Gallery of Australia",
+   "sl": 29,
+   "file": "National Gallery from SW, Canberra Australia.jpg",
+   "lat": -35.3003,
+   "lon": 149.1364,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "Government body of Australia",
+    "national museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery of Australia"
+  },
+  {
+   "id": "Q474632",
+   "name": "Cairns Airport",
+   "sl": 28,
+   "file": "Cairns Airport.JPG",
+   "lat": -16.8858,
+   "lon": 145.7553,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cairns Airport"
+  },
+  {
+   "id": "Q934627",
+   "name": "Greater Blue Mountains Area",
+   "sl": 28,
+   "file": "Jamison Valley, Blue Mountains, Australia - Nov 2008.jpg",
+   "lat": -33.7,
+   "lon": 150,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Greater Blue Mountains Area"
+  },
+  {
+   "id": "Q1074063",
+   "name": "Lake Mackay",
+   "sl": 28,
+   "file": "Lac Mackay vu par Sentinel 2 (cropped).jpg",
+   "lat": -22.5,
+   "lon": 128.5833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mackay"
+  },
+  {
+   "id": "Q1381223",
+   "name": "Melbourne Rectangular Stadium",
+   "sl": 28,
+   "file": "2015 A-League Grand Final AAMI Park panorama.jpg",
+   "lat": -37.8253,
+   "lon": 144.9839,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Melbourne Rectangular Stadium"
+  },
+  {
+   "id": "Q2462392",
+   "name": "Brisbane Cricket Ground",
+   "sl": 27,
+   "file": "The Gabba Panorama.jpg",
+   "lat": -27.4858,
+   "lon": 153.0381,
+   "kind": "built",
+   "types": [
+    "cricket field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Gabba"
+  },
+  {
+   "id": "Q1032882",
+   "name": "Canberra Stadium",
+   "sl": 27,
+   "file": "BruceStadium19032005 (cropped).JPG",
+   "lat": -35.25,
+   "lon": 149.1028,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canberra Stadium"
+  },
+  {
+   "id": "Q17609",
+   "name": "Darwin International Airport",
+   "sl": 27,
+   "file": "Aircraft Waiting to Cross Runway 1129 at Darwin Airport in March 2012.jpg",
+   "lat": -12.4147,
+   "lon": 130.8767,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Darwin International Airport"
+  },
+  {
+   "id": "Q1175431",
+   "name": "Gold Coast Airport",
+   "sl": 27,
+   "file": "GC Apron.jpg",
+   "lat": -28.165,
+   "lon": 153.5011,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gold Coast Airport"
+  },
+  {
+   "id": "Q1642390",
+   "name": "Lake Burley Griffin",
+   "sl": 27,
+   "file": "Lake Burley Griffin From Black Mountain Tower (cropped).jpg",
+   "lat": -35.2933,
+   "lon": 149.1139,
+   "kind": "natural",
+   "types": [
+    "artificial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Burley Griffin"
+  },
+  {
+   "id": "Q148044",
+   "name": "Parkes Observatory",
+   "sl": 27,
+   "file": "Parkes Radio Telescope 09.jpg",
+   "lat": -32.9978,
+   "lon": 148.2629,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parkes Observatory"
+  },
+  {
+   "id": "Q1858105",
+   "name": "Parliament House",
+   "sl": 27,
+   "file": "Parliament House at dusk, Canberra ACT.jpg",
+   "lat": -35.3081,
+   "lon": 149.1244,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parliament House, Canberra"
+  },
+  {
+   "id": "Q2462430",
+   "name": "Adelaide Oval",
+   "sl": 26,
+   "file": "Adelaide Oval - panoramio (cropped).jpg",
+   "lat": -34.9156,
+   "lon": 138.5961,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adelaide Oval"
+  },
+  {
+   "id": "Q769416",
+   "name": "Australian Museum",
+   "sl": 26,
+   "file": "AustralianMuseum.jpg",
+   "lat": -33.8743,
+   "lon": 151.213,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Australian Museum"
+  },
+  {
+   "id": "Q810735",
+   "name": "Batavia",
+   "sl": 26,
+   "file": "Ongeluckige voyagie 02.jpg",
+   "lat": -28.4916,
+   "lon": 113.7919,
+   "kind": "built",
+   "types": [
+    "merchant vessel",
+    "sailing ship",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Batavia (ship, 1628)"
+  },
+  {
+   "id": "Q1728345",
+   "name": "Cape York",
+   "sl": 26,
+   "file": "Torres Strait.jpg",
+   "lat": -10.6872,
+   "lon": 142.5314,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape York (Queensland)"
+  },
+  {
+   "id": "Q927462",
+   "name": "Hindmarsh Stadium",
+   "sl": 26,
+   "file": "Adelaide United FC vs. Sydney FC at Hindmarsh Stadium - April 2023.JPG",
+   "lat": -34.9075,
+   "lon": 138.5689,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hindmarsh Stadium"
+  },
+  {
+   "id": "Q2228393",
+   "name": "Melbourne Park",
+   "sl": 26,
+   "file": "Melbourne Park - Tennis.jpg",
+   "lat": -37.8227,
+   "lon": 144.9801,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Melbourne Park"
+  },
+  {
+   "id": "Q747182",
+   "name": "Mount Ossa",
+   "sl": 26,
+   "file": "Mount Ossa Tasmania 2.jpg",
+   "lat": -41.871,
+   "lon": 146.0333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Ossa (Tasmania)"
+  },
+  {
+   "id": "Q1053447",
+   "name": "Sydney Football Stadium",
+   "sl": 26,
+   "file": "Allianz Stadium from above.jpg",
+   "lat": -33.8892,
+   "lon": 151.2253,
+   "kind": "built",
+   "types": [
+    "defunct sports venue",
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sydney Football Stadium"
+  },
+  {
+   "id": "Q1035011",
+   "name": "Christmas Island Airport",
+   "sl": 25,
+   "file": "Christmas Island Airport at Dusk.jpg",
+   "lat": -10.4506,
+   "lon": 105.6903,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christmas Island Airport"
+  },
+  {
+   "id": "Q54488",
+   "name": "Darling Harbour",
+   "sl": 25,
+   "file": "Darlingharbour today.jpg",
+   "lat": -33.8722,
+   "lon": 151.1992,
+   "kind": "natural",
+   "types": [
+    "harbor"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Darling Harbour, New South Wales"
+  },
+  {
+   "id": "Q1226474",
+   "name": "Dingo Fence",
+   "sl": 25,
+   "file": "Sturt National Park3 - Dingo Fence - CameronsCorner.jpg",
+   "lat": -28.9989,
+   "lon": 141.0006,
+   "kind": "built",
+   "types": [
+    "fence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dingo Fence"
+  },
+  {
+   "id": "Q1638191",
+   "name": "Kumpupintil Lake",
+   "sl": 25,
+   "file": "Lake Disappointment Western Australia.jpg",
+   "lat": -23.5,
+   "lon": 122.8333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Disappointment"
+  },
+  {
+   "id": "Q1362815",
+   "name": "Nambung National Park",
+   "sl": 25,
+   "file": "00 1719 Australien - Nambung Nationalpark.jpg",
+   "lat": -30.5761,
+   "lon": 115.17,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Australia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nambung National Park"
+  },
+  {
+   "id": "Q1064813",
+   "name": "Taronga Zoo",
+   "sl": 25,
+   "file": "2020-10-08 Taronga Western Plains Zoo.jpg",
+   "lat": -33.8433,
+   "lon": 151.2411,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taronga Zoo"
+  },
+  {
+   "id": "Q1419579",
+   "name": "Tirari Desert",
+   "sl": 25,
+   "file": "Tirari Desert - NASA - satellite 2006.jpg",
+   "lat": -28.3667,
+   "lon": 138.1167,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tirari Desert"
+  },
+  {
+   "id": "Q705551",
+   "name": "Art Gallery of New South Wales",
+   "sl": 24,
+   "file": "NSWAG.jpg",
+   "lat": -33.8686,
+   "lon": 151.2172,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Art Gallery of New South Wales"
+  },
+  {
+   "id": "Q705557",
+   "name": "Art Gallery of South Australia",
+   "sl": 24,
+   "file": "Main entrance of the Art Gallery of South Australia (DSCF3673).jpg",
+   "lat": -34.9206,
+   "lon": 138.6039,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "production company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Art Gallery of South Australia"
+  },
+  {
+   "id": "Q1105469",
+   "name": "Cocos (Keeling) Islands Airport",
+   "sl": 24,
+   "file": "Cocos (Keeling) Islands Airport - RWY33.jpg",
+   "lat": -12.1883,
+   "lon": 96.8339,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cocos (Keeling) Islands Airport"
+  },
+  {
+   "id": "Q965973",
+   "name": "Lake Gairdner",
+   "sl": 24,
+   "file": "Lake Gairdner.jpg",
+   "lat": -31.5667,
+   "lon": 136,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Gairdner"
+  },
+  {
+   "id": "Q222878",
+   "name": "Rod Laver Arena",
+   "sl": 24,
+   "file": "Rod laver arena by night.jpg",
+   "lat": -37.8216,
+   "lon": 144.9785,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rod Laver Arena"
+  },
+  {
+   "id": "Q1350167",
+   "name": "Strzelecki Desert",
+   "sl": 24,
+   "file": "BoreTrack.jpg",
+   "lat": -27.69,
+   "lon": 140.41,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Strzelecki Desert"
+  },
+  {
+   "id": "Q856393",
+   "name": "Sydney Cricket Ground",
+   "sl": 24,
+   "file": "Sydney Cricket Ground (24509044622).jpg",
+   "lat": -33.8917,
+   "lon": 151.2247,
+   "kind": "built",
+   "types": [
+    "cricket field",
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sydney Cricket Ground"
+  },
+  {
+   "id": "Q1536418",
+   "name": "Cape Leeuwin",
+   "sl": 23,
+   "file": "Cape Leeuwin From North.jpg",
+   "lat": -34.3764,
+   "lon": 115.1364,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Leeuwin, Western Australia"
+  }
+ ]
+}

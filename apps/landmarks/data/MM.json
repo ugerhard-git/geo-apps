@@ -1,0 +1,1317 @@
+{
+ "country": "MM",
+ "items": [
+  {
+   "id": "Q464535",
+   "name": "Shwedagon Pagoda",
+   "sl": 55,
+   "file": "Yangon - Shwedagon Pagoda 03.jpg",
+   "lat": 16.7983,
+   "lon": 96.1494,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shwedagon pagoda"
+  },
+  {
+   "id": "Q1043461",
+   "name": "Inle Lake",
+   "sl": 45,
+   "file": "Inle Lake, Fisherman on the boat 2, Myanmar.jpg",
+   "lat": 20.55,
+   "lon": 96.9167,
+   "kind": "natural",
+   "types": [
+    "polymictic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Inle Lake"
+  },
+  {
+   "id": "Q870063",
+   "name": "Hkakabo Razi",
+   "sl": 41,
+   "file": "Hkakabo Razi Burma 29 Sept 2015 Landsat 8 ETM + Channels 654 panchromatic sharpened.jpg",
+   "lat": 28.3331,
+   "lon": 97.4667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hkakabo Razi"
+  },
+  {
+   "id": "Q1150764",
+   "name": "Popa Hill",
+   "sl": 35,
+   "file": "20200217 112000 Mount Popa Mandalay Region Myanmar anagoria.JPG",
+   "lat": 20.9203,
+   "lon": 95.2539,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Popa"
+  },
+  {
+   "id": "Q174764",
+   "name": "Yangon International Airport",
+   "sl": 34,
+   "file": "YIA-entrance.JPG",
+   "lat": 16.9072,
+   "lon": 96.1331,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yangon International Airport"
+  },
+  {
+   "id": "Q1192804",
+   "name": "Kyaiktiyo Pagoda",
+   "sl": 27,
+   "file": "Golden Rock.JPG",
+   "lat": 17.4836,
+   "lon": 97.0984,
+   "kind": "built",
+   "types": [
+    "pagoda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kyaiktiyo Pagoda"
+  },
+  {
+   "id": "Q1193001",
+   "name": "Mandalay International Airport",
+   "sl": 26,
+   "file": "Mandalay Airport.JPG",
+   "lat": 21.7022,
+   "lon": 95.9781,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mandalay International Airport"
+  },
+  {
+   "id": "Q3056649",
+   "name": "Indawgyi Lake",
+   "sl": 23,
+   "file": "Indawgyi-See.jpg",
+   "lat": 25.1333,
+   "lon": 96.3333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Indawgyi Lake"
+  },
+  {
+   "id": "Q1809404",
+   "name": "Laykyun Sekkya",
+   "sl": 23,
+   "file": "Laykyun Setkyar 01 (cropped).jpg",
+   "lat": 22.0802,
+   "lon": 95.2894,
+   "kind": "built",
+   "types": [
+    "daibutsu"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laykyun Sekkya"
+  },
+  {
+   "id": "Q485727",
+   "name": "Ananda Temple",
+   "sl": 21,
+   "file": "Bagan, Myanmar, Ananda Temple.jpg",
+   "lat": 21.1709,
+   "lon": 94.8677,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ananda Temple"
+  },
+  {
+   "id": "Q1209410",
+   "name": "Sule Pagoda",
+   "sl": 21,
+   "file": "Sule Pagoda Yangoon.jpg",
+   "lat": 16.7744,
+   "lon": 96.1588,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sule pagoda"
+  },
+  {
+   "id": "Q1639369",
+   "name": "Thuwunna Stadium",
+   "sl": 21,
+   "file": "Thuwunna Stadium.JPG",
+   "lat": 16.8213,
+   "lon": 96.1868,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thuwanna Stadium"
+  },
+  {
+   "id": "Q3495742",
+   "name": "Nat Ma Taung",
+   "sl": 20,
+   "file": "Nat Ma Taung, Mount Victoria between the trees.JPG",
+   "lat": 21.2336,
+   "lon": 93.9031,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nat Ma Taung"
+  },
+  {
+   "id": "Q2696459",
+   "name": "Mowdok tiang",
+   "sl": 19,
+   "file": "Saka Haphong.jpg",
+   "lat": 21.7866,
+   "lon": 92.6097,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BD"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1320846",
+   "name": "Heho Airport",
+   "sl": 18,
+   "file": "Airport, Heho, Myanmar.jpg",
+   "lat": 20.7469,
+   "lon": 96.7919,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "HeHo Airport"
+  },
+  {
+   "id": "Q2655670",
+   "name": "Mandalay Palace",
+   "sl": 18,
+   "file": "Mandalay Palace, Myanmar.jpg",
+   "lat": 21.9929,
+   "lon": 96.0959,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mandalay Palace"
+  },
+  {
+   "id": "Q2157246",
+   "name": "U Bein Bridge",
+   "sl": 18,
+   "file": "U Bain Bridge1.JPG",
+   "lat": 21.8915,
+   "lon": 96.0572,
+   "kind": "built",
+   "types": [
+    "wooden bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "U Bein Bridge"
+  },
+  {
+   "id": "Q1321827",
+   "name": "Dawei Airport",
+   "sl": 16,
+   "file": "Daweiairport.jpg",
+   "lat": 14.1,
+   "lon": 98.2072,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1953756",
+   "name": "Goteik viaduct",
+   "sl": 16,
+   "file": "8 Goteik (2).jpg",
+   "lat": 22.3431,
+   "lon": 96.8597,
+   "kind": "built",
+   "types": [
+    "railway bridge",
+    "trestle bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gokteik Viaduct"
+  },
+  {
+   "id": "Q1320347",
+   "name": "Nyaung U Airport",
+   "sl": 16,
+   "file": "Nyaung U Airport.JPG",
+   "lat": 21.1789,
+   "lon": 94.9303,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nyaung U Airport"
+  },
+  {
+   "id": "Q1535245",
+   "name": "Sri Ksetra Kingdom",
+   "sl": 16,
+   "file": "20160810 - Sri Ksetra - East Zegu Temple - 9315.jpg",
+   "lat": 18.8167,
+   "lon": 95.3167,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "historical country"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17277938",
+    "name": "Pyu Ancient Cities"
+   },
+   "also": [],
+   "cat": "Sri Ksetra"
+  },
+  {
+   "id": "Q890722",
+   "name": "Bogyoke Aung San Stadium",
+   "sl": 15,
+   "file": "DTYangon162.jpg",
+   "lat": 16.7839,
+   "lon": 96.1607,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bogyoke Aung San Stadium"
+  },
+  {
+   "id": "Q962735",
+   "name": "Cape Negrais",
+   "sl": 15,
+   "file": "The earth and its inhabitants (1890) (21115331492).jpg",
+   "lat": 15.9667,
+   "lon": 94.25,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4827383",
+   "name": "Ava Bridge",
+   "sl": 14,
+   "file": "Ava Bridge (12049621654).jpg",
+   "lat": 21.8711,
+   "lon": 95.9925,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ava Bridge"
+  },
+  {
+   "id": "Q1334342",
+   "name": "Lashio Airport",
+   "sl": 14,
+   "file": "Lashio airport checkin counter - panoramio.jpg",
+   "lat": 22.9758,
+   "lon": 97.7525,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q13064270",
+   "name": "Ngapali Beach",
+   "sl": 14,
+   "file": "Ngapali Beach, Myanmar (11007417563).jpg",
+   "lat": 18.445,
+   "lon": 94.3146,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ngapali Beach"
+  },
+  {
+   "id": "Q864297",
+   "name": "Inya Lake",
+   "sl": 13,
+   "file": "Inya Lake park grounds, Yangon.jpg",
+   "lat": 16.8368,
+   "lon": 96.1452,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Inya Lake"
+  },
+  {
+   "id": "Q946518",
+   "name": "Mahamuni Buddha Temple",
+   "sl": 13,
+   "file": "Mahamuni Image.JPG",
+   "lat": 21.9519,
+   "lon": 96.0786,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mahamuni Buddha"
+  },
+  {
+   "id": "Q652840",
+   "name": "Mawlamyaing Airport",
+   "sl": 13,
+   "file": "Mawlamyine Airport.jpg",
+   "lat": 16.4447,
+   "lon": 97.6607,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mawlamyine Airport"
+  },
+  {
+   "id": "Q1528948",
+   "name": "Myitkyina Airport",
+   "sl": 13,
+   "file": "Myitkyina Airport new terminal building (28140370102).jpg",
+   "lat": 25.3836,
+   "lon": 97.3519,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3336294",
+   "name": "Nathlaung Kyaung Temple",
+   "sl": 13,
+   "file": "Nathlaung Kyaung Hindu Temple in Bagan Myanmar (Burma).jpg",
+   "lat": 21.169,
+   "lon": 94.8627,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nat Hlaung Kyaung"
+  },
+  {
+   "id": "Q2747222",
+   "name": "Shwezigon Pagoda",
+   "sl": 13,
+   "file": "Shwezigon.jpg",
+   "lat": 21.1903,
+   "lon": 94.8947,
+   "kind": "built",
+   "types": [
+    "pagoda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shwezigon"
+  },
+  {
+   "id": "Q1927143",
+   "name": "Sittwe Airport",
+   "sl": 13,
+   "file": "Sittwe Airport Terminal 2017 September.jpg",
+   "lat": 20.1328,
+   "lon": 92.8725,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sittwe Airport"
+  },
+  {
+   "id": "Q1320550",
+   "name": "Thandwe Airport",
+   "sl": 13,
+   "file": "Air Bagan, Ngapali, Myanmar.jpg",
+   "lat": 18.4606,
+   "lon": 94.3,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thandwe Airport"
+  },
+  {
+   "id": "Q15334026",
+   "name": "Wunna Theikdi Stadium",
+   "sl": 13,
+   "file": "Myanmar Olympic Committee.jpg",
+   "lat": 19.7667,
+   "lon": 96.0727,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1321678",
+   "name": "Kalaymyo Airport",
+   "sl": 12,
+   "file": "Kale, Myanmar (Burma) - panoramio.jpg",
+   "lat": 23.1875,
+   "lon": 94.0583,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6747767",
+   "name": "Mandalay Chanmyathazi Airport",
+   "sl": 12,
+   "file": "Chanmyathazi Airport of Mandalay.jpg",
+   "lat": 21.9405,
+   "lon": 96.0896,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2756611",
+   "name": "National Museum (Yangon)",
+   "sl": 12,
+   "file": "National Museum of Myanmar.jpg",
+   "lat": 16.7892,
+   "lon": 96.1422,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Myanmar (Yangon)"
+  },
+  {
+   "id": "Q4708857",
+   "name": "Alaungdaw Kathapa National Park",
+   "sl": 11,
+   "file": "Ahlongtawkatapha.jpg",
+   "lat": 23.6,
+   "lon": 95.5333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4948533",
+   "name": "Botataung Pagoda",
+   "sl": 11,
+   "file": "Botataung Pagoda stupa with flags Yangon Myanmar.jpg",
+   "lat": 16.7685,
+   "lon": 96.172,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Botahtaung pagoda"
+  },
+  {
+   "id": "Q20683398",
+   "name": "Chaukhtatgyi Buddha Temple",
+   "sl": 11,
+   "file": "01-yangon-chaukhtatgyi-paya-d01.jpg",
+   "lat": 16.8118,
+   "lon": 96.1638,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chaukhtatgyi Paya"
+  },
+  {
+   "id": "Q1207545",
+   "name": "Dhammayangyi Temple",
+   "sl": 11,
+   "file": "Dhammayangyi Temple at Bagan,Myanmar.jpg",
+   "lat": 21.1593,
+   "lon": 94.8711,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dhammayangyi"
+  },
+  {
+   "id": "Q3025684",
+   "name": "Dhammayazika Pagoda",
+   "sl": 11,
+   "file": "Dhamma-Yazaka.JPG",
+   "lat": 21.1451,
+   "lon": 94.8835,
+   "kind": "built",
+   "types": [
+    "pagoda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dhammayazika"
+  },
+  {
+   "id": "Q949750",
+   "name": "Kuthodaw Pagoda",
+   "sl": 11,
+   "file": "Kuthodaw alt view.JPG",
+   "lat": 22.0046,
+   "lon": 96.1128,
+   "kind": "built",
+   "types": [
+    "pagoda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuthodaw Pagoda"
+  },
+  {
+   "id": "Q978813",
+   "name": "Loikaw Airport",
+   "sl": 11,
+   "file": "Loikaw Airport.jpg",
+   "lat": 19.6914,
+   "lon": 97.2147,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15283825",
+   "name": "Mandalarthiri Stadium",
+   "sl": 11,
+   "file": "Mandalar Thiri Sport Ground (Mandalay).jpg",
+   "lat": 21.9436,
+   "lon": 96.0988,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3517620",
+   "name": "Shite-thaung Temple",
+   "sl": 11,
+   "file": "ShiteThaungTemple.jpg",
+   "lat": 20.5975,
+   "lon": 93.1931,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shite-thaung Temple"
+  },
+  {
+   "id": "Q1750928",
+   "name": "Sulamani Temple",
+   "sl": 11,
+   "file": "Bagan, Myanmar, Sulamani Temple.jpg",
+   "lat": 21.1649,
+   "lon": 94.8815,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sulamani"
+  },
+  {
+   "id": "Q1753493",
+   "name": "Thanlwin Bridge",
+   "sl": 11,
+   "file": "Tanlwen.jpg",
+   "lat": 16.5111,
+   "lon": 97.6178,
+   "kind": "built",
+   "types": [
+    "railway bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thanlwin Bridge (Mawlamyine)"
+  },
+  {
+   "id": "Q2093752",
+   "name": "Thatbyinnyu Temple",
+   "sl": 11,
+   "file": "Bagan, Myanmar, Thatbyinnyu Temple.jpg",
+   "lat": 21.1688,
+   "lon": 94.8629,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thatbyinnyu"
+  },
+  {
+   "id": "Q1136334",
+   "name": "Yangon Zoological Gardens",
+   "sl": 11,
+   "file": "Yangon Zoo.JPG",
+   "lat": 16.7917,
+   "lon": 96.1594,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yangon Zoo"
+  },
+  {
+   "id": "Q1082709",
+   "name": "Hukawng Valley",
+   "sl": 10,
+   "file": "\"Hukaung Valley\".jpg",
+   "lat": 26.4383,
+   "lon": 96.5589,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hukawng Valley"
+  },
+  {
+   "id": "Q1549105",
+   "name": "Insein Prison",
+   "sl": 10,
+   "file": "Insein Prison.JPG",
+   "lat": 16.8943,
+   "lon": 96.0976,
+   "kind": "built",
+   "types": [
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3277249",
+   "name": "Kyaukpyu Airport",
+   "sl": 10,
+   "file": "Kyaukphyu Airport.jpg",
+   "lat": 19.4244,
+   "lon": 93.5389,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1936704",
+   "name": "Mingun Pahtodawgyi",
+   "sl": 10,
+   "file": "Mingun Pahtodawgyi from the southeast.JPG",
+   "lat": 22.051,
+   "lon": 96.0173,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mingun pagoda"
+  },
+  {
+   "id": "Q27701173",
+   "name": "Mount Zwegabin",
+   "sl": 10,
+   "file": "Mount Zwegabin from Bat Cave.jpg",
+   "lat": 16.8243,
+   "lon": 97.6684,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Zwegabin"
+  },
+  {
+   "id": "Q4419997",
+   "name": "Musmeah Yeshua Synagogue",
+   "sl": 10,
+   "file": "Musmeah Yeshua synagogue altar.jpg",
+   "lat": 16.7743,
+   "lon": 96.154,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Synagogues in Yangon"
+  },
+  {
+   "id": "Q864504",
+   "name": "Pindaya Caves",
+   "sl": 10,
+   "file": "Pindaya-Hoehlen-10-gje.jpg",
+   "lat": 20.925,
+   "lon": 96.651,
+   "kind": "natural",
+   "types": [
+    "cave",
+    "geographical feature"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pindaya Caves"
+  },
+  {
+   "id": "Q7401804",
+   "name": "Saint Mary's Cathedral, Yangon",
+   "sl": 10,
+   "file": "2016 Rangun, Katedra Najświętszej Maryi Panny (01).jpg",
+   "lat": 16.7786,
+   "lon": 96.1654,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Mary Cathedral (Yangon)"
+  },
+  {
+   "id": "Q3473470",
+   "name": "Yeywa Dam",
+   "sl": 10,
+   "file": "Myitnge River.JPG",
+   "lat": 21.674,
+   "lon": 96.4736,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yeywa Dam"
+  },
+  {
+   "id": "Q1632647",
+   "name": "Hsinbyume Pagoda",
+   "sl": 9,
+   "file": "Hsinbyume-Mingun-Myamar-01.jpg",
+   "lat": 22.0558,
+   "lon": 96.0167,
+   "kind": "built",
+   "types": [
+    "pagoda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hsinbyume"
+  },
+  {
+   "id": "Q3264379",
+   "name": "Lower Chindwin",
+   "sl": 9,
+   "file": "Aerial view of lower Chindwin River and Twin Taung (1980).JPG",
+   "lat": 22.3705,
+   "lon": 95.0185,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3517643",
+   "name": "Mahabodhi Temple, Bagan",
+   "sl": 9,
+   "file": "Bagan 121.jpg",
+   "lat": 21.1733,
+   "lon": 94.8606,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mahabodhi Temple, Bagan"
+  },
+  {
+   "id": "Q3285419",
+   "name": "Mandalay Hill",
+   "sl": 9,
+   "file": "Mandalay Hill 3.jpg",
+   "lat": 22.0136,
+   "lon": 96.1082,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mandalay Hill"
+  },
+  {
+   "id": "Q1628785",
+   "name": "Myitsone Dam",
+   "sl": 9,
+   "file": "Myit Sone.jpg",
+   "lat": 25.6897,
+   "lon": 97.5178,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station",
+    "proposed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Myitsone"
+  },
+  {
+   "id": "Q3517602",
+   "name": "Nanpaya Temple",
+   "sl": 9,
+   "file": "Nanpaya-Bagan-Myanmar-01-gje.jpg",
+   "lat": 21.1525,
+   "lon": 94.8588,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nanpaya"
+  },
+  {
+   "id": "Q7123188",
+   "name": "Padah-Lin Caves",
+   "sl": 9,
+   "file": "Padah-Lin Cave 1 sign.jpg",
+   "lat": 21.1,
+   "lon": 96.3,
+   "kind": "both",
+   "types": [
+    "cave",
+    "cave with prehistoric art"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4925986",
+   "name": "Shwemawdaw Paya",
+   "sl": 9,
+   "file": "Shwemawdaw Pagoda, Bago.jpg",
+   "lat": 17.3369,
+   "lon": 96.497,
+   "kind": "built",
+   "types": [
+    "pagoda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shwemawdaw Paya"
+  },
+  {
+   "id": "Q3320246",
+   "name": "Shwenandaw Monastery",
+   "sl": 9,
+   "file": "Shwe Nandaw kyaung.jpg",
+   "lat": 22.0007,
+   "lon": 96.1137,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shwenandaw Monastery"
+  },
+  {
+   "id": "Q1138295",
+   "name": "TaSang Dam",
+   "sl": 9,
+   "file": "Salawin river at Mae Sam Laep.jpg",
+   "lat": 20.4564,
+   "lon": 98.65,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q8048617",
+   "name": "Yangon City Hall",
+   "sl": 9,
+   "file": "2016 Rangun, Ratusz (04).jpg",
+   "lat": 16.775,
+   "lon": 96.1597,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yangon City Hall"
+  },
+  {
+   "id": "Q4072297",
+   "name": "Atumashi Monastery",
+   "sl": 8,
+   "file": "Atumashi monastery.JPG",
+   "lat": 22.0008,
+   "lon": 96.1125,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atumashi Monastery"
+  },
+  {
+   "id": "Q814730",
+   "name": "Beikthano",
+   "sl": 8,
+   "file": "Gate of Beikthano Historical Sites.jpg",
+   "lat": 20,
+   "lon": 95.3833,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17277938",
+    "name": "Pyu Ancient Cities"
+   },
+   "also": [],
+   "cat": "Beikthano"
+  },
+  {
+   "id": "Q870075",
+   "name": "Bogyoke Market",
+   "sl": 8,
+   "file": "Jewellery Market, Yangon, Myanmar.jpg",
+   "lat": 16.7804,
+   "lon": 96.1556,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bogyoke Aung San Market"
+  },
+  {
+   "id": "Q1010128",
+   "name": "Bupaya Pagoda",
+   "sl": 8,
+   "file": "Bupaya-Bagan-Myanmar-04-gje.jpg",
+   "lat": 21.1761,
+   "lon": 94.8579,
+   "kind": "built",
+   "types": [
+    "pagoda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bupaya"
+  },
+  {
+   "id": "Q11824234",
+   "name": "Hpa-An Airport",
+   "sl": 8,
+   "file": "Myanma Airways Fokker F28 MRD.jpg",
+   "lat": 16.8931,
+   "lon": 97.6781,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3360462",
+   "name": "Hpaung Daw U Pagoda",
+   "sl": 8,
+   "file": "Hpaung Daw U Pagoda.jpg",
+   "lat": 20.4745,
+   "lon": 96.888,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hpaung Daw U Pagoda"
+  },
+  {
+   "id": "Q1571606",
+   "name": "Htilominlo Temple",
+   "sl": 8,
+   "file": "20160801 - Htilominlo Temple, Bagan, Myanmar - 6718.jpg",
+   "lat": 21.1786,
+   "lon": 94.8792,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Htilominlo"
+  },
+  {
+   "id": "Q5924583",
+   "name": "Htukkanthein Temple",
+   "sl": 8,
+   "file": "HtukKanThein.jpg",
+   "lat": 20.5978,
+   "lon": 93.1914,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Htukkanthein Temple"
+  },
+  {
+   "id": "Q4925999",
+   "name": "Kanbawzathadi Palace",
+   "sl": 8,
+   "file": "Kanbawzathadi Palace - Bago, Myanmar 20130219-01.jpg",
+   "lat": 17.3306,
+   "lon": 96.493,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kanbawzathadi Palace"
+  }
+ ]
+}

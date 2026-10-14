@@ -1,0 +1,1367 @@
+{
+ "country": "KZ",
+ "items": [
+  {
+   "id": "Q35883",
+   "name": "Aral Sea",
+   "sl": 140,
+   "file": "Aral Sea 1989-2008.jpg",
+   "lat": 45,
+   "lon": 60,
+   "kind": "natural",
+   "types": [
+    "former lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UZ"
+   ],
+   "cat": "Aral Sea"
+  },
+  {
+   "id": "Q134485",
+   "name": "Lake Balkhash",
+   "sl": 89,
+   "file": "STS039-085-00E Lake Balkhash, Kazakhstan April 1991.jpg",
+   "lat": 46.5408,
+   "lon": 74.8789,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Balkhash"
+  },
+  {
+   "id": "Q184364",
+   "name": "Kyzyl Kum",
+   "sl": 73,
+   "file": "Dzhangeldy Uzbekistan 2008.JPG",
+   "lat": 42.4411,
+   "lon": 63.4614,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TM",
+    "UZ"
+   ],
+   "cat": "Kyzyl Kum"
+  },
+  {
+   "id": "Q211529",
+   "name": "Khan Tengri",
+   "sl": 64,
+   "file": "Peak of Khan Tengri at sunset.jpg",
+   "lat": 42.2108,
+   "lon": 80.175,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN",
+    "KG"
+   ],
+   "cat": "Khan Tengri"
+  },
+  {
+   "id": "Q280158",
+   "name": "Aralkum",
+   "sl": 47,
+   "file": "Aral Sea.gif",
+   "lat": 45,
+   "lon": 60.5,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UZ"
+   ],
+   "cat": "Aral Kum"
+  },
+  {
+   "id": "Q216621",
+   "name": "Lake Zaysan",
+   "sl": 47,
+   "file": "Zaysan.jpg",
+   "lat": 48,
+   "lon": 84,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Zaysan"
+  },
+  {
+   "id": "Q46069",
+   "name": "Mausoleum of Khoja Ahmed Yasawi",
+   "sl": 47,
+   "file": "Ханака Ахмеда Ясави 2010 003.jpg",
+   "lat": 43.2976,
+   "lon": 68.271,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mausoleum of Khoja Ahmed Yasawi"
+  },
+  {
+   "id": "Q746559",
+   "name": "Astana Arena",
+   "sl": 45,
+   "file": "Astana Arena (inside interior).JPG",
+   "lat": 51.1082,
+   "lon": 71.4026,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Astana Arena"
+  },
+  {
+   "id": "Q858844",
+   "name": "Almaty International Airport",
+   "sl": 43,
+   "file": "ALMATY AIRPORT - panoramio.jpg",
+   "lat": 43.3519,
+   "lon": 77.0406,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Almaty International Airport"
+  },
+  {
+   "id": "Q943327",
+   "name": "Tamgaly",
+   "sl": 43,
+   "file": "Tanbaly.jpg",
+   "lat": 43.8033,
+   "lon": 75.535,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tamgaly"
+  },
+  {
+   "id": "Q1359850",
+   "name": "Betpak-Dala",
+   "sl": 39,
+   "file": "Betpack-Dala.JPG",
+   "lat": 46.0333,
+   "lon": 70.2,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "plain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Betpak-Dala"
+  },
+  {
+   "id": "Q174233",
+   "name": "Nursultan Nazarbayev International Airport",
+   "sl": 39,
+   "file": "Astana International Airport 03.jpg",
+   "lat": 51.0222,
+   "lon": 71.4669,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nursultan Nazarbayev International Airport"
+  },
+  {
+   "id": "Q956911",
+   "name": "Otrar",
+   "sl": 38,
+   "file": "Ovidio Guaita 16.jpg",
+   "lat": 42.8515,
+   "lon": 68.303,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "city",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Otrar"
+  },
+  {
+   "id": "Q310547",
+   "name": "Lake Alakol",
+   "sl": 36,
+   "file": "Озеро Алаколь возле Кабанбай (Жарбулак) сверху-1.jpg",
+   "lat": 46.0811,
+   "lon": 81.7642,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Alakol"
+  },
+  {
+   "id": "Q2635747",
+   "name": "Kokshetau International Airport",
+   "sl": 35,
+   "file": "Kokshetau airport.jpg",
+   "lat": 53.33,
+   "lon": 69.5967,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kokshetau Airport"
+  },
+  {
+   "id": "Q931708",
+   "name": "Lake Tengiz",
+   "sl": 35,
+   "file": "Tengiz and Korgaljinski Lakes, Kazakhstan.jpg",
+   "lat": 50.4,
+   "lon": 68.95,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2559020",
+    "name": "Saryarka – Steppe and Lakes of Northern Kazakhstan"
+   },
+   "also": [],
+   "cat": "Lake Tengiz"
+  },
+  {
+   "id": "Q1364338",
+   "name": "Mugalzhar",
+   "sl": 33,
+   "file": "Актюбинская область. Горы Мугоджары. Берёзовая роща.jpg",
+   "lat": 48.6439,
+   "lon": 58.5464,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mugodzhar Hills"
+  },
+  {
+   "id": "Q1798743",
+   "name": "Aral Karakum",
+   "sl": 32,
+   "file": "Syr29.jpg",
+   "lat": 46.6883,
+   "lon": 63.0192,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1116019",
+   "name": "Kyrgyz Alatau",
+   "sl": 31,
+   "file": "Kyrgyzstan Mounts Kyrgyz Ala Too 001.jpg",
+   "lat": 42.3412,
+   "lon": 76.1437,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG"
+   ],
+   "cat": "Kyrgyz Ala-Too"
+  },
+  {
+   "id": "Q1358976",
+   "name": "Ryn Desert",
+   "sl": 31,
+   "file": "Ryn Desert.jpg",
+   "lat": 47.3333,
+   "lon": 48.8333,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "sand area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3358037",
+   "name": "North Aral Sea",
+   "sl": 30,
+   "file": "AralSea ComparisonApr2005-06.jpg",
+   "lat": 46.5,
+   "lon": 60.7,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "North Aral Sea"
+  },
+  {
+   "id": "Q413579",
+   "name": "Ak Orda Presidential Palace",
+   "sl": 29,
+   "file": "Astana-2021-10 - 25.jpg",
+   "lat": 51.1258,
+   "lon": 71.4464,
+   "kind": "built",
+   "types": [
+    "official residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ak Orda Presidential Palace"
+  },
+  {
+   "id": "Q1430826",
+   "name": "Aktau Airport",
+   "sl": 29,
+   "file": "Aktau Airport.jpg",
+   "lat": 43.86,
+   "lon": 51.0919,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aktau"
+  },
+  {
+   "id": "Q804210",
+   "name": "Bayterek",
+   "sl": 29,
+   "file": "Night at Esil District, Astana (P1190721).jpg",
+   "lat": 51.1283,
+   "lon": 71.4306,
+   "kind": "built",
+   "types": [
+    "monument",
+    "observation tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bayterek Tower"
+  },
+  {
+   "id": "Q2216473",
+   "name": "Barsa-Kelmes",
+   "sl": 28,
+   "file": "Taras Shevchenko Barsa Kelmes Island.jpg",
+   "lat": 46.3,
+   "lon": 60.3,
+   "kind": "natural",
+   "types": [
+    "agronym",
+    "former island",
+    "peninsula"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barsa-Kelmes"
+  },
+  {
+   "id": "Q2641234",
+   "name": "Chagan",
+   "sl": 28,
+   "file": "Atomic Lake, Atomwaffentestgelände Semipalatinsk, Kasachstan.jpg",
+   "lat": 49.9356,
+   "lon": 79.0086,
+   "kind": "natural",
+   "types": [
+    "artificial lake",
+    "crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shagan (lake)"
+  },
+  {
+   "id": "Q1070248",
+   "name": "Lake Kaindy",
+   "sl": 28,
+   "file": "Kaindy lake south-east Kazakhstan.jpg",
+   "lat": 42.9846,
+   "lon": 78.4657,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaindy Lake"
+  },
+  {
+   "id": "Q17277933",
+   "name": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+   "sl": 28,
+   "file": "Yumenguan.jpg",
+   "lat": 34.3044,
+   "lon": 108.8572,
+   "kind": "natural",
+   "types": [
+    "transboundary site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "CN",
+    "KG"
+   ],
+   "cat": "Silk Roads (World Heritage)"
+  },
+  {
+   "id": "Q2231598",
+   "name": "Charyn Canyon",
+   "sl": 27,
+   "file": "Charyn Canyon, Kazakhstan 03.jpg",
+   "lat": 43.3619,
+   "lon": 79.0906,
+   "kind": "natural",
+   "types": [
+    "canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sharyn canyon"
+  },
+  {
+   "id": "Q2039551",
+   "name": "Lake Sasykkol",
+   "sl": 27,
+   "file": "Lake Sasykkol 2021-09-04 Sentinel-2 L2A True color.jpg",
+   "lat": 46.5756,
+   "lon": 80.9747,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Sasykkol"
+  },
+  {
+   "id": "Q190788",
+   "name": "Almaty Central Stadium",
+   "sl": 26,
+   "file": "Kazakhstan P9240988 08 (39408856325).jpg",
+   "lat": 43.2383,
+   "lon": 76.9244,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Almaty Central Stadium"
+  },
+  {
+   "id": "Q286640",
+   "name": "Chuy Valley",
+   "sl": 26,
+   "file": "E8115-Chu-Valley.jpg",
+   "lat": 42.8333,
+   "lon": 75.2833,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q671484",
+   "name": "Khan Shatyr Entertainment Center",
+   "sl": 26,
+   "file": "Khan Shatyr.jpg",
+   "lat": 51.1322,
+   "lon": 71.4039,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khan Shatyry Entertainment Center"
+  },
+  {
+   "id": "Q2119741",
+   "name": "Palace of Peace and Reconciliation",
+   "sl": 26,
+   "file": "Astana DSC04116 (7709631558).jpg",
+   "lat": 51.1231,
+   "lon": 71.4636,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "creative work",
+    "national symbol"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Peace and Reconciliation"
+  },
+  {
+   "id": "Q276776",
+   "name": "South Aral Sea",
+   "sl": 26,
+   "file": "Aralsea tmo 2014231 lrg.jpg",
+   "lat": 45,
+   "lon": 58.5,
+   "kind": "natural",
+   "types": [
+    "former lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UZ"
+   ],
+   "cat": "Aral Sea"
+  },
+  {
+   "id": "Q447047",
+   "name": "Altyn-Emel National Park",
+   "sl": 25,
+   "file": "Кербулакский район, дождь в степи.jpg",
+   "lat": 44,
+   "lon": 78.8,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area of Kazakhstan of republican significance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Altyn-Emel"
+  },
+  {
+   "id": "Q21371563",
+   "name": "Astana Opera",
+   "sl": 25,
+   "file": "Inside Astana's New Opera House (8282915665).jpg",
+   "lat": 51.1356,
+   "lon": 71.4109,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Astana Opera"
+  },
+  {
+   "id": "Q4494668",
+   "name": "Khazret Sultan Mosque",
+   "sl": 25,
+   "file": "Rustam Minnikhanov on Expo 2017 72.jpg",
+   "lat": 51.125,
+   "lon": 71.4722,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosques in Kazakhstan"
+  },
+  {
+   "id": "Q1299817",
+   "name": "Lake Marqaköl",
+   "sl": 25,
+   "file": "Markakol 1.jpg",
+   "lat": 48.75,
+   "lon": 85.75,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Markakol"
+  },
+  {
+   "id": "Q27315",
+   "name": "Shymkent International Airport",
+   "sl": 25,
+   "file": "Shymkent International Airport 03.jpg",
+   "lat": 42.365,
+   "lon": 69.4761,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shymkent International Airport"
+  },
+  {
+   "id": "Q1430894",
+   "name": "Atyrau Airport",
+   "sl": 24,
+   "file": "GUWterminal.jpg",
+   "lat": 47.1222,
+   "lon": 51.8294,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atyrau Airport"
+  },
+  {
+   "id": "Q1166032",
+   "name": "Dyke Kokaral",
+   "sl": 24,
+   "file": "Dike Kokaral 2021-05-08 Sentinel-2 L2A True color.jpg",
+   "lat": 46.0967,
+   "lon": 60.7931,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dike Kokaral"
+  },
+  {
+   "id": "Q4299931",
+   "name": "Muyunkum Desert",
+   "sl": 23,
+   "file": "Река Чу - panoramio.jpg",
+   "lat": 43.8854,
+   "lon": 71.8771,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moiynkum"
+  },
+  {
+   "id": "Q27268",
+   "name": "Oral Ak Zhol Airport",
+   "sl": 23,
+   "file": "Uralsk Airport.jpg",
+   "lat": 51.1508,
+   "lon": 51.5431,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oral Ak Zhol Airport"
+  },
+  {
+   "id": "Q1813864",
+   "name": "Saryesik-Atyrau Desert",
+   "sl": 23,
+   "file": "Balkhash labeled eng.jpg",
+   "lat": 45.5,
+   "lon": 77,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1078589",
+   "name": "Ascension Cathedral",
+   "sl": 22,
+   "file": "Алматы, Вознесенский собор (1).jpg",
+   "lat": 43.2586,
+   "lon": 76.9533,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral",
+    "wooden church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ascension Cathedral, Almaty"
+  },
+  {
+   "id": "Q1433309",
+   "name": "Oskemen Airport",
+   "sl": 22,
+   "file": "Ust'-Kamenogorsk 070000, Kazakhstan - panoramio (6).jpg",
+   "lat": 50.0361,
+   "lon": 82.4942,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Airport Oskemen"
+  },
+  {
+   "id": "Q1280576",
+   "name": "Talas Alatau",
+   "sl": 22,
+   "file": "Aksu Jabgly 3.JPG",
+   "lat": 42.3089,
+   "lon": 71.0272,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG",
+    "UZ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2619449",
+   "name": "Turgay Plateau",
+   "sl": 22,
+   "file": "Ishim.jpg",
+   "lat": 51,
+   "lon": 63,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "plateau"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1430836",
+   "name": "Aktobe International Airport",
+   "sl": 20,
+   "file": "Aktobe Airport.jpg",
+   "lat": 50.245,
+   "lon": 57.2033,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aktobe Airport"
+  },
+  {
+   "id": "Q960515",
+   "name": "Almaty Tower",
+   "sl": 20,
+   "file": "TV-Turm Almaty - 3.jpg",
+   "lat": 43.2289,
+   "lon": 76.9761,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Almaty Tower"
+  },
+  {
+   "id": "Q4507523",
+   "name": "Charyn National Park",
+   "sl": 20,
+   "file": "Весенний Чарынский каньон.jpg",
+   "lat": 43.3502,
+   "lon": 79.0696,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area",
+    "protected area of Kazakhstan of republican significance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Charyn national park"
+  },
+  {
+   "id": "Q1112158",
+   "name": "Kapchagay Reservoir",
+   "sl": 20,
+   "file": "Kapchagay Reservoir.jpg",
+   "lat": 43.8167,
+   "lon": 77.4833,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kapchagay Reservoir"
+  },
+  {
+   "id": "Q4228940",
+   "name": "Kölsay Lakes National Park",
+   "sl": 20,
+   "file": "Kolsay Lake.jpeg",
+   "lat": 42.9645,
+   "lon": 77.5823,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area of Kazakhstan of republican significance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kolsay Lakes national park"
+  },
+  {
+   "id": "Q608494",
+   "name": "Talgar peak",
+   "sl": 20,
+   "file": "Piktalgar.jpg",
+   "lat": 43.1178,
+   "lon": 77.3413,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Talgar Peak"
+  },
+  {
+   "id": "Q1765261",
+   "name": "Aksu-Zhabagly Nature Reserve",
+   "sl": 19,
+   "file": "Aksu Jabgly 3.JPG",
+   "lat": 42.2448,
+   "lon": 70.6721,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "nature reserve",
+    "protected area",
+    "protected area of Kazakhstan of republican significance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aksu-Zhabagly Nature Reserve"
+  },
+  {
+   "id": "Q999142",
+   "name": "Bukhtarma Reservoir",
+   "sl": 19,
+   "file": "Bukhtarminskoe 2.jpg",
+   "lat": 48.9019,
+   "lon": 83.5142,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bukhtarminskoe Reservoir"
+  },
+  {
+   "id": "Q4099294",
+   "name": "Burabay National Park",
+   "sl": 19,
+   "file": "Окжетпес Боровое.jpg",
+   "lat": 53.0833,
+   "lon": 70.3,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area",
+    "protected area of Kazakhstan of republican significance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burabay National Park"
+  },
+  {
+   "id": "Q190682",
+   "name": "Central Mosque (Almaty)",
+   "sl": 19,
+   "file": "Керамический купол Центральной мечети Алматы, 2008-03.jpg",
+   "lat": 43.2683,
+   "lon": 76.9529,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Almaty Central Mosque"
+  },
+  {
+   "id": "Q190456",
+   "name": "Central State Museum of Kazakhstan",
+   "sl": 19,
+   "file": "Центральный Государственный музей Республики Казахстан.JPG",
+   "lat": 43.2358,
+   "lon": 76.9507,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Central State Museum of the Republic of Kazakhstan"
+  },
+  {
+   "id": "Q4199195",
+   "name": "Ile-Alatau National Park",
+   "sl": 19,
+   "file": "Ущелье Туристов.jpg",
+   "lat": 43.0667,
+   "lon": 77.1667,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area of Kazakhstan of republican significance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ile-Alatau national park"
+  },
+  {
+   "id": "Q864796",
+   "name": "Medeu",
+   "sl": 19,
+   "file": "Medeobanen1.jpg",
+   "lat": 43.1575,
+   "lon": 77.0586,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Medeu"
+  },
+  {
+   "id": "Q1432356",
+   "name": "Petropavl Airport",
+   "sl": 19,
+   "file": "Здание терминала аэропорта Петропавловска2.jpg",
+   "lat": 54.7744,
+   "lon": 69.185,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q117807",
+   "name": "Sary-Arka Airport",
+   "sl": 19,
+   "file": "Караганда, терминал аэропорта.jpg",
+   "lat": 49.6717,
+   "lon": 73.3353,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sary-Arka Airport"
+  },
+  {
+   "id": "Q432481",
+   "name": "Semey Airport",
+   "sl": 19,
+   "file": "Airport Semey.JPG",
+   "lat": 50.3514,
+   "lon": 80.2344,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2963663",
+   "name": "Shymbulak",
+   "sl": 19,
+   "file": "Shymbulak mountain in February 2024 09.jpg",
+   "lat": 43.1281,
+   "lon": 77.0808,
+   "kind": "built",
+   "types": [
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shymbulak"
+  },
+  {
+   "id": "Q1046027",
+   "name": "Aisha Bibi",
+   "sl": 18,
+   "file": "Aisha bibi.png",
+   "lat": 42.8338,
+   "lon": 71.2105,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "pilgrimage site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aisha Bibi"
+  },
+  {
+   "id": "Q649007",
+   "name": "Barsa-Kelmes Nature Reserve",
+   "sl": 18,
+   "file": "Полет пеликанов.png",
+   "lat": 45.662,
+   "lon": 59.9146,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "protected area of Kazakhstan of republican significance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cold Winter Deserts of Turan"
+  },
+  {
+   "id": "Q588769",
+   "name": "Irtysh–Karaganda Canal",
+   "sl": 18,
+   "file": "Канал Иртыш-Караганда - panoramio (1).jpg",
+   "lat": 49.9268,
+   "lon": 73.2337,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Irtysh–Karaganda Canal"
+  },
+  {
+   "id": "Q1432328",
+   "name": "Pavlodar Airport",
+   "sl": 18,
+   "file": "Flughafen pawlodar.jpg",
+   "lat": 52.195,
+   "lon": 77.0739,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pavlodar Airport"
+  },
+  {
+   "id": "Q5763760",
+   "name": "Shalkarteniz",
+   "sl": 18,
+   "file": "ISS006-E-52422 - View of Shalkarteniz.jpg",
+   "lat": 48.0755,
+   "lon": 63.1764,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shalkarteniz"
+  },
+  {
+   "id": "Q4244492",
+   "name": "Siletiteniz",
+   "sl": 18,
+   "file": "Siletiteniz 2022-04-24 Sentinel-2 L2A True color.jpg",
+   "lat": 53.3397,
+   "lon": 73.1667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siletiteniz"
+  },
+  {
+   "id": "Q2454806",
+   "name": "Kushmurun",
+   "sl": 17,
+   "file": "Lake Kushmurun 2021-10-15 Sentinel-2 L2A True color.jpg",
+   "lat": 52.6833,
+   "lon": 64.8,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Kushmurun"
+  },
+  {
+   "id": "Q2978428",
+   "name": "Lake Kamyslybas",
+   "sl": 17,
+   "file": "Lake Kamyslybas, Kazakhstan.png",
+   "lat": 46.1997,
+   "lon": 61.7994,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamyslybas"
+  },
+  {
+   "id": "Q1571825",
+   "name": "Naurzum Nature Reserve",
+   "sl": 17,
+   "file": "Naurzum 1.jpg",
+   "lat": 51.5333,
+   "lon": 64.4389,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "protected area of Kazakhstan of republican significance"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2559020",
+    "name": "Saryarka – Steppe and Lakes of Northern Kazakhstan"
+   },
+   "also": [],
+   "cat": "Naurzum natural reserve"
+  },
+  {
+   "id": "Q2996387",
+   "name": "Saray-Jük",
+   "sl": 17,
+   "file": "Sarayshyk 2020.jpg",
+   "lat": 47.5,
+   "lon": 51.7333,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q304839",
+   "name": "Abay Opera House",
+   "sl": 16,
+   "file": "ALA GATOB ABAI.JPG",
+   "lat": 43.2489,
+   "lon": 76.9458,
+   "kind": "built",
+   "types": [
+    "opera house",
+    "theatre troupe"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Almaty Opera & Ballet Theatre"
+  },
+  {
+   "id": "Q2393058",
+   "name": "Arkalyk Airport",
+   "sl": 16,
+   "file": "Arkalyk airport.jpg",
+   "lat": 50.325,
+   "lon": 66.96,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arkalyk Airport"
+  },
+  {
+   "id": "Q2393266",
+   "name": "Balkhash Airport",
+   "sl": 16,
+   "file": "Балхаш, аэровокзал.jpg",
+   "lat": 46.8933,
+   "lon": 75.005,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Balkhash airport"
+  },
+  {
+   "id": "Q1817735",
+   "name": "Bayanaul National Park",
+   "sl": 16,
+   "file": "Mount Bulka.jpg",
+   "lat": 50.8,
+   "lon": 75.6,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "national park",
+    "protected area of Kazakhstan of republican significance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bayanaul National Park"
+  }
+ ]
+}

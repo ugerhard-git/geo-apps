@@ -1,0 +1,206 @@
+{
+ "country": "SM",
+ "items": [
+  {
+   "id": "Q158526",
+   "name": "Monte Titano",
+   "sl": 53,
+   "file": "San marino, veduta del monte titano 02.jpg",
+   "lat": 43.9283,
+   "lon": 12.4522,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15613336",
+    "name": "San Marino Historic Centre and Mount Titano"
+   },
+   "also": [],
+   "cat": "Monte Titano"
+  },
+  {
+   "id": "Q728131",
+   "name": "San Marino Stadium",
+   "sl": 32,
+   "file": "Stadio Olimpico (Serravalle).jpg",
+   "lat": 43.9713,
+   "lon": 12.477,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadio Olimpico (Serravalle)"
+  },
+  {
+   "id": "Q2287080",
+   "name": "Three Towers of San Marino",
+   "sl": 28,
+   "file": "Fortress of Guaita - First Tower (San Marino).jpg",
+   "lat": 43.935,
+   "lon": 12.45,
+   "kind": "both",
+   "types": [
+    "rocca"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Marino castle"
+  },
+  {
+   "id": "Q810102",
+   "name": "Basilica di San Marino",
+   "sl": 21,
+   "file": "Contrada della Pieve, 1, Città di San Marino, San Marino - panoramio.jpg",
+   "lat": 43.9372,
+   "lon": 12.4469,
+   "kind": "built",
+   "types": [
+    "co-cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Co-cathedral (San Marino)"
+  },
+  {
+   "id": "Q2711604",
+   "name": "Guaita",
+   "sl": 21,
+   "file": "Fortress of Guaita - First Tower (San Marino).jpg",
+   "lat": 43.9354,
+   "lon": 12.4496,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guaita Tower"
+  },
+  {
+   "id": "Q1705125",
+   "name": "Palazzo Pubblico",
+   "sl": 20,
+   "file": "Palazzo Pubblico - esterno.jpg",
+   "lat": 43.9368,
+   "lon": 12.4464,
+   "kind": "built",
+   "types": [
+    "city hall",
+    "museum",
+    "palace",
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palazzo pubblico (San Marino)"
+  },
+  {
+   "id": "Q2592701",
+   "name": "De La Fratta",
+   "sl": 17,
+   "file": "Second Tower in San Marino and Paragliding.jpg",
+   "lat": 43.9328,
+   "lon": 12.4515,
+   "kind": "built",
+   "types": [
+    "history museum",
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cesta Tower"
+  },
+  {
+   "id": "Q2224877",
+   "name": "Montale",
+   "sl": 15,
+   "file": "Montale Tower.jpg",
+   "lat": 43.9301,
+   "lon": 12.4526,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montale Tower"
+  },
+  {
+   "id": "Q3064968",
+   "name": "Statua della Libertà",
+   "sl": 11,
+   "file": "Liberty statue.jpg",
+   "lat": 43.9366,
+   "lon": 12.4469,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "statue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liberty statue in San Marino"
+  },
+  {
+   "id": "Q3670091",
+   "name": "Chiesa di San Francesco",
+   "sl": 8,
+   "file": "San Francesco - Exterior.jpg",
+   "lat": 43.9353,
+   "lon": 12.4471,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Francesco (San Marino)"
+  },
+  {
+   "id": "Q50837",
+   "name": "Chiesa di San Pietro",
+   "sl": 8,
+   "file": "Chiesa di San Pietro - San Marino.JPG",
+   "lat": 43.9369,
+   "lon": 12.4469,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chiesa di San Pietro (San Marino)"
+  },
+  {
+   "id": "Q80645",
+   "name": "Torraccia airfield",
+   "sl": 8,
+   "file": "Aeroclub San Marino.png",
+   "lat": 43.9502,
+   "lon": 12.5109,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aviosuperficie Torraccia"
+  }
+ ]
+}

@@ -1,0 +1,1231 @@
+{
+ "country": "ME",
+ "items": [
+  {
+   "id": "Q207468",
+   "name": "Bay of Kotor",
+   "sl": 57,
+   "file": "1 perast aerial 2016.jpg",
+   "lat": 42.45,
+   "lon": 18.67,
+   "kind": "natural",
+   "types": [
+    "ria"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bay of Kotor"
+  },
+  {
+   "id": "Q203811",
+   "name": "Lake Skadar",
+   "sl": 55,
+   "file": "Skadarsko Jezero.jpg",
+   "lat": 42.1814,
+   "lon": 19.309,
+   "kind": "natural",
+   "types": [
+    "karst lake",
+    "lake",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL"
+   ],
+   "cat": "Lake Scutari"
+  },
+  {
+   "id": "Q844825",
+   "name": "Podgorica Airport",
+   "sl": 44,
+   "file": "AerodromPodgorica.jpg",
+   "lat": 42.3594,
+   "lon": 19.2519,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Podgorica Airport"
+  },
+  {
+   "id": "Q837723",
+   "name": "Maglić",
+   "sl": 39,
+   "file": "Trnovačko jezero, Maglić.jpg",
+   "lat": 43.2811,
+   "lon": 18.7331,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BA"
+   ],
+   "cat": "Maglić"
+  },
+  {
+   "id": "Q1370044",
+   "name": "Lovćen",
+   "sl": 36,
+   "file": "Lovcen-008-p1010045.jpg",
+   "lat": 42.4,
+   "lon": 18.8333,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lovćen national park"
+  },
+  {
+   "id": "Q1166175",
+   "name": "Podgorica City Stadium",
+   "sl": 35,
+   "file": "Stadion pod Goricom.jpg",
+   "lat": 42.4447,
+   "lon": 19.2644,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadion Pod Goricom"
+  },
+  {
+   "id": "Q32797097",
+   "name": "The Venetian Works of defence between 15th and 17th centuries",
+   "sl": 35,
+   "file": "Cinta muraria di Palmanova.jpg",
+   "lat": 45.7033,
+   "lon": 9.6636,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "HR",
+    "IT"
+   ],
+   "cat": "Venetian Works of Defence between the 16th and 17th Centuries: Stato da Terra – Western Stato da Mar"
+  },
+  {
+   "id": "Q659349",
+   "name": "Tivat Airport",
+   "sl": 35,
+   "file": "Tivat Airport.jpg",
+   "lat": 42.4047,
+   "lon": 18.7233,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tivat Airport"
+  },
+  {
+   "id": "Q994211",
+   "name": "Risan",
+   "sl": 33,
+   "file": "Risan, Bahía de Kotor, Montenegro, 2014-04-19, DD 05.JPG",
+   "lat": 42.5147,
+   "lon": 18.695,
+   "kind": "",
+   "types": [
+    "buurtschap"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3511938",
+    "name": "Natural and Culturo-Historical Region of Kotor"
+   },
+   "also": [],
+   "cat": "Risan"
+  },
+  {
+   "id": "Q1257434",
+   "name": "Ostrog monastery",
+   "sl": 31,
+   "file": "Ostrog monastery - panoramio.jpg",
+   "lat": 42.675,
+   "lon": 19.0292,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ostrog Monastery"
+  },
+  {
+   "id": "Q671897",
+   "name": "Bobotov Kuk",
+   "sl": 29,
+   "file": "Bobotov Kuk.jpg",
+   "lat": 43.1278,
+   "lon": 19.0333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3511938",
+   "name": "Natural and Culturo-Historical Region of Kotor",
+   "sl": 28,
+   "file": "20090719 Crkva Gospa od Zdravlja Kotor Bay Montenegro.jpg",
+   "lat": 42.43,
+   "lon": 18.77,
+   "kind": "natural",
+   "types": [
+    "cultural landscape",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Natural and culturo-historical region of Kotor"
+  },
+  {
+   "id": "Q1258880",
+   "name": "Biogradska Gora",
+   "sl": 27,
+   "file": "Biogradska suma.jpg",
+   "lat": 42.8981,
+   "lon": 19.6019,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biogradska gora"
+  },
+  {
+   "id": "Q2265459",
+   "name": "National Museum of Montenegro",
+   "sl": 27,
+   "file": "Vladin Dom (Dom Rządowy) w Cetinje 02.jpg",
+   "lat": 42.3893,
+   "lon": 18.9229,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National museums of Montenegro"
+  },
+  {
+   "id": "Q1140650",
+   "name": "Black Lake",
+   "sl": 26,
+   "file": "Crno jezero 2020.jpg",
+   "lat": 43.1433,
+   "lon": 19.0875,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Crno jezero"
+  },
+  {
+   "id": "Q1256107",
+   "name": "Lake Plav",
+   "sl": 25,
+   "file": "Lake Plav3.JPG",
+   "lat": 42.5958,
+   "lon": 19.925,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plavsko jezero"
+  },
+  {
+   "id": "Q966429",
+   "name": "Kotor Cathedral",
+   "sl": 23,
+   "file": "Kotor - Cathédrale St Tryphon.JPG",
+   "lat": 42.4243,
+   "lon": 18.7714,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kotor Cathedral"
+  },
+  {
+   "id": "Q658743",
+   "name": "Cathedral of the Resurrection of Christ",
+   "sl": 22,
+   "file": "Blok 5, Podgorica, Montenegro - panoramio (2).jpg",
+   "lat": 42.4457,
+   "lon": 19.2482,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of the Resurrection of Christ (Podgorica)"
+  },
+  {
+   "id": "Q12907852",
+   "name": "Fortifications of Kotor",
+   "sl": 21,
+   "file": "Old Kotor.jpg",
+   "lat": 42.4249,
+   "lon": 18.771,
+   "kind": "built",
+   "types": [
+    "building",
+    "fortification",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q32797097",
+    "name": "The Venetian Works of defence between 15th and 17th centuries"
+   },
+   "also": [],
+   "cat": "Kotor city wall"
+  },
+  {
+   "id": "Q1267436",
+   "name": "Millennium Bridge",
+   "sl": 21,
+   "file": "Moj grad - panoramio.jpg",
+   "lat": 42.4449,
+   "lon": 19.259,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Millennium Bridge (Montenegro)"
+  },
+  {
+   "id": "Q864390",
+   "name": "Lake Biograd",
+   "sl": 20,
+   "file": "Biogradsko Jezero.jpg",
+   "lat": 42.8978,
+   "lon": 19.6006,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biogradsko jezero"
+  },
+  {
+   "id": "Q3364446",
+   "name": "Durmitor National Park",
+   "sl": 19,
+   "file": "Durmitor - near Minin bogaz.jpg",
+   "lat": 43.1532,
+   "lon": 19.0369,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Durmitor National Park"
+  },
+  {
+   "id": "Q2194967",
+   "name": "Hajla",
+   "sl": 19,
+   "file": "Panorama Hajle 2000pix.jpg",
+   "lat": 42.7847,
+   "lon": 20.1385,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "XK"
+   ],
+   "cat": "Hajla"
+  },
+  {
+   "id": "Q2574575",
+   "name": "Tara River Canyon",
+   "sl": 19,
+   "file": "Kanjon reke Tare.jpg",
+   "lat": 43.2508,
+   "lon": 19.0085,
+   "kind": "natural",
+   "types": [
+    "canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BA"
+   ],
+   "cat": "Tara River Canyon"
+  },
+  {
+   "id": "Q1886615",
+   "name": "Mala Rijeka Viaduct",
+   "sl": 18,
+   "file": "Wiadukt kolejowy Mala Rijeka w Czarnogórze.JPG",
+   "lat": 42.5525,
+   "lon": 19.3875,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "railway bridge",
+    "steel bridge",
+    "truss bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mala Rijeka Viaduct"
+  },
+  {
+   "id": "Q581727",
+   "name": "Morača Sports Center",
+   "sl": 18,
+   "file": "Sports Center Moraca.jpg",
+   "lat": 42.4378,
+   "lon": 19.2542,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Morača Sports Center"
+  },
+  {
+   "id": "Q342168",
+   "name": "Đurđevića Tara Bridge",
+   "sl": 17,
+   "file": "Мост Джурджевича.jpg",
+   "lat": 43.1504,
+   "lon": 19.2952,
+   "kind": "built",
+   "types": [
+    "concrete arch bridge",
+    "deck arch bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Đurđevića Tara Bridge"
+  },
+  {
+   "id": "Q1288177",
+   "name": "Lovćen National Park",
+   "sl": 17,
+   "file": "Lovcen-011-p1010050.jpg",
+   "lat": 42.3667,
+   "lon": 18.8667,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lovćen national park"
+  },
+  {
+   "id": "Q1288045",
+   "name": "Mokra Gora",
+   "sl": 17,
+   "file": "Mokra gora.jpg",
+   "lat": 42.8322,
+   "lon": 20.3617,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Mokra Gora (mountain)"
+  },
+  {
+   "id": "Q4929606",
+   "name": "Blue Palace",
+   "sl": 16,
+   "file": "Palac krale Nikoly z roku 1889.jpg",
+   "lat": 42.3858,
+   "lon": 18.9264,
+   "kind": "built",
+   "types": [
+    "house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Palace in Cetinje"
+  },
+  {
+   "id": "Q770580",
+   "name": "Cetinje Monastery",
+   "sl": 16,
+   "file": "Cetinje monastery.jpg",
+   "lat": 42.3878,
+   "lon": 18.9217,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cetinje Monastery"
+  },
+  {
+   "id": "Q252273",
+   "name": "Doclea",
+   "sl": 16,
+   "file": "Doclea Roman city Podgorica.jpg",
+   "lat": 42.4681,
+   "lon": 19.2656,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement",
+    "Roman city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doclea (site)"
+  },
+  {
+   "id": "Q1546929",
+   "name": "Mratinje Dam",
+   "sl": 15,
+   "file": "Piva Mratinje Dam.JPG",
+   "lat": 43.2722,
+   "lon": 18.8417,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piva Reservoir"
+  },
+  {
+   "id": "Q1811764",
+   "name": "Trnovačko Lake",
+   "sl": 15,
+   "file": "Trnovacko jezero, Maglic.jpg",
+   "lat": 43.2517,
+   "lon": 18.7267,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trnovačko jezero"
+  },
+  {
+   "id": "Q3394898",
+   "name": "Jaz Beach",
+   "sl": 14,
+   "file": "Jaz beach 11.jpg",
+   "lat": 42.2833,
+   "lon": 18.8047,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jaz Beach"
+  },
+  {
+   "id": "Q1395885",
+   "name": "Morača",
+   "sl": 14,
+   "file": "Manastir Moraca.jpg",
+   "lat": 42.7681,
+   "lon": 19.3917,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Morača monastery"
+  },
+  {
+   "id": "Q2904285",
+   "name": "Bioč",
+   "sl": 13,
+   "file": "Bioć.jpg",
+   "lat": 43.2325,
+   "lon": 18.7931,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3120014",
+   "name": "Gradski stadion",
+   "sl": 13,
+   "file": "Stadion u Niksicu nova tribina '21.jpg",
+   "lat": 42.7849,
+   "lon": 18.9537,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2265468",
+   "name": "King Nikola's Palace",
+   "sl": 13,
+   "file": "King Nikola's Palace in Cetinje.jpg",
+   "lat": 42.3875,
+   "lon": 18.9244,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Nikola's Palace in Cetinje"
+  },
+  {
+   "id": "Q391306",
+   "name": "Lake Šas",
+   "sl": 13,
+   "file": "Sasko jesero.jpg",
+   "lat": 41.9736,
+   "lon": 19.3308,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Šasko jezero"
+  },
+  {
+   "id": "Q5659361",
+   "name": "Velika Plaža",
+   "sl": 13,
+   "file": "Czarnogóra - Ulcinj - Wielka Plaża - panoramio.jpg",
+   "lat": 41.8925,
+   "lon": 19.2958,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3299979",
+   "name": "Bogićevica",
+   "sl": 12,
+   "file": "Mariashi nga Ropsi.jpg",
+   "lat": 42.6,
+   "lon": 20.08,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL",
+    "XK"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2097502",
+   "name": "Lake Piva",
+   "sl": 12,
+   "file": "Piva Lake 1.JPG",
+   "lat": 43.1667,
+   "lon": 18.8667,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piva Reservoir"
+  },
+  {
+   "id": "Q1550605",
+   "name": "Piva Monastery",
+   "sl": 12,
+   "file": "Manastir Piva 3.jpg",
+   "lat": 43.11,
+   "lon": 18.8186,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piva Monastery"
+  },
+  {
+   "id": "Q5134791",
+   "name": "Podgorica Clock Tower",
+   "sl": 12,
+   "file": "Natural History Museum of Montenegro, Sahat Kula, 2019 (1).jpg",
+   "lat": 42.4356,
+   "lon": 19.26,
+   "kind": "built",
+   "types": [
+    "clock tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Clock tower (Podgorica)"
+  },
+  {
+   "id": "Q3364523",
+   "name": "Skadar Lake National Park",
+   "sl": 12,
+   "file": "Lago Skadar, Montenegro, 2014-04-14, DD 02.JPG",
+   "lat": 42.24,
+   "lon": 19.2097,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skadar Lake National Park"
+  },
+  {
+   "id": "Q1961993",
+   "name": "Špiro Mugoša Airport",
+   "sl": 12,
+   "file": "CemovskoPoljeAirport.JPG",
+   "lat": 42.4223,
+   "lon": 19.2908,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Podgorica Airport"
+  },
+  {
+   "id": "Q7845364",
+   "name": "Trekufiri",
+   "sl": 12,
+   "file": "Trekufiri.jpg",
+   "lat": 42.5553,
+   "lon": 20.0789,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL",
+    "XK"
+   ],
+   "cat": "Trekufiri"
+  },
+  {
+   "id": "Q227506",
+   "name": "Zubački kabao",
+   "sl": 12,
+   "file": "View of Zubacki kabao.jpg",
+   "lat": 42.5697,
+   "lon": 18.5433,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zubački kabao"
+  },
+  {
+   "id": "Q3180511",
+   "name": "Đurđevi Stupovi",
+   "sl": 11,
+   "file": "Đurđevi stupovi, Berane, MNE.jpg",
+   "lat": 42.8524,
+   "lon": 19.8609,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Đurđevi stupovi (Berane)"
+  },
+  {
+   "id": "Q11955121",
+   "name": "Prokletije National Park",
+   "sl": 11,
+   "file": "Prokletije3.jpg",
+   "lat": 42.5317,
+   "lon": 19.9139,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prokletije National Park"
+  },
+  {
+   "id": "Q3623943",
+   "name": "Žljeb mountain",
+   "sl": 11,
+   "file": "Mokra Gora 4.jpg",
+   "lat": 42.7669,
+   "lon": 20.235,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS",
+    "XK"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3503964",
+   "name": "Biljarda",
+   "sl": 10,
+   "file": "Biljarda, Cetinje, 2013-05-04 - panoramio (1).jpg",
+   "lat": 42.3878,
+   "lon": 18.9231,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biljarda"
+  },
+  {
+   "id": "Q5117907",
+   "name": "Church of the Holy Heart of Jesus",
+   "sl": 10,
+   "file": "Church of the Holy Heart of Jesus in Podgorica.jpg",
+   "lat": 42.4378,
+   "lon": 19.2756,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Holy Heart of Jesus (Podgorica)"
+  },
+  {
+   "id": "Q1639036",
+   "name": "Husein-paša's Mosque",
+   "sl": 10,
+   "file": "Pljevlja Mosque 1.JPG",
+   "lat": 43.3567,
+   "lon": 19.3583,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hussein-Pasha's Mosque (Pljevlja)"
+  },
+  {
+   "id": "Q23919377",
+   "name": "Immaculate Conception Cathedral",
+   "sl": 10,
+   "file": "Cathedral of the Immaculate Conception in Bar4.JPG",
+   "lat": 42.0944,
+   "lon": 19.1306,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of the Immaculate Conception in Bar"
+  },
+  {
+   "id": "Q1293440",
+   "name": "Lake Visitor",
+   "sl": 10,
+   "file": "Visitorske jezero s drevarskou chatkou, 1800 m.jpg",
+   "lat": 42.625,
+   "lon": 19.88,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Visitorsko jezero"
+  },
+  {
+   "id": "Q3501389",
+   "name": "Montenegrin National Theatre",
+   "sl": 10,
+   "file": "Montenegrin National Theatre (cropped).jpg",
+   "lat": 42.4419,
+   "lon": 19.2607,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montenegrin National Theatre"
+  },
+  {
+   "id": "Q15410528",
+   "name": "Pasha's Mosque",
+   "sl": 10,
+   "file": "Ulcinj, mosque.jpg",
+   "lat": 41.9259,
+   "lon": 19.2037,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pasha's Mosque"
+  },
+  {
+   "id": "Q499444",
+   "name": "Savina monastery",
+   "sl": 10,
+   "file": "Herceg Novi, Montenegro - Savina monastery.jpg",
+   "lat": 42.4535,
+   "lon": 18.5551,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Savina Monastery"
+  },
+  {
+   "id": "Q393311",
+   "name": "Žabljak Crnojevića",
+   "sl": 10,
+   "file": "Свјетлопис тврђаве Жабљак Црнојевића у близини Скадарског језера.jpg",
+   "lat": 42.3172,
+   "lon": 19.1569,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Žabljak Crnojevića"
+  },
+  {
+   "id": "Q1567957",
+   "name": "Bar Aqueduct",
+   "sl": 9,
+   "file": "Aqueduct stari bar.jpg",
+   "lat": 42.0942,
+   "lon": 19.1361,
+   "kind": "built",
+   "types": [
+    "aqueduct"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bar Aqueduct"
+  },
+  {
+   "id": "Q5260605",
+   "name": "Depedogen",
+   "sl": 9,
+   "file": "Depedogen.JPG",
+   "lat": 42.439,
+   "lon": 19.2591,
+   "kind": "built",
+   "types": [
+    "fortification"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ribnica fortress"
+  },
+  {
+   "id": "Q7314419",
+   "name": "Independence Square, Podgorica",
+   "sl": 9,
+   "file": "Podgorica Trg Republike.JPG",
+   "lat": 42.4413,
+   "lon": 19.2628,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Square (Podgorica)"
+  },
+  {
+   "id": "Q20575860",
+   "name": "Ulcinj Saltworks",
+   "sl": 9,
+   "file": "Saline Ulcinj Salinenfelder.JPG",
+   "lat": 41.9167,
+   "lon": 19.2833,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "salt evaporation pond"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulcinj Salinas"
+  },
+  {
+   "id": "Q3956807",
+   "name": "Dajbabska Gora Tower",
+   "sl": 8,
+   "file": "Dajbabska Gora.JPG",
+   "lat": 42.4172,
+   "lon": 19.2386,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dajbabska gora"
+  },
+  {
+   "id": "Q5288214",
+   "name": "Dog Peak",
+   "sl": 8,
+   "file": "Peaks of the Balkans - 120 (25019627818).jpg",
+   "lat": 42.5982,
+   "lon": 20.0782,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "XK"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3361179",
+   "name": "King Nicola's Palace in Bar",
+   "sl": 8,
+   "file": "King Nicola's Palace 2011.jpg",
+   "lat": 42.1006,
+   "lon": 19.0911,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Nicola's Palace in Bar"
+  },
+  {
+   "id": "Q13424615",
+   "name": "Mausoleum of Njegoš",
+   "sl": 8,
+   "file": "Lovcen-024-p1010064.jpg",
+   "lat": 42.4,
+   "lon": 18.8378,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Petar II Petrović-Njegoš mausoleum"
+  },
+  {
+   "id": "Q7440686",
+   "name": "Seaman's Mosque",
+   "sl": 8,
+   "file": "Sailors’ Mosque (2012).jpg",
+   "lat": 41.9243,
+   "lon": 19.2045,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sailors' Mosque"
+  },
+  {
+   "id": "Q950115",
+   "name": "Stadion Obilića Poljana",
+   "sl": 8,
+   "file": "Stadium Sveti Petar Cetinjski (2021).jpg",
+   "lat": 42.3926,
+   "lon": 18.9244,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadium Sveti Petar Cetinjski"
+  },
+  {
+   "id": "Q446069",
+   "name": "Velika Jastrebica",
+   "sl": 8,
+   "file": "Pirina poljana Velika Jastrebica.jpg",
+   "lat": 42.5979,
+   "lon": 18.5439,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BA"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2535521",
+   "name": "Vučji zub",
+   "sl": 8,
+   "file": "Vucji zub Orjen Bijela gora.jpg",
+   "lat": 42.5811,
+   "lon": 18.5536,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vučji zub"
+  }
+ ]
+}

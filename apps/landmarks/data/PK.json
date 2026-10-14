@@ -1,0 +1,1361 @@
+{
+ "country": "PK",
+ "items": [
+  {
+   "id": "Q43512",
+   "name": "K2",
+   "sl": 112,
+   "file": "Chogori.jpg",
+   "lat": 35.8811,
+   "lon": 76.5133,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "K2"
+  },
+  {
+   "id": "Q5725",
+   "name": "Mohenjo-daro",
+   "sl": 99,
+   "file": "Mohenjodaro Sindh.jpeg",
+   "lat": 27.3292,
+   "lon": 68.1389,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Bronze Age settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mohenjo-daro"
+  },
+  {
+   "id": "Q130736",
+   "name": "Nanga Parbat",
+   "sl": 90,
+   "file": "Nanga parbat, fairy medow, Pak by gul791.jpg",
+   "lat": 35.2392,
+   "lon": 74.59,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nanga Parbat"
+  },
+  {
+   "id": "Q172691",
+   "name": "Thar Desert",
+   "sl": 83,
+   "file": "Thar desert Rajasthan India.jpg",
+   "lat": 26.9844,
+   "lon": 71.0017,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN"
+   ],
+   "cat": "Thar Desert"
+  },
+  {
+   "id": "Q180996",
+   "name": "Broad Peak",
+   "sl": 77,
+   "file": "7 15 BroadPeak.jpg",
+   "lat": 35.8106,
+   "lon": 76.5681,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Broad Peak"
+  },
+  {
+   "id": "Q185562",
+   "name": "Harappa",
+   "sl": 77,
+   "file": "WellAndBathingPlatforms-Harappa.jpg",
+   "lat": 30.6333,
+   "lon": 72.8667,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Harappa"
+  },
+  {
+   "id": "Q156093",
+   "name": "Taxila",
+   "sl": 73,
+   "file": "Double-Headed Eagle Stupa at Sirkap 08.jpg",
+   "lat": 33.7457,
+   "lon": 72.8152,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Taxila"
+  },
+  {
+   "id": "Q187138",
+   "name": "Gasherbrum",
+   "sl": 71,
+   "file": "HiddenPeak.jpg",
+   "lat": 35.7244,
+   "lon": 76.6964,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Gasherbrum I"
+  },
+  {
+   "id": "Q186853",
+   "name": "Gasherbrum II",
+   "sl": 70,
+   "file": "Gasherbrum2.jpg",
+   "lat": 35.7575,
+   "lon": 76.6528,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Gasherbrum II"
+  },
+  {
+   "id": "Q330872",
+   "name": "Badshahi Mosque",
+   "sl": 68,
+   "file": "Badshahi Mosque July 1 2005 pic32 by Ali Imran (1).jpg",
+   "lat": 31.5881,
+   "lon": 74.3094,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Badshahi Mosque"
+  },
+  {
+   "id": "Q207132",
+   "name": "Terich Mir",
+   "sl": 59,
+   "file": "Tirich Mir (The Kingdom Of Djinns And Fairies).jpg",
+   "lat": 36.2458,
+   "lon": 71.8439,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tirich Mir"
+  },
+  {
+   "id": "Q271700",
+   "name": "Noshaq",
+   "sl": 57,
+   "file": "Mount Noshaq seen from the base camp (photo Louis Meunier).jpg",
+   "lat": 36.4317,
+   "lon": 71.8283,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AF"
+   ],
+   "cat": "Noshaq"
+  },
+  {
+   "id": "Q242148",
+   "name": "Mehrgarh",
+   "sl": 55,
+   "file": "Mehrgarh ruins.jpg",
+   "lat": 29.2125,
+   "lon": 67.6708,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mehrgarh"
+  },
+  {
+   "id": "Q500983",
+   "name": "Faisal Mosque",
+   "sl": 54,
+   "file": "Ali Mujtaba WLM2015 FAISAL MOSQUE m 10.jpg",
+   "lat": 33.7297,
+   "lon": 73.0372,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Faisal Mosque"
+  },
+  {
+   "id": "Q499527",
+   "name": "Shalamar Gardens",
+   "sl": 50,
+   "file": "Hayat Baksh (Bestower of life) terrace - Shalimar Gardens.jpg",
+   "lat": 31.5858,
+   "lon": 74.3819,
+   "kind": "built",
+   "types": [
+    "garden",
+    "park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q155727",
+    "name": "Fort and Shalamar Gardens in Lahore"
+   },
+   "also": [],
+   "cat": "Shalimar Gardens (Lahore)"
+  },
+  {
+   "id": "Q613624",
+   "name": "Sivalik Hills",
+   "sl": 49,
+   "file": "Indo-Gangetic Plain.jpg",
+   "lat": 27.7667,
+   "lon": 82.4,
+   "kind": "natural",
+   "types": [
+    "foothills",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN",
+    "NP"
+   ],
+   "cat": "Shivalik Hills"
+  },
+  {
+   "id": "Q613720",
+   "name": "Lahore Fort",
+   "sl": 47,
+   "file": "Lahore Fort view from Baradari.jpg",
+   "lat": 31.5903,
+   "lon": 74.3097,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q155727",
+    "name": "Fort and Shalamar Gardens in Lahore"
+   },
+   "also": [],
+   "cat": "Lahore Fort"
+  },
+  {
+   "id": "Q155188",
+   "name": "Rohtas Fort",
+   "sl": 47,
+   "file": "Rohtas Fort (Jhelum, Pakistan) - World Heritage Site.jpeg",
+   "lat": 32.9653,
+   "lon": 73.5764,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rohtas Fort"
+  },
+  {
+   "id": "Q117623",
+   "name": "Takht-i-Bahi",
+   "sl": 45,
+   "file": "Takht-e-bahi.jpg",
+   "lat": 34.3208,
+   "lon": 71.9458,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15240737",
+    "name": "Buddhist Ruins of Takht-i-Bahi and Neighbouring City Remains at Sahr-i-Bahlol"
+   },
+   "also": [],
+   "cat": "Takht-i-Bahi Buddhist ruins"
+  },
+  {
+   "id": "Q61052",
+   "name": "Jinnah International Airport",
+   "sl": 41,
+   "file": "PK Karachi Airport asv2020-01.jpg",
+   "lat": 24.9067,
+   "lon": 67.1608,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jinnah International Airport"
+  },
+  {
+   "id": "Q1366583",
+   "name": "Line of Control",
+   "sl": 40,
+   "file": "LOC Wire between India and Pakistan.jpg",
+   "lat": 34.9333,
+   "lon": 76.7667,
+   "kind": "built",
+   "types": [
+    "border barrier",
+    "demarcation line"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN"
+   ],
+   "cat": "Line of Control"
+  },
+  {
+   "id": "Q933778",
+   "name": "Rakaposhi",
+   "sl": 40,
+   "file": "View of Rakaposhi from Hunza valley.jpg",
+   "lat": 36.1425,
+   "lon": 74.4892,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rakaposhi"
+  },
+  {
+   "id": "Q854295",
+   "name": "Masherbrum",
+   "sl": 39,
+   "file": "Masherbrum.jpg",
+   "lat": 35.6425,
+   "lon": 76.3108,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masherbrum"
+  },
+  {
+   "id": "Q834454",
+   "name": "Gasherbrum IV",
+   "sl": 38,
+   "file": "Gasherbrum IV.JPG",
+   "lat": 35.7592,
+   "lon": 76.6158,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Gasherbrum IV"
+  },
+  {
+   "id": "Q60879",
+   "name": "Allama Iqbal International Airport",
+   "sl": 36,
+   "file": "AllamaIqbalAirport.JPG",
+   "lat": 31.5214,
+   "lon": 74.4025,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Allama Iqbal International Airport"
+  },
+  {
+   "id": "Q1137636",
+   "name": "Gasherbrum III",
+   "sl": 36,
+   "file": "Gasherbrum2.jpg",
+   "lat": 35.7594,
+   "lon": 76.6419,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Gasherbrum II"
+  },
+  {
+   "id": "Q1196145",
+   "name": "Hunza Valley",
+   "sl": 36,
+   "file": "Hunza Valley, view from Eagle's Nest.jpg",
+   "lat": 36.3167,
+   "lon": 74.65,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hunza"
+  },
+  {
+   "id": "Q155043",
+   "name": "Makli Necropolis",
+   "sl": 34,
+   "file": "View of Makli by Usman Ghani (cropped).jpg",
+   "lat": 24.7611,
+   "lon": 67.9,
+   "kind": "built",
+   "types": [
+    "necropolis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q10332177",
+    "name": "Historical Monuments at Makli, Thatta"
+   },
+   "also": [],
+   "cat": "Makli Hill"
+  },
+  {
+   "id": "Q2352054",
+   "name": "Wazir Khan Mosque",
+   "sl": 34,
+   "file": "Wazir khan mosque entry.jpg",
+   "lat": 31.5831,
+   "lon": 74.3233,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wazir Khan Mosque"
+  },
+  {
+   "id": "Q1511531",
+   "name": "Seri Bahlol",
+   "sl": 33,
+   "file": "Seri-Bahlol Showing village view and agriculture land.JPG",
+   "lat": 34.2555,
+   "lon": 71.9507,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15240737",
+    "name": "Buddhist Ruins of Takht-i-Bahi and Neighbouring City Remains at Sahr-i-Bahlol"
+   },
+   "also": [],
+   "cat": "Seri Bahlol"
+  },
+  {
+   "id": "Q1551258",
+   "name": "Tarbela Dam",
+   "sl": 33,
+   "file": "Tarbela Dam during the 2010 floods.jpg",
+   "lat": 34.0897,
+   "lon": 72.6983,
+   "kind": "both",
+   "types": [
+    "earth-fill dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tarbela Dam"
+  },
+  {
+   "id": "Q805806",
+   "name": "Baltoro Glacier",
+   "sl": 32,
+   "file": "Baltoro glacier from air.jpg",
+   "lat": 35.7364,
+   "lon": 76.3808,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baltoro Glacier"
+  },
+  {
+   "id": "Q816717",
+   "name": "Benazir Bhutto International Airport",
+   "sl": 32,
+   "file": "Islamabad-Airport-40156.JPG",
+   "lat": 33.6164,
+   "lon": 73.0992,
+   "kind": "built",
+   "types": [
+    "former aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Benazir Bhutto International Airport"
+  },
+  {
+   "id": "Q782496",
+   "name": "Distaghil Sar",
+   "sl": 32,
+   "file": "Distaghil ISS.JPG",
+   "lat": 36.3258,
+   "lon": 75.1883,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Distaghil Sar"
+  },
+  {
+   "id": "Q996962",
+   "name": "Minar-e-Pakistan",
+   "sl": 32,
+   "file": "Minar e Pakistan.jpg",
+   "lat": 31.5925,
+   "lon": 74.3094,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minar-e-Pakistan"
+  },
+  {
+   "id": "Q1061065",
+   "name": "Chogolisa",
+   "sl": 30,
+   "file": "Chogolisa from K2.JPG",
+   "lat": 35.6106,
+   "lon": 76.5744,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chogolisa"
+  },
+  {
+   "id": "Q2641970",
+   "name": "Deosai National Park",
+   "sl": 30,
+   "file": "The Land of Giants, Deosai.jpg",
+   "lat": 35.0189,
+   "lon": 75.4144,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Deosai National Park"
+  },
+  {
+   "id": "Q1501059",
+   "name": "Muztagh Tower",
+   "sl": 30,
+   "file": "MuztaghTower.jpg",
+   "lat": 35.8283,
+   "lon": 76.3608,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muztagh Tower"
+  },
+  {
+   "id": "Q502198",
+   "name": "Wagah",
+   "sl": 30,
+   "file": "International border at Wagah - evening flag lowering ceremony.jpg",
+   "lat": 31.6046,
+   "lon": 74.5724,
+   "kind": "built",
+   "types": [
+    "border checkpoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wagah Border"
+  },
+  {
+   "id": "Q811064",
+   "name": "Batura Sar",
+   "sl": 29,
+   "file": "Batura valley Passu.jpg",
+   "lat": 36.51,
+   "lon": 74.5225,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Batura Sar"
+  },
+  {
+   "id": "Q1480438",
+   "name": "Khunyang Chhish",
+   "sl": 29,
+   "file": "Se9 C2A (2).jpg",
+   "lat": 36.2053,
+   "lon": 75.2078,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kunyang Chhish"
+  },
+  {
+   "id": "Q2571455",
+   "name": "Mazar-e-Quaid",
+   "sl": 29,
+   "file": "PK Karachi asv2020-02 img52 Mazar-e-Quaid.jpg",
+   "lat": 24.8753,
+   "lon": 67.0408,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "memorial",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mazar-e-Quaid"
+  },
+  {
+   "id": "Q862591",
+   "name": "Thal",
+   "sl": 28,
+   "file": "Noorpur Thal desert road, engulfed in a sand storm.jpg",
+   "lat": 31.5,
+   "lon": 71.6667,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thal Desert"
+  },
+  {
+   "id": "Q615861",
+   "name": "Trango Towers",
+   "sl": 28,
+   "file": "Trango Towers 2.jpg",
+   "lat": 35.7572,
+   "lon": 76.2014,
+   "kind": "natural",
+   "types": [
+    "cliff"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trango Towers"
+  },
+  {
+   "id": "Q1516769",
+   "name": "Bacha Khan International Airport",
+   "sl": 27,
+   "file": "Peshawar Airport (retouched).JPG",
+   "lat": 33.9939,
+   "lon": 71.5147,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "infrastructure crossed by another infrastructure",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peshawar International Airport"
+  },
+  {
+   "id": "Q1552100",
+   "name": "Kanjut Sar",
+   "sl": 27,
+   "file": "Kanjut Sar.jpg",
+   "lat": 36.205,
+   "lon": 75.4183,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kanjut Sar"
+  },
+  {
+   "id": "Q728639",
+   "name": "Saltoro Kangri",
+   "sl": 27,
+   "file": "Saltoro Kangri.jpg",
+   "lat": 35.3996,
+   "lon": 76.8475,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN"
+   ],
+   "cat": "Saltoro Kangri"
+  },
+  {
+   "id": "Q1893268",
+   "name": "Baintha Brakk",
+   "sl": 26,
+   "file": "The Ogre I and II and the Ogres thumb (225912483).jpg",
+   "lat": 35.9478,
+   "lon": 75.7536,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baintha Brakk"
+  },
+  {
+   "id": "Q1190316",
+   "name": "Islamabad International Airport",
+   "sl": 26,
+   "file": "New Islamabad International Airport front view.jpg",
+   "lat": 33.5536,
+   "lon": 72.8347,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "greenfield airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Islamabad International Airport"
+  },
+  {
+   "id": "Q3695640",
+   "name": "Pakistan Monument",
+   "sl": 26,
+   "file": "Blue Hour at Pakistan Monument.jpg",
+   "lat": 33.6933,
+   "lon": 73.0683,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pakistan Monument Islamabad"
+  },
+  {
+   "id": "Q2131024",
+   "name": "Ranikot Fort",
+   "sl": 26,
+   "file": "Ranikot6.JPG",
+   "lat": 25.8831,
+   "lon": 67.9322,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ranikot Fort"
+  },
+  {
+   "id": "Q1678536",
+   "name": "Tomb of Jahangir",
+   "sl": 26,
+   "file": "Tomb of Emperor Jahangir.jpg",
+   "lat": 31.6225,
+   "lon": 74.3031,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Jahangir"
+  },
+  {
+   "id": "Q1421873",
+   "name": "Istor-o-Nal",
+   "sl": 25,
+   "file": "Terichmir Base camp.jpg",
+   "lat": 36.3869,
+   "lon": 71.8892,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Istor-o-Nal"
+  },
+  {
+   "id": "Q2458240",
+   "name": "Saraghrar",
+   "sl": 25,
+   "file": "Saraghrar.JPG",
+   "lat": 36.5475,
+   "lon": 72.1167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saraghrar"
+  },
+  {
+   "id": "Q14945772",
+   "name": "Zalzala Koh",
+   "sl": 25,
+   "file": "Zalzala Jazeera 2013 Gwadar.jpg",
+   "lat": 25.1803,
+   "lon": 62.2672,
+   "kind": "natural",
+   "types": [
+    "diapir",
+    "former island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zalzala Jazeera"
+  },
+  {
+   "id": "Q2474542",
+   "name": "Derawar Fort",
+   "sl": 24,
+   "file": "Derawar Fort side view.jpg",
+   "lat": 28.7673,
+   "lon": 71.3339,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Derawar Fort"
+  },
+  {
+   "id": "Q1490881",
+   "name": "Gaddafi Stadium",
+   "sl": 24,
+   "file": "Gaddafi Stadium at Night.jpg",
+   "lat": 31.5133,
+   "lon": 74.3333,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gaddafi Stadium"
+  },
+  {
+   "id": "Q2722882",
+   "name": "Hinglaj Mata",
+   "sl": 24,
+   "file": "Nani ki Mandir2.jpg",
+   "lat": 25.5139,
+   "lon": 65.5153,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hinglaj Mata"
+  },
+  {
+   "id": "Q2140102",
+   "name": "Kirthar Mountains",
+   "sl": 24,
+   "file": "Kirthar park.jpg",
+   "lat": 25.8729,
+   "lon": 67.623,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "mountain ridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kirthar Mountains"
+  },
+  {
+   "id": "Q1640876",
+   "name": "Lahore Museum",
+   "sl": 24,
+   "file": "Lahore Museum, Lahore.jpg",
+   "lat": 31.5682,
+   "lon": 74.3082,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lahore Museum"
+  },
+  {
+   "id": "Q4022334",
+   "name": "Shah Jahan Mosque",
+   "sl": 24,
+   "file": "PK Thatta asv2020-02 img01 Shah Jahan Mosque.jpg",
+   "lat": 24.7472,
+   "lon": 67.9281,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shah Jahan Mosque, Thatta"
+  },
+  {
+   "id": "Q7818612",
+   "name": "tomb of Bibi Jawindi",
+   "sl": 24,
+   "file": "Tomb of Bibi Jiwindi.jpg",
+   "lat": 29.2409,
+   "lon": 71.0525,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "ruins",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Bibi Jawindi"
+  },
+  {
+   "id": "Q1286541",
+   "name": "Mangla Dam",
+   "sl": 23,
+   "file": "MANGLAH DAM.jpg",
+   "lat": 33.1287,
+   "lon": 73.6452,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mangla Dam"
+  },
+  {
+   "id": "Q1967486",
+   "name": "National Museum of Pakistan",
+   "sl": 23,
+   "file": "PK Karachi asv2020-02 img32 National Museum.jpg",
+   "lat": 24.8526,
+   "lon": 67.0179,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Pakistan"
+  },
+  {
+   "id": "Q805801",
+   "name": "Baltoro Kangri",
+   "sl": 22,
+   "file": "Gasherbrum IV, VII, VI and Baltoro Kangri.jpg",
+   "lat": 35.648,
+   "lon": 76.6697,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baltoro Kangri"
+  },
+  {
+   "id": "Q855226",
+   "name": "Biafo Glacier",
+   "sl": 22,
+   "file": "Looking East to Snow Lake - lookeast.jpg",
+   "lat": 35.6833,
+   "lon": 75.9167,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biafo Glacier"
+  },
+  {
+   "id": "Q1227385",
+   "name": "Diran",
+   "sl": 22,
+   "file": "Diran P8050944.jpg",
+   "lat": 36.1167,
+   "lon": 74.6667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Diran"
+  },
+  {
+   "id": "Q3346415",
+   "name": "Great Bath, Mohenjo-daro",
+   "sl": 22,
+   "file": "Mohenjo-daro.jpg",
+   "lat": 27.3292,
+   "lon": 68.1389,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "bathhouse"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5725",
+    "name": "Mohenjo-daro"
+   },
+   "also": [],
+   "cat": "The Great Bath of Moenjodaro"
+  },
+  {
+   "id": "Q1017084",
+   "name": "Kot Diji",
+   "sl": 22,
+   "file": "Kot Diji Fort from town.jpg",
+   "lat": 27.35,
+   "lon": 68.7167,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q31569",
+   "name": "Multan International Airport",
+   "sl": 22,
+   "file": "Multan International Airport front view.jpg",
+   "lat": 30.2033,
+   "lon": 71.4192,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Multan International Airport"
+  },
+  {
+   "id": "Q841373",
+   "name": "Sia Kangri",
+   "sl": 22,
+   "file": "Gasherbrum group summits and glaciers marked.jpg",
+   "lat": 35.6636,
+   "lon": 76.7614,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sia Kangri"
+  },
+  {
+   "id": "Q2004606",
+   "name": "Skil Brum",
+   "sl": 22,
+   "file": "Muztagh tower - skil brum 1909 sella.jpg",
+   "lat": 35.8503,
+   "lon": 76.42,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Skil Brum"
+  },
+  {
+   "id": "Q2344946",
+   "name": "Trivor",
+   "sl": 22,
+   "file": "Momhil trivor ISS.png",
+   "lat": 36.2875,
+   "lon": 75.0861,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trivor"
+  },
+  {
+   "id": "Q944184",
+   "name": "Haramosh Peak",
+   "sl": 21,
+   "file": "Haramosh from Nanga Parbat.jpg",
+   "lat": 35.8414,
+   "lon": 74.8978,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Haramosh"
+  },
+  {
+   "id": "Q1277365",
+   "name": "Indus River Delta",
+   "sl": 21,
+   "file": "Indus River Delta.jpg",
+   "lat": 24.5,
+   "lon": 68,
+   "kind": "natural",
+   "types": [
+    "river delta",
+    "wetland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Indus River Delta"
+  },
+  {
+   "id": "Q280192",
+   "name": "Passu Sar",
+   "sl": 21,
+   "file": "Batura valley Passu.jpg",
+   "lat": 36.4878,
+   "lon": 74.5878,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Passu Sar"
+  },
+  {
+   "id": "Q780770",
+   "name": "Attabad Lake",
+   "sl": 20,
+   "file": "Landslide Lake in Northwest Pakistan.jpg",
+   "lat": 36.3368,
+   "lon": 74.8675,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "landslide-dammed lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Attabad Lake"
+  },
+  {
+   "id": "Q31580",
+   "name": "Faisalabad International Airport",
+   "sl": 20,
+   "file": "Faisalabad Intl Airport.jpg",
+   "lat": 31.365,
+   "lon": 72.9947,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Faisalabad International Airport"
+  },
+  {
+   "id": "Q1803926",
+   "name": "Malubiting",
+   "sl": 20,
+   "file": "Rush lake small.jpg",
+   "lat": 36.0389,
+   "lon": 74.9008,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malubiting"
+  },
+  {
+   "id": "Q685488",
+   "name": "Momhil Sar",
+   "sl": 20,
+   "file": "Momhil trivor ISS.png",
+   "lat": 36.3178,
+   "lon": 75.0375,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Momhil Sar"
+  }
+ ]
+}

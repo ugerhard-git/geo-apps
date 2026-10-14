@@ -1,0 +1,1363 @@
+{
+ "country": "TZ",
+ "items": [
+  {
+   "id": "Q7296",
+   "name": "Mount Kilimanjaro",
+   "sl": 188,
+   "file": "Mt. Kilimanjaro 12.2006.jpg",
+   "lat": -3.0667,
+   "lon": 37.3592,
+   "kind": "natural",
+   "types": [
+    "dormant volcano",
+    "massif"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kilimanjaro"
+  },
+  {
+   "id": "Q5505",
+   "name": "Lake Victoria",
+   "sl": 162,
+   "file": "Getting out to fish at dusk.jpg",
+   "lat": -1,
+   "lon": 33,
+   "kind": "natural",
+   "types": [
+    "freshwater lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KE",
+    "UG"
+   ],
+   "cat": "Lake Victoria"
+  },
+  {
+   "id": "Q5532",
+   "name": "Lake Malawi",
+   "sl": 107,
+   "file": "Cape McLear, Malawi (2498445835).jpg",
+   "lat": -12.1833,
+   "lon": 34.3667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1077596",
+    "name": "Lake Malawi National Park"
+   },
+   "also": [
+    "MW",
+    "MZ"
+   ],
+   "cat": "Lake Malawi"
+  },
+  {
+   "id": "Q11812902",
+   "name": "Serengeti National Park",
+   "sl": 76,
+   "file": "Serengeti-Landscape-2012.JPG",
+   "lat": -2.4,
+   "lon": 34.6,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "transboundary protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Serengeti National Park"
+  },
+  {
+   "id": "Q1217726",
+   "name": "Ngorongoro Conservation Area",
+   "sl": 68,
+   "file": "Ngorongo 1.jpg",
+   "lat": -3.21,
+   "lon": 35.46,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ngorongoro"
+  },
+  {
+   "id": "Q838080",
+   "name": "Lake Natron",
+   "sl": 58,
+   "file": "Lake Natron (Tanzania) – 2017-03-06 (very early in rainy season) – satellite image (cropped).jpg",
+   "lat": -2.4167,
+   "lon": 36,
+   "kind": "natural",
+   "types": [
+    "soda lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Natron"
+  },
+  {
+   "id": "Q2268839",
+   "name": "Selous Game Reserve",
+   "sl": 55,
+   "file": "SelousSandRivers.jpg",
+   "lat": -9,
+   "lon": 37.4,
+   "kind": "natural",
+   "types": [
+    "game reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Selous Game Reserve"
+  },
+  {
+   "id": "Q756790",
+   "name": "Kilimanjaro National Park",
+   "sl": 47,
+   "file": "Entrance to Kilimanjaro National Park.JPG",
+   "lat": -3.0667,
+   "lon": 37.3667,
+   "kind": "natural",
+   "types": [
+    "national park of Tanzania"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kilimanjaro National Park"
+  },
+  {
+   "id": "Q746787",
+   "name": "Ol Doinyo Lengai",
+   "sl": 47,
+   "file": "Lengai from Natron.jpg",
+   "lat": -2.7617,
+   "lon": 35.9133,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ol Doinyo Lengai"
+  },
+  {
+   "id": "Q1143935",
+   "name": "Rukwa Lake",
+   "sl": 45,
+   "file": "Lake Rukwa.png",
+   "lat": -8,
+   "lon": 32.35,
+   "kind": "natural",
+   "types": [
+    "soda lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Rukwa"
+  },
+  {
+   "id": "Q309098",
+   "name": "Mount Meru",
+   "sl": 44,
+   "file": "Meru.jpg",
+   "lat": -3.2468,
+   "lon": 36.7603,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Meru"
+  },
+  {
+   "id": "Q217043",
+   "name": "Olduvai Gorge",
+   "sl": 43,
+   "file": "Olduvai-Schlucht Mike Krüger 110126 1.jpg",
+   "lat": -2.9833,
+   "lon": 35.35,
+   "kind": "both",
+   "types": [
+    "chine",
+    "Paleolithic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olduvai Gorge"
+  },
+  {
+   "id": "Q856665",
+   "name": "Gombe National Park",
+   "sl": 39,
+   "file": "Gombe Stream NP Mutter und Kind.jpg",
+   "lat": -4.6667,
+   "lon": 29.6333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gombe Stream National Park"
+  },
+  {
+   "id": "Q1411192",
+   "name": "Julius Nyerere International Airport",
+   "sl": 38,
+   "file": "D80-2007-03-26 25.JPG",
+   "lat": -6.8781,
+   "lon": 39.2028,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Julius Nyerere International Airport"
+  },
+  {
+   "id": "Q2301527",
+   "name": "Songo Mnara",
+   "sl": 35,
+   "file": "Ruins of Songo Mnara, inside the main building.jpg",
+   "lat": -9.0394,
+   "lon": 39.5517,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15726282",
+    "name": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara"
+   },
+   "also": [],
+   "cat": "Songo Mnara"
+  },
+  {
+   "id": "Q1404282",
+   "name": "Kondoa Rock Art Sites",
+   "sl": 34,
+   "file": "Kondoa mchoro mwambani 2012 Tamino.jpg",
+   "lat": -4.7244,
+   "lon": 35.8339,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "painting series"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kondoa Rock Art Sites"
+  },
+  {
+   "id": "Q577148",
+   "name": "Lake Manyara",
+   "sl": 33,
+   "file": "Lake Manyara.jpg",
+   "lat": -3.5833,
+   "lon": 35.8333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Manyara"
+  },
+  {
+   "id": "Q716801",
+   "name": "Arusha National Park",
+   "sl": 31,
+   "file": "Giraffes Arusha Tanzania.jpg",
+   "lat": -3.25,
+   "lon": 36.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arusha National Park"
+  },
+  {
+   "id": "Q1124728",
+   "name": "Mikumi National Park",
+   "sl": 31,
+   "file": "Mikumi lanscape alt.jpg",
+   "lat": -7.35,
+   "lon": 37.15,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mikumi National Park"
+  },
+  {
+   "id": "Q1365099",
+   "name": "Kilimanjaro International Airport",
+   "sl": 30,
+   "file": "Kilimanjaro Airport.jpg",
+   "lat": -3.4294,
+   "lon": 37.0744,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kilimanjaro International Airport"
+  },
+  {
+   "id": "Q672146",
+   "name": "Laetoli",
+   "sl": 29,
+   "file": "Laetoli.jpg",
+   "lat": -2.9962,
+   "lon": 35.3524,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laetoli footprints"
+  },
+  {
+   "id": "Q1291135",
+   "name": "Lake Eyasi",
+   "sl": 29,
+   "file": "Lake eyasi.jpg",
+   "lat": -3.6667,
+   "lon": 35.0833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Eyasi"
+  },
+  {
+   "id": "Q1432744",
+   "name": "Tarangire National Park",
+   "sl": 28,
+   "file": "Tarangire-Natpark800600.jpg",
+   "lat": -4,
+   "lon": 35.9786,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tarangire National Park"
+  },
+  {
+   "id": "Q798283",
+   "name": "Kalambo Falls",
+   "sl": 27,
+   "file": "Kalambo Falls.jpg",
+   "lat": -8.5964,
+   "lon": 31.2396,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZM"
+   ],
+   "cat": "Chutes de Kalambo"
+  },
+  {
+   "id": "Q607533",
+   "name": "Lake Manyara National Park",
+   "sl": 25,
+   "file": "Lake Manyara Wildlife.jpg",
+   "lat": -3.5,
+   "lon": 35.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Manyara National Park"
+  },
+  {
+   "id": "Q656363",
+   "name": "Ruaha National Park",
+   "sl": 25,
+   "file": "Giraffe, Ruaha National Park (10) (28121529844).jpg",
+   "lat": -7.5311,
+   "lon": 34.6369,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ruaha National Park"
+  },
+  {
+   "id": "Q1393401",
+   "name": "Abeid Amani Karume International Airport",
+   "sl": 23,
+   "file": "Abeid Amani Karume International Airport.jpg",
+   "lat": -6.2222,
+   "lon": 39.225,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abeid Amani Karume International Airport"
+  },
+  {
+   "id": "Q1422525",
+   "name": "Katavi National Park",
+   "sl": 23,
+   "file": "Katavi sunset.jpg",
+   "lat": -6.9167,
+   "lon": 31.3333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katavi National Park"
+  },
+  {
+   "id": "Q1430871",
+   "name": "Arusha Airport",
+   "sl": 20,
+   "file": "Arusha Airport.jpg",
+   "lat": -3.3667,
+   "lon": 36.6219,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arusha Airport"
+  },
+  {
+   "id": "Q1478367",
+   "name": "Mahale Mountains National Park",
+   "sl": 20,
+   "file": "Mahale.jpg",
+   "lat": -6.2667,
+   "lon": 29.9333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mahale Mountains National Park"
+  },
+  {
+   "id": "Q1743959",
+   "name": "Kitulo National Park",
+   "sl": 19,
+   "file": "Kitulo National Park.jpg",
+   "lat": -9.0167,
+   "lon": 33.85,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kitulo National Park"
+  },
+  {
+   "id": "Q1782797",
+   "name": "Rubondo Island National Park",
+   "sl": 19,
+   "file": "TANAPA Land Rover Defender.jpg",
+   "lat": -2.3,
+   "lon": 31.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rubondo Island National Park"
+  },
+  {
+   "id": "Q959903",
+   "name": "Rusumo Falls",
+   "sl": 19,
+   "file": "RusumoFalls1.jpg",
+   "lat": -2.3753,
+   "lon": 30.7925,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RW"
+   ],
+   "cat": "Rusumo Falls"
+  },
+  {
+   "id": "Q2032704",
+   "name": "Saadani National Park",
+   "sl": 19,
+   "file": "Saadani National Park road.jpg",
+   "lat": -6,
+   "lon": 38.75,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KE"
+   ],
+   "cat": "Saadani National Park"
+  },
+  {
+   "id": "Q1294175",
+   "name": "Udzungwa Mountains National Park",
+   "sl": 19,
+   "file": "Udzungwa mountains-1.jpg",
+   "lat": -7.8,
+   "lon": 36.6833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Udzungwa Mountains National Park"
+  },
+  {
+   "id": "Q1059382",
+   "name": "Lake Chala",
+   "sl": 18,
+   "file": "Lake Chala.jpg",
+   "lat": -3.3167,
+   "lon": 37.7,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KE"
+   ],
+   "cat": "Lake Chala"
+  },
+  {
+   "id": "Q2671889",
+   "name": "Mkomazi National Park",
+   "sl": 18,
+   "file": "Mkomazi National Park-3.jpg",
+   "lat": -4.2994,
+   "lon": 38.3894,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mkomazi National Park"
+  },
+  {
+   "id": "Q546537",
+   "name": "Mount Rungwe",
+   "sl": 18,
+   "file": "SüdTanHochland.jpg",
+   "lat": -9.135,
+   "lon": 33.6681,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Rungwe"
+  },
+  {
+   "id": "Q392790",
+   "name": "Mwanza Airport",
+   "sl": 18,
+   "file": "Mwanza Airport.png",
+   "lat": -2.4444,
+   "lon": 32.9325,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mwanza Airport"
+  },
+  {
+   "id": "Q1392965",
+   "name": "Dodoma Airport",
+   "sl": 17,
+   "file": "Dodoma airport.jpg",
+   "lat": -6.1704,
+   "lon": 35.7494,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dodoma Airport"
+  },
+  {
+   "id": "Q3362557",
+   "name": "Bukoba Airport",
+   "sl": 16,
+   "file": "Bukoba Airport.jpg",
+   "lat": -1.3322,
+   "lon": 31.8211,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bukoba Airport"
+  },
+  {
+   "id": "Q1101364",
+   "name": "Lake Jipe",
+   "sl": 16,
+   "file": "Lake Jipe.png",
+   "lat": -3.6069,
+   "lon": 37.7617,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KE"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1984309",
+   "name": "Lake Ngozi",
+   "sl": 16,
+   "file": "Ngozi.jpg",
+   "lat": -9.0333,
+   "lon": 33.5333,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "mountain",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ngozi"
+  },
+  {
+   "id": "Q2549607",
+   "name": "Jozani Chwaka Bay National Park",
+   "sl": 15,
+   "file": "Jozani forest, Zanzibar.jpg",
+   "lat": -6.233,
+   "lon": 39.404,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jozani Chwaka Bay National Park"
+  },
+  {
+   "id": "Q3625294",
+   "name": "Lake Babati",
+   "sl": 15,
+   "file": "Morning sun, Lake Babati.jpg",
+   "lat": -4.25,
+   "lon": 35.7333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Babati"
+  },
+  {
+   "id": "Q1393222",
+   "name": "Pemba Airport",
+   "sl": 15,
+   "file": "Karume Airport.jpg",
+   "lat": -5.2572,
+   "lon": 39.8114,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pemba Airport"
+  },
+  {
+   "id": "Q1137520",
+   "name": "Kizimkazi Mosque",
+   "sl": 14,
+   "file": "KizimkaziMosque1.JPG",
+   "lat": -6.4333,
+   "lon": 39.4667,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kizimkazi Mosque"
+  },
+  {
+   "id": "Q6729478",
+   "name": "Mafia Airport",
+   "sl": 14,
+   "file": "Mafia Airport.jpg",
+   "lat": -7.9175,
+   "lon": 39.6683,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mafia Airport"
+  },
+  {
+   "id": "Q8535884",
+   "name": "Mount Hanang",
+   "sl": 14,
+   "file": "Mount Hanang.jpg",
+   "lat": -4.435,
+   "lon": 35.4,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Hanang"
+  },
+  {
+   "id": "Q1960827",
+   "name": "National Museum of Tanzania",
+   "sl": 14,
+   "file": "TZ DarEsSalaam National museum.JPG",
+   "lat": -6.8131,
+   "lon": 39.2938,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Tanzania"
+  },
+  {
+   "id": "Q3663642",
+   "name": "Saint Joseph's Cathedral, Dar es Salaam",
+   "sl": 14,
+   "file": "St. Joseph in Dar es Salaam ShiftN.jpg",
+   "lat": -6.8194,
+   "lon": 39.2881,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Joseph Cathedral (Dar es Salaam)"
+  },
+  {
+   "id": "Q3360229",
+   "name": "Shinyanga Airport",
+   "sl": 14,
+   "file": "Shinyanga Airport.jpg",
+   "lat": -3.61,
+   "lon": 33.5,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4189775",
+   "name": "Tanga Airport",
+   "sl": 14,
+   "file": "Tanga Airport 2007.jpg",
+   "lat": -5.0921,
+   "lon": 39.0717,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tanga Airport"
+  },
+  {
+   "id": "Q3321850",
+   "name": "Gelai Volcano",
+   "sl": 13,
+   "file": "NatronGelai2.jpg",
+   "lat": -2.6192,
+   "lon": 36.1003,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gelai Volcano"
+  },
+  {
+   "id": "Q3437276",
+   "name": "Kidatu Dam",
+   "sl": 13,
+   "file": "Kidatu.jpg",
+   "lat": -7.6368,
+   "lon": 36.8867,
+   "kind": "built",
+   "types": [
+    "dam",
+    "run-of-river hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1432100",
+   "name": "Mtwara Airport",
+   "sl": 13,
+   "file": "Mtwara Airport.jpg",
+   "lat": -10.3361,
+   "lon": 40.1819,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6943042",
+   "name": "Musoma Airport",
+   "sl": 13,
+   "file": "Musoma Airport Runway.jpg",
+   "lat": -1.5028,
+   "lon": 33.8022,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musoma Airport"
+  },
+  {
+   "id": "Q3492323",
+   "name": "Southern Highlands",
+   "sl": 13,
+   "file": "Southern Highlands (Tanzania) banner.jpg",
+   "lat": -9.1667,
+   "lon": 34.5167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Southern Highlands, Tanzania"
+  },
+  {
+   "id": "Q1432102",
+   "name": "Tendaguru Formation",
+   "sl": 13,
+   "file": "Tendaguru Tendaguru3 (cropped).jpg",
+   "lat": -10.05,
+   "lon": 39.1167,
+   "kind": "natural",
+   "types": [
+    "geological formation",
+    "mountain",
+    "paleontological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tendaguru Formation"
+  },
+  {
+   "id": "Q1115929",
+   "name": "Furtwängler Glacier",
+   "sl": 12,
+   "file": "Glacier at summit of Mt Kilimanjaro 001.JPG",
+   "lat": -3.0708,
+   "lon": 37.3519,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Furtwängler Glacier"
+  },
+  {
+   "id": "Q15221246",
+   "name": "Gaddafi Mosque",
+   "sl": 12,
+   "file": "Dodoma Mosque, Front, Dodoma City Counci.jpg",
+   "lat": -6.1727,
+   "lon": 35.7457,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gaddafi Mosque"
+  },
+  {
+   "id": "Q6070002",
+   "name": "Iringa Airport",
+   "sl": 12,
+   "file": "Nduli Aerodrome 2.jpg",
+   "lat": -7.6694,
+   "lon": 35.7519,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iringa Airport"
+  },
+  {
+   "id": "Q3366020",
+   "name": "Kigoma Airport",
+   "sl": 12,
+   "file": "Kigoma Airport.jpg",
+   "lat": -4.885,
+   "lon": 29.6703,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kigoma Airport"
+  },
+  {
+   "id": "Q7220312",
+   "name": "Lake Manyara Airport",
+   "sl": 12,
+   "file": "Lake Manyara Airport.jpg",
+   "lat": -3.3764,
+   "lon": 35.8183,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Manyara Airport"
+  },
+  {
+   "id": "Q7220771",
+   "name": "Tabora Airport",
+   "sl": 12,
+   "file": "Tabora Airport.jpg",
+   "lat": -5.0761,
+   "lon": 32.8306,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4738976",
+   "name": "Amaan Stadium",
+   "sl": 11,
+   "file": "Amaan Stadium Zanzibar 3.jpg",
+   "lat": -6.1659,
+   "lon": 39.2238,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amaan Stadium"
+  },
+  {
+   "id": "Q2035513",
+   "name": "Great Mosque of Kilwa",
+   "sl": 11,
+   "file": "GreatMosque.jpg",
+   "lat": -8.9591,
+   "lon": 39.4982,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Kilwa"
+  },
+  {
+   "id": "Q460134",
+   "name": "Lake Ambussel",
+   "sl": 11,
+   "file": "Lake Ambussel.jpg",
+   "lat": -3.95,
+   "lon": 37.2667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6475105",
+   "name": "Lake Burigi",
+   "sl": 11,
+   "file": "Lake Burigi.jpg",
+   "lat": -2.123,
+   "lon": 31.315,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q16964197",
+   "name": "Malindi Mosque",
+   "sl": 11,
+   "file": "Bamnara Mosque side view.jpg",
+   "lat": -6.1594,
+   "lon": 39.1919,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malindi Mosque"
+  },
+  {
+   "id": "Q6916212",
+   "name": "Moshi Airport",
+   "sl": 11,
+   "file": "Moshi Airport.jpg",
+   "lat": -3.3633,
+   "lon": 37.3269,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moshi Airport"
+  },
+  {
+   "id": "Q25226860",
+   "name": "Mount Loolmalasin",
+   "sl": 11,
+   "file": "CraterHighlands Tanzania NASA.jpg",
+   "lat": -3.06,
+   "lon": 35.82,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1131056",
+   "name": "Mtera Dam",
+   "sl": 11,
+   "file": "Mtera Lake at Sunset.jpg",
+   "lat": -7.1367,
+   "lon": 35.9878,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15940655",
+   "name": "Port of Dar es Salaam",
+   "sl": 11,
+   "file": "The bird's view of the harbour in Dar es Salaam.jpg",
+   "lat": -6.8351,
+   "lon": 39.2938,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Dar es Salaam"
+  },
+  {
+   "id": "Q1580310",
+   "name": "Rebmann Glacier",
+   "sl": 11,
+   "file": "Glacier at summit of Mt Kilimanjaro 002.JPG",
+   "lat": -3.0811,
+   "lon": 37.3631,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rebmann Glacier"
+  },
+  {
+   "id": "Q1264844",
+   "name": "Duluti Lake",
+   "sl": 10,
+   "file": "Lake Duluti.jpg",
+   "lat": -3.3833,
+   "lon": 36.7833,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Duluti"
+  },
+  {
+   "id": "Q6408285",
+   "name": "Kilwa Masoko Airport",
+   "sl": 10,
+   "file": "Kilwa Masoko Airport.jpg",
+   "lat": -8.9111,
+   "lon": 39.5086,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kilwa Masoko Airport"
+  },
+  {
+   "id": "Q3868097",
+   "name": "Olduvai Gorge Museum",
+   "sl": 10,
+   "file": "Olduvai Gorge Museum.jpg",
+   "lat": -2.9961,
+   "lon": 35.3522,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olduvai Gorge Museum"
+  },
+  {
+   "id": "Q7220710",
+   "name": "Songea Airport",
+   "sl": 10,
+   "file": "Songea Airport.jpg",
+   "lat": -10.6808,
+   "lon": 35.5811,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2942370",
+   "name": "St. Joseph's Cathedral, Zanzibar",
+   "sl": 10,
+   "file": "Stone Town, St. Joseph Cathedral.jpg",
+   "lat": -6.1628,
+   "lon": 39.1888,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q844417",
+    "name": "Stone Town"
+   },
+   "also": [],
+   "cat": "St. Joseph's Cathedral, Zanzibar"
+  }
+ ]
+}

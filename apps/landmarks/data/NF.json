@@ -1,0 +1,21 @@
+{
+ "country": "NF",
+ "items": [
+  {
+   "id": "Q746460",
+   "name": "Norfolk Island National Park",
+   "sl": 11,
+   "file": "Norfolk Island Philip Island.jpg",
+   "lat": -29.0113,
+   "lon": 167.9399,
+   "kind": "natural",
+   "types": [
+    "national park of Australia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Norfolk Island National Park"
+  }
+ ]
+}

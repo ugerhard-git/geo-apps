@@ -1,0 +1,207 @@
+{
+ "country": "MV",
+ "items": [
+  {
+   "id": "Q29104",
+   "name": "Velana International Airport",
+   "sl": 37,
+   "file": "Hulele-airport.jpg",
+   "lat": 4.1918,
+   "lon": 73.5291,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Velana International Airport"
+  },
+  {
+   "id": "Q1431353",
+   "name": "Gan International Airport",
+   "sl": 24,
+   "file": "8Q-IAQ (638190811).jpg",
+   "lat": -0.6933,
+   "lon": 73.1556,
+   "kind": "built",
+   "types": [
+    "airport of entry",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gan International Airport"
+  },
+  {
+   "id": "Q1557921",
+   "name": "Galolhu National Stadium",
+   "sl": 17,
+   "file": "Galolhu Dhandu.jpg",
+   "lat": 4.1684,
+   "lon": 73.5368,
+   "kind": "built",
+   "types": [
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4385992",
+   "name": "Malé Friday Mosque",
+   "sl": 17,
+   "file": "Male' Hukuru Miskiy 1.jpg",
+   "lat": 4.1781,
+   "lon": 73.5125,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malé Friday Mosque"
+  },
+  {
+   "id": "Q2580505",
+   "name": "Hanimaadhoo Airport",
+   "sl": 16,
+   "file": "Hanimaadhoo Airport.jpg",
+   "lat": 6.7311,
+   "lon": 73.1572,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hanimaadhoo International Airport"
+  },
+  {
+   "id": "Q6343226",
+   "name": "Kaadedhdhoo Airport",
+   "sl": 12,
+   "file": "Kaadedhdhoo met office.jpg",
+   "lat": 0.4881,
+   "lon": 72.9969,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaadedhdhoo Airport"
+  },
+  {
+   "id": "Q6721089",
+   "name": "Maamigili Airport",
+   "sl": 10,
+   "file": "Maamigili Airport Apron 2013.March.jpg",
+   "lat": 3.4706,
+   "lon": 72.8358,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maamigili Airport"
+  },
+  {
+   "id": "Q39045567",
+   "name": "Sinamalé Bridge",
+   "sl": 10,
+   "file": "Sinamalé Bridge immediately after completion.jpg",
+   "lat": 4.1733,
+   "lon": 73.5245,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sinamalé Bridge"
+  },
+  {
+   "id": "Q1282430",
+   "name": "Horsburgh Atoll",
+   "sl": 8,
+   "file": "Goidhoo Atoll LANDSAT 2000.png",
+   "lat": 4.85,
+   "lon": 72.9167,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2869553",
+   "name": "Huvadhu Atoll",
+   "sl": 8,
+   "file": "Huvadhoo Atoll.jpg",
+   "lat": 0.5,
+   "lon": 73.3,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Huvadu Atoll"
+  },
+  {
+   "id": "Q2869551",
+   "name": "Northern Maalhosmadulu Atoll",
+   "sl": 8,
+   "file": "Nord-Maalhosmadulu Atoll (Landsat).jpg",
+   "lat": 5.6167,
+   "lon": 72.9167,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2869549",
+   "name": "Southern Maalhosmadulhu Atoll",
+   "sl": 8,
+   "file": "Baa Atoll.png",
+   "lat": 5.2,
+   "lon": 73,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

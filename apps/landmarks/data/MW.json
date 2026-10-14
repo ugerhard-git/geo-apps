@@ -1,0 +1,389 @@
+{
+ "country": "MW",
+ "items": [
+  {
+   "id": "Q5532",
+   "name": "Lake Malawi",
+   "sl": 107,
+   "file": "Cape McLear, Malawi (2498445835).jpg",
+   "lat": -12.1833,
+   "lon": 34.3667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1077596",
+    "name": "Lake Malawi National Park"
+   },
+   "also": [
+    "MZ",
+    "TZ"
+   ],
+   "cat": "Lake Malawi"
+  },
+  {
+   "id": "Q746975",
+   "name": "Lake Chilwa",
+   "sl": 43,
+   "file": "Lake Chilwa NASA.jpg",
+   "lat": -15.3,
+   "lon": 35.7,
+   "kind": "natural",
+   "types": [
+    "endorheic basin",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Chilwa"
+  },
+  {
+   "id": "Q1077596",
+   "name": "Lake Malawi National Park",
+   "sl": 41,
+   "file": "Lake Malawi (2489696873).jpg",
+   "lat": -14.0333,
+   "lon": 34.8833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Malawi"
+  },
+  {
+   "id": "Q832262",
+   "name": "Chongoni Rock Art Area",
+   "sl": 36,
+   "file": "Chongoni rock art.jpg",
+   "lat": -14.2933,
+   "lon": 34.2792,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Chongoni Rock-Art Area"
+  },
+  {
+   "id": "Q721780",
+   "name": "Lilongwe International Airport",
+   "sl": 31,
+   "file": "2005-07-12 Lilongwe International Airport, Malawi.jpg",
+   "lat": -13.7892,
+   "lon": 33.7808,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamuzu International Airport"
+  },
+  {
+   "id": "Q1887719",
+   "name": "Lake Malombe",
+   "sl": 29,
+   "file": "Lake Malombe NASA.jpg",
+   "lat": -14.6667,
+   "lon": 35.25,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Malombe"
+  },
+  {
+   "id": "Q2670307",
+   "name": "Bakili Muluzi International Airport",
+   "sl": 24,
+   "file": "2010-10-23 11-13-59 Malawi - Chileka.jpg",
+   "lat": -15.6798,
+   "lon": 34.9676,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chileka International Airport"
+  },
+  {
+   "id": "Q2739189",
+   "name": "Liwonde National Park",
+   "sl": 24,
+   "file": "Liwonde Park - view of Shire River.jpg",
+   "lat": -14.8333,
+   "lon": 35.3333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liwonde National Park"
+  },
+  {
+   "id": "Q1075037",
+   "name": "Lake Chiuta",
+   "sl": 21,
+   "file": "L. Chiuta-N 04.jpg",
+   "lat": -14.8175,
+   "lon": 35.8539,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MZ"
+   ],
+   "cat": "Lake Chiuta"
+  },
+  {
+   "id": "Q1567460",
+   "name": "Nyika National Park",
+   "sl": 19,
+   "file": "Nyika grassland.jpg",
+   "lat": -10.6667,
+   "lon": 33.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nyika National Park (Malawi)"
+  },
+  {
+   "id": "Q1723423",
+   "name": "Kamuzu Stadium",
+   "sl": 18,
+   "file": "Kamuzu Stadium exterior.JPG",
+   "lat": -15.7989,
+   "lon": 35.0345,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamuzu Stadium"
+  },
+  {
+   "id": "Q1735508",
+   "name": "Kasungu National Park",
+   "sl": 17,
+   "file": "Kasungu lifupa2.jpg",
+   "lat": -13,
+   "lon": 33.1667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kasungu National Park"
+  },
+  {
+   "id": "Q1488889",
+   "name": "Chichiri Museum",
+   "sl": 12,
+   "file": "Old Bus, Chichiri Museum.jpg",
+   "lat": -15.8033,
+   "lon": 35.0385,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chichiri Museum"
+  },
+  {
+   "id": "Q6476432",
+   "name": "Lake Kazuni",
+   "sl": 12,
+   "file": "Kazuni 1.jpg",
+   "lat": -11.1333,
+   "lon": 33.6667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Kazuni"
+  },
+  {
+   "id": "Q1104628",
+   "name": "Lengwe National Park",
+   "sl": 12,
+   "file": "Lengwe2.jpg",
+   "lat": -16.2578,
+   "lon": 34.7514,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lengwe National Park"
+  },
+  {
+   "id": "Q3044073",
+   "name": "Sapitwa",
+   "sl": 12,
+   "file": "Mulanje Massif, Sapitwa Peak.jpg",
+   "lat": -15.9495,
+   "lon": 35.5925,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sapitwa Peak"
+  },
+  {
+   "id": "Q1728533",
+   "name": "Kapichira Falls",
+   "sl": 11,
+   "file": "Kapachira Falls.jpg",
+   "lat": -15.9006,
+   "lon": 34.7509,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11340179",
+   "name": "Majete Wildlife Reserve",
+   "sl": 11,
+   "file": "Majete Wildlife Reserve Entrance.jpg",
+   "lat": -15.9097,
+   "lon": 34.7428,
+   "kind": "natural",
+   "types": [
+    "wildlife reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Majete Wildlife Reserve"
+  },
+  {
+   "id": "Q1737116",
+   "name": "Lake Kaulime",
+   "sl": 10,
+   "file": "Nyika kaulime.jpg",
+   "lat": -10.5778,
+   "lon": 33.7608,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Kaulime"
+  },
+  {
+   "id": "Q8073720",
+   "name": "Zomba Massif",
+   "sl": 9,
+   "file": "At the slopes of Zomba Platea.JPG",
+   "lat": -15.3272,
+   "lon": 35.3208,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "plateau"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zomba Plateau"
+  },
+  {
+   "id": "Q5069503",
+   "name": "Chambe Peak",
+   "sl": 8,
+   "file": "Chambe.jpg",
+   "lat": -15.899,
+   "lon": 35.526,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q17560921",
+   "name": "Cultural & Museum Centre Karonga",
+   "sl": 8,
+   "file": "Karonga Museum, Karonga, northern Malawi.jpg",
+   "lat": -9.942,
+   "lon": 33.9223,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cultural & Museum Centre Karonga (CMCK)"
+  },
+  {
+   "id": "Q18351462",
+   "name": "Mafinga Central",
+   "sl": 8,
+   "file": "Mafinga Central.jpg",
+   "lat": -9.9527,
+   "lon": 33.3524,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZM"
+   ],
+   "cat": ""
+  }
+ ]
+}

@@ -1,0 +1,1372 @@
+{
+ "country": "PH",
+ "items": [
+  {
+   "id": "Q1484",
+   "name": "Mayon Volcano",
+   "sl": 70,
+   "file": "Mayon Volcano as of March 2020.jpg",
+   "lat": 13.2567,
+   "lon": 123.685,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mayon"
+  },
+  {
+   "id": "Q1451",
+   "name": "Pinatubo",
+   "sl": 70,
+   "file": "Pinatubo Crater Lake (052005).jpg",
+   "lat": 15.13,
+   "lon": 120.35,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "mountain",
+    "somma volcano",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Pinatubo"
+  },
+  {
+   "id": "Q455963",
+   "name": "Mount Apo",
+   "sl": 56,
+   "file": "The Ring of Mt. Apo.jpg",
+   "lat": 6.9875,
+   "lon": 125.2708,
+   "kind": "natural",
+   "types": [
+    "dormant volcano",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Apo"
+  },
+  {
+   "id": "Q818475",
+   "name": "Taal Volcano",
+   "sl": 52,
+   "file": "Taal Volcano aerial 2013.jpg",
+   "lat": 14.01,
+   "lon": 120.9975,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taal Volcano"
+  },
+  {
+   "id": "Q86446",
+   "name": "Ninoy Aquino International Airport",
+   "sl": 51,
+   "file": "Ninoy Aquino International Airport aerial view.jpg",
+   "lat": 14.5086,
+   "lon": 121.0194,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ninoy Aquino International Airport"
+  },
+  {
+   "id": "Q824602",
+   "name": "Puerto Princesa Subterranean River National Park",
+   "sl": 50,
+   "file": "Puerto Princesa Underground River.jpg",
+   "lat": 10.1667,
+   "lon": 118.9167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Puerto Princesa Subterranean River National Park"
+  },
+  {
+   "id": "Q927108",
+   "name": "Tubbataha Reef",
+   "sl": 43,
+   "file": "Tubbataha Shark.jpg",
+   "lat": 8.9533,
+   "lon": 119.8675,
+   "kind": "natural",
+   "types": [
+    "nature park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tubbataha Reef"
+  },
+  {
+   "id": "Q977422",
+   "name": "Chocolate Hills",
+   "sl": 42,
+   "file": "Chocolate Hills overview.JPG",
+   "lat": 9.9167,
+   "lon": 124.1667,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chocolate Hills"
+  },
+  {
+   "id": "Q47136",
+   "name": "Laguna de Bay",
+   "sl": 38,
+   "file": "Laguna de Bay zoom.jpg",
+   "lat": 14.3,
+   "lon": 121.27,
+   "kind": "natural",
+   "types": [
+    "freshwater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna de Bay"
+  },
+  {
+   "id": "Q1573427",
+   "name": "Mount Hamiguitan",
+   "sl": 37,
+   "file": "Mount Hamiguitan peak.JPG",
+   "lat": 6.74,
+   "lon": 126.1817,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Hamiguitan"
+  },
+  {
+   "id": "Q1048704",
+   "name": "Mactan–Cebu International Airport",
+   "sl": 36,
+   "file": "CEB Airport 2026-04-03 010.jpg",
+   "lat": 10.3167,
+   "lon": 123.9833,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mactan-Cebu International Airport"
+  },
+  {
+   "id": "Q808563",
+   "name": "Baroque Churches of the Philippines",
+   "sl": 35,
+   "file": "Miagao Church.jpg",
+   "lat": 10.6419,
+   "lon": 122.2355,
+   "kind": "",
+   "types": [
+    "group"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Renaissance churches in the Philippines"
+  },
+  {
+   "id": "Q473435",
+   "name": "Mount Bulusan",
+   "sl": 34,
+   "file": "Mt-Bulusan.jpg",
+   "lat": 12.77,
+   "lon": 124.05,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Bulusan"
+  },
+  {
+   "id": "Q1723814",
+   "name": "Kanlaon Volcano",
+   "sl": 31,
+   "file": "Kanlaon Volcano Negros Occidental, Philippines.jpg",
+   "lat": 10.4119,
+   "lon": 123.1319,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kanlaon"
+  },
+  {
+   "id": "Q1384940",
+   "name": "Lake Lanao",
+   "sl": 31,
+   "file": "Lake Lanao zoom.jpg",
+   "lat": 7.88,
+   "lon": 124.2525,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Lanao"
+  },
+  {
+   "id": "Q692279",
+   "name": "Clark International Airport",
+   "sl": 30,
+   "file": "Clark Airport.jpg",
+   "lat": 15.1858,
+   "lon": 120.5597,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Clark International Airport"
+  },
+  {
+   "id": "Q537695",
+   "name": "Taal Lake",
+   "sl": 30,
+   "file": "Taal volcano crater lake, Tagaytay, Philippines.jpg",
+   "lat": 13.9825,
+   "lon": 121.0169,
+   "kind": "natural",
+   "types": [
+    "lagoon",
+    "lake",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taal Lake"
+  },
+  {
+   "id": "Q1192811",
+   "name": "Francisco Bangoy International Airport",
+   "sl": 29,
+   "file": "Davao International Airport.jpg",
+   "lat": 7.1255,
+   "lon": 125.6458,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Francisco Bangoy International Airport"
+  },
+  {
+   "id": "Q1306513",
+   "name": "San Agustin Church",
+   "sl": 29,
+   "file": "Ph-mm-manila-intramuros-san agustin church (2014).JPG",
+   "lat": 14.5889,
+   "lon": 120.9754,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q808563",
+    "name": "Baroque Churches of the Philippines"
+   },
+   "also": [],
+   "cat": "San Agustin Church (Manila)"
+  },
+  {
+   "id": "Q826551",
+   "name": "Banaue Rice Terraces",
+   "sl": 28,
+   "file": "Pana Banaue Rice Terraces (Cropped).jpg",
+   "lat": 16.9347,
+   "lon": 121.1347,
+   "kind": "natural",
+   "types": [
+    "terrace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1503858",
+    "name": "Rice Terraces of the Philippine Cordilleras"
+   },
+   "also": [],
+   "cat": "Banaue Rice Terraces"
+  },
+  {
+   "id": "Q948670",
+   "name": "Mount Pulag",
+   "sl": 28,
+   "file": "Ph mtpulag.jpg",
+   "lat": 16.5836,
+   "lon": 120.8836,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Pulag"
+  },
+  {
+   "id": "Q1503858",
+   "name": "Rice Terraces of the Philippine Cordilleras",
+   "sl": 28,
+   "file": "Batad Rice Terraces after the rain.JPG",
+   "lat": 16.9339,
+   "lon": 121.1367,
+   "kind": "",
+   "types": [
+    "group of physical objects"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rice terraces in the Philippines"
+  },
+  {
+   "id": "Q3085934",
+   "name": "Iloilo International Airport",
+   "sl": 26,
+   "file": "Iloilo International Airport Panorama.jpg",
+   "lat": 10.8325,
+   "lon": 122.4931,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iloilo International Airport"
+  },
+  {
+   "id": "Q1209088",
+   "name": "Kalibo International Airport",
+   "sl": 26,
+   "file": "Kalibo Airport, Philippines.jpg",
+   "lat": 11.6813,
+   "lon": 122.3777,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalibo Airport"
+  },
+  {
+   "id": "Q2479774",
+   "name": "General Santos International Airport",
+   "sl": 25,
+   "file": "Upgraded General Santos International Airport.jpg",
+   "lat": 6.058,
+   "lon": 125.096,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "General Santos International Airport"
+  },
+  {
+   "id": "Q806074",
+   "name": "Mount Banahaw",
+   "sl": 25,
+   "file": "Banahaw.jpg",
+   "lat": 14.0667,
+   "lon": 121.4833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Banahaw"
+  },
+  {
+   "id": "Q533235",
+   "name": "Ateneo de Manila University",
+   "sl": 24,
+   "file": "Ateneogradeschooljf1960 01.JPG",
+   "lat": 14.6389,
+   "lon": 121.0778,
+   "kind": "built",
+   "types": [
+    "Jesuit university",
+    "private university",
+    "research university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ateneo de Manila University"
+  },
+  {
+   "id": "Q942688",
+   "name": "Malacañang Palace",
+   "sl": 24,
+   "file": "Malacañan Palace 2013 stamp of the Philippines.jpg",
+   "lat": 14.5939,
+   "lon": 120.9945,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malacañang Palace"
+  },
+  {
+   "id": "Q2796994",
+   "name": "Paoay Church",
+   "sl": 24,
+   "file": "Paoay Church of Ilocos Norte, Philippines.JPG",
+   "lat": 18.0615,
+   "lon": 120.5216,
+   "kind": "built",
+   "types": [
+    "Catholic parish church"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q808563",
+    "name": "Baroque Churches of the Philippines"
+   },
+   "also": [],
+   "cat": "Paoay Church"
+  },
+  {
+   "id": "Q7184961",
+   "name": "Philippine Arena",
+   "sl": 24,
+   "file": "JfBocaue9586HallChapelDuhatfvf 14.JPG",
+   "lat": 14.7936,
+   "lon": 120.9535,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Philippine Arena"
+  },
+  {
+   "id": "Q1432514",
+   "name": "Puerto Princesa International Airport",
+   "sl": 24,
+   "file": "Puerto Princesa International Airport Outside 1.jpg",
+   "lat": 9.7422,
+   "lon": 118.7586,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puerto Princesa International Airport"
+  },
+  {
+   "id": "Q628716",
+   "name": "Scarborough Shoal",
+   "sl": 24,
+   "file": "Scarborough Shoal Landsat.jpg",
+   "lat": 15.1833,
+   "lon": 117.7667,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "skerry",
+    "terra nullius"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN",
+    "TW"
+   ],
+   "cat": "Scarborough Shoal"
+  },
+  {
+   "id": "Q1323625",
+   "name": "Godofredo P. Ramos Airport",
+   "sl": 23,
+   "file": "Godofredo P. Ramos Airport (MPH - Caticlan, Malay, Aklan) 2022-06-25.jpg",
+   "lat": 11.9247,
+   "lon": 121.955,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Godofredo P. Ramos Airport"
+  },
+  {
+   "id": "Q1200033",
+   "name": "Zamboanga International Airport",
+   "sl": 23,
+   "file": "Zamboanga City viewed from the Garden Orchid Hotel.jpg",
+   "lat": 6.9224,
+   "lon": 122.0596,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zamboanga International Airport"
+  },
+  {
+   "id": "Q773443",
+   "name": "Manila Cathedral",
+   "sl": 22,
+   "file": "Catedral de la Inmaculada Concepción, Manila, Filipinas, 2023-08-26, DD 21.jpg",
+   "lat": 14.5915,
+   "lon": 120.9736,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manila Cathedral"
+  },
+  {
+   "id": "Q6743990",
+   "name": "SM Mall of Asia Arena",
+   "sl": 22,
+   "file": "SMMallofAsiajf9219 27.JPG",
+   "lat": 14.5319,
+   "lon": 120.9836,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mall of Asia Arena"
+  },
+  {
+   "id": "Q1825524",
+   "name": "Bacolod-Silay International Airport",
+   "sl": 21,
+   "file": "Bacolod-Silay Airport, Negros Occidental, Philippines.jpg",
+   "lat": 10.7764,
+   "lon": 123.0153,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bacolod-Silay International Airport"
+  },
+  {
+   "id": "Q1709001",
+   "name": "Daniel Z. Romualdez Airport",
+   "sl": 21,
+   "file": "Tacloban Airport.jpg",
+   "lat": 11.2267,
+   "lon": 125.0277,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daniel Z. Romualdez Airport"
+  },
+  {
+   "id": "Q5440278",
+   "name": "Grand Hyatt Manila",
+   "sl": 21,
+   "file": "BGC Taguig at night (Jopet Sy) - Flickr.jpg",
+   "lat": 14.5566,
+   "lon": 121.0519,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q626809",
+   "name": "Mount Arayat",
+   "sl": 21,
+   "file": "JfCambaHiway0001PostArayat,Pampangafvf 11.JPG",
+   "lat": 15.2,
+   "lon": 120.742,
+   "kind": "natural",
+   "types": [
+    "extinct volcano",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Arayat"
+  },
+  {
+   "id": "Q1319819",
+   "name": "Mount Hibok-Hibok",
+   "sl": 21,
+   "file": "Black Beach in Camiguin.jpg",
+   "lat": 9.2006,
+   "lon": 124.6681,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "lava dome",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Hibok-Hibok"
+  },
+  {
+   "id": "Q210710",
+   "name": "Rizal Memorial Stadium",
+   "sl": 21,
+   "file": "Rizal Memorial Track and Football Stadium.jpg",
+   "lat": 14.5634,
+   "lon": 120.992,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rizal Memorial Stadium"
+  },
+  {
+   "id": "Q2293938",
+   "name": "Subic Bay International Airport",
+   "sl": 21,
+   "file": "Aerial view of the U.S. Naval Air Station Cubi Point, Philippines, on 6 February 1988 (6482943).jpg",
+   "lat": 14.7945,
+   "lon": 120.2714,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Subic Bay International Airport"
+  },
+  {
+   "id": "Q598033",
+   "name": "Laoag International Airport",
+   "sl": 20,
+   "file": "Laoag International Airport terminal exterior.jpg",
+   "lat": 18.1781,
+   "lon": 120.5317,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1673747",
+   "name": "Mount Isarog",
+   "sl": 20,
+   "file": "ISAROG sa early morning by penny calara.jpg",
+   "lat": 13.6592,
+   "lon": 123.3733,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Isarog"
+  },
+  {
+   "id": "Q2037013",
+   "name": "San Juanico Bridge",
+   "sl": 20,
+   "file": "San Juanico Bridge.jpg",
+   "lat": 11.3028,
+   "lon": 124.9719,
+   "kind": "built",
+   "types": [
+    "truss bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Juanico Bridge"
+  },
+  {
+   "id": "Q1417648",
+   "name": "Masjid Al-Dahab",
+   "sl": 18,
+   "file": "Manila Golden Mosque (Quiapo, Manila; 2015-07-16) 02.jpg",
+   "lat": 14.5957,
+   "lon": 120.9851,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manila Golden Mosque"
+  },
+  {
+   "id": "Q1570683",
+   "name": "Mount Halcon",
+   "sl": 18,
+   "file": "Mount Halcon.jpg",
+   "lat": 13.25,
+   "lon": 120.9833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Halcon"
+  },
+  {
+   "id": "Q1435577",
+   "name": "SM Mall of Asia",
+   "sl": 18,
+   "file": "View of Pasay City at SM Mall of Asia.tif",
+   "lat": 14.5353,
+   "lon": 120.9822,
+   "kind": "built",
+   "types": [
+    "shopping center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "SM Mall of Asia"
+  },
+  {
+   "id": "Q477329",
+   "name": "Tabon Caves",
+   "sl": 18,
+   "file": "Tabon Cave 2014 04.JPG",
+   "lat": 9.2799,
+   "lon": 117.981,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tabon Caves"
+  },
+  {
+   "id": "Q1432981",
+   "name": "Tagbilaran Airport",
+   "sl": 18,
+   "file": "Tagbilaran Airport 1.JPG",
+   "lat": 9.6641,
+   "lon": 123.8532,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tagbilaran Airport"
+  },
+  {
+   "id": "Q3344188",
+   "name": "Legazpi Airport",
+   "sl": 17,
+   "file": "Cebu Pacific Airbus.JPG",
+   "lat": 13.1573,
+   "lon": 123.7345,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Legazpi Airport"
+  },
+  {
+   "id": "Q38221",
+   "name": "Maria Cristina Falls",
+   "sl": 17,
+   "file": "Maria Cristina Falls 2.jpg",
+   "lat": 8.1833,
+   "lon": 124.1944,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maria Cristina Falls"
+  },
+  {
+   "id": "Q2232625",
+   "name": "Pag-asa Island",
+   "sl": 17,
+   "file": "Thitu Island & Reefs, Spratly Islands.png",
+   "lat": 11.0522,
+   "lon": 114.2833,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thitu Island"
+  },
+  {
+   "id": "Q174968",
+   "name": "San Sebastian Church",
+   "sl": 17,
+   "file": "Basílica de San Sebastián, Manila, Filipinas, 2023-08-27, DD 07.jpg",
+   "lat": 14.5997,
+   "lon": 120.9889,
+   "kind": "built",
+   "types": [
+    "Catholic parish church",
+    "minor basilica",
+    "national shrine"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica of San Sebastian (Manila)"
+  },
+  {
+   "id": "Q625986",
+   "name": "Smart Araneta Coliseum",
+   "sl": 17,
+   "file": "Smart Araneta Coliseum Basketball setup.jpg",
+   "lat": 14.6206,
+   "lon": 121.0533,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Araneta Coliseum"
+  },
+  {
+   "id": "Q1095676",
+   "name": "Clark Air Base",
+   "sl": 16,
+   "file": "Clark Air Base aerial 1989.JPEG",
+   "lat": 15.1858,
+   "lon": 120.5603,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Clark Air Base"
+  },
+  {
+   "id": "Q2660525",
+   "name": "Miagao Church",
+   "sl": 16,
+   "file": "Miag-ao Church 2010.jpg",
+   "lat": 10.6419,
+   "lon": 122.2355,
+   "kind": "built",
+   "types": [
+    "Catholic parish church"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q808563",
+    "name": "Baroque Churches of the Philippines"
+   },
+   "also": [],
+   "cat": "Miag-ao Church"
+  },
+  {
+   "id": "Q1551536",
+   "name": "Mount Makiling",
+   "sl": 16,
+   "file": "Makiling.jpg",
+   "lat": 14.13,
+   "lon": 121.2,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Makiling"
+  },
+  {
+   "id": "Q38832",
+   "name": "Pagsanjan Falls",
+   "sl": 16,
+   "file": "Pagsanjan Falls.jpg",
+   "lat": 14.2626,
+   "lon": 121.5,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pagsanjan Falls"
+  },
+  {
+   "id": "Q1914841",
+   "name": "PBCom Tower",
+   "sl": 16,
+   "file": "Makati City Skyline.jpg",
+   "lat": 14.5585,
+   "lon": 121.0194,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "PBCom Tower"
+  },
+  {
+   "id": "Q445786",
+   "name": "Apo Reef",
+   "sl": 15,
+   "file": "Apo reef.jpg",
+   "lat": 12.6758,
+   "lon": 120.475,
+   "kind": "natural",
+   "types": [
+    "reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apo Reef"
+  },
+  {
+   "id": "Q797800",
+   "name": "Babuyan Claro",
+   "sl": 15,
+   "file": "Babuyan islands en.png",
+   "lat": 19.5233,
+   "lon": 121.94,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Babuyan Claro"
+  },
+  {
+   "id": "Q80960",
+   "name": "Bancasi Airport",
+   "sl": 15,
+   "file": "Butuan Airport general view.jpg",
+   "lat": 8.9513,
+   "lon": 125.478,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Butuan Airport"
+  },
+  {
+   "id": "Q3500743",
+   "name": "Francisco B. Reyes Airport",
+   "sl": 15,
+   "file": "Francisco B Reyes Airport.jpg",
+   "lat": 12.1214,
+   "lon": 120.1,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Francisco B. Reyes Airport"
+  },
+  {
+   "id": "Q3274023",
+   "name": "Laguindingan International Airport",
+   "sl": 15,
+   "file": "Laguindingan International Airport main building.JPG",
+   "lat": 8.6125,
+   "lon": 124.4572,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguindingan International Airport"
+  },
+  {
+   "id": "Q666552",
+   "name": "Minor Basilica of the Holy Child",
+   "sl": 15,
+   "file": "Basilica Minore del Santo Niño de Cebu (Osmeña Boulevard, Cebu City; 09-05-2022).jpg",
+   "lat": 10.294,
+   "lon": 123.9015,
+   "kind": "built",
+   "types": [
+    "Catholic parish church",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica del Santo Niño (Cebu City)"
+  },
+  {
+   "id": "Q1672421",
+   "name": "Mount Iraya",
+   "sl": 15,
+   "file": "Mount-Iraya.JPG",
+   "lat": 20.4664,
+   "lon": 122.0117,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Iraya"
+  },
+  {
+   "id": "Q1321733",
+   "name": "Roxas Airport",
+   "sl": 15,
+   "file": "Roxas Airport.jpg",
+   "lat": 11.5978,
+   "lon": 122.7517,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roxas Airport"
+  },
+  {
+   "id": "Q2022069",
+   "name": "Sibulan Airport",
+   "sl": 15,
+   "file": "File Dumaguete airport - 2.jpg",
+   "lat": 9.3336,
+   "lon": 123.3006,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sibulan Airport"
+  },
+  {
+   "id": "Q1025749",
+   "name": "Cagua Volcano",
+   "sl": 14,
+   "file": "Volcanic vent on the forested floor of the Mt. Cagua crater - ZooKeys-266-001-g012.jpg",
+   "lat": 18.2217,
+   "lon": 122.1233,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cagua volcano"
+  },
+  {
+   "id": "Q1966846",
+   "name": "Mount Natib",
+   "sl": 14,
+   "file": "Mount Natib.jpg",
+   "lat": 14.72,
+   "lon": 120.4,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Natib"
+  },
+  {
+   "id": "Q1143188",
+   "name": "Mount Talinis",
+   "sl": 14,
+   "file": "Mount Talinis (Cuernos de Negros), Negros Oriental, Philippines 02.JPG",
+   "lat": 9.25,
+   "lon": 123.1667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cuernos de Negros"
+  },
+  {
+   "id": "Q1528942",
+   "name": "Naga Airport",
+   "sl": 14,
+   "file": "Naga Airport (WNP).JPG",
+   "lat": 13.5847,
+   "lon": 123.27,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naga Airport"
+  },
+  {
+   "id": "Q16632753",
+   "name": "Philippine Stadium",
+   "sl": 14,
+   "file": "JfCiudadINC29PhilArenaStadiumfvf.JPG",
+   "lat": 14.7947,
+   "lon": 120.951,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Philippine Sports Stadium"
+  },
+  {
+   "id": "Q1592368",
+   "name": "Tuguegarao Airport",
+   "sl": 14,
+   "file": "Air phil.jpg",
+   "lat": 17.6383,
+   "lon": 121.7306,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tuguegarao Airport"
+  },
+  {
+   "id": "Q2902817",
+   "name": "Awang Airport",
+   "sl": 13,
+   "file": "US Airforce Cargo C130 at Cotabato City Airport.jpg",
+   "lat": 7.1652,
+   "lon": 124.2096,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cotabato Airport"
+  },
+  {
+   "id": "Q7130967",
+   "name": "Bohol–Panglao International Airport",
+   "sl": 13,
+   "file": "Photo shows the exterior of the Bohol-Panglao International Airport.jpg",
+   "lat": 9.5667,
+   "lon": 123.775,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bohol-Panglao International Airport"
+  },
+  {
+   "id": "Q5021779",
+   "name": "Callao Cave",
+   "sl": 13,
+   "file": "Callao Cave.jpg",
+   "lat": 17.7033,
+   "lon": 121.8238,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Callao Cave"
+  },
+  {
+   "id": "Q1961070",
+   "name": "Catarman National Airport",
+   "sl": 13,
+   "file": "Catarman Airport Building.JPG",
+   "lat": 12.5022,
+   "lon": 124.6359,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catarman National Airport"
+  }
+ ]
+}

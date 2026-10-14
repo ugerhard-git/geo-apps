@@ -1,0 +1,42 @@
+{
+ "country": "AC",
+ "items": [
+  {
+   "id": "Q1968916",
+   "name": "Royal Air Force Station Ascension Island",
+   "sl": 16,
+   "file": "Ascension Island, Wideawake Airfield (1).JPG",
+   "lat": -7.9697,
+   "lon": -14.3937,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial traffic aerodrome",
+    "Royal Air Force station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SH"
+   ],
+   "cat": "RAF Ascension Island"
+  },
+  {
+   "id": "Q5602884",
+   "name": "Green Mountain",
+   "sl": 13,
+   "file": "Green Mountain2.JPG",
+   "lat": -7.95,
+   "lon": -14.35,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Green Mountain"
+  }
+ ]
+}

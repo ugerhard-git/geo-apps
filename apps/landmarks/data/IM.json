@@ -1,0 +1,184 @@
+{
+ "country": "IM",
+ "items": [
+  {
+   "id": "Q9001",
+   "name": "Isle of Man Airport",
+   "sl": 27,
+   "file": "Isle of Man Airport.jpg",
+   "lat": 54.0833,
+   "lon": -4.6239,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isle of Man Airport"
+  },
+  {
+   "id": "Q147557",
+   "name": "Snaefell",
+   "sl": 26,
+   "file": "Snaefell.jpg",
+   "lat": 54.2633,
+   "lon": -4.4616,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Snaefell"
+  },
+  {
+   "id": "Q2967821",
+   "name": "Castle Rushen",
+   "sl": 13,
+   "file": "Castle Rushen from the harbour (cropped)2.jpg",
+   "lat": 54.0736,
+   "lon": -4.6528,
+   "kind": "built",
+   "types": [
+    "castle",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rushen Castle"
+  },
+  {
+   "id": "Q1473271",
+   "name": "Mull Hill",
+   "sl": 12,
+   "file": "The Meayll circle - Mull Hill - geograph.org.uk - 62530.jpg",
+   "lat": 54.0741,
+   "lon": -4.7687,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Meayll Hill"
+  },
+  {
+   "id": "Q147437",
+   "name": "South Barrule",
+   "sl": 12,
+   "file": "South Barule summit.jpg",
+   "lat": 54.149,
+   "lon": -4.67,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "South Barrule"
+  },
+  {
+   "id": "Q2660524",
+   "name": "Peel Castle",
+   "sl": 11,
+   "file": "Isle of Man Peel Castle.jpg",
+   "lat": 54.2265,
+   "lon": -4.6991,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peel Castle"
+  },
+  {
+   "id": "Q3445970",
+   "name": "Peel Cathedral",
+   "sl": 11,
+   "file": "Peel Cathedral 2006.jpg",
+   "lat": 54.2217,
+   "lon": -4.6911,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peel Cathedral"
+  },
+  {
+   "id": "Q125363",
+   "name": "Point of Ayre",
+   "sl": 11,
+   "file": "Point-of-ayre-lighthouse.jpg",
+   "lat": 54.418,
+   "lon": -4.367,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Point of Ayre, Isle of Man"
+  },
+  {
+   "id": "Q147429",
+   "name": "North Barrule",
+   "sl": 9,
+   "file": "North Barrule - geograph.org.uk - 4861.jpg",
+   "lat": 54.28,
+   "lon": -4.403,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "North Barrule"
+  },
+  {
+   "id": "Q125542",
+   "name": "Calf Sound",
+   "sl": 8,
+   "file": "Sound IOM.JPG",
+   "lat": 54.0608,
+   "lon": -4.7989,
+   "kind": "natural",
+   "types": [
+    "sound"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Calf Sound"
+  },
+  {
+   "id": "Q1047413",
+   "name": "Cashtal yn Ard",
+   "sl": 8,
+   "file": "Isle of Man - Cashtal yn Ard 20240220 looking west from halfway the long cairn.jpg",
+   "lat": 54.2754,
+   "lon": -4.3632,
+   "kind": "built",
+   "types": [
+    "Clyde tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cashtal yn Ard"
+  }
+ ]
+}

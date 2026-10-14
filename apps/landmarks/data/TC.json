@@ -1,0 +1,39 @@
+{
+ "country": "TC",
+ "items": [
+  {
+   "id": "Q1748436",
+   "name": "Providenciales International Airport",
+   "sl": 20,
+   "file": "Providenciales International Airport.jpg",
+   "lat": 21.7736,
+   "lon": -72.2658,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Providenciales Airport"
+  },
+  {
+   "id": "Q2902808",
+   "name": "JAGS McCartney International Airport",
+   "sl": 13,
+   "file": "Caribbean winter 2008 2009 2 998.JPG",
+   "lat": 21.4444,
+   "lon": -71.1422,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "JAGS McCartney International Airport"
+  }
+ ]
+}

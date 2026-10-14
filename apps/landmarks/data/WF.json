@@ -1,0 +1,70 @@
+{
+ "country": "WF",
+ "items": [
+  {
+   "id": "Q182132",
+   "name": "Pointe Vele Airport",
+   "sl": 18,
+   "file": "Futuna Vele satellite picture (cropped).jpg",
+   "lat": -14.3114,
+   "lon": -178.0661,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pointe Vele airport"
+  },
+  {
+   "id": "Q1549756",
+   "name": "Mont Puke",
+   "sl": 12,
+   "file": "Location map Futuna.png",
+   "lat": -14.2708,
+   "lon": -178.1389,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3215002",
+   "name": "Lake Lalolalo",
+   "sl": 10,
+   "file": "Lano Lalolalo.jpg",
+   "lat": -13.3,
+   "lon": -176.2336,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lac Lalolalo"
+  },
+  {
+   "id": "Q2942239",
+   "name": "Mata Utu Cathedral",
+   "sl": 9,
+   "file": "179 Cathédrale de Mata-Utu - side view (36940866791).jpg",
+   "lat": -13.2828,
+   "lon": -176.1733,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame-de-l'Assomption de Mata-Utu"
+  }
+ ]
+}

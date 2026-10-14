@@ -1,0 +1,758 @@
+{
+ "country": "UG",
+ "items": [
+  {
+   "id": "Q5505",
+   "name": "Lake Victoria",
+   "sl": 162,
+   "file": "Getting out to fish at dusk.jpg",
+   "lat": -1,
+   "lon": 33,
+   "kind": "natural",
+   "types": [
+    "freshwater lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KE",
+    "TZ"
+   ],
+   "cat": "Lake Victoria"
+  },
+  {
+   "id": "Q125888",
+   "name": "Lake Albert",
+   "sl": 88,
+   "file": "Lac Albert 2.jpg",
+   "lat": 1.6833,
+   "lon": 30.9167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD"
+   ],
+   "cat": "Lake Albert (Uganda)"
+  },
+  {
+   "id": "Q125211",
+   "name": "Lake Edward",
+   "sl": 75,
+   "file": "Lake edward sentinel-2.jpg",
+   "lat": -0.3333,
+   "lon": 29.6,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD"
+   ],
+   "cat": "Lake Edward"
+  },
+  {
+   "id": "Q309426",
+   "name": "Kasubi Tombs",
+   "sl": 57,
+   "file": "Kasubi Tombs 20250815 1.jpg",
+   "lat": 0.3292,
+   "lon": 32.5533,
+   "kind": "built",
+   "types": [
+    "monument",
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kasubi Tombs"
+  },
+  {
+   "id": "Q124978",
+   "name": "Lake Kyoga",
+   "sl": 51,
+   "file": "Lake Kyoga-8.jpg",
+   "lat": 1.5,
+   "lon": 33,
+   "kind": "natural",
+   "types": [
+    "polymictic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Kyoga"
+  },
+  {
+   "id": "Q500397",
+   "name": "Bwindi Impenetrable National Park",
+   "sl": 47,
+   "file": "Bwindi.JPG",
+   "lat": -1.05,
+   "lon": 29.7167,
+   "kind": "natural",
+   "types": [
+    "national park of Uganda"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Bwindi Impenetrable National Park"
+  },
+  {
+   "id": "Q838928",
+   "name": "Rwenzori Mountains National Park",
+   "sl": 46,
+   "file": "Ruwenpflanzen.jpg",
+   "lat": 0.4,
+   "lon": 29.95,
+   "kind": "natural",
+   "types": [
+    "national park of Uganda",
+    "park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rwenzori Mountains National Park"
+  },
+  {
+   "id": "Q732838",
+   "name": "Mount Elgon",
+   "sl": 44,
+   "file": "Mount elgon topo.jpg",
+   "lat": 1.1185,
+   "lon": 34.5265,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KE"
+   ],
+   "cat": "Mount Elgon"
+  },
+  {
+   "id": "Q586065",
+   "name": "Entebbe International Airport",
+   "sl": 42,
+   "file": "Fly540 ATR42 at Entebbe.jpg",
+   "lat": 0.0447,
+   "lon": 32.4431,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Entebbe International Airport"
+  },
+  {
+   "id": "Q495475",
+   "name": "Murchison Falls",
+   "sl": 35,
+   "file": "Murchison Falls 573x430.jpg",
+   "lat": 2.2783,
+   "lon": 31.6856,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Murchison Falls"
+  },
+  {
+   "id": "Q530084",
+   "name": "Queen Elizabeth National Park",
+   "sl": 33,
+   "file": "Crater lake in Queen Elizabeth National Park.jpg",
+   "lat": -0.1372,
+   "lon": 30.0411,
+   "kind": "natural",
+   "types": [
+    "national park of Uganda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Queen Elizabeth National Park"
+  },
+  {
+   "id": "Q1893242",
+   "name": "Murchison Falls National Park",
+   "sl": 30,
+   "file": "Murchison Falls.jpg",
+   "lat": 2.2458,
+   "lon": 31.9069,
+   "kind": "natural",
+   "types": [
+    "national park of Uganda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Murchison Falls National Park"
+  },
+  {
+   "id": "Q511779",
+   "name": "Mount Sabyinyo",
+   "sl": 28,
+   "file": "Musanze's Volcano (46355800961).jpg",
+   "lat": -1.4,
+   "lon": 29.6,
+   "kind": "natural",
+   "types": [
+    "extinct volcano",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD",
+    "RW"
+   ],
+   "cat": "Mount Sabyinyo"
+  },
+  {
+   "id": "Q1509547",
+   "name": "Lake George",
+   "sl": 25,
+   "file": "Wfm lake edward lake george.jpg",
+   "lat": 0,
+   "lon": 30.2,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q636655",
+   "name": "Mgahinga Gorilla National Park",
+   "sl": 25,
+   "file": "Mountain Gorilla in Mgahinga Gorilla National Park 1.jpg",
+   "lat": -1.3667,
+   "lon": 29.6333,
+   "kind": "natural",
+   "types": [
+    "national park of Uganda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mgahinga Gorilla National Park"
+  },
+  {
+   "id": "Q4118193",
+   "name": "Mandela National Stadium",
+   "sl": 24,
+   "file": "Mandela National Stadium, Uganda.JPG",
+   "lat": 0.3472,
+   "lon": 32.6589,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mandela National Stadium"
+  },
+  {
+   "id": "Q591283",
+   "name": "Lake Mburo National Park",
+   "sl": 23,
+   "file": "Búfalo cafre (Syncerus caffer), parque nacional del Lago Mburo, Uganda, 2024-02-01, DD 58.jpg",
+   "lat": -0.6,
+   "lon": 30.95,
+   "kind": "natural",
+   "types": [
+    "national park of Uganda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mburo National Park"
+  },
+  {
+   "id": "Q1740874",
+   "name": "Kidepo Valley National Park",
+   "sl": 22,
+   "file": "Kidepo Riverbed.jpg",
+   "lat": 3.93,
+   "lon": 33.8069,
+   "kind": "natural",
+   "types": [
+    "national park of Uganda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kidepo Valley National Park"
+  },
+  {
+   "id": "Q1010056",
+   "name": "Lake Bunyonyi",
+   "sl": 20,
+   "file": "Lake Bunyonyi.jpg",
+   "lat": -1.2833,
+   "lon": 29.9167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Bunyonyi"
+  },
+  {
+   "id": "Q1273335",
+   "name": "Mount Elgon National Park",
+   "sl": 20,
+   "file": "Mount Elgon Forest.jpg",
+   "lat": 1.1333,
+   "lon": 34.5833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KE"
+   ],
+   "cat": "Mount Elgon National Park"
+  },
+  {
+   "id": "Q4022677",
+   "name": "Kampala Mosque",
+   "sl": 18,
+   "file": "Gaddafi Mosque uganda.jpg",
+   "lat": 0.3,
+   "lon": 32.6333,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gaddafi National Mosque"
+  },
+  {
+   "id": "Q932175",
+   "name": "Mount Gahinga",
+   "sl": 18,
+   "file": "View of Mount Mgahinga on the Uganda Side.jpg",
+   "lat": -1.3873,
+   "lon": 29.6435,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RW"
+   ],
+   "cat": "Mount Gahinga"
+  },
+  {
+   "id": "Q1422911",
+   "name": "Mount Moroto",
+   "sl": 17,
+   "file": "Mount Moroto from the West side.JPG",
+   "lat": 2.525,
+   "lon": 34.7725,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Moroto"
+  },
+  {
+   "id": "Q838875",
+   "name": "Mount Speke",
+   "sl": 17,
+   "file": "Mt.Speke2008.jpg",
+   "lat": 0.3981,
+   "lon": 29.8922,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Speke"
+  },
+  {
+   "id": "Q6477049",
+   "name": "Lake Mutanda",
+   "sl": 16,
+   "file": "Lake mutanda 1 LTO - 48264358446.jpg",
+   "lat": -1.235,
+   "lon": 29.67,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mutanda"
+  },
+  {
+   "id": "Q253593",
+   "name": "Mount Baker",
+   "sl": 16,
+   "file": "Mount Baker (Ruwenzori) from Bujuku Hut.jpg",
+   "lat": 0.3667,
+   "lon": 29.9,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Baker (Rwenzori)"
+  },
+  {
+   "id": "Q487912",
+   "name": "Ripon Falls",
+   "sl": 16,
+   "file": "Ripon Falls01.jpg",
+   "lat": 0.4339,
+   "lon": 33.1935,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ripon Falls"
+  },
+  {
+   "id": "Q1429741",
+   "name": "Semuliki National Park",
+   "sl": 16,
+   "file": "Flat lash plains of semiliki national park.jpg",
+   "lat": 0.8334,
+   "lon": 30.0434,
+   "kind": "natural",
+   "types": [
+    "national park of Uganda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Semuliki National Park"
+  },
+  {
+   "id": "Q2547740",
+   "name": "Lake Wamala",
+   "sl": 15,
+   "file": "Lake Wamala.jpg",
+   "lat": 0.3283,
+   "lon": 31.8406,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Wamala"
+  },
+  {
+   "id": "Q5617915",
+   "name": "Gulu Airport",
+   "sl": 13,
+   "file": "Gulu Airfield.jpg",
+   "lat": 2.8,
+   "lon": 32.275,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gulu Airport"
+  },
+  {
+   "id": "Q1962096",
+   "name": "Lake Nabugabo",
+   "sl": 13,
+   "file": "Sunrise at Nabugabo.jpg",
+   "lat": -0.37,
+   "lon": 31.9,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Nabugabo"
+  },
+  {
+   "id": "Q488982",
+   "name": "Nalubaale Hydroelectric Power Station",
+   "sl": 13,
+   "file": "From top of Nalubaale Power Station.jpg",
+   "lat": 0.4436,
+   "lon": 33.185,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Owen Falls Dam"
+  },
+  {
+   "id": "Q6960652",
+   "name": "Nakivubo Stadium",
+   "sl": 12,
+   "file": "Night aerial view of Hamz Stadium in Nakivubo Kampala 03.jpg",
+   "lat": 0.3116,
+   "lon": 32.5735,
+   "kind": "built",
+   "types": [
+    "association football pitch",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4867416",
+   "name": "Basilica of the Uganda Martyrs",
+   "sl": 11,
+   "file": "Namugongo Martyrs Shrine exterior view.jpg",
+   "lat": 0.3853,
+   "lon": 32.6514,
+   "kind": "built",
+   "types": [
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica of the Uganda Martyrs"
+  },
+  {
+   "id": "Q7877613",
+   "name": "Uganda Museum",
+   "sl": 11,
+   "file": "Museum Entrance 2.JPG",
+   "lat": 0.3359,
+   "lon": 32.5826,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uganda Museum"
+  },
+  {
+   "id": "Q662173",
+   "name": "Mabira Forest",
+   "sl": 10,
+   "file": "Road to Jinja.jpg",
+   "lat": 0.3983,
+   "lon": 33.0164,
+   "kind": "natural",
+   "types": [
+    "forest reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mabira Forest"
+  },
+  {
+   "id": "Q6672465",
+   "name": "Sipi Falls",
+   "sl": 10,
+   "file": "Sipi Falls Main Drop.jpg",
+   "lat": 1.3378,
+   "lon": 34.3794,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sipi falls"
+  },
+  {
+   "id": "Q1003143",
+   "name": "Bujagali Falls",
+   "sl": 9,
+   "file": "Bujagali detail.jpg",
+   "lat": 0.4989,
+   "lon": 33.14,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bujagali Falls"
+  },
+  {
+   "id": "Q3321899",
+   "name": "Mount Kadam",
+   "sl": 9,
+   "file": "Mount Khadam, Uganda.JPG",
+   "lat": 1.7631,
+   "lon": 34.7092,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Kadam"
+  },
+  {
+   "id": "Q7126083",
+   "name": "Pakuba Airport",
+   "sl": 9,
+   "file": "Pakuba Airfield.jpg",
+   "lat": 2.2022,
+   "lon": 31.5544,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5003218",
+   "name": "Buvuma Island",
+   "sl": 8,
+   "file": "Buvuma-Island.jpg",
+   "lat": 0.2167,
+   "lon": 33.2667,
+   "kind": "natural",
+   "types": [
+    "cultural property",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buvuma Island"
+  },
+  {
+   "id": "Q35733372",
+   "name": "Lake Mburo",
+   "sl": 8,
+   "file": "Sunset at Lake Mburo.jpg",
+   "lat": -0.6589,
+   "lon": 30.9314,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mburo"
+  },
+  {
+   "id": "Q35733633",
+   "name": "Lake Mulehe",
+   "sl": 8,
+   "file": "Still on track.jpg",
+   "lat": -1.2181,
+   "lon": 29.7214,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mulehe"
+  },
+  {
+   "id": "Q20746335",
+   "name": "Munyonyo Martyrs Shrine",
+   "sl": 8,
+   "file": "Munyonyo Shrine.jpg",
+   "lat": 0.2373,
+   "lon": 32.6173,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Munyonyo Martyrs Shrine"
+  },
+  {
+   "id": "Q16899506",
+   "name": "Rubaga Cathedral",
+   "sl": 8,
+   "file": "Lubaga cathedral front view - 2013.jpg",
+   "lat": 0.3025,
+   "lon": 32.5522,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Mary's Cathedral Rubaga"
+  }
+ ]
+}

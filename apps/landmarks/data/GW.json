@@ -1,0 +1,123 @@
+{
+ "country": "GW",
+ "items": [
+  {
+   "id": "Q1432281",
+   "name": "Osvaldo Vieira International Airport",
+   "sl": 29,
+   "file": "Aeroporto Internacional Osvaldo Vieira Bissau.jpg",
+   "lat": 11.895,
+   "lon": -15.6536,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Osvaldo Vieira International Airport"
+  },
+  {
+   "id": "Q10361613",
+   "name": "Grande de Buba River",
+   "sl": 15,
+   "file": "Buba River - 123886084.jpg",
+   "lat": 11.5333,
+   "lon": -15.4167,
+   "kind": "natural",
+   "types": [
+    "ria"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buba River"
+  },
+  {
+   "id": "Q10280205",
+   "name": "The Cathedral of Bissau",
+   "sl": 15,
+   "file": "Kathedrale von Bissau.png",
+   "lat": 11.8601,
+   "lon": -15.5812,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Bissau"
+  },
+  {
+   "id": "Q3364592",
+   "name": "Cacheu Mangroves Natural Park",
+   "sl": 14,
+   "file": "Parque Natural dos Tarrafes do Rio Cacheu 02.jpg",
+   "lat": 12.3,
+   "lon": -16.1794,
+   "kind": "natural",
+   "types": [
+    "nature park",
+    "park",
+    "Ramsar site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Natural dos Tarrafes do Rio Cacheu"
+  },
+  {
+   "id": "Q4118209",
+   "name": "Estádio 24 de Setembro",
+   "sl": 13,
+   "file": "Viagem de Bissau para Bolama, Guiné-Bissau – 2018-03-02 – DSCN0973.jpg",
+   "lat": 11.8434,
+   "lon": -15.5908,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7099832",
+   "name": "Orango Islands National Park",
+   "sl": 11,
+   "file": "Lagoa com hipopótamos 03 (cropped).jpg",
+   "lat": 11.0658,
+   "lon": -16.138,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orango National Park"
+  },
+  {
+   "id": "Q20716917",
+   "name": "Presidential Palace, Bissau",
+   "sl": 8,
+   "file": "Palácio Presidencial em Bissau (2).jpg",
+   "lat": 11.864,
+   "lon": -15.585,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio Presidencial, Bissau"
+  }
+ ]
+}

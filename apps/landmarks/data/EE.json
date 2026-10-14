@@ -1,0 +1,1322 @@
+{
+ "country": "EE",
+ "items": [
+  {
+   "id": "Q19253",
+   "name": "Lake Peipus",
+   "sl": 67,
+   "file": "Lake Peipus, LandSat-8, 2016-10-20.jpg",
+   "lat": 58.6767,
+   "lon": 27.4917,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake system"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Lake Peipus"
+  },
+  {
+   "id": "Q1132561",
+   "name": "Lahemaa National Park",
+   "sl": 52,
+   "file": "EE-Lahemaa-Bagno Viru.jpg",
+   "lat": 59.5711,
+   "lon": 25.8003,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lahemaa National Park"
+  },
+  {
+   "id": "Q630524",
+   "name": "Tallinn Airport",
+   "sl": 51,
+   "file": "Tallinn Airport 03 July 2006.jpg",
+   "lat": 59.4164,
+   "lon": 24.7992,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tallinn Airport"
+  },
+  {
+   "id": "Q504991",
+   "name": "Suur Munamägi",
+   "sl": 50,
+   "file": "Haanja kõrgustik.jpg",
+   "lat": 57.714,
+   "lon": 27.06,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suur Munamägi"
+  },
+  {
+   "id": "Q211516",
+   "name": "Võrtsjärv",
+   "sl": 50,
+   "file": "Voerts.jpg",
+   "lat": 58.2667,
+   "lon": 26.0333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Võrtsjärv"
+  },
+  {
+   "id": "Q334761",
+   "name": "Lake Ülemiste",
+   "sl": 47,
+   "file": "Airplane landing at Tallinn Airport.jpg",
+   "lat": 59.3993,
+   "lon": 24.7689,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ülemiste"
+  },
+  {
+   "id": "Q859010",
+   "name": "Toompea Castle",
+   "sl": 43,
+   "file": "Toompea linnus.jpg",
+   "lat": 59.4356,
+   "lon": 24.7372,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toompea Castle"
+  },
+  {
+   "id": "Q278923",
+   "name": "A. Le Coq Arena",
+   "sl": 42,
+   "file": "Samba boys kick off the match in Tallinn.jpg",
+   "lat": 59.4213,
+   "lon": 24.7321,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "A. Le Coq Arena"
+  },
+  {
+   "id": "Q568214",
+   "name": "Alexander Nevsky Cathedral",
+   "sl": 41,
+   "file": "Alexander-Newski-Kathedrale full pc.jpg",
+   "lat": 59.4358,
+   "lon": 24.7394,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alexander Nevsky Cathedral, Tallinn"
+  },
+  {
+   "id": "Q1751660",
+   "name": "Karula National Park",
+   "sl": 41,
+   "file": "Karula RP1.JPG",
+   "lat": 57.7144,
+   "lon": 26.4867,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karula National Park"
+  },
+  {
+   "id": "Q660001",
+   "name": "Hermann Castle",
+   "sl": 40,
+   "file": "Narva asv2022-04 img09 Castle.jpg",
+   "lat": 59.3758,
+   "lon": 28.2014,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Narva Castle"
+  },
+  {
+   "id": "Q1768091",
+   "name": "Kuressaare Castle",
+   "sl": 39,
+   "file": "Kuressaare linnus õhust.jpg",
+   "lat": 58.2469,
+   "lon": 22.4793,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuressaare Castle"
+  },
+  {
+   "id": "Q977639",
+   "name": "Vilsandi National Park",
+   "sl": 39,
+   "file": "SoegininaPank062911.jpg",
+   "lat": 58.3786,
+   "lon": 21.8772,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vilsandi National Park"
+  },
+  {
+   "id": "Q736682",
+   "name": "Soomaa National Park",
+   "sl": 38,
+   "file": "Raudna jõgi-masterplaan-2008.jpg",
+   "lat": 58.4408,
+   "lon": 25.1056,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soomaa National Park"
+  },
+  {
+   "id": "Q1540273",
+   "name": "Matsalu National Park",
+   "sl": 37,
+   "file": "Matsalu view.jpg",
+   "lat": 58.76,
+   "lon": 23.5969,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matsalu National Park"
+  },
+  {
+   "id": "Q613788",
+   "name": "St. Nicholas' Church",
+   "sl": 36,
+   "file": "Tallinna Niguliste kirik 22-03-2013.jpg",
+   "lat": 59.4359,
+   "lon": 24.7428,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Nicholas' Church, Tallinn"
+  },
+  {
+   "id": "Q834511",
+   "name": "St. Olaf's Church",
+   "sl": 35,
+   "file": "St Olaf's church, Tallinn, July 2008.jpg",
+   "lat": 59.4414,
+   "lon": 24.7478,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St Olaf's Church, Tallinn"
+  },
+  {
+   "id": "Q595341",
+   "name": "Kaali crater",
+   "sl": 34,
+   "file": "Kaali-crater-saaremaa-estonia-aug-2007.jpg",
+   "lat": 58.3728,
+   "lon": 22.6694,
+   "kind": "natural",
+   "types": [
+    "crater lake",
+    "impact crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaali crater"
+  },
+  {
+   "id": "Q171196",
+   "name": "Toompea",
+   "sl": 34,
+   "file": "Tallinn Toompea Upper Old Town 2013.jpg",
+   "lat": 59.4369,
+   "lon": 24.74,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q726803",
+    "name": "Tallinn Old Town"
+   },
+   "also": [],
+   "cat": "Toompea"
+  },
+  {
+   "id": "Q37401",
+   "name": "Jägala Waterfall",
+   "sl": 33,
+   "file": "Jägala Juga (Jägalafallet).JPG",
+   "lat": 59.4499,
+   "lon": 25.1786,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jägala Falls"
+  },
+  {
+   "id": "Q7722735",
+   "name": "Kadriorg Palace",
+   "sl": 32,
+   "file": "Tallinn asv2022-04 img55 Kadriorg Palace.jpg",
+   "lat": 59.4385,
+   "lon": 24.791,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kadriorg Palace"
+  },
+  {
+   "id": "Q1515717",
+   "name": "Pühajärv",
+   "sl": 32,
+   "file": "Pühajärv lake 2008.jpg",
+   "lat": 58.0281,
+   "lon": 26.4583,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pühajärv"
+  },
+  {
+   "id": "Q937320",
+   "name": "St. Mary's Cathedral",
+   "sl": 32,
+   "file": "Catedral de Santa María (Toomkirik), Tallin, Estonia, 2012-08-05, DD 09.JPG",
+   "lat": 59.437,
+   "lon": 24.7389,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building",
+    "domus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Saint Mary, Tallinn"
+  },
+  {
+   "id": "Q279167",
+   "name": "Tartu Airport",
+   "sl": 32,
+   "file": "Approach lighting system of Tartu Airport.jpg",
+   "lat": 58.3075,
+   "lon": 26.6869,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q866154",
+   "name": "Haapsalu Castle",
+   "sl": 31,
+   "file": "Haapsalu Castle.jpg",
+   "lat": 58.9472,
+   "lon": 23.5386,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Haapsalu Castle"
+  },
+  {
+   "id": "Q38852",
+   "name": "Keila Waterfall",
+   "sl": 31,
+   "file": "Keila juga (suvi 2011).jpg",
+   "lat": 59.396,
+   "lon": 24.2947,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Keila Falls"
+  },
+  {
+   "id": "Q170363",
+   "name": "SMS Schleswig-Holstein",
+   "sl": 31,
+   "file": "Bundesarchiv DVM 10 Bild-23-63-47, Linienschiff \"Schleswig-Holstein\".jpg",
+   "lat": 59.3329,
+   "lon": 23.5334,
+   "kind": "built",
+   "types": [
+    "battleship",
+    "pre-dreadnought battleship",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Schleswig-Holstein (ship, 1906)"
+  },
+  {
+   "id": "Q2072409",
+   "name": "Freedom Square",
+   "sl": 30,
+   "file": "Columna de la Victoria de la Guerra de la Independencia, Tallinn, Estonia, 2012-08-05, DD 14.JPG",
+   "lat": 59.4338,
+   "lon": 24.7441,
+   "kind": "built",
+   "types": [
+    "square",
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Freedom Square (Tallinn)"
+  },
+  {
+   "id": "Q919611",
+   "name": "Kumu",
+   "sl": 30,
+   "file": "Õhuvaade Kumule ja Kadrioru pargile.png",
+   "lat": 59.4364,
+   "lon": 24.7964,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kumu (museum)"
+  },
+  {
+   "id": "Q892425",
+   "name": "Kuressaare Airport",
+   "sl": 30,
+   "file": "Kuressaare lennujaam, 2010.jpg",
+   "lat": 58.2297,
+   "lon": 22.5094,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuressaare Airport"
+  },
+  {
+   "id": "Q2458214",
+   "name": "Narva Reservoir",
+   "sl": 30,
+   "file": "Narva veehoidla sügisel vaade Kulgu sadama kohalt.jpg",
+   "lat": 59.3333,
+   "lon": 28.1667,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Narva Reservoir"
+  },
+  {
+   "id": "Q1420569",
+   "name": "Pikk Hermann",
+   "sl": 30,
+   "file": "Pikkhermann.jpg",
+   "lat": 59.4352,
+   "lon": 24.7369,
+   "kind": "built",
+   "types": [
+    "defensive tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pikk Hermann"
+  },
+  {
+   "id": "Q1456246",
+   "name": "Saadjärv",
+   "sl": 30,
+   "file": "Saadjarv.jpg",
+   "lat": 58.5333,
+   "lon": 26.6667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saadjärv"
+  },
+  {
+   "id": "Q59282938",
+   "name": "Alutaguse National Park",
+   "sl": 29,
+   "file": "Muraka raba.JPG",
+   "lat": 59.0887,
+   "lon": 27.4393,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alutaguse National Park"
+  },
+  {
+   "id": "Q2627792",
+   "name": "Lake Peipus",
+   "sl": 29,
+   "file": "Kauksi rand.jpg",
+   "lat": 58.6378,
+   "lon": 27.5034,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Lake Peipus"
+  },
+  {
+   "id": "Q3736634",
+   "name": "Lake Vagula",
+   "sl": 29,
+   "file": "Vagula-tó.jpg",
+   "lat": 57.8461,
+   "lon": 26.9128,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Vagula"
+  },
+  {
+   "id": "Q2045993",
+   "name": "Stenbock House",
+   "sl": 29,
+   "file": "Stenbock House (28939).jpg",
+   "lat": 59.4383,
+   "lon": 24.7404,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stenbock House"
+  },
+  {
+   "id": "Q166667",
+   "name": "Tartu Cathedral",
+   "sl": 29,
+   "file": "Tartu Toomkiriku varemed 2012.jpg",
+   "lat": 58.3802,
+   "lon": 26.715,
+   "kind": "built",
+   "types": [
+    "domus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tartu Cathedral"
+  },
+  {
+   "id": "Q6373614",
+   "name": "Karujärv",
+   "sl": 28,
+   "file": "Karujärv11.JPG",
+   "lat": 58.3797,
+   "lon": 22.2156,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karujärv"
+  },
+  {
+   "id": "Q1698949",
+   "name": "St. John's Church",
+   "sl": 28,
+   "file": "Tartu asv2022-04 img15 StJohn Church.jpg",
+   "lat": 58.3828,
+   "lon": 26.7203,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. John's Church, Tartu"
+  },
+  {
+   "id": "Q805683",
+   "name": "Tallinn Baltic Station",
+   "sl": 28,
+   "file": "Elroni rongid Balti jaamas.jpg",
+   "lat": 59.4403,
+   "lon": 24.7369,
+   "kind": "built",
+   "types": [
+    "dead-end railway station",
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Balti jaam"
+  },
+  {
+   "id": "Q904057",
+   "name": "Tallinn Town Hall",
+   "sl": 28,
+   "file": "Tallinna Raekoda 11-06-2013.jpg",
+   "lat": 59.437,
+   "lon": 24.7453,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tallinn Town Hall"
+  },
+  {
+   "id": "Q1365010",
+   "name": "Tallinn TV Tower",
+   "sl": 28,
+   "file": "EU-EE-Tallinn-Pirita.JPG",
+   "lat": 59.4711,
+   "lon": 24.8875,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tallinn TV Tower"
+  },
+  {
+   "id": "Q581794",
+   "name": "Tartu Observatory",
+   "sl": 28,
+   "file": "Tartu obs main b.jpg",
+   "lat": 58.2654,
+   "lon": 26.4663,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tartu Observatory"
+  },
+  {
+   "id": "Q1432537",
+   "name": "Pärnu Airport",
+   "sl": 27,
+   "file": "Pärnu airport terminal 20080610.jpg",
+   "lat": 58.4192,
+   "lon": 24.4728,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pärnu Airport"
+  },
+  {
+   "id": "Q1431834",
+   "name": "Kärdla Airport",
+   "sl": 26,
+   "file": "Kärdla lennujaam.JPG",
+   "lat": 58.9906,
+   "lon": 22.8306,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kärdla Airport"
+  },
+  {
+   "id": "Q2984041",
+   "name": "Keri Lighthouse",
+   "sl": 26,
+   "file": "Keri tuletorn.JPG",
+   "lat": 59.6987,
+   "lon": 25.0227,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Keri lighthouse"
+  },
+  {
+   "id": "Q914562",
+   "name": "Kiek in de Kök",
+   "sl": 26,
+   "file": "Kiek in de Kök, Tallin, Estonia, 2012-08-05, DD 01.JPG",
+   "lat": 59.4348,
+   "lon": 24.7413,
+   "kind": "built",
+   "types": [
+    "fortified tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kiek in de Kök"
+  },
+  {
+   "id": "Q1810907",
+   "name": "Linnahall",
+   "sl": 26,
+   "file": "Linnahall 2006.jpg",
+   "lat": 59.4467,
+   "lon": 24.7528,
+   "kind": "built",
+   "types": [
+    "concert hall",
+    "ice rink",
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Linnahall"
+  },
+  {
+   "id": "Q999776",
+   "name": "Muuga Harbour",
+   "sl": 26,
+   "file": "Muuga Port 2015.jpg",
+   "lat": 59.5,
+   "lon": 24.9667,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Muuga"
+  },
+  {
+   "id": "Q37426",
+   "name": "Valaste Waterfall",
+   "sl": 26,
+   "file": "Ontika maastikukaitseala.jpg",
+   "lat": 59.4439,
+   "lon": 27.3353,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valaste Falls"
+  },
+  {
+   "id": "Q1375511",
+   "name": "Narva Town Hall",
+   "sl": 25,
+   "file": "Narva – Town hall (2023).jpg",
+   "lat": 59.3794,
+   "lon": 28.1989,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Narva Town Hall"
+  },
+  {
+   "id": "Q12367079",
+   "name": "Stone Bridge",
+   "sl": 25,
+   "file": "Kivisild, C. Schultz, ca 1880.jpg",
+   "lat": 58.3808,
+   "lon": 26.7259,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "stone bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stone Bridge (Tartu)"
+  },
+  {
+   "id": "Q33172",
+   "name": "Unibet Arena",
+   "sl": 25,
+   "file": "Unibet Arena.jpg",
+   "lat": 59.4261,
+   "lon": 24.6475,
+   "kind": "built",
+   "types": [
+    "event venue",
+    "indoor practice facility"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saku Suurhall"
+  },
+  {
+   "id": "Q2529281",
+   "name": "War of Independence Victory Column",
+   "sl": 25,
+   "file": "TallinnWarMemorial2009.JPG",
+   "lat": 59.434,
+   "lon": 24.7431,
+   "kind": "built",
+   "types": [
+    "Estonian War of Independence memorial",
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence War Victory Column"
+  },
+  {
+   "id": "Q918763",
+   "name": "Endla Nature Reserve",
+   "sl": 24,
+   "file": "Endla nature reserve, boardwalk and observation tower in Jõgevamaa, Estonia (spring 2023).jpg",
+   "lat": 58.87,
+   "lon": 26.2047,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Endla Nature Reserve"
+  },
+  {
+   "id": "Q304666",
+   "name": "Kadriorg Stadium",
+   "sl": 24,
+   "file": "Kadrioru staadion.JPG",
+   "lat": 59.4345,
+   "lon": 24.7834,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kadriorg Stadium"
+  },
+  {
+   "id": "Q621853",
+   "name": "Lake Harku",
+   "sl": 24,
+   "file": "Harku järv 2012.jpg",
+   "lat": 59.4167,
+   "lon": 24.6167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Harku"
+  },
+  {
+   "id": "Q2394712",
+   "name": "Tartu Town Hall",
+   "sl": 24,
+   "file": "Tartu asv2022-04 img19 Town Hall.jpg",
+   "lat": 58.38,
+   "lon": 26.7218,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tartu Town Hall"
+  },
+  {
+   "id": "Q938047",
+   "name": "Ämari Air Base",
+   "sl": 23,
+   "file": "A-10 from Michigan Air National Guard lands in Estonia.jpg",
+   "lat": 59.26,
+   "lon": 24.2083,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ämari Air Base"
+  },
+  {
+   "id": "Q595216",
+   "name": "Haanja Upland",
+   "sl": 23,
+   "file": "Haanja Upland.jpg",
+   "lat": 57.6945,
+   "lon": 27.0592,
+   "kind": "natural",
+   "types": [
+    "highland",
+    "hill group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1795607",
+   "name": "Kõpu Lighthouse",
+   "sl": 23,
+   "file": "Kõpu tuletorn Hiiumaal.jpg",
+   "lat": 58.916,
+   "lon": 22.1997,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kõpu lighthouse"
+  },
+  {
+   "id": "Q3740869",
+   "name": "Lake Kuremaa",
+   "sl": 23,
+   "file": "Kuremaa järv (mai 2012).JPG",
+   "lat": 58.7167,
+   "lon": 26.55,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Kuremaa"
+  },
+  {
+   "id": "Q1229384",
+   "name": "Lake Viljandi",
+   "sl": 23,
+   "file": "Viljandi järv, 2007.jpg",
+   "lat": 58.3519,
+   "lon": 25.5986,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Viljandi"
+  },
+  {
+   "id": "Q2322737",
+   "name": "St. Peter's and St. Paul's Cathedral",
+   "sl": 23,
+   "file": "Reval-8425.jpg",
+   "lat": 59.4381,
+   "lon": 24.7486,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sts. Peter and Paul Cathedral in Tallinn"
+  },
+  {
+   "id": "Q47569",
+   "name": "Suurjärv",
+   "sl": 23,
+   "file": "Rõuge Suurjärv 2011 10.jpg",
+   "lat": 57.7278,
+   "lon": 26.9222,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rõuge Suurjärv"
+  },
+  {
+   "id": "Q282994",
+   "name": "Fat Margaret",
+   "sl": 22,
+   "file": "Paks Margareeta.jpg",
+   "lat": 59.4426,
+   "lon": 24.7495,
+   "kind": "built",
+   "types": [
+    "fortified tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fat Margaret"
+  },
+  {
+   "id": "Q3234121",
+   "name": "Lake Ermistu",
+   "sl": 22,
+   "file": "Ermistu järv oktoobris.JPG",
+   "lat": 58.3667,
+   "lon": 23.975,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q634687",
+   "name": "Lake Tamula",
+   "sl": 22,
+   "file": "Tamula.jpg",
+   "lat": 57.8397,
+   "lon": 26.9869,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tamula"
+  },
+  {
+   "id": "Q3742798",
+   "name": "Paunküla Reservoir",
+   "sl": 22,
+   "file": "Paunküla veehoidla .JPG",
+   "lat": 59.1156,
+   "lon": 25.3525,
+   "kind": "both",
+   "types": [
+    "artificial lake",
+    "reservoir",
+    "water reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paunküla Reservoir"
+  },
+  {
+   "id": "Q2304576",
+   "name": "Tallinn Synagogue",
+   "sl": 22,
+   "file": "The Synagogue in Tallin.JPG",
+   "lat": 59.4386,
+   "lon": 24.7667,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tallinn Synagogue"
+  },
+  {
+   "id": "Q2089605",
+   "name": "Walls of Tallinn",
+   "sl": 22,
+   "file": "Tornide väljak 2014.jpg",
+   "lat": 59.4351,
+   "lon": 24.741,
+   "kind": "built",
+   "types": [
+    "city walls"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "City walls of Tallinn"
+  },
+  {
+   "id": "Q777726",
+   "name": "Church of the Holy Spirit",
+   "sl": 21,
+   "file": "Tallinn asv2022-04 img74 Holy Spirit Church.jpg",
+   "lat": 59.4381,
+   "lon": 24.7458,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Holy Spirit in Tallinn"
+  },
+  {
+   "id": "Q11883539",
+   "name": "House of the Blackheads",
+   "sl": 21,
+   "file": "At Tallinn 2024 216.jpg",
+   "lat": 59.4388,
+   "lon": 24.7467,
+   "kind": "built",
+   "types": [
+    "guild house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "House of the Blackheads (Tallinn)"
+  },
+  {
+   "id": "Q498583",
+   "name": "Kiipsaare Lighthouse",
+   "sl": 21,
+   "file": "Kiipsaare leaning lighthouse.jpg",
+   "lat": 58.4958,
+   "lon": 21.8411,
+   "kind": "built",
+   "types": [
+    "inclined tower",
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kiipsaare lighthouse"
+  },
+  {
+   "id": "Q1551237",
+   "name": "Pandivere Upland",
+   "sl": 21,
+   "file": "Ebavere Hill.jpg",
+   "lat": 59.23,
+   "lon": 26.28,
+   "kind": "natural",
+   "types": [
+    "hill chain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11133776",
+   "name": "Old City Harbour",
+   "sl": 19,
+   "file": "Old City Harbour, Tallinn.jpg",
+   "lat": 59.4444,
+   "lon": 24.7667,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vanasadam"
+  },
+  {
+   "id": "Q2301260",
+   "name": "Pirita Convent",
+   "sl": 19,
+   "file": "Püha Brigitta Klooster(Convent of St. Bridget).jpg",
+   "lat": 59.4668,
+   "lon": 24.8361,
+   "kind": "built",
+   "types": [
+    "abbey",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pirita Convent"
+  },
+  {
+   "id": "Q1253709",
+   "name": "Tallinn Song Festival Grounds",
+   "sl": 19,
+   "file": "XXV laulupidu (3).jpg",
+   "lat": 59.4447,
+   "lon": 24.8057,
+   "kind": "built",
+   "types": [
+    "event venue",
+    "sylvan theater",
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tallinn Song Festival Grounds"
+  },
+  {
+   "id": "Q1070298",
+   "name": "Town Hall Square",
+   "sl": 19,
+   "file": "Tallinn Town Hall Square, 2013.jpg",
+   "lat": 59.4372,
+   "lon": 24.7453,
+   "kind": "built",
+   "types": [
+    "square",
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Town Hall Square (Tallinn)"
+  }
+ ]
+}

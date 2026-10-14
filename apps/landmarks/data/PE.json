@@ -1,0 +1,1335 @@
+{
+ "country": "PE",
+ "items": [
+  {
+   "id": "Q676203",
+   "name": "Machu Picchu",
+   "sl": 150,
+   "file": "Machu Picchu, 2023 (012).jpg",
+   "lat": -13.1633,
+   "lon": -72.5456,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "World Heritage Site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Machu Picchu"
+  },
+  {
+   "id": "Q35342",
+   "name": "Titicaca",
+   "sl": 132,
+   "file": "00 1635 Reed Islands of Lake Titicaca.jpg",
+   "lat": -15.825,
+   "lon": -69.325,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "monomictic lake",
+    "mountain lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BO"
+   ],
+   "cat": "Lake Titicaca"
+  },
+  {
+   "id": "Q2620036",
+   "name": "Nazca Lines",
+   "sl": 69,
+   "file": "Líneas de Nazca, Nazca, Perú, 2015-07-29, DD 44.JPG",
+   "lat": -14.6975,
+   "lon": -75.135,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "geoglyph"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Nazca lines"
+  },
+  {
+   "id": "Q277540",
+   "name": "Chan Chan",
+   "sl": 52,
+   "file": "Chan Chan, 2023 (32).jpg",
+   "lat": -8.1106,
+   "lon": -79.075,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Chan Chan"
+  },
+  {
+   "id": "Q200935",
+   "name": "Huascarán",
+   "sl": 49,
+   "file": "Huascaran norte.JPG",
+   "lat": -9.1167,
+   "lon": -77.6,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Huascarán"
+  },
+  {
+   "id": "Q219279",
+   "name": "Caral",
+   "sl": 46,
+   "file": "PeruCaral01.jpg",
+   "lat": -10.8936,
+   "lon": -77.5203,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Caral-Supe"
+  },
+  {
+   "id": "Q390264",
+   "name": "Manu National Park",
+   "sl": 46,
+   "file": "Manu riverbank.jpg",
+   "lat": -12.14,
+   "lon": -71.66,
+   "kind": "natural",
+   "types": [
+    "national park of Peru"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Manú National Park"
+  },
+  {
+   "id": "Q732554",
+   "name": "Chavin de Huantar",
+   "sl": 43,
+   "file": "Chavin - Août 2007.jpg",
+   "lat": -9.5928,
+   "lon": -77.1785,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Chavín de Huántar (archaeological site)"
+  },
+  {
+   "id": "Q917369",
+   "name": "Huascarán National Park",
+   "sl": 42,
+   "file": "Llanganuco ancash.jpg",
+   "lat": -9.4,
+   "lon": -77.4,
+   "kind": "natural",
+   "types": [
+    "national park of Peru"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Huascarán National Park"
+  },
+  {
+   "id": "Q828336",
+   "name": "Saqsaywaman",
+   "sl": 38,
+   "file": "Sacsayhuamán, Cusco, Perú, 2015-07-31, DD 27.JPG",
+   "lat": -13.5078,
+   "lon": -71.9822,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sacsayhuamán"
+  },
+  {
+   "id": "Q1142219",
+   "name": "Jorge Chávez International Airport",
+   "sl": 37,
+   "file": "Aeropuerto gorge chavez.png",
+   "lat": -12.0219,
+   "lon": -77.1144,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jorge Chávez International Airport"
+  },
+  {
+   "id": "Q941412",
+   "name": "Río Abiseo National Park",
+   "sl": 37,
+   "file": "Quebrada Churo- Parque Nacional del Rio Abiseo.jpg",
+   "lat": -7.75,
+   "lon": -77.25,
+   "kind": "natural",
+   "types": [
+    "national park of Peru"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Río Abiseo National Park"
+  },
+  {
+   "id": "Q572865",
+   "name": "Misti",
+   "sl": 36,
+   "file": "El misti.jpg",
+   "lat": -16.2964,
+   "lon": -71.4106,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Misti"
+  },
+  {
+   "id": "Q829688",
+   "name": "Alpamayo",
+   "sl": 33,
+   "file": "Alpamayo 12.jpg",
+   "lat": -8.8792,
+   "lon": -77.6533,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alpamayo"
+  },
+  {
+   "id": "Q827432",
+   "name": "Vilcabamba",
+   "sl": 33,
+   "file": "Espiritu Pampa Archaeological site - overgrown house.jpg",
+   "lat": -12.9028,
+   "lon": -73.2058,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Espiritu Pampa"
+  },
+  {
+   "id": "Q2237464",
+   "name": "Sacred Valley",
+   "sl": 32,
+   "file": "The Sacred Valley, Peru-2 (8445855270).jpg",
+   "lat": -13.3333,
+   "lon": -72.0833,
+   "kind": "natural",
+   "types": [
+    "cultural landscape",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sacred Valley"
+  },
+  {
+   "id": "Q946035",
+   "name": "Coropuna",
+   "sl": 31,
+   "file": "Coropuna Volcano.jpg",
+   "lat": -15.5203,
+   "lon": -72.6572,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Coropuna"
+  },
+  {
+   "id": "Q845427",
+   "name": "Huayna Picchu",
+   "sl": 31,
+   "file": "Machu Picchu (2005) Mark Blumenthal.jpg",
+   "lat": -13.1575,
+   "lon": -72.5472,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Huayna Picchu"
+  },
+  {
+   "id": "Q941342",
+   "name": "Lake Junín",
+   "sl": 31,
+   "file": "Lago Junín.jpg",
+   "lat": -11.0201,
+   "lon": -76.1075,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Junín"
+  },
+  {
+   "id": "Q939994",
+   "name": "Sechura Desert",
+   "sl": 31,
+   "file": "Piura satelital.png",
+   "lat": -5.8333,
+   "lon": -80.6667,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q529797",
+   "name": "Yerupajá",
+   "sl": 31,
+   "file": "Yerupaja Grande.jpg",
+   "lat": -10.2689,
+   "lon": -76.9053,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yerupajá"
+  },
+  {
+   "id": "Q578777",
+   "name": "Nevado Mismi",
+   "sl": 30,
+   "file": "Nevado Mismi.jpg",
+   "lat": -15.5253,
+   "lon": -71.6908,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mismi"
+  },
+  {
+   "id": "Q817594",
+   "name": "Coricancha",
+   "sl": 29,
+   "file": "Cusco Coricancha Inti-Huasi main view.jpg",
+   "lat": -13.5201,
+   "lon": -71.9757,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "sun temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Coricancha"
+  },
+  {
+   "id": "Q1062357",
+   "name": "Chankillo",
+   "sl": 28,
+   "file": "Chanquillo Fortaleza (remains).jpg",
+   "lat": -9.5567,
+   "lon": -78.2358,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "astronomical observatory"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q108016068",
+    "name": "Chankillo Archaeoastronomical Complex"
+   },
+   "also": [],
+   "cat": "Chanquillo"
+  },
+  {
+   "id": "Q1107685",
+   "name": "Colca Canyon",
+   "sl": 28,
+   "file": "Colca Canyon Puno.jpg",
+   "lat": -15.5972,
+   "lon": -72.0559,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Colca Valley"
+  },
+  {
+   "id": "Q512389",
+   "name": "Gocta Cataracts",
+   "sl": 28,
+   "file": "Catarata de Gocta, 2023 (06).jpg",
+   "lat": -6.0231,
+   "lon": -77.8872,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gocta Waterfall"
+  },
+  {
+   "id": "Q1075162",
+   "name": "Ubinas",
+   "sl": 28,
+   "file": "Volcán Ubinas y Laguna de Salinas, Arequipa, Perú, 2015-08-02, DD 48.JPG",
+   "lat": -16.3486,
+   "lon": -70.9022,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ubinas"
+  },
+  {
+   "id": "Q474428",
+   "name": "Ampato",
+   "sl": 26,
+   "file": "Ampato023.jpg",
+   "lat": -15.8206,
+   "lon": -71.88,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ampato"
+  },
+  {
+   "id": "Q1369495",
+   "name": "National Stadium of Peru",
+   "sl": 26,
+   "file": "Vista aérea del estadio nacional del Perú (2021).jpg",
+   "lat": -12.0671,
+   "lon": -77.0337,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Nacional del Perú"
+  },
+  {
+   "id": "Q28025526",
+   "name": "Vinicunca",
+   "sl": 26,
+   "file": "Montana de colores Cusco (Vinicunca) y Valle Rojo por Inka Time.jpg",
+   "lat": -13.8695,
+   "lon": -71.303,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vinicunca"
+  },
+  {
+   "id": "Q777794",
+   "name": "Ausangate",
+   "sl": 25,
+   "file": "Ausangate.jpg",
+   "lat": -13.7886,
+   "lon": -71.2311,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ausangate"
+  },
+  {
+   "id": "Q1361820",
+   "name": "Kuelap",
+   "sl": 25,
+   "file": "Kuelap.jpg",
+   "lat": -6.4179,
+   "lon": -77.9233,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuelap"
+  },
+  {
+   "id": "Q1495331",
+   "name": "Punta Pariñas",
+   "sl": 25,
+   "file": "Punta Balcones, Talara.jpg",
+   "lat": -4.6792,
+   "lon": -81.3264,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1076285",
+   "name": "Choquequirao",
+   "sl": 23,
+   "file": "Choquequirao.jpg",
+   "lat": -13.3947,
+   "lon": -72.8722,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Choquequirao"
+  },
+  {
+   "id": "Q1507682",
+   "name": "Siula Grande",
+   "sl": 23,
+   "file": "Siula Grande 072530032013.jpg",
+   "lat": -10.2933,
+   "lon": -76.8926,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siula Grande"
+  },
+  {
+   "id": "Q1632785",
+   "name": "Huandoy",
+   "sl": 22,
+   "file": "Beauty of mount Huandoy, Cordillera Blanca, Ancash, Peru.jpg",
+   "lat": -9.0286,
+   "lon": -77.6656,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Huandoy"
+  },
+  {
+   "id": "Q38323",
+   "name": "Yumbilla Falls",
+   "sl": 22,
+   "file": "Catarata Yumbilla.jpg",
+   "lat": -5.9199,
+   "lon": -77.9012,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yumbilla Falls"
+  },
+  {
+   "id": "Q707934",
+   "name": "Artesonraju",
+   "sl": 21,
+   "file": "Artesonraju.jpg",
+   "lat": -8.95,
+   "lon": -77.6333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Artesonraju"
+  },
+  {
+   "id": "Q1058424",
+   "name": "Chachani",
+   "sl": 21,
+   "file": "Chachani summit edited.jpg",
+   "lat": -16.1942,
+   "lon": -71.5317,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chachani"
+  },
+  {
+   "id": "Q2574847",
+   "name": "Paracas Candelabra",
+   "sl": 21,
+   "file": "Paracas Candelabra - Ica, Peru.jpg",
+   "lat": -13.7943,
+   "lon": -76.3086,
+   "kind": "natural",
+   "types": [
+    "cultural heritage",
+    "geoglyph"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paracas Candelabra"
+  },
+  {
+   "id": "Q1641313",
+   "name": "Pichu Pichu",
+   "sl": 21,
+   "file": "Pichu-pichu.jpg",
+   "lat": -16.4411,
+   "lon": -71.2404,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pichu Pichu"
+  },
+  {
+   "id": "Q1677131",
+   "name": "Túcume",
+   "sl": 21,
+   "file": "PirámidesTúcume lou.jpg",
+   "lat": -6.5158,
+   "lon": -79.8442,
+   "kind": "built",
+   "types": [
+    "archaeological find",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Túcume"
+  },
+  {
+   "id": "Q119078",
+   "name": "Jirishanca",
+   "sl": 20,
+   "file": "Jirishanca 07343.jpg",
+   "lat": -10.2519,
+   "lon": -76.9031,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jirishanca"
+  },
+  {
+   "id": "Q2307752",
+   "name": "Paracas National Reservation",
+   "sl": 20,
+   "file": "Paracas National Reserve. Ica, Peru.jpg",
+   "lat": -14.1,
+   "lon": -76.2,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "Ramsar site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paracas National Reserve"
+  },
+  {
+   "id": "Q1025802",
+   "name": "Cahuachi",
+   "sl": 19,
+   "file": "Cahuachi 14.jpg",
+   "lat": -14.8186,
+   "lon": -75.1167,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cahuachi"
+  },
+  {
+   "id": "Q2446793",
+   "name": "Cathedral of Lima",
+   "sl": 19,
+   "file": "Fachada principal de la Catedral de Lima.jpg",
+   "lat": -12.0465,
+   "lon": -77.03,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Lima"
+  },
+  {
+   "id": "Q2325080",
+   "name": "Chacraraju",
+   "sl": 19,
+   "file": "Chacraraju.jpg",
+   "lat": -8.9933,
+   "lon": -77.615,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chacraraju"
+  },
+  {
+   "id": "Q1286295",
+   "name": "Inca Manco Cápac International Airport",
+   "sl": 19,
+   "file": "Mancocapac3 1.jpg",
+   "lat": -15.4669,
+   "lon": -70.1581,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aeropuerto Internacional Inca Manco Cápac"
+  },
+  {
+   "id": "Q1954240",
+   "name": "Larco Museum",
+   "sl": 19,
+   "file": "Lima museo larco.jpg",
+   "lat": -12.0725,
+   "lon": -77.0709,
+   "kind": "built",
+   "types": [
+    "archaeological museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo Arqueológico Rafael Larco Herrera"
+  },
+  {
+   "id": "Q1430861",
+   "name": "Rodríguez Ballón International Airport",
+   "sl": 19,
+   "file": "Full Runway SPQU 01.jpg",
+   "lat": -16.3411,
+   "lon": -71.5831,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rodríguez Ballón International Airport"
+  },
+  {
+   "id": "Q337974",
+   "name": "Sabancaya",
+   "sl": 19,
+   "file": "Erupción en el volcán Sabancaya, Perú.jpg",
+   "lat": -15.7867,
+   "lon": -71.8575,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sabancaya"
+  },
+  {
+   "id": "Q1360456",
+   "name": "Tambomachay",
+   "sl": 19,
+   "file": "Tambomachay, 2023 (08).jpg",
+   "lat": -13.4808,
+   "lon": -71.9647,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "spa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tambomachay"
+  },
+  {
+   "id": "Q1427739",
+   "name": "Tutupaca",
+   "sl": 19,
+   "file": "Tutupaca2.jpg",
+   "lat": -17.0264,
+   "lon": -70.3717,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tutupaca (volcano)"
+  },
+  {
+   "id": "Q1431170",
+   "name": "Alejandro Velasco Astete International Airport",
+   "sl": 18,
+   "file": "Aeropuerto Internacional Alejandro Velasco Astete.jpg",
+   "lat": -13.5356,
+   "lon": -71.9436,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alejandro Velasco Astete International Airport"
+  },
+  {
+   "id": "Q1068427",
+   "name": "Chaupi Orco",
+   "sl": 18,
+   "file": "Chaupi Orco from the west.jpg",
+   "lat": -14.6533,
+   "lon": -69.2283,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BO"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1431540",
+   "name": "Crnl. FAP Francisco Secada Vignetta International Airport",
+   "sl": 18,
+   "file": "Aeropuerto Internacional Francisco Secada Vignetta - Aéreo.jpg",
+   "lat": -3.7847,
+   "lon": -73.3086,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Crnl. FAP Francisco Secada Vignetta International Airport"
+  },
+  {
+   "id": "Q1814201",
+   "name": "Moray",
+   "sl": 18,
+   "file": "Moray, 2023 (13).jpg",
+   "lat": -13.3293,
+   "lon": -72.1964,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moray (Peru)"
+  },
+  {
+   "id": "Q2390374",
+   "name": "Puka Pukara",
+   "sl": 18,
+   "file": "Puca Pucara, 2023 (03).jpg",
+   "lat": -13.4834,
+   "lon": -71.9618,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pukapukara"
+  },
+  {
+   "id": "Q730030",
+   "name": "Salcantay",
+   "sl": 18,
+   "file": "Humantay, 2023 (03).jpg",
+   "lat": -13.3336,
+   "lon": -72.5444,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salcantay"
+  },
+  {
+   "id": "Q385938",
+   "name": "Government Palace",
+   "sl": 17,
+   "file": "Palacio de Gobierno del Perú 2017.jpg",
+   "lat": -12.0451,
+   "lon": -77.0299,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Government Palace, Lima"
+  },
+  {
+   "id": "Q1544441",
+   "name": "Huaca de la Luna",
+   "sl": 17,
+   "file": "Ausgrabungsstätte Huaca de la Luna 44.jpg",
+   "lat": -8.135,
+   "lon": -78.9914,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "protected area",
+    "pyramid",
+    "step pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Huaca de la Luna"
+  },
+  {
+   "id": "Q1668625",
+   "name": "KV54",
+   "sl": 17,
+   "file": "KV54-Pottery-Dishes-OtherItems MetropolitanMuseum.png",
+   "lat": 25.7397,
+   "lon": 32.6025,
+   "kind": "built",
+   "types": [
+    "hypogeum",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "KV54"
+  },
+  {
+   "id": "Q81118",
+   "name": "Lauricocha Lake",
+   "sl": 17,
+   "file": "Laguna Lauricocha 07613.jpg",
+   "lat": -10.3167,
+   "lon": -76.7,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Lauricocha"
+  },
+  {
+   "id": "Q2351926",
+   "name": "Q'inqu",
+   "sl": 17,
+   "file": "Q'enqo.jpg",
+   "lat": -13.5106,
+   "lon": -71.9717,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Q'inqu"
+  },
+  {
+   "id": "Q2652409",
+   "name": "Sara Sara",
+   "sl": 17,
+   "file": "Sara Sara Volcano.jpg",
+   "lat": -15.3235,
+   "lon": -73.4494,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sara Sara"
+  },
+  {
+   "id": "Q568661",
+   "name": "Toquepala Caves",
+   "sl": 17,
+   "file": "Una pintura rupestre de la cueva de Toquepala.JPG",
+   "lat": -17.3043,
+   "lon": -70.718,
+   "kind": "both",
+   "types": [
+    "cave",
+    "cave with prehistoric art"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toquepala"
+  },
+  {
+   "id": "Q977740",
+   "name": "Amotape Hills National Park",
+   "sl": 16,
+   "file": "Valle del río Tumbes (9103997357).jpg",
+   "lat": -4.1478,
+   "lon": -80.59,
+   "kind": "natural",
+   "types": [
+    "national park of Peru"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerros de Amotape National Park"
+  },
+  {
+   "id": "Q1928597",
+   "name": "Chopicalqui",
+   "sl": 16,
+   "file": "Chopicalqui2013.jpg",
+   "lat": -9.0867,
+   "lon": -77.5739,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chopicalqui"
+  },
+  {
+   "id": "Q3498313",
+   "name": "Cordillera del Cóndor",
+   "sl": 16,
+   "file": "Vegetation-at-the-summit-of-the-Machinaza-plateau-Cordillera-del-Cndor-Ecuador-2450-m-photograph-D.jpg",
+   "lat": -4,
+   "lon": -78.5,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EC"
+   ],
+   "cat": "Cordillera del Cóndor"
+  },
+  {
+   "id": "Q1431582",
+   "name": "Francisco Carle Airport",
+   "sl": 16,
+   "file": "Airport Jauja Peru.jpg",
+   "lat": -11.7831,
+   "lon": -75.4733,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Francisco Carle Airport"
+  },
+  {
+   "id": "Q1554172",
+   "name": "Guitarrero Cave",
+   "sl": 16,
+   "file": "Cueva del Guitarrero.jpg",
+   "lat": -9.2,
+   "lon": -77.7,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cueva de Guitarrero"
+  },
+  {
+   "id": "Q2669852",
+   "name": "Kotosh",
+   "sl": 16,
+   "file": "Kotosh.jpg",
+   "lat": -9.9308,
+   "lon": -76.2794,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kotosh"
+  },
+  {
+   "id": "Q1806749",
+   "name": "Palcacocha Lake",
+   "sl": 16,
+   "file": "Lago Palcacocha 2002.jpg",
+   "lat": -9.3969,
+   "lon": -77.3797,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palcacocha"
+  },
+  {
+   "id": "Q523609",
+   "name": "Patallaqta",
+   "sl": 16,
+   "file": "Camino-inca-dia1-llactapata-c01.jpg",
+   "lat": -13.2312,
+   "lon": -72.4248,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Patallacta"
+  },
+  {
+   "id": "Q2466617",
+   "name": "Pisco",
+   "sl": 16,
+   "file": "Pisco and Chacraraju reflection at Yanapaccha base camp (6020836415).jpg",
+   "lat": -9.0118,
+   "lon": -77.6311,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pisco, mountain"
+  },
+  {
+   "id": "Q2536763",
+   "name": "Plaza Mayor, Lima",
+   "sl": 16,
+   "file": "Plaza de Armas, Lima, Peru.jpg",
+   "lat": -12.046,
+   "lon": -77.0305,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza Mayor (Lima)"
+  },
+  {
+   "id": "Q2812162",
+   "name": "Alto Purús National Park",
+   "sl": 15,
+   "file": "Purús peruano 1.png",
+   "lat": -10.82,
+   "lon": -71.64,
+   "kind": "natural",
+   "types": [
+    "national park of Peru"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alto Purús National Park"
+  },
+  {
+   "id": "Q264948",
+   "name": "Cordillera Azul National Park",
+   "sl": 15,
+   "file": "Cordillera Azul National Park - ZooKeys-277-069-g005.jpg",
+   "lat": -7.75,
+   "lon": -75.94,
+   "kind": "natural",
+   "types": [
+    "national park of Peru"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cordillera Azul National Park"
+  },
+  {
+   "id": "Q1968801",
+   "name": "Cutervo National Park",
+   "sl": 15,
+   "file": "Forests at Cutervo National Park.jpg",
+   "lat": -6.2019,
+   "lon": -78.7883,
+   "kind": "natural",
+   "types": [
+    "national park of Peru"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cutervo National Park"
+  },
+  {
+   "id": "Q1369426",
+   "name": "Estadio Monumental U",
+   "sl": 15,
+   "file": "Estadio Monumental 2021.jpg",
+   "lat": -12.0557,
+   "lon": -76.936,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Monumental (Perú)"
+  }
+ ]
+}

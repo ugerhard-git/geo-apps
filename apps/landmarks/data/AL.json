@@ -1,0 +1,1381 @@
+{
+ "country": "AL",
+ "items": [
+  {
+   "id": "Q164070",
+   "name": "Strait of Otranto",
+   "sl": 77,
+   "file": "Gulf of Taranto map.png",
+   "lat": 40.2194,
+   "lon": 18.9256,
+   "kind": "natural",
+   "types": [
+    "sound",
+    "strait"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Strait of Otranto"
+  },
+  {
+   "id": "Q156258",
+   "name": "Lake Ohrid",
+   "sl": 63,
+   "file": "Lake Ohrid, Macedonia-Albania viewed from a NASA satellite.jpg",
+   "lat": 41.0333,
+   "lon": 20.7167,
+   "kind": "natural",
+   "types": [
+    "ancient lake",
+    "lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2215414",
+    "name": "Natural and Cultural Heritage of the Ohrid region"
+   },
+   "also": [
+    "MK"
+   ],
+   "cat": "Lake Ohrid"
+  },
+  {
+   "id": "Q188694",
+   "name": "Butrint",
+   "sl": 62,
+   "file": "Butrint, Albania.jpg",
+   "lat": 39.7571,
+   "lon": 20.0166,
+   "kind": "built",
+   "types": [
+    "Ancient Greek archaeological site",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Butrint"
+  },
+  {
+   "id": "Q204392",
+   "name": "Lake Prespa",
+   "sl": 59,
+   "file": "Lake Prespa Albania.jpg",
+   "lat": 40.9,
+   "lon": 21.05,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GR",
+    "MK"
+   ],
+   "cat": "Lake Prespa"
+  },
+  {
+   "id": "Q203811",
+   "name": "Lake Skadar",
+   "sl": 55,
+   "file": "Skadarsko Jezero.jpg",
+   "lat": 42.1814,
+   "lon": 19.309,
+   "kind": "natural",
+   "types": [
+    "karst lake",
+    "lake",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ME"
+   ],
+   "cat": "Lake Scutari"
+  },
+  {
+   "id": "Q217226",
+   "name": "Tirana International Airport Nënë Tereza",
+   "sl": 52,
+   "file": "Rinas.JPG",
+   "lat": 41.4147,
+   "lon": 19.7206,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tirana International Airport Nënë Tereza"
+  },
+  {
+   "id": "Q912579",
+   "name": "Korab",
+   "sl": 48,
+   "file": "Panair Korab.jpg",
+   "lat": 41.7903,
+   "lon": 20.5467,
+   "kind": "natural",
+   "types": [
+    "main peak",
+    "mountain",
+    "two-thousander",
+    "ultra-prominent peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": "Korab"
+  },
+  {
+   "id": "Q505703",
+   "name": "Apollonia",
+   "sl": 44,
+   "file": "Appolonia Albania.jpg",
+   "lat": 40.7167,
+   "lon": 19.4667,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Ancient Greek archaeological site",
+    "polis",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apollonia (Albania)"
+  },
+  {
+   "id": "Q1032440",
+   "name": "Jezercë",
+   "sl": 42,
+   "file": "Jezerski Vrh (2694) sa Karanfila (2480).jpg",
+   "lat": 42.4422,
+   "lon": 19.8128,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "main peak",
+    "mountain",
+    "two-thousander"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jezerca"
+  },
+  {
+   "id": "Q1729043",
+   "name": "Karavasta Lagoon",
+   "sl": 33,
+   "file": "Karavasta lagoon from South to Divjaka (OSCAL19 trip).jpg",
+   "lat": 40.9275,
+   "lon": 19.4986,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karavasta Lagoon"
+  },
+  {
+   "id": "Q1157724",
+   "name": "Mount Dajti",
+   "sl": 33,
+   "file": "Mali i Dajtit.jpg",
+   "lat": 41.3658,
+   "lon": 19.9256,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dajti"
+  },
+  {
+   "id": "Q24895377",
+   "name": "Air Albania Stadium",
+   "sl": 32,
+   "file": "Air Albania Stadium close.jpg",
+   "lat": 41.3183,
+   "lon": 19.8241,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena Kombëtare"
+  },
+  {
+   "id": "Q779868",
+   "name": "Roman amphitheatre of Durrës",
+   "sl": 32,
+   "file": "Amfiteatr rzymski w Durrës 1.jpg",
+   "lat": 41.3122,
+   "lon": 19.4453,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Roman amphitheatre"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amphitheatre of Durrës"
+  },
+  {
+   "id": "Q798610",
+   "name": "Et'hem Bey Mosque",
+   "sl": 31,
+   "file": "Ethem Bey mosque, Tirana (by Pudelek).jpg",
+   "lat": 41.3278,
+   "lon": 19.8194,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ethem Bey mosque"
+  },
+  {
+   "id": "Q609528",
+   "name": "Skanderbeg Square",
+   "sl": 30,
+   "file": "Tirana - Skanderbeg Square (Sheshi Skënderbej) - by Pudelek.jpg",
+   "lat": 41.3279,
+   "lon": 19.8185,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skanderbeg Square (Tirana)"
+  },
+  {
+   "id": "Q370992",
+   "name": "Small Prespa lake",
+   "sl": 29,
+   "file": "St.Ahil from Langi.JPG",
+   "lat": 40.7661,
+   "lon": 21.1,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GR"
+   ],
+   "cat": "Small Prespa Lake"
+  },
+  {
+   "id": "Q1285400",
+   "name": "Gramos",
+   "sl": 28,
+   "file": "Grammospeak.jpg",
+   "lat": 40.3333,
+   "lon": 20.75,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GR"
+   ],
+   "cat": "Gramos"
+  },
+  {
+   "id": "Q975250",
+   "name": "Butrint National Park",
+   "sl": 27,
+   "file": "Butrinti, Sarande 12.jpg",
+   "lat": 39.7461,
+   "lon": 20.0203,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Butrint"
+  },
+  {
+   "id": "Q568256",
+   "name": "Jablanica Mountains",
+   "sl": 27,
+   "file": "Jablanica mountain in winter 2020, in right side is highest peak Black Stone, and in left side Chumin peak.jpg",
+   "lat": 41.25,
+   "lon": 20.5,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": "Jablanica Mountain"
+  },
+  {
+   "id": "Q1639016",
+   "name": "Mother Albania",
+   "sl": 27,
+   "file": "Tirana – Mother Albania 2.jpg",
+   "lat": 41.3085,
+   "lon": 19.8402,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "monument",
+    "statue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mother Albania Monument"
+  },
+  {
+   "id": "Q1969017",
+   "name": "Shebenik National Park",
+   "sl": 27,
+   "file": "Panoramic view of Shebenik-Jabllanicë National Park from Black Stone Peak.jpg",
+   "lat": 41.2226,
+   "lon": 20.45,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shebenik National Park"
+  },
+  {
+   "id": "Q1725911",
+   "name": "Valbonë Valley National Park",
+   "sl": 27,
+   "file": "2013-10-05 Valbona, Albania 8806.jpg",
+   "lat": 42.4533,
+   "lon": 19.8878,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Albanian Alps National Park"
+  },
+  {
+   "id": "Q686088",
+   "name": "Llogara National Park",
+   "sl": 26,
+   "file": "Llogara pass.jpg",
+   "lat": 40.2164,
+   "lon": 19.5703,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Llogara"
+  },
+  {
+   "id": "Q1521938",
+   "name": "Lurë-Dejë Mountain National Park",
+   "sl": 26,
+   "file": "Lura Liqeni i Lulëve.JPG",
+   "lat": 41.7833,
+   "lon": 20.1833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lurë"
+  },
+  {
+   "id": "Q60491",
+   "name": "Rozafa Fortress",
+   "sl": 26,
+   "file": "Rozafa Castle in July 2013 (5).JPG",
+   "lat": 42.0463,
+   "lon": 19.493,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rozafa Fortress"
+  },
+  {
+   "id": "Q73515",
+   "name": "Deshat",
+   "sl": 25,
+   "file": "Веливар (Дешат) 04.jpg",
+   "lat": 41.6372,
+   "lon": 20.525,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": "Deshat"
+  },
+  {
+   "id": "Q717375",
+   "name": "Qemal Stafa Stadium",
+   "sl": 25,
+   "file": "QemalStafaStadiumTirana.JPG",
+   "lat": 41.3183,
+   "lon": 19.8241,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qemal Stafa Stadium"
+  },
+  {
+   "id": "Q1164619",
+   "name": "Koritnik",
+   "sl": 24,
+   "file": "Koritnik from Pashtrik.jpg",
+   "lat": 42.0798,
+   "lon": 20.5569,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "XK"
+   ],
+   "cat": "Koritnik"
+  },
+  {
+   "id": "Q1870384",
+   "name": "Loro Boriçi Stadium",
+   "sl": 24,
+   "file": "Extract of Loro-Borici-Stadion.jpg",
+   "lat": 42.07,
+   "lon": 19.5066,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Loro Boriçi Stadium"
+  },
+  {
+   "id": "Q2305090",
+   "name": "Mount Tomorr",
+   "sl": 24,
+   "file": "Tomorr Mountain view from Berat Castle.jpg",
+   "lat": 40.7091,
+   "lon": 20.1418,
+   "kind": "natural",
+   "types": [
+    "anthropomorphism",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomorr"
+  },
+  {
+   "id": "Q7383667",
+   "name": "Ruzhdi Bizhuta Stadium",
+   "sl": 24,
+   "file": "Elbasan Arena stadium in Elbasan, Albania 2.jpg",
+   "lat": 41.1159,
+   "lon": 20.092,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elbasan Arena"
+  },
+  {
+   "id": "Q1231952",
+   "name": "Divjakë-Karavasta National Park",
+   "sl": 23,
+   "file": "Flamingo Divjakë.jpg",
+   "lat": 40.9242,
+   "lon": 19.4931,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area",
+    "Ramsar site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Divjakë-Karavasta National Park"
+  },
+  {
+   "id": "Q18715177",
+   "name": "Great Mosque of Tirana",
+   "sl": 23,
+   "file": "Great Mosque of Tirana (2020).jpg",
+   "lat": 41.3256,
+   "lon": 19.8242,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Namazgâh Mosque of Tirana"
+  },
+  {
+   "id": "Q856285",
+   "name": "Mes Bridge",
+   "sl": 23,
+   "file": "Mesi Bridge 2025.jpg",
+   "lat": 42.1145,
+   "lon": 19.575,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "bridge",
+    "cultural property",
+    "footbridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mesi Bridge"
+  },
+  {
+   "id": "Q1581154",
+   "name": "National Historical Museum",
+   "sl": 23,
+   "file": "Museo Nacional de Historia, Tirana, Albania, 2014-04-17, DD 10.JPG",
+   "lat": 41.3293,
+   "lon": 19.8172,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "history museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Historical Museum (Albania)"
+  },
+  {
+   "id": "Q1968784",
+   "name": "Dajti National Park",
+   "sl": 22,
+   "file": "Mali i Dajtit.jpg",
+   "lat": 41.3658,
+   "lon": 19.9256,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dajti"
+  },
+  {
+   "id": "Q177335",
+   "name": "Pyramid of Tirana",
+   "sl": 22,
+   "file": "Pyramid of Tirana October 2023.jpg",
+   "lat": 41.323,
+   "lon": 19.8216,
+   "kind": "built",
+   "types": [
+    "memorial",
+    "monument",
+    "pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyramid of Tirana"
+  },
+  {
+   "id": "Q1973837",
+   "name": "Blue Eye",
+   "sl": 21,
+   "file": "Syri i Kalter.jpg",
+   "lat": 39.9236,
+   "lon": 20.1928,
+   "kind": "natural",
+   "types": [
+    "karst spring",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Syri i Kaltër"
+  },
+  {
+   "id": "Q944830",
+   "name": "Gjallica",
+   "sl": 21,
+   "file": "Kukesi, Gjallica nga fshati Demiroll.jpg",
+   "lat": 42.0117,
+   "lon": 20.4697,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gjallica"
+  },
+  {
+   "id": "Q3303191",
+   "name": "Gjergj Kastrioti Skënderbeu National Museum",
+   "sl": 21,
+   "file": "07Albanien Kruje Museum01.jpg",
+   "lat": 41.5074,
+   "lon": 19.794,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum \"Gjergj Kastrioti Skënderbeu\""
+  },
+  {
+   "id": "Q993154",
+   "name": "Tomorr Mountain National Park",
+   "sl": 21,
+   "file": "Tomorr Mountain view from Berat Castle.jpg",
+   "lat": 40.7,
+   "lon": 20.1333,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomorr"
+  },
+  {
+   "id": "Q1018544",
+   "name": "Byllis",
+   "sl": 20,
+   "file": "De-stoa-in-byllis-albanie.jpg",
+   "lat": 40.55,
+   "lon": 19.7334,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Byllis"
+  },
+  {
+   "id": "Q1409023",
+   "name": "Krujë Fortress",
+   "sl": 20,
+   "file": "Kalaja e Krujes 8.jpg",
+   "lat": 41.507,
+   "lon": 19.7941,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krujë Fortress"
+  },
+  {
+   "id": "Q1886014",
+   "name": "Mali i Çikës",
+   "sl": 20,
+   "file": "Maja i Cikes, pohled na vrchol.jpg",
+   "lat": 40.2,
+   "lon": 19.6167,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mali i Çikës"
+  },
+  {
+   "id": "Q37858697",
+   "name": "House of Leaves",
+   "sl": 19,
+   "file": "Muzeu Kombëtar i Përgjimeve, “Shtëpia me Gjethe”.jpg",
+   "lat": 41.3267,
+   "lon": 19.8165,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Secret Surveillance (Tirana)"
+  },
+  {
+   "id": "Q1431804",
+   "name": "Kukës International Airport Zayed",
+   "sl": 19,
+   "file": "Kukës Airport 2022.jpg",
+   "lat": 42.0361,
+   "lon": 20.4159,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kukës International Airport"
+  },
+  {
+   "id": "Q1021796",
+   "name": "Porto Palermo Fortress",
+   "sl": 19,
+   "file": "Kalaja e Porto Palermos nga droni 3 - Shqipëri.jpg",
+   "lat": 40.0621,
+   "lon": 19.7907,
+   "kind": "built",
+   "types": [
+    "castle",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Porto Palermo Fortress"
+  },
+  {
+   "id": "Q7574167",
+   "name": "Spaç Prison",
+   "sl": 19,
+   "file": "Spaç Prison, Mirditë, Albania – Buildings 2018 13.jpg",
+   "lat": 41.8992,
+   "lon": 20.0461,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spaç Prison"
+  },
+  {
+   "id": "Q65349",
+   "name": "Bashtovë Fortress",
+   "sl": 18,
+   "file": "Castle of Bashtovë.jpg",
+   "lat": 41.047,
+   "lon": 19.4967,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bashtovë Fortress"
+  },
+  {
+   "id": "Q636638",
+   "name": "Gjirokastër Fortress",
+   "sl": 18,
+   "file": "Kalaja e Gjirokastrës 15.jpg",
+   "lat": 40.074,
+   "lon": 20.141,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gjirokastër Fortress"
+  },
+  {
+   "id": "Q1473700",
+   "name": "Karaburun-Sazan National Marine Park",
+   "sl": 18,
+   "file": "Gjiri Skaloma Beget. Karaburun.jpg",
+   "lat": 40.4333,
+   "lon": 19.3,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "protected areas of Albania"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karaburun-Sazan Marine Park"
+  },
+  {
+   "id": "Q39060585",
+   "name": "Korab-Koritnik Nature Park",
+   "sl": 18,
+   "file": "Mali Bardhe.jpg",
+   "lat": 41.7833,
+   "lon": 20.55,
+   "kind": "natural",
+   "types": [
+    "nature park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q851050",
+   "name": "Lake Butrint",
+   "sl": 18,
+   "file": "Lac de Butrint.jpg",
+   "lat": 39.7806,
+   "lon": 20.0306,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Butrinti"
+  },
+  {
+   "id": "Q597573",
+   "name": "National Theater of Albania",
+   "sl": 18,
+   "file": "Teatri Kombëtar (WPWTR16).JPG",
+   "lat": 41.3265,
+   "lon": 19.8205,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Theatre of Albania"
+  },
+  {
+   "id": "Q3300718",
+   "name": "Niko Dovana Stadium",
+   "sl": 18,
+   "file": "Stadiumi Niko Dovana.jpg",
+   "lat": 41.3258,
+   "lon": 19.4494,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Niko Dovana Stadium"
+  },
+  {
+   "id": "Q4988996",
+   "name": "Prespa National Park",
+   "sl": 18,
+   "file": "Liqeni Prespes. Ishulli Mali Gradit. Korce. Albania.jpg",
+   "lat": 40.8256,
+   "lon": 20.8986,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area",
+    "protected areas of Albania"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Prespa"
+  },
+  {
+   "id": "Q1736146",
+   "name": "Resurrection of Christ Orthodox Cathedral",
+   "sl": 18,
+   "file": "Albanisch-Orthodoxe Auferstehungskathedrale in Tirana Katedralja Orthodhokse Ngjallja e Krishtit Foto 2014 Wolfgang Pehlemann DSC005851.jpg",
+   "lat": 41.3265,
+   "lon": 19.8174,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Resurrection of Christ Orthodox Cathedral of Tirana"
+  },
+  {
+   "id": "Q1630016",
+   "name": "Tanners' Bridge",
+   "sl": 18,
+   "file": "Puente de Tabak, Tirana, Albania, 2014-04-17, DD 18.JPG",
+   "lat": 41.3264,
+   "lon": 19.8261,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "footbridge",
+    "historic site",
+    "stone bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tanner's Bridge, Tirana"
+  },
+  {
+   "id": "Q2474224",
+   "name": "Tirana Clock Tower",
+   "sl": 18,
+   "file": "Tirana - Clock Tower (by Pudelek).JPG",
+   "lat": 41.3277,
+   "lon": 19.8196,
+   "kind": "built",
+   "types": [
+    "clock tower",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tirana Clock Tower"
+  },
+  {
+   "id": "Q13040753",
+   "name": "Fatih Sultan Mehmet Mosque",
+   "sl": 17,
+   "file": "Burg Rozafa 19.JPG",
+   "lat": 42.0464,
+   "lon": 19.4931,
+   "kind": "built",
+   "types": [
+    "church building",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church/Mosque at Rozafa Fortress"
+  },
+  {
+   "id": "Q15062919",
+   "name": "Fierza Reservoir",
+   "sl": 17,
+   "file": "Old Kukes Bridge.jpg",
+   "lat": 42.12,
+   "lon": 20.302,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "XK"
+   ],
+   "cat": "Lake Fierza"
+  },
+  {
+   "id": "Q3664670",
+   "name": "Historic Centres of Berat and Gjirokastër",
+   "sl": 17,
+   "file": "Dëshmi e UNESCO.jpg",
+   "lat": 40.0742,
+   "lon": 20.1408,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Historic Centres of Berat and Gjirokastra"
+  },
+  {
+   "id": "Q728519",
+   "name": "Oricum",
+   "sl": 17,
+   "file": "Oricum - Monumental Fontana 01.jpg",
+   "lat": 40.3178,
+   "lon": 19.4306,
+   "kind": "built",
+   "types": [
+    "Ancient Greek archaeological site",
+    "city",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oricum"
+  },
+  {
+   "id": "Q1580877",
+   "name": "Palace of Culture of Tirana",
+   "sl": 17,
+   "file": "Palacio de Cultura, Tirana, Albania, 2014-04-17, DD 11.JPG",
+   "lat": 41.3288,
+   "lon": 19.8193,
+   "kind": "built",
+   "types": [
+    "cultural center",
+    "cultural property",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Culture (Opera), Tirana"
+  },
+  {
+   "id": "Q263429",
+   "name": "Paštrik",
+   "sl": 17,
+   "file": "All in one.jpg",
+   "lat": 42.2106,
+   "lon": 20.5233,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "XK"
+   ],
+   "cat": "Pashtrik"
+  },
+  {
+   "id": "Q1796350",
+   "name": "Royal Tombs of Selca e Poshtme",
+   "sl": 17,
+   "file": "Selca e Poshtme Tombs1-3.jpg",
+   "lat": 40.9905,
+   "lon": 20.5187,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tombs of Selca e Poshtme"
+  },
+  {
+   "id": "Q609021",
+   "name": "Skanderbeg Monument",
+   "sl": 17,
+   "file": "07Tirana Skenderbeg-Denkmal03.jpg",
+   "lat": 41.3275,
+   "lon": 19.8189,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skanderbeg Monument (Tirana)"
+  },
+  {
+   "id": "Q1587429",
+   "name": "Thethi National Park",
+   "sl": 17,
+   "file": "Kisha e Thethit - 2018 (8).jpg",
+   "lat": 42.3958,
+   "lon": 19.7744,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Albanian Alps National Park"
+  },
+  {
+   "id": "Q959799",
+   "name": "Antigonia",
+   "sl": 16,
+   "file": "Antigonea house with peristyle.jpg",
+   "lat": 40.0873,
+   "lon": 20.2223,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antigonea"
+  },
+  {
+   "id": "Q1627929",
+   "name": "Cape of Rodon",
+   "sl": 16,
+   "file": "Durres shqiperi Kepi i rodonit 10.jpg",
+   "lat": 41.5842,
+   "lon": 19.4497,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "peninsula"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Rodon"
+  },
+  {
+   "id": "Q2968210",
+   "name": "Elbasan Fortress",
+   "sl": 16,
+   "file": "Elbasan Castle, Elbasan, Albania October 2022.jpg",
+   "lat": 41.113,
+   "lon": 20.08,
+   "kind": "built",
+   "types": [
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elbasan Fortress"
+  },
+  {
+   "id": "Q637170",
+   "name": "National Archaeological Museum",
+   "sl": 16,
+   "file": "Artemis Hekate, 3rd century B. C., Apollonia. - Limestone, 91.5 cm. Archaeological Museum of Tirana.jpg",
+   "lat": 41.3183,
+   "lon": 19.8219,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Archaeological Museum, Tirana"
+  },
+  {
+   "id": "Q1968108",
+   "name": "National Art Gallery of Albania",
+   "sl": 16,
+   "file": "Fasada e Galerisë Kombëtare të Arteve.jpg",
+   "lat": 41.3255,
+   "lon": 19.8202,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Art Gallery (Tirana)"
+  },
+  {
+   "id": "Q1321758",
+   "name": "National Park - Fir of Hotova",
+   "sl": 16,
+   "file": "Bredhi I Hotovës.jpg",
+   "lat": 40.3036,
+   "lon": 20.4111,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bredhi i Hotovës-Dangëlli National Park"
+  },
+  {
+   "id": "Q2741891",
+   "name": "Petrelë Fortress",
+   "sl": 16,
+   "file": "Castillo de Petrela, Petrela, Albania, 2014-04-17, DD 07.JPG",
+   "lat": 41.255,
+   "lon": 19.854,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Petrelë Fortress"
+  },
+  {
+   "id": "Q781463",
+   "name": "Phoenice",
+   "sl": 16,
+   "file": "Teatro di Phoinike.jpg",
+   "lat": 39.9123,
+   "lon": 20.0577,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Ancient Greek archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phoinike"
+  },
+  {
+   "id": "Q1336599",
+   "name": "Skënderbeu Stadium",
+   "sl": 16,
+   "file": "Stadiumi Skënderbeu.jpg",
+   "lat": 40.6258,
+   "lon": 20.7828,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skënderbeu Stadium"
+  },
+  {
+   "id": "Q600175",
+   "name": "St Paul's Archcathedral",
+   "sl": 16,
+   "file": "Moderni katolicka katedrala v Tirane, v popredi ricka Lan.jpg",
+   "lat": 41.3247,
+   "lon": 19.8214,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Paul's Cathedral, Tirana"
+  },
+  {
+   "id": "Q7909224",
+   "name": "Valamara",
+   "sl": 16,
+   "file": "Ohrid Maja e Valamarës.jpg",
+   "lat": 40.7936,
+   "lon": 20.465,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valamara"
+  },
+  {
+   "id": "Q895359",
+   "name": "Bovilla reservoir",
+   "sl": 15,
+   "file": "Panoramic view of Lake Bovilla, Tirana, Albania.jpg",
+   "lat": 41.4453,
+   "lon": 19.8667,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bovilla Reservoir"
+  }
+ ]
+}

@@ -1,0 +1,1329 @@
+{
+ "country": "MN",
+ "items": [
+  {
+   "id": "Q42070",
+   "name": "Gobi Desert",
+   "sl": 118,
+   "file": "Mongolia (35427009881).jpg",
+   "lat": 42.5,
+   "lon": 103,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Gobi Desert"
+  },
+  {
+   "id": "Q192215",
+   "name": "Khövsgöl Lake",
+   "sl": 61,
+   "file": "Hovsgol.jpg",
+   "lat": 51.1,
+   "lon": 100.5,
+   "kind": "natural",
+   "types": [
+    "rift lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Khövsgöl"
+  },
+  {
+   "id": "Q1010335",
+   "name": "Burkhan Khaldun",
+   "sl": 45,
+   "file": "Burkhan Khaldun mount2.jpg",
+   "lat": 48.7833,
+   "lon": 109.1667,
+   "kind": "natural",
+   "types": [
+    "cultural landscape",
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q334704",
+   "name": "Orkhon inscriptions",
+   "sl": 36,
+   "file": "Kyzyl orkhon inscription.jpg",
+   "lat": 47.5606,
+   "lon": 102.8411,
+   "kind": "built",
+   "types": [
+    "inscription",
+    "stele"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1453235",
+    "name": "Orkhon Valley"
+   },
+   "also": [],
+   "cat": "Orkhon inscriptions"
+  },
+  {
+   "id": "Q1453235",
+   "name": "Orkhon Valley",
+   "sl": 36,
+   "file": "Orchon-mongolei.JPG",
+   "lat": 47.5567,
+   "lon": 102.8314,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Orkhon Valley Cultural Landscape"
+  },
+  {
+   "id": "Q837745",
+   "name": "Buyant-Ukhaa International Airport",
+   "sl": 34,
+   "file": "Buyant-Ukhaa International Airport Front 2023.jpg",
+   "lat": 47.8431,
+   "lon": 106.7664,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buyant-Ukhaa International Airport"
+  },
+  {
+   "id": "Q1091113",
+   "name": "Hüiten Peak",
+   "sl": 34,
+   "file": "Ukok Plateau 2.jpg",
+   "lat": 49.1458,
+   "lon": 87.8192,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q654413",
+   "name": "Bogd Khan Mountain",
+   "sl": 28,
+   "file": "Bogd Khan Uul Mount view from Ulan Bator, Mongolia.JPG",
+   "lat": 47.8039,
+   "lon": 106.9864,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bogd Khan Uul"
+  },
+  {
+   "id": "Q1323267",
+   "name": "Khar-Us Lake",
+   "sl": 28,
+   "file": "Khar Us Nuur 2022-06-11 Sentinel-2 L2A True color 02.jpg",
+   "lat": 48.0353,
+   "lon": 92.2695,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khar-Us Lake"
+  },
+  {
+   "id": "Q1125601",
+   "name": "Khyargas Nuur",
+   "sl": 27,
+   "file": "Khyargas-Nuur lake, Uvs aimag, Mongolia.JPG",
+   "lat": 49.1715,
+   "lon": 93.3478,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khyargas Nuur"
+  },
+  {
+   "id": "Q968728",
+   "name": "Achit Lake",
+   "sl": 26,
+   "file": "Achit-Nuur.jpg",
+   "lat": 49.5,
+   "lon": 90.5604,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Achit Lake"
+  },
+  {
+   "id": "Q715788",
+   "name": "Buir Lake",
+   "sl": 26,
+   "file": "Buir Nuur in Eastern Mongolia and in China (Inner Mongolia), LandSat-7 2005-08-9.png",
+   "lat": 47.8069,
+   "lon": 117.6922,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Buir Lake"
+  },
+  {
+   "id": "Q1058965",
+   "name": "Erdene Zuu Monastery",
+   "sl": 26,
+   "file": "Niebo nad budynkami klasztoru Erdene Dzuu 02.jpg",
+   "lat": 47.2017,
+   "lon": 102.8433,
+   "kind": "built",
+   "types": [
+    "monastery",
+    "Tibetan Buddhist monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erdene Zuu Monastery"
+  },
+  {
+   "id": "Q1165021",
+   "name": "Genghis Khan Equestrian Statue",
+   "sl": 26,
+   "file": "Chinggis Khaan statue Complex.jpg",
+   "lat": 47.8081,
+   "lon": 107.5298,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "equestrian statue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Genghis Khan Equestrian Statue, Tsonjin Boldog"
+  },
+  {
+   "id": "Q2475401",
+   "name": "Ordu-Baliq",
+   "sl": 23,
+   "file": "Ordu-baliq.jpg",
+   "lat": 47.4311,
+   "lon": 102.6594,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1453235",
+    "name": "Orkhon Valley"
+   },
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1572208",
+   "name": "Otgontenger",
+   "sl": 23,
+   "file": "Otgon tenger uul 2009.jpg",
+   "lat": 47.6367,
+   "lon": 97.5023,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Otgon Tenger Uul"
+  },
+  {
+   "id": "Q4361429",
+   "name": "Petroglyphic Complexes of the Mongolian Altai",
+   "sl": 23,
+   "file": "Petroglyphic Complexes of the Altai, Mongolia.jpg",
+   "lat": 49.3339,
+   "lon": 88.3953,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "petroglyph",
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Petroglyphic Complexes of the Mongolian Altai"
+  },
+  {
+   "id": "Q2426550",
+   "name": "Airag Lake",
+   "sl": 22,
+   "file": "Airag lake, Mongolia, Landsat image.jpg",
+   "lat": 48.9059,
+   "lon": 93.464,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Airag Lake"
+  },
+  {
+   "id": "Q14697701",
+   "name": "Chinggis Khaan International Airport",
+   "sl": 22,
+   "file": "Chinggis Khaan International Airport near Zuunmod.jpg",
+   "lat": 47.6434,
+   "lon": 106.8188,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chinggis Khaan International Airport"
+  },
+  {
+   "id": "Q965633",
+   "name": "Gandantegchinlen Monastery",
+   "sl": 22,
+   "file": "Gandantegchinlen Monastery (2024).jpg",
+   "lat": 47.9231,
+   "lon": 106.895,
+   "kind": "built",
+   "types": [
+    "Tibetan Buddhist monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gandan Monastery"
+  },
+  {
+   "id": "Q1445991",
+   "name": "Khar Lake",
+   "sl": 22,
+   "file": "Khar-Nuur lake, Khovd aimag, Mongolia.JPG",
+   "lat": 48.0964,
+   "lon": 93.2173,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khar Lake (Khovd)"
+  },
+  {
+   "id": "Q1533528",
+   "name": "Gobi Gurvansaikhan National Park",
+   "sl": 21,
+   "file": "Gurvger.jpg",
+   "lat": 43.8027,
+   "lon": 101.5897,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gobi Gurvansaikhan National Park"
+  },
+  {
+   "id": "Q1266074",
+   "name": "Gorkhi-Terelj National Park",
+   "sl": 21,
+   "file": "Gorkhi-Terelj National Park.jpg",
+   "lat": 48.1502,
+   "lon": 107.576,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gorkhi-Terelj National Park"
+  },
+  {
+   "id": "Q749776",
+   "name": "Böön Tsagaan Lake",
+   "sl": 20,
+   "file": "Lake Buuntsagaan, Mongolia.jpg",
+   "lat": 45.5961,
+   "lon": 99.142,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Böön Tsagaan Lake"
+  },
+  {
+   "id": "Q2667673",
+   "name": "Terkhiin Tsagaan Lake",
+   "sl": 20,
+   "file": "TerkhiinTsagaanNuurPan.jpg",
+   "lat": 48.1708,
+   "lon": 99.7222,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Terkhiin Tsagaan Nuur"
+  },
+  {
+   "id": "Q2426564",
+   "name": "Dörgön Lake",
+   "sl": 19,
+   "file": "Dörgön Nuur lake, West Mongolia, Khovd aimag, ovoo at the southern shore.JPG",
+   "lat": 47.6709,
+   "lon": 93.4621,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dörgön Lake"
+  },
+  {
+   "id": "Q1639106",
+   "name": "Khustain Nuruu National Park",
+   "sl": 19,
+   "file": "Parc Hustai - cavall de Przewalski.jpg",
+   "lat": 47.7,
+   "lon": 105.9,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khustain Nuruu National Park"
+  },
+  {
+   "id": "Q1348864",
+   "name": "Sükhbaatar Square",
+   "sl": 19,
+   "file": "Panorama Ulan Bator 13.JPG",
+   "lat": 47.9189,
+   "lon": 106.918,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sükhbaatar Square (Ulaanbaatar)"
+  },
+  {
+   "id": "Q978800",
+   "name": "Üüreg Lake",
+   "sl": 19,
+   "file": "Uureg Nuur.jpg",
+   "lat": 50.1667,
+   "lon": 91,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Üüreg Nuur"
+  },
+  {
+   "id": "Q2093410",
+   "name": "Choijin Lama Temple",
+   "sl": 17,
+   "file": "UB-Csojdzsin00.jpg",
+   "lat": 47.915,
+   "lon": 106.9183,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Choijin Lama Temple"
+  },
+  {
+   "id": "Q2984299",
+   "name": "Mörön Airport",
+   "sl": 17,
+   "file": "Mörön AIrport.jpg",
+   "lat": 49.6631,
+   "lon": 100.0992,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mörön Airport"
+  },
+  {
+   "id": "Q2604390",
+   "name": "Potanin Glacier",
+   "sl": 17,
+   "file": "Potaninův ledovec.jpg",
+   "lat": 49.14,
+   "lon": 87.92,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Potanin Glacier"
+  },
+  {
+   "id": "Q2745309",
+   "name": "tomb of Genghis Khan",
+   "sl": 17,
+   "file": "Burkhan Khaldun mount3.jpg",
+   "lat": 48.7619,
+   "lon": 109.0111,
+   "kind": "built",
+   "types": [
+    "lost item",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q952609",
+   "name": "Altai Airport",
+   "sl": 16,
+   "file": "Altai Airport.jpg",
+   "lat": 46.3758,
+   "lon": 96.2192,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Altai Airport"
+  },
+  {
+   "id": "Q2462341",
+   "name": "Khoton Lake",
+   "sl": 16,
+   "file": "Hoton lake - panoramio.jpg",
+   "lat": 48.65,
+   "lon": 88.3,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khoton Lake"
+  },
+  {
+   "id": "Q1638795",
+   "name": "MFF Football Centre",
+   "sl": 16,
+   "file": "The MFF Football Centre in 2024.jpg",
+   "lat": 47.9,
+   "lon": 106.9161,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "MFF Football Centre"
+  },
+  {
+   "id": "Q2154176",
+   "name": "National Museum of Mongolia",
+   "sl": 16,
+   "file": "National Museum of Mongolia (2023).jpg",
+   "lat": 47.9208,
+   "lon": 106.915,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Mongolia"
+  },
+  {
+   "id": "Q2525980",
+   "name": "Ölgii International Airport",
+   "sl": 16,
+   "file": "Olgii Airport01.JPG",
+   "lat": 48.9917,
+   "lon": 89.9197,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ölgii International Airport"
+  },
+  {
+   "id": "Q1932815",
+   "name": "Choibalsan Airport",
+   "sl": 15,
+   "file": "Choibalsan Airport.jpg",
+   "lat": 48.1356,
+   "lon": 114.6461,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Choibalsan Airport"
+  },
+  {
+   "id": "Q1431182",
+   "name": "Dalanzadgad Airport",
+   "sl": 15,
+   "file": "Dalanzadgad Airport.JPG",
+   "lat": 43.6086,
+   "lon": 104.3669,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dalanzadgad Airport"
+  },
+  {
+   "id": "Q2370147",
+   "name": "Government Palace",
+   "sl": 15,
+   "file": "Government Palace, Ulaanbaatar.jpg",
+   "lat": 47.9208,
+   "lon": 106.9172,
+   "kind": "built",
+   "types": [
+    "building of public administration",
+    "public building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Government Palace, Ulaanbaatar"
+  },
+  {
+   "id": "Q2462320",
+   "name": "Khorgo",
+   "sl": 15,
+   "file": "Khorgo Volcano 02.jpg",
+   "lat": 48.1864,
+   "lon": 99.8553,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khorgo volcano"
+  },
+  {
+   "id": "Q16538387",
+   "name": "Saints Peter and Paul Cathedral (Ulaanbaatar)",
+   "sl": 15,
+   "file": "Saints Peter and Paul Cathedral (Ulaanbaatar).jpg",
+   "lat": 47.9121,
+   "lon": 106.976,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of St Peter and St Paul in Ulaanbaatar"
+  },
+  {
+   "id": "Q2721984",
+   "name": "Sangiin Dalai Lake",
+   "sl": 15,
+   "file": "Sangiin Dalai Lake, Mongolia, Landsat.jpg",
+   "lat": 49.2636,
+   "lon": 98.9853,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sangiin Dalai Lake"
+  },
+  {
+   "id": "Q2570858",
+   "name": "Telmen Lake",
+   "sl": 15,
+   "file": "Telmen Lake 2021-06-25 Sentinel-2 L2A True color.jpg",
+   "lat": 48.8333,
+   "lon": 97.3167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Telmen Lake"
+  },
+  {
+   "id": "Q932232",
+   "name": "Altai Tavan Bogd National Park",
+   "sl": 14,
+   "file": "Dsc 3527-500x332.jpg",
+   "lat": 48.55,
+   "lon": 88.6167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2593920",
+   "name": "Amarbayasgalant Monastery",
+   "sl": 14,
+   "file": "Amarbayasgalant Monastery.JPG",
+   "lat": 49.48,
+   "lon": 105.085,
+   "kind": "built",
+   "types": [
+    "Tibetan Buddhist monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amarbayasgalant Monastery"
+  },
+  {
+   "id": "Q20160756",
+   "name": "Hoh Nuur",
+   "sl": 14,
+   "file": "ISS062-E-149 - View of Hoh Nuur.jpg",
+   "lat": 49.5,
+   "lon": 115.5833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hoh Nuur"
+  },
+  {
+   "id": "Q2984444",
+   "name": "Khovd Airport",
+   "sl": 14,
+   "file": "Aero Mongolia Embraer ERJ 145 at Khovd Airport.jpg",
+   "lat": 47.9614,
+   "lon": 91.6258,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khovd Airport"
+  },
+  {
+   "id": "Q1451543",
+   "name": "National Sports Stadium",
+   "sl": 14,
+   "file": "2019 National Sports Stadium (Mongolia) 02.jpg",
+   "lat": 47.9021,
+   "lon": 106.9163,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Sports Stadium (Mongolia)"
+  },
+  {
+   "id": "Q2000554",
+   "name": "Tolbo Lake",
+   "sl": 14,
+   "file": "Tolbo-Nuur.JPG",
+   "lat": 48.5489,
+   "lon": 90.0508,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tolbo Lake"
+  },
+  {
+   "id": "Q1062882",
+   "name": "Khar Lake",
+   "sl": 13,
+   "file": "Ulaagchinii Khar lake - panoramio.jpg",
+   "lat": 48.35,
+   "lon": 96.1,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khar Lake (Zavkhan)"
+  },
+  {
+   "id": "Q1489668",
+   "name": "Kül Tigin inscription",
+   "sl": 13,
+   "file": "Kultegin monument Mongolia.JPG",
+   "lat": 47.2019,
+   "lon": 102.8419,
+   "kind": "built",
+   "types": [
+    "inscription",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q768099",
+   "name": "Orog Lake",
+   "sl": 13,
+   "file": "Orog Lake 2019-11-02 Sentinel-2 L2A True color.jpg",
+   "lat": 45.055,
+   "lon": 100.7047,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orog Lake"
+  },
+  {
+   "id": "Q1997495",
+   "name": "Ubsunur Hollow Biosphere Reserve",
+   "sl": 13,
+   "file": "Горный останец.jpg",
+   "lat": 49.87,
+   "lon": 94.79,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "protected area of Russia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Ubsunur Hollow State Biosphere Reserve"
+  },
+  {
+   "id": "Q1626999",
+   "name": "Ulaangom Airport",
+   "sl": 13,
+   "file": "Ulaangom Airport Deglii Tsagaan.jpg",
+   "lat": 49.9733,
+   "lon": 92.0797,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulaangom Airport"
+  },
+  {
+   "id": "Q3700940",
+   "name": "Dayan Lake",
+   "sl": 12,
+   "file": "Dayan Lake 2019-06-18 Sentinel-2 L2A True color.jpg",
+   "lat": 48.3589,
+   "lon": 88.8319,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dayan Lake"
+  },
+  {
+   "id": "Q889486",
+   "name": "Donoi Airport",
+   "sl": 12,
+   "file": "Donoi Airport - Uliastai, Zavkhan aimag, Mongolia.JPG",
+   "lat": 47.7128,
+   "lon": 96.5242,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Donoi Airport"
+  },
+  {
+   "id": "Q578597",
+   "name": "Khurgan Lake",
+   "sl": 12,
+   "file": "Khurgan Lake 2019-07-03 Sentinel-2 L2A True color.jpg",
+   "lat": 48.5461,
+   "lon": 88.6061,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khurgan Lake"
+  },
+  {
+   "id": "Q64787456",
+   "name": "Landscapes of Dauria",
+   "sl": 12,
+   "file": "Daurian reservate.jpg",
+   "lat": 49.9302,
+   "lon": 115.4254,
+   "kind": "",
+   "types": [
+    "group of protected areas",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2154359",
+   "name": "Natural History Museum",
+   "sl": 12,
+   "file": "Natural History Museum (Ulaanbaatar).jpg",
+   "lat": 47.9235,
+   "lon": 106.9058,
+   "kind": "built",
+   "types": [
+    "natural history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Natural History Museum (Ulaanbaatar)"
+  },
+  {
+   "id": "Q2000570",
+   "name": "Ögii Lake",
+   "sl": 12,
+   "file": "Ögii Lake.jpg",
+   "lat": 47.7608,
+   "lon": 102.7672,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ögii Lake"
+  },
+  {
+   "id": "Q2637623",
+   "name": "Oigon Lake",
+   "sl": 12,
+   "file": "Oigon lake, Zavkhan province, Western Mongolia, LandSat 5 satellite image, near natural colors, 2011-09-21.jpg",
+   "lat": 49.15,
+   "lon": 96.5667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oigon Lake"
+  },
+  {
+   "id": "Q144444",
+   "name": "Zaisan Memorial",
+   "sl": 12,
+   "file": "Zaisan Memorial in Ulaanbaatar, Mongolia.jpg",
+   "lat": 47.8842,
+   "lon": 106.9158,
+   "kind": "built",
+   "types": [
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zaisan Memorial"
+  },
+  {
+   "id": "Q2785149",
+   "name": "Baruun-Urt Airport",
+   "sl": 11,
+   "file": "B-U-rep01.jpg",
+   "lat": 46.6603,
+   "lon": 113.2853,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3633120",
+   "name": "Bayan Lake",
+   "sl": 11,
+   "file": "Bayan Nuur lake, Zavkhan aimag, Santmargats sum, West Mongolia, LandSat-7 satellite image, 2007-09-17.png",
+   "lat": 48.4572,
+   "lon": 95.1115,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bayan Lake"
+  },
+  {
+   "id": "Q1330977",
+   "name": "Bayankhongor Airport",
+   "sl": 11,
+   "file": "Bayankhongor Airport (ZMBH).jpg",
+   "lat": 46.1706,
+   "lon": 100.7,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bayankhongor Airport"
+  },
+  {
+   "id": "Q2721959",
+   "name": "Dood Tsagaan Lake",
+   "sl": 11,
+   "file": "Dood Tsagaan Lake 2021-07-15 Sentinel-2 L2A True color.jpg",
+   "lat": 51.3167,
+   "lon": 99.3833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dood Tsagaan Lake"
+  },
+  {
+   "id": "Q4461114",
+   "name": "Kharkhorin Airport",
+   "sl": 11,
+   "file": "Khakhorin landing.jpg",
+   "lat": 47.2467,
+   "lon": 102.8261,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q148612",
+   "name": "Manzushir Monastery",
+   "sl": 11,
+   "file": "Manzushir Monastery.jpg",
+   "lat": 47.7636,
+   "lon": 106.993,
+   "kind": "built",
+   "types": [
+    "vihāra"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manzushir Monastery"
+  },
+  {
+   "id": "Q4334956",
+   "name": "Onon-Balj National Park",
+   "sl": 11,
+   "file": "Onon.jpg",
+   "lat": 49.2467,
+   "lon": 111.7581,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2258994",
+   "name": "Sükhbaatar's Mausoleum",
+   "sl": 11,
+   "file": "Suhbataar square n mausoleum b.jpg",
+   "lat": 47.9197,
+   "lon": 106.917,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mausoleum of Damdin Sükhbaatar"
+  },
+  {
+   "id": "Q22132166",
+   "name": "Bogd Khan Uul Biosphere Reserve",
+   "sl": 10,
+   "file": "Bogdkhan Uul Strictly Protected Area, Mongolia (149199746).jpg",
+   "lat": 47.8185,
+   "lon": 106.9504,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bogdkhan Uul Strictly Protected Area"
+  },
+  {
+   "id": "Q1740517",
+   "name": "Khan Khentii Strictly Protected Area",
+   "sl": 10,
+   "file": "Burkhan Khaldun mount2.jpg",
+   "lat": 48.9167,
+   "lon": 108.5833,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q25047802",
+   "name": "Khongoryn Els",
+   "sl": 10,
+   "file": "Hiking in Khongoryn Els (Unsplash).jpg",
+   "lat": 43.5,
+   "lon": 103.1667,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khongoryn Els"
+  },
+  {
+   "id": "Q4499886",
+   "name": "Khorgo-Terkhiin Tsagaan Nuur National Park",
+   "sl": 10,
+   "file": "Khorgo1.jpg",
+   "lat": 48.1708,
+   "lon": 99.7222,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1627007",
+   "name": "Mandalgovi Airport",
+   "sl": 10,
+   "file": "AeroMongoliaFokker50.jpg",
+   "lat": 45.7667,
+   "lon": 106.2833,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q559620",
+   "name": "National Academic Theatre of Opera and Ballet of Mongolia",
+   "sl": 10,
+   "file": "Mongolian State Academic Theatre of Opera and Ballet.jpg",
+   "lat": 47.9186,
+   "lon": 106.9197,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Academic Theatre of Opera and Ballet of Mongolia"
+  },
+  {
+   "id": "Q2462331",
+   "name": "Ulaan Lake",
+   "sl": 10,
+   "file": "Ulaan Lake 2021-10-14 Sentinel-2 L2A True color.jpg",
+   "lat": 44.5,
+   "lon": 103.617,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulaan Lake"
+  },
+  {
+   "id": "Q4470791",
+   "name": "Ulaan Tsutgalan Waterfall",
+   "sl": 10,
+   "file": "Ulaan Tsutgalan Waterfall (2026).jpg",
+   "lat": 46.7873,
+   "lon": 101.9603,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulaan Tsutgalan Waterfall"
+  }
+ ]
+}

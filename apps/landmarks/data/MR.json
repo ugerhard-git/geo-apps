@@ -1,0 +1,409 @@
+{
+ "country": "MR",
+ "items": [
+  {
+   "id": "Q2595789",
+   "name": "Kediet ej Jill",
+   "sl": 24,
+   "file": "Kediet-ej-jill.jpg",
+   "lat": 22.6539,
+   "lon": -12.5747,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kediet ej Jill"
+  },
+  {
+   "id": "Q682728",
+   "name": "Koumbi Saleh",
+   "sl": 24,
+   "file": "Archaeological site of Koumbi Saleh.jpg",
+   "lat": 15.7561,
+   "lon": -7.9714,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "commune of Mauritania"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Koumbi Saleh"
+  },
+  {
+   "id": "Q616309",
+   "name": "Aoudaghost",
+   "sl": 21,
+   "file": "Aoudaghost.png..jpg",
+   "lat": 17.4244,
+   "lon": -10.4104,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aoudaghost"
+  },
+  {
+   "id": "Q2670961",
+   "name": "Atar International Airport",
+   "sl": 17,
+   "file": "Atar International Airport.jpg",
+   "lat": 20.5067,
+   "lon": -13.0431,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atar International Airport"
+  },
+  {
+   "id": "Q430848",
+   "name": "Ben Amera",
+   "sl": 17,
+   "file": "Ben Amira 2006.jpg",
+   "lat": 21.2333,
+   "lon": -13.6667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2845953",
+   "name": "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata",
+   "sl": 16,
+   "file": "مسجد شنقيط التاريخي.jpg",
+   "lat": 20.9289,
+   "lon": -11.6236,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q25337089",
+   "name": "Nouakchott–Oumtounsy International Airport",
+   "sl": 16,
+   "file": "مطار نواكشوط الدولي ام التونسي.jpg",
+   "lat": 18.31,
+   "lon": -15.9697,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nouakchott–Oumtounsy International Airport"
+  },
+  {
+   "id": "Q2667425",
+   "name": "Chinguetti Mosque",
+   "sl": 15,
+   "file": "مسجد شنقيط التاريخي.jpg",
+   "lat": 20.4633,
+   "lon": -12.3667,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2845953",
+    "name": "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata"
+   },
+   "also": [],
+   "cat": "Chinguetti Mosque"
+  },
+  {
+   "id": "Q2370438",
+   "name": "National Museum of Mauritania",
+   "sl": 15,
+   "file": "NouakchottNationalMuseum1.jpg",
+   "lat": 18.0856,
+   "lon": -15.9747,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Mauritania"
+  },
+  {
+   "id": "Q639003",
+   "name": "Azougui",
+   "sl": 13,
+   "file": "AzouguiArchaeologicalSite.jpg",
+   "lat": 20.5662,
+   "lon": -13.1055,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "human settlement",
+    "oasis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azougui"
+  },
+  {
+   "id": "Q2885103",
+   "name": "Diama Dam",
+   "sl": 13,
+   "file": "Barrage de Diama.jpg",
+   "lat": 16.2158,
+   "lon": -16.4149,
+   "kind": "built",
+   "types": [
+    "border crossing",
+    "gravity dam",
+    "Tidal barrier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SN"
+   ],
+   "cat": "Barrage de Diama"
+  },
+  {
+   "id": "Q3056157",
+   "name": "Erg Chech",
+   "sl": 13,
+   "file": "Chergach meteorite, 5.7 grams, oriented.jpg",
+   "lat": 24.5833,
+   "lon": -2.5833,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DZ",
+    "ML"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q772511",
+   "name": "Olympic Stadium of Nouakchott",
+   "sl": 12,
+   "file": "Nouakchott stadium.jpg",
+   "lat": 18.1047,
+   "lon": -15.9855,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Olympique, Nouakchott"
+  },
+  {
+   "id": "Q4778813",
+   "name": "Aoukar Depression",
+   "sl": 10,
+   "file": "Landscape of the Aoukar.jpg",
+   "lat": 17.6928,
+   "lon": -9.5369,
+   "kind": "natural",
+   "types": [
+    "depression",
+    "erg",
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q27749504",
+   "name": "Goûr Amogjâr",
+   "sl": 10,
+   "file": "AgrourAmogjar1.jpg",
+   "lat": 20.54,
+   "lon": -12.7752,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock paintings near Passe d'Amogjar"
+  },
+  {
+   "id": "Q919002",
+   "name": "Tenoumer crater",
+   "sl": 10,
+   "file": "Tenoumer crater.jpg",
+   "lat": 22.9181,
+   "lon": -10.4075,
+   "kind": "natural",
+   "types": [
+    "impact crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tenoumer crater"
+  },
+  {
+   "id": "Q2879788",
+   "name": "Dakhlet Nouadhibou",
+   "sl": 9,
+   "file": "Cap Blanc Mauritania Spanish Sahara 1958.JPG",
+   "lat": 20.8706,
+   "lon": -16.9031,
+   "kind": "natural",
+   "types": [
+    "bight",
+    "body of water"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6916426",
+   "name": "Ibn Abbas Mosque",
+   "sl": 8,
+   "file": "Mosquée Ibn Abbas.jpg",
+   "lat": 18.0842,
+   "lon": -15.9789,
+   "kind": "built",
+   "types": [
+    "mosque",
+    "religious site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q97516107",
+   "name": "Lake R'Kiz",
+   "sl": 8,
+   "file": "AS06-02-0938 - Apollo 6 - Apollo 6 Mission Image - Mauritania and Senegal - NARA - 16658550.jpg",
+   "lat": 16.8667,
+   "lon": -15.2833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake R'Kiz"
+  },
+  {
+   "id": "Q6916425",
+   "name": "Mosque Marocaine",
+   "sl": 8,
+   "file": "Nouakchott scene2.jpg",
+   "lat": 18.0772,
+   "lon": -15.9814,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marocaine Mosque"
+  },
+  {
+   "id": "Q49762613",
+   "name": "Oued Seguellil",
+   "sl": 8,
+   "file": "OuedSeguellil.jpg",
+   "lat": 20.1889,
+   "lon": -13.3983,
+   "kind": "natural",
+   "types": [
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6916429",
+   "name": "Saudi Mosque",
+   "sl": 8,
+   "file": "Saudi mosque in Nouakchott.jpg",
+   "lat": 18.0904,
+   "lon": -15.9782,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saudi Mosque Nouakchott"
+  },
+  {
+   "id": "Q7442787",
+   "name": "Sebkha de Ndrhamcha",
+   "sl": 8,
+   "file": "Mauritania BMNG.jpg",
+   "lat": 18.7167,
+   "lon": -15.8875,
+   "kind": "natural",
+   "types": [
+    "sabkha"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sebkha de Ndrhamcha"
+  },
+  {
+   "id": "Q7596240",
+   "name": "Stade Cheikha Ould Boïdiya",
+   "sl": 8,
+   "file": "ملعب شيخا بيديا 3.jpg",
+   "lat": 18.0824,
+   "lon": -15.9716,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

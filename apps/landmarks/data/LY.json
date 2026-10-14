@@ -1,0 +1,1095 @@
+{
+ "country": "LY",
+ "items": [
+  {
+   "id": "Q44112",
+   "name": "Cyrene",
+   "sl": 75,
+   "file": "Archaeological Site of Cyrene-109025.jpg",
+   "lat": 32.8167,
+   "lon": 21.85,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "emporium",
+    "Greek colony",
+    "municipality of Libya"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cyrene"
+  },
+  {
+   "id": "Q191504",
+   "name": "Leptis Magna",
+   "sl": 69,
+   "file": "Leptis Magna (29) (8288918733).jpg",
+   "lat": 32.6367,
+   "lon": 14.2922,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "emporium",
+    "Roman city"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Leptis Magna"
+  },
+  {
+   "id": "Q181528",
+   "name": "Libyan Desert",
+   "sl": 65,
+   "file": "Libyan Desert - 2006.jpg",
+   "lat": 24,
+   "lon": 25,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG",
+    "SD"
+   ],
+   "cat": "Libyan Desert"
+  },
+  {
+   "id": "Q308807",
+   "name": "Tadrart Acacus",
+   "sl": 55,
+   "file": "Libya 5076 Tadrart Acacus Luca Galuzzi 2007.jpg",
+   "lat": 24.8334,
+   "lon": 10.3333,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "mountain range"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tadrart Acacus"
+  },
+  {
+   "id": "Q656821",
+   "name": "Great Manmade River",
+   "sl": 43,
+   "file": "MMR 13.jpg",
+   "lat": 25.4556,
+   "lon": 21.6008,
+   "kind": "built",
+   "types": [
+    "aqueduct"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Manmade River"
+  },
+  {
+   "id": "Q44588",
+   "name": "Tripoli International Airport",
+   "sl": 34,
+   "file": "Tripoli Airport.jpg",
+   "lat": 32.6694,
+   "lon": 13.1418,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tripoli International Airport"
+  },
+  {
+   "id": "Q307143",
+   "name": "Grand Erg Oriental",
+   "sl": 31,
+   "file": "Dune, Grand erg près de Ksar Ghilane, Tunisien, 2004.jpg",
+   "lat": 30,
+   "lon": 6,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DZ",
+    "TN"
+   ],
+   "cat": "Grand Erg Oriental"
+  },
+  {
+   "id": "Q3089476",
+   "name": "Great Sand Sea",
+   "sl": 26,
+   "file": "SiwaSandDunes.jpg",
+   "lat": 26.9,
+   "lon": 26.0333,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG"
+   ],
+   "cat": "Great Sand Sea"
+  },
+  {
+   "id": "Q44553",
+   "name": "Benina International Airport",
+   "sl": 25,
+   "file": "Benina International Airport.jpg",
+   "lat": 32.0975,
+   "lon": 20.2708,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Benina International Airport"
+  },
+  {
+   "id": "Q797535",
+   "name": "Bab al-Azizia",
+   "sl": 22,
+   "file": "Gaddafi poster Bab-al-aziziya, Tripoli.jpg",
+   "lat": 32.8722,
+   "lon": 13.1736,
+   "kind": "built",
+   "types": [
+    "barracks"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bab al-Azizia"
+  },
+  {
+   "id": "Q860146",
+   "name": "Bikku Bitti",
+   "sl": 22,
+   "file": "Bikku Bitti ASTER.jpg",
+   "lat": 22.0037,
+   "lon": 19.2066,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bikku Bitti"
+  },
+  {
+   "id": "Q1441442",
+   "name": "Jebel Uweinat",
+   "sl": 22,
+   "file": "Africa Mt Uwaynat-20080330.jpg",
+   "lat": 21.9194,
+   "lon": 24.9222,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "non-geologically related mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG",
+    "SD"
+   ],
+   "cat": "Gebel Uweinat"
+  },
+  {
+   "id": "Q171653",
+   "name": "Waw an Namus",
+   "sl": 22,
+   "file": "Wau-en-Namus-1.jpg",
+   "lat": 24.9,
+   "lon": 17.75,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Waw an Namus"
+  },
+  {
+   "id": "Q848472",
+   "name": "Martyrs' Square",
+   "sl": 21,
+   "file": "Green Square Tripoli.jpg",
+   "lat": 32.895,
+   "lon": 13.1811,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Martyrs' Square, Tripoli"
+  },
+  {
+   "id": "Q45000",
+   "name": "Mitiga International Airport",
+   "sl": 21,
+   "file": "MiG23s (12573874093).jpg",
+   "lat": 32.897,
+   "lon": 13.2784,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mitiga International Airport"
+  },
+  {
+   "id": "Q45829",
+   "name": "Ptolemais",
+   "sl": 21,
+   "file": "Ptolemais Byzantine Cistern.JPG",
+   "lat": 32.7069,
+   "lon": 20.9529,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ptolemais"
+  },
+  {
+   "id": "Q45826",
+   "name": "Apollonia",
+   "sl": 20,
+   "file": "365 Crete Earthquake, Apollonia, Map (Jona).png",
+   "lat": 32.9,
+   "lon": 21.9667,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apollonia, Libya"
+  },
+  {
+   "id": "Q15052130",
+   "name": "Archaeological Site of Sabratha",
+   "sl": 19,
+   "file": "Theatre of Sabratha, Libya.jpg",
+   "lat": 32.8053,
+   "lon": 12.485,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Roman architecture in Sabratha"
+  },
+  {
+   "id": "Q1555175",
+   "name": "Gurgi Mosque",
+   "sl": 19,
+   "file": "Gurgi Mosque Exterior Tripoli Libya.JPG",
+   "lat": 32.8995,
+   "lon": 13.1754,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gurgi Mosque"
+  },
+  {
+   "id": "Q1511121",
+   "name": "Tripoli Stadium International",
+   "sl": 19,
+   "file": "11 June Stadium BenTaher.jpg",
+   "lat": 32.8599,
+   "lon": 13.1359,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "11 June Stadium"
+  },
+  {
+   "id": "Q36171",
+   "name": "Al Abraq International Airport",
+   "sl": 18,
+   "file": "Labraq International Airport (Bayda - Libya) 2012.jpg",
+   "lat": 32.7886,
+   "lon": 21.9642,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Labraq Airport"
+  },
+  {
+   "id": "Q807913",
+   "name": "Barca",
+   "sl": 18,
+   "file": "Barce Stazione Centrale.jpg",
+   "lat": 32.4945,
+   "lon": 20.8745,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barce"
+  },
+  {
+   "id": "Q30542",
+   "name": "Kufra Airport",
+   "sl": 18,
+   "file": "مطار الكفرة.jpg",
+   "lat": 24.1767,
+   "lon": 23.3133,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q41292",
+   "name": "Misrata Airport",
+   "sl": 18,
+   "file": "Turkish Airlines Misrata.jpg",
+   "lat": 32.3256,
+   "lon": 15.0597,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Misrata Airport"
+  },
+  {
+   "id": "Q1492859",
+   "name": "Tripoli Cathedral",
+   "sl": 18,
+   "file": "كاتدرائية طرابلس (32427).jpg",
+   "lat": 32.8906,
+   "lon": 13.186,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Algeria Square Mosque"
+  },
+  {
+   "id": "Q2754865",
+   "name": "Fort Capuzzo",
+   "sl": 16,
+   "file": "Forte Capuzzo.jpg",
+   "lat": 31.5808,
+   "lon": 25.0522,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Capuzzo"
+  },
+  {
+   "id": "Q773980",
+   "name": "Benghazi Cathedral",
+   "sl": 14,
+   "file": "Benghazi 2007 Cattedrale.JPG",
+   "lat": 32.1139,
+   "lon": 20.0594,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Benghazi Cathedral"
+  },
+  {
+   "id": "Q864959",
+   "name": "Bir Hakeim",
+   "sl": 14,
+   "file": "Bir Hacheim 1990.jpg",
+   "lat": 31.5939,
+   "lon": 23.48,
+   "kind": "built",
+   "types": [
+    "abandoned village",
+    "archaeological site",
+    "fort",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bir Hakeim"
+  },
+  {
+   "id": "Q17636705",
+   "name": "Caramanli mosque",
+   "sl": 14,
+   "file": "Ahmed Pasha Karamanli Mosque (5282695475).jpg",
+   "lat": 32.8953,
+   "lon": 13.1796,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ahmed Pasha Mosque"
+  },
+  {
+   "id": "Q3326866",
+   "name": "Murzuq Desert",
+   "sl": 14,
+   "file": "Sanddunes marzuq sandsea.jpg",
+   "lat": 25,
+   "lon": 13,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Murzuq Desert"
+  },
+  {
+   "id": "Q1848787",
+   "name": "Benghazi International Stadium",
+   "sl": 13,
+   "file": "28 March Stadium BenTaher 2007.jpg",
+   "lat": 32.1018,
+   "lon": 20.0724,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "28 March Stadium"
+  },
+  {
+   "id": "Q3647391",
+   "name": "Jabal Arkanu",
+   "sl": 13,
+   "file": "Jabal Arkanu.jpg",
+   "lat": 22.2089,
+   "lon": 24.7375,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabal Arkanu"
+  },
+  {
+   "id": "Q1737677",
+   "name": "Kebira Crater",
+   "sl": 13,
+   "file": "Kebira Crater.jpg",
+   "lat": 24.6667,
+   "lon": 24.9667,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2316992",
+   "name": "Limes Tripolitanus",
+   "sl": 13,
+   "file": "Limes Tripolitanus.png",
+   "lat": 30.1417,
+   "lon": 9.5083,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "defense line",
+    "Roman limes"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TN"
+   ],
+   "cat": "Limes Tripolitanus"
+  },
+  {
+   "id": "Q328423",
+   "name": "Omar Al-Mukhtar University",
+   "sl": 13,
+   "file": "Faculty of Agriculture, Al Bayda.jpg",
+   "lat": 32.7583,
+   "lon": 21.7122,
+   "kind": "built",
+   "types": [
+    "building",
+    "university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Omar Al-Mukhtar University"
+  },
+  {
+   "id": "Q33130",
+   "name": "Ghardabiya Air Base",
+   "sl": 12,
+   "file": "Ghardabiya Airfield - Damaged Aircraft Shelters - Operation Odyssey Dawn.jpg",
+   "lat": 31.0633,
+   "lon": 16.595,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2232797",
+   "name": "Ghirza",
+   "sl": 12,
+   "file": "Ghirza n general.JPG",
+   "lat": 30.9659,
+   "lon": 14.5698,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Girza"
+  },
+  {
+   "id": "Q12204327",
+   "name": "Sidi Darghut Mosque",
+   "sl": 12,
+   "file": "Darghut Mosque Exterior Tripoli Libya.JPG",
+   "lat": 32.8988,
+   "lon": 13.1771,
+   "kind": "built",
+   "types": [
+    "külliye",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sidi Darghut Mosque"
+  },
+  {
+   "id": "Q2498401",
+   "name": "The National Libyan Museum",
+   "sl": 12,
+   "file": "Red Castle Museum Tripoli, LIbya.jpg",
+   "lat": 32.8958,
+   "lon": 13.1803,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Red Castle Museum"
+  },
+  {
+   "id": "Q1475999",
+   "name": "Al Ḩamādah al Ḩamrā’",
+   "sl": 11,
+   "file": "Erosionsfläche in der Hammadah al Hamra.jpg",
+   "lat": 28.299,
+   "lon": 13.993,
+   "kind": "natural",
+   "types": [
+    "hamada",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3621785",
+   "name": "Arch of Marcus Aurelius",
+   "sl": 11,
+   "file": "Marcus Aurelius Arch Tripoli Libya.jpg",
+   "lat": 32.8999,
+   "lon": 13.1757,
+   "kind": "built",
+   "types": [
+    "tetrapylon",
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marcus Aurelius Arch in Tripoli"
+  },
+  {
+   "id": "Q6401414",
+   "name": "Atiq Mosque",
+   "sl": 11,
+   "file": "Maydan al Baladiya.jpg",
+   "lat": 32.1216,
+   "lon": 20.0615,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atiq Mosque (Benghazi)"
+  },
+  {
+   "id": "Q41286",
+   "name": "Derna waterfalls",
+   "sl": 11,
+   "file": "Libya, Waterfall at Darnah (Kenrick).jpg",
+   "lat": 32.7181,
+   "lon": 22.6147,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Derna waterfalls"
+  },
+  {
+   "id": "Q996209",
+   "name": "Wadi el Kuf Bridge",
+   "sl": 11,
+   "file": "Wadi el Kuf Bridge 1970's.jpg",
+   "lat": 32.6967,
+   "lon": 21.5656,
+   "kind": "built",
+   "types": [
+    "bridge",
+    "cable-stayed bridge",
+    "reinforced concrete bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi el Kuf Bridge"
+  },
+  {
+   "id": "Q673367",
+   "name": "Arkenu craters",
+   "sl": 10,
+   "file": "Arkenu craters.jpg",
+   "lat": 22.1014,
+   "lon": 23.7983,
+   "kind": "natural",
+   "types": [
+    "crater",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2641357",
+   "name": "Gasr Banat",
+   "sl": 10,
+   "file": "Qasr banat.JPG",
+   "lat": 31.4618,
+   "lon": 14.7045,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "archaeological site",
+    "castrum",
+    "fortification"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q25226810",
+   "name": "Haua Fteah",
+   "sl": 10,
+   "file": "Haua Fteah cave.jpg",
+   "lat": 32.9028,
+   "lon": 22.0514,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "solutional cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q58196",
+   "name": "Port of Benghazi",
+   "sl": 10,
+   "file": "Benghazi Italiana.JPG",
+   "lat": 32.1138,
+   "lon": 20.0478,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Benghazi"
+  },
+  {
+   "id": "Q41307",
+   "name": "Rebiana Sand Sea",
+   "sl": 10,
+   "file": "Sahara. Libya.jpg",
+   "lat": 25,
+   "lon": 19,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3565020",
+   "name": "Wadi Mathendous",
+   "sl": 10,
+   "file": "Mathendous giraffes.jpg",
+   "lat": 25.7634,
+   "lon": 12.1704,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "dry valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi Mathendous"
+  },
+  {
+   "id": "Q938648",
+   "name": "23rd July Lake",
+   "sl": 9,
+   "file": "23rd lake panorama view.JPG",
+   "lat": 32.1042,
+   "lon": 20.0639,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Benghazi Lake"
+  },
+  {
+   "id": "Q12204299",
+   "name": "Al-Naqah Mosque",
+   "sl": 9,
+   "file": "Naga Mosque Exterior Tripoli Libya.JPG",
+   "lat": 32.8954,
+   "lon": 13.1787,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naga Mosque"
+  },
+  {
+   "id": "Q1404225",
+   "name": "HMS Dainty",
+   "sl": 9,
+   "file": "HMS Dainty.jpg",
+   "lat": 32.0733,
+   "lon": 24.0783,
+   "kind": "built",
+   "types": [
+    "destroyer",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "HMS Dainty (H53)"
+  },
+  {
+   "id": "Q2008633",
+   "name": "Oasis crater",
+   "sl": 9,
+   "file": "Oasis crater.jpg",
+   "lat": 24.5744,
+   "lon": 24.4103,
+   "kind": "natural",
+   "types": [
+    "impact crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1994812",
+   "name": "Oea",
+   "sl": 9,
+   "file": "Marcus Aurelius Arch Tripoli Libya.jpg",
+   "lat": 32.8976,
+   "lon": 13.1753,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Roman city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q31911313",
+   "name": "Wadi Derna",
+   "sl": 9,
+   "file": "Derna 4.jpg",
+   "lat": 32.767,
+   "lon": 22.6511,
+   "kind": "natural",
+   "types": [
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi Derna"
+  },
+  {
+   "id": "Q3621792",
+   "name": "Arch of Septimius Severus (Leptis Magna)",
+   "sl": 8,
+   "file": "Leptis Magna Arch of Septimius Severus.jpg",
+   "lat": 32.6357,
+   "lon": 14.2891,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "feature",
+    "ruins",
+    "tetrapylon"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q191504",
+    "name": "Leptis Magna"
+   },
+   "also": [],
+   "cat": "Arch of Septimius Severus (Leptis Magna)"
+  },
+  {
+   "id": "Q2401733",
+   "name": "Athrun",
+   "sl": 8,
+   "file": "Erythron Church.jpg",
+   "lat": 32.8667,
+   "lon": 22.2667,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erythron"
+  },
+  {
+   "id": "Q15193023",
+   "name": "Atiq Mosque, Awjila",
+   "sl": 8,
+   "file": "The Old mosque, Awjilah.jpg",
+   "lat": 29.1275,
+   "lon": 21.291,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atiq Mosque in Awjila"
+  },
+  {
+   "id": "Q15216253",
+   "name": "El-Kouf National Park",
+   "sl": 8,
+   "file": "Ciconia ciconia2.jpg",
+   "lat": 32.7433,
+   "lon": 21.205,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q652067",
+   "name": "Martuba Airbase",
+   "sl": 8,
+   "file": "Bf 109F SAAF KJ-? on ramp.jpg",
+   "lat": 32.542,
+   "lon": 22.745,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4115649",
+   "name": "Maydan al Shajara",
+   "sl": 8,
+   "file": "Piazza del Shagara Bengasi 1964.jpg",
+   "lat": 32.115,
+   "lon": 20.0625,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maydan al Shajara"
+  },
+  {
+   "id": "Q1569279",
+   "name": "Olbia",
+   "sl": 8,
+   "file": "Theodorias(libya).jpg",
+   "lat": 32.4983,
+   "lon": 20.8928,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olbia (Libya)"
+  },
+  {
+   "id": "Q24054423",
+   "name": "St. Francis Pro-Cathedral, Tripoli",
+   "sl": 8,
+   "file": "Tripoli catholic church.jpg",
+   "lat": 32.8917,
+   "lon": 13.1938,
+   "kind": "built",
+   "types": [
+    "Catholic church building",
+    "pro-cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Francis Pro-Cathedral"
+  }
+ ]
+}

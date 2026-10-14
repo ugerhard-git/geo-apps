@@ -1,0 +1,1030 @@
+{
+ "country": "MD",
+ "items": [
+  {
+   "id": "Q844951",
+   "name": "Chișinău International Airport",
+   "sl": 43,
+   "file": "Chisinau Airport KIV.jpg",
+   "lat": 46.9278,
+   "lon": 28.9308,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chișinău International Airport"
+  },
+  {
+   "id": "Q522432",
+   "name": "Bălți International Airport",
+   "sl": 39,
+   "file": "BaltiInternationalAirport1.JPG",
+   "lat": 47.8431,
+   "lon": 27.7772,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bălți International Airport"
+  },
+  {
+   "id": "Q239295",
+   "name": "Zimbru Stadium",
+   "sl": 33,
+   "file": "Zimbru Stadium in 26 April 2025.jpg",
+   "lat": 46.9803,
+   "lon": 28.8669,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zimbru Stadium"
+  },
+  {
+   "id": "Q47940",
+   "name": "Bălănești Hill",
+   "sl": 32,
+   "file": "Dealul Bălănești 2.JPG",
+   "lat": 47.2177,
+   "lon": 28.0917,
+   "kind": "natural",
+   "types": [
+    "geotope",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1509390",
+   "name": "Sheriff Stadium",
+   "sl": 25,
+   "file": "Tiraspol Sheriff Stadion.JPG",
+   "lat": 46.8383,
+   "lon": 29.5575,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sheriff Stadium"
+  },
+  {
+   "id": "Q2374273",
+   "name": "Soroca Fort",
+   "sl": 22,
+   "file": "Сорокская крепость Cetatea Soroca Soroca Fortress (44738809521).jpg",
+   "lat": 48.1612,
+   "lon": 28.3055,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soroca Fort"
+  },
+  {
+   "id": "Q5813126",
+   "name": "Nativity of Christ Cathedral",
+   "sl": 21,
+   "file": "Ansamblul Catedralei „Nașterea Domnului” 8.jpg",
+   "lat": 47.0261,
+   "lon": 28.8345,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nativity Cathedral, Chișinău"
+  },
+  {
+   "id": "Q7231147",
+   "name": "Port of Giurgiulești",
+   "sl": 21,
+   "file": "Giurgiulesti-Harbour.jpg",
+   "lat": 45.47,
+   "lon": 28.21,
+   "kind": "both",
+   "types": [
+    "harbor",
+    "inland port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Giurgiulești Harbour"
+  },
+  {
+   "id": "Q13529390",
+   "name": "Eiffel Bridge, Ungheni",
+   "sl": 19,
+   "file": "09.05.2024 - Vizita comună în Republica Moldova a Președinților Grupurilor de prietenie din parlamentele statelor membre ale Uniunii Europene - DSC 1130.jpg",
+   "lat": 47.1999,
+   "lon": 27.7871,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "railway bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RO"
+   ],
+   "cat": "Eiffel Bridge, Ungheni"
+  },
+  {
+   "id": "Q4222669",
+   "name": "Chișinău",
+   "sl": 18,
+   "file": "Chișinău Central Station in Moldova (Front View).jpg",
+   "lat": 47.0125,
+   "lon": 28.8597,
+   "kind": "built",
+   "types": [
+    "railway station",
+    "station building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chișinău train station"
+  },
+  {
+   "id": "Q15838244",
+   "name": "Orhei National Park",
+   "sl": 18,
+   "file": "Orhei Vechi, Moldova - Flickr - Dave Proffer (12).jpg",
+   "lat": 47.3,
+   "lon": 28.9667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orhei National Park"
+  },
+  {
+   "id": "Q1692322",
+   "name": "Căpriana monastery",
+   "sl": 16,
+   "file": "Monasterio de Căpriana, Căpriana, Moldavia, 2023-11-02, DD 38.jpg",
+   "lat": 47.1166,
+   "lon": 28.5106,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Eastern Orthodox church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Căpriana monastery"
+  },
+  {
+   "id": "Q2375221",
+   "name": "Stadionul Republican",
+   "sl": 16,
+   "file": "...до основания, а затем... - panoramio.jpg",
+   "lat": 47.0125,
+   "lon": 28.8394,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadionul Republican"
+  },
+  {
+   "id": "Q7844583",
+   "name": "Triumphal Arch, Chișinău",
+   "sl": 16,
+   "file": "Arc de Triomphe, Chişinău (4867173990) (cropped).jpg",
+   "lat": 47.0247,
+   "lon": 28.8325,
+   "kind": "built",
+   "types": [
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Triumphal arch, Chișinău"
+  },
+  {
+   "id": "Q2493018",
+   "name": "Codri",
+   "sl": 15,
+   "file": "Codrii dolna.jpg",
+   "lat": 47.1,
+   "lon": 28.3,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2382751",
+   "name": "Old Orhei",
+   "sl": 15,
+   "file": "Orhei Vechi 08.JPG",
+   "lat": 47.3014,
+   "lon": 28.9725,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orheiul Vechi"
+  },
+  {
+   "id": "Q1431035",
+   "name": "Bălți City Airport",
+   "sl": 14,
+   "file": "Antonov An-2 099.jpg",
+   "lat": 47.7744,
+   "lon": 27.9575,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bălți City Airport"
+  },
+  {
+   "id": "Q12723696",
+   "name": "Cathedral of Divine Providence, Chișinău",
+   "sl": 14,
+   "file": "Cathedral of Divine Providence, Chişinău.jpg",
+   "lat": 47.0291,
+   "lon": 28.8291,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Divine Providence, Chișinău"
+  },
+  {
+   "id": "Q2635906",
+   "name": "Lake Kahul",
+   "sl": 14,
+   "file": "Lake Kahul 04.jpg",
+   "lat": 45.3714,
+   "lon": 28.3968,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UA"
+   ],
+   "cat": "Lake Kahul"
+  },
+  {
+   "id": "Q6974468",
+   "name": "National Museum of Fine Arts",
+   "sl": 14,
+   "file": "Hertza House in Chisinau, Moldova (48160397397).jpg",
+   "lat": 47.0283,
+   "lon": 28.8256,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Art Museum of Moldova"
+  },
+  {
+   "id": "Q12736098",
+   "name": "National Museum of History of Moldova",
+   "sl": 14,
+   "file": "Museum of History (AP4L0086 1PS) (28922487610).jpg",
+   "lat": 47.0226,
+   "lon": 28.8281,
+   "kind": "built",
+   "types": [
+    "national museum",
+    "open-access publisher"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of History of Moldova"
+  },
+  {
+   "id": "Q4458055",
+   "name": "Tiraspol Airfield",
+   "sl": 14,
+   "file": "Тирасполь (аэродром) ВПП.jpg",
+   "lat": 46.8725,
+   "lon": 29.5844,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tiraspol Airport"
+  },
+  {
+   "id": "Q1968281",
+   "name": "Bender Fortress",
+   "sl": 13,
+   "file": "Bender Fortress. South side 03.JPG",
+   "lat": 46.8376,
+   "lon": 29.4851,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bender fortress"
+  },
+  {
+   "id": "Q2501338",
+   "name": "Water Tower of Chișinău",
+   "sl": 13,
+   "file": "Moldova-chisineu-city-museum.jpg",
+   "lat": 47.0193,
+   "lon": 28.8222,
+   "kind": "built",
+   "types": [
+    "museum",
+    "water tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chișinău Water Tower"
+  },
+  {
+   "id": "Q8273147",
+   "name": "Japca Monastery",
+   "sl": 12,
+   "file": "Stamp of Moldova 308.gif",
+   "lat": 47.9881,
+   "lon": 28.7117,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Japca Monastery"
+  },
+  {
+   "id": "Q559560",
+   "name": "National Opera and Ballet Theatre of Moldova",
+   "sl": 12,
+   "file": "Opernhaus Chișinău 20250406 4.jpg",
+   "lat": 47.0276,
+   "lon": 28.83,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Opera and Ballet Theatre, Chișinău"
+  },
+  {
+   "id": "Q5102676",
+   "name": "Chișinău City Hall",
+   "sl": 11,
+   "file": "Consiliul Municipal Chișinău (cropped).jpg",
+   "lat": 47.023,
+   "lon": 28.8343,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chișinău City Hall building"
+  },
+  {
+   "id": "Q4425965",
+   "name": "Church of the Nativity, Tiraspol",
+   "sl": 11,
+   "file": "SoborTiraspol.jpg",
+   "lat": 46.8375,
+   "lon": 29.6144,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orthodox cathedral of the Nativity of Jesus Christ in Tiraspol"
+  },
+  {
+   "id": "Q2651567",
+   "name": "Cuciurgan Reservoir",
+   "sl": 11,
+   "file": "Kuchurgany reservoir1.jpg",
+   "lat": 46.6,
+   "lon": 29.9667,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UA"
+   ],
+   "cat": "Cuciurgan Reservoir"
+  },
+  {
+   "id": "Q15625039",
+   "name": "Mileștii Mici",
+   "sl": 11,
+   "file": "Combinatul de vinuri \"Mileştii Mici\",Galeriile subterane 06.jpg",
+   "lat": 46.9193,
+   "lon": 28.8226,
+   "kind": "built",
+   "types": [
+    "winery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mileștii Mici (winery)"
+  },
+  {
+   "id": "Q12724238",
+   "name": "Presidential Palace in Chișinău",
+   "sl": 11,
+   "file": "Palacio presidencial, Chisináu, Moldavia, 2023-11-03, DD 43.jpg",
+   "lat": 47.0284,
+   "lon": 28.8281,
+   "kind": "built",
+   "types": [
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidential Palace, Chișinău"
+  },
+  {
+   "id": "Q19315589",
+   "name": "Ciuflea Monastery",
+   "sl": 10,
+   "file": "Moldavian orthodox church.jpg",
+   "lat": 47.0127,
+   "lon": 28.8467,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ciuflea"
+  },
+  {
+   "id": "Q2898951",
+   "name": "Codru Reserve",
+   "sl": 10,
+   "file": "Reservation \"Codrii\" (1980). (24286840476).jpg",
+   "lat": 47.0667,
+   "lon": 28.5,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Codru (nature reserve)"
+  },
+  {
+   "id": "Q1465488",
+   "name": "Hâncu monastery",
+   "sl": 10,
+   "file": "Hancu Monastery.jpg",
+   "lat": 47.0791,
+   "lon": 28.3218,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hîncu monastery"
+  },
+  {
+   "id": "Q1716140",
+   "name": "Jewish cemetery in Chișinău",
+   "sl": 10,
+   "file": "Cimitir evreiesc Chișinău 2022 foto 4.jpg",
+   "lat": 47.0353,
+   "lon": 28.7972,
+   "kind": "built",
+   "types": [
+    "Jewish cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jewish cemetery in Chișinău"
+  },
+  {
+   "id": "Q4155884",
+   "name": "Mansion of Manuc Bey",
+   "sl": 10,
+   "file": "AIRM - Doors Open Day @ mansion of Manuc Bei - dec 2015 - 02.jpg",
+   "lat": 46.8254,
+   "lon": 28.5824,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "mansion",
+    "museum complex"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mansion of Manuc Bei"
+  },
+  {
+   "id": "Q1968696",
+   "name": "National Museum of Ethnography and Natural History",
+   "sl": 10,
+   "file": "Museo nacional de etnografía e historia natural, Chisináu, Moldavia, 2023-11-03, DD 57.jpg",
+   "lat": 47.0234,
+   "lon": 28.8201,
+   "kind": "built",
+   "types": [
+    "building",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Ethnography and Natural History in Chișinău"
+  },
+  {
+   "id": "Q6271715",
+   "name": "Pădurea Domnească",
+   "sl": 10,
+   "file": "La intrare in Zimbrarie.jpg",
+   "lat": 47.6097,
+   "lon": 27.3936,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pădurea Domnească"
+  },
+  {
+   "id": "Q7376959",
+   "name": "Rudi Monastery",
+   "sl": 10,
+   "file": "Rudi - Mănăstirea Rudi.jpg",
+   "lat": 48.3456,
+   "lon": 27.8908,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rudi Monastery"
+  },
+  {
+   "id": "Q675184",
+   "name": "Saharna Monastery",
+   "sl": 10,
+   "file": "Biserica mănăstirii Saharna.jpg",
+   "lat": 47.695,
+   "lon": 28.9656,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saharna Monastery"
+  },
+  {
+   "id": "Q2091959",
+   "name": "St. Teodora de la Sihla Church",
+   "sl": 10,
+   "file": "Kišiněv, chrám sv. Teodory ze Sihly (2019-03-16; 01).jpg",
+   "lat": 47.0209,
+   "lon": 28.8304,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Teodora de la Sihla Church"
+  },
+  {
+   "id": "Q4343360",
+   "name": "Stephen the Great Monument",
+   "sl": 10,
+   "file": "Monumentul lui Ștefan cel Mare și Sfânt din Chișinău 25 - December - 2019 14.29.35 49.jpg",
+   "lat": 47.0255,
+   "lon": 28.8303,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stephen the Great Monument, Chișinău"
+  },
+  {
+   "id": "Q4193722",
+   "name": "Zolushka/Emil Racoviță cave",
+   "sl": 10,
+   "file": "Peștera Zolushka (Emil Racoviță) (2).jpg",
+   "lat": 48.277,
+   "lon": 26.6369,
+   "kind": "natural",
+   "types": [
+    "cave",
+    "Gypsum Cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emil Racoviță cave"
+  },
+  {
+   "id": "Q1837288",
+   "name": "Chadyr Lunga Airport",
+   "sl": 9,
+   "file": "Airport Chadyr Lunga Vilga-35 on the airfield.jpg",
+   "lat": 46.035,
+   "lon": 28.8518,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4536209",
+   "name": "Iagorlîc",
+   "sl": 9,
+   "file": "Панорама заповедника Ягорлык и села Дойбаны-I.jpg",
+   "lat": 47.3778,
+   "lon": 29.1625,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iagorlîc"
+  },
+  {
+   "id": "Q105969627",
+   "name": "Mimi winery",
+   "sl": 9,
+   "file": "Fabrica de vin Mimi.jpg",
+   "lat": 46.8917,
+   "lon": 29.292,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mimi winery"
+  },
+  {
+   "id": "Q7367970",
+   "name": "Rose Valley, Chișinău",
+   "sl": 9,
+   "file": "RoseValley3 Chisinau.JPG",
+   "lat": 47.0042,
+   "lon": 28.8522,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rose Valley, Chișinău"
+  },
+  {
+   "id": "Q7376933",
+   "name": "Rudi Geodetic Point",
+   "sl": 9,
+   "file": "Struve Geodetic Arc in Moldova (cropped).jpg",
+   "lat": 48.3188,
+   "lon": 27.8764,
+   "kind": "built",
+   "types": [
+    "benchmark",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q192243",
+    "name": "Struve Geodetic Arc"
+   },
+   "also": [],
+   "cat": "Struve Geodetic Arc in Moldova"
+  },
+  {
+   "id": "Q1635077",
+   "name": "Stadionul Orășenesc",
+   "sl": 9,
+   "file": "St. Olimpia din Bălți CN.JPG",
+   "lat": 47.7662,
+   "lon": 27.9332,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olimpia Stadium"
+  },
+  {
+   "id": "Q20440432",
+   "name": "Wooden church of Hirișeni",
+   "sl": 9,
+   "file": "MD.C.Chișinău - Biserica de lemn din Hirișeni (1) - jul 2015.jpg",
+   "lat": 46.9725,
+   "lon": 28.8738,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wooden church of Hirișeni"
+  },
+  {
+   "id": "Q1970380",
+   "name": "Chișinău Botanical Garden",
+   "sl": 8,
+   "file": "Gradina botanica Chisinau (02).jpg",
+   "lat": 46.9758,
+   "lon": 28.8833,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Botanical garden in Chișinău"
+  },
+  {
+   "id": "Q4222663",
+   "name": "Chișinău Circus",
+   "sl": 8,
+   "file": "Circul Chisinau.jpg",
+   "lat": 47.0373,
+   "lon": 28.8492,
+   "kind": "built",
+   "types": [
+    "circus building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chișinău Circus"
+  },
+  {
+   "id": "Q15212003",
+   "name": "Cricova",
+   "sl": 8,
+   "file": "MD.C.Cricova - vinăria - feb 2021 - 03.jpg",
+   "lat": 47.133,
+   "lon": 28.85,
+   "kind": "built",
+   "types": [
+    "winery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cricova (winery)"
+  },
+  {
+   "id": "Q12724484",
+   "name": "CSR Orhei",
+   "sl": 8,
+   "file": "CSR Orhei.jpg",
+   "lat": 47.3744,
+   "lon": 28.8192,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q39058860",
+   "name": "Eternity Memorial Complex, Chișinău",
+   "sl": 8,
+   "file": "Chișinău - Memorial complex Eternitate (by Pudelek).jpg",
+   "lat": 47.0092,
+   "lon": 28.8331,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Memorial complex Eternitate"
+  },
+  {
+   "id": "Q2378710",
+   "name": "Ghidighici Reservoir",
+   "sl": 8,
+   "file": "Ghidighici 05.jpg",
+   "lat": 47.1,
+   "lon": 28.7139,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ghidighici Lake"
+  },
+  {
+   "id": "Q5243549",
+   "name": "Lower Prut",
+   "sl": 8,
+   "file": "Lacul Beleu, Rezervația științifică Prutul de Jos 05.jpg",
+   "lat": 45.7,
+   "lon": 28.1833,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lower Prut"
+  },
+  {
+   "id": "Q4274472",
+   "name": "Măzărache Church",
+   "sl": 8,
+   "file": "AIRM - Biserica Măzărache - octombrie 2013 - 680137952010961.jpg",
+   "lat": 47.031,
+   "lon": 28.849,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Măzărache Church"
+  },
+  {
+   "id": "Q12140838",
+   "name": "Plaiul Fagului",
+   "sl": 8,
+   "file": "Rezervatia Plaiul fagului Ungheni (6).jpg",
+   "lat": 47.2911,
+   "lon": 28.0544,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaiul Fagului"
+  },
+  {
+   "id": "Q7397295",
+   "name": "Saint Cajetan Church, Rașcov",
+   "sl": 8,
+   "file": "Biserica catolică din vîrful ruinelor sinagogii.jpg",
+   "lat": 47.9428,
+   "lon": 28.8414,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Cajetan church in Rașcov"
+  },
+  {
+   "id": "Q7401150",
+   "name": "Sts. Constantine and Helen Cathedral",
+   "sl": 8,
+   "file": "Catedrala. Sf. Const si Elen. din Bălți.JPG",
+   "lat": 47.7544,
+   "lon": 27.9197,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saints Constantine and Elena Cathedral, Bălți"
+  },
+  {
+   "id": "Q3815738",
+   "name": "Țipova Monastery",
+   "sl": 8,
+   "file": "Monasterio de Țipova, Țipova, Moldavia, 2023-11-01, DD 27.jpg",
+   "lat": 47.6031,
+   "lon": 28.9848,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Țipova Monastery"
+  }
+ ]
+}

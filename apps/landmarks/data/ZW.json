@@ -1,0 +1,613 @@
+{
+ "country": "ZW",
+ "items": [
+  {
+   "id": "Q43278",
+   "name": "Victoria Falls",
+   "sl": 111,
+   "file": "Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 05.jpg",
+   "lat": -17.9248,
+   "lon": 25.8581,
+   "kind": "natural",
+   "types": [
+    "horseshoe waterfall",
+    "waterfall"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q139989268",
+    "name": "Mosi-oa-Tunya / Victoria Falls"
+   },
+   "also": [
+    "ZM"
+   ],
+   "cat": "Victoria Falls"
+  },
+  {
+   "id": "Q209217",
+   "name": "Great Zimbabwe",
+   "sl": 75,
+   "file": "Great-Zimbabwe-6.jpg",
+   "lat": -20.27,
+   "lon": 30.933,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Zimbabwe"
+  },
+  {
+   "id": "Q693254",
+   "name": "Mana Pools",
+   "sl": 45,
+   "file": "ZmbziRvr.jpg",
+   "lat": -15.75,
+   "lon": 29.3333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15728398",
+    "name": "Mana Pools National Park, Sapi and Chewore Safari Areas"
+   },
+   "also": [],
+   "cat": "Mana Pools National Park"
+  },
+  {
+   "id": "Q1047206",
+   "name": "Lake Kariba",
+   "sl": 43,
+   "file": "Kariba, Zimbabwe 04.JPG",
+   "lat": -16.9,
+   "lon": 28,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZM"
+   ],
+   "cat": "Lake Kariba"
+  },
+  {
+   "id": "Q938685",
+   "name": "Khami",
+   "sl": 39,
+   "file": "Khami.jpg",
+   "lat": -20.1433,
+   "lon": 28.4234,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Khami ruins"
+  },
+  {
+   "id": "Q1367609",
+   "name": "Kariba Dam",
+   "sl": 37,
+   "file": "KaribaDam.jpg",
+   "lat": -16.5217,
+   "lon": 28.7614,
+   "kind": "built",
+   "types": [
+    "arch dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZM"
+   ],
+   "cat": "Kariba Dam"
+  },
+  {
+   "id": "Q604422",
+   "name": "Great Limpopo Transfrontier Park",
+   "sl": 33,
+   "file": "Makuleke2.JPG",
+   "lat": -22.4333,
+   "lon": 31.3667,
+   "kind": "natural",
+   "types": [
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MZ",
+    "ZA"
+   ],
+   "cat": "Great Limpopo Transfrontier Park"
+  },
+  {
+   "id": "Q760897",
+   "name": "Robert Gabriel Mugabe International Airport",
+   "sl": 32,
+   "file": "Harare International Airport.jpg",
+   "lat": -17.9318,
+   "lon": 31.0928,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Harare International Airport"
+  },
+  {
+   "id": "Q152294",
+   "name": "Mount Nyangani",
+   "sl": 28,
+   "file": "Nyangani from nyamuziwa source.jpg",
+   "lat": -18.3111,
+   "lon": 32.8506,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Nyangani"
+  },
+  {
+   "id": "Q1571380",
+   "name": "Hwange National Park",
+   "sl": 27,
+   "file": "Down the water hole.jpg",
+   "lat": -18.735,
+   "lon": 26.955,
+   "kind": "natural",
+   "types": [
+    "Important Bird Area",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hwange National Park"
+  },
+  {
+   "id": "Q917429",
+   "name": "Matobo Hills",
+   "sl": 26,
+   "file": "Balancing Rocks in Matopos National Park.jpg",
+   "lat": -20.5833,
+   "lon": 28.6667,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain range",
+    "non-geologically related mountain range"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Matobo Hills"
+  },
+  {
+   "id": "Q1778838",
+   "name": "Matobo National Park",
+   "sl": 25,
+   "file": "Sunrise Matobo Zimbabwe.jpg",
+   "lat": -20.55,
+   "lon": 28.508,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matobo National Park"
+  },
+  {
+   "id": "Q1640800",
+   "name": "Victoria Falls National Park",
+   "sl": 25,
+   "file": "Victoria Falls 2012 05 24 1715 (7421915682).jpg",
+   "lat": -17.951,
+   "lon": 25.8407,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q43278",
+    "name": "Victoria Falls"
+   },
+   "also": [],
+   "cat": "Victoria Falls"
+  },
+  {
+   "id": "Q556056",
+   "name": "Joshua Mqabuko Nkomo International Airport",
+   "sl": 21,
+   "file": "Air Zimbabwe B767-2N0ER (Z-WPF) at Joshua Mqabuko Nkomo International Airport.jpg",
+   "lat": -20.0174,
+   "lon": 28.6179,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Joshua Mqabuko Nkomo International Airport"
+  },
+  {
+   "id": "Q1323548",
+   "name": "Mosi-oa-Tunya National Park",
+   "sl": 21,
+   "file": "White rhino Livingstone.jpg",
+   "lat": -17.8667,
+   "lon": 25.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosi-oa-Tunya National Park"
+  },
+  {
+   "id": "Q3123675",
+   "name": "Mutarazi Falls",
+   "sl": 21,
+   "file": "Mutarazi Falls00.jpg",
+   "lat": -18.4842,
+   "lon": 32.7925,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mutarazi Falls"
+  },
+  {
+   "id": "Q317323",
+   "name": "Victoria Falls Bridge",
+   "sl": 20,
+   "file": "Victoria Falls Bridge.JPG",
+   "lat": -17.9283,
+   "lon": 25.8572,
+   "kind": "built",
+   "types": [
+    "deck arch bridge",
+    "international bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZM"
+   ],
+   "cat": "Victoria Falls Bridge"
+  },
+  {
+   "id": "Q595121",
+   "name": "Gonarezhou National Park",
+   "sl": 19,
+   "file": "Zimbabwe Gonarezhou Landscape Chilojo Cliffs.jpg",
+   "lat": -21.6667,
+   "lon": 31.6667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gonarezhou National Park"
+  },
+  {
+   "id": "Q1433189",
+   "name": "Victoria Falls Airport",
+   "sl": 19,
+   "file": "VictoriaFallsAirport arrivals.jpg",
+   "lat": -18.0959,
+   "lon": 25.839,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Victoria Falls Airport"
+  },
+  {
+   "id": "Q24235830",
+   "name": "Zambezi National Park",
+   "sl": 17,
+   "file": "Victoria Falls 2012 05 24 1629 (7421900826).jpg",
+   "lat": -17.9265,
+   "lon": 25.6344,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zambezi National Park"
+  },
+  {
+   "id": "Q865013",
+   "name": "Birchenough Bridge",
+   "sl": 16,
+   "file": "Bbridge.jpg",
+   "lat": -19.9619,
+   "lon": 32.3442,
+   "kind": "built",
+   "types": [
+    "human settlement",
+    "road bridge",
+    "steel bridge",
+    "through arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Birchenough Bridge"
+  },
+  {
+   "id": "Q5101060",
+   "name": "Chinhoyi Caves",
+   "sl": 16,
+   "file": "Chinhoyi caves, Zimbabwe.JPG",
+   "lat": -17.35,
+   "lon": 30.125,
+   "kind": "both",
+   "types": [
+    "protected area",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chinhoyi Caves"
+  },
+  {
+   "id": "Q478677",
+   "name": "Nyanga National Park",
+   "sl": 14,
+   "file": "Central nyanga np.jpg",
+   "lat": -18.2167,
+   "lon": 32.75,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nyanga National Park"
+  },
+  {
+   "id": "Q4113712",
+   "name": "National Gallery of Zimbabwe",
+   "sl": 13,
+   "file": "National Gallery Zimbabwe.jpg",
+   "lat": -17.8253,
+   "lon": 31.0489,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery of Zimbabwe"
+  },
+  {
+   "id": "Q4864496",
+   "name": "Lake Chivero",
+   "sl": 12,
+   "file": "Lake Chivero.JPG",
+   "lat": -17.9003,
+   "lon": 30.7911,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Chivero"
+  },
+  {
+   "id": "Q6370465",
+   "name": "Kariba Airport",
+   "sl": 11,
+   "file": "Kariba Airport 1959 Robbins-1.jpg",
+   "lat": -16.5197,
+   "lon": 28.885,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kariba Airport"
+  },
+  {
+   "id": "Q1837634",
+   "name": "Charles Prince Airport",
+   "sl": 9,
+   "file": "Super Constellation at Salisbury Airport Rhodesia.JPG",
+   "lat": -17.7516,
+   "lon": 30.9247,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q712540",
+   "name": "Lake Mutirikwe",
+   "sl": 9,
+   "file": "Lake Kyle00.jpg",
+   "lat": -20.2489,
+   "lon": 31.0333,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mutirikwe"
+  },
+  {
+   "id": "Q4722312",
+   "name": "Alfred Beit Road Bridge",
+   "sl": 8,
+   "file": "NewBeitBridge.jpg",
+   "lat": -22.2244,
+   "lon": 29.9865,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZA"
+   ],
+   "cat": "Alfred Beit Road Bridge"
+  },
+  {
+   "id": "Q203414",
+   "name": "Bulawayo Railway Museum",
+   "sl": 8,
+   "file": "HGG-ZimbabweNationalRailwayMuseum.jpg",
+   "lat": -20.1639,
+   "lon": 28.5737,
+   "kind": "built",
+   "types": [
+    "railway museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bulawayo Railway Museum"
+  },
+  {
+   "id": "Q23754354",
+   "name": "Cathedral Basilica of the Immaculate Conception, Bulawayo",
+   "sl": 8,
+   "file": "The nave of St. Mary's Cathedral Basilica (1).jpg",
+   "lat": -20.1551,
+   "lon": 28.5781,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral Basilica of the Immaculate Conception (Bulawayo)"
+  },
+  {
+   "id": "Q1071382",
+   "name": "Chewore",
+   "sl": 8,
+   "file": "Zambezi – Elephants crossing the river- 1 ca 12.11.2009.jpg",
+   "lat": -15.7333,
+   "lon": 29.4,
+   "kind": "",
+   "types": [
+    "hunting ground"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15728398",
+    "name": "Mana Pools National Park, Sapi and Chewore Safari Areas"
+   },
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11318541",
+   "name": "Chirundu Bridge",
+   "sl": 8,
+   "file": "The Chirundu Bridge-edit.jpg",
+   "lat": -16.0378,
+   "lon": 28.852,
+   "kind": "built",
+   "types": [
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZM"
+   ],
+   "cat": "Chirundu Bridge"
+  },
+  {
+   "id": "Q6799078",
+   "name": "Mazvikadei Dam",
+   "sl": 8,
+   "file": "Mazwik Aerial.jpg",
+   "lat": -17.2206,
+   "lon": 30.3917,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mazvikadei Dam"
+  },
+  {
+   "id": "Q1144585",
+   "name": "Ziwa",
+   "sl": 8,
+   "file": "Ziwa ruins pitentrance.JPG",
+   "lat": -18.1383,
+   "lon": 32.6544,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ziwa Ruins"
+  }
+ ]
+}

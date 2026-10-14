@@ -1,0 +1,239 @@
+{
+ "country": "GQ",
+ "items": [
+  {
+   "id": "Q1518286",
+   "name": "Pico Basilé",
+   "sl": 28,
+   "file": "Pico Basilé.jpg",
+   "lat": 3.5833,
+   "lon": 8.7667,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Basilé"
+  },
+  {
+   "id": "Q655320",
+   "name": "Malabo International Airport",
+   "sl": 27,
+   "file": "Aeropuerto de Malabo.jpg",
+   "lat": 3.755,
+   "lon": 8.7086,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malabo International Airport"
+  },
+  {
+   "id": "Q2707180",
+   "name": "Bata Airport",
+   "sl": 24,
+   "file": "Aeropuerto Internacional de Bata (6510178541).jpg",
+   "lat": 1.901,
+   "lon": 9.8028,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bata Airport"
+  },
+  {
+   "id": "Q1510743",
+   "name": "Malabo Stadium",
+   "sl": 22,
+   "file": "Estadio de Malabo Equatorial Guinea.JPG",
+   "lat": 3.725,
+   "lon": 8.7692,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuevo Estadio de Malabo"
+  },
+  {
+   "id": "Q1369679",
+   "name": "Estadio de Bata",
+   "sl": 21,
+   "file": "Bata Stadium Equatorial Guinea.JPG",
+   "lat": 1.82,
+   "lon": 9.7875,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio de Bata"
+  },
+  {
+   "id": "Q4783434",
+   "name": "Muni",
+   "sl": 19,
+   "file": "Muni beschriftet OSM.png",
+   "lat": 0.9883,
+   "lon": 9.7833,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "estuary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GA"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q4736972",
+   "name": "Altos de Nsork National Park",
+   "sl": 15,
+   "file": "Altos de Nsork National Park, Equatorial Guinea (boundaries).png",
+   "lat": 1.16,
+   "lon": 11.12,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Altos de Nsork National Park"
+  },
+  {
+   "id": "Q5659005",
+   "name": "Annobón Airport",
+   "sl": 15,
+   "file": "San Antonio de Palé Airport SDV-1.jpg",
+   "lat": -1.4103,
+   "lon": 5.6219,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Annobón Airport"
+  },
+  {
+   "id": "Q6904640",
+   "name": "Monte Alén National Park",
+   "sl": 15,
+   "file": "Nationalpark Monte Alén (Tafel).jpg",
+   "lat": 1.53,
+   "lon": 10.11,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monte Alén National Park"
+  },
+  {
+   "id": "Q18605917",
+   "name": "Estadio de Mongomo",
+   "sl": 12,
+   "file": "Stade-Mongomo.jpg",
+   "lat": 1.6511,
+   "lon": 11.2993,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio de Mongomo"
+  },
+  {
+   "id": "Q6063070",
+   "name": "Pico Basilé National Park",
+   "sl": 11,
+   "file": "Pico Basilé.jpg",
+   "lat": 3.5833,
+   "lon": 8.7667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q8342845",
+   "name": "St. Elisabeth Cathedral",
+   "sl": 11,
+   "file": "Santa Isabel Malabo 20131224 140204.jpg",
+   "lat": 3.757,
+   "lon": 8.7828,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Malabo"
+  },
+  {
+   "id": "Q7413507",
+   "name": "San Carlos",
+   "sl": 10,
+   "file": "San Carlos volcado.jpg",
+   "lat": 3.3561,
+   "lon": 8.5131,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4567104",
+   "name": "Black Beach",
+   "sl": 8,
+   "file": "Malabo Harbour (3297513032).jpg",
+   "lat": 3.7597,
+   "lon": 8.7878,
+   "kind": "built",
+   "types": [
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

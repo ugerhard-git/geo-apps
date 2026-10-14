@@ -1,0 +1,785 @@
+{
+ "country": "AD",
+ "items": [
+  {
+   "id": "Q332800",
+   "name": "Madriu-Perafita-Claror Valley",
+   "sl": 42,
+   "file": "Perafita.jpg",
+   "lat": 42.4921,
+   "lon": 1.5944,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Madriu-Perafita-Claror Valley"
+  },
+  {
+   "id": "Q62467",
+   "name": "Coma Pedrosa",
+   "sl": 41,
+   "file": "Comapedrosa01.jpg",
+   "lat": 42.5918,
+   "lon": 1.4437,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Coma Pedrosa"
+  },
+  {
+   "id": "Q546027",
+   "name": "Estadi Comunal d'Andorra la Vella",
+   "sl": 29,
+   "file": "Stadium andorra.png",
+   "lat": 42.5012,
+   "lon": 1.5138,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadi Comunal d'Andorra la Vella"
+  },
+  {
+   "id": "Q18125598",
+   "name": "Estadi Nacional",
+   "sl": 27,
+   "file": "Estadi Nacional d‘Andorra.jpg",
+   "lat": 42.5046,
+   "lon": 1.5175,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1046548",
+   "name": "Casa de la Vall",
+   "sl": 21,
+   "file": "Casa de la Vall, Andorra la Vieja, Andorra, 2013-12-30, DD 01.JPG",
+   "lat": 42.5067,
+   "lon": 1.5206,
+   "kind": "built",
+   "types": [
+    "manor house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casa de la Vall"
+  },
+  {
+   "id": "Q948850",
+   "name": "Pic de Médécourbe",
+   "sl": 18,
+   "file": "Col de Bareytes et crete de Médécourbe.JPG",
+   "lat": 42.6037,
+   "lon": 1.442,
+   "kind": "both",
+   "types": [
+    "mountain",
+    "tripoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES",
+    "FR"
+   ],
+   "cat": "Pic de Medacorba"
+  },
+  {
+   "id": "Q2209719",
+   "name": "Pic de Sanfonts",
+   "sl": 17,
+   "file": "Estany Negre Pic de Sanfonts Agulla de Baiau.JPG",
+   "lat": 42.5875,
+   "lon": 1.4277,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Pic de Sanfonts"
+  },
+  {
+   "id": "Q2664716",
+   "name": "Pic del Port Vell",
+   "sl": 17,
+   "file": "Pic del Port Vell.JPG",
+   "lat": 42.5718,
+   "lon": 1.4435,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Pic del Port Vell"
+  },
+  {
+   "id": "Q3215332",
+   "name": "Lake Engolasters",
+   "sl": 15,
+   "file": "Estany d'Engolasters - 19.jpg",
+   "lat": 42.5197,
+   "lon": 1.5686,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estany d'Engolasters"
+  },
+  {
+   "id": "Q63789",
+   "name": "Església de Sant Esteve",
+   "sl": 14,
+   "file": "Església de Sant Esteve (Andorra la Vella) - 2.jpg",
+   "lat": 42.5072,
+   "lon": 1.5217,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant Esteve, Andorra"
+  },
+  {
+   "id": "Q3780675",
+   "name": "església de Santa Coloma d'Andorra",
+   "sl": 14,
+   "file": "Santa Coloma (Santa Coloma d'Andorra).jpg",
+   "lat": 42.4942,
+   "lon": 1.4976,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Església de Santa Coloma d'Andorra"
+  },
+  {
+   "id": "Q1024946",
+   "name": "Our Lady of Meritxell",
+   "sl": 14,
+   "file": "Santuari nou de Meritxell - 30.jpg",
+   "lat": 42.5548,
+   "lon": 1.5909,
+   "kind": "built",
+   "types": [
+    "minor basilica",
+    "shrine of Our Lady"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santuari nou de Meritxell"
+  },
+  {
+   "id": "Q3137862",
+   "name": "Pont de la Margineda",
+   "sl": 14,
+   "file": "Margineda.jpg",
+   "lat": 42.4842,
+   "lon": 1.4919,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pont de la Margineda"
+  },
+  {
+   "id": "Q3773263",
+   "name": "Roca Entravessada",
+   "sl": 14,
+   "file": "Roca Entravessada 001.jpg",
+   "lat": 42.5984,
+   "lon": 1.4422,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Roca Entravessada"
+  },
+  {
+   "id": "Q6906641",
+   "name": "Monturull",
+   "sl": 13,
+   "file": "Estany Gran de la Pera P1030385.JPG",
+   "lat": 42.45,
+   "lon": 1.581,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Monturull"
+  },
+  {
+   "id": "Q1864334",
+   "name": "Pic dels Aspres",
+   "sl": 13,
+   "file": "Pic dels Aspres.JPG",
+   "lat": 42.5739,
+   "lon": 1.4525,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pic dels Aspres"
+  },
+  {
+   "id": "Q11941543",
+   "name": "Pic de la Portelleta",
+   "sl": 12,
+   "file": "Tossa Plana de Lles.jpg",
+   "lat": 42.4682,
+   "lon": 1.6566,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Tossa Plana de Lles"
+  },
+  {
+   "id": "Q2551051",
+   "name": "Vallnord",
+   "sl": 12,
+   "file": "Casamanya 03.jpg",
+   "lat": 42.5428,
+   "lon": 1.4924,
+   "kind": "built",
+   "types": [
+    "ski area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vallnord"
+  },
+  {
+   "id": "Q3030915",
+   "name": "Casamanya",
+   "sl": 11,
+   "file": "Casamanya 01.jpg",
+   "lat": 42.5873,
+   "lon": 1.5703,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Massís del Casamanya"
+  },
+  {
+   "id": "Q3781320",
+   "name": "Església de Sant Joan de Caselles",
+   "sl": 11,
+   "file": "Saint John church in Caselles (8).jpg",
+   "lat": 42.5708,
+   "lon": 1.6078,
+   "kind": "built",
+   "types": [
+    "chapel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant Joan de Caselles"
+  },
+  {
+   "id": "Q7209730",
+   "name": "Poliesportiu d'Andorra",
+   "sl": 11,
+   "file": "Poliesportiu d'Andorra.png",
+   "lat": 42.5048,
+   "lon": 1.5166,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2933723",
+   "name": "Caldea",
+   "sl": 10,
+   "file": "Caldea 20231205 122111.jpg",
+   "lat": 42.5117,
+   "lon": 1.5368,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "thermal center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Caldea"
+  },
+  {
+   "id": "Q4895696",
+   "name": "Església de Sant Miquel d'Engolasters",
+   "sl": 10,
+   "file": "Iglesia de San Miguel de Engolasters, Engolasters, Andorra, 2013-12-30, DD 02.JPG",
+   "lat": 42.5115,
+   "lon": 1.5604,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant Miquel d'Engolasters"
+  },
+  {
+   "id": "Q3819319",
+   "name": "Església de Sant Romà de les Bons",
+   "sl": 10,
+   "file": "Església de Sant Romà de les Bons - 13.jpg",
+   "lat": 42.5389,
+   "lon": 1.5869,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant Romà de les Bons"
+  },
+  {
+   "id": "Q3819483",
+   "name": "Església de Sant Serni de Nagol",
+   "sl": 10,
+   "file": "Església de Sant Serni de Nagol - 1.jpg",
+   "lat": 42.4696,
+   "lon": 1.5009,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant Serni de Nagol"
+  },
+  {
+   "id": "Q11979432",
+   "name": "Estanys de Juclar",
+   "sl": 10,
+   "file": "Estany Segon de Juclar - 1.jpg",
+   "lat": 42.6097,
+   "lon": 1.7167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estanys de Juclar"
+  },
+  {
+   "id": "Q47993296",
+   "name": "Nostra Senyora de Meritxell Hospital",
+   "sl": 10,
+   "file": "Hospital Nostra Senyora de Meritxell. Escaldes-Engordany. Andorra 81.jpg",
+   "lat": 42.5114,
+   "lon": 1.5339,
+   "kind": "built",
+   "types": [
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hospital Nostra Senyora de Meritxell"
+  },
+  {
+   "id": "Q546015",
+   "name": "Ordino-Arcalís",
+   "sl": 10,
+   "file": "Subida a Ordino.jpg",
+   "lat": 42.6319,
+   "lon": 1.4994,
+   "kind": "built",
+   "types": [
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Ordino-Arcalís"
+  },
+  {
+   "id": "Q108602026",
+   "name": "Our Lady of Meritxell",
+   "sl": 10,
+   "file": "Mare de Déu de Meritxell.jpg",
+   "lat": 42.5539,
+   "lon": 1.5903,
+   "kind": "built",
+   "types": [
+    "canonically crowned Marian image",
+    "title of Mary, mother of Jesus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mare de Déu de Meritxell"
+  },
+  {
+   "id": "Q4563375",
+   "name": "Pic de l'Estanyó",
+   "sl": 10,
+   "file": "Estanyo 01.jpg",
+   "lat": 42.6087,
+   "lon": 1.5926,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pic de l'Estanyó"
+  },
+  {
+   "id": "Q2874750",
+   "name": "Església de Sant Cristòfol d'Anyós",
+   "sl": 9,
+   "file": "Sant Cristofol.JPG",
+   "lat": 42.535,
+   "lon": 1.5244,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant Cristòfol d'Anyós"
+  },
+  {
+   "id": "Q2668145",
+   "name": "església de Sant Joan de Sispony",
+   "sl": 9,
+   "file": "Saint John's Church, Sispony.JPG",
+   "lat": 42.5336,
+   "lon": 1.5161,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant Joan de Sispony"
+  },
+  {
+   "id": "Q3819245",
+   "name": "Església de Sant Martí de la Cortinada",
+   "sl": 9,
+   "file": "Església de Sant Martí de la Cortinada - 10.jpg",
+   "lat": 42.5767,
+   "lon": 1.5178,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant Martí de la Cortinada"
+  },
+  {
+   "id": "Q2477261",
+   "name": "Estany de les Truites",
+   "sl": 9,
+   "file": "Estany de les Truites 1.JPG",
+   "lat": 42.5776,
+   "lon": 1.4485,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estany de les Truites"
+  },
+  {
+   "id": "Q18005147",
+   "name": "New Parliament of Andorra",
+   "sl": 9,
+   "file": "Casa de la Vall, Andorra la Vieja, Andorra, 2013-12-30, DD 03.JPG",
+   "lat": 42.5082,
+   "lon": 1.5173,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nova seu del Consell General d'Andorra"
+  },
+  {
+   "id": "Q3382368",
+   "name": "Pic de Font Blanca",
+   "sl": 9,
+   "file": "FontBlanca 01.jpg",
+   "lat": 42.6497,
+   "lon": 1.5344,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Pic de Font Blanca"
+  },
+  {
+   "id": "Q11941547",
+   "name": "Pic de Serrère",
+   "sl": 9,
+   "file": "Serrera 01.jpg",
+   "lat": 42.6255,
+   "lon": 1.6025,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Pic de Serrère"
+  },
+  {
+   "id": "Q3382394",
+   "name": "Pic de Tristagne",
+   "sl": 9,
+   "file": "Estany de Més Amunt - 10.jpg",
+   "lat": 42.6534,
+   "lon": 1.4934,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Pic de Tristagne"
+  },
+  {
+   "id": "Q5397748",
+   "name": "Església de la Santa Creu de Canillo",
+   "sl": 8,
+   "file": "Església Santa Creu - Canillo.jpg",
+   "lat": 42.5659,
+   "lon": 1.5997,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Creu de Canillo"
+  },
+  {
+   "id": "Q3775060",
+   "name": "Església de Sant Climent de Pal",
+   "sl": 8,
+   "file": "Església de Sant Climent de Pal 3.JPG",
+   "lat": 42.546,
+   "lon": 1.4752,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant Climent de Pal"
+  },
+  {
+   "id": "Q2781227",
+   "name": "Estanys Forcats",
+   "sl": 8,
+   "file": "Estanys Forcats 001.jpg",
+   "lat": 42.6002,
+   "lon": 1.4473,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1918034",
+   "name": "Grandvalira",
+   "sl": 8,
+   "file": "Pas de la Casa-Hivern.jpg",
+   "lat": 42.56,
+   "lon": 1.64,
+   "kind": "built",
+   "types": [
+    "ski area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grandvalira"
+  },
+  {
+   "id": "Q2124368",
+   "name": "Museu Casa Rull",
+   "sl": 8,
+   "file": "Casa Rull (6).JPG",
+   "lat": 42.5324,
+   "lon": 1.5142,
+   "kind": "built",
+   "types": [
+    "ethnographic museum",
+    "manor house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu Casa Rull"
+  },
+  {
+   "id": "Q2912609",
+   "name": "National Automobile Museum",
+   "sl": 8,
+   "file": "Andorra Encamp Museumsgebäude.JPG",
+   "lat": 42.5331,
+   "lon": 1.5779,
+   "kind": "built",
+   "types": [
+    "automobile museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu Nacional de l'Automòbil d'Andorra"
+  },
+  {
+   "id": "Q20547599",
+   "name": "Parc Natural Comunal de les Valls del Comapedrosa",
+   "sl": 8,
+   "file": "Valls del Comapedrosa (la Massana) - 55.jpg",
+   "lat": 42.5906,
+   "lon": 1.4675,
+   "kind": "natural",
+   "types": [
+    "nature park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valls del Comapedrosa"
+  },
+  {
+   "id": "Q7231065",
+   "name": "port de Cabús",
+   "sl": 8,
+   "file": "CG-4 Km18 Port de Cabus (5).JPG",
+   "lat": 42.5464,
+   "lon": 1.4197,
+   "kind": "natural",
+   "types": [
+    "mountain saddle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Port de Cabús"
+  },
+  {
+   "id": "Q3364586",
+   "name": "Sorteny nature park",
+   "sl": 8,
+   "file": "Parc Natural de la vall de Sorteny.jpg",
+   "lat": 42.6186,
+   "lon": 1.5639,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vall de Sorteny"
+  }
+ ]
+}

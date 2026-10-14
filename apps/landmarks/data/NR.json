@@ -1,0 +1,134 @@
+{
+ "country": "NR",
+ "items": [
+  {
+   "id": "Q534251",
+   "name": "Nauru International Airport",
+   "sl": 34,
+   "file": "Air-Nauru 1972.jpg",
+   "lat": -0.5475,
+   "lon": 166.9191,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nauru International Airport"
+  },
+  {
+   "id": "Q997345",
+   "name": "Buada Lagoon",
+   "sl": 28,
+   "file": "Buada Lagoon, Nauru 2007.jpg",
+   "lat": -0.5351,
+   "lon": 166.9223,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buada Lagoon"
+  },
+  {
+   "id": "Q249061",
+   "name": "Moqua Well",
+   "sl": 22,
+   "file": "Karte Moqua Well.png",
+   "lat": -0.55,
+   "lon": 166.9167,
+   "kind": "natural",
+   "types": [
+    "underground lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moqua Well"
+  },
+  {
+   "id": "Q2667931",
+   "name": "Command Ridge",
+   "sl": 21,
+   "file": "Nauru-WWIIrelic.jpg",
+   "lat": -0.5306,
+   "lon": 166.9169,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1920430",
+   "name": "Menen Hotel",
+   "sl": 11,
+   "file": "Menen Hotel.jpg",
+   "lat": -0.5431,
+   "lon": 166.9506,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q431552",
+   "name": "Meneng Stadium",
+   "sl": 10,
+   "file": "Dining Hall - Topside immigration processing compound, Nauru.jpg",
+   "lat": -0.5406,
+   "lon": 166.9303,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1400449",
+   "name": "Linkbelt Oval",
+   "sl": 9,
+   "file": "Linkbelt Oval (Nauru).jpg",
+   "lat": -0.5344,
+   "lon": 166.9119,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Linkbelt Oval"
+  },
+  {
+   "id": "Q1550420",
+   "name": "Nauru Regional Processing Centre",
+   "sl": 9,
+   "file": "Nauru regional processing facility (7983319037).jpg",
+   "lat": -0.541,
+   "lon": 166.93,
+   "kind": "built",
+   "types": [
+    "Australian immigration detention facility"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nauru Regional Processing Centre"
+  }
+ ]
+}

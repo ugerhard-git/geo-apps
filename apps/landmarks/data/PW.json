@@ -1,0 +1,172 @@
+{
+ "country": "PW",
+ "items": [
+  {
+   "id": "Q1147092",
+   "name": "Roman Tmetuchl International Airport",
+   "sl": 25,
+   "file": "FAT Boeing 757 Palau Airport Spijkers.jpg",
+   "lat": 7.3672,
+   "lon": 134.5442,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roman Tmetuchl International Airport"
+  },
+  {
+   "id": "Q263422",
+   "name": "Jellyfish Lake",
+   "sl": 22,
+   "file": "Jellyfish Lake aerial (March 2008).jpg",
+   "lat": 7.1611,
+   "lon": 134.3761,
+   "kind": "natural",
+   "types": [
+    "meromictic lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jellyfish Lake"
+  },
+  {
+   "id": "Q1191219",
+   "name": "Mount Ngerchelchuus",
+   "sl": 22,
+   "file": "Mount Ngerchelchuus.JPG",
+   "lat": 7.5653,
+   "lon": 134.5694,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4881995",
+   "name": "Belau National Museum",
+   "sl": 14,
+   "file": "BNM Bai 1.JPG",
+   "lat": 7.3364,
+   "lon": 134.4761,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belau National Museum"
+  },
+  {
+   "id": "Q31374",
+   "name": "Koror–Babeldaob Bridge",
+   "sl": 14,
+   "file": "Japan Palau Friendship Bridge.jpg",
+   "lat": 7.362,
+   "lon": 134.5042,
+   "kind": "built",
+   "types": [
+    "box girder bridge",
+    "cable-stayed bridge",
+    "concrete bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Koror-Babeldaob Bridge"
+  },
+  {
+   "id": "Q1187638",
+   "name": "Peleliu Airfield",
+   "sl": 13,
+   "file": "Peleliu 16 March 1945.jpg",
+   "lat": 6.9983,
+   "lon": 134.2328,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q165594",
+   "name": "Helen Reef",
+   "sl": 10,
+   "file": "Desertisland.jpg",
+   "lat": 2.9,
+   "lon": 131.8,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Helen Reef"
+  },
+  {
+   "id": "Q749142",
+   "name": "Angaur Airstrip",
+   "sl": 9,
+   "file": "Angaur airfield in June 2024.jpg",
+   "lat": 6.9064,
+   "lon": 134.145,
+   "kind": "built",
+   "types": [
+    "airstrip",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q712958",
+   "name": "Nan'yō Shrine",
+   "sl": 9,
+   "file": "Nanyo Shrine Enshrinement Festival in Palau Nov 20 1940.png",
+   "lat": 7.3397,
+   "lon": 134.4967,
+   "kind": "built",
+   "types": [
+    "Shinmei shrine",
+    "Shinto shrine"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nan'yo-jinja"
+  },
+  {
+   "id": "Q1813703",
+   "name": "Lake Ngardok",
+   "sl": 8,
+   "file": "State of Melekeok.png",
+   "lat": 7.5125,
+   "lon": 134.6036,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

@@ -1,0 +1,1353 @@
+{
+ "country": "NG",
+ "items": [
+  {
+   "id": "Q1043631",
+   "name": "Murtala Muhammed International Airport",
+   "sl": 37,
+   "file": "MMIA Intl Terminal 2019.jpg",
+   "lat": 6.5772,
+   "lon": 3.3211,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Murtala Muhammed International Airport"
+  },
+  {
+   "id": "Q621498",
+   "name": "Osun-Osogbo Grove",
+   "sl": 34,
+   "file": "First palace of the king osogbo at the osun-osogbo sacred grove.jpg",
+   "lat": 7.7549,
+   "lon": 4.5506,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "forest",
+    "heritage site",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Osun-Osogbo"
+  },
+  {
+   "id": "Q1430127",
+   "name": "Abuja National Mosque",
+   "sl": 31,
+   "file": "AbujaNationalMosque.jpg",
+   "lat": 9.0608,
+   "lon": 7.4925,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abuja National Mosque"
+  },
+  {
+   "id": "Q976055",
+   "name": "Chappal Waddi",
+   "sl": 30,
+   "file": "Chappal Wadi.jpg",
+   "lat": 7.0361,
+   "lon": 11.715,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CM"
+   ],
+   "cat": "Chappal Waddi"
+  },
+  {
+   "id": "Q525030",
+   "name": "Nnamdi Azikiwe International Airport",
+   "sl": 28,
+   "file": "20101001 1355 D-ALEY.jpg",
+   "lat": 9.0068,
+   "lon": 7.2632,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nnamdi Azikiwe International Airport"
+  },
+  {
+   "id": "Q229624",
+   "name": "Zuma Rock",
+   "sl": 27,
+   "file": "The incredible rock. Zuma Rock.jpg",
+   "lat": 9.1304,
+   "lon": 7.2339,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zuma Rock"
+  },
+  {
+   "id": "Q770141",
+   "name": "Kainji Lake",
+   "sl": 24,
+   "file": "Kainji Lake National Park located at Niger and Kwara state Nigeri.jpg",
+   "lat": 10.4061,
+   "lon": 4.5644,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kainji Lake"
+  },
+  {
+   "id": "Q1604665",
+   "name": "Lagos National Stadium",
+   "sl": 23,
+   "file": "Main-bowl-national-stadium-surulere-lagos.jpg",
+   "lat": 6.4971,
+   "lon": 3.3649,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lagos National Stadium"
+  },
+  {
+   "id": "Q335765",
+   "name": "Abuja Stadium",
+   "sl": 22,
+   "file": "Abuja 2.jpg",
+   "lat": 9.0379,
+   "lon": 7.4534,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "FIFA"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abuja Stadium"
+  },
+  {
+   "id": "Q1473112",
+   "name": "Yankari National Park",
+   "sl": 21,
+   "file": "A welcoming baboon with its kid at Yankari Game Reserve, Bauchi, Nigeria.jpg",
+   "lat": 9.3,
+   "lon": 10.5,
+   "kind": "natural",
+   "types": [
+    "Excuse",
+    "game reserve",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yankari Game Reserve"
+  },
+  {
+   "id": "Q1432453",
+   "name": "Port Harcourt International Airport",
+   "sl": 20,
+   "file": "Port Harcourt international airport.jpg",
+   "lat": 5.0153,
+   "lon": 6.9494,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port Harcourt International Airport"
+  },
+  {
+   "id": "Q1473988",
+   "name": "Kainji National Park",
+   "sl": 19,
+   "file": "Kainji Lake National Park located at Niger and Kwara state Nigeri.jpg",
+   "lat": 10.3684,
+   "lon": 4.5547,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kainji National Park"
+  },
+  {
+   "id": "Q1431654",
+   "name": "Mallam Aminu Kano International Airport",
+   "sl": 19,
+   "file": "Aminu Kano International Airport Kano.jpg",
+   "lat": 12.0475,
+   "lon": 8.5244,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mallam Aminu Kano International Airport"
+  },
+  {
+   "id": "Q15043618",
+   "name": "Kainji Dam",
+   "sl": 18,
+   "file": "ASC Leiden - Rietveld Collection - Nigeria 1970 - 1973 - 01 - 083 Kainji Dam. The water flows from four openings.jpg",
+   "lat": 9.8625,
+   "lon": 4.6133,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kainji Dam"
+  },
+  {
+   "id": "Q1495137",
+   "name": "Gashaka Gumti National Park",
+   "sl": 17,
+   "file": "Boundary Marker.jpg",
+   "lat": 7.35,
+   "lon": 11.52,
+   "kind": "natural",
+   "types": [
+    "cultural heritage",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gashaka Gumti National Park"
+  },
+  {
+   "id": "Q5672567",
+   "name": "Kaduna Airport",
+   "sl": 16,
+   "file": "Nigerian Air Force Dassault-Dornier Alpha Jet Iwelumo-2.jpg",
+   "lat": 10.6958,
+   "lon": 7.32,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaduna Airport"
+  },
+  {
+   "id": "Q499414",
+   "name": "Lagos Lagoon",
+   "sl": 16,
+   "file": "LagosLagoon.jpg",
+   "lat": 6.5016,
+   "lon": 3.5225,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lagos Lagoon"
+  },
+  {
+   "id": "Q3015318",
+   "name": "Cross River National Park",
+   "sl": 15,
+   "file": "Boshi extension, Okwangwo Division of Cross River National Park.3.jpg",
+   "lat": 5.4167,
+   "lon": 8.5833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cross River National Park"
+  },
+  {
+   "id": "Q683614",
+   "name": "Great Mosque of Kano",
+   "sl": 15,
+   "file": "Kano Mosque in 1960.jpg",
+   "lat": 11.9949,
+   "lon": 8.5176,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Kano"
+  },
+  {
+   "id": "Q1030578",
+   "name": "Margaret Ekpo International Airport",
+   "sl": 15,
+   "file": "Boeing 737-2F9 5N-AND Nigeria Aws Calabar 08.11.81.jpg",
+   "lat": 4.9758,
+   "lon": 8.3469,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Margaret Ekpo International Airport"
+  },
+  {
+   "id": "Q1311732",
+   "name": "Nigerian National Museum, Lagos",
+   "sl": 15,
+   "file": "Garden in front of museum (6349971557).jpg",
+   "lat": 6.4428,
+   "lon": 3.4029,
+   "kind": "built",
+   "types": [
+    "ethnographic museum",
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nigerian National Museum"
+  },
+  {
+   "id": "Q567962",
+   "name": "Third Mainland Bridge",
+   "sl": 15,
+   "file": "Third Mainland Bridge 1.jpg",
+   "lat": 6.5,
+   "lon": 3.4014,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Third Mainland Bridge"
+  },
+  {
+   "id": "Q3500817",
+   "name": "Aso Rock",
+   "sl": 14,
+   "file": "Abuja rocks.jpg",
+   "lat": 9.0833,
+   "lon": 7.5361,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aso Rock"
+  },
+  {
+   "id": "Q3086140",
+   "name": "Ilorin International Airport",
+   "sl": 14,
+   "file": "Front View of Ilorin International Airport, Ilorin Kwara State.jpg",
+   "lat": 8.4406,
+   "lon": 4.4944,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilorin International Airport"
+  },
+  {
+   "id": "Q7061586",
+   "name": "Oguta Lake",
+   "sl": 14,
+   "file": "Landscape of Oguta lake.jpg",
+   "lat": 5.709,
+   "lon": 6.7907,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oguta Lake"
+  },
+  {
+   "id": "Q636174",
+   "name": "River Goulbi de Maradi",
+   "sl": 14,
+   "file": "Goulbi de Maradi 0001 10.jpg",
+   "lat": 13.6333,
+   "lon": 6.3333,
+   "kind": "natural",
+   "types": [
+    "river",
+    "seasonal river",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NE"
+   ],
+   "cat": "Goulbi de Maradi"
+  },
+  {
+   "id": "Q401013",
+   "name": "Ahmadu Bello Stadium",
+   "sl": 13,
+   "file": "Nigerian Public Domain 719.jpg",
+   "lat": 10.4994,
+   "lon": 7.4314,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3497354",
+   "name": "Akanu Ibiam International Airport",
+   "sl": 13,
+   "file": "Enugu Airport.JPG",
+   "lat": 6.4742,
+   "lon": 7.5619,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akanu Ibiam International Airport"
+  },
+  {
+   "id": "Q1107090",
+   "name": "Chad Basin National Park",
+   "sl": 13,
+   "file": "Sambisa forest.png",
+   "lat": 11.5,
+   "lon": 13,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3497345",
+   "name": "Maiduguri International Airport",
+   "sl": 13,
+   "file": "Dornier Aviation Nigeria Dornier 228 Makinde-2.jpg",
+   "lat": 11.8553,
+   "lon": 13.0808,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maiduguri International Airport"
+  },
+  {
+   "id": "Q426795",
+   "name": "Akwa Ibom Airport",
+   "sl": 12,
+   "file": "Margaret Ekpo International Airport Domestics arrival wing, Calabar, Cross River state.jpg",
+   "lat": 4.8758,
+   "lon": 8.0989,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2902763",
+   "name": "Asaba International Airport",
+   "sl": 12,
+   "file": "Asaba International Airport, Asaba, Delta state.jpg",
+   "lat": 6.2031,
+   "lon": 6.6589,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asaba International Airport"
+  },
+  {
+   "id": "Q28232350",
+   "name": "Awhum Waterfall",
+   "sl": 12,
+   "file": "Awhum monastery cave and waterfall, Enugu, Nigeria 12.jpg",
+   "lat": 6.5294,
+   "lon": 7.4112,
+   "kind": "natural",
+   "types": [
+    "cave",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Awhum Waterfall"
+  },
+  {
+   "id": "Q619881",
+   "name": "Benin Airport",
+   "sl": 12,
+   "file": "Embraer EMB Associated 5N-BJZ BNI April 2009.jpg",
+   "lat": 6.3169,
+   "lon": 5.5994,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Benin Airport"
+  },
+  {
+   "id": "Q122224092",
+   "name": "Benin Moat",
+   "sl": 12,
+   "file": "Benin wallsss.jpg",
+   "lat": 6.3286,
+   "lon": 5.6189,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural heritage",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Benin Moat"
+  },
+  {
+   "id": "Q17003559",
+   "name": "Cathedral Church of Christ, Lagos",
+   "sl": 12,
+   "file": "Cathedral Church of Christ, CMS, Lagos.jpg",
+   "lat": 6.4508,
+   "lon": 3.3902,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christ Church Cathedral, Lagos"
+  },
+  {
+   "id": "Q20800422",
+   "name": "Godswill Akpabio International Stadium",
+   "sl": 12,
+   "file": "Godswill Akpabio International Stadium 1.jpg",
+   "lat": 5.0064,
+   "lon": 7.8861,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Godswill Akpabio International Stadium"
+  },
+  {
+   "id": "Q1115086",
+   "name": "Jebba Hydroelectric Power Station",
+   "sl": 12,
+   "file": "Lake Jebba.png",
+   "lat": 9.1356,
+   "lon": 4.7878,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1107175",
+   "name": "Kamuku National Park",
+   "sl": 12,
+   "file": "Kamuku National Park kaduna State Nigeria.jpg",
+   "lat": 10.75,
+   "lon": 6.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q673598",
+   "name": "Onikan Stadium",
+   "sl": 12,
+   "file": "Onikan Stadium.jpg",
+   "lat": 6.4425,
+   "lon": 3.4022,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Onikan Stadium"
+  },
+  {
+   "id": "Q25067051",
+   "name": "Agbokim Waterfalls",
+   "sl": 11,
+   "file": "Agbokim waterfall (27100150407).jpg",
+   "lat": 5.9069,
+   "lon": 8.9128,
+   "kind": "natural",
+   "types": [
+    "natural heritage",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Agbokim Waterfalls"
+  },
+  {
+   "id": "Q4701971",
+   "name": "Akure Airport",
+   "sl": 11,
+   "file": "Akure Airport, Akure, Ondo State, Nigeria.jpg",
+   "lat": 7.2467,
+   "lon": 5.3008,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q22340604",
+   "name": "Cathedral of the Holy Cross, Lagos",
+   "sl": 11,
+   "file": "Holy Cross Cathedral Lagos.jpg",
+   "lat": 6.4499,
+   "lon": 3.3966,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Cross Cathedral, Lago Island"
+  },
+  {
+   "id": "Q5435315",
+   "name": "Farin Ruwa Falls",
+   "sl": 11,
+   "file": "Farin Ruwa (5174524384).jpg",
+   "lat": 9.1481,
+   "lon": 8.7575,
+   "kind": "natural",
+   "types": [
+    "natural heritage",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Farin Ruwa Falls"
+  },
+  {
+   "id": "Q1165319",
+   "name": "Otunba Dipo Dina International Stadium",
+   "sl": 11,
+   "file": "Gateway Stadium 3.jpg",
+   "lat": 6.8208,
+   "lon": 3.9203,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2092142",
+   "name": "Sungbo's Eredo",
+   "sl": 11,
+   "file": "Sungbo-eredo-photo.jpg",
+   "lat": 6.6481,
+   "lon": 3.9937,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q723558",
+   "name": "Asejire Reservoir",
+   "sl": 10,
+   "file": "Asejire Reservoir.jpg",
+   "lat": 7.3669,
+   "lon": 4.1333,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asejire Reservoir"
+  },
+  {
+   "id": "Q23777901",
+   "name": "Eko Hotels and Suites",
+   "sl": 10,
+   "file": "Eko Hotels & Suites Building.jpg",
+   "lat": 6.4261,
+   "lon": 3.43,
+   "kind": "built",
+   "types": [
+    "enterprise",
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q19580042",
+   "name": "Erin-Ijesha Waterfalls",
+   "sl": 10,
+   "file": "Erin Ijesha Water fall Osun state (11).jpg",
+   "lat": 7.5653,
+   "lon": 4.9022,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erin-Ijesha Waterfalls"
+  },
+  {
+   "id": "Q5397968",
+   "name": "Esiẹ Museum",
+   "sl": 10,
+   "file": "Array of Esie stones.jpg",
+   "lat": 8.1963,
+   "lon": 4.8882,
+   "kind": "built",
+   "types": [
+    "museum",
+    "natural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Esiẹ Museum"
+  },
+  {
+   "id": "Q22673984",
+   "name": "Gurara Waterfalls",
+   "sl": 10,
+   "file": "GURARA WATERFALLS.jpg",
+   "lat": 9.3143,
+   "lon": 7.0211,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gurara waterfalls"
+  },
+  {
+   "id": "Q1816531",
+   "name": "Lekki Lagoon",
+   "sl": 10,
+   "file": "Lagoon front Unilag.jpg",
+   "lat": 6.5,
+   "lon": 4.1167,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lekki Lagoon"
+  },
+  {
+   "id": "Q648785",
+   "name": "Teslim Balogun Stadium",
+   "sl": 10,
+   "file": "Main-bowl-teslim-balogun-stadium-surulere-lagos.jpg",
+   "lat": 6.4994,
+   "lon": 3.3608,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teslim Balogun Stadium"
+  },
+  {
+   "id": "Q3888675",
+   "name": "U. J. Esuene Stadium",
+   "sl": 10,
+   "file": "U.J Esuene Stadium, Calabar.jpg",
+   "lat": 4.9676,
+   "lon": 8.3269,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2306401",
+   "name": "Wase Rock",
+   "sl": 10,
+   "file": "Wase Rock.JPG",
+   "lat": 9.076,
+   "lon": 9.9581,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wase Rock"
+  },
+  {
+   "id": "Q4689230",
+   "name": "Afi River Forest Reserve",
+   "sl": 9,
+   "file": "Cross river gorilla.jpg",
+   "lat": 6.1982,
+   "lon": 8.9767,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q111008534",
+   "name": "Badagry Heritage Museum",
+   "sl": 9,
+   "file": "Badagry Heritage Museum.jpg",
+   "lat": 6.4183,
+   "lon": 2.8901,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Badagry Heritage Museum"
+  },
+  {
+   "id": "Q5250594",
+   "name": "Deeper Christian Life Ministry",
+   "sl": 9,
+   "file": "Deeper Life Christian Church Auditorium, Gbagada, Lagos 02.jpg",
+   "lat": 9.0397,
+   "lon": 7.498,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1323346",
+   "name": "Eko Bridge",
+   "sl": 9,
+   "file": "Eko cater bridge in Lagos State-Nigeria.jpg",
+   "lat": 6.465,
+   "lon": 3.3814,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "prestressed concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eko Bridge"
+  },
+  {
+   "id": "Q25203190",
+   "name": "Freedom Park",
+   "sl": 9,
+   "file": "Freedom Park Festival 2.jpg",
+   "lat": 6.4489,
+   "lon": 3.3965,
+   "kind": "built",
+   "types": [
+    "leisure park",
+    "memorial",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Freedom Park (Lagos)"
+  },
+  {
+   "id": "Q3914644",
+   "name": "Gombe Lawanti International Airport",
+   "sl": 9,
+   "file": "Gombe International Airport.jpg",
+   "lat": 10.2989,
+   "lon": 10.9,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gombe Lawanti International Airport"
+  },
+  {
+   "id": "Q6378034",
+   "name": "Katsina Airport",
+   "sl": 9,
+   "file": "Umaru Musa Yar'adua International Airport.jpg",
+   "lat": 13.0078,
+   "lon": 7.6603,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q60775381",
+   "name": "Lagos Central Mosque",
+   "sl": 9,
+   "file": "Lagos Central Mosque.jpg",
+   "lat": 6.4574,
+   "lon": 3.3882,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lagos Central Mosque"
+  },
+  {
+   "id": "Q1816494",
+   "name": "Lekan Salami Stadium",
+   "sl": 9,
+   "file": "Lekan Salami Stadium Ibadan1.jpg",
+   "lat": 7.3964,
+   "lon": 3.8858,
+   "kind": "built",
+   "types": [
+    "sport",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lekan Salami Stadium"
+  },
+  {
+   "id": "Q25044062",
+   "name": "Nike Art Gallery",
+   "sl": 9,
+   "file": "Outside Nike Art Gallery (4202980259).jpg",
+   "lat": 6.4315,
+   "lon": 3.4819,
+   "kind": "built",
+   "types": [
+    "art gallery",
+    "art museum",
+    "arts center",
+    "textile museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7494790",
+   "name": "Shere Hills",
+   "sl": 9,
+   "file": "A landscape view of Shere hills.jpg",
+   "lat": 9.95,
+   "lon": 9.05,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shere Hills"
+  },
+  {
+   "id": "Q48791511",
+   "name": "Shitta-Bey Mosque",
+   "sl": 9,
+   "file": "Shitta-Bey Mosque.jpg",
+   "lat": 6.4576,
+   "lon": 3.3863,
+   "kind": "built",
+   "types": [
+    "mosque",
+    "structure of worship"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2432731",
+   "name": "Tiga Dam",
+   "sl": 9,
+   "file": "A view of Tiga Dam.jpg",
+   "lat": 11.4372,
+   "lon": 8.4025,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tiga Lake"
+  },
+  {
+   "id": "Q23063857",
+   "name": "Agege Stadium",
+   "sl": 8,
+   "file": "Agege stadium 2.jpg",
+   "lat": 6.6425,
+   "lon": 3.3244,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q25043923",
+   "name": "Ancient Kano City Walls",
+   "sl": 8,
+   "file": "A part of the Kano City Wall from Medieval times.jpg",
+   "lat": 11.9555,
+   "lon": 8.4975,
+   "kind": "built",
+   "types": [
+    "city walls",
+    "cultural heritage",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Kano city walls"
+  },
+  {
+   "id": "Q618215",
+   "name": "Aper Aku Stadium",
+   "sl": 8,
+   "file": "Aper Aku Stadium.jpg",
+   "lat": 7.7417,
+   "lon": 8.5181,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5047131",
+   "name": "Carter Bridge",
+   "sl": 8,
+   "file": "Carter Brdge 001.jpg",
+   "lat": 6.4673,
+   "lon": 3.3848,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carter Bridge"
+  },
+  {
+   "id": "Q5068873",
+   "name": "Challawa Gorge Dam",
+   "sl": 8,
+   "file": "Challawa Gorge Reservoir.jpg",
+   "lat": 11.7428,
+   "lon": 8.0172,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5575409",
+   "name": "Gobarau Minaret",
+   "sl": 8,
+   "file": "Gobarau Minaret Katsina.JPG",
+   "lat": 12.998,
+   "lon": 7.5955,
+   "kind": "built",
+   "types": [
+    "minaret"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gobarau Minaret"
+  },
+  {
+   "id": "Q5586827",
+   "name": "Goronyo Dam",
+   "sl": 8,
+   "file": "Goronyo Reservoir.jpg",
+   "lat": 13.5306,
+   "lon": 5.8822,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q26235283",
+   "name": "Ilojo Bar",
+   "sl": 8,
+   "file": "Ilojo bar.jpg",
+   "lat": 6.5668,
+   "lon": 3.3307,
+   "kind": "built",
+   "types": [
+    "building",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilojo Bar, Lagos Nigeria"
+  },
+  {
+   "id": "Q6415073",
+   "name": "Kiri Dam",
+   "sl": 8,
+   "file": "Kiri Reservoir.jpg",
+   "lat": 9.6797,
+   "lon": 12.0142,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q28449098",
+   "name": "Lagos State University Teaching Hospital",
+   "sl": 8,
+   "file": "Ikeja General Hospital Nigeria 1972 Designed by Michael Olutusen Onafowokan Lagos State Govt 022.jpg",
+   "lat": 6.5901,
+   "lon": 3.3418,
+   "kind": "built",
+   "types": [
+    "hospital",
+    "medical facility",
+    "medical organization",
+    "teaching hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6858955",
+   "name": "Millennium Tower",
+   "sl": 8,
+   "file": "Newlea.jpg",
+   "lat": 9.0558,
+   "lon": 7.4928,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q85851461",
+   "name": "Mount Patti",
+   "sl": 8,
+   "file": "Lugard Rest House on Mount Patti.jpg",
+   "lat": 7.8167,
+   "lon": 6.75,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Patti"
+  }
+ ]
+}

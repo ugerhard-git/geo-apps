@@ -1,0 +1,1432 @@
+{
+ "country": "CN",
+ "items": [
+  {
+   "id": "Q513",
+   "name": "Mount Everest",
+   "sl": 237,
+   "file": "Mount Everest as seen from Drukair2 PLW edit.jpg",
+   "lat": 27.9881,
+   "lon": 86.925,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NP"
+   ],
+   "cat": "Mount Everest"
+  },
+  {
+   "id": "Q12501",
+   "name": "Great Wall of China",
+   "sl": 194,
+   "file": "The Great Wall of China at Jinshanling-edit.jpg",
+   "lat": 40.4314,
+   "lon": 116.5644,
+   "kind": "built",
+   "types": [
+    "cordon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Wall of China"
+  },
+  {
+   "id": "Q42070",
+   "name": "Gobi Desert",
+   "sl": 118,
+   "file": "Mongolia (35427009881).jpg",
+   "lat": 42.5,
+   "lon": 103,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MN"
+   ],
+   "cat": "Gobi Desert"
+  },
+  {
+   "id": "Q12514",
+   "name": "Three Gorges Dam",
+   "sl": 106,
+   "file": "ThreeGorgesDam-China2009.jpg",
+   "lat": 30.8239,
+   "lon": 111.0037,
+   "kind": "built",
+   "types": [
+    "boat lift",
+    "Chinese AAAAA-rated tourist attraction",
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Three Gorges Dam"
+  },
+  {
+   "id": "Q80290",
+   "name": "Forbidden City",
+   "sl": 105,
+   "file": "Hall of Supreme Harmony (20241127120000).jpg",
+   "lat": 39.9158,
+   "lon": 116.3908,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "Chinese AAAAA-rated tourist attraction",
+    "museum",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q4920250",
+    "name": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang"
+   },
+   "also": [],
+   "cat": "Forbidden City"
+  },
+  {
+   "id": "Q132956",
+   "name": "Taklamakan",
+   "sl": 92,
+   "file": "Taklamakan-d43.jpg",
+   "lat": 38.9,
+   "lon": 82.2,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taklamakan"
+  },
+  {
+   "id": "Q229107",
+   "name": "Mount Kailash",
+   "sl": 91,
+   "file": "Kailash-Barkha.jpg",
+   "lat": 31.0669,
+   "lon": 81.3128,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred mountain",
+    "virgin peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Kailash"
+  },
+  {
+   "id": "Q47672",
+   "name": "Terracotta Army",
+   "sl": 90,
+   "file": "51714-Terracota-Army.jpg",
+   "lat": 34.385,
+   "lon": 109.2731,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "mausoleum",
+    "military museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q910180",
+    "name": "Mausoleum of the First Qin Emperor"
+   },
+   "also": [],
+   "cat": "Terracotta Army"
+  },
+  {
+   "id": "Q169986",
+   "name": "Makalu",
+   "sl": 89,
+   "file": "Makalu.jpg",
+   "lat": 27.8892,
+   "lon": 87.0886,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NP"
+   ],
+   "cat": "Makalu"
+  },
+  {
+   "id": "Q168702",
+   "name": "Lhotse",
+   "sl": 86,
+   "file": "LhotseMountain.jos.500pix.jpg",
+   "lat": 27.9617,
+   "lon": 86.9333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NP"
+   ],
+   "cat": "Lhotse"
+  },
+  {
+   "id": "Q71229",
+   "name": "Potala Palace",
+   "sl": 85,
+   "file": "Potala.jpg",
+   "lat": 29.6578,
+   "lon": 91.1169,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "Chinese AAAAA-rated tourist attraction",
+    "palace",
+    "sacred place"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6478726",
+    "name": "World Heritage Sites in Tibet"
+   },
+   "also": [],
+   "cat": "Potala Palace"
+  },
+  {
+   "id": "Q170089",
+   "name": "Cho Oyu",
+   "sl": 84,
+   "file": "ChoOyu-fromGokyo.jpg",
+   "lat": 28.0942,
+   "lon": 86.6608,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NP"
+   ],
+   "cat": "Cho Oyu"
+  },
+  {
+   "id": "Q127031",
+   "name": "Taiwan Strait",
+   "sl": 83,
+   "file": "Xiamen Island, Lieyu Island and Kinmen Island.jpg",
+   "lat": 24.8111,
+   "lon": 119.9283,
+   "kind": "natural",
+   "types": [
+    "border",
+    "international border",
+    "maritime boundary",
+    "strait"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TW"
+   ],
+   "cat": "Taiwan Strait"
+  },
+  {
+   "id": "Q105124",
+   "name": "Shishapangma",
+   "sl": 78,
+   "file": "Shishapangma.jpg",
+   "lat": 28.3522,
+   "lon": 85.7797,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shishapangma"
+  },
+  {
+   "id": "Q164055",
+   "name": "Tiananmen Square",
+   "sl": 78,
+   "file": "Tian'anmen from the square (20200825114150).jpg",
+   "lat": 39.9046,
+   "lon": 116.3914,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tiananmen Square"
+  },
+  {
+   "id": "Q107635",
+   "name": "Baekdu Mountain",
+   "sl": 77,
+   "file": "Baitou Mountain Tianchi.jpg",
+   "lat": 40.94,
+   "lon": 126.83,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred mountain",
+    "stratovolcano",
+    "territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KP"
+   ],
+   "cat": "Mount Changbai / Paektu"
+  },
+  {
+   "id": "Q180996",
+   "name": "Broad Peak",
+   "sl": 77,
+   "file": "7 15 BroadPeak.jpg",
+   "lat": 35.8106,
+   "lon": 76.5681,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PK"
+   ],
+   "cat": "Broad Peak"
+  },
+  {
+   "id": "Q32190",
+   "name": "Beijing Capital International Airport",
+   "sl": 76,
+   "file": "Beijing Capital International Airport Aerial Photo (20240113213409).jpg",
+   "lat": 40.08,
+   "lon": 116.5844,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beijing Capital International Airport"
+  },
+  {
+   "id": "Q201294",
+   "name": "Qinghai Lake",
+   "sl": 72,
+   "file": "青海湖航拍.jpg",
+   "lat": 37,
+   "lon": 100,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "endorheic lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qinghai Lake"
+  },
+  {
+   "id": "Q187138",
+   "name": "Gasherbrum",
+   "sl": 71,
+   "file": "HiddenPeak.jpg",
+   "lat": 35.7244,
+   "lon": 76.6964,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PK"
+   ],
+   "cat": "Gasherbrum I"
+  },
+  {
+   "id": "Q216059",
+   "name": "Mount Tai",
+   "sl": 71,
+   "file": "泰山 南天门.jpg",
+   "lat": 36.2667,
+   "lon": 117.1,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Tai"
+  },
+  {
+   "id": "Q186853",
+   "name": "Gasherbrum II",
+   "sl": 70,
+   "file": "Gasherbrum2.jpg",
+   "lat": 35.7575,
+   "lon": 76.6528,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PK"
+   ],
+   "cat": "Gasherbrum II"
+  },
+  {
+   "id": "Q31347",
+   "name": "Grand Canal",
+   "sl": 70,
+   "file": "大運河.png",
+   "lat": 30.2614,
+   "lon": 120.2239,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Canal of China"
+  },
+  {
+   "id": "Q125445",
+   "name": "Temple of Heaven",
+   "sl": 69,
+   "file": "Temple of Heaven 20160323 01.jpg",
+   "lat": 39.8822,
+   "lon": 116.4066,
+   "kind": "built",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Heaven"
+  },
+  {
+   "id": "Q17704",
+   "name": "Hong Kong International Airport",
+   "sl": 68,
+   "file": "Hong Kong International Airport restricted area 01-12-2024(9).jpg",
+   "lat": 22.3089,
+   "lon": 113.9144,
+   "kind": "both",
+   "types": [
+    "artificial island airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hong Kong International Airport"
+  },
+  {
+   "id": "Q36034",
+   "name": "Huangshan",
+   "sl": 67,
+   "file": "Huangshan fengjing.jpg",
+   "lat": 30.125,
+   "lon": 118.1667,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "mountain range",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Huangshan"
+  },
+  {
+   "id": "Q207690",
+   "name": "Poyang Lake",
+   "sl": 66,
+   "file": "Satelites image of Lake Poyang.png",
+   "lat": 29.0667,
+   "lon": 116.3833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Poyang Lake"
+  },
+  {
+   "id": "Q43286",
+   "name": "Mogao Caves",
+   "sl": 65,
+   "file": "Dunhuang Mogao Ku 2013.12.31 12-30-18.jpg",
+   "lat": 40.0372,
+   "lon": 94.8042,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "architectural ensemble",
+    "building complex",
+    "cave"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mogao Caves"
+  },
+  {
+   "id": "Q36420",
+   "name": "Shanghai Pudong International Airport",
+   "sl": 65,
+   "file": "Shanghai Pudong Airport 2024 (cropped).jpg",
+   "lat": 31.1433,
+   "lon": 121.8053,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shanghai Pudong International Airport"
+  },
+  {
+   "id": "Q133525",
+   "name": "Beijing National Stadium",
+   "sl": 64,
+   "file": "Beijing National Stadium from the Central Axis (20220905140702).jpg",
+   "lat": 39.9915,
+   "lon": 116.3905,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beijing National Stadium"
+  },
+  {
+   "id": "Q211529",
+   "name": "Khan Tengri",
+   "sl": 64,
+   "file": "Peak of Khan Tengri at sunset.jpg",
+   "lat": 42.2108,
+   "lon": 80.175,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG",
+    "KZ"
+   ],
+   "cat": "Khan Tengri"
+  },
+  {
+   "id": "Q205131",
+   "name": "Leshan Giant Buddha",
+   "sl": 64,
+   "file": "Leshan Giant Buddha (1).jpg",
+   "lat": 29.5469,
+   "lon": 103.7693,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural heritage of China",
+    "daibutsu"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16914686",
+    "name": "Mount Emei Scenic Area, including Leshan Giant Buddha Scenic Area"
+   },
+   "also": [],
+   "cat": "Leshan Giant Buddha"
+  },
+  {
+   "id": "Q233627",
+   "name": "Lake Manasarovar",
+   "sl": 62,
+   "file": "Mansarovar.jpg",
+   "lat": 30.6667,
+   "lon": 81.5,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Manasarovar"
+  },
+  {
+   "id": "Q4132",
+   "name": "Summer Palace",
+   "sl": 62,
+   "file": "Longevity Hill of the Summer Palace.jpg",
+   "lat": 39.9975,
+   "lon": 116.2689,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Summer Palace, Beijing"
+  },
+  {
+   "id": "Q80852",
+   "name": "Shanghai World Financial Center",
+   "sl": 61,
+   "file": "上海国际金融中心.jpg",
+   "lat": 31.2367,
+   "lon": 121.5028,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shanghai World Financial Center"
+  },
+  {
+   "id": "Q232771",
+   "name": "Shaolin Monastery",
+   "sl": 61,
+   "file": "Shaolinsi.JPG",
+   "lat": 34.5071,
+   "lon": 112.9357,
+   "kind": "built",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "vihāra"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5934942",
+    "name": "Historic Monuments of Dengfeng in “The Centre of Heaven and Earth”"
+   },
+   "also": [],
+   "cat": "Shaolin Monastery"
+  },
+  {
+   "id": "Q502371",
+   "name": "West Lake",
+   "sl": 59,
+   "file": "West Lake - Hangzhou, China.jpg",
+   "lat": 30.2375,
+   "lon": 120.1408,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15660376",
+    "name": "West Lake Cultural Landscape of Hangzhou"
+   },
+   "also": [],
+   "cat": "West Lake"
+  },
+  {
+   "id": "Q201843",
+   "name": "Khanka",
+   "sl": 58,
+   "file": "Lake Khanka Landsat 7 2001-09-25.jpg",
+   "lat": 45.0167,
+   "lon": 132.4167,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "protected area of Russia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Lake Khanka"
+  },
+  {
+   "id": "Q18547",
+   "name": "Shanghai Tower",
+   "sl": 58,
+   "file": "Shanghai Tower in 2015 (2).jpg",
+   "lat": 31.2355,
+   "lon": 121.501,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shanghai Tower"
+  },
+  {
+   "id": "Q4111",
+   "name": "Jiuzhaigou Valley",
+   "sl": 57,
+   "file": "1 nuorilang jiuzhaigou 2023.jpg",
+   "lat": 33.2,
+   "lon": 103.9,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "national park",
+    "protected area",
+    "valley"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Jiuzhaigou Valley"
+  },
+  {
+   "id": "Q44868",
+   "name": "Guangzhou Baiyun International Airport",
+   "sl": 56,
+   "file": "Guangzhou Baiyun International Airport Terminal 2.jpg",
+   "lat": 23.3924,
+   "lon": 113.2988,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guangzhou Baiyun International Airport"
+  },
+  {
+   "id": "Q274388",
+   "name": "Paracel Islands",
+   "sl": 56,
+   "file": "ParacelIslands.png",
+   "lat": 16.5,
+   "lon": 112,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paracel Islands"
+  },
+  {
+   "id": "Q332762",
+   "name": "Jengish Chokusu",
+   "sl": 55,
+   "file": "Jengish Chokusu from BC.jpg",
+   "lat": 42.0347,
+   "lon": 80.1287,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG"
+   ],
+   "cat": "Jengish Chokusu"
+  },
+  {
+   "id": "Q134927",
+   "name": "Mount Emei",
+   "sl": 55,
+   "file": "峨眉山风景区 Mount Emei Scenic Area 07.jpg",
+   "lat": 29.5197,
+   "lon": 103.3325,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16914686",
+    "name": "Mount Emei Scenic Area, including Leshan Giant Buddha Scenic Area"
+   },
+   "also": [],
+   "cat": "Mount Emei"
+  },
+  {
+   "id": "Q4187",
+   "name": "Wulingyuan",
+   "sl": 55,
+   "file": "1 zhangjiajie huangshizhai wulingyuan panorama 2012.jpg",
+   "lat": 29.3456,
+   "lon": 110.4667,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wulingyuan"
+  },
+  {
+   "id": "Q207692",
+   "name": "Wuyi Mountains",
+   "sl": 55,
+   "file": "Wuyi Mountains Sea of clouds 4.jpg",
+   "lat": 27.7167,
+   "lon": 117.6833,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "mountain range"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wuyi Mountains"
+  },
+  {
+   "id": "Q168400",
+   "name": "Canton Tower",
+   "sl": 53,
+   "file": "广州塔Scenery in Guangzhou, China - panoramio (9).jpg",
+   "lat": 23.1092,
+   "lon": 113.3191,
+   "kind": "built",
+   "types": [
+    "hyperboloid structure",
+    "observation tower",
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canton Tower"
+  },
+  {
+   "id": "Q216083",
+   "name": "Dongting Lake",
+   "sl": 53,
+   "file": "Waters of central China.jpg",
+   "lat": 29.3167,
+   "lon": 112.95,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Dongting"
+  },
+  {
+   "id": "Q319412",
+   "name": "Lop Nur",
+   "sl": 53,
+   "file": "Basin of Lop Nur 90.25E, 40.10N, Kum Tagh and Astin Tagh.jpg",
+   "lat": 40.1667,
+   "lon": 90.5833,
+   "kind": "natural",
+   "types": [
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lop Nur"
+  },
+  {
+   "id": "Q80813",
+   "name": "Jin Mao Tower",
+   "sl": 52,
+   "file": "Jin Mao Tower.jpg",
+   "lat": 31.2372,
+   "lon": 121.5014,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jin Mao Tower"
+  },
+  {
+   "id": "Q273834",
+   "name": "Longmen Grottoes",
+   "sl": 52,
+   "file": "Longmen Grottoes 3.jpg",
+   "lat": 34.5556,
+   "lon": 112.4697,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "grotto"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Longmen Grottoes"
+  },
+  {
+   "id": "Q223207",
+   "name": "Oriental Pearl Tower",
+   "sl": 52,
+   "file": "Oriental Pearl Tower 2012.jpg",
+   "lat": 31.2417,
+   "lon": 121.4947,
+   "kind": "built",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "observation tower",
+    "skyscraper",
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oriental Pearl Tower"
+  },
+  {
+   "id": "Q1139574",
+   "name": "Beijing Daxing International Airport",
+   "sl": 51,
+   "file": "北京大兴机场航站楼, 2023-02-20 (20240113195424).jpg",
+   "lat": 39.5119,
+   "lon": 116.4106,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "greenfield airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beijing Daxing International Airport"
+  },
+  {
+   "id": "Q140712",
+   "name": "Lake Tai",
+   "sl": 51,
+   "file": "Lake Tai, China ESA21456724.jpeg",
+   "lat": 31.1667,
+   "lon": 120.15,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tai"
+  },
+  {
+   "id": "Q308805",
+   "name": "Yungang Grottoes",
+   "sl": 51,
+   "file": "Yungang11 2010.JPG",
+   "lat": 40.1097,
+   "lon": 113.1222,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "grotto"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Yungang Grottoes"
+  },
+  {
+   "id": "Q595768",
+   "name": "Danyang–Kunshan Grand Bridge",
+   "sl": 50,
+   "file": "201603 Danyang-Kunshan grand bridge (wuxi).JPG",
+   "lat": 31.6378,
+   "lon": 120.2459,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "railway bridge",
+    "reinforced concrete bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Danyang–Kunshan Grand Bridge"
+  },
+  {
+   "id": "Q120314",
+   "name": "Mount Wutai",
+   "sl": 49,
+   "file": "Wutai 2009 431.jpg",
+   "lat": 39.0814,
+   "lon": 113.5669,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Wutai"
+  },
+  {
+   "id": "Q651294",
+   "name": "Namtso",
+   "sl": 49,
+   "file": "Tashi Dor.jpg",
+   "lat": 30.7208,
+   "lon": 90.4681,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Namtso"
+  },
+  {
+   "id": "Q4034",
+   "name": "Wudang Mountains",
+   "sl": 49,
+   "file": "Wudangshan 2003 10.jpg",
+   "lat": 32.4008,
+   "lon": 111.0039,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wudang Mountains"
+  },
+  {
+   "id": "Q622616",
+   "name": "Mount Lu",
+   "sl": 48,
+   "file": "庐山日出.JPG",
+   "lat": 29.5725,
+   "lon": 115.9733,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lushan Geopark"
+  },
+  {
+   "id": "Q471765",
+   "name": "Xanadu",
+   "sl": 48,
+   "file": "Xanadu (54565367991).jpg",
+   "lat": 42.358,
+   "lon": 116.1852,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "planned community",
+    "summer capital"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Site of Xanadu"
+  },
+  {
+   "id": "Q464904",
+   "name": "Yinxu",
+   "sl": 48,
+   "file": "26120-Anyang (49086436522).jpg",
+   "lat": 36.1225,
+   "lon": 114.3186,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Chinese AAAAA-rated tourist attraction",
+    "city"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Yinxu"
+  },
+  {
+   "id": "Q41135",
+   "name": "Ming tombs",
+   "sl": 47,
+   "file": "Mingchangling201910.jpg",
+   "lat": 40.2533,
+   "lon": 116.2175,
+   "kind": "",
+   "types": [
+    "cemetery",
+    "tridecad"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q817164",
+    "name": "Imperial Tombs of the Ming and Qing Dynasties"
+   },
+   "also": [],
+   "cat": "Thirteen Tombs of the Ming Dynasty"
+  },
+  {
+   "id": "Q1032254",
+   "name": "Pangong Tso",
+   "sl": 47,
+   "file": "Pangong Tso 2.jpg",
+   "lat": 33.7047,
+   "lon": 78.75,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "soda lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN"
+   ],
+   "cat": "Pangong Tso"
+  },
+  {
+   "id": "Q317034",
+   "name": "International Commerce Centre",
+   "sl": 46,
+   "file": "International Commerce Centre 200911.jpg",
+   "lat": 22.3034,
+   "lon": 114.1602,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "International Commerce Centre"
+  },
+  {
+   "id": "Q873358",
+   "name": "Mount Sanqing",
+   "sl": 46,
+   "file": "19190-SanQingShan (45434925915).jpg",
+   "lat": 28.9519,
+   "lon": 118.0519,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "geopark",
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Sanqing"
+  },
+  {
+   "id": "Q421811",
+   "name": "Shanghai Hongqiao International Airport",
+   "sl": 46,
+   "file": "Shanghai Hongqiao 2024 (cropped).jpg",
+   "lat": 31.1981,
+   "lon": 121.3364,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shanghai Hongqiao International Airport"
+  },
+  {
+   "id": "Q214855",
+   "name": "Bank of China Tower",
+   "sl": 45,
+   "file": "HK Bank of China Tower View.jpg",
+   "lat": 22.2792,
+   "lon": 114.1614,
+   "kind": "built",
+   "types": [
+    "bank building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bank of China Tower"
+  },
+  {
+   "id": "Q651278",
+   "name": "Dazu Rock Carvings",
+   "sl": 45,
+   "file": "大足石刻.JPG",
+   "lat": 29.7133,
+   "lon": 105.7069,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Chinese AAAAA-rated tourist attraction"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Dazu Rock Carvings"
+  },
+  {
+   "id": "Q1074318",
+   "name": "National Museum of China",
+   "sl": 45,
+   "file": "62684-Beijing-Tiananmen-Square (28609003992).jpg",
+   "lat": 39.9036,
+   "lon": 116.395,
+   "kind": "built",
+   "types": [
+    "national museum",
+    "square",
+    "vice-ministerial level institution"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of China"
+  },
+  {
+   "id": "Q924174",
+   "name": "Spring Temple Buddha",
+   "sl": 45,
+   "file": "Spring Temple Buddha 1.jpg",
+   "lat": 33.7753,
+   "lon": 112.4511,
+   "kind": "built",
+   "types": [
+    "Buddharupa",
+    "Chinese AAAAA-rated tourist attraction",
+    "colossal statue",
+    "daibutsu"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spring Temple Buddha"
+  },
+  {
+   "id": "Q499552",
+   "name": "Zhoukoudian site",
+   "sl": 45,
+   "file": "Zhoukoudian Entrance.JPG",
+   "lat": 39.689,
+   "lon": 115.9248,
+   "kind": "built",
+   "types": [
+    "Paleolithic site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Zhoukoudian Peking Man Site"
+  },
+  {
+   "id": "Q72891",
+   "name": "Great Hall of the People",
+   "sl": 44,
+   "file": "China Senate House.jpg",
+   "lat": 39.9033,
+   "lon": 116.3875,
+   "kind": "built",
+   "types": [
+    "building of public administration"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Hall of the People"
+  },
+  {
+   "id": "Q499714",
+   "name": "Nathu La",
+   "sl": 44,
+   "file": "Nathu La, a mountain pass in the Himalayas on the Indo-China Border.jpg",
+   "lat": 27.3868,
+   "lon": 88.8309,
+   "kind": "built",
+   "types": [
+    "boundary point",
+    "mountain pass"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nathu La"
+  },
+  {
+   "id": "Q575035",
+   "name": "Three Parallel Rivers National Park",
+   "sl": 44,
+   "file": "Three Parallel Rivers of Yunnan Protected Areas map01.png",
+   "lat": 27.895,
+   "lon": 98.4064,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "temperate coniferous forest",
+    "triad"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Three Parallel Rivers of Yunnan Protected Areas"
+  },
+  {
+   "id": "Q83973",
+   "name": "Tiananmen",
+   "sl": 44,
+   "file": "天安门夜景.jpg",
+   "lat": 39.9074,
+   "lon": 116.3912,
+   "kind": "built",
+   "types": [
+    "gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tiananmen"
+  },
+  {
+   "id": "Q714023",
+   "name": "Heaven Lake",
+   "sl": 43,
+   "file": "Baitou Mountain Tianchi.jpg",
+   "lat": 42.006,
+   "lon": 128.057,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KP"
+   ],
+   "cat": "Heaven Lake"
+  },
+  {
+   "id": "Q1137644",
+   "name": "Pumori",
+   "sl": 43,
+   "file": "Pumori, Nepal, Asia.jpg",
+   "lat": 28.0156,
+   "lon": 86.8281,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NP"
+   ],
+   "cat": "Pumori"
+  },
+  {
+   "id": "Q1048381",
+   "name": "Shanhai Pass",
+   "sl": 43,
+   "file": "河北省 天下第一关 - panoramio.jpg",
+   "lat": 40.0092,
+   "lon": 119.7536,
+   "kind": "built",
+   "types": [
+    "castle",
+    "Chinese AAAAA-rated tourist attraction",
+    "city gate",
+    "cultural heritage of China"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65961372",
+    "name": "The Great Wall"
+   },
+   "also": [],
+   "cat": "Great Wall of China at Shanhaiguan"
+  },
+  {
+   "id": "Q842297",
+   "name": "Shenzhen Bao'an International Airport",
+   "sl": 43,
+   "file": "Shenzhen Bao'an Airport.jpg",
+   "lat": 22.6394,
+   "lon": 113.8108,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport",
+    "public company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shenzhen Bao'an International Airport"
+  }
+ ]
+}

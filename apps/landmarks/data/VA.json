@@ -1,0 +1,761 @@
+{
+ "country": "VA",
+ "items": [
+  {
+   "id": "Q12512",
+   "name": "St. Peter's Basilica",
+   "sl": 131,
+   "file": "Basilica di San Pietro in Vaticano September 2015-1a.jpg",
+   "lat": 41.9022,
+   "lon": 12.4534,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "major basilica",
+    "papal basilica",
+    "parish church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Peter's Basilica"
+  },
+  {
+   "id": "Q2943",
+   "name": "Sistine Chapel",
+   "sl": 90,
+   "file": "Sistina-interno.jpg",
+   "lat": 41.903,
+   "lon": 12.4544,
+   "kind": "built",
+   "types": [
+    "Catholic church building",
+    "chapel",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sistine Chapel"
+  },
+  {
+   "id": "Q83425",
+   "name": "Saint Peter's Square",
+   "sl": 66,
+   "file": "St Peter's Square, Vatican City - April 2007.jpg",
+   "lat": 41.9022,
+   "lon": 12.4572,
+   "kind": "built",
+   "types": [
+    "boundary point",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Peter's Square"
+  },
+  {
+   "id": "Q182955",
+   "name": "Vatican Museums",
+   "sl": 65,
+   "file": "Mura vaticane - ingresso ai Musei 00410.JPG",
+   "lat": 41.9064,
+   "lon": 12.4544,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vatican Museums"
+  },
+  {
+   "id": "Q145093",
+   "name": "Apostolic Palace",
+   "sl": 60,
+   "file": "2018-03-18 Apostolischer Palast.jpg",
+   "lat": 41.9036,
+   "lon": 12.4564,
+   "kind": "built",
+   "types": [
+    "official residence",
+    "palace",
+    "palace of the Popes",
+    "Palazzo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apostolic Palace"
+  },
+  {
+   "id": "Q665917",
+   "name": "Domus Sanctae Marthae",
+   "sl": 36,
+   "file": "Domus Sanctae Marthae from the Dome of St. Peter's.jpg",
+   "lat": 41.9006,
+   "lon": 12.4533,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Domus Sanctae Marthae"
+  },
+  {
+   "id": "Q844675",
+   "name": "Sistine Chapel ceiling",
+   "sl": 35,
+   "file": "CAPPELLA SISTINA Ceiling.jpg",
+   "lat": 41.9028,
+   "lon": 12.4542,
+   "kind": "built",
+   "types": [
+    "cycle of frescoes",
+    "painted ceiling"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sistine Chapel ceiling"
+  },
+  {
+   "id": "Q1053000",
+   "name": "Vatican Hill",
+   "sl": 34,
+   "file": "Vatican hill.jpg",
+   "lat": 41.9036,
+   "lon": 12.4503,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vatican hill"
+  },
+  {
+   "id": "Q42003",
+   "name": "Gardens of Vatican City",
+   "sl": 32,
+   "file": "Vatikanische Gaerten Museen Rom.jpg",
+   "lat": 41.9031,
+   "lon": 12.4506,
+   "kind": "built",
+   "types": [
+    "garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gardens in the Vatican City"
+  },
+  {
+   "id": "Q591923",
+   "name": "Vatican Observatory",
+   "sl": 32,
+   "file": "Specola1.jpg",
+   "lat": 41.7472,
+   "lon": 12.6506,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vatican Observatory"
+  },
+  {
+   "id": "Q810126",
+   "name": "Old St. Peter's Basilica",
+   "sl": 30,
+   "file": "Vatican - basilique - Vue d’ensemble de l'antique basilique vaticane basilica.jpg",
+   "lat": 41.9022,
+   "lon": 12.4533,
+   "kind": "built",
+   "types": [
+    "destroyed church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Old Saint Peter's Basilica"
+  },
+  {
+   "id": "Q370350",
+   "name": "Leonine City",
+   "sl": 22,
+   "file": "Torre Giovanni Giardini Vaticani 20110705.jpg",
+   "lat": 41.9031,
+   "lon": 12.4597,
+   "kind": "built",
+   "types": [
+    "defensive wall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leonine walls"
+  },
+  {
+   "id": "Q4540172",
+   "name": "Mater Ecclesiae Monastery",
+   "sl": 18,
+   "file": "Giardini vaticani, monastero di mater ecclesiae 2.jpg",
+   "lat": 41.9038,
+   "lon": 12.4511,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mater Ecclesiae monastery"
+  },
+  {
+   "id": "Q249973",
+   "name": "Niccoline Chapel",
+   "sl": 18,
+   "file": "St. Peter Niccoline Chapel.jpg",
+   "lat": 41.9034,
+   "lon": 12.4546,
+   "kind": "built",
+   "types": [
+    "chapel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cappella Niccolina, Palazzi Pontifici, Vatican"
+  },
+  {
+   "id": "Q2158200",
+   "name": "Saint Peter's tomb",
+   "sl": 18,
+   "file": "Rom, Vatikan, Petrusgrab unterhalb des Papstaltars des Petersdoms in den Vatikanischen Grotten.jpg",
+   "lat": 41.9022,
+   "lon": 12.4533,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Saint Peter"
+  },
+  {
+   "id": "Q1717939",
+   "name": "Vatican Grotto",
+   "sl": 18,
+   "file": "Pianta delle Grotte Vaticane.jpg",
+   "lat": 41.9022,
+   "lon": 12.4533,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "crypt",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grotte vaticane"
+  },
+  {
+   "id": "Q498557",
+   "name": "Borgia Apartment",
+   "sl": 17,
+   "file": "Appartamento borgia, 05.JPG",
+   "lat": 41.9033,
+   "lon": 12.455,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "room"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Borgia Apartment (Vatican Museums)"
+  },
+  {
+   "id": "Q1034868",
+   "name": "Cappella Paolina",
+   "sl": 17,
+   "file": "Cappella paolina, 02,0.jpg",
+   "lat": 41.9026,
+   "lon": 12.4547,
+   "kind": "built",
+   "types": [
+    "chapel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cappella Paolina, Palazzi Pontifici, Vatican"
+  },
+  {
+   "id": "Q1444766",
+   "name": "Vatican obelisk",
+   "sl": 17,
+   "file": "Obelisque Saint Peter's square Vatican City.jpg",
+   "lat": 41.9022,
+   "lon": 12.4563,
+   "kind": "built",
+   "types": [
+    "obelisk"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vatican obelisk"
+  },
+  {
+   "id": "Q2291560",
+   "name": "Casina Pio IV",
+   "sl": 16,
+   "file": "Casino di pio IV, 05.JPG",
+   "lat": 41.9042,
+   "lon": 12.4525,
+   "kind": "built",
+   "types": [
+    "building",
+    "villa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casino di Pio IV"
+  },
+  {
+   "id": "Q1693844",
+   "name": "Vatican City Heliport",
+   "sl": 16,
+   "file": "Helicopter at the Vatican's heliport.JPG",
+   "lat": 41.902,
+   "lon": 12.4461,
+   "kind": "built",
+   "types": [
+    "heliport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vatican City Heliport"
+  },
+  {
+   "id": "Q2547111",
+   "name": "Cortile del Belvedere",
+   "sl": 15,
+   "file": "Patio del Belvedere, Ciudad del Vaticano, 2022-09-14, DD 73-75 HDR.jpg",
+   "lat": 41.9042,
+   "lon": 12.4547,
+   "kind": "built",
+   "types": [
+    "courtyard",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cortile del Belvedere"
+  },
+  {
+   "id": "Q2119637",
+   "name": "Vatican Necropolis",
+   "sl": 15,
+   "file": "Vatican Necropolis 01.jpg",
+   "lat": 41.9023,
+   "lon": 12.4533,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vatican Necropolis"
+  },
+  {
+   "id": "Q1073397",
+   "name": "Scala Regia",
+   "sl": 14,
+   "file": "Scala regia, veduta 05.jpg",
+   "lat": 41.9028,
+   "lon": 12.455,
+   "kind": "built",
+   "types": [
+    "grand staircase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Scala Regia"
+  },
+  {
+   "id": "Q801683",
+   "name": "Vatican City railway station",
+   "sl": 14,
+   "file": "Vatikan-Bahnhof.jpg",
+   "lat": 41.901,
+   "lon": 12.4512,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "dead-end railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Città del Vaticano (train station)"
+  },
+  {
+   "id": "Q2034945",
+   "name": "Collection of Modern Religious Art, Vatican Museums",
+   "sl": 12,
+   "file": "Sculptures above the entrance of Vatican Museums.jpg",
+   "lat": 41.9033,
+   "lon": 12.455,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Collection of Contemporary Art (Vatican Museums)"
+  },
+  {
+   "id": "Q917387",
+   "name": "Governorate's Palace",
+   "sl": 12,
+   "file": "Vatikanische Gärten 08.jpg",
+   "lat": 41.9024,
+   "lon": 12.4512,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palazzo del Governatorato"
+  },
+  {
+   "id": "Q2460920",
+   "name": "Gregorian Tower",
+   "sl": 12,
+   "file": "Musei Vaticani.jpg",
+   "lat": 41.9051,
+   "lon": 12.4542,
+   "kind": "built",
+   "types": [
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre dei Venti, Vatican City"
+  },
+  {
+   "id": "Q774940",
+   "name": "Pinacoteca Vaticana",
+   "sl": 12,
+   "file": "Pinacoteca vaticana vista dai giardini 01.JPG",
+   "lat": 41.9057,
+   "lon": 12.4528,
+   "kind": "built",
+   "types": [
+    "pinacotheca",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pinacoteca (Vatican Museums)"
+  },
+  {
+   "id": "Q1644167",
+   "name": "Saints Martin and Sebastian of the Swiss",
+   "sl": 12,
+   "file": "Città del Vaticano, chiesa dei Santi Martino e Sebastiano degli Svizzeri - Esterno.jpg",
+   "lat": 41.9034,
+   "lon": 12.4567,
+   "kind": "built",
+   "types": [
+    "church building",
+    "national Church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santi Martino e Sebastiano degli Svizzeri"
+  },
+  {
+   "id": "Q3585393",
+   "name": "Sant'Anna dei Palafrenieri",
+   "sl": 12,
+   "file": "Sant'Anna dei Palafrenieri - esterno.jpg",
+   "lat": 41.9042,
+   "lon": 12.4575,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sant'Anna dei Palafrenieri"
+  },
+  {
+   "id": "Q1166213",
+   "name": "St Stephen of the Abyssinians",
+   "sl": 12,
+   "file": "Giardini vaticani, chiesa di santo stefano degli abissini, 01.jpg",
+   "lat": 41.9019,
+   "lon": 12.4522,
+   "kind": "built",
+   "types": [
+    "church building",
+    "national Church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santo Stefano degli Abissini"
+  },
+  {
+   "id": "Q634691",
+   "name": "Gallery of Maps",
+   "sl": 11,
+   "file": "Museos Vaticanos, Ciudad del Vaticano, 2022-09-14, DD 56-58 HDR.jpg",
+   "lat": 41.9042,
+   "lon": 12.4547,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "geographical museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gallery of Geographical Maps (Vatican Museums)"
+  },
+  {
+   "id": "Q1452731",
+   "name": "Vatican Historical Museum",
+   "sl": 11,
+   "file": "Pavelig karet.jpg",
+   "lat": 41.8866,
+   "lon": 12.5057,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vatican Historical Museum"
+  },
+  {
+   "id": "Q1439912",
+   "name": "Pio-Clementino museum",
+   "sl": 10,
+   "file": "Museo Pio-Clementino cortile ottagono.JPG",
+   "lat": 41.9067,
+   "lon": 12.4535,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pio Clementino Museum (Vatican Museums)"
+  },
+  {
+   "id": "Q1808677",
+   "name": "tomb of Pope Alexander VII",
+   "sl": 10,
+   "file": "0 Monument funéraire du pape Alexandre VII - St-Pierre - Vatican (1).jpg",
+   "lat": 41.9022,
+   "lon": 12.4533,
+   "kind": "built",
+   "types": [
+    "sculpture",
+    "sepulchral monument",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Alexander VII"
+  },
+  {
+   "id": "Q1748717",
+   "name": "Anima Mundi",
+   "sl": 9,
+   "file": "Museo etnografico missionario, 01.JPG",
+   "lat": 41.9064,
+   "lon": 12.4544,
+   "kind": "built",
+   "types": [
+    "ethnographic museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ethnological Museum (Vatican Museums)"
+  },
+  {
+   "id": "Q3057821",
+   "name": "Bramante staircases",
+   "sl": 9,
+   "file": "Circular staircase of the Vatican Museums.jpg",
+   "lat": 41.9064,
+   "lon": 12.4544,
+   "kind": "built",
+   "types": [
+    "fixed construction",
+    "helical stairs"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bramante Staircase"
+  },
+  {
+   "id": "Q3908808",
+   "name": "Porta San Pellegrino",
+   "sl": 9,
+   "file": "Porta San Pellegrino.jpg",
+   "lat": 41.9034,
+   "lon": 12.4571,
+   "kind": "built",
+   "types": [
+    "border crossing",
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Porta San Pellegrino"
+  },
+  {
+   "id": "Q13099380",
+   "name": "Grotta di Lourdes",
+   "sl": 8,
+   "file": "Vatican Gardens 2020 P26 Lourdes cave replica.jpg",
+   "lat": 41.9028,
+   "lon": 12.4483,
+   "kind": "both",
+   "types": [
+    "fixed construction",
+    "Lourdes grotto"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lourdes Grottoes in Vatican City"
+  },
+  {
+   "id": "Q6504489",
+   "name": "Saint John's Tower",
+   "sl": 8,
+   "file": "RadioVatican.jpg",
+   "lat": 41.9015,
+   "lon": 12.4476,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint John's Tower"
+  },
+  {
+   "id": "Q3671583",
+   "name": "San Pellegrino in Vaticano",
+   "sl": 8,
+   "file": "Città del Vaticano, chiesa di San Pellegrino - Facciata.jpg",
+   "lat": 41.905,
+   "lon": 12.4569,
+   "kind": "built",
+   "types": [
+    "church building",
+    "national Church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Pellegrino in Vaticano"
+  },
+  {
+   "id": "Q7420547",
+   "name": "Santo Stefano degli Ungheresi",
+   "sl": 8,
+   "file": "Hülsen 1927 Santo Stefano.jpg",
+   "lat": 41.9011,
+   "lon": 12.4535,
+   "kind": "built",
+   "types": [
+    "church building",
+    "destroyed building or structure",
+    "destroyed church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santo Stefano degli Ungheresi"
+  },
+  {
+   "id": "Q7818650",
+   "name": "Tomb of the Julii",
+   "sl": 8,
+   "file": "Christus Sol Invictus.jpeg",
+   "lat": 41.9022,
+   "lon": 12.4533,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3745476",
+   "name": "Vatican Film Library",
+   "sl": 8,
+   "file": "Palace of Saint Charles in the Vatican City.jpg",
+   "lat": 41.9008,
+   "lon": 12.4527,
+   "kind": "built",
+   "types": [
+    "cinematheque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

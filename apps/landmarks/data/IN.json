@@ -1,0 +1,1373 @@
+{
+ "country": "IN",
+ "items": [
+  {
+   "id": "Q9141",
+   "name": "Taj Mahal",
+   "sl": 184,
+   "file": "Taj Mahal, Agra, India edit3.jpg",
+   "lat": 27.175,
+   "lon": 78.0419,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Taj Mahal"
+  },
+  {
+   "id": "Q82019",
+   "name": "Kanchenjunga",
+   "sl": 102,
+   "file": "Kangchenjunga, India.jpg",
+   "lat": 27.703,
+   "lon": 88.1474,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NP"
+   ],
+   "cat": "Kangchenjunga"
+  },
+  {
+   "id": "Q180422",
+   "name": "Harmandir Sahib",
+   "sl": 87,
+   "file": "Hamandir Sahib (Golden Temple).jpg",
+   "lat": 31.62,
+   "lon": 74.8767,
+   "kind": "built",
+   "types": [
+    "gurdwara"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Golden Temple (Harmandir Sahib)"
+  },
+  {
+   "id": "Q184427",
+   "name": "Ajanta Caves",
+   "sl": 83,
+   "file": "Ajanta (63).jpg",
+   "lat": 20.5534,
+   "lon": 75.7005,
+   "kind": "both",
+   "types": [
+    "artificial cave",
+    "grotto",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ajanta Caves"
+  },
+  {
+   "id": "Q172691",
+   "name": "Thar Desert",
+   "sl": 83,
+   "file": "Thar desert Rajasthan India.jpg",
+   "lat": 26.9844,
+   "lon": 71.0017,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PK"
+   ],
+   "cat": "Thar Desert"
+  },
+  {
+   "id": "Q4527",
+   "name": "Western Ghats",
+   "sl": 83,
+   "file": "Naikolli Mala near Anamudi.jpg",
+   "lat": 10.1697,
+   "lon": 77.0611,
+   "kind": "natural",
+   "types": [
+    "biodiversity hotspot",
+    "mountain range"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Western Ghats"
+  },
+  {
+   "id": "Q171857",
+   "name": "Agra Fort",
+   "sl": 78,
+   "file": "Agra 03-2016 16 Agra Fort.jpg",
+   "lat": 27.1796,
+   "lon": 78.0213,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Agra Fort"
+  },
+  {
+   "id": "Q45957",
+   "name": "Red Fort",
+   "sl": 76,
+   "file": "Red Fort, Delhi by alexfurr.jpg",
+   "lat": 28.6558,
+   "lon": 77.2403,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Red Fort"
+  },
+  {
+   "id": "Q192764",
+   "name": "Kaziranga National Park",
+   "sl": 75,
+   "file": "Indian Rhinoceros Rhinoceros unicornis by Dr. Raju Kasambe (5).JPG",
+   "lat": 26.6667,
+   "lon": 93.35,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaziranga National Park"
+  },
+  {
+   "id": "Q189616",
+   "name": "Ellora Caves",
+   "sl": 74,
+   "file": "Ellora Caves, India, Kailasanatha Temple 2.jpg",
+   "lat": 20.0264,
+   "lon": 75.1792,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ellora Caves"
+  },
+  {
+   "id": "Q187635",
+   "name": "Qutb Minar",
+   "sl": 73,
+   "file": "Madrasa and tomb of Alauddin Khalji 2.jpg",
+   "lat": 28.5244,
+   "lon": 77.1852,
+   "kind": "built",
+   "types": [
+    "minaret"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1074330",
+    "name": "Qutb complex"
+   },
+   "also": [],
+   "cat": "Qutb Minar"
+  },
+  {
+   "id": "Q216243",
+   "name": "Nalanda Mahavihara",
+   "sl": 72,
+   "file": "Nalanda The Great Stupa.jpg",
+   "lat": 25.1368,
+   "lon": 85.4438,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "mahavihara",
+    "university"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Nalanda Mahavihara"
+  },
+  {
+   "id": "Q7604504",
+   "name": "Statue of Unity",
+   "sl": 71,
+   "file": "Statue of Unity.jpg",
+   "lat": 21.838,
+   "lon": 73.7191,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "statue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Statue of Unity"
+  },
+  {
+   "id": "Q26732",
+   "name": "Hampi",
+   "sl": 70,
+   "file": "Hampi, India, Granite boulders of Matanga Hill.jpg",
+   "lat": 15.3345,
+   "lon": 76.4622,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Group of monuments at Hampi"
+  },
+  {
+   "id": "Q4513",
+   "name": "Mahabodhi Temple",
+   "sl": 70,
+   "file": "Mahabodhitemple.jpg",
+   "lat": 24.696,
+   "lon": 84.9914,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mahabodhi Temple"
+  },
+  {
+   "id": "Q189648",
+   "name": "Humayun's Tomb",
+   "sl": 69,
+   "file": "Humayun Tomb UNESCO world heritage site.jpg",
+   "lat": 28.5933,
+   "lon": 77.2506,
+   "kind": "built",
+   "types": [
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Humayun's Tomb, Delhi"
+  },
+  {
+   "id": "Q201743",
+   "name": "Ram Setu",
+   "sl": 68,
+   "file": "Adams Bridge aerial.jpg",
+   "lat": 9.121,
+   "lon": 79.5217,
+   "kind": "natural",
+   "types": [
+    "landform"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LK"
+   ],
+   "cat": "Adam's Bridge"
+  },
+  {
+   "id": "Q821275",
+   "name": "Indira Gandhi International Airport",
+   "sl": 66,
+   "file": "Delhi airport terminal 3 (cropped).jpg",
+   "lat": 28.5574,
+   "lon": 77.0833,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Indira Gandhi International Airport"
+  },
+  {
+   "id": "Q233678",
+   "name": "Jama Masjid, Delhi",
+   "sl": 60,
+   "file": "Jama Masjid, Delhi.jpg",
+   "lat": 28.6508,
+   "lon": 77.2331,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jama Masjid, Delhi"
+  },
+  {
+   "id": "Q213262",
+   "name": "Nanda Devi",
+   "sl": 60,
+   "file": "Nanda Devi 2006.JPG",
+   "lat": 30.3739,
+   "lon": 79.9708,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nanda Devi"
+  },
+  {
+   "id": "Q331603",
+   "name": "Bhimbetka rock shelters",
+   "sl": 59,
+   "file": "Bhimbetka Cave Paintings.jpg",
+   "lat": 22.9386,
+   "lon": 77.6144,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave with prehistoric art",
+    "rock shelter"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock shelters of Bhimbetka"
+  },
+  {
+   "id": "Q836531",
+   "name": "Hawa Mahal",
+   "sl": 59,
+   "file": "East facade Hawa Mahal Jaipur from ground level (July 2022) - img 01.jpg",
+   "lat": 26.924,
+   "lon": 75.8267,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hawa Mahal"
+  },
+  {
+   "id": "Q532440",
+   "name": "Sundarbans National Park",
+   "sl": 58,
+   "file": "Sundarban Tiger.jpg",
+   "lat": 21.75,
+   "lon": 88.75,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sundarbans National Park"
+  },
+  {
+   "id": "Q649384",
+   "name": "Elephanta Caves",
+   "sl": 56,
+   "file": "Elephanta Caves, India.jpg",
+   "lat": 18.9633,
+   "lon": 72.9314,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Elephanta Caves"
+  },
+  {
+   "id": "Q235878",
+   "name": "Kevladev National Park",
+   "sl": 56,
+   "file": "Keoladeo Ghana National Park, Bharatpur, Rajasthan, India.jpg",
+   "lat": 27.1667,
+   "lon": 77.5167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Keoladeo National Park"
+  },
+  {
+   "id": "Q940843",
+   "name": "Lotus Temple",
+   "sl": 56,
+   "file": "Lotus temple daytime.jpg",
+   "lat": 28.5533,
+   "lon": 77.2586,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lotus Temple"
+  },
+  {
+   "id": "Q235884",
+   "name": "Chhatrapati Shivaji Maharaj Terminus",
+   "sl": 55,
+   "file": "Chatrapati Shivaji Terminus Pano.jpg",
+   "lat": 18.9398,
+   "lon": 72.8355,
+   "kind": "built",
+   "types": [
+    "dead-end railway station",
+    "last station",
+    "station located on surface"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Chhatrapati Shivaji Maharaj Terminus"
+  },
+  {
+   "id": "Q2361576",
+   "name": "Kashmir Valley",
+   "sl": 55,
+   "file": "Dal LakeVR.jpg",
+   "lat": 34.05,
+   "lon": 74.8,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kashmir Valley"
+  },
+  {
+   "id": "Q752091",
+   "name": "Konark Sun Temple",
+   "sl": 55,
+   "file": "Konark Sun Temple (80031).jpg",
+   "lat": 19.8874,
+   "lon": 86.0946,
+   "kind": "built",
+   "types": [
+    "Hindu temple",
+    "ruins",
+    "sun temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Konark Sun Temple"
+  },
+  {
+   "id": "Q916943",
+   "name": "Prahadisvarar Temple",
+   "sl": 55,
+   "file": "Le temple de Brihadishwara (Tanjore, Inde) (14354574611).jpg",
+   "lat": 10.7831,
+   "lon": 79.1325,
+   "kind": "built",
+   "types": [
+    "gopuram",
+    "Hindu temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q695229",
+    "name": "Great Living Chola Temples"
+   },
+   "also": [],
+   "cat": "Brihadisvara Temple"
+  },
+  {
+   "id": "Q181123",
+   "name": "Sanchi",
+   "sl": 55,
+   "file": "Stupa 1, Sanchi 02.jpg",
+   "lat": 23.4794,
+   "lon": 77.7397,
+   "kind": "built",
+   "types": [
+    "compound"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Buddhist monuments at Sanchi"
+  },
+  {
+   "id": "Q504368",
+   "name": "Chhatrapati Shivaji Maharaj International Airport",
+   "sl": 53,
+   "file": "Terminal 1C Overview.jpg",
+   "lat": 19.0886,
+   "lon": 72.8681,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chhatrapati Shivaji Maharaj International Airport"
+  },
+  {
+   "id": "Q1771696",
+   "name": "Charminar",
+   "sl": 51,
+   "file": "Charminar-Pride of Hyderabad.jpg",
+   "lat": 17.3616,
+   "lon": 78.4747,
+   "kind": "built",
+   "types": [
+    "monument",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Charminar"
+  },
+  {
+   "id": "Q245347",
+   "name": "India Gate",
+   "sl": 51,
+   "file": "India Gate in New Delhi 03-2016.jpg",
+   "lat": 28.6129,
+   "lon": 77.2293,
+   "kind": "built",
+   "types": [
+    "Commonwealth War Graves Commission maintained memorial",
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "India Gate"
+  },
+  {
+   "id": "Q506511",
+   "name": "Manas National Park",
+   "sl": 51,
+   "file": "Capped langur in manas.jpg",
+   "lat": 26.7167,
+   "lon": 90.9333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Manas National Park"
+  },
+  {
+   "id": "Q656765",
+   "name": "Babri Masjid",
+   "sl": 50,
+   "file": "Babri Masjid.jpg",
+   "lat": 26.7956,
+   "lon": 82.1944,
+   "kind": "built",
+   "types": [
+    "destroyed mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Babri Masjid"
+  },
+  {
+   "id": "Q677555",
+   "name": "Rashtrapati Bhavan",
+   "sl": 50,
+   "file": "Rashtrapati Bhavan, New Delhi (29473872940).jpg",
+   "lat": 28.6143,
+   "lon": 77.1998,
+   "kind": "built",
+   "types": [
+    "official residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rashtrapati Bhavan"
+  },
+  {
+   "id": "Q503364",
+   "name": "Kempegowda International Airport",
+   "sl": 49,
+   "file": "Bengaluru-airport.jpg",
+   "lat": 13.1989,
+   "lon": 77.7056,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "greenfield airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kempegowda International Airport"
+  },
+  {
+   "id": "Q9443",
+   "name": "Lothal",
+   "sl": 49,
+   "file": "Archeological Remains at the Lower Town of Lothal.jpg",
+   "lat": 22.5214,
+   "lon": 72.2494,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lothal"
+  },
+  {
+   "id": "Q817250",
+   "name": "Pattadakal Group of Monuments",
+   "sl": 49,
+   "file": "7th - 9th century Hindu and Jain temples, Pattadakal monuments Karnataka 7.jpg",
+   "lat": 15.9483,
+   "lon": 75.8167,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Pattadakal"
+  },
+  {
+   "id": "Q613624",
+   "name": "Sivalik Hills",
+   "sl": 49,
+   "file": "Indo-Gangetic Plain.jpg",
+   "lat": 27.7667,
+   "lon": 82.4,
+   "kind": "natural",
+   "types": [
+    "foothills",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NP",
+    "PK"
+   ],
+   "cat": "Shivalik Hills"
+  },
+  {
+   "id": "Q333946",
+   "name": "Siachen Glacier",
+   "sl": 48,
+   "file": "Siachen glacier 3.jpg",
+   "lat": 35.1986,
+   "lon": 77.2014,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siachen Glacier"
+  },
+  {
+   "id": "Q605897",
+   "name": "Valley of Flowers National Park",
+   "sl": 48,
+   "file": "\"Flowers Blossom at Valley of Flowers Chamoli, India\" 58.jpg",
+   "lat": 30.73,
+   "lon": 79.6175,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15839097",
+    "name": "Nanda Devi and Valley of Flowers National Parks"
+   },
+   "also": [],
+   "cat": "Valley of Flowers National Park"
+  },
+  {
+   "id": "Q508634",
+   "name": "Jantar Mantar",
+   "sl": 47,
+   "file": "Astronomical Instrument.jpg",
+   "lat": 26.9247,
+   "lon": 75.825,
+   "kind": "built",
+   "types": [
+    "collection",
+    "observatory"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Jantar Mantar (Jaipur)"
+  },
+  {
+   "id": "Q1032254",
+   "name": "Pangong Tso",
+   "sl": 47,
+   "file": "Pangong Tso 2.jpg",
+   "lat": 33.7047,
+   "lon": 78.75,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "soda lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Pangong Tso"
+  },
+  {
+   "id": "Q389755",
+   "name": "Pataliputra",
+   "sl": 47,
+   "file": "Pataliputra6.jpg",
+   "lat": 25.611,
+   "lon": 85.144,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pataliputra"
+  },
+  {
+   "id": "Q337028",
+   "name": "Gir National Park",
+   "sl": 46,
+   "file": "Gir lion-Gir forest,junagadh,gujarat,india.jpeg",
+   "lat": 21.1356,
+   "lon": 70.7967,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gir Forest National Park"
+  },
+  {
+   "id": "Q401700",
+   "name": "Sardar Vallabhbhai Patel International Airport",
+   "sl": 46,
+   "file": "Sardar Vallabhbhai Patel International Airport, Ahmedabad, India 3.jpg",
+   "lat": 23.0772,
+   "lon": 72.6347,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sardar Vallabhbhai Patel International Airport"
+  },
+  {
+   "id": "Q19104",
+   "name": "Taj Mahal Palace Hotel",
+   "sl": 46,
+   "file": "Taj Mahal Palace Hotel.jpg",
+   "lat": 18.9216,
+   "lon": 72.8332,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taj Mahal Palace Hotel"
+  },
+  {
+   "id": "Q502670",
+   "name": "Chennai International Airport",
+   "sl": 45,
+   "file": "Chennai airport view 4.jpeg",
+   "lat": 12.9822,
+   "lon": 80.1636,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chennai International Airport"
+  },
+  {
+   "id": "Q695229",
+   "name": "Great Living Chola Temples",
+   "sl": 45,
+   "file": "Darasuram, Airavatesvara Temple, Dravidian architecture, India.jpg",
+   "lat": 10.7831,
+   "lon": 79.1325,
+   "kind": "built",
+   "types": [
+    "group of structures or buildings",
+    "historic site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Living Chola Temples"
+  },
+  {
+   "id": "Q10428494",
+   "name": "Hill Forts of Rajasthan",
+   "sl": 45,
+   "file": "Jaipur 03-2016 04 Amber Fort.jpg",
+   "lat": 24.8833,
+   "lon": 74.6461,
+   "kind": "",
+   "types": [
+    "fortification system"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Hill forts of Rajasthan World Heritage Site"
+  },
+  {
+   "id": "Q1424358",
+   "name": "Meenakshi Temple",
+   "sl": 45,
+   "file": "Meenakshi Temple, Gopuram, Madurai, India.jpg",
+   "lat": 9.9197,
+   "lon": 78.1194,
+   "kind": "built",
+   "types": [
+    "gopuram",
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madurai Meenakshi Temple"
+  },
+  {
+   "id": "Q456817",
+   "name": "Amber Fort",
+   "sl": 44,
+   "file": "Jaipur 03-2016 04 Amber Fort.jpg",
+   "lat": 26.9859,
+   "lon": 75.8507,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q10428494",
+    "name": "Hill Forts of Rajasthan"
+   },
+   "also": [],
+   "cat": "Amber Fort"
+  },
+  {
+   "id": "Q325391",
+   "name": "Dal Lake",
+   "sl": 44,
+   "file": "Dal LakeVR.jpg",
+   "lat": 34.12,
+   "lon": 74.87,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dal Lake"
+  },
+  {
+   "id": "Q864862",
+   "name": "Gateway of India",
+   "sl": 44,
+   "file": "Mumbai 03-2016 30 Gateway of India.jpg",
+   "lat": 18.9218,
+   "lon": 72.8347,
+   "kind": "built",
+   "types": [
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gateway of India"
+  },
+  {
+   "id": "Q543419",
+   "name": "iron pillar of Delhi",
+   "sl": 44,
+   "file": "Iron Pillar of Delhi-Q543419N -Mehrauli -Delhi -DL-161.jpg",
+   "lat": 28.5247,
+   "lon": 77.1851,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "victory column"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1074330",
+    "name": "Qutb complex"
+   },
+   "also": [],
+   "cat": "Iron pillar"
+  },
+  {
+   "id": "Q1509463",
+   "name": "Vaishali",
+   "sl": 44,
+   "file": "Ashoka pillar at Vaishali, Bihar, India 2007-01-29.jpg",
+   "lat": 25.9866,
+   "lon": 85.1256,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Buddhist pilgrimage sites in India"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vaishali"
+  },
+  {
+   "id": "Q4141623",
+   "name": "Golconda",
+   "sl": 43,
+   "file": "Golkonda Fort 12.jpg",
+   "lat": 17.3833,
+   "lon": 78.4042,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "neighborhood"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Golconda"
+  },
+  {
+   "id": "Q388535",
+   "name": "Netaji Subhas Chandra Bose International Airport",
+   "sl": 43,
+   "file": "External view of Netaji Subhas Chandra Bose International Airport.jpg",
+   "lat": 22.6539,
+   "lon": 88.4467,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Netaji Subhas Chandra Bose International Airport"
+  },
+  {
+   "id": "Q96401169",
+   "name": "Ram Mandir",
+   "sl": 43,
+   "file": "Pran Pratishtha ceremony of Shree Ram Janmaboomi Temple in Ayodhya, Uttar Pradesh on January 22, 2024.jpg",
+   "lat": 26.7956,
+   "lon": 82.1943,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ram Mandir, Ayodhya"
+  },
+  {
+   "id": "Q844427",
+   "name": "Champaner-Pavagadh Archaeological Park",
+   "sl": 42,
+   "file": "Jama masjid in Champaner.JPG",
+   "lat": 22.4833,
+   "lon": 73.5333,
+   "kind": "built",
+   "types": [
+    "archaeological park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Champaner-Pavagadh Archaeological Park"
+  },
+  {
+   "id": "Q949297",
+   "name": "Jim Corbett National Park",
+   "sl": 42,
+   "file": "Elephants Grass Sal Dhikala Corbett Reserve Dec2019 R16 02266.jpg",
+   "lat": 29.5333,
+   "lon": 78.9333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jim Corbett National Park"
+  },
+  {
+   "id": "Q7293002",
+   "name": "Rani ki vav",
+   "sl": 42,
+   "file": "Rani ki vav 02.jpg",
+   "lat": 23.8589,
+   "lon": 72.1016,
+   "kind": "built",
+   "types": [
+    "stepwell"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rani ki vav"
+  },
+  {
+   "id": "Q672241",
+   "name": "Jog Falls",
+   "sl": 41,
+   "file": "Jog Falls at Shimoga.jpg",
+   "lat": 14.23,
+   "lon": 74.8128,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jog Falls"
+  },
+  {
+   "id": "Q2605019",
+   "name": "Khangchendzonga National Park",
+   "sl": 41,
+   "file": "Abhishek532 LamuneyValley.jpg",
+   "lat": 27.6563,
+   "lon": 88.3123,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Khangchendzonga National Park"
+  },
+  {
+   "id": "Q592172",
+   "name": "Cochin International Airport",
+   "sl": 40,
+   "file": "AIX at COK.jpg",
+   "lat": 10.1519,
+   "lon": 76.4019,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "greenfield airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cochin International Airport"
+  },
+  {
+   "id": "Q1366583",
+   "name": "Line of Control",
+   "sl": 40,
+   "file": "LOC Wire between India and Pakistan.jpg",
+   "lat": 34.9333,
+   "lon": 76.7667,
+   "kind": "built",
+   "types": [
+    "border barrier",
+    "demarcation line"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PK"
+   ],
+   "cat": "Line of Control"
+  },
+  {
+   "id": "Q278667",
+   "name": "Rajiv Gandhi International Airport",
+   "sl": 40,
+   "file": "Indian Airlines VT-SCF at Rajiv Gandhi Airport, Jan 2012 (cropped).jpg",
+   "lat": 17.2386,
+   "lon": 78.4294,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "greenfield airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rajiv Gandhi International Airport"
+  },
+  {
+   "id": "Q1143887",
+   "name": "Somnath temple",
+   "sl": 40,
+   "file": "Somanath mandir (cropped).jpg",
+   "lat": 20.888,
+   "lon": 70.4014,
+   "kind": "built",
+   "types": [
+    "Shiva temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Somnath Temple"
+  },
+  {
+   "id": "Q1544213",
+   "name": "Great Himalayan National Park",
+   "sl": 39,
+   "file": "Great Himalayan National Park, Kullu, Himachal.jpg",
+   "lat": 31.8043,
+   "lon": 77.951,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Himalayan National Park"
+  },
+  {
+   "id": "Q1141272",
+   "name": "Kamet",
+   "sl": 39,
+   "file": "Kamet.jpg",
+   "lat": 30.92,
+   "lon": 79.5933,
+   "kind": "natural",
+   "types": [
+    "geographical feature",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamet"
+  },
+  {
+   "id": "Q1466242",
+   "name": "Ranthambore National Park",
+   "sl": 38,
+   "file": "Ranthambore Fort Jain Temple.jpg",
+   "lat": 26.0173,
+   "lon": 76.5026,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ranthambore National Park"
+  },
+  {
+   "id": "Q1648266",
+   "name": "Nanda Devi National Park",
+   "sl": 37,
+   "file": "Nanda Devi.jpg",
+   "lat": 30.4186,
+   "lon": 79.8497,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15839097",
+    "name": "Nanda Devi and Valley of Flowers National Parks"
+   },
+   "also": [],
+   "cat": "Nanda Devi National Park"
+  },
+  {
+   "id": "Q1849858",
+   "name": "Akshardham",
+   "sl": 36,
+   "file": "Akshardham Delhi.jpg",
+   "lat": 28.6125,
+   "lon": 77.2773,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akshardham"
+  },
+  {
+   "id": "Q691557",
+   "name": "Gangotri Glacier",
+   "sl": 36,
+   "file": "Gaumukh Gangotri glacier.jpg",
+   "lat": 30.9833,
+   "lon": 78.9833,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gangotri Glacier"
+  },
+  {
+   "id": "Q3675",
+   "name": "Kashi Vishwanath Temple",
+   "sl": 36,
+   "file": "20220519159L2022071406593520220714082601.jpg",
+   "lat": 25.3108,
+   "lon": 83.0106,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kashi Vishwanath Temple"
+  },
+  {
+   "id": "Q2594448",
+   "name": "Shravasti",
+   "sl": 36,
+   "file": "Twinmiracle.jpg",
+   "lat": 27.5171,
+   "lon": 82.0506,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "former capital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shravasti"
+  },
+  {
+   "id": "Q573547",
+   "name": "Calicut International Airport",
+   "sl": 35,
+   "file": "കരിപ്പുര്‍ വിമാനത്താവളം.jpg",
+   "lat": 11.1361,
+   "lon": 75.955,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Calicut International Airport"
+  },
+  {
+   "id": "Q2047322",
+   "name": "Chilika Lake",
+   "sl": 35,
+   "file": "Chilika Lake 2.jpg",
+   "lat": 19.7167,
+   "lon": 85.3167,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chilika Lake"
+  }
+ ]
+}

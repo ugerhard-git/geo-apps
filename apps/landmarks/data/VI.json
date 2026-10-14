@@ -1,0 +1,170 @@
+{
+ "country": "VI",
+ "items": [
+  {
+   "id": "Q491005",
+   "name": "Virgin Islands National Park",
+   "sl": 34,
+   "file": "Virgin Islands National Park.jpg",
+   "lat": 18.3281,
+   "lon": -64.9333,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "National Park of the United States"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Virgin Islands National Park"
+  },
+  {
+   "id": "Q1148619",
+   "name": "Cyril E. King Airport",
+   "sl": 18,
+   "file": "Cyril E. King Airport (Runway-taxiway).JPG",
+   "lat": 18.3372,
+   "lon": -64.9733,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cyril E. King Airport"
+  },
+  {
+   "id": "Q951163",
+   "name": "Henry E. Rohlsen Airport",
+   "sl": 17,
+   "file": "Henry E. Rohlsen Airport (Terminal).jpg",
+   "lat": 17.7044,
+   "lon": -64.8017,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Henry E. Rohlsen Airport"
+  },
+  {
+   "id": "Q1773741",
+   "name": "Fort Christian",
+   "sl": 11,
+   "file": "GENERAL VIEW OF NORTH CURTAIN WALL WITH CLOCK TOWER - Christiansfort, Waterfront, Charlotte Amalie, St. Thomas, VI HABS VI,3-CHAM,30-7.tif",
+   "lat": 18.3408,
+   "lon": -64.9297,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Christian"
+  },
+  {
+   "id": "Q999352",
+   "name": "Buck Island Reef National Monument",
+   "sl": 10,
+   "file": "Buck Island Reef National Monument Acanthurus coeruleus.jpg",
+   "lat": 17.7892,
+   "lon": -64.6248,
+   "kind": "both",
+   "types": [
+    "national monument",
+    "National Monument of the United States",
+    "National Park System unit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buck Island Reef National Monument"
+  },
+  {
+   "id": "Q2968446",
+   "name": "Blackbeard's Castle",
+   "sl": 9,
+   "file": "Blackbeard's Castle in Charlotte Amalie.jpg",
+   "lat": 18.3438,
+   "lon": -64.9296,
+   "kind": "built",
+   "types": [
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blackbeard's Castle"
+  },
+  {
+   "id": "Q4994594",
+   "name": "Fort Frederik",
+   "sl": 9,
+   "file": "Fort Frederik 2012 Wade.JPG",
+   "lat": 17.7153,
+   "lon": -64.8835,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Frederik"
+  },
+  {
+   "id": "Q3005470",
+   "name": "Crown Mountain",
+   "sl": 8,
+   "file": "Crown Mountain from Charlotte Amalie.jpg",
+   "lat": 18.3572,
+   "lon": -64.9747,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3945820",
+   "name": "Salt River Bay National Historical Park and Ecological Preserve",
+   "sl": 8,
+   "file": "Salt-River-Bay-1.jpg",
+   "lat": 17.7789,
+   "lon": -64.7589,
+   "kind": "natural",
+   "types": [
+    "National Historical Park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salt River Bay National Historical Park and Ecological Preserve"
+  },
+  {
+   "id": "Q16899626",
+   "name": "St. Thomas Synagogue",
+   "sl": 8,
+   "file": "Synagogue of Beracha Veshalom Vegemiluth Hasidim, Krystalgade 16A and B, Charlotte Amalie, St. Thomas, VI HABS VI,3-CHAM,3-1.tif",
+   "lat": 18.3428,
+   "lon": -64.9327,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Thomas Synagogue"
+  }
+ ]
+}

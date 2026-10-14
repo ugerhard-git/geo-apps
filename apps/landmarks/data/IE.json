@@ -1,0 +1,1350 @@
+{
+ "country": "IE",
+ "items": [
+  {
+   "id": "Q178021",
+   "name": "Dublin Airport",
+   "sl": 55,
+   "file": "Departure from Dublin Airport onboard Aer Lingus A320.jpg",
+   "lat": 53.4214,
+   "lon": -6.27,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dublin Airport"
+  },
+  {
+   "id": "Q239477",
+   "name": "Cliffs of Moher",
+   "sl": 48,
+   "file": "Ireland Cliffs of Moher BW 2025-09-11 14-27-51.jpg",
+   "lat": 52.9361,
+   "lon": -9.4708,
+   "kind": "natural",
+   "types": [
+    "cliff"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cliffs of Moher"
+  },
+  {
+   "id": "Q339503",
+   "name": "Newgrange",
+   "sl": 48,
+   "file": "Irelands history.jpg",
+   "lat": 53.6947,
+   "lon": -6.4756,
+   "kind": "built",
+   "types": [
+    "Irish passage tomb",
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q339489",
+    "name": "Brú na Bóinne"
+   },
+   "also": [],
+   "cat": "Newgrange"
+  },
+  {
+   "id": "Q503368",
+   "name": "Carrauntoohil",
+   "sl": 47,
+   "file": "Carrauntoohil 2016.JPG",
+   "lat": 51.9989,
+   "lon": -9.7428,
+   "kind": "natural",
+   "types": [
+    "climbing area",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carrauntoohil"
+  },
+  {
+   "id": "Q244402",
+   "name": "Aviva Stadium",
+   "sl": 46,
+   "file": "Dublin aviva stadium.jpg",
+   "lat": 53.335,
+   "lon": -6.2283,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aviva Stadium"
+  },
+  {
+   "id": "Q339489",
+   "name": "Brú na Bóinne",
+   "sl": 44,
+   "file": "Bru na Boinne - Newgrange.jpg",
+   "lat": 53.6928,
+   "lon": -6.4493,
+   "kind": "built",
+   "types": [
+    "archaeological complex",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Bru na Boinne"
+  },
+  {
+   "id": "Q742767",
+   "name": "Dublin Castle",
+   "sl": 39,
+   "file": "Dublin castle.JPG",
+   "lat": 53.3431,
+   "lon": -6.2674,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dublin Castle"
+  },
+  {
+   "id": "Q478225",
+   "name": "Croke Park",
+   "sl": 38,
+   "file": "Croke Park from the Hill - 2004 All-Ireland Football Championship Final.jpg",
+   "lat": 53.3608,
+   "lon": -6.2511,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Croke Park"
+  },
+  {
+   "id": "Q543155",
+   "name": "Hill of Tara",
+   "sl": 38,
+   "file": "Collinaditara.jpg",
+   "lat": 53.5775,
+   "lon": -6.6119,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hill of Tara"
+  },
+  {
+   "id": "Q584102",
+   "name": "Shannon Airport",
+   "sl": 38,
+   "file": "Ryanair EI-DAD Boeing 737-800 Shannon NEIN zum Lufthansa Kerosinzuschlag.jpg",
+   "lat": 52.7019,
+   "lon": -8.9247,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shannon Airport"
+  },
+  {
+   "id": "Q848917",
+   "name": "Lough Corrib",
+   "sl": 37,
+   "file": "Loughcorrib.jpg",
+   "lat": 53.4667,
+   "lon": -9.2833,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "Special Area of Conservation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lough Corrib"
+  },
+  {
+   "id": "Q1345361",
+   "name": "Cork Airport",
+   "sl": 36,
+   "file": "CorkAirport2.jpg",
+   "lat": 51.8414,
+   "lon": -8.4911,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cork Airport"
+  },
+  {
+   "id": "Q846365",
+   "name": "St Patrick's Cathedral",
+   "sl": 34,
+   "file": "St Patrick's Cathedral Exterior, Dublin, Ireland - Diliff.jpg",
+   "lat": 53.3394,
+   "lon": -6.2714,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Patrick's Cathedral, Dublin"
+  },
+  {
+   "id": "Q917858",
+   "name": "The Burren",
+   "sl": 34,
+   "file": "Burren karst.jpg",
+   "lat": 53.0977,
+   "lon": -9.284,
+   "kind": "natural",
+   "types": [
+    "karst",
+    "natural region",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burren"
+  },
+  {
+   "id": "Q691153",
+   "name": "Glendalough",
+   "sl": 33,
+   "file": "Glendalough monastery.jpg",
+   "lat": 53.0103,
+   "lon": -6.3275,
+   "kind": "both",
+   "types": [
+    "abbey",
+    "monastery",
+    "U-shaped valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Glendalough"
+  },
+  {
+   "id": "Q1573866",
+   "name": "Killarney National Park",
+   "sl": 33,
+   "file": "Lakes of Killarney.JPG",
+   "lat": 52.021,
+   "lon": -9.5066,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Killarney National Park"
+  },
+  {
+   "id": "Q1672830",
+   "name": "National Library of Ireland",
+   "sl": 33,
+   "file": "National Library of Ireland 2011.JPG",
+   "lat": 53.3411,
+   "lon": -6.2544,
+   "kind": "built",
+   "types": [
+    "national library",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Library of Ireland"
+  },
+  {
+   "id": "Q1134365",
+   "name": "Spire of Dublin",
+   "sl": 32,
+   "file": "The Spire.jpg",
+   "lat": 53.3497,
+   "lon": -6.2603,
+   "kind": "built",
+   "types": [
+    "monument",
+    "sculpture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Spire of Dublin"
+  },
+  {
+   "id": "Q247595",
+   "name": "Leinster House",
+   "sl": 31,
+   "file": "20130810 dublin214.JPG",
+   "lat": 53.3406,
+   "lon": -6.254,
+   "kind": "built",
+   "types": [
+    "palace",
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leinster House"
+  },
+  {
+   "id": "Q918349",
+   "name": "Lough Derg",
+   "sl": 30,
+   "file": "Lough Derg, Ballycuggaran, Co Clare - geograph.org.uk - 1772010.jpg",
+   "lat": 52.9833,
+   "lon": -8.3167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lough Derg (Munster)"
+  },
+  {
+   "id": "Q1255597",
+   "name": "Rock of Cashel",
+   "sl": 30,
+   "file": "\"Ein bedeutendes Wahrzeichen der irischen Geschichte\". 02.jpg",
+   "lat": 52.52,
+   "lon": -7.89,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castle",
+    "tourist attraction"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock of Cashel"
+  },
+  {
+   "id": "Q1067803",
+   "name": "Christ Church Cathedral, Dublin",
+   "sl": 29,
+   "file": "Christ Church Cathedral (Dublin).jpg",
+   "lat": 53.3431,
+   "lon": -6.2714,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christ Church Cathedral, Dublin"
+  },
+  {
+   "id": "Q2018379",
+   "name": "National Gallery of Ireland",
+   "sl": 29,
+   "file": "National Gallery of Ireland 2006.jpg",
+   "lat": 53.3409,
+   "lon": -6.2525,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery of Ireland"
+  },
+  {
+   "id": "Q1126279",
+   "name": "Connemara National Park",
+   "sl": 28,
+   "file": "Connemara trail.jpg",
+   "lat": 53.5511,
+   "lon": -9.9447,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Connemara National Park"
+  },
+  {
+   "id": "Q628687",
+   "name": "Croagh Patrick",
+   "sl": 28,
+   "file": "Wall under Croagh Patrick.JPG",
+   "lat": 53.7595,
+   "lon": -9.6584,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Croagh Patrick"
+  },
+  {
+   "id": "Q140033",
+   "name": "Glenveagh National Park",
+   "sl": 27,
+   "file": "Glenveagh National Park - Lough Gleann.JPG",
+   "lat": 55.0167,
+   "lon": -8.05,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Glenveagh"
+  },
+  {
+   "id": "Q608133",
+   "name": "Lough Ree",
+   "sl": 27,
+   "file": "LoughRee5750.jpg",
+   "lat": 53.5,
+   "lon": -7.9667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lough Ree"
+  },
+  {
+   "id": "Q1672840",
+   "name": "National Museum of Ireland",
+   "sl": 27,
+   "file": "National Museum of Ireland.jpg",
+   "lat": 53.3403,
+   "lon": -6.2547,
+   "kind": "built",
+   "types": [
+    "military museum",
+    "national museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Ireland"
+  },
+  {
+   "id": "Q1432605",
+   "name": "Saint Stephen's Green",
+   "sl": 27,
+   "file": "Dublin Stephen's Green-44 edit.jpg",
+   "lat": 53.3381,
+   "lon": -6.2592,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Stephen's Green"
+  },
+  {
+   "id": "Q391976",
+   "name": "Chester Beatty Library",
+   "sl": 26,
+   "file": "Alig Chester Beatty Library en008.jpg",
+   "lat": 53.342,
+   "lon": -6.267,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "library",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chester Beatty Library"
+  },
+  {
+   "id": "Q1049842",
+   "name": "Kilmainham Gaol",
+   "sl": 26,
+   "file": "Dublin-Kilmainham-Main-Entrance-1.jpg",
+   "lat": 53.3417,
+   "lon": -6.3094,
+   "kind": "built",
+   "types": [
+    "defunct prison",
+    "prison museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kilmainham Gaol"
+  },
+  {
+   "id": "Q514648",
+   "name": "Lugnaquilla",
+   "sl": 25,
+   "file": "Lugnaquilla from Glenmalure.jpg",
+   "lat": 52.966,
+   "lon": -6.463,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lugnaquilla"
+  },
+  {
+   "id": "Q1464482",
+   "name": "Munster Blackwater",
+   "sl": 25,
+   "file": "IMG BlackwaterBridge3720rz.jpg",
+   "lat": 51.9412,
+   "lon": -7.836,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "River Blackwater, Cork"
+  },
+  {
+   "id": "Q1193916",
+   "name": "Samuel Beckett Bridge",
+   "sl": 25,
+   "file": "The Samuel Beckett Bridge.jpg",
+   "lat": 53.3469,
+   "lon": -6.2411,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge",
+    "steel bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samuel Beckett Bridge"
+  },
+  {
+   "id": "Q1431699",
+   "name": "Kerry Airport",
+   "sl": 24,
+   "file": "Kerry Airport (KIR).jpg",
+   "lat": 52.1808,
+   "lon": -9.5239,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kerry Airport"
+  },
+  {
+   "id": "Q1366974",
+   "name": "Lough Allen",
+   "sl": 24,
+   "file": "Lough Allen Spencer Harbour 2003 09 11.jpg",
+   "lat": 54.1069,
+   "lon": -8.0392,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lough Allen"
+  },
+  {
+   "id": "Q3364505",
+   "name": "Wicklow Mountains National Park",
+   "sl": 24,
+   "file": "Wicklow Mountains National Park Information Office.jpg",
+   "lat": 53.018,
+   "lon": -6.398,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Special Area of Conservation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wicklow Mountains National Park"
+  },
+  {
+   "id": "Q816458",
+   "name": "Ben Bulben",
+   "sl": 23,
+   "file": "Ben Bulben by Bloom.jpg",
+   "lat": 54.3667,
+   "lon": -8.4667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Benbulbin"
+  },
+  {
+   "id": "Q881739",
+   "name": "Blarney Castle",
+   "sl": 23,
+   "file": "Blarney Castle-02-2017-gje.jpg",
+   "lat": 51.9289,
+   "lon": -8.5708,
+   "kind": "built",
+   "types": [
+    "castle",
+    "tower house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blarney Castle"
+  },
+  {
+   "id": "Q1339254",
+   "name": "General Post Office",
+   "sl": 23,
+   "file": "General Post Office Dublin 20060803.jpg",
+   "lat": 53.3493,
+   "lon": -6.2611,
+   "kind": "built",
+   "types": [
+    "post office"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "General Post Office (Dublin)"
+  },
+  {
+   "id": "Q1538285",
+   "name": "Irish Museum of Modern Art",
+   "sl": 23,
+   "file": "IMMA north facade wiki.jpg",
+   "lat": 53.3429,
+   "lon": -6.3,
+   "kind": "built",
+   "types": [
+    "art gallery",
+    "art museum",
+    "creative residency",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Irish Museum of Modern Art"
+  },
+  {
+   "id": "Q1482124",
+   "name": "Knowth",
+   "sl": 23,
+   "file": "Knowth from the southeast.jpg",
+   "lat": 53.7017,
+   "lon": -6.4917,
+   "kind": "built",
+   "types": [
+    "passage grave"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q339489",
+    "name": "Brú na Bóinne"
+   },
+   "also": [],
+   "cat": "Knowth"
+  },
+  {
+   "id": "Q805409",
+   "name": "Wild Nephin National Park",
+   "sl": 23,
+   "file": "Ballycroy National Park from Nephin Beg Range, July2012.jpg",
+   "lat": 54.0167,
+   "lon": -9.7,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Special Area of Conservation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wild Nephin Ballycroy National Park"
+  },
+  {
+   "id": "Q2107474",
+   "name": "Áras an Uachtaráin",
+   "sl": 22,
+   "file": "Áras an Uachtaráin 2010.jpg",
+   "lat": 53.3597,
+   "lon": -6.3174,
+   "kind": "built",
+   "types": [
+    "public building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Áras an Uachtaráin"
+  },
+  {
+   "id": "Q927223",
+   "name": "Clonmacnoise",
+   "sl": 22,
+   "file": "ClonmacnoiseCathedral.JPG",
+   "lat": 53.3239,
+   "lon": -7.9911,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Clonmacnoise"
+  },
+  {
+   "id": "Q1439960",
+   "name": "Four Courts",
+   "sl": 22,
+   "file": "Fourcourtsquays.JPG",
+   "lat": 53.3459,
+   "lon": -6.2735,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Four Courts"
+  },
+  {
+   "id": "Q601162",
+   "name": "Lansdowne Road",
+   "sl": 22,
+   "file": "Leinster2006.jpg",
+   "lat": 53.335,
+   "lon": -6.2292,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "defunct sports venue",
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lansdowne Road"
+  },
+  {
+   "id": "Q1478911",
+   "name": "Mount Brandon",
+   "sl": 22,
+   "file": "Brandon Mountain from Brandon Peak - geograph.org.uk - 331817.jpg",
+   "lat": 52.234,
+   "lon": -10.254,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Brandon"
+  },
+  {
+   "id": "Q153645",
+   "name": "Poulnabrone dolmen",
+   "sl": 22,
+   "file": "IRL Burren National Park 12.jpg",
+   "lat": 53.0487,
+   "lon": -9.14,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "dolmen"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Poulnabrone"
+  },
+  {
+   "id": "Q1120038",
+   "name": "Slieve League",
+   "sl": 22,
+   "file": "Slieve League (15919171422).jpg",
+   "lat": 54.6381,
+   "lon": -8.6814,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Slieve League"
+  },
+  {
+   "id": "Q848921",
+   "name": "Ireland West Airport Knock",
+   "sl": 21,
+   "file": "Cnock airport 2013.png",
+   "lat": 53.9103,
+   "lon": -8.8185,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ireland West Airport Knock"
+  },
+  {
+   "id": "Q687578",
+   "name": "Lia Fáil",
+   "sl": 21,
+   "file": "Tara stone.jpg",
+   "lat": 53.5786,
+   "lon": -6.6121,
+   "kind": "built",
+   "types": [
+    "magic item",
+    "menhir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lia Fáil"
+  },
+  {
+   "id": "Q599132",
+   "name": "Bunratty Castle",
+   "sl": 20,
+   "file": "Bunrattybig.jpg",
+   "lat": 52.6967,
+   "lon": -8.8118,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bunratty Castle"
+  },
+  {
+   "id": "Q3895694",
+   "name": "Burren National Park",
+   "sl": 20,
+   "file": "The Burren National Park Mullaghmore.JPG",
+   "lat": 53.01,
+   "lon": -9,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burren National Park"
+  },
+  {
+   "id": "Q1158113",
+   "name": "Dalymount Park",
+   "sl": 20,
+   "file": "Bohemians-Football-Club-Dalymount-Park-Entrance-2012.JPG",
+   "lat": 53.3617,
+   "lon": -6.275,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dalymount Park"
+  },
+  {
+   "id": "Q2182478",
+   "name": "Dublin Port",
+   "sl": 20,
+   "file": "Dublin Port - geograph.org.uk - 1470733.jpg",
+   "lat": 53.3461,
+   "lon": -6.2083,
+   "kind": "both",
+   "types": [
+    "port",
+    "seaport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dublin Port"
+  },
+  {
+   "id": "Q220027",
+   "name": "Dublin Zoo",
+   "sl": 20,
+   "file": "Old Entrance Lodge Dublin Zoo - geograph.org.uk - 493429.jpg",
+   "lat": 53.3539,
+   "lon": -6.3039,
+   "kind": "built",
+   "types": [
+    "nonprofit organization",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dublin Zoo"
+  },
+  {
+   "id": "Q1361608",
+   "name": "Errigal",
+   "sl": 20,
+   "file": "Dun Luiche - Errigal Mountain.JPG",
+   "lat": 55.033,
+   "lon": -8.112,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Errigal"
+  },
+  {
+   "id": "Q1034624",
+   "name": "Ha'penny Bridge",
+   "sl": 20,
+   "file": "HalfPennyBridge.jpg",
+   "lat": 53.3461,
+   "lon": -6.263,
+   "kind": "built",
+   "types": [
+    "footbridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ha'penny Bridge"
+  },
+  {
+   "id": "Q2453267",
+   "name": "Kilkenny Castle",
+   "sl": 20,
+   "file": "Kilkenny-castle.jpg",
+   "lat": 52.6503,
+   "lon": -7.2492,
+   "kind": "built",
+   "types": [
+    "castle",
+    "museum",
+    "schloss country house museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kilkenny Castle"
+  },
+  {
+   "id": "Q1768048",
+   "name": "Lough Mask",
+   "sl": 20,
+   "file": "Lough mask panorama.jpg",
+   "lat": 53.6219,
+   "lon": -9.3822,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lough Mask"
+  },
+  {
+   "id": "Q2459367",
+   "name": "Tallaght Stadium",
+   "sl": 20,
+   "file": "Tallaght Stadium 1.jpg",
+   "lat": 53.2835,
+   "lon": -6.3737,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tallaght Stadium"
+  },
+  {
+   "id": "Q1253443",
+   "name": "Dowth",
+   "sl": 19,
+   "file": "Tumulus de Dowth 1.JPG",
+   "lat": 53.7029,
+   "lon": -6.4492,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "passage grave"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q339489",
+    "name": "Brú na Bóinne"
+   },
+   "also": [],
+   "cat": "Dowth"
+  },
+  {
+   "id": "Q788078",
+   "name": "Kippure",
+   "sl": 19,
+   "file": "KippurePoor5179w.jpg",
+   "lat": 53.1694,
+   "lon": -6.3383,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kippure"
+  },
+  {
+   "id": "Q303076",
+   "name": "Malin Head",
+   "sl": 19,
+   "file": "Malin Head (2019).jpg",
+   "lat": 55.3808,
+   "lon": -7.37,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malin Head"
+  },
+  {
+   "id": "Q674377",
+   "name": "Mizen Head",
+   "sl": 19,
+   "file": "Mizen Head.JPG",
+   "lat": 51.4503,
+   "lon": -9.8194,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mizen Head"
+  },
+  {
+   "id": "Q2350741",
+   "name": "Nelson's Pillar",
+   "sl": 19,
+   "file": "Lossy-page1-2658px-Nelson's Pillar, Sackville-Street, Dublin RMG PU3914 (cropped).jpg",
+   "lat": 53.3498,
+   "lon": -6.2602,
+   "kind": "built",
+   "types": [
+    "victory column"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nelson's Pillar, Dublin"
+  },
+  {
+   "id": "Q2369538",
+   "name": "Carlingford Lough",
+   "sl": 18,
+   "file": "IMGCarlingfordLough 0617.jpg",
+   "lat": 54.0733,
+   "lon": -6.1994,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "inlet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GB"
+   ],
+   "cat": "Carlingford Lough"
+  },
+  {
+   "id": "Q2543742",
+   "name": "Dublin Connolly railway station",
+   "sl": 18,
+   "file": "Dublin Connolly railway station 2006.jpg",
+   "lat": 53.3514,
+   "lon": -6.2497,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "elevated station",
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dublin Connolly railway station"
+  },
+  {
+   "id": "Q1431344",
+   "name": "Galway Airport",
+   "sl": 18,
+   "file": "GalwayAirportEntrance.jpg",
+   "lat": 53.3002,
+   "lon": -8.9416,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galway Airport"
+  },
+  {
+   "id": "Q132220",
+   "name": "Kylemore Abbey",
+   "sl": 18,
+   "file": "Kylemore Abbey2007.jpg",
+   "lat": 53.5617,
+   "lon": -9.8893,
+   "kind": "built",
+   "types": [
+    "abbey"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kylemore Abbey"
+  },
+  {
+   "id": "Q1956300",
+   "name": "Mweelrea",
+   "sl": 18,
+   "file": "Mweelrea from Ben Lugmore.jpg",
+   "lat": 53.636,
+   "lon": -9.831,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mweelrea Mountains"
+  },
+  {
+   "id": "Q2281650",
+   "name": "Rosslare Europort",
+   "sl": 18,
+   "file": "Rosslare Europort - aerial - 2024-08-31 08.jpg",
+   "lat": 52.2556,
+   "lon": -6.3344,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rosslare Europort"
+  },
+  {
+   "id": "Q1542268",
+   "name": "Royal Canal",
+   "sl": 18,
+   "file": "Royal Canal Westmeath.jpg",
+   "lat": 53.35,
+   "lon": -6.2333,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Canal"
+  },
+  {
+   "id": "Q2339141",
+   "name": "Saint Fin Barre's Cathedral",
+   "sl": 18,
+   "file": "CorkCathedralsunlight.jpg",
+   "lat": 51.8944,
+   "lon": -8.4806,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St Finbarre's Cathedral"
+  },
+  {
+   "id": "Q2300561",
+   "name": "The Custom House",
+   "sl": 18,
+   "file": "CustomHouseDublin.JPG",
+   "lat": 53.3485,
+   "lon": -6.2531,
+   "kind": "built",
+   "types": [
+    "custom house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dublin Custom House"
+  },
+  {
+   "id": "Q1899515",
+   "name": "3Arena",
+   "sl": 17,
+   "file": "The O2, Dublin - geograph.org.uk - 1670682.jpg",
+   "lat": 53.3475,
+   "lon": -6.2286,
+   "kind": "built",
+   "types": [
+    "event venue",
+    "train shed"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "3Arena"
+  },
+  {
+   "id": "Q902905",
+   "name": "Bray Head",
+   "sl": 17,
+   "file": "Bray Head - aerial - 2026-02-28.jpg",
+   "lat": 53.1905,
+   "lon": -6.0842,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bray Head"
+  },
+  {
+   "id": "Q764573",
+   "name": "Cahir Castle",
+   "sl": 17,
+   "file": "Ireland-Cahir Castle.jpg",
+   "lat": 52.3746,
+   "lon": -7.9272,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cahir Castle"
+  },
+  {
+   "id": "Q1161027",
+   "name": "Donegal Airport",
+   "sl": 17,
+   "file": "Donegal Carrickfin Airport - Terminal entrance - geograph.org.uk - 1174804.jpg",
+   "lat": 55.0442,
+   "lon": -8.341,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Donegal Airport"
+  }
+ ]
+}

@@ -1,0 +1,1423 @@
+{
+ "country": "CZ",
+ "items": [
+  {
+   "id": "Q193369",
+   "name": "Prague Castle",
+   "sl": 66,
+   "file": "Castillo de Praga, Praga, República Checa, 2022-07-02, DD 209.jpg",
+   "lat": 50.09,
+   "lon": 14.4,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château",
+    "hillfort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prague Castle"
+  },
+  {
+   "id": "Q152131",
+   "name": "Sudetes",
+   "sl": 64,
+   "file": "Śnieżka z zachodu.jpg",
+   "lat": 50.7361,
+   "lon": 15.74,
+   "kind": "natural",
+   "types": [
+    "geomorphological subprovince",
+    "low mountain range",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE",
+    "PL"
+   ],
+   "cat": "Sudetes"
+  },
+  {
+   "id": "Q204871",
+   "name": "Charles Bridge",
+   "sl": 62,
+   "file": "Prague 07-2016 View from Petrinska Tower img2.jpg",
+   "lat": 50.0864,
+   "lon": 14.4119,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "footbridge",
+    "stone bridge",
+    "street"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q748211",
+    "name": "Old Town"
+   },
+   "also": [],
+   "cat": "Charles Bridge"
+  },
+  {
+   "id": "Q4198",
+   "name": "Ore Mountains",
+   "sl": 60,
+   "file": "Auersberg panorama (aka).jpg",
+   "lat": 50.5,
+   "lon": 13,
+   "kind": "natural",
+   "types": [
+    "cultural landscape",
+    "low mountain range",
+    "mesoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Ore Mountains"
+  },
+  {
+   "id": "Q5949",
+   "name": "St. Vitus Cathedral",
+   "sl": 60,
+   "file": "Praha, Katedrála, JV 01.jpg",
+   "lat": 50.0908,
+   "lon": 14.4006,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Vitus Cathedral"
+  },
+  {
+   "id": "Q214644",
+   "name": "Giant Mountains",
+   "sl": 59,
+   "file": "Sněžka a Obří důl.jpg",
+   "lat": 50.75,
+   "lon": 15.5833,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Krkonoše"
+  },
+  {
+   "id": "Q617511",
+   "name": "Sněžka",
+   "sl": 58,
+   "file": "Śnieżka z zachodu.jpg",
+   "lat": 50.7361,
+   "lon": 15.7403,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "main peak",
+    "mountain",
+    "one-thousander"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Sněžka"
+  },
+  {
+   "id": "Q99172",
+   "name": "Václav Havel Airport Prague",
+   "sl": 56,
+   "file": "VaclavHavelAirport.JPG",
+   "lat": 50.1008,
+   "lon": 14.26,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prague Ruzyně Airport"
+  },
+  {
+   "id": "Q157290",
+   "name": "Bohemian Forest",
+   "sl": 53,
+   "file": "Topo boehmerwald engleder.jpg",
+   "lat": 49,
+   "lon": 13.5,
+   "kind": "natural",
+   "types": [
+    "low mountain range",
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT",
+    "DE"
+   ],
+   "cat": "Šumava"
+  },
+  {
+   "id": "Q244816",
+   "name": "Dancing House",
+   "sl": 50,
+   "file": "La Casa Danzante de Praga 1.JPG",
+   "lat": 50.0756,
+   "lon": 14.4142,
+   "kind": "built",
+   "types": [
+    "office building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dancing House"
+  },
+  {
+   "id": "Q266698",
+   "name": "Karlštejn Castle",
+   "sl": 50,
+   "file": "Burg Karlstein - Karlštejn - panoramio.jpg",
+   "lat": 49.9395,
+   "lon": 14.1879,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karlštejn (castle)"
+  },
+  {
+   "id": "Q457453",
+   "name": "Villa Tugendhat",
+   "sl": 47,
+   "file": "Villa Tugendhat, Brno.jpg",
+   "lat": 49.2072,
+   "lon": 16.6158,
+   "kind": "built",
+   "types": [
+    "museum building",
+    "villa"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa Tugendhat"
+  },
+  {
+   "id": "Q729370",
+   "name": "Prague Astronomical Clock",
+   "sl": 46,
+   "file": "Astronomical Clock (8341899828).jpg",
+   "lat": 50.087,
+   "lon": 14.4207,
+   "kind": "built",
+   "types": [
+    "24-hour analog dial",
+    "astronomical clock",
+    "bell tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prague Astronomical Clock"
+  },
+  {
+   "id": "Q188112",
+   "name": "National Museum in Prague",
+   "sl": 41,
+   "file": "Museo Nacional, Praga, República Checa, 2022-07-02, DD 265-267 HDR.jpg",
+   "lat": 50.0798,
+   "lon": 14.4304,
+   "kind": "built",
+   "types": [
+    "Czech research institution",
+    "museum",
+    "national museum",
+    "publishing house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum in Prague (institution)"
+  },
+  {
+   "id": "Q847613",
+   "name": "Wenceslas Square",
+   "sl": 41,
+   "file": "Václavské náměstí z kupole Muzea 3.jpg",
+   "lat": 50.0823,
+   "lon": 14.4261,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wenceslas Square"
+  },
+  {
+   "id": "Q742362",
+   "name": "Holy Trinity Column in Olomouc",
+   "sl": 40,
+   "file": "Holy Trinity Column.jpg",
+   "lat": 49.594,
+   "lon": 17.2505,
+   "kind": "built",
+   "types": [
+    "Holy Trinity column",
+    "plague column"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Trinity column in Olomouc"
+  },
+  {
+   "id": "Q421678",
+   "name": "Old Town Square",
+   "sl": 40,
+   "file": "Prague 07-2016 View from Old Town Hall Tower img3.jpg",
+   "lat": 50.0875,
+   "lon": 14.4214,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Old Town Square (Prague)"
+  },
+  {
+   "id": "Q160175",
+   "name": "Theresienstadt concentration camp",
+   "sl": 40,
+   "file": "Theresienstadt arbeit macht frei.jpg",
+   "lat": 50.5103,
+   "lon": 14.1497,
+   "kind": "built",
+   "types": [
+    "ghetto in Nazi-occupied Europe",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Theresienstadt concentration camp"
+  },
+  {
+   "id": "Q616334",
+   "name": "Vyšehrad",
+   "sl": 40,
+   "file": "Praha 2, Pevnost Vyšehrad 20170808 014.jpg",
+   "lat": 50.0644,
+   "lon": 14.4176,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "hillfort",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vyšehrad Fortress"
+  },
+  {
+   "id": "Q1453427",
+   "name": "Church of Our Lady before Týn",
+   "sl": 38,
+   "file": "Prague 07-2016 View from Old Town Hall Tower img2.jpg",
+   "lat": 50.0877,
+   "lon": 14.4227,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Our Lady in front of Týn"
+  },
+  {
+   "id": "Q1419555",
+   "name": "National Gallery Prague",
+   "sl": 38,
+   "file": "Praha Veletržní palác jih.jpg",
+   "lat": 50.1011,
+   "lon": 14.4325,
+   "kind": "built",
+   "types": [
+    "art institution",
+    "Czech research institution",
+    "national museum",
+    "organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Národní galerie v Praze"
+  },
+  {
+   "id": "Q752318",
+   "name": "Pilgrimage Church of Saint John of Nepomuk",
+   "sl": 38,
+   "file": "Kostel svatého Jana Nepomuckého (3).jpg",
+   "lat": 49.58,
+   "lon": 15.9419,
+   "kind": "built",
+   "types": [
+    "Catholic pilgrimage church",
+    "church building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Pilgrimage Church of Saint John of Nepomuk"
+  },
+  {
+   "id": "Q513821",
+   "name": "Sedlec Ossuary",
+   "sl": 37,
+   "file": "Sedlec, kaple Všech svatých s kostnicí.JPG",
+   "lat": 49.962,
+   "lon": 15.2883,
+   "kind": "built",
+   "types": [
+    "cemetery chapel",
+    "church building",
+    "ossuary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sedlec Ossuary"
+  },
+  {
+   "id": "Q157728",
+   "name": "Fichtel Mountains",
+   "sl": 35,
+   "file": "Location Fichtelgebirge.PNG",
+   "lat": 50.05,
+   "lon": 11.85,
+   "kind": "natural",
+   "types": [
+    "low mountain range",
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Fichtelgebirge"
+  },
+  {
+   "id": "Q744016",
+   "name": "Konopiště Castle",
+   "sl": 35,
+   "file": "Konopiste CZ 02.jpg",
+   "lat": 49.7794,
+   "lon": 14.6567,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Konopiště Castle"
+  },
+  {
+   "id": "Q200693",
+   "name": "Kroměříž Castle",
+   "sl": 35,
+   "file": "Kroměříž zámek 1.jpg",
+   "lat": 49.3003,
+   "lon": 17.3931,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64642132",
+    "name": "Gardens and Castle at Kroměříž"
+   },
+   "also": [],
+   "cat": "Kroměříž Archbishop's Palace"
+  },
+  {
+   "id": "Q315298",
+   "name": "Elbe Sandstone Mountains",
+   "sl": 33,
+   "file": "Lilienstein herbstabend.jpeg",
+   "lat": 50.85,
+   "lon": 14.12,
+   "kind": "natural",
+   "types": [
+    "geotope",
+    "mesoregion",
+    "mountain range",
+    "Vrchovina"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Elbe Sandstone Mountains"
+  },
+  {
+   "id": "Q64858",
+   "name": "Fortuna Arena",
+   "sl": 33,
+   "file": "Synot Tip Arena - Viktoria Plzen - FC Barcelona 0-4.jpg",
+   "lat": 50.0675,
+   "lon": 14.4715,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadion Eden"
+  },
+  {
+   "id": "Q695368",
+   "name": "Lusatian Mountains",
+   "sl": 33,
+   "file": "Vrchol Luže v zimě.jpg",
+   "lat": 50.8489,
+   "lon": 14.6469,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Lusatian Mountains"
+  },
+  {
+   "id": "Q443107",
+   "name": "Old New Synagogue",
+   "sl": 33,
+   "file": "Old New Synagogue 01(js).jpg",
+   "lat": 50.09,
+   "lon": 14.4186,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Old New Synagogue"
+  },
+  {
+   "id": "Q969482",
+   "name": "Strahov Monastery",
+   "sl": 33,
+   "file": "Praha, Hradcany - Strahovsky klaster (pohled z ulice Uvoz).jpg",
+   "lat": 50.086,
+   "lon": 14.3893,
+   "kind": "built",
+   "types": [
+    "collegiate church",
+    "convent",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Strahov Monastery"
+  },
+  {
+   "id": "Q341327",
+   "name": "Bohemian Paradise",
+   "sl": 32,
+   "file": "Ceskyraj hrubaskala.JPG",
+   "lat": 50.5197,
+   "lon": 15.1706,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "protected area",
+    "UNESCO Global Geopark"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Český ráj"
+  },
+  {
+   "id": "Q1345416",
+   "name": "Jizera Mountains",
+   "sl": 32,
+   "file": "Primaveal forest Jizera.JPG",
+   "lat": 50.8333,
+   "lon": 15.25,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Jizera Mountains"
+  },
+  {
+   "id": "Q735278",
+   "name": "Lednice-Valtice Cultural Landscape",
+   "sl": 32,
+   "file": "Lednice–Valtice Cultural Landscape Montage II.jpg",
+   "lat": 48.7758,
+   "lon": 16.775,
+   "kind": "natural",
+   "types": [
+    "cultural landscape",
+    "landscape heritage zone"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Lednice-Valtice Cultural Landscape"
+  },
+  {
+   "id": "Q688715",
+   "name": "Vienna Basin",
+   "sl": 32,
+   "file": "Wiener Blick Panorama.jpg",
+   "lat": 48.2055,
+   "lon": 16.3738,
+   "kind": "natural",
+   "types": [
+    "geomorphological subprovince",
+    "sedimentary basin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Vienna Basin"
+  },
+  {
+   "id": "Q748848",
+   "name": "Brno-Tuřany Airport",
+   "sl": 31,
+   "file": "Interiér haly letiště Brno-Tuřany.jpg",
+   "lat": 49.1514,
+   "lon": 16.6939,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brno-Tuřany Airport"
+  },
+  {
+   "id": "Q864799",
+   "name": "Šumava National Park",
+   "sl": 31,
+   "file": "Plešné jezero.jpg",
+   "lat": 49.0606,
+   "lon": 13.4825,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Šumava National Park"
+  },
+  {
+   "id": "Q1338173",
+   "name": "White Carpathians",
+   "sl": 31,
+   "file": "Vršatecká bradlá1.jpg",
+   "lat": 48.8575,
+   "lon": 17.6747,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "Biele Karpaty"
+  },
+  {
+   "id": "Q704453",
+   "name": "Bohemian Massif",
+   "sl": 30,
+   "file": "Słonecznik Karkonosze.jpg",
+   "lat": 50.1333,
+   "lon": 14.9833,
+   "kind": "natural",
+   "types": [
+    "highland",
+    "physiographic province",
+    "Truncated upland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT",
+    "PL"
+   ],
+   "cat": "Bohemian Massif"
+  },
+  {
+   "id": "Q1347780",
+   "name": "Kleť Observatory",
+   "sl": 30,
+   "file": "Výlet na Klet - 28 srpna 2009 109.JPG",
+   "lat": 48.8639,
+   "lon": 14.2847,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kleť Observatory"
+  },
+  {
+   "id": "Q45033",
+   "name": "cathedral of St. Peter and Paul",
+   "sl": 29,
+   "file": "Brno, katedrála sv. Petra a Pavla.jpg",
+   "lat": 49.191,
+   "lon": 16.6074,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Catholic cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Saints Peter and Paul in Brno"
+  },
+  {
+   "id": "Q2164919",
+   "name": "Český Krumlov Castle",
+   "sl": 29,
+   "file": "Castello (9572386406).jpg",
+   "lat": 48.8125,
+   "lon": 14.3153,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Český Krumlov Castle"
+  },
+  {
+   "id": "Q692207",
+   "name": "O₂ arena",
+   "sl": 29,
+   "file": "Libeň O2 aréna a busy.jpg",
+   "lat": 50.1042,
+   "lon": 14.4936,
+   "kind": "built",
+   "types": [
+    "arena",
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "O2 Arena (Prague)"
+  },
+  {
+   "id": "Q438026",
+   "name": "Old Jewish Cemetery",
+   "sl": 29,
+   "file": "Praha Jewish Cemetery 2003.jpg",
+   "lat": 50.0897,
+   "lon": 14.4172,
+   "kind": "built",
+   "types": [
+    "Jewish cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jewish cemetery Prague-Josefov"
+  },
+  {
+   "id": "Q913185",
+   "name": "St. Barbara's Church, Kutná Hora",
+   "sl": 29,
+   "file": "Church of Saint Barbara, North Facade, Kurna Hora.jpg",
+   "lat": 49.9449,
+   "lon": 15.2636,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17117941",
+    "name": "Kutná Hora: Historical Town Centre with the Church of St Barbara and the Cathedral of Our Lady at Sedlec"
+   },
+   "also": [],
+   "cat": "Church of Saint Barbara (Kutná Hora)"
+  },
+  {
+   "id": "Q1413217",
+   "name": "Žižkov Television Tower",
+   "sl": 29,
+   "file": "Žižkov tv tower.jpg",
+   "lat": 50.0808,
+   "lon": 14.4514,
+   "kind": "built",
+   "types": [
+    "observation tower",
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Žižkov Television Tower"
+  },
+  {
+   "id": "Q1535529",
+   "name": "Golden Lane",
+   "sl": 28,
+   "file": "Callejón del oro, Praga, República Checa, 2022-07-02, DD 139.jpg",
+   "lat": 50.092,
+   "lon": 14.4042,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zlatá ulička u Daliborky"
+  },
+  {
+   "id": "Q60103",
+   "name": "Letná Stadium",
+   "sl": 28,
+   "file": "Praha Sparta.jpg",
+   "lat": 50.0997,
+   "lon": 14.4161,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadion of Sparta Prague on Letná"
+  },
+  {
+   "id": "Q2164885",
+   "name": "Litomyšl Chateau",
+   "sl": 28,
+   "file": "Litomysl zamek.jpg",
+   "lat": 49.8734,
+   "lon": 16.3126,
+   "kind": "built",
+   "types": [
+    "château",
+    "event venue"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Chateau Litomyšl"
+  },
+  {
+   "id": "Q427604",
+   "name": "Petřín",
+   "sl": 28,
+   "file": "Petrin Praha.jpg",
+   "lat": 50.0817,
+   "lon": 14.3944,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Petřín"
+  },
+  {
+   "id": "Q2006345",
+   "name": "Podyjí National Park",
+   "sl": 28,
+   "file": "Thaya 080524 07.jpg",
+   "lat": 48.8478,
+   "lon": 15.8972,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Podyjí National Park"
+  },
+  {
+   "id": "Q1488700",
+   "name": "Powder Tower",
+   "sl": 28,
+   "file": "Prague 07-2016 Powder Tower from Republic Square.jpg",
+   "lat": 50.0872,
+   "lon": 14.4278,
+   "kind": "built",
+   "types": [
+    "city gate",
+    "museum",
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prašná brána"
+  },
+  {
+   "id": "Q633849",
+   "name": "Silesian Beskids",
+   "sl": 28,
+   "file": "View of Skrzyczne from the watchtower on Barania Gora, 2006.jpg",
+   "lat": 49.6664,
+   "lon": 18.9378,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL",
+    "SK"
+   ],
+   "cat": "Silesian Beskids"
+  },
+  {
+   "id": "Q674016",
+   "name": "Praděd",
+   "sl": 27,
+   "file": "NPR Praděd - vrcholové partie z okolí rozcestí Nad Ovčárnou (červenec 2024) (4).jpg",
+   "lat": 50.0832,
+   "lon": 17.2309,
+   "kind": "natural",
+   "types": [
+    "main peak",
+    "mountain",
+    "one-thousander"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Praděd"
+  },
+  {
+   "id": "Q220086",
+   "name": "Prague Zoo",
+   "sl": 27,
+   "file": "Zoo Praha.JPG",
+   "lat": 50.1169,
+   "lon": 14.4061,
+   "kind": "built",
+   "types": [
+    "nonprofit organization",
+    "organization",
+    "tourist destination",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prague Zoo"
+  },
+  {
+   "id": "Q990003",
+   "name": "Spanish Synagogue",
+   "sl": 27,
+   "file": "Sinagoga Española, Praga, República Checa, 2022-07-02, DD 29.jpg",
+   "lat": 50.0904,
+   "lon": 14.4208,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spanish Synagogue in Prague"
+  },
+  {
+   "id": "Q118256",
+   "name": "Špilberk Castle",
+   "sl": 27,
+   "file": "Hrad Špilberk (Brno), Brno - střed 208, Brno.JPG",
+   "lat": 49.1944,
+   "lon": 16.5989,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Špilberk Castle"
+  },
+  {
+   "id": "Q1437065",
+   "name": "St. George's Basilica",
+   "sl": 27,
+   "file": "Czech-03808 - St. George's Basilica (33020214885).jpg",
+   "lat": 50.0911,
+   "lon": 14.4022,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica of St George in Hradčany (Prague)"
+  },
+  {
+   "id": "Q871238",
+   "name": "Bohemian-Moravian Highlands",
+   "sl": 26,
+   "file": "ČM.jpg",
+   "lat": 49.2211,
+   "lon": 15.3406,
+   "kind": "natural",
+   "types": [
+    "geomorphological region",
+    "mountain range",
+    "upland",
+    "Vrchovina"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Českomoravská vrchovina"
+  },
+  {
+   "id": "Q45642",
+   "name": "Černé jezero",
+   "sl": 26,
+   "file": "Černé Jezero - panoramio.jpg",
+   "lat": 49.1792,
+   "lon": 13.1825,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Černé jezero"
+  },
+  {
+   "id": "Q1353687",
+   "name": "Great Strahov Stadium",
+   "sl": 26,
+   "file": "14-09-30-Velký-strahovský-stadion-RalfR-001.jpg",
+   "lat": 50.0803,
+   "lon": 14.3879,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Velký strahovský stadion"
+  },
+  {
+   "id": "Q2142483",
+   "name": "Hluboká Castle",
+   "sl": 26,
+   "file": "Zamek Hluboka 001 THWZ.jpg",
+   "lat": 49.0508,
+   "lon": 14.4419,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zámek Hluboká"
+  },
+  {
+   "id": "Q1130137",
+   "name": "Rudolfinum",
+   "sl": 26,
+   "file": "Rudolfinum Prague.jpg",
+   "lat": 50.09,
+   "lon": 14.4156,
+   "kind": "built",
+   "types": [
+    "concert hall",
+    "event venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rudolfinum (Prague)"
+  },
+  {
+   "id": "Q2420392",
+   "name": "St. Nicholas Church",
+   "sl": 26,
+   "file": "Malá Strana kostel sv. Mikuláše z Petřína-3.jpg",
+   "lat": 50.0878,
+   "lon": 14.4036,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Saint Nicholas in Malá Strana"
+  },
+  {
+   "id": "Q685984",
+   "name": "Upper Palatine Forest",
+   "sl": 26,
+   "file": "CHKO Český les (CZE) - typical landscape.jpg",
+   "lat": 49.3833,
+   "lon": 12.7833,
+   "kind": "natural",
+   "types": [
+    "low mountain range",
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Oberpfälzer Wald"
+  },
+  {
+   "id": "Q831362",
+   "name": "Bethlehem Chapel",
+   "sl": 25,
+   "file": "Betlemska kaple.jpg",
+   "lat": 50.0843,
+   "lon": 14.4175,
+   "kind": "built",
+   "types": [
+    "chapel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Betlémská kaple"
+  },
+  {
+   "id": "Q1019768",
+   "name": "Bohemian Switzerland",
+   "sl": 25,
+   "file": "Rock round Pravčická brána (4).jpg",
+   "lat": 50.8333,
+   "lon": 14.25,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "České Švýcarsko"
+  },
+  {
+   "id": "Q2043817",
+   "name": "Krkonoše National Park",
+   "sl": 25,
+   "file": "Čihadlo.jpg",
+   "lat": 50.7361,
+   "lon": 15.7403,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krkonoše National Park"
+  },
+  {
+   "id": "Q1630131",
+   "name": "Lennon Wall",
+   "sl": 25,
+   "file": "JohnLennonWall.jpg",
+   "lat": 50.0862,
+   "lon": 14.4069,
+   "kind": "built",
+   "types": [
+    "wall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "John Lennon Wall, Prague"
+  },
+  {
+   "id": "Q123153",
+   "name": "Ondřejov Observatory",
+   "sl": 25,
+   "file": "Ondřejov Astron Observ DSCN0564.JPG",
+   "lat": 49.9093,
+   "lon": 14.7814,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ondřejov Observatory"
+  },
+  {
+   "id": "Q776727",
+   "name": "St. Procopius Basilica in Třebíč",
+   "sl": 25,
+   "file": "Overview of Basilica of Saint Procopius in Třebíč, Třebíč District.jpg",
+   "lat": 49.217,
+   "lon": 15.8736,
+   "kind": "built",
+   "types": [
+    "basilica",
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16988075",
+    "name": "Jewish Quarter and St Procopius' Basilica in Třebíč"
+   },
+   "also": [],
+   "cat": "Basilica of Saint Procopius in Třebíč"
+  },
+  {
+   "id": "Q569877",
+   "name": "Wallenstein Palace",
+   "sl": 25,
+   "file": "Valdstejnsky Palace Lobkowicz wing.jpg",
+   "lat": 50.09,
+   "lon": 14.4067,
+   "kind": "built",
+   "types": [
+    "palace",
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valdstejn Palace"
+  },
+  {
+   "id": "Q521155",
+   "name": "Estates Theatre",
+   "sl": 24,
+   "file": "Praha Stavovské divadlo 5.jpg",
+   "lat": 50.0861,
+   "lon": 14.4239,
+   "kind": "built",
+   "types": [
+    "opera house",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stavovské divadlo"
+  },
+  {
+   "id": "Q603573",
+   "name": "Infant Jesus of Prague",
+   "sl": 24,
+   "file": "Child Jesus of Prague (original statue).jpg",
+   "lat": 50.0856,
+   "lon": 14.4033,
+   "kind": "built",
+   "types": [
+    "clothed statue",
+    "Pontifically crowned Christological image",
+    "statue of Jesus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Infant Jesus of Prague"
+  },
+  {
+   "id": "Q956163",
+   "name": "Ss. Cyril and Methodius Cathedral",
+   "sl": 24,
+   "file": "Praha Resslova sv. Cyril a Metoděj 2.jpg",
+   "lat": 50.0759,
+   "lon": 14.417,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orthodox cathedral of Saints Cyril and Methodius (Prague)"
+  },
+  {
+   "id": "Q2916171",
+   "name": "Basilica of St Peter and St Paul",
+   "sl": 23,
+   "file": "Vyšehrad bazilika 1.jpg",
+   "lat": 50.0644,
+   "lon": 14.4178,
+   "kind": "built",
+   "types": [
+    "church building",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Saints Peter and Paul (Vyšehrad)"
+  },
+  {
+   "id": "Q959499",
+   "name": "Břevnov Monastery",
+   "sl": 23,
+   "file": "Praha Břevnov monastery from SE DSCN0284.JPG",
+   "lat": 50.0844,
+   "lon": 14.3569,
+   "kind": "built",
+   "types": [
+    "abbey",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Břevnov Monastery"
+  },
+  {
+   "id": "Q2595999",
+   "name": "Church of Saint Nicholas",
+   "sl": 23,
+   "file": "Prague 07-2016 Old Town Square img1.jpg",
+   "lat": 50.0878,
+   "lon": 14.4199,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Saint Nicholas in Old Town, Prague"
+  },
+  {
+   "id": "Q1397501",
+   "name": "Králický Sněžník",
+   "sl": 23,
+   "file": "Snieznik Klodzki mountain (southern side).jpeg",
+   "lat": 50.2075,
+   "lon": 16.8469,
+   "kind": "natural",
+   "types": [
+    "geomorphological district",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Králický Sněžník (mountain)"
+  },
+  {
+   "id": "Q1387301",
+   "name": "Maple Mountains",
+   "sl": 23,
+   "file": "Velký Javorník.jpg",
+   "lat": 49.25,
+   "lon": 18.5,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "Javorníky"
+  }
+ ]
+}

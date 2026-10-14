@@ -1,0 +1,87 @@
+{
+ "country": "BB",
+ "items": [
+  {
+   "id": "Q902486",
+   "name": "Grantley Adams International Airport",
+   "sl": 32,
+   "file": "Sir Grantley Adams Int Airport, Barbados-05.jpg",
+   "lat": 13.0747,
+   "lon": -59.4925,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grantley Adams International Airport"
+  },
+  {
+   "id": "Q167042",
+   "name": "Kensington Oval",
+   "sl": 22,
+   "file": "Kensington Oval yes.jpg",
+   "lat": 13.105,
+   "lon": -59.6225,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kensington Oval"
+  },
+  {
+   "id": "Q807307",
+   "name": "Barbados National Stadium",
+   "sl": 12,
+   "file": "Barbados National Stadium Pitch.jpg",
+   "lat": 13.12,
+   "lon": -59.605,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2975704",
+   "name": "Nidhe Israel Synagogue",
+   "sl": 9,
+   "file": "Nidhe Israel Synagogue.JPG",
+   "lat": 13.0994,
+   "lon": -59.6152,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nidhe Israel Synagogue"
+  },
+  {
+   "id": "Q3886339",
+   "name": "Bridgetown Heliport",
+   "sl": 8,
+   "file": "Bridgetown Heliport-1.jpg",
+   "lat": 13.0958,
+   "lon": -59.6186,
+   "kind": "built",
+   "types": [
+    "heliport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bridgetown Heliport"
+  }
+ ]
+}

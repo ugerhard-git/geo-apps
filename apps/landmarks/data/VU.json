@@ -1,0 +1,306 @@
+{
+ "country": "VU",
+ "items": [
+  {
+   "id": "Q392766",
+   "name": "Mount Yasur",
+   "sl": 29,
+   "file": "Mount Yasur eruption 2006, Tanna Island, Vanuatu, VAN 0516.jpg",
+   "lat": -19.5333,
+   "lon": 169.4417,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yasur volcano"
+  },
+  {
+   "id": "Q811239",
+   "name": "Bauerfield International Airport",
+   "sl": 23,
+   "file": "Bauerfield.jpg",
+   "lat": -17.6992,
+   "lon": 168.3197,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bauerfield International Airport"
+  },
+  {
+   "id": "Q530948",
+   "name": "Lake Letas",
+   "sl": 17,
+   "file": "Mount Gharat and Lake Letas.jpg",
+   "lat": -14.2833,
+   "lon": 167.5333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1783754",
+   "name": "Kuwae",
+   "sl": 16,
+   "file": "ShepherdIslandsMap.png",
+   "lat": -16.8292,
+   "lon": 168.5361,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1909475",
+   "name": "Matthew Island and Hunter Island",
+   "sl": 16,
+   "file": "Ile hunter.JPG",
+   "lat": -22.3469,
+   "lon": 171.3414,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "island group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Matthew and Hunter Islands"
+  },
+  {
+   "id": "Q2580525",
+   "name": "Santo-Pekoa International Airport",
+   "sl": 16,
+   "file": "Santo airport.jpg",
+   "lat": -15.505,
+   "lon": 167.2197,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santo-Pekoa International Airport"
+  },
+  {
+   "id": "Q1869839",
+   "name": "Lopevi",
+   "sl": 15,
+   "file": "Paamamap.png",
+   "lat": -16.8333,
+   "lon": 168.5,
+   "kind": "natural",
+   "types": [
+    "island",
+    "mountain",
+    "volcanic island",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lopevi volcano"
+  },
+  {
+   "id": "Q1189723",
+   "name": "Mount Gharat",
+   "sl": 15,
+   "file": "Mount Gharat and Lake Letas.jpg",
+   "lat": -14.2839,
+   "lon": 167.517,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1535985",
+   "name": "Lombenben",
+   "sl": 14,
+   "file": "Ambae island 3D pic.jpg",
+   "lat": -15.4069,
+   "lon": 167.8461,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ambae Island"
+  },
+  {
+   "id": "Q1072369",
+   "name": "Chief Roi Mata’s Domain",
+   "sl": 11,
+   "file": "Fels Cave Drawings 1.jpg",
+   "lat": -17.6936,
+   "lon": 168.234,
+   "kind": "built",
+   "types": [
+    "grave"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Chief Roi Mata's Domain"
+  },
+  {
+   "id": "Q3274812",
+   "name": "Gaua Airport",
+   "sl": 10,
+   "file": "Air Vanuatu Twin Otter at Gaua Airport.jpg",
+   "lat": -14.2181,
+   "lon": 167.5872,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gaua Airport"
+  },
+  {
+   "id": "Q1784475",
+   "name": "Korman Stadium",
+   "sl": 10,
+   "file": "Korman Stadium (Mar. 14, 2015).jpg",
+   "lat": -17.7339,
+   "lon": 168.337,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1835725",
+   "name": "Vanuatu Cultural Centre",
+   "sl": 10,
+   "file": "National Cultural Centre, Vanuatu.jpg",
+   "lat": -17.7452,
+   "lon": 168.3175,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4752245",
+   "name": "Anatom Airport",
+   "sl": 9,
+   "file": "Unity Airlines Britten-Norman Islander taking off at Aneityum Airport.jpg",
+   "lat": -20.2492,
+   "lon": 169.7714,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aneityum Airport"
+  },
+  {
+   "id": "Q1655171",
+   "name": "Craig Cove Airport",
+   "sl": 9,
+   "file": "Air Vanuatu Harbin Y-12 at Craig Cove Airport.jpg",
+   "lat": -16.265,
+   "lon": 167.9244,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Craig Cove Airport"
+  },
+  {
+   "id": "Q123038290",
+   "name": "Freshwater Stadium",
+   "sl": 9,
+   "file": "Freshwater Stadium.jpg",
+   "lat": -17.7218,
+   "lon": 168.3207,
+   "kind": "built",
+   "types": [
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2942912",
+   "name": "Cathédrale du Sacré-Coeur, Port Vila",
+   "sl": 8,
+   "file": "Port-Vila cath Sacre Coeur.JPG",
+   "lat": -17.7347,
+   "lon": 168.3153,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale du Sacré-Cœur de Port-Vila"
+  },
+  {
+   "id": "Q1139230",
+   "name": "Marum",
+   "sl": 8,
+   "file": "Marum sept 2009.jpg",
+   "lat": -16.2496,
+   "lon": 168.1227,
+   "kind": "natural",
+   "types": [
+    "volcanic crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

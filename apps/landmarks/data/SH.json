@@ -1,0 +1,90 @@
+{
+ "country": "SH",
+ "items": [
+  {
+   "id": "Q578060",
+   "name": "Longwood House",
+   "sl": 23,
+   "file": "Longwood House le 12 janvier 2008.jpg",
+   "lat": -15.9502,
+   "lon": -5.683,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "consulate",
+    "heritage site",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Longwood House, Saint Helena"
+  },
+  {
+   "id": "Q1968916",
+   "name": "Royal Air Force Station Ascension Island",
+   "sl": 16,
+   "file": "Ascension Island, Wideawake Airfield (1).JPG",
+   "lat": -7.9697,
+   "lon": -14.3937,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial traffic aerodrome",
+    "Royal Air Force station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "RAF Ascension Island"
+  },
+  {
+   "id": "Q3376351",
+   "name": "Diana's Peak",
+   "sl": 12,
+   "file": "SH-St Helena.png",
+   "lat": -15.9597,
+   "lon": -5.6914,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q913330",
+   "name": "Briars, Saint Helena",
+   "sl": 10,
+   "file": "Briars Pavilion (16477116332).jpg",
+   "lat": -15.9433,
+   "lon": -5.7097,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Briars Pavilion"
+  },
+  {
+   "id": "Q6941011",
+   "name": "Museum of Saint Helena",
+   "sl": 10,
+   "file": "Museum of St Helena.jpg",
+   "lat": -15.925,
+   "lon": -5.7187,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Saint Helena"
+  }
+ ]
+}

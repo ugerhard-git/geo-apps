@@ -1,0 +1,1370 @@
+{
+ "country": "HR",
+ "items": [
+  {
+   "id": "Q189849",
+   "name": "Plitvice Lakes National Park",
+   "sl": 70,
+   "file": "Plitvice Lakes National Park (2).jpg",
+   "lat": 44.8804,
+   "lon": 15.616,
+   "kind": "natural",
+   "types": [
+    "national park of Croatia"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Plitvice Lakes National Park"
+  },
+  {
+   "id": "Q6059",
+   "name": "Krk",
+   "sl": 66,
+   "file": "Krk krk.jpg",
+   "lat": 45.0789,
+   "lon": 14.6008,
+   "kind": "natural",
+   "types": [
+    "island",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Island of Krk"
+  },
+  {
+   "id": "Q681964",
+   "name": "Slavonia",
+   "sl": 63,
+   "file": "River Drava (29799981721).jpg",
+   "lat": 45.45,
+   "lon": 17.9167,
+   "kind": "natural",
+   "types": [
+    "historical region",
+    "plain",
+    "territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Slavonia"
+  },
+  {
+   "id": "Q322287",
+   "name": "Diocletian's Palace",
+   "sl": 52,
+   "file": "Diocletian's Palace (original appearance).jpg",
+   "lat": 43.5081,
+   "lon": 16.4383,
+   "kind": "built",
+   "types": [
+    "Ancient Roman imperial palace",
+    "Roman villa"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17132416",
+    "name": "Historical Complex of Split with the Palace of Diocletian"
+   },
+   "also": [],
+   "cat": "Diocletian's Palace"
+  },
+  {
+   "id": "Q203767",
+   "name": "Vis",
+   "sl": 50,
+   "file": "Aerial image of Vis (view from the southwest).jpg",
+   "lat": 43.0333,
+   "lon": 16.15,
+   "kind": "both",
+   "types": [
+    "island",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Island of Vis"
+  },
+  {
+   "id": "Q723603",
+   "name": "Stadion Maksimir",
+   "sl": 46,
+   "file": "Maksimirski stadion Zagreb.jpg",
+   "lat": 45.8189,
+   "lon": 16.0181,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maksimir Stadium"
+  },
+  {
+   "id": "Q128016",
+   "name": "Zagreb Airport",
+   "sl": 46,
+   "file": "Novi putnički terminal .jpg",
+   "lat": 45.7431,
+   "lon": 16.0689,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zagreb Airport"
+  },
+  {
+   "id": "Q828155",
+   "name": "Krka National Park",
+   "sl": 42,
+   "file": "7 NP Krka.jpg",
+   "lat": 43.8019,
+   "lon": 15.9728,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krka National Park"
+  },
+  {
+   "id": "Q312220",
+   "name": "Zagreb Cathedral",
+   "sl": 41,
+   "file": "Záhřeb, katedrála 1.jpg",
+   "lat": 45.8144,
+   "lon": 15.9797,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zagreb Cathedral"
+  },
+  {
+   "id": "Q841384",
+   "name": "Stadion Poljud",
+   "sl": 40,
+   "file": "Poljud Stadium with the Kozjak Mountains in the distance.jpg",
+   "lat": 43.5194,
+   "lon": 16.4317,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gradski stadion u Poljudu"
+  },
+  {
+   "id": "Q645105",
+   "name": "Euphrasian Basilica",
+   "sl": 39,
+   "file": "Poreč Basilica 3.jpg",
+   "lat": 45.2286,
+   "lon": 13.5936,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "cultural property",
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Euphrasian Basilica"
+  },
+  {
+   "id": "Q391973",
+   "name": "Šibenik Cathedral",
+   "sl": 39,
+   "file": "HR-Sibenik-Kathedrale-01.jpg",
+   "lat": 43.7356,
+   "lon": 15.8892,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of St. James, Šibenik"
+  },
+  {
+   "id": "Q1147000",
+   "name": "Dubrovnik Ruđer Bošković Airport",
+   "sl": 37,
+   "file": "Dubrovnik Airport pano.jpg",
+   "lat": 42.5614,
+   "lon": 18.2683,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dubrovnik Airport"
+  },
+  {
+   "id": "Q474998",
+   "name": "Pula Arena",
+   "sl": 37,
+   "file": "The new old amphitheater in Pula Istria (19629095974).jpg",
+   "lat": 44.873,
+   "lon": 13.85,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Roman amphitheatre"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amphitheatre (Pula)"
+  },
+  {
+   "id": "Q1125392",
+   "name": "Saint Jerome Airport",
+   "sl": 37,
+   "file": "Croatia Split Airport Aerial Photograph 1.jpg",
+   "lat": 43.5389,
+   "lon": 16.2981,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Split Airport"
+  },
+  {
+   "id": "Q1141414",
+   "name": "Rijeka Airport",
+   "sl": 36,
+   "file": "RJK 12092010 terminal.JPG",
+   "lat": 45.2169,
+   "lon": 14.5703,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rijeka Airport"
+  },
+  {
+   "id": "Q155359",
+   "name": "Zadar Airport",
+   "sl": 36,
+   "file": "Zadar airport terminal croatia.JPG",
+   "lat": 44.1083,
+   "lon": 15.3467,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zadar Airport"
+  },
+  {
+   "id": "Q32797097",
+   "name": "The Venetian Works of defence between 15th and 17th centuries",
+   "sl": 35,
+   "file": "Cinta muraria di Palmanova.jpg",
+   "lat": 45.7033,
+   "lon": 9.6636,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "IT",
+    "ME"
+   ],
+   "cat": "Venetian Works of Defence between the 16th and 17th Centuries: Stato da Terra – Western Stato da Mar"
+  },
+  {
+   "id": "Q1258998",
+   "name": "Salona",
+   "sl": 34,
+   "file": "Episcopal Center (Salona) 03.jpg",
+   "lat": 43.5394,
+   "lon": 16.4831,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "Roman city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salona"
+  },
+  {
+   "id": "Q389327",
+   "name": "Pula Airport",
+   "sl": 33,
+   "file": "Pula Airport aerial.jpg",
+   "lat": 44.8936,
+   "lon": 13.9222,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pula airport"
+  },
+  {
+   "id": "Q268151",
+   "name": "Croatian National Theatre in Zagreb",
+   "sl": 32,
+   "file": "Teatro Nacional, Zagreb, Croacia, 2014-04-13, DD 03.JPG",
+   "lat": 45.8095,
+   "lon": 15.97,
+   "kind": "built",
+   "types": [
+    "opera house",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Croatian National Theater in Zagreb"
+  },
+  {
+   "id": "Q732723",
+   "name": "Paklenica",
+   "sl": 31,
+   "file": "Paklenica.jpg",
+   "lat": 44.3667,
+   "lon": 15.4333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paklenica"
+  },
+  {
+   "id": "Q1268475",
+   "name": "Cathedral of Saint Domnius",
+   "sl": 30,
+   "file": "SvDuje.jpg",
+   "lat": 43.5081,
+   "lon": 16.4403,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Split"
+  },
+  {
+   "id": "Q995061",
+   "name": "Ilovik",
+   "sl": 30,
+   "file": "Ilovik island.jpg",
+   "lat": 44.4544,
+   "lon": 14.5494,
+   "kind": "natural",
+   "types": [
+    "car-free place",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Island of Ilovik"
+  },
+  {
+   "id": "Q1423278",
+   "name": "Osijek Airport",
+   "sl": 30,
+   "file": "Aerodrom u Osijeku - Osijek Airport.jpg",
+   "lat": 45.4628,
+   "lon": 18.8103,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Osijek Airport"
+  },
+  {
+   "id": "Q426935",
+   "name": "Church of St. Donatus",
+   "sl": 29,
+   "file": "Church of St. Donatus in Zadar (by Pudelek).JPG",
+   "lat": 44.1158,
+   "lon": 15.2245,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Donatus in Zadar"
+  },
+  {
+   "id": "Q1538487",
+   "name": "Gorski kotar",
+   "sl": 29,
+   "file": "LokvarskoJezero1.jpg",
+   "lat": 45.4758,
+   "lon": 14.5761,
+   "kind": "natural",
+   "types": [
+    "highland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gorski kotar"
+  },
+  {
+   "id": "Q591878",
+   "name": "Northern Velebit National Park",
+   "sl": 29,
+   "file": "Karstformationen Nationalpark-Nord-Velebit.JPG",
+   "lat": 44.6931,
+   "lon": 15.0069,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "Natura 2000 site",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sjeverni Velebit National Park"
+  },
+  {
+   "id": "Q1637186",
+   "name": "St. Mark's Church in Zagreb",
+   "sl": 29,
+   "file": "Zagreb Church of St. Mark (34411766366).jpg",
+   "lat": 45.8161,
+   "lon": 15.9739,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Mark's Church, Zagreb"
+  },
+  {
+   "id": "Q1954595",
+   "name": "Museum of Broken Relationships",
+   "sl": 28,
+   "file": "Museum of Broken Relationships Zagreb 2012.jpg",
+   "lat": 45.8152,
+   "lon": 15.9736,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Broken Relationships"
+  },
+  {
+   "id": "Q1155248",
+   "name": "Pelješac Bridge",
+   "sl": 28,
+   "file": "P067539-946135 Pelješac bridge.jpg",
+   "lat": 42.9328,
+   "lon": 17.5369,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "cross-sea bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pelješac Bridge"
+  },
+  {
+   "id": "Q931733",
+   "name": "Walls of Dubrovnik",
+   "sl": 28,
+   "file": "Dubrovnik Stadtmauer.jpg",
+   "lat": 42.64,
+   "lon": 18.108,
+   "kind": "built",
+   "types": [
+    "defensive wall"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q910661",
+    "name": "Old city (Dubrovnik)"
+   },
+   "also": [],
+   "cat": "City walls of Dubrovnik"
+  },
+  {
+   "id": "Q641519",
+   "name": "Arena Zagreb",
+   "sl": 27,
+   "file": "Jarun 20160702 5087 (cropped).jpg",
+   "lat": 45.7717,
+   "lon": 15.9428,
+   "kind": "built",
+   "types": [
+    "company",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena Zagreb"
+  },
+  {
+   "id": "Q1431001",
+   "name": "Brač Airport",
+   "sl": 27,
+   "file": "Aerial image of the Brač Airport.jpg",
+   "lat": 43.2857,
+   "lon": 16.6797,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brač Airport"
+  },
+  {
+   "id": "Q975995",
+   "name": "Posavina",
+   "sl": 27,
+   "file": "Sremska Mitrovica - The Bridge of St Irinej 2.jpg",
+   "lat": 45.1667,
+   "lon": 17.3333,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BA",
+    "RS"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2497590",
+   "name": "Rector's Palace, Dubrovnik",
+   "sl": 27,
+   "file": "Rector's palace.jpg",
+   "lat": 42.6403,
+   "lon": 18.1108,
+   "kind": "built",
+   "types": [
+    "building",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rector's palace"
+  },
+  {
+   "id": "Q377002",
+   "name": "Ban Jelačić Square",
+   "sl": 26,
+   "file": "Zagreb (29255640143).jpg",
+   "lat": 45.8131,
+   "lon": 15.9772,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jelačić Square (Zagreb)"
+  },
+  {
+   "id": "Q584428",
+   "name": "Dubrovnik Cathedral",
+   "sl": 26,
+   "file": "Cattedrale Dubrovnik.JPG",
+   "lat": 42.6399,
+   "lon": 18.1104,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q910661",
+    "name": "Old city (Dubrovnik)"
+   },
+   "also": [],
+   "cat": "Cathedral of Dubrovnik"
+  },
+  {
+   "id": "Q631183",
+   "name": "Risnjak National Park",
+   "sl": 26,
+   "file": "Nacionalni park Risnjak (Berghutte unterhalb des Gipfels des Risnak).jpg",
+   "lat": 45.4283,
+   "lon": 14.745,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Natura 2000 site",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Risnjak"
+  },
+  {
+   "id": "Q2728139",
+   "name": "Gradski Vrt Stadium",
+   "sl": 25,
+   "file": "Gradski vrt iz zraka (1).jpg",
+   "lat": 45.545,
+   "lon": 18.6958,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadion Gradski vrt"
+  },
+  {
+   "id": "Q2712312",
+   "name": "Klis Fortress",
+   "sl": 25,
+   "file": "Klis Fortress - a view from south-west.jpg",
+   "lat": 43.56,
+   "lon": 16.5239,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Klis Fortress"
+  },
+  {
+   "id": "Q842102",
+   "name": "Krk Bridge",
+   "sl": 24,
+   "file": "Krk Bridge Tihi Kanal-2.jpg",
+   "lat": 45.2472,
+   "lon": 14.5703,
+   "kind": "built",
+   "types": [
+    "deck arch bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krk bridge"
+  },
+  {
+   "id": "Q1778649",
+   "name": "Papuk",
+   "sl": 24,
+   "file": "Papuk mt.jpg",
+   "lat": 45.5333,
+   "lon": 17.65,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Papuk"
+  },
+  {
+   "id": "Q1262826",
+   "name": "Zlatni Rat",
+   "sl": 24,
+   "file": "Bol (33626391504).jpg",
+   "lat": 43.2558,
+   "lon": 16.6339,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zlatni rat"
+  },
+  {
+   "id": "Q12640281",
+   "name": "Monument to the Sun",
+   "sl": 23,
+   "file": "Zadar Lichtspiel-Monument.jpg",
+   "lat": 44.1176,
+   "lon": 15.2198,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monument to the Sun in Zadar"
+  },
+  {
+   "id": "Q674039",
+   "name": "National Park Kornati",
+   "sl": 23,
+   "file": "CRO Kornat Vrulje.jpg",
+   "lat": 43.7833,
+   "lon": 15.3333,
+   "kind": "natural",
+   "types": [
+    "national park of Croatia",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1519999",
+   "name": "Višnjan Observatory",
+   "sl": 23,
+   "file": "Zvjezdarnica Visnjan 300x500.jpg",
+   "lat": 45.2775,
+   "lon": 13.7261,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Višnjan Observatory"
+  },
+  {
+   "id": "Q2585366",
+   "name": "Bjelovar Cathedral",
+   "sl": 22,
+   "file": "Bjelovar park crkva.jpg",
+   "lat": 45.8981,
+   "lon": 16.8433,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Bjelovar"
+  },
+  {
+   "id": "Q402221",
+   "name": "Đakovo Cathedral",
+   "sl": 22,
+   "file": "St. Peter's Cathedral, Dakovo.jpg",
+   "lat": 45.3076,
+   "lon": 18.4109,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "cultural property",
+    "minor basilica",
+    "parish church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Đakovo"
+  },
+  {
+   "id": "Q1118811",
+   "name": "Kopački Rit Nature Park",
+   "sl": 22,
+   "file": "Kopački rit wooden trail.JPG",
+   "lat": 45.6308,
+   "lon": 18.8919,
+   "kind": "natural",
+   "types": [
+    "nature park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Kopački rit"
+  },
+  {
+   "id": "Q926981",
+   "name": "Lim bay",
+   "sl": 22,
+   "file": "Lim bay, Croatia.jpg",
+   "lat": 45.1317,
+   "lon": 13.6689,
+   "kind": "natural",
+   "types": [
+    "ria"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lim (Croatia)"
+  },
+  {
+   "id": "Q2143020",
+   "name": "Red Lake",
+   "sl": 22,
+   "file": "07 Imotski Crveno Jezero (1).jpg",
+   "lat": 43.455,
+   "lon": 17.1983,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Red Lake, Croatia"
+  },
+  {
+   "id": "Q659810",
+   "name": "Zadar Cathedral",
+   "sl": 22,
+   "file": "Kathedrale St. Anastasia.jpg",
+   "lat": 44.1161,
+   "lon": 15.2244,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of St. Anastasia in Zadar"
+  },
+  {
+   "id": "Q220113",
+   "name": "Zagreb Zoo",
+   "sl": 22,
+   "file": "Maksimir zoo entrance.jpg",
+   "lat": 45.8221,
+   "lon": 16.0213,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zagreb Zoo"
+  },
+  {
+   "id": "Q3509032",
+   "name": "Franciscan Church and Monastery",
+   "sl": 21,
+   "file": "Dubrovnik (57).JPG",
+   "lat": 42.6418,
+   "lon": 18.1078,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Franciscan Church and Monastery in Dubrovnik"
+  },
+  {
+   "id": "Q2986276",
+   "name": "Sponza Palace",
+   "sl": 21,
+   "file": "Dubrovnik, Sponza's palace IMG 8147.jpg",
+   "lat": 42.6411,
+   "lon": 18.1106,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sponza Palace"
+  },
+  {
+   "id": "Q7596332",
+   "name": "Stadion Rujevica",
+   "sl": 21,
+   "file": "Rujevica stadium, Rijeka, Croatia.jpg",
+   "lat": 45.3474,
+   "lon": 14.4008,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadion Rujevica"
+  },
+  {
+   "id": "Q606233",
+   "name": "Veliki Tabor Castle",
+   "sl": 21,
+   "file": "Dvor Veliki Tabor - Hum Košnički 10.jpg",
+   "lat": 46.1547,
+   "lon": 15.6511,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Veliki Tabor Castle"
+  },
+  {
+   "id": "Q952381",
+   "name": "Arch of the Sergii",
+   "sl": 20,
+   "file": "Pola, arco dei sergi o porta aurea, 15 ac. ca. 04.jpg",
+   "lat": 44.8683,
+   "lon": 13.8469,
+   "kind": "built",
+   "types": [
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arch of the Sergii (Pula)"
+  },
+  {
+   "id": "Q631440",
+   "name": "Blue Grotto",
+   "sl": 20,
+   "file": "Biševo - Blue Cave - 2021-07-30 11-56-09 2642.jpg",
+   "lat": 42.9804,
+   "lon": 16.0215,
+   "kind": "both",
+   "types": [
+    "sea cave",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Cave, Biševo"
+  },
+  {
+   "id": "Q882717",
+   "name": "Blue Lake",
+   "sl": 20,
+   "file": "Plavo jezero Imotski 2.JPG",
+   "lat": 43.4506,
+   "lon": 17.21,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Lake, Croatia"
+  },
+  {
+   "id": "Q1291166",
+   "name": "Croatian National Theatre in Split",
+   "sl": 20,
+   "file": "Split - Hrvatsko narodno kazalište Split (49019241531).jpg",
+   "lat": 43.5111,
+   "lon": 16.4369,
+   "kind": "built",
+   "types": [
+    "theatre building",
+    "theatre company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Croatian National Theater in Split"
+  },
+  {
+   "id": "Q3182749",
+   "name": "Kamerlengo Castle",
+   "sl": 20,
+   "file": "Trogir Kamerlengo z moře 1.jpg",
+   "lat": 43.5153,
+   "lon": 16.2475,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17132483",
+    "name": "Historic City of Trogir"
+   },
+   "also": [],
+   "cat": "Kamerlengo"
+  },
+  {
+   "id": "Q1933800",
+   "name": "Lonjsko Polje Nature park",
+   "sl": 20,
+   "file": "Lonjsko Polje.JPG",
+   "lat": 45.3602,
+   "lon": 16.8173,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "nature park",
+    "polje",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nature park Lonjsko Polje"
+  },
+  {
+   "id": "Q3396134",
+   "name": "Lovrijenac",
+   "sl": 20,
+   "file": "Fort Lovrijenac,Dubrovnik,Croatia.jpg",
+   "lat": 42.6407,
+   "lon": 18.1044,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Lovrijenac"
+  },
+  {
+   "id": "Q1851700",
+   "name": "Spaladium Arena",
+   "sl": 20,
+   "file": "Spaladium Arena 1.JPG",
+   "lat": 43.5244,
+   "lon": 16.4358,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spaladium Arena"
+  },
+  {
+   "id": "Q7590832",
+   "name": "St. Nicholas Fortress",
+   "sl": 20,
+   "file": "Aerial image of St. Nicholas Fortress (view from the southeast).jpg",
+   "lat": 43.7216,
+   "lon": 15.8545,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q32797097",
+    "name": "The Venetian Works of defence between 15th and 17th centuries"
+   },
+   "also": [],
+   "cat": "St. Nicholas’ Fortress, Šibenik"
+  },
+  {
+   "id": "Q1277056",
+   "name": "Stadion Kantrida",
+   "sl": 20,
+   "file": "Stadion Kantrida Rijeka 13032012 2.jpg",
+   "lat": 45.3392,
+   "lon": 14.381,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadion Kantrida, Rijeka"
+  },
+  {
+   "id": "Q770030",
+   "name": "Temple of Augustus",
+   "sl": 20,
+   "file": "Croatia Pula Temple of Roma and Augustus 2014-10-11 11-30-05.jpg",
+   "lat": 44.8702,
+   "lon": 13.8419,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "ruins",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Roma and Augustus (Pula)"
+  },
+  {
+   "id": "Q3434349",
+   "name": "Trogir Cathedral",
+   "sl": 20,
+   "file": "Cathedral of St. Lawrence Trogir 03.jpg",
+   "lat": 43.5171,
+   "lon": 16.2514,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17132483",
+    "name": "Historic City of Trogir"
+   },
+   "also": [],
+   "cat": "Cathedral of St. Lawrence in Trogir"
+  },
+  {
+   "id": "Q5311089",
+   "name": "Dubovac Castle",
+   "sl": 19,
+   "file": "Dubovac Castle in Karlovac11, Croatia.jpg",
+   "lat": 45.495,
+   "lon": 15.528,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dubovac Castle"
+  },
+  {
+   "id": "Q2447461",
+   "name": "Ivanšćica",
+   "sl": 19,
+   "file": "Ivanscica.jpg",
+   "lat": 46.1756,
+   "lon": 16.106,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1574010",
+   "name": "Mljet Nacionalni Park",
+   "sl": 19,
+   "file": "Parc National Mljet (Croatie) - Lacs sales.jpg",
+   "lat": 42.7817,
+   "lon": 17.3852,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mljet National Park"
+  },
+  {
+   "id": "Q2661585",
+   "name": "Rijeka Cathedral",
+   "sl": 19,
+   "file": "Crkva Sv Vida Rijeka 140807.jpg",
+   "lat": 45.3278,
+   "lon": 14.4444,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Vitus cathedral, Rijeka"
+  },
+  {
+   "id": "Q3434033",
+   "name": "St. Saviour Church",
+   "sl": 19,
+   "file": "Saint Saviour Church (Dubrovnik).jpg",
+   "lat": 42.6417,
+   "lon": 18.1069,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q910661",
+    "name": "Old city (Dubrovnik)"
+   },
+   "also": [],
+   "cat": "Saint Saviour Church (Dubrovnik)"
+  },
+  {
+   "id": "Q955357",
+   "name": "Stadion Aldo Drosina",
+   "sl": 19,
+   "file": "Istra 1961 vs. Dinamo, Aldo Drosina.JPG",
+   "lat": 44.8616,
+   "lon": 13.8516,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aldo Drosina Stadium"
+  },
+  {
+   "id": "Q1048816",
+   "name": "Telašćica",
+   "sl": 19,
+   "file": "Aerial image of Telašćica Nature Park (view from the south).jpg",
+   "lat": 43.888,
+   "lon": 15.179,
+   "kind": "natural",
+   "types": [
+    "nature park",
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Telašćica Nature Park"
+  },
+  {
+   "id": "Q2142160",
+   "name": "Trakošćan Castle",
+   "sl": 19,
+   "file": "When the world turns.jpg",
+   "lat": 46.2592,
+   "lon": 15.95,
+   "kind": "built",
+   "types": [
+    "château",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trakošćan Castle"
+  },
+  {
+   "id": "Q1571803",
+   "name": "Vindija Cave",
+   "sl": 19,
+   "file": "Vindija cave.jpg",
+   "lat": 46.2994,
+   "lon": 16.0706,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vindija"
+  },
+  {
+   "id": "Q1625342",
+   "name": "Vransko Lake",
+   "sl": 19,
+   "file": "20250916 120102 HDR.jpg",
+   "lat": 43.89,
+   "lon": 15.57,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Vrana (Dalmatia)"
+  }
+ ]
+}

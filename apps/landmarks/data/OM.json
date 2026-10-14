@@ -1,0 +1,617 @@
+{
+ "country": "OM",
+ "items": [
+  {
+   "id": "Q1408909",
+   "name": "Bahla Fort",
+   "sl": 43,
+   "file": "Bahla Fort.jpg",
+   "lat": 22.9644,
+   "lon": 57.3007,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Bahla Fort"
+  },
+  {
+   "id": "Q1133357",
+   "name": "Muscat International Airport",
+   "sl": 43,
+   "file": "Aerial view of Muscat Airport.jpg",
+   "lat": 23.601,
+   "lon": 58.2869,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muscat International Airport"
+  },
+  {
+   "id": "Q1261915",
+   "name": "Jebel Shams",
+   "sl": 35,
+   "file": "Jebel Shams (2).jpg",
+   "lat": 23.2374,
+   "lon": 57.2638,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jebel Shams"
+  },
+  {
+   "id": "Q1548443",
+   "name": "Sultan Qaboos Grand Mosque",
+   "sl": 35,
+   "file": "Sultan Qaboos Grand Mosque (1).jpg",
+   "lat": 23.5839,
+   "lon": 58.3892,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Qaboos Grand Mosque"
+  },
+  {
+   "id": "Q25496",
+   "name": "Bat, Al-Khutm and Al-Ayn archaeological sites",
+   "sl": 31,
+   "file": "World Heritage Grave Al Ayn Oman.JPG",
+   "lat": 23.27,
+   "lon": 56.745,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fortress"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Bat, Al-Khutm and Al-Ayn archaeological sites"
+  },
+  {
+   "id": "Q1432681",
+   "name": "Salalah Airport",
+   "sl": 30,
+   "file": "مطار صلالة.jpg",
+   "lat": 17.0389,
+   "lon": 54.0922,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salalah Airport"
+  },
+  {
+   "id": "Q2015257",
+   "name": "Arabian Oryx Sanctuary",
+   "sl": 24,
+   "file": "Arabian Oryx Sanctuary.jpg",
+   "lat": 19.7,
+   "lon": 57,
+   "kind": "natural",
+   "types": [
+    "animal sanctuary",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1810329",
+   "name": "Wahiba Sands",
+   "sl": 23,
+   "file": "Wahiba Sands (12).jpg",
+   "lat": 22,
+   "lon": 58.8333,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wahiba Sands"
+  },
+  {
+   "id": "Q1261870",
+   "name": "Jabal Hafit",
+   "sl": 21,
+   "file": "Jabal hafeet shahin.jpg",
+   "lat": 24.058,
+   "lon": 55.7809,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AE"
+   ],
+   "cat": "Jebel Hafeet"
+  },
+  {
+   "id": "Q1973140",
+   "name": "Sultan Qaboos Sports Complex",
+   "sl": 20,
+   "file": "MuscatGulfCup2.jpg",
+   "lat": 23.5731,
+   "lon": 58.3994,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Qaboos Sports Complex"
+  },
+  {
+   "id": "Q3492099",
+   "name": "Jebel Jais",
+   "sl": 18,
+   "file": "Jabel Jais - Summit --.jpg",
+   "lat": 25.9531,
+   "lon": 56.1844,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabel Jais"
+  },
+  {
+   "id": "Q1332652",
+   "name": "Royal Opera House Muscat",
+   "sl": 17,
+   "file": "Opera house Muscat.jpg",
+   "lat": 23.6141,
+   "lon": 58.4687,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Opera House Muscat"
+  },
+  {
+   "id": "Q2121461",
+   "name": "Al Alam Palace",
+   "sl": 15,
+   "file": "Qasr Al Alam Royal Palace (7).jpg",
+   "lat": 23.616,
+   "lon": 58.5947,
+   "kind": "built",
+   "types": [
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qasr Al Alam Royal Palace"
+  },
+  {
+   "id": "Q3272395",
+   "name": "Al-Seeb Stadium",
+   "sl": 15,
+   "file": "Seeb stadium.jpg",
+   "lat": 23.6189,
+   "lon": 58.2168,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q957114",
+   "name": "Majlis al Jinn",
+   "sl": 15,
+   "file": "Majlis al Jinn - Descending into cave.jpg",
+   "lat": 22.8806,
+   "lon": 59.1052,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Majlis al Jinn"
+  },
+  {
+   "id": "Q1431085",
+   "name": "Khasab Airport",
+   "sl": 14,
+   "file": "Khasab Airport.jpg",
+   "lat": 26.1708,
+   "lon": 56.2406,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q111950451",
+   "name": "Qurm Nature Reserve",
+   "sl": 13,
+   "file": "Al-Qurm Wetlands.jpg",
+   "lat": 23.62,
+   "lon": 58.48,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qurm Nature Reserve"
+  },
+  {
+   "id": "Q2158194",
+   "name": "The National Museum - Sultanate of Oman",
+   "sl": 13,
+   "file": "National museum of Oman.jpg",
+   "lat": 23.6116,
+   "lon": 58.5938,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum (Oman)"
+  },
+  {
+   "id": "Q5470710",
+   "name": "Fort Al Jalali",
+   "sl": 12,
+   "file": "Old Muscat (2).jpg",
+   "lat": 23.6165,
+   "lon": 58.598,
+   "kind": "built",
+   "types": [
+    "castle",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Al Jalali"
+  },
+  {
+   "id": "Q7917433",
+   "name": "Nakhal Fort",
+   "sl": 12,
+   "file": "Nakhal Fort (2).jpg",
+   "lat": 23.3947,
+   "lon": 57.8285,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nakhal Fort"
+  },
+  {
+   "id": "Q2734640",
+   "name": "Royal Oman Police Stadium",
+   "sl": 12,
+   "file": "Flickr - tpower1978 - World Cup Qualifiers (7).jpg",
+   "lat": 23.6086,
+   "lon": 58.5067,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7042280",
+   "name": "Nizwa Fort",
+   "sl": 11,
+   "file": "Nizwa (5).jpg",
+   "lat": 22.9333,
+   "lon": 57.5303,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nizwa Fort"
+  },
+  {
+   "id": "Q2327342",
+   "name": "Port Sultan Qaboos",
+   "sl": 11,
+   "file": "Mutrah flickr6.jpg",
+   "lat": 23.6281,
+   "lon": 58.5678,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port Sultan Qaboos"
+  },
+  {
+   "id": "Q3032846",
+   "name": "Jabal Samhan Nature Reserve",
+   "sl": 10,
+   "file": "Dhofar, Jabal Samhan, grotta di taiq, cratere 01.jpg",
+   "lat": 17.1355,
+   "lon": 54.7916,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jebel Samhan"
+  },
+  {
+   "id": "Q1101690",
+   "name": "Jabrin",
+   "sl": 10,
+   "file": "Jabrin37.jpg",
+   "lat": 22.9167,
+   "lon": 57.25,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabrin"
+  },
+  {
+   "id": "Q1519450",
+   "name": "Umm al Samim",
+   "sl": 10,
+   "file": "Uma Earth Gov Nasa.png",
+   "lat": 21.6333,
+   "lon": 55.9,
+   "kind": "natural",
+   "types": [
+    "Inland salt marsh",
+    "landform"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5903599",
+   "name": "Wadi Bani Khalid",
+   "sl": 10,
+   "file": "Wadi Bani Khalid, Omán, 2024-08-17, DD 36-42 PAN.jpg",
+   "lat": 22.602,
+   "lon": 59.083,
+   "kind": "natural",
+   "types": [
+    "wadi",
+    "watercourse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi Bani Khalid"
+  },
+  {
+   "id": "Q2636101",
+   "name": "Al Hoota Cave",
+   "sl": 9,
+   "file": "AlHootahCave.jpg",
+   "lat": 23.0819,
+   "lon": 57.3547,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Hootah Cave, Al-Hamra'"
+  },
+  {
+   "id": "Q4703144",
+   "name": "Al-Saada Stadium",
+   "sl": 9,
+   "file": "Oman vs KSA Al Saada Stadium August142009 Salalah4life.jpg",
+   "lat": 17.0827,
+   "lon": 54.1438,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5470708",
+   "name": "Fort Al-Mirani",
+   "sl": 9,
+   "file": "Fuerte de Al Mirani, Mascate, Omán, 2024-08-14, DD 49.jpg",
+   "lat": 23.6172,
+   "lon": 58.5931,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mirani Fort"
+  },
+  {
+   "id": "Q31485782",
+   "name": "Jabal Al Harim",
+   "sl": 9,
+   "file": "Jebal Harim.JPG",
+   "lat": 25.9764,
+   "lon": 56.2325,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jebel Harim"
+  },
+  {
+   "id": "Q826118",
+   "name": "Khor Rori",
+   "sl": 9,
+   "file": "Ruins6.JPG",
+   "lat": 17.039,
+   "lon": 54.4344,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q118468",
+    "name": "Land of Frankincense"
+   },
+   "also": [],
+   "cat": "Khor Rori"
+  },
+  {
+   "id": "Q4433439",
+   "name": "Tomb of Job",
+   "sl": 9,
+   "file": "Job's tomb - interior.JPG",
+   "lat": 17.1118,
+   "lon": 53.9939,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3409476",
+   "name": "Wadi Shab",
+   "sl": 9,
+   "file": "Wadi Shab (9).jpg",
+   "lat": 22.839,
+   "lon": 59.2451,
+   "kind": "natural",
+   "types": [
+    "canyon",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi Shab"
+  },
+  {
+   "id": "Q14912328",
+   "name": "Archaeological Site of Shisr",
+   "sl": 8,
+   "file": "Shisr Oman.JPG",
+   "lat": 18.2551,
+   "lon": 53.6489,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q118468",
+    "name": "Land of Frankincense"
+   },
+   "also": [],
+   "cat": "Shisr, Dhofar province, Oman"
+  },
+  {
+   "id": "Q85786042",
+   "name": "Mohammed Al Ameen Mosque",
+   "sl": 8,
+   "file": "ChandlierAmin.jpg",
+   "lat": 23.5785,
+   "lon": 58.4142,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mohammed Al Ameen Mosque"
+  },
+  {
+   "id": "Q2157528",
+   "name": "Oman Natural History Museum",
+   "sl": 8,
+   "file": "Stuffed Arabian Tahr.jpg",
+   "lat": 23.5989,
+   "lon": 58.4231,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

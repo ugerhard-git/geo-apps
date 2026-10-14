@@ -1,0 +1,224 @@
+{
+ "country": "ST",
+ "items": [
+  {
+   "id": "Q1471391",
+   "name": "Pico de São Tomé",
+   "sl": 29,
+   "file": "Otok sv. Tome -E-8383.JPG",
+   "lat": 0.2667,
+   "lon": 6.5333,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico de São Tomé"
+  },
+  {
+   "id": "Q1418267",
+   "name": "São Tomé International Airport",
+   "sl": 29,
+   "file": "Sao Tome Airport 1 (15627228594).jpg",
+   "lat": 0.3781,
+   "lon": 6.7122,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "cultural heritage",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "São Tomé International Airport"
+  },
+  {
+   "id": "Q2082148",
+   "name": "Pico Cão Grande",
+   "sl": 21,
+   "file": "2012SaoTome-470 (8042896150).jpg",
+   "lat": 0.1181,
+   "lon": 6.5664,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcanic plug"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Cão Grande"
+  },
+  {
+   "id": "Q1432498",
+   "name": "Príncipe Airport",
+   "sl": 21,
+   "file": "Aeroporto Príncipe.jpg",
+   "lat": 1.6631,
+   "lon": 7.4117,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Príncipe Airport"
+  },
+  {
+   "id": "Q2426165",
+   "name": "Estádio Nacional 12 de Julho",
+   "sl": 13,
+   "file": "Sao Tome National Stadium (15626686954).jpg",
+   "lat": 0.335,
+   "lon": 6.7375,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Nacional 12 de Julho"
+  },
+  {
+   "id": "Q1822774",
+   "name": "Pico de Príncipe",
+   "sl": 13,
+   "file": "Pico Papagaio (20504263334).jpg",
+   "lat": 1.5833,
+   "lon": 7.3833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2943640",
+   "name": "Obo National Park",
+   "sl": 12,
+   "file": "Natureza (4081667082).jpg",
+   "lat": 0.15,
+   "lon": 6.5667,
+   "kind": "natural",
+   "types": [
+    "nature park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Obo National Park"
+  },
+  {
+   "id": "Q2110836",
+   "name": "São Sebastião Museum",
+   "sl": 12,
+   "file": "Sao tome fort.jpg",
+   "lat": 0.3458,
+   "lon": 6.7394,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Forte de São Sebastião National Museum (São Tomé)"
+  },
+  {
+   "id": "Q2607864",
+   "name": "Our Lady of Grace Cathedral",
+   "sl": 11,
+   "file": "Catedral de Nossa Senhora da Graça (20234213142).jpg",
+   "lat": 0.3383,
+   "lon": 6.7325,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sé Catedral de Nossa Senhora da Graça de São Tomé"
+  },
+  {
+   "id": "Q4750333",
+   "name": "Ana Chaves Bay",
+   "sl": 9,
+   "file": "São Tomé Geocover.jpg",
+   "lat": 0.35,
+   "lon": 6.7333,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "harbor"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baía Ana Chaves"
+  },
+  {
+   "id": "Q657472",
+   "name": "Ilhéu de Santana",
+   "sl": 8,
+   "file": "São Tomé - Ilhéu Santana.jpg",
+   "lat": 0.2417,
+   "lon": 6.7597,
+   "kind": "natural",
+   "types": [
+    "islet",
+    "uninhabited island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilhéu Santana"
+  },
+  {
+   "id": "Q10280115",
+   "name": "Lagoa Azul Lighthouse",
+   "sl": 8,
+   "file": "Lagoa Azul Lighthouse, São Tomé and Príncipe - 20070804 (cropped).jpg",
+   "lat": 0.4073,
+   "lon": 6.6101,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lagoa Azul Lighthouse"
+  },
+  {
+   "id": "Q10280174",
+   "name": "São Sebastião Lighthouse",
+   "sl": 8,
+   "file": "Sao Tome National Museum 10 (16061721180).jpg",
+   "lat": 0.346,
+   "lon": 6.7396,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "São Sebastião Lighthouse"
+  }
+ ]
+}

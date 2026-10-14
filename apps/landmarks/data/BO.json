@@ -1,0 +1,1380 @@
+{
+ "country": "BO",
+ "items": [
+  {
+   "id": "Q35342",
+   "name": "Titicaca",
+   "sl": 132,
+   "file": "00 1635 Reed Islands of Lake Titicaca.jpg",
+   "lat": -15.825,
+   "lon": -69.325,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "monomictic lake",
+    "mountain lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PE"
+   ],
+   "cat": "Lake Titicaca"
+  },
+  {
+   "id": "Q157603",
+   "name": "Pantanal",
+   "sl": 71,
+   "file": "Pantanal, south-central South America 5170.jpg",
+   "lat": -17.4,
+   "lon": -57.5,
+   "kind": "natural",
+   "types": [
+    "flooded grasslands and savannas",
+    "natural heritage",
+    "plain",
+    "savanna"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "BR",
+    "PY"
+   ],
+   "cat": "Pantanal"
+  },
+  {
+   "id": "Q61750",
+   "name": "Tiwanaku",
+   "sl": 70,
+   "file": "Zonnepoort tiwanaku.jpg",
+   "lat": -16.5547,
+   "lon": -68.6733,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tiwanaku"
+  },
+  {
+   "id": "Q76122",
+   "name": "Salar de Uyuni",
+   "sl": 65,
+   "file": "Salar de Uyuni - panoramio (10).jpg",
+   "lat": -20.3333,
+   "lon": -67.7,
+   "kind": "natural",
+   "types": [
+    "salt pan",
+    "solonchak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salar de Uyuni"
+  },
+  {
+   "id": "Q464945",
+   "name": "Poopó Lake",
+   "sl": 53,
+   "file": "Poopo 1991.jpg",
+   "lat": -18.7819,
+   "lon": -67.0247,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Poopó Lake"
+  },
+  {
+   "id": "Q272593",
+   "name": "Nevado Sajama",
+   "sl": 49,
+   "file": "Nevado Sajama.jpg",
+   "lat": -18.1081,
+   "lon": -68.8831,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevado Sajama"
+  },
+  {
+   "id": "Q650710",
+   "name": "Noel Kempff Mercado National Park",
+   "sl": 44,
+   "file": "Cataratas Arcoiris Bolivia.png",
+   "lat": -14.2303,
+   "lon": -60.8467,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area of Bolivia"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Noel Kempff Mercado National Park"
+  },
+  {
+   "id": "Q255010",
+   "name": "Parinacota",
+   "sl": 42,
+   "file": "Parinacota.jpg",
+   "lat": -18.1658,
+   "lon": -69.1416,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Parinacota"
+  },
+  {
+   "id": "Q148521",
+   "name": "Illimani",
+   "sl": 41,
+   "file": "Bolivia illimani.png",
+   "lat": -16.6333,
+   "lon": -67.7908,
+   "kind": "natural",
+   "types": [
+    "climbing area",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevado Illimani"
+  },
+  {
+   "id": "Q117822",
+   "name": "Acotango",
+   "sl": 38,
+   "file": "Acotango.jpg",
+   "lat": -18.3833,
+   "lon": -69.0469,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Acotango"
+  },
+  {
+   "id": "Q876451",
+   "name": "El Fuerte de Samaipata",
+   "sl": 38,
+   "file": "Fuerte03.jpg",
+   "lat": -18.1784,
+   "lon": -63.819,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Fuerte de Samaipata"
+  },
+  {
+   "id": "Q422713",
+   "name": "Licancabur",
+   "sl": 38,
+   "file": "Volcan Licancabur Bolivia.jpg",
+   "lat": -22.8336,
+   "lon": -67.8828,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Licancabur"
+  },
+  {
+   "id": "Q33211",
+   "name": "Janq'u Uma",
+   "sl": 35,
+   "file": "Bolivia Cordillera Real y Lago Titicaca.jpg",
+   "lat": -15.8533,
+   "lon": -68.5408,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancohuma"
+  },
+  {
+   "id": "Q1139395",
+   "name": "Illampu",
+   "sl": 33,
+   "file": "Mount Illampú in May 2007 (Cody H).jpg",
+   "lat": -15.8117,
+   "lon": -68.5429,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Illampu"
+  },
+  {
+   "id": "Q1142225",
+   "name": "El Alto International Airport",
+   "sl": 32,
+   "file": "00 1706 South America. - El Alto International Airport (La Paz).jpg",
+   "lat": -16.5133,
+   "lon": -68.1922,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Alto International Airport"
+  },
+  {
+   "id": "Q33934",
+   "name": "Jesuit Missions of Chiquitos",
+   "sl": 32,
+   "file": "Kerk Conception Exterieur.jpg",
+   "lat": -16.2748,
+   "lon": -62.5072,
+   "kind": "built",
+   "types": [
+    "mission station"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Jesuit Missions of the Chiquitos"
+  },
+  {
+   "id": "Q852849",
+   "name": "Huayna Potosí",
+   "sl": 31,
+   "file": "Altiplano de La Paz Bolivia.jpg",
+   "lat": -16.2619,
+   "lon": -68.1489,
+   "kind": "natural",
+   "types": [
+    "climbing area",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Huayna Potosí"
+  },
+  {
+   "id": "Q1427782",
+   "name": "Viru Viru International Airport",
+   "sl": 30,
+   "file": "VVI 2011.jpg",
+   "lat": -17.6447,
+   "lon": -63.1353,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Viru Viru International Airport"
+  },
+  {
+   "id": "Q774941",
+   "name": "Chacaltaya",
+   "sl": 29,
+   "file": "Chacaltaya.jpg",
+   "lat": -16.3533,
+   "lon": -68.1314,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chacaltaya"
+  },
+  {
+   "id": "Q1327873",
+   "name": "Laguna Colorada",
+   "sl": 28,
+   "file": "Laguna Colorada, Bolivia, 2016-02-02, DD 66-70 PAN.JPG",
+   "lat": -22.1986,
+   "lon": -67.7811,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Colorada"
+  },
+  {
+   "id": "Q422737",
+   "name": "Pomerape",
+   "sl": 28,
+   "file": "SajamaPark.jpg",
+   "lat": -18.1263,
+   "lon": -69.1267,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Pomerape"
+  },
+  {
+   "id": "Q639727",
+   "name": "Uturuncu",
+   "sl": 28,
+   "file": "Uturuncu.jpg",
+   "lat": -22.2645,
+   "lon": -67.1869,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uturuncu"
+  },
+  {
+   "id": "Q647206",
+   "name": "Madidi National Park and Integrated Management Natural Area",
+   "sl": 27,
+   "file": "Acantilados del río Madidi - Parque Nacional Madidi - La Paz - Bolivia.jpg",
+   "lat": -14.3333,
+   "lon": -68.3333,
+   "kind": "natural",
+   "types": [
+    "integrated management area (Bolivia)",
+    "national park",
+    "protected area of Bolivia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madidi National Park and Integrated Management Natural Area"
+  },
+  {
+   "id": "Q665223",
+   "name": "Pumapunku",
+   "sl": 27,
+   "file": "Puma Punku14.JPG",
+   "lat": -16.5614,
+   "lon": -68.6794,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "oasis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q61750",
+    "name": "Tiwanaku"
+   },
+   "also": [],
+   "cat": "Puma Punku"
+  },
+  {
+   "id": "Q1519747",
+   "name": "Sajama National Park",
+   "sl": 26,
+   "file": "Camino al Sajama.jpg",
+   "lat": -18.0833,
+   "lon": -68.9167,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area of Bolivia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sajama National Park"
+  },
+  {
+   "id": "Q1369261",
+   "name": "Estadio Hernando Siles",
+   "sl": 25,
+   "file": "Hernando Siles Stadium - La Paz.jpg",
+   "lat": -16.4994,
+   "lon": -68.1228,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hernando Siles Stadium"
+  },
+  {
+   "id": "Q1420297",
+   "name": "Ollagüe",
+   "sl": 25,
+   "file": "Ollagüe from Bolivia(Jan2012).jpg",
+   "lat": -21.3025,
+   "lon": -68.1792,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Ollagüe Volcano"
+  },
+  {
+   "id": "Q1514873",
+   "name": "Tata Sabaya",
+   "sl": 25,
+   "file": "Cabaray.jpg",
+   "lat": -19.1333,
+   "lon": -68.5,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tata Sabaya"
+  },
+  {
+   "id": "Q147206",
+   "name": "Zapaleri",
+   "sl": 24,
+   "file": "Volcan Zapaleri Chile Bolivia Argentina.jpg",
+   "lat": -22.8138,
+   "lon": -67.1807,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR",
+    "CL"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1062100",
+   "name": "Laguna Verde",
+   "sl": 22,
+   "file": "Laguna Verde, Bolivia.jpg",
+   "lat": -22.795,
+   "lon": -67.835,
+   "kind": "natural",
+   "types": [
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Verde"
+  },
+  {
+   "id": "Q1641307",
+   "name": "Uru Uru Lake",
+   "sl": 22,
+   "file": "Lago Uru Uru Bolivia Satellite map 67.09971W 18.png",
+   "lat": -18.0944,
+   "lon": -67.0961,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Uru Uru"
+  },
+  {
+   "id": "Q1631766",
+   "name": "Amboró National Park",
+   "sl": 21,
+   "file": "Bolivia, Amboró National Park, 2009.jpg",
+   "lat": -17.7833,
+   "lon": -63.9833,
+   "kind": "natural",
+   "types": [
+    "integrated management area (Bolivia)",
+    "national park",
+    "protected area of Bolivia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amboro National Park"
+  },
+  {
+   "id": "Q259633",
+   "name": "Cristo de la Concordia",
+   "sl": 21,
+   "file": "Cristo de la Concordia 02.jpg",
+   "lat": -17.3843,
+   "lon": -66.135,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "colossal statue of Jesus",
+    "monument",
+    "pilgrimage site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cristo de la Concordia, Cochabamba"
+  },
+  {
+   "id": "Q2671345",
+   "name": "Jorge Wilstermann International Airport",
+   "sl": 21,
+   "file": "JorgeWilstermannAirport.jpg",
+   "lat": -17.4179,
+   "lon": -66.1771,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jorge Wilstermann International Airport"
+  },
+  {
+   "id": "Q856875",
+   "name": "Cabaray",
+   "sl": 20,
+   "file": "Cabaray.jpg",
+   "lat": -19.1458,
+   "lon": -68.6983,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabaray"
+  },
+  {
+   "id": "Q266404",
+   "name": "Nevado Anallajsi",
+   "sl": 20,
+   "file": "AnallajsiNevado.jpg",
+   "lat": -17.9167,
+   "lon": -68.9167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevado Anallajsi"
+  },
+  {
+   "id": "Q1187799",
+   "name": "Olca",
+   "sl": 20,
+   "file": "Cerro Aucanquilcha, Chile, 2016-02-10, DD 15.JPG",
+   "lat": -20.9333,
+   "lon": -68.4833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q53590824",
+   "name": "Casa Grande del Pueblo",
+   "sl": 19,
+   "file": "Plaza Murillo .jpg",
+   "lat": -16.4967,
+   "lon": -68.1339,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casa Grande del Pueblo"
+  },
+  {
+   "id": "Q3057711",
+   "name": "Coipasa Lake",
+   "sl": 19,
+   "file": "Salar de coipasa.png",
+   "lat": -19.2,
+   "lon": -68.1167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salar de Coipasa"
+  },
+  {
+   "id": "Q995640",
+   "name": "Sairecabur",
+   "sl": 19,
+   "file": "Sairecabur Westen Chile.jpg",
+   "lat": -22.7189,
+   "lon": -67.8906,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Sairecabur"
+  },
+  {
+   "id": "Q169531",
+   "name": "Chachakumani",
+   "sl": 18,
+   "file": "Titicacameer1.jpg",
+   "lat": -15.9872,
+   "lon": -68.3831,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chachakumani"
+  },
+  {
+   "id": "Q1068427",
+   "name": "Chaupi Orco",
+   "sl": 18,
+   "file": "Chaupi Orco from the west.jpg",
+   "lat": -14.6533,
+   "lon": -69.2283,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PE"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q780859",
+   "name": "Patilla Pata",
+   "sl": 18,
+   "file": "AnallajsiNevado.jpg",
+   "lat": -18.05,
+   "lon": -69.0333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Patilla Pata"
+  },
+  {
+   "id": "Q1382079",
+   "name": "Salvador Dalí Desert",
+   "sl": 18,
+   "file": "Desierto de Dalí, Bolivia, 2016-02-02, DD 107.JPG",
+   "lat": -22.615,
+   "lon": -67.6638,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salvador Dali Desert"
+  },
+  {
+   "id": "Q1651467",
+   "name": "Carrasco National Park",
+   "sl": 17,
+   "file": "Oilbirds.jpg",
+   "lat": -17.3833,
+   "lon": -65.05,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area of Bolivia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carrasco national park"
+  },
+  {
+   "id": "Q3411049",
+   "name": "Putana",
+   "sl": 17,
+   "file": "Putana volcano atacama cl.jpg",
+   "lat": -22.5573,
+   "lon": -67.8528,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Putana Volcano"
+  },
+  {
+   "id": "Q3303746",
+   "name": "Rogaguado Lake",
+   "sl": 17,
+   "file": "Palmares.jpg",
+   "lat": -13.035,
+   "lon": -65.9422,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rogaguado Lake"
+  },
+  {
+   "id": "Q3241635",
+   "name": "Tocorpuri",
+   "sl": 17,
+   "file": "Tocorpuri Cerro La Torta Chile 173.jpg",
+   "lat": -22.4389,
+   "lon": -67.8875,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Tocorpuri"
+  },
+  {
+   "id": "Q617676",
+   "name": "Ch'iyar Juqhu",
+   "sl": 16,
+   "file": "Titicacameer1.jpg",
+   "lat": -15.9514,
+   "lon": -68.4164,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ch'iyar Juqhu"
+  },
+  {
+   "id": "Q2066185",
+   "name": "Eduardo Abaroa Andean Fauna National Reserve",
+   "sl": 16,
+   "file": "Flamencos andinos (Phoenicoparrus andinus), Laguna Cañapa, Bolivia, 2016-02-03, DD 63.JPG",
+   "lat": -22.535,
+   "lon": -67.65,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area of Bolivia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Reserva Nacional de Fauna Andina Eduardo Avaroa"
+  },
+  {
+   "id": "Q2669375",
+   "name": "Gate of the Sun",
+   "sl": 16,
+   "file": "Bol-tihuanaco-sonnentor.jpg",
+   "lat": -16.5544,
+   "lon": -68.6741,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q61750",
+    "name": "Tiwanaku"
+   },
+   "also": [],
+   "cat": "Gate of the Sun"
+  },
+  {
+   "id": "Q1651313",
+   "name": "Isiboro Sécure National Park and Indigenous Territory",
+   "sl": 16,
+   "file": "TIPNIS cerca al rio Secure - panoramio.jpg",
+   "lat": -15.45,
+   "lon": -66.6667,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area of Bolivia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isiboro Sécure National Park and Indigenous Territory"
+  },
+  {
+   "id": "Q555944",
+   "name": "Juana Azurduy de Padilla International Airport",
+   "sl": 16,
+   "file": "Tam Bolivia (2).JPG",
+   "lat": -19.0124,
+   "lon": -65.2939,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juana Azurduy de Padilla International Airport"
+  },
+  {
+   "id": "Q716365",
+   "name": "Nevados de Payachata",
+   "sl": 16,
+   "file": "Nevados de payachata parinacota pomerape.jpg",
+   "lat": -18.15,
+   "lon": -69.1333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2876080",
+   "name": "Puerto Suárez International Airport",
+   "sl": 16,
+   "file": "Puerto Suárez airport terminal, Bolivia.jpg",
+   "lat": -18.9753,
+   "lon": -57.8206,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1860815",
+   "name": "Salar de Coipasa",
+   "sl": 16,
+   "file": "Salar de coipasa.png",
+   "lat": -19.4333,
+   "lon": -68.15,
+   "kind": "both",
+   "types": [
+    "beach",
+    "lake",
+    "salt pan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Salar de Coipasa"
+  },
+  {
+   "id": "Q592741",
+   "name": "Toro Toro National Park",
+   "sl": 16,
+   "file": "Serranias de Toro Toro.jpg",
+   "lat": -18.1,
+   "lon": -65.7667,
+   "kind": "natural",
+   "types": [
+    "lagerstätte",
+    "national park",
+    "protected area of Bolivia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "T'uru T'uru National Park"
+  },
+  {
+   "id": "Q2875717",
+   "name": "Captain Aníbal Arab International Airport",
+   "sl": 15,
+   "file": "Cobija Airport1.JPG",
+   "lat": -11.0403,
+   "lon": -68.7828,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Captain Aníbal Arab Airport"
+  },
+  {
+   "id": "Q637634",
+   "name": "Cerro Capurata",
+   "sl": 15,
+   "file": "Nevados de Quimsachata and Guallatiri, 1990-00-00 SCN 0378.jpg",
+   "lat": -18.415,
+   "lon": -69.0458,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1651245",
+   "name": "Cotapata National Park and Integrated Management Natural Area",
+   "sl": 15,
+   "file": "Amanecer en el Takesi.jpg",
+   "lat": -16.2167,
+   "lon": -67.9,
+   "kind": "natural",
+   "types": [
+    "integrated management area (Bolivia)",
+    "national park",
+    "protected area of Bolivia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cotapata National Park"
+  },
+  {
+   "id": "Q2875728",
+   "name": "El Trompillo Airport",
+   "sl": 15,
+   "file": "Aeropuerto El Trompillo, Bolivia.jpg",
+   "lat": -17.8114,
+   "lon": -63.1714,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Cruz Airport El Trompillo"
+  },
+  {
+   "id": "Q2705722",
+   "name": "Estadio Félix Capriles",
+   "sl": 15,
+   "file": "Vista Aerea de la Inauguracion de los Juegos Suramericanos Cochabamba 2018.jpg",
+   "lat": -17.3793,
+   "lon": -66.1618,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Félix Capriles"
+  },
+  {
+   "id": "Q1438367",
+   "name": "Isla Incahuasi",
+   "sl": 15,
+   "file": "Salar de Uyuni Décembre 2007 - Panorama 1 edit.jpg",
+   "lat": -20.2428,
+   "lon": -67.6253,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isla Incahuasi"
+  },
+  {
+   "id": "Q2448710",
+   "name": "Laguna Hedionda",
+   "sl": 15,
+   "file": "Laguna Hedionda Potosí Bolivia.jpg",
+   "lat": -21.5697,
+   "lon": -68.0487,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Hedionda"
+  },
+  {
+   "id": "Q3087410",
+   "name": "Linzor",
+   "sl": 15,
+   "file": "ElTatio8.jpg",
+   "lat": -22.15,
+   "lon": -67.9667,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CL"
+   ],
+   "cat": "Linzor"
+  },
+  {
+   "id": "Q1428300",
+   "name": "Mururata",
+   "sl": 15,
+   "file": "MURURATA MOUNTAIN.jpg",
+   "lat": -16.5306,
+   "lon": -67.8275,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mururata"
+  },
+  {
+   "id": "Q2875911",
+   "name": "Rurrenabaque Regional and Tourist Airport",
+   "sl": 15,
+   "file": "RurrenabaqueAirport.jpg",
+   "lat": -14.4275,
+   "lon": -67.4981,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rurrenabaque Airport"
+  },
+  {
+   "id": "Q2875743",
+   "name": "Teniente Jorge Henrich Arauz Airport",
+   "sl": 15,
+   "file": "Aeropuerto de Trinidad.jpg",
+   "lat": -14.8186,
+   "lon": -64.9181,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1055888",
+   "name": "Cerro Lípes",
+   "sl": 14,
+   "file": "Cerro Lipez.jpg",
+   "lat": -21.9142,
+   "lon": -66.8847,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Lipez"
+  },
+  {
+   "id": "Q288259",
+   "name": "Isla del Pescado",
+   "sl": 14,
+   "file": "Salar de Uyuni - Isla de Pescadores.jpg",
+   "lat": -20.1431,
+   "lon": -67.8075,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isla del Pescado"
+  },
+  {
+   "id": "Q555858",
+   "name": "Juan Mendoza International Airport",
+   "sl": 14,
+   "file": "Aeropuerto de Oruro 01.jpg",
+   "lat": -17.9625,
+   "lon": -67.0761,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oruro International Airport"
+  },
+  {
+   "id": "Q130145",
+   "name": "Kunturiri",
+   "sl": 14,
+   "file": "Condoriri2013.jpg",
+   "lat": -16.1667,
+   "lon": -68.2333,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevado Condoriri"
+  },
+  {
+   "id": "Q3645528",
+   "name": "Río Blanco",
+   "sl": 14,
+   "file": "Rio Blanco Beni Bolivia.jpg",
+   "lat": -15.9011,
+   "lon": -62.2558,
+   "kind": "natural",
+   "types": [
+    "protected area of Bolivia",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Río Blanco (Bolivia)"
+  },
+  {
+   "id": "Q1475508",
+   "name": "Rogagua Lake",
+   "sl": 14,
+   "file": "Lago Rogagua Bolivia Satellite map 66.98665W 13.png",
+   "lat": -13.9647,
+   "lon": -66.9836,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rogagua Lake"
+  },
+  {
+   "id": "Q1819768",
+   "name": "Wiñaymarka Lake",
+   "sl": 14,
+   "file": "Lago Menor o Huiñamarca Perú Bolivia Satelital map 68.85829W 16.png",
+   "lat": -16.3333,
+   "lon": -68.8333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PE"
+   ],
+   "cat": "Wiñaymarka"
+  },
+  {
+   "id": "Q1651478",
+   "name": "Aguaragüe Integrated Management Natural Area",
+   "sl": 13,
+   "file": "Cerdocyon thous MG 9503.jpg",
+   "lat": -21.5,
+   "lon": -63.6,
+   "kind": "natural",
+   "types": [
+    "integrated management area (Bolivia)",
+    "protected area of Bolivia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aguaragüe National Park and Integrated Management Natural Area"
+  },
+  {
+   "id": "Q527122",
+   "name": "Cáceres Lake",
+   "sl": 13,
+   "file": "Laguna Cáceres Bolivia Satelital map 57.75960W 18.png",
+   "lat": -18.9667,
+   "lon": -57.7667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Cáceres"
+  },
+  {
+   "id": "Q1026124",
+   "name": "Cal Orck'o",
+   "sl": 13,
+   "file": "Cal Orcko Dinosaur Footprints 2.jpg",
+   "lat": -19.0028,
+   "lon": -65.2372,
+   "kind": "natural",
+   "types": [
+    "paleontological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cal Orcko"
+  },
+  {
+   "id": "Q176576",
+   "name": "Capitán Oriel Lea Plaza Airport",
+   "sl": 13,
+   "file": "Flughafen Tarija TJA (6).jpg",
+   "lat": -21.5557,
+   "lon": -64.7013,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aeropuerto Capitán Oriel Lea Plaza"
+  },
+  {
+   "id": "Q970713",
+   "name": "Incallajta",
+   "sl": 13,
+   "file": "Incallajta.jpg",
+   "lat": -17.605,
+   "lon": -65.4158,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Inkallaqta"
+  }
+ ]
+}

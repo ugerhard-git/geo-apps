@@ -1,0 +1,249 @@
+{
+ "country": "CW",
+ "items": [
+  {
+   "id": "Q1431168",
+   "name": "Hato International Airport",
+   "sl": 26,
+   "file": "Hato Airport.jpg",
+   "lat": 12.1889,
+   "lon": -68.9597,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hato International Airport"
+  },
+  {
+   "id": "Q1430850",
+   "name": "Christoffelberg",
+   "sl": 18,
+   "file": "MT. CHRISTOFFEL IN CHRISTOFFEL PARK.jpg",
+   "lat": 12.3369,
+   "lon": -69.1233,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sint-Christoffelberg"
+  },
+  {
+   "id": "Q1637216",
+   "name": "Ergilio Hato Stadium",
+   "sl": 14,
+   "file": "Stadion Ergilio Hato.jpg",
+   "lat": 12.1527,
+   "lon": -68.8875,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ergilio Hatostadion"
+  },
+  {
+   "id": "Q182945",
+   "name": "Queen Emma Bridge",
+   "sl": 14,
+   "file": "Pontjesbrug Willemstad.jpg",
+   "lat": 12.1061,
+   "lon": -68.9353,
+   "kind": "built",
+   "types": [
+    "footbridge",
+    "pontoon bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Queen Emma Bridge"
+  },
+  {
+   "id": "Q5194634",
+   "name": "Curaçao synagogue",
+   "sl": 13,
+   "file": "Curaçao synagogue1.jpg",
+   "lat": 12.105,
+   "lon": -68.9325,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mikve Israel Synagogue"
+  },
+  {
+   "id": "Q2424320",
+   "name": "Fort Amsterdam",
+   "sl": 12,
+   "file": "Fort Amsterdam.jpg",
+   "lat": 12.105,
+   "lon": -68.9347,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Amsterdam, Curaçao"
+  },
+  {
+   "id": "Q2239182",
+   "name": "Queen Juliana Bridge",
+   "sl": 12,
+   "file": "Willemstad brug.JPG",
+   "lat": 12.1111,
+   "lon": -68.9317,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "steel bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Koningin Julianabrug, Curaçao"
+  },
+  {
+   "id": "Q23662555",
+   "name": "Queen of the Most Holy Rosary Cathedral, Willemstad",
+   "sl": 11,
+   "file": "Cathedral in Willemstad, Curaçao.jpg",
+   "lat": 12.1031,
+   "lon": -68.9247,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kathedraal van Pietermaai"
+  },
+  {
+   "id": "Q5681711",
+   "name": "Hato Caves",
+   "sl": 10,
+   "file": "HATO CAVES , CURACAO.jpg",
+   "lat": 12.1793,
+   "lon": -68.9482,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hato Caves"
+  },
+  {
+   "id": "Q23662567",
+   "name": "Basilica of St. Anne, Willemstad",
+   "sl": 9,
+   "file": "Basilica Santa Ana, Willemstad, Curaçao.jpg",
+   "lat": 12.1103,
+   "lon": -68.9394,
+   "kind": "built",
+   "types": [
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica Santa Ana"
+  },
+  {
+   "id": "Q2447760",
+   "name": "Christoffelpark",
+   "sl": 9,
+   "file": "Gezicht op de noordkust met Boka Grandi.JPG",
+   "lat": 12.3333,
+   "lon": -69.1167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christoffelpark"
+  },
+  {
+   "id": "Q2386730",
+   "name": "Fort Nassau",
+   "sl": 8,
+   "file": "Curaçao, Landschaft bei Fort Nassau.jpg",
+   "lat": 12.1148,
+   "lon": -68.9268,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Nassau (Curaçao)"
+  },
+  {
+   "id": "Q6103445",
+   "name": "Isla",
+   "sl": 8,
+   "file": "Laika ac Isla Oil Refinery (11693638543).jpg",
+   "lat": 12.1343,
+   "lon": -68.9332,
+   "kind": "built",
+   "types": [
+    "oil refinery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isla Refinery"
+  },
+  {
+   "id": "Q108714626",
+   "name": "Omar bin Al-Khattab Mosque",
+   "sl": 8,
+   "file": "Moscuraçao.jpg",
+   "lat": 12.1155,
+   "lon": -68.9491,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q22090161",
+   "name": "Spaanse Water",
+   "sl": 8,
+   "file": "Curacao Spaanse Santa Barbara (36699626795).jpg",
+   "lat": 12.0673,
+   "lon": -68.8501,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spaanse Water"
+  }
+ ]
+}

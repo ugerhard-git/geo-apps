@@ -1,0 +1,1419 @@
+{
+ "country": "EG",
+ "items": [
+  {
+   "id": "Q899",
+   "name": "Suez Canal",
+   "sl": 177,
+   "file": "Suez Canal, Egypt (31596166706).jpg",
+   "lat": 30.705,
+   "lon": 32.3442,
+   "kind": "built",
+   "types": [
+    "ship canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suez Canal"
+  },
+  {
+   "id": "Q37200",
+   "name": "Great Pyramid of Giza",
+   "sl": 126,
+   "file": "Kheops-Pyramid.jpg",
+   "lat": 29.9792,
+   "lon": 31.1342,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian pyramids",
+    "smooth-sided pyramid",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Pyramid of Giza"
+  },
+  {
+   "id": "Q38891",
+   "name": "Aswan Dam",
+   "sl": 100,
+   "file": "Aswan High Dam-1.jpg",
+   "lat": 23.9714,
+   "lon": 32.8802,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aswan High Dam"
+  },
+  {
+   "id": "Q43244",
+   "name": "Lighthouse of Alexandria",
+   "sl": 96,
+   "file": "Lighthouse - Thiersch.png",
+   "lat": 31.2142,
+   "lon": 29.885,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "lighthouse",
+    "Wonder of the Ancient World"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pharos of Alexandria"
+  },
+  {
+   "id": "Q134140",
+   "name": "Abu Simbel",
+   "sl": 93,
+   "file": "Großer Tempel (Abu Simbel) 31.jpg",
+   "lat": 22.3369,
+   "lon": 31.6256,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "architectural ensemble",
+    "temple complex"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q4923872",
+    "name": "Nubian Monuments from Abu Simbel to Philae"
+   },
+   "also": [],
+   "cat": "Abu Simbel temples"
+  },
+  {
+   "id": "Q12508",
+   "name": "Giza pyramid complex",
+   "sl": 92,
+   "file": "Pyramids of the Giza Necropolis.jpg",
+   "lat": 29.9761,
+   "lon": 31.1328,
+   "kind": "built",
+   "types": [
+    "Ancient Egyptian necropolis",
+    "group",
+    "Three Greats"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Giza pyramid complex"
+  },
+  {
+   "id": "Q133423",
+   "name": "Valley of the Kings",
+   "sl": 88,
+   "file": "Luxor, Tal der Könige (1995, 860x605).jpg",
+   "lat": 25.7403,
+   "lon": 32.6024,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "necropolis",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valley of the Kings"
+  },
+  {
+   "id": "Q377485",
+   "name": "Mount Sinai",
+   "sl": 87,
+   "file": "Sinai-Katharinenberg-162-Abstieg-Oase-2009-gje.jpg",
+   "lat": 28.5384,
+   "lon": 33.9752,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Sinai"
+  },
+  {
+   "id": "Q13217298",
+   "name": "Giza Necropolis",
+   "sl": 86,
+   "file": "All Gizah Pyramids.jpg",
+   "lat": 29.9833,
+   "lon": 31.1333,
+   "kind": "built",
+   "types": [
+    "Ancient Egyptian necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Giza Necropolis"
+  },
+  {
+   "id": "Q5715",
+   "name": "Memphis",
+   "sl": 86,
+   "file": "Memphis, Ramses II, Ancient Egypt.jpg",
+   "lat": 29.8447,
+   "lon": 31.2509,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Ancient Egyptian archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1175856",
+    "name": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur"
+   },
+   "also": [],
+   "cat": "Memphis, Egypt"
+  },
+  {
+   "id": "Q130958",
+   "name": "The Great Sphinx",
+   "sl": 85,
+   "file": "Great Sphinx of Giza May 2015.JPG",
+   "lat": 29.9753,
+   "lon": 31.1377,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "sphinx"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Sphinx of Giza"
+  },
+  {
+   "id": "Q101583",
+   "name": "Thebes",
+   "sl": 82,
+   "file": "Luxor temple27.JPG",
+   "lat": 25.7206,
+   "lon": 32.6103,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "emporium",
+    "group of structures or buildings"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thebes"
+  },
+  {
+   "id": "Q185362",
+   "name": "Saint Catherine Monastery",
+   "sl": 75,
+   "file": "Katharinenkloster Sinai BW 2.jpg",
+   "lat": 28.5558,
+   "lon": 33.9756,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2468771",
+    "name": "Saint Catherine Area"
+   },
+   "also": [],
+   "cat": "Saint Catherine Monastery, Mount Sinai"
+  },
+  {
+   "id": "Q522862",
+   "name": "Karnak Temple Complex",
+   "sl": 66,
+   "file": "Luxor, Egypt, Karnak.jpg",
+   "lat": 25.7183,
+   "lon": 32.6583,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karnak temple complex"
+  },
+  {
+   "id": "Q181528",
+   "name": "Libyan Desert",
+   "sl": 65,
+   "file": "Libyan Desert - 2006.jpg",
+   "lat": 24,
+   "lon": 25,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LY",
+    "SD"
+   ],
+   "cat": "Libyan Desert"
+  },
+  {
+   "id": "Q192134",
+   "name": "Saqqara",
+   "sl": 65,
+   "file": "Saqqara, Ancient Egypt.jpg",
+   "lat": 29.85,
+   "lon": 31.2333,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis",
+    "village",
+    "village in Egypt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saqqara"
+  },
+  {
+   "id": "Q9278",
+   "name": "Abu Mena",
+   "sl": 63,
+   "file": "Abu Mena Modern Monastery 01.JPG",
+   "lat": 30.8411,
+   "lon": 29.6635,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Abu Mena"
+  },
+  {
+   "id": "Q201219",
+   "name": "Egyptian Museum",
+   "sl": 63,
+   "file": "1897 bis 1902 wurde das Ägyptische Museum in Kairo gebaut. 04.jpg",
+   "lat": 30.0478,
+   "lon": 31.2333,
+   "kind": "built",
+   "types": [
+    "egyptological museum",
+    "museum building",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Egyptian Museum (Cairo)"
+  },
+  {
+   "id": "Q191687",
+   "name": "Heliopolis",
+   "sl": 63,
+   "file": "CairoObeliskSesostris1.jpg",
+   "lat": 30.1295,
+   "lon": 31.2889,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "sanctuary",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heliopolis, ancient Egypt"
+  },
+  {
+   "id": "Q182796",
+   "name": "Lake Nasser",
+   "sl": 61,
+   "file": "Abu Simbel, Nefertari Temple, Lake Nasser, Egypt, Oct 2004.jpg",
+   "lat": 22.5,
+   "lon": 31.86,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SD"
+   ],
+   "cat": "Lake Nasser"
+  },
+  {
+   "id": "Q319841",
+   "name": "Luxor Temple",
+   "sl": 58,
+   "file": "Pylons and obelisk Luxor temple.JPG",
+   "lat": 25.7,
+   "lon": 32.6392,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian temple",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Luxor Temple"
+  },
+  {
+   "id": "Q192268",
+   "name": "Abydos",
+   "sl": 57,
+   "file": "AbydosFacade.jpg",
+   "lat": 26.1852,
+   "lon": 31.9189,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abydos"
+  },
+  {
+   "id": "Q5736",
+   "name": "Amarna",
+   "sl": 57,
+   "file": "Amarna 1 llegenda.jpg",
+   "lat": 27.6617,
+   "lon": 30.9056,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amarna"
+  },
+  {
+   "id": "Q192418",
+   "name": "Pyramid of Djoser",
+   "sl": 56,
+   "file": "Sakkara 01.jpg",
+   "lat": 29.8711,
+   "lon": 31.2167,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian pyramids",
+    "step pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyramid of Djoser"
+  },
+  {
+   "id": "Q461793",
+   "name": "Cairo International Airport",
+   "sl": 54,
+   "file": "Cairo Int. Airport - NASA.JPG",
+   "lat": 30.1219,
+   "lon": 31.4056,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cairo International Airport"
+  },
+  {
+   "id": "Q208358",
+   "name": "Pyramid of Khafre",
+   "sl": 53,
+   "file": "Egypt.Giza.Sphinx.02.jpg",
+   "lat": 29.976,
+   "lon": 31.131,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian pyramids",
+    "pyramid",
+    "smooth-sided pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyramid of Khafra"
+  },
+  {
+   "id": "Q12061",
+   "name": "Tahrir Square",
+   "sl": 53,
+   "file": "Babelisk Tahrir Square Cairo.jpg",
+   "lat": 30.0444,
+   "lon": 31.2358,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tahrir Square"
+  },
+  {
+   "id": "Q501851",
+   "name": "Bibliotheca Alexandrina",
+   "sl": 50,
+   "file": "Bibliotheca Alexandrina (Alexandrie bibliothèque).jpg",
+   "lat": 31.2089,
+   "lon": 29.9092,
+   "kind": "built",
+   "types": [
+    "cultural center",
+    "library building",
+    "literary museum",
+    "national library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bibliotheca Alexandrina"
+  },
+  {
+   "id": "Q685414",
+   "name": "Dahshur",
+   "sl": 49,
+   "file": "Dahshur - Red Pyramid - Tourist policemen on camel.JPG",
+   "lat": 29.8,
+   "lon": 31.2333,
+   "kind": "built",
+   "types": [
+    "administrative territorial entity",
+    "archaeological site",
+    "necropolis",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dahshur"
+  },
+  {
+   "id": "Q501833",
+   "name": "Wadi Al-Hitan",
+   "sl": 48,
+   "file": "WadiHitanRock.jpg",
+   "lat": 29.2708,
+   "lon": 30.0439,
+   "kind": "natural",
+   "types": [
+    "natural monument",
+    "paleontological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi El-Hitan"
+  },
+  {
+   "id": "Q336098",
+   "name": "Abusir",
+   "sl": 47,
+   "file": "Abusir.jpg",
+   "lat": 29.8961,
+   "lon": 31.2036,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis",
+    "village",
+    "village in Egypt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abusir"
+  },
+  {
+   "id": "Q2583681",
+   "name": "Grand Egyptian Museum",
+   "sl": 47,
+   "file": "Grand Egyptian Museum.jpg",
+   "lat": 29.9936,
+   "lon": 31.1197,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Egyptian Museum"
+  },
+  {
+   "id": "Q915413",
+   "name": "Mosque of Ibn Tulun",
+   "sl": 46,
+   "file": "Kairo Ibn Tulun Moschee BW 4.jpg",
+   "lat": 30.0288,
+   "lon": 31.2495,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosque of Ibn Tulun"
+  },
+  {
+   "id": "Q238623",
+   "name": "Pyramid of Menkaure",
+   "sl": 46,
+   "file": "Menkaure's pyramid.jpg",
+   "lat": 29.9725,
+   "lon": 31.1283,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian pyramids",
+    "smooth-sided pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyramid of Menkaure"
+  },
+  {
+   "id": "Q613037",
+   "name": "Temple of Edfu",
+   "sl": 46,
+   "file": "Temple of Edfu 02.jpg",
+   "lat": 24.9778,
+   "lon": 32.8733,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian temple",
+    "ruins",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edfu Temple"
+  },
+  {
+   "id": "Q835309",
+   "name": "tomb of Tutankhamun",
+   "sl": 46,
+   "file": "Inside Pharaoh Tutankhamun's tomb, 18th dynasty.jpg",
+   "lat": 25.7404,
+   "lon": 32.6014,
+   "kind": "built",
+   "types": [
+    "hypogeum",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "KV62"
+  },
+  {
+   "id": "Q260386",
+   "name": "Valley of the Queens",
+   "sl": 46,
+   "file": "Valle de las Reinas, Luxor, Egipto, 2022-04-03, DD 17.jpg",
+   "lat": 25.7275,
+   "lon": 32.5931,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "necropolis",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valley of the Queens"
+  },
+  {
+   "id": "Q373909",
+   "name": "Deir el-Bahari",
+   "sl": 45,
+   "file": "Templo funerario de Hatshepsut, Luxor, Egipto, 2022-04-03, DD 13.jpg",
+   "lat": 25.7375,
+   "lon": 32.6075,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Deir el-Bahari"
+  },
+  {
+   "id": "Q603841",
+   "name": "Bubastis",
+   "sl": 44,
+   "file": "Bubastis 011.JPG",
+   "lat": 30.5728,
+   "lon": 31.51,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bubastis"
+  },
+  {
+   "id": "Q750209",
+   "name": "Colossi of Memnon",
+   "sl": 44,
+   "file": "Colossi of Memnon May 2015 2.JPG",
+   "lat": 25.7206,
+   "lon": 32.6106,
+   "kind": "built",
+   "types": [
+    "archaeological artefact",
+    "archaeological site",
+    "colossal statue",
+    "statue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Colossi of Memnon"
+  },
+  {
+   "id": "Q326268",
+   "name": "Sharm el-Sheikh International Airport",
+   "sl": 44,
+   "file": "Terminal 2 Sharm el-Sheikh Airport.JPG",
+   "lat": 27.9772,
+   "lon": 34.3947,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sharm el-Sheikh International Airport"
+  },
+  {
+   "id": "Q385191",
+   "name": "Hurghada International Airport",
+   "sl": 43,
+   "file": "Hurghada-Airport.jpg",
+   "lat": 27.1781,
+   "lon": 33.7992,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hurghada International Airport"
+  },
+  {
+   "id": "Q278988",
+   "name": "Nekhen",
+   "sl": 43,
+   "file": "Kingscorpion.jpg",
+   "lat": 25.0972,
+   "lon": 32.7794,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hierakonpolis"
+  },
+  {
+   "id": "Q135332",
+   "name": "Red Pyramid",
+   "sl": 43,
+   "file": "Egypt.Dashur.RedPyramid.01.jpg",
+   "lat": 29.8083,
+   "lon": 31.2058,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian pyramids",
+    "smooth-sided pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Red Pyramid"
+  },
+  {
+   "id": "Q29223",
+   "name": "Theban Necropolis",
+   "sl": 43,
+   "file": "SFEC AEH -ThebesNecropolis-2010-FULL-Overview-039.jpg",
+   "lat": 25.7333,
+   "lon": 32.6,
+   "kind": "built",
+   "types": [
+    "Ancient Egyptian necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Theban Necropolis"
+  },
+  {
+   "id": "Q459608",
+   "name": "Bent Pyramid",
+   "sl": 42,
+   "file": "Bent Pyramid featuring the original polished limestone outer casing that the pyramids used to have (14616487960).jpg",
+   "lat": 29.7903,
+   "lon": 31.2092,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian pyramids",
+    "smooth-sided pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bent Pyramid"
+  },
+  {
+   "id": "Q839456",
+   "name": "El-Fustat",
+   "sl": 42,
+   "file": "Fostat-329.jpg",
+   "lat": 30.005,
+   "lon": 31.2375,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "quarter"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1100964",
+    "name": "Islamic Cairo"
+   },
+   "also": [],
+   "cat": "Fustat"
+  },
+  {
+   "id": "Q312342",
+   "name": "Al-Azhar Mosque",
+   "sl": 41,
+   "file": "Cairo - Islamic district - Al Azhar Mosque and University.JPG",
+   "lat": 30.0457,
+   "lon": 31.2627,
+   "kind": "built",
+   "types": [
+    "educational institution",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Azhar Mosque"
+  },
+  {
+   "id": "Q732908",
+   "name": "Hermopolis",
+   "sl": 41,
+   "file": "AshmuneinMerenptahTemple.jpg",
+   "lat": 27.7744,
+   "lon": 30.8011,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "village",
+    "village in Egypt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hermopolis Magna"
+  },
+  {
+   "id": "Q428570",
+   "name": "Kharga Oasis",
+   "sl": 41,
+   "file": "Kharga Oasis by Hanne Siegmeier.jpg",
+   "lat": 25.25,
+   "lon": 30.55,
+   "kind": "natural",
+   "types": [
+    "depression",
+    "oasis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kharga Oasis"
+  },
+  {
+   "id": "Q309282",
+   "name": "Avaris",
+   "sl": 40,
+   "file": "Lower Egypt-en.png",
+   "lat": 30.7862,
+   "lon": 31.8225,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "emporium",
+    "former settlement",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avaris"
+  },
+  {
+   "id": "Q46291",
+   "name": "Isthmus of Suez",
+   "sl": 39,
+   "file": "Nile River and delta from orbit.jpg",
+   "lat": 30.4917,
+   "lon": 32.7083,
+   "kind": "natural",
+   "types": [
+    "isthmus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q622640",
+   "name": "Oxyrhynchus",
+   "sl": 39,
+   "file": "عمود القديعة بالبهنسا.jpg",
+   "lat": 28.5361,
+   "lon": 30.6556,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oxyrhynchus"
+  },
+  {
+   "id": "Q311581",
+   "name": "Ramesseum",
+   "sl": 39,
+   "file": "Ramesseum, Luxor, Egipto, 2022-04-03, DD 08.jpg",
+   "lat": 25.7278,
+   "lon": 32.6106,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ramesseum"
+  },
+  {
+   "id": "Q750212",
+   "name": "Deir el-Medina",
+   "sl": 38,
+   "file": "Deir el-Medina, Luxor, Egipto, 2022-04-03, DD 18.jpg",
+   "lat": 25.7283,
+   "lon": 32.6014,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural heritage",
+    "human settlement",
+    "necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Deir el-Medina"
+  },
+  {
+   "id": "Q1330952",
+   "name": "Lake Moeris",
+   "sl": 38,
+   "file": "Lago Karun es.png",
+   "lat": 29.4722,
+   "lon": 30.6142,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Qarun"
+  },
+  {
+   "id": "Q1988240",
+   "name": "Cairo Citadel",
+   "sl": 37,
+   "file": "Flickr - HuTect ShOts - Citadel of Salah El.Din and Masjid Muhammad Ali قلعة صلاح الدين الأيوبي ومسجد محمد علي - Cairo - Egypt - 17 04 2010 (4).jpg",
+   "lat": 30.0294,
+   "lon": 31.2614,
+   "kind": "built",
+   "types": [
+    "fortification"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cairo Citadel"
+  },
+  {
+   "id": "Q526440",
+   "name": "Great Bitter Lake",
+   "sl": 37,
+   "file": "Great Bitter Lake from space (hires).JPG",
+   "lat": 30.3225,
+   "lon": 32.3825,
+   "kind": "natural",
+   "types": [
+    "bitter lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Bitter Lake"
+  },
+  {
+   "id": "Q683511",
+   "name": "Mosque of Amr ibn al-As",
+   "sl": 36,
+   "file": "Mosque Amr ibn Al-As Entrance.jpg",
+   "lat": 30.0101,
+   "lon": 31.2332,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosque of Amr ibn al-As"
+  },
+  {
+   "id": "Q1140642",
+   "name": "Mount Catherine",
+   "sl": 36,
+   "file": "Sinai-Mosesberg-168-Blick zum Katharinenberg-2009-gje.jpg",
+   "lat": 28.5108,
+   "lon": 33.9553,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Catherine"
+  },
+  {
+   "id": "Q937930",
+   "name": "Pi-Ramesses",
+   "sl": 36,
+   "file": "Kolossalstatue Qantir.JPG",
+   "lat": 30.7994,
+   "lon": 31.8342,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qantir"
+  },
+  {
+   "id": "Q798844",
+   "name": "Badari culture",
+   "sl": 35,
+   "file": "112307-BritishMuseum-Badari.jpg",
+   "lat": 27,
+   "lon": 31.4167,
+   "kind": "built",
+   "types": [
+    "archaeological culture",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Badari culture"
+  },
+  {
+   "id": "Q158985",
+   "name": "Cairo International Stadium",
+   "sl": 35,
+   "file": "Cairo stadium Egypt vs Senegal.jpg",
+   "lat": 30.0691,
+   "lon": 31.3123,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cairo International Stadium"
+  },
+  {
+   "id": "Q652046",
+   "name": "Muhammad Ali Mosque",
+   "sl": 35,
+   "file": "Mosque of Muhammad Ali nights.jpg",
+   "lat": 30.0286,
+   "lon": 31.2597,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muhammad Ali Mosque"
+  },
+  {
+   "id": "Q137721",
+   "name": "Naucratis",
+   "sl": 35,
+   "file": "Plate sphinx BM GR1965.9-30.705.jpg",
+   "lat": 30.9,
+   "lon": 30.6167,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naucratis"
+  },
+  {
+   "id": "Q1145715",
+   "name": "Pelusium",
+   "sl": 34,
+   "file": "Ancient Levant routes.png",
+   "lat": 31.05,
+   "lon": 32.6,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Ancient Egyptian archaeological site",
+    "city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pelusium"
+  },
+  {
+   "id": "Q1478801",
+   "name": "Pyramid of Unas",
+   "sl": 33,
+   "file": "Sakkara C02-29.jpg",
+   "lat": 29.8683,
+   "lon": 31.2147,
+   "kind": "built",
+   "types": [
+    "Egyptian pyramids",
+    "smooth-sided pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyramid of Unas"
+  },
+  {
+   "id": "Q735254",
+   "name": "Dendera Temple complex",
+   "sl": 32,
+   "file": "Dendera Temple.jpg",
+   "lat": 26.1417,
+   "lon": 32.6703,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Egyptian temple",
+    "ruins",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dendera Temple complex"
+  },
+  {
+   "id": "Q287779",
+   "name": "Lisht",
+   "sl": 32,
+   "file": "Carte-lepsius-licht.jpg",
+   "lat": 29.5703,
+   "lon": 31.2311,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis",
+    "village",
+    "village in Egypt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lisht"
+  },
+  {
+   "id": "Q1347322",
+   "name": "Luxor International Airport",
+   "sl": 32,
+   "file": "Flughafen Luxor 01.JPG",
+   "lat": 25.6708,
+   "lon": 32.7064,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Luxor International Airport"
+  },
+  {
+   "id": "Q853955",
+   "name": "Umm el-Qa'ab",
+   "sl": 32,
+   "file": "Umm el-Qaab.jpg",
+   "lat": 26.1749,
+   "lon": 31.9079,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Umm el-Qaab"
+  },
+  {
+   "id": "Q739278",
+   "name": "Buto",
+   "sl": 31,
+   "file": "Buto5-Desouk.jpg",
+   "lat": 31.1964,
+   "lon": 30.7447,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buto"
+  },
+  {
+   "id": "Q1145180",
+   "name": "Canopus",
+   "sl": 31,
+   "file": "Canopus menouthis herakleion.jpg",
+   "lat": 31.3,
+   "lon": 30.0833,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "former settlement",
+    "submerged settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canopus (Peguat)"
+  },
+  {
+   "id": "Q1609149",
+   "name": "Pyramid of Neferirkare",
+   "sl": 31,
+   "file": "Abousir Neferirkare 04.jpg",
+   "lat": 29.895,
+   "lon": 31.2024,
+   "kind": "built",
+   "types": [
+    "Egyptian pyramids",
+    "step pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyramid of Neferirkare"
+  },
+  {
+   "id": "Q1028367",
+   "name": "Ras Muhammad National Park",
+   "sl": 31,
+   "file": "Ras Mohammed Mangrovie.JPG",
+   "lat": 27.7694,
+   "lon": 34.2097,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ras Muhammad"
+  },
+  {
+   "id": "Q1194015",
+   "name": "Alexandria International Airport",
+   "sl": 30,
+   "file": "Terminal 2, Alexandria International Airport (Egypt).jpg",
+   "lat": 30.9301,
+   "lon": 29.6992,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alexandria International Airport (Egypt)"
+  },
+  {
+   "id": "Q660692",
+   "name": "mortuary temple of Hatshepsut",
+   "sl": 30,
+   "file": "Hatshetsup-temple-1by7.jpg",
+   "lat": 25.7381,
+   "lon": 32.6069,
+   "kind": "built",
+   "types": [
+    "house of millions of years"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mortuary Temple of Hatshepsut"
+  },
+  {
+   "id": "Q2564302",
+   "name": "Rafah Border Crossing",
+   "sl": 30,
+   "file": "Egyptian Convoy to Gaza, Palestine.jpg",
+   "lat": 31.2486,
+   "lon": 34.2592,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "border crossing"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Rafah Land Port"
+  },
+  {
+   "id": "Q1140249",
+   "name": "Temple of Debod",
+   "sl": 30,
+   "file": "Templo de Debod Madrid.JPG",
+   "lat": 40.4241,
+   "lon": -3.7178,
+   "kind": "built",
+   "types": [
+    "Egyptian temple",
+    "moved building",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Temple of Debod"
+  },
+  {
+   "id": "Q335278",
+   "name": "Abu Rawash",
+   "sl": 29,
+   "file": "Abu Rawash Pyramid.jpg",
+   "lat": 30.0322,
+   "lon": 31.0747,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis",
+    "village",
+    "village in Egypt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abu Rawash"
+  }
+ ]
+}

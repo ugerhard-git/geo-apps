@@ -1,0 +1,1355 @@
+{
+ "country": "KR",
+ "items": [
+  {
+   "id": "Q20932",
+   "name": "Incheon International Airport",
+   "sl": 64,
+   "file": "202403 Aerial View of Incheon International Airport.jpg",
+   "lat": 37.4625,
+   "lon": 126.4392,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Incheon International Airport"
+  },
+  {
+   "id": "Q477157",
+   "name": "Changdeokgung",
+   "sl": 50,
+   "file": "창덕궁 전경 (2012).jpg",
+   "lat": 37.5794,
+   "lon": 126.9917,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Changdeokgung"
+  },
+  {
+   "id": "Q494645",
+   "name": "Hallasan",
+   "sl": 46,
+   "file": "한라산1.jpg",
+   "lat": 33.35,
+   "lon": 126.5167,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hallasan"
+  },
+  {
+   "id": "Q482485",
+   "name": "Gyeongbokgung",
+   "sl": 45,
+   "file": "광화문 월대.jpg",
+   "lat": 37.5799,
+   "lon": 126.9768,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gyeongbokgung"
+  },
+  {
+   "id": "Q490497",
+   "name": "Jongmyo",
+   "sl": 45,
+   "file": "Jongmyo-Jeongjeon.jpg",
+   "lat": 37.5747,
+   "lon": 126.9936,
+   "kind": "built",
+   "types": [
+    "Confucian royal ancestral shrine"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Jongmyo"
+  },
+  {
+   "id": "Q494577",
+   "name": "Blue House",
+   "sl": 42,
+   "file": "Blue House Seoul 3.jpg",
+   "lat": 37.5867,
+   "lon": 126.9749,
+   "kind": "built",
+   "types": [
+    "building of public administration",
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cheongwadae"
+  },
+  {
+   "id": "Q489820",
+   "name": "Seokguram",
+   "sl": 41,
+   "file": "Front view of Buddha at Seokguram.jpg",
+   "lat": 35.795,
+   "lon": 129.3492,
+   "kind": "both",
+   "types": [
+    "Buddhist temple",
+    "cave",
+    "National Treasures of South Korea"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16912957",
+    "name": "Seokguram Grotto and Bulguksa Temple"
+   },
+   "also": [],
+   "cat": "Seokguram"
+  },
+  {
+   "id": "Q408318",
+   "name": "Bulguksa",
+   "sl": 40,
+   "file": "Geungnakjeon, Bulguksa 01.jpg",
+   "lat": 35.79,
+   "lon": 129.3322,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "Korean Buddhist temple",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16912957",
+    "name": "Seokguram Grotto and Bulguksa Temple"
+   },
+   "also": [],
+   "cat": "Bulguksa"
+  },
+  {
+   "id": "Q482423",
+   "name": "Hwaseong Fortress",
+   "sl": 40,
+   "file": "Hwaseong Fortress, Suwon, Gyeonggi-do, Republic of Korea (2).jpg",
+   "lat": 37.2807,
+   "lon": 127.0102,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "historic site",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Hwaseong Fortress"
+  },
+  {
+   "id": "Q495276",
+   "name": "Royal Tombs of the Joseon Dynasty",
+   "sl": 40,
+   "file": "Sejong tomb 1.jpg",
+   "lat": 37.1972,
+   "lon": 128.4528,
+   "kind": "built",
+   "types": [
+    "cemetery",
+    "mausoleum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Tombs of the Joseon Dynasty"
+  },
+  {
+   "id": "Q465345",
+   "name": "Namdaemun",
+   "sl": 39,
+   "file": "Sungnyemun Gate, front, 2013.jpg",
+   "lat": 37.56,
+   "lon": 126.9753,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Namdaemun"
+  },
+  {
+   "id": "Q489795",
+   "name": "Haeinsa",
+   "sl": 38,
+   "file": "Haeinsa Temple 01.jpg",
+   "lat": 35.8,
+   "lon": 128.1,
+   "kind": "built",
+   "types": [
+    "Korean Buddhist temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q490798",
+    "name": "Haeinsa Temple Janggyeong Panjeon, the Depositories for the Tripitaka Koreana Woodblocks"
+   },
+   "also": [],
+   "cat": "Haeinsa"
+  },
+  {
+   "id": "Q494407",
+   "name": "National Museum of Korea",
+   "sl": 38,
+   "file": "Front view of national museum of korea.jpg",
+   "lat": 37.5239,
+   "lon": 126.9803,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Korea"
+  },
+  {
+   "id": "Q494895",
+   "name": "Lotte World Tower",
+   "sl": 37,
+   "file": "Lotte World morning view 8.jpg",
+   "lat": 37.5125,
+   "lon": 127.1025,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lotte World Tower"
+  },
+  {
+   "id": "Q482493",
+   "name": "Gimpo International Airport",
+   "sl": 36,
+   "file": "Gimpo International Airport (1).jpg",
+   "lat": 37.5569,
+   "lon": 126.7975,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gimpo International Airport"
+  },
+  {
+   "id": "Q562529",
+   "name": "Namhansanseong",
+   "sl": 36,
+   "file": "Khitai5.jpg",
+   "lat": 37.478,
+   "lon": 127.1842,
+   "kind": "both",
+   "types": [
+    "rocca"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Namhansanseong"
+  },
+  {
+   "id": "Q482441",
+   "name": "Daegu Stadium",
+   "sl": 35,
+   "file": "Daegu Stadium.JPG",
+   "lat": 35.8297,
+   "lon": 128.6902,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daegu Stadium"
+  },
+  {
+   "id": "Q495437",
+   "name": "Cheonggyecheon",
+   "sl": 33,
+   "file": "Cheonggyecheon evening 2.jpg",
+   "lat": 37.569,
+   "lon": 126.9777,
+   "kind": "natural",
+   "types": [
+    "linear park",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cheonggyecheon"
+  },
+  {
+   "id": "Q483223",
+   "name": "Gimhae International Airport",
+   "sl": 33,
+   "file": "Gimhae International Airport.jpg",
+   "lat": 35.1806,
+   "lon": 128.9381,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gimhae International Airport"
+  },
+  {
+   "id": "Q175477",
+   "name": "Seoul World Cup Stadium",
+   "sl": 33,
+   "file": "서울월드컵경기장.jpg",
+   "lat": 37.5682,
+   "lon": 126.8972,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seoul World Cup Stadium"
+  },
+  {
+   "id": "Q482631",
+   "name": "Deoksugung",
+   "sl": 32,
+   "file": "덕수궁 전경 (2013).jpg",
+   "lat": 37.5661,
+   "lon": 126.975,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Deoksugung"
+  },
+  {
+   "id": "Q562072",
+   "name": "Jeonju World Cup Stadium",
+   "sl": 32,
+   "file": "Jeonju World Cup Stadium 2016.jpg",
+   "lat": 35.8681,
+   "lon": 127.0645,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jeonju World Cup Stadium"
+  },
+  {
+   "id": "Q562765",
+   "name": "Cheomseongdae",
+   "sl": 31,
+   "file": "Cheomseongdae-1.jpg",
+   "lat": 35.8347,
+   "lon": 129.219,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "National Treasures of South Korea"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q495241",
+    "name": "Gyeongju Historic Areas"
+   },
+   "also": [],
+   "cat": "Cheomseongdae"
+  },
+  {
+   "id": "Q494761",
+   "name": "Suwon World Cup Stadium",
+   "sl": 31,
+   "file": "Suwon world cup.JPG",
+   "lat": 37.2864,
+   "lon": 127.0369,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suwon World Cup Stadium"
+  },
+  {
+   "id": "Q138733",
+   "name": "Tripitaka Koreana",
+   "sl": 31,
+   "file": "Tripitaka Koreana 02.jpg",
+   "lat": 35.8017,
+   "lon": 128.0986,
+   "kind": "",
+   "types": [
+    "Buddhist text",
+    "cultural heritage",
+    "version, edition or translation",
+    "woodblock printing"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q490798",
+    "name": "Haeinsa Temple Janggyeong Panjeon, the Depositories for the Tripitaka Koreana Woodblocks"
+   },
+   "also": [],
+   "cat": "Tripitaka Koreana"
+  },
+  {
+   "id": "Q495286",
+   "name": "Gochang, Hwasun and Ganghwa Dolmen Sites",
+   "sl": 30,
+   "file": "Ganghwado.jpg",
+   "lat": 34.9667,
+   "lon": 126.9292,
+   "kind": "built",
+   "types": [
+    "dolmen"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Gochang, Hwasun and Ganghwa Dolmen Sites"
+  },
+  {
+   "id": "Q493835",
+   "name": "Joint Security Area",
+   "sl": 30,
+   "file": "DMZ 12.JPG",
+   "lat": 37.9558,
+   "lon": 126.6767,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "geographic location"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KP"
+   ],
+   "cat": "Joint Security Area, Korea"
+  },
+  {
+   "id": "Q7089110",
+   "name": "Pyeongchang Olympic Stadium",
+   "sl": 30,
+   "file": "Pyeongchang Olympic Plaza in 2018.jpg",
+   "lat": 37.6673,
+   "lon": 128.7059,
+   "kind": "built",
+   "types": [
+    "defunct sports venue",
+    "Olympic stadium",
+    "temporary sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "PyeongChang Olympic Stadium"
+  },
+  {
+   "id": "Q482589",
+   "name": "Busan Asiad Main Stadium",
+   "sl": 29,
+   "file": "BusanAsiadStadium.jpg",
+   "lat": 35.1901,
+   "lon": 129.0584,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Busan Asiad Main Stadium"
+  },
+  {
+   "id": "Q494758",
+   "name": "Gwangju World Cup Stadium",
+   "sl": 29,
+   "file": "Gwangju World Cup Stadium.jpg",
+   "lat": 35.1337,
+   "lon": 126.8749,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gwangju World Cup Stadium"
+  },
+  {
+   "id": "Q482497",
+   "name": "Jeju International Airport",
+   "sl": 29,
+   "file": "Jeju Air.JPG",
+   "lat": 33.5122,
+   "lon": 126.4928,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jeju International Airport"
+  },
+  {
+   "id": "Q482601",
+   "name": "Ulsan Munsu Football Stadium",
+   "sl": 29,
+   "file": "Munsu 20121110 204310 5.jpg",
+   "lat": 35.5353,
+   "lon": 129.2594,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulsan Munsu Football Stadium"
+  },
+  {
+   "id": "Q41114",
+   "name": "Ewha Womans University",
+   "sl": 28,
+   "file": "이화여자대학교 대강당.jpg",
+   "lat": 37.5625,
+   "lon": 126.945,
+   "kind": "built",
+   "types": [
+    "private university",
+    "women's college"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ewha Womans University"
+  },
+  {
+   "id": "Q495733",
+   "name": "Jeju Volcanic Island and Lava Tubes",
+   "sl": 28,
+   "file": "Hallasan 2.jpg",
+   "lat": 33.3614,
+   "lon": 126.5325,
+   "kind": "",
+   "types": [
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Jeju Volcanic Island and Lava Tubes"
+  },
+  {
+   "id": "Q482585",
+   "name": "Jeju World Cup Stadium",
+   "sl": 28,
+   "file": "Jeju World Cup Stadium, Jeju Island.jpg",
+   "lat": 33.2462,
+   "lon": 126.5094,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jeju World Cup Stadium"
+  },
+  {
+   "id": "Q495241",
+   "name": "Gyeongju Historic Areas",
+   "sl": 27,
+   "file": "Пояс парка Тумули.jpg",
+   "lat": 35.7889,
+   "lon": 129.2267,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historic site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Visitor attractions in Gyeongju"
+  },
+  {
+   "id": "Q138554",
+   "name": "Incheon Munhak Sports Complex",
+   "sl": 27,
+   "file": "Munhak Stadium Corner.jpg",
+   "lat": 37.435,
+   "lon": 126.6907,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Incheon Munhak Stadium"
+  },
+  {
+   "id": "Q494668",
+   "name": "Lotte World",
+   "sl": 27,
+   "file": "Lotte World.jpg",
+   "lat": 37.5112,
+   "lon": 127.0981,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "theme park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lotte World"
+  },
+  {
+   "id": "Q20415",
+   "name": "Seoul Station",
+   "sl": 27,
+   "file": "Seoul-station-20181122-072342.jpg",
+   "lat": 37.5547,
+   "lon": 126.9708,
+   "kind": "built",
+   "types": [
+    "central station",
+    "station located on surface",
+    "underground station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seoul Station"
+  },
+  {
+   "id": "Q482852",
+   "name": "Changgyeonggung",
+   "sl": 26,
+   "file": "Korea-Seoul-Changgyeonggung-Myeongjeongjeon-01.jpg",
+   "lat": 37.5784,
+   "lon": 126.996,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Changgyeonggung"
+  },
+  {
+   "id": "Q483675",
+   "name": "Cheongju International Airport",
+   "sl": 26,
+   "file": "Cheongju airport 20090404.jpg",
+   "lat": 36.7164,
+   "lon": 127.4992,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cheongju International Airport"
+  },
+  {
+   "id": "Q482598",
+   "name": "Daejeon World Cup Stadium",
+   "sl": 26,
+   "file": "Daejeon World Cup Stadium.JPG",
+   "lat": 36.3652,
+   "lon": 127.3251,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daejeon World Cup Stadium"
+  },
+  {
+   "id": "Q20650483",
+   "name": "Baekje Historic Areas",
+   "sl": 25,
+   "file": "Temple Miruksa.jpg",
+   "lat": 36.4619,
+   "lon": 127.1272,
+   "kind": "",
+   "types": [],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Baekje Historic Areas"
+  },
+  {
+   "id": "Q483254",
+   "name": "Daegu International Airport",
+   "sl": 25,
+   "file": "Daegu International Airport 20161012.jpg",
+   "lat": 35.8942,
+   "lon": 128.6589,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daegu International Airport"
+  },
+  {
+   "id": "Q494399",
+   "name": "Posco Tower Songdo",
+   "sl": 25,
+   "file": "Songdo IBD Incheon 2014 HDR 2.jpg",
+   "lat": 37.3892,
+   "lon": 126.6439,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Posco Tower-Songdo"
+  },
+  {
+   "id": "Q482644",
+   "name": "Seoraksan",
+   "sl": 25,
+   "file": "Seoraksan National Park panorama 3.jpg",
+   "lat": 38.1194,
+   "lon": 128.4656,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seoraksan"
+  },
+  {
+   "id": "Q483204",
+   "name": "Jirisan",
+   "sl": 24,
+   "file": "Korea-Mountain-Jirisan-07.jpg",
+   "lat": 35.3369,
+   "lon": 127.7306,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jirisan"
+  },
+  {
+   "id": "Q494673",
+   "name": "Everland",
+   "sl": 23,
+   "file": "Korea-Yongin-Everland-04.jpg",
+   "lat": 37.2952,
+   "lon": 127.2045,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "animal theme park",
+    "theme park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Everland"
+  },
+  {
+   "id": "Q495231",
+   "name": "Marado",
+   "sl": 23,
+   "file": "Marado Island View.jpg",
+   "lat": 33.1183,
+   "lon": 126.2679,
+   "kind": "natural",
+   "types": [
+    "island",
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mara Island"
+  },
+  {
+   "id": "Q486449",
+   "name": "National Folk Museum of Korea",
+   "sl": 23,
+   "file": "Folk Museum of Korea.jpg",
+   "lat": 37.5816,
+   "lon": 126.9791,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Folk Museum of Korea"
+  },
+  {
+   "id": "Q13099333",
+   "name": "Gangneung Science Oval",
+   "sl": 22,
+   "file": "Gangneung Oval (39746032294).jpg",
+   "lat": 37.7737,
+   "lon": 128.8976,
+   "kind": "built",
+   "types": [
+    "ice rink"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gangneung Oval"
+  },
+  {
+   "id": "Q483291",
+   "name": "Gyeonghuigung",
+   "sl": 22,
+   "file": "Korea-Gyeonghuigung-01.jpg",
+   "lat": 37.5714,
+   "lon": 126.9681,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gyeonghuigung"
+  },
+  {
+   "id": "Q484448",
+   "name": "Namsan",
+   "sl": 22,
+   "file": "S7300388.JPG",
+   "lat": 37.5497,
+   "lon": 126.9919,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Namsan"
+  },
+  {
+   "id": "Q483469",
+   "name": "Yangyang International Airport",
+   "sl": 22,
+   "file": "Yangyang International Airport 20130829.jpg",
+   "lat": 38.0614,
+   "lon": 128.6692,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q485034",
+   "name": "Gwanghwamun",
+   "sl": 21,
+   "file": "Gwanghwamun 20240413.jpg",
+   "lat": 37.576,
+   "lon": 126.977,
+   "kind": "built",
+   "types": [
+    "gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gwanghwamun"
+  },
+  {
+   "id": "Q485662",
+   "name": "Gwangju Airport",
+   "sl": 21,
+   "file": "Gwangju airport 20190521 144502.jpg",
+   "lat": 35.1264,
+   "lon": 126.8089,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gwangju Airport"
+  },
+  {
+   "id": "Q493545",
+   "name": "Incheon Football Stadium",
+   "sl": 21,
+   "file": "Incheon Soccer Stadium 2.JPG",
+   "lat": 37.4661,
+   "lon": 126.643,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Incheon Football Stadium"
+  },
+  {
+   "id": "Q12438381",
+   "name": "Port of Busan",
+   "sl": 21,
+   "file": "Korea busan pusan harbour cargo container terminal.JPG",
+   "lat": 35.1039,
+   "lon": 129.0789,
+   "kind": "both",
+   "types": [
+    "port",
+    "seaport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Busan Port"
+  },
+  {
+   "id": "Q55306582",
+   "name": "Sansa, Buddhist Mountain Monasteries in Korea",
+   "sl": 21,
+   "file": "Korea-Boeun-Beopjusa Palsangjeon 1782-06.JPG",
+   "lat": 34.9966,
+   "lon": 127.3311,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sansa, Buddhist Mountain Monasteries in Korea"
+  },
+  {
+   "id": "Q706310",
+   "name": "Seoraksan National Park",
+   "sl": 21,
+   "file": "Seoraksan National Park panorama 3.jpg",
+   "lat": 38.125,
+   "lon": 128.416,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seoraksan National Park"
+  },
+  {
+   "id": "Q485338",
+   "name": "Yoido Full Gospel Church",
+   "sl": 21,
+   "file": "20161204 여의도순복음교회.jpg",
+   "lat": 37.531,
+   "lon": 126.9233,
+   "kind": "built",
+   "types": [
+    "Christian denomination",
+    "church building",
+    "megachurch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yoido Full Gospel Church"
+  },
+  {
+   "id": "Q22968",
+   "name": "63 Building",
+   "sl": 20,
+   "file": "Seoul Building63.jpg",
+   "lat": 37.5197,
+   "lon": 126.94,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "63 Building"
+  },
+  {
+   "id": "Q488308",
+   "name": "Alpensia Ski Jumping Stadium",
+   "sl": 20,
+   "file": "Alpensia 20170202 08 (32537578151).jpg",
+   "lat": 37.6617,
+   "lon": 128.6806,
+   "kind": "built",
+   "types": [
+    "ski jumping complex",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alpensia Ski Jumping Stadium"
+  },
+  {
+   "id": "Q7885767",
+   "name": "Gangneung Hockey Centre",
+   "sl": 20,
+   "file": "Gangneung Hockey Centre.jpg",
+   "lat": 37.7749,
+   "lon": 128.901,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gangneung Hockey Centre"
+  },
+  {
+   "id": "Q107715736",
+   "name": "Getbol, Korean Tidal Flats",
+   "sl": 20,
+   "file": "고창갯벌.jpg",
+   "lat": 34.8288,
+   "lon": 126.1044,
+   "kind": "natural",
+   "types": [
+    "group of protected areas",
+    "tidal flat"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mudflats in South Korea"
+  },
+  {
+   "id": "Q482721",
+   "name": "Heunginjimun",
+   "sl": 20,
+   "file": "Korea-Seoul-Dongdaemun gate.jpg",
+   "lat": 37.5712,
+   "lon": 127.0096,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heunginjimun"
+  },
+  {
+   "id": "Q485409",
+   "name": "Yongpyong Resort",
+   "sl": 20,
+   "file": "Winter 2014 Candidate City- PyeongChang Dragon Valley ski resort.jpg",
+   "lat": 37.643,
+   "lon": 128.682,
+   "kind": "built",
+   "types": [
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yongpyong Ski Resort"
+  },
+  {
+   "id": "Q255506",
+   "name": "Banpo Bridge",
+   "sl": 19,
+   "file": "반포&잠수.jpg",
+   "lat": 37.5157,
+   "lon": 126.9959,
+   "kind": "built",
+   "types": [
+    "girder bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banpo Bridge"
+  },
+  {
+   "id": "Q494652",
+   "name": "Bukhansan",
+   "sl": 19,
+   "file": "Insoo peak.jpg",
+   "lat": 37.6608,
+   "lon": 126.9933,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bukhansan"
+  },
+  {
+   "id": "Q496218",
+   "name": "Busan Lotte World Tower",
+   "sl": 19,
+   "file": "Construction site of Busan Lotte Tower.jpg",
+   "lat": 35.0975,
+   "lon": 129.0372,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Busan Lotte mall and Tower"
+  },
+  {
+   "id": "Q484713",
+   "name": "Goyang Stadium",
+   "sl": 19,
+   "file": "Goyang sta 1.JPG",
+   "lat": 37.6764,
+   "lon": 126.7431,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goyang Stadium"
+  },
+  {
+   "id": "Q483949",
+   "name": "Incheon Bridge",
+   "sl": 19,
+   "file": "Incheon bridge (12).jpg",
+   "lat": 37.4139,
+   "lon": 126.5667,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Incheon Bridge"
+  },
+  {
+   "id": "Q484054",
+   "name": "National Museum of Modern and Contemporary Art, South Korea",
+   "sl": 19,
+   "file": "National Museum of Modern and Contemporary Art, South Korea.jpg",
+   "lat": 37.5785,
+   "lon": 126.98,
+   "kind": "built",
+   "types": [
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Modern and Contemporary Art"
+  },
+  {
+   "id": "Q5472741",
+   "name": "Seoul City Wall",
+   "sl": 19,
+   "file": "Downtown Seoul and Seoul City Wall.jpg",
+   "lat": 37.5728,
+   "lon": 127.0085,
+   "kind": "built",
+   "types": [
+    "city walls"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seoul City Wall"
+  },
+  {
+   "id": "Q484718",
+   "name": "Yeosu Airport",
+   "sl": 19,
+   "file": "Yeosu Airport.JPG",
+   "lat": 34.8402,
+   "lon": 127.614,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yeosu Airport"
+  },
+  {
+   "id": "Q483844",
+   "name": "Bridge of No Return",
+   "sl": 18,
+   "file": "Bridge of no return.jpg",
+   "lat": 37.9561,
+   "lon": 126.6706,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KP"
+   ],
+   "cat": "Bridge of No Return"
+  },
+  {
+   "id": "Q66201394",
+   "name": "Gaya Tumuli",
+   "sl": 18,
+   "file": "남원 유곡리와 두락리 고분군.jpg",
+   "lat": 35.2373,
+   "lon": 128.8737,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Gaya Tumuli"
+  },
+  {
+   "id": "Q390124",
+   "name": "Gyeongju National Museum",
+   "sl": 18,
+   "file": "Korea-Gyeongju.National.Museum-04.jpg",
+   "lat": 35.829,
+   "lon": 129.2284,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gyeongju National Museum"
+  },
+  {
+   "id": "Q495590",
+   "name": "Love Land",
+   "sl": 18,
+   "file": "Jeju Loveland.jpg",
+   "lat": 33.4517,
+   "lon": 126.4897,
+   "kind": "built",
+   "types": [
+    "erotic museum",
+    "sculpture garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Love Land"
+  },
+  {
+   "id": "Q487036",
+   "name": "Myeongdong Cathedral",
+   "sl": 18,
+   "file": "Myeongdong Cathedral 6.jpg",
+   "lat": 37.5633,
+   "lon": 126.9872,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Myeongdong Cathedral"
+  }
+ ]
+}

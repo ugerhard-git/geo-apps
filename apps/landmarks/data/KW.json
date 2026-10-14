@@ -1,0 +1,320 @@
+{
+ "country": "KW",
+ "items": [
+  {
+   "id": "Q527157",
+   "name": "Kuwait International Airport",
+   "sl": 42,
+   "file": "مبنى الركاب 4 مطار الكويت الدولي.jpg",
+   "lat": 29.2268,
+   "lon": 47.98,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuwait International Airport"
+  },
+  {
+   "id": "Q557933",
+   "name": "Al Hamra Tower",
+   "sl": 38,
+   "file": "Al Hamra Kuwait Mai 2010.jpg",
+   "lat": 29.3786,
+   "lon": 47.9928,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Hamra Tower"
+  },
+  {
+   "id": "Q1335640",
+   "name": "Kuwait Towers",
+   "sl": 36,
+   "file": "Kuwait towers.jpg",
+   "lat": 29.39,
+   "lon": 48.0031,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "building complex"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuwait Towers"
+  },
+  {
+   "id": "Q80688",
+   "name": "Kuwait Liberation Tower",
+   "sl": 23,
+   "file": "LiberationTower.jpg",
+   "lat": 29.3683,
+   "lon": 47.975,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuwait Telecommunications Tower"
+  },
+  {
+   "id": "Q699317",
+   "name": "Arraya Tower",
+   "sl": 19,
+   "file": "Arayaa and kbt towers from kuwait by irvin calicut.jpg",
+   "lat": 29.3762,
+   "lon": 47.9904,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arraya Tower"
+  },
+  {
+   "id": "Q1432832",
+   "name": "Grand Mosque",
+   "sl": 19,
+   "file": "Kuwait City Grand Mosque Exterior South Facade 5.jpg",
+   "lat": 29.3697,
+   "lon": 47.9783,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosques in Kuwait"
+  },
+  {
+   "id": "Q4118921",
+   "name": "Al Kuwait Sports Club Stadium",
+   "sl": 16,
+   "file": "KuwaitSCStadium.jpg",
+   "lat": 29.3425,
+   "lon": 47.9519,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4582023",
+   "name": "Ahmed Al Jaber Air Base",
+   "sl": 13,
+   "file": "F-14B VF-11 at Al Jaber AB 1998.JPEG",
+   "lat": 28.9349,
+   "lon": 47.792,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Jaber Airbase, Kuwait"
+  },
+  {
+   "id": "Q4117719",
+   "name": "Al-Sadaqua Walsalam Stadium",
+   "sl": 13,
+   "file": "Kazmastadium.jpg",
+   "lat": 29.329,
+   "lon": 47.9877,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3272029",
+   "name": "Sabah Al Salem Stadium",
+   "sl": 12,
+   "file": "ArabiStagium.jpg",
+   "lat": 29.3569,
+   "lon": 48.0003,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6448885",
+   "name": "Kuwait Water Towers",
+   "sl": 11,
+   "file": "Water towerz kuwait (2).jpg",
+   "lat": 29.3294,
+   "lon": 47.9844,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuwait Water Towers"
+  },
+  {
+   "id": "Q4115799",
+   "name": "Ali Al-Salem Al-Sabah Stadium",
+   "sl": 10,
+   "file": "AlNSRAFCCUP.png",
+   "lat": 29.2719,
+   "lon": 47.9244,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15156679",
+   "name": "Kuwait National Assembly Building",
+   "sl": 10,
+   "file": "Secretary Blinken Tours the Kuwaiti National Assembly and Meets with Speaker of the Kuwaiti National Assembly Marzouq Ali Mohammed Al-Ghanim (51345871621).jpg",
+   "lat": 29.3703,
+   "lon": 47.9642,
+   "kind": "built",
+   "types": [
+    "building of public administration"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuwait National Assembly Building"
+  },
+  {
+   "id": "Q2498040",
+   "name": "Kuwait National Museum",
+   "sl": 10,
+   "file": "Kwnmuseum.jpg",
+   "lat": 29.3731,
+   "lon": 47.9667,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuwait National Museum"
+  },
+  {
+   "id": "Q4116111",
+   "name": "Mutla Ridge",
+   "sl": 10,
+   "file": "US Navy 021231-A-3447F-001 Seabees make their way up Mutla Ridge during a 7-mile march on New Year's Eve, 2002.jpg",
+   "lat": 29.3833,
+   "lon": 47.6333,
+   "kind": "natural",
+   "types": [
+    "geographical feature",
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q28221159",
+   "name": "Sheikh Jaber al-Ahmad al-Sabah Causeway",
+   "sl": 10,
+   "file": "26th December 2019 solar eclipse as viewed in Kuwait.jpg",
+   "lat": 29.3712,
+   "lon": 47.9102,
+   "kind": "built",
+   "types": [
+    "bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3906657",
+   "name": "Imam Hussein Mosque",
+   "sl": 9,
+   "file": "Imam Hussein Mosque, Kuwait City 1980 01.jpg",
+   "lat": 29.3697,
+   "lon": 47.9783,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imam Hussein Mosque (Kuwait City)"
+  },
+  {
+   "id": "Q784379",
+   "name": "Thamir Stadium",
+   "sl": 9,
+   "file": "Night panorama of Salmiya from our living room.jpg",
+   "lat": 29.3408,
+   "lon": 48.0883,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thamir Stadium"
+  },
+  {
+   "id": "Q11904604",
+   "name": "Wadi Al-Batin",
+   "sl": 9,
+   "file": "Hafar Al-Batin in Winter 001.jpg",
+   "lat": 29.1014,
+   "lon": 46.5553,
+   "kind": "natural",
+   "types": [
+    "wadi",
+    "watercourse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IQ",
+    "SA"
+   ],
+   "cat": "Wadi Al-Batin"
+  }
+ ]
+}

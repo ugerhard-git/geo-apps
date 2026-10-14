@@ -1,0 +1,1352 @@
+{
+ "country": "DK",
+ "items": [
+  {
+   "id": "Q297871",
+   "name": "Øresund Bridge",
+   "sl": 72,
+   "file": "Øresund Bridge from the air in September 2015.jpg",
+   "lat": 55.5764,
+   "lon": 12.8216,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "double-decker bridge",
+    "international bridge",
+    "multi-level bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SE"
+   ],
+   "cat": "Oresund Bridge"
+  },
+  {
+   "id": "Q206277",
+   "name": "Copenhagen Airport",
+   "sl": 62,
+   "file": "Copenhagen airport from air.jpg",
+   "lat": 55.6181,
+   "lon": 12.6561,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Copenhagen Airport"
+  },
+  {
+   "id": "Q189358",
+   "name": "Kronborg Castle",
+   "sl": 55,
+   "file": "KronborgCastle HCS.jpg",
+   "lat": 56.0386,
+   "lon": 12.6219,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fort",
+    "museum",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kronborg"
+  },
+  {
+   "id": "Q33003",
+   "name": "Parken Stadium",
+   "sl": 53,
+   "file": "Denmark copenhagen parken stadium.jpg",
+   "lat": 55.7025,
+   "lon": 12.5722,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parken"
+  },
+  {
+   "id": "Q213962",
+   "name": "Great Belt Fixed Link",
+   "sl": 49,
+   "file": "Storebæltsbroen from Sjælland.jpg",
+   "lat": 55.3333,
+   "lon": 10.9667,
+   "kind": "built",
+   "types": [
+    "bridge–tunnel",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Storebæltsforbindelsen"
+  },
+  {
+   "id": "Q209705",
+   "name": "Roskilde Cathedral",
+   "sl": 48,
+   "file": "Roskilde Cathedral aerial crop.jpg",
+   "lat": 55.6427,
+   "lon": 12.0803,
+   "kind": "built",
+   "types": [
+    "Lutheran cathedral"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Roskilde Domkirke"
+  },
+  {
+   "id": "Q465816",
+   "name": "Dogger Bank",
+   "sl": 46,
+   "file": "Doggerbank.jpg",
+   "lat": 55.25,
+   "lon": 3.5,
+   "kind": "natural",
+   "types": [
+    "ocean bank"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE",
+    "GB"
+   ],
+   "cat": "Dogger Bank"
+  },
+  {
+   "id": "Q211053",
+   "name": "Amalienborg",
+   "sl": 44,
+   "file": "Amalienborg panorama juli 2013.jpg",
+   "lat": 55.684,
+   "lon": 12.5933,
+   "kind": "built",
+   "types": [
+    "museum building",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amalienborg"
+  },
+  {
+   "id": "Q666502",
+   "name": "Møn",
+   "sl": 42,
+   "file": "Møn aerial.jpg",
+   "lat": 55,
+   "lon": 12.3333,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Møn"
+  },
+  {
+   "id": "Q940733",
+   "name": "Christiansborg Palace",
+   "sl": 40,
+   "file": "Christiansborg Slot.jpg",
+   "lat": 55.6758,
+   "lon": 12.5789,
+   "kind": "built",
+   "types": [
+    "building of public administration",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christiansborg Palace"
+  },
+  {
+   "id": "Q3801",
+   "name": "Limfjord",
+   "sl": 40,
+   "file": "Aalborg aerial 1.jpg",
+   "lat": 56.9428,
+   "lon": 9.075,
+   "kind": "natural",
+   "types": [
+    "sound"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Limfjorden"
+  },
+  {
+   "id": "Q110289",
+   "name": "Tivoli Gardens",
+   "sl": 40,
+   "file": "CopenhagenTivoliEntrance.jpg",
+   "lat": 55.6736,
+   "lon": 12.5683,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "pleasure garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tivoli Gardens (Copenhagen)"
+  },
+  {
+   "id": "Q723999",
+   "name": "Jelling stones",
+   "sl": 38,
+   "file": "Runesten i Jelling.jpg",
+   "lat": 55.7566,
+   "lon": 9.4196,
+   "kind": "",
+   "types": [
+    "group of works"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q4993586",
+    "name": "Jelling Heritage Site"
+   },
+   "also": [],
+   "cat": "Jelling Runestones"
+  },
+  {
+   "id": "Q206101",
+   "name": "Rosenborg Castle",
+   "sl": 38,
+   "file": "Rosenborg Castle Copenhagen 1.jpg",
+   "lat": 55.6857,
+   "lon": 12.5775,
+   "kind": "built",
+   "types": [
+    "museum",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rosenborg Castle"
+  },
+  {
+   "id": "Q326528",
+   "name": "Børsen",
+   "sl": 36,
+   "file": "Børsen Copenhagen Denmark.jpg",
+   "lat": 55.6755,
+   "lon": 12.5841,
+   "kind": "built",
+   "types": [
+    "office building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Børsen"
+  },
+  {
+   "id": "Q226103",
+   "name": "Frederiksborg Palace",
+   "sl": 35,
+   "file": "Frederiksborg Slot i sol.jpg",
+   "lat": 55.935,
+   "lon": 12.3008,
+   "kind": "built",
+   "types": [
+    "château",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Frederiksborg slot"
+  },
+  {
+   "id": "Q689106",
+   "name": "Møllehøj",
+   "sl": 34,
+   "file": "Møllehøj from Ejer Bavnehøj.jpg",
+   "lat": 55.9775,
+   "lon": 9.8263,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Møllehøj"
+  },
+  {
+   "id": "Q648166",
+   "name": "National Museum of Denmark",
+   "sl": 34,
+   "file": "Nationalmuseet kbh.jpg",
+   "lat": 55.6747,
+   "lon": 12.5747,
+   "kind": "built",
+   "types": [
+    "museum of culture",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nationalmuseet, Copenhagen"
+  },
+  {
+   "id": "Q698126",
+   "name": "Bay of Kiel",
+   "sl": 33,
+   "file": "KielerInnenFoerdeLuftaufnahme.jpg",
+   "lat": 54.52,
+   "lon": 10.4067,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "cove"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Bay of Kiel"
+  },
+  {
+   "id": "Q598121",
+   "name": "Billund Airport",
+   "sl": 33,
+   "file": "Billund Airport from NE.jpg",
+   "lat": 55.7403,
+   "lon": 9.1519,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Billund Airport"
+  },
+  {
+   "id": "Q857504",
+   "name": "Egeskov Castle",
+   "sl": 33,
+   "file": "Egeskov Slot spejling Edit 2.jpg",
+   "lat": 55.1764,
+   "lon": 10.4894,
+   "kind": "built",
+   "types": [
+    "castle",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Egeskov Slot"
+  },
+  {
+   "id": "Q671384",
+   "name": "Statens Museum for Kunst",
+   "sl": 33,
+   "file": "Statens Museum for Kunst, København.jpg",
+   "lat": 55.6889,
+   "lon": 12.5786,
+   "kind": "built",
+   "types": [
+    "national gallery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Statens Museum for Kunst"
+  },
+  {
+   "id": "Q1059672",
+   "name": "Seikilos epitaph",
+   "sl": 32,
+   "file": "Seikilos1.tif",
+   "lat": 37.8599,
+   "lon": 27.8351,
+   "kind": "built",
+   "types": [
+    "stele"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seikilos epitaph"
+  },
+  {
+   "id": "Q1614152",
+   "name": "Stevns Klint",
+   "sl": 32,
+   "file": "Stevns Klint chalk cliffs 4.jpg",
+   "lat": 55.2822,
+   "lon": 12.45,
+   "kind": "natural",
+   "types": [
+    "cliff",
+    "Cretaceous–Paleogene boundary"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Stevns Klint"
+  },
+  {
+   "id": "Q1140507",
+   "name": "Ny Carlsberg Glyptotek",
+   "sl": 31,
+   "file": "Main entrance, Ny Carlsberg Glyptotek.jpg",
+   "lat": 55.6725,
+   "lon": 12.5719,
+   "kind": "built",
+   "types": [
+    "glyptotheque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ny Carlsberg Glyptotek"
+  },
+  {
+   "id": "Q838297",
+   "name": "Copenhagen Opera House",
+   "sl": 30,
+   "file": "Copenhagen Opera House 2014 04.jpg",
+   "lat": 55.6819,
+   "lon": 12.6006,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Copenhagen Opera House"
+  },
+  {
+   "id": "Q650849",
+   "name": "Grundtvig's Church",
+   "sl": 30,
+   "file": "Grundtvigs Kirke Copenhagen.jpg",
+   "lat": 55.7166,
+   "lon": 12.5336,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grundtvigs Kirke"
+  },
+  {
+   "id": "Q943946",
+   "name": "Nyhavn",
+   "sl": 30,
+   "file": "Nyhavn Copenhagen 2.jpg",
+   "lat": 55.6799,
+   "lon": 12.5904,
+   "kind": "built",
+   "types": [
+    "canal",
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nyhavn"
+  },
+  {
+   "id": "Q1410617",
+   "name": "Louisiana Museum of Modern Art",
+   "sl": 29,
+   "file": "Louisiana Museum of Modern Art Hovedindgang.jpg",
+   "lat": 55.9694,
+   "lon": 12.5431,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "sculpture garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Louisiana Museum of Modern Art"
+  },
+  {
+   "id": "Q1517331",
+   "name": "Møns Klint",
+   "sl": 29,
+   "file": "View of Møns Klint asv2024-07 img5.jpg",
+   "lat": 54.9642,
+   "lon": 12.5522,
+   "kind": "natural",
+   "types": [
+    "cliff"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Møns Klint"
+  },
+  {
+   "id": "Q1140534",
+   "name": "Rundetaarn",
+   "sl": 29,
+   "file": "Copenhagen - Rundetårn - 2013.jpg",
+   "lat": 55.6814,
+   "lon": 12.5758,
+   "kind": "built",
+   "types": [
+    "museum",
+    "observation tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rundetårn"
+  },
+  {
+   "id": "Q478620",
+   "name": "Aalborg Airport",
+   "sl": 28,
+   "file": "Aalborg Lufthavn indgang.JPG",
+   "lat": 57.0928,
+   "lon": 9.8492,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aalborg Airport"
+  },
+  {
+   "id": "Q1166029",
+   "name": "Lomonosov Ridge",
+   "sl": 28,
+   "file": "Arctic Ocean bathymetric features.png",
+   "lat": 75,
+   "lon": 175,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "undersea ridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CA",
+    "RU"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q726483",
+   "name": "Skagen Painters",
+   "sl": 28,
+   "file": "Hip, Hip, Hurrah! Artists’ Party, Skagen (Peder Severin Krøyer) - Gothenburg Museum of Art - F 62.tif",
+   "lat": 57.725,
+   "lon": 10.5983,
+   "kind": "built",
+   "types": [
+    "art colony"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skagen Painters"
+  },
+  {
+   "id": "Q835129",
+   "name": "Bornholm Airport",
+   "sl": 26,
+   "file": "Bornholms Lufthavn asv2024-07 img2.jpg",
+   "lat": 55.0633,
+   "lon": 14.7594,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bornholm Airport"
+  },
+  {
+   "id": "Q1066641",
+   "name": "Charlottenlund Palace",
+   "sl": 26,
+   "file": "Charlottenlund Slot.JPG",
+   "lat": 55.7503,
+   "lon": 12.5806,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Charlottenlund Slot"
+  },
+  {
+   "id": "Q1321231",
+   "name": "Frederik's Church",
+   "sl": 26,
+   "file": "Frederik's Church, Copenhagen, 20220617 0853 6680.jpg",
+   "lat": 55.685,
+   "lon": 12.5894,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marmorkirken"
+  },
+  {
+   "id": "Q1280280",
+   "name": "Jyske Bank Boxen",
+   "sl": 26,
+   "file": "Jyske Bank Boxen, venue of the 2013 European SC Swimming Championships (7973316130).jpg",
+   "lat": 56.118,
+   "lon": 8.9525,
+   "kind": "built",
+   "types": [
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "MCH Multiarena"
+  },
+  {
+   "id": "Q1424674",
+   "name": "Little Belt Bridge",
+   "sl": 26,
+   "file": "Little Belt Bridge2.jpg",
+   "lat": 55.5186,
+   "lon": 9.7492,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Little Belt Bridge (1970)"
+  },
+  {
+   "id": "Q1341664",
+   "name": "Aarhus Airport",
+   "sl": 25,
+   "file": "Aarhus Airport.jpg",
+   "lat": 56.3042,
+   "lon": 10.6192,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aarhus Airport"
+  },
+  {
+   "id": "Q1495052",
+   "name": "Copenhagen Central Station",
+   "sl": 25,
+   "file": "Københavns Hovedbanegård, 2019 (01).jpg",
+   "lat": 55.6728,
+   "lon": 12.5644,
+   "kind": "built",
+   "types": [
+    "central station",
+    "railway station",
+    "station building",
+    "station located in a cut"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Copenhagen Central Station"
+  },
+  {
+   "id": "Q127148",
+   "name": "Esbjerg Airport",
+   "sl": 25,
+   "file": "Esbjerg Airport.jpg",
+   "lat": 55.5258,
+   "lon": 8.5533,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Esbjerg Airport"
+  },
+  {
+   "id": "Q1432961",
+   "name": "Roskilde Fjord",
+   "sl": 24,
+   "file": "Jyllinge 1mpazdziora.jpg",
+   "lat": 55.7109,
+   "lon": 12.0535,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roskilde Fjord"
+  },
+  {
+   "id": "Q492584",
+   "name": "St. Canute's Cathedral",
+   "sl": 24,
+   "file": "Saint Knud's cathedral Odense Denmark.jpg",
+   "lat": 55.3954,
+   "lon": 10.389,
+   "kind": "built",
+   "types": [
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sankt Knuds Kirke (Odense)"
+  },
+  {
+   "id": "Q1992413",
+   "name": "Thorvaldsen Museum",
+   "sl": 24,
+   "file": "Thorvaldsens Museum back 01.jpg",
+   "lat": 55.6767,
+   "lon": 12.5783,
+   "kind": "built",
+   "types": [
+    "artist museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thorvaldsens Museum"
+  },
+  {
+   "id": "Q995867",
+   "name": "Brøndby Stadium",
+   "sl": 23,
+   "file": "Brøndby stadium panorama.jpg",
+   "lat": 55.6489,
+   "lon": 12.4184,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brøndby Stadion"
+  },
+  {
+   "id": "Q1451811",
+   "name": "Church of Our Lady",
+   "sl": 23,
+   "file": "Rundetårn view 2 new version.jpg",
+   "lat": 55.6793,
+   "lon": 12.5725,
+   "kind": "built",
+   "types": [
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Københavns Domkirke"
+  },
+  {
+   "id": "Q29157",
+   "name": "Church of Our Saviour",
+   "sl": 23,
+   "file": "Copenhagen - Church of Our Saviour - 2013.jpg",
+   "lat": 55.6728,
+   "lon": 12.5939,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vor Frelsers Kirke (Christianshavn)"
+  },
+  {
+   "id": "Q1557426",
+   "name": "MCH Arena",
+   "sl": 23,
+   "file": "MCH Arena Herning.JPG",
+   "lat": 56.1167,
+   "lon": 8.9517,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "MCH Arena"
+  },
+  {
+   "id": "Q2010247",
+   "name": "Copenhagen City Hall",
+   "sl": 22,
+   "file": "Københavns Rådhus 2013 (cropped).jpg",
+   "lat": 55.6753,
+   "lon": 12.5703,
+   "kind": "built",
+   "types": [
+    "city hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Copenhagen City Hall"
+  },
+  {
+   "id": "Q220057",
+   "name": "Copenhagen Zoo",
+   "sl": 22,
+   "file": "Copenhagen Zoo Tower and camel.jpg",
+   "lat": 55.6728,
+   "lon": 12.5214,
+   "kind": "built",
+   "types": [
+    "tourist destination",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Copenhagen Zoo"
+  },
+  {
+   "id": "Q2896204",
+   "name": "Hans Christian Andersen Airport",
+   "sl": 22,
+   "file": "Odense Lufthavn 2008.jpg",
+   "lat": 55.4767,
+   "lon": 10.3308,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hans Christian Andersen Airport"
+  },
+  {
+   "id": "Q127331",
+   "name": "Midtjylland Airport",
+   "sl": 22,
+   "file": "Karup Airport 20130618.JPG",
+   "lat": 56.3105,
+   "lon": 9.1216,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Midtjyllands Lufthavn"
+  },
+  {
+   "id": "Q1412797",
+   "name": "Fredensborg Palace",
+   "sl": 21,
+   "file": "Fredensborg Slot 124.JPG",
+   "lat": 55.9824,
+   "lon": 12.3956,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fredensborg Slot"
+  },
+  {
+   "id": "Q700384",
+   "name": "Hammershus",
+   "sl": 21,
+   "file": "Bornholm Hammershus 01.jpg",
+   "lat": 55.2712,
+   "lon": 14.7558,
+   "kind": "built",
+   "types": [
+    "castle ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hammershus"
+  },
+  {
+   "id": "Q529888",
+   "name": "Yding Skovhøj",
+   "sl": 21,
+   "file": "Yding skovhøj burial mound.JPG",
+   "lat": 55.9928,
+   "lon": 9.7956,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yding Skovhøj"
+  },
+  {
+   "id": "Q1323311",
+   "name": "Aarhus City Hall",
+   "sl": 20,
+   "file": "Århus Rådhus.jpg",
+   "lat": 56.1525,
+   "lon": 10.2032,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aarhus City Hall"
+  },
+  {
+   "id": "Q699572",
+   "name": "Arresø",
+   "sl": 20,
+   "file": "Arresø, north Zealand.jpg",
+   "lat": 55.9747,
+   "lon": 12.1042,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arresø"
+  },
+  {
+   "id": "Q14790402",
+   "name": "B&W Halls",
+   "sl": 20,
+   "file": "B&W Hallerne 2014-04-27 4.jpg",
+   "lat": 55.6926,
+   "lon": 12.6149,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "B&W Hallerne"
+  },
+  {
+   "id": "Q1961383",
+   "name": "Ceres Park & Arena",
+   "sl": 20,
+   "file": "Atletion.jpg",
+   "lat": 56.1319,
+   "lon": 10.1964,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Århus Idrætspark"
+  },
+  {
+   "id": "Q665954",
+   "name": "Frederiksberg Palace",
+   "sl": 20,
+   "file": "Frederiksberg Palace in Frederiksberg, Denmark, 20220617 1624 6907.jpg",
+   "lat": 55.6717,
+   "lon": 12.525,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Frederiksberg Slot"
+  },
+  {
+   "id": "Q1537592",
+   "name": "Grenen",
+   "sl": 20,
+   "file": "Grenen-2001.jpg",
+   "lat": 57.7456,
+   "lon": 10.6469,
+   "kind": "natural",
+   "types": [
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grenen"
+  },
+  {
+   "id": "Q221812",
+   "name": "Kastellet",
+   "sl": 20,
+   "file": "Kastellet aerial.jpg",
+   "lat": 55.6916,
+   "lon": 12.5936,
+   "kind": "built",
+   "types": [
+    "citadel",
+    "star fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kastellet"
+  },
+  {
+   "id": "Q1368515",
+   "name": "Lake Esrum",
+   "sl": 20,
+   "file": "Fredensborg. Esrum Sø.jpg",
+   "lat": 56.0078,
+   "lon": 12.3792,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Esrum Sø"
+  },
+  {
+   "id": "Q1440151",
+   "name": "Royal Copenhagen",
+   "sl": 20,
+   "file": "Porcelainsfabrik.png",
+   "lat": 14.3504,
+   "lon": 100.8322,
+   "kind": "built",
+   "types": [
+    "brand",
+    "business",
+    "ceramics manufactory",
+    "enterprise"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Copenhagen"
+  },
+  {
+   "id": "Q491260",
+   "name": "Aarhus Cathedral",
+   "sl": 19,
+   "file": "Aarhus domkirke.jpg",
+   "lat": 56.1569,
+   "lon": 10.2106,
+   "kind": "built",
+   "types": [
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aarhus Domkirke"
+  },
+  {
+   "id": "Q496893",
+   "name": "Dyrehavsbakken",
+   "sl": 19,
+   "file": "Dyrehavsbakken.jpg",
+   "lat": 55.7761,
+   "lon": 12.5739,
+   "kind": "built",
+   "types": [
+    "amusement park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dyrehavsbakken"
+  },
+  {
+   "id": "Q796045",
+   "name": "Lindholm Høje",
+   "sl": 19,
+   "file": "Lindholm Høje 2.JPG",
+   "lat": 57.0772,
+   "lon": 9.9125,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lindholm Høje"
+  },
+  {
+   "id": "Q1536150",
+   "name": "Little Belt Bridge",
+   "sl": 19,
+   "file": "20170709 den gamle Lillebaeltsbroen 06 (35968767425).jpg",
+   "lat": 55.5177,
+   "lon": 9.7097,
+   "kind": "built",
+   "types": [
+    "cantilever bridge",
+    "railway bridge",
+    "road bridge",
+    "steel bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Little Belt Bridge (1935)"
+  },
+  {
+   "id": "Q1431775",
+   "name": "Roskilde Airport",
+   "sl": 19,
+   "file": "EKRK Terminal.jpg",
+   "lat": 55.5856,
+   "lon": 12.1314,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roskilde Airport"
+  },
+  {
+   "id": "Q5168452",
+   "name": "Royal Arena",
+   "sl": 19,
+   "file": "RoyalArena 20170811 N8B0024 (36517811566).jpg",
+   "lat": 55.6252,
+   "lon": 12.5736,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Arena"
+  },
+  {
+   "id": "Q2206180",
+   "name": "Rubjerg Knude lighthouse",
+   "sl": 19,
+   "file": "Rubjerg Knude - Ansicht (127).jpg",
+   "lat": 57.449,
+   "lon": 9.7755,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rubjerg Knude Fyr"
+  },
+  {
+   "id": "Q1432970",
+   "name": "Sønderborg Airport",
+   "sl": 19,
+   "file": "Sdblufthavn2.JPG",
+   "lat": 54.9644,
+   "lon": 9.7917,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sønderborg Airport"
+  },
+  {
+   "id": "Q892711",
+   "name": "University of Copenhagen Botanical Garden",
+   "sl": 19,
+   "file": "Botanisk have drivhus 1.jpg",
+   "lat": 55.6869,
+   "lon": 12.5739,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "University of Copenhagen Botanical Garden"
+  },
+  {
+   "id": "Q1458032",
+   "name": "Viking Ship Museum",
+   "sl": 19,
+   "file": "View of Viking Ship Museum from Roskilde Fjord.jpg",
+   "lat": 55.6501,
+   "lon": 12.0789,
+   "kind": "both",
+   "types": [
+    "archaeological museum",
+    "harbor museum",
+    "maritime museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Viking Ship Museum (Roskilde)"
+  },
+  {
+   "id": "Q3351830",
+   "name": "Wadden Sea National Park",
+   "sl": 19,
+   "file": "Vadehavet.jpg",
+   "lat": 55.25,
+   "lon": 8.4833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nationalpark Vadehavet"
+  },
+  {
+   "id": "Q673346",
+   "name": "Arken Museum of Contemporary Art",
+   "sl": 18,
+   "file": "ARKEN Museum of Modern Art (19174110250).jpg",
+   "lat": 55.6061,
+   "lon": 12.3875,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arken Museum for Samtidskunst"
+  },
+  {
+   "id": "Q315632",
+   "name": "Brorfelde Observatory",
+   "sl": 18,
+   "file": "Brorfelde-Observatorium.jpg",
+   "lat": 55.6247,
+   "lon": 11.6647,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brorfelde Observatory"
+  },
+  {
+   "id": "Q3306889",
+   "name": "Copenhagen Castle",
+   "sl": 18,
+   "file": "Copenhagen Castle 1698.jpg",
+   "lat": 55.6772,
+   "lon": 12.58,
+   "kind": "built",
+   "types": [
+    "castle ruin",
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Copenhagen Castle"
+  },
+  {
+   "id": "Q645678",
+   "name": "Flensburg Firth",
+   "sl": 18,
+   "file": "Aerial image of Flensburg Firth (view from the south).jpg",
+   "lat": 54.8667,
+   "lon": 9.55,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Flensburg Firth"
+  }
+ ]
+}

@@ -1,0 +1,1421 @@
+{
+ "country": "GB",
+ "items": [
+  {
+   "id": "Q39671",
+   "name": "Stonehenge",
+   "sl": 135,
+   "file": "Stonehenge Total.jpg",
+   "lat": 51.1789,
+   "lon": -1.8261,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cromlech",
+    "henge",
+    "history museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q587584",
+    "name": "Stonehenge, Avebury and Associated Sites"
+   },
+   "also": [],
+   "cat": "Stonehenge"
+  },
+  {
+   "id": "Q6373",
+   "name": "British Museum",
+   "sl": 110,
+   "file": "British Museum from NE 2 (cropped).JPG",
+   "lat": 51.5194,
+   "lon": -0.1269,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "charitable organization",
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "British Museum"
+  },
+  {
+   "id": "Q8691",
+   "name": "London Heathrow Airport",
+   "sl": 98,
+   "file": "London - Heathrow (LHR - EGLL) AN1572653.jpg",
+   "lat": 51.4775,
+   "lon": -0.4614,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "London Heathrow Airport"
+  },
+  {
+   "id": "Q42182",
+   "name": "Buckingham Palace",
+   "sl": 95,
+   "file": "Buckingham Palace, London - April 2009.jpg",
+   "lat": 51.501,
+   "lon": -0.142,
+   "kind": "built",
+   "types": [
+    "art collection",
+    "country house",
+    "historic house museum",
+    "Residence of the British Royal Family"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buckingham Palace"
+  },
+  {
+   "id": "Q5933",
+   "name": "Westminster Abbey",
+   "sl": 91,
+   "file": "Westminster-Abbey.JPG",
+   "lat": 51.4994,
+   "lon": -0.1274,
+   "kind": "built",
+   "types": [
+    "abbey church",
+    "Anglican church building",
+    "Anglican or Episcopal cathedral",
+    "collegiate church"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q10344038",
+    "name": "Palace of Westminster and Westminster Abbey including Saint Margaret's Church"
+   },
+   "also": [],
+   "cat": "Westminster Abbey"
+  },
+  {
+   "id": "Q41225",
+   "name": "Big Ben",
+   "sl": 88,
+   "file": "Elizabeth Tower and the north front of the Palace of Westminster, London.jpg",
+   "lat": 51.5007,
+   "lon": -0.1246,
+   "kind": "built",
+   "types": [
+    "architectural element",
+    "belfry",
+    "bell",
+    "clock bell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Big Ben (bell)"
+  },
+  {
+   "id": "Q62378",
+   "name": "Tower of London",
+   "sl": 88,
+   "file": "Tower of London viewed from the River Thames.jpg",
+   "lat": 51.5082,
+   "lon": -0.0762,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castle",
+    "independent museum",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tower of London"
+  },
+  {
+   "id": "Q62408",
+   "name": "Palace of Westminster",
+   "sl": 86,
+   "file": "Houses of Parliament in 2022 (cropped).jpg",
+   "lat": 51.4994,
+   "lon": -0.1242,
+   "kind": "built",
+   "types": [
+    "parliament building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q10344038",
+    "name": "Palace of Westminster and Westminster Abbey including Saint Margaret's Church"
+   },
+   "also": [],
+   "cat": "Palace of Westminster"
+  },
+  {
+   "id": "Q83125",
+   "name": "Tower Bridge",
+   "sl": 86,
+   "file": "London - London Tower Bridge - 140806 171049.jpg",
+   "lat": 51.5056,
+   "lon": -0.0753,
+   "kind": "built",
+   "types": [
+    "bascule bridge",
+    "gothic revival bridge",
+    "road bridge",
+    "steel bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tower Bridge"
+  },
+  {
+   "id": "Q83457",
+   "name": "Old Trafford",
+   "sl": 85,
+   "file": "Old Traford.jpg",
+   "lat": 53.4631,
+   "lon": -2.2914,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Old Trafford"
+  },
+  {
+   "id": "Q42646",
+   "name": "Windsor Castle",
+   "sl": 85,
+   "file": "Windsor Castle at Sunset - Nov 2006.jpg",
+   "lat": 51.4839,
+   "lon": -0.6044,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château",
+    "English country house",
+    "historic house museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Windsor Castle"
+  },
+  {
+   "id": "Q57357",
+   "name": "Hadrian's Wall",
+   "sl": 82,
+   "file": "Section of Hadrian's Wall 1.jpg",
+   "lat": 55.0242,
+   "lon": -2.2925,
+   "kind": "built",
+   "types": [
+    "cordon",
+    "international border",
+    "Roman archaeological site",
+    "Roman limes"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q4147903",
+    "name": "borders of the Roman Empire"
+   },
+   "also": [],
+   "cat": "Hadrian's Wall"
+  },
+  {
+   "id": "Q49650",
+   "name": "Loch Ness",
+   "sl": 79,
+   "file": "LochNessUrquhart.jpg",
+   "lat": 57.3,
+   "lon": -4.45,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Loch Ness"
+  },
+  {
+   "id": "Q45671",
+   "name": "Anfield",
+   "sl": 78,
+   "file": "Liverpool anfield road stadium.jpg",
+   "lat": 53.4308,
+   "lon": -2.9608,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anfield (stadium)"
+  },
+  {
+   "id": "Q104674",
+   "name": "Ben Nevis",
+   "sl": 78,
+   "file": "Ben nevis.jpg",
+   "lat": 56.7969,
+   "lon": -5.0037,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ben Nevis"
+  },
+  {
+   "id": "Q23308",
+   "name": "British Library",
+   "sl": 78,
+   "file": "British Library + St Pancras 7527-31hug.jpg",
+   "lat": 51.5294,
+   "lon": -0.1269,
+   "kind": "built",
+   "types": [
+    "library building",
+    "national library",
+    "non-departmental public body",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "British Library"
+  },
+  {
+   "id": "Q130206",
+   "name": "London Bridge",
+   "sl": 78,
+   "file": "London Bridge from South bank.jpg",
+   "lat": 51.5081,
+   "lon": -0.0878,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "box girder bridge",
+    "prestressed concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "London Bridge"
+  },
+  {
+   "id": "Q160659",
+   "name": "London Eye",
+   "sl": 78,
+   "file": "London Eye seen from the north bank of the Thames, London.jpg",
+   "lat": 51.5033,
+   "lon": -0.1197,
+   "kind": "built",
+   "types": [
+    "Ferris wheel",
+    "tourist attraction"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "London Eye"
+  },
+  {
+   "id": "Q128468",
+   "name": "Wembley Stadium",
+   "sl": 78,
+   "file": "London Wembley.jpg",
+   "lat": 51.5556,
+   "lon": -0.2794,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wembley Stadium"
+  },
+  {
+   "id": "Q163995",
+   "name": "Emirates Stadium",
+   "sl": 76,
+   "file": "London Emirates Stadium arsenal.jpg",
+   "lat": 51.555,
+   "lon": -0.1083,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emirates Stadium"
+  },
+  {
+   "id": "Q171458",
+   "name": "Stamford Bridge",
+   "sl": 76,
+   "file": "London Stamford Bridge.jpg",
+   "lat": 51.4817,
+   "lon": -0.1911,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stamford Bridge (stadium)"
+  },
+  {
+   "id": "Q106187",
+   "name": "Giant's Causeway",
+   "sl": 75,
+   "file": "Giant's Causeway (36834542085).jpg",
+   "lat": 55.2408,
+   "lon": -6.5117,
+   "kind": "natural",
+   "types": [
+    "columnar basalt",
+    "landform"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Giant's Causeway"
+  },
+  {
+   "id": "Q173882",
+   "name": "St Paul's Cathedral",
+   "sl": 74,
+   "file": "St Pauls aerial (cropped).jpg",
+   "lat": 51.5138,
+   "lon": -0.0983,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral",
+    "cathedral library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Paul's Cathedral"
+  },
+  {
+   "id": "Q129143",
+   "name": "Trafalgar Square",
+   "sl": 73,
+   "file": "Trafalgar Square, London 2 - Jun 2009.jpg",
+   "lat": 51.5081,
+   "lon": -0.1281,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trafalgar Square"
+  },
+  {
+   "id": "Q8703",
+   "name": "London Gatwick Airport",
+   "sl": 71,
+   "file": "Gatwick Airport (50850159593).jpg",
+   "lat": 51.1472,
+   "lon": -0.1903,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "London Gatwick Airport"
+  },
+  {
+   "id": "Q180788",
+   "name": "National Gallery",
+   "sl": 71,
+   "file": "Galería Nacional, Londres, Inglaterra, 2014-08-07, DD 036.JPG",
+   "lat": 51.5089,
+   "lon": -0.1283,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery, London"
+  },
+  {
+   "id": "Q172190",
+   "name": "London Stadium",
+   "sl": 70,
+   "file": "London Olympic Stadium West Ham.jpg",
+   "lat": 51.5386,
+   "lon": -0.0164,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "baseball venue",
+    "rugby league venue",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "London Stadium"
+  },
+  {
+   "id": "Q186309",
+   "name": "Madame Tussauds",
+   "sl": 69,
+   "file": "MadameTussaudMuseumLondon.JPG",
+   "lat": 51.5228,
+   "lon": -0.1552,
+   "kind": "built",
+   "types": [
+    "wax museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madame Tussauds"
+  },
+  {
+   "id": "Q48159",
+   "name": "Etihad Stadium",
+   "sl": 68,
+   "file": "City of Manchester Stadium 2023 cropped.jpg",
+   "lat": 53.4831,
+   "lon": -2.2003,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "music venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "City of Manchester Stadium"
+  },
+  {
+   "id": "Q188203",
+   "name": "Bristol Channel",
+   "sl": 66,
+   "file": "Sunrisebristolchannel.jpg",
+   "lat": 51.35,
+   "lon": -3.7,
+   "kind": "natural",
+   "types": [
+    "channel",
+    "river mouth"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bristol Channel"
+  },
+  {
+   "id": "Q29265",
+   "name": "Canterbury Cathedral",
+   "sl": 66,
+   "file": "Canterbury Cathedral - Portal Nave Cross-spire.jpeg",
+   "lat": 51.2798,
+   "lon": 1.083,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15924897",
+    "name": "Canterbury Cathedral, St Augustine's Abbey, and St Martin's Church"
+   },
+   "also": [],
+   "cat": "Canterbury Cathedral"
+  },
+  {
+   "id": "Q189022",
+   "name": "Imperial College London",
+   "sl": 65,
+   "file": "Imperial College London down Exhibition Road.jpg",
+   "lat": 51.4983,
+   "lon": -0.1769,
+   "kind": "built",
+   "types": [
+    "building",
+    "educational organization",
+    "public research university",
+    "university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imperial College London"
+  },
+  {
+   "id": "Q169101",
+   "name": "10 Downing Street",
+   "sl": 64,
+   "file": "10 Downing Street. MOD 45155532 (cropped).jpg",
+   "lat": 51.5033,
+   "lon": -0.1278,
+   "kind": "built",
+   "types": [
+    "seat of government",
+    "terrace house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "10 Downing Street"
+  },
+  {
+   "id": "Q42049",
+   "name": "Balmoral Castle",
+   "sl": 62,
+   "file": "Balmoral Castle.jpg",
+   "lat": 57.0407,
+   "lon": -3.2302,
+   "kind": "built",
+   "types": [
+    "château",
+    "country house",
+    "estate",
+    "garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Balmoral Castle"
+  },
+  {
+   "id": "Q175339",
+   "name": "Villa Park",
+   "sl": 62,
+   "file": "Birmingham aston villa park stadium.jpg",
+   "lat": 52.5092,
+   "lon": -1.8847,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa Park"
+  },
+  {
+   "id": "Q192988",
+   "name": "Royal Observatory",
+   "sl": 61,
+   "file": "Royal observatory greenwich.jpg",
+   "lat": 51.4778,
+   "lon": -0.0014,
+   "kind": "built",
+   "types": [
+    "astronomical observatory",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16921416",
+    "name": "Maritime Greenwich"
+   },
+   "also": [],
+   "cat": "Royal Observatory, Greenwich"
+  },
+  {
+   "id": "Q193375",
+   "name": "Tate Modern",
+   "sl": 61,
+   "file": "Tate Modern viewed from Thames Pleasure Boat - geograph.org.uk - 307445.jpg",
+   "lat": 51.5078,
+   "lon": -0.0994,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum",
+    "non-departmental public body"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tate Modern"
+  },
+  {
+   "id": "Q213322",
+   "name": "Victoria and Albert Museum",
+   "sl": 61,
+   "file": "Victoria & Albert Museum Entrance, London, UK - Diliff.jpg",
+   "lat": 51.4969,
+   "lon": -0.1716,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "design museum",
+    "national museum",
+    "theatre museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Victoria and Albert Museum"
+  },
+  {
+   "id": "Q968420",
+   "name": "Goodison Park",
+   "sl": 60,
+   "file": "Liverpool fc everton stadium.jpg",
+   "lat": 53.4389,
+   "lon": -2.9664,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goodison Park"
+  },
+  {
+   "id": "Q8709",
+   "name": "London Stansted Airport",
+   "sl": 60,
+   "file": "Stansted Airport - geograph.org.uk - 1710808.jpg",
+   "lat": 51.885,
+   "lon": 0.235,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "London Stansted Airport"
+  },
+  {
+   "id": "Q191774",
+   "name": "St James’ Park",
+   "sl": 60,
+   "file": "Newcastle st-james-park stadium.jpg",
+   "lat": 54.9756,
+   "lon": -1.6217,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St James' Park, Newcastle upon Tyne"
+  },
+  {
+   "id": "Q18536",
+   "name": "The Shard",
+   "sl": 60,
+   "file": "The Shard from the Sky Garden 2015.jpg",
+   "lat": 51.5044,
+   "lon": -0.0867,
+   "kind": "built",
+   "types": [
+    "office building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Shard"
+  },
+  {
+   "id": "Q8012",
+   "name": "Derby Museum and Art Gallery",
+   "sl": 59,
+   "file": "Derby Museum Flowers 2475926344 d64a8a8f6e o.jpg",
+   "lat": 52.9229,
+   "lon": -1.48,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "independent museum",
+    "local museum",
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Derby Museum and Art Gallery"
+  },
+  {
+   "id": "Q212065",
+   "name": "Edinburgh Castle",
+   "sl": 58,
+   "file": "Edinburgh Castle from the Grassmarket.jpg",
+   "lat": 55.9487,
+   "lon": -3.2007,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "building complex",
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edinburgh Castle"
+  },
+  {
+   "id": "Q192088",
+   "name": "Eton College",
+   "sl": 57,
+   "file": "Eton College front 4.jpg",
+   "lat": 51.4917,
+   "lon": -0.6094,
+   "kind": "built",
+   "types": [
+    "boarding school",
+    "boys' school",
+    "independent school",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eton College"
+  },
+  {
+   "id": "Q193651",
+   "name": "Hampden Park",
+   "sl": 57,
+   "file": "Hampden Park (Glasgow) aerial view cropped.jpg",
+   "lat": 55.8259,
+   "lon": -4.252,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hampden Stadium"
+  },
+  {
+   "id": "Q186425",
+   "name": "White Hart Lane",
+   "sl": 57,
+   "file": "White Hart Lane from South End.JPG",
+   "lat": 51.6033,
+   "lon": -0.0658,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "defunct sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "White Hart Lane"
+  },
+  {
+   "id": "Q620031",
+   "name": "Leicester City Stadium",
+   "sl": 56,
+   "file": "King Power Stadium wide view.jpg",
+   "lat": 52.6203,
+   "lon": -1.1422,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leicester City Stadium"
+  },
+  {
+   "id": "Q8712",
+   "name": "London Luton Airport",
+   "sl": 56,
+   "file": "Luton Airport from the air (geograph 7106190).jpg",
+   "lat": 51.8747,
+   "lon": -0.3683,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "London Luton Airport"
+  },
+  {
+   "id": "Q55018",
+   "name": "Royal Opera House",
+   "sl": 56,
+   "file": "Royal Opera House and ballerina.jpg",
+   "lat": 51.5131,
+   "lon": -0.1228,
+   "kind": "built",
+   "types": [
+    "opera house",
+    "performing arts center",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Opera House Covent Garden"
+  },
+  {
+   "id": "Q202083",
+   "name": "Firth of Forth",
+   "sl": 55,
+   "file": "Wfm firth of forth.jpg",
+   "lat": 56.1667,
+   "lon": -2.75,
+   "kind": "natural",
+   "types": [
+    "estuary",
+    "firth",
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Firth of Forth"
+  },
+  {
+   "id": "Q275",
+   "name": "Forth Bridge",
+   "sl": 55,
+   "file": "Forthrailbridgefromsouthqueensferry.jpg",
+   "lat": 55.9984,
+   "lon": -3.3876,
+   "kind": "built",
+   "types": [
+    "cantilever bridge",
+    "railway bridge",
+    "steel bridge",
+    "truss bridge"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Forth Bridge"
+  },
+  {
+   "id": "Q8982",
+   "name": "London City Airport",
+   "sl": 55,
+   "file": "London City Airport Zwart.jpg",
+   "lat": 51.5053,
+   "lon": 0.0553,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "London City Airport"
+  },
+  {
+   "id": "Q8694",
+   "name": "Manchester Airport",
+   "sl": 55,
+   "file": "Manchester Airport.jpg",
+   "lat": 53.3539,
+   "lon": -2.275,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manchester Airport"
+  },
+  {
+   "id": "Q309388",
+   "name": "Natural History Museum",
+   "sl": 55,
+   "file": "Entrance to Natural History Museum, Cromwell Road, London SW7 - geograph.org.uk - 1034304.jpg",
+   "lat": 51.4961,
+   "lon": -0.1761,
+   "kind": "built",
+   "types": [
+    "herbarium",
+    "national museum",
+    "natural history museum",
+    "non-departmental public body"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Natural History Museum, London"
+  },
+  {
+   "id": "Q184619",
+   "name": "New Scotland Yard",
+   "sl": 55,
+   "file": "New Scotland Yard sign.jpg",
+   "lat": 51.5018,
+   "lon": -0.1245,
+   "kind": "built",
+   "types": [
+    "police station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Scotland Yard"
+  },
+  {
+   "id": "Q207385",
+   "name": "Kensington Palace",
+   "sl": 54,
+   "file": "Kensington Palace.jpg",
+   "lat": 51.5053,
+   "lon": -0.1883,
+   "kind": "built",
+   "types": [
+    "historic house museum",
+    "independent museum",
+    "palace",
+    "Residence of the British Royal Family"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kensington Palace"
+  },
+  {
+   "id": "Q208926",
+   "name": "Loch Lomond",
+   "sl": 54,
+   "file": "View of loch lomond.JPG",
+   "lat": 56.1482,
+   "lon": -4.6515,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Loch Lomond"
+  },
+  {
+   "id": "Q205666",
+   "name": "Hampton Court Palace",
+   "sl": 53,
+   "file": "Hampton Court Palace (3).jpg",
+   "lat": 51.4034,
+   "lon": -0.3375,
+   "kind": "built",
+   "types": [
+    "historic house museum",
+    "independent museum",
+    "palace",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hampton Court Palace"
+  },
+  {
+   "id": "Q1066373",
+   "name": "Selhurst Park",
+   "sl": 53,
+   "file": "London Selhurst Park crystal palace stadium aerialview.JPG",
+   "lat": 51.3983,
+   "lon": -0.0856,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Selhurst Park"
+  },
+  {
+   "id": "Q210957",
+   "name": "Antonine Wall",
+   "sl": 52,
+   "file": "Bar Hill.jpg",
+   "lat": 55.967,
+   "lon": -4.067,
+   "kind": "built",
+   "types": [
+    "defense line",
+    "defensive wall",
+    "Roman archaeological site",
+    "Roman limes"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q4147903",
+    "name": "borders of the Roman Empire"
+   },
+   "also": [],
+   "cat": "Antonine Wall"
+  },
+  {
+   "id": "Q208181",
+   "name": "Blenheim Palace",
+   "sl": 52,
+   "file": "Blenheim Palace 6-2008 4.jpg",
+   "lat": 51.8414,
+   "lon": -1.3609,
+   "kind": "built",
+   "types": [
+    "English country house",
+    "garden",
+    "historic house museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Blenheim Palace"
+  },
+  {
+   "id": "Q188617",
+   "name": "Kew Gardens",
+   "sl": 52,
+   "file": "Kew Gardens Palm House, London - July 2009.jpg",
+   "lat": 51.4789,
+   "lon": -0.2936,
+   "kind": "built",
+   "types": [
+    "botanical garden",
+    "garden",
+    "herbarium",
+    "higher education institution"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Botanic Gardens, Kew"
+  },
+  {
+   "id": "Q206942",
+   "name": "Lough Neagh",
+   "sl": 52,
+   "file": "Ducks on Lough Neagh - geograph.org.uk - 267285.jpg",
+   "lat": 54.6183,
+   "lon": -6.3953,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lough Neagh"
+  },
+  {
+   "id": "Q204496",
+   "name": "Millennium Stadium",
+   "sl": 52,
+   "file": "Principality Stadium May 3, 2016.jpg",
+   "lat": 51.4781,
+   "lon": -3.1825,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby league venue",
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Millennium Stadium"
+  },
+  {
+   "id": "Q193639",
+   "name": "Royal Albert Hall",
+   "sl": 52,
+   "file": "Hansom cab 1904.jpg",
+   "lat": 51.5011,
+   "lon": -0.1775,
+   "kind": "built",
+   "types": [
+    "concert hall",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Albert Hall"
+  },
+  {
+   "id": "Q202902",
+   "name": "The Crystal Palace",
+   "sl": 52,
+   "file": "Crystal Palace from the northeast from Dickinson's Comprehensive Pictures of the Great Exhibition of 1851. 1854.jpg",
+   "lat": 51.4223,
+   "lon": -0.0758,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "event venue",
+    "greenhouse",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Crystal Palace (building)"
+  },
+  {
+   "id": "Q272162",
+   "name": "St James's Palace",
+   "sl": 51,
+   "file": "St James's Palace, London - geograph.org.uk - 7963883.jpg",
+   "lat": 51.5047,
+   "lon": -0.1378,
+   "kind": "built",
+   "types": [
+    "historic building",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. James's Palace"
+  },
+  {
+   "id": "Q192687",
+   "name": "Downing Street",
+   "sl": 50,
+   "file": "Downing Street.jpg",
+   "lat": 51.5033,
+   "lon": -0.1275,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Downing Street"
+  },
+  {
+   "id": "Q60527",
+   "name": "Episkopi Cantonment",
+   "sl": 50,
+   "file": "20061019 Episkopi Bay.jpg",
+   "lat": 34.6805,
+   "lon": 32.8456,
+   "kind": "built",
+   "types": [
+    "military base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q390150",
+   "name": "Salisbury Cathedral",
+   "sl": 50,
+   "file": "Salisbury Cathedral.jpg",
+   "lat": 51.0647,
+   "lon": -1.7975,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salisbury Cathedral"
+  },
+  {
+   "id": "Q217142",
+   "name": "Snowdon",
+   "sl": 50,
+   "file": "Snowdon from Llyn Llydaw.jpg",
+   "lat": 53.0689,
+   "lon": -4.0756,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Snowdon"
+  },
+  {
+   "id": "Q567339",
+   "name": "St Mary's Stadium",
+   "sl": 50,
+   "file": "Saint Mary's Stadium - geograph.org.uk - 5049881.jpg",
+   "lat": 50.9058,
+   "lon": -1.3911,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St Mary's Stadium"
+  },
+  {
+   "id": "Q31969",
+   "name": "Stadium of Light",
+   "sl": 50,
+   "file": "Sunderland stadium of light.jpg",
+   "lat": 54.9144,
+   "lon": -1.3882,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadium of Light"
+  },
+  {
+   "id": "Q191161",
+   "name": "30 St Mary Axe",
+   "sl": 49,
+   "file": "30 St Mary Axe from Leadenhall Street.jpg",
+   "lat": 51.5144,
+   "lon": -0.0803,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "30 St Mary Axe"
+  },
+  {
+   "id": "Q390169",
+   "name": "Lincoln Cathedral",
+   "sl": 49,
+   "file": "Lincoln Cathedral viewed from Lincoln Castle.jpg",
+   "lat": 53.2344,
+   "lon": -0.5361,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lincoln Cathedral"
+  },
+  {
+   "id": "Q816437",
+   "name": "Skara Brae",
+   "sl": 49,
+   "file": "Orkney Skara Brae.jpg",
+   "lat": 59.0487,
+   "lon": -3.3417,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Neolithic settlement"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1334966",
+    "name": "Heart of Neolithic Orkney"
+   },
+   "also": [],
+   "cat": "Skara Brae"
+  },
+  {
+   "id": "Q456960",
+   "name": "Westminster Bridge",
+   "sl": 49,
+   "file": "Westminster, London (7660306446).jpg",
+   "lat": 51.5008,
+   "lon": -0.1219,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "road bridge",
+    "tram bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Westminster Bridge"
+  },
+  {
+   "id": "Q216037",
+   "name": "Celtic Park",
+   "sl": 48,
+   "file": "Celtic park 2.jpg",
+   "lat": 55.8497,
+   "lon": -4.2056,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Celtic Park"
+  },
+  {
+   "id": "Q44057",
+   "name": "Millennium Bridge",
+   "sl": 48,
+   "file": "Mill.bridge.from.tate.modern.arp.jpg",
+   "lat": 51.5102,
+   "lon": -0.0984,
+   "kind": "built",
+   "types": [
+    "footbridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "London Millennium Bridge"
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "country": "BV",
+ "items": [
+  {
+   "id": "Q618361",
+   "name": "Olavtoppen",
+   "sl": 19,
+   "file": "Bouvet Map.png",
+   "lat": -54.4046,
+   "lon": 3.3502,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q510582",
+   "name": "Cape Circoncision",
+   "sl": 12,
+   "file": "Cape Circoncision - Bouvet Island.jpg",
+   "lat": -54.4109,
+   "lon": 3.3467,
+   "kind": "natural",
+   "types": [
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q794792",
+   "name": "Cape Valdivia",
+   "sl": 11,
+   "file": "Cape Valdivia.jpg",
+   "lat": -54.389,
+   "lon": 3.354,
+   "kind": "natural",
+   "types": [
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q8337397",
+   "name": "Lykketoppen",
+   "sl": 10,
+   "file": "Bouvet Map.png",
+   "lat": -54.45,
+   "lon": 3.3833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6915387",
+   "name": "Mosbytoppane",
+   "sl": 10,
+   "file": "Bouvet Map.png",
+   "lat": -54.4333,
+   "lon": 3.35,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q794763",
+   "name": "Cape Meteor",
+   "sl": 9,
+   "file": "Bouvet Map.png",
+   "lat": -54.4333,
+   "lon": 3.4833,
+   "kind": "natural",
+   "types": [
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5109173",
+   "name": "Christensen Glacier",
+   "sl": 8,
+   "file": "Bouvet Map.png",
+   "lat": -54.4667,
+   "lon": 3.4,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5904586",
+   "name": "Horntvedt Glacier",
+   "sl": 8,
+   "file": "Bouvet Map.png",
+   "lat": -54.4167,
+   "lon": 3.35,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7232970",
+   "name": "Posadowsky Glacier",
+   "sl": 8,
+   "file": "Bouvet Map.png",
+   "lat": -54.4167,
+   "lon": 3.3667,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

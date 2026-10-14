@@ -1,0 +1,1353 @@
+{
+ "country": "SG",
+ "items": [
+  {
+   "id": "Q32159",
+   "name": "Singapore Changi Airport",
+   "sl": 75,
+   "file": "Singapore Airport, Jewel Changi, 20230722 (1) (53337065497).jpg",
+   "lat": 1.3592,
+   "lon": 103.9894,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Singapore Changi Airport"
+  },
+  {
+   "id": "Q870844",
+   "name": "Sentosa",
+   "sl": 49,
+   "file": "Sentosa viewed from the Carlsberg Sky Tower, Singapore - 20060716-03.jpg",
+   "lat": 1.248,
+   "lon": 103.83,
+   "kind": "natural",
+   "types": [
+    "Administrative territorial entity of Singapore",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sentosa"
+  },
+  {
+   "id": "Q3046409",
+   "name": "Singapore Botanic Gardens",
+   "sl": 47,
+   "file": "Singapore Botanic Gardens Palm Valley.jpg",
+   "lat": 1.3151,
+   "lon": 103.8162,
+   "kind": "built",
+   "types": [
+    "botanical garden",
+    "herbarium"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Singapore Botanic Gardens"
+  },
+  {
+   "id": "Q548679",
+   "name": "Marina Bay Sands",
+   "sl": 41,
+   "file": "Marina Bay Sands Hotel 3 (31345110894).jpg",
+   "lat": 1.2825,
+   "lon": 103.86,
+   "kind": "built",
+   "types": [
+    "casino hotel",
+    "hotel",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marina Bay Sands"
+  },
+  {
+   "id": "Q630135",
+   "name": "Gardens by the Bay",
+   "sl": 38,
+   "file": "Supertree Grove, Gardens by the Bay, Singapore - 20120712-02.jpg",
+   "lat": 1.2833,
+   "lon": 103.8653,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gardens by the Bay"
+  },
+  {
+   "id": "Q752407",
+   "name": "Singapore Flyer",
+   "sl": 36,
+   "file": "Dikaiosp 210819 6963.jpg",
+   "lat": 1.2894,
+   "lon": 103.8632,
+   "kind": "built",
+   "types": [
+    "Ferris wheel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Singapore Flyer"
+  },
+  {
+   "id": "Q1421994",
+   "name": "Port of Singapore",
+   "sl": 35,
+   "file": "Psa keppel.JPG",
+   "lat": 1.2656,
+   "lon": 103.835,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ports and harbours in Singapore"
+  },
+  {
+   "id": "Q720209",
+   "name": "Bukit Timah",
+   "sl": 28,
+   "file": "Bukit timah rock.jpg",
+   "lat": 1.3547,
+   "lon": 103.7764,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bukit Timah"
+  },
+  {
+   "id": "Q4201688",
+   "name": "National Stadium",
+   "sl": 27,
+   "file": "Seating at Singapore National Stadium.jpg",
+   "lat": 1.3044,
+   "lon": 103.8743,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Stadium, Singapore"
+  },
+  {
+   "id": "Q1538837",
+   "name": "Raffles Hotel",
+   "sl": 27,
+   "file": "RafflesHotel-Singapore-20041025.jpg",
+   "lat": 1.2949,
+   "lon": 103.8545,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Raffles Hotel"
+  },
+  {
+   "id": "Q2709506",
+   "name": "Singapore Zoo",
+   "sl": 27,
+   "file": "Singapore Zoo.JPG",
+   "lat": 1.4047,
+   "lon": 103.7911,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Singapore Zoo"
+  },
+  {
+   "id": "Q333305",
+   "name": "One Raffles Place",
+   "sl": 26,
+   "file": "OUB Centre Skyward.JPG",
+   "lat": 1.2843,
+   "lon": 103.8511,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "OUB Centre"
+  },
+  {
+   "id": "Q2681107",
+   "name": "The Helix Bridge",
+   "sl": 25,
+   "file": "Puente Helix, Marina Bay, Singapur, 2023-08-16, DD 144-146 HDR.jpg",
+   "lat": 1.2876,
+   "lon": 103.861,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Helix Bridge"
+  },
+  {
+   "id": "Q1547682",
+   "name": "Jurong Bird Park",
+   "sl": 24,
+   "file": "Flamingo Lake, Jurong Bird Park, Oct 05.JPG",
+   "lat": 1.321,
+   "lon": 103.707,
+   "kind": "built",
+   "types": [
+    "aviary",
+    "bird park",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jurong Bird Park"
+  },
+  {
+   "id": "Q632689",
+   "name": "National Museum of Singapore",
+   "sl": 24,
+   "file": "National Museum of Singapore 2, Aug 06.JPG",
+   "lat": 1.2967,
+   "lon": 103.8486,
+   "kind": "built",
+   "types": [
+    "history museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Singapore"
+  },
+  {
+   "id": "Q892615",
+   "name": "Johor–Singapore Causeway",
+   "sl": 23,
+   "file": "Singapore-Johor Causeway.jpg",
+   "lat": 1.4528,
+   "lon": 103.7692,
+   "kind": "both",
+   "types": [
+    "causeway",
+    "international bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MY"
+   ],
+   "cat": "Johor-Singapore Causeway"
+  },
+  {
+   "id": "Q1907146",
+   "name": "Masjid Sultan",
+   "sl": 22,
+   "file": "Masjid Sultan, Singapore (2023 June) - img 02.jpg",
+   "lat": 1.3021,
+   "lon": 103.859,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masjid Sultan"
+  },
+  {
+   "id": "Q6819812",
+   "name": "Merlion Park",
+   "sl": 20,
+   "file": "Singapore Merlion BCT.jpg",
+   "lat": 1.2868,
+   "lon": 103.855,
+   "kind": "built",
+   "types": [
+    "architectural landmark"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Merlion Park"
+  },
+  {
+   "id": "Q587586",
+   "name": "Republic Plaza",
+   "sl": 20,
+   "file": "Republic Plaza.jpg",
+   "lat": 1.2828,
+   "lon": 103.851,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Republic Plaza"
+  },
+  {
+   "id": "Q1432865",
+   "name": "Seletar Airport",
+   "sl": 20,
+   "file": "Ramp Over View (4552227620).jpg",
+   "lat": 1.4169,
+   "lon": 103.8678,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seletar Airport"
+  },
+  {
+   "id": "Q1186714",
+   "name": "Universal Studios Singapore",
+   "sl": 20,
+   "file": "Universal Studios lake (6952709373).jpg",
+   "lat": 1.255,
+   "lon": 103.8217,
+   "kind": "built",
+   "types": [
+    "amusement park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Universal Studios Singapore"
+  },
+  {
+   "id": "Q559113",
+   "name": "Esplanade – Theatres on the Bay",
+   "sl": 19,
+   "file": "Theatre and Concert Hall, Esplanade – Theatres on the Bay, Singapore - 20110528.jpg",
+   "lat": 1.2897,
+   "lon": 103.8553,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Esplanade - Theatres on the Bay"
+  },
+  {
+   "id": "Q3270373",
+   "name": "Jalan Besar Stadium",
+   "sl": 19,
+   "file": "Jalan Besar Stadium.JPG",
+   "lat": 1.31,
+   "lon": 103.8603,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jalan Besar Stadium"
+  },
+  {
+   "id": "Q6970475",
+   "name": "National Gallery Singapore",
+   "sl": 19,
+   "file": "Padang Atrium, National Gallery Singapore - 20151127-03.jpg",
+   "lat": 1.2905,
+   "lon": 103.8519,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery Singapore"
+  },
+  {
+   "id": "Q2428845",
+   "name": "Sri Mariamman Temple, Singapore",
+   "sl": 19,
+   "file": "00 1545 Sri Mariamman temple in Singapore.jpg",
+   "lat": 1.2826,
+   "lon": 103.845,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sri Mariamman Temple, Singapore"
+  },
+  {
+   "id": "Q2744014",
+   "name": "ArtScience Museum",
+   "sl": 18,
+   "file": "Singapore ArtScience Museum 1.jpg",
+   "lat": 1.2861,
+   "lon": 103.859,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "ArtScience Museum, Marina Bay Sands"
+  },
+  {
+   "id": "Q2614510",
+   "name": "Capital Tower",
+   "sl": 18,
+   "file": "Capital Tower, Jan 06.JPG",
+   "lat": 1.2774,
+   "lon": 103.8475,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capital Tower, Singapore"
+  },
+  {
+   "id": "Q2032637",
+   "name": "Singapore Art Museum",
+   "sl": 18,
+   "file": "Singapore Art Museum - 20131211.jpg",
+   "lat": 1.2969,
+   "lon": 103.8506,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Singapore Art Museum"
+  },
+  {
+   "id": "Q168806",
+   "name": "St Andrew's Cathedral",
+   "sl": 18,
+   "file": "St Andrew's Cathedral, Singapore 2012.JPG",
+   "lat": 1.2922,
+   "lon": 103.8522,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Andrew's Cathedral, Singapore"
+  },
+  {
+   "id": "Q385725",
+   "name": "Bukit Timah Nature Reserve",
+   "sl": 17,
+   "file": "A hike to the Bukit Timah Summit (2025) - img 11.jpg",
+   "lat": 1.3528,
+   "lon": 103.778,
+   "kind": "natural",
+   "types": [
+    "ASEAN Heritage Park",
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bukit Timah Nature Reserve"
+  },
+  {
+   "id": "Q3121386",
+   "name": "Jurong East MRT station",
+   "sl": 17,
+   "file": "Ns1ew24jurongeast exterior.jpg",
+   "lat": 1.3334,
+   "lon": 103.7421,
+   "kind": "built",
+   "types": [
+    "cross-platform interchange",
+    "elevated station",
+    "metro station",
+    "Spanish solution"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jurong East MRT Station"
+  },
+  {
+   "id": "Q618988",
+   "name": "Singapore Indoor Stadium",
+   "sl": 17,
+   "file": "Singapore Indoor Stadium, Dec 05.JPG",
+   "lat": 1.3006,
+   "lon": 103.8744,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Singapore Indoor Stadium"
+  },
+  {
+   "id": "Q633033",
+   "name": "Asian Civilisations Museum",
+   "sl": 16,
+   "file": "Asian Civilisations Museum, Empress Place 2.JPG",
+   "lat": 1.2875,
+   "lon": 103.8514,
+   "kind": "built",
+   "types": [
+    "history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asian Civilisations Museum"
+  },
+  {
+   "id": "Q3236019",
+   "name": "National Stadium",
+   "sl": 16,
+   "file": "National stadium kallang sg z.JPG",
+   "lat": 1.3043,
+   "lon": 103.8746,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Former National Stadium, Singapore"
+  },
+  {
+   "id": "Q3267849",
+   "name": "Admiralty MRT station",
+   "sl": 15,
+   "file": "NS10 Admiralty MRT Platform.jpg",
+   "lat": 1.4407,
+   "lon": 103.8009,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Admiralty MRT Station"
+  },
+  {
+   "id": "Q2266049",
+   "name": "Ang Mo Kio MRT station",
+   "sl": 15,
+   "file": "NS16 Ang Mo Kio Platform A-2.jpg",
+   "lat": 1.37,
+   "lon": 103.8495,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station",
+    "Spanish solution"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ang Mo Kio MRT Station"
+  },
+  {
+   "id": "Q1106644",
+   "name": "Bayfront MRT station",
+   "sl": 15,
+   "file": "Cross platform interchange of Bayfront station.jpg",
+   "lat": 1.2825,
+   "lon": 103.8594,
+   "kind": "built",
+   "types": [
+    "cross-platform interchange",
+    "metro station",
+    "underground station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bayfront MRT Station"
+  },
+  {
+   "id": "Q1108329",
+   "name": "Bishan Stadium",
+   "sl": 15,
+   "file": "Bishan Stadium and Sports Hall.JPG",
+   "lat": 1.3545,
+   "lon": 103.8515,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bishan Stadium and Sports Hall"
+  },
+  {
+   "id": "Q2057489",
+   "name": "Bukit Batok MRT station",
+   "sl": 15,
+   "file": "NS2 Bukit Batok Platform B.jpg",
+   "lat": 1.3492,
+   "lon": 103.7497,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bukit Batok MRT Station"
+  },
+  {
+   "id": "Q2246144",
+   "name": "Bukit Gombak MRT station",
+   "sl": 15,
+   "file": "Bukit Gombak MRT Station, 2015.jpg",
+   "lat": 1.3587,
+   "lon": 103.7518,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bukit Gombak MRT Station"
+  },
+  {
+   "id": "Q3272296",
+   "name": "Clementi MRT station",
+   "sl": 15,
+   "file": "Clementi MRT Station at night.jpg",
+   "lat": 1.315,
+   "lon": 103.7653,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Clementi MRT Station"
+  },
+  {
+   "id": "Q3268514",
+   "name": "Expo station",
+   "sl": 15,
+   "file": "Expo MRT Station exterior.jpg",
+   "lat": 1.3355,
+   "lon": 103.9618,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Expo MRT Station"
+  },
+  {
+   "id": "Q2152805",
+   "name": "Khatib MRT station",
+   "sl": 15,
+   "file": "KhatibMRT.JPG",
+   "lat": 1.4172,
+   "lon": 103.8329,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khatib MRT Station"
+  },
+  {
+   "id": "Q2598513",
+   "name": "Kranji MRT station",
+   "sl": 15,
+   "file": "NS7 Kranji Exit A.jpg",
+   "lat": 1.425,
+   "lon": 103.7619,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kranji MRT Station"
+  },
+  {
+   "id": "Q7697795",
+   "name": "Lau Pa Sat",
+   "sl": 15,
+   "file": "Lau Pa Sat Singapore 2.jpg",
+   "lat": 1.2806,
+   "lon": 103.8504,
+   "kind": "built",
+   "types": [
+    "building",
+    "hawker center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lau Pa Sat"
+  },
+  {
+   "id": "Q1083571",
+   "name": "Malaysia–Singapore Second Link",
+   "sl": 15,
+   "file": "Malaysia-Singapore Second Link Linkedua.jpg",
+   "lat": 1.3509,
+   "lon": 103.6331,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MY"
+   ],
+   "cat": "Malaysia-Singapore Second Link"
+  },
+  {
+   "id": "Q2346222",
+   "name": "Marsiling MRT station",
+   "sl": 15,
+   "file": "MarsilingMRT.JPG",
+   "lat": 1.4326,
+   "lon": 103.7743,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marsiling MRT Station"
+  },
+  {
+   "id": "Q2591642",
+   "name": "Sembawang MRT station",
+   "sl": 15,
+   "file": "NS11 Sembawang Exit A 20200728 183554.jpg",
+   "lat": 1.449,
+   "lon": 103.8202,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sembawang MRT Station"
+  },
+  {
+   "id": "Q7522983",
+   "name": "Singapore General Hospital",
+   "sl": 15,
+   "file": "Singapore General Hospital, Nov 05.JPG",
+   "lat": 1.2787,
+   "lon": 103.8344,
+   "kind": "built",
+   "types": [
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Singapore General Hospital"
+  },
+  {
+   "id": "Q3267838",
+   "name": "Woodlands station",
+   "sl": 15,
+   "file": "NS9 Woodlands NSL platforms.jpg",
+   "lat": 1.4371,
+   "lon": 103.7865,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station",
+    "underground station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Woodlands MRT Station"
+  },
+  {
+   "id": "Q2285411",
+   "name": "Yew Tee MRT station",
+   "sl": 15,
+   "file": "NS5 Yew Tee Platform.jpg",
+   "lat": 1.3975,
+   "lon": 103.7475,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yew Tee MRT Station"
+  },
+  {
+   "id": "Q1903146",
+   "name": "Yio Chu Kang MRT station",
+   "sl": 15,
+   "file": "Platform screen doors at Yio Chu Kang MRT station, Singapore.jpg",
+   "lat": 1.3819,
+   "lon": 103.8448,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yio Chu Kang MRT Station"
+  },
+  {
+   "id": "Q2944154",
+   "name": "Yishun MRT station",
+   "sl": 15,
+   "file": "Yishun MRT Station with PSDs.jpg",
+   "lat": 1.4295,
+   "lon": 103.8352,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yishun MRT Station"
+  },
+  {
+   "id": "Q3272290",
+   "name": "Aljunied MRT station",
+   "sl": 14,
+   "file": "AljuinedMRT.JPG",
+   "lat": 1.3164,
+   "lon": 103.883,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aljunied MRT station"
+  },
+  {
+   "id": "Q3272378",
+   "name": "Bedok MRT station",
+   "sl": 14,
+   "file": "EW5 Bedok MRT Station.jpg",
+   "lat": 1.324,
+   "lon": 103.93,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bedok MRT Station"
+  },
+  {
+   "id": "Q3272275",
+   "name": "Boon Lay MRT station",
+   "sl": 14,
+   "file": "Boon Lay MRT 3.JPG",
+   "lat": 1.3386,
+   "lon": 103.7058,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boon Lay MRT Station"
+  },
+  {
+   "id": "Q3272301",
+   "name": "Chinese Garden MRT station",
+   "sl": 14,
+   "file": "Chinesegarden-mrt.JPG",
+   "lat": 1.3425,
+   "lon": 103.7325,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chinese Garden MRT Station"
+  },
+  {
+   "id": "Q2236720",
+   "name": "Choa Chu Kang MRT/LRT station",
+   "sl": 14,
+   "file": "NS4 BP1 Choa Chu Kang.jpg",
+   "lat": 1.3851,
+   "lon": 103.7443,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Choa Chu Kang MRT/LRT Station"
+  },
+  {
+   "id": "Q3272345",
+   "name": "Commonwealth MRT station",
+   "sl": 14,
+   "file": "Commonwealth-mrt.JPG",
+   "lat": 1.3025,
+   "lon": 103.7982,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Commonwealth MRT Station"
+  },
+  {
+   "id": "Q3272303",
+   "name": "Dover MRT station",
+   "sl": 14,
+   "file": "Dover MRT Station 4, Dec 06.JPG",
+   "lat": 1.3114,
+   "lon": 103.7786,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dover MRT Station"
+  },
+  {
+   "id": "Q3272360",
+   "name": "Eunos MRT station",
+   "sl": 14,
+   "file": "Eunos MRT.JPG",
+   "lat": 1.3197,
+   "lon": 103.9031,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eunos MRT Station"
+  },
+  {
+   "id": "Q3271443",
+   "name": "Joo Koon MRT station",
+   "sl": 14,
+   "file": "EW29 Joo Koon station 20180628 181709.jpg",
+   "lat": 1.3277,
+   "lon": 103.6785,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Joo Koon MRT Station"
+  },
+  {
+   "id": "Q3272369",
+   "name": "Kallang MRT station",
+   "sl": 14,
+   "file": "KAL PLAT.JPG",
+   "lat": 1.3115,
+   "lon": 103.8714,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kallang MRT Station"
+  },
+  {
+   "id": "Q3272325",
+   "name": "Kembangan MRT station",
+   "sl": 14,
+   "file": "Ew6kembangan.jpg",
+   "lat": 1.3211,
+   "lon": 103.9133,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kembangan MRT Station"
+  },
+  {
+   "id": "Q3272255",
+   "name": "Lakeside MRT station",
+   "sl": 14,
+   "file": "Jurong LakesideMRT.JPG",
+   "lat": 1.3446,
+   "lon": 103.7211,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lakeside MRT Station"
+  },
+  {
+   "id": "Q2577683",
+   "name": "Maghain Aboth Synagogue",
+   "sl": 14,
+   "file": "Maghain Aboth Synagogue - Singapore (2023) img 01.jpg",
+   "lat": 1.2982,
+   "lon": 103.8506,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maghain Aboth Synagogue"
+  },
+  {
+   "id": "Q254212",
+   "name": "Pasir Ris MRT station",
+   "sl": 14,
+   "file": "PasirRisMRTStation.JPG",
+   "lat": 1.3724,
+   "lon": 103.9494,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pasir Ris MRT Station"
+  },
+  {
+   "id": "Q3504948",
+   "name": "Paya Lebar Air Base",
+   "sl": 14,
+   "file": "Singapore International Airport control tower and terminal building, photographed February 1969 × July 1971.jpg",
+   "lat": 1.3603,
+   "lon": 103.9094,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paya Lebar Air Base"
+  },
+  {
+   "id": "Q3271425",
+   "name": "Pioneer MRT station",
+   "sl": 14,
+   "file": "PNnite.JPG",
+   "lat": 1.3376,
+   "lon": 103.6972,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pioneer MRT Station"
+  },
+  {
+   "id": "Q3232625",
+   "name": "Punggol station",
+   "sl": 14,
+   "file": "C810D Interior.jpg",
+   "lat": 1.4053,
+   "lon": 103.9025,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station",
+    "underground station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Punggol MRT/LRT Station"
+  },
+  {
+   "id": "Q3272270",
+   "name": "Queenstown MRT station",
+   "sl": 14,
+   "file": "Queenstown MRT Station Platform 201401.jpg",
+   "lat": 1.2944,
+   "lon": 103.8061,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Queenstown MRT Station"
+  },
+  {
+   "id": "Q1055296",
+   "name": "Redhill MRT station",
+   "sl": 14,
+   "file": "RedHillMRTfromAbove.jpg",
+   "lat": 1.2897,
+   "lon": 103.8167,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Redhill MRT Station"
+  },
+  {
+   "id": "Q3272118",
+   "name": "Simei MRT station",
+   "sl": 14,
+   "file": "EW3 Simei exterior 20200808 163640.jpg",
+   "lat": 1.3434,
+   "lon": 103.9532,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Simei MRT Station"
+  },
+  {
+   "id": "Q643216",
+   "name": "Sungei Buloh Wetland Reserve",
+   "sl": 14,
+   "file": "Sungei Buloh Wetland Reserve Interior 1.jpg",
+   "lat": 1.4486,
+   "lon": 103.7278,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sungei Buloh Wetland Reserve"
+  },
+  {
+   "id": "Q1343055",
+   "name": "Swissôtel The Stamford",
+   "sl": 14,
+   "file": "Swissôtel The Stamford, Singapur, 2023-08-18, DD 18.jpg",
+   "lat": 1.2933,
+   "lon": 103.8535,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Swissôtel The Stamford"
+  },
+  {
+   "id": "Q3272264",
+   "name": "Tampines MRT station",
+   "sl": 14,
+   "file": "EW2 Tampines Exit B.jpg",
+   "lat": 1.3525,
+   "lon": 103.9453,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tampines MRT Station"
+  },
+  {
+   "id": "Q3272313",
+   "name": "Tanah Merah MRT station",
+   "sl": 14,
+   "file": "C151 tnm cgl.jpg",
+   "lat": 1.3274,
+   "lon": 103.9463,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station",
+    "Spanish solution"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tanah Merah MRT Station"
+  },
+  {
+   "id": "Q82994",
+   "name": "The Float at Marina Bay",
+   "sl": 14,
+   "file": "Ndp-2007.JPG",
+   "lat": 1.2883,
+   "lon": 103.8589,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Float@Marina Bay"
+  },
+  {
+   "id": "Q4409125",
+   "name": "The Fullerton Hotel Singapore",
+   "sl": 14,
+   "file": "Aerial photographs of The Fullerton Hotel of Singapore at night.jpg",
+   "lat": 1.2856,
+   "lon": 103.8531,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Fullerton Hotel Singapore"
+  },
+  {
+   "id": "Q843531",
+   "name": "The Istana",
+   "sl": 14,
+   "file": "Istana 20, Singapore, Jan 06.JPG",
+   "lat": 1.3069,
+   "lon": 103.8431,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Istana Singapore"
+  }
+ ]
+}

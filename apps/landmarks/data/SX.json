@@ -1,0 +1,38 @@
+{
+ "country": "SX",
+ "items": [
+  {
+   "id": "Q723325",
+   "name": "Princess Juliana International Airport",
+   "sl": 41,
+   "file": "American 757 on final approach at St Maarten Airport.jpg",
+   "lat": 18.0408,
+   "lon": -63.1094,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Princess Juliana Airport"
+  },
+  {
+   "id": "Q922921",
+   "name": "Maho Beach",
+   "sl": 29,
+   "file": "American 757 on final approach at St Maarten Airport.jpg",
+   "lat": 18.0392,
+   "lon": -63.1203,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maho Beach"
+  }
+ ]
+}

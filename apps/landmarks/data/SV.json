@@ -1,0 +1,514 @@
+{
+ "country": "SV",
+ "items": [
+  {
+   "id": "Q27985",
+   "name": "Joya de Cerén",
+   "sl": 46,
+   "file": "ES Joya Ceren 05 2012 Estructura 9 Area 2 Tamazcal wide angle 1479.JPG",
+   "lat": 13.8275,
+   "lon": -89.3562,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Joya de Cerén"
+  },
+  {
+   "id": "Q1049619",
+   "name": "Izalco",
+   "sl": 30,
+   "file": "Green Izalco Volcano.JPG",
+   "lat": 13.8131,
+   "lon": -89.6333,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Izalco Volcano"
+  },
+  {
+   "id": "Q1062664",
+   "name": "San Miguel",
+   "sl": 29,
+   "file": "San Miguel (Chaparrastique) Volcano El Salvador.JPG",
+   "lat": 13.4339,
+   "lon": -88.2692,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Miguel (volcano)"
+  },
+  {
+   "id": "Q1049338",
+   "name": "Santa Ana Volcano",
+   "sl": 29,
+   "file": "Santa Ana Volcano.USAF.C-130.1.jpg",
+   "lat": 13.8528,
+   "lon": -89.63,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Ana Volcano"
+  },
+  {
+   "id": "Q587675",
+   "name": "El Salvador International Airport",
+   "sl": 28,
+   "file": "San salvador airport 4.jpg",
+   "lat": 13.443,
+   "lon": -89.0564,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Salvador International Airport"
+  },
+  {
+   "id": "Q14638420",
+   "name": "Lake Ilopango",
+   "sl": 28,
+   "file": "Ilopango caldera.jpg",
+   "lat": 13.6667,
+   "lon": -89.05,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilopango Caldera"
+  },
+  {
+   "id": "Q74214",
+   "name": "Cerro El Pital",
+   "sl": 24,
+   "file": "Cerro El Pital, Chalatenango.JPG",
+   "lat": 14.3833,
+   "lon": -89.1167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro El Pital"
+  },
+  {
+   "id": "Q3045228",
+   "name": "Coatepeque Caldera",
+   "sl": 24,
+   "file": "Teopan.jpg",
+   "lat": 13.87,
+   "lon": -89.55,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Coatepeque Lake"
+  },
+  {
+   "id": "Q690372",
+   "name": "Tazumal",
+   "sl": 23,
+   "file": "El Tazumal, Chalchuapa.jpg",
+   "lat": 13.9796,
+   "lon": -89.6744,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tazumal"
+  },
+  {
+   "id": "Q1072131",
+   "name": "San Vicente",
+   "sl": 22,
+   "file": "San vicente els.jpg",
+   "lat": 13.595,
+   "lon": -88.8369,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Vicente Volcano"
+  },
+  {
+   "id": "Q116608704",
+   "name": "Terrorism Confinement Center",
+   "sl": 22,
+   "file": "Aerial view of CECOT (2).jpg",
+   "lat": 13.5336,
+   "lon": -88.805,
+   "kind": "built",
+   "types": [
+    "prison",
+    "supermax prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Terrorism Confinement Center"
+  },
+  {
+   "id": "Q1809388",
+   "name": "Chingo",
+   "sl": 19,
+   "file": "Chingo volcano.jpg",
+   "lat": 14.1181,
+   "lon": -89.7264,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GT"
+   ],
+   "cat": "Chingo"
+  },
+  {
+   "id": "Q1369159",
+   "name": "Estadio Cuscatlán",
+   "sl": 19,
+   "file": "El-salvador san-salvador Estadio-Cuscatlán 2.JPG",
+   "lat": 13.6811,
+   "lon": -89.2223,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Cuscatlán"
+  },
+  {
+   "id": "Q780752",
+   "name": "Chinameca",
+   "sl": 17,
+   "file": "ChinamecaVolcano.jpg",
+   "lat": 13.478,
+   "lon": -88.33,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chinameca"
+  },
+  {
+   "id": "Q2000719",
+   "name": "San Andrés, El Salvador",
+   "sl": 17,
+   "file": "ES San Andres 05 2012 Estructura 1 La Acropolis 1562.JPG",
+   "lat": 13.8006,
+   "lon": -89.3891,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Andrés, El Salvador"
+  },
+  {
+   "id": "Q2661950",
+   "name": "Usulután",
+   "sl": 17,
+   "file": "UsulutánVolcano.jpg",
+   "lat": 13.4189,
+   "lon": -88.4708,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Usulután (volcano)"
+  },
+  {
+   "id": "Q1800414",
+   "name": "Lake Güija",
+   "sl": 16,
+   "file": "San Diego volcano.jpg",
+   "lat": 14.2667,
+   "lon": -89.5167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GT"
+   ],
+   "cat": "Lake Güija"
+  },
+  {
+   "id": "Q2577068",
+   "name": "San Salvador Volcano",
+   "sl": 16,
+   "file": "SanSalvadorVolcano.jpg",
+   "lat": 13.7339,
+   "lon": -89.2939,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Salvador Volcano"
+  },
+  {
+   "id": "Q2661919",
+   "name": "Conchagua",
+   "sl": 15,
+   "file": "ConchaguaVolcano.jpg",
+   "lat": 13.275,
+   "lon": -87.845,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Conchagua (volcano)"
+  },
+  {
+   "id": "Q588038",
+   "name": "Ilopango International Airport",
+   "sl": 15,
+   "file": "32-0001 Aeropuerto de Ilopango.jpg",
+   "lat": 13.6946,
+   "lon": -89.1173,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilopango International Airport"
+  },
+  {
+   "id": "Q5351426",
+   "name": "El Imposible National Park",
+   "sl": 14,
+   "file": "Mirador Reserva Natural El Imposible.JPG",
+   "lat": 13.8417,
+   "lon": -89.9575,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Imposible National Park"
+  },
+  {
+   "id": "Q1056042",
+   "name": "Guazapa",
+   "sl": 14,
+   "file": "Guazapa.jpg",
+   "lat": 13.9022,
+   "lon": -89.1136,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guazapa (volcano)"
+  },
+  {
+   "id": "Q3042754",
+   "name": "Tecapa",
+   "sl": 14,
+   "file": "Tecapa volcano.jpg",
+   "lat": 13.494,
+   "lon": -88.502,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3132195",
+   "name": "Taburete",
+   "sl": 12,
+   "file": "TabureteVolcanoSW.jpg",
+   "lat": 13.435,
+   "lon": -88.532,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taburete"
+  },
+  {
+   "id": "Q2382357",
+   "name": "Estadio Óscar Quiteño",
+   "sl": 11,
+   "file": "Estadio Oscar A. Quiteño.jpg",
+   "lat": 13.9764,
+   "lon": -89.569,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Óscar Quiteño"
+  },
+  {
+   "id": "Q2942929",
+   "name": "Metropolitan Cathedral of San Salvador",
+   "sl": 10,
+   "file": "San Salvador - El Salvador (50899440617).jpg",
+   "lat": 13.6986,
+   "lon": -89.1911,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Metropolitan Cathedral of San Salvador"
+  },
+  {
+   "id": "Q3433688",
+   "name": "Cerrón Grande Dam",
+   "sl": 9,
+   "file": "Presa Cerron Grande El Salvador.jpg",
+   "lat": 13.9386,
+   "lon": -88.9015,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerrón Grande Dam"
+  },
+  {
+   "id": "Q6905054",
+   "name": "Montecristo National Park",
+   "sl": 9,
+   "file": "Espacio Libre Parque Montecristo.JPG",
+   "lat": 14.3824,
+   "lon": -89.3884,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montecristo National Park"
+  },
+  {
+   "id": "Q1541926",
+   "name": "Museo de la Palabra y la Imagen",
+   "sl": 9,
+   "file": "Mupi.jpg",
+   "lat": 13.7091,
+   "lon": -89.2048,
+   "kind": "built",
+   "types": [
+    "history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo de la Palabra y la Imagen"
+  },
+  {
+   "id": "Q1056001",
+   "name": "Cerro Verde",
+   "sl": 8,
+   "file": "Cerro Verde from Santa Ana Volcano.jpg",
+   "lat": 13.8264,
+   "lon": -89.6226,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Verde, El Salvador"
+  },
+  {
+   "id": "Q5769252",
+   "name": "Cihuatán",
+   "sl": 8,
+   "file": "Piramide Cihuatan.jpg",
+   "lat": 13.9812,
+   "lon": -89.1651,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cihuatán"
+  }
+ ]
+}

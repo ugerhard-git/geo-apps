@@ -1,0 +1,352 @@
+{
+ "country": "BH",
+ "items": [
+  {
+   "id": "Q740104",
+   "name": "Qal’at al Bahrain",
+   "sl": 48,
+   "file": "Bahrain Fort 7.jpg",
+   "lat": 26.2336,
+   "lon": 50.5206,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Qal'at al-Bahrain"
+  },
+  {
+   "id": "Q637639",
+   "name": "Bahrain International Airport",
+   "sl": 45,
+   "file": "BahrainInternationalAirport01.jpeg",
+   "lat": 26.2708,
+   "lon": 50.6336,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bahrain International Airport"
+  },
+  {
+   "id": "Q827735",
+   "name": "King Fahd Causeway",
+   "sl": 42,
+   "file": "King Fahd Causeway bridge num4.jpg",
+   "lat": 26.1825,
+   "lon": 50.3358,
+   "kind": "both",
+   "types": [
+    "bridge–tunnel",
+    "causeway",
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SA"
+   ],
+   "cat": "King Fahd Causeway"
+  },
+  {
+   "id": "Q633504",
+   "name": "Sakhir",
+   "sl": 31,
+   "file": "Tree of Life, Bahrain - ജീവന്റെ മരം, ബഹ്റൈൻ 01.JPG",
+   "lat": 26.0333,
+   "lon": 50.5167,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sakhir"
+  },
+  {
+   "id": "Q2086076",
+   "name": "Al Fateh Grand Mosque",
+   "sl": 30,
+   "file": "Al Fateh outside.jpg",
+   "lat": 26.2189,
+   "lon": 50.5981,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Fateh Grand Mosque"
+  },
+  {
+   "id": "Q5276996",
+   "name": "Dilmun Burial Mounds",
+   "sl": 29,
+   "file": "Burial Mounds in Bahrain 1918.jpg",
+   "lat": 26.1497,
+   "lon": 50.5128,
+   "kind": "built",
+   "types": [
+    "necropolis"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Dilmun Burial Mounds"
+  },
+  {
+   "id": "Q1889313",
+   "name": "Bahrain Pearling Trail",
+   "sl": 28,
+   "file": "Muharraq Bayt Siyadi 1.jpg",
+   "lat": 26.25,
+   "lon": 50.61,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q630922",
+   "name": "Beit Al Quran",
+   "sl": 27,
+   "file": "Museum-Beit-Al-Quran (318).jpg",
+   "lat": 26.2398,
+   "lon": 50.5915,
+   "kind": "built",
+   "types": [
+    "library",
+    "mosque",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beit Al Quran"
+  },
+  {
+   "id": "Q511612",
+   "name": "Bahrain World Trade Center",
+   "sl": 26,
+   "file": "Bahrain World trade Center .jpg",
+   "lat": 26.2392,
+   "lon": 50.5814,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bahrain World Trade Center"
+  },
+  {
+   "id": "Q1548284",
+   "name": "Bahrain National Stadium",
+   "sl": 23,
+   "file": "Bahrain National Stadium.jpg",
+   "lat": 26.1536,
+   "lon": 50.5437,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bahrain National Stadium"
+  },
+  {
+   "id": "Q869788",
+   "name": "Bahrain National Museum",
+   "sl": 20,
+   "file": "Bahrain National Museum Exterior.jpg",
+   "lat": 26.2414,
+   "lon": 50.5975,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bahrain National Museum"
+  },
+  {
+   "id": "Q383586",
+   "name": "Pearl Roundabout",
+   "sl": 19,
+   "file": "Al Farooq Junction under construction at former site of Pearl Roundabout.jpg",
+   "lat": 26.2303,
+   "lon": 50.5614,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pearl Roundabout"
+  },
+  {
+   "id": "Q4119263",
+   "name": "Khamis Mosque",
+   "sl": 15,
+   "file": "Kaaba in macca.jpg",
+   "lat": 26.2082,
+   "lon": 50.5483,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khamis Mosque"
+  },
+  {
+   "id": "Q3078134",
+   "name": "Arad Fort",
+   "sl": 13,
+   "file": "Bahrainfort 01.jpg",
+   "lat": 26.2525,
+   "lon": 50.6269,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arad Fort"
+  },
+  {
+   "id": "Q807317",
+   "name": "Barbar Temple",
+   "sl": 12,
+   "file": "Barbar Temple.jpg",
+   "lat": 26.2261,
+   "lon": 50.4842,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barbar Temple"
+  },
+  {
+   "id": "Q4285320",
+   "name": "Mina Salman",
+   "sl": 12,
+   "file": "130512-N-OA702-031.jpg",
+   "lat": 26.201,
+   "lon": 50.607,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3497201",
+   "name": "Bahrain Synagogue",
+   "sl": 11,
+   "file": "Manama synagogue 1.jpg",
+   "lat": 26.2305,
+   "lon": 50.5744,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q82928",
+   "name": "Isa Air Base",
+   "sl": 11,
+   "file": "Marine Aircraft Group 11 at Shaikh Isa airfield 1991.JPEG",
+   "lat": 25.9183,
+   "lon": 50.5906,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2189330",
+   "name": "Riffa Fort",
+   "sl": 11,
+   "file": "RiffaFort.jpg",
+   "lat": 26.1178,
+   "lon": 50.5628,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riffa Fort"
+  },
+  {
+   "id": "Q18416916",
+   "name": "Cathedral of Our Lady of Arabia",
+   "sl": 9,
+   "file": "The Cathedral of Our Lady of Arabia, Awali (06-12-2022).jpg",
+   "lat": 26.079,
+   "lon": 50.5454,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Our Lady of Arabia, Awali"
+  },
+  {
+   "id": "Q111795904",
+   "name": "Al Hasan Mosque",
+   "sl": 8,
+   "file": "Al Hasan Mosue.jpg",
+   "lat": 26.2762,
+   "lon": 50.5991,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muhammad bin Yusuf al-Hasan Mosque"
+  }
+ ]
+}

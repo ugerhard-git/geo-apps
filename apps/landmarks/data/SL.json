@@ -1,0 +1,150 @@
+{
+ "country": "SL",
+ "items": [
+  {
+   "id": "Q769525",
+   "name": "Mount Bintumani",
+   "sl": 26,
+   "file": "Mountain Bintunami.jpg",
+   "lat": 9.225,
+   "lon": -11.1167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Bintumani"
+  },
+  {
+   "id": "Q1453722",
+   "name": "Lungi International Airport",
+   "sl": 24,
+   "file": "New Freetown International Airport airside.jpg",
+   "lat": 8.6164,
+   "lon": -13.1955,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lungi International Airport"
+  },
+  {
+   "id": "Q1503980",
+   "name": "National Stadium",
+   "sl": 16,
+   "file": "Sierra Leone National Stadium.jpg",
+   "lat": 8.4796,
+   "lon": -13.2491,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Freetown National Stadium"
+  },
+  {
+   "id": "Q1504757",
+   "name": "Tiwai Island",
+   "sl": 15,
+   "file": "Tiwai Island River.jpg",
+   "lat": 7.5425,
+   "lon": -11.3458,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q724189",
+   "name": "Outamba-Kilimi National Park",
+   "sl": 12,
+   "file": "Entrance to outamba-kilimi park.jpg",
+   "lat": 9.7719,
+   "lon": -12.0261,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Outamba-Kilimi National Park"
+  },
+  {
+   "id": "Q2233057",
+   "name": "Sherbro International Airport",
+   "sl": 10,
+   "file": "Sherbro Island - panoramio (4).jpg",
+   "lat": 7.5319,
+   "lon": -12.5183,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6389144",
+   "name": "Kenema Airport",
+   "sl": 9,
+   "file": "Kenema Airport, Kenema, Sierra Leone (nowadays Police station) - Mapillary (pRirYz4X8cwrxQUYX3EFYD).jpg",
+   "lat": 7.8913,
+   "lon": -11.1766,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q256104",
+   "name": "Western Area Peninsula National Park",
+   "sl": 9,
+   "file": "Western Forest (Sierra Leone).jpg",
+   "lat": 8.3831,
+   "lon": -13.1667,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3577165",
+   "name": "Lake Sonfon",
+   "sl": 8,
+   "file": "Lake Sonfon.jpg",
+   "lat": 9.2483,
+   "lon": -11.5215,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

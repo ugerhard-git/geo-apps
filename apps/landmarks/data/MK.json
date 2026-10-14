@@ -1,0 +1,1358 @@
+{
+ "country": "MK",
+ "items": [
+  {
+   "id": "Q156258",
+   "name": "Lake Ohrid",
+   "sl": 63,
+   "file": "Lake Ohrid, Macedonia-Albania viewed from a NASA satellite.jpg",
+   "lat": 41.0333,
+   "lon": 20.7167,
+   "kind": "natural",
+   "types": [
+    "ancient lake",
+    "lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2215414",
+    "name": "Natural and Cultural Heritage of the Ohrid region"
+   },
+   "also": [
+    "AL"
+   ],
+   "cat": "Lake Ohrid"
+  },
+  {
+   "id": "Q204392",
+   "name": "Lake Prespa",
+   "sl": 59,
+   "file": "Lake Prespa Albania.jpg",
+   "lat": 40.9,
+   "lon": 21.05,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL",
+    "GR"
+   ],
+   "cat": "Lake Prespa"
+  },
+  {
+   "id": "Q912579",
+   "name": "Korab",
+   "sl": 48,
+   "file": "Panair Korab.jpg",
+   "lat": 41.7903,
+   "lon": 20.5467,
+   "kind": "natural",
+   "types": [
+    "main peak",
+    "mountain",
+    "two-thousander",
+    "ultra-prominent peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL"
+   ],
+   "cat": "Korab"
+  },
+  {
+   "id": "Q158077",
+   "name": "Dojran Lake",
+   "sl": 44,
+   "file": "Dojran-Lake-MACEDONIA.JPG",
+   "lat": 41.2167,
+   "lon": 22.75,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GR"
+   ],
+   "cat": "Lake Dojran"
+  },
+  {
+   "id": "Q1142389",
+   "name": "Skopje International Airport",
+   "sl": 42,
+   "file": "Skopje aeroport.jpg",
+   "lat": 41.9611,
+   "lon": 21.6269,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skopje Airport"
+  },
+  {
+   "id": "Q1164804",
+   "name": "Arena ”Philip II. of Macedonia / Toše Proeski / Todor”",
+   "sl": 40,
+   "file": "Toše Proeski Arena 1.jpg",
+   "lat": 42.0057,
+   "lon": 21.4256,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toše Proeski Arena"
+  },
+  {
+   "id": "Q1009896",
+   "name": "Šarena Mosque",
+   "sl": 33,
+   "file": "Tetovo Bunte Moschee.jpg",
+   "lat": 42.0058,
+   "lon": 20.9667,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Šarena Džamija (Tetovo)"
+  },
+  {
+   "id": "Q569069",
+   "name": "Mavrovo National Park",
+   "sl": 32,
+   "file": "Velky Korab 2011.jpg",
+   "lat": 41.6372,
+   "lon": 20.6669,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Park Mavrovo"
+  },
+  {
+   "id": "Q127157",
+   "name": "Ohrid \"St. Paul the Apostle\" Airport",
+   "sl": 31,
+   "file": "Охридски аеродром „Свети Апостол Павле“.jpg",
+   "lat": 41.18,
+   "lon": 20.7422,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ohrid Airport"
+  },
+  {
+   "id": "Q1826026",
+   "name": "Jakupica",
+   "sl": 29,
+   "file": "Mount Jakupica, Republic of Macedonia.JPG",
+   "lat": 41.7042,
+   "lon": 21.4053,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jakupica"
+  },
+  {
+   "id": "Q164216",
+   "name": "Monastery of Saint Naum",
+   "sl": 29,
+   "file": "Svetinaum.jpg",
+   "lat": 40.9139,
+   "lon": 20.7405,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Naum Monastery"
+  },
+  {
+   "id": "Q164743",
+   "name": "Church of St. Sophia",
+   "sl": 28,
+   "file": "Св Софија Охрид.JPG",
+   "lat": 41.1119,
+   "lon": 20.7939,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Sophia Church (Ohrid)"
+  },
+  {
+   "id": "Q2278990",
+   "name": "Matka Canyon",
+   "sl": 28,
+   "file": "Matka2.jpg",
+   "lat": 41.94,
+   "lon": 21.3,
+   "kind": "natural",
+   "types": [
+    "canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matka Canyon"
+  },
+  {
+   "id": "Q1262367",
+   "name": "Skopje Fortress",
+   "sl": 28,
+   "file": "KaleFortress-Skopje1.JPG",
+   "lat": 42,
+   "lon": 21.4344,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fortification"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skopje Fortress"
+  },
+  {
+   "id": "Q1780883",
+   "name": "Stone Bridge in Skopje",
+   "sl": 28,
+   "file": "Stone Bridge so Arheološkiot.jpg",
+   "lat": 41.997,
+   "lon": 21.4331,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "bridge",
+    "footbridge",
+    "stone bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stone Bridge (Skopje)"
+  },
+  {
+   "id": "Q1048376",
+   "name": "Vodno",
+   "sl": 28,
+   "file": "Vodno Telecommunication Tower 2024 4.jpg",
+   "lat": 41.9653,
+   "lon": 21.3944,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vodno"
+  },
+  {
+   "id": "Q568256",
+   "name": "Jablanica Mountains",
+   "sl": 27,
+   "file": "Jablanica mountain in winter 2020, in right side is highest peak Black Stone, and in left side Chumin peak.jpg",
+   "lat": 41.25,
+   "lon": 20.5,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL"
+   ],
+   "cat": "Jablanica Mountain"
+  },
+  {
+   "id": "Q387",
+   "name": "Old Bazaar",
+   "sl": 27,
+   "file": "Skopje OldBazaar.jpg",
+   "lat": 42.0008,
+   "lon": 21.437,
+   "kind": "built",
+   "types": [
+    "čaršija"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Old Town (Skopje)"
+  },
+  {
+   "id": "Q1371168",
+   "name": "Stobi",
+   "sl": 26,
+   "file": "Stobi.jpg",
+   "lat": 41.5314,
+   "lon": 21.9777,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "locality"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stobi"
+  },
+  {
+   "id": "Q164664",
+   "name": "Church of St. John at Kaneo",
+   "sl": 25,
+   "file": "Church of St. John at Kaneo 6.jpg",
+   "lat": 41.1111,
+   "lon": 20.7887,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. John Kaneo Church"
+  },
+  {
+   "id": "Q73515",
+   "name": "Deshat",
+   "sl": 25,
+   "file": "Веливар (Дешат) 04.jpg",
+   "lat": 41.6372,
+   "lon": 20.525,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL"
+   ],
+   "cat": "Deshat"
+  },
+  {
+   "id": "Q1785612",
+   "name": "Mavrovo Lake",
+   "sl": 24,
+   "file": "LakeMavrovo.jpg",
+   "lat": 41.6833,
+   "lon": 20.75,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mavrovo Lake"
+  },
+  {
+   "id": "Q1890632",
+   "name": "Millennium Cross",
+   "sl": 24,
+   "file": "Skopje Millennium Cross 1.jpg",
+   "lat": 41.965,
+   "lon": 21.3944,
+   "kind": "built",
+   "types": [
+    "cross",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Millennium Cross in Skopje"
+  },
+  {
+   "id": "Q1142395",
+   "name": "Heraclea Lyncestis",
+   "sl": 23,
+   "file": "Ancientbitola.jpg",
+   "lat": 41.0108,
+   "lon": 21.3425,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heraclea Lyncestis"
+  },
+  {
+   "id": "Q3364519",
+   "name": "Pelister National Park",
+   "sl": 23,
+   "file": "Prespansko ezero od Pelister vo zima.jpg",
+   "lat": 40.981,
+   "lon": 21.191,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Park Pelister"
+  },
+  {
+   "id": "Q1283801",
+   "name": "Samuil's Fortress",
+   "sl": 23,
+   "file": "Samuil's Fortress in Ohrid (Самуилова тврђава у Охриду).jpg",
+   "lat": 41.115,
+   "lon": 20.791,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samuil's Fortress, Ohrid"
+  },
+  {
+   "id": "Q2733631",
+   "name": "Kožuf",
+   "sl": 22,
+   "file": "KozufPanorama.jpg",
+   "lat": 41.15,
+   "lon": 22.1667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GR"
+   ],
+   "cat": "Kožuf"
+  },
+  {
+   "id": "Q1283784",
+   "name": "Markovi Kuli",
+   "sl": 22,
+   "file": "Markovi kuli 1.JPG",
+   "lat": 41.3616,
+   "lon": 21.5385,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Marko's Towers"
+  },
+  {
+   "id": "Q1267418",
+   "name": "Mustafa Paşa Mosque",
+   "sl": 22,
+   "file": "Macedonia (5881756742).jpg",
+   "lat": 42.0019,
+   "lon": 21.4354,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mustafa Pasha Mosque (Skopje)"
+  },
+  {
+   "id": "Q2381742",
+   "name": "Ograzhden",
+   "sl": 22,
+   "file": "Ograzden IMG 4585.jpg",
+   "lat": 41.5208,
+   "lon": 22.8778,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BG"
+   ],
+   "cat": "Ograzhden"
+  },
+  {
+   "id": "Q1283696",
+   "name": "Saint Panteleimon",
+   "sl": 22,
+   "file": "2011 Ochryda, Cerkiew św. Pantelejmona (02).jpg",
+   "lat": 41.1122,
+   "lon": 20.7908,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sts. Clement and Pantaleon Church (Ohrid)"
+  },
+  {
+   "id": "Q149203",
+   "name": "Scupi",
+   "sl": 22,
+   "file": "Skopje and Skupi.jpg",
+   "lat": 42.0167,
+   "lon": 21.3919,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Scupi"
+  },
+  {
+   "id": "Q2346964",
+   "name": "Skopska Crna Gora",
+   "sl": 22,
+   "file": "Skopska Crna Gora-MKD.JPG",
+   "lat": 42.1669,
+   "lon": 21.4174,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS",
+    "XK"
+   ],
+   "cat": "Skopska Crna Gora"
+  },
+  {
+   "id": "Q38445",
+   "name": "Smolare Falls",
+   "sl": 22,
+   "file": "Smolarski vodopad 18.JPG",
+   "lat": 41.3653,
+   "lon": 22.8992,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Smolari Waterfall"
+  },
+  {
+   "id": "Q2740716",
+   "name": "Stogovo",
+   "sl": 22,
+   "file": "Поглед на Стогово.jpg",
+   "lat": 41.4833,
+   "lon": 20.65,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stogovo"
+  },
+  {
+   "id": "Q2232673",
+   "name": "Tauresium",
+   "sl": 22,
+   "file": "Tauresium, Macedonia2.JPG",
+   "lat": 41.9001,
+   "lon": 21.6134,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tauresium"
+  },
+  {
+   "id": "Q1638613",
+   "name": "Titov Vrv",
+   "sl": 22,
+   "file": "Кривошиско Езеро и врвот Шар (Титов).JPG",
+   "lat": 41.9919,
+   "lon": 20.7981,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Titov Vrv"
+  },
+  {
+   "id": "Q1273251",
+   "name": "Kuršumli An",
+   "sl": 21,
+   "file": "Kurshumli-An-Skopje-MK.JPG",
+   "lat": 42.0031,
+   "lon": 21.4369,
+   "kind": "built",
+   "types": [
+    "caravanserai"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuršumli An"
+  },
+  {
+   "id": "Q2377452",
+   "name": "Maleshevo",
+   "sl": 21,
+   "file": "Dzhama IMG 9921.jpg",
+   "lat": 41.6667,
+   "lon": 23,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BG"
+   ],
+   "cat": "Maleshevo Mountain"
+  },
+  {
+   "id": "Q3043915",
+   "name": "Plačkovica",
+   "sl": 21,
+   "file": "Пејзаж на Плачковица 3.jpg",
+   "lat": 41.7667,
+   "lon": 22.5333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plačkovica"
+  },
+  {
+   "id": "Q3078453",
+   "name": "Porta Macedonia",
+   "sl": 21,
+   "file": "Porta Macedonia, Skopie, Macedonia del Norte, 2014-04-16, DD 105.jpg",
+   "lat": 41.9944,
+   "lon": 21.4322,
+   "kind": "built",
+   "types": [
+    "museum",
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Porta Makedonija"
+  },
+  {
+   "id": "Q1261206",
+   "name": "Church of St. Panteleimon",
+   "sl": 20,
+   "file": "Church of St. Panteleimon (Nerezi).jpg",
+   "lat": 41.977,
+   "lon": 21.374,
+   "kind": "built",
+   "types": [
+    "abbey church",
+    "Eastern Orthodox church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Pantaleon's Church (Gorno Nerezi)"
+  },
+  {
+   "id": "Q1181386",
+   "name": "Debar Lake",
+   "sl": 20,
+   "file": "Дебарско Езеро 4.jpg",
+   "lat": 41.4833,
+   "lon": 20.5167,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Debar Lake"
+  },
+  {
+   "id": "Q2379390",
+   "name": "Mount Bistra",
+   "sl": 20,
+   "file": "Брзовец.jpg",
+   "lat": 41.6147,
+   "lon": 20.7806,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bistra Mountain"
+  },
+  {
+   "id": "Q1276520",
+   "name": "Saint Jovan Bigorski Monastery",
+   "sl": 20,
+   "file": "Панорама на Бигорски Манастир.jpg",
+   "lat": 41.6219,
+   "lon": 20.6117,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bigorski Monastery"
+  },
+  {
+   "id": "Q862032",
+   "name": "Skopje Aqueduct",
+   "sl": 20,
+   "file": "Skopje Aqueduct 9.jpg",
+   "lat": 42.0236,
+   "lon": 21.4186,
+   "kind": "built",
+   "types": [
+    "aqueduct",
+    "archaeological site",
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skopje Aqueduct"
+  },
+  {
+   "id": "Q1326977",
+   "name": "Kokino",
+   "sl": 19,
+   "file": "Megalithic Observatory Kokino.jpg",
+   "lat": 42.2636,
+   "lon": 21.9536,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kokino"
+  },
+  {
+   "id": "Q2717956",
+   "name": "Makedonium",
+   "sl": 19,
+   "file": "Ilinden-spomenikot.jpg",
+   "lat": 41.3774,
+   "lon": 21.2483,
+   "kind": "built",
+   "types": [
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Makedonium"
+  },
+  {
+   "id": "Q2121610",
+   "name": "Sultan Murad Mosque",
+   "sl": 19,
+   "file": "Saat kula i Sultan-muratova dzamija, Skopje.jpg",
+   "lat": 42.0015,
+   "lon": 21.4414,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Murat Mosque (Skopje)"
+  },
+  {
+   "id": "Q3180446",
+   "name": "Ancient Theatre of Ohrid",
+   "sl": 18,
+   "file": "Ancient Macedonian Theatre of Ohrid 3.jpg",
+   "lat": 41.1146,
+   "lon": 20.7938,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Greek theatre"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2215414",
+    "name": "Natural and Cultural Heritage of the Ohrid region"
+   },
+   "also": [],
+   "cat": "Ancient Theatre of Ohrid"
+  },
+  {
+   "id": "Q3515283",
+   "name": "Galičica National Park",
+   "sl": 18,
+   "file": "Galicica Magaro.jpg",
+   "lat": 41,
+   "lon": 20.85,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Park Galičica"
+  },
+  {
+   "id": "Q1580610",
+   "name": "Jeni Mosque",
+   "sl": 18,
+   "file": "2011 Bitola, Meczet Jeni 01.JPG",
+   "lat": 41.0308,
+   "lon": 21.335,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yeni Mosque (Bitola)"
+  },
+  {
+   "id": "Q1288074",
+   "name": "Kajmakčalan",
+   "sl": 18,
+   "file": "Sv. Petar na Kajmakčalan.jpg",
+   "lat": 40.9302,
+   "lon": 21.7879,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GR"
+   ],
+   "cat": "Kajmakčalan"
+  },
+  {
+   "id": "Q37598",
+   "name": "Korab Falls",
+   "sl": 18,
+   "file": "Korab waterfall1.jpg",
+   "lat": 41.7631,
+   "lon": 20.5376,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Korab waterfall"
+  },
+  {
+   "id": "Q2729058",
+   "name": "Kozjak",
+   "sl": 18,
+   "file": "Поглед на планината Козјак.jpg",
+   "lat": 42.2619,
+   "lon": 21.9419,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kozjak Mountain (North Macedonia & Serbia)"
+  },
+  {
+   "id": "Q3070972",
+   "name": "Macedonia Square",
+   "sl": 18,
+   "file": "Stone Bridge Skopje 4.jpg",
+   "lat": 41.9961,
+   "lon": 21.4317,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Macedonia Square (Skopje)"
+  },
+  {
+   "id": "Q922143",
+   "name": "Museum of the City of Skopje",
+   "sl": 18,
+   "file": "Skopje Old Station.JPG",
+   "lat": 41.9908,
+   "lon": 21.4294,
+   "kind": "built",
+   "types": [
+    "museum",
+    "station building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of the City of Skopje"
+  },
+  {
+   "id": "Q2946074",
+   "name": "Boris Trajkovski Sports Center",
+   "sl": 17,
+   "file": "TrajkovskiSportsArenaSkopjeMacedonia.JPG",
+   "lat": 42.0098,
+   "lon": 21.4039,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boris Trajkovski sports center"
+  },
+  {
+   "id": "Q1758749",
+   "name": "Church of St. Clement of Ohrid",
+   "sl": 17,
+   "file": "St. Clement Church Skopje 2.jpg",
+   "lat": 41.9986,
+   "lon": 21.4264,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Clement Church (Skopje)"
+  },
+  {
+   "id": "Q587617",
+   "name": "Mother Teresa Memorial House",
+   "sl": 17,
+   "file": "Спомен куќа на Мајка Тереза 15.jpg",
+   "lat": 41.9938,
+   "lon": 21.4309,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mother Teresa Memorial Home (Skopje)"
+  },
+  {
+   "id": "Q3097759",
+   "name": "Skopje Train Station",
+   "sl": 17,
+   "file": "Skopje Train Station from Mount Vodno.JPG",
+   "lat": 41.9912,
+   "lon": 21.4459,
+   "kind": "built",
+   "types": [
+    "bus station",
+    "elevated station",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skopje train station"
+  },
+  {
+   "id": "Q20568528",
+   "name": "Velika Rudoka",
+   "sl": 17,
+   "file": "Рудока.jpg",
+   "lat": 41.9185,
+   "lon": 20.7765,
+   "kind": "natural",
+   "types": [
+    "plateau",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "XK"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2593389",
+   "name": "Vlahina",
+   "sl": 17,
+   "file": "Kadiitsa IMG 9979.jpg",
+   "lat": 41.8569,
+   "lon": 22.9289,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BG"
+   ],
+   "cat": "Vlahina"
+  },
+  {
+   "id": "Q12470062",
+   "name": "Art Bridge",
+   "sl": 16,
+   "file": "Skopje 32321 67.jpg",
+   "lat": 41.9958,
+   "lon": 21.4359,
+   "kind": "built",
+   "types": [
+    "footbridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bridge of Arts (Skopje)"
+  },
+  {
+   "id": "Q1276468",
+   "name": "Church of St. George, Staro Nagoričane",
+   "sl": 16,
+   "file": "Црква „Св. Ѓорѓи“ - Старо Нагоричане.jpg",
+   "lat": 42.1983,
+   "lon": 21.8286,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. George's Church (Staro Nagoričane)"
+  },
+  {
+   "id": "Q3329592",
+   "name": "Museum of Contemporary Art Skopje",
+   "sl": 16,
+   "file": "Muzej na sovremenata umetnost - Skopje (59).jpg",
+   "lat": 42.0039,
+   "lon": 21.4328,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Contemporary Art Museum (North Macedonia)"
+  },
+  {
+   "id": "Q3133557",
+   "name": "Museum of the Republic of North Macedonia",
+   "sl": 16,
+   "file": "Museum of Macedonia 11.jpg",
+   "lat": 42.0025,
+   "lon": 21.4358,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Macedonia, Skopje"
+  },
+  {
+   "id": "Q7201685",
+   "name": "Plaošnik",
+   "sl": 16,
+   "file": "Sv. Kliment i Pantelejmon na Plaošnik (10).JPG",
+   "lat": 41.1127,
+   "lon": 20.7912,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaošnik"
+  },
+  {
+   "id": "Q12273457",
+   "name": "Bogovinje Lake",
+   "sl": 15,
+   "file": "Боговињско Езеро 03.jpg",
+   "lat": 41.9505,
+   "lon": 20.7923,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bogovinje Lake"
+  },
+  {
+   "id": "Q3112563",
+   "name": "Popova Šapka",
+   "sl": 15,
+   "file": "Поглед на Попова Шапка 2.jpg",
+   "lat": 42.0142,
+   "lon": 20.88,
+   "kind": "both",
+   "types": [
+    "mountain",
+    "resort",
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Popova Šapka"
+  },
+  {
+   "id": "Q3133681",
+   "name": "Skopje Zoo",
+   "sl": 15,
+   "file": "Skopje Zoo 1.jpg",
+   "lat": 42.0071,
+   "lon": 21.4169,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skopje Zoo"
+  },
+  {
+   "id": "Q3199264",
+   "name": "Stone town of Kuklica",
+   "sl": 15,
+   "file": "Kameni-Kukli-Kuklica-MK.JPG",
+   "lat": 42.1053,
+   "lon": 22.0552,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "rock formation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stone Dolls"
+  },
+  {
+   "id": "Q20499317",
+   "name": "Submerged church of St. Nicholas (Mavrovo)",
+   "sl": 15,
+   "file": "Submerged church of St. Nicholas (Mavrovo).jpg",
+   "lat": 41.66,
+   "lon": 20.7355,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Submerged church of St. Nicholas (Mavrovo)"
+  },
+  {
+   "id": "Q723490",
+   "name": "Arabati Baba Teḱe",
+   "sl": 14,
+   "file": "Arabati Baba Tekke.jpg",
+   "lat": 42.0019,
+   "lon": 20.9557,
+   "kind": "built",
+   "types": [
+    "Sufi lodge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arabati Baba Teḱe"
+  },
+  {
+   "id": "Q1343398",
+   "name": "Clock Tower of Bitola",
+   "sl": 14,
+   "file": "Saat Kula - Bitola 2.JPG",
+   "lat": 41.0308,
+   "lon": 21.3339,
+   "kind": "built",
+   "types": [
+    "belfry",
+    "clock tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Clock tower (Bitola)"
+  },
+  {
+   "id": "Q15440116",
+   "name": "Kozjak Hydro Power Plant",
+   "sl": 14,
+   "file": "Kozyak-ot-foynik.jpg",
+   "lat": 41.8778,
+   "lon": 21.1928,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2986132",
+   "name": "Marko's Monastery",
+   "sl": 14,
+   "file": "Marko-Monastery-church.jpg",
+   "lat": 41.8992,
+   "lon": 21.4094,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marko's Monastery"
+  },
+  {
+   "id": "Q986531",
+   "name": "Museum of the Macedonian Struggle",
+   "sl": 14,
+   "file": "Museum of the Macedonian Struggle.jpg",
+   "lat": 41.998,
+   "lon": 21.4332,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of the Macedonian Struggle (Skopje)"
+  },
+  {
+   "id": "Q1283734",
+   "name": "Osogovo Monastery",
+   "sl": 14,
+   "file": "View of Osogovo Monastery, Macedonia.JPG",
+   "lat": 42.2086,
+   "lon": 22.3622,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Osogovo Monastery"
+  },
+  {
+   "id": "Q3406442",
+   "name": "Robevi family house",
+   "sl": 14,
+   "file": "Robevci house.jpg",
+   "lat": 41.1123,
+   "lon": 20.7963,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Robevi house"
+  }
+ ]
+}

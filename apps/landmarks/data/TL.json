@@ -1,0 +1,216 @@
+{
+ "country": "TL",
+ "items": [
+  {
+   "id": "Q1539961",
+   "name": "Tatamailau",
+   "sl": 32,
+   "file": "View to Mt Tatamailau, Ainaro on a clear day.jpg",
+   "lat": -8.9067,
+   "lon": 125.4933,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tatamailau"
+  },
+  {
+   "id": "Q1432488",
+   "name": "Presidente Nicolau Lobato International Airport",
+   "sl": 20,
+   "file": "Airport Pres Lobato.jpg",
+   "lat": -8.5466,
+   "lon": 125.5247,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidente Nicolau Lobato International Airport"
+  },
+  {
+   "id": "Q1500479",
+   "name": "National Stadium",
+   "sl": 17,
+   "file": "Timor Leste Nacional Stadion.jpg",
+   "lat": -8.5579,
+   "lon": 125.5806,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dili stadium"
+  },
+  {
+   "id": "Q1430948",
+   "name": "Baucau Airport",
+   "sl": 14,
+   "file": "Baucau Airport.JPG",
+   "lat": -8.485,
+   "lon": 126.3989,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baucau Airport"
+  },
+  {
+   "id": "Q680813",
+   "name": "Cristo Rei of Dili",
+   "sl": 14,
+   "file": "Christ Dili.jpg",
+   "lat": -8.5205,
+   "lon": 125.6083,
+   "kind": "both",
+   "types": [
+    "colossal statue of Jesus",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cristo Rei of Dili"
+  },
+  {
+   "id": "Q1534693",
+   "name": "Nino Konis Santana National Park",
+   "sl": 14,
+   "file": "Tutuala F-33.jpg",
+   "lat": -8.4452,
+   "lon": 127.2217,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nino Konis Santana National Park"
+  },
+  {
+   "id": "Q1736176",
+   "name": "Immaculate Conception Cathedral",
+   "sl": 13,
+   "file": "Immaculate Conception Cathedral (Dili), 2023 (01).jpg",
+   "lat": -8.5584,
+   "lon": 125.5676,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Immaculate Conception Cathedral (Dili)"
+  },
+  {
+   "id": "Q3536157",
+   "name": "Oecusse Airport",
+   "sl": 12,
+   "file": "2019-06-18 Flughafen Oecusse Eröffnung 2.jpg",
+   "lat": -9.1983,
+   "lon": 124.3522,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aeroporto Internacional de Oe-Cusse Rota do Sândalo"
+  },
+  {
+   "id": "Q15051400",
+   "name": "An-Nur Mosque",
+   "sl": 11,
+   "file": "DSCI2698 Moschee Dili.JPG",
+   "lat": -8.5498,
+   "lon": 125.5602,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Annur mosque (Dili)"
+  },
+  {
+   "id": "Q4245248",
+   "name": "Nicolau Lobato Presidential Palace",
+   "sl": 10,
+   "file": "Palácio Presidente Nicolau Lobato, 2023 (01).jpg",
+   "lat": -8.5553,
+   "lon": 125.5631,
+   "kind": "built",
+   "types": [
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio Presidente Nicolau Lobato"
+  },
+  {
+   "id": "Q16493993",
+   "name": "Timorese Resistance Archive and Museum",
+   "sl": 9,
+   "file": "Rampa entrada AMRT1.jpg",
+   "lat": -8.5556,
+   "lon": 125.5775,
+   "kind": "built",
+   "types": [
+    "archives",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arquivo & Museu da Resistência Timorense"
+  },
+  {
+   "id": "Q21540492",
+   "name": "Hindu temple in Dili",
+   "sl": 8,
+   "file": "01 Hindutempel 2016-07-05.jpg",
+   "lat": -8.5651,
+   "lon": 125.596,
+   "kind": "built",
+   "types": [
+    "Balinese temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pura Girinatha"
+  },
+  {
+   "id": "Q1386730",
+   "name": "Matebian",
+   "sl": 8,
+   "file": "Mata Bia Massiv.jpg",
+   "lat": -8.6406,
+   "lon": 126.5969,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matebian"
+  }
+ ]
+}

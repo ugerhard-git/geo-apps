@@ -6,16 +6,20 @@ import { test } from "node:test";
 import { casePair, parseUnicodeSet, scriptOf } from "../../apps/alphabets/unicode.js";
 import { annual, archiveUrl, normalsFrom } from "../../apps/climate/climate.js";
 import { axesFor, niceRange } from "../../apps/climate/render.js";
+import { candidateQuery, detailQueries, mergeDetails } from "../../scripts/landmarks/query.js";
+import { dropReason, fileName, pickName, selectLandmarks } from "../../scripts/landmarks/select.js";
+import { fitCredit, wrapCredit } from "../../shared/credits.js";
 import { decodeCities, isFormatError } from "../../shared/geonames.js";
+import { justifiedRows } from "../../shared/justified.js";
 import { extentOf, pickDots, radiusFor } from "../../apps/city-dots/dots.js";
-import { fitCredit, wrapCredit } from "../../apps/endemics/credits.js";
-import { justifiedRows } from "../../apps/endemics/layout.js";
 import { joinChoices } from "../../apps/export-treemap/countries.js";
 import { cubeFor, toProducts } from "../../apps/export-treemap/oec.js";
 import { squarify } from "../../apps/export-treemap/treemap.js";
 import { quantise } from "../../apps/flagcolours/measure.js";
 import { buildData, csvCell, safeName, valueAt } from "../../apps/owid-chart-plotter/data.js";
 import { splitSlug } from "../../apps/owid-chart-plotter/owid.js";
+import { kindMatches, parseCountryFile } from "../../apps/landmarks/data.js";
+import { creditText } from "../../apps/landmarks/render.js";
 import { Region, clipLines, clipPath } from "../../apps/rivers/clip.js";
 import { parseLakes, parseRivers } from "../../apps/rivers/data.js";
 import { rankWidth } from "../../apps/rivers/render.js";
@@ -598,4 +602,193 @@ test("climate: axes — round ticks, and Walter–Lieth's tenfold shrink above 1
   const fit = axesFor(n, { imperial: true, walterLieth: true, band: true });
   assert.equal(fit.knee, null); // no Walter–Lieth in °F
   assert.ok(fit.t.lo <= 68 && fit.t.hi >= 86);
+});
+
+/* ── Landmarks ───────────────────────────────────────────── */
+
+const ENT = (/** @type {string} */ id) => ({ value: "http://www.wikidata.org/entity/" + id });
+const LIT = (/** @type {string} */ v) => ({ value: v });
+
+test("landmarks data: queries only take checked codes and ids", () => {
+  assert.match(candidateQuery("FR", 300), /wdt:P297 "FR"/);
+  assert.throws(() => candidateQuery('FR" } DROP', 300));
+  const parts = detailQueries(["Q243", "nope", 'Q1" }']);
+  assert.deepEqual(
+    parts.map((p) => p.part),
+    ["basic", "types", "groups", "also", "heritage", "labels"],
+  );
+  for (const p of parts) assert.match(p.query, /VALUES \?item \{ wd:Q243 \}/);
+  assert.throws(() => detailQueries(["x"]));
+});
+
+test("landmarks data: photo names, other-language names", () => {
+  assert.equal(
+    fileName("http://commons.wikimedia.org/wiki/Special:FilePath/Tour%20Eiffel_2.jpg"),
+    "Tour Eiffel 2.jpg",
+  );
+  assert.equal(fileName("http://commons.wikimedia.org/wiki/Special:FilePath/Map.svg"), ""); // not a photo
+  assert.equal(fileName("http://commons.wikimedia.org/wiki/Special:FilePath/a%2F..%2Fb.jpg"), "");
+  assert.equal(fileName("https://evil.example/Special:FilePath/x.jpg"), "");
+  assert.equal(pickName("Eiffel Tower", "fr::tour Eiffel"), "Eiffel Tower");
+  assert.equal(pickName("", "de::Eiffelturm || fr::tour Eiffel"), "tour Eiffel"); // French before German
+  assert.equal(pickName("", ""), "");
+});
+
+test("landmarks data: what is dropped, and why", () => {
+  const base = {
+    types: ["tower"],
+    also: [],
+    isClass: false,
+    hasCoord: true,
+    hasPop: false,
+    arch: false,
+    file: "a.jpg",
+    sl: 50,
+  };
+  assert.equal(dropReason(base), "");
+  assert.equal(dropReason({ ...base, sl: 3 }), "too obscure");
+  assert.equal(dropReason({ ...base, file: "" }), "no usable photograph");
+  assert.equal(dropReason({ ...base, isClass: true }), "a type, not a place");
+  assert.equal(dropReason({ ...base, hasCoord: false }), "no coordinates");
+  assert.equal(dropReason({ ...base, also: ["DE", "IT", "AT"] }), "spans 4 countries");
+  assert.equal(dropReason({ ...base, also: ["IT"] }), ""); // shared with one neighbour: kept, flagged
+  assert.equal(
+    dropReason({ ...base, hasPop: true, arch: true }),
+    "has a population (town, region or country)",
+  );
+  assert.equal(dropReason({ ...base, types: ["big city"] }), "town or region");
+  assert.equal(dropReason({ ...base, types: ["commune of France"] }), "town or region");
+  assert.equal(dropReason({ ...base, types: ["city gate"] }), ""); // not a city
+  assert.equal(
+    dropReason({ ...base, types: ["fortified town", "human settlement"] }),
+    "town or region",
+  );
+  assert.equal(
+    dropReason({
+      ...base,
+      types: ["cadastral populated place in the Netherlands", "international airport"],
+    }),
+    "",
+  ); // Schiphol
+  assert.equal(dropReason({ ...base, types: ["ancient city"], arch: true }), ""); // Thebes
+  assert.equal(dropReason({ ...base, types: ["strait", "sea"] }), "broad geography");
+  assert.equal(dropReason({ ...base, types: ["mountain range", "mountain"] }), "");
+  assert.equal(dropReason({ ...base, types: ["railway tunnel"] }), "not a single sight");
+  assert.equal(dropReason({ ...base, types: ["road-rail bridge", "through arch bridge"] }), ""); // Sydney Harbour Bridge
+  assert.equal(dropReason({ ...base, types: ["international airport"] }), ""); // airports stay
+  assert.equal(dropReason({ ...base, types: ["stadium"] }), ""); // so do stadiums
+});
+
+test("landmarks data: detail parts merge into one row per item", () => {
+  const rows = mergeDetails(
+    [
+      {
+        part: "basic",
+        rows: [
+          {
+            item: ENT("Q243"),
+            en: LIT("Eiffel Tower"),
+            img: LIT("http://commons.wikimedia.org/wiki/Special:FilePath/T.jpg"),
+            pt: LIT("Point(2.29 48.86)"),
+            category: LIT("Eiffel Tower"),
+          },
+        ],
+      },
+      {
+        part: "types",
+        rows: [
+          { item: ENT("Q243"), typeLabel: LIT("lattice tower") },
+          { item: ENT("Q999"), typeLabel: LIT("stray") },
+        ],
+      },
+      {
+        part: "groups",
+        rows: [
+          { item: ENT("Q243"), g: LIT("built") },
+          { item: ENT("Q243"), g: LIT("arch") },
+        ],
+      },
+      {
+        part: "also",
+        rows: [
+          { item: ENT("Q243"), oiso: LIT("FR") },
+          { item: ENT("Q243"), oiso: LIT("BE") },
+        ],
+      },
+      {
+        part: "heritage",
+        rows: [{ item: ENT("Q243"), site: ENT("Q190"), siteLabel: LIT("Banks of the Seine") }],
+      },
+    ],
+    new Map([["Q243", "191"]]),
+  );
+  assert.equal(rows.length, 1);
+  const { kept } = selectLandmarks(rows, "FR");
+  assert.deepEqual(kept[0], {
+    id: "Q243",
+    name: "Eiffel Tower",
+    sl: 191,
+    file: "T.jpg",
+    lat: 48.86,
+    lon: 2.29,
+    kind: "built",
+    types: ["lattice tower"],
+    whs: true,
+    partOf: { id: "Q190", name: "Banks of the Seine" },
+    also: ["BE"],
+    cat: "Eiffel Tower",
+  });
+});
+
+test("landmarks app: data files are checked again on reading", () => {
+  const good = {
+    id: "Q243",
+    name: "Eiffel Tower",
+    sl: 191,
+    file: "T.jpg",
+    kind: "built",
+    types: ["tower"],
+    whs: true,
+    partOf: null,
+    also: ["IT", "xx", "FR"],
+    cat: "Eiffel Tower",
+  };
+  const list = parseCountryFile(
+    {
+      country: "FR",
+      items: [
+        { ...good, id: "Q2", sl: 10, name: "Smaller" },
+        good,
+        { ...good, id: "Q3", file: "../x.jpg" },
+        { ...good, id: "Q4", file: "map.svg" },
+        { ...good, id: "nope" },
+        { ...good, id: "Q5", name: "" },
+        { ...good, id: "Q6", kind: "evil", cat: "<b>", sl: 1e9 },
+      ],
+    },
+    "FR",
+  );
+  assert.deepEqual(
+    list.map((l) => l.id),
+    ["Q243", "Q2", "Q6"],
+  );
+  assert.equal(list[0].rank, 1);
+  assert.deepEqual(list[0].also, ["IT"]);
+  assert.equal(list[2].kind, "");
+  assert.equal(list[2].cat, "");
+  assert.equal(list[2].sl, 0);
+  assert.throws(() => parseCountryFile({ country: "DE", items: [] }, "FR"));
+  assert.ok(kindMatches({ ...list[0], kind: "both" }, "natural"));
+  assert.ok(!kindMatches(list[0], "natural"));
+  assert.equal(
+    creditText({
+      name: "x",
+      thumb: "",
+      full: "",
+      author: "",
+      licence: { label: "CC BY 2.0" },
+      describeUrl: "https://commons.wikimedia.org/w/index.php?curid=5",
+    }),
+    "Wikimedia Commons · CC BY 2.0 · commons.wikimedia.org/w/index.php?curid=5",
+  );
 });

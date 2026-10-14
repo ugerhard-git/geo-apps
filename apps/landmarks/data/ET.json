@@ -1,0 +1,1341 @@
+{
+ "country": "ET",
+ "items": [
+  {
+   "id": "Q182719",
+   "name": "Lake Turkana",
+   "sl": 85,
+   "file": "LakeTurkanaSouthIsland.jpg",
+   "lat": 4.05,
+   "lon": 36.0167,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "salt lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1647948",
+    "name": "Lake Turkana National Parks"
+   },
+   "also": [
+    "KE"
+   ],
+   "cat": "Lake Turkana"
+  },
+  {
+   "id": "Q116685",
+   "name": "Lake Tana",
+   "sl": 77,
+   "file": "ET Amhara asv2018-02 img040 Lake Tana at Gorgora.jpg",
+   "lat": 12,
+   "lon": 37.25,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tana"
+  },
+  {
+   "id": "Q319288",
+   "name": "Ethiopian Highlands",
+   "sl": 66,
+   "file": "ET Amhara asv2018-02 img023 Wunenia.jpg",
+   "lat": 10,
+   "lon": 38.1667,
+   "kind": "natural",
+   "types": [
+    "large igneous province",
+    "mountain range",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q504315",
+   "name": "Simien Mountains National Park",
+   "sl": 55,
+   "file": "Semien Mountains 02.jpg",
+   "lat": 13.1833,
+   "lon": 38.0667,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Simien Mountains National Park"
+  },
+  {
+   "id": "Q464695",
+   "name": "Fasil Ghebbi",
+   "sl": 49,
+   "file": "ET Gondar asv2018-02 img02 Fasil Ghebbi.jpg",
+   "lat": 12.6081,
+   "lon": 37.4697,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "fortress"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Fasil Ghebbi"
+  },
+  {
+   "id": "Q903",
+   "name": "Erta Ale",
+   "sl": 48,
+   "file": "ET Afar asv2018-01 img98 way to Ertale.jpg",
+   "lat": 13.603,
+   "lon": 40.6634,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erta Ale"
+  },
+  {
+   "id": "Q44923",
+   "name": "Addis Ababa Bole International Airport",
+   "sl": 47,
+   "file": "Aeropuerto Internacional Bole 2022 3.jpg",
+   "lat": 8.9778,
+   "lon": 38.7994,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bole International Airport"
+  },
+  {
+   "id": "Q275435",
+   "name": "Ras Dashen",
+   "sl": 47,
+   "file": "Dejen misura da cima W.jpg",
+   "lat": 13.2367,
+   "lon": 38.3725,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ras Dashen"
+  },
+  {
+   "id": "Q141513",
+   "name": "Danakil Desert",
+   "sl": 44,
+   "file": "Danakil-Sable.jpg",
+   "lat": 14.2417,
+   "lon": 40.3,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DJ",
+    "ER"
+   ],
+   "cat": "Danakil Desert"
+  },
+  {
+   "id": "Q1542454",
+   "name": "Grand Ethiopian Renaissance Dam",
+   "sl": 43,
+   "file": "GERD 3.jpg",
+   "lat": 11.2142,
+   "lon": 35.0931,
+   "kind": "built",
+   "types": [
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Ethiopian Renaissance Dam"
+  },
+  {
+   "id": "Q306194",
+   "name": "Lake Abbe",
+   "sl": 42,
+   "file": "East Africa-Lake Abbe.jpg",
+   "lat": 11.1667,
+   "lon": 41.7833,
+   "kind": "natural",
+   "types": [
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DJ"
+   ],
+   "cat": "Lake Abbe"
+  },
+  {
+   "id": "Q804881",
+   "name": "Bale Mountains National Park",
+   "sl": 37,
+   "file": "Bale mountains.jpg",
+   "lat": 6.75,
+   "lon": 39.75,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Bale Mountains National Park"
+  },
+  {
+   "id": "Q304933",
+   "name": "Lake Abaya",
+   "sl": 36,
+   "file": "Lake Abaya.jpg",
+   "lat": 6.236,
+   "lon": 37.832,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Abaya"
+  },
+  {
+   "id": "Q791635",
+   "name": "Awash National Park",
+   "sl": 35,
+   "file": "Parc national d'Awash-Ethiopie-Chutes d'eau (2).jpg",
+   "lat": 9,
+   "lon": 40,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Awash National Park"
+  },
+  {
+   "id": "Q642979",
+   "name": "Monolithic churches in Lalibela",
+   "sl": 35,
+   "file": "Lalibela, san giorgio, esterno 07.jpg",
+   "lat": 12.0294,
+   "lon": 39.0404,
+   "kind": "",
+   "types": [
+    "group",
+    "group of structures or buildings",
+    "vernacular architecture"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock-hewn churches in Lalibela"
+  },
+  {
+   "id": "Q7971367",
+   "name": "Church of Saint George",
+   "sl": 34,
+   "file": "Lalibela, san giorgio, esterno 24.jpg",
+   "lat": 12.0316,
+   "lon": 39.0411,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monolithic church"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q642979",
+    "name": "Monolithic churches in Lalibela"
+   },
+   "also": [],
+   "cat": "Biete Ghiorgis"
+  },
+  {
+   "id": "Q1266055",
+   "name": "Blue Nile Falls",
+   "sl": 32,
+   "file": "Blue Nile Falls-03, by CT Snow.jpg",
+   "lat": 11.4905,
+   "lon": 37.5878,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Nile Falls"
+  },
+  {
+   "id": "Q1150986",
+   "name": "Church of Our Lady Mary of Zion",
+   "sl": 32,
+   "file": "ET Axum asv2018-01 img33 StMary of Zion Church.jpg",
+   "lat": 14.1303,
+   "lon": 38.7194,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Our Lady Mary of Zion, Axum"
+  },
+  {
+   "id": "Q590742",
+   "name": "Dallol",
+   "sl": 31,
+   "file": "ET Afar asv2018-01 img48 Dallol.jpg",
+   "lat": 14.2417,
+   "lon": 40.3,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dallol"
+  },
+  {
+   "id": "Q1058401",
+   "name": "Hayli Gubbi",
+   "sl": 29,
+   "file": "The new morphology of the Hayli Gubbi volcano (Copernicus 2025-11-28).png",
+   "lat": 13.51,
+   "lon": 40.7164,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hayli Gubbi"
+  },
+  {
+   "id": "Q1951029",
+   "name": "Mousa Ali",
+   "sl": 29,
+   "file": "Gufa volcanic field.jpg",
+   "lat": 12.4708,
+   "lon": 42.405,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DJ",
+    "ER"
+   ],
+   "cat": "Mousa Ali"
+  },
+  {
+   "id": "Q1651644",
+   "name": "Mago National Park",
+   "sl": 27,
+   "file": "Mago Park.JPG",
+   "lat": 5.6667,
+   "lon": 36.1667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mago National Park"
+  },
+  {
+   "id": "Q1270310",
+   "name": "Nechisar National Park",
+   "sl": 27,
+   "file": "LakeChamoCrocodile.jpg",
+   "lat": 6.0333,
+   "lon": 37.5833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nechisar National Park"
+  },
+  {
+   "id": "Q2308606",
+   "name": "Obelisk of Axum",
+   "sl": 27,
+   "file": "Rome Stele.jpg",
+   "lat": 14.1322,
+   "lon": 38.7197,
+   "kind": "built",
+   "types": [
+    "obelisk",
+    "stele"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aksum Stele n. 2 (Obelisk of Axum-Roma)"
+  },
+  {
+   "id": "Q1804865",
+   "name": "Lake Langano",
+   "sl": 26,
+   "file": "The Southwestern shore of Lake Langano, Ethiopia, 2004-10-29.jpg",
+   "lat": 7.596,
+   "lon": 38.754,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Langano"
+  },
+  {
+   "id": "Q1305538",
+   "name": "Omo National Park",
+   "sl": 26,
+   "file": "Omo River 02.jpg",
+   "lat": 6,
+   "lon": 35.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1060962",
+   "name": "Lake Chamo",
+   "sl": 25,
+   "file": "Lake Chamo 01.jpg",
+   "lat": 5.8333,
+   "lon": 37.55,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Chamo"
+  },
+  {
+   "id": "Q321193",
+   "name": "Lake Abijatta",
+   "sl": 24,
+   "file": "Flamingoes on Lake Abiyatta.jpg",
+   "lat": 7.6167,
+   "lon": 38.6,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abiyatta"
+  },
+  {
+   "id": "Q139538",
+   "name": "Lake Karum",
+   "sl": 24,
+   "file": "ET Afar asv2018-01 img11 Lake Karum area.jpg",
+   "lat": 14.0167,
+   "lon": 40.4167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Karum"
+  },
+  {
+   "id": "Q791631",
+   "name": "Lake Awasa",
+   "sl": 23,
+   "file": "Sunset over Lake Awassa, Ethiopia.jpg",
+   "lat": 7.05,
+   "lon": 38.4333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Awasa"
+  },
+  {
+   "id": "Q352962",
+   "name": "Addis Ababa Stadium",
+   "sl": 22,
+   "file": "ET Addis asv2018-01 img02 Stadium.jpg",
+   "lat": 9.0133,
+   "lon": 38.7564,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Addis Ababa Stadium"
+  },
+  {
+   "id": "Q2652168",
+   "name": "National Museum of Ethiopia",
+   "sl": 22,
+   "file": "National museum of Ethiopia New facility.JPG",
+   "lat": 9.0383,
+   "lon": 38.7619,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Ethiopia"
+  },
+  {
+   "id": "Q321200",
+   "name": "Abijatta-Shalla National Park",
+   "sl": 21,
+   "file": "Lake Shalla Landscape.jpg",
+   "lat": 7.5,
+   "lon": 38.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abijatta-Shalla National Park"
+  },
+  {
+   "id": "Q383714",
+   "name": "Lake Afrera",
+   "sl": 21,
+   "file": "Afrera NASA.jpg",
+   "lat": 13.2833,
+   "lon": 40.9167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Afdera"
+  },
+  {
+   "id": "Q3063392",
+   "name": "Melka Kunture",
+   "sl": 21,
+   "file": "Pierre taillée Melka Kunture Éthiopie.jpg",
+   "lat": 8.7025,
+   "lon": 38.6083,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Melka Kunture"
+  },
+  {
+   "id": "Q382139",
+   "name": "Afdera",
+   "sl": 20,
+   "file": "Alayta shield volcano.jpg",
+   "lat": 13.0881,
+   "lon": 40.8531,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Afdera volcano"
+  },
+  {
+   "id": "Q31347745",
+   "name": "Gaet'ale Pond",
+   "sl": 20,
+   "file": "ET Afar asv2018-01 img58 Dallol.jpg",
+   "lat": 14.2131,
+   "lon": 40.3215,
+   "kind": "natural",
+   "types": [
+    "hypersaline lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gaet'ale Pond"
+  },
+  {
+   "id": "Q2599114",
+   "name": "Holy Trinity Cathedral",
+   "sl": 20,
+   "file": "Addis abeba, chiesa della trinità, esterno 02.jpg",
+   "lat": 9.0308,
+   "lon": 38.7666,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Trinity Cathedral, Addis Ababa"
+  },
+  {
+   "id": "Q662811",
+   "name": "Lake Chew Bahir",
+   "sl": 20,
+   "file": "Lake Chew Bahir 2021-01-31 Sentinel-2 L2A True color(1).jpg",
+   "lat": 4.6867,
+   "lon": 36.8517,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KE"
+   ],
+   "cat": "Lake Chew Bahir"
+  },
+  {
+   "id": "Q1550316",
+   "name": "Lake Hayq",
+   "sl": 20,
+   "file": "Lake Hayq.jpg",
+   "lat": 11.3333,
+   "lon": 39.7167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Hayq"
+  },
+  {
+   "id": "Q231817",
+   "name": "Lake Zway",
+   "sl": 20,
+   "file": "Lake Ziway.jpg",
+   "lat": 8,
+   "lon": 38.83,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ziway"
+  },
+  {
+   "id": "Q641447",
+   "name": "St. George's Cathedral",
+   "sl": 20,
+   "file": "Cathédrale Saint Georges Addis Abeba1.jpg",
+   "lat": 9.0367,
+   "lon": 38.7514,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. George's Cathedral in Addis Ababa"
+  },
+  {
+   "id": "Q2469695",
+   "name": "Axum Airport",
+   "sl": 19,
+   "file": "Aksúmské letiště.jpg",
+   "lat": 14.1369,
+   "lon": 38.7761,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Axum Airport"
+  },
+  {
+   "id": "Q1567353",
+   "name": "Hadar",
+   "sl": 19,
+   "file": "AL 444-2 skull.jpg",
+   "lat": 11.1932,
+   "lon": 40.5999,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hadar, Ethiopia"
+  },
+  {
+   "id": "Q2671162",
+   "name": "Mount Entoto",
+   "sl": 19,
+   "file": "Mount Entoto.jpg",
+   "lat": 9.1156,
+   "lon": 38.7722,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Entoto"
+  },
+  {
+   "id": "Q3502707",
+   "name": "Mount Tullu Demtu",
+   "sl": 19,
+   "file": "Bale Mountains National Park (49849653091).jpg",
+   "lat": 6.8265,
+   "lon": 39.8194,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q591775",
+   "name": "Yangudi Rassa National Park",
+   "sl": 19,
+   "file": "Parc national de Yangudi Rassa (1).jpg",
+   "lat": 11,
+   "lon": 40.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yangudi Rassa National Park"
+  },
+  {
+   "id": "Q20626624",
+   "name": "Abuna Yemata Guh",
+   "sl": 18,
+   "file": "Priest holding the staff.jpg",
+   "lat": 13.9153,
+   "lon": 39.3431,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abuna Yemata Guh"
+  },
+  {
+   "id": "Q380084",
+   "name": "Adwa",
+   "sl": 18,
+   "file": "Adwa.jpg",
+   "lat": 10.07,
+   "lon": 40.84,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adwa volcano"
+  },
+  {
+   "id": "Q456557",
+   "name": "Amba Alagi",
+   "sl": 18,
+   "file": "Alagi Amba, near Attala - The Abyssinian Expedition 1868 Q69840.jpg",
+   "lat": 12.9833,
+   "lon": 39.55,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amba Alagi"
+  },
+  {
+   "id": "Q509445",
+   "name": "Lake Shala",
+   "sl": 18,
+   "file": "Abijatta-Shalla National Park in Ethiopia 04.jpg",
+   "lat": 7.4833,
+   "lon": 38.5333,
+   "kind": "natural",
+   "types": [
+    "soda lake",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Shalla"
+  },
+  {
+   "id": "Q867835",
+   "name": "Mount Abuna Yosef",
+   "sl": 18,
+   "file": "Abuna Yosef Peak.JPG",
+   "lat": 12.1408,
+   "lon": 39.1817,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abuna Yosef"
+  },
+  {
+   "id": "Q230269",
+   "name": "Mount Zuqualla",
+   "sl": 18,
+   "file": "Mount Zuqualla.jpg",
+   "lat": 8.55,
+   "lon": 38.8667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zuqualla"
+  },
+  {
+   "id": "Q1189160",
+   "name": "Ale Bagu",
+   "sl": 17,
+   "file": "ET Afar asv2018-01 img96 way to Ertale.jpg",
+   "lat": 13.5064,
+   "lon": 40.6317,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ale Bagu"
+  },
+  {
+   "id": "Q507979",
+   "name": "Asavyo",
+   "sl": 17,
+   "file": "Местность вулкана Асавио (Эфиопия).jpg",
+   "lat": 13.0978,
+   "lon": 41.5994,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asavyo"
+  },
+  {
+   "id": "Q1156519",
+   "name": "Dabbahu Volcano",
+   "sl": 17,
+   "file": "Manda-Hararo rift, Afar.jpg",
+   "lat": 12.595,
+   "lon": 40.48,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q595895",
+   "name": "Debre Damo",
+   "sl": 17,
+   "file": "ET Tigray asv2018-01 img26 Debre Damo Monastery.jpg",
+   "lat": 14.3739,
+   "lon": 39.2903,
+   "kind": "natural",
+   "types": [
+    "Amba"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Debre Damo"
+  },
+  {
+   "id": "Q792922",
+   "name": "Mount Ayalu",
+   "sl": 17,
+   "file": "Ayelu volcano.jpg",
+   "lat": 10.0822,
+   "lon": 40.7017,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Ayalu"
+  },
+  {
+   "id": "Q2511832",
+   "name": "Debre Libanos",
+   "sl": 16,
+   "file": "Debre Libanos Monastery Ethiopia Oct19 D72 12186.jpg",
+   "lat": 9.7119,
+   "lon": 38.8475,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Debre Libanos"
+  },
+  {
+   "id": "Q6130080",
+   "name": "Tiya archaeological site",
+   "sl": 16,
+   "file": "Tiya vue d'ensemble.JPG",
+   "lat": 8.4349,
+   "lon": 38.6121,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "stele",
+    "stone row"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tiya"
+  },
+  {
+   "id": "Q2671159",
+   "name": "Bahir Dar Airport",
+   "sl": 15,
+   "file": "Bahir Dar (BJR - HABD) AN0457026.jpg",
+   "lat": 11.6081,
+   "lon": 37.3214,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bahir Dar Airport"
+  },
+  {
+   "id": "Q1607790",
+   "name": "Dalaffilla",
+   "sl": 15,
+   "file": "Dalafilla.jpg",
+   "lat": 13.792,
+   "lon": 40.55,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alu-Dalafilla"
+  },
+  {
+   "id": "Q2068595",
+   "name": "Ezana Stone",
+   "sl": 15,
+   "file": "Aksum, iscrizione di re ezana, in greco, sabeo e ge'ez, 330-350 dc ca. 10.jpg",
+   "lat": 14.1379,
+   "lon": 38.7229,
+   "kind": "built",
+   "types": [
+    "inscription",
+    "stele"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5832",
+    "name": "Axum"
+   },
+   "also": [],
+   "cat": "Ezana Stone"
+  },
+  {
+   "id": "Q1814846",
+   "name": "Mount Alayta",
+   "sl": 15,
+   "file": "Alayta shield volcano.jpg",
+   "lat": 12.8881,
+   "lon": 40.5719,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alayta volcano"
+  },
+  {
+   "id": "Q375900",
+   "name": "Mount Dama Ali",
+   "sl": 15,
+   "file": "Dama Ali.jpg",
+   "lat": 11.2872,
+   "lon": 41.6381,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dama Ali"
+  },
+  {
+   "id": "Q2336503",
+   "name": "Mount Fentale",
+   "sl": 15,
+   "file": "Fentale aerial.jpg",
+   "lat": 8.9667,
+   "lon": 39.9333,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3444339",
+   "name": "Sof Omar Caves",
+   "sl": 15,
+   "file": "Underground River, Sof Omer Cave, Ethiopia (11562528124).jpg",
+   "lat": 6.9,
+   "lon": 40.85,
+   "kind": "both",
+   "types": [
+    "cave",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sof Omar caves"
+  },
+  {
+   "id": "Q1126184",
+   "name": "Tekezé Dam",
+   "sl": 15,
+   "file": "Tekeze reservoir.jpg",
+   "lat": 13.3467,
+   "lon": 38.7431,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tekeze Reservoir"
+  },
+  {
+   "id": "Q1136922",
+   "name": "Gilgel Gibe III Dam",
+   "sl": 14,
+   "file": "Omo Gibe III, Wolayita 3.jpg",
+   "lat": 6.8481,
+   "lon": 37.3014,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gilgel Gibe III Dam"
+  },
+  {
+   "id": "Q2331557",
+   "name": "Tat Ali",
+   "sl": 14,
+   "file": "TatAli.jpg",
+   "lat": 13.4667,
+   "lon": 41.1167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q447277",
+   "name": "Alu",
+   "sl": 13,
+   "file": "Алу (Эфиопия).jpg",
+   "lat": 13.825,
+   "lon": 40.508,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alu (Ethiopia)"
+  },
+  {
+   "id": "Q2332099",
+   "name": "Borale Ale",
+   "sl": 13,
+   "file": "Borale Ale, Dalaffilla ) (1).jpg",
+   "lat": 13.725,
+   "lon": 40.6,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Borale Ale"
+  },
+  {
+   "id": "Q608306",
+   "name": "Gondar Airport",
+   "sl": 13,
+   "file": "Gonder Airport Stehmann-1.jpg",
+   "lat": 12.5197,
+   "lon": 37.4339,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gondar Airport"
+  },
+  {
+   "id": "Q2259366",
+   "name": "King Ezana's Stele",
+   "sl": 13,
+   "file": "Aksum, stele 3 detta di re ezana, l'unica mai crollata 05.jpg",
+   "lat": 14.1321,
+   "lon": 38.7195,
+   "kind": "built",
+   "types": [
+    "stele"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5832",
+    "name": "Axum"
+   },
+   "also": [],
+   "cat": "Aksum Stele n. 3 (King Ezana's Stele)"
+  },
+  {
+   "id": "Q1066779",
+   "name": "Koka Reservoir",
+   "sl": 13,
+   "file": "Koka Reservoir (11379418344).jpg",
+   "lat": 8.3833,
+   "lon": 39.0833,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Koka Reservoir"
+  },
+  {
+   "id": "Q1164645",
+   "name": "Kundudo",
+   "sl": 13,
+   "file": "KundudoNorthFace.JPG",
+   "lat": 9.4333,
+   "lon": 42.3333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kundudo"
+  },
+  {
+   "id": "Q511443",
+   "name": "Mallahle",
+   "sl": 13,
+   "file": "Nabro and Mallahle Volcanoes-NASA.jpg",
+   "lat": 13.277,
+   "lon": 41.655,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mallahle"
+  },
+  {
+   "id": "Q2915799",
+   "name": "Meskel Square",
+   "sl": 13,
+   "file": "ET Addis asv2018-01 img01 Meskel Square.jpg",
+   "lat": 9.0103,
+   "lon": 38.7611,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Meskel Adebabay"
+  },
+  {
+   "id": "Q1131832",
+   "name": "Amba Aradam",
+   "sl": 12,
+   "file": "Truppe italiane in movimento (sullo sfondo l’Amba Aradam).jpg",
+   "lat": 13.3333,
+   "lon": 39.5167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1225305",
+   "name": "Dikika",
+   "sl": 12,
+   "file": "SelamAustralopithecus.jpg",
+   "lat": 11.0833,
+   "lon": 40.5833,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

@@ -1,0 +1,1356 @@
+{
+ "country": "BG",
+ "items": [
+  {
+   "id": "Q209341",
+   "name": "Musala",
+   "sl": 55,
+   "file": "Musala.JPG",
+   "lat": 42.1792,
+   "lon": 23.5853,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "main peak",
+    "mountain",
+    "two-thousander"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musala"
+  },
+  {
+   "id": "Q43282",
+   "name": "Alexander Nevsky Cathedral",
+   "sl": 52,
+   "file": "AlexanderNevskyCathedral-Sofia-6.jpg",
+   "lat": 42.6958,
+   "lon": 23.333,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alexander Nevsky Cathedral, Sofia"
+  },
+  {
+   "id": "Q651314",
+   "name": "Pirin National Park",
+   "sl": 51,
+   "file": "Bansko ski 2025 28.jpg",
+   "lat": 41.6722,
+   "lon": 23.4878,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Pirin National Park"
+  },
+  {
+   "id": "Q276553",
+   "name": "Boyana Church",
+   "sl": 49,
+   "file": "Boyana Church 2 TB.JPG",
+   "lat": 42.6447,
+   "lon": 23.2662,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Boyana Church"
+  },
+  {
+   "id": "Q319296",
+   "name": "Madara Rider",
+   "sl": 48,
+   "file": "JEŹDZIEC Z MADARY.JPG",
+   "lat": 43.2774,
+   "lon": 27.1189,
+   "kind": "natural",
+   "types": [],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Madara Rider"
+  },
+  {
+   "id": "Q122082",
+   "name": "Srebarna Nature Reserve",
+   "sl": 47,
+   "file": "Езерото Сребърна.jpg",
+   "lat": 44.1111,
+   "lon": 27.0722,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Srebarna Nature Reserve"
+  },
+  {
+   "id": "Q127951",
+   "name": "Sofia Airport",
+   "sl": 46,
+   "file": "SA-06-NOvember-2015.jpg",
+   "lat": 42.695,
+   "lon": 23.4083,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sofia Airport"
+  },
+  {
+   "id": "Q503387",
+   "name": "Rock-hewn Churches of Ivanovo",
+   "sl": 44,
+   "file": "Ivanovski skalni tsarkvi 20110714-05.JPG",
+   "lat": 43.6956,
+   "lon": 25.9881,
+   "kind": "built",
+   "types": [
+    "group",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock-hewn churches of Ivanovo"
+  },
+  {
+   "id": "Q378943",
+   "name": "Vitosha",
+   "sl": 44,
+   "file": "Sofia-vitosha-kempinski.jpg",
+   "lat": 42.5667,
+   "lon": 23.2833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vitosha"
+  },
+  {
+   "id": "Q301815",
+   "name": "Thracian Tomb of Kazanlak",
+   "sl": 43,
+   "file": "Kazanłyk H17-35.jpg",
+   "lat": 42.6256,
+   "lon": 25.3992,
+   "kind": "built",
+   "types": [
+    "museum",
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Thracian Tomb of Kazanlak"
+  },
+  {
+   "id": "Q650531",
+   "name": "Thracian Tomb of Sveshtari",
+   "sl": 43,
+   "file": "Sveshtari Thracian tomb Bulgaria IFB.JPG",
+   "lat": 43.745,
+   "lon": 26.7663,
+   "kind": "built",
+   "types": [
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Thracian Tomb of Sveshtari"
+  },
+  {
+   "id": "Q1324587",
+   "name": "Burgas Airport",
+   "sl": 38,
+   "file": "Runway Burgas.JPG",
+   "lat": 42.5703,
+   "lon": 27.5153,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burgas Airport"
+  },
+  {
+   "id": "Q748637",
+   "name": "Rila National Park",
+   "sl": 36,
+   "file": "CentrlRilaReservation.jpg",
+   "lat": 42.1833,
+   "lon": 23.5833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rila National Park"
+  },
+  {
+   "id": "Q203004",
+   "name": "Danube Bridge",
+   "sl": 35,
+   "file": "Most-druschba.jpg",
+   "lat": 43.8875,
+   "lon": 26.0072,
+   "kind": "built",
+   "types": [
+    "footbridge",
+    "international bridge",
+    "road-rail bridge",
+    "steel bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RO"
+   ],
+   "cat": "Friendship Bridge (Danube)"
+  },
+  {
+   "id": "Q790052",
+   "name": "Banya Bashi Mosque",
+   "sl": 34,
+   "file": "05158-Banyabaşı Mosque, Sofia (8269331286).jpg",
+   "lat": 42.6995,
+   "lon": 23.3226,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banyabaşı Mosque"
+  },
+  {
+   "id": "Q1423410",
+   "name": "Varna Airport",
+   "sl": 34,
+   "file": "Varna Airport.jpg",
+   "lat": 43.2319,
+   "lon": 27.8253,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Varna Airport"
+  },
+  {
+   "id": "Q1887045",
+   "name": "Central Balkan National Park",
+   "sl": 33,
+   "file": "Staraplanina-krassiu.jpg",
+   "lat": 42.7203,
+   "lon": 24.7814,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Central Balkan National Park"
+  },
+  {
+   "id": "Q1077240",
+   "name": "New Europe Bridge",
+   "sl": 33,
+   "file": "2013-06 Donaubruecke Vidin.jpg",
+   "lat": 44.005,
+   "lon": 22.9475,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "international bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RO"
+   ],
+   "cat": "Vidin-Calafat Bridge"
+  },
+  {
+   "id": "Q2062471",
+   "name": "Pobiti Kamani",
+   "sl": 33,
+   "file": "Bosque de Piedra, provincia de Varna, Bulgaria, 2016-05-27, DD 73.jpg",
+   "lat": 43.2264,
+   "lon": 27.7067,
+   "kind": "natural",
+   "types": [
+    "IUCN category IV: Habitat/Species Management Area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pobiti kamani"
+  },
+  {
+   "id": "Q1327903",
+   "name": "Vasil Levski National Stadium",
+   "sl": 33,
+   "file": "Vasil Levski National Stadium 2022.jpg",
+   "lat": 42.6876,
+   "lon": 23.3354,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vasil Levski National Stadium"
+  },
+  {
+   "id": "Q1140684",
+   "name": "Vihren",
+   "sl": 33,
+   "file": "BG-Pirin-Vihren.jpg",
+   "lat": 41.7664,
+   "lon": 23.3994,
+   "kind": "natural",
+   "types": [
+    "main peak",
+    "mountain",
+    "two-thousander",
+    "ultra-prominent peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vihren"
+  },
+  {
+   "id": "Q768480",
+   "name": "Rose Valley",
+   "sl": 32,
+   "file": "Roses pickers in roses vally, kazanlak, bulgaria.jpg",
+   "lat": 42.5833,
+   "lon": 25.1667,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rose Valley, Bulgaria"
+  },
+  {
+   "id": "Q1943549",
+   "name": "Perperikon",
+   "sl": 30,
+   "file": "Perperikon Nenko Lazarow 023.JPG",
+   "lat": 41.7147,
+   "lon": 25.4653,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Perperikon"
+  },
+  {
+   "id": "Q1884722",
+   "name": "Magura Cave",
+   "sl": 29,
+   "file": "Magura - drawings.jpg",
+   "lat": 43.7183,
+   "lon": 22.6003,
+   "kind": "both",
+   "types": [
+    "cave",
+    "cave with prehistoric art",
+    "rock art",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Magura Cave"
+  },
+  {
+   "id": "Q59893",
+   "name": "Baba Vida",
+   "sl": 28,
+   "file": "Baba Vida Fortress (2006).jpg",
+   "lat": 43.9932,
+   "lon": 22.8868,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baba Vida Fortress"
+  },
+  {
+   "id": "Q1370380",
+   "name": "Plovdiv Airport",
+   "sl": 28,
+   "file": "Plovdiv airport - New terminal building.jpg",
+   "lat": 42.0678,
+   "lon": 24.8508,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plovdiv Airport"
+  },
+  {
+   "id": "Q3042478",
+   "name": "Belogradchik Rocks",
+   "sl": 27,
+   "file": "Червените Белоградчишки скали - Белоградчик.jpg",
+   "lat": 43.6208,
+   "lon": 22.685,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "natural monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belogradchik Rocks"
+  },
+  {
+   "id": "Q1142729",
+   "name": "Bulgarian Coastline of the Black Sea",
+   "sl": 27,
+   "file": "The Rock Ships (224180951).jpeg",
+   "lat": 42.368,
+   "lon": 27.708,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q512147",
+   "name": "Tsarevets",
+   "sl": 27,
+   "file": "Tsarevets-Panorama.jpg",
+   "lat": 43.0833,
+   "lon": 25.6528,
+   "kind": "both",
+   "types": [
+    "fortress",
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsarevets"
+  },
+  {
+   "id": "Q799313",
+   "name": "Rozhen Observatory",
+   "sl": 26,
+   "file": "Rozhen dome.jpg",
+   "lat": 41.6933,
+   "lon": 24.7378,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rozhen observatory"
+  },
+  {
+   "id": "Q2915222",
+   "name": "Belogradchik Fortress",
+   "sl": 25,
+   "file": "Belogradchik Fortress Entrance.jpg",
+   "lat": 43.6233,
+   "lon": 22.6772,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belogradchik Fortress"
+  },
+  {
+   "id": "Q1497827",
+   "name": "National Archaeological Museum, Bulgaria",
+   "sl": 25,
+   "file": "20140618 Sofia 07.jpg",
+   "lat": 42.6963,
+   "lon": 23.3246,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "national museum",
+    "research institute"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Archaeological Museum, Bulgaria"
+  },
+  {
+   "id": "Q602853",
+   "name": "Saint Sophia Church",
+   "sl": 25,
+   "file": "Basilica of Hagia Sofia, Bulgaria.jpg",
+   "lat": 42.6965,
+   "lon": 23.3315,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Sophia Church, Sofia"
+  },
+  {
+   "id": "Q1291235",
+   "name": "Seuthopolis",
+   "sl": 25,
+   "file": "Artificial lake kazanlak.jpg",
+   "lat": 42.6181,
+   "lon": 25.3056,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seuthopolis"
+  },
+  {
+   "id": "Q1648563",
+   "name": "Kaliakra",
+   "sl": 24,
+   "file": "Kaliakra.JPG",
+   "lat": 43.3613,
+   "lon": 28.4655,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaliakra"
+  },
+  {
+   "id": "Q520753",
+   "name": "Saint Nedelya Church",
+   "sl": 24,
+   "file": "P7120041.JPG",
+   "lat": 42.6968,
+   "lon": 23.3216,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Nedelya Cathedral, Sofia"
+  },
+  {
+   "id": "Q946052",
+   "name": "Varna Necropolis",
+   "sl": 24,
+   "file": "Or de Varna - Nécropole.jpg",
+   "lat": 43.2131,
+   "lon": 27.8644,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Varna Necropolis"
+  },
+  {
+   "id": "Q47020",
+   "name": "Bachkovo Monastery",
+   "sl": 23,
+   "file": "4251 Bachkovski manastir, Bulgaria - panoramio.jpg",
+   "lat": 41.9423,
+   "lon": 24.8499,
+   "kind": "built",
+   "types": [
+    "monastery",
+    "Stauropegic monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bachkovo Monastery"
+  },
+  {
+   "id": "Q894120",
+   "name": "Borovets",
+   "sl": 23,
+   "file": "Borovets 2015.jpg",
+   "lat": 42.2644,
+   "lon": 23.6069,
+   "kind": "built",
+   "types": [
+    "settlement formation in Bulgaria",
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Borovets"
+  },
+  {
+   "id": "Q1858012",
+   "name": "Ivan Vazov National Theatre",
+   "sl": 23,
+   "file": "National-theatre-Bulgaria 2022.jpg",
+   "lat": 42.6942,
+   "lon": 23.3266,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ivan Vazov National Theatre"
+  },
+  {
+   "id": "Q1968325",
+   "name": "National History Museum",
+   "sl": 23,
+   "file": "National Historical Museum, Bulgaria.jpg",
+   "lat": 42.6553,
+   "lon": 23.2708,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National History Museum, Bulgaria"
+  },
+  {
+   "id": "Q804933",
+   "name": "Balgarska Armia Stadium",
+   "sl": 22,
+   "file": "Balgarska Armija 2017.jpg",
+   "lat": 42.6843,
+   "lon": 23.3398,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Balgarska Armiya Stadium"
+  },
+  {
+   "id": "Q942127",
+   "name": "Central Synagogue of Sofia",
+   "sl": 22,
+   "file": "Sofia Synagogue 11c.jpg",
+   "lat": 42.7003,
+   "lon": 23.321,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sofia Synagogue"
+  },
+  {
+   "id": "Q1014783",
+   "name": "Lake Burgas",
+   "sl": 22,
+   "file": "Lake-burgas-dinev.jpg",
+   "lat": 42.5,
+   "lon": 27.4,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Burgas"
+  },
+  {
+   "id": "Q1070423",
+   "name": "Lake Varna",
+   "sl": 22,
+   "file": "Lake Varna.jpg",
+   "lat": 43.1903,
+   "lon": 27.825,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Varna Lake"
+  },
+  {
+   "id": "Q1987323",
+   "name": "Nicopolis ad Istrum",
+   "sl": 22,
+   "file": "Nicopolis ad Istrum - central part.jpg",
+   "lat": 43.2172,
+   "lon": 25.6111,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nicopolis ad Istrum"
+  },
+  {
+   "id": "Q2381742",
+   "name": "Ograzhden",
+   "sl": 22,
+   "file": "Ograzden IMG 4585.jpg",
+   "lat": 41.5208,
+   "lon": 22.8778,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": "Ograzhden"
+  },
+  {
+   "id": "Q1363208",
+   "name": "Plovdiv Roman theatre",
+   "sl": 22,
+   "file": "Antique-theater-plovdiv.jpg",
+   "lat": 42.1468,
+   "lon": 24.751,
+   "kind": "built",
+   "types": [
+    "Roman theatre"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Roman theatre (Plovdiv)"
+  },
+  {
+   "id": "Q4838907",
+   "name": "Bacho Kiro cave",
+   "sl": 21,
+   "file": "Bacho Kiro Cave.jpg",
+   "lat": 42.9467,
+   "lon": 25.4303,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bacho Kiro cave"
+  },
+  {
+   "id": "Q2655068",
+   "name": "Dormition of the Theotokos Cathedral",
+   "sl": 21,
+   "file": "Varna-cathedral-Orel.jpg",
+   "lat": 43.2053,
+   "lon": 27.91,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Assumption of Mary Church, Varna"
+  },
+  {
+   "id": "Q3625171",
+   "name": "Huvepharma Arena",
+   "sl": 21,
+   "file": "Ludogorets arena in Razgrad, Bulgaria.png",
+   "lat": 43.5336,
+   "lon": 26.5275,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ludogorets Arena"
+  },
+  {
+   "id": "Q2377452",
+   "name": "Maleshevo",
+   "sl": 21,
+   "file": "Dzhama IMG 9921.jpg",
+   "lat": 41.6667,
+   "lon": 23,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": "Maleshevo Mountain"
+  },
+  {
+   "id": "Q2991178",
+   "name": "National Art Gallery of Bulgaria",
+   "sl": 21,
+   "file": "National Art Gallery of Bulgaria E6.jpg",
+   "lat": 42.6965,
+   "lon": 23.3268,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Art Gallery, Bulgaria"
+  },
+  {
+   "id": "Q2598073",
+   "name": "Saint George Rotunda Church",
+   "sl": 21,
+   "file": "StGeorgeRotundaSofia.JPG",
+   "lat": 42.6969,
+   "lon": 23.3229,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Eastern Orthodox church building",
+    "rotunda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint George Rotunda Church, Sofia"
+  },
+  {
+   "id": "Q2095010",
+   "name": "Sofia railway station",
+   "sl": 21,
+   "file": "Sofia Railway Station 2026 3.jpg",
+   "lat": 42.7121,
+   "lon": 23.3211,
+   "kind": "built",
+   "types": [
+    "interchange station",
+    "last station",
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sofia Central Railway Station"
+  },
+  {
+   "id": "Q2006052",
+   "name": "Tombul Mosque (Shumen)",
+   "sl": 21,
+   "file": "Tombul-Moschee-Ostfassade1.jpg",
+   "lat": 43.2694,
+   "lon": 26.91,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "külliye",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tombul Mosque"
+  },
+  {
+   "id": "Q1058720",
+   "name": "Buzludzha monument",
+   "sl": 20,
+   "file": "Бузлуджа IMG6338.jpg",
+   "lat": 42.7358,
+   "lon": 25.3939,
+   "kind": "built",
+   "types": [
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buzludzha monument"
+  },
+  {
+   "id": "Q2458142",
+   "name": "Dyavolski most",
+   "sl": 20,
+   "file": "Devil's Bridge Ardino 2009 (1).jpg",
+   "lat": 41.6206,
+   "lon": 25.1142,
+   "kind": "built",
+   "types": [
+    "bridge",
+    "deck arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dyavolski most"
+  },
+  {
+   "id": "Q3409197",
+   "name": "Dzhumaya Mosque",
+   "sl": 20,
+   "file": "Dzhumayata.jpg",
+   "lat": 42.1479,
+   "lon": 24.7483,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Djumaya Mosque (Plovdiv)"
+  },
+  {
+   "id": "Q2048727",
+   "name": "Pamporovo",
+   "sl": 20,
+   "file": "Pamporovoresort.jpg",
+   "lat": 41.6475,
+   "lon": 24.6889,
+   "kind": "built",
+   "types": [
+    "settlement formation in Bulgaria",
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pamporovo"
+  },
+  {
+   "id": "Q989356",
+   "name": "Cape Emine",
+   "sl": 19,
+   "file": "Cape-emine-dinev.jpg",
+   "lat": 42.7,
+   "lon": 27.9,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emine"
+  },
+  {
+   "id": "Q2991256",
+   "name": "Asen's Fortress",
+   "sl": 18,
+   "file": "Asens Fortress TB 9.jpg",
+   "lat": 41.9867,
+   "lon": 24.8733,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asen's Fortress"
+  },
+  {
+   "id": "Q20498960",
+   "name": "Durankulak archaeological complex",
+   "sl": 18,
+   "file": "Sofia - Skeleton from the Durankulak Necropolis.jpg",
+   "lat": 43.6694,
+   "lon": 28.5325,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Durankulak archaeological complex"
+  },
+  {
+   "id": "Q1370513",
+   "name": "Euxinograd",
+   "sl": 18,
+   "file": "Euxinograd 2017 77.jpg",
+   "lat": 43.2192,
+   "lon": 27.9947,
+   "kind": "built",
+   "types": [
+    "royal palace",
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Euxinograd"
+  },
+  {
+   "id": "Q876619",
+   "name": "Plovdiv Regional Ethnographic Museum",
+   "sl": 18,
+   "file": "Etn muzei pld.jpg",
+   "lat": 42.15,
+   "lon": 24.7531,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ethnographic museum in Plovdiv"
+  },
+  {
+   "id": "Q7371012",
+   "name": "Round Church, Preslav",
+   "sl": 18,
+   "file": "Round Church, Preslav.jpg",
+   "lat": 43.1423,
+   "lon": 26.813,
+   "kind": "built",
+   "types": [
+    "church ruin",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Golden Church in Preslav"
+  },
+  {
+   "id": "Q983725",
+   "name": "Rozhen Monastery",
+   "sl": 18,
+   "file": "Bulgarien-Roschen-2-1996.jpg",
+   "lat": 41.5303,
+   "lon": 23.4264,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rozhen Monastery"
+  },
+  {
+   "id": "Q7398333",
+   "name": "Saeva dupka cave",
+   "sl": 18,
+   "file": "WhiteCastleStalagmite.jpg",
+   "lat": 43.0476,
+   "lon": 24.1879,
+   "kind": "both",
+   "types": [
+    "cave",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saeva Dupka"
+  },
+  {
+   "id": "Q573222",
+   "name": "Troyan Monastery",
+   "sl": 18,
+   "file": "Troyan-monastery-imagesfrombulgaria.JPG",
+   "lat": 42.8625,
+   "lon": 24.7806,
+   "kind": "built",
+   "types": [
+    "monastery",
+    "Stauropegic monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Troyan Monastery"
+  },
+  {
+   "id": "Q12271645",
+   "name": "Alibotoush",
+   "sl": 17,
+   "file": "Ali Botush reserve Bulgaria 11.JPG",
+   "lat": 41.377,
+   "lon": 23.6207,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ali Botush"
+  },
+  {
+   "id": "Q368232",
+   "name": "Georgi Asparuhov Stadium",
+   "sl": 17,
+   "file": "Sofia Levski Stadium Aerial.jpg",
+   "lat": 42.7055,
+   "lon": 23.3632,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Georgi Asparuhov Stadium"
+  },
+  {
+   "id": "Q1509145",
+   "name": "Georgi Dimitrov Mausoleum",
+   "sl": 17,
+   "file": "1969-08-Bulgarien Sofia Dimitroff-Mausoleum fec Monika Angela Arnold Berlin1.jpg",
+   "lat": 42.6959,
+   "lon": 23.3263,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Georgi Dimitrov Mausoleum"
+  },
+  {
+   "id": "Q1431400",
+   "name": "Gorna Oryahovitsa Airport",
+   "sl": 17,
+   "file": "LBGO 2023.jpg",
+   "lat": 43.1514,
+   "lon": 25.7129,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gorna Oryahovitsa Airport"
+  },
+  {
+   "id": "Q2654627",
+   "name": "Holy Forty Martyrs Church",
+   "sl": 17,
+   "file": "SS.Forty Martyrs Church (Veliko Tarnovo) E3.jpg",
+   "lat": 43.0844,
+   "lon": 25.65,
+   "kind": "built",
+   "types": [
+    "church building",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "SS.Forty Martyrs Church (Veliko Tarnovo)"
+  },
+  {
+   "id": "Q6431557",
+   "name": "Kordopulov House",
+   "sl": 17,
+   "file": "Kordopulovakasta.jpg",
+   "lat": 41.5231,
+   "lon": 23.3983,
+   "kind": "built",
+   "types": [
+    "house",
+    "monument",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kordopulov House"
+  },
+  {
+   "id": "Q2037533",
+   "name": "Kozarnika, Dimovo Municipality",
+   "sl": 17,
+   "file": "Kozarnika cave - entrance.jpg",
+   "lat": 43.6528,
+   "lon": 22.6954,
+   "kind": "both",
+   "types": [
+    "cave",
+    "Paleolithic site",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kozarnika, Dimovo Municipality"
+  },
+  {
+   "id": "Q753441",
+   "name": "Lake Atanasovsko",
+   "sl": 17,
+   "file": "Atanasovsko-dinev.jpg",
+   "lat": 42.5319,
+   "lon": 27.4808,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Atanasovsko"
+  },
+  {
+   "id": "Q1138538",
+   "name": "Lions' Bridge",
+   "sl": 17,
+   "file": "Lion's Bridge, Sofia 1.jpg",
+   "lat": 42.705,
+   "lon": 23.3239,
+   "kind": "built",
+   "types": [
+    "footbridge",
+    "tram bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lions' Bridge, Sofia"
+  },
+  {
+   "id": "Q3269914",
+   "name": "National Palace of Culture",
+   "sl": 17,
+   "file": "National Palace of Culture (23997858848).jpg",
+   "lat": 42.6847,
+   "lon": 23.3189,
+   "kind": "built",
+   "types": [
+    "convention center",
+    "house of culture",
+    "performing arts center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Palace of Culture (Bulgaria)"
+  },
+  {
+   "id": "Q873892",
+   "name": "Russian Church, Sofia",
+   "sl": 17,
+   "file": "The Russian Church in Sofia.jpg",
+   "lat": 42.6957,
+   "lon": 23.3291,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Nicholas Russian Church, Sofia"
+  }
+ ]
+}

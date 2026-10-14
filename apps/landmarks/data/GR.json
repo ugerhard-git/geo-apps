@@ -1,0 +1,1416 @@
+{
+ "country": "GR",
+ "items": [
+  {
+   "id": "Q10288",
+   "name": "Parthenon",
+   "sl": 137,
+   "file": "The Parthenon in Athens.jpg",
+   "lat": 37.9715,
+   "lon": 23.7266,
+   "kind": "built",
+   "types": [
+    "Ancient Greek archaeological site",
+    "ancient Greek temple",
+    "religious building ruin"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q131013",
+    "name": "Acropolis of Athens"
+   },
+   "also": [],
+   "cat": "Parthenon"
+  },
+  {
+   "id": "Q80344",
+   "name": "Mount Olympus",
+   "sl": 109,
+   "file": "Mt Olympus aerial 2.jpg",
+   "lat": 40.0833,
+   "lon": 22.35,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "mountain",
+    "national park",
+    "Natura 2000 site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Olympus"
+  },
+  {
+   "id": "Q5690",
+   "name": "Sparta",
+   "sl": 108,
+   "file": "Sparta.jpg",
+   "lat": 37.0737,
+   "lon": 22.4309,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Ancient Greek archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sparta"
+  },
+  {
+   "id": "Q131013",
+   "name": "Acropolis of Athens",
+   "sl": 97,
+   "file": "Attica 06-13 Athens 50 View from Philopappos - Acropolis Hill.jpg",
+   "lat": 37.9717,
+   "lon": 23.7261,
+   "kind": "built",
+   "types": [
+    "acropolis",
+    "Ancient Greek archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Acropolis of Athens"
+  },
+  {
+   "id": "Q41553",
+   "name": "Colossus of Rhodes",
+   "sl": 94,
+   "file": "Colosse de Rhodes (Barclay).jpg",
+   "lat": 36.4511,
+   "lon": 28.2278,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "destroyed building or structure",
+    "lost sculpture",
+    "Wonder of the Ancient World"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Colossus of Rhodes"
+  },
+  {
+   "id": "Q46239",
+   "name": "Statue of Zeus at Olympia",
+   "sl": 93,
+   "file": "Le Jupiter Olympien ou l'art de la sculpture antique.jpg",
+   "lat": 37.6379,
+   "lon": 21.63,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "destroyed artwork",
+    "lost sculpture",
+    "Wonder of the Ancient World"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Statue of Zeus at Olympia"
+  },
+  {
+   "id": "Q132564",
+   "name": "Mycenae",
+   "sl": 91,
+   "file": "Lions-Gate-Mycenae.jpg",
+   "lat": 37.7308,
+   "lon": 22.7561,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site in Greece",
+    "Bronze Age settlement",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16945635",
+    "name": "Archaeological Sites of Mycenae and Tiryns"
+   },
+   "also": [],
+   "cat": "Mycenae"
+  },
+  {
+   "id": "Q38888",
+   "name": "Olympia",
+   "sl": 89,
+   "file": "Olympic Flame, the Start of the Olympic Torch Relay (51224124860).jpg",
+   "lat": 37.6383,
+   "lon": 21.63,
+   "kind": "built",
+   "types": [
+    "Ancient Greek archaeological site",
+    "hieron",
+    "organized archaeological site",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Olympia"
+  },
+  {
+   "id": "Q75459",
+   "name": "Delphi",
+   "sl": 88,
+   "file": "Delfi Apollons tempel.jpg",
+   "lat": 38.4822,
+   "lon": 22.5017,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Delphi"
+  },
+  {
+   "id": "Q130321",
+   "name": "Mount Athos",
+   "sl": 87,
+   "file": "Mt. Athos (3939757657).jpg",
+   "lat": 40.1583,
+   "lon": 24.3272,
+   "kind": "natural",
+   "types": [
+    "men only space",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Athos"
+  },
+  {
+   "id": "Q173527",
+   "name": "Knossos",
+   "sl": 71,
+   "file": "Knossos - North Portico 02.jpg",
+   "lat": 35.298,
+   "lon": 25.1632,
+   "kind": "built",
+   "types": [
+    "organized archaeological site",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64737740",
+    "name": "Minoan Palatial Centres"
+   },
+   "also": [],
+   "cat": "Knossos"
+  },
+  {
+   "id": "Q3125051",
+   "name": "Meteora",
+   "sl": 71,
+   "file": "00 0541 Kloster Agía Triáda (Meteora) - Griechenland.jpg",
+   "lat": 39.7125,
+   "lon": 21.6267,
+   "kind": "",
+   "types": [
+    "monastic community",
+    "rock formation"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Meteora"
+  },
+  {
+   "id": "Q193093",
+   "name": "Platonic Academy",
+   "sl": 69,
+   "file": "Plato's Academy mosaic from Pompeii.jpg",
+   "lat": 37.9924,
+   "lon": 23.7081,
+   "kind": "built",
+   "types": [
+    "academy",
+    "archaeological site",
+    "built structure",
+    "school"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Platonic Academy"
+  },
+  {
+   "id": "Q105261",
+   "name": "Mount Parnassus",
+   "sl": 66,
+   "file": "Parnassos2.jpg",
+   "lat": 38.533,
+   "lon": 22.6167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Parnassus"
+  },
+  {
+   "id": "Q203979",
+   "name": "Milos",
+   "sl": 65,
+   "file": "Milos-4.jpg",
+   "lat": 36.6875,
+   "lon": 24.4325,
+   "kind": "both",
+   "types": [
+    "island",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Milos"
+  },
+  {
+   "id": "Q182873",
+   "name": "Corinth Canal",
+   "sl": 62,
+   "file": "Canal of korinth greece.jpg",
+   "lat": 37.927,
+   "lon": 22.9946,
+   "kind": "built",
+   "types": [
+    "ship canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Corinth Canal"
+  },
+  {
+   "id": "Q211734",
+   "name": "Athens International Airport \"Eleftherios Venizelos\"",
+   "sl": 60,
+   "file": "Athens International Airport Eleftherios Venizelos Διεθνής Αερολιμένας Αθηνών Ελευθέριος Βενιζέλος 2019-12-01 h.jpg",
+   "lat": 37.9364,
+   "lon": 23.9444,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Athens International Airport"
+  },
+  {
+   "id": "Q233576",
+   "name": "Epidaurus",
+   "sl": 60,
+   "file": "The great theater of Epidaurus, designed by Polykleitos the Younger in the 4th century BC, Sanctuary of Asklepeios at Epidaurus, Greece (14015010416).jpg",
+   "lat": 37.6333,
+   "lon": 23.1601,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis",
+    "submerged settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sanctuary of Asclepius, Epidaurus"
+  },
+  {
+   "id": "Q204392",
+   "name": "Lake Prespa",
+   "sl": 59,
+   "file": "Lake Prespa Albania.jpg",
+   "lat": 40.9,
+   "lon": 21.05,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL",
+    "MK"
+   ],
+   "cat": "Lake Prespa"
+  },
+  {
+   "id": "Q194450",
+   "name": "Thermopylae",
+   "sl": 58,
+   "file": "Thermopylae 04.jpg",
+   "lat": 38.7956,
+   "lon": 22.5367,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "narrows"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thermopylae"
+  },
+  {
+   "id": "Q215200",
+   "name": "Isthmus of Corinth",
+   "sl": 57,
+   "file": "Corinth, Greece (NASA).jpg",
+   "lat": 37.9329,
+   "lon": 22.9837,
+   "kind": "natural",
+   "types": [
+    "isthmus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isthmus of Corinth"
+  },
+  {
+   "id": "Q202487",
+   "name": "Areopagus",
+   "sl": 56,
+   "file": "Areopagus from the Acropolis.jpg",
+   "lat": 37.9722,
+   "lon": 23.7236,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "rock formation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Areopagus"
+  },
+  {
+   "id": "Q208566",
+   "name": "Scyros",
+   "sl": 56,
+   "file": "Skyros-chora.JPG",
+   "lat": 38.8725,
+   "lon": 24.525,
+   "kind": "both",
+   "types": [
+    "island",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skyros"
+  },
+  {
+   "id": "Q844930",
+   "name": "Classical Athens",
+   "sl": 55,
+   "file": "View of the Acropolis Athens (pixinn.net).jpg",
+   "lat": 37.9722,
+   "lon": 23.7222,
+   "kind": "built",
+   "types": [
+    "city-state",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Athens"
+  },
+  {
+   "id": "Q217379",
+   "name": "Tiryns",
+   "sl": 55,
+   "file": "Passageway of the galleries within the walls of Tiryns.jpg",
+   "lat": 37.5967,
+   "lon": 22.7998,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16945635",
+    "name": "Archaeological Sites of Mycenae and Tiryns"
+   },
+   "also": [],
+   "cat": "Tiryns"
+  },
+  {
+   "id": "Q216993",
+   "name": "Ios",
+   "sl": 53,
+   "file": "Íos aerial.jpg",
+   "lat": 36.7167,
+   "lon": 25.3167,
+   "kind": "both",
+   "types": [
+    "island",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ios"
+  },
+  {
+   "id": "Q19053",
+   "name": "Mystras",
+   "sl": 53,
+   "file": "Palace at Mystras by Joy of Museums.jpg",
+   "lat": 37.074,
+   "lon": 22.3673,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fortified town"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mystras"
+  },
+  {
+   "id": "Q189663",
+   "name": "Olympic Stadium in Athens",
+   "sl": 52,
+   "file": "Olympic flame at opening ceremony 2004.jpg",
+   "lat": 38.0361,
+   "lon": 23.7875,
+   "kind": "built",
+   "types": [
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Athens Olympic Stadium"
+  },
+  {
+   "id": "Q213679",
+   "name": "Pella",
+   "sl": 51,
+   "file": "Pella House atrium.jpg",
+   "lat": 40.76,
+   "lon": 22.5256,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Pella"
+  },
+  {
+   "id": "Q379652",
+   "name": "Philippi",
+   "sl": 51,
+   "file": "Филипи през 2007.jpg",
+   "lat": 41.0121,
+   "lon": 24.2846,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Philippi"
+  },
+  {
+   "id": "Q242741",
+   "name": "Erechtheion",
+   "sl": 50,
+   "file": "Erechtheion Acropolis Athens.jpg",
+   "lat": 37.9721,
+   "lon": 23.7265,
+   "kind": "built",
+   "types": [
+    "ancient Greek temple",
+    "archaeological site",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q131013",
+    "name": "Acropolis of Athens"
+   },
+   "also": [],
+   "cat": "Erechtheum"
+  },
+  {
+   "id": "Q208811",
+   "name": "Panathenaic Stadium",
+   "sl": 47,
+   "file": "GR-athen-panathinaiko-stadion.jpg",
+   "lat": 37.9683,
+   "lon": 23.7411,
+   "kind": "built",
+   "types": [
+    "all-seater stadium",
+    "Ancient Greek stadium",
+    "monument",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Panathenaic Stadium"
+  },
+  {
+   "id": "Q527809",
+   "name": "Kalymnos",
+   "sl": 46,
+   "file": "Kalymnos.JPG",
+   "lat": 36.9959,
+   "lon": 26.995,
+   "kind": "both",
+   "types": [
+    "island",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalymnos"
+  },
+  {
+   "id": "Q217414",
+   "name": "Amphipolis",
+   "sl": 45,
+   "file": "Liontari of Amphipolis.jpg",
+   "lat": 40.8236,
+   "lon": 23.8466,
+   "kind": "built",
+   "types": [
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amphipolis"
+  },
+  {
+   "id": "Q500444",
+   "name": "Daphni Monastery",
+   "sl": 45,
+   "file": "Dafni monastery.jpeg",
+   "lat": 38.0131,
+   "lon": 23.6358,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q11317256",
+    "name": "Monasteries of Daphni, Hosios Loukas and Nea Moni of Chios"
+   },
+   "also": [],
+   "cat": "Monastery of Daphni"
+  },
+  {
+   "id": "Q213902",
+   "name": "Folegandros",
+   "sl": 45,
+   "file": "Folegandros-Chora from above.JPG",
+   "lat": 36.6167,
+   "lon": 24.9,
+   "kind": "both",
+   "types": [
+    "island",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Folegandros"
+  },
+  {
+   "id": "Q158077",
+   "name": "Dojran Lake",
+   "sl": 44,
+   "file": "Dojran-Lake-MACEDONIA.JPG",
+   "lat": 41.2167,
+   "lon": 22.75,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": "Lake Dojran"
+  },
+  {
+   "id": "Q215692",
+   "name": "HMHS Britannic",
+   "sl": 44,
+   "file": "HMHS Britannic.jpg",
+   "lat": 37.7014,
+   "lon": 24.2839,
+   "kind": "built",
+   "types": [
+    "four funnel liner",
+    "hospital ship",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Britannic (ship, 1915)"
+  },
+  {
+   "id": "Q213508",
+   "name": "Karaiskakis Stadium",
+   "sl": 44,
+   "file": "Karaiskakis Stadium Piraeus Olympiacos-Arsenal.jpg",
+   "lat": 37.9462,
+   "lon": 23.6645,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karaiskakis Stadium"
+  },
+  {
+   "id": "Q1160664",
+   "name": "Lyceum",
+   "sl": 43,
+   "file": "Athens Lyceum Archaeological Site 2.jpg",
+   "lat": 37.974,
+   "lon": 23.7433,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "gymnasium",
+    "school"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lykeion"
+  },
+  {
+   "id": "Q48353",
+   "name": "Rio-Antirrio bridge",
+   "sl": 43,
+   "file": "C2.35 Ríobrücke.jpg",
+   "lat": 38.3214,
+   "lon": 21.7728,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rio-Antirio Bridge"
+  },
+  {
+   "id": "Q384813",
+   "name": "Temple of Athena Nike",
+   "sl": 43,
+   "file": "Temple of Athena Nikè from Propylaea, Acropolis, Athens, Greece.jpg",
+   "lat": 37.9715,
+   "lon": 23.7249,
+   "kind": "built",
+   "types": [
+    "ancient Greek temple",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q131013",
+    "name": "Acropolis of Athens"
+   },
+   "also": [],
+   "cat": "Temple of Athena Nike (Athens)"
+  },
+  {
+   "id": "Q1363688",
+   "name": "Ancient Corinth",
+   "sl": 42,
+   "file": "Tempio di Apollo e Acrocorinto.jpg",
+   "lat": 37.9058,
+   "lon": 22.8787,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Corinth"
+  },
+  {
+   "id": "Q215516",
+   "name": "Mount Helicon",
+   "sl": 42,
+   "file": "IMG View from Helicon.jpg",
+   "lat": 38.3522,
+   "lon": 22.825,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Helicon"
+  },
+  {
+   "id": "Q739779",
+   "name": "Kythnos",
+   "sl": 41,
+   "file": "Kythnos03.JPG",
+   "lat": 37.3833,
+   "lon": 24.4167,
+   "kind": "both",
+   "types": [
+    "island",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kythnos"
+  },
+  {
+   "id": "Q83659",
+   "name": "Mount Ida",
+   "sl": 41,
+   "file": "Landscape mountains Phaistos.jpg",
+   "lat": 35.2264,
+   "lon": 24.7707,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Ida, Crete"
+  },
+  {
+   "id": "Q637187",
+   "name": "National Archaeological Museum of Athens",
+   "sl": 41,
+   "file": "Archäologisches Nationalmuseum Athen.jpg",
+   "lat": 37.9892,
+   "lon": 23.7322,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Archaeological Museum of Athens"
+  },
+  {
+   "id": "Q368628",
+   "name": "Sicyon",
+   "sl": 41,
+   "file": "Sikyon ancient theatre.jpg",
+   "lat": 37.9805,
+   "lon": 22.7227,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sicyon"
+  },
+  {
+   "id": "Q368275",
+   "name": "Spetses",
+   "sl": 40,
+   "file": "Spetses2 evlahos.jpg",
+   "lat": 37.2575,
+   "lon": 23.14,
+   "kind": "natural",
+   "types": [
+    "car-free place",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spetses"
+  },
+  {
+   "id": "Q1422965",
+   "name": "Lake Trichonida",
+   "sl": 39,
+   "file": "Thea-limni-trihonida-aitwloakarnania.jpg",
+   "lat": 38.5725,
+   "lon": 21.5525,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Trichonida"
+  },
+  {
+   "id": "Q216551",
+   "name": "Akri",
+   "sl": 38,
+   "file": "Emplacement in Aktio.jpg",
+   "lat": 38.953,
+   "lon": 20.768,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Battle of Actium"
+  },
+  {
+   "id": "Q849911",
+   "name": "Cape Matapan",
+   "sl": 38,
+   "file": "Tenaro cape, Greece - panoramio.jpg",
+   "lat": 36.385,
+   "lon": 22.4828,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Matapan"
+  },
+  {
+   "id": "Q682558",
+   "name": "Delphic Oracle",
+   "sl": 38,
+   "file": "Temple d'Apollon Delphes.jpg",
+   "lat": 38.4822,
+   "lon": 22.5011,
+   "kind": "built",
+   "types": [
+    "hieron",
+    "oracle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Delphic Oracle"
+  },
+  {
+   "id": "Q917162",
+   "name": "Halki",
+   "sl": 38,
+   "file": "Halki.jpg",
+   "lat": 36.2287,
+   "lon": 27.5748,
+   "kind": "both",
+   "types": [
+    "island",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chalki"
+  },
+  {
+   "id": "Q1357713",
+   "name": "Mount Lycabettus",
+   "sl": 38,
+   "file": "Mount Lycabettus from the Areopagus on June 7, 2020.jpg",
+   "lat": 37.9831,
+   "lon": 23.7469,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lycabettus"
+  },
+  {
+   "id": "Q249707",
+   "name": "Phaistos",
+   "sl": 38,
+   "file": "Festos1(js).jpg",
+   "lat": 35.0512,
+   "lon": 24.8143,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64737740",
+    "name": "Minoan Palatial Centres"
+   },
+   "also": [],
+   "cat": "Phaistos"
+  },
+  {
+   "id": "Q756824",
+   "name": "Temple of Hephaestus",
+   "sl": 38,
+   "file": "Greece-0176 (2215880732).jpg",
+   "lat": 37.9756,
+   "lon": 23.7214,
+   "kind": "built",
+   "types": [
+    "ancient Greek temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Hephaestus in Athens"
+  },
+  {
+   "id": "Q1123019",
+   "name": "Temple of Olympian Zeus",
+   "sl": 38,
+   "file": "Temple of Olympian Zeus Athens Greece 1.jpg",
+   "lat": 37.9694,
+   "lon": 23.7331,
+   "kind": "built",
+   "types": [
+    "ancient Greek temple",
+    "archaeological site",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Zeus in Athens"
+  },
+  {
+   "id": "Q420810",
+   "name": "Acrocorinth",
+   "sl": 37,
+   "file": "Acrocorinto.jpg",
+   "lat": 37.8914,
+   "lon": 22.8709,
+   "kind": "built",
+   "types": [
+    "acropolis",
+    "archaeological site",
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Acrocorinth"
+  },
+  {
+   "id": "Q421084",
+   "name": "Acropolis Museum",
+   "sl": 37,
+   "file": "View of the Acropolis Museum from the Acropolis in Athens.jpg",
+   "lat": 37.9684,
+   "lon": 23.7285,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Acropolis Museum"
+  },
+  {
+   "id": "Q1232348",
+   "name": "Chania International Airport",
+   "sl": 37,
+   "file": "Chania Airport NASA.jpg",
+   "lat": 35.5317,
+   "lon": 24.1497,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chania International Airport"
+  },
+  {
+   "id": "Q382317",
+   "name": "Dodona",
+   "sl": 37,
+   "file": "GR-dodona-theater.jpg",
+   "lat": 39.5464,
+   "lon": 20.7878,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "hieron",
+    "oracle",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dodona"
+  },
+  {
+   "id": "Q841207",
+   "name": "Heraion of Samos",
+   "sl": 37,
+   "file": "Heraion of Samos (Greece), the only standing column.jpg",
+   "lat": 37.6719,
+   "lon": 26.8856,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Heraion"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16363506",
+    "name": "Pythagoreion and Heraion of Samos"
+   },
+   "also": [],
+   "cat": "Heraion of Samos"
+  },
+  {
+   "id": "Q919194",
+   "name": "Kimolos",
+   "sl": 37,
+   "file": "Kimolos.jpg",
+   "lat": 36.8,
+   "lon": 24.55,
+   "kind": "both",
+   "types": [
+    "island",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kimolos"
+  },
+  {
+   "id": "Q742538",
+   "name": "Plataea",
+   "sl": 37,
+   "file": "PLATEAS (cropped).jpg",
+   "lat": 38.2156,
+   "lon": 23.2669,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plataea"
+  },
+  {
+   "id": "Q846127",
+   "name": "Stageira",
+   "sl": 37,
+   "file": "Ancient stagira greece 01.jpg",
+   "lat": 40.5908,
+   "lon": 23.7942,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Stageira"
+  },
+  {
+   "id": "Q730019",
+   "name": "Basilica of Agios Dimitrios, Thessaloniki",
+   "sl": 36,
+   "file": "Church of Agios Dimitrios-edit.jpg",
+   "lat": 40.6388,
+   "lon": 22.9479,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q732708",
+    "name": "Paleochristian and Byzantine monuments of Thessaloniki"
+   },
+   "also": [],
+   "cat": "Basilica of Saint Demetrios, Thessaloniki"
+  },
+  {
+   "id": "Q1142384",
+   "name": "Heraklion International Airport \"Nikos Kazantzakis\"",
+   "sl": 36,
+   "file": "Airbus A320-212 Aegean at Heraklion.jpg",
+   "lat": 35.3397,
+   "lon": 25.1803,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heraklion International Airport"
+  },
+  {
+   "id": "Q748108",
+   "name": "Nemea",
+   "sl": 36,
+   "file": "Nemea Stadion 2008-09-12.jpg",
+   "lat": 37.809,
+   "lon": 22.7103,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "hieron"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Archaeological sites of Nemea"
+  },
+  {
+   "id": "Q833555",
+   "name": "Rhodes International Airport \"Diagoras\"",
+   "sl": 36,
+   "file": "Airpoort rhodes 31.JPG",
+   "lat": 36.4053,
+   "lon": 28.0861,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rhodes International Airport"
+  },
+  {
+   "id": "Q46812956",
+   "name": "Theatre of Thorikos",
+   "sl": 36,
+   "file": "Αρχαίο θέατρο Θορικού 7018.jpg",
+   "lat": 37.738,
+   "lon": 24.0538,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Greek theatre"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Greek theatre of Thorikos"
+  },
+  {
+   "id": "Q372717",
+   "name": "Tower of the Winds",
+   "sl": 36,
+   "file": "Το Ωρολόγιον του Ανδρονίκου Κυρρήστου στις 16 Σεπτεμβρίου 2019.jpg",
+   "lat": 37.9742,
+   "lon": 23.727,
+   "kind": "built",
+   "types": [
+    "clock tower",
+    "sundial",
+    "water clock",
+    "weather vane"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tower of the Winds"
+  },
+  {
+   "id": "Q1334825",
+   "name": "Pelion",
+   "sl": 35,
+   "file": "Pilion with monastery pau.JPG",
+   "lat": 39.4333,
+   "lon": 23.05,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pelion"
+  },
+  {
+   "id": "Q1128366",
+   "name": "Samariá Gorge National Park",
+   "sl": 35,
+   "file": "Samari3.jpg",
+   "lat": 35.2711,
+   "lon": 23.9614,
+   "kind": "natural",
+   "types": [
+    "canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samaria Gorge"
+  },
+  {
+   "id": "Q139362",
+   "name": "Smolikas",
+   "sl": 35,
+   "file": "Smolikas IMG 0118.jpg",
+   "lat": 40.0897,
+   "lon": 20.9261,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Smolikas"
+  },
+  {
+   "id": "Q395367",
+   "name": "Ancient Agora of Athens",
+   "sl": 34,
+   "file": "AncientAgoraofAthensColour.jpg",
+   "lat": 37.975,
+   "lon": 23.7225,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Samian Ware Discovery Site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Agora of Athens"
+  },
+  {
+   "id": "Q1144233",
+   "name": "Corfu International Airport",
+   "sl": 34,
+   "file": "Corfu Airport Terminal 02.jpg",
+   "lat": 39.6019,
+   "lon": 19.9122,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Corfu International Airport"
+  },
+  {
+   "id": "Q1328165",
+   "name": "Odeon of Herodes Atticus",
+   "sl": 34,
+   "file": "Wall Theatre Herodes Atticus Acropolis Athens Greece.jpg",
+   "lat": 37.9708,
+   "lon": 23.7245,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "odeon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Theatre of Herodes Atticus"
+  },
+  {
+   "id": "Q1137997",
+   "name": "Syntagma Square",
+   "sl": 34,
+   "file": "Πλατεία Συντάγματος 6386.jpg",
+   "lat": 37.9756,
+   "lon": 23.7347,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Syntagma"
+  },
+  {
+   "id": "Q1227044",
+   "name": "Theatre of Dionysus",
+   "sl": 34,
+   "file": "DionysiusTheater.jpg",
+   "lat": 37.9704,
+   "lon": 23.7278,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Greek theatre"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Theatre of Dionysus"
+  }
+ ]
+}

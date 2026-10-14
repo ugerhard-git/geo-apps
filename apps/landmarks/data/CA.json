@@ -1,0 +1,1396 @@
+{
+ "country": "CA",
+ "items": [
+  {
+   "id": "Q34221",
+   "name": "Niagara Falls",
+   "sl": 135,
+   "file": "Niagara Falls USA Canada from Skylon Tower on 2002-05-28, full size.jpg",
+   "lat": 43.08,
+   "lon": -79.071,
+   "kind": "natural",
+   "types": [
+    "horseshoe waterfall",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Niagara Falls"
+  },
+  {
+   "id": "Q1066",
+   "name": "Lake Superior",
+   "sl": 112,
+   "file": "Lake Superior, ISS.jpg",
+   "lat": 47.5288,
+   "lon": -87.76,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake",
+    "rift lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Lake Superior"
+  },
+  {
+   "id": "Q1062",
+   "name": "Lake Ontario",
+   "sl": 108,
+   "file": "ISS-36 Lake Ontario (horizontal).jpg",
+   "lat": 43.7289,
+   "lon": -78.1064,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Lake Ontario"
+  },
+  {
+   "id": "Q5492",
+   "name": "Lake Erie",
+   "sl": 102,
+   "file": "A1.23188.1851.LakeErie.143.250m.jpg",
+   "lat": 42.25,
+   "lon": -80.9997,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Lake Erie"
+  },
+  {
+   "id": "Q1383",
+   "name": "Lake Huron",
+   "sl": 100,
+   "file": "Lake Huron in winter.jpg",
+   "lat": 44.5926,
+   "lon": -82.7563,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Lake Huron"
+  },
+  {
+   "id": "Q169523",
+   "name": "Gulf of Saint Lawrence",
+   "sl": 81,
+   "file": "Golfesaintlaurent.jpg",
+   "lat": 48.25,
+   "lon": -62,
+   "kind": "natural",
+   "types": [
+    "estuary",
+    "gulf"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gulf of Saint Lawrence"
+  },
+  {
+   "id": "Q134883",
+   "name": "CN Tower",
+   "sl": 80,
+   "file": "CN Tower from Puente de Luz, Toronto, Ontario, 2025-08-25 01.jpg",
+   "lat": 43.6428,
+   "lon": -79.3871,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "observation tower",
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "CN Tower"
+  },
+  {
+   "id": "Q5539",
+   "name": "Great Slave Lake",
+   "sl": 75,
+   "file": "UtsingiPoint-GreatSlaveLake.JPG",
+   "lat": 61.6667,
+   "lon": -114,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Slave Lake"
+  },
+  {
+   "id": "Q3272",
+   "name": "Lake Winnipeg",
+   "sl": 75,
+   "file": "Lake winnipeg in july.jpg",
+   "lat": 52.1167,
+   "lon": -97.25,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Winnipeg"
+  },
+  {
+   "id": "Q120306",
+   "name": "Mount Logan",
+   "sl": 75,
+   "file": "Mount Logan.jpg",
+   "lat": 60.5672,
+   "lon": -140.4053,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Logan"
+  },
+  {
+   "id": "Q5525",
+   "name": "Great Bear Lake",
+   "sl": 74,
+   "file": "Great Bear Lake.jpg",
+   "lat": 66,
+   "lon": -121,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Bear Lake"
+  },
+  {
+   "id": "Q41858",
+   "name": "Banff National Park",
+   "sl": 70,
+   "file": "Moraine Lake 17092005.jpg",
+   "lat": 51.1667,
+   "lon": -115.55,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banff National Park"
+  },
+  {
+   "id": "Q272463",
+   "name": "Lake Athabasca",
+   "sl": 57,
+   "file": "Lake Athabasca, Canada.jpg",
+   "lat": 59.2667,
+   "lon": -109.45,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Athabasca"
+  },
+  {
+   "id": "Q242066",
+   "name": "Toronto Pearson International Airport",
+   "sl": 57,
+   "file": "YYZ Aerial 2.jpg",
+   "lat": 43.6767,
+   "lon": -79.6306,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport",
+    "Metrolinx mobility hub"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toronto Pearson International Airport"
+  },
+  {
+   "id": "Q189113",
+   "name": "L'Anse aux Meadows",
+   "sl": 55,
+   "file": "Authentic Viking recreation.jpg",
+   "lat": 51.5953,
+   "lon": -55.5312,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "L'Anse aux Meadows"
+  },
+  {
+   "id": "Q612227",
+   "name": "BC Place",
+   "sl": 53,
+   "file": "BC Place (Vancouver).jpg",
+   "lat": 49.2767,
+   "lon": -123.1119,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "BC Place"
+  },
+  {
+   "id": "Q321224",
+   "name": "Vancouver International Airport",
+   "sl": 53,
+   "file": "Vancouver Airport Tower.jpg",
+   "lat": 49.1947,
+   "lon": -123.184,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vancouver International Airport"
+  },
+  {
+   "id": "Q391338",
+   "name": "Wood Buffalo National Park",
+   "sl": 53,
+   "file": "Wood-Buffalo-NP Waldbison 98-07-02.jpg",
+   "lat": 59.3833,
+   "lon": -112.983,
+   "kind": "natural",
+   "types": [
+    "dark-sky preserve",
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wood Buffalo National Park"
+  },
+  {
+   "id": "Q76034",
+   "name": "Canadian Shield",
+   "sl": 52,
+   "file": "Hautes-Gorges-de-la-Rivière-Malbaie.jpg",
+   "lat": 52,
+   "lon": -71,
+   "kind": "natural",
+   "types": [
+    "shield"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Canadian Shield"
+  },
+  {
+   "id": "Q503429",
+   "name": "Jasper National Park",
+   "sl": 51,
+   "file": "Athabasca Glacier from the valley floor, Jasper National Park, Alberta, Canada.jpg",
+   "lat": 52.8,
+   "lon": -117.9,
+   "kind": "natural",
+   "types": [
+    "dark-sky preserve",
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jasper National Park"
+  },
+  {
+   "id": "Q68467",
+   "name": "Lake Champlain",
+   "sl": 47,
+   "file": "Lake Champlain by Sentinel-2.jpg",
+   "lat": 44.53,
+   "lon": -73.33,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Lake Champlain"
+  },
+  {
+   "id": "Q391391",
+   "name": "Nahanni National Park Reserve",
+   "sl": 47,
+   "file": "Nahanni - VirginiaFalls.jpg",
+   "lat": 61.5971,
+   "lon": -125.852,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Nahanni National Park Reserve"
+  },
+  {
+   "id": "Q796351",
+   "name": "BMO Field",
+   "sl": 46,
+   "file": "BMO Field in 2016.png",
+   "lat": 43.6328,
+   "lon": -79.4186,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "BMO Field"
+  },
+  {
+   "id": "Q257598",
+   "name": "Gros Morne National Park",
+   "sl": 46,
+   "file": "Western Brook Pond Newfoundland Canada DSC 6405.jpg",
+   "lat": 49.6894,
+   "lon": -57.7381,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Gros Morne National Park"
+  },
+  {
+   "id": "Q736627",
+   "name": "Montréal–Trudeau International Airport",
+   "sl": 45,
+   "file": "YUL.U.S. Departures.Sector.Control.Tower.jpg",
+   "lat": 45.4706,
+   "lon": -73.7408,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montréal-Pierre Elliott Trudeau International Airport"
+  },
+  {
+   "id": "Q289466",
+   "name": "Dinosaur Provincial Park",
+   "sl": 44,
+   "file": "DinosaurProvincialParkHoodoo.jpg",
+   "lat": 50.7617,
+   "lon": -111.485,
+   "kind": "natural",
+   "types": [
+    "provincial park of Canada"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Dinosaur Provincial Park"
+  },
+  {
+   "id": "Q770496",
+   "name": "Mount Saint Elias",
+   "sl": 44,
+   "file": "Mt Saint Elias, South Central Alaska.jpg",
+   "lat": 60.2922,
+   "lon": -140.9314,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Mount Saint Elias"
+  },
+  {
+   "id": "Q736707",
+   "name": "Lake Saint Clair",
+   "sl": 43,
+   "file": "Lake St Clair by Sentinel-2 2022-08-13.jpg",
+   "lat": 42.4503,
+   "lon": -82.6757,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Lake St. Clair (Michigan-Ontario)"
+  },
+  {
+   "id": "Q738582",
+   "name": "Kluane National Park and Reserve",
+   "sl": 42,
+   "file": "DSC 3227-Pano-1.jpg",
+   "lat": 60.4536,
+   "lon": -137.8292,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q604604",
+    "name": "Kluane / Wrangell – St. Elias / Glacier Bay / Tatshenshini-Alsek"
+   },
+   "also": [],
+   "cat": "Kluane National Park"
+  },
+  {
+   "id": "Q645901",
+   "name": "Lake Manitoba",
+   "sl": 42,
+   "file": "Lake Winnipeg map NL.png",
+   "lat": 50.9961,
+   "lon": -98.7619,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Manitoba"
+  },
+  {
+   "id": "Q737190",
+   "name": "Nares Strait",
+   "sl": 41,
+   "file": "Aerial Picture Of Thule Air Base.jpg",
+   "lat": 80,
+   "lon": -70,
+   "kind": "natural",
+   "types": [
+    "strait",
+    "watercourse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GL"
+   ],
+   "cat": "Nares Strait"
+  },
+  {
+   "id": "Q122184",
+   "name": "Lake Nipigon",
+   "sl": 40,
+   "file": "Lake Nipigon 431 751enh pan 2048 (27010849382).jpg",
+   "lat": 49.8333,
+   "lon": -88.5,
+   "kind": "natural",
+   "types": [
+    "rift lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Nipigon"
+  },
+  {
+   "id": "Q406972",
+   "name": "Scotiabank Arena",
+   "sl": 40,
+   "file": "Air Canada Centre and CN Tower from Bay St.jpg",
+   "lat": 43.6433,
+   "lon": -79.3792,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Scotiabank Arena"
+  },
+  {
+   "id": "Q828404",
+   "name": "Yoho National Park",
+   "sl": 40,
+   "file": "Emerald Lake - Yoho National Park.JPG",
+   "lat": 51.3953,
+   "lon": -116.487,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yoho National Park"
+  },
+  {
+   "id": "Q903323",
+   "name": "Kootenay National Park",
+   "sl": 39,
+   "file": "Kootenay National Park.jpg",
+   "lat": 50.8831,
+   "lon": -116.049,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kootenay National Park"
+  },
+  {
+   "id": "Q845876",
+   "name": "Lake of the Woods",
+   "sl": 39,
+   "file": "Lake of the Woods by Sentinel-2.jpg",
+   "lat": 49.0903,
+   "lon": -95.2389,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Lake of the Woods"
+  },
+  {
+   "id": "Q651323",
+   "name": "Rideau Canal",
+   "sl": 39,
+   "file": "Rideau Canal.jpg",
+   "lat": 44.2198,
+   "lon": -76.4751,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rideau Canal"
+  },
+  {
+   "id": "Q828212",
+   "name": "Waterton-Glacier International Peace Park",
+   "sl": 39,
+   "file": "GlacierNP L7 20010701.jpg",
+   "lat": 48.9961,
+   "lon": -113.9042,
+   "kind": "natural",
+   "types": [
+    "transboundary protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Waterton Glacier International Peace Park"
+  },
+  {
+   "id": "Q1072342",
+   "name": "Moraine Lake",
+   "sl": 38,
+   "file": "Moraine Lake 17092005.jpg",
+   "lat": 51.3225,
+   "lon": -116.1856,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moraine Lake"
+  },
+  {
+   "id": "Q748010",
+   "name": "North American Aerospace Defense Command",
+   "sl": 38,
+   "file": "NORADheadquarters 2006 b.jpg",
+   "lat": 38.7,
+   "lon": -104.8,
+   "kind": "built",
+   "types": [
+    "Air Defense Command",
+    "multinational military command",
+    "underground infrastructure system"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "North American Aerospace Defense Command"
+  },
+  {
+   "id": "Q649250",
+   "name": "Royal Ontario Museum",
+   "sl": 38,
+   "file": "Royal Ontario Museum-Michael Lee-Chin Crystal.jpg",
+   "lat": 43.6676,
+   "lon": -79.3947,
+   "kind": "built",
+   "types": [
+    "charitable organization",
+    "museum of culture",
+    "natural history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Ontario Museum"
+  },
+  {
+   "id": "Q1160343",
+   "name": "Calgary International Airport",
+   "sl": 37,
+   "file": "Calgary Airport.jpg",
+   "lat": 51.1139,
+   "lon": -114.0203,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Calgary International Airport"
+  },
+  {
+   "id": "Q604604",
+   "name": "Kluane / Wrangell – St. Elias / Glacier Bay / Tatshenshini-Alsek",
+   "sl": 37,
+   "file": "Kathleen Lake Yukon.jpg",
+   "lat": 61.1975,
+   "lon": -140.992,
+   "kind": "",
+   "types": [
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Kluane / Wrangell – St. Elias / Glacier Bay / Tatshenshini–Alsek"
+  },
+  {
+   "id": "Q72895",
+   "name": "Canadian Rocky Mountain Parks World Heritage Site",
+   "sl": 36,
+   "file": "Longs Peak.jpg",
+   "lat": 51.4247,
+   "lon": -116.4797,
+   "kind": "",
+   "types": [
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Canadian Rocky Mountain Parks World Heritage Site"
+  },
+  {
+   "id": "Q745964",
+   "name": "Château Frontenac",
+   "sl": 36,
+   "file": "Château Frontenac01.jpg",
+   "lat": 46.8118,
+   "lon": -71.2054,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "hotel building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2114279",
+    "name": "Old Quebec"
+   },
+   "also": [],
+   "cat": "Château Frontenac"
+  },
+  {
+   "id": "Q683110",
+   "name": "Head-Smashed-In Buffalo Jump",
+   "sl": 36,
+   "file": "Head-Smashed-In Buffalo Jump-27527-2.jpg",
+   "lat": 49.7494,
+   "lon": -113.625,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "buffalo jump"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Head-Smashed-In Buffalo Jump"
+  },
+  {
+   "id": "Q934638",
+   "name": "Lake Winnipegosis",
+   "sl": 36,
+   "file": "WinnipegosisBeach.JPG",
+   "lat": 52.5,
+   "lon": -100,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Winnipegosis"
+  },
+  {
+   "id": "Q285467",
+   "name": "Olympic Stadium",
+   "sl": 36,
+   "file": "Aerial view of Olympic Stadium of Montreal.jpg",
+   "lat": 45.5578,
+   "lon": -73.5516,
+   "kind": "built",
+   "types": [
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olympic Stadium (Montreal)"
+  },
+  {
+   "id": "Q76318",
+   "name": "Rogers Centre",
+   "sl": 36,
+   "file": "Rogers Centre.jpg",
+   "lat": 43.6414,
+   "lon": -79.3892,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "baseball venue",
+    "Multi-purpose stadium",
+    "music venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rogers Centre"
+  },
+  {
+   "id": "Q902778",
+   "name": "Waterton Lakes National Park",
+   "sl": 36,
+   "file": "Waterton Park - Alberta CA.jpg",
+   "lat": 49.05,
+   "lon": -113.9333,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q828212",
+    "name": "Waterton-Glacier International Peace Park"
+   },
+   "also": [],
+   "cat": "Waterton Lakes National Park"
+  },
+  {
+   "id": "Q1161253",
+   "name": "Glacier National Park",
+   "sl": 35,
+   "file": "Glacier np canada.JPG",
+   "lat": 51.3,
+   "lon": -117.519,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Glacier National Park (Canada)"
+  },
+  {
+   "id": "Q631128",
+   "name": "Miguasha National Park",
+   "sl": 35,
+   "file": "Miguasha panorama 1.jpg",
+   "lat": 48.1106,
+   "lon": -66.3694,
+   "kind": "natural",
+   "types": [
+    "national park of Quebec",
+    "paleontological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Miguasha National Park"
+  },
+  {
+   "id": "Q1132211",
+   "name": "Nettilling Lake",
+   "sl": 35,
+   "file": "Nettilling Lake 2019-08-21 Sentinel-2 L2A Highlight Optimized Natural Color.jpg",
+   "lat": 66.4833,
+   "lon": -70.3333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nettilling Lake"
+  },
+  {
+   "id": "Q517318",
+   "name": "Rogers Arena",
+   "sl": 35,
+   "file": "Rogers Arena (Vancouver).jpg",
+   "lat": 49.2778,
+   "lon": -123.1089,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rogers Arena"
+  },
+  {
+   "id": "Q40133",
+   "name": "Tin Can Cathedral",
+   "sl": 35,
+   "file": "Tin Can Cathedral.jpg",
+   "lat": 49.9123,
+   "lon": -97.1341,
+   "kind": "built",
+   "types": [
+    "church building",
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tin Can Cathedral"
+  },
+  {
+   "id": "Q522282",
+   "name": "Bell Centre",
+   "sl": 33,
+   "file": "CentreBell.jpg",
+   "lat": 45.4961,
+   "lon": -73.5694,
+   "kind": "built",
+   "types": [
+    "indoor ice rink",
+    "music venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Centre Bell"
+  },
+  {
+   "id": "Q1161258",
+   "name": "Mount Robson",
+   "sl": 33,
+   "file": "Mount Robson 08122005.jpg",
+   "lat": 53.1106,
+   "lon": -119.1567,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Robson"
+  },
+  {
+   "id": "Q1068063",
+   "name": "National Gallery of Canada",
+   "sl": 33,
+   "file": "Ottawa - ON - National Gallery of Canada.jpg",
+   "lat": 45.4295,
+   "lon": -75.6989,
+   "kind": "built",
+   "types": [
+    "national gallery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery of Canada"
+  },
+  {
+   "id": "Q1126258",
+   "name": "Stanley Park",
+   "sl": 33,
+   "file": "Stanley Park SqueakyMarmot December 17, 2006.jpg",
+   "lat": 49.3,
+   "lon": -123.14,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stanley Park, Vancouver"
+  },
+  {
+   "id": "Q865076",
+   "name": "Confederation Bridge",
+   "sl": 32,
+   "file": "NB - Confederation Bridge1.jpg",
+   "lat": 46.1997,
+   "lon": -63.7657,
+   "kind": "built",
+   "types": [
+    "box girder bridge",
+    "prestressed concrete bridge",
+    "road bridge",
+    "toll bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Confederation Bridge"
+  },
+  {
+   "id": "Q390804",
+   "name": "Lake Agassiz",
+   "sl": 32,
+   "file": "Herman Beach plate06.JPG",
+   "lat": 51,
+   "lon": -98,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "paleolake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Lake Agassiz"
+  },
+  {
+   "id": "Q1134446",
+   "name": "Reindeer Lake",
+   "sl": 32,
+   "file": "Canada.A2002236.1810.721.250m NASA.jpg",
+   "lat": 57.25,
+   "lon": -102.2503,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Reindeer"
+  },
+  {
+   "id": "Q41507",
+   "name": "Green Mountains",
+   "sl": 31,
+   "file": "View of Lake Champlain and Vermont from Poke-O-Moonshine Mountain fire tower.jpg",
+   "lat": 44.1455,
+   "lon": -72.854,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "physiographic section"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Green Mountains"
+  },
+  {
+   "id": "Q1367398",
+   "name": "Lake Louise",
+   "sl": 31,
+   "file": "1 lake louise pano 2019.jpg",
+   "lat": 51.4117,
+   "lon": -116.2281,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Louise"
+  },
+  {
+   "id": "Q794552",
+   "name": "Montréal–Mirabel International Airport",
+   "sl": 31,
+   "file": "NKN-2007-08-05 144714 MIRABEL AIRPORT(Yvan Leduc author for Wikipedia).Jpg",
+   "lat": 45.6819,
+   "lon": -74.0053,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport",
+    "white elephant"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montréal-Mirabel International Airport"
+  },
+  {
+   "id": "Q1327341",
+   "name": "Quttinirpaaq National Park",
+   "sl": 31,
+   "file": "Scylla-and-Charbydis.jpg",
+   "lat": 82.2167,
+   "lon": -72.2167,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Canada"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Quttinirpaaq National Park"
+  },
+  {
+   "id": "Q852085",
+   "name": "Burgess Shale",
+   "sl": 30,
+   "file": "WalcottQuarry080509.jpg",
+   "lat": 51.4333,
+   "lon": -116.467,
+   "kind": "natural",
+   "types": [
+    "geological formation",
+    "lagerstätte",
+    "paleontological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Burgess Shale"
+  },
+  {
+   "id": "Q1327290",
+   "name": "Canadian Tire Centre",
+   "sl": 30,
+   "file": "Canadian Tire Centre 1.JPG",
+   "lat": 45.2969,
+   "lon": -75.9272,
+   "kind": "built",
+   "types": [
+    "arena",
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canadian Tire Centre"
+  },
+  {
+   "id": "Q1052475",
+   "name": "First Canadian Place",
+   "sl": 30,
+   "file": "First Canadian Place August 2017 01.jpg",
+   "lat": 43.6486,
+   "lon": -79.3817,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "First Canadian Place"
+  },
+  {
+   "id": "Q956201",
+   "name": "Lesser Slave Lake",
+   "sl": 30,
+   "file": "SW Lesser Slave Lake.jpg",
+   "lat": 55.4406,
+   "lon": -115.4886,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lesser Slave Lake"
+  },
+  {
+   "id": "Q1544340",
+   "name": "Mount Fairweather",
+   "sl": 30,
+   "file": "Alsek Lake.jpg",
+   "lat": 58.9065,
+   "lon": -137.5266,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Mount Fairweather"
+  },
+  {
+   "id": "Q670250",
+   "name": "Art Gallery of Ontario",
+   "sl": 29,
+   "file": "Art Gallery of Ontario entrance.jpg",
+   "lat": 43.6536,
+   "lon": -79.3928,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "charitable organization",
+    "collection",
+    "event venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Art Gallery of Ontario"
+  },
+  {
+   "id": "Q269588",
+   "name": "Edmonton International Airport",
+   "sl": 29,
+   "file": "Airport expansion.jpg",
+   "lat": 53.31,
+   "lon": -113.5794,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edmonton International Airport"
+  },
+  {
+   "id": "Q1319833",
+   "name": "Ottawa Macdonald-Cartier International Airport",
+   "sl": 29,
+   "file": "Ottawa Airport.jpg",
+   "lat": 45.3225,
+   "lon": -75.6672,
+   "kind": "built",
+   "types": [
+    "airport of entry",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ottawa Macdonald-Cartier International Airport"
+  },
+  {
+   "id": "Q14348",
+   "name": "Welland Canal",
+   "sl": 29,
+   "file": "Map of the Welland Canal.png",
+   "lat": 43.1556,
+   "lon": -79.1937,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Welland Canal"
+  },
+  {
+   "id": "Q1024939",
+   "name": "Cabot Strait",
+   "sl": 28,
+   "file": "Confederation Ferry crossing the Cabot Strait.jpg",
+   "lat": 47.1168,
+   "lon": -60.4985,
+   "kind": "natural",
+   "types": [
+    "strait",
+    "watercourse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabot Strait"
+  },
+  {
+   "id": "Q366985",
+   "name": "Lake Simcoe",
+   "sl": 28,
+   "file": "Sibbald Point Provincial Park - a view to Lake Simcoe (2).jpg",
+   "lat": 44.4367,
+   "lon": -79.3392,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Simcoe"
+  },
+  {
+   "id": "Q1166029",
+   "name": "Lomonosov Ridge",
+   "sl": 28,
+   "file": "Arctic Ocean bathymetric features.png",
+   "lat": 75,
+   "lon": 175,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "undersea ridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DK",
+    "RU"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q756106",
+   "name": "Manicouagan Reservoir",
+   "sl": 28,
+   "file": "Manicouagan Panorama.jpg",
+   "lat": 51.1272,
+   "lon": -68.7472,
+   "kind": "both",
+   "types": [
+    "reservoir",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manicouagan Reservoir"
+  },
+  {
+   "id": "Q1362681",
+   "name": "Peyto Lake",
+   "sl": 28,
+   "file": "Panorama of Peyto Lake, Banff National Park, Alberta, Canada.jpg",
+   "lat": 51.725,
+   "lon": -116.5222,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peyto Lake"
+  }
+ ]
+}

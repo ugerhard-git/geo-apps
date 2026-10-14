@@ -1,0 +1,1357 @@
+{
+ "country": "NP",
+ "items": [
+  {
+   "id": "Q513",
+   "name": "Mount Everest",
+   "sl": 237,
+   "file": "Mount Everest as seen from Drukair2 PLW edit.jpg",
+   "lat": 27.9881,
+   "lon": 86.925,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Mount Everest"
+  },
+  {
+   "id": "Q82019",
+   "name": "Kanchenjunga",
+   "sl": 102,
+   "file": "Kangchenjunga, India.jpg",
+   "lat": 27.703,
+   "lon": 88.1474,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN"
+   ],
+   "cat": "Kangchenjunga"
+  },
+  {
+   "id": "Q165440",
+   "name": "Dhaulagiri",
+   "sl": 90,
+   "file": "Dhaulagiri, Himalaya, Nepal.jpg",
+   "lat": 28.6967,
+   "lon": 83.49,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dhaulagiri"
+  },
+  {
+   "id": "Q169986",
+   "name": "Makalu",
+   "sl": 89,
+   "file": "Makalu.jpg",
+   "lat": 27.8892,
+   "lon": 87.0886,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Makalu"
+  },
+  {
+   "id": "Q168702",
+   "name": "Lhotse",
+   "sl": 86,
+   "file": "LhotseMountain.jos.500pix.jpg",
+   "lat": 27.9617,
+   "lon": 86.9333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Lhotse"
+  },
+  {
+   "id": "Q170089",
+   "name": "Cho Oyu",
+   "sl": 84,
+   "file": "ChoOyu-fromGokyo.jpg",
+   "lat": 28.0942,
+   "lon": 86.6608,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Cho Oyu"
+  },
+  {
+   "id": "Q170070",
+   "name": "Manaslu",
+   "sl": 82,
+   "file": "Mt Manaslu.jpg",
+   "lat": 28.55,
+   "lon": 84.5597,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manaslu"
+  },
+  {
+   "id": "Q970717",
+   "name": "Kathmandu Valley",
+   "sl": 68,
+   "file": "Kathmandu Valley krish.jpg",
+   "lat": 27.7039,
+   "lon": 85.3086,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kathmandu Valley"
+  },
+  {
+   "id": "Q1075023",
+   "name": "Chitwan National Park",
+   "sl": 60,
+   "file": "Chitwan swamp.jpg",
+   "lat": 27.5,
+   "lon": 84.3333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Chitwan National Park"
+  },
+  {
+   "id": "Q2211959",
+   "name": "Sagarmatha National Park",
+   "sl": 59,
+   "file": "Everest, Nuptse, Khumbu Glacier, Nepal, Himalayas.jpg",
+   "lat": 27.8911,
+   "lon": 86.693,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sagarmatha National Park"
+  },
+  {
+   "id": "Q613624",
+   "name": "Sivalik Hills",
+   "sl": 49,
+   "file": "Indo-Gangetic Plain.jpg",
+   "lat": 27.7667,
+   "lon": 82.4,
+   "kind": "natural",
+   "types": [
+    "foothills",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN",
+    "PK"
+   ],
+   "cat": "Shivalik Hills"
+  },
+  {
+   "id": "Q61066",
+   "name": "Tribhuvan International Airport",
+   "sl": 47,
+   "file": "2009-03 Kathmandu 10.jpg",
+   "lat": 27.6972,
+   "lon": 85.3578,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tribhuvan International Airport"
+  },
+  {
+   "id": "Q380384",
+   "name": "Pashupatinath Temple",
+   "sl": 45,
+   "file": "2023 January night aarti at Pashupatinath Temple, Kathmandu 02.jpg",
+   "lat": 27.7105,
+   "lon": 85.3486,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q970717",
+    "name": "Kathmandu Valley"
+   },
+   "also": [],
+   "cat": "Pashupatinath"
+  },
+  {
+   "id": "Q1137644",
+   "name": "Pumori",
+   "sl": 43,
+   "file": "Pumori, Nepal, Asia.jpg",
+   "lat": 28.0156,
+   "lon": 86.8281,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Pumori"
+  },
+  {
+   "id": "Q582128",
+   "name": "Gyachung Kang",
+   "sl": 42,
+   "file": "Gyachung Kang.jpg",
+   "lat": 28.0981,
+   "lon": 86.7422,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Gyachung Kang"
+  },
+  {
+   "id": "Q451697",
+   "name": "Ama Dablam",
+   "sl": 41,
+   "file": "Himalayas, Ama Dablam, Nepal.jpg",
+   "lat": 27.8611,
+   "lon": 86.8614,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ama Dablam"
+  },
+  {
+   "id": "Q1043277",
+   "name": "Tenzing-Hillary Airport",
+   "sl": 40,
+   "file": "RK 0602 00825 LuklaFlugplatz.jpg",
+   "lat": 27.6875,
+   "lon": 86.7314,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lukla Airport"
+  },
+  {
+   "id": "Q1139538",
+   "name": "Nuptse",
+   "sl": 39,
+   "file": "Nuptse, Nepal, Himalayas.jpg",
+   "lat": 27.9664,
+   "lon": 86.89,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuptse"
+  },
+  {
+   "id": "Q1051394",
+   "name": "Machhapuchhre",
+   "sl": 37,
+   "file": "Ghorepani-Tadapani-34-Machhapuchhre-2013-gje.jpg",
+   "lat": 28.495,
+   "lon": 83.9492,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred mountain",
+    "virgin peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Machhapuchchhre"
+  },
+  {
+   "id": "Q5269090",
+   "name": "Dharahara",
+   "sl": 35,
+   "file": "Kathmandu Bhimsen Tower.jpg",
+   "lat": 27.7006,
+   "lon": 85.3117,
+   "kind": "built",
+   "types": [
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dharahara"
+  },
+  {
+   "id": "Q12946982",
+   "name": "Swayambhunath",
+   "sl": 34,
+   "file": "Swayambhu, Kathmandu, Nepal.jpg",
+   "lat": 27.715,
+   "lon": 85.29,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "structure of worship"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q970717",
+    "name": "Kathmandu Valley"
+   },
+   "also": [],
+   "cat": "Swayambhunath"
+  },
+  {
+   "id": "Q1145646",
+   "name": "Himalchuli",
+   "sl": 33,
+   "file": "Himalchuli from south.jpg",
+   "lat": 28.4361,
+   "lon": 84.6394,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Himalchuli"
+  },
+  {
+   "id": "Q1511454",
+   "name": "Kala Patthar",
+   "sl": 33,
+   "file": "Pumori and kalapathar.jpg",
+   "lat": 27.9958,
+   "lon": 86.8284,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kala Patthar"
+  },
+  {
+   "id": "Q1496289",
+   "name": "Gauri Sankar",
+   "sl": 32,
+   "file": "Mount Gauri Shankar.jpg",
+   "lat": 27.9533,
+   "lon": 86.3358,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Gaurishankar"
+  },
+  {
+   "id": "Q1471716",
+   "name": "Khumbu Glacier",
+   "sl": 32,
+   "file": "Khumbu Glacier, Khumbu Icefall, Nepal, Asia.jpg",
+   "lat": 27.9319,
+   "lon": 86.805,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khumbu Glacier"
+  },
+  {
+   "id": "Q4351267",
+   "name": "Langtang National Park",
+   "sl": 32,
+   "file": "Starry night in Langtang National Park.jpg",
+   "lat": 28.1738,
+   "lon": 85.5531,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Langtang National Park"
+  },
+  {
+   "id": "Q1192928",
+   "name": "Phewa Lake",
+   "sl": 30,
+   "file": "Annapurna Range and the Phewa Lake.jpg",
+   "lat": 28.2142,
+   "lon": 83.9472,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phewa Lake"
+  },
+  {
+   "id": "Q2120180",
+   "name": "Rara Lake",
+   "sl": 30,
+   "file": "Rara lake, Murma top.jpg",
+   "lat": 29.5257,
+   "lon": 82.0902,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rara Lake"
+  },
+  {
+   "id": "Q1237414",
+   "name": "Jannu",
+   "sl": 28,
+   "file": "Jannu from South.jpg",
+   "lat": 27.6667,
+   "lon": 88.0333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jannu"
+  },
+  {
+   "id": "Q1551402",
+   "name": "Langtang Lirung",
+   "sl": 28,
+   "file": "Langtang-lirung-and-kimshung.jpg",
+   "lat": 28.2561,
+   "lon": 85.5194,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Langtang Lirung"
+  },
+  {
+   "id": "Q964013",
+   "name": "Makalu Barun National Park",
+   "sl": 28,
+   "file": "Makalu Barun National Park, Nepal. - panoramio.jpg",
+   "lat": 27.7569,
+   "lon": 87.1136,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Makalu Barun National Park"
+  },
+  {
+   "id": "Q1754634",
+   "name": "Ngadi Chuli",
+   "sl": 28,
+   "file": "Manaslu - Thulagi Chuli - Ngadi Chuli.jpg",
+   "lat": 28.5033,
+   "lon": 84.5686,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ngadi Chuli"
+  },
+  {
+   "id": "Q16466024",
+   "name": "Annapurna I",
+   "sl": 26,
+   "file": "Annapurna I.jpg",
+   "lat": 28.5958,
+   "lon": 83.82,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Annapurna I"
+  },
+  {
+   "id": "Q3161830",
+   "name": "Janaki Mandir",
+   "sl": 26,
+   "file": "Janaki Temple Janakpurdham ,Nepal.jpg",
+   "lat": 26.7304,
+   "lon": 85.9257,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Janaki Mandir"
+  },
+  {
+   "id": "Q1432399",
+   "name": "Pokhara Airport",
+   "sl": 26,
+   "file": "Pokhara Airport.jpg",
+   "lat": 28.2008,
+   "lon": 83.9819,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pokhara Airport"
+  },
+  {
+   "id": "Q808021",
+   "name": "Bardiya National Park",
+   "sl": 25,
+   "file": "Bardia National Park.JPG",
+   "lat": 28.47,
+   "lon": 81.47,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bardiya National Park"
+  },
+  {
+   "id": "Q1060898",
+   "name": "Chamlang",
+   "sl": 25,
+   "file": "Mount Everest as seen from Drukair2.jpg",
+   "lat": 27.7758,
+   "lon": 86.98,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chamlang"
+  },
+  {
+   "id": "Q3115880",
+   "name": "Kabru",
+   "sl": 25,
+   "file": "Kalimpong 28.jpg",
+   "lat": 27.635,
+   "lon": 88.1183,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN"
+   ],
+   "cat": "Kabru"
+  },
+  {
+   "id": "Q15238480",
+   "name": "Maya Devi Temple",
+   "sl": 25,
+   "file": "Maya Devi Lumbini.jpg",
+   "lat": 27.4696,
+   "lon": 83.2758,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maya Devi Temple, Lumbini"
+  },
+  {
+   "id": "Q449534",
+   "name": "Annapurna II",
+   "sl": 24,
+   "file": "アンナプルナⅢ、マチャプチャレ8.jpg",
+   "lat": 28.535,
+   "lon": 84.1222,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Annapurna II"
+  },
+  {
+   "id": "Q6122177",
+   "name": "Basantapur Durbar Square",
+   "sl": 24,
+   "file": "Kathmandu-Durbar Square-12-Mini-Vishnu-Pratapamalla-Jagannath-2013-gje.jpg",
+   "lat": 27.7041,
+   "lon": 85.3071,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q970717",
+    "name": "Kathmandu Valley"
+   },
+   "also": [],
+   "cat": "Durbar Square, Kathmandu"
+  },
+  {
+   "id": "Q1050042",
+   "name": "Narayanhiti Palace",
+   "sl": 24,
+   "file": "Narayanhiti Palace Museum, crop.jpg",
+   "lat": 27.7156,
+   "lon": 85.32,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Narayanhity Royal Palace"
+  },
+  {
+   "id": "Q619766",
+   "name": "Tilicho Lake",
+   "sl": 24,
+   "file": "Tilichofotolake.jpg",
+   "lat": 28.6833,
+   "lon": 83.8567,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tilicho Lake"
+  },
+  {
+   "id": "Q4779782",
+   "name": "Api",
+   "sl": 23,
+   "file": "Api Nampa.JPG",
+   "lat": 30.0053,
+   "lon": 80.9297,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Api"
+  },
+  {
+   "id": "Q1062150",
+   "name": "Changu Narayan Temple",
+   "sl": 23,
+   "file": "Changu Narayan-Garuda Narayana-10-ost-2013-gje.jpg",
+   "lat": 27.7164,
+   "lon": 85.4278,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q970717",
+    "name": "Kathmandu Valley"
+   },
+   "also": [],
+   "cat": "Changu Narayan"
+  },
+  {
+   "id": "Q1171789",
+   "name": "Dasarath Rangasala Stadium",
+   "sl": 23,
+   "file": "Dasarath Rangasala Stadium.jpg",
+   "lat": 27.6951,
+   "lon": 85.3148,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Association football matches in Nepal"
+  },
+  {
+   "id": "Q3275873",
+   "name": "Gautam Buddha Airport",
+   "sl": 23,
+   "file": "2015-03-17 Beechcraft 1900C Simrik Airlines・Gautam Buddha Airport DSCF1940.jpg",
+   "lat": 27.5056,
+   "lon": 83.4161,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gautam Buddha Airport"
+  },
+  {
+   "id": "Q619781",
+   "name": "Imja Tse",
+   "sl": 23,
+   "file": "ImjaTse.jpg",
+   "lat": 27.9167,
+   "lon": 86.9333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Island Peak"
+  },
+  {
+   "id": "Q1631256",
+   "name": "Langtang",
+   "sl": 23,
+   "file": "Kyanjin Gumba.jpg",
+   "lat": 28.25,
+   "lon": 85.5,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Langtang"
+  },
+  {
+   "id": "Q3505873",
+   "name": "Rara National Park",
+   "sl": 23,
+   "file": "Rara lake from afar.jpg",
+   "lat": 29.4917,
+   "lon": 82.0722,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rara National Park"
+  },
+  {
+   "id": "Q1001415",
+   "name": "Budhanilkantha Temple",
+   "sl": 22,
+   "file": "Budhanilkantha Temple Entrance.jpg",
+   "lat": 27.7781,
+   "lon": 85.3622,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Budhanilkantha Temple"
+  },
+  {
+   "id": "Q379143",
+   "name": "Baruntse",
+   "sl": 21,
+   "file": "Baruntse wp.jpg",
+   "lat": 27.8833,
+   "lon": 86.9833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baruntse"
+  },
+  {
+   "id": "Q1431605",
+   "name": "Jomsom Airport",
+   "sl": 21,
+   "file": "Jomsom Airport, Mustang, Nepal.jpg",
+   "lat": 28.7811,
+   "lon": 83.7236,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jomsom Airport"
+  },
+  {
+   "id": "Q527197",
+   "name": "Kangtega",
+   "sl": 21,
+   "file": "Machhermo-34-Kangtega-Gipfel-2007-gje.jpg",
+   "lat": 27.7833,
+   "lon": 86.8167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kangtega"
+  },
+  {
+   "id": "Q4221152",
+   "name": "Kirat Chuli",
+   "sl": 20,
+   "file": "NepalPeak TentPeak.jpg",
+   "lat": 27.7869,
+   "lon": 88.1944,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN"
+   ],
+   "cat": "Kirat Chuli"
+  },
+  {
+   "id": "Q3236458",
+   "name": "Shey Phoksundo National Park",
+   "sl": 20,
+   "file": "Panorama phoksumdo lake from camp.jpg",
+   "lat": 29.3581,
+   "lon": 82.8456,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shey Phoksundo National park"
+  },
+  {
+   "id": "Q3123431",
+   "name": "Shivapuri Nagarjun National Park",
+   "sl": 20,
+   "file": "Shivapuri Nagarjun National Park (Wide Gate and Board).jpg",
+   "lat": 27.795,
+   "lon": 85.39,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shivapuri Nagarjun National Park"
+  },
+  {
+   "id": "Q1573525",
+   "name": "Shuklaphanta National Park",
+   "sl": 20,
+   "file": "Ranitaal1.JPG",
+   "lat": 28.8402,
+   "lon": 80.229,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "wildlife reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shuklaphanta National Park"
+  },
+  {
+   "id": "Q513344",
+   "name": "Bajura Airport",
+   "sl": 19,
+   "file": "Ariplane tower of bajura.JPG",
+   "lat": 29.5,
+   "lon": 81.6667,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q620005",
+   "name": "Bharatpur Airport",
+   "sl": 19,
+   "file": "Chitwan 8 April - (02) 2.jpg",
+   "lat": 27.6781,
+   "lon": 84.4294,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bharatpur Airport"
+  },
+  {
+   "id": "Q2625399",
+   "name": "Khaptad national park",
+   "sl": 19,
+   "file": "Khaptadnationalpark.jpg",
+   "lat": 29.27,
+   "lon": 80.99,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khaptad National Park"
+  },
+  {
+   "id": "Q620047",
+   "name": "Bhadrapur Airport",
+   "sl": 18,
+   "file": "Bhadrapur Airport.jpg",
+   "lat": 26.5706,
+   "lon": 88.0794,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bhadrapur Airport"
+  },
+  {
+   "id": "Q4900869",
+   "name": "Bhaktapur Durbar Square",
+   "sl": 18,
+   "file": "View of Bhaktapur Durbar Square.jpg",
+   "lat": 27.6722,
+   "lon": 85.4285,
+   "kind": "built",
+   "types": [
+    "Durbar Square",
+    "square"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q970717",
+    "name": "Kathmandu Valley"
+   },
+   "also": [],
+   "cat": "Bhaktapur Durbar Square"
+  },
+  {
+   "id": "Q598652",
+   "name": "Biratnagar Airport",
+   "sl": 18,
+   "file": "Biratnagar Airport 2.jpg",
+   "lat": 26.4814,
+   "lon": 87.2639,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biratnagar Airport"
+  },
+  {
+   "id": "Q7144236",
+   "name": "Patan Durbar Square",
+   "sl": 18,
+   "file": "Patan Durbar Square at Night.jpg",
+   "lat": 27.6731,
+   "lon": 85.3257,
+   "kind": "built",
+   "types": [
+    "Durbar Square"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q970717",
+    "name": "Kathmandu Valley"
+   },
+   "also": [],
+   "cat": "Patan Durbar Square"
+  },
+  {
+   "id": "Q764344",
+   "name": "Thorong La",
+   "sl": 18,
+   "file": "Muktinath Valley, View of Thorong La Pass, Mountains, Nepal.jpg",
+   "lat": 28.7936,
+   "lon": 83.9389,
+   "kind": "natural",
+   "types": [
+    "col"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thorong La"
+  },
+  {
+   "id": "Q2143811",
+   "name": "Tilicho Peak",
+   "sl": 18,
+   "file": "Tilicho Peak.jpg",
+   "lat": 28.6844,
+   "lon": 83.8044,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tilicho Peak"
+  },
+  {
+   "id": "Q2982581",
+   "name": "Annapurna Conservation Area",
+   "sl": 17,
+   "file": "Pokhara, Annapurna Himal, Machhapuchchhre, Nepal.jpg",
+   "lat": 28.7833,
+   "lon": 83.9667,
+   "kind": "natural",
+   "types": [
+    "conservation area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Annapurna Conservation Area"
+  },
+  {
+   "id": "Q3451677",
+   "name": "Begnas Lake",
+   "sl": 17,
+   "file": "Rishav Adhikari Begnastal 4.jpg",
+   "lat": 28.1717,
+   "lon": 84.1,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Begnas Lake"
+  },
+  {
+   "id": "Q1441337",
+   "name": "Mera Peak",
+   "sl": 17,
+   "file": "Mera Peak Zatr La.JPG",
+   "lat": 27.7,
+   "lon": 86.8667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mera Peak"
+  },
+  {
+   "id": "Q1756906",
+   "name": "Nepalgunj Airport",
+   "sl": 17,
+   "file": "Nepalgunj airport.jpg",
+   "lat": 28.1036,
+   "lon": 81.6669,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nepalgunj Airport"
+  },
+  {
+   "id": "Q3457358",
+   "name": "Singha Durbar",
+   "sl": 17,
+   "file": "Kathmandu-35.JPG",
+   "lat": 27.6983,
+   "lon": 85.3253,
+   "kind": "built",
+   "types": [
+    "building of public administration",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Singha Durbar, Kathmandu"
+  },
+  {
+   "id": "Q2598195",
+   "name": "South Col",
+   "sl": 17,
+   "file": "Everest, South Col, Himalayas.jpg",
+   "lat": 27.975,
+   "lon": 86.9319,
+   "kind": "natural",
+   "types": [
+    "col",
+    "mountain pass"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q15114831",
+   "name": "Hillary Step",
+   "sl": 16,
+   "file": "Hillary Step near Everest top (retouched).jpg",
+   "lat": 27.9875,
+   "lon": 86.9248,
+   "kind": "natural",
+   "types": [
+    "former geographical object",
+    "massif"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Hillary Step"
+  },
+  {
+   "id": "Q2901010",
+   "name": "Janakpur Airport",
+   "sl": 16,
+   "file": "2009-03 Janakpur 01.jpg",
+   "lat": 26.7086,
+   "lon": 85.9222,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Janakpur Airport"
+  },
+  {
+   "id": "Q6347940",
+   "name": "Kailashnath Mahadev Statue",
+   "sl": 16,
+   "file": "Kailashnath Mahadev Statue.jpg",
+   "lat": 27.646,
+   "lon": 85.4748,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kailashnath Mahadev Statue"
+  },
+  {
+   "id": "Q4134792",
+   "name": "Khartaphu",
+   "sl": 16,
+   "file": "Everest Peace Project - Ice serac everest tibet2.jpg",
+   "lat": 28.0625,
+   "lon": 86.9775,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Khartaphu"
+  },
+  {
+   "id": "Q11873899",
+   "name": "Kyashar",
+   "sl": 16,
+   "file": "Mera Peak 9925.JPG",
+   "lat": 27.755,
+   "lon": 86.8228,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kyashar"
+  },
+  {
+   "id": "Q11752821",
+   "name": "Langtang Ri",
+   "sl": 16,
+   "file": "ShishapangmaandGangBenchen.jpg",
+   "lat": 28.3814,
+   "lon": 85.6836,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Langtang Ri"
+  },
+  {
+   "id": "Q2385286",
+   "name": "Manakamana Temple",
+   "sl": 16,
+   "file": "Gorkha Manakamana Temple (cropped).jpg",
+   "lat": 27.9,
+   "lon": 84.5833,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manakamana Temple, Gorkha"
+  }
+ ]
+}

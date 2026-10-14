@@ -1,0 +1,320 @@
+{
+ "country": "SO",
+ "items": [
+  {
+   "id": "Q3237966",
+   "name": "Ras Hafun",
+   "sl": 36,
+   "file": "Hafun from space.jpg",
+   "lat": 10.4193,
+   "lon": 51.2749,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hafun"
+  },
+  {
+   "id": "Q1119032",
+   "name": "Aden Adde International Airport",
+   "sl": 32,
+   "file": "Mogadishu International Airport.jpg",
+   "lat": 2.0136,
+   "lon": 45.3047,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aden Adde International Airport"
+  },
+  {
+   "id": "Q15564",
+   "name": "Hargeisa International Airport",
+   "sl": 24,
+   "file": "Somaliland and Hargeisa (29482568932).jpg",
+   "lat": 9.5182,
+   "lon": 44.0888,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Egal International Airport"
+  },
+  {
+   "id": "Q649162",
+   "name": "Shimbiris",
+   "sl": 22,
+   "file": "Somalia Topography en.png",
+   "lat": 10.7358,
+   "lon": 47.245,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1355062",
+   "name": "Bender Qassim International Airport",
+   "sl": 20,
+   "file": "Bosasairp2.jpg",
+   "lat": 11.2756,
+   "lon": 49.15,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bosaso Airport"
+  },
+  {
+   "id": "Q962672",
+   "name": "Mogadishu Cathedral",
+   "sl": 20,
+   "file": "Cattedrale di Mogadiscio.jpg",
+   "lat": 2.0357,
+   "lon": 45.3416,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "church ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mogadishu Cathedral"
+  },
+  {
+   "id": "Q2474798",
+   "name": "Mosque of Islamic Solidarity",
+   "sl": 16,
+   "file": "Mosque of Islamic Solidarity.jpeg",
+   "lat": 2.0358,
+   "lon": 45.3308,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosque of Islamic Solidarity"
+  },
+  {
+   "id": "Q186169",
+   "name": "Fakr ad-Din Mosque",
+   "sl": 15,
+   "file": "Fakr Ud Din Mosque.jpg",
+   "lat": 2.0335,
+   "lon": 45.3429,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fakr ad-Din Mosque"
+  },
+  {
+   "id": "Q2011096",
+   "name": "Abdullahi Yusuf International Airport",
+   "sl": 14,
+   "file": "Galkaio Airport - panoramio.jpg",
+   "lat": 6.7667,
+   "lon": 47.4333,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15186773",
+   "name": "Arba'a Rukun Mosque",
+   "sl": 14,
+   "file": "Mogadishu1936.jpg",
+   "lat": 2.0351,
+   "lon": 45.3425,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arba'a Rukun Mosque"
+  },
+  {
+   "id": "Q10853735",
+   "name": "Kismayo Airport",
+   "sl": 14,
+   "file": "Kismayo Airport.jpg",
+   "lat": -0.3774,
+   "lon": 42.4592,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kismayo Airport"
+  },
+  {
+   "id": "Q6890414",
+   "name": "Mogadishu Stadium",
+   "sl": 14,
+   "file": "Mogadishustadium.jpg",
+   "lat": 2.1167,
+   "lon": 45.4,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mogadishu Stadium"
+  },
+  {
+   "id": "Q2525804",
+   "name": "Villa Somalia",
+   "sl": 13,
+   "file": "Villa Somalia.jpg",
+   "lat": 2.0397,
+   "lon": 45.3347,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa Somalia"
+  },
+  {
+   "id": "Q2033310",
+   "name": "National Museum of Somalia",
+   "sl": 12,
+   "file": "Somalia National Museum under renovation, February 2020.jpg",
+   "lat": 2.0375,
+   "lon": 45.3381,
+   "kind": "built",
+   "types": [
+    "building",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Somalia"
+  },
+  {
+   "id": "Q15221425",
+   "name": "Garowe International Airport",
+   "sl": 10,
+   "file": "Garowe Airport Terminal.jpg",
+   "lat": 8.4609,
+   "lon": 48.5723,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Garowe International Airport"
+  },
+  {
+   "id": "Q3545656",
+   "name": "Banadir Stadium",
+   "sl": 9,
+   "file": "Somalia national team drills for 2018WCQ.jpg",
+   "lat": 2.0419,
+   "lon": 45.3567,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banadir Stadium"
+  },
+  {
+   "id": "Q17069440",
+   "name": "Port of Mogadishu",
+   "sl": 9,
+   "file": "Aerial view of the port of Mogadishu.JPEG",
+   "lat": 2.025,
+   "lon": 45.334,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Mogadishu"
+  },
+  {
+   "id": "Q4853766",
+   "name": "Banadir Hospital",
+   "sl": 8,
+   "file": "Amisom Police Donates Food Items To Benadir Hospital-1 (16497285887).jpg",
+   "lat": 2.0344,
+   "lon": 45.2986,
+   "kind": "built",
+   "types": [
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banadir Hospital"
+  },
+  {
+   "id": "Q1315200",
+   "name": "Nugaal",
+   "sl": 8,
+   "file": "Nugaal river flow through SSC Waqooyi Bari (red).png",
+   "lat": 7.9608,
+   "lon": 49.8483,
+   "kind": "natural",
+   "types": [
+    "river",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

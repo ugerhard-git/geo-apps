@@ -1,0 +1,1365 @@
+{
+ "country": "KP",
+ "items": [
+  {
+   "id": "Q107635",
+   "name": "Baekdu Mountain",
+   "sl": 77,
+   "file": "Baitou Mountain Tianchi.jpg",
+   "lat": 40.94,
+   "lon": 126.83,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred mountain",
+    "stratovolcano",
+    "territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Mount Changbai / Paektu"
+  },
+  {
+   "id": "Q29272",
+   "name": "Ryugyong Hotel",
+   "sl": 57,
+   "file": "Prázdné slnice a rozestavěný hotel Ryugyong - panoramio.jpg",
+   "lat": 39.0367,
+   "lon": 125.7308,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "mixed-use development",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ryugyong Hotel"
+  },
+  {
+   "id": "Q211618",
+   "name": "Rungrado 1st of May Stadium",
+   "sl": 53,
+   "file": "Rŭngrado May First Stadium.JPG",
+   "lat": 39.0497,
+   "lon": 125.7753,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rŭngrado May First Stadium"
+  },
+  {
+   "id": "Q321697",
+   "name": "Juche Tower",
+   "sl": 48,
+   "file": "Juche-Tower-2014.jpg",
+   "lat": 39.0176,
+   "lon": 125.7636,
+   "kind": "built",
+   "types": [
+    "obelisk",
+    "victory column"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juche Tower"
+  },
+  {
+   "id": "Q714023",
+   "name": "Heaven Lake",
+   "sl": 43,
+   "file": "Baitou Mountain Tianchi.jpg",
+   "lat": 42.006,
+   "lon": 128.057,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Heaven Lake"
+  },
+  {
+   "id": "Q491767",
+   "name": "Pyongyang International Airport",
+   "sl": 42,
+   "file": "North Korea-Pyongyang-Sunan International Airport-02.jpg",
+   "lat": 39.2239,
+   "lon": 125.67,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sunan International Airport"
+  },
+  {
+   "id": "Q495501",
+   "name": "Mount Kumgang",
+   "sl": 41,
+   "file": "0438 - Nordkorea 2015 - Kumgang Gebirge - Kuryong Fasserfall (22543108597).jpg",
+   "lat": 38.6568,
+   "lon": 128.1049,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kumgangsan"
+  },
+  {
+   "id": "Q512139",
+   "name": "Changbai Mountains",
+   "sl": 39,
+   "file": "Changbai Mountain,China.jpg",
+   "lat": 41.733,
+   "lon": 128.067,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Changbai / Paektu Mountains"
+  },
+  {
+   "id": "Q277525",
+   "name": "Goguryeo tombs",
+   "sl": 38,
+   "file": "Goguryeo tomb mural.jpg",
+   "lat": 38.8631,
+   "lon": 125.415,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Complex of Koguryo tombs"
+  },
+  {
+   "id": "Q606069",
+   "name": "Kumsusan Palace of the Sun",
+   "sl": 36,
+   "file": "0995 - Nordkorea 2015 - Pjöngjang - Mausoleum (22355259173).jpg",
+   "lat": 39.0633,
+   "lon": 125.7891,
+   "kind": "built",
+   "types": [
+    "memorial",
+    "monument",
+    "spring"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kumsusan Memorial Palace"
+  },
+  {
+   "id": "Q72218",
+   "name": "Kim Il-sung Square",
+   "sl": 34,
+   "file": "Laika ac Juche Tower (12108772354).jpg",
+   "lat": 39.0195,
+   "lon": 125.7525,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kim Il-sung Square"
+  },
+  {
+   "id": "Q209676",
+   "name": "Arch of Triumph",
+   "sl": 32,
+   "file": "0656 - Nordkorea 2015 - Pjöngjang - Triumphbogen (22347022434).jpg",
+   "lat": 39.0447,
+   "lon": 125.7531,
+   "kind": "built",
+   "types": [
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arch of Triumph (Pyongyang)"
+  },
+  {
+   "id": "Q493835",
+   "name": "Joint Security Area",
+   "sl": 30,
+   "file": "DMZ 12.JPG",
+   "lat": 37.9558,
+   "lon": 126.6767,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "geographic location"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KR"
+   ],
+   "cat": "Joint Security Area, Korea"
+  },
+  {
+   "id": "Q94731",
+   "name": "Arch of Reunification",
+   "sl": 29,
+   "file": "Monument-to-National-Reunification-2014.jpg",
+   "lat": 38.9645,
+   "lon": 125.7158,
+   "kind": "built",
+   "types": [
+    "arch",
+    "former entity",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arch of Reunification"
+  },
+  {
+   "id": "Q1060616",
+   "name": "China–North Korea border",
+   "sl": 27,
+   "file": "SinoKorea Friendship Bridge.jpg",
+   "lat": 41.7914,
+   "lon": 128.1069,
+   "kind": "built",
+   "types": [
+    "border",
+    "border barrier",
+    "international border",
+    "land boundary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "China-North Korea border"
+  },
+  {
+   "id": "Q1325633",
+   "name": "Mansu Hill Grand Monument",
+   "sl": 27,
+   "file": "Mansudae Grand Monument 18.JPG",
+   "lat": 39.0321,
+   "lon": 125.7531,
+   "kind": "built",
+   "types": [
+    "monument",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mansudae Grand Monument"
+  },
+  {
+   "id": "Q1137515",
+   "name": "Kim Il-sung Stadium",
+   "sl": 26,
+   "file": "Kim-Il-sung-Stadium-2014.jpg",
+   "lat": 39.0437,
+   "lon": 125.7577,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kim Il-sung Stadium"
+  },
+  {
+   "id": "Q702322",
+   "name": "Koryo Hotel",
+   "sl": 25,
+   "file": "Dprk-hotel-koryo.jpg",
+   "lat": 39.0087,
+   "lon": 125.7366,
+   "kind": "built",
+   "types": [
+    "hotel building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Koryo Hotel"
+  },
+  {
+   "id": "Q317453",
+   "name": "Sino-Korean Friendship Bridge",
+   "sl": 25,
+   "file": "Sino-Korean Friendship Bridge.jpg",
+   "lat": 40.1145,
+   "lon": 124.393,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "international bridge",
+    "road-rail bridge",
+    "truss bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Sino-Korean Friendship Bridge"
+  },
+  {
+   "id": "Q700636",
+   "name": "Yanggakdo International Hotel",
+   "sl": 22,
+   "file": "Dprk-hotel-yanggakdo.jpg",
+   "lat": 38.9989,
+   "lon": 125.7512,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yanggakdo International Hotel"
+  },
+  {
+   "id": "Q30901234",
+   "name": "Korea–Russia Friendship Bridge",
+   "sl": 20,
+   "file": "国际客运列车在图们江铁路桥上行驶，离开朝鲜进入俄罗斯 - panoramio.jpg",
+   "lat": 42.4153,
+   "lon": 130.6411,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "international bridge",
+    "railway bridge",
+    "truss bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Korea Russia Friendship Bridge"
+  },
+  {
+   "id": "Q337875",
+   "name": "Mansudae Assembly Hall",
+   "sl": 20,
+   "file": "Mansudae Assembly Hall.JPG",
+   "lat": 39.0285,
+   "lon": 125.7494,
+   "kind": "built",
+   "types": [
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mansudae Assembly Hall"
+  },
+  {
+   "id": "Q1490655",
+   "name": "Monument to Party Founding",
+   "sl": 20,
+   "file": "Party-Foundation-Monument.jpg",
+   "lat": 39.0279,
+   "lon": 125.7765,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monument to the Founding of the Worker's Party"
+  },
+  {
+   "id": "Q708572",
+   "name": "Yanggakdo Stadium",
+   "sl": 20,
+   "file": "Yanggakdo stadium.JPG",
+   "lat": 38.9915,
+   "lon": 125.7435,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yanggakdo Stadium"
+  },
+  {
+   "id": "Q708588",
+   "name": "International Friendship Exhibition",
+   "sl": 19,
+   "file": "Kim Ir-senovo Friendship Museum v parku Myohyang - panoramio.jpg",
+   "lat": 40.0173,
+   "lon": 126.2151,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "International Friendship Exhibition"
+  },
+  {
+   "id": "Q1326244",
+   "name": "Korean Revolution Museum",
+   "sl": 19,
+   "file": "Korean Revolution Museum - panoramio.jpg",
+   "lat": 39.0323,
+   "lon": 125.7521,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Korean Revolution Museum"
+  },
+  {
+   "id": "Q483844",
+   "name": "Bridge of No Return",
+   "sl": 18,
+   "file": "Bridge of no return.jpg",
+   "lat": 37.9561,
+   "lon": 126.6706,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KR"
+   ],
+   "cat": "Bridge of No Return"
+  },
+  {
+   "id": "Q1141083",
+   "name": "Pyongyang TV Tower",
+   "sl": 18,
+   "file": "Pyongyang TV Tower 01.JPG",
+   "lat": 39.05,
+   "lon": 125.7586,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyongyang TV Tower"
+  },
+  {
+   "id": "Q707931",
+   "name": "Chongjin Airport",
+   "sl": 17,
+   "file": "AIR KORYO FLIGHT JS5105 IL18 9835 AT ORANG MT CHILBO JUST ARRIVED FROM PYONGYANG SUNAN DPR KOREA OCT 2012 (8268927031).jpg",
+   "lat": 41.4297,
+   "lon": 129.6488,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chongjin Airport"
+  },
+  {
+   "id": "Q708915",
+   "name": "Korea Central Zoo",
+   "sl": 17,
+   "file": "Korea Central Zoo in Pyongyang.jpg",
+   "lat": 39.075,
+   "lon": 125.815,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyongyang Zoo"
+  },
+  {
+   "id": "Q489300",
+   "name": "Changchung Cathedral",
+   "sl": 16,
+   "file": "Jangchung Catholic Church (15524500676).jpg",
+   "lat": 39.0069,
+   "lon": 125.7778,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Changchung Cathedral"
+  },
+  {
+   "id": "Q5047540",
+   "name": "Korean Central History Museum",
+   "sl": 16,
+   "file": "Korean Central History Museum 01.jpg",
+   "lat": 39.0201,
+   "lon": 125.7546,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Korean Central History Museum"
+  },
+  {
+   "id": "Q488368",
+   "name": "Kalma Airport",
+   "sl": 15,
+   "file": "Kalma Airport.jpg",
+   "lat": 39.1626,
+   "lon": 127.4837,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalma Airport"
+  },
+  {
+   "id": "Q493390",
+   "name": "Rŭngrado",
+   "sl": 15,
+   "file": "Pyongyang city scape.jpg",
+   "lat": 39.0478,
+   "lon": 125.7739,
+   "kind": "natural",
+   "types": [
+    "islet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rungra Islet"
+  },
+  {
+   "id": "Q717708",
+   "name": "Samjiyŏn Airport",
+   "sl": 15,
+   "file": "Samjiyon Airport.jpg",
+   "lat": 41.9072,
+   "lon": 128.4099,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samjiyon Airport"
+  },
+  {
+   "id": "Q708609",
+   "name": "Chilbosan",
+   "sl": 14,
+   "file": "Chilbo Mountains (14582302783).jpg",
+   "lat": 41.05,
+   "lon": 129.6,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chilbosan"
+  },
+  {
+   "id": "Q15726137",
+   "name": "Historic Monuments and Sites in Kaesong",
+   "sl": 14,
+   "file": "Nam Gate in Kaesong (5063812320).jpg",
+   "lat": 37.9817,
+   "lon": 126.5081,
+   "kind": "",
+   "types": [
+    "group of physical objects"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Historic Monuments and Sites in Kaesong"
+  },
+  {
+   "id": "Q717264",
+   "name": "Moran Hill",
+   "sl": 14,
+   "file": "Aeryon Hall, Moran Hill, Pyongyang (5063173807).jpg",
+   "lat": 39.0403,
+   "lon": 125.7583,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moranbong Park"
+  },
+  {
+   "id": "Q17198628",
+   "name": "Munsu Water Park",
+   "sl": 14,
+   "file": "Munsu Water Park - Pyongyang, North Korea (11511854045).jpg",
+   "lat": 39.0396,
+   "lon": 125.7812,
+   "kind": "built",
+   "types": [
+    "water park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Munsu Water Park"
+  },
+  {
+   "id": "Q224717",
+   "name": "Nampo Dam",
+   "sl": 14,
+   "file": "NK-Hafen Nampo.jpg",
+   "lat": 38.6935,
+   "lon": 125.1993,
+   "kind": "both",
+   "types": [
+    "causeway",
+    "dam",
+    "levee",
+    "lock"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nampo Dam"
+  },
+  {
+   "id": "Q717009",
+   "name": "Potongmun",
+   "sl": 14,
+   "file": "Potongmun Pyongyang (2).jpg",
+   "lat": 39.0272,
+   "lon": 125.7417,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Potongmun"
+  },
+  {
+   "id": "Q2157562",
+   "name": "Sinchon Museum of American War Atrocities",
+   "sl": 14,
+   "file": "Sinchonmuseum.jpg",
+   "lat": 38.3547,
+   "lon": 125.4875,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sinchon Museum of American War Atrocities"
+  },
+  {
+   "id": "Q708619",
+   "name": "Taedongmun",
+   "sl": 14,
+   "file": "North Korea 062.jpg",
+   "lat": 39.0225,
+   "lon": 125.7567,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taedongmun"
+  },
+  {
+   "id": "Q711058",
+   "name": "East Pyongyang Grand Theatre",
+   "sl": 13,
+   "file": "East Pyongyang Grand Theater facade.jpg",
+   "lat": 39.0312,
+   "lon": 125.7704,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "East Pyongyang Grand Theater"
+  },
+  {
+   "id": "Q814236",
+   "name": "Liberation Monument",
+   "sl": 13,
+   "file": "Tatarstan's delegation in DPRK 2014 12.jpg",
+   "lat": 39.0351,
+   "lon": 125.7585,
+   "kind": "built",
+   "types": [
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liberation Monument (Pyongyang)"
+  },
+  {
+   "id": "Q16602030",
+   "name": "Masikryong Ski Resort",
+   "sl": 13,
+   "file": "Masikryong North Korea Ski Resort (12299601295).jpg",
+   "lat": 39.0532,
+   "lon": 127.25,
+   "kind": "built",
+   "types": [
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masikryong Ski Resort"
+  },
+  {
+   "id": "Q21806512",
+   "name": "Mirae Scientists Street",
+   "sl": 13,
+   "file": "Mirae Scientists Street - Nordkorea 2015 - Pjöngjang (22971791331).jpg",
+   "lat": 38.9951,
+   "lon": 125.7347,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mirae Scientist Street"
+  },
+  {
+   "id": "Q2157814",
+   "name": "North Korea Peace Museum",
+   "sl": 13,
+   "file": "NorthKoreaPeaceMuseum2012.jpg",
+   "lat": 37.9611,
+   "lon": 126.6645,
+   "kind": "built",
+   "types": [
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "North Korea Peace Museum"
+  },
+  {
+   "id": "Q137501",
+   "name": "Ongryu Bridge",
+   "sl": 13,
+   "file": "Laika ac Juche Tower (12108772974)2.jpg",
+   "lat": 39.025,
+   "lon": 125.7611,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ongryu Bridge"
+  },
+  {
+   "id": "Q11281628",
+   "name": "Pyongyang Department Store No. 1",
+   "sl": 13,
+   "file": "Laika ac Pyongyang Department Store No. 1 (11975506264).jpg",
+   "lat": 39.0222,
+   "lon": 125.7536,
+   "kind": "built",
+   "types": [
+    "department store"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyongyang Department Store"
+  },
+  {
+   "id": "Q7784991",
+   "name": "Third Tunnel of Aggression",
+   "sl": 13,
+   "file": "Third Tunnel of Aggression.jpg",
+   "lat": 37.9164,
+   "lon": 126.699,
+   "kind": "built",
+   "types": [
+    "tunnel of aggression"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KR"
+   ],
+   "cat": "Third Tunnel of Aggression"
+  },
+  {
+   "id": "Q710524",
+   "name": "Tomb of King Tongmyong",
+   "sl": 13,
+   "file": "Tomb of King Tongmyong, Pyongyang, North Korea.jpg",
+   "lat": 38.8953,
+   "lon": 125.923,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q277525",
+    "name": "Goguryeo tombs"
+   },
+   "also": [],
+   "cat": "Tomb of King Tongmyong"
+  },
+  {
+   "id": "Q9358005",
+   "name": "April 25 House of Culture",
+   "sl": 12,
+   "file": "Palais des congrès Pyongyang.jpg",
+   "lat": 39.0581,
+   "lon": 125.7492,
+   "kind": "built",
+   "types": [
+    "house of culture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3585518",
+   "name": "Chilgol Church",
+   "sl": 12,
+   "file": "Chilgol Church (14927462984).jpg",
+   "lat": 39.0319,
+   "lon": 125.675,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chilgol Church"
+  },
+  {
+   "id": "Q13188242",
+   "name": "Church of the Life-Giving Trinity",
+   "sl": 12,
+   "file": "Church of the Life-Giving Trinity in Pyongyang.jpg",
+   "lat": 38.9818,
+   "lon": 125.7457,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Trinity Orthodox Church, Pyongyang"
+  },
+  {
+   "id": "Q16889941",
+   "name": "Korean Art Gallery",
+   "sl": 12,
+   "file": "Laika ac Kim Il Sung Square (12080897393).jpg",
+   "lat": 39.0186,
+   "lon": 125.7541,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Korean Art Gallery"
+  },
+  {
+   "id": "Q5045301",
+   "name": "New Yalu River Bridge",
+   "sl": 12,
+   "file": "Boundary River Highway Bridge of Sino-Korean Yalu River.jpg",
+   "lat": 40.0356,
+   "lon": 124.3694,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "cable-stayed bridge",
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "New Yalu River Bridge"
+  },
+  {
+   "id": "Q1954560",
+   "name": "Party Foundation Museum",
+   "sl": 12,
+   "file": "Party Foundation Museum.jpg",
+   "lat": 39.0121,
+   "lon": 125.7431,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Party Foundation Museum"
+  },
+  {
+   "id": "Q3851485",
+   "name": "Pyongyang Maternity Hospital",
+   "sl": 12,
+   "file": "North Korea-Pyongyang Maternity Hospital-01.jpg",
+   "lat": 39.0244,
+   "lon": 125.7806,
+   "kind": "built",
+   "types": [
+    "hospital",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyongyang Maternity Hospital"
+  },
+  {
+   "id": "Q3616346",
+   "name": "Taesongsan",
+   "sl": 12,
+   "file": "Pyongyang Revolutionary Cemetery - overview.jpg",
+   "lat": 39.0818,
+   "lon": 125.8427,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q17033224",
+   "name": "Three Revolution Exhibition",
+   "sl": 12,
+   "file": "Electronics Hall, Three Revolutions Exhibition, Pyongyang (6073954838).jpg",
+   "lat": 39.0801,
+   "lon": 125.7562,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Three Revolution Exhibition"
+  },
+  {
+   "id": "Q11588512",
+   "name": "Victorious Fatherland Liberation War Museum",
+   "sl": 12,
+   "file": "Laika ac War Museum (12074143545).jpg",
+   "lat": 39.041,
+   "lon": 125.7373,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Victorious Fatherland Liberation War Museum"
+  },
+  {
+   "id": "Q905079",
+   "name": "Chongnyon Hotel",
+   "sl": 11,
+   "file": "Chongnyon Hotel.jpg",
+   "lat": 39.0258,
+   "lon": 125.6813,
+   "kind": "built",
+   "types": [
+    "hotel building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chongnyon Hotel"
+  },
+  {
+   "id": "Q16892034",
+   "name": "Hamhung Grand Theatre",
+   "sl": 11,
+   "file": "Hamhung Grand Theatre (14653498397).jpg",
+   "lat": 39.915,
+   "lon": 127.537,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hamhung Grand Theater"
+  },
+  {
+   "id": "Q5047328",
+   "name": "Pyongyang Grand Theatre",
+   "sl": 11,
+   "file": "Laika ac Pyongyang Grand Theater (7948013178).jpg",
+   "lat": 39.0087,
+   "lon": 125.7502,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyongyang Grand Theater"
+  },
+  {
+   "id": "Q7263150",
+   "name": "Pyongyang Gymnasium",
+   "sl": 11,
+   "file": "Laika ac Pyongyang Indoor Stadium (12144535375).jpg",
+   "lat": 39.0231,
+   "lon": 125.7347,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyongyang Indoor Stadium"
+  },
+  {
+   "id": "Q137834",
+   "name": "Rungra Bridge",
+   "sl": 11,
+   "file": "Rungra bridge.jpg",
+   "lat": 39.0339,
+   "lon": 125.7647,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rungra Bridge"
+  },
+  {
+   "id": "Q708499",
+   "name": "Sondok Airport",
+   "sl": 11,
+   "file": "AIR KORYO IL76 P912 AT SONDOK HAMHUNG AIRPORT DPR KOREA OCT 2012 (8270008276).jpg",
+   "lat": 39.6778,
+   "lon": 127.483,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sondok Airport"
+  },
+  {
+   "id": "Q16014223",
+   "name": "Sosan Hotel",
+   "sl": 11,
+   "file": "서산호텔-Sosan Hotel 20161203 0826.jpg",
+   "lat": 39.0106,
+   "lon": 125.6922,
+   "kind": "built",
+   "types": [
+    "hotel building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sosan Hotel"
+  },
+  {
+   "id": "Q709266",
+   "name": "Tomb of King Kongmin",
+   "sl": 11,
+   "file": "Tomb at Kaesong (5063812324).jpg",
+   "lat": 37.9817,
+   "lon": 126.473,
+   "kind": "both",
+   "types": [
+    "tumulus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of King Kongmin"
+  },
+  {
+   "id": "Q197713",
+   "name": "Yanggak Road Bridge",
+   "sl": 11,
+   "file": "0491 - Nordkorea 2015 - Pjöngjang (22337847194).jpg",
+   "lat": 38.9913,
+   "lon": 125.7485,
+   "kind": "built",
+   "types": [
+    "railway bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yanggak Bridge"
+  },
+  {
+   "id": "Q3849580",
+   "name": "Anak Tomb No. 3",
+   "sl": 10,
+   "file": "Man - Anak Tomb No. 3.jpg",
+   "lat": 38.4491,
+   "lon": 125.5081,
+   "kind": "built",
+   "types": [
+    "chamber tomb",
+    "grave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anak Tomb No.3"
+  },
+  {
+   "id": "Q4702806",
+   "name": "Mansudae Art Theatre",
+   "sl": 10,
+   "file": "Laika ac Mansudae Art Theater (6894875019).jpg",
+   "lat": 39.0241,
+   "lon": 125.7483,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mansudae Art Theater"
+  },
+  {
+   "id": "Q17407655",
+   "name": "Pongsu Church",
+   "sl": 10,
+   "file": "Bongsu Church (15548231805).jpg",
+   "lat": 39.0453,
+   "lon": 125.7064,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bongsu Church"
+  },
+  {
+   "id": "Q21037335",
+   "name": "Pyongyang Sci-Tech Complex",
+   "sl": 10,
+   "file": "Pyongyang Sci-Tech Complex.jpg",
+   "lat": 38.9887,
+   "lon": 125.7122,
+   "kind": "built",
+   "types": [
+    "science center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyongyang Sci-Tech Complex"
+  },
+  {
+   "id": "Q2387445",
+   "name": "Taedong Bridge",
+   "sl": 10,
+   "file": "Taedong Bridge 02.jpg",
+   "lat": 39.0123,
+   "lon": 125.7569,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taedong Bridge"
+  },
+  {
+   "id": "Q5352709",
+   "name": "Tumangang Station",
+   "sl": 10,
+   "file": "Tumangang Station.jpeg",
+   "lat": 42.4214,
+   "lon": 130.6081,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "break-of-gauge station",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tumangang Station"
+  },
+  {
+   "id": "Q5045484",
+   "name": "Tumen Border Bridge",
+   "sl": 10,
+   "file": "Bridge of Tumen City.jpg",
+   "lat": 42.9548,
+   "lon": 129.8502,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Tumen Road Bridge"
+  },
+  {
+   "id": "Q8061247",
+   "name": "Unbong Dam",
+   "sl": 10,
+   "file": "ViewFromYunfengDam.jpg",
+   "lat": 41.3808,
+   "lon": 126.5144,
+   "kind": "built",
+   "types": [
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Yunfeng Reservoir"
+  },
+  {
+   "id": "Q840749",
+   "name": "Bohyeonsa",
+   "sl": 9,
+   "file": "Detail of Temple Architecture.jpg",
+   "lat": 40.0082,
+   "lon": 126.235,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pohyonsa"
+  }
+ ]
+}

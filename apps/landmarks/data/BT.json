@@ -1,0 +1,566 @@
+{
+ "country": "BT",
+ "items": [
+  {
+   "id": "Q219986",
+   "name": "Gangkhar Puensum",
+   "sl": 64,
+   "file": "Himalayan peak from Bumthang.jpg",
+   "lat": 28.0469,
+   "lon": 90.455,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred mountain",
+    "virgin peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gangkhar Puensum"
+  },
+  {
+   "id": "Q44877",
+   "name": "Paro Airport",
+   "sl": 51,
+   "file": "Paro Airport.jpg",
+   "lat": 27.4088,
+   "lon": 89.4206,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paro Airport"
+  },
+  {
+   "id": "Q2209873",
+   "name": "Paro Taktsang",
+   "sl": 44,
+   "file": "Paro Taktsang, Bhutan (edited).jpg",
+   "lat": 27.4917,
+   "lon": 89.3633,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "Tibetan Buddhist monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paro Taktsang"
+  },
+  {
+   "id": "Q866771",
+   "name": "Kula Kangri",
+   "sl": 35,
+   "file": "Kula Kangri from Moenla Karchung 1933·.jpg",
+   "lat": 28.2267,
+   "lon": 90.6164,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Kula Kangri"
+  },
+  {
+   "id": "Q1076018",
+   "name": "Chomolhari",
+   "sl": 34,
+   "file": "Bundesarchiv Bild 135-KA-06-039, Tibetexpedition, Landschaftsaufnahme.jpg",
+   "lat": 27.8242,
+   "lon": 89.27,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Jomolhari"
+  },
+  {
+   "id": "Q1265588",
+   "name": "Jigme Dorji National Park",
+   "sl": 30,
+   "file": "Jigme Dorji National Park, Bhutan.JPG",
+   "lat": 27.75,
+   "lon": 89.5167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jigme Dorji National Park"
+  },
+  {
+   "id": "Q1062074",
+   "name": "Changlimithang Stadium",
+   "sl": 22,
+   "file": "Bhutan archery.jpg",
+   "lat": 27.4714,
+   "lon": 89.6411,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Changlimethang Stadium, Thimphu"
+  },
+  {
+   "id": "Q4280157",
+   "name": "Royal Manas National Park",
+   "sl": 20,
+   "file": "Royal Manas National Park Bhutan.JPG",
+   "lat": 26.8994,
+   "lon": 90.7581,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Manas National Park"
+  },
+  {
+   "id": "Q4383728",
+   "name": "Punakha Dzong",
+   "sl": 19,
+   "file": "PunakhaDzongInSpring.jpg",
+   "lat": 27.5819,
+   "lon": 89.8631,
+   "kind": "built",
+   "types": [
+    "dzong in Tibet",
+    "Tibetan Buddhist monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Punakha Dzong"
+  },
+  {
+   "id": "Q1896299",
+   "name": "Tashichho Dzong",
+   "sl": 18,
+   "file": "Tashichoedzong-Bhutan-2001.JPG",
+   "lat": 27.4894,
+   "lon": 89.635,
+   "kind": "built",
+   "types": [
+    "dzong in Tibet",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tashichho Dzong"
+  },
+  {
+   "id": "Q1357029",
+   "name": "Jigme Singye Wangchuck National Park",
+   "sl": 17,
+   "file": "Grus nigricollis -Bronx Zoo-8-3c.jpg",
+   "lat": 27.1667,
+   "lon": 90.4333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3331373",
+   "name": "Phrumsengla National Park",
+   "sl": 17,
+   "file": "Blood Pheasant Phrumsingla National Park Bhutan.jpg",
+   "lat": 27.2831,
+   "lon": 90.9778,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thrumshingla National Park"
+  },
+  {
+   "id": "Q2080429",
+   "name": "Simtokha Dzong",
+   "sl": 16,
+   "file": "Simtokha Dzong, Bhutan 01.jpg",
+   "lat": 27.4381,
+   "lon": 89.6694,
+   "kind": "built",
+   "types": [
+    "dzong in Tibet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Simtokha Dzong"
+  },
+  {
+   "id": "Q59330112",
+   "name": "Rinpung Dzong",
+   "sl": 15,
+   "file": "Rinpung Dzong Paro 2007-11-11 CJF.JPG",
+   "lat": 27.4267,
+   "lon": 89.4233,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rinpung Dzong"
+  },
+  {
+   "id": "Q4099139",
+   "name": "Bumdeling Wildlife Sanctuary",
+   "sl": 14,
+   "file": "Bridge to Bumdeling Sanctuary.jpg",
+   "lat": 27.7972,
+   "lon": 91.4378,
+   "kind": "natural",
+   "types": [
+    "wildlife refuge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bumdeling Wildlife Sanctuary"
+  },
+  {
+   "id": "Q4212255",
+   "name": "Kangphu Kang",
+   "sl": 14,
+   "file": "GasaLayaLunanaMap.jpg",
+   "lat": 28.1558,
+   "lon": 90.0733,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q4315025",
+   "name": "National Museum of Bhutan",
+   "sl": 14,
+   "file": "National museum of bhutan, paro.jpg",
+   "lat": 27.4287,
+   "lon": 89.4255,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Bhutan"
+  },
+  {
+   "id": "Q18457036",
+   "name": "Liankang Kangri",
+   "sl": 12,
+   "file": "082 - Gangkar Puensum - 7,570m (Dochula pass) (4677022812).jpg",
+   "lat": 28.064,
+   "lon": 90.4435,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liankang Kangri"
+  },
+  {
+   "id": "Q7186615",
+   "name": "Phobjikha Valley",
+   "sl": 12,
+   "file": "Phobjika Valley view, Bhutan.jpg",
+   "lat": 27.5,
+   "lon": 90.1667,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Views of the Phobjika Valley"
+  },
+  {
+   "id": "Q2883538",
+   "name": "Wangchuck Centennial Park",
+   "sl": 12,
+   "file": "Snow leopard portrait.jpg",
+   "lat": 27.8119,
+   "lon": 90.6578,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4134036",
+   "name": "Gasa Dzong",
+   "sl": 11,
+   "file": "Gasa Dzong.jpg",
+   "lat": 27.9038,
+   "lon": 89.7276,
+   "kind": "built",
+   "types": [
+    "dzong in Tibet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gasa Dzong"
+  },
+  {
+   "id": "Q4159741",
+   "name": "Jakar Dzong",
+   "sl": 11,
+   "file": "JakarDzong.jpg",
+   "lat": 27.5492,
+   "lon": 90.7436,
+   "kind": "built",
+   "types": [
+    "dzong",
+    "dzong in Tibet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jakar Dzong"
+  },
+  {
+   "id": "Q864865",
+   "name": "Memorial Chorten",
+   "sl": 11,
+   "file": "National Memorial Chorten, Thimphu 01.jpg",
+   "lat": 27.4664,
+   "lon": 89.6378,
+   "kind": "built",
+   "types": [
+    "religious building",
+    "stupa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Memorial Chorten, Thimphu"
+  },
+  {
+   "id": "Q4506678",
+   "name": "Chagri Monastery",
+   "sl": 10,
+   "file": "Cheri Monastery Bhutan-070317.JPG",
+   "lat": 27.5983,
+   "lon": 89.6472,
+   "kind": "built",
+   "types": [
+    "vihāra"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chagri Monastery"
+  },
+  {
+   "id": "Q1181803",
+   "name": "Dechencholing Palace",
+   "sl": 10,
+   "file": "Jigme Singye Wangchuck and Robert Blake.jpg",
+   "lat": 27.5235,
+   "lon": 89.6427,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5459703",
+   "name": "Motithang Takin Preserve",
+   "sl": 10,
+   "file": "Takin, Thimphu mini-zoo.jpg",
+   "lat": 27.482,
+   "lon": 89.61,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Motithang Takin Preserve"
+  },
+  {
+   "id": "Q4301538",
+   "name": "Tango Monastery",
+   "sl": 10,
+   "file": "TangoMonastery.jpg",
+   "lat": 27.5931,
+   "lon": 89.6388,
+   "kind": "built",
+   "types": [
+    "Tibetan Buddhist monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tango Monastery"
+  },
+  {
+   "id": "Q2079524",
+   "name": "Jambay Lhakhang",
+   "sl": 9,
+   "file": "Bumthang-Jambay Lhakhang-06-2015-gje.jpg",
+   "lat": 27.5753,
+   "lon": 90.7336,
+   "kind": "built",
+   "types": [
+    "Tibetan Buddhist monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jambay Lhakhang (Bumthang)"
+  },
+  {
+   "id": "Q1984521",
+   "name": "Kurjey Lhakhang",
+   "sl": 9,
+   "file": "Bumthang-Kurjey Lhakhang-02-2015-gje.jpg",
+   "lat": 27.6167,
+   "lon": 90.7,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "Tibetan Buddhist monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kurjey Lhakhang"
+  },
+  {
+   "id": "Q1795009",
+   "name": "Kyichu Lhakhang",
+   "sl": 9,
+   "file": "Kyichu Lhakhang Temple.jpg",
+   "lat": 27.4411,
+   "lon": 89.3756,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kyichu Lhakhang"
+  },
+  {
+   "id": "Q16739736",
+   "name": "Wangdue Phodrang Dzong",
+   "sl": 9,
+   "file": "Wangdue Phodrang 1.jpg",
+   "lat": 27.475,
+   "lon": 89.8972,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wangdue Phodrang Dzong"
+  },
+  {
+   "id": "Q5249117",
+   "name": "Dechen Phodrang Monastery",
+   "sl": 8,
+   "file": "Dechen Phodrang monastic school, Thimphu.jpg",
+   "lat": 27.5011,
+   "lon": 89.6325,
+   "kind": "built",
+   "types": [
+    "Tibetan Buddhist monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dechen Phodrang, Thimphu"
+  },
+  {
+   "id": "Q1261212",
+   "name": "Drukgyal Dzong",
+   "sl": 8,
+   "file": "Drukgyel Dzong 04-2021.jpg",
+   "lat": 27.5,
+   "lon": 89.3333,
+   "kind": "built",
+   "types": [
+    "dzong in Tibet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Drukgyel Dzong"
+  },
+  {
+   "id": "Q4463732",
+   "name": "Trongsa Dzong",
+   "sl": 8,
+   "file": "Trongsa-Dzong-124-2015-gje.jpg",
+   "lat": 27.5168,
+   "lon": 90.5,
+   "kind": "built",
+   "types": [
+    "dzong in Tibet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trongsa Dzong"
+  }
+ ]
+}

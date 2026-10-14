@@ -1,0 +1,1446 @@
+{
+ "country": "PT",
+ "items": [
+  {
+   "id": "Q215003",
+   "name": "Belém Tower",
+   "sl": 57,
+   "file": "Belem Tower - April 2019 (2).jpg",
+   "lat": 38.6914,
+   "lon": -9.2158,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "cultural heritage",
+    "fort",
+    "fortified tower"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15229898",
+    "name": "Monastery of the Hieronymites and Tower of Belém in Lisbon"
+   },
+   "also": [],
+   "cat": "Torre de Belém"
+  },
+  {
+   "id": "Q14554",
+   "name": "Minho River",
+   "sl": 56,
+   "file": "Roman bridge, Ourense (Spain).jpg",
+   "lat": 41.8653,
+   "lon": -8.8697,
+   "kind": "natural",
+   "types": [
+    "main stem",
+    "Natura 2000 site",
+    "river",
+    "site of community importance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Minho River"
+  },
+  {
+   "id": "Q169175",
+   "name": "Cabo da Roca",
+   "sl": 55,
+   "file": "Cabo da Roca on sunset.jpg",
+   "lat": 38.7808,
+   "lon": -9.5006,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabo da Roca"
+  },
+  {
+   "id": "Q272781",
+   "name": "Jerónimos Monastery",
+   "sl": 53,
+   "file": "1502 legte König Manuel I. den Grundstein für das Hieronymus Kloster in Lissabon. 06.jpg",
+   "lat": 38.6978,
+   "lon": -9.2056,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15229898",
+    "name": "Monastery of the Hieronymites and Tower of Belém in Lisbon"
+   },
+   "also": [],
+   "cat": "Mosteiro dos Jerónimos"
+  },
+  {
+   "id": "Q233737",
+   "name": "Vasco da Gama Bridge",
+   "sl": 52,
+   "file": "Vasco da Gama Bridge 03.JPG",
+   "lat": 38.7622,
+   "lon": -9.0433,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "cultural heritage",
+    "reinforced concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte Vasco da Gama"
+  },
+  {
+   "id": "Q403671",
+   "name": "Humberto Delgado Airport",
+   "sl": 50,
+   "file": "Aeroporto Lisboa - panoramio.jpg",
+   "lat": 38.7742,
+   "lon": -9.1342,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "cultural heritage",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Humberto Delgado Airport"
+  },
+  {
+   "id": "Q7875112",
+   "name": "Estádio da Luz",
+   "sl": 49,
+   "file": "LuzLissabon.jpg",
+   "lat": 38.7528,
+   "lon": -9.1847,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "cultural heritage",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio da Luz"
+  },
+  {
+   "id": "Q271454",
+   "name": "Estádio do Dragão",
+   "sl": 44,
+   "file": "Estádio do Dragão (8468978586).jpg",
+   "lat": 41.1618,
+   "lon": -8.5839,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio do Dragão"
+  },
+  {
+   "id": "Q27088",
+   "name": "Savage Islands",
+   "sl": 44,
+   "file": "Northern Savage Island, Atlantic Ocean.jpg",
+   "lat": 30.1463,
+   "lon": -15.8644,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilhas Selvagens"
+  },
+  {
+   "id": "Q174779",
+   "name": "Batalha Monastery",
+   "sl": 43,
+   "file": "Batalha September 2021-53.jpg",
+   "lat": 39.6592,
+   "lon": -8.8261,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "former convent",
+    "shrine of Our Lady"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosteiro da Batalha"
+  },
+  {
+   "id": "Q117157",
+   "name": "Gulf of Cádiz",
+   "sl": 42,
+   "file": "Golfo de Cádiz - ic Landsat.jpg",
+   "lat": 36.7833,
+   "lon": -7.2333,
+   "kind": "natural",
+   "types": [
+    "gulf",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Gulf of Cádiz"
+  },
+  {
+   "id": "Q928681",
+   "name": "Mount Pico",
+   "sl": 42,
+   "file": "Ilha do Pico vista da Fajã Grande, Calheta, ilha de São Jorge, Açores, Portugal.JPG",
+   "lat": 38.4686,
+   "lon": -28.3992,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "nature reserve",
+    "protected area",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico"
+  },
+  {
+   "id": "Q593147",
+   "name": "Alcobaça Monastery",
+   "sl": 41,
+   "file": "Alcobaça October 2021-1.jpg",
+   "lat": 39.5486,
+   "lon": -8.9786,
+   "kind": "built",
+   "types": [
+    "Cistercian monastery",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosteiro de Alcobaça"
+  },
+  {
+   "id": "Q639161",
+   "name": "Madeira Cristiano-Ronaldo Airport",
+   "sl": 40,
+   "file": "Aeroporto da Madeira runway.JPG",
+   "lat": 32.6942,
+   "lon": -16.7781,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madeira Airport"
+  },
+  {
+   "id": "Q738004",
+   "name": "Serra da Estrela",
+   "sl": 40,
+   "file": "Foto3 SGiao Small.jpg",
+   "lat": 40.3219,
+   "lon": -7.6129,
+   "kind": "natural",
+   "types": [
+    "mountain chain",
+    "mountain range",
+    "Natura 2000 site",
+    "site of community importance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Serra da Estrela"
+  },
+  {
+   "id": "Q736692",
+   "name": "Convent of Christ",
+   "sl": 39,
+   "file": "Convento Cristo December 2008-8.jpg",
+   "lat": 39.6036,
+   "lon": -8.4193,
+   "kind": "built",
+   "types": [
+    "convent",
+    "cultural heritage",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Convento de Cristo"
+  },
+  {
+   "id": "Q287359",
+   "name": "Estádio José Alvalade",
+   "sl": 39,
+   "file": "Estádio José Alvalade antes do jogo Sporting - Arouca.jpg",
+   "lat": 38.7612,
+   "lon": -9.1608,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "cultural heritage",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Alvalade XXI"
+  },
+  {
+   "id": "Q69513",
+   "name": "Pena Palace",
+   "sl": 39,
+   "file": "Sintra - Palacio da Pena (20332995770).jpg",
+   "lat": 38.7878,
+   "lon": -9.3906,
+   "kind": "built",
+   "types": [
+    "convent",
+    "cultural heritage",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3848197",
+    "name": "Cultural Landscape of Sintra"
+   },
+   "also": [],
+   "cat": "Palácio Nacional da Pena"
+  },
+  {
+   "id": "Q667001",
+   "name": "Faro Airport",
+   "sl": 38,
+   "file": "FaroAPoverview.jpg",
+   "lat": 37.0144,
+   "lon": -7.9658,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Faro Airport"
+  },
+  {
+   "id": "Q943743",
+   "name": "Francisco de Sá Carneiro Airport",
+   "sl": 37,
+   "file": "Aeroporto Porto 17.jpg",
+   "lat": 41.2356,
+   "lon": -8.6781,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Porto International Airport"
+  },
+  {
+   "id": "Q721152",
+   "name": "25 de Abril Bridge",
+   "sl": 33,
+   "file": "25 De Abril Bridge (226290561).jpeg",
+   "lat": 38.6942,
+   "lon": -9.1781,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "double-decker bridge",
+    "multi-level bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte 25 de Abril"
+  },
+  {
+   "id": "Q849239",
+   "name": "Estádio Municipal de Braga",
+   "sl": 33,
+   "file": "Estadio Braga.JPG",
+   "lat": 41.5624,
+   "lon": -8.4308,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Municipal de Braga"
+  },
+  {
+   "id": "Q1473702",
+   "name": "Peneda-Gerês National Park",
+   "sl": 33,
+   "file": "Near Campo do Gerês, Portugal (373505187).jpg",
+   "lat": 41.85,
+   "lon": -8.25,
+   "kind": "natural",
+   "types": [
+    "cultural heritage",
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional da Peneda-Gerês"
+  },
+  {
+   "id": "Q552106",
+   "name": "Prehistoric Rock Art Sites in the Côa Valley",
+   "sl": 33,
+   "file": "Rock Art Foz Coa 01.jpg",
+   "lat": 41.0333,
+   "lon": -7.1167,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural heritage",
+    "petroglyph"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q39258498",
+    "name": "Prehistoric Rock-Art Site of the Côa Valley and Siega Verde"
+   },
+   "also": [],
+   "cat": "Conjunto dos sítios arqueológicos no Vale do Rio Côa"
+  },
+  {
+   "id": "Q821015",
+   "name": "Berlengas",
+   "sl": 32,
+   "file": "Berlengas montagem.png",
+   "lat": 39.4156,
+   "lon": -9.51,
+   "kind": "natural",
+   "types": [
+    "island group",
+    "Natura 2000 site",
+    "site of community importance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berlengas"
+  },
+  {
+   "id": "Q4103",
+   "name": "Cape St. Vincent",
+   "sl": 32,
+   "file": "Viev from Cape St. Vincent Sagres Algarve Portugal.JPG",
+   "lat": 37.025,
+   "lon": -8.9944,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabo de São Vicente"
+  },
+  {
+   "id": "Q1057274",
+   "name": "Estádio D. Afonso Henriques",
+   "sl": 32,
+   "file": "Estádio do Vitória de Guimarães visto da torre central do Castelo de Guimarães 03.JPG",
+   "lat": 41.4458,
+   "lon": -8.301,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio D. Afonso Henriques"
+  },
+  {
+   "id": "Q432290",
+   "name": "Lisbon Cathedral",
+   "sl": 32,
+   "file": "Lisboa May 2013-1.jpg",
+   "lat": 38.7099,
+   "lon": -9.133,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sé de Lisboa"
+  },
+  {
+   "id": "Q1133712",
+   "name": "Padrão dos Descobrimentos",
+   "sl": 32,
+   "file": "Lisbonne - Padrão dos Descobrimentos - Closeup.jpg",
+   "lat": 38.6937,
+   "lon": -9.2057,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Padrão dos Descobrimentos"
+  },
+  {
+   "id": "Q999002",
+   "name": "Praça do Comércio",
+   "sl": 32,
+   "file": "Plaza del Comercio, Lisboa, Portugal, 2012-05-12, DD 01-03 PAN.jpg",
+   "lat": 38.7075,
+   "lon": -9.1364,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Praça do Comércio"
+  },
+  {
+   "id": "Q649738",
+   "name": "Alto Douro Wine Region",
+   "sl": 31,
+   "file": "Douro (do Museu do Côa) 2 (4928227584) (3).jpg",
+   "lat": 41.1657,
+   "lon": -7.5177,
+   "kind": "",
+   "types": [
+    "cultural heritage",
+    "wine-producing region"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Alto Douro Vinhateiro"
+  },
+  {
+   "id": "Q636780",
+   "name": "Castle of Saint George",
+   "sl": 31,
+   "file": "Castelo Sao Jorge Lisboa 1.JPG",
+   "lat": 38.7139,
+   "lon": -9.1333,
+   "kind": "built",
+   "types": [
+    "castle",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castelo de São Jorge"
+  },
+  {
+   "id": "Q599223",
+   "name": "Palace of Mafra",
+   "sl": 31,
+   "file": "Mafra May 2013-2.jpg",
+   "lat": 38.9369,
+   "lon": -9.3264,
+   "kind": "built",
+   "types": [
+    "basilica",
+    "convent",
+    "cultural heritage",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q54948065",
+    "name": "Royal Building of Mafra"
+   },
+   "also": [],
+   "cat": "Palácio Nacional de Mafra"
+  },
+  {
+   "id": "Q473169",
+   "name": "Pico Ruivo",
+   "sl": 31,
+   "file": "Pico Ruivo.jpg",
+   "lat": 32.7587,
+   "lon": -16.9423,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Ruivo"
+  },
+  {
+   "id": "Q1322447",
+   "name": "Luiz I Bridge",
+   "sl": 30,
+   "file": "Puente Don Luis I, Oporto, Portugal, 2012-05-09, DD 13.JPG",
+   "lat": 41.1397,
+   "lon": -8.6094,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "deck arch bridge",
+    "industrial heritage site",
+    "iron bridge"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3848157",
+    "name": "Historic Centre of Porto"
+   },
+   "also": [],
+   "cat": "Luiz I bridge"
+  },
+  {
+   "id": "Q1327324",
+   "name": "Estádio Nacional",
+   "sl": 29,
+   "file": "StadionJamor.JPG",
+   "lat": 38.7088,
+   "lon": -9.2608,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Nacional do Jamor"
+  },
+  {
+   "id": "Q2707216",
+   "name": "Bom Jesus do Monte",
+   "sl": 28,
+   "file": "Treppenaufgang Bom Jesus do Monte.jpg",
+   "lat": 41.5546,
+   "lon": -8.3775,
+   "kind": "built",
+   "types": [
+    "calvary",
+    "Catholic pilgrimage church",
+    "cultural heritage",
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Santuário do Bom Jesus do Monte"
+  },
+  {
+   "id": "Q1432424",
+   "name": "João Paulo II Airport",
+   "sl": 28,
+   "file": "Ponta Delgada Airport1.JPG",
+   "lat": 37.7419,
+   "lon": -25.6978,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponta Delgada-João Paulo II International Airport"
+  },
+  {
+   "id": "Q1463929",
+   "name": "MEO Arena",
+   "sl": 28,
+   "file": "Pavilhão Atlântico - dynamosquito.jpg",
+   "lat": 38.7686,
+   "lon": -9.094,
+   "kind": "built",
+   "types": [
+    "arena",
+    "cultural heritage",
+    "event venue",
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Altice Arena"
+  },
+  {
+   "id": "Q646151",
+   "name": "Estádio Algarve",
+   "sl": 27,
+   "file": "EstadioAlgarve.JPG",
+   "lat": 37.0883,
+   "lon": -7.9747,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Algarve"
+  },
+  {
+   "id": "Q1067308",
+   "name": "Estádio Cidade de Coimbra",
+   "sl": 27,
+   "file": "Coimbra City Stadium.jpg",
+   "lat": 40.2033,
+   "lon": -8.4078,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Cidade de Coimbra"
+  },
+  {
+   "id": "Q1058494",
+   "name": "Estádio do Bessa",
+   "sl": 27,
+   "file": "Estádio do Bessa XXI.jpg",
+   "lat": 41.1622,
+   "lon": -8.6428,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio do Bessa Século XXI"
+  },
+  {
+   "id": "Q1032105",
+   "name": "Estádio Municipal de Aveiro – Mário Duarte",
+   "sl": 27,
+   "file": "Porto Portugal February 2015 09.jpg",
+   "lat": 40.6475,
+   "lon": -8.5936,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Municipal de Aveiro – Mário Duarte"
+  },
+  {
+   "id": "Q211262",
+   "name": "Calouste Gulbenkian Museum",
+   "sl": 26,
+   "file": "Museu Calouste Gulbenkian (Main Entrance).jpg",
+   "lat": 38.7367,
+   "lon": -9.1542,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Calouste Gulbenkian Museum"
+  },
+  {
+   "id": "Q917274",
+   "name": "Casa da Música",
+   "sl": 26,
+   "file": "86724-Porto (49052540207).jpg",
+   "lat": 41.1589,
+   "lon": -8.6307,
+   "kind": "built",
+   "types": [
+    "concert hall",
+    "organization",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casa da Música"
+  },
+  {
+   "id": "Q1056864",
+   "name": "Estádio Dr. Magalhães Pessoa",
+   "sl": 26,
+   "file": "Estádio Municipal de Leiria.jpg",
+   "lat": 39.7486,
+   "lon": -8.8131,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Municipal de Leiria"
+  },
+  {
+   "id": "Q212459",
+   "name": "National Museum of Ancient Art",
+   "sl": 26,
+   "file": "MNAA.jpg",
+   "lat": 38.7053,
+   "lon": -9.1607,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "cultural heritage",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu Nacional de Arte Antiga"
+  },
+  {
+   "id": "Q1073173",
+   "name": "Palace of Queluz",
+   "sl": 26,
+   "file": "Jardim Pênsil, Palácio Nacional de Queluz 06.jpg",
+   "lat": 38.7504,
+   "lon": -9.2582,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio Nacional de Queluz"
+  },
+  {
+   "id": "Q1432485",
+   "name": "Porto Santo Airport",
+   "sl": 26,
+   "file": "Porto Santo Airport.jpg",
+   "lat": 33.0711,
+   "lon": -16.3495,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Porto Santo Airport"
+  },
+  {
+   "id": "Q168001",
+   "name": "Santa Justa Lift",
+   "sl": 26,
+   "file": "Elevador de Santa Justa, Lisboa, Portugal, 2022-07-24, DD 07.jpg",
+   "lat": 38.7119,
+   "lon": -9.1392,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "elevator"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elevador de Santa Justa"
+  },
+  {
+   "id": "Q532399",
+   "name": "Sintra National Palace",
+   "sl": 26,
+   "file": "Palacio Nacional, Sintra, Portugal, 2019-05-25, DD 89.jpg",
+   "lat": 38.7978,
+   "lon": -9.3908,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3848197",
+    "name": "Cultural Landscape of Sintra"
+   },
+   "also": [],
+   "cat": "Palácio Nacional de Sintra"
+  },
+  {
+   "id": "Q15653",
+   "name": "Vouga River",
+   "sl": 26,
+   "file": "São-Pedro-do-Sul Rio-Vouga2 PT.jpg",
+   "lat": 40.6438,
+   "lon": -8.7582,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "river",
+    "site of community importance"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vouga River"
+  },
+  {
+   "id": "Q99636",
+   "name": "Ascensor da Glória",
+   "sl": 24,
+   "file": "Double (43063912952).jpg",
+   "lat": 38.7161,
+   "lon": -9.1425,
+   "kind": "built",
+   "types": [
+    "funicular"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elevador da Glória"
+  },
+  {
+   "id": "Q1601019",
+   "name": "Church of Santa Engrácia",
+   "sl": 23,
+   "file": "Exterior of Igreja de Santa Engrácia 70.jpg",
+   "lat": 38.715,
+   "lon": -9.125,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Igreja de Santa Engrácia"
+  },
+  {
+   "id": "Q1192102",
+   "name": "Pico do Areeiro",
+   "sl": 23,
+   "file": "Vista desde el pico de Arieiro, Madeira, Portugal, 2019-05-30, DD 134-141 PAN.jpg",
+   "lat": 32.7356,
+   "lon": -16.9289,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico do Areeiro"
+  },
+  {
+   "id": "Q1441255",
+   "name": "Porto Cathedral",
+   "sl": 23,
+   "file": "Porto.Cathedral01.jpg",
+   "lat": 41.1428,
+   "lon": -8.6112,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sé do Porto"
+  },
+  {
+   "id": "Q1144592",
+   "name": "Belém Palace",
+   "sl": 22,
+   "file": "Palacio Belem Lisboa.JPG",
+   "lat": 38.698,
+   "lon": -9.2006,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio Nacional de Belém"
+  },
+  {
+   "id": "Q2658498",
+   "name": "Castle of Guimarães",
+   "sl": 22,
+   "file": "Castelo de Guimaraes (9).jpg",
+   "lat": 41.4478,
+   "lon": -8.2903,
+   "kind": "built",
+   "types": [
+    "castle",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castelo de Guimarães"
+  },
+  {
+   "id": "Q2448665",
+   "name": "Landscape of the Pico Island Vineyard Culture",
+   "sl": 22,
+   "file": "Landscape of the Pico Island Vineyard Culture.jpg",
+   "lat": 38.5133,
+   "lon": -28.5411,
+   "kind": "natural",
+   "types": [
+    "cultural heritage",
+    "protected landscape area",
+    "wine-producing region"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Landscape of the Pico Island vineyard culture"
+  },
+  {
+   "id": "Q1550899",
+   "name": "Ponte de D. Maria Pia",
+   "sl": 22,
+   "file": "Ponte d maria pia.jpg",
+   "lat": 41.1398,
+   "lon": -8.597,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "industrial heritage site",
+    "iron bridge",
+    "railway bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte de D. Maria Pia"
+  },
+  {
+   "id": "Q2630165",
+   "name": "Quinta da Regaleira",
+   "sl": 22,
+   "file": "Quinta da Regaleira, Sintra, Portugal, 2019-05-25, DD 69.jpg",
+   "lat": 38.7964,
+   "lon": -9.396,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "estate",
+    "museum",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3848197",
+    "name": "Cultural Landscape of Sintra"
+   },
+   "also": [],
+   "cat": "Quinta da Regaleira"
+  },
+  {
+   "id": "Q1756313",
+   "name": "Vasco da Gama Tower",
+   "sl": 22,
+   "file": "Torre Vasco da Gama (Lisboa).JPG",
+   "lat": 38.7747,
+   "lon": -9.0914,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre Vasco da Gama"
+  },
+  {
+   "id": "Q1049008",
+   "name": "Castle of the Moors",
+   "sl": 21,
+   "file": "Castelo dos Mouros. Sintra, Portugal.jpg",
+   "lat": 38.7925,
+   "lon": -9.3896,
+   "kind": "built",
+   "types": [
+    "castle",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3848197",
+    "name": "Cultural Landscape of Sintra"
+   },
+   "also": [],
+   "cat": "Castelo dos Mouros"
+  },
+  {
+   "id": "Q1371109",
+   "name": "Palácio da Bolsa",
+   "sl": 21,
+   "file": "Palacio da Bolsa (Porto).JPG",
+   "lat": 41.1414,
+   "lon": -8.6157,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "former town hall",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio da Bolsa no Porto"
+  },
+  {
+   "id": "Q1464499",
+   "name": "São Bento Palace",
+   "sl": 21,
+   "file": "Parlamento April 2009-1a.jpg",
+   "lat": 38.7125,
+   "lon": -9.1536,
+   "kind": "built",
+   "types": [
+    "building of public administration",
+    "cultural heritage",
+    "monastery",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio de São Bento"
+  },
+  {
+   "id": "Q513902",
+   "name": "Braga Cathedral",
+   "sl": 20,
+   "file": "Se Catedral de Braga.jpg",
+   "lat": 41.55,
+   "lon": -8.427,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "church archive",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sé de Braga"
+  },
+  {
+   "id": "Q1034530",
+   "name": "Capelinhos",
+   "sl": 20,
+   "file": "CapelinhosFaialAzores1.jpg",
+   "lat": 38.6013,
+   "lon": -28.8316,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capelinhos"
+  },
+  {
+   "id": "Q650037",
+   "name": "Cathedral of Évora",
+   "sl": 20,
+   "file": "Sé Évora.JPG",
+   "lat": 38.5717,
+   "lon": -7.9067,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q8343770",
+    "name": "Centro Histórico de Évora"
+   },
+   "also": [],
+   "cat": "Sé Catedral de Évora"
+  },
+  {
+   "id": "Q579250",
+   "name": "São Bento railway station",
+   "sl": 20,
+   "file": "Estação São Bento Porto.JPG",
+   "lat": 41.1454,
+   "lon": -8.6104,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "dead-end railway station",
+    "industrial heritage site",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Porto São Bento train station"
+  },
+  {
+   "id": "Q623228",
+   "name": "Águas Livres Aqueduct",
+   "sl": 19,
+   "file": "Aqueduto das Águas Livres (1).jpg",
+   "lat": 38.7267,
+   "lon": -9.1667,
+   "kind": "built",
+   "types": [
+    "aqueduct",
+    "cultural heritage",
+    "industrial heritage site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aqueduto das Águas Livres"
+  },
+  {
+   "id": "Q2781524",
+   "name": "Church of Saint Ildefonso",
+   "sl": 19,
+   "file": "Iglesia de San Ildefonso, Oporto, Portugal, 2012-05-09, DD 01.JPG",
+   "lat": 41.1463,
+   "lon": -8.6065,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Igreja de Santo Ildefonso"
+  },
+  {
+   "id": "Q1549939",
+   "name": "Church of São Francisco",
+   "sl": 19,
+   "file": "Porto - Igreja da Ordem de São Francisco1536.jpg",
+   "lat": 41.141,
+   "lon": -8.616,
+   "kind": "built",
+   "types": [
+    "church building",
+    "convent",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Igreja de São Francisco (Porto)"
+  },
+  {
+   "id": "Q1431519",
+   "name": "Horta Airport",
+   "sl": 19,
+   "file": "FAI HOR Airport CasteloBranco.JPG",
+   "lat": 38.52,
+   "lon": -28.7164,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Horta Airport (Azores)"
+  },
+  {
+   "id": "Q11257230",
+   "name": "Laurisilva of Madeira",
+   "sl": 19,
+   "file": "Laurazeen wood madeira hg.jpg",
+   "lat": 32.7667,
+   "lon": -17,
+   "kind": "",
+   "types": [
+    "cultural heritage",
+    "Laurel forest",
+    "natural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Laurisilva forests of Madeira"
+  },
+  {
+   "id": "Q3115759",
+   "name": "Lisbon Central Mosque",
+   "sl": 19,
+   "file": "Mesquita Central de Lisboa Joao Paulo Conceiçao 2.jpg",
+   "lat": 38.7355,
+   "lon": -9.1585,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mesquita Central de Lisboa"
+  },
+  {
+   "id": "Q1776168",
+   "name": "Monastery of São Vicente de Fora",
+   "sl": 19,
+   "file": "Igreja e Mosteiro de São Vicente de Fora.jpg",
+   "lat": 38.7147,
+   "lon": -9.1278,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage",
+    "monastery",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosteiro de São Vicente de Fora"
+  },
+  {
+   "id": "Q1478288",
+   "name": "Palace of Ajuda",
+   "sl": 19,
+   "file": "Palacio Ajuda Lisboa 5.JPG",
+   "lat": 38.7075,
+   "lon": -9.1978,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio Nacional da Ajuda"
+  },
+  {
+   "id": "Q1432755",
+   "name": "Santa Maria Airport",
+   "sl": 19,
+   "file": "Aerop s maria (37).jpg",
+   "lat": 36.9734,
+   "lon": -25.1653,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Maria Airport (Azores)"
+  },
+  {
+   "id": "Q1146936",
+   "name": "Teatro Nacional de São Carlos",
+   "sl": 19,
+   "file": "Teatro Nacional de São Carlos 2021-04-20.png",
+   "lat": 38.7094,
+   "lon": -9.1417,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "opera house",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teatro Nacional de São Carlos"
+  },
+  {
+   "id": "Q63378387",
+   "name": "Cabo Espichel",
+   "sl": 18,
+   "file": "Cabo Espichel, Portugal, 2012-08-18, DD 08.JPG",
+   "lat": 38.414,
+   "lon": -9.222,
+   "kind": "natural",
+   "types": [
+    "headland",
+    "Natura 2000 site",
+    "Special Protection Area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabo Espichel"
+  }
+ ]
+}

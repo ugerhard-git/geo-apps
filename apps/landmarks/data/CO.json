@@ -1,0 +1,1368 @@
+{
+ "country": "CO",
+ "items": [
+  {
+   "id": "Q233351",
+   "name": "Nevado del Ruiz",
+   "sl": 53,
+   "file": "Nevado del Ruiz 1985.jpg",
+   "lat": 4.8953,
+   "lon": -75.3225,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevado del Ruiz"
+  },
+  {
+   "id": "Q235062",
+   "name": "Galeras",
+   "sl": 45,
+   "file": "Volcán Galeras (cropped).jpg",
+   "lat": 1.2167,
+   "lon": -77.3667,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galeras"
+  },
+  {
+   "id": "Q578862",
+   "name": "Pico Cristóbal Colón",
+   "sl": 41,
+   "file": "Pico Cristobal Colon.jpg",
+   "lat": 10.8383,
+   "lon": -73.6867,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Cristóbal Colón"
+  },
+  {
+   "id": "Q201785",
+   "name": "El Dorado International Airport",
+   "sl": 40,
+   "file": "Vista aérea Aeropuerto Internacional Eldorado Bogotá (SKBO-BOG) (8204598528).jpg",
+   "lat": 4.7014,
+   "lon": -74.1469,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Dorado International Airport"
+  },
+  {
+   "id": "Q648551",
+   "name": "Nevado del Huila",
+   "sl": 39,
+   "file": "Nevado del Huila (5321495400).jpg",
+   "lat": 2.9333,
+   "lon": -76.0333,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevado del Huila"
+  },
+  {
+   "id": "Q26728",
+   "name": "Sierra Nevada de Santa Marta",
+   "sl": 37,
+   "file": "Sierra Nevada de Santa Marta desde el espacio.jpg",
+   "lat": 10.8667,
+   "lon": -73.72,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sierra Nevada de Santa Marta"
+  },
+  {
+   "id": "Q2603196",
+   "name": "Chiribiquete National Park",
+   "sl": 35,
+   "file": "Chiribiquete view.jpg",
+   "lat": 0.7006,
+   "lon": -72.8054,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Natural Chiribiquete"
+  },
+  {
+   "id": "Q2227269",
+   "name": "Las Lajas Sanctuary",
+   "sl": 33,
+   "file": "Santuario de Las Lajas, Ipiales, Colombia, 2015-07-21, DD 21-23 HDR.jpg",
+   "lat": 0.8055,
+   "lon": -77.586,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santuario de las Lajas"
+  },
+  {
+   "id": "Q3091562",
+   "name": "Mosque of Omar Ibn Al-Khattab",
+   "sl": 31,
+   "file": "Mezquita Maicao Colombia Yuri Romero Picon.JPG",
+   "lat": 11.3781,
+   "lon": -72.2344,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosques in Colombia"
+  },
+  {
+   "id": "Q179506",
+   "name": "Tierradentro",
+   "sl": 31,
+   "file": "Tombs in Tierra Dentro.jpg",
+   "lat": 2.583,
+   "lon": -76.033,
+   "kind": "built",
+   "types": [
+    "archaeological park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tierradentro"
+  },
+  {
+   "id": "Q144327",
+   "name": "Nevado del Tolima",
+   "sl": 30,
+   "file": "Nevado del tolima.jpg",
+   "lat": 4.6667,
+   "lon": -75.3333,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevado del Tolima"
+  },
+  {
+   "id": "Q2887224",
+   "name": "San Agustin archeological park",
+   "sl": 29,
+   "file": "Parque Arqueológico de San Agustín-Mesita A 12.jpg",
+   "lat": 1.8844,
+   "lon": -76.2961,
+   "kind": "built",
+   "types": [
+    "archaeological park",
+    "cultural property",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Arqueológico de San Agustín"
+  },
+  {
+   "id": "Q1109031",
+   "name": "Gold Museum",
+   "sl": 28,
+   "file": "BOG Museo del Oro.JPG",
+   "lat": 4.6019,
+   "lon": -74.072,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo del Oro, Bogotá"
+  },
+  {
+   "id": "Q1094367",
+   "name": "Ciudad Perdida",
+   "sl": 27,
+   "file": "Lost City Ruins.jpg",
+   "lat": 11.038,
+   "lon": -73.9252,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ciudad Perdida"
+  },
+  {
+   "id": "Q535161",
+   "name": "José María Córdova International Airport",
+   "sl": 27,
+   "file": "Aeropuerto JMC-Vista aerea.JPG",
+   "lat": 6.1672,
+   "lon": -75.4267,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "José María Córdova International Airport"
+  },
+  {
+   "id": "Q179027",
+   "name": "Estadio El Campín",
+   "sl": 26,
+   "file": "Estadio El Campin vacío.jpg",
+   "lat": 4.6459,
+   "lon": -74.0775,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Nemesio Camacho El Campín"
+  },
+  {
+   "id": "Q1369387",
+   "name": "Estadio Metropolitano Roberto Meléndez",
+   "sl": 26,
+   "file": "Estadio Metropolitano de Baranquilla 2011.jpg",
+   "lat": 10.9269,
+   "lon": -74.8007,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Metropolitano Roberto Meléndez"
+  },
+  {
+   "id": "Q48454",
+   "name": "Punta Gallinas",
+   "sl": 26,
+   "file": "Guajirapeninsula1.png",
+   "lat": 12.4578,
+   "lon": -71.6678,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q338790",
+   "name": "Pico Cristóbal Colón",
+   "sl": 25,
+   "file": "Pico Simon Bolivar.webp",
+   "lat": 10.8344,
+   "lon": -73.6914,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Simón Bolívar"
+  },
+  {
+   "id": "Q794264",
+   "name": "Volcán Azufral",
+   "sl": 25,
+   "file": "Azufral.jpg",
+   "lat": 1.0853,
+   "lon": -77.7188,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azufral"
+  },
+  {
+   "id": "Q637508",
+   "name": "La Guajira Desert",
+   "sl": 24,
+   "file": "La Guajira desert.jpg",
+   "lat": 12.0717,
+   "lon": -71.5978,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "VE"
+   ],
+   "cat": "La Guajira desert"
+  },
+  {
+   "id": "Q1330927",
+   "name": "Puracé",
+   "sl": 24,
+   "file": "Volcán Puracé from Popayán - 2006.jpg",
+   "lat": 2.3142,
+   "lon": -76.3942,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puracé volcano"
+  },
+  {
+   "id": "Q1225209",
+   "name": "Tayrona National Natural Park",
+   "sl": 24,
+   "file": "2019 Santa Marta - Ensenadas en el Parque nacional natural Tayrona.jpg",
+   "lat": 11.31,
+   "lon": -73.997,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Natural Tayrona"
+  },
+  {
+   "id": "Q2019666",
+   "name": "Cumbal",
+   "sl": 23,
+   "file": "Cumbal 20071102 001.jpg",
+   "lat": 0.9558,
+   "lon": -77.8833,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cumbal Volcano"
+  },
+  {
+   "id": "Q1552915",
+   "name": "Lake Guatavita",
+   "sl": 23,
+   "file": "Laguna Guatavita 06.jpg",
+   "lat": 4.9772,
+   "lon": -73.7756,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna de Guatavita"
+  },
+  {
+   "id": "Q1720776",
+   "name": "Lake Tota",
+   "sl": 23,
+   "file": "Laguna de Tota.jpg",
+   "lat": 5.55,
+   "lon": -72.9167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tota"
+  },
+  {
+   "id": "Q645151",
+   "name": "Ernesto Cortissoz International Airport",
+   "sl": 22,
+   "file": "Pista del Aeropuerto Internacional Ernesto Cortissoz - panoramio.jpg",
+   "lat": 10.8886,
+   "lon": -74.7818,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ernesto Cortissoz International Airport"
+  },
+  {
+   "id": "Q2670003",
+   "name": "Rafael Núñez International Airport",
+   "sl": 22,
+   "file": "77 - Carthagène - Décembre 2008.JPG",
+   "lat": 10.442,
+   "lon": -75.5128,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rafael Núñez International Airport"
+  },
+  {
+   "id": "Q1369545",
+   "name": "Estadio Olímpico Pascual Guerrero",
+   "sl": 21,
+   "file": "Pascual Guerrero Stadium.jpg",
+   "lat": 3.4299,
+   "lon": -76.5411,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Olímpico Pascual Guerrero"
+  },
+  {
+   "id": "Q2732053",
+   "name": "Gustavo Rojas Pinilla International Airport",
+   "sl": 21,
+   "file": "El Aeropuerto Internacional Gustavo Rojas Pinilla.JPG",
+   "lat": 12.5836,
+   "lon": -81.7111,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gustavo Rojas Pinilla Airport"
+  },
+  {
+   "id": "Q2648857",
+   "name": "Ritacuba Blanco",
+   "sl": 21,
+   "file": "Sierra Nevada del Cocuy Ritacuba Blanco 23.01.2009.jpg",
+   "lat": 6.4942,
+   "lon": -72.2975,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ritacuba Blanco"
+  },
+  {
+   "id": "Q2308547",
+   "name": "Alfonso Bonilla Aragón International Airport",
+   "sl": 20,
+   "file": "Terminal de pasajeros del aeropuerto Alfonso Bonilla Aragon.JPG",
+   "lat": 3.5431,
+   "lon": -76.3814,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alfonso Bonilla Aragón International Airport"
+  },
+  {
+   "id": "Q1094889",
+   "name": "Los Nevados National Natural Park",
+   "sl": 20,
+   "file": "Losnevados.jpg",
+   "lat": 4.8,
+   "lon": -75.3667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Natural de los Nevados"
+  },
+  {
+   "id": "Q381688",
+   "name": "Matecaña International Airport",
+   "sl": 20,
+   "file": "Aeropuerto Matecaña.jpg",
+   "lat": 4.8125,
+   "lon": -75.7394,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matecaña International Airport"
+  },
+  {
+   "id": "Q152073",
+   "name": "Monserrate",
+   "sl": 20,
+   "file": "2017 Bogotá Basílica del Señor Caído de Monserrate.jpg",
+   "lat": 4.6058,
+   "lon": -74.0564,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monserrate"
+  },
+  {
+   "id": "Q2942872",
+   "name": "Primary Cathedral of Bogotá",
+   "sl": 20,
+   "file": "2021 Bogotá - Catedral Primada de Colombia.jpg",
+   "lat": 4.598,
+   "lon": -74.0752,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Primate Cathedral of Bogota"
+  },
+  {
+   "id": "Q2674281",
+   "name": "Bucaramanga-Palonegro International Airport",
+   "sl": 19,
+   "file": "Bucaramanga Palonegro Airport approach PAOC.jpg",
+   "lat": 7.1264,
+   "lon": -73.1847,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palonegro Airport"
+  },
+  {
+   "id": "Q2670829",
+   "name": "El Edén International Airport",
+   "sl": 19,
+   "file": "Aeropuertoeleden.jpg",
+   "lat": 4.4525,
+   "lon": -75.7664,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Edén International Airport"
+  },
+  {
+   "id": "Q2244727",
+   "name": "El Peñón de Guatapé",
+   "sl": 19,
+   "file": "Elpenolantioquia.JPG",
+   "lat": 6.2195,
+   "lon": -75.1792,
+   "kind": "natural",
+   "types": [
+    "inselberg",
+    "pluton"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piedra del Peñol"
+  },
+  {
+   "id": "Q54793",
+   "name": "Estadio Deportivo Cali",
+   "sl": 19,
+   "file": "Estadio Deportivo Cali1.jpg",
+   "lat": 3.5216,
+   "lon": -76.417,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Deportivo Cali"
+  },
+  {
+   "id": "Q490295",
+   "name": "Tequendama Falls",
+   "sl": 19,
+   "file": "Tequendamasaltobta.jpg",
+   "lat": 4.5749,
+   "lon": -74.2934,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salto del Tequendama"
+  },
+  {
+   "id": "Q2670008",
+   "name": "Cúcuta-Camilo Daza",
+   "sl": 18,
+   "file": "2019 Aeropuerto Camilo Daza de Cúcuta.jpg",
+   "lat": 7.9275,
+   "lon": -72.5117,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Camilo Daza International Airport"
+  },
+  {
+   "id": "Q6156079",
+   "name": "Estadio Atanasio Girardot",
+   "sl": 18,
+   "file": "Atanasio Girardot-Atlético Nacional-Fortaleza.jpg",
+   "lat": 6.2568,
+   "lon": -75.5902,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Atanasio Girardot"
+  },
+  {
+   "id": "Q2565876",
+   "name": "Salt Cathedral of Zipaquirá",
+   "sl": 18,
+   "file": "Catedral de Sal 02.jpg",
+   "lat": 5.0188,
+   "lon": -74.0093,
+   "kind": "built",
+   "types": [
+    "cave church",
+    "mine",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Sal"
+  },
+  {
+   "id": "Q2956713",
+   "name": "Santa Isabel",
+   "sl": 18,
+   "file": "Vista Panorámica del Nevado Santa Isabel.JPG",
+   "lat": 4.8167,
+   "lon": -75.3667,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "shield volcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevado de Santa Isabel"
+  },
+  {
+   "id": "Q3120855",
+   "name": "Torre Colpatria",
+   "sl": 18,
+   "file": "Vista aérea Bogotá - 15 - Torre Colpatria.jpg",
+   "lat": 4.6108,
+   "lon": -74.0703,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre Colpatria"
+  },
+  {
+   "id": "Q432334",
+   "name": "Alfredo Vásquez Cobo International Airport",
+   "sl": 17,
+   "file": "Alfredo Vásquez Cobo International Airport.jpg",
+   "lat": -4.1933,
+   "lon": -69.9431,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1024910",
+   "name": "Cabo de la Vela",
+   "sl": 17,
+   "file": "CABO DE LA VELA.JPG",
+   "lat": 12.22,
+   "lon": -72.15,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabo de la Vela"
+  },
+  {
+   "id": "Q2648864",
+   "name": "Chiles volcano",
+   "sl": 17,
+   "file": "Nevado Chiles 465.JPG",
+   "lat": 0.8211,
+   "lon": -77.935,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EC"
+   ],
+   "cat": "Chiles volcano"
+  },
+  {
+   "id": "Q1068068",
+   "name": "El Cocuy National Park",
+   "sl": 17,
+   "file": "Pico Pan de Azucar.JPG",
+   "lat": 6.4944,
+   "lon": -72.2977,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "hill",
+    "mountain range",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sierra Nevada El Cocuy ó Güicán"
+  },
+  {
+   "id": "Q2876055",
+   "name": "Simón Bolívar International Airport",
+   "sl": 17,
+   "file": "2018 Santa Marta - Pista de aterizaje del Aeropuerto Simón Bolívar.jpg",
+   "lat": 11.1194,
+   "lon": -74.2306,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Simón Bolívar International Airport, Santa Marta"
+  },
+  {
+   "id": "Q1817955",
+   "name": "Amacayacu National Park",
+   "sl": 16,
+   "file": "Riverguama1.jpg",
+   "lat": -3.4833,
+   "lon": -70.2,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amacayacu National Park"
+  },
+  {
+   "id": "Q981287",
+   "name": "Antonio Nariño Airport",
+   "sl": 16,
+   "file": "Antonio Nariño Airport.jpg",
+   "lat": 1.3961,
+   "lon": -77.2914,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antonio Nariño Airport"
+  },
+  {
+   "id": "Q3082696",
+   "name": "Bogota savanna",
+   "sl": 16,
+   "file": "SabanaBogota.jpg",
+   "lat": 5.1963,
+   "lon": -73.9586,
+   "kind": "natural",
+   "types": [
+    "highland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q965776",
+   "name": "Cocora Valley",
+   "sl": 16,
+   "file": "Valle del cocora - general view.jpg",
+   "lat": 4.6369,
+   "lon": -75.4865,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valle de Cocora"
+  },
+  {
+   "id": "Q671264",
+   "name": "Colombian National Museum",
+   "sl": 16,
+   "file": "Entrada Principal del Museo Nacional de Colombia.jpg",
+   "lat": 4.6155,
+   "lon": -74.0683,
+   "kind": "built",
+   "types": [
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo Nacional de Colombia"
+  },
+  {
+   "id": "Q26546",
+   "name": "Doña Juana",
+   "sl": 16,
+   "file": "CV Dona Juana.jpg",
+   "lat": 1.4708,
+   "lon": -76.9249,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doña Juana (volcano)"
+  },
+  {
+   "id": "Q1619360",
+   "name": "La Catedral",
+   "sl": 16,
+   "file": "Guard house at La Catedral, Medellin.jpg",
+   "lat": 6.1178,
+   "lon": -75.585,
+   "kind": "built",
+   "types": [
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Catedral"
+  },
+  {
+   "id": "Q2648183",
+   "name": "Nevado del Quindío",
+   "sl": 16,
+   "file": "Nevado del Quindío, Colombia.jpg",
+   "lat": 4.7156,
+   "lon": -75.3883,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3090480",
+   "name": "Plaza de Bolívar",
+   "sl": 16,
+   "file": "Plaza de Bolívar en Bogotá (Colombia).jpg",
+   "lat": 4.5981,
+   "lon": -74.0758,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza de Bolívar"
+  },
+  {
+   "id": "Q2108921",
+   "name": "Sotará",
+   "sl": 16,
+   "file": "Vocan sotara.jpg",
+   "lat": 2.1081,
+   "lon": -76.5919,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sotará (volcano)"
+  },
+  {
+   "id": "Q2940775",
+   "name": "Casa de Nariño",
+   "sl": 15,
+   "file": "Casa-narino-1-fachada.jpg",
+   "lat": 4.5956,
+   "lon": -74.0775,
+   "kind": "built",
+   "types": [
+    "official residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casa de Nariño"
+  },
+  {
+   "id": "Q91110",
+   "name": "Castillo de San Felipe de Barajas",
+   "sl": 15,
+   "file": "Colombia, Cartagena, Castillo de San Felipe de Barajas.jpg",
+   "lat": 10.4222,
+   "lon": -75.5381,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6091925",
+    "name": "Port, Fortresses and Group of Monuments, Cartagena"
+   },
+   "also": [],
+   "cat": "Castillo de San Felipe de Barajas"
+  },
+  {
+   "id": "Q1369239",
+   "name": "Estadio Hernán Ramírez Villegas",
+   "sl": 15,
+   "file": "Q 079.JPG",
+   "lat": 4.8048,
+   "lon": -75.7522,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Hernán Ramírez Villegas"
+  },
+  {
+   "id": "Q6465644",
+   "name": "La Vanguardia Airport",
+   "sl": 15,
+   "file": "Aeropuerto Vanguardia, Villavicencio - panoramio (1).jpg",
+   "lat": 4.1683,
+   "lon": -73.6144,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vanguardia Airport"
+  },
+  {
+   "id": "Q2232548",
+   "name": "Los Garzones Airport",
+   "sl": 15,
+   "file": "Fachada Aeropuerto Los Garzones.jpg",
+   "lat": 8.8236,
+   "lon": -75.8258,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Los Garzones Airport"
+  },
+  {
+   "id": "Q1517478",
+   "name": "Pontifical Xavierian University",
+   "sl": 15,
+   "file": "Extremo Suroccidental ce la Javeriana cut.png",
+   "lat": 4.6289,
+   "lon": -74.0649,
+   "kind": "built",
+   "types": [
+    "Catholic university",
+    "Jesuit university",
+    "open-access publisher",
+    "pontifical university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Universidad Javeriana"
+  },
+  {
+   "id": "Q2982230",
+   "name": "Puracé National Natural Park",
+   "sl": 15,
+   "file": "Zona Purace.jpg",
+   "lat": 2.2,
+   "lon": -76.35,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puracé National Natural Park"
+  },
+  {
+   "id": "Q3498820",
+   "name": "Antonio Roldán Betancourt Airport",
+   "sl": 14,
+   "file": "Carepa Aeropuerto.JPG",
+   "lat": 7.8112,
+   "lon": -76.7134,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antonio Roldán Betancourt Airport"
+  },
+  {
+   "id": "Q3329100",
+   "name": "Botero Museum",
+   "sl": 14,
+   "file": "Museo Botero, Boteromuseum 03.jpg",
+   "lat": 4.5967,
+   "lon": -74.0734,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo Botero"
+  },
+  {
+   "id": "Q590920",
+   "name": "Cerro Bravo",
+   "sl": 14,
+   "file": "Cerro Bravo.jpg",
+   "lat": 5.0892,
+   "lon": -75.2922,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Bravo"
+  },
+  {
+   "id": "Q3051411",
+   "name": "Ciénaga Grande de Santa Marta",
+   "sl": 14,
+   "file": "Cienaga Grande de Santa Marta.jpg",
+   "lat": 10.8667,
+   "lon": -74.4167,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ciénaga Grande de Santa Marta"
+  },
+  {
+   "id": "Q943259",
+   "name": "Estadio Palogrande",
+   "sl": 14,
+   "file": "Estadio Palogrande vista aérea.jpg",
+   "lat": 5.0562,
+   "lon": -75.4898,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Palogrande"
+  },
+  {
+   "id": "Q1977854",
+   "name": "La Florida Airport",
+   "sl": 14,
+   "file": "La Florida.JPG",
+   "lat": 1.8146,
+   "lon": -78.7492,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Florida Airport, Colombia"
+  },
+  {
+   "id": "Q2734155",
+   "name": "Lake Otún",
+   "sl": 14,
+   "file": "Laguna del Otún.jpg",
+   "lat": 4.7758,
+   "lon": -75.4147,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Otún"
+  },
+  {
+   "id": "Q1050597",
+   "name": "Metropolitan Cathedral of Medellín",
+   "sl": 14,
+   "file": "Fachada completa - C. de Medellín.jpg",
+   "lat": 6.254,
+   "lon": -75.5639,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral Metropolitana de Medellín"
+  },
+  {
+   "id": "Q2491597",
+   "name": "Romeral",
+   "sl": 14,
+   "file": "Volcán Romeral.jpg",
+   "lat": 5.206,
+   "lon": -75.364,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1936968",
+   "name": "Alcides Fernández Airport",
+   "sl": 13,
+   "file": "Vista aerea de Acandi.jpg",
+   "lat": 8.4981,
+   "lon": -77.2739,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alcides Fernández Airport"
+  },
+  {
+   "id": "Q619873",
+   "name": "Benito Salas Airport",
+   "sl": 13,
+   "file": "Aeropuerto Benito Salas.jpg",
+   "lat": 2.95,
+   "lon": -75.2939,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2629521",
+   "name": "El Abra",
+   "sl": 13,
+   "file": "Petroglyph of El Abra.jpg",
+   "lat": 5.0174,
+   "lon": -73.9512,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zona Arqueológica de Zipaquirá"
+  }
+ ]
+}

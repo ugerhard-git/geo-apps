@@ -1,0 +1,405 @@
+{
+ "country": "CI",
+ "items": [
+  {
+   "id": "Q501344",
+   "name": "Comoé National Park",
+   "sl": 59,
+   "file": "NationalparkComoe4.jpg",
+   "lat": 8.8225,
+   "lon": -3.5906,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Comoé National Park"
+  },
+  {
+   "id": "Q328577",
+   "name": "Taï National Park",
+   "sl": 52,
+   "file": "Taï National Park (24148248710).jpg",
+   "lat": 5.75,
+   "lon": -7.12,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Taï National Park"
+  },
+  {
+   "id": "Q924276",
+   "name": "Mount Nimba Strict Nature Reserve",
+   "sl": 48,
+   "file": "Mount Nimba Strict Nature Reserve-123989.jpg",
+   "lat": 7.603,
+   "lon": -8.391,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "strict nature reserve",
+    "transboundary protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "GN"
+   ],
+   "cat": "Mount Nimba Strict Nature Reserve"
+  },
+  {
+   "id": "Q815584",
+   "name": "Basilica of Our Lady of Peace of Yamoussoukro",
+   "sl": 47,
+   "file": "Basilique notre Dame de la Paix de Yamoussoukro 16.jpg",
+   "lat": 6.8111,
+   "lon": -5.2969,
+   "kind": "built",
+   "types": [
+    "Catholic church building",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilique de Notre Dame de la Paix"
+  },
+  {
+   "id": "Q849129",
+   "name": "Mount Richard-Molard",
+   "sl": 37,
+   "file": "Mont Nimba 01.jpg",
+   "lat": 7.6226,
+   "lon": -8.4081,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GN"
+   ],
+   "cat": "Mont Nimba"
+  },
+  {
+   "id": "Q1165280",
+   "name": "Port Bouet Airport",
+   "sl": 34,
+   "file": "Felix HOUPHOUET-BOIGNY INT. AIRPORT. ABIDJAN - panoramio.jpg",
+   "lat": 5.2614,
+   "lon": -3.9258,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Félix Houphouët-Boigny International Airport"
+  },
+  {
+   "id": "Q1999706",
+   "name": "Felix Houphouet Boigny Stadium",
+   "sl": 25,
+   "file": "StadeFHB.jpg",
+   "lat": 5.3283,
+   "lon": -4.0184,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Félix Houphouët-Boigny"
+  },
+  {
+   "id": "Q267679",
+   "name": "Lake Kossou",
+   "sl": 22,
+   "file": "Fishers boats on Lake Kossou near Kousso in Côte d'Ivoire (3).JPG",
+   "lat": 7.15,
+   "lon": -5.59,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Kossou"
+  },
+  {
+   "id": "Q28404333",
+   "name": "Alassane Ouattara Stadium",
+   "sl": 20,
+   "file": "Stade Alassane Ouattara d'Ebimpé 3.jpg",
+   "lat": 5.4807,
+   "lon": -4.0746,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alassane Ouattara Stadium"
+  },
+  {
+   "id": "Q843524",
+   "name": "Kossou Dam",
+   "sl": 18,
+   "file": "Kossou dam view from the lake.JPG",
+   "lat": 7.0311,
+   "lon": -5.4733,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kossou dam"
+  },
+  {
+   "id": "Q2519198",
+   "name": "Bouaké Airport",
+   "sl": 16,
+   "file": "Aéroport de Bouaké.jpg",
+   "lat": 7.7389,
+   "lon": -5.0736,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aéroport de Bouaké"
+  },
+  {
+   "id": "Q273288",
+   "name": "Ébrié Lagoon",
+   "sl": 16,
+   "file": "Abidjan des Lagune.jpg",
+   "lat": 5.2719,
+   "lon": -4.3392,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ébrié Lagoon"
+  },
+  {
+   "id": "Q1858100",
+   "name": "Banco National Park",
+   "sl": 15,
+   "file": "Forêt du banco ( Côte d'Ivoire ).jpg",
+   "lat": 5.3945,
+   "lon": -4.052,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banco National Park"
+  },
+  {
+   "id": "Q65725484",
+   "name": "Sudanese style mosques in northern Côte d'Ivoire",
+   "sl": 15,
+   "file": "Kong3.jpg",
+   "lat": 10.4903,
+   "lon": -6.4102,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosques in Ivory Coast"
+  },
+  {
+   "id": "Q48783549",
+   "name": "Charles Konan Banny Stadium",
+   "sl": 14,
+   "file": "Le stade de Yamoussoukro(Bosson).jpg",
+   "lat": 6.8286,
+   "lon": -5.2464,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Charles-Konan-Banny"
+  },
+  {
+   "id": "Q48965473",
+   "name": "Laurent Pokou Stadium",
+   "sl": 13,
+   "file": "Stade de San-Pédro (Bosson).jpg",
+   "lat": 4.8169,
+   "lon": -6.6294,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Laurent Pokou"
+  },
+  {
+   "id": "Q2749744",
+   "name": "Îles Ehotilés National Park",
+   "sl": 12,
+   "file": "Parc National des Iles Ehotilé .jpg",
+   "lat": 5.177,
+   "lon": -3.229,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Îles Ehotilé National Park"
+  },
+  {
+   "id": "Q1668658",
+   "name": "Marahoué National Park",
+   "sl": 11,
+   "file": "Le fleuve Bandama à Zuénoula en 2023 03.jpg",
+   "lat": 7.1,
+   "lon": -6.025,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q23091694",
+   "name": "Canal de Vridi",
+   "sl": 10,
+   "file": "Vue du Canal de Vridi depuis Port-Bouet.jpg",
+   "lat": 5.2482,
+   "lon": -4.0032,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canal de Vridi"
+  },
+  {
+   "id": "Q781453",
+   "name": "Stade Robert Champroux",
+   "sl": 10,
+   "file": "Stade R.Champroux marcory.PNG",
+   "lat": 5.3053,
+   "lon": -3.9924,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3398423",
+   "name": "Autonomous Port of Abidjan",
+   "sl": 9,
+   "file": "Abidjan port warehouses Cote d'Ivoire.jpg",
+   "lat": 5.2836,
+   "lon": -4.0178,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Abidjan"
+  },
+  {
+   "id": "Q2441417",
+   "name": "St. Paul's Cathedral",
+   "sl": 9,
+   "file": "StPaulusAbidjanOverview.jpg",
+   "lat": 5.3329,
+   "lon": -4.0201,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abidjan Cathedral"
+  },
+  {
+   "id": "Q7672797",
+   "name": "Taabo Dam",
+   "sl": 9,
+   "file": "ISS034-E-34701 - View of Côte d'Ivoire.jpg",
+   "lat": 6.2104,
+   "lon": -5.084,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3216284",
+   "name": "Aby Lagoon",
+   "sl": 8,
+   "file": "Lagune Aby.JPG",
+   "lat": 5.2794,
+   "lon": -3.2247,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lagune Aby"
+  }
+ ]
+}

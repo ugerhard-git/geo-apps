@@ -1,0 +1,54 @@
+{
+ "country": "BM",
+ "items": [
+  {
+   "id": "Q1797758",
+   "name": "L.F. Wade International Airport",
+   "sl": 23,
+   "file": "BDA aerial.jpg",
+   "lat": 32.3642,
+   "lon": -64.6786,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3304574",
+   "name": "Crystal Cave",
+   "sl": 9,
+   "file": "Crystal Cave Bermuda 1.jpg",
+   "lat": 32.3419,
+   "lon": -64.7281,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Crystal Cave, Bermuda"
+  },
+  {
+   "id": "Q1983313",
+   "name": "Cathedral of the Most Holy Trinity",
+   "sl": 8,
+   "file": "Cathedral in Hamilton, Bermuda.jpg",
+   "lat": 32.2945,
+   "lon": -64.7833,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of the Most Holy Trinity"
+  }
+ ]
+}

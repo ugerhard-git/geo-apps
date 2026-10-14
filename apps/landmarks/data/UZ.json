@@ -1,0 +1,1373 @@
+{
+ "country": "UZ",
+ "items": [
+  {
+   "id": "Q35883",
+   "name": "Aral Sea",
+   "sl": 140,
+   "file": "Aral Sea 1989-2008.jpg",
+   "lat": 45,
+   "lon": 60,
+   "kind": "natural",
+   "types": [
+    "former lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KZ"
+   ],
+   "cat": "Aral Sea"
+  },
+  {
+   "id": "Q486324",
+   "name": "Ferghana Valley",
+   "sl": 75,
+   "file": "Ferganadall (Satellitebild).jpg",
+   "lat": 40.9008,
+   "lon": 71.7578,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG",
+    "TJ"
+   ],
+   "cat": "Fergana Valley"
+  },
+  {
+   "id": "Q184364",
+   "name": "Kyzyl Kum",
+   "sl": 73,
+   "file": "Dzhangeldy Uzbekistan 2008.JPG",
+   "lat": 42.4411,
+   "lon": 63.4614,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KZ",
+    "TM"
+   ],
+   "cat": "Kyzyl Kum"
+  },
+  {
+   "id": "Q1373583",
+   "name": "Registan",
+   "sl": 56,
+   "file": "Registan 01.jpg",
+   "lat": 39.6547,
+   "lon": 66.9756,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "fixed construction",
+    "square"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17255582",
+    "name": "Samarkand – Crossroad of Cultures"
+   },
+   "also": [],
+   "cat": "Registan"
+  },
+  {
+   "id": "Q280158",
+   "name": "Aralkum",
+   "sl": 47,
+   "file": "Aral Sea.gif",
+   "lat": 45,
+   "lon": 60.5,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KZ"
+   ],
+   "cat": "Aral Kum"
+  },
+  {
+   "id": "Q1256223",
+   "name": "Gur-e Amir",
+   "sl": 47,
+   "file": "Вечерний Гур-Эмир.jpg",
+   "lat": 39.6483,
+   "lon": 66.9689,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17255582",
+    "name": "Samarkand – Crossroad of Cultures"
+   },
+   "also": [],
+   "cat": "Gur-e Amir"
+  },
+  {
+   "id": "Q257416",
+   "name": "Sarygamysh Lake",
+   "sl": 46,
+   "file": "Sarykamysh02.jpg",
+   "lat": 42,
+   "lon": 57.3333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TM"
+   ],
+   "cat": "Sarygamysh Lake"
+  },
+  {
+   "id": "Q860952",
+   "name": "Tashkent International Airport",
+   "sl": 46,
+   "file": "Tashkent Airport Wallner.jpg",
+   "lat": 41.2579,
+   "lon": 69.2812,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tashkent International Airport"
+  },
+  {
+   "id": "Q679218",
+   "name": "Bibi-Khanym Mosque",
+   "sl": 43,
+   "file": "Bibi-Khanym Mosque (8145400614).jpg",
+   "lat": 39.6606,
+   "lon": 66.9797,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bibi-Khanym Mosque"
+  },
+  {
+   "id": "Q608580",
+   "name": "Ulugh Beg Observatory",
+   "sl": 38,
+   "file": "Обсерватория Улугбека, Самарканд (Ulugh Beg Observatory, Samarkand).jpg",
+   "lat": 39.6747,
+   "lon": 67.0056,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17255582",
+    "name": "Samarkand – Crossroad of Cultures"
+   },
+   "also": [],
+   "cat": "Ulugh Beg Observatory"
+  },
+  {
+   "id": "Q280771",
+   "name": "Aydar Lake",
+   "sl": 36,
+   "file": "Aidar-Kul.JPG",
+   "lat": 40.9167,
+   "lon": 66.75,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aydar Lake"
+  },
+  {
+   "id": "Q4294007",
+   "name": "Kalyan Minaret",
+   "sl": 32,
+   "file": "Kalyan Minaret, Bukhara (Минарет Калян в Бухаре, Minorai Kalon).jpg",
+   "lat": 39.7757,
+   "lon": 64.415,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "minaret"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalyan minaret"
+  },
+  {
+   "id": "Q1268850",
+   "name": "Samanid Mausoleum",
+   "sl": 32,
+   "file": "Samanid mausoleum bukhara.jpg",
+   "lat": 39.777,
+   "lon": 64.4006,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samanid Mausoleum"
+  },
+  {
+   "id": "Q671935",
+   "name": "Shah-i-Zinda",
+   "sl": 31,
+   "file": "Shah-i-Zinda.jpg",
+   "lat": 39.6626,
+   "lon": 66.9879,
+   "kind": "built",
+   "types": [
+    "necropolis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17255582",
+    "name": "Samarkand – Crossroad of Cultures"
+   },
+   "also": [],
+   "cat": "Shah-i-Zinda"
+  },
+  {
+   "id": "Q868874",
+   "name": "Tashkent Tower",
+   "sl": 30,
+   "file": "Toshkent teleminorasi.jpg",
+   "lat": 41.3456,
+   "lon": 69.2846,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tashkent TV tower"
+  },
+  {
+   "id": "Q2817374",
+   "name": "Bunyodkor Stadium",
+   "sl": 27,
+   "file": "National Stadium (Uzbekistan), Uzbekistan-Qatar, 10 June 2025.jpg",
+   "lat": 41.2797,
+   "lon": 69.2125,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Milliy Stadium"
+  },
+  {
+   "id": "Q976746",
+   "name": "Samarkand International Airport",
+   "sl": 27,
+   "file": "Аеродром Самарканд у свитање.jpg",
+   "lat": 39.7006,
+   "lon": 66.9839,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samarkand International Airport"
+  },
+  {
+   "id": "Q1421131",
+   "name": "Pakhtakor Markaziy Stadium",
+   "sl": 26,
+   "file": "Pakhtakor Markaziy Stadium.jpg",
+   "lat": 41.3155,
+   "lon": 69.2602,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pakhtakor Central Stadium"
+  },
+  {
+   "id": "Q276776",
+   "name": "South Aral Sea",
+   "sl": 26,
+   "file": "Aralsea tmo 2014231 lrg.jpg",
+   "lat": 45,
+   "lon": 58.5,
+   "kind": "natural",
+   "types": [
+    "former lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KZ"
+   ],
+   "cat": "Aral Sea"
+  },
+  {
+   "id": "Q4069358",
+   "name": "Ark of Bukhara",
+   "sl": 25,
+   "file": "Ark Citadel.jpg",
+   "lat": 39.7778,
+   "lon": 64.4103,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ark Fortress in Bukhara"
+  },
+  {
+   "id": "Q509824",
+   "name": "Afghanistan–Uzbekistan Friendship Bridge",
+   "sl": 24,
+   "file": "The friendship bridge connects Mangusar, Uzbekistan and Hariatan, Afghanistan.jpg",
+   "lat": 37.2278,
+   "lon": 67.4282,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "railway bridge",
+    "road bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AF"
+   ],
+   "cat": "Afghanistan–Uzbekistan Friendship Bridge"
+  },
+  {
+   "id": "Q2167520",
+   "name": "Afrasiyab",
+   "sl": 24,
+   "file": "Afrasiab - details from The Ambassadors' Painting.JPG",
+   "lat": 39.6713,
+   "lon": 66.9877,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17255582",
+    "name": "Samarkand – Crossroad of Cultures"
+   },
+   "also": [],
+   "cat": "Afrasiyab (Samarkand)"
+  },
+  {
+   "id": "Q978200",
+   "name": "Bukhara International Airport",
+   "sl": 24,
+   "file": "Здание аэровокзала Бухары, вид с со стороны аэродрома.jpg",
+   "lat": 39.775,
+   "lon": 64.4833,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bukhara Airport"
+  },
+  {
+   "id": "Q4368936",
+   "name": "Po-i-Kalyan",
+   "sl": 24,
+   "file": "Poi Kalon.jpg",
+   "lat": 39.776,
+   "lon": 64.4142,
+   "kind": "built",
+   "types": [
+    "structure of worship"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Po-i-Kalyan"
+  },
+  {
+   "id": "Q1679526",
+   "name": "Teshik-Tash",
+   "sl": 24,
+   "file": "Skull of Teshik-Tash Boy.jpg",
+   "lat": 37.966,
+   "lon": 67.1565,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teshik-Tash"
+  },
+  {
+   "id": "Q492144",
+   "name": "Ulugh Beg Madrasa",
+   "sl": 24,
+   "file": "Ulugh-beg Madrassa courtyard.JPG",
+   "lat": 39.6547,
+   "lon": 66.9747,
+   "kind": "built",
+   "types": [
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulugh Beg Madrasa"
+  },
+  {
+   "id": "Q493304",
+   "name": "Kukeldash Madrasah",
+   "sl": 22,
+   "file": "Kukeldash Madrassah side view.jpg",
+   "lat": 41.3233,
+   "lon": 69.2361,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kukeldash Madrasah (Tashkent)"
+  },
+  {
+   "id": "Q1280576",
+   "name": "Talas Alatau",
+   "sl": 22,
+   "file": "Aksu Jabgly 3.JPG",
+   "lat": 42.3089,
+   "lon": 71.0272,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG",
+    "KZ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q597055",
+   "name": "Nukus Museum of Art",
+   "sl": 21,
+   "file": "The Karakalpakstan State Museum of Art named after I.V. Savitsky.jpg",
+   "lat": 42.4656,
+   "lon": 59.6136,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nukus Museum of Art"
+  },
+  {
+   "id": "Q2443559",
+   "name": "Toprak-kala",
+   "sl": 21,
+   "file": "Toprak-Kala 01.jpg",
+   "lat": 41.9286,
+   "lon": 60.8208,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toprak Kala"
+  },
+  {
+   "id": "Q4120971",
+   "name": "Amir Timur Museum",
+   "sl": 20,
+   "file": "Amir Temur Muzeyi.jpg",
+   "lat": 41.3136,
+   "lon": 69.279,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "building",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amir Timur Museum"
+  },
+  {
+   "id": "Q2278212",
+   "name": "Sherdar Madrasa",
+   "sl": 20,
+   "file": "Samarkand, Registan, Sher Dor Medressa (6237690265).jpg",
+   "lat": 39.6549,
+   "lon": 66.9763,
+   "kind": "built",
+   "types": [
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sherdar Madrasa"
+  },
+  {
+   "id": "Q1713936",
+   "name": "Tilakari Madrasa",
+   "sl": 20,
+   "file": "Tilya-Kori Madrasa 01.jpg",
+   "lat": 39.6558,
+   "lon": 66.9751,
+   "kind": "built",
+   "types": [
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tilakari Madrasa"
+  },
+  {
+   "id": "Q13409233",
+   "name": "Chorsu Bazaar",
+   "sl": 19,
+   "file": "Chorsu Market general view.jpg",
+   "lat": 41.3267,
+   "lon": 69.235,
+   "kind": "built",
+   "types": [
+    "bazaar"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chorsu Bazaar"
+  },
+  {
+   "id": "Q975965",
+   "name": "Urgench International Airport",
+   "sl": 19,
+   "file": "URGairport1.jpg",
+   "lat": 41.5842,
+   "lon": 60.6417,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Urgench International Airport"
+  },
+  {
+   "id": "Q2335733",
+   "name": "Zaamin National Park",
+   "sl": 19,
+   "file": "Zaamin National Park Entrance, Uzbekistan.jpg",
+   "lat": 39.613,
+   "lon": 68.501,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zaamin national park"
+  },
+  {
+   "id": "Q4273754",
+   "name": "Bahoutdin Architectural Complex",
+   "sl": 18,
+   "file": "Bakha ad Din2.JPG",
+   "lat": 39.8008,
+   "lon": 64.5364,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bahaouddin Naqshbandi mausoleum"
+  },
+  {
+   "id": "Q930671",
+   "name": "Charvak Lake",
+   "sl": 18,
+   "file": "Chorvoq Staumauer.JPG",
+   "lat": 41.6375,
+   "lon": 70.0333,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Charvak Reservoir"
+  },
+  {
+   "id": "Q1649236",
+   "name": "Chor-Bakr",
+   "sl": 18,
+   "file": "Chor Bakr 03.jpg",
+   "lat": 39.7744,
+   "lon": 64.3344,
+   "kind": "built",
+   "types": [
+    "necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chor-Bakr Mausoleum"
+  },
+  {
+   "id": "Q547124",
+   "name": "Fergana International Airport",
+   "sl": 18,
+   "file": "FerganaAirport.jpg",
+   "lat": 40.3589,
+   "lon": 71.745,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fergana Airport"
+  },
+  {
+   "id": "Q3354568",
+   "name": "Navoi Theater",
+   "sl": 18,
+   "file": "Theatre Alisher Navoi.JPG",
+   "lat": 41.3092,
+   "lon": 69.2717,
+   "kind": "built",
+   "types": [
+    "opera house",
+    "theatre company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alisher Navoi Opera and Ballet Theatre"
+  },
+  {
+   "id": "Q122666385",
+   "name": "Silk Roads: Zarafshan-Karakum Corridor",
+   "sl": 18,
+   "file": "Rabat Malik 12-50.JPG",
+   "lat": 39.4415,
+   "lon": 69.6856,
+   "kind": "natural",
+   "types": [
+    "transboundary site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "TJ",
+    "TM"
+   ],
+   "cat": "Silk Roads: Zarafshan-Karakum Corridor"
+  },
+  {
+   "id": "Q10988029",
+   "name": "Ulugh beg Madrassah",
+   "sl": 18,
+   "file": "Бухара, медресе Улугбека (2).jpg",
+   "lat": 39.7767,
+   "lon": 64.4175,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulugh Beg madrasa (Bukhara)"
+  },
+  {
+   "id": "Q4306302",
+   "name": "Afrasiab Museum of Samarkand",
+   "sl": 17,
+   "file": "Afrasiab Museum of Samarkand.jpg",
+   "lat": 39.6693,
+   "lon": 66.9934,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Afrosiyob Museum"
+  },
+  {
+   "id": "Q2828887",
+   "name": "Ak-Saray Palace",
+   "sl": 17,
+   "file": "Shakhrisabz Aksarai.jpg",
+   "lat": 39.0608,
+   "lon": 66.8295,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ak Sarai (Shahrisabz)"
+  },
+  {
+   "id": "Q978217",
+   "name": "Andizhan Airport",
+   "sl": 17,
+   "file": "Aeraport.jpg",
+   "lat": 40.7278,
+   "lon": 72.2939,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4273796",
+   "name": "Chashma-Ayub Mausoleum",
+   "sl": 17,
+   "file": "Chashma-Ayub Mausoleum outside view 2.JPG",
+   "lat": 39.7783,
+   "lon": 64.4023,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chashma-Ayub Mausoleum"
+  },
+  {
+   "id": "Q4517198",
+   "name": "Chor Minor",
+   "sl": 17,
+   "file": "Бухара, медресе Чор Минор (1).jpg",
+   "lat": 39.7748,
+   "lon": 64.4274,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chor Minor"
+  },
+  {
+   "id": "Q2749807",
+   "name": "Great Farg'ona Canal",
+   "sl": 17,
+   "file": "Great Fergana Canal near Andijan.jpg",
+   "lat": 40.2,
+   "lon": 69.9,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG",
+    "TJ"
+   ],
+   "cat": "Great Fergana Canal"
+  },
+  {
+   "id": "Q14878327",
+   "name": "Karshi Airport",
+   "sl": 17,
+   "file": "Tashkent International Airport backlight.jpg",
+   "lat": 38.8023,
+   "lon": 65.7732,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4272468",
+   "name": "Lab-i Hauz",
+   "sl": 17,
+   "file": "Lyabi-Hovuz and Nadir Divanbegi Khanqah.jpg",
+   "lat": 39.7731,
+   "lon": 64.4202,
+   "kind": "built",
+   "types": [
+    "fixed construction",
+    "howz"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lab-i Hauz"
+  },
+  {
+   "id": "Q4274143",
+   "name": "Magok-i-Attari Mosque",
+   "sl": 17,
+   "file": "Magʻoki attori masjidi (Мечеть Магоки-Аттари, Бухара, Magok-i-Attari Mosque).jpg",
+   "lat": 39.7732,
+   "lon": 64.4184,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Magok-i-Attari mosque"
+  },
+  {
+   "id": "Q1765518",
+   "name": "Markaziy Stadium",
+   "sl": 17,
+   "file": "Nasaf stadium.jpg",
+   "lat": 38.8382,
+   "lon": 65.8135,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Markaziy Stadium"
+  },
+  {
+   "id": "Q976276",
+   "name": "Nukus Airport",
+   "sl": 17,
+   "file": "20230607 khiva028.jpg",
+   "lat": 42.482,
+   "lon": 59.6173,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nukus International Airport"
+  },
+  {
+   "id": "Q1705802",
+   "name": "Paikend",
+   "sl": 17,
+   "file": "«Пайкент» табиий ёдгорлиги.png",
+   "lat": 39.5871,
+   "lon": 64.0117,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paikend archaeological site"
+  },
+  {
+   "id": "Q4146885",
+   "name": "State Art Museum of Uzbekistan",
+   "sl": 17,
+   "file": "Государственный музей искусств Узбекистана (42052).jpg",
+   "lat": 41.3028,
+   "lon": 69.2778,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "State Art Museum of Uzbekistan"
+  },
+  {
+   "id": "Q2495429",
+   "name": "Akhsikath",
+   "sl": 16,
+   "file": "Achsikent.jpg",
+   "lat": 40.8866,
+   "lon": 71.4506,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akhsikath"
+  },
+  {
+   "id": "Q4090820",
+   "name": "Bolo Haouz Mosque",
+   "sl": 16,
+   "file": "La mosquée Bolo-Khaouz (Boukhara, Ouzbékistan) (5720017982).jpg",
+   "lat": 39.7778,
+   "lon": 64.4075,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bolo Haouz mosque"
+  },
+  {
+   "id": "Q3390317",
+   "name": "Mustaqillik Maydoni",
+   "sl": 16,
+   "file": "Uzbek government.JPG",
+   "lat": 41.3164,
+   "lon": 69.2668,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Square, Tashkent"
+  },
+  {
+   "id": "Q978313",
+   "name": "Namangan Airport",
+   "sl": 16,
+   "file": "Namangan xalqaro aeroporti.jpg",
+   "lat": 40.9844,
+   "lon": 71.5567,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1432150",
+   "name": "Navoi International Airport",
+   "sl": 16,
+   "file": "Navoi International Airport.jpg",
+   "lat": 40.1178,
+   "lon": 65.175,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1835285",
+   "name": "State Museum of History of Uzbekistan",
+   "sl": 16,
+   "file": "History Museum (8145371419).jpg",
+   "lat": 41.3118,
+   "lon": 69.2693,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "State Museum of History of Uzbekistan"
+  },
+  {
+   "id": "Q792827",
+   "name": "Ayaz-Kala",
+   "sl": 15,
+   "file": "Ayaz-Kala-2.jpg",
+   "lat": 42.0097,
+   "lon": 61.0272,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ayaz Kala"
+  },
+  {
+   "id": "Q4292343",
+   "name": "Kalan Mosque",
+   "sl": 15,
+   "file": "Le minaret et la mosquée Kalon (Boukhara, Ouzbékistan) (5658826884).jpg",
+   "lat": 39.7758,
+   "lon": 64.4142,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalyan Mosque"
+  },
+  {
+   "id": "Q4294004",
+   "name": "Kalta Minor",
+   "sl": 15,
+   "file": "Kalta Minar.jpg",
+   "lat": 41.3782,
+   "lon": 60.3581,
+   "kind": "built",
+   "types": [
+    "minaret"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalta Minor"
+  },
+  {
+   "id": "Q4287926",
+   "name": "Madrasa of 'Abd al-'Aziz Khan",
+   "sl": 15,
+   "file": "Медресе Абдулазиз-хана 00002.jpg",
+   "lat": 39.7758,
+   "lon": 64.4178,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madrasa of 'Abd al-'Aziz Khan"
+  },
+  {
+   "id": "Q4287951",
+   "name": "Mir-i-Arab madrasah",
+   "sl": 15,
+   "file": "Mir-i Arab.JPG",
+   "lat": 39.776,
+   "lon": 64.4156,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "educational institution",
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mir-i-Arab madrasa"
+  },
+  {
+   "id": "Q355590",
+   "name": "Mount Adelung",
+   "sl": 15,
+   "file": "Пик Аделунга, 4301, Пскемский хребет, Узбекистан.JPG",
+   "lat": 42.1167,
+   "lon": 70.9667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Adelung"
+  },
+  {
+   "id": "Q4103586",
+   "name": "Varahsha",
+   "sl": 15,
+   "file": "Varaxsha 9.jpg",
+   "lat": 39.8629,
+   "lon": 64.0732,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Varahsha"
+  },
+  {
+   "id": "Q4700038",
+   "name": "Ak Mosque",
+   "sl": 14,
+   "file": "Ak Mosque (480997).jpg",
+   "lat": 41.3773,
+   "lon": 60.3615,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q535577",
+    "name": "Itchan Kala"
+   },
+   "also": [],
+   "cat": "Ak mosque or white mosque"
+  },
+  {
+   "id": "Q4292325",
+   "name": "Baland Mosque",
+   "sl": 14,
+   "file": "Bukhara Baland Mosque 2.jpg",
+   "lat": 39.7718,
+   "lon": 64.4051,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baland Mosque"
+  },
+  {
+   "id": "Q1100519",
+   "name": "Dalverzin Tepe",
+   "sl": 14,
+   "file": "Dalverzine Tepe - Denau - Surkhandarya.JPG",
+   "lat": 38.1011,
+   "lon": 67.8606,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dalverzin Tepe"
+  },
+  {
+   "id": "Q4292369",
+   "name": "Hazrat-Hyzr Mosque",
+   "sl": 14,
+   "file": "Hazrati Hizr Mosque in Samarkand (August 2018).jpg",
+   "lat": 39.6635,
+   "lon": 66.9833,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hazrat-Hyzr Mosque"
+  },
+  {
+   "id": "Q3271671",
+   "name": "JAR Stadium",
+   "sl": 14,
+   "file": "Стадион \"Джар\".jpg",
+   "lat": 41.3217,
+   "lon": 69.2306,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jar Stadium"
+  },
+  {
+   "id": "Q4213429",
+   "name": "Kara Tepe",
+   "sl": 14,
+   "file": "Qoratepa-1.jpg",
+   "lat": 37.2781,
+   "lon": 67.1825,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kara Tepe"
+  },
+  {
+   "id": "Q13668326",
+   "name": "Namazgoh Mosque",
+   "sl": 14,
+   "file": "Bukhara Namazgoh Mosque 3.jpg",
+   "lat": 39.7614,
+   "lon": 64.4119,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Namazgoh Mosque, Bukhara"
+  },
+  {
+   "id": "Q4287957",
+   "name": "Divanbegi Madrasa",
+   "sl": 13,
+   "file": "Divanbegi Madrassah Bukhara.jpg",
+   "lat": 39.7732,
+   "lon": 64.4216,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "madrasa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bukhara divan begi madrasa"
+  },
+  {
+   "id": "Q1269420",
+   "name": "Dzhuma Mosque",
+   "sl": 13,
+   "file": "Dzhuma-Moschee Taschkent 2009.JPG",
+   "lat": 41.3237,
+   "lon": 69.2373,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khodja Akhrar Vali Mosque"
+  },
+  {
+   "id": "Q569986",
+   "name": "Holy Assumption Cathedral Church",
+   "sl": 13,
+   "file": "Успенский кафедральный собор в Ташкенте.JPG",
+   "lat": 41.2908,
+   "lon": 69.2788,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Assumption Cathedral Church (Tashkent)"
+  },
+  {
+   "id": "Q1444594",
+   "name": "Karshi-Khanabad Air Base",
+   "sl": 13,
+   "file": "Russian-built Antonov AN-12.JPEG",
+   "lat": 38.7833,
+   "lon": 65.75,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karshi-Khanabad Air Base"
+  }
+ ]
+}

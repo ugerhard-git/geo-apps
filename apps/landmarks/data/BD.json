@@ -1,0 +1,1317 @@
+{
+ "country": "BD",
+ "items": [
+  {
+   "id": "Q305044",
+   "name": "Somapura Mahavihara",
+   "sl": 59,
+   "file": "পাহাড়পুর বৌদ্ধ বিহার 22.jpg",
+   "lat": 25.0311,
+   "lon": 88.9769,
+   "kind": "built",
+   "types": [
+    "ruins",
+    "vihāra"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Somapura Mahavihara"
+  },
+  {
+   "id": "Q30603",
+   "name": "Hazrat Shahjalal International Airport",
+   "sl": 42,
+   "file": "Zia aeropuerto internacional.JPG",
+   "lat": 23.845,
+   "lon": 90.4005,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shahjalal International Airport"
+  },
+  {
+   "id": "Q804009",
+   "name": "Baitul Mukarram National Mosque",
+   "sl": 38,
+   "file": "Baitul Mukarram (Arabic, بيت المكرّم; Bengali, বায়তুল মুকাররম; The Holy House).jpg",
+   "lat": 23.7294,
+   "lon": 90.4122,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baitul Mukarram"
+  },
+  {
+   "id": "Q497536",
+   "name": "Jatiya Sangsad Bhaban",
+   "sl": 35,
+   "file": "বাংলাদেশের জাতীয় সংসদ ভবন 16.jpg",
+   "lat": 23.7622,
+   "lon": 90.3786,
+   "kind": "built",
+   "types": [
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Parliament Building of Bangladesh"
+  },
+  {
+   "id": "Q1801226",
+   "name": "Lalbagh Fort",
+   "sl": 30,
+   "file": "Dhaka Lalbagh Fort 5.JPG",
+   "lat": 23.719,
+   "lon": 90.3881,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lalbagh Qila"
+  },
+  {
+   "id": "Q525609",
+   "name": "Shah Amanat International Airport",
+   "sl": 27,
+   "file": "ShahAmanatAirport-01.jpg",
+   "lat": 22.2497,
+   "lon": 91.8133,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shah Amanat International Airport"
+  },
+  {
+   "id": "Q2425991",
+   "name": "Shaheed Minar",
+   "sl": 26,
+   "file": "Shaheed Minar.JPG",
+   "lat": 23.7222,
+   "lon": 90.395,
+   "kind": "built",
+   "types": [
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shaheed Minar"
+  },
+  {
+   "id": "Q806456",
+   "name": "National Stadium, Dhaka",
+   "sl": 25,
+   "file": "জাতীয় স্টেডিয়াম ঢাকা.jpg",
+   "lat": 23.728,
+   "lon": 90.4135,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Stadium, Dhaka"
+  },
+  {
+   "id": "Q51876",
+   "name": "Bangladesh National Museum",
+   "sl": 24,
+   "file": "Bangladesh National Museum (01).jpg",
+   "lat": 23.7376,
+   "lon": 90.3941,
+   "kind": "built",
+   "types": [
+    "history museum",
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bangladesh National Museum"
+  },
+  {
+   "id": "Q1496277",
+   "name": "Gauḍa",
+   "sl": 24,
+   "file": "Entry gate at Gaur, Malda..jpg",
+   "lat": 24.8829,
+   "lon": 88.128,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historic city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN"
+   ],
+   "cat": "Gauḍa (city)"
+  },
+  {
+   "id": "Q162139",
+   "name": "Osmani International Airport",
+   "sl": 24,
+   "file": "Osmani International Airport.jpg",
+   "lat": 24.9633,
+   "lon": 91.8669,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Osmani International Airport"
+  },
+  {
+   "id": "Q2834259",
+   "name": "Sixty Dome Mosque",
+   "sl": 24,
+   "file": "Sixty Dome Mosque,Bagerhat.jpg",
+   "lat": 22.6745,
+   "lon": 89.7418,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q799893",
+    "name": "Mosque City of Bagerhat"
+   },
+   "also": [],
+   "cat": "Sixty Dome Mosque"
+  },
+  {
+   "id": "Q1657851",
+   "name": "Cox's Bazar Airport",
+   "sl": 21,
+   "file": "Cox's Bazar Airport.jpg",
+   "lat": 21.4498,
+   "lon": 91.9648,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cox's Bazar Airport"
+  },
+  {
+   "id": "Q1929029",
+   "name": "Jessore Airport",
+   "sl": 21,
+   "file": "Jessore Airport (463123277).jpg",
+   "lat": 23.1836,
+   "lon": 89.1608,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jashore Airport"
+  },
+  {
+   "id": "Q3350313",
+   "name": "Sonargaon",
+   "sl": 21,
+   "file": "Lok Shilpa Jadughar (Folk Arts Museum) in Sonargaon, Bangladesh.jpg",
+   "lat": 23.65,
+   "lon": 90.6167,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sonargaon"
+  },
+  {
+   "id": "Q402937",
+   "name": "Ahsan Manzil",
+   "sl": 20,
+   "file": "DJI 0760 ( Ahsan Manzil).jpg",
+   "lat": 23.7086,
+   "lon": 90.4061,
+   "kind": "built",
+   "types": [
+    "museum building",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ahsan Manzil"
+  },
+  {
+   "id": "Q1207526",
+   "name": "Dhakeshwari Temple",
+   "sl": 19,
+   "file": "ঢাকেশ্বরী মন্দির।.jpg",
+   "lat": 23.7228,
+   "lon": 90.3903,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dhakeshwari Temple"
+  },
+  {
+   "id": "Q3351595",
+   "name": "Jatiyo Smriti Soudho",
+   "sl": 19,
+   "file": "জাতীয় স্মৃতি সৌধ - The National Martyrs' Monument of Bangladesh.jpg",
+   "lat": 23.9113,
+   "lon": 90.2547,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jatiyo Smriti Soudho"
+  },
+  {
+   "id": "Q2696459",
+   "name": "Mowdok tiang",
+   "sl": 19,
+   "file": "Saka Haphong.jpg",
+   "lat": 21.7866,
+   "lon": 92.6097,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MM"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2875735",
+   "name": "Saidpur Airport",
+   "sl": 19,
+   "file": "Saidpur Airport 1.jpg",
+   "lat": 25.7592,
+   "lon": 88.9086,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q10729282",
+   "name": "Jamuna Bridge",
+   "sl": 18,
+   "file": "Jamuna Bridge.jpg",
+   "lat": 24.3991,
+   "lon": 89.7853,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jamuna Bridge"
+  },
+  {
+   "id": "Q7123825",
+   "name": "Padma Bridge",
+   "sl": 18,
+   "file": "The padma bridge 02.jpg",
+   "lat": 23.4443,
+   "lon": 90.261,
+   "kind": "built",
+   "types": [
+    "multi-level bridge",
+    "road-rail bridge",
+    "truss bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Padma Bridge"
+  },
+  {
+   "id": "Q2875736",
+   "name": "Shah Makhdum Airport",
+   "sl": 18,
+   "file": "Shah Makhdum Airport, Rajshahi, Bangladesh.JPG",
+   "lat": 24.4369,
+   "lon": 88.6164,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shah Makhdum Airport"
+  },
+  {
+   "id": "Q16135053",
+   "name": "Sher-e-Bangla National Cricket Stadium",
+   "sl": 18,
+   "file": "Ispahani End, Sher-e-Bangla Cricket Stadium.jpg",
+   "lat": 23.807,
+   "lon": 90.3636,
+   "kind": "built",
+   "types": [
+    "cricket field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sher-e-Bangla National Cricket Stadium"
+  },
+  {
+   "id": "Q4984151",
+   "name": "Buddha Dhatu Jadi",
+   "sl": 16,
+   "file": "Buddha Dhatu Jadi 05.jpg",
+   "lat": 22.2231,
+   "lon": 92.1977,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buddha Dhatu Jadi"
+  },
+  {
+   "id": "Q2477246",
+   "name": "Chawkbazar Shahi Mosque",
+   "sl": 16,
+   "file": "Front facade of the Chawkbazar Mosque.jpg",
+   "lat": 23.716,
+   "lon": 90.3957,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chawkbazar Shahi Mosque"
+  },
+  {
+   "id": "Q10995968",
+   "name": "Kaptai Lake",
+   "sl": 16,
+   "file": "Aronnak Holiday Cottage, Rangamati10.jpg",
+   "lat": 22.4958,
+   "lon": 92.2292,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaptai Lake"
+  },
+  {
+   "id": "Q3085127",
+   "name": "Mahasthangarh",
+   "sl": 16,
+   "file": "BD Mahasthangarh1 without people.jpg",
+   "lat": 24.9611,
+   "lon": 89.3428,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mahasthangarh"
+  },
+  {
+   "id": "Q3348944",
+   "name": "Port of Chittagong",
+   "sl": 16,
+   "file": "PORT CTG TAZMEEM.JPG",
+   "lat": 22.313,
+   "lon": 91.8,
+   "kind": "both",
+   "types": [
+    "seaport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Chattogram"
+  },
+  {
+   "id": "Q1025642",
+   "name": "Port of Mongla",
+   "sl": 16,
+   "file": "Mongla Port 3916.jpg",
+   "lat": 22.4833,
+   "lon": 89.5833,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Mongla"
+  },
+  {
+   "id": "Q2667428",
+   "name": "Binat Bibi Mosque",
+   "sl": 15,
+   "file": "Binot Bibi mosque in Old Dhaka.JPG",
+   "lat": 23.7111,
+   "lon": 90.4181,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Binat Bibi Mosque"
+  },
+  {
+   "id": "Q4855010",
+   "name": "Bangabhaban",
+   "sl": 14,
+   "file": "Bangabhaban (33310655331).jpg",
+   "lat": 23.7233,
+   "lon": 90.4183,
+   "kind": "built",
+   "types": [
+    "civic building",
+    "official residence",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bangabhaban"
+  },
+  {
+   "id": "Q3347158",
+   "name": "Kantajew Temple",
+   "sl": 14,
+   "file": "Kantanji's Temple fornt view in Dinajpur.jpg",
+   "lat": 25.7905,
+   "lon": 88.6667,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kantanagar Temple"
+  },
+  {
+   "id": "Q1515977",
+   "name": "Keokradong",
+   "sl": 14,
+   "file": "Keokradong Top.jpg",
+   "lat": 21.9499,
+   "lon": 92.5144,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Keokradong"
+  },
+  {
+   "id": "Q2667438",
+   "name": "Khan Mohammad Mridha Mosque",
+   "sl": 14,
+   "file": "Khan Mohammad Mirdhas Mosque Dome by Ragib Hasan.jpg",
+   "lat": 23.7206,
+   "lon": 90.3853,
+   "kind": "built",
+   "types": [
+    "archaeological sites in Bangladesh",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khan Mohammad Mridha Mosque"
+  },
+  {
+   "id": "Q2993411",
+   "name": "Star Mosque",
+   "sl": 14,
+   "file": "Tara-masjid.jpg",
+   "lat": 23.7156,
+   "lon": 90.4017,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Star Mosque"
+  },
+  {
+   "id": "Q3350326",
+   "name": "Bangladesh National Zoo",
+   "sl": 13,
+   "file": "Mirpur national zoo.jpg",
+   "lat": 23.8127,
+   "lon": 90.3446,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bangladesh National Zoo"
+  },
+  {
+   "id": "Q1282259",
+   "name": "Taj Mahal Bangladesh",
+   "sl": 13,
+   "file": "Banglar TajMahal.jpg",
+   "lat": 23.7461,
+   "lon": 90.5674,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taj Mahal Bangladesh"
+  },
+  {
+   "id": "Q4504999",
+   "name": "Armenian Church",
+   "sl": 12,
+   "file": "Armenian Church in Old Dhaka.JPG",
+   "lat": 23.7125,
+   "lon": 90.4021,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Armenian Church of the Holy Resurrection in Dhaka"
+  },
+  {
+   "id": "Q36440",
+   "name": "Bir Shreshtho Flight Lieutenant Matiur Rahman Cricket Stadium",
+   "sl": 12,
+   "file": "Zohur Ahmed Chowdhury Stadium in 2021.07.jpg",
+   "lat": 22.3558,
+   "lon": 91.7679,
+   "kind": "built",
+   "types": [
+    "cricket field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bir Shrestho Flight Lieutenant Matiur Rahman Cricket Stadium"
+  },
+  {
+   "id": "Q6355669",
+   "name": "Kamalapur railway station",
+   "sl": 12,
+   "file": "Kamalapur Railway Station 8.jpg",
+   "lat": 23.7305,
+   "lon": 90.4269,
+   "kind": "built",
+   "types": [
+    "central station",
+    "railway station",
+    "station building",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamalapur Railway Station"
+  },
+  {
+   "id": "Q31724627",
+   "name": "Nasrat Gazi Mosque",
+   "sl": 12,
+   "file": "নসরত গাজীর মসজিদ ভবন.jpg",
+   "lat": 22.5526,
+   "lon": 90.44,
+   "kind": "built",
+   "types": [
+    "archaeological sites in Bangladesh",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nasrat Gazi Mosque"
+  },
+  {
+   "id": "Q7425977",
+   "name": "Satchari National Park",
+   "sl": 12,
+   "file": "Satchari National Park, Habiganj, Sylhet.jpg",
+   "lat": 24.12,
+   "lon": 91.4507,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Satchari National Park"
+  },
+  {
+   "id": "Q857380",
+   "name": "Chandranath Temple",
+   "sl": 11,
+   "file": "Chandranath Temple 2019-01-16 (27).jpg",
+   "lat": 22.6335,
+   "lon": 91.6844,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chandranath Temple"
+  },
+  {
+   "id": "Q1754076",
+   "name": "District Stadium, Chattogram",
+   "sl": 11,
+   "file": "M. A. Aziz Stadium 01.jpg",
+   "lat": 22.3558,
+   "lon": 91.7678,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "M. A. Aziz Stadium"
+  },
+  {
+   "id": "Q5643687",
+   "name": "Halud Vihara",
+   "sl": 11,
+   "file": "Halud Vihara, Archaeological site of 8th - 9th century - panoramio.jpg",
+   "lat": 24.9324,
+   "lon": 88.9714,
+   "kind": "built",
+   "types": [
+    "vihāra"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Halud Vihara"
+  },
+  {
+   "id": "Q6122067",
+   "name": "Jagaddala Mahavihara",
+   "sl": 11,
+   "file": "বিহারের চার কোণে পদ্ম ফুলের পাপড়ির মতো নকশা করা ছিল.jpg",
+   "lat": 25.1589,
+   "lon": 88.8875,
+   "kind": "built",
+   "types": [
+    "monastery ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jagadal Vihara"
+  },
+  {
+   "id": "Q3350641",
+   "name": "Lawachara National Park",
+   "sl": 11,
+   "file": "Life around jungle.jpg",
+   "lat": 24.3197,
+   "lon": 91.7836,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lawachara National Park"
+  },
+  {
+   "id": "Q7395716",
+   "name": "Saat Masjid",
+   "sl": 11,
+   "file": "Sat Gambuj Mosque, Dhaka.jpg",
+   "lat": 23.7577,
+   "lon": 90.359,
+   "kind": "built",
+   "types": [
+    "archaeological sites in Bangladesh",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sat Gambuj Mosque"
+  },
+  {
+   "id": "Q6406663",
+   "name": "Sylhet International Cricket Stadium",
+   "sl": 11,
+   "file": "সিলেট আন্তর্জাতিক ক্রিকেট স্টেডিয়াম.jpg",
+   "lat": 24.9208,
+   "lon": 91.8687,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sylhet International Cricket Stadium"
+  },
+  {
+   "id": "Q3350774",
+   "name": "Bara Katra",
+   "sl": 10,
+   "file": "Bara Katra by Ragib.jpg",
+   "lat": 23.7146,
+   "lon": 90.3952,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bara Katra"
+  },
+  {
+   "id": "Q4901585",
+   "name": "Bhawal National Park",
+   "sl": 10,
+   "file": "A Road of Bhawal Nationa Park, Gazipur.jpg",
+   "lat": 24.0958,
+   "lon": 90.404,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bhawal National Park"
+  },
+  {
+   "id": "Q7560724",
+   "name": "Choto Sona Mosque",
+   "sl": 10,
+   "file": "Choto-Sona Mosjit-Front.jpg",
+   "lat": 24.8137,
+   "lon": 88.1432,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Choto Sona Mosque"
+  },
+  {
+   "id": "Q19457815",
+   "name": "Chunati Wildlife Sanctuary",
+   "sl": 10,
+   "file": "Fisherman in Chunati Wildlife Sanctuary.jpg",
+   "lat": 21.9618,
+   "lon": 92.0491,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chunati Wildlife Sanctuary"
+  },
+  {
+   "id": "Q3347442",
+   "name": "Hussaini Dalan",
+   "sl": 10,
+   "file": "হোসেনি দালান ২০১১ (১).jpg",
+   "lat": 23.7221,
+   "lon": 90.3958,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hoseni Dalan"
+  },
+  {
+   "id": "Q13057540",
+   "name": "Kusumba Mosque",
+   "sl": 10,
+   "file": "Kusumba014.jpg",
+   "lat": 24.7538,
+   "lon": 88.6812,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kusumba Mosque"
+  },
+  {
+   "id": "Q6736254",
+   "name": "Mainamati",
+   "sl": 10,
+   "file": "ময়নামতি রাণীর কুঠির (Maynamati Ranir Kuthir).jpg",
+   "lat": 23.4261,
+   "lon": 91.1378,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mainamati"
+  },
+  {
+   "id": "Q3349262",
+   "name": "Nayabad Mosque",
+   "sl": 10,
+   "file": "Dinajpur NayabadMoshjid 11Oct12 IMG 3582.jpg",
+   "lat": 25.7818,
+   "lon": 88.6584,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nayabad Mosque"
+  },
+  {
+   "id": "Q7290101",
+   "name": "Ramsagar National Park",
+   "sl": 10,
+   "file": "Fishing in Ramsagor.jpg",
+   "lat": 25.6668,
+   "lon": 88.4888,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ramsagar National Park"
+  },
+  {
+   "id": "Q3350608",
+   "name": "Tejgaon Airport",
+   "sl": 10,
+   "file": "TejgaonAirport.jpg",
+   "lat": 23.7786,
+   "lon": 90.3825,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tejgaon Airport"
+  },
+  {
+   "id": "Q29025558",
+   "name": "201 Dome Mosque",
+   "sl": 9,
+   "file": "201 Dome Mosque 03.jpg",
+   "lat": 24.5984,
+   "lon": 89.8747,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "201 Dome Mosque"
+  },
+  {
+   "id": "Q22910833",
+   "name": "Atia Mosque",
+   "sl": 9,
+   "file": "Atia Mosque, Tangail, Bangladesh.jpg",
+   "lat": 24.184,
+   "lon": 89.9114,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atia Mosque"
+  },
+  {
+   "id": "Q4841417",
+   "name": "Bagakain Lake",
+   "sl": 9,
+   "file": "বগা লেক.jpg",
+   "lat": 21.9806,
+   "lon": 92.4694,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bagakain Lake"
+  },
+  {
+   "id": "Q2656778",
+   "name": "Bagha Mosque",
+   "sl": 9,
+   "file": "Bagha Shahi Mosque.jpg",
+   "lat": 24.1962,
+   "lon": 88.8393,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bagha Mosque"
+  },
+  {
+   "id": "Q4848745",
+   "name": "Baitul Falah",
+   "sl": 9,
+   "file": "Jamiatul Falah Mosque (3).JPG",
+   "lat": 22.3501,
+   "lon": 91.823,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jamiatul Falah Mosque"
+  },
+  {
+   "id": "Q2093153",
+   "name": "Comilla Jagannath Temple",
+   "sl": 9,
+   "file": "Comilla Jagannath Temple.jpg",
+   "lat": 23.4622,
+   "lon": 91.2087,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sateraratna Temple"
+  },
+  {
+   "id": "Q3348078",
+   "name": "Foy's Lake",
+   "sl": 9,
+   "file": "Ctg foys lake water 2003.jpg",
+   "lat": 22.3697,
+   "lon": 91.7941,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Foy's Lake"
+  },
+  {
+   "id": "Q5575202",
+   "name": "Goaldi Mosque",
+   "sl": 9,
+   "file": "Goaldi Mosque (27628998360).jpg",
+   "lat": 23.6565,
+   "lon": 90.5912,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goaldi Mosque"
+  },
+  {
+   "id": "Q3349179",
+   "name": "Kakrail Mosque",
+   "sl": 9,
+   "file": "Kakrail Mosque, Dhaka.jpg",
+   "lat": 23.7369,
+   "lon": 90.4035,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kakrail"
+  },
+  {
+   "id": "Q1734089",
+   "name": "Kaptai Dam",
+   "sl": 9,
+   "file": "Kaptai Dam.jpg",
+   "lat": 22.495,
+   "lon": 92.225,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaptai Dam"
+  },
+  {
+   "id": "Q3348667",
+   "name": "Madhabkunda waterfall",
+   "sl": 9,
+   "file": "Madhobkundo falls.jpg",
+   "lat": 24.6392,
+   "lon": 92.2211,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madhabkunda waterfall"
+  },
+  {
+   "id": "Q16346285",
+   "name": "Medhakachhapia National Park",
+   "sl": 9,
+   "file": "The dominant trees.jpg",
+   "lat": 21.6877,
+   "lon": 92.156,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Medhakachhapia National Park"
+  },
+  {
+   "id": "Q13614508",
+   "name": "Rema-Kalenga Wildlife Sanctuary",
+   "sl": 9,
+   "file": "মেঘের কোলে সবুজ ০২.jpg",
+   "lat": 24.1814,
+   "lon": 91.637,
+   "kind": "natural",
+   "types": [
+    "Important Bird Area",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rema-Kalenga Wildlife Sanctuary"
+  },
+  {
+   "id": "Q3351553",
+   "name": "Wali Khan Mosque",
+   "sl": 9,
+   "file": "Central nave of Wali Khan Mosque.JPG",
+   "lat": 22.3585,
+   "lon": 91.8374,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wali Khan Mosque"
+  },
+  {
+   "id": "Q7969421",
+   "name": "Wari-Bateshwar ruins",
+   "sl": 9,
+   "file": "Archeologists taking measurement for a new dig 0102.jpg",
+   "lat": 23.9193,
+   "lon": 90.7176,
+   "kind": "built",
+   "types": [
+    "archaeological sites in Bangladesh"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wari-Bateshwar ruins"
+  },
+  {
+   "id": "Q22948960",
+   "name": "Asrafia Jame Masjid",
+   "sl": 8,
+   "file": "Asrafia Jame Masjid.jpg",
+   "lat": 23.6223,
+   "lon": 90.5035,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asrafia Jame Mosque"
+  },
+  {
+   "id": "Q4855268",
+   "name": "Bangladesh Army Stadium",
+   "sl": 8,
+   "file": "Bangladesh Army Stadium.jpg",
+   "lat": 23.8055,
+   "lon": 90.4041,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bangladesh Army Stadium"
+  },
+  {
+   "id": "Q16345984",
+   "name": "Baroiyadhala National Park",
+   "sl": 8,
+   "file": "বারৈয়াঢালা ঝর্ণা.jpg",
+   "lat": 22.6544,
+   "lon": 91.6683,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baroiyadhala National Park"
+  },
+  {
+   "id": "Q1151366",
+   "name": "Bashundhara City",
+   "sl": 8,
+   "file": "বসুন্ধরা সিটি শপিং মল ২০২৪ (৪).jpg",
+   "lat": 23.751,
+   "lon": 90.3907,
+   "kind": "built",
+   "types": [
+    "shopping center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bashundhara City"
+  },
+  {
+   "id": "Q5087951",
+   "name": "Chatteshwari Temple",
+   "sl": 8,
+   "file": "Chatteshwari Temple Close View.jpg",
+   "lat": 22.3528,
+   "lon": 91.8261,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chatteshwari Temple"
+  }
+ ]
+}

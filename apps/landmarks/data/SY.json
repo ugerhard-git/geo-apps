@@ -1,0 +1,1429 @@
+{
+ "country": "SY",
+ "items": [
+  {
+   "id": "Q5747",
+   "name": "Palmyra",
+   "sl": 107,
+   "file": "Palmira al capvespre (2495033007).jpg",
+   "lat": 34.5504,
+   "lon": 38.2698,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Ancient Greek archaeological site",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Palmyra"
+  },
+  {
+   "id": "Q83210",
+   "name": "Golan Heights",
+   "sl": 102,
+   "file": "Brechat ram mt hermon.JPG",
+   "lat": 33,
+   "lon": 35.75,
+   "kind": "natural",
+   "types": [
+    "occupied territory",
+    "plateau"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Golan Heights"
+  },
+  {
+   "id": "Q183562",
+   "name": "Umayyad Mosque",
+   "sl": 78,
+   "file": "Ommayyad masjed.jpg",
+   "lat": 33.5114,
+   "lon": 36.3067,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "educational institution",
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3678596",
+    "name": "Ancient City of Damascus"
+   },
+   "also": [],
+   "cat": "Umayyad Mosque"
+  },
+  {
+   "id": "Q177549",
+   "name": "Krak des Chevaliers",
+   "sl": 77,
+   "file": "Krak des Chevaliers 01.jpg",
+   "lat": 34.7569,
+   "lon": 36.2947,
+   "kind": "built",
+   "types": [
+    "concentric castle",
+    "crusader castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15604681",
+    "name": "Crac des Chevaliers and Qal’at Salah El-Din"
+   },
+   "also": [],
+   "cat": "Krak des Chevaliers"
+  },
+  {
+   "id": "Q191369",
+   "name": "Ugarit",
+   "sl": 66,
+   "file": "Ugarit Corbel.jpg",
+   "lat": 35.6019,
+   "lon": 35.7856,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "city-state",
+    "historical country",
+    "tributary state"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ugarit"
+  },
+  {
+   "id": "Q244762",
+   "name": "Mari",
+   "sl": 57,
+   "file": "Mari-Zimri Lim Palace.jpg",
+   "lat": 34.5494,
+   "lon": 40.89,
+   "kind": "both",
+   "types": [
+    "ancient civilization",
+    "archaeological site",
+    "city-state",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mari"
+  },
+  {
+   "id": "Q5743",
+   "name": "Ebla",
+   "sl": 56,
+   "file": "Ebla.jpg",
+   "lat": 35.7981,
+   "lon": 36.7986,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "historical country",
+    "historical period",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ebla"
+  },
+  {
+   "id": "Q1481968",
+   "name": "Great Mosque of Aleppo",
+   "sl": 48,
+   "file": "Great Mosque of Aleppo, Panoramic view 2, Aleppo, Syria.jpg",
+   "lat": 36.1995,
+   "lon": 37.1569,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Aleppo"
+  },
+  {
+   "id": "Q690035",
+   "name": "Kadesh",
+   "sl": 48,
+   "file": "Hitt Egypt Perseus.png",
+   "lat": 34.5576,
+   "lon": 36.52,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "former settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q393841",
+   "name": "Dead Cities",
+   "sl": 47,
+   "file": "Overview of St. Simeons from the North Syria.jpg",
+   "lat": 36.3342,
+   "lon": 36.8442,
+   "kind": "built",
+   "types": [
+    "abandoned village",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Dead cities"
+  },
+  {
+   "id": "Q377802",
+   "name": "Arwad",
+   "sl": 46,
+   "file": "Ruad large.jpg",
+   "lat": 34.8561,
+   "lon": 35.8583,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "island",
+    "populated place in Syria"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arwad"
+  },
+  {
+   "id": "Q277531",
+   "name": "Citadel of Salah Ed-Din",
+   "sl": 45,
+   "file": "Saone.jpg",
+   "lat": 35.5958,
+   "lon": 36.0572,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castle",
+    "citadel",
+    "crusader castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15604681",
+    "name": "Crac des Chevaliers and Qal’at Salah El-Din"
+   },
+   "also": [],
+   "cat": "Qal'at Salah ed-Din"
+  },
+  {
+   "id": "Q283680",
+   "name": "Carchemish",
+   "sl": 44,
+   "file": "Museum of Anatolian Civilizations091.jpg",
+   "lat": 36.8297,
+   "lon": 38.015,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historical country"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TR"
+   ],
+   "cat": "Carchemish"
+  },
+  {
+   "id": "Q464266",
+   "name": "Dura-Europos",
+   "sl": 42,
+   "file": "Aerial view of Dura in late 1930s.jpg",
+   "lat": 34.747,
+   "lon": 40.73,
+   "kind": "built",
+   "types": [
+    "administrative territorial entity",
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dura Europos"
+  },
+  {
+   "id": "Q617550",
+   "name": "Apamea",
+   "sl": 41,
+   "file": "Apamea 01.jpg",
+   "lat": 35.4167,
+   "lon": 36.4,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis",
+    "Samian Ware Discovery Site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apamea"
+  },
+  {
+   "id": "Q570873",
+   "name": "Damascus International Airport",
+   "sl": 40,
+   "file": "Damascus International Airport Karakas-1.jpg",
+   "lat": 33.4115,
+   "lon": 36.5156,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Damascus International Airport"
+  },
+  {
+   "id": "Q1262056",
+   "name": "Jabal al-Druze",
+   "sl": 36,
+   "file": "Tell Qeni.jpg",
+   "lat": 32.6667,
+   "lon": 36.7333,
+   "kind": "natural",
+   "types": [
+    "volcanic field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabal ad-Duruz"
+  },
+  {
+   "id": "Q1420222",
+   "name": "Aleppo International Airport",
+   "sl": 34,
+   "file": "Aleppo (2) cropped.jpg",
+   "lat": 36.1845,
+   "lon": 37.2273,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aleppo International Airport"
+  },
+  {
+   "id": "Q797481",
+   "name": "Temple of Bel",
+   "sl": 34,
+   "file": "Temple of Bel, Palmyra 02.jpg",
+   "lat": 34.547,
+   "lon": 38.274,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "ruins",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5747",
+    "name": "Palmyra"
+   },
+   "also": [],
+   "cat": "Temple of Baal in Palmyra"
+  },
+  {
+   "id": "Q1589883",
+   "name": "Hauran",
+   "sl": 32,
+   "file": "Ummesrareh Johfiyeh Jordan Ahmad Telfah 04.jpg",
+   "lat": 33.0296,
+   "lon": 35.8184,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "JO"
+   ],
+   "cat": "Hauran"
+  },
+  {
+   "id": "Q12215498",
+   "name": "Sednaya Prison",
+   "sl": 32,
+   "file": "Sednaya prison after the Fall of Assad.png",
+   "lat": 33.665,
+   "lon": 36.3286,
+   "kind": "built",
+   "types": [
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sednaya Prison"
+  },
+  {
+   "id": "Q906516",
+   "name": "Margat",
+   "sl": 31,
+   "file": "Marqab-crusader-castle-donjon.jpg",
+   "lat": 35.1511,
+   "lon": 35.9492,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Margat"
+  },
+  {
+   "id": "Q978443",
+   "name": "Tell Brak",
+   "sl": 31,
+   "file": "Tell Brak 001.jpg",
+   "lat": 36.6667,
+   "lon": 41.0583,
+   "kind": "both",
+   "types": [
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tell Brak"
+  },
+  {
+   "id": "Q206231",
+   "name": "Citadel of Aleppo",
+   "sl": 30,
+   "file": "Citadel of Aleppo.jpg",
+   "lat": 36.1992,
+   "lon": 37.1625,
+   "kind": "both",
+   "types": [
+    "castle",
+    "tell"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q4115349",
+    "name": "Ancient City of Aleppo"
+   },
+   "also": [],
+   "cat": "Aleppo citadel"
+  },
+  {
+   "id": "Q979315",
+   "name": "Euphrates Lake",
+   "sl": 30,
+   "file": "Euphrates Lake Tabqa.jpg",
+   "lat": 36,
+   "lon": 38.1711,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Euphrates Lake"
+  },
+  {
+   "id": "Q630734",
+   "name": "Qatna",
+   "sl": 30,
+   "file": "Qatna's landmarks.png",
+   "lat": 34.835,
+   "lon": 36.8658,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qatna"
+  },
+  {
+   "id": "Q1357851",
+   "name": "Latakia International Airport",
+   "sl": 29,
+   "file": "NASA FIRMS 2024-10-14 Khmeimim.png",
+   "lat": 35.4008,
+   "lon": 35.9486,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Latakia International Airport"
+  },
+  {
+   "id": "Q715273",
+   "name": "Sulaymaniyya Takiyya",
+   "sl": 28,
+   "file": "دمشق التكية السليمانية.jpg",
+   "lat": 33.5123,
+   "lon": 36.2913,
+   "kind": "built",
+   "types": [
+    "külliye",
+    "Ottoman tekke"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sulaymaniyya Takiyya"
+  },
+  {
+   "id": "Q20871005",
+   "name": "Temple of Baalshamin",
+   "sl": 28,
+   "file": "Temple of Baal-Shamin, Palmyra.jpg",
+   "lat": 34.5533,
+   "lon": 38.2705,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "ruins",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5747",
+    "name": "Palmyra"
+   },
+   "also": [],
+   "cat": "Temple of Baal-Shamin in Palmyra"
+  },
+  {
+   "id": "Q372823",
+   "name": "Euphrates Dam",
+   "sl": 27,
+   "file": "Euphrates Lake Tabqa.jpg",
+   "lat": 35.8722,
+   "lon": 38.5667,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Euphrates Dam"
+  },
+  {
+   "id": "Q1112125",
+   "name": "Church of Saint Simeon Stylites",
+   "sl": 25,
+   "file": "Overview of St. Simeons from the North Syria.jpg",
+   "lat": 36.3342,
+   "lon": 36.8442,
+   "kind": "built",
+   "types": [
+    "church building",
+    "martyrium",
+    "pilgrims' hostel",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15604681",
+    "name": "Crac des Chevaliers and Qal’at Salah El-Din"
+   },
+   "also": [],
+   "cat": "Church of Saint Simeon Stylites"
+  },
+  {
+   "id": "Q21582584",
+   "name": "Khmeimim",
+   "sl": 25,
+   "file": "Russian military aircraft at Latakia, Syria (1).jpg",
+   "lat": 35.4125,
+   "lon": 35.9417,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "condominium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Military aircraft at Latakia International Airport"
+  },
+  {
+   "id": "Q1261879",
+   "name": "Mount Qasioun",
+   "sl": 25,
+   "file": "Qasiyon Damascus.JPG",
+   "lat": 33.5458,
+   "lon": 36.2864,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Qasioun"
+  },
+  {
+   "id": "Q617254",
+   "name": "National Museum in Damascus",
+   "sl": 25,
+   "file": "Damascus-National-Museum.JPG",
+   "lat": 33.5126,
+   "lon": 36.29,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Damascus"
+  },
+  {
+   "id": "Q2142541",
+   "name": "Tell Halaf",
+   "sl": 25,
+   "file": "TellHalaf,NE-palace1.jpg",
+   "lat": 36.8268,
+   "lon": 40.0397,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell",
+    "type site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tell Halaf"
+  },
+  {
+   "id": "Q588192",
+   "name": "Tell Leilan",
+   "sl": 25,
+   "file": "Tell Leilan.jpg",
+   "lat": 36.9572,
+   "lon": 41.5053,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tell Leilan"
+  },
+  {
+   "id": "Q1196243",
+   "name": "Emar",
+   "sl": 24,
+   "file": "View from the Byzantine Tower at Meskene, ancient Barbalissos.jpg",
+   "lat": 35.9872,
+   "lon": 38.1102,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emar"
+  },
+  {
+   "id": "Q644872",
+   "name": "Terqa",
+   "sl": 24,
+   "file": "Terqa - Ashara - Syrie.jpg",
+   "lat": 34.9032,
+   "lon": 40.5304,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Terqa"
+  },
+  {
+   "id": "Q1410413",
+   "name": "Banyas",
+   "sl": 23,
+   "file": "Banyas BW 9.jpg",
+   "lat": 33.1959,
+   "lon": 35.626,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Banias River"
+  },
+  {
+   "id": "Q2277692",
+   "name": "Qasr al-Hayr al-Gharbi",
+   "sl": 23,
+   "file": "Alheeralgharbi.jpg",
+   "lat": 34.3744,
+   "lon": 37.6058,
+   "kind": "built",
+   "types": [
+    "castle",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qasr al-Heir al-Gharbi"
+  },
+  {
+   "id": "Q631407",
+   "name": "Resafa",
+   "sl": 23,
+   "file": "Resafa, Sergiopolis 3, Syria.jpg",
+   "lat": 35.6278,
+   "lon": 38.7564,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Resafa"
+  },
+  {
+   "id": "Q793784",
+   "name": "Al-Azm Palace",
+   "sl": 22,
+   "file": "Azem Palace 02.jpg",
+   "lat": 33.5103,
+   "lon": 36.3069,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3678596",
+    "name": "Ancient City of Damascus"
+   },
+   "also": [],
+   "cat": "Azem Palace"
+  },
+  {
+   "id": "Q734097",
+   "name": "Aleppo International Stadium",
+   "sl": 22,
+   "file": "Aleppo International Stadium, day view, 2009 (2).jpg",
+   "lat": 36.185,
+   "lon": 37.1178,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aleppo International Stadium"
+  },
+  {
+   "id": "Q7818644",
+   "name": "Tomb of Suleyman Shah",
+   "sl": 22,
+   "file": "Tombeau de Suleiman Chah.jpg",
+   "lat": 36.8792,
+   "lon": 38.1056,
+   "kind": "built",
+   "types": [
+    "condominium",
+    "historic site",
+    "türbe"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Suleyman Shah"
+  },
+  {
+   "id": "Q310049",
+   "name": "Bara",
+   "sl": 21,
+   "file": "Idlib, Syria, Dead Cities, Al-Bara 2.jpg",
+   "lat": 35.6833,
+   "lon": 36.5333,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "populated place in Syria",
+    "village"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q393841",
+    "name": "Dead Cities"
+   },
+   "also": [],
+   "cat": "Al-Bara"
+  },
+  {
+   "id": "Q257153",
+   "name": "Mausoleum of Saladin",
+   "sl": 21,
+   "file": "Saladin mouselum tomb Damascus.jpg",
+   "lat": 33.5121,
+   "lon": 36.3059,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3678596",
+    "name": "Ancient City of Damascus"
+   },
+   "also": [],
+   "cat": "Mausoleum of Saladin"
+  },
+  {
+   "id": "Q5294275",
+   "name": "Sayyidah Zaynab Mosque",
+   "sl": 21,
+   "file": "Sayyidah Zaynab Mosque2021.jpg",
+   "lat": 33.4444,
+   "lon": 36.3408,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sayyidah Zaynab Mosque"
+  },
+  {
+   "id": "Q1758030",
+   "name": "Urkesh",
+   "sl": 21,
+   "file": "Tell Mozan 1.jpg",
+   "lat": 37.0569,
+   "lon": 40.9972,
+   "kind": "both",
+   "types": [
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tell Mozan"
+  },
+  {
+   "id": "Q206246",
+   "name": "Citadel of Damascus",
+   "sl": 20,
+   "file": "Damaskus4.jpg",
+   "lat": 33.5117,
+   "lon": 36.3019,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3678596",
+    "name": "Ancient City of Damascus"
+   },
+   "also": [],
+   "cat": "Damascus Citadel"
+  },
+  {
+   "id": "Q536924",
+   "name": "Cyrrhus",
+   "sl": 20,
+   "file": "NebiHuriTheater.jpg",
+   "lat": 36.7347,
+   "lon": 36.949,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cyrrhus"
+  },
+  {
+   "id": "Q1493165",
+   "name": "Gamla",
+   "sl": 20,
+   "file": "Golan Heights - Gamla view.jpg",
+   "lat": 32.9013,
+   "lon": 35.7374,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Gamla"
+  },
+  {
+   "id": "Q4022343",
+   "name": "Khalid ibn al-Walid Mosque",
+   "sl": 20,
+   "file": "Mosque Khalid Bin Al Waleed مسجد خالد بن الوليد - panoramio.jpg",
+   "lat": 34.7368,
+   "lon": 36.7156,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khalid ibn al-Walid Mosque (Homs)"
+  },
+  {
+   "id": "Q6416473",
+   "name": "Mariamite Cathedral of Damascus",
+   "sl": 20,
+   "file": "Damasco cattedrale ortodossaHPIM3223.JPG",
+   "lat": 33.5094,
+   "lon": 36.3114,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mariamite Cathedral of Damascus"
+  },
+  {
+   "id": "Q2622376",
+   "name": "Nabi Habeel Mosque",
+   "sl": 20,
+   "file": "NabiHabeel01.jpg",
+   "lat": 33.6214,
+   "lon": 36.1061,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nabi Habeel Mosque"
+  },
+  {
+   "id": "Q1857888",
+   "name": "Qal'at Ja'bar",
+   "sl": 20,
+   "file": "CaberKalesi.jpg",
+   "lat": 35.8975,
+   "lon": 38.4808,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qal'at Ja'bar"
+  },
+  {
+   "id": "Q1432529",
+   "name": "Qamishli International Airport",
+   "sl": 20,
+   "file": "Qamishli International Airport, 2010.jpg",
+   "lat": 37.0206,
+   "lon": 41.1914,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qamishli International Airport"
+  },
+  {
+   "id": "Q763167",
+   "name": "Qanawat",
+   "sl": 20,
+   "file": "Qanawat SYRIE 027.jpg",
+   "lat": 32.7556,
+   "lon": 36.6167,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "populated place in Syria",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qanawat"
+  },
+  {
+   "id": "Q1149473",
+   "name": "Qasr al-Hayr al-Sharqi",
+   "sl": 20,
+   "file": "Qasr al-Hayr al-Sharqi, Walls and towers, Syria.jpg",
+   "lat": 35.0739,
+   "lon": 39.0711,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qasr al-Heir al-Sharqi"
+  },
+  {
+   "id": "Q979091",
+   "name": "Qinnasrin",
+   "sl": 20,
+   "file": "Ancient Roman road of Tall Aqibrin.jpg",
+   "lat": 35.9986,
+   "lon": 36.9981,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1030058",
+   "name": "Shaizar",
+   "sl": 20,
+   "file": "Shayzar3.jpg",
+   "lat": 35.2678,
+   "lon": 36.5667,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "populated place in Syria",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shaizar"
+  },
+  {
+   "id": "Q574818",
+   "name": "Tartus naval base",
+   "sl": 20,
+   "file": "NASA FIRMS 2024-10-20 Tartus.png",
+   "lat": 34.915,
+   "lon": 35.875,
+   "kind": "both",
+   "types": [
+    "naval base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q594024",
+   "name": "Tishrin Dam",
+   "sl": 20,
+   "file": "سد تشرين.jpg",
+   "lat": 36.3814,
+   "lon": 38.1833,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tishrin Dam"
+  },
+  {
+   "id": "Q290054",
+   "name": "Amrit",
+   "sl": 19,
+   "file": "Amrit01.jpg",
+   "lat": 34.8265,
+   "lon": 35.9082,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amrit"
+  },
+  {
+   "id": "Q4837223",
+   "name": "Bab Sharqi",
+   "sl": 19,
+   "file": "Bab Sharqi, Damascus.jpg",
+   "lat": 33.5094,
+   "lon": 36.3178,
+   "kind": "built",
+   "types": [
+    "Ancient City of Damascus",
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bab Sharqi"
+  },
+  {
+   "id": "Q2484244",
+   "name": "Caesarea Philippi",
+   "sl": 19,
+   "file": "Banias - Agrippas city 001.jpg",
+   "lat": 33.2461,
+   "lon": 35.6933,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Banias"
+  },
+  {
+   "id": "Q6476202",
+   "name": "Lake Homs",
+   "sl": 19,
+   "file": "Lake Homs Satellite.png",
+   "lat": 34.6434,
+   "lon": 36.5728,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lac de Homs"
+  },
+  {
+   "id": "Q657272",
+   "name": "Tell Bi'a",
+   "sl": 19,
+   "file": "Tuttul,tombs.jpg",
+   "lat": 35.9575,
+   "lon": 39.0475,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tell Bi'a"
+  },
+  {
+   "id": "Q1577089",
+   "name": "Dura-Europos synagogue",
+   "sl": 18,
+   "file": "Doura Europos synagogue courtyard.jpg",
+   "lat": 34.7475,
+   "lon": 40.7271,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "feature",
+    "synagogue",
+    "synagogue ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dura-Europos synagogue"
+  },
+  {
+   "id": "Q383473",
+   "name": "Hazzi",
+   "sl": 18,
+   "file": "Jebel Aqra (Kel Dağı, Mount Casius), 2008.jpg",
+   "lat": 35.9525,
+   "lon": 35.9693,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TR"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3056297",
+   "name": "Roman Theatre at Bosra",
+   "sl": 18,
+   "file": "Syria bosra theater.jpg",
+   "lat": 32.5177,
+   "lon": 36.4816,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "archaeological site",
+    "Roman theatre"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15727412",
+    "name": "Ancient City of Bosra"
+   },
+   "also": [],
+   "cat": "Ancient Roman theatre (Bosra)"
+  },
+  {
+   "id": "Q555201",
+   "name": "Roman Theatre at Palmyra",
+   "sl": 18,
+   "file": "Palmyra theater02(js).jpg",
+   "lat": 34.5505,
+   "lon": 38.2687,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "archaeological site",
+    "Roman theatre"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5747",
+    "name": "Palmyra"
+   },
+   "also": [],
+   "cat": "Ancient Roman theater (Palmyra)"
+  },
+  {
+   "id": "Q1473691",
+   "name": "Christian Building, Dura-Europos",
+   "sl": 17,
+   "file": "Doura Europos domus ecclesiae front from S.jpg",
+   "lat": 34.7457,
+   "lon": 40.7278,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural heritage",
+    "domus ecclesiae",
+    "feature"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dura Europos domus ecclesiae"
+  },
+  {
+   "id": "Q3399016",
+   "name": "Damascus Straight Street",
+   "sl": 17,
+   "file": "Street-called-Straight-Detroit.jpeg",
+   "lat": 33.5092,
+   "lon": 36.3114,
+   "kind": "built",
+   "types": [
+    "Decumanus",
+    "street"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3678596",
+    "name": "Ancient City of Damascus"
+   },
+   "also": [],
+   "cat": "Street Called Straight"
+  },
+  {
+   "id": "Q2885439",
+   "name": "Kadiran Dam",
+   "sl": 17,
+   "file": "Euphrates Lake Tabqa.jpg",
+   "lat": 35.8853,
+   "lon": 38.7472,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Freedom Dam"
+  },
+  {
+   "id": "Q5868468",
+   "name": "People's Palace, Damascus",
+   "sl": 17,
+   "file": "(قصر الشعب (دمشق.jpg",
+   "lat": 33.5175,
+   "lon": 36.2517,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidential Palace, Damascus"
+  },
+  {
+   "id": "Q3072369",
+   "name": "Sabkhat al-Jabbul",
+   "sl": 17,
+   "file": "Lake Jabbul 2022-10-27 Sentinel-2 L2A True color.jpg",
+   "lat": 35.9956,
+   "lon": 37.5716,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Jabbul"
+  },
+  {
+   "id": "Q7401200",
+   "name": "Saint Elias Cathedral",
+   "sl": 17,
+   "file": "Cathedral of Saint Elijah, Aleppo, Syria.jpg",
+   "lat": 36.2071,
+   "lon": 37.1558,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maronite Cathedral in Aleppo"
+  },
+  {
+   "id": "Q3399936",
+   "name": "Sayyidah Ruqayya Mosque",
+   "sl": 17,
+   "file": "Sayyidah Ruqayya Mosque 01.jpg",
+   "lat": 33.5133,
+   "lon": 36.3072,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sayyidah Ruqayya Mosque"
+  },
+  {
+   "id": "Q12694984",
+   "name": "Shayrat Air Base",
+   "sl": 17,
+   "file": "USS Ross 2017 Shayrat strike 170407-N-FQ994-031.jpg",
+   "lat": 34.49,
+   "lon": 36.9089,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q176458",
+   "name": "Til Barsip",
+   "sl": 17,
+   "file": "Villes assyriennes.PNG",
+   "lat": 36.674,
+   "lon": 38.121,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Til Barsip"
+  }
+ ]
+}

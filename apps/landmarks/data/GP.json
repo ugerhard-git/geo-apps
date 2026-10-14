@@ -1,0 +1,109 @@
+{
+ "country": "GP",
+ "items": [
+  {
+   "id": "Q1149310",
+   "name": "Soufrière",
+   "sl": 31,
+   "file": "Guadeloupe 114 - Sommet de la Soufrière 1467m - Guadeloupe.jpg",
+   "lat": 16.0438,
+   "lon": -61.6634,
+   "kind": "both",
+   "types": [
+    "highest point",
+    "lava dome",
+    "mountain",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soufrière (Guadeloupe)"
+  },
+  {
+   "id": "Q1156872",
+   "name": "Pointe-à-Pitre International Airport",
+   "sl": 24,
+   "file": "Guadeloupe (9).JPG",
+   "lat": 16.2642,
+   "lon": -61.5258,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pointe-à-Pitre International Airport"
+  },
+  {
+   "id": "Q1028479",
+   "name": "Guadeloupe National Park",
+   "sl": 23,
+   "file": "Guadeloupe 123 - Massif de la Soufrière 1467m - Chemin des bains jaunes.jpg",
+   "lat": 16.0833,
+   "lon": -61.6833,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guadeloupe National Park"
+  },
+  {
+   "id": "Q1017323",
+   "name": "Basse-Terre Cathedral",
+   "sl": 13,
+   "file": "Cathédrale Notre-Dame-de-Guadeloupe - Sept. 2013 (1).JPG",
+   "lat": 15.9958,
+   "lon": -61.7297,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame de Guadeloupe de Basse-Terre"
+  },
+  {
+   "id": "Q2967747",
+   "name": "Carbet Falls",
+   "sl": 13,
+   "file": "Chutesducarbet.jpg",
+   "lat": 16.0456,
+   "lon": -61.6522,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chutes du Carbet"
+  },
+  {
+   "id": "Q1152228",
+   "name": "Point of Castles",
+   "sl": 10,
+   "file": "Pointedeschateaux.jpg",
+   "lat": 16.2449,
+   "lon": -61.1753,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "peninsula"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pointe des Châteaux"
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "country": "GN",
+ "items": [
+  {
+   "id": "Q924276",
+   "name": "Mount Nimba Strict Nature Reserve",
+   "sl": 48,
+   "file": "Mount Nimba Strict Nature Reserve-123989.jpg",
+   "lat": 7.603,
+   "lon": -8.391,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "strict nature reserve",
+    "transboundary protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "CI"
+   ],
+   "cat": "Mount Nimba Strict Nature Reserve"
+  },
+  {
+   "id": "Q849129",
+   "name": "Mount Richard-Molard",
+   "sl": 37,
+   "file": "Mont Nimba 01.jpg",
+   "lat": 7.6226,
+   "lon": -8.4081,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CI"
+   ],
+   "cat": "Mont Nimba"
+  },
+  {
+   "id": "Q644978",
+   "name": "Ahmed Sékou Touré International Airport",
+   "sl": 29,
+   "file": "Entre de l'aéroport de Conakry.jpg",
+   "lat": 9.5769,
+   "lon": -13.6119,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ahmed Sékou Touré International Airport"
+  },
+  {
+   "id": "Q292625",
+   "name": "Îles de Los",
+   "sl": 18,
+   "file": "Los island SPOT 1386.jpg",
+   "lat": 9.4625,
+   "lon": -13.795,
+   "kind": "natural",
+   "types": [
+    "administrative territorial entity",
+    "island group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iles de Loos"
+  },
+  {
+   "id": "Q254925",
+   "name": "Grand Mosque of Conakry",
+   "sl": 16,
+   "file": "Mosquée faysale.jpg",
+   "lat": 9.5332,
+   "lon": -13.6841,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Mosque of Conakry"
+  },
+  {
+   "id": "Q5616476",
+   "name": "Guinea Highlands",
+   "sl": 16,
+   "file": "Guinea Highlands map.png",
+   "lat": 9.5,
+   "lon": -10,
+   "kind": "natural",
+   "types": [
+    "geographical feature",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LR"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2746420",
+   "name": "Mount Loura",
+   "sl": 16,
+   "file": "La Dame du Mali du Mont Loura.png",
+   "lat": 12.1122,
+   "lon": -12.2635,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont Loura"
+  },
+  {
+   "id": "Q2944459",
+   "name": "National Park of Upper Niger",
+   "sl": 15,
+   "file": "Savanna woodland in the National Park of Upper Niger.jpg",
+   "lat": 10.5,
+   "lon": -10.2,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Park of Upper Niger"
+  },
+  {
+   "id": "Q6417202",
+   "name": "Kissidougou Airport",
+   "sl": 14,
+   "file": "Kissidougou Airport Terminal.jpg",
+   "lat": 9.1694,
+   "lon": -10.1218,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aéroport de Kissidougou"
+  },
+  {
+   "id": "Q3031607",
+   "name": "Stade du 28 Septembre",
+   "sl": 14,
+   "file": "Over conakry (3326330162).jpg",
+   "lat": 9.5459,
+   "lon": -13.6729,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade 28 septembre"
+  },
+  {
+   "id": "Q3364507",
+   "name": "Badiar National Park",
+   "sl": 11,
+   "file": "Hippopotame au Parc national Badiar.jpg",
+   "lat": 12.6167,
+   "lon": -13.3167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parc national du Badiar"
+  },
+  {
+   "id": "Q6379883",
+   "name": "Kawass Airport",
+   "sl": 11,
+   "file": "Piste d'avion.jpg",
+   "lat": 10.651,
+   "lon": -14.5336,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kawass Airport"
+  },
+  {
+   "id": "Q1029766",
+   "name": "Camp Boiro",
+   "sl": 10,
+   "file": "Entre du camp Boiro cry.jpg",
+   "lat": 9.5369,
+   "lon": -13.6856,
+   "kind": "built",
+   "types": [
+    "Ilag"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3495980",
+   "name": "General Lansana Conté Stadium",
+   "sl": 10,
+   "file": "Supporteur du syli.jpg",
+   "lat": 9.6242,
+   "lon": -13.6267,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Général Lansana Conté"
+  },
+  {
+   "id": "Q37987",
+   "name": "Tinkisso Falls",
+   "sl": 10,
+   "file": "Chutes du Tinkisso (Guinée).jpg",
+   "lat": 10.7291,
+   "lon": -11.17,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q8071340",
+   "name": "Ziama Strict Nature Reserve",
+   "sl": 10,
+   "file": "Lowland rainforest of Ziama Massif.jpg",
+   "lat": 8.2834,
+   "lon": -9.3583,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "mountain range",
+    "protected area",
+    "UNESCO-MAB Biosphere Reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Massif de Ziama"
+  },
+  {
+   "id": "Q113553124",
+   "name": "Nadir crater",
+   "sl": 9,
+   "file": "Map and regional seismic sections showing location of Nadir Crater.jpg",
+   "lat": 9.395,
+   "lon": -17.08,
+   "kind": "natural",
+   "types": [
+    "impact crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nadir crater and impact"
+  },
+  {
+   "id": "Q46963910",
+   "name": "Souapiti Dam",
+   "sl": 9,
+   "file": "Vue du Barrage de Souapiti 2.jpg",
+   "lat": 10.4246,
+   "lon": -13.2513,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barrage de Souapiti"
+  },
+  {
+   "id": "Q3610513",
+   "name": "Palais du Peuple",
+   "sl": 8,
+   "file": "Conakry-palaisdupeuple.JPG",
+   "lat": 9.52,
+   "lon": -13.6923,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palais du peuple (Conakry)"
+  }
+ ]
+}

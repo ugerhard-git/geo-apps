@@ -1,0 +1,1365 @@
+{
+ "country": "AM",
+ "items": [
+  {
+   "id": "Q181932",
+   "name": "Lake Sevan",
+   "sl": 76,
+   "file": "Frozen Lake Sevan, ՎԱՍ.jpg",
+   "lat": 40.3106,
+   "lon": 45.3492,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Sevan"
+  },
+  {
+   "id": "Q203568",
+   "name": "Mount Aragats",
+   "sl": 69,
+   "file": "Mount Aragats 2020-05-11.jpg",
+   "lat": 40.5231,
+   "lon": 44.1953,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Aragats"
+  },
+  {
+   "id": "Q499285",
+   "name": "Geghard",
+   "sl": 52,
+   "file": "Monasterio de Geghard, Armenia, 2016-10-02, DD 63.jpg",
+   "lat": 40.1405,
+   "lon": 44.8186,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17155656",
+    "name": "Monastery of Geghard and the Upper Azat Valley"
+   },
+   "also": [],
+   "cat": "Geghard"
+  },
+  {
+   "id": "Q1294648",
+   "name": "Etchmiadzin Cathedral",
+   "sl": 49,
+   "file": "- 2026 Эчмиадзинский кафедральный собор 1-1.jpg",
+   "lat": 40.1619,
+   "lon": 44.291,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q22026170",
+    "name": "Cathedral and Churches of Echmiatsin and the Archaeological Site of Zvartnots"
+   },
+   "also": [],
+   "cat": "Etchmiadzin Cathedral"
+  },
+  {
+   "id": "Q1124922",
+   "name": "Zvartnots International Airport",
+   "sl": 48,
+   "file": "Zvartnots airport.jpg",
+   "lat": 40.1472,
+   "lon": 44.3958,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zvartnots International Airport"
+  },
+  {
+   "id": "Q1322278",
+   "name": "Matenadaran",
+   "sl": 47,
+   "file": "Matenadaran, Ereván, Armenia, 2016-10-03, DD 22.jpg",
+   "lat": 40.1921,
+   "lon": 44.5211,
+   "kind": "built",
+   "types": [
+    "archives",
+    "art museum",
+    "literary museum",
+    "matenadaran"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matenadaran"
+  },
+  {
+   "id": "Q1979112",
+   "name": "Blue Mosque",
+   "sl": 43,
+   "file": "Մզկիթ «Կապույտ» (Գյոյ մզկիթ), ArmAg.jpg",
+   "lat": 40.1781,
+   "lon": 44.5056,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Mosque, Yerevan"
+  },
+  {
+   "id": "Q684072",
+   "name": "Garni Temple",
+   "sl": 42,
+   "file": "Ancient temple in Garni.jpg",
+   "lat": 40.112,
+   "lon": 44.729,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "ruins",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Garni Temple"
+  },
+  {
+   "id": "Q1144626",
+   "name": "Khor Virap",
+   "sl": 42,
+   "file": "Monasterio Khor Virap, Armenia, 2016-10-01, DD 25.jpg",
+   "lat": 39.8783,
+   "lon": 44.5761,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khor Virap"
+  },
+  {
+   "id": "Q17054090",
+   "name": "Zvartnots Cathedral",
+   "sl": 40,
+   "file": "Zvartnots Cathedral ruins in Vagharshapat 2016.jpg",
+   "lat": 40.1597,
+   "lon": 44.3366,
+   "kind": "built",
+   "types": [
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zvartnots"
+  },
+  {
+   "id": "Q2423898",
+   "name": "Haghpat Monastery",
+   "sl": 39,
+   "file": "Monasterio de Haghpat, Armenia, 2016-09-30, DD 19.jpg",
+   "lat": 41.0937,
+   "lon": 44.7121,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16910825",
+    "name": "Monasteries of Haghpat and Sanahin"
+   },
+   "also": [],
+   "cat": "Haghpat Monastery"
+  },
+  {
+   "id": "Q1975614",
+   "name": "Sanahin Monastery",
+   "sl": 39,
+   "file": "Սանահին64.JPG",
+   "lat": 41.0872,
+   "lon": 44.6661,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16910825",
+    "name": "Monasteries of Haghpat and Sanahin"
+   },
+   "also": [],
+   "cat": "Sanahin Monastery"
+  },
+  {
+   "id": "Q2389195",
+   "name": "Mother Armenia",
+   "sl": 38,
+   "file": "Մայր Հայաստան հուշարձան.jpg",
+   "lat": 40.1953,
+   "lon": 44.5248,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mother Armenia Monument"
+  },
+  {
+   "id": "Q2584192",
+   "name": "Republic Square",
+   "sl": 38,
+   "file": "Yerevan, Republic Square of Yerevan, Armenia.jpg",
+   "lat": 40.1775,
+   "lon": 44.5126,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Republic Square of Yerevan"
+  },
+  {
+   "id": "Q683493",
+   "name": "Hrazdan Stadium",
+   "sl": 37,
+   "file": "Hrazdan Stadium 2013, Yerevan.jpg",
+   "lat": 40.1803,
+   "lon": 44.4944,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hrazdan Stadium"
+  },
+  {
+   "id": "Q2087788",
+   "name": "National Gallery of Armenia",
+   "sl": 36,
+   "file": "Plaza de la República, Ereván, Armenia, 2016-10-02, DD 113-114 HDR.jpg",
+   "lat": 40.1788,
+   "lon": 44.5142,
+   "kind": "built",
+   "types": [
+    "national gallery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery of Armenia"
+  },
+  {
+   "id": "Q154775",
+   "name": "Tsitsernakaberd",
+   "sl": 36,
+   "file": "Genocide Memorial complex from air on a sunny day, September 2017.jpg",
+   "lat": 40.1858,
+   "lon": 44.4881,
+   "kind": "built",
+   "types": [
+    "Armenian Genocide memorial",
+    "memorial",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsitsernakaberd"
+  },
+  {
+   "id": "Q1018734",
+   "name": "Byurakan Observatory",
+   "sl": 33,
+   "file": "Byurakan 2.jpg",
+   "lat": 40.3303,
+   "lon": 44.2733,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Byurakan Observatory"
+  },
+  {
+   "id": "Q1459459",
+   "name": "Republican Stadium",
+   "sl": 33,
+   "file": "Hanrapetakan stadium.jpg",
+   "lat": 40.1719,
+   "lon": 44.5258,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vazgen Sargsyan Republican Stadium"
+  },
+  {
+   "id": "Q1579525",
+   "name": "St. Hripsime",
+   "sl": 33,
+   "file": "St. Hripsime church in Vagharshapat msu-2018 11-2.jpg",
+   "lat": 40.167,
+   "lon": 44.3096,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q22026170",
+    "name": "Cathedral and Churches of Echmiatsin and the Archaeological Site of Zvartnots"
+   },
+   "also": [],
+   "cat": "St. Hripsime church, Vagharshapat"
+  },
+  {
+   "id": "Q2471326",
+   "name": "Lake Kari",
+   "sl": 32,
+   "file": "Lake Kari, ՎԱՍ.jpg",
+   "lat": 40.4736,
+   "lon": 44.1811,
+   "kind": "natural",
+   "types": [
+    "endorheic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Kari"
+  },
+  {
+   "id": "Q1431399",
+   "name": "Shirak International Airport",
+   "sl": 32,
+   "file": "Shirak Airport (exterior).jpg",
+   "lat": 40.7503,
+   "lon": 43.8592,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shirak Airport"
+  },
+  {
+   "id": "Q1984244",
+   "name": "Dilijan National Park",
+   "sl": 29,
+   "file": "Dilijan 115.jpg",
+   "lat": 40.6564,
+   "lon": 45.0214,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dilijan National Park"
+  },
+  {
+   "id": "Q2373326",
+   "name": "Yerevan Opera Theater",
+   "sl": 29,
+   "file": "Jerewan-Oper-msu-wlm-2435.jpg",
+   "lat": 40.1858,
+   "lon": 44.515,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Opera house of Yerevan"
+  },
+  {
+   "id": "Q935385",
+   "name": "Lake Arpi",
+   "sl": 28,
+   "file": "Արփի լիճ.jpg",
+   "lat": 41.0672,
+   "lon": 43.6301,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Arpi"
+  },
+  {
+   "id": "Q1450786",
+   "name": "Saint Gayane Church",
+   "sl": 28,
+   "file": "Surb Gayane Church.JPG",
+   "lat": 40.1575,
+   "lon": 44.2919,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q22026170",
+    "name": "Cathedral and Churches of Echmiatsin and the Archaeological Site of Zvartnots"
+   },
+   "also": [],
+   "cat": "Saint Gayane Church"
+  },
+  {
+   "id": "Q2940844",
+   "name": "Yerevan Cascade",
+   "sl": 28,
+   "file": "Yerevan-Cascade-02-2019-gje.jpg",
+   "lat": 40.1914,
+   "lon": 44.5155,
+   "kind": "built",
+   "types": [
+    "stairs"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cascade of Yerevan"
+  },
+  {
+   "id": "Q1138228",
+   "name": "History Museum of Armenia",
+   "sl": 27,
+   "file": "Armenia Museum of Art and History.jpg",
+   "lat": 40.1787,
+   "lon": 44.5142,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National History Museum of Armenia"
+  },
+  {
+   "id": "Q2360985",
+   "name": "Porak",
+   "sl": 27,
+   "file": "PorakVolcano.jpg",
+   "lat": 40.02,
+   "lon": 45.78,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AZ"
+   ],
+   "cat": "Porak"
+  },
+  {
+   "id": "Q2942349",
+   "name": "Saint Gregory the Illuminator Cathedral",
+   "sl": 27,
+   "file": "2014 Erywań, Katedra św. Grzegorza Oświeciciela (05).jpg",
+   "lat": 40.1719,
+   "lon": 44.5167,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Yerevan"
+  },
+  {
+   "id": "Q1474586",
+   "name": "Noravank",
+   "sl": 26,
+   "file": "IMG -Noravanq.jpg",
+   "lat": 39.6849,
+   "lon": 45.2329,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "cultural property",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Noravank"
+  },
+  {
+   "id": "Q4176210",
+   "name": "Yerevan",
+   "sl": 26,
+   "file": "Հուշարձան Սասունցի Դավիթ 04.JPG",
+   "lat": 40.1554,
+   "lon": 44.5085,
+   "kind": "built",
+   "types": [
+    "central station",
+    "cultural property",
+    "interchange station",
+    "last station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yerevan train station"
+  },
+  {
+   "id": "Q766455",
+   "name": "Sevanavank",
+   "sl": 25,
+   "file": "Sevanavanq5.jpg",
+   "lat": 40.5639,
+   "lon": 45.0108,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sevanavank"
+  },
+  {
+   "id": "Q1195993",
+   "name": "Teishebaini",
+   "sl": 25,
+   "file": "Karmir Blur Hill.JPG",
+   "lat": 40.1539,
+   "lon": 44.4511,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teishebaini"
+  },
+  {
+   "id": "Q3108672",
+   "name": "Yerevan Zoo",
+   "sl": 25,
+   "file": "Yerevan Zoo 1.jpg",
+   "lat": 40.196,
+   "lon": 44.5505,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yerevan Zoo"
+  },
+  {
+   "id": "Q1728783",
+   "name": "Mount Kaputjugh",
+   "sl": 24,
+   "file": "Kaputdzukh 1991.jpg",
+   "lat": 39.15,
+   "lon": 46,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AZ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1407311",
+   "name": "Yerevan TV Tower",
+   "sl": 24,
+   "file": "TV Tower Yerevan.jpg",
+   "lat": 40.1713,
+   "lon": 44.5362,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yerevan TV Tower"
+  },
+  {
+   "id": "Q5500627",
+   "name": "Freedom Square",
+   "sl": 23,
+   "file": "Yerevan, Yerevan Opera, Armenian Academic Opera and Ballet Theater, Armenia.jpg",
+   "lat": 40.1854,
+   "lon": 44.5152,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Freedom Square, Yerevan"
+  },
+  {
+   "id": "Q1076666",
+   "name": "Khosrov State Reserve",
+   "sl": 23,
+   "file": "Անտառ.jpg",
+   "lat": 39.8167,
+   "lon": 44.8333,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khosrov Forest State Reserve"
+  },
+  {
+   "id": "Q457057",
+   "name": "Amberd",
+   "sl": 22,
+   "file": "Amberd 2015.jpg",
+   "lat": 40.3887,
+   "lon": 44.2265,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "fortress",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amberd"
+  },
+  {
+   "id": "Q3741772",
+   "name": "Karabakh Plateau",
+   "sl": 22,
+   "file": "Вид на крепость Качахакаберд из селения Колатак,2.JPG",
+   "lat": 39.584,
+   "lon": 46.1761,
+   "kind": "natural",
+   "types": [
+    "highland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AZ"
+   ],
+   "cat": "Karabakh Plateau"
+  },
+  {
+   "id": "Q7453721",
+   "name": "Sergei Parajanov Museum",
+   "sl": 22,
+   "file": "Sergei Parajanov Museum.jpg",
+   "lat": 40.1788,
+   "lon": 44.5001,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "biographical museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sergei Parajanov Museum"
+  },
+  {
+   "id": "Q1007510",
+   "name": "Areni-1 cave complex",
+   "sl": 21,
+   "file": "Areni-1 cave panorama.jpg",
+   "lat": 39.7314,
+   "lon": 45.2036,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Areni-1"
+  },
+  {
+   "id": "Q706215",
+   "name": "Artaxata",
+   "sl": 21,
+   "file": "ARTAXATA antique Franck Devedjian fecit 2017.jpg",
+   "lat": 39.8866,
+   "lon": 44.5794,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Artaxata"
+  },
+  {
+   "id": "Q2150879",
+   "name": "Azhdahak",
+   "sl": 21,
+   "file": ".Աժդահակ 07.jpg",
+   "lat": 40.2258,
+   "lon": 44.9473,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azhdahak"
+  },
+  {
+   "id": "Q2471370",
+   "name": "Haghtanak bridge",
+   "sl": 21,
+   "file": "Victory bridge.jpg",
+   "lat": 40.1749,
+   "lon": 44.4994,
+   "kind": "built",
+   "types": [
+    "bridge",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Victory Bridge (Yerevan)"
+  },
+  {
+   "id": "Q1124949",
+   "name": "Karen Demirchyan Complex",
+   "sl": 21,
+   "file": "Karen Demirchyan Sports and Concerts Complex shot from air, May 2019.jpg",
+   "lat": 40.1881,
+   "lon": 44.4833,
+   "kind": "built",
+   "types": [
+    "arena",
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karen Demirchyan Complex"
+  },
+  {
+   "id": "Q1438571",
+   "name": "Lake Sev",
+   "sl": 21,
+   "file": "Lake Sev 02 (cropped).jpg",
+   "lat": 39.5981,
+   "lon": 46.2317,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AZ"
+   ],
+   "cat": "Sev Lake"
+  },
+  {
+   "id": "Q2874203",
+   "name": "Northern Avenue",
+   "sl": 21,
+   "file": "Yerevan, Northern Avenue, Armenia.jpg",
+   "lat": 40.1822,
+   "lon": 44.5147,
+   "kind": "built",
+   "types": [
+    "prospekt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Northern Avenue"
+  },
+  {
+   "id": "Q6378421",
+   "name": "Sevan National Park",
+   "sl": 21,
+   "file": "Lake Sevan.jpg",
+   "lat": 40.3461,
+   "lon": 45.3344,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sevan National Park"
+  },
+  {
+   "id": "Q2248633",
+   "name": "Shoghakat Church",
+   "sl": 21,
+   "file": "Shoghakat.jpg",
+   "lat": 40.1681,
+   "lon": 44.3049,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q22026170",
+    "name": "Cathedral and Churches of Echmiatsin and the Archaeological Site of Zvartnots"
+   },
+   "also": [],
+   "cat": "St. Shoghakat church"
+  },
+  {
+   "id": "Q2479712",
+   "name": "Zorats Karer",
+   "sl": 21,
+   "file": "Aerial view of Zorats Karer, June 2022 cropped.jpg",
+   "lat": 39.5507,
+   "lon": 46.0286,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural property",
+    "stone circle",
+    "stone row"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zorats Karer"
+  },
+  {
+   "id": "Q2583875",
+   "name": "Khustup",
+   "sl": 20,
+   "file": "Mount Khustup - Խուստուփ լեռ 08.jpg",
+   "lat": 39.1356,
+   "lon": 46.3314,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khustup"
+  },
+  {
+   "id": "Q104868770",
+   "name": "Quba Mere Diwane",
+   "sl": 20,
+   "file": "Jezida templo en aknaliĉo.jpg",
+   "lat": 40.1402,
+   "lon": 44.1618,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Quba Mêrê Dîwanê"
+  },
+  {
+   "id": "Q3107472",
+   "name": "Red Bridge",
+   "sl": 20,
+   "file": "Renovated Red Bridge, Yerevan 01.jpg",
+   "lat": 40.1716,
+   "lon": 44.4999,
+   "kind": "built",
+   "types": [
+    "bridge",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Red Bridge (Yerevan)"
+  },
+  {
+   "id": "Q20517733",
+   "name": "Armenian Railways Museum",
+   "sl": 19,
+   "file": "Հայաստանի երկաթուղու թանգարան (4).jpg",
+   "lat": 40.1558,
+   "lon": 44.5086,
+   "kind": "built",
+   "types": [
+    "railway museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Railway Museum (Armenia)"
+  },
+  {
+   "id": "Q12073345",
+   "name": "Erivan Fortress",
+   "sl": 19,
+   "file": "Երևանի բերդ 02.JPG",
+   "lat": 40.1731,
+   "lon": 44.5028,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yerevan Fortress"
+  },
+  {
+   "id": "Q429012",
+   "name": "Goshavank",
+   "sl": 19,
+   "file": "Goshavank3.jpg",
+   "lat": 40.7299,
+   "lon": 44.9977,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goshavank"
+  },
+  {
+   "id": "Q3499859",
+   "name": "Gyumri City Stadium",
+   "sl": 19,
+   "file": "Gyumri City Stadium.jpg",
+   "lat": 40.7858,
+   "lon": 43.8333,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gyumri City Stadium"
+  },
+  {
+   "id": "Q2315006",
+   "name": "Lake Parz",
+   "sl": 19,
+   "file": "Պարզ լիճ, Դիլիջան» ազգային պարկ 01.jpg",
+   "lat": 40.7514,
+   "lon": 44.9606,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parz Lake"
+  },
+  {
+   "id": "Q4068356",
+   "name": "Mount Ara",
+   "sl": 19,
+   "file": "Ara Mountain from aircraft - July 2020.jpg",
+   "lat": 40.4056,
+   "lon": 44.4522,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Ara"
+  },
+  {
+   "id": "Q3848929",
+   "name": "Smbataberd",
+   "sl": 19,
+   "file": "Гтыы28-10-22-01-30-1.jpg",
+   "lat": 39.8717,
+   "lon": 45.3381,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Smbataberd"
+  },
+  {
+   "id": "Q2463289",
+   "name": "Yererouk",
+   "sl": 19,
+   "file": "Yererouk Basilica 20-11-2010.jpg",
+   "lat": 40.44,
+   "lon": 43.6092,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yererouk Basilica"
+  },
+  {
+   "id": "Q8052580",
+   "name": "Yerevan History Museum",
+   "sl": 19,
+   "file": "Yerevan History Museum 21 (cropped).jpg",
+   "lat": 40.1743,
+   "lon": 44.5034,
+   "kind": "built",
+   "types": [
+    "history museum",
+    "local museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yerevan History Museum"
+  },
+  {
+   "id": "Q2382948",
+   "name": "Akhtala monastery",
+   "sl": 18,
+   "file": "Akhtala Monastery.jpg",
+   "lat": 41.1506,
+   "lon": 44.7641,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akhtala monastery"
+  },
+  {
+   "id": "Q3457705",
+   "name": "Akhurian Reservoir",
+   "sl": 18,
+   "file": "Ախուրյանի ջրամբարը12.jpg",
+   "lat": 40.6051,
+   "lon": 43.6924,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TR"
+   ],
+   "cat": "Akhurian Reservoir"
+  },
+  {
+   "id": "Q13052201",
+   "name": "Armavir",
+   "sl": 18,
+   "file": "Արմավիրի բլուր.jpg",
+   "lat": 40.0819,
+   "lon": 44.0333,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Armavir (ancient city)"
+  },
+  {
+   "id": "Q3915253",
+   "name": "Erebuni Museum",
+   "sl": 18,
+   "file": "2014 Erywań, Erebuni, Muzeum Erebuni, Budynek muzeum (02).jpg",
+   "lat": 40.1411,
+   "lon": 44.5353,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erebuni Museum"
+  },
+  {
+   "id": "Q3114751",
+   "name": "Great Bridge of Hrazdan",
+   "sl": 18,
+   "file": "Hrazdan bridge.JPG",
+   "lat": 40.1914,
+   "lon": 44.4822,
+   "kind": "built",
+   "types": [
+    "bridge",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Bridge of Hrazdan"
+  },
+  {
+   "id": "Q2606479",
+   "name": "Haghartsin Monastery",
+   "sl": 18,
+   "file": "Haghartsin Monastery 03.JPG",
+   "lat": 40.8018,
+   "lon": 44.8907,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Haghartsin Monastery"
+  },
+  {
+   "id": "Q3849046",
+   "name": "Saint Sarkis Cathedral",
+   "sl": 18,
+   "file": "St.Sarqis.jpg",
+   "lat": 40.177,
+   "lon": 44.5021,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Sarkis Cathedral, Yerevan"
+  },
+  {
+   "id": "Q1144630",
+   "name": "Shikahogh State Preserve",
+   "sl": 18,
+   "file": "Shikahogh state reserve, Syunik, Armenia.jpg",
+   "lat": 39.05,
+   "lon": 46.4,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shikahogh State Reserve"
+  },
+  {
+   "id": "Q894635",
+   "name": "Yerevan Botanical Garden",
+   "sl": 18,
+   "file": "Երևանի բուսաբանական այգի, ArmAg (8).jpg",
+   "lat": 40.2108,
+   "lon": 44.5571,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Botanical garden of Yerevan"
+  },
+  {
+   "id": "Q4663779",
+   "name": "Abbas Mirza Mosque, Yerevan",
+   "sl": 17,
+   "file": "Почтовая карточкаЭривань1917.jpg",
+   "lat": 40.1721,
+   "lon": 44.5035,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abbas Mirza Mosque"
+  },
+  {
+   "id": "Q14923810",
+   "name": "Baghramyan Avenue",
+   "sl": 17,
+   "file": "A view of Baghramyan Avenue in June 2023.jpg",
+   "lat": 40.1922,
+   "lon": 44.5041,
+   "kind": "built",
+   "types": [
+    "prospekt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baghramyan Avenue"
+  },
+  {
+   "id": "Q13054764",
+   "name": "Church of the Holy Saviour",
+   "sl": 17,
+   "file": "Holy Saviour's Church, Gyumri, Armenia.jpg",
+   "lat": 40.7842,
+   "lon": 43.8414,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Saviour Church, Gyumri"
+  },
+  {
+   "id": "Q1775328",
+   "name": "Hayravank Monastery",
+   "sl": 17,
+   "file": "Հայրավանք 112.jpg",
+   "lat": 40.4327,
+   "lon": 45.1079,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hayravank monastery"
+  },
+  {
+   "id": "Q645513",
+   "name": "Kobayr monastery",
+   "sl": 17,
+   "file": "Kobayr Monastery. Refectory and bell tower.jpg",
+   "lat": 41.0051,
+   "lon": 44.6351,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kobayr"
+  },
+  {
+   "id": "Q2599335",
+   "name": "Mount Achkasar",
+   "sl": 17,
+   "file": "Achkasar2.jpg",
+   "lat": 41.1564,
+   "lon": 43.9592,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Achkasar"
+  },
+  {
+   "id": "Q4028246",
+   "name": "Russian 102nd Military Base",
+   "sl": 17,
+   "file": "NASA FIRMS 2025-07-06 Gyumri.png",
+   "lat": 40.79,
+   "lon": 43.8257,
+   "kind": "built",
+   "types": [
+    "military base",
+    "military unit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "102nd Russian Military Base"
+  }
+ ]
+}

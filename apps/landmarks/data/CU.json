@@ -1,0 +1,1224 @@
+{
+ "country": "CU",
+ "items": [
+  {
+   "id": "Q762570",
+   "name": "Guantanamo Bay Naval Base",
+   "sl": 44,
+   "file": "Gitmo Aerial.jpg",
+   "lat": 19.9175,
+   "lon": -75.16,
+   "kind": "both",
+   "types": [
+    "concession",
+    "disputed territory",
+    "naval base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naval Station Guantanamo Bay"
+  },
+  {
+   "id": "Q48153",
+   "name": "Alexander von Humboldt National Park",
+   "sl": 43,
+   "file": "Alejandro de Humboldt National Park.jpg",
+   "lat": 20.4967,
+   "lon": -74.8579,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Alejandro de Humboldt National Park"
+  },
+  {
+   "id": "Q48108",
+   "name": "Viñales Valley",
+   "sl": 42,
+   "file": "Viñales Valley.jpg",
+   "lat": 22.6167,
+   "lon": -83.7167,
+   "kind": "natural",
+   "types": [
+    "nature area",
+    "valley"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Viñales Valley"
+  },
+  {
+   "id": "Q381677",
+   "name": "José Martí International Airport",
+   "sl": 39,
+   "file": "Aeroport de l'Havana.jpg",
+   "lat": 22.9889,
+   "lon": -82.4089,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "José Martí International Airport"
+  },
+  {
+   "id": "Q909755",
+   "name": "Desembarco del Granma National Park",
+   "sl": 38,
+   "file": "Cascada en El Nicho.jpg",
+   "lat": 19.8833,
+   "lon": -77.6333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Desembarco del Granma"
+  },
+  {
+   "id": "Q910189",
+   "name": "Castillo de San Pedro de la Roca",
+   "sl": 36,
+   "file": "Castillo del Morro by Glogg 4.jpg",
+   "lat": 19.9687,
+   "lon": -75.8703,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Castillo del Morro (Santiago de Cuba)"
+  },
+  {
+   "id": "Q1145743",
+   "name": "Pico Turquino",
+   "sl": 34,
+   "file": "PicoTurquino.jpg",
+   "lat": 19.9894,
+   "lon": -76.8358,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Turquino"
+  },
+  {
+   "id": "Q671602",
+   "name": "USS Maine",
+   "sl": 34,
+   "file": "USS Maine entering Havana harbor HD-SN-99-01929.JPEG",
+   "lat": 23.2025,
+   "lon": -82.355,
+   "kind": "built",
+   "types": [
+    "pre-dreadnought battleship",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "USS Maine (ship, 1895)"
+  },
+  {
+   "id": "Q844875",
+   "name": "Valle de los Ingenios",
+   "sl": 31,
+   "file": "Valle de los ingenios2.jpg",
+   "lat": 21.8414,
+   "lon": -79.8581,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15819677",
+    "name": "Trinidad and the Valley de los Ingenios"
+   },
+   "also": [],
+   "cat": "Valle de los Ingenios"
+  },
+  {
+   "id": "Q1946569",
+   "name": "Che Guevara Mausoleum",
+   "sl": 26,
+   "file": "Che Guevara - Grab in Santa Clara, Kuba.jpg",
+   "lat": 22.4026,
+   "lon": -79.9794,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Che Guevara Mausoleum"
+  },
+  {
+   "id": "Q15043487",
+   "name": "Havana Cathedral",
+   "sl": 24,
+   "file": "La Havane cathedrale face.JPG",
+   "lat": 23.1414,
+   "lon": -82.3519,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Havana"
+  },
+  {
+   "id": "Q1352908",
+   "name": "El Capitolio",
+   "sl": 22,
+   "file": "Capitolio full.jpg",
+   "lat": 23.1353,
+   "lon": -82.3594,
+   "kind": "built",
+   "types": [
+    "capitol building",
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Capitolio, La Habana"
+  },
+  {
+   "id": "Q555863",
+   "name": "Juan Gualberto Gómez Airport",
+   "sl": 22,
+   "file": "Juan Gualberto Gómez Airport overview Idaszak.jpg",
+   "lat": 23.0344,
+   "lon": -81.4353,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juan Gualberto Gómez Airport"
+  },
+  {
+   "id": "Q1781364",
+   "name": "Museum of the Revolution",
+   "sl": 22,
+   "file": "Museum of Revolution Cuba.jpg",
+   "lat": 23.1417,
+   "lon": -82.3567,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of the Revolution"
+  },
+  {
+   "id": "Q5951909",
+   "name": "Zapata Swamp National Park",
+   "sl": 22,
+   "file": "Zapata swamp.JPG",
+   "lat": 22.3333,
+   "lon": -81.6167,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "swamp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zapata Swamp"
+  },
+  {
+   "id": "Q1757628",
+   "name": "San Carlos de la Cabaña Fortress",
+   "sl": 21,
+   "file": "Cabanaramparts.jpg",
+   "lat": 23.1472,
+   "lon": -82.35,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65121255",
+    "name": "Old Havana and its Fortification System"
+   },
+   "also": [],
+   "cat": "Fortaleza de San Carlos de la Cabaña"
+  },
+  {
+   "id": "Q1049302",
+   "name": "Castillo de la Real Fuerza",
+   "sl": 20,
+   "file": "La Habana 1983 02.jpg",
+   "lat": 23.141,
+   "lon": -82.3498,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castillo de la Real Fuerza de La Habana"
+  },
+  {
+   "id": "Q12597",
+   "name": "Malecón",
+   "sl": 20,
+   "file": "Havana malecon (cropped).jpg",
+   "lat": 23.1417,
+   "lon": -82.3681,
+   "kind": "built",
+   "types": [
+    "boulevard",
+    "seafront"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Malecón"
+  },
+  {
+   "id": "Q1076178",
+   "name": "Moncada Barracks",
+   "sl": 20,
+   "file": "60 aniversario del asalto al Cuartel Moncada (9375788996).jpg",
+   "lat": 20.0264,
+   "lon": -75.8192,
+   "kind": "built",
+   "types": [
+    "building",
+    "Monumento Nacional de Cuba"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moncada Barracks"
+  },
+  {
+   "id": "Q2095161",
+   "name": "Presidio Modelo",
+   "sl": 20,
+   "file": "Presidio Modelo.JPG",
+   "lat": 21.8778,
+   "lon": -82.7664,
+   "kind": "built",
+   "types": [
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidio Modelo"
+  },
+  {
+   "id": "Q527031",
+   "name": "Frank País Airport",
+   "sl": 19,
+   "file": "Airport Holguin.JPG",
+   "lat": 20.7886,
+   "lon": -76.3057,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Frank País Airport"
+  },
+  {
+   "id": "Q1461939",
+   "name": "Gran Teatro de La Habana",
+   "sl": 19,
+   "file": "The Great Theatre of Havana (Gran Teatro de La Habana).jpg",
+   "lat": 23.1368,
+   "lon": -82.3596,
+   "kind": "built",
+   "types": [
+    "galician center",
+    "opera house",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gran Teatro de La Habana"
+  },
+  {
+   "id": "Q2895532",
+   "name": "Jardines del Rey Airport",
+   "sl": 19,
+   "file": "2023-04 CCC airport 16.jpg",
+   "lat": 22.4611,
+   "lon": -78.3286,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jardines del Rey Airport"
+  },
+  {
+   "id": "Q1432764",
+   "name": "Antonio Maceo Airport",
+   "sl": 18,
+   "file": "Cubana in SdC.JPG",
+   "lat": 19.97,
+   "lon": -75.8356,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antonio Maceo Airport"
+  },
+  {
+   "id": "Q3086164",
+   "name": "Ignacio Agramonte International Airport",
+   "sl": 18,
+   "file": "Camagüey Airport entrance, July 2016.jpg",
+   "lat": 21.4203,
+   "lon": -77.8475,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ignacio Agramonte International Airport"
+  },
+  {
+   "id": "Q3496664",
+   "name": "Abel Santamaría Airport",
+   "sl": 17,
+   "file": "Abel Santamaria Airport.jpg",
+   "lat": 22.4922,
+   "lon": -79.9436,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abel Santamaría Airport"
+  },
+  {
+   "id": "Q2915936",
+   "name": "Hotel Nacional de Cuba",
+   "sl": 17,
+   "file": "Havana - National Hotel.jpg",
+   "lat": 23.1431,
+   "lon": -82.3806,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Nacional de Cuba"
+  },
+  {
+   "id": "Q3646815",
+   "name": "Gustavo Rizo Airport",
+   "sl": 16,
+   "file": "Gustavo Rizo Airport, Nov 2008.jpg",
+   "lat": 20.3653,
+   "lon": -74.5061,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gustavo Rizo Airport"
+  },
+  {
+   "id": "Q635199",
+   "name": "Morro Castle",
+   "sl": 15,
+   "file": "El Moro Havanna Cuba.jpg",
+   "lat": 23.1504,
+   "lon": -82.3567,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65121255",
+    "name": "Old Havana and its Fortification System"
+   },
+   "also": [],
+   "cat": "Castillo de los Tres Reyes del Morro"
+  },
+  {
+   "id": "Q869807",
+   "name": "Christ of Havana",
+   "sl": 14,
+   "file": "CristoHavana.jpg",
+   "lat": 23.1439,
+   "lon": -82.345,
+   "kind": "built",
+   "types": [
+    "colossal statue of Jesus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christ of Havana"
+  },
+  {
+   "id": "Q1324721",
+   "name": "El Yunque, Cuba",
+   "sl": 14,
+   "file": "El Yunque Baracoa Cuba.jpg",
+   "lat": 20.3522,
+   "lon": -74.5739,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Yunque (Cuba)"
+  },
+  {
+   "id": "Q3505324",
+   "name": "Vilo Acuña Airport",
+   "sl": 14,
+   "file": "Aeropuerto Vilo Acuna.JPG",
+   "lat": 21.6161,
+   "lon": -81.5456,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vilo Acuña Airport"
+  },
+  {
+   "id": "Q2902044",
+   "name": "Jaime González Airport",
+   "sl": 13,
+   "file": "Airport sign, Cienfuegos, Cuba. (11805417135).jpg",
+   "lat": 22.15,
+   "lon": -80.3975,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jaime González Airport"
+  },
+  {
+   "id": "Q1779837",
+   "name": "National Museum of Fine Arts of Cuba",
+   "sl": 13,
+   "file": "Palacio del Centro Asturiano.jpg",
+   "lat": 23.1315,
+   "lon": -82.355,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo Nacional de Bellas Artes (Cuba)"
+  },
+  {
+   "id": "Q6058329",
+   "name": "Palace of the Revolution",
+   "sl": 13,
+   "file": "Comité Central PCC.jpg",
+   "lat": 23.1207,
+   "lon": -82.3873,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio de la Revolución"
+  },
+  {
+   "id": "Q5658948",
+   "name": "Playa Baracoa Airport",
+   "sl": 13,
+   "file": "300ac - Aerogaviota Antonov 26; CU-T1432@BCA;23.06.2004 (4753019309).jpg",
+   "lat": 23.0328,
+   "lon": -82.5794,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Playa Baracoa Airport"
+  },
+  {
+   "id": "Q1431065",
+   "name": "Cayo Coco Airport",
+   "sl": 12,
+   "file": "Alter Flugplatz auf Cayo Coco, Kuba.jpg",
+   "lat": 22.5133,
+   "lon": -78.51,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cayo Coco Airport"
+  },
+  {
+   "id": "Q1369571",
+   "name": "Estadio Pedro Marrero",
+   "sl": 12,
+   "file": "Estadio Pedro Marrero.JPG",
+   "lat": 23.1073,
+   "lon": -82.4128,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Pedro Marrero"
+  },
+  {
+   "id": "Q1324135",
+   "name": "Floridita",
+   "sl": 12,
+   "file": "Floridita bar, Havana, Cuba 1.jpg",
+   "lat": 23.1373,
+   "lon": -82.3573,
+   "kind": "built",
+   "types": [
+    "bar",
+    "restaurant"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Floridita"
+  },
+  {
+   "id": "Q1144587",
+   "name": "John Lennon Park",
+   "sl": 12,
+   "file": "John Lennon Statue in Cuba.png",
+   "lat": 23.1319,
+   "lon": -82.4003,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "John Lennon Park in Havana"
+  },
+  {
+   "id": "Q1708874",
+   "name": "José Martí Memorial",
+   "sl": 12,
+   "file": "Jose Marti memorial (3214220586).jpg",
+   "lat": 23.1221,
+   "lon": -82.3864,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Memorial José Martí, Havana"
+  },
+  {
+   "id": "Q4703397",
+   "name": "Basilica Menor de San Francisco de Asis",
+   "sl": 11,
+   "file": "Plaza de San Francisco, Havana, Cuba.jpg",
+   "lat": 23.1369,
+   "lon": -82.3483,
+   "kind": "built",
+   "types": [
+    "discontinued post office",
+    "former church building",
+    "Franciscan friary",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica Menor de San Francisco de Asis (Havana)"
+  },
+  {
+   "id": "Q2917523",
+   "name": "Castillo de Jagua",
+   "sl": 11,
+   "file": "Jagua 5843.JPG",
+   "lat": 22.0667,
+   "lon": -80.4667,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fortaleza de Jagua"
+  },
+  {
+   "id": "Q18425275",
+   "name": "Hotel Saratoga, Havana",
+   "sl": 11,
+   "file": "Hotel Saratoga, Havana, Cuba.jpg",
+   "lat": 23.1336,
+   "lon": -82.3581,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Saratoga (Havana)"
+  },
+  {
+   "id": "Q1420792",
+   "name": "Hotel Tryp Habana Libre",
+   "sl": 11,
+   "file": "Hotel Habana Libre.jpg",
+   "lat": 23.1392,
+   "lon": -82.3828,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "hotel building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Havana Libre"
+  },
+  {
+   "id": "Q1286641",
+   "name": "Laguna de Leche",
+   "sl": 11,
+   "file": "Cuba Laguna de la Leche.jpg",
+   "lat": 22.2092,
+   "lon": -78.6214,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7101650",
+   "name": "Orestes Acosta Airport",
+   "sl": 11,
+   "file": "Moa - Rolo - Aeropuerto - 2008 - panoramio.jpg",
+   "lat": 20.6539,
+   "lon": -74.9222,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q611031",
+   "name": "Baconao",
+   "sl": 10,
+   "file": "Baconao 294A9444 Stgo Cuba.jpg",
+   "lat": 19.8,
+   "lon": -75.31,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Baconao"
+  },
+  {
+   "id": "Q11737322",
+   "name": "Cathedral Basilica of Our Lady of the Assumption, Santiago de Cuba",
+   "sl": 10,
+   "file": "Santiago de Cuba - The Cathedral 01.jpg",
+   "lat": 20.0206,
+   "lon": -75.8294,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral Nuestra Señora de la Asunción (Santiago de Cuba)"
+  },
+  {
+   "id": "Q1369326",
+   "name": "Estadio Latinoamericano",
+   "sl": 10,
+   "file": "La Habana - Estadio Latinoamericano.jpg",
+   "lat": 23.1183,
+   "lon": -82.3761,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Latinoamericano"
+  },
+  {
+   "id": "Q3058822",
+   "name": "Estadio Panamericano",
+   "sl": 10,
+   "file": "Estadio Panamericano Cuba.png",
+   "lat": 23.1575,
+   "lon": -82.3167,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Panamericano"
+  },
+  {
+   "id": "Q5449801",
+   "name": "Finca Vigía",
+   "sl": 10,
+   "file": "Finca La Vigía.jpg",
+   "lat": 23.0677,
+   "lon": -82.2964,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hemingway House"
+  },
+  {
+   "id": "Q2920340",
+   "name": "San Salvador de la Punta Fortress",
+   "sl": 10,
+   "file": "San Salvador de la Punta Fortress.JPG",
+   "lat": 23.1463,
+   "lon": -82.3577,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castillo de San Salvador de la Punta"
+  },
+  {
+   "id": "Q2451393",
+   "name": "Tren Blindado",
+   "sl": 10,
+   "file": "Tren Blindado memorial in Santa Clara (inside park).jpg",
+   "lat": 22.4098,
+   "lon": -79.9603,
+   "kind": "built",
+   "types": [
+    "national monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tren Blindado"
+  },
+  {
+   "id": "Q1783672",
+   "name": "Tropicana",
+   "sl": 10,
+   "file": "Havana - Tropicana Night Club (1955).jpg",
+   "lat": 23.0942,
+   "lon": -82.4189,
+   "kind": "built",
+   "types": [
+    "cabaret",
+    "nightclub"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tropicana Club (Havana)"
+  },
+  {
+   "id": "Q4711997",
+   "name": "Alberto Delgado Airport",
+   "sl": 9,
+   "file": "Alberto Delgado airport entrance.jpg",
+   "lat": 21.7883,
+   "lon": -79.9972,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alberto Delgado airport"
+  },
+  {
+   "id": "Q2425162",
+   "name": "Bodeguita del medio",
+   "sl": 9,
+   "file": "2012-01-01-Havano (Foto Dietrich Michael Weidmann) 062.JPG",
+   "lat": 23.1408,
+   "lon": -82.3522,
+   "kind": "built",
+   "types": [
+    "bar",
+    "restaurant"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bodeguita del medio"
+  },
+  {
+   "id": "Q3296322",
+   "name": "Cape Cruz",
+   "sl": 9,
+   "file": "Faro de Cabo Cruz.jpg",
+   "lat": 19.8418,
+   "lon": -77.7279,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11737311",
+   "name": "Our Lady of Candelaria Cathedral",
+   "sl": 9,
+   "file": "Iglesia Catedral de Nuestra Señora de la Candelaria - 01.jpg",
+   "lat": 21.3787,
+   "lon": -77.9183,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Nuestra Señora de la Candelaria (Camagüey)"
+  },
+  {
+   "id": "Q3844986",
+   "name": "Palacio de los Capitanes Generales",
+   "sl": 9,
+   "file": "Habana - Plaza de Armas II.jpg",
+   "lat": 23.14,
+   "lon": -82.3503,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio de los Capitanes Generales"
+  },
+  {
+   "id": "Q19185462",
+   "name": "Pan de Guajaibón",
+   "sl": 9,
+   "file": "Pan de Guajaibón (4).jpg",
+   "lat": 22.789,
+   "lon": -83.3645,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pan de Guajaibón"
+  },
+  {
+   "id": "Q3279672",
+   "name": "Paseo del Prado (Havana)",
+   "sl": 9,
+   "file": "Havana - Marti or Prado Promenade 3.jpg",
+   "lat": 23.1402,
+   "lon": -82.359,
+   "kind": "built",
+   "types": [
+    "avenue",
+    "promenade"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paseo del Prado (Havana)"
+  },
+  {
+   "id": "Q7203695",
+   "name": "Plaza de la Catedral",
+   "sl": 9,
+   "file": "Plaza de la Catedral of Havana (Jan 2014).jpg",
+   "lat": 23.1409,
+   "lon": -82.3516,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza de la Catedral, Havana"
+  },
+  {
+   "id": "Q60826781",
+   "name": "Plaza de la Revolución",
+   "sl": 9,
+   "file": "Plaza de la Revolution.jpg",
+   "lat": 23.1224,
+   "lon": -82.3867,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza de la Revolución (Havana)"
+  },
+  {
+   "id": "Q3647899",
+   "name": "Sierra del Rosario",
+   "sl": 9,
+   "file": "Mirador de Soroa.jpg",
+   "lat": 22.73,
+   "lon": -83.3,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sierra del Rosario"
+  },
+  {
+   "id": "Q3495158",
+   "name": "Turquino National Park",
+   "sl": 9,
+   "file": "2012-02-19 001 IMG 9529.JPG",
+   "lat": 19.9894,
+   "lon": -76.8358,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Turquino"
+  },
+  {
+   "id": "Q4868427",
+   "name": "Basílica Santuario Nacional de Nuestra Señora de la Caridad del Cobre",
+   "sl": 8,
+   "file": "Iglesia El Cobre Santiago de Cuba 2.jpg",
+   "lat": 20.0508,
+   "lon": -75.949,
+   "kind": "built",
+   "types": [
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basílica Santuario Nacional de Nuestra Señora de la Caridad del Cobre"
+  },
+  {
+   "id": "Q5050352",
+   "name": "Castle del Príncipe",
+   "sl": 8,
+   "file": "El Castillo del Principe, Havana, Cuba.jpg",
+   "lat": 23.131,
+   "lon": -82.386,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65121255",
+    "name": "Old Havana and its Fortification System"
+   },
+   "also": [],
+   "cat": "Castillo del Principe (Havana)"
+  },
+  {
+   "id": "Q3545062",
+   "name": "Havana Central railway station",
+   "sl": 8,
+   "file": "Havana - Central Railway Station 2.jpg",
+   "lat": 23.1297,
+   "lon": -82.3553,
+   "kind": "built",
+   "types": [
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Havana Central train station"
+  },
+  {
+   "id": "Q4884594",
+   "name": "Hotel \"Ambos Mundos\"",
+   "sl": 8,
+   "file": "Ambos-mundos.jpg",
+   "lat": 23.1394,
+   "lon": -82.3506,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Ambos-Mundos"
+  },
+  {
+   "id": "Q6978918",
+   "name": "National Theater of Cuba",
+   "sl": 8,
+   "file": "TeatroNacional de Cuba.JPG",
+   "lat": 23.1255,
+   "lon": -82.3882,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teatro Nacional de Cuba"
+  },
+  {
+   "id": "Q2035783",
+   "name": "Our Lady of Kazan Orthodox Cathedral",
+   "sl": 8,
+   "file": "Gavana rus cathedral.JPG",
+   "lat": 23.1349,
+   "lon": -82.3472,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Our Lady of Kazan church in Havana"
+  },
+  {
+   "id": "Q4499680",
+   "name": "Plaza Vieja",
+   "sl": 8,
+   "file": "Plaza Vieja in Havana.jpg",
+   "lat": 23.1361,
+   "lon": -82.3501,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza Vieja, Havana"
+  }
+ ]
+}

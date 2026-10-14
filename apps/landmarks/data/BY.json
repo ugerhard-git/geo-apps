@@ -1,0 +1,1347 @@
+{
+ "country": "BY",
+ "items": [
+  {
+   "id": "Q192666",
+   "name": "Białowieża Forest",
+   "sl": 63,
+   "file": "Wisent.jpg",
+   "lat": 52.75,
+   "lon": 23.95,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "forest",
+    "nature reserve",
+    "old-growth forest"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Białowieża Forest"
+  },
+  {
+   "id": "Q777855",
+   "name": "Minsk National Airport",
+   "sl": 51,
+   "file": "Parking lot of Minsk National Airport (2).jpg",
+   "lat": 53.8825,
+   "lon": 28.0325,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minsk National Airport"
+  },
+  {
+   "id": "Q209643",
+   "name": "Mir Castle Complex",
+   "sl": 49,
+   "file": "Mir Castle 2018.jpg",
+   "lat": 53.4513,
+   "lon": 26.4729,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mir Castle Complex"
+  },
+  {
+   "id": "Q719422",
+   "name": "Nesvizh Castle",
+   "sl": 47,
+   "file": "Замак-палац у Нясьвіжы знутры.jpg",
+   "lat": 53.2229,
+   "lon": 26.6917,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fortress",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278712",
+    "name": "Architectural, Residential and Cultural Complex of the Radziwill Family at Nesvizh"
+   },
+   "also": [],
+   "cat": "Niasviž Castle Complex"
+  },
+  {
+   "id": "Q23868",
+   "name": "Brest Fortress",
+   "sl": 45,
+   "file": "BrestFortress7.JPG",
+   "lat": 52.0833,
+   "lon": 23.6528,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "fortification system",
+    "fortress",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brest Fortress"
+  },
+  {
+   "id": "Q921447",
+   "name": "Dziaržynkaja hara",
+   "sl": 43,
+   "file": "Dziaržynskaja hara.jpg",
+   "lat": 53.8486,
+   "lon": 27.0658,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dziaržynskaja hara"
+  },
+  {
+   "id": "Q13469680",
+   "name": "Belavezhskaya Pushcha National Park",
+   "sl": 38,
+   "file": "Тропинка в Беловежской пуще.jpg",
+   "lat": 52.44,
+   "lon": 23.82,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q192666",
+    "name": "Białowieża Forest"
+   },
+   "also": [],
+   "cat": "Bielaviežskaja Pušča National Park"
+  },
+  {
+   "id": "Q863096",
+   "name": "Minsk-Arena",
+   "sl": 37,
+   "file": "Continental Cup 2011, Junost - Red Bull.JPG",
+   "lat": 53.9365,
+   "lon": 27.4829,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minsk-Arena"
+  },
+  {
+   "id": "Q747554",
+   "name": "Narač",
+   "sl": 36,
+   "file": "Narač - 4.jpg",
+   "lat": 54.8525,
+   "lon": 26.7497,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Narač Lake"
+  },
+  {
+   "id": "Q1130487",
+   "name": "Dinamo Stadium",
+   "sl": 35,
+   "file": "Interior view of Dynamo Stadium (Minsk, Belarus) — Внутренний вид стадиона Динамо (Минск, Беларусь) 2018 2.jpg",
+   "lat": 53.8951,
+   "lon": 27.5603,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dynama Stadium, Minsk"
+  },
+  {
+   "id": "Q597311",
+   "name": "Drūkšiai",
+   "sl": 34,
+   "file": "Drūkšiai001.JPG",
+   "lat": 55.6219,
+   "lon": 26.5825,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LT"
+   ],
+   "cat": "Drūkšiai Lake"
+  },
+  {
+   "id": "Q316109",
+   "name": "Maly Trostenets",
+   "sl": 34,
+   "file": "Trascianiec extermination camp 27.jpg",
+   "lat": 53.8511,
+   "lon": 27.7047,
+   "kind": "built",
+   "types": [
+    "extermination camp",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trascianiec extermination camp"
+  },
+  {
+   "id": "Q4439085",
+   "name": "Borisov Arena",
+   "sl": 33,
+   "file": "Barysaw Barysaw-Arena 1.jpg",
+   "lat": 54.1928,
+   "lon": 28.4757,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Borisov Arena"
+  },
+  {
+   "id": "Q770907",
+   "name": "Augustów Canal",
+   "sl": 32,
+   "file": "Gorczyca sluzowanie 2.jpg",
+   "lat": 53.8667,
+   "lon": 22.9667,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Augustów Canal"
+  },
+  {
+   "id": "Q13470393",
+   "name": "Braslaw Lakes National Park",
+   "sl": 32,
+   "file": "Strusta - Majak - Brasłauski rajon - 6.jpg",
+   "lat": 55.5961,
+   "lon": 27.0539,
+   "kind": "natural",
+   "types": [
+    "cultural institution",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Braslaŭ Lakes"
+  },
+  {
+   "id": "Q1425651",
+   "name": "Kyiv Reservoir",
+   "sl": 30,
+   "file": "Landsat Kiev Water Reservoir1.JPG",
+   "lat": 50.9064,
+   "lon": 30.4994,
+   "kind": "both",
+   "types": [
+    "geographical feature",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UA"
+   ],
+   "cat": "Kyiv Reservoir"
+  },
+  {
+   "id": "Q9708",
+   "name": "Kurapaty",
+   "sl": 29,
+   "file": "Kurapaty.jpg",
+   "lat": 53.9655,
+   "lon": 27.6113,
+   "kind": "built",
+   "types": [
+    "cemetery",
+    "forest",
+    "historic site",
+    "place of mass murder"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kurapaty"
+  },
+  {
+   "id": "Q1419589",
+   "name": "Merkys",
+   "sl": 29,
+   "file": "Merkys - panoramio.jpg",
+   "lat": 54.1564,
+   "lon": 24.1853,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LT"
+   ],
+   "cat": "Merkys"
+  },
+  {
+   "id": "Q1742825",
+   "name": "Church of Saints Simon and Helena",
+   "sl": 28,
+   "file": "Belarus-Minsk-Church of Simon and Helena-3.jpg",
+   "lat": 53.8965,
+   "lon": 27.5475,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Saints Simon and Helena, Minsk"
+  },
+  {
+   "id": "Q1232916",
+   "name": "Dnieper–Bug Canal",
+   "sl": 27,
+   "file": "Селішча. Дняпроўска-Бугскі канал. Водападзел (15).jpg",
+   "lat": 52.0572,
+   "lon": 25.6517,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dnieper–Bug Canal"
+  },
+  {
+   "id": "Q27546",
+   "name": "Gomel Airport",
+   "sl": 27,
+   "file": "Gomel Airport Bubin.jpg",
+   "lat": 52.5269,
+   "lon": 31.0167,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gomel Airport"
+  },
+  {
+   "id": "Q2470661",
+   "name": "Narachanski National Park",
+   "sl": 27,
+   "file": "Narač - 6.jpg",
+   "lat": 54.85,
+   "lon": 26.7333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naračanski National Park"
+  },
+  {
+   "id": "Q2043162",
+   "name": "Polesie State Radioecological Reserve",
+   "sl": 27,
+   "file": "КПП Бабчин ПГРЭЗ Беларусь.jpg",
+   "lat": 51.65,
+   "lon": 29.9833,
+   "kind": "natural",
+   "types": [
+    "nature reserve in Belarus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Polesie State Radioecological Reserve"
+  },
+  {
+   "id": "Q2584571",
+   "name": "Belarusian National Arts Museum",
+   "sl": 26,
+   "file": "Нацыянальны мастацкі музэй Рэспублікі Беларусь.jpg",
+   "lat": 53.8983,
+   "lon": 27.5606,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Arts Museum of the Republic of Belarus"
+  },
+  {
+   "id": "Q27048",
+   "name": "Brest Airport",
+   "sl": 26,
+   "file": "Brest Airport.jpg",
+   "lat": 52.1083,
+   "lon": 23.8981,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brest Airport"
+  },
+  {
+   "id": "Q1637149",
+   "name": "Cathedral of the Holy Name of Saint Virgin Mary",
+   "sl": 26,
+   "file": "Minsk Catholic Mary church.jpg",
+   "lat": 53.9031,
+   "lon": 27.5546,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Catholic church building",
+    "Jesuit church",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Archcathedral of Name of the Blessed Virgin Mary, Minsk"
+  },
+  {
+   "id": "Q2588857",
+   "name": "Holy Spirit Cathedral",
+   "sl": 26,
+   "file": "Holy Spirit Cathedral in Minsk.jpg",
+   "lat": 53.905,
+   "lon": 27.5561,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Holy Spirit in Minsk"
+  },
+  {
+   "id": "Q1967977",
+   "name": "National Academy of Sciences of Belarus",
+   "sl": 26,
+   "file": "Belarus-Minsk-Academy of Sciences-1.jpg",
+   "lat": 53.9205,
+   "lon": 27.5986,
+   "kind": "built",
+   "types": [
+    "academy of sciences",
+    "building of public administration"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Academy of Sciences of Belarus"
+  },
+  {
+   "id": "Q2465016",
+   "name": "Saint Sophia Cathedral in Polotsk",
+   "sl": 26,
+   "file": "Modern photos of Cathedral of Saint Sophia in Polotsk.jpg",
+   "lat": 55.4863,
+   "lon": 28.7586,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building",
+    "Eastern Orthodox church building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Saint Sophia in Polack"
+  },
+  {
+   "id": "Q2630583",
+   "name": "St. Francis Xavier Cathedral, Grodno",
+   "sl": 25,
+   "file": "Гродно. Кафедральный собор Святого Франциска Ксаверия - panoramio.jpg",
+   "lat": 53.6782,
+   "lon": 23.8311,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Saint Francis Xavier, Hrodna"
+  },
+  {
+   "id": "Q2986701",
+   "name": "Kaloža Church",
+   "sl": 24,
+   "file": "Гродно Коложская церковь 05.jpg",
+   "lat": 53.6784,
+   "lon": 23.8186,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Eastern Orthodox church building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaloža Church"
+  },
+  {
+   "id": "Q2786026",
+   "name": "Kreva Castle",
+   "sl": 24,
+   "file": "Крэва. Закансервананая вежа замка.jpg",
+   "lat": 54.3093,
+   "lon": 26.2825,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kreva Castle"
+  },
+  {
+   "id": "Q2634748",
+   "name": "Lida Castle",
+   "sl": 24,
+   "file": "Ліда. Лідскі замак.jpg",
+   "lat": 53.8872,
+   "lon": 25.3028,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lida Castle"
+  },
+  {
+   "id": "Q3917680",
+   "name": "Pripyatsky National Park",
+   "sl": 24,
+   "file": "Заливной луг, Национальный парк \"Припятский\".jpg",
+   "lat": 52,
+   "lon": 28,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pripyatsky National Park"
+  },
+  {
+   "id": "Q1250696",
+   "name": "Oginski Canal",
+   "sl": 23,
+   "file": "Oginski canal.jpg",
+   "lat": 52.2703,
+   "lon": 25.9303,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oginski Canal"
+  },
+  {
+   "id": "Q1591054",
+   "name": "Ruzhany Palace",
+   "sl": 23,
+   "file": "Палац Сапегаў, Ружаны.jpg",
+   "lat": 52.86,
+   "lon": 24.896,
+   "kind": "built",
+   "types": [
+    "palace",
+    "palace complex"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sapieha Palace in Ružany"
+  },
+  {
+   "id": "Q2382013",
+   "name": "Asviejskaje Lake",
+   "sl": 22,
+   "file": "Aśviejskaje - 3.jpg",
+   "lat": 56.0525,
+   "lon": 28.1517,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asviejskaje Lake"
+  },
+  {
+   "id": "Q1506120",
+   "name": "Belarusian Ridge",
+   "sl": 22,
+   "file": "Lagekarte Weißrussischer Höhenrücken.png",
+   "lat": 53.8739,
+   "lon": 26.9858,
+   "kind": "natural",
+   "types": [
+    "roost"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belarusian Ridge"
+  },
+  {
+   "id": "Q27049",
+   "name": "Hrodna Airport",
+   "sl": 22,
+   "file": "Grodno airport.jpg",
+   "lat": 53.6019,
+   "lon": 24.0539,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hrodna Airport"
+  },
+  {
+   "id": "Q27217",
+   "name": "Mogilev Airport",
+   "sl": 22,
+   "file": "Аэродромы и терминалы-ВПП, Могилев RP128908.jpg",
+   "lat": 53.955,
+   "lon": 30.095,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1710170",
+   "name": "Tower of Kamianiec",
+   "sl": 22,
+   "file": "Камянецкая вежа.jpg",
+   "lat": 52.4048,
+   "lon": 23.8195,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "Volynskaya tower"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tower of Kamianiec"
+  },
+  {
+   "id": "Q2468464",
+   "name": "Navahrudak Castle",
+   "sl": 21,
+   "file": "Наваградскія краявіды ў чэрвені 2020 (18).jpg",
+   "lat": 53.6015,
+   "lon": 25.8277,
+   "kind": "built",
+   "types": [
+    "castle",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Navahradak Castle"
+  },
+  {
+   "id": "Q2073524",
+   "name": "Belarusian Great Patriotic War Museum",
+   "sl": 20,
+   "file": "Minsk Kriegsmuseum.JPG",
+   "lat": 53.9163,
+   "lon": 27.5379,
+   "kind": "built",
+   "types": [
+    "military museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Great Patriotic War, Minsk"
+  },
+  {
+   "id": "Q2380353",
+   "name": "Čyrvonaje",
+   "sl": 20,
+   "file": "Lake Chervonoye 2018-05-04 Sentinel-2 L2A True color.jpg",
+   "lat": 52.4052,
+   "lon": 27.9723,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1373238",
+   "name": "Minsk-1 Airport",
+   "sl": 20,
+   "file": "Kastryčnicki Raion, Minsk, Belarus - panoramio (20).jpg",
+   "lat": 53.8644,
+   "lon": 27.5397,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minsk-1 Airport"
+  },
+  {
+   "id": "Q2659535",
+   "name": "Old Grodno Castle",
+   "sl": 20,
+   "file": "Hrodna Old Castle 2023-06-25 5510.jpg",
+   "lat": 53.677,
+   "lon": 23.823,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hrodna Old Castle"
+  },
+  {
+   "id": "Q747280",
+   "name": "Dryviaty",
+   "sl": 19,
+   "file": "Dryviaty - 4.jpg",
+   "lat": 55.6163,
+   "lon": 27.0281,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dryviaty Lake"
+  },
+  {
+   "id": "Q2380408",
+   "name": "Lukomskaje",
+   "sl": 19,
+   "file": "Lake Lukomlskaye.jpg",
+   "lat": 54.6653,
+   "lon": 29.0889,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lukomskaje Lake"
+  },
+  {
+   "id": "Q2380940",
+   "name": "Strusta",
+   "sl": 19,
+   "file": "Strusta - Majak - Brasłauski rajon - 6.jpg",
+   "lat": 55.7,
+   "lon": 27.0167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Strusta Lake"
+  },
+  {
+   "id": "Q6315031",
+   "name": "Cathedral Basilica of the Assumption of the Blessed Virgin Mary",
+   "sl": 18,
+   "file": "Cathedral of Name of the Blessed Virgin Mary, Pinsk.JPG",
+   "lat": 52.1129,
+   "lon": 26.1083,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Catholic church building",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Name of the Blessed Virgin Mary, Pinsk"
+  },
+  {
+   "id": "Q4350644",
+   "name": "Chizhovka-Arena",
+   "sl": 17,
+   "file": "CzechRepublic-Italy 140514 2-0.jpg",
+   "lat": 53.845,
+   "lon": 27.629,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chizhovka-Arena"
+  },
+  {
+   "id": "Q2656838",
+   "name": "Kosava Castle",
+   "sl": 17,
+   "file": "KosauskiZamak001.Jpeg",
+   "lat": 52.7656,
+   "lon": 25.1217,
+   "kind": "built",
+   "types": [
+    "castle",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kosava Castle"
+  },
+  {
+   "id": "Q980065",
+   "name": "Snudy",
+   "sl": 17,
+   "file": "Пейзаж с лодками на озере Снуды.jpg",
+   "lat": 55.75,
+   "lon": 27.05,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Snudy Lake"
+  },
+  {
+   "id": "Q2635425",
+   "name": "Victory Square",
+   "sl": 17,
+   "file": "Victory square, Minsk 01.jpg",
+   "lat": 53.9085,
+   "lon": 27.5748,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pieramohi Square, Minsk"
+  },
+  {
+   "id": "Q2662312",
+   "name": "Vyhanaščanskaje",
+   "sl": 17,
+   "file": "LakeVigonoshanskoe.JPG",
+   "lat": 52.6842,
+   "lon": 25.9472,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vyhanaščanskaje Lake"
+  },
+  {
+   "id": "Q2034395",
+   "name": "Belarusian National History and Culture Museum",
+   "sl": 16,
+   "file": "Belarus-Minsk-National museum of history and culture of Belarus-Entrance.jpg",
+   "lat": 53.8967,
+   "lon": 27.5556,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Historical Museum of Belarus"
+  },
+  {
+   "id": "Q2987057",
+   "name": "Svir Lake",
+   "sl": 16,
+   "file": "Свір. Возера Свір (04).jpg",
+   "lat": 54.8069,
+   "lon": 26.4744,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Svir Lake"
+  },
+  {
+   "id": "Q2661079",
+   "name": "Central Stadium",
+   "sl": 15,
+   "file": "Стадион Центральный в Гомеле.JPG",
+   "lat": 52.4365,
+   "lon": 31.0124,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Centraĺny Stadium, Gomel"
+  },
+  {
+   "id": "Q4235752",
+   "name": "Church of the Assumption of Mary in Budslaŭ",
+   "sl": 15,
+   "file": "Budslaŭ, church.jpg",
+   "lat": 54.7869,
+   "lon": 27.4514,
+   "kind": "built",
+   "types": [
+    "Catholic church building",
+    "minor basilica",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Assumption of Mary in Budslaŭ"
+  },
+  {
+   "id": "Q2665045",
+   "name": "Great Synagogue",
+   "sl": 15,
+   "file": "Grodno Wielka Synagoga 03.jpg",
+   "lat": 53.6778,
+   "lon": 23.8295,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Synagogue in Grodno"
+  },
+  {
+   "id": "Q1995558",
+   "name": "Independence Square, Minsk",
+   "sl": 15,
+   "file": "Miensk - Plac Niezaležnaści.jpg",
+   "lat": 53.8956,
+   "lon": 27.5478,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Niezaliežnasci square, Minsk"
+  },
+  {
+   "id": "Q2376115",
+   "name": "Minsk Zoo",
+   "sl": 15,
+   "file": "Minsk-zoo-2009.jpg",
+   "lat": 53.8506,
+   "lon": 27.6347,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minsk Zoo"
+  },
+  {
+   "id": "Q167247",
+   "name": "Mound of Glory",
+   "sl": 15,
+   "file": "Glory Mound - panoramio.jpg",
+   "lat": 54.0186,
+   "lon": 27.8983,
+   "kind": "both",
+   "types": [
+    "burial mound",
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Mound of Glory"
+  },
+  {
+   "id": "Q268433",
+   "name": "New Grodno Castle",
+   "sl": 15,
+   "file": "Новы замак(Гародня) 1.jpg",
+   "lat": 53.6761,
+   "lon": 23.8254,
+   "kind": "built",
+   "types": [
+    "castle",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hrodna New Castle"
+  },
+  {
+   "id": "Q3919037",
+   "name": "Nieščarda",
+   "sl": 15,
+   "file": "Belarus-Nyashchedra Lake.jpg",
+   "lat": 55.9022,
+   "lon": 29.0675,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nieščarda Lake"
+  },
+  {
+   "id": "Q1429567",
+   "name": "Yanka Kupala National Academic Theatre",
+   "sl": 15,
+   "file": "Nacyjanalny akademičny teatar imia Janki Kupały.JPG",
+   "lat": 53.9008,
+   "lon": 27.5628,
+   "kind": "built",
+   "types": [
+    "cultural institution",
+    "organization",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yanka Kupala National Academic Theatre"
+  },
+  {
+   "id": "Q2499504",
+   "name": "Berestye Archeological Museum",
+   "sl": 14,
+   "file": "Брэсцкая крэпасць у чэрвені 2020. Музей «Бярэсце» (58).jpg",
+   "lat": 52.08,
+   "lon": 23.6547,
+   "kind": "built",
+   "types": [
+    "archaeological museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biarescie Archeological Museum"
+  },
+  {
+   "id": "Q819159",
+   "name": "Bereza Kartuska prison",
+   "sl": 14,
+   "file": "Place of Isolation at Bereza Kartuska.jpg",
+   "lat": 52.5311,
+   "lon": 24.9606,
+   "kind": "built",
+   "types": [
+    "concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bereza Kartuska prison"
+  },
+  {
+   "id": "Q2657165",
+   "name": "Church of St. Michael in Synkavičy",
+   "sl": 14,
+   "file": "Сынковичи Церковь Святого Михаила 01.jpg",
+   "lat": 53.1231,
+   "lon": 25.157,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Eastern Orthodox church building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Saint Michael Archangel in Synkavičy"
+  },
+  {
+   "id": "Q1532456",
+   "name": "Corpus Christi Church in Niasviž",
+   "sl": 14,
+   "file": "Нясвіж. Касцёл Божага Цела. 2022.jpg",
+   "lat": 53.2207,
+   "lon": 26.6837,
+   "kind": "built",
+   "types": [
+    "Catholic church building",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Corpus Christi in Niasviž"
+  },
+  {
+   "id": "Q2384554",
+   "name": "Gomel Palace",
+   "sl": 14,
+   "file": "Палацава-паркавы комплекс ў Гомелі. Фасад палаца.jpg",
+   "lat": 52.4222,
+   "lon": 31.0164,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Paskievičs, Gomel"
+  },
+  {
+   "id": "Q384834",
+   "name": "Haradski Stadium",
+   "sl": 14,
+   "file": "WestStand1.JPG",
+   "lat": 54.2224,
+   "lon": 28.4903,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "City Stadium, Barysaŭ"
+  },
+  {
+   "id": "Q2662436",
+   "name": "Neman Stadium",
+   "sl": 14,
+   "file": "Стадыён \"Нёман\" 9585.jpg",
+   "lat": 53.6889,
+   "lon": 23.8208,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nioman Central Sport Complex"
+  },
+  {
+   "id": "Q2567982",
+   "name": "Pischalauski Castle",
+   "sl": 14,
+   "file": "Piszczalauski castle (Miensk, Bielarus) bXX 01.jpg",
+   "lat": 53.8989,
+   "lon": 27.5481,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piščalaŭski Castle"
+  },
+  {
+   "id": "Q2662439",
+   "name": "Ryčy",
+   "sl": 14,
+   "file": "Вид на озеро Ричу.jpg",
+   "lat": 55.7,
+   "lon": 26.7,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LV"
+   ],
+   "cat": "Riču ezers"
+  },
+  {
+   "id": "Q3508102",
+   "name": "Wolpa Synagogue",
+   "sl": 14,
+   "file": "Wolpa Synagogue (1930).JPG",
+   "lat": 53.3644,
+   "lon": 24.3657,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Synagogue in Voŭpa"
+  },
+  {
+   "id": "Q393977",
+   "name": "Bohinskaje",
+   "sl": 13,
+   "file": "Lake Boginskoe Belarus.jpg",
+   "lat": 55.4,
+   "lon": 26.8167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bohinskaje Lake"
+  },
+  {
+   "id": "Q2493529",
+   "name": "Doŭhaje Lake",
+   "sl": 13,
+   "file": "Доўгае возера ў Глыбокім.jpg",
+   "lat": 55.2259,
+   "lon": 28.1748,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doŭhaje Lake, Hlybokaje District"
+  },
+  {
+   "id": "Q13668666",
+   "name": "Independence Palace, Minsk",
+   "sl": 13,
+   "file": "Belorussia 48.jpg",
+   "lat": 53.9267,
+   "lon": 27.5256,
+   "kind": "built",
+   "types": [
+    "official residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Palace, Minsk"
+  },
+  {
+   "id": "Q1194106",
+   "name": "Liepieĺ Lake",
+   "sl": 13,
+   "file": "Lake Lepel Belarus.jpg",
+   "lat": 54.9222,
+   "lon": 28.7006,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liepieĺ Lake"
+  }
+ ]
+}

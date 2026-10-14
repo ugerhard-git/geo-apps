@@ -1,0 +1,1347 @@
+{
+ "country": "CY",
+ "items": [
+  {
+   "id": "Q385086",
+   "name": "Khirokitia",
+   "sl": 49,
+   "file": "Khirokitia2.jpg",
+   "lat": 34.7967,
+   "lon": 33.3437,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Khirokitia"
+  },
+  {
+   "id": "Q654636",
+   "name": "Larnaca International Airport",
+   "sl": 45,
+   "file": "LCA Terminal outside.jpg",
+   "lat": 34.8789,
+   "lon": 33.6303,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Larnaca International Airport"
+  },
+  {
+   "id": "Q2047700",
+   "name": "Lala Mustafa Pasha Mosque",
+   "sl": 44,
+   "file": "Famagusta 01-2017 img14 Lala Mustafa Pasha Mosque.jpg",
+   "lat": 35.1249,
+   "lon": 33.9427,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lala Mustafa Pasha Mosque (Saint Nicholas Cathedral, Famagusta)"
+  },
+  {
+   "id": "Q819979",
+   "name": "Mount Olympus",
+   "sl": 43,
+   "file": "Troodos mountains.jpg",
+   "lat": 34.9367,
+   "lon": 32.8639,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Olympus, Cyprus"
+  },
+  {
+   "id": "Q767089",
+   "name": "Salamis",
+   "sl": 41,
+   "file": "Salamis.jpg",
+   "lat": 35.1751,
+   "lon": 33.9036,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "City-kingdom of Cyprus",
+    "historical country",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salamis (Cyprus)"
+  },
+  {
+   "id": "Q1476251",
+   "name": "Saint Sophia Cathedral",
+   "sl": 40,
+   "file": "Nicosia 01-2017 img20 View from Shacolas Tower.jpg",
+   "lat": 35.1764,
+   "lon": 33.3644,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building",
+    "mosque",
+    "secularized church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Selimiye Mosque (former St. Sophie Cathedral)"
+  },
+  {
+   "id": "Q1050707",
+   "name": "Paphos International Airport",
+   "sl": 39,
+   "file": "Paphos International Airport Check-in Hall.jpg",
+   "lat": 34.7183,
+   "lon": 32.485,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paphos International Airport"
+  },
+  {
+   "id": "Q607230",
+   "name": "Ercan International Airport",
+   "sl": 35,
+   "file": "Ercan Uluslararası Havalimanı.jpg",
+   "lat": 35.1596,
+   "lon": 33.4884,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ercan International Airport"
+  },
+  {
+   "id": "Q462702",
+   "name": "Painted Churches in the Troödos Region",
+   "sl": 35,
+   "file": "Pedoulas Konstantin.jpg",
+   "lat": 34.9203,
+   "lon": 33.0958,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Painted Churches in the Troodos Region"
+  },
+  {
+   "id": "Q592491",
+   "name": "GSP Stadium",
+   "sl": 33,
+   "file": "GSP Stadium in Nicosia (Omonoia - Manchester City).jpg",
+   "lat": 35.1145,
+   "lon": 33.3629,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "GSP Stadium"
+  },
+  {
+   "id": "Q1271457",
+   "name": "Kantara Castle",
+   "sl": 32,
+   "file": "Kantara castle 8.JPG",
+   "lat": 35.4064,
+   "lon": 33.9233,
+   "kind": "built",
+   "types": [
+    "crusader castle",
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kantara Castle"
+  },
+  {
+   "id": "Q1743884",
+   "name": "Kition",
+   "sl": 32,
+   "file": "ANCIENT KITION, LARNACA, CYPRUS.jpg",
+   "lat": 34.9233,
+   "lon": 33.6305,
+   "kind": "built",
+   "types": [
+    "City-kingdom of Cyprus",
+    "historical country",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kition"
+  },
+  {
+   "id": "Q1785592",
+   "name": "Kourion",
+   "sl": 32,
+   "file": "Episkopi 01-2017 img11 Kourion.jpg",
+   "lat": 34.6642,
+   "lon": 32.8877,
+   "kind": "built",
+   "types": [
+    "City-kingdom of Cyprus",
+    "historical country",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kourion"
+  },
+  {
+   "id": "Q1432185",
+   "name": "Nicosia International Airport",
+   "sl": 32,
+   "file": "Cyprus - Nicosia airport front.JPG",
+   "lat": 35.15,
+   "lon": 33.2772,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nicosia International Airport"
+  },
+  {
+   "id": "Q1570185",
+   "name": "Hala Sultan Tekke",
+   "sl": 30,
+   "file": "Larnaca 01-2017 img30 Salt Lake.jpg",
+   "lat": 34.8853,
+   "lon": 33.61,
+   "kind": "built",
+   "types": [
+    "külliye",
+    "mosque",
+    "Sufi lodge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hala Sultan Tekke"
+  },
+  {
+   "id": "Q1148462",
+   "name": "Cyprus Museum",
+   "sl": 28,
+   "file": "Nicosia 01-2017 img28 Cyprus Museum.jpg",
+   "lat": 35.1717,
+   "lon": 33.3553,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cyprus museum (Nicosia)"
+  },
+  {
+   "id": "Q634112",
+   "name": "Church of Saint Lazarus, Larnaca",
+   "sl": 27,
+   "file": "Agios Lazaros, Larnaca (3).jpg",
+   "lat": 34.9117,
+   "lon": 33.6347,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St Lazarus Cathedral, Larnaca"
+  },
+  {
+   "id": "Q1672526",
+   "name": "Cape Greco",
+   "sl": 26,
+   "file": "FamagustaDistrict 01-2017 img10 Cape Greco.jpg",
+   "lat": 35,
+   "lon": 34.0167,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Greco"
+  },
+  {
+   "id": "Q225373",
+   "name": "Kykkos Monastery",
+   "sl": 26,
+   "file": "Kykkos monastery from the air.jpg",
+   "lat": 34.9839,
+   "lon": 32.7411,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kykkos Monastery"
+  },
+  {
+   "id": "Q1408931",
+   "name": "Kyrenia Castle",
+   "sl": 26,
+   "file": "Kyrenia Castle aerial view, Turkish Republic of North Cyprus 6.png",
+   "lat": 35.3416,
+   "lon": 33.3224,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kyrenia castle"
+  },
+  {
+   "id": "Q2302532",
+   "name": "Saint Hilarion Castle",
+   "sl": 26,
+   "file": "Hilarion kasteel.jpg",
+   "lat": 35.3121,
+   "lon": 33.2811,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Hilarion Castle"
+  },
+  {
+   "id": "Q2343313",
+   "name": "Amathus",
+   "sl": 25,
+   "file": "Amathus.jpg",
+   "lat": 34.7124,
+   "lon": 33.1303,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "City-kingdom of Cyprus",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amathus"
+  },
+  {
+   "id": "Q301376",
+   "name": "Buffavento Castle",
+   "sl": 25,
+   "file": "Voufavento castle.jpg",
+   "lat": 35.2875,
+   "lon": 33.41,
+   "kind": "built",
+   "types": [
+    "castle ruin",
+    "crusader castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buffavento castle"
+  },
+  {
+   "id": "Q1637084",
+   "name": "Cape Apostolos Andreas",
+   "sl": 25,
+   "file": "Cape Apostolos Andreas 1.JPG",
+   "lat": 35.695,
+   "lon": 34.5867,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Apostolos Andreas"
+  },
+  {
+   "id": "Q2505824",
+   "name": "Paphos Castle",
+   "sl": 24,
+   "file": "Paphos March 2013 471 (10126818234).jpg",
+   "lat": 34.7537,
+   "lon": 32.407,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Paphos"
+  },
+  {
+   "id": "Q2061165",
+   "name": "Petra tou Romiou",
+   "sl": 24,
+   "file": "Roca de Afrodita, Chipre, 2021-12-10, DD 65.jpg",
+   "lat": 34.6635,
+   "lon": 32.627,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Petra Tou Romiou"
+  },
+  {
+   "id": "Q1757296",
+   "name": "Soli",
+   "sl": 24,
+   "file": "Amphitheater Soli C.jpg",
+   "lat": 35.1404,
+   "lon": 32.8126,
+   "kind": "built",
+   "types": [
+    "City-kingdom of Cyprus",
+    "historical country",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soloi"
+  },
+  {
+   "id": "Q2332172",
+   "name": "Büyük Han",
+   "sl": 22,
+   "file": "Gran Posada, Nicosia Norte, Chipre del Norte, 2021-12-13, DD 37-39 HDR.jpg",
+   "lat": 35.1763,
+   "lon": 33.3625,
+   "kind": "built",
+   "types": [
+    "caravanserai"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Büyük Han"
+  },
+  {
+   "id": "Q580797",
+   "name": "Larnaca Castle",
+   "sl": 22,
+   "file": "Cyprus - Larnacacastle 1.JPG",
+   "lat": 34.9105,
+   "lon": 33.6377,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Larnaca castle"
+  },
+  {
+   "id": "Q2578745",
+   "name": "Apostolos Andreas Monastery",
+   "sl": 21,
+   "file": "Apostolos Andreas Monastery seaside.jpg",
+   "lat": 35.6594,
+   "lon": 34.5714,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apostolos Andreas Monastery"
+  },
+  {
+   "id": "Q1584818",
+   "name": "Kolossi Castle",
+   "sl": 21,
+   "file": "Kolossi Castle 01.JPG",
+   "lat": 34.665,
+   "lon": 32.9342,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kolossi Castle"
+  },
+  {
+   "id": "Q7919752",
+   "name": "Venetian walls of Nicosia",
+   "sl": 21,
+   "file": "Nicosia city Venitian historic ancient walls and gardens Republic of Cyprus.jpg",
+   "lat": 35.1711,
+   "lon": 33.3701,
+   "kind": "built",
+   "types": [
+    "defensive wall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "City walls in Nicosia"
+  },
+  {
+   "id": "Q1365162",
+   "name": "Haydar Pasha Mosque",
+   "sl": 20,
+   "file": "Haydarpasha Mosque (St. Catherine Church), Nicosia (4).JPG",
+   "lat": 35.1775,
+   "lon": 33.3661,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "church building",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Haydarpasha Mosque, Nicosia"
+  },
+  {
+   "id": "Q1656624",
+   "name": "Idalion",
+   "sl": 20,
+   "file": "Idalion.jpg",
+   "lat": 35.0158,
+   "lon": 33.4231,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Idalion"
+  },
+  {
+   "id": "Q1796353",
+   "name": "Tombs of the Kings",
+   "sl": 20,
+   "file": "Tombs of the Kings (Paphos).jpg",
+   "lat": 34.7761,
+   "lon": 32.4047,
+   "kind": "built",
+   "types": [
+    "necropolis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64433741",
+    "name": "Paphos"
+   },
+   "also": [],
+   "cat": "Tombs of the kings (Paphos)"
+  },
+  {
+   "id": "Q2029253",
+   "name": "Tsirio Stadium",
+   "sl": 20,
+   "file": "Tsirion Stadium 01.JPG",
+   "lat": 34.7009,
+   "lon": 33.023,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsirion Stadium"
+  },
+  {
+   "id": "Q2087483",
+   "name": "Akamas",
+   "sl": 19,
+   "file": "View from Moutti Tis Sotiras, Akamas Paninsula, Cyprus.jpg",
+   "lat": 35.04,
+   "lon": 32.32,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akamas Peninsula"
+  },
+  {
+   "id": "Q582868",
+   "name": "Ammochostos Epistrofi Stadium",
+   "sl": 19,
+   "file": "Ammochostosstadiumnew4.jpg",
+   "lat": 34.9298,
+   "lon": 33.6132,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ammochostos Stadium"
+  },
+  {
+   "id": "Q4542914",
+   "name": "Arabahmet Mosque",
+   "sl": 18,
+   "file": "Arabahmet Mosque, Nicosia, Cyprus 03.jpg",
+   "lat": 35.1771,
+   "lon": 33.3579,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arabahmet Mosque"
+  },
+  {
+   "id": "Q2247315",
+   "name": "Limassol Castle",
+   "sl": 18,
+   "file": "Limassol 01-2017 img21 Castle exterior.jpg",
+   "lat": 34.6723,
+   "lon": 33.0416,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Limassol castle - Medieval Museum"
+  },
+  {
+   "id": "Q7108569",
+   "name": "Othello Castle",
+   "sl": 17,
+   "file": "Famagusta 01-2017 img26 city walls Othello Tower.jpg",
+   "lat": 35.1277,
+   "lon": 33.9432,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Othello Castle"
+  },
+  {
+   "id": "Q6452341",
+   "name": "Kyrenia Gate",
+   "sl": 16,
+   "file": "Nicosia 01-2017 img29 Kyrenia Gate.jpg",
+   "lat": 35.1814,
+   "lon": 33.3617,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kyrenia Gate"
+  },
+  {
+   "id": "Q3564507",
+   "name": "Cape Gata",
+   "sl": 15,
+   "file": "Cape Gata lighthouse.jpg",
+   "lat": 34.566,
+   "lon": 33.029,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Gata, Cyprus"
+  },
+  {
+   "id": "Q959369",
+   "name": "Cape Kormakitis",
+   "sl": 15,
+   "file": "Bay near Cape Kormakitis.jpg",
+   "lat": 35.4053,
+   "lon": 32.9203,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Kormakitis"
+  },
+  {
+   "id": "Q31841104",
+   "name": "Church of St. Nicholas of the Roof",
+   "sl": 15,
+   "file": "Agios Nikolaos tis Stegis.JPG",
+   "lat": 34.9773,
+   "lon": 32.8895,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q462702",
+    "name": "Painted Churches in the Troödos Region"
+   },
+   "also": [],
+   "cat": "Church of Ayios Nikolaos (St. Nicholas) tis Steyis"
+  },
+  {
+   "id": "Q257937",
+   "name": "Ledra Street",
+   "sl": 15,
+   "file": "Nicosia Ledra street afternoon Republic of Cyprus.JPG",
+   "lat": 35.1744,
+   "lon": 33.3614,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ledra Street"
+  },
+  {
+   "id": "Q2102612",
+   "name": "Bekir Pasha Aqueduct",
+   "sl": 14,
+   "file": "Larnaca 01-2017 img24 Kamares Aqueduct.jpg",
+   "lat": 34.9119,
+   "lon": 33.5982,
+   "kind": "built",
+   "types": [
+    "aqueduct"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bekir Pasha Aqueduct"
+  },
+  {
+   "id": "Q1413700",
+   "name": "Geçitkale Air Base",
+   "sl": 14,
+   "file": "Geçitkale Air Base.jpg",
+   "lat": 35.236,
+   "lon": 33.7199,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Geçitkale Airport"
+  },
+  {
+   "id": "Q2760479",
+   "name": "GSZ Stadium",
+   "sl": 14,
+   "file": "Larnaca GSZ Stadium 1.jpg",
+   "lat": 34.9256,
+   "lon": 33.5997,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Neo GSZ Stadium"
+  },
+  {
+   "id": "Q3655367",
+   "name": "Makario Stadium",
+   "sl": 14,
+   "file": "NeaSalaminaFans16.jpg",
+   "lat": 35.1461,
+   "lon": 33.3144,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Makario Stadium"
+  },
+  {
+   "id": "Q12065255",
+   "name": "Paphos Archaeological Park",
+   "sl": 14,
+   "file": "Archaeological Park Paphos Cyprus 08.jpg",
+   "lat": 34.7557,
+   "lon": 32.4042,
+   "kind": "built",
+   "types": [
+    "museum",
+    "polis"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64433741",
+    "name": "Paphos"
+   },
+   "also": [],
+   "cat": "Paphos Archaeological Park"
+  },
+  {
+   "id": "Q9339030",
+   "name": "St. John Theologian's Cathedral in Nicosia",
+   "sl": 14,
+   "file": "Nicosia 01-2017 img09 StJohn the Apostle Church.jpg",
+   "lat": 35.1733,
+   "lon": 33.3678,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Agios Ioannis church, Nicosia"
+  },
+  {
+   "id": "Q268077",
+   "name": "Antonis Papadopoulos Stadium",
+   "sl": 13,
+   "file": "Antonis Papadopoulos evening.jpg",
+   "lat": 34.9374,
+   "lon": 33.6209,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3495527",
+   "name": "Nicosia Atatürk Stadium",
+   "sl": 13,
+   "file": "Nicosia Ataturk Stadium.jpg",
+   "lat": 35.2136,
+   "lon": 33.3378,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nicosia Atatürk Stadium"
+  },
+  {
+   "id": "Q20949715",
+   "name": "Sarayönü Mosque",
+   "sl": 13,
+   "file": "Sarayönü mosque, north Nicosia, Northern Cyprus.jpg",
+   "lat": 35.1776,
+   "lon": 33.3607,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarayönü Mosque"
+  },
+  {
+   "id": "Q6046232",
+   "name": "Famagusta Gate",
+   "sl": 12,
+   "file": "Nicosia 01-2017 img08 Famagusta Gate.jpg",
+   "lat": 35.1743,
+   "lon": 33.3712,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Famagusta Gate"
+  },
+  {
+   "id": "Q1329990",
+   "name": "Lapathus",
+   "sl": 12,
+   "file": "Monnaie - Statère, argent, Lapéthos, Chypre, Sidqmelek - btv1b85351446 (2 of 2).jpg",
+   "lat": 35.3506,
+   "lon": 33.2021,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city",
+    "historical country",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lapathus (Cyprus)"
+  },
+  {
+   "id": "Q12881190",
+   "name": "Panagia tou Araka",
+   "sl": 12,
+   "file": "Panagia tou Arakou Lagoudera.JPG",
+   "lat": 34.9655,
+   "lon": 33.0062,
+   "kind": "built",
+   "types": [
+    "church building",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q462702",
+    "name": "Painted Churches in the Troödos Region"
+   },
+   "also": [],
+   "cat": "Church of Panayia (The Virgin) tou Arakou"
+  },
+  {
+   "id": "Q1674350",
+   "name": "Spyros Kyprianou Athletic Center",
+   "sl": 12,
+   "file": "Spyros Kiprianou Sports Centre Limassol.jpg",
+   "lat": 34.7142,
+   "lon": 32.999,
+   "kind": "built",
+   "types": [
+    "indoor arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spyros Kiprianou Sports Centre Limassol"
+  },
+  {
+   "id": "Q16677642",
+   "name": "St. Barnabas Monastery",
+   "sl": 12,
+   "file": "St. Barnabas Monastery, Occupied Cyprus (5785273361).jpg",
+   "lat": 35.1747,
+   "lon": 33.8803,
+   "kind": "built",
+   "types": [
+    "monastery",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Barnabas Archaeology and Icon Museum"
+  },
+  {
+   "id": "Q1752701",
+   "name": "Aetokremnos",
+   "sl": 11,
+   "file": "Aetokremnos 1960.jpg",
+   "lat": 34.5705,
+   "lon": 32.9907,
+   "kind": "built",
+   "types": [
+    "prehistoric archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aetokremnos"
+  },
+  {
+   "id": "Q4140950",
+   "name": "Archbishop's Palace",
+   "sl": 11,
+   "file": "Nicosia 01-2017 img10 Archbishops Palace.jpg",
+   "lat": 35.173,
+   "lon": 33.3675,
+   "kind": "built",
+   "types": [
+    "castle",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Archbishop's Palace Nicosia"
+  },
+  {
+   "id": "Q16677650",
+   "name": "Ayios Ionannis",
+   "sl": 11,
+   "file": "ZyKalopanayiotis01.jpg",
+   "lat": 34.9923,
+   "lon": 32.8302,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q462702",
+    "name": "Painted Churches in the Troödos Region"
+   },
+   "also": [],
+   "cat": "Ayios Ionannis (St. John) Lambadhistis Monastery"
+  },
+  {
+   "id": "Q6535231",
+   "name": "Leventio Museum",
+   "sl": 11,
+   "file": "NICOSIA, 11 AUGUST, 2011 140.jpg",
+   "lat": 35.1706,
+   "lon": 33.3617,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leventis Municipal Museum"
+  },
+  {
+   "id": "Q12809450",
+   "name": "Notre Dame de Tyre",
+   "sl": 11,
+   "file": "Notre Dame de Tyre, Nicosia.JPG",
+   "lat": 35.175,
+   "lon": 33.3582,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Notre Dame de Tyre, Nicosia"
+  },
+  {
+   "id": "Q20896012",
+   "name": "Omeriye Mosque",
+   "sl": 11,
+   "file": "Nicosia 01-2017 img13 Omeriye Mosque.jpg",
+   "lat": 35.1719,
+   "lon": 33.3656,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Omeriye Mosque"
+  },
+  {
+   "id": "Q1132478",
+   "name": "Pafiako Stadium",
+   "sl": 11,
+   "file": "Pafos FC - Aris Limassol FC 25.02.2022.jpg",
+   "lat": 34.7692,
+   "lon": 32.4401,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2224564",
+   "name": "Saranta Kolones",
+   "sl": 11,
+   "file": "Saranda Kolones - Bögen 2.jpg",
+   "lat": 34.7577,
+   "lon": 32.4096,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saranda Kolones"
+  },
+  {
+   "id": "Q2918693",
+   "name": "Tasos Markou Stadium",
+   "sl": 11,
+   "file": "Paralimni Stadium in Paralimni, Cyprus.jpg",
+   "lat": 35.0308,
+   "lon": 33.9872,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11957020",
+   "name": "Agia Paraskevi",
+   "sl": 10,
+   "file": "Agia Paraskevi Geroskipou (03).jpg",
+   "lat": 34.7667,
+   "lon": 32.4667,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yeroskipou - Agia Paraskevi"
+  },
+  {
+   "id": "Q16737790",
+   "name": "Büyük Hamam",
+   "sl": 10,
+   "file": "Buyuk hamam dask.jpg",
+   "lat": 35.1768,
+   "lon": 33.3617,
+   "kind": "built",
+   "types": [
+    "hammam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buyuk Hammam"
+  },
+  {
+   "id": "Q4133388",
+   "name": "Ganchvor monastery",
+   "sl": 10,
+   "file": "Armenian Church, Famagusta (3).JPG",
+   "lat": 35.1273,
+   "lon": 33.9364,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Armenian Church, Famagusta"
+  },
+  {
+   "id": "Q5514611",
+   "name": "GSP Stadium",
+   "sl": 10,
+   "file": "Old GSP stadium circa 1910.gif",
+   "lat": 35.168,
+   "lon": 33.3558,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "GSP stadium (1902)"
+  },
+  {
+   "id": "Q7565211",
+   "name": "Holy Mother of God Cathedral",
+   "sl": 10,
+   "file": "Sourp Asdvadzadzin-side1.jpg",
+   "lat": 35.1524,
+   "lon": 33.3672,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Mother of God Armenian Cathedral, Nicosia"
+  },
+  {
+   "id": "Q1330216",
+   "name": "Trooditissa Monastery",
+   "sl": 10,
+   "file": "Troditissa Monastery 00910.jpg",
+   "lat": 34.9129,
+   "lon": 32.8383,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trooditissa Monastery"
+  },
+  {
+   "id": "Q11739828",
+   "name": "Agios Neophytos Monastery",
+   "sl": 9,
+   "file": "Agios Neophytos Monastery Cyprus 01.jpg",
+   "lat": 34.8464,
+   "lon": 32.4462,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Agios Neophytos Monastery"
+  },
+  {
+   "id": "Q5117006",
+   "name": "Church of Panagia Theoskepasti",
+   "sl": 9,
+   "file": "Панагия Теоскепасти. 09.2013.JPG",
+   "lat": 34.757,
+   "lon": 32.4159,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Panagia Theoskepasti (Paphos)"
+  },
+  {
+   "id": "Q1734309",
+   "name": "Karpasia",
+   "sl": 9,
+   "file": "Karpasia - Agios Filon1.JPG",
+   "lat": 35.6199,
+   "lon": 34.3518,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "human settlement",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q19895663",
+   "name": "Kumarcılar Han",
+   "sl": 9,
+   "file": "Nicosia old han.jpg",
+   "lat": 35.1771,
+   "lon": 33.3627,
+   "kind": "built",
+   "types": [
+    "caravanserai"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kumarcılar Han"
+  },
+  {
+   "id": "Q1436419",
+   "name": "Kyrenia Mountains",
+   "sl": 9,
+   "file": "Pentadaktylos Mt.JPG",
+   "lat": 35.3,
+   "lon": 33.3333,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pentadaktylos mountain range"
+  }
+ ]
+}

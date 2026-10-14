@@ -1,0 +1,1426 @@
+{
+ "country": "PL",
+ "items": [
+  {
+   "id": "Q7341",
+   "name": "Auschwitz",
+   "sl": 128,
+   "file": "Birkenau múzeum - panoramio (cropped).jpg",
+   "lat": 50.0358,
+   "lon": 19.1783,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "extermination camp",
+    "museum",
+    "Nazi concentration camp"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Auschwitz concentration camp"
+  },
+  {
+   "id": "Q194263",
+   "name": "Tatra Mountains",
+   "sl": 73,
+   "file": "Dolina Pieciu Stawow Polskich 2023-09-08.jpg",
+   "lat": 49.2006,
+   "lon": 19.9739,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "Tatra Mountains"
+  },
+  {
+   "id": "Q152131",
+   "name": "Sudetes",
+   "sl": 64,
+   "file": "Śnieżka z zachodu.jpg",
+   "lat": 50.7361,
+   "lon": 15.74,
+   "kind": "natural",
+   "types": [
+    "geomorphological subprovince",
+    "low mountain range",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ",
+    "DE"
+   ],
+   "cat": "Sudetes"
+  },
+  {
+   "id": "Q192666",
+   "name": "Białowieża Forest",
+   "sl": 63,
+   "file": "Wisent.jpg",
+   "lat": 52.75,
+   "lon": 23.95,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "forest",
+    "nature reserve",
+    "old-growth forest"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "BY"
+   ],
+   "cat": "Białowieża Forest"
+  },
+  {
+   "id": "Q152010",
+   "name": "Treblinka extermination camp",
+   "sl": 62,
+   "file": "Treblinka Memorial 2013 01.JPG",
+   "lat": 52.6311,
+   "lon": 22.0531,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "extermination camp",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Treblinka extermination camp"
+  },
+  {
+   "id": "Q214644",
+   "name": "Giant Mountains",
+   "sl": 59,
+   "file": "Sněžka a Obří důl.jpg",
+   "lat": 50.75,
+   "lon": 15.5833,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ"
+   ],
+   "cat": "Krkonoše"
+  },
+  {
+   "id": "Q465071",
+   "name": "Warsaw Chopin Airport",
+   "sl": 59,
+   "file": "Lotnisko Chopina w Warszawie 2018b.jpg",
+   "lat": 52.1658,
+   "lon": 20.9672,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Warsaw Frederic Chopin Airport"
+  },
+  {
+   "id": "Q71279",
+   "name": "Malbork Castle",
+   "sl": 58,
+   "file": "Panorama of Malbork Castle, part 4.jpg",
+   "lat": 54.0397,
+   "lon": 19.0278,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "castle",
+    "Ordensburg"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Castle in Malbork"
+  },
+  {
+   "id": "Q617511",
+   "name": "Sněžka",
+   "sl": 58,
+   "file": "Śnieżka z zachodu.jpg",
+   "lat": 50.7361,
+   "lon": 15.7403,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "main peak",
+    "mountain",
+    "one-thousander"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ"
+   ],
+   "cat": "Sněžka"
+  },
+  {
+   "id": "Q18201640",
+   "name": "Wikipedia Monument",
+   "sl": 58,
+   "file": "Wikipedia Monument 2.JPG",
+   "lat": 52.3493,
+   "lon": 14.5604,
+   "kind": "built",
+   "types": [
+    "monument",
+    "sculpture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wikipedia Monument"
+  },
+  {
+   "id": "Q672936",
+   "name": "Rysy",
+   "sl": 57,
+   "file": "Rysy, szczyt.jpg",
+   "lat": 49.1794,
+   "lon": 20.0881,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "Rysy"
+  },
+  {
+   "id": "Q152658",
+   "name": "Sobibór Extermination Camp",
+   "sl": 57,
+   "file": "Foto genomen vanuit een wachttoren van Sobibor, met gevangenen en bewakers.jpg",
+   "lat": 51.447,
+   "lon": 23.5941,
+   "kind": "built",
+   "types": [
+    "concentration camp",
+    "extermination camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sobibór extermination camp"
+  },
+  {
+   "id": "Q179693",
+   "name": "Kazimierz Górski National Stadium",
+   "sl": 53,
+   "file": "Stadion narodowy panorama.jpg",
+   "lat": 52.2394,
+   "lon": 21.0456,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium",
+    "national stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Stadium in Warsaw"
+  },
+  {
+   "id": "Q690323",
+   "name": "High Tatras",
+   "sl": 51,
+   "file": "Panorama High Tatras from Poprad.jpg",
+   "lat": 49.1667,
+   "lon": 20.1333,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "High Tatra Mountains"
+  },
+  {
+   "id": "Q167566",
+   "name": "Palace of Culture and Science",
+   "sl": 51,
+   "file": "Pałac Kultury i Nauki 2019.jpg",
+   "lat": 52.2317,
+   "lon": 21.0064,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "architectural landmark",
+    "house of culture",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Culture and Science"
+  },
+  {
+   "id": "Q182385",
+   "name": "Gdańsk Arena",
+   "sl": 50,
+   "file": "PGE Arena.jpeg",
+   "lat": 54.39,
+   "lon": 18.6403,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadion Energa Gdańsk"
+  },
+  {
+   "id": "Q160135",
+   "name": "Lublin-Majdanek concentration camp",
+   "sl": 50,
+   "file": "Alians PL KL Majdanek Lublin,10 10 2008,PA100050.jpg",
+   "lat": 51.2219,
+   "lon": 22.5981,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "extermination camp",
+    "military museum",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Majdanek concentration camp"
+  },
+  {
+   "id": "Q454019",
+   "name": "Wieliczka Salt Mine",
+   "sl": 50,
+   "file": "Αλατωρυχεία Βιελίτσκα 5021.jpg",
+   "lat": 49.9831,
+   "lon": 20.0557,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "mine"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15240748",
+    "name": "Wieliczka and Bochnia Royal Salt Mines"
+   },
+   "also": [],
+   "cat": "Wieliczka salt mine"
+  },
+  {
+   "id": "Q155743",
+   "name": "Centennial Hall",
+   "sl": 48,
+   "file": "Wroclaw - Hala Stulecia 03a.jpg",
+   "lat": 51.1069,
+   "lon": 17.0772,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "hall",
+    "multi-purpose hall"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Centennial Hall"
+  },
+  {
+   "id": "Q188699",
+   "name": "Enea Stadion",
+   "sl": 47,
+   "file": "Stadion Miejski Poznan, 2011-08-23.jpg",
+   "lat": 52.3972,
+   "lon": 16.8581,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Miejski Stadium, Poznań"
+  },
+  {
+   "id": "Q160143",
+   "name": "Belzec extermination camp",
+   "sl": 46,
+   "file": "Belzec lubelskie oboz zaglady brama wejsciowa.JPG",
+   "lat": 50.3717,
+   "lon": 23.4575,
+   "kind": "built",
+   "types": [
+    "concentration camp",
+    "extermination camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belzec extermination camp"
+  },
+  {
+   "id": "Q5606",
+   "name": "Hel Peninsula",
+   "sl": 46,
+   "file": "Hel peninsula landsat.jpg",
+   "lat": 54.6417,
+   "lon": 18.7814,
+   "kind": "both",
+   "types": [
+    "headland",
+    "peninsula",
+    "spit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hel Peninsula"
+  },
+  {
+   "id": "Q156308",
+   "name": "Muskau Park",
+   "sl": 45,
+   "file": "1024 2012-1-sept-5088.jpg",
+   "lat": 51.5476,
+   "lon": 14.7232,
+   "kind": "built",
+   "types": [
+    "English garden",
+    "park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Muskau Park"
+  },
+  {
+   "id": "Q387256",
+   "name": "Śniardwy",
+   "sl": 45,
+   "file": "Jezioro Śniardwy, widok z Niedźwiedziego Rogu (2017).jpg",
+   "lat": 53.75,
+   "lon": 21.7167,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Śniardwy Lake"
+  },
+  {
+   "id": "Q188706",
+   "name": "Tarczyński Arena Wrocław",
+   "sl": 45,
+   "file": "Wroclaw Munincipal Stadium 2019.jpg",
+   "lat": 51.1411,
+   "lon": 16.9436,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wrocław Municipal Stadium"
+  },
+  {
+   "id": "Q638519",
+   "name": "Wawel Cathedral",
+   "sl": 45,
+   "file": "292 Krakow Katedra na Wawelu 20070805.jpg",
+   "lat": 50.0546,
+   "lon": 19.9354,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wawel Cathedral"
+  },
+  {
+   "id": "Q157153",
+   "name": "Wolf's Lair",
+   "sl": 45,
+   "file": "Adolf Hitler's Bunker in Wolfsschanze.JPG",
+   "lat": 54.0794,
+   "lon": 21.4936,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "headquarters"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wolfsschanze"
+  },
+  {
+   "id": "Q8032604",
+   "name": "Wooden tserkvas of Carpathian region in Poland and Ukraine",
+   "sl": 45,
+   "file": "Zabytkowa cerkiew wpisana na listę UNESCO.jpg",
+   "lat": 49.5339,
+   "lon": 21.0322,
+   "kind": "natural",
+   "types": [
+    "transboundary site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "UA"
+   ],
+   "cat": "Wooden churches of Carpathian region in Poland and Ukraine"
+  },
+  {
+   "id": "Q581545",
+   "name": "John Paul II International Airport Kraków-Balice",
+   "sl": 44,
+   "file": "John Paul II Airport in Balice-Kraków night november 2017(3).jpg",
+   "lat": 50.0778,
+   "lon": 19.7847,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "John Paul II Airport in Balice-Kraków"
+  },
+  {
+   "id": "Q756098",
+   "name": "Royal Castle in Warsaw",
+   "sl": 43,
+   "file": "Warszawa-Zamek Królewski.jpg",
+   "lat": 52.2478,
+   "lon": 21.0142,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "castle",
+    "museum",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Castle, Warsaw"
+  },
+  {
+   "id": "Q161385",
+   "name": "Szczecin Lagoon",
+   "sl": 43,
+   "file": "Warsin aus der Luft.jpg",
+   "lat": 53.8044,
+   "lon": 14.1403,
+   "kind": "natural",
+   "types": [
+    "estuarine lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Szczecin Lagoon"
+  },
+  {
+   "id": "Q117750",
+   "name": "Błędów Desert",
+   "sl": 42,
+   "file": "20140619 Pustynia Błędowska w Chechle 3457.jpg",
+   "lat": 50.3398,
+   "lon": 19.5128,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Błędów Desert"
+  },
+  {
+   "id": "Q160152",
+   "name": "Chełmno extermination camp",
+   "sl": 42,
+   "file": "Chełmno - Pomnik 02.JPG",
+   "lat": 52.1539,
+   "lon": 18.7231,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "concentration camp",
+    "extermination camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chelmno extermination camp"
+  },
+  {
+   "id": "Q6870388",
+   "name": "Białowieża National Park",
+   "sl": 41,
+   "file": "Bialowieza National Park in Poland0029.JPG",
+   "lat": 52.7667,
+   "lon": 23.8667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q192666",
+    "name": "Białowieża Forest"
+   },
+   "also": [],
+   "cat": "Białowieski National Park"
+  },
+  {
+   "id": "Q589634",
+   "name": "Churches of Peace",
+   "sl": 40,
+   "file": "Swidnica- Kosciol Pokoju 01.jpg",
+   "lat": 51.0539,
+   "lon": 16.189,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Churches of Peace in Poland"
+  },
+  {
+   "id": "Q326193",
+   "name": "Stutthof concentration camp",
+   "sl": 40,
+   "file": "Barracks at Stutthof after liberation.jpg",
+   "lat": 54.3289,
+   "lon": 19.1539,
+   "kind": "built",
+   "types": [
+    "concentration camp",
+    "crime scene",
+    "memorial",
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stutthof concentration camp"
+  },
+  {
+   "id": "Q854267",
+   "name": "Wooden churches of Southern Lesser Poland",
+   "sl": 39,
+   "file": "Sękowa, kościół pw. św. Filipa i Jakuba (1).jpg",
+   "lat": 49.6306,
+   "lon": 21.1861,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wooden churches in Poland"
+  },
+  {
+   "id": "Q163246",
+   "name": "Morskie Oko",
+   "sl": 38,
+   "file": "Przelecz pod chlopkiem.jpg",
+   "lat": 49.1972,
+   "lon": 20.0708,
+   "kind": "natural",
+   "types": [
+    "freshwater lake",
+    "tarn",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Morskie Oko"
+  },
+  {
+   "id": "Q743704",
+   "name": "Wawel",
+   "sl": 38,
+   "file": "DJI 0332 Wawel.jpg",
+   "lat": 50.0542,
+   "lon": 19.9353,
+   "kind": "both",
+   "types": [
+    "architectural heritage monument",
+    "building complex",
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wawel"
+  },
+  {
+   "id": "Q1162558",
+   "name": "Katowice International Airport",
+   "sl": 37,
+   "file": "Luftaufnahme Airport Kattowitz 2.jpg",
+   "lat": 50.4742,
+   "lon": 19.08,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katowice-Pyrzowice Airport"
+  },
+  {
+   "id": "Q1143171",
+   "name": "St. Mary's Basilica in Kraków",
+   "sl": 37,
+   "file": "Kosciol mariacki krakow.jpg",
+   "lat": 50.0617,
+   "lon": 19.9392,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "church building",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Mary Basilica in Kraków"
+  },
+  {
+   "id": "Q779984",
+   "name": "Gdańsk Lech Wałęsa Airport",
+   "sl": 36,
+   "file": "Port Lotniczy im Lecha Walesy Terminal 2.jpg",
+   "lat": 54.3775,
+   "lon": 18.4661,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gdańsk Lech Wałęsa Airport"
+  },
+  {
+   "id": "Q573920",
+   "name": "Jasna Góra Monastery",
+   "sl": 36,
+   "file": "Jasna Góra i otoczenie 06.jpg",
+   "lat": 50.8125,
+   "lon": 19.0972,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "fortress",
+    "monastery",
+    "sanctuary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jasna Góra"
+  },
+  {
+   "id": "Q153306",
+   "name": "National Museum in Warsaw",
+   "sl": 36,
+   "file": "Muzeum Narodowe w Warszawie.jpg",
+   "lat": 52.2317,
+   "lon": 21.0247,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "art museum",
+    "history museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum in Warsaw"
+  },
+  {
+   "id": "Q1572525",
+   "name": "Słowiński National Park",
+   "sl": 36,
+   "file": "Słowiński Park Narodowy 1.jpg",
+   "lat": 54.7032,
+   "lon": 17.3069,
+   "kind": "natural",
+   "types": [
+    "National Parks of Poland",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Słowiński National Park"
+  },
+  {
+   "id": "Q47473",
+   "name": "Wilanów Palace",
+   "sl": 36,
+   "file": "Wilanów Palace.jpg",
+   "lat": 52.1653,
+   "lon": 21.0903,
+   "kind": "built",
+   "types": [
+    "palace complex"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wilanów Palace"
+  },
+  {
+   "id": "Q1107152",
+   "name": "Wrocław – Copernicus Airport",
+   "sl": 36,
+   "file": "Terminal T2 we Wrocławiu (cropped).jpg",
+   "lat": 51.1028,
+   "lon": 16.8858,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wrocław-Strachowice Airport"
+  },
+  {
+   "id": "Q609353",
+   "name": "Tatra National Park",
+   "sl": 35,
+   "file": "Tatry - panorama z Polskiego Spiszu.jpg",
+   "lat": 49.25,
+   "lon": 19.9333,
+   "kind": "natural",
+   "types": [
+    "National Parks of Poland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tatra National Park, Poland"
+  },
+  {
+   "id": "Q810129",
+   "name": "Basilica of Our Lady of Licheń",
+   "sl": 34,
+   "file": "Basílica de Nuestra Señora de Licheń, Stary Licheń, Polonia, 2016-12-21, DD 33-35 HDR.jpg",
+   "lat": 52.3233,
+   "lon": 18.358,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shrine of Our Lady of Sorrows in Licheń Stary"
+  },
+  {
+   "id": "Q738109",
+   "name": "Książ Castle and park complex",
+   "sl": 34,
+   "file": "Ksiaz - zamek 01.jpg",
+   "lat": 50.8422,
+   "lon": 16.2917,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Książ castle"
+  },
+  {
+   "id": "Q1401995",
+   "name": "Warsaw-Modlin Mazovia Airport",
+   "sl": 34,
+   "file": "Nowy Dwór Mazowiecki, Terminal - fotopolska.eu (329160).jpg",
+   "lat": 52.4511,
+   "lon": 20.6517,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Modlin airport"
+  },
+  {
+   "id": "Q1330800",
+   "name": "Lake Mamry",
+   "sl": 33,
+   "file": "Dargin.jpg",
+   "lat": 54.1717,
+   "lon": 21.6889,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mamry"
+  },
+  {
+   "id": "Q677415",
+   "name": "Pieniny",
+   "sl": 33,
+   "file": "Panorama Pieniny from Trzy Korony.jpg",
+   "lat": 49.4,
+   "lon": 20.4167,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "Pieniny"
+  },
+  {
+   "id": "Q18820",
+   "name": "Wawel Castle",
+   "sl": 33,
+   "file": "Wawel on Wisla.JPG",
+   "lat": 50.0544,
+   "lon": 19.9366,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wawel Castle"
+  },
+  {
+   "id": "Q770907",
+   "name": "Augustów Canal",
+   "sl": 32,
+   "file": "Gorczyca sluzowanie 2.jpg",
+   "lat": 53.8667,
+   "lon": 22.9667,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BY"
+   ],
+   "cat": "Augustów Canal"
+  },
+  {
+   "id": "Q1345416",
+   "name": "Jizera Mountains",
+   "sl": 32,
+   "file": "Primaveal forest Jizera.JPG",
+   "lat": 50.8333,
+   "lon": 15.25,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ"
+   ],
+   "cat": "Jizera Mountains"
+  },
+  {
+   "id": "Q1361639",
+   "name": "Poznań-Ławica Airport",
+   "sl": 32,
+   "file": "Poznań-Ławica (widok na terminal).JPG",
+   "lat": 52.421,
+   "lon": 16.8263,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Poznań-Ławica Airport"
+  },
+  {
+   "id": "Q648754",
+   "name": "St. John's Archcathedral",
+   "sl": 32,
+   "file": "Bazylika archikatedralna św. Jana Chrzciciela w Warszawie 2020.jpg",
+   "lat": 52.2489,
+   "lon": 21.0136,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. John's Cathedral, Warsaw"
+  },
+  {
+   "id": "Q595780",
+   "name": "Babia Góra",
+   "sl": 31,
+   "file": "Babia Gora.jpg",
+   "lat": 49.5731,
+   "lon": 19.5306,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "Babia Góra"
+  },
+  {
+   "id": "Q326170",
+   "name": "Bay of Pomerania",
+   "sl": 31,
+   "file": "Zalewszczecinski.jpeg",
+   "lat": 54.067,
+   "lon": 14.083,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "cove"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Bay of Pomerania"
+  },
+  {
+   "id": "Q613888",
+   "name": "Bieszczady National Park",
+   "sl": 31,
+   "file": "Bieszczady, Połonina Caryńska in the evening 01.jpg",
+   "lat": 49.1125,
+   "lon": 22.6647,
+   "kind": "natural",
+   "types": [
+    "National Parks of Poland",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bieszczady National Park"
+  },
+  {
+   "id": "Q376169",
+   "name": "Grand Theatre",
+   "sl": 31,
+   "file": "Grand Theatre Warsaw Aerial Toni Klemm 2025 2500px.jpg",
+   "lat": 52.243,
+   "lon": 21.011,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "theatre company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Theatre in Warsaw"
+  },
+  {
+   "id": "Q195311",
+   "name": "National Museum in Kraków",
+   "sl": 31,
+   "file": "Building of the National Museum in Kraków, 01.jpg",
+   "lat": 50.0603,
+   "lon": 19.9239,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "military museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muzeum Narodowe w Krakowie"
+  },
+  {
+   "id": "Q770631",
+   "name": "Old town Market Square in Krakow",
+   "sl": 31,
+   "file": "Krakow - Cloth Hall from Basilica - 1.jpg",
+   "lat": 50.0617,
+   "lon": 19.9372,
+   "kind": "built",
+   "types": [
+    "market square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Old Town Market Square in Kraków"
+  },
+  {
+   "id": "Q115155",
+   "name": "Podhale",
+   "sl": 31,
+   "file": "Tatry widok z Tarasowek.jpg",
+   "lat": 49.4167,
+   "lon": 20.0167,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Podhale"
+  },
+  {
+   "id": "Q1432651",
+   "name": "Rzeszów-Jasionka Airport",
+   "sl": 31,
+   "file": "Rzeszow Airport-3.jpg",
+   "lat": 50.11,
+   "lon": 22.0189,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rzeszów-Jasionka Airport"
+  },
+  {
+   "id": "Q609383",
+   "name": "Biebrza National Park",
+   "sl": 30,
+   "file": "Biebrzanski.png",
+   "lat": 53.4666,
+   "lon": 22.6613,
+   "kind": "natural",
+   "types": [
+    "National Parks of Poland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biebrza National Park"
+  },
+  {
+   "id": "Q704453",
+   "name": "Bohemian Massif",
+   "sl": 30,
+   "file": "Słonecznik Karkonosze.jpg",
+   "lat": 50.1333,
+   "lon": 14.9833,
+   "kind": "natural",
+   "types": [
+    "highland",
+    "physiographic province",
+    "Truncated upland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT",
+    "CZ"
+   ],
+   "cat": "Bohemian Massif"
+  },
+  {
+   "id": "Q805442",
+   "name": "Christ the King statue",
+   "sl": 30,
+   "file": "Christ the King Statue 2.JPG",
+   "lat": 52.2367,
+   "lon": 15.5464,
+   "kind": "built",
+   "types": [
+    "colossal statue of Jesus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christ the King Statue in Świebodzin"
+  },
+  {
+   "id": "Q1450630",
+   "name": "Czartoryski Museum",
+   "sl": 30,
+   "file": "Czartoryski Palace, 17-19 świętego Jana street, Old Town, Kraków, Poland.jpg",
+   "lat": 50.0646,
+   "lon": 19.94,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "architectural heritage monument",
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Czartoryski Museum"
+  },
+  {
+   "id": "Q1051683",
+   "name": "Spodek",
+   "sl": 30,
+   "file": "Katowice Spodek E aerial 2026.jpg",
+   "lat": 50.2661,
+   "lon": 19.0253,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "event venue",
+    "multi-purpose hall",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spodek"
+  },
+  {
+   "id": "Q933903",
+   "name": "St. Mary's Basilica in Gdańsk",
+   "sl": 30,
+   "file": "Bazylika Mariacka DSC01870.jpg",
+   "lat": 54.3498,
+   "lon": 18.6535,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Mary in Gdańsk"
+  },
+  {
+   "id": "Q1121720",
+   "name": "Warsaw radio mast",
+   "sl": 30,
+   "file": "Обломки рухнувшей Варшавской радиомачты.jpg",
+   "lat": 52.3678,
+   "lon": 19.8025,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "guyed mast",
+    "tower",
+    "transmitter mast"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Warsaw radio mast"
+  },
+  {
+   "id": "Q620392",
+   "name": "Wolin National Park",
+   "sl": 30,
+   "file": "WPN2.jpg",
+   "lat": 53.9426,
+   "lon": 14.5075,
+   "kind": "natural",
+   "types": [
+    "National Parks of Poland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Woliński National Park"
+  },
+  {
+   "id": "Q606000",
+   "name": "Babia Góra National Park",
+   "sl": 29,
+   "file": "The Babia Gora Biosphere Reserve, Poland (2).jpg",
+   "lat": 49.5878,
+   "lon": 19.5397,
+   "kind": "natural",
+   "types": [
+    "National Parks of Poland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Babia Góra"
+  },
+  {
+   "id": "Q619061",
+   "name": "Kampinos National Park",
+   "sl": 29,
+   "file": "Poland Kampinos Alces alces 1.jpg",
+   "lat": 52.3167,
+   "lon": 20.5667,
+   "kind": "natural",
+   "types": [
+    "National Parks of Poland",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kampinos National Park"
+  },
+  {
+   "id": "Q160408",
+   "name": "Kraków-Płaszów concentration camp",
+   "sl": 29,
+   "file": "PLASZOW-German concentration camp near Krakow PL.jpg",
+   "lat": 50.0327,
+   "lon": 19.9618,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "concentration camp",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "German Nazi concentration camp in Płaszów"
+  },
+  {
+   "id": "Q429069",
+   "name": "Museum of the History of Polish Jews",
+   "sl": 29,
+   "file": "Museum of the History of Polish Jews in Warsaw building 0011.jpg",
+   "lat": 52.2494,
+   "lon": 20.9931,
+   "kind": "built",
+   "types": [
+    "Jewish museum",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muzeum Historii Żydów Polskich"
+  },
+  {
+   "id": "Q619007",
+   "name": "Ojców National Park",
+   "sl": 29,
+   "file": "Dolina Prądnika, widok z okolic źr. Miłości.jpg",
+   "lat": 50.2067,
+   "lon": 19.8292,
+   "kind": "natural",
+   "types": [
+    "National Parks of Poland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ojcowski National Park"
+  },
+  {
+   "id": "Q958585",
+   "name": "Sigismund's Column",
+   "sl": 29,
+   "file": "Kolumna Zygmunta III Wazy 2020.jpg",
+   "lat": 52.2473,
+   "lon": 21.0134,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sigismund's Column"
+  }
+ ]
+}

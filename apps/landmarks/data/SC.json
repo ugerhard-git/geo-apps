@@ -1,0 +1,300 @@
+{
+ "country": "SC",
+ "items": [
+  {
+   "id": "Q272768",
+   "name": "Aldabra",
+   "sl": 52,
+   "file": "Seychelles outer islands 25.08.2009 10-19-35.jpg",
+   "lat": -9.4164,
+   "lon": 46.4164,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Aldabra"
+  },
+  {
+   "id": "Q573558",
+   "name": "Vallée de Mai",
+   "sl": 40,
+   "file": "Valleé de mai2.jpg",
+   "lat": -4.3292,
+   "lon": 55.7375,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Vallée de Mai"
+  },
+  {
+   "id": "Q1432843",
+   "name": "Seychelles International Airport",
+   "sl": 30,
+   "file": "Mahe International Airport.jpg",
+   "lat": -4.6743,
+   "lon": 55.5219,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seychelles International Airport"
+  },
+  {
+   "id": "Q1136170",
+   "name": "Cosmoledo",
+   "sl": 18,
+   "file": "Cosmoledo Atoll.JPG",
+   "lat": -9.7,
+   "lon": 47.6,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cosmoledo"
+  },
+  {
+   "id": "Q1579060",
+   "name": "Morne Seychellois",
+   "sl": 17,
+   "file": "Ile de Mahe - Morne Seychellois (1).JPG",
+   "lat": -4.6438,
+   "lon": 55.4389,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q941936",
+   "name": "Farquhar Atoll",
+   "sl": 15,
+   "file": "NASA Farquhar Atoll.jpg",
+   "lat": -10.1667,
+   "lon": 51.1667,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Farquhar Atoll"
+  },
+  {
+   "id": "Q4073707",
+   "name": "Praslin Island Airport",
+   "sl": 13,
+   "file": "Shorts360airsey.jpg",
+   "lat": -4.3192,
+   "lon": 55.6916,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Praslin Island Airport"
+  },
+  {
+   "id": "Q965672",
+   "name": "Sainte Anne Marine National Park",
+   "sl": 13,
+   "file": "Sainte Anne Marine Park asv2024-10 img27.jpg",
+   "lat": -4.6211,
+   "lon": 55.5003,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sainte Anne Marine National Park"
+  },
+  {
+   "id": "Q1457339",
+   "name": "Providence Atoll",
+   "sl": 12,
+   "file": "Providence Atoll.JPG",
+   "lat": -9.3667,
+   "lon": 51.0333,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Providence Atoll"
+  },
+  {
+   "id": "Q1939041",
+   "name": "Poivre Atoll",
+   "sl": 11,
+   "file": "Poivre Atoll.jpg",
+   "lat": -5.7564,
+   "lon": 53.3061,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Poivre Atoll"
+  },
+  {
+   "id": "Q2005554",
+   "name": "St. François Atoll",
+   "sl": 11,
+   "file": "StFrancois.jpg",
+   "lat": -7.0678,
+   "lon": 52.7347,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. François Atoll"
+  },
+  {
+   "id": "Q3133584",
+   "name": "Stade Linité",
+   "sl": 11,
+   "file": "Victoria Linité Stadium asv2024-09.jpg",
+   "lat": -4.6355,
+   "lon": 55.4705,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Linité"
+  },
+  {
+   "id": "Q949218",
+   "name": "Anse Lazio",
+   "sl": 9,
+   "file": "Seychelles praslin anselazio.jpg",
+   "lat": -4.2936,
+   "lon": 55.7017,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anse Lazio"
+  },
+  {
+   "id": "Q1656047",
+   "name": "Desroches Airport",
+   "sl": 9,
+   "file": "Desroches.jpg",
+   "lat": -5.6948,
+   "lon": 53.6505,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Desroches Airport"
+  },
+  {
+   "id": "Q16507143",
+   "name": "Immaculate Conception Cathedral, Seychelles",
+   "sl": 9,
+   "file": "Cathedral of the Immaculate Conception, Seychelles 1.jpg",
+   "lat": -4.6198,
+   "lon": 55.4516,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of the Immaculate Conception, Seychelles"
+  },
+  {
+   "id": "Q597926",
+   "name": "Bird Island Airport",
+   "sl": 8,
+   "file": "Bird Island Air Seychelles.jpg",
+   "lat": -3.7215,
+   "lon": 55.2087,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bird Island Airport"
+  },
+  {
+   "id": "Q1653962",
+   "name": "Denis Island Airport",
+   "sl": 8,
+   "file": "Landing on Denis Island (5170680548).jpg",
+   "lat": -3.8022,
+   "lon": 55.6669,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2212513",
+   "name": "St. Joseph Atoll",
+   "sl": 8,
+   "file": "D'Arros and Saint Joseph map.png",
+   "lat": -5.4167,
+   "lon": 53.3333,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint-Joseph Island"
+  }
+ ]
+}

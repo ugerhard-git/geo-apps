@@ -1,0 +1,1235 @@
+{
+ "country": "KG",
+ "items": [
+  {
+   "id": "Q42191",
+   "name": "Issyk-Kul",
+   "sl": 88,
+   "file": "Issyk Kul.jpg",
+   "lat": 42.4167,
+   "lon": 77.25,
+   "kind": "natural",
+   "types": [
+    "ancient lake",
+    "endorheic lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Issyk-Kul"
+  },
+  {
+   "id": "Q486324",
+   "name": "Ferghana Valley",
+   "sl": 75,
+   "file": "Ferganadall (Satellitebild).jpg",
+   "lat": 40.9008,
+   "lon": 71.7578,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TJ",
+    "UZ"
+   ],
+   "cat": "Fergana Valley"
+  },
+  {
+   "id": "Q211529",
+   "name": "Khan Tengri",
+   "sl": 64,
+   "file": "Peak of Khan Tengri at sunset.jpg",
+   "lat": 42.2108,
+   "lon": 80.175,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN",
+    "KZ"
+   ],
+   "cat": "Khan Tengri"
+  },
+  {
+   "id": "Q332762",
+   "name": "Jengish Chokusu",
+   "sl": 55,
+   "file": "Jengish Chokusu from BC.jpg",
+   "lat": 42.0347,
+   "lon": 80.1287,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Jengish Chokusu"
+  },
+  {
+   "id": "Q838587",
+   "name": "Lenin Peak",
+   "sl": 46,
+   "file": "Lenin peak from Sary-mogol.jpg",
+   "lat": 39.3437,
+   "lon": 72.8779,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TJ"
+   ],
+   "cat": "Lenin Peak"
+  },
+  {
+   "id": "Q750190",
+   "name": "Sulaiman-Too",
+   "sl": 45,
+   "file": "Сулайман-Тоо с дрона.jpg",
+   "lat": 40.5294,
+   "lon": 72.7833,
+   "kind": "natural",
+   "types": [
+    "cultural landscape",
+    "mountain",
+    "natural monument"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sulayman Mountain"
+  },
+  {
+   "id": "Q32997",
+   "name": "Manas International Airport",
+   "sl": 40,
+   "file": "Bishkek 03-2016 img51 Manas Airport.jpg",
+   "lat": 43.0613,
+   "lon": 74.4775,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manas International Airport"
+  },
+  {
+   "id": "Q852032",
+   "name": "Burana Tower",
+   "sl": 38,
+   "file": "Burana Tower, Kyrgyzstan.jpg",
+   "lat": 42.7465,
+   "lon": 75.2504,
+   "kind": "built",
+   "types": [
+    "minaret"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Burana tower"
+  },
+  {
+   "id": "Q1764282",
+   "name": "Balasagun",
+   "sl": 32,
+   "file": "Balasagun ruins.jpg",
+   "lat": 42.7476,
+   "lon": 75.2484,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17277933",
+    "name": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor"
+   },
+   "also": [],
+   "cat": "Balasagun"
+  },
+  {
+   "id": "Q2298945",
+   "name": "Song Kol Lake",
+   "sl": 32,
+   "file": "Каратал-Жапырыкский государственный заповедник 03.jpg",
+   "lat": 41.85,
+   "lon": 75.15,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Song Kol"
+  },
+  {
+   "id": "Q1116019",
+   "name": "Kyrgyz Alatau",
+   "sl": 31,
+   "file": "Kyrgyzstan Mounts Kyrgyz Ala Too 001.jpg",
+   "lat": 42.3412,
+   "lon": 76.1437,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KZ"
+   ],
+   "cat": "Kyrgyz Ala-Too"
+  },
+  {
+   "id": "Q864853",
+   "name": "Chatyr-Kul",
+   "sl": 29,
+   "file": "Chatyr kul lake.JPG",
+   "lat": 40.6333,
+   "lon": 75.2833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chatyr-Kul"
+  },
+  {
+   "id": "Q19670589",
+   "name": "Osh State Academic Uzbek Music and Drama Theater named after Babur",
+   "sl": 29,
+   "file": "Ош өзбек театры.jpg",
+   "lat": 40.5331,
+   "lon": 72.7883,
+   "kind": "built",
+   "types": [
+    "theatre building",
+    "theatre company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Osh State Academic Uzbek Music and Drama Theater named after Babur"
+  },
+  {
+   "id": "Q17277933",
+   "name": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+   "sl": 28,
+   "file": "Yumenguan.jpg",
+   "lat": 34.3044,
+   "lon": 108.8572,
+   "kind": "natural",
+   "types": [
+    "transboundary site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "CN",
+    "KZ"
+   ],
+   "cat": "Silk Roads (World Heritage)"
+  },
+  {
+   "id": "Q2282164",
+   "name": "Alay Valley",
+   "sl": 26,
+   "file": "Alai Valley 1.jpg",
+   "lat": 39.6667,
+   "lon": 72.9667,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q286640",
+   "name": "Chuy Valley",
+   "sl": 26,
+   "file": "E8115-Chu-Valley.jpg",
+   "lat": 42.8333,
+   "lon": 75.2833,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KZ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2448327",
+   "name": "Osh Airport",
+   "sl": 26,
+   "file": "Osh International Airport.JPG",
+   "lat": 40.6089,
+   "lon": 72.7931,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Osh Airport"
+  },
+  {
+   "id": "Q40544",
+   "name": "Ala-Archa National Park",
+   "sl": 24,
+   "file": "Ala Archa 1.JPG",
+   "lat": 42.5475,
+   "lon": 74.4846,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "state nature national park of Kyrgyzstan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ala-Archa National Park"
+  },
+  {
+   "id": "Q1280576",
+   "name": "Talas Alatau",
+   "sl": 22,
+   "file": "Aksu Jabgly 3.JPG",
+   "lat": 42.3089,
+   "lon": 71.0272,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KZ",
+    "UZ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3108699",
+   "name": "Spartak Stadium",
+   "sl": 21,
+   "file": "Dölön-Ömürsakow-Stadion, Bishkek.jpg",
+   "lat": 42.8802,
+   "lon": 74.5979,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2988303",
+   "name": "Ala-Too Square",
+   "sl": 20,
+   "file": "Ala Too Square Bishkek 2021.jpg",
+   "lat": 42.8764,
+   "lon": 74.6039,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ala-Too Square"
+  },
+  {
+   "id": "Q2026772",
+   "name": "Ala-Kul",
+   "sl": 19,
+   "file": "Ala-Köl.jpg",
+   "lat": 42.3175,
+   "lon": 78.5356,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ala-Kul"
+  },
+  {
+   "id": "Q2346429",
+   "name": "Kyzylart Pass",
+   "sl": 19,
+   "file": "WillkommenInGornoBadachschan.JPG",
+   "lat": 39.3843,
+   "lon": 73.3225,
+   "kind": "natural",
+   "types": [
+    "col",
+    "mountain pass"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TJ"
+   ],
+   "cat": "Kyzylart Pass"
+  },
+  {
+   "id": "Q2119862",
+   "name": "Lake Sary-Chelek",
+   "sl": 19,
+   "file": "Sary Chelek and bird.jpg",
+   "lat": 41.8952,
+   "lon": 71.9573,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sary Chelek"
+  },
+  {
+   "id": "Q1973845",
+   "name": "Tash Rabat",
+   "sl": 18,
+   "file": "Tash Rabat in mountains.jpg",
+   "lat": 40.8231,
+   "lon": 75.2889,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "caravanserai"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tash Rabat"
+  },
+  {
+   "id": "Q2047083",
+   "name": "Boom Gorge",
+   "sl": 17,
+   "file": "E8145-Chu-River.jpg",
+   "lat": 42.5833,
+   "lon": 75.8,
+   "kind": "natural",
+   "types": [
+    "canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boom Gorge"
+  },
+  {
+   "id": "Q2749807",
+   "name": "Great Farg'ona Canal",
+   "sl": 17,
+   "file": "Great Fergana Canal near Andijan.jpg",
+   "lat": 40.2,
+   "lon": 69.9,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TJ",
+    "UZ"
+   ],
+   "cat": "Great Fergana Canal"
+  },
+  {
+   "id": "Q2426665",
+   "name": "Kant Air Base",
+   "sl": 17,
+   "file": "Kant (air base) 12.jpg",
+   "lat": 42.8531,
+   "lon": 74.8464,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kant (air base)"
+  },
+  {
+   "id": "Q2621561",
+   "name": "Saymaluu-Tash State Nature Park",
+   "sl": 17,
+   "file": "Saimaluu Tash.jpg",
+   "lat": 41.1807,
+   "lon": 73.814,
+   "kind": "natural",
+   "types": [
+    "nature park",
+    "petroglyph"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saimaluu-Tash"
+  },
+  {
+   "id": "Q3495879",
+   "name": "Tamchy Airport",
+   "sl": 17,
+   "file": "Antonov An-2 Tamchi.jpg",
+   "lat": 42.5883,
+   "lon": 76.7133,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1498647",
+   "name": "Vladimir Putin Peak",
+   "sl": 17,
+   "file": "Putin Peak.jpg",
+   "lat": 42.4717,
+   "lon": 74.1583,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1066932",
+   "name": "White House",
+   "sl": 16,
+   "file": "Бишкек, парламент сверху (1).jpg",
+   "lat": 42.8773,
+   "lon": 74.6002,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "White House (Bishkek)"
+  },
+  {
+   "id": "Q60744348",
+   "name": "Uzgen Minaret",
+   "sl": 15,
+   "file": "Uzgen Minaret.jpg",
+   "lat": 40.7667,
+   "lon": 73.3,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uzgen Minaret"
+  },
+  {
+   "id": "Q4534118",
+   "name": "Engilchek Glacier",
+   "sl": 14,
+   "file": "South Inylchek Base Camp.jpg",
+   "lat": 42.18,
+   "lon": 79.82,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN",
+    "KZ"
+   ],
+   "cat": "Inylchek"
+  },
+  {
+   "id": "Q278196",
+   "name": "Toktogul Dam",
+   "sl": 14,
+   "file": "Плотина Токтогульской ГЭС - Toktogul dam.jpg",
+   "lat": 41.657,
+   "lon": 72.6363,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4362539",
+   "name": "Semyonov peak",
+   "sl": 13,
+   "file": "Semyonov peak (Sarydgaz).jpg",
+   "lat": 42.2764,
+   "lon": 80.1182,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KZ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q16508570",
+   "name": "Toktogul Reservoir",
+   "sl": 13,
+   "file": "Toktogul Lake.jpg",
+   "lat": 41.8064,
+   "lon": 72.8742,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toktogul Reservoir"
+  },
+  {
+   "id": "Q48945129",
+   "name": "Bishkek Central Mosque",
+   "sl": 12,
+   "file": "View of Bishkek with the Central Mosque in the background (2017).jpg",
+   "lat": 42.8836,
+   "lon": 74.62,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bishkek Central Mosque"
+  },
+  {
+   "id": "Q6125855",
+   "name": "Jalal-Abad Airport",
+   "sl": 12,
+   "file": "Kyrgyzstan Air Antonov AN-24 prepares for flight QH6 to Bishkek, Jalal-Abad Airport, Kyrgyzstan, March 7, 2010.JPG",
+   "lat": 40.9442,
+   "lon": 72.9778,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3545703",
+   "name": "Khrebet Atbashi",
+   "sl": 12,
+   "file": "At-Bashi Range.jpg",
+   "lat": 40.9989,
+   "lon": 75.8823,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3652757",
+   "name": "Lake Merzbacher",
+   "sl": 12,
+   "file": "Lake Merzbacher from the ISS.jpg",
+   "lat": 42.2,
+   "lon": 79.8667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Merzbacher"
+  },
+  {
+   "id": "Q2498907",
+   "name": "Manas Ordo",
+   "sl": 12,
+   "file": "Manas Mausoleum 2024.jpg",
+   "lat": 42.525,
+   "lon": 72.3824,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4408855",
+   "name": "Sary-Chelek Nature Reserve",
+   "sl": 12,
+   "file": "Sary Chelek Nature Reserve.jpg",
+   "lat": 41.8573,
+   "lon": 71.9793,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "nature reserve",
+    "protected area of Kyrgyzstan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sary Chelek reserve"
+  },
+  {
+   "id": "Q20622014",
+   "name": "Ata-Beyit",
+   "sl": 11,
+   "file": "Ata-Beyit Memorial near Bishkek 03-2016 img01.jpg",
+   "lat": 42.7231,
+   "lon": 74.5937,
+   "kind": "built",
+   "types": [
+    "cemetery",
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ata Beyit"
+  },
+  {
+   "id": "Q4362534",
+   "name": "Boris Yeltsin Peak",
+   "sl": 11,
+   "file": "Ochsenkopf(TainShan).jpg",
+   "lat": 42.1524,
+   "lon": 78.3985,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boris Yeltsin Peak"
+  },
+  {
+   "id": "Q4300340",
+   "name": "Moldo Too",
+   "sl": 11,
+   "file": "Naryn overlook.jpg",
+   "lat": 41.58,
+   "lon": 74.67,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6380919",
+   "name": "Kazarman Airport",
+   "sl": 10,
+   "file": "Kazarman Airport.jpg",
+   "lat": 41.4103,
+   "lon": 74.0442,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kazarman Airport"
+  },
+  {
+   "id": "Q13642455",
+   "name": "Köl-Suu",
+   "sl": 10,
+   "file": "Кель-Суу - panoramio (3).jpg",
+   "lat": 40.6389,
+   "lon": 76.4056,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kol Teckeri"
+  },
+  {
+   "id": "Q4221185",
+   "name": "Kyrgyz State Historical Museum",
+   "sl": 10,
+   "file": "Bishkek P9170507 014 (40103613941).jpg",
+   "lat": 42.8775,
+   "lon": 74.6036,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "State History Museum (Bishkek)"
+  },
+  {
+   "id": "Q7105044",
+   "name": "Orto-Tokoy Reservoir",
+   "sl": 10,
+   "file": "Orto-Tokoy Reservoir.JPG",
+   "lat": 42.3056,
+   "lon": 75.9556,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orto-Tokoy Reservoir"
+  },
+  {
+   "id": "Q6079811",
+   "name": "Razzaqov Airport",
+   "sl": 10,
+   "file": "Razzakov Airport terminal.jpg",
+   "lat": 39.8247,
+   "lon": 69.5686,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Razzakov Airport"
+  },
+  {
+   "id": "Q6034718",
+   "name": "Shamaldysai Hydroelectric Power Station",
+   "sl": 10,
+   "file": "Shamaldysai Reservoir.JPG",
+   "lat": 41.3117,
+   "lon": 72.1911,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4446681",
+   "name": "Suusamyr Valley",
+   "sl": 10,
+   "file": "Suusamyr Valley.jpg",
+   "lat": 42.1941,
+   "lon": 73.5612,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suusamyr Valley"
+  },
+  {
+   "id": "Q2886552",
+   "name": "Transit Center at Manas",
+   "sl": 10,
+   "file": "070617-F-8133W-001 KC-135s on ramp at Manas AB.jpg",
+   "lat": 43.0503,
+   "lon": 74.4694,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Transit Center at Manas"
+  },
+  {
+   "id": "Q6360000",
+   "name": "Kan-i-Gut cave",
+   "sl": 9,
+   "file": "Пещера Кани-Гут 01.jpg",
+   "lat": 40.0129,
+   "lon": 70.3455,
+   "kind": "natural",
+   "types": [
+    "cave",
+    "natural monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kan-i-Gut cave"
+  },
+  {
+   "id": "Q4214317",
+   "name": "Karatal-Japyryk State Nature Reserve",
+   "sl": 9,
+   "file": "Serenity on Song-Kul. (3968872838).jpg",
+   "lat": 41.6237,
+   "lon": 75.391,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area of Kyrgyzstan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karatal-Japyryk State Nature Reserve"
+  },
+  {
+   "id": "Q34868908",
+   "name": "Kempir-Abad reservoir",
+   "sl": 9,
+   "file": "Andijan reservoir.JPG",
+   "lat": 40.7722,
+   "lon": 73.1117,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UZ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2064569",
+   "name": "Kurpsai Dam",
+   "sl": 9,
+   "file": "Kurpsai dam July 2012.jpg",
+   "lat": 41.4989,
+   "lon": 72.3642,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kurpsai Dam"
+  },
+  {
+   "id": "Q4257129",
+   "name": "Lednik Petrova",
+   "sl": 9,
+   "file": "Petrov Lake - panoramio.jpg",
+   "lat": 41.8955,
+   "lon": 78.3083,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Petrov Glacier"
+  },
+  {
+   "id": "Q6966527",
+   "name": "Naryn Airport",
+   "sl": 9,
+   "file": "Naryn airport.jpg",
+   "lat": 41.4414,
+   "lon": 76.1306,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naryn Airport"
+  },
+  {
+   "id": "Q12555944",
+   "name": "Navekat",
+   "sl": 9,
+   "file": "Ruins of Nevkat.jpg",
+   "lat": 42.915,
+   "lon": 75.0114,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q17277933",
+    "name": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor"
+   },
+   "also": [],
+   "cat": "Nevkat"
+  },
+  {
+   "id": "Q20619813",
+   "name": "Pik Semionova Tien-Shanskogo",
+   "sl": 9,
+   "file": "Pik Semenova Tianshanskogo.JPG",
+   "lat": 42.5212,
+   "lon": 74.5717,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pik Semionova Tien-Shanskogo"
+  },
+  {
+   "id": "Q4428830",
+   "name": "Songköl Too",
+   "sl": 9,
+   "file": "Yurt Camp in Song kol region.jpg",
+   "lat": 41.8779,
+   "lon": 75.5452,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q16434635",
+   "name": "Western Tian Shan",
+   "sl": 9,
+   "file": "Aksu Jabagly 2.JPG",
+   "lat": 42.5,
+   "lon": 74.5833,
+   "kind": "natural",
+   "types": [
+    "group of protected areas",
+    "mountain range"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "KZ",
+    "UZ"
+   ],
+   "cat": "Western Tien-Shan"
+  },
+  {
+   "id": "Q7603440",
+   "name": "Besh-Tash State Nature Park",
+   "sl": 8,
+   "file": "Озеро Бешташ.jpg",
+   "lat": 42.2878,
+   "lon": 72.3027,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "nature park",
+    "protected area of Kyrgyzstan",
+    "state nature national park of Kyrgyzstan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Besh-Tash State Nature Park"
+  },
+  {
+   "id": "Q13667726",
+   "name": "Free Korea Peak",
+   "sl": 8,
+   "file": "Svbodnaya Korea.JPG",
+   "lat": 42.4961,
+   "lon": 74.5483,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Free Korea Peak"
+  },
+  {
+   "id": "Q4092942",
+   "name": "Great Chüy Canal",
+   "sl": 8,
+   "file": "Бишкек, Большой Чуйский канал.jpg",
+   "lat": 42.9921,
+   "lon": 72.882,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Chuy channel"
+  },
+  {
+   "id": "Q1186384",
+   "name": "Issyk-Kul State Nature Reserve",
+   "sl": 8,
+   "file": "Оттук, лебедь на воде (2).jpg",
+   "lat": 42.4194,
+   "lon": 77.2641,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Issyk-Kul nature reserve"
+  },
+  {
+   "id": "Q4221744",
+   "name": "Kirov Reservoir",
+   "sl": 8,
+   "file": "Kirow Talsperre 1.jpg",
+   "lat": 42.6478,
+   "lon": 71.6183,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q25378976",
+   "name": "Pik Tjapajeva",
+   "sl": 8,
+   "file": "Čepajeva.JPG",
+   "lat": 42.1978,
+   "lon": 80.1355,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chapayev Peak"
+  },
+  {
+   "id": "Q4521371",
+   "name": "Shahrixonsoy",
+   "sl": 8,
+   "file": "Shahrihansay.PNG",
+   "lat": 40.699,
+   "lon": 72.0731,
+   "kind": "built",
+   "types": [
+    "canal",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3505856",
+   "name": "Suyumbayev Stadion",
+   "sl": 8,
+   "file": "Lenin and the stadium - panoramio.jpg",
+   "lat": 40.5207,
+   "lon": 72.8048,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

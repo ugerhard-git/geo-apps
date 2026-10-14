@@ -1,0 +1,24 @@
+{
+ "country": "DG",
+ "items": [
+  {
+   "id": "Q11694190",
+   "name": "Naval Support Facility Diego Garcia",
+   "sl": 11,
+   "file": "Terminal BIOT.jpg",
+   "lat": -7.3133,
+   "lon": 72.4111,
+   "kind": "built",
+   "types": [
+    "military base",
+    "naval airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MU"
+   ],
+   "cat": "Naval Support Facility Diego Garcia"
+  }
+ ]
+}

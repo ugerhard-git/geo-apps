@@ -1,0 +1,544 @@
+{
+ "country": "SN",
+ "items": [
+  {
+   "id": "Q679891",
+   "name": "Niokolo-Koba National Park",
+   "sl": 60,
+   "file": "River gambia Niokolokoba National Park.gif",
+   "lat": 13.0742,
+   "lon": -12.7222,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "national park of Senegal"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Niokolo-Koba National Park"
+  },
+  {
+   "id": "Q216889",
+   "name": "Cap-Vert",
+   "sl": 51,
+   "file": "STS054 STS054-94-32-north-south orientation-.jpg",
+   "lat": 14.7447,
+   "lon": -17.5203,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "peninsula"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cap-Vert"
+  },
+  {
+   "id": "Q733676",
+   "name": "Djoudj National Bird Sanctuary",
+   "sl": 47,
+   "file": "CormoransDjoudj.JPG",
+   "lat": 16.3585,
+   "lon": -16.2741,
+   "kind": "natural",
+   "types": [
+    "national park of Senegal"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Djoudj National Bird Sanctuary"
+  },
+  {
+   "id": "Q1522557",
+   "name": "Lake Retba",
+   "sl": 42,
+   "file": "Lac Rose in Senegal.jpg",
+   "lat": 14.8389,
+   "lon": -17.2344,
+   "kind": "both",
+   "types": [
+    "quarry",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lac rose (Senegal)"
+  },
+  {
+   "id": "Q470763",
+   "name": "African Renaissance Monument",
+   "sl": 34,
+   "file": "The African Renaissance Monument.jpg",
+   "lat": 14.7222,
+   "lon": -17.495,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "African Renaissance Monument"
+  },
+  {
+   "id": "Q390208",
+   "name": "Saloum Delta National Park",
+   "sl": 29,
+   "file": "Saloum.gif",
+   "lat": 13.8057,
+   "lon": -16.7572,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Senegal",
+    "protected area section"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saloum delta National Park"
+  },
+  {
+   "id": "Q597308",
+   "name": "Blaise Diagne International Airport",
+   "sl": 25,
+   "file": "Blaise Diagne1.jpg",
+   "lat": 14.6708,
+   "lon": -17.0689,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aéroport international Blaise Diagne"
+  },
+  {
+   "id": "Q513689",
+   "name": "Léopold Sédar Senghor International Airport",
+   "sl": 25,
+   "file": "Aeroport LSS Dakar.jpg",
+   "lat": 14.7438,
+   "lon": -17.4793,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Léopold Sédar Senghor International Airport"
+  },
+  {
+   "id": "Q559363",
+   "name": "Saloum Delta",
+   "sl": 24,
+   "file": "Oiseaux et Paysage du Bras de Mer Sine Saloum 03.jpg",
+   "lat": 13.8353,
+   "lon": -16.4986,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "river delta",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Saloum Delta"
+  },
+  {
+   "id": "Q2581624",
+   "name": "Pointe des Almadies",
+   "sl": 21,
+   "file": "Pointe des Almadies - Senegal.jpg",
+   "lat": 14.7408,
+   "lon": -17.53,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pointe des Almadies"
+  },
+  {
+   "id": "Q1553762",
+   "name": "Lac de Guiers",
+   "sl": 18,
+   "file": "Lac de Guiers 2017 01.jpg",
+   "lat": 16.25,
+   "lon": -15.8333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lac de Guiers"
+  },
+  {
+   "id": "Q691908",
+   "name": "House of Slaves",
+   "sl": 15,
+   "file": "La Maison des Esclaves.jpg",
+   "lat": 14.6678,
+   "lon": -17.3972,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "residential building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q244347",
+    "name": "Gorée"
+   },
+   "also": [],
+   "cat": "Maison des Esclaves"
+  },
+  {
+   "id": "Q2455361",
+   "name": "Cap Skirring Airport",
+   "sl": 13,
+   "file": "Aérogare de l'aéroport de Cap Skirring.jpg",
+   "lat": 12.3889,
+   "lon": -16.7416,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cap Skirring Airport"
+  },
+  {
+   "id": "Q2885103",
+   "name": "Diama Dam",
+   "sl": 13,
+   "file": "Barrage de Diama.jpg",
+   "lat": 16.2158,
+   "lon": -16.4149,
+   "kind": "built",
+   "types": [
+    "border crossing",
+    "gravity dam",
+    "Tidal barrier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MR"
+   ],
+   "cat": "Barrage de Diama"
+  },
+  {
+   "id": "Q2629758",
+   "name": "IFAN Museum of African Arts",
+   "sl": 13,
+   "file": "DakarMusée.jpg",
+   "lat": 14.6633,
+   "lon": -17.4381,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée Théodore Monod d'Art africain"
+  },
+  {
+   "id": "Q2721096",
+   "name": "Ziguinchor Airport",
+   "sl": 13,
+   "file": "Aéroport de Ziguinchor.jpg",
+   "lat": 12.5556,
+   "lon": -16.2817,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ziguinchor Airport"
+  },
+  {
+   "id": "Q3114987",
+   "name": "Great Mosque of Touba",
+   "sl": 12,
+   "file": "Touba 034 (45718877585).jpg",
+   "lat": 14.8635,
+   "lon": -15.8747,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grande Mosquée de Touba"
+  },
+  {
+   "id": "Q2477297",
+   "name": "Dakar Grand Mosque",
+   "sl": 11,
+   "file": "Grande Mosqué de dakar.jpg",
+   "lat": 14.6782,
+   "lon": -17.4422,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Mosque of Dakar"
+  },
+  {
+   "id": "Q2920610",
+   "name": "Faidherbe Bridge",
+   "sl": 11,
+   "file": "PontFaidherbe.JPG",
+   "lat": 16.0258,
+   "lon": -16.5011,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "road bridge",
+    "swing bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pont Faidherbe"
+  },
+  {
+   "id": "Q59521062",
+   "name": "Museum of Black Civilizations",
+   "sl": 11,
+   "file": "Musée des civilisations noires 2022.jpg",
+   "lat": 14.6775,
+   "lon": -17.4351,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée des civilisations noires (Dakar)"
+  },
+  {
+   "id": "Q940621",
+   "name": "Stade Demba Diop",
+   "sl": 11,
+   "file": "SenegaleseWrestling.JPG",
+   "lat": 14.7107,
+   "lon": -17.4584,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Demba Diop"
+  },
+  {
+   "id": "Q2721107",
+   "name": "Tambacounda Airport",
+   "sl": 11,
+   "file": "Tambacounda airport 002.jpg",
+   "lat": 13.7327,
+   "lon": -13.658,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q86670502",
+   "name": "Massalikoul Djinane Mosque",
+   "sl": 10,
+   "file": "Massalikul.jpg",
+   "lat": 14.7009,
+   "lon": -17.4494,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosquée Massalikoul Djinane"
+  },
+  {
+   "id": "Q1574109",
+   "name": "Basse Casamance National Park",
+   "sl": 9,
+   "file": "Parc national Basse Casamance.jpg",
+   "lat": 12.3794,
+   "lon": -16.5639,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Senegal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3284974",
+   "name": "Deux Mamelles",
+   "sl": 9,
+   "file": "Dakar-Collines des Mamelles.jpg",
+   "lat": 14.7237,
+   "lon": -17.5021,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mamelles (Sénégal)"
+  },
+  {
+   "id": "Q2893166",
+   "name": "Guembeul Natural Reserve",
+   "sl": 9,
+   "file": "OryxGuembeul.JPG",
+   "lat": 15.9178,
+   "lon": -16.4612,
+   "kind": "natural",
+   "types": [
+    "Wildlife reserve of Senegal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guembeul Reserve"
+  },
+  {
+   "id": "Q3324921",
+   "name": "Mosquée de la Divinité",
+   "sl": 9,
+   "file": "Fin de la prière de salatul fayfaat.jpg",
+   "lat": 14.7157,
+   "lon": -17.4905,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosquée de la Divinité (Ouakam)"
+  },
+  {
+   "id": "Q1670193",
+   "name": "Our Lady of Victories Cathedral, Dakar",
+   "sl": 9,
+   "file": "Dakar-cathedrale.JPG",
+   "lat": 14.6653,
+   "lon": -17.4378,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dakar Cathedral"
+  },
+  {
+   "id": "Q16511457",
+   "name": "Stade Lat-Dior",
+   "sl": 9,
+   "file": "Thiès-Stade Lat Dior (2).jpg",
+   "lat": 14.7697,
+   "lon": -16.9442,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Lat Dior"
+  },
+  {
+   "id": "Q3398424",
+   "name": "Autonomous Port of Dakar",
+   "sl": 8,
+   "file": "DakarHarbourAerial.JPG",
+   "lat": 14.6806,
+   "lon": -17.4278,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Dakar"
+  },
+  {
+   "id": "Q578769",
+   "name": "Dindefelo Falls",
+   "sl": 8,
+   "file": "Dindefelo.jpg",
+   "lat": 12.3648,
+   "lon": -12.3249,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chutes de Dindefelo"
+  },
+  {
+   "id": "Q3329908",
+   "name": "Henriette-Bathily Women's Museum",
+   "sl": 8,
+   "file": "Place du Souvenir africain à Dakar.jpg",
+   "lat": 14.6921,
+   "lon": -17.4752,
+   "kind": "built",
+   "types": [
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Henriette-Bathily Women's Museum"
+  }
+ ]
+}

@@ -1,0 +1,669 @@
+{
+ "country": "PG",
+ "items": [
+  {
+   "id": "Q277441",
+   "name": "Mount Wilhelm",
+   "sl": 41,
+   "file": "Mount Wilhelm.jpg",
+   "lat": -5.78,
+   "lon": 145.0296,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Wilhelm"
+  },
+  {
+   "id": "Q1165562",
+   "name": "Kuk Swamp",
+   "sl": 33,
+   "file": "Kuk New Guinea 2002.jpg",
+   "lat": -5.7825,
+   "lon": 144.33,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1088438",
+   "name": "Jacksons International Airport",
+   "sl": 30,
+   "file": "Port Moresby Intl Airport 2008.jpg",
+   "lat": -9.4433,
+   "lon": 147.22,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jacksons International Airport"
+  },
+  {
+   "id": "Q264862",
+   "name": "Tavurvur",
+   "sl": 26,
+   "file": "Tavurvur volcano edit.jpg",
+   "lat": -4.239,
+   "lon": 152.21,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tavurvur volcano"
+  },
+  {
+   "id": "Q74158",
+   "name": "Ulawun",
+   "sl": 25,
+   "file": "Ulawun.jpg",
+   "lat": -5.05,
+   "lon": 151.3333,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulawun"
+  },
+  {
+   "id": "Q1813475",
+   "name": "Mount Giluwe",
+   "sl": 23,
+   "file": "Mount Giluwe.jpg",
+   "lat": -6.0389,
+   "lon": 143.8861,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Giluwe"
+  },
+  {
+   "id": "Q1858048",
+   "name": "Umboi Island",
+   "sl": 23,
+   "file": "UmboiNASA.jpg",
+   "lat": -5.6119,
+   "lon": 147.8835,
+   "kind": "natural",
+   "types": [
+    "island",
+    "mountain",
+    "volcanic island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Umboi Island"
+  },
+  {
+   "id": "Q1247596",
+   "name": "Takuu Atoll",
+   "sl": 21,
+   "file": "Takuu ISS002-E-5632 2.jpg",
+   "lat": -4.7606,
+   "lon": 156.99,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Takuu"
+  },
+  {
+   "id": "Q1298202",
+   "name": "Mount Balbi",
+   "sl": 20,
+   "file": "MtBalbiToreNASA.jpg",
+   "lat": -5.9167,
+   "lon": 154.9825,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Balbi Volcano"
+  },
+  {
+   "id": "Q1367889",
+   "name": "Mount Lamington",
+   "sl": 18,
+   "file": "Mount Lamington 1951.jpg",
+   "lat": -8.95,
+   "lon": 148.15,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Lamington"
+  },
+  {
+   "id": "Q1297541",
+   "name": "Mount Bosavi",
+   "sl": 17,
+   "file": "Mount Bosavi pad pan.jpg",
+   "lat": -6.6142,
+   "lon": 142.8267,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Bosavi"
+  },
+  {
+   "id": "Q637741",
+   "name": "Nukumanu Islands",
+   "sl": 17,
+   "file": "Nukumanu STS099-725-41.jpg",
+   "lat": -4.525,
+   "lon": 159.4,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nukumanu"
+  },
+  {
+   "id": "Q457596",
+   "name": "Ambitle",
+   "sl": 16,
+   "file": "Feni Islands NASA.jpg",
+   "lat": -4.0833,
+   "lon": 153.95,
+   "kind": "natural",
+   "types": [
+    "island",
+    "mountain",
+    "volcanic island",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ambitle"
+  },
+  {
+   "id": "Q1320298",
+   "name": "Rabaul caldera",
+   "sl": 16,
+   "file": "Tavurvur volcano edit.jpg",
+   "lat": -4.2708,
+   "lon": 152.2028,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rabaul caldera"
+  },
+  {
+   "id": "Q799827",
+   "name": "Bagana",
+   "sl": 14,
+   "file": "Bagana Volcano.jpg",
+   "lat": -6.14,
+   "lon": 155.195,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bagana Volcano"
+  },
+  {
+   "id": "Q1708714",
+   "name": "Daru Airport",
+   "sl": 13,
+   "file": "Daru Island (Landsat).jpg",
+   "lat": -9.0867,
+   "lon": 143.2078,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daru Airport"
+  },
+  {
+   "id": "Q1800976",
+   "name": "Lake Kutubu",
+   "sl": 13,
+   "file": "Clouds over Lake Kutubu.jpg",
+   "lat": -6.4,
+   "lon": 143.3333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1165152",
+   "name": "Pago",
+   "sl": 13,
+   "file": "Pago volcano.jpg",
+   "lat": -5.5751,
+   "lon": 150.5156,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pago volcano"
+  },
+  {
+   "id": "Q254143",
+   "name": "Sakar Island",
+   "sl": 13,
+   "file": "Dampier Strait NASA.jpg",
+   "lat": -5.4167,
+   "lon": 148.1,
+   "kind": "natural",
+   "types": [
+    "island",
+    "mountain",
+    "volcanic island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sakar (Papua New Guinea)"
+  },
+  {
+   "id": "Q1431826",
+   "name": "Lae Nadzab Airport",
+   "sl": 12,
+   "file": "Nadzabsign.jpg",
+   "lat": -6.5697,
+   "lon": 146.7261,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lae Nadzab Airport"
+  },
+  {
+   "id": "Q7278511",
+   "name": "Rabaul Airport",
+   "sl": 12,
+   "file": "Rabaul Airport19880217.jpg",
+   "lat": -4.3403,
+   "lon": 152.3794,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1067405",
+   "name": "Goroka Airport",
+   "sl": 11,
+   "file": "Goroka Airport PNG 2008.jpg",
+   "lat": -6.0817,
+   "lon": 145.3919,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goroka Airport"
+  },
+  {
+   "id": "Q1635229",
+   "name": "Lake Murray",
+   "sl": 11,
+   "file": "Lake Murray.png",
+   "lat": -7,
+   "lon": 141.5,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q863196",
+   "name": "Billy Mitchell",
+   "sl": 10,
+   "file": "MtBalbiToreNASA.jpg",
+   "lat": -6.092,
+   "lon": 155.225,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3275038",
+   "name": "Girua Airport",
+   "sl": 10,
+   "file": "7th Fighter Squadron - P-40 Warhawk.jpg",
+   "lat": -8.8044,
+   "lon": 148.3089,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Girua Airport"
+  },
+  {
+   "id": "Q3887427",
+   "name": "Mount Hagen Airport",
+   "sl": 10,
+   "file": "Mt. Hagen, Kagamuga International Airport 01.JPG",
+   "lat": -5.8268,
+   "lon": 144.2959,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Hagen Airport"
+  },
+  {
+   "id": "Q806022",
+   "name": "Bamus",
+   "sl": 9,
+   "file": "Bamus, Ulawun, and Lolobau from space.jpg",
+   "lat": -5.1961,
+   "lon": 151.2411,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2900707",
+   "name": "Jacquinot Bay Airport",
+   "sl": 9,
+   "file": "Surrendered A6M5s at Jacquinot Bay 1945.jpeg",
+   "lat": -5.6525,
+   "lon": 151.5069,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q10930307",
+   "name": "Kiunga Airport",
+   "sl": 9,
+   "file": "Arrival Kiunga.jpg",
+   "lat": -6.1257,
+   "lon": 141.282,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kiunga Airport"
+  },
+  {
+   "id": "Q3217267",
+   "name": "Langila",
+   "sl": 9,
+   "file": "Langila ash.jpg",
+   "lat": -5.525,
+   "lon": 148.42,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Langila volcano"
+  },
+  {
+   "id": "Q830601",
+   "name": "Madang Airport",
+   "sl": 9,
+   "file": "Madang (Flughafen).jpg",
+   "lat": -5.2083,
+   "lon": 145.7833,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madang Airport"
+  },
+  {
+   "id": "Q4063366",
+   "name": "Mount Albert Edward",
+   "sl": 9,
+   "file": "Mount Albert Edward PNG Cross.jpg",
+   "lat": -8.411,
+   "lon": 147.404,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Albert Edward"
+  },
+  {
+   "id": "Q8536221",
+   "name": "Mount Vineuo",
+   "sl": 9,
+   "file": "ISS034-E-5543 - View of Papua New Guinea.jpg",
+   "lat": -9.3342,
+   "lon": 150.2058,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1633327",
+   "name": "Sir Hubert Murray Stadium",
+   "sl": 9,
+   "file": "Sir Hubert Murray Stadium (1993, cropped).jpg",
+   "lat": -9.4669,
+   "lon": 147.1567,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q805826",
+   "name": "Baluan",
+   "sl": 8,
+   "file": "Baluan Admiralty Islands.jpg",
+   "lat": -2.5583,
+   "lon": 147.2892,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5372593",
+   "name": "Emirau Airport",
+   "sl": 8,
+   "file": "U.S. Marine Corps Vought F4U-1 Corsairs on Emirau, circa in the summer of 1944.jpg",
+   "lat": -1.6417,
+   "lon": 149.975,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3117425",
+   "name": "Garbuna Group",
+   "sl": 8,
+   "file": "Garbuna-volcano.jpg",
+   "lat": -5.45,
+   "lon": 150.0333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Garbuna Group"
+  },
+  {
+   "id": "Q257610",
+   "name": "Seeadler Harbor",
+   "sl": 8,
+   "file": "Seeadler USN drydock 1945.jpg",
+   "lat": -2.0203,
+   "lon": 147.3644,
+   "kind": "natural",
+   "types": [
+    "harbor"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seeadler Harbor"
+  },
+  {
+   "id": "Q2289928",
+   "name": "Sir John Guise Stadium",
+   "sl": 8,
+   "file": "Sir. John Guise Stadium.jpg",
+   "lat": -9.44,
+   "lon": 147.1836,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7673600",
+   "name": "Tabubil Airport",
+   "sl": 8,
+   "file": "Ok Tedi Tabubil Airfield - 8605438165.jpg",
+   "lat": -5.2786,
+   "lon": 141.2258,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tabubil Airport"
+  }
+ ]
+}

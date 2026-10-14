@@ -1,0 +1,631 @@
+{
+ "country": "BZ",
+ "items": [
+  {
+   "id": "Q28361",
+   "name": "Belize Barrier Reef",
+   "sl": 47,
+   "file": "Belize Barrier Reef from space.png",
+   "lat": 17.2625,
+   "lon": -88.0528,
+   "kind": "natural",
+   "types": [
+    "cay",
+    "reef"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Belize Barrier Reef"
+  },
+  {
+   "id": "Q86486",
+   "name": "Great Blue Hole",
+   "sl": 46,
+   "file": "Great Blue Hole.jpg",
+   "lat": 17.3156,
+   "lon": -87.5344,
+   "kind": "natural",
+   "types": [
+    "blue hole",
+    "natural monument"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q28361",
+    "name": "Belize Barrier Reef"
+   },
+   "also": [],
+   "cat": "Great Blue Hole (Belize)"
+  },
+  {
+   "id": "Q1035336",
+   "name": "Caracol",
+   "sl": 30,
+   "file": "Caracol-Temple.jpg",
+   "lat": 16.7639,
+   "lon": -89.1176,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Caracol (Belize)"
+  },
+  {
+   "id": "Q1422858",
+   "name": "Philip S. W. Goldson International Airport",
+   "sl": 26,
+   "file": "Philip S. W. Goldson International Airport.jpg",
+   "lat": 17.5392,
+   "lon": -88.3083,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Philip S. W. Goldson International Airport"
+  },
+  {
+   "id": "Q1646630",
+   "name": "Xunantunich",
+   "sl": 25,
+   "file": "Xunantunich Belize 1 19.jpg",
+   "lat": 17.0902,
+   "lon": -89.1422,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Xunantunich"
+  },
+  {
+   "id": "Q968562",
+   "name": "Lamanai",
+   "sl": 23,
+   "file": "Templeofthejaguar.jpg",
+   "lat": 17.7643,
+   "lon": -88.6525,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lamanai"
+  },
+  {
+   "id": "Q446176",
+   "name": "Altun Ha",
+   "sl": 22,
+   "file": "Altun Ha Belize.jpg",
+   "lat": 17.7646,
+   "lon": -88.3475,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Altun Ha"
+  },
+  {
+   "id": "Q968463",
+   "name": "Cahal Pech",
+   "sl": 21,
+   "file": "Cahal Pech Belize.jpg",
+   "lat": 17.1556,
+   "lon": -89.0611,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cahal Pech"
+  },
+  {
+   "id": "Q344570",
+   "name": "Actun Tunichil Muknal",
+   "sl": 20,
+   "file": "Actun Tunichil Muknal.jpg",
+   "lat": 17.1141,
+   "lon": -88.8624,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "Maya site in Belize",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Actun Tunichil Muknal"
+  },
+  {
+   "id": "Q47490",
+   "name": "Doyle's Delight",
+   "sl": 19,
+   "file": "Doyle's Delight.jpg",
+   "lat": 16.5,
+   "lon": -89.05,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q529147",
+   "name": "Lubaantun",
+   "sl": 19,
+   "file": "Lubaantun-structure.jpg",
+   "lat": 16.2811,
+   "lon": -88.965,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lubaantun"
+  },
+  {
+   "id": "Q765910",
+   "name": "Victoria Peak",
+   "sl": 18,
+   "file": "Victoria-peak-2.jpg",
+   "lat": 16.8,
+   "lon": -88.6,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1083004",
+   "name": "Nim Li Punit",
+   "sl": 17,
+   "file": "Nim Li Punit ballcourt.jpg",
+   "lat": 16.3167,
+   "lon": -88.8,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nim Li Punit"
+  },
+  {
+   "id": "Q1056179",
+   "name": "Cerros",
+   "sl": 15,
+   "file": "Cerros1.jpg",
+   "lat": 18.3539,
+   "lon": -88.3506,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerros, Belize"
+  },
+  {
+   "id": "Q1324484",
+   "name": "El Pilar",
+   "sl": 14,
+   "file": "Tzunuun El Pilar.jpg",
+   "lat": 17.2482,
+   "lon": -89.1506,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "Maya site in Guatemala",
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GT"
+   ],
+   "cat": "El Pilar"
+  },
+  {
+   "id": "Q1657585",
+   "name": "Belize City Municipal Airport",
+   "sl": 13,
+   "file": "Airport Belize 2015-07-09.jpg",
+   "lat": 17.5164,
+   "lon": -88.1917,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sir Barry Bowen Municipal Airport"
+  },
+  {
+   "id": "Q672101",
+   "name": "Cockscomb Basin Wildlife Sanctuary",
+   "sl": 13,
+   "file": "CB Upper Falls.png",
+   "lat": 16.7999,
+   "lon": -88.4727,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cockscomb Basin Wildlife Sanctuary"
+  },
+  {
+   "id": "Q1708475",
+   "name": "Dangriga Airport",
+   "sl": 13,
+   "file": "Flughafen Dangriga 01.JPG",
+   "lat": 16.9819,
+   "lon": -88.2288,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dangriga Airport"
+  },
+  {
+   "id": "Q3772508",
+   "name": "Glover's Reef",
+   "sl": 13,
+   "file": "Glover's Reef 2-14 (33297602395).jpg",
+   "lat": 16.823,
+   "lon": -87.791,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "protected area",
+    "reef"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q28361",
+    "name": "Belize Barrier Reef"
+   },
+   "also": [],
+   "cat": "Glover's Reef"
+  },
+  {
+   "id": "Q4383718",
+   "name": "John Greif II Airport",
+   "sl": 13,
+   "file": "San Pedro, Ambergris Caye, Belize - Tropic Air Airport.JPG",
+   "lat": 17.9139,
+   "lon": -87.9711,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Pedro Airport"
+  },
+  {
+   "id": "Q889380",
+   "name": "FFB Stadium",
+   "sl": 12,
+   "file": "FFB-Field-Belmopan-Belice-Proyecto-Goal-FIFA-Stadium-Source 02.jpg",
+   "lat": 17.2521,
+   "lon": -88.7863,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7047565",
+   "name": "Nohmul",
+   "sl": 12,
+   "file": "1985. Red-painted Plaster Floor \"Turn-Up\" at Nohmul.jpg",
+   "lat": 18.2173,
+   "lon": -88.5847,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nohmul"
+  },
+  {
+   "id": "Q7200286",
+   "name": "Placencia Airport",
+   "sl": 12,
+   "file": "Placencia Airport 2022.jpg",
+   "lat": 16.5369,
+   "lon": -88.3617,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Placencia Airport"
+  },
+  {
+   "id": "Q2117842",
+   "name": "Turneffe islands",
+   "sl": 12,
+   "file": "A stop on an atoll (4906562258).jpg",
+   "lat": 17.3333,
+   "lon": -87.8667,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Turneffe Atoll"
+  },
+  {
+   "id": "Q1962796",
+   "name": "Caye Caulker Airport",
+   "sl": 11,
+   "file": "Caye Caulker Airport.JPG",
+   "lat": 17.735,
+   "lon": -88.0294,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Caye Caulker Airport"
+  },
+  {
+   "id": "Q1657762",
+   "name": "Corozal Airport",
+   "sl": 11,
+   "file": "Belmopan Parliament.jpg",
+   "lat": 18.3822,
+   "lon": -88.4108,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q21601149",
+   "name": "Lighthouse Reef",
+   "sl": 11,
+   "file": "Lighthouse Reef Belize.jpg",
+   "lat": 17.3,
+   "lon": -87.55,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lighthouse Reef"
+  },
+  {
+   "id": "Q858692",
+   "name": "Big Creek",
+   "sl": 9,
+   "file": "Loadingoil.jpg",
+   "lat": 16.5142,
+   "lon": -88.4039,
+   "kind": "both",
+   "types": [
+    "deep water port",
+    "seaport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Big Creek, Belize"
+  },
+  {
+   "id": "Q1040156",
+   "name": "Carl Ramos Stadium",
+   "sl": 9,
+   "file": "Carl Ramos Stadium Field.jpg",
+   "lat": 16.9712,
+   "lon": -88.2213,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carl Ramos Stadium"
+  },
+  {
+   "id": "Q973934",
+   "name": "Guanacaste National Park",
+   "sl": 9,
+   "file": "Guanacaste Nationalpark.jpg",
+   "lat": 17.2644,
+   "lon": -88.786,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7588335",
+   "name": "St. Herman's Blue Hole National Park",
+   "sl": 9,
+   "file": "St. Herman's Blue Hole.jpg",
+   "lat": 17.156,
+   "lon": -88.685,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Hole National Park"
+  },
+  {
+   "id": "Q540295",
+   "name": "Uxbenka",
+   "sl": 9,
+   "file": "Uxbenka B-Gruppe.JPG",
+   "lat": 16.2367,
+   "lon": -89.0783,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uxbenka"
+  },
+  {
+   "id": "Q260740",
+   "name": "Belize Zoo",
+   "sl": 8,
+   "file": "Spider monkey -Belize Zoo-8b.jpg",
+   "lat": 17.3536,
+   "lon": -88.5497,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belize Zoo"
+  },
+  {
+   "id": "Q3888074",
+   "name": "Hector Silva Airstrip",
+   "sl": 8,
+   "file": "20170611 - Belmopan Hector Silva Airstrip 02.jpg",
+   "lat": 17.2694,
+   "lon": -88.7761,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q766270",
+   "name": "Sapodilla Cayes",
+   "sl": 8,
+   "file": "FacingSouthHuntingCaye.JPG",
+   "lat": 16.146,
+   "lon": -88.281,
+   "kind": "natural",
+   "types": [
+    "island group",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q28361",
+    "name": "Belize Barrier Reef"
+   },
+   "also": [],
+   "cat": "Sapodilla Cayes"
+  },
+  {
+   "id": "Q4163413",
+   "name": "St. John's Cathedral",
+   "sl": 8,
+   "file": "St. John's Anglican Church, Belize City.jpg",
+   "lat": 17.4886,
+   "lon": -88.1878,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. John's Cathedral, Belize City"
+  }
+ ]
+}

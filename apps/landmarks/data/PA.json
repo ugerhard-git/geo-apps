@@ -1,0 +1,708 @@
+{
+ "country": "PA",
+ "items": [
+  {
+   "id": "Q7350",
+   "name": "Panama Canal",
+   "sl": 162,
+   "file": "Panama Canal Gatun Locks.jpg",
+   "lat": 9.12,
+   "lon": -79.75,
+   "kind": "built",
+   "types": [
+    "ship canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Panama Canal"
+  },
+  {
+   "id": "Q182139",
+   "name": "Isthmus of Panama",
+   "sl": 69,
+   "file": "Satellite image of Panama in March 2003.jpg",
+   "lat": 9,
+   "lon": -79,
+   "kind": "natural",
+   "types": [
+    "isthmus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isthmus of Panama"
+  },
+  {
+   "id": "Q379217",
+   "name": "La Amistad International Park",
+   "sl": 52,
+   "file": "DirkvdM cloudforest-jungle.jpg",
+   "lat": 9.405,
+   "lon": -82.9361,
+   "kind": "natural",
+   "types": [
+    "transboundary protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6106226",
+    "name": "Talamanca Range-La Amistad Reserves"
+   },
+   "also": [
+    "CR"
+   ],
+   "cat": "La Amistad International Park"
+  },
+  {
+   "id": "Q741636",
+   "name": "Coiba",
+   "sl": 44,
+   "file": "Coiba.JPG",
+   "lat": 7.48,
+   "lon": -81.79,
+   "kind": "natural",
+   "types": [
+    "island",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q115409303",
+    "name": "Coiba"
+   },
+   "also": [],
+   "cat": "Parque Nacional Coiba"
+  },
+  {
+   "id": "Q48608",
+   "name": "Darién National Park",
+   "sl": 40,
+   "file": "Pteroglossus-torquatus-001.jpg",
+   "lat": 7.7361,
+   "lon": -77.5472,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Darién National Park"
+  },
+  {
+   "id": "Q313637",
+   "name": "Gatun Lake",
+   "sl": 40,
+   "file": "Gatun Lake.jpg",
+   "lat": 9.2,
+   "lon": -79.9,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gatun Lake"
+  },
+  {
+   "id": "Q594726",
+   "name": "Volcan Baru",
+   "sl": 38,
+   "file": "Volcan baru.jpg",
+   "lat": 8.808,
+   "lon": -82.543,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barú volcano"
+  },
+  {
+   "id": "Q216061",
+   "name": "Bridge of the Americas",
+   "sl": 36,
+   "file": "Bridge of the Americas.jpg",
+   "lat": 8.9431,
+   "lon": -79.565,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "cantilever bridge",
+    "road bridge",
+    "steel bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bridge of the Americas, Panama"
+  },
+  {
+   "id": "Q1420178",
+   "name": "Tocumen International Airport",
+   "sl": 35,
+   "file": "Tocumen International Airport.jpg",
+   "lat": 9.0714,
+   "lon": -79.3836,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tocumen International Airport"
+  },
+  {
+   "id": "Q712335",
+   "name": "Panamá Viejo",
+   "sl": 27,
+   "file": "Torre de Panama Viejo.jpg",
+   "lat": 9.0068,
+   "lon": -79.4851,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65508609",
+    "name": "The Colonial Transisthmian Route of Panamá"
+   },
+   "also": [],
+   "cat": "Panamá Viejo"
+  },
+  {
+   "id": "Q747908",
+   "name": "Centennial Bridge, Panama",
+   "sl": 23,
+   "file": "Centenario1 (1).jpg",
+   "lat": 9.0301,
+   "lon": -79.6357,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Centennial Bridge, Panama"
+  },
+  {
+   "id": "Q3320082",
+   "name": "fortifications on the Caribbean Side of Panama: Portobelo-San Lorenzo",
+   "sl": 22,
+   "file": "Portobelo.jpg",
+   "lat": 9.5539,
+   "lon": -79.6558,
+   "kind": "",
+   "types": [
+    "fortification system",
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Fortifications on the Caribbean Side of Panama: Portobelo-San Lorenzo"
+  },
+  {
+   "id": "Q1034179",
+   "name": "Chagres and Fort San Lorenzo",
+   "sl": 18,
+   "file": "Toma aérea del Fuerte San Lorenzo.jpg",
+   "lat": 9.3226,
+   "lon": -80.0024,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3320082",
+    "name": "fortifications on the Caribbean Side of Panama: Portobelo-San Lorenzo"
+   },
+   "also": [],
+   "cat": "Castillo San Lorenzo"
+  },
+  {
+   "id": "Q3488567",
+   "name": "Chagres National Park",
+   "sl": 18,
+   "file": "Chagres.jpg",
+   "lat": 9.4,
+   "lon": -79.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1369622",
+   "name": "Estadio Rommel Fernández",
+   "sl": 17,
+   "file": "Estadio Rommel FernándezA2.jpg",
+   "lat": 9.0358,
+   "lon": -79.4694,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Rommel Fernández"
+  },
+  {
+   "id": "Q3493016",
+   "name": "Ancon Hill",
+   "sl": 16,
+   "file": "Ancon Hill in Panama 01.jpg",
+   "lat": 8.9573,
+   "lon": -79.5494,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancon Hill"
+  },
+  {
+   "id": "Q2356112",
+   "name": "Culebra Cut",
+   "sl": 16,
+   "file": "Gold Hill and Centennial Bridge.JPG",
+   "lat": 9.0772,
+   "lon": -79.6753,
+   "kind": "both",
+   "types": [
+    "cut"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Culebra Cut"
+  },
+  {
+   "id": "Q1799249",
+   "name": "La Yeguada",
+   "sl": 15,
+   "file": "La yeguada.jpg",
+   "lat": 8.47,
+   "lon": -80.82,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1416924",
+   "name": "Lake Alajuela",
+   "sl": 15,
+   "file": "Lago Alajuela, Panama.jpg",
+   "lat": 9.2344,
+   "lon": -79.5756,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago Alajuela"
+  },
+  {
+   "id": "Q2035070",
+   "name": "Punta Mariato",
+   "sl": 15,
+   "file": "Azuero Peninsula NASA.jpg",
+   "lat": 7.2089,
+   "lon": -80.8861,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7784787",
+   "name": "Atlantic Bridge",
+   "sl": 14,
+   "file": "Panama Canal, Agua Clara locks, Control tower (Torre de control).jpg",
+   "lat": 9.3081,
+   "lon": -79.9189,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atlantic Bridge, Panama"
+  },
+  {
+   "id": "Q1324715",
+   "name": "El Valle",
+   "sl": 14,
+   "file": "El valle.jpg",
+   "lat": 8.58,
+   "lon": -80.17,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Valle volcano"
+  },
+  {
+   "id": "Q5758391",
+   "name": "Metropolitan Cathedral of Panama City",
+   "sl": 14,
+   "file": "Panama Catedral Metropolitana.jpg",
+   "lat": 8.9525,
+   "lon": -79.5352,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Metropolitan Cathedral of Panama City"
+  },
+  {
+   "id": "Q3496541",
+   "name": "Albrook \"Marcos A. Gelabert\" International Airport",
+   "sl": 12,
+   "file": "AirPanamaF70.JPG",
+   "lat": 8.9733,
+   "lon": -79.5556,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Albrook \"Marcos A. Gelabert\" International Airport"
+  },
+  {
+   "id": "Q1751287",
+   "name": "Bastimentos Island National Marine Park",
+   "sl": 12,
+   "file": "Isla Bastimentos La Mochila.jpg",
+   "lat": 9.3,
+   "lon": -82.14,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Marino Isla Bastimentos"
+  },
+  {
+   "id": "Q5853834",
+   "name": "F&F Tower",
+   "sl": 12,
+   "file": "Revolution-tower.jpg",
+   "lat": 8.983,
+   "lon": -79.5185,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "F&F Tower"
+  },
+  {
+   "id": "Q492359",
+   "name": "Gulf of Chiriquí National Marine Park",
+   "sl": 12,
+   "file": "Parque Nacional Chiriquí.JPG",
+   "lat": 8.1131,
+   "lon": -82.3036,
+   "kind": "natural",
+   "types": [
+    "marine national park",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chiriquí National Park"
+  },
+  {
+   "id": "Q3541144",
+   "name": "JW Marriott Panama",
+   "sl": 12,
+   "file": "Panama 08 2013 Trump Ocean Tower 7085.JPG",
+   "lat": 8.9756,
+   "lon": -79.5072,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Bahia Grand Panama"
+  },
+  {
+   "id": "Q1473095",
+   "name": "Soberanía National Park",
+   "sl": 12,
+   "file": "The Pipeline at Rio Mendoza - Flickr - treegrow.jpg",
+   "lat": 9.0743,
+   "lon": -79.6598,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soberanía National Park"
+  },
+  {
+   "id": "Q2031187",
+   "name": "Bayano Lake",
+   "sl": 11,
+   "file": "Lago Bayano.jpg",
+   "lat": 9.15,
+   "lon": -78.76,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago Bayano"
+  },
+  {
+   "id": "Q583587",
+   "name": "Bocas del Toro \"Isla Colón\" International Airport",
+   "sl": 11,
+   "file": "Aeropuerto de Bocas del Toro.jpg",
+   "lat": 9.3408,
+   "lon": -82.2508,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jose Ezequiel Hall International Airport"
+  },
+  {
+   "id": "Q1105400",
+   "name": "Coco Solo",
+   "sl": 11,
+   "file": "NS Coco Solo Panama 1941 NAN7-64.jpg",
+   "lat": 9.3726,
+   "lon": -79.8812,
+   "kind": "both",
+   "types": [
+    "submarine base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naval Station Coco Solo"
+  },
+  {
+   "id": "Q3495914",
+   "name": "Enrique Malek International Airport",
+   "sl": 11,
+   "file": "Enrique Malek Airport 2.png",
+   "lat": 8.3911,
+   "lon": -82.435,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3058818",
+   "name": "Estadio Nacional de Panamá",
+   "sl": 10,
+   "file": "Rodcarew.jpg",
+   "lat": 9.0413,
+   "lon": -79.5453,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3064689",
+   "name": "Palacio de las Garzas",
+   "sl": 10,
+   "file": "Una mañana tranquila en el Palacio de Las Garzas.JPG",
+   "lat": 8.954,
+   "lon": -79.5344,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio de las Garzas"
+  },
+  {
+   "id": "Q5379623",
+   "name": "Enrique Adolfo Jiménez Airport",
+   "sl": 9,
+   "file": "Enrique Jimenez Airport 2.png",
+   "lat": 9.3567,
+   "lon": -79.8675,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11702782",
+   "name": "Gatun Dam",
+   "sl": 9,
+   "file": "Esclusas de Gatún La Mochila.jpg",
+   "lat": 9.2667,
+   "lon": -79.9333,
+   "kind": "both",
+   "types": [
+    "embankment dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gatun Dam"
+  },
+  {
+   "id": "Q7386320",
+   "name": "Río Hato Airport",
+   "sl": 9,
+   "file": "Scarlett Martinez Airport 2.png",
+   "lat": 8.38,
+   "lon": -80.1297,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Scarlett Martinez International Airport"
+  },
+  {
+   "id": "Q2444561",
+   "name": "Vitri Tower",
+   "sl": 9,
+   "file": "Torre Vitri centro.jpg",
+   "lat": 9.0105,
+   "lon": -79.4637,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vitri Tower"
+  },
+  {
+   "id": "Q9055968",
+   "name": "Volcán Barú National Park",
+   "sl": 9,
+   "file": "La Amistad Panama Biosphere Reserve - Parque Nacional Volcan Baru (a core zone) 39.JPG",
+   "lat": 8.8078,
+   "lon": -82.5428,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Volcán Barú"
+  },
+  {
+   "id": "Q1837152",
+   "name": "Changuinola \"Capitán Manuel Niño\" International Airport",
+   "sl": 8,
+   "file": "Air Panama FokkerF50.jpg",
+   "lat": 9.4565,
+   "lon": -82.5174,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3330421",
+   "name": "Panama Canal Museum",
+   "sl": 8,
+   "file": "La Historia del Canal de Panamá, en un solo lugar.jpg",
+   "lat": 8.9519,
+   "lon": -79.5347,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo del Canal Interoceánico de Panamá"
+  }
+ ]
+}

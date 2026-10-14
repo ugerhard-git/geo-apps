@@ -1,0 +1,1365 @@
+{
+ "country": "ZA",
+ "items": [
+  {
+   "id": "Q4092",
+   "name": "Cape of Good Hope",
+   "sl": 105,
+   "file": "Cape of Good Hope (Zaian 2008).JPG",
+   "lat": -34.3581,
+   "lon": 18.4719,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape of Good Hope"
+  },
+  {
+   "id": "Q183295",
+   "name": "Drakensberg",
+   "sl": 78,
+   "file": "Monks Cowl (15127602555).jpg",
+   "lat": -29.3667,
+   "lon": 29.5333,
+   "kind": "natural",
+   "types": [
+    "large igneous province",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LS"
+   ],
+   "cat": "Drakensberg"
+  },
+  {
+   "id": "Q213360",
+   "name": "Table Mountain",
+   "sl": 72,
+   "file": "Cape Town Table Mountain.jpg",
+   "lat": -33.9622,
+   "lon": 18.4135,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Table Mountain"
+  },
+  {
+   "id": "Q24451",
+   "name": "Kruger National Park",
+   "sl": 65,
+   "file": "Impalas and Zebras at Duke's Waterhole (16589771331).jpg",
+   "lat": -24.0114,
+   "lon": 31.4853,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kruger National Park"
+  },
+  {
+   "id": "Q163521",
+   "name": "FNB Stadium",
+   "sl": 61,
+   "file": "FIFA World Cup 2010 Argentina South Korea.jpg",
+   "lat": -26.2348,
+   "lon": 27.9824,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soccer City"
+  },
+  {
+   "id": "Q4085",
+   "name": "Cape Agulhas",
+   "sl": 59,
+   "file": "Agulhas.jpg",
+   "lat": -34.8333,
+   "lon": 20.0025,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Agulhas"
+  },
+  {
+   "id": "Q173559",
+   "name": "Cape Town Stadium",
+   "sl": 54,
+   "file": "2011-02-06 14-57-32 South Africa - Bakoven.jpg",
+   "lat": -33.9035,
+   "lon": 18.4112,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium",
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Town Stadium"
+  },
+  {
+   "id": "Q175289",
+   "name": "Moses Mabhida Stadium",
+   "sl": 53,
+   "file": "Mabhida Stadium.jpg",
+   "lat": -29.829,
+   "lon": 31.0303,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moses Mabhida Stadium"
+  },
+  {
+   "id": "Q182081",
+   "name": "Ellis Park Stadium",
+   "sl": 52,
+   "file": "Ellis Park Stadium.jpg",
+   "lat": -26.1975,
+   "lon": 28.0608,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ellis Park Stadium"
+  },
+  {
+   "id": "Q181439",
+   "name": "Free State Stadium",
+   "sl": 51,
+   "file": "Free State Stadium1.jpg",
+   "lat": -29.1172,
+   "lon": 26.2089,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Free State Stadium"
+  },
+  {
+   "id": "Q330095",
+   "name": "Vredefort crater",
+   "sl": 51,
+   "file": "Aasvoelkop.jpg",
+   "lat": -27,
+   "lon": 27.5,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "impact crater"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Vredefort Dome"
+  },
+  {
+   "id": "Q181398",
+   "name": "Loftus Versfeld Stadium",
+   "sl": 50,
+   "file": "Loftus Versfeld Stadium.jpg",
+   "lat": -25.7532,
+   "lon": 28.223,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Loftus Versfeld Stadium"
+  },
+  {
+   "id": "Q187042",
+   "name": "Peter Mokaba Stadium",
+   "sl": 50,
+   "file": "Mokaba stadium (4739619696).jpg",
+   "lat": -23.9247,
+   "lon": 29.4688,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peter Mokaba Stadium"
+  },
+  {
+   "id": "Q1130112",
+   "name": "Cradle of Humankind",
+   "sl": 49,
+   "file": "SterkfonteinCave.jpg",
+   "lat": -25.9672,
+   "lon": 27.6624,
+   "kind": "",
+   "types": [
+    "cultural heritage",
+    "group"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cradle of Humankind"
+  },
+  {
+   "id": "Q181445",
+   "name": "Nelson Mandela Bay Stadium",
+   "sl": 49,
+   "file": "Nelson Mandela Stadium in Port Elizabeth.jpg",
+   "lat": -33.9378,
+   "lon": 25.5989,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nelson Mandela Bay Stadium"
+  },
+  {
+   "id": "Q187087",
+   "name": "Mbombela Stadium",
+   "sl": 48,
+   "file": "Mbombela Stadium Aerial View.jpg",
+   "lat": -25.4619,
+   "lon": 30.9298,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mbombela Stadium"
+  },
+  {
+   "id": "Q189337",
+   "name": "Royal Bafokeng Stadium",
+   "sl": 48,
+   "file": "Royal Bafokeng Stadium, Phokeng.jpg",
+   "lat": -25.5786,
+   "lon": 27.1608,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Bafokeng Stadium"
+  },
+  {
+   "id": "Q1974274",
+   "name": "Cape Floristic Kingdom",
+   "sl": 46,
+   "file": "Floraregio van de Kaap.jpg",
+   "lat": -34.1667,
+   "lon": 18.375,
+   "kind": "",
+   "types": [
+    "floristic kingdom",
+    "heritage site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Floral"
+  },
+  {
+   "id": "Q821750",
+   "name": "OR Tambo International Airport",
+   "sl": 45,
+   "file": "Ekurhuleni Aerotropolis.jpg",
+   "lat": -26.1392,
+   "lon": 28.2461,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "OR Tambo International Airport"
+  },
+  {
+   "id": "Q223649",
+   "name": "Tugela Falls",
+   "sl": 42,
+   "file": "Tugela falls.jpg",
+   "lat": -28.7522,
+   "lon": 28.8941,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tugela Falls"
+  },
+  {
+   "id": "Q854130",
+   "name": "Cape Town International Airport",
+   "sl": 41,
+   "file": "CTIA-CentralTerminal.jpg",
+   "lat": -33.9694,
+   "lon": 18.5972,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Town International Airport"
+  },
+  {
+   "id": "Q310719",
+   "name": "iSimangaliso Wetland Park",
+   "sl": 41,
+   "file": "Greater St. Lucia Wetland Park,South Africa.jpg",
+   "lat": -28,
+   "lon": 32.5,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "ISimangaliso Wetland Park"
+  },
+  {
+   "id": "Q39544",
+   "name": "Augrabies Falls",
+   "sl": 34,
+   "file": "Augrabies Falls, March 2008.jpg",
+   "lat": -28.5914,
+   "lon": 20.3408,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Augrabies Falls"
+  },
+  {
+   "id": "Q985798",
+   "name": "Sun City",
+   "sl": 34,
+   "file": "Suncity (Südafrika).jpg",
+   "lat": -25.3403,
+   "lon": 27.0908,
+   "kind": "built",
+   "types": [
+    "resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sun City"
+  },
+  {
+   "id": "Q604422",
+   "name": "Great Limpopo Transfrontier Park",
+   "sl": 33,
+   "file": "Makuleke2.JPG",
+   "lat": -22.4333,
+   "lon": 31.3667,
+   "kind": "natural",
+   "types": [
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MZ",
+    "ZW"
+   ],
+   "cat": "Great Limpopo Transfrontier Park"
+  },
+  {
+   "id": "Q1476862",
+   "name": "Sterkfontein",
+   "sl": 31,
+   "file": "Sterfonteingrotte naambord.jpg",
+   "lat": -26.016,
+   "lon": 27.7346,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "paleontological site",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sterkfontein Caves"
+  },
+  {
+   "id": "Q378109",
+   "name": "Cape Point",
+   "sl": 30,
+   "file": "Cape Point point.JPG",
+   "lat": -34.3572,
+   "lon": 18.4975,
+   "kind": "natural",
+   "types": [
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Point"
+  },
+  {
+   "id": "Q859385",
+   "name": "Kgalagadi Transfrontier Park",
+   "sl": 30,
+   "file": "Gemsbock Kalahari.jpg",
+   "lat": -25.7667,
+   "lon": 20.3833,
+   "kind": "natural",
+   "types": [
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BW"
+   ],
+   "cat": "Kgalagadi Transfrontier Park"
+  },
+  {
+   "id": "Q353318",
+   "name": "Addo Elephant National Park",
+   "sl": 29,
+   "file": "Addo Elephant National Park-001.jpg",
+   "lat": -33.4461,
+   "lon": 25.7458,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Addo Elephant National Park"
+  },
+  {
+   "id": "Q392728",
+   "name": "King Shaka International Airport",
+   "sl": 29,
+   "file": "KSIA-Passenger-Terminal.jpg",
+   "lat": -29.6144,
+   "lon": 31.1164,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Shaka International Airport"
+  },
+  {
+   "id": "Q1049562",
+   "name": "Castle of Good Hope",
+   "sl": 28,
+   "file": "Castle of Good Hope Entrance (1682).jpg",
+   "lat": -33.9259,
+   "lon": 18.4277,
+   "kind": "built",
+   "types": [
+    "star fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castle of Good Hope"
+  },
+  {
+   "id": "Q760459",
+   "name": "Augrabies Falls National Park",
+   "sl": 27,
+   "file": "Augrabies Falls, March 2008.jpg",
+   "lat": -28.5911,
+   "lon": 20.3383,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Augrabies Falls National Park"
+  },
+  {
+   "id": "Q884971",
+   "name": "Blombos Cave",
+   "sl": 27,
+   "file": "Blombos.jpg",
+   "lat": -34.4144,
+   "lon": 21.2225,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "cave with prehistoric art"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blombos Cave"
+  },
+  {
+   "id": "Q475704",
+   "name": "HMS Birkenhead",
+   "sl": 27,
+   "file": "The Birkenhead-Troopship.jpg",
+   "lat": -34.645,
+   "lon": 19.2858,
+   "kind": "built",
+   "types": [
+    "shipwreck",
+    "steamboat",
+    "troopship"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "HMS Birkenhead (ship, 1845)"
+  },
+  {
+   "id": "Q2334182",
+   "name": "Cape Fold Belt",
+   "sl": 26,
+   "file": "Route 62 between Montagu and Ashton - panoramio.jpg",
+   "lat": -33.4,
+   "lon": 22,
+   "kind": "natural",
+   "types": [
+    "fold and thrust belt",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Fold Belt"
+  },
+  {
+   "id": "Q1337951",
+   "name": "Emlembe",
+   "sl": 26,
+   "file": "Emlembe (2).jpg",
+   "lat": -25.9167,
+   "lon": 31.1333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SZ"
+   ],
+   "cat": "Emlembe"
+  },
+  {
+   "id": "Q1494266",
+   "name": "Gariep Dam",
+   "sl": 25,
+   "file": "GariepDam.jpg",
+   "lat": -30.6228,
+   "lon": 25.5064,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gariep Dam"
+  },
+  {
+   "id": "Q206508",
+   "name": "Mountain Zebra National Park",
+   "sl": 25,
+   "file": "Mountain zebra NP.jpg",
+   "lat": -32.2532,
+   "lon": 25.453,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mountain Zebra National Park"
+  },
+  {
+   "id": "Q1887011",
+   "name": "Swartkrans",
+   "sl": 25,
+   "file": "Original of Paranthropus robustus Face.jpg",
+   "lat": -25.9292,
+   "lon": 27.7889,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "paleontological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Swartkrans"
+  },
+  {
+   "id": "Q385577",
+   "name": "Afrikaans Language Monument",
+   "sl": 24,
+   "file": "Taalmonument 2.JPG",
+   "lat": -33.7656,
+   "lon": 18.9425,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Afrikaans Language Monument"
+  },
+  {
+   "id": "Q398525",
+   "name": "Agulhas National Park",
+   "sl": 24,
+   "file": "Torenklein.jpg",
+   "lat": -34.8272,
+   "lon": 20.0067,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Agulhas National Park"
+  },
+  {
+   "id": "Q1818952",
+   "name": "Table Mountain National Park",
+   "sl": 24,
+   "file": "P1000280 Table Mountain from slopes of Lion's Head.jpg",
+   "lat": -33.9667,
+   "lon": 18.425,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1974274",
+    "name": "Cape Floristic Kingdom"
+   },
+   "also": [],
+   "cat": "Table Mountain National Park"
+  },
+  {
+   "id": "Q6744547",
+   "name": "Maloti-Drakensberg Park",
+   "sl": 23,
+   "file": "Maloti-Drakensberg Park-113926.jpg",
+   "lat": -29.4665,
+   "lon": 29.3939,
+   "kind": "",
+   "types": [
+    "cultural heritage",
+    "natural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "LS"
+   ],
+   "cat": "Maloti-Drakensberg Park"
+  },
+  {
+   "id": "Q892884",
+   "name": "Bontebok National Park",
+   "sl": 22,
+   "file": "P1020831 blaue Kraniche Paradieskranich Anthropoides paradisea.JPG",
+   "lat": -34.0667,
+   "lon": 20.45,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bontebok National Park"
+  },
+  {
+   "id": "Q976172",
+   "name": "Carlton Centre",
+   "sl": 22,
+   "file": "Carlton Centre 2.jpg",
+   "lat": -26.2056,
+   "lon": 28.0467,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carlton Centre"
+  },
+  {
+   "id": "Q654851",
+   "name": "Golden Gate Highlands National Park",
+   "sl": 22,
+   "file": "Golden Gate MS2004 Bild1320.jpg",
+   "lat": -28.5244,
+   "lon": 28.6208,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Golden Gate Highlands National Park"
+  },
+  {
+   "id": "Q1883683",
+   "name": "Mafadi",
+   "sl": 22,
+   "file": "Mafadi mountain top.jpg",
+   "lat": -29.2029,
+   "lon": 29.3583,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LS"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1892156",
+   "name": "Mapungubwe National Park",
+   "sl": 22,
+   "file": "MapungubweHill.jpg",
+   "lat": -22.2281,
+   "lon": 29.2126,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1136251",
+    "name": "Mapungubwe Cultural Landscape"
+   },
+   "also": [],
+   "cat": "Mapungubwe National Park"
+  },
+  {
+   "id": "Q1033211",
+   "name": "Cango Caves",
+   "sl": 21,
+   "file": "Cango Caves-001.JPG",
+   "lat": -33.393,
+   "lon": 22.215,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cango Caves"
+  },
+  {
+   "id": "Q1266839",
+   "name": "Durban International Airport",
+   "sl": 21,
+   "file": "Durban Airport.jpg",
+   "lat": -29.9686,
+   "lon": 30.9478,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Durban International Airport"
+  },
+  {
+   "id": "Q129867",
+   "name": "Hluhluwe–iMfolozi Park",
+   "sl": 21,
+   "file": "Hluhluwe N.P. - panoramio.jpg",
+   "lat": -28.2486,
+   "lon": 31.9893,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hluhluwe-Umfolozi Game Reserve"
+  },
+  {
+   "id": "Q499499",
+   "name": "Namaqua National Park",
+   "sl": 21,
+   "file": "Namaqua NP4.jpg",
+   "lat": -30.0433,
+   "lon": 17.5861,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Namaqua National Park"
+  },
+  {
+   "id": "Q1368280",
+   "name": "Newlands Stadium",
+   "sl": 21,
+   "file": "Newlands stadium cropped.jpg",
+   "lat": -33.9703,
+   "lon": 18.4684,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Newlands Stadium"
+  },
+  {
+   "id": "Q2564753",
+   "name": "Union Observatory",
+   "sl": 21,
+   "file": "Union Observatory in 1905.png",
+   "lat": -26.1842,
+   "lon": 28.0742,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q963472",
+   "name": "Voortrekker Monument",
+   "sl": 21,
+   "file": "Voortrekker Monument.jpg",
+   "lat": -25.7764,
+   "lon": 28.1758,
+   "kind": "built",
+   "types": [
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Voortrekker Monument"
+  },
+  {
+   "id": "Q394755",
+   "name": "ǀAi-ǀAis/Richtersveld Transfrontier Park",
+   "sl": 21,
+   "file": "Tylecodon paniculatus-PICT2534.jpg",
+   "lat": -28.0539,
+   "lon": 17.0347,
+   "kind": "natural",
+   "types": [
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NA"
+   ],
+   "cat": "Ai-Ais/Richtersveld Transfrontier Park"
+  },
+  {
+   "id": "Q598282",
+   "name": "Bloemfontein Airport",
+   "sl": 20,
+   "file": "Bloemfontein Airport - panoramio.jpg",
+   "lat": -29.0939,
+   "lon": 26.3039,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bram Fischer International Airport"
+  },
+  {
+   "id": "Q184284",
+   "name": "Cederberg",
+   "sl": 20,
+   "file": "Stack of split sandstone below Cedarberg sandstone cliff.jpg",
+   "lat": -32.3333,
+   "lon": 19.0833,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1974274",
+    "name": "Cape Floristic Kingdom"
+   },
+   "also": [],
+   "cat": "Cederberg"
+  },
+  {
+   "id": "Q1432442",
+   "name": "Chief Dawid Stuurman International Airport",
+   "sl": 20,
+   "file": "Impala Mk1-PE Airport.jpg",
+   "lat": -33.99,
+   "lon": 25.6103,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port Elizabeth Airport"
+  },
+  {
+   "id": "Q653322",
+   "name": "Kromdraai fossil site",
+   "sl": 20,
+   "file": "Kromdraai A.jpg",
+   "lat": -25.9292,
+   "lon": 27.7889,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kromdraai Palaeontological Reserve"
+  },
+  {
+   "id": "Q2163819",
+   "name": "Lanseria International Airport",
+   "sl": 20,
+   "file": "LanseriaAirport LandsideExterior Jan2009.jpg",
+   "lat": -25.9386,
+   "lon": 27.9261,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lanseria International Airport"
+  },
+  {
+   "id": "Q2071706",
+   "name": "Makapansgat",
+   "sl": 20,
+   "file": "Potgietersrus, South Africa - panoramio (7).jpg",
+   "lat": -24.1586,
+   "lon": 29.1769,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "paleontological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1130112",
+    "name": "Cradle of Humankind"
+   },
+   "also": [],
+   "cat": "Makapansgat"
+  },
+  {
+   "id": "Q1892280",
+   "name": "Marakele National Park",
+   "sl": 20,
+   "file": "Marakele MS2011ZA261.jpg",
+   "lat": -24.3833,
+   "lon": 27.6167,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marakele National Park"
+  },
+  {
+   "id": "Q1812844",
+   "name": "Ponte City Apartments",
+   "sl": 20,
+   "file": "Ponte City (3464450399).jpg",
+   "lat": -26.1906,
+   "lon": 28.0571,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte City Apartments"
+  },
+  {
+   "id": "Q227807",
+   "name": "South African Astronomical Observatory",
+   "sl": 20,
+   "file": "South African Astronomical Observatory (sutherland aerial view).jpg",
+   "lat": -33.9344,
+   "lon": 18.4774,
+   "kind": "built",
+   "types": [
+    "astronomical observatory",
+    "research institute"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "South African Astronomical Observatory"
+  },
+  {
+   "id": "Q886892",
+   "name": "Blyde River Canyon",
+   "sl": 19,
+   "file": "Blyde River Canyon, Mpumalanga, South Africa (20328002030).jpg",
+   "lat": -24.5639,
+   "lon": 30.8075,
+   "kind": "natural",
+   "types": [
+    "canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blyde River Canyon"
+  },
+  {
+   "id": "Q16899337",
+   "name": "Rising Star Cave",
+   "sl": 19,
+   "file": "Rising star cave exploration (14054047275).jpg",
+   "lat": -26.0204,
+   "lon": 27.7092,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rising Star Cave"
+  },
+  {
+   "id": "Q14320138",
+   "name": "Satyagraha House",
+   "sl": 19,
+   "file": "Satyagraha House 4.jpg",
+   "lat": -26.1555,
+   "lon": 28.0836,
+   "kind": "built",
+   "types": [
+    "guest house",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Satyagraha House"
+  },
+  {
+   "id": "Q2744060",
+   "name": "UKhahlamba / Drakensberg Park",
+   "sl": 19,
+   "file": "Drakensburgmountains.jpg",
+   "lat": -29.4,
+   "lon": 29.52,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6744547",
+    "name": "Maloti-Drakensberg Park"
+   },
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1381341",
+   "name": "Garden Route National Park",
+   "sl": 18,
+   "file": "Tsitsikamma Park.JPG",
+   "lat": -34,
+   "lon": 23.25,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Garden Route National Park"
+  },
+  {
+   "id": "Q1734287",
+   "name": "Karoo National Park",
+   "sl": 18,
+   "file": "Dump rake, Karoo National Park, South Africa.jpg",
+   "lat": -32.2622,
+   "lon": 22.3091,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karoo National Park"
+  },
+  {
+   "id": "Q1424093",
+   "name": "Pilanesberg National Park",
+   "sl": 18,
+   "file": "Pilansberg 103.jpg",
+   "lat": -25.2611,
+   "lon": 27.1008,
+   "kind": "natural",
+   "types": [
+    "game reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pilanesberg National Park"
+  },
+  {
+   "id": "Q15273525",
+   "name": "Royal Observatory, Cape of Good Hope",
+   "sl": 18,
+   "file": "Main building of Royal Observatory, Cape of Good Hope.jpg",
+   "lat": -33.9344,
+   "lon": 18.4774,
+   "kind": "built",
+   "types": [
+    "astronomical observatory",
+    "headquarters"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Observatory, Cape of Good Hope"
+  },
+  {
+   "id": "Q2264091",
+   "name": "Union Buildings",
+   "sl": 18,
+   "file": "Uniegebou.jpg",
+   "lat": -25.7405,
+   "lon": 28.212,
+   "kind": "built",
+   "types": [
+    "building of public administration"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Union Buildings"
+  },
+  {
+   "id": "Q1760813",
+   "name": "West Coast National Park",
+   "sl": 18,
+   "file": "Langebaan lagoon, West Coast National Park.jpg",
+   "lat": -33.1261,
+   "lon": 18.0447,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "West Coast National Park"
+  },
+  {
+   "id": "Q895056",
+   "name": "Boulders Beach",
+   "sl": 17,
+   "file": "Swimmers at Boulders Beach, Cape Town.jpg",
+   "lat": -34.197,
+   "lon": 18.451,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boulders Beach"
+  },
+  {
+   "id": "Q2666120",
+   "name": "Diepkloof Rock Shelter",
+   "sl": 17,
+   "file": "Diepkloof-general-view.JPG",
+   "lat": -32.3867,
+   "lon": 18.4528,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "rock shelter"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65936860",
+    "name": "The Emergence of Modern Humans: The Pleistocene occupation sites of South Africa"
+   },
+   "also": [],
+   "cat": "Diepkloof rock shelter"
+  },
+  {
+   "id": "Q178248",
+   "name": "Kaapvaal craton",
+   "sl": 17,
+   "file": "Gold fields.jpg",
+   "lat": -25,
+   "lon": 25,
+   "kind": "natural",
+   "types": [
+    "craton"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BW",
+    "SZ"
+   ],
+   "cat": "Kaapvaal Craton"
+  },
+  {
+   "id": "Q289277",
+   "name": "Kirstenbosch National Botanical Garden",
+   "sl": 17,
+   "file": "Frog rock formation.jpg",
+   "lat": -33.9875,
+   "lon": 18.4325,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kirstenbosch National Botanical Garden"
+  },
+  {
+   "id": "Q1718867",
+   "name": "Lion's Head",
+   "sl": 17,
+   "file": "Lion's Head, South Africa 2011-02-06 16-11-16.jpg",
+   "lat": -33.9347,
+   "lon": 18.3892,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lion's Head"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "country": "UM",
+ "items": [
+  {
+   "id": "Q787425",
+   "name": "Papahānaumokuākea Marine National Monument",
+   "sl": 41,
+   "file": "Sanc1404 - Flickr - NOAA Photo Library.jpg",
+   "lat": 25.5,
+   "lon": -170.5,
+   "kind": "natural",
+   "types": [
+    "marine protected area",
+    "National Monument of the United States"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Papahānaumokuākea Marine National Monument"
+  },
+  {
+   "id": "Q7960943",
+   "name": "Wake Island Airfield",
+   "sl": 12,
+   "file": "Wake Island air.JPG",
+   "lat": 19.2825,
+   "lon": 166.6367,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wake Island Airfield"
+  }
+ ]
+}

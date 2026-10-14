@@ -1,0 +1,837 @@
+{
+ "country": "PF",
+ "items": [
+  {
+   "id": "Q1999082",
+   "name": "Leeward Islands",
+   "sl": 33,
+   "file": "Bora-Bora.png",
+   "lat": -17.5333,
+   "lon": -149.833,
+   "kind": "natural",
+   "types": [
+    "administrative subdivision of French Polynesia",
+    "archipelago"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leeward Islands (Society Islands)"
+  },
+  {
+   "id": "Q1346999",
+   "name": "Fakarava",
+   "sl": 31,
+   "file": "Fakarava - Lagon vert au motu Farakau.jpg",
+   "lat": -16.3103,
+   "lon": -145.6246,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fakarava"
+  },
+  {
+   "id": "Q512465",
+   "name": "Mont Orohena",
+   "sl": 31,
+   "file": "Mont.Orohena.JPG",
+   "lat": -17.6231,
+   "lon": -149.4769,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orohena"
+  },
+  {
+   "id": "Q1166015",
+   "name": "Maupihaa",
+   "sl": 30,
+   "file": "Maupihaa AKK 1857.jpg",
+   "lat": -16.8,
+   "lon": -153.95,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maupihaa"
+  },
+  {
+   "id": "Q483126",
+   "name": "Anaa",
+   "sl": 29,
+   "file": "Anaa - Laurent Seignobos 4.jpg",
+   "lat": -17.3833,
+   "lon": -145.5,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anaa"
+  },
+  {
+   "id": "Q1753453",
+   "name": "Manihi",
+   "sl": 29,
+   "file": "Manihi Lagoon (921081515).jpg",
+   "lat": -14.45,
+   "lon": -146.0667,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manihi (atoll)"
+  },
+  {
+   "id": "Q400184",
+   "name": "Ahe",
+   "sl": 28,
+   "file": "Ahe1.jpg",
+   "lat": -14.4833,
+   "lon": -146.3167,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ahe"
+  },
+  {
+   "id": "Q669590",
+   "name": "Tikehau",
+   "sl": 28,
+   "file": "Tikehau EO.jpg",
+   "lat": -14.9833,
+   "lon": -148.15,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tikehau"
+  },
+  {
+   "id": "Q370525",
+   "name": "Arutua",
+   "sl": 27,
+   "file": "Arutua - Laurent Seignobos 1.jpg",
+   "lat": -15.3,
+   "lon": -146.75,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arutua"
+  },
+  {
+   "id": "Q1049719",
+   "name": "Faa'a International Airport",
+   "sl": 27,
+   "file": "Aéroport international Tahiti Faa'a.JPG",
+   "lat": -17.5567,
+   "lon": -149.6114,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fa'a'ā International Airport"
+  },
+  {
+   "id": "Q666634",
+   "name": "Raroia",
+   "sl": 27,
+   "file": "Raroia Garumaoa village.jpg",
+   "lat": -16.0167,
+   "lon": -142.4333,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Raroia"
+  },
+  {
+   "id": "Q2031580",
+   "name": "Tureia",
+   "sl": 27,
+   "file": "Tureia.31.12.13.1.jpg",
+   "lat": -20.8333,
+   "lon": -138.55,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tureia (atoll)"
+  },
+  {
+   "id": "Q1423724",
+   "name": "Mataiva",
+   "sl": 26,
+   "file": "Mataiva2.jpg",
+   "lat": -14.8833,
+   "lon": -148.7167,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "island",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mataiva"
+  },
+  {
+   "id": "Q1632713",
+   "name": "Îles Maria",
+   "sl": 22,
+   "file": "Iles Maria.JPG",
+   "lat": -21.8,
+   "lon": -154.7,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "island group",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maria Atoll"
+  },
+  {
+   "id": "Q612235",
+   "name": "Anuanurunga",
+   "sl": 21,
+   "file": "Anuanurunga.JPG",
+   "lat": -20.6333,
+   "lon": -143.3167,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anuanurunga"
+  },
+  {
+   "id": "Q1629997",
+   "name": "Katiu",
+   "sl": 21,
+   "file": "Katiu Atoll (Tuamotu Archipelago) from orbit.jpg",
+   "lat": -16.4333,
+   "lon": -144.3667,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katiu"
+  },
+  {
+   "id": "Q1950151",
+   "name": "Motutunga",
+   "sl": 21,
+   "file": "Motutunga2.jpg",
+   "lat": -17.0667,
+   "lon": -144.2833,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Motutunga"
+  },
+  {
+   "id": "Q454545",
+   "name": "Amanu",
+   "sl": 20,
+   "file": "Amanu2.jpg",
+   "lat": -17.8,
+   "lon": -140.7667,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amanu"
+  },
+  {
+   "id": "Q550989",
+   "name": "Bora Bora Airport",
+   "sl": 20,
+   "file": "Flughafen Bora Bora.jpg",
+   "lat": -16.4436,
+   "lon": -151.7525,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bora Bora Airport"
+  },
+  {
+   "id": "Q1284345",
+   "name": "Haraiki",
+   "sl": 20,
+   "file": "Haraiki2.jpg",
+   "lat": -17.4667,
+   "lon": -143.45,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Haraiki"
+  },
+  {
+   "id": "Q1651519",
+   "name": "Nihiru",
+   "sl": 20,
+   "file": "Nihiru2.jpg",
+   "lat": -16.7,
+   "lon": -142.8333,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nihiru"
+  },
+  {
+   "id": "Q2395300",
+   "name": "Totegegie Airport",
+   "sl": 20,
+   "file": "AirTahiti.Totegegie.JPG",
+   "lat": -23.0833,
+   "lon": -134.8833,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Totegegie Airport"
+  },
+  {
+   "id": "Q2035647",
+   "name": "Reitoru",
+   "sl": 19,
+   "file": "Reitoru 2.jpg",
+   "lat": -17.8553,
+   "lon": -143.0798,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "Important Bird Area",
+    "nature area",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Reitoru"
+  },
+  {
+   "id": "Q1430785",
+   "name": "Anaa Airport",
+   "sl": 16,
+   "file": "Anaa-atoll-ISS007-E-14624.png",
+   "lat": -17.3489,
+   "lon": -145.5122,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1895885",
+   "name": "Maria Est",
+   "sl": 16,
+   "file": "Maria Est 1.jpg",
+   "lat": -22.0167,
+   "lon": -136.1833,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maria Est"
+  },
+  {
+   "id": "Q1431508",
+   "name": "Huahine – Fare Airport",
+   "sl": 14,
+   "file": "Flughafen Huahine.jpg",
+   "lat": -16.6872,
+   "lon": -151.0217,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Huahine Airport"
+  },
+  {
+   "id": "Q120326",
+   "name": "Moorea Airport",
+   "sl": 14,
+   "file": "Air.Moorea.jpg",
+   "lat": -17.4894,
+   "lon": -149.7622,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moorea Airport"
+  },
+  {
+   "id": "Q2901339",
+   "name": "Atuona Airport",
+   "sl": 13,
+   "file": "Atuona Airport in 2009.jpg",
+   "lat": -9.7686,
+   "lon": -139.0131,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atuona Airport"
+  },
+  {
+   "id": "Q2875495",
+   "name": "Hao Airport",
+   "sl": 13,
+   "file": "Air.Tahiti.Hao.JPG",
+   "lat": -18.0747,
+   "lon": -140.9458,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hao Airport"
+  },
+  {
+   "id": "Q1945409",
+   "name": "Otemanu",
+   "sl": 12,
+   "file": "Borabora-2.jpg",
+   "lat": -16.5,
+   "lon": -151.7333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Otemanu"
+  },
+  {
+   "id": "Q1432553",
+   "name": "Raiatea Airport",
+   "sl": 12,
+   "file": "RaiateaAirportTerminal.JPG",
+   "lat": -16.723,
+   "lon": -151.466,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Raiatea Airport"
+  },
+  {
+   "id": "Q963568",
+   "name": "Rangiroa Airport",
+   "sl": 12,
+   "file": "Rangiroa Airport open street map.png",
+   "lat": -14.9564,
+   "lon": -147.6591,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rangiroa Airport"
+  },
+  {
+   "id": "Q2942287",
+   "name": "Papeete Cathedral",
+   "sl": 11,
+   "file": "Cathédrale.Papeete.JPG",
+   "lat": -17.5403,
+   "lon": -149.567,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame de Papeete"
+  },
+  {
+   "id": "Q37318",
+   "name": "Vaipo Waterfall",
+   "sl": 11,
+   "file": "Marquises 9631a.jpg",
+   "lat": -8.907,
+   "lon": -140.166,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3545228",
+   "name": "Fakarava Airport",
+   "sl": 10,
+   "file": "Fakarava Airport - Laurent Seignobos 6.jpg",
+   "lat": -16.0542,
+   "lon": -145.6569,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fakarava Airport"
+  },
+  {
+   "id": "Q4263787",
+   "name": "Makemo Airport",
+   "sl": 10,
+   "file": "Aéroport.Makemo.JPG",
+   "lat": -16.588,
+   "lon": -143.6546,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Makemo Airport"
+  },
+  {
+   "id": "Q1945450",
+   "name": "Mount Tohivea",
+   "sl": 10,
+   "file": "Moorea (view of mountains from Belvedere Lookout).jpg",
+   "lat": -17.55,
+   "lon": -149.8167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3501121",
+   "name": "Rurutu Airport",
+   "sl": 10,
+   "file": "Rurutu airport.jpg",
+   "lat": -22.4335,
+   "lon": -151.3678,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rurutu Airport"
+  },
+  {
+   "id": "Q652443",
+   "name": "Maupiti Airport",
+   "sl": 9,
+   "file": "Aerial view of Maupiti Airport.jpg",
+   "lat": -16.4264,
+   "lon": -152.2433,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q952390",
+   "name": "Mount Duff",
+   "sl": 9,
+   "file": "Mont Duff AKK 048.jpg",
+   "lat": -23.1286,
+   "lon": -134.974,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1945406",
+   "name": "Mount Oave",
+   "sl": 9,
+   "file": "Ua Pou - Tapageuse.jpg",
+   "lat": -9.3917,
+   "lon": -140.0783,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q14955954",
+   "name": "Fangatau Airport",
+   "sl": 8,
+   "file": "Fangatau.jpg",
+   "lat": -15.8197,
+   "lon": -140.887,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q284240",
+   "name": "Kaukura Airport",
+   "sl": 8,
+   "file": "Piste - Laurent Seignobos.jpg",
+   "lat": -15.6677,
+   "lon": -146.8857,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaukura airport"
+  },
+  {
+   "id": "Q3199220",
+   "name": "Kouaku",
+   "sl": 8,
+   "file": "Kouaku.JPG",
+   "lat": -23.2092,
+   "lon": -134.8589,
+   "kind": "natural",
+   "types": [
+    "island",
+    "motu",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kouaku"
+  },
+  {
+   "id": "Q16536581",
+   "name": "St. Michael's Cathedral",
+   "sl": 8,
+   "file": "Cathédrale Saint-Michel de Rikitea.2014.jpg",
+   "lat": -23.1232,
+   "lon": -134.969,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Michael's Cathedral, Rikitea"
+  },
+  {
+   "id": "Q14955957",
+   "name": "Tatakoto Airport",
+   "sl": 8,
+   "file": "TatakotoISS004-E-12992.PNG",
+   "lat": -17.3553,
+   "lon": -138.445,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q387988",
+   "name": "Tekao",
+   "sl": 8,
+   "file": "Mont Tekao AKK 2192.jpg",
+   "lat": -8.8442,
+   "lon": -140.1658,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4264098",
+   "name": "Ua Huka Airport",
+   "sl": 8,
+   "file": "Ua Huka Airport.jpg",
+   "lat": -8.9352,
+   "lon": -139.5551,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4263773",
+   "name": "Ua Pou Airport",
+   "sl": 8,
+   "file": "Twin Otter du gouvernement de la Polynésie française desservant Ua Pou.jpg",
+   "lat": -9.3522,
+   "lon": -140.0778,
+   "kind": "built",
+   "types": [
+    "airport",
+    "altiport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ua Pou airport"
+  }
+ ]
+}

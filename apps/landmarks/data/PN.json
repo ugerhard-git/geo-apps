@@ -1,0 +1,76 @@
+{
+ "country": "PN",
+ "items": [
+  {
+   "id": "Q1122663",
+   "name": "Ducie Island",
+   "sl": 33,
+   "file": "Ducie02 AKK.jpg",
+   "lat": -24.6811,
+   "lon": -124.7853,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ducie Atoll"
+  },
+  {
+   "id": "Q900379",
+   "name": "HMS Bounty",
+   "sl": 29,
+   "file": "Yasmina.Bounty.JPG",
+   "lat": -25.0686,
+   "lon": -130.0953,
+   "kind": "built",
+   "types": [
+    "collier",
+    "full-rigged ship",
+    "hired armed vessel",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mutiny on the Bounty"
+  },
+  {
+   "id": "Q6356681",
+   "name": "Pawala Valley Ridge",
+   "sl": 9,
+   "file": "Pitcairnsatellite.png",
+   "lat": -25.0683,
+   "lon": -130.1133,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3970565",
+   "name": "Portarlington railway station",
+   "sl": 8,
+   "file": "Portarlington Station.jpg",
+   "lat": 53.1461,
+   "lon": -7.1811,
+   "kind": "built",
+   "types": [
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IE"
+   ],
+   "cat": "Portarlington railway station"
+  }
+ ]
+}

@@ -1,0 +1,522 @@
+{
+ "country": "GS",
+ "items": [
+  {
+   "id": "Q1573762",
+   "name": "Mount Paget",
+   "sl": 20,
+   "file": "Mount Paget.jpeg",
+   "lat": -54.4408,
+   "lon": -36.5553,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3042741",
+   "name": "Mount Belinda",
+   "sl": 16,
+   "file": "MtBelinda ASTER 20050923.jpg",
+   "lat": -58.4333,
+   "lon": -26.3333,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6921213",
+   "name": "Mount Hodson",
+   "sl": 14,
+   "file": "Visokoi Island ISS016.jpg",
+   "lat": -56.7,
+   "lon": -27.15,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2060301",
+   "name": "South Georgia Museum",
+   "sl": 14,
+   "file": "Grytviken museum.jpg",
+   "lat": -54.2816,
+   "lon": -36.5077,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "South Georgia Museum"
+  },
+  {
+   "id": "Q202034",
+   "name": "Mount Carse",
+   "sl": 12,
+   "file": "Mount-Carse.PNG",
+   "lat": -54.7167,
+   "lon": -36.0833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11655552",
+   "name": "Mount Larsen",
+   "sl": 12,
+   "file": "Base Corbeta Uruguay - DNA.jpg",
+   "lat": -59.4389,
+   "lon": -27.3704,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3073167",
+   "name": "Drygalski Fjord",
+   "sl": 11,
+   "file": "Drygalski Fjord, South Georgia (5895309029).jpg",
+   "lat": -54.8167,
+   "lon": -36,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Drygalski Fjord, South Georgia"
+  },
+  {
+   "id": "Q922945",
+   "name": "Fortuna Glacier",
+   "sl": 11,
+   "file": "Fortuna Glacier.jpg",
+   "lat": -54.1,
+   "lon": -36.85,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fortuna Glacier"
+  },
+  {
+   "id": "Q3321948",
+   "name": "Mount Michael",
+   "sl": 11,
+   "file": "Saunders Island ASTER.jpg",
+   "lat": -57.78,
+   "lon": -26.45,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saunders Island, SSI"
+  },
+  {
+   "id": "Q3322123",
+   "name": "Mount Sugartop",
+   "sl": 11,
+   "file": "Sugartop.jpg",
+   "lat": -54.3667,
+   "lon": -36.6333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q10965248",
+   "name": "Mount Fraser",
+   "sl": 10,
+   "file": "Mount Fraser panorama.jpg",
+   "lat": -54.6167,
+   "lon": -36.35,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Fraser (Victoria, Australia)"
+  },
+  {
+   "id": "Q11645701",
+   "name": "Mount Skittle",
+   "sl": 10,
+   "file": "South Georgia coast at St. Andrews Bay (5849420880).jpg",
+   "lat": -54.4,
+   "lon": -36.1833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1800386",
+   "name": "Nordenskjöld Glacier",
+   "sl": 10,
+   "file": "Nordenskjold Glacier.jpg",
+   "lat": -54.3667,
+   "lon": -36.3667,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nordenskjold Glacier"
+  },
+  {
+   "id": "Q3281864",
+   "name": "Norwegian Anglican Church",
+   "sl": 10,
+   "file": "South Georgia - Grytviken - Norwegian Lutheran Church in 2009 (16093953722).jpg",
+   "lat": -54.28,
+   "lon": -36.5103,
+   "kind": "built",
+   "types": [
+    "Anglican church building",
+    "Lutheran church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grytviken kirke"
+  },
+  {
+   "id": "Q2879786",
+   "name": "Bay of Isles",
+   "sl": 9,
+   "file": "King Penguins at Salisbury Plain (5719368307).jpg",
+   "lat": -54.0333,
+   "lon": -37.3333,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3108270",
+   "name": "Bertrab Glacier",
+   "sl": 9,
+   "file": "Bertrab Glacier.jpg",
+   "lat": -54.6167,
+   "lon": -35.95,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bertrab Glacier"
+  },
+  {
+   "id": "Q121964",
+   "name": "Husvik",
+   "sl": 9,
+   "file": "Husvik - South Georgia.jpg",
+   "lat": -54.1667,
+   "lon": -36.7,
+   "kind": "both",
+   "types": [
+    "whaling station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q731574",
+   "name": "Leith Harbour",
+   "sl": 9,
+   "file": "Leith, South Georgia Island - 1962 - Corp1422.jpg",
+   "lat": -54.141,
+   "lon": -36.688,
+   "kind": "natural",
+   "types": [
+    "harbor"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leith whaling station"
+  },
+  {
+   "id": "Q6919495",
+   "name": "Mount Ashley",
+   "sl": 9,
+   "file": "Mount Ashley, South Georgia.jpg",
+   "lat": -54.1167,
+   "lon": -37.35,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6919499",
+   "name": "Mount Asphyxia",
+   "sl": 9,
+   "file": "Plume from Zavodovski volcano (7128666611).jpg",
+   "lat": -56.3,
+   "lon": -27.5667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6920520",
+   "name": "Mount Duse",
+   "sl": 9,
+   "file": "HMS Montrose Anchored in Grytviken, South Georgia.jpg",
+   "lat": -54.2667,
+   "lon": -36.4833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6921211",
+   "name": "Mount Hodges",
+   "sl": 9,
+   "file": "Grytviken settlement.jpg",
+   "lat": -54.2667,
+   "lon": -36.5333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6921221",
+   "name": "Mount Holdgate",
+   "sl": 9,
+   "file": "Cook Island ASTER.jpg",
+   "lat": -59.4524,
+   "lon": -27.1659,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11641968",
+   "name": "Mount Roots",
+   "sl": 9,
+   "file": "Mount-Roots.PNG",
+   "lat": -54.4667,
+   "lon": -36.4,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3108303",
+   "name": "Neumayer Glacier",
+   "sl": 9,
+   "file": "Neumayer Glacier 2009.jpg",
+   "lat": -54.25,
+   "lon": -36.6833,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Neumayer Glacier"
+  },
+  {
+   "id": "Q5027495",
+   "name": "Camp Peak",
+   "sl": 8,
+   "file": "Maiviken.jpg",
+   "lat": -54.2333,
+   "lon": -36.5333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5444248",
+   "name": "Ferguson Peak",
+   "sl": 8,
+   "file": "091130 south georgia 4137 (4172620443).jpg",
+   "lat": -54.7833,
+   "lon": -35.8333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5658165",
+   "name": "Harker Glacier",
+   "sl": 8,
+   "file": "Thatcher-Peninsula.jpg",
+   "lat": -54.3667,
+   "lon": -36.5333,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Harker Glacier"
+  },
+  {
+   "id": "Q393965",
+   "name": "Herd Point",
+   "sl": 8,
+   "file": "Península Corbeta Uruguay, Isla Morrell.jpg",
+   "lat": -59.4667,
+   "lon": -27.2833,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q312911",
+   "name": "Hope Point",
+   "sl": 8,
+   "file": "King Edward Point on South Georgia (5663008681).jpg",
+   "lat": -54.2833,
+   "lon": -36.4833,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q393997",
+   "name": "Larsen Point",
+   "sl": 8,
+   "file": "Neumayer oli 2016258 lrg.jpg",
+   "lat": -54.2,
+   "lon": -36.5,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1535131",
+   "name": "Ocean Harbour",
+   "sl": 8,
+   "file": "Ocean Harbour1.jpg",
+   "lat": -54.3333,
+   "lon": -36.2667,
+   "kind": "natural",
+   "types": [
+    "harbor"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ocean Harbour, South Georgia"
+  }
+ ]
+}

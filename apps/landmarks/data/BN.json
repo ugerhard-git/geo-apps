@@ -1,0 +1,301 @@
+{
+ "country": "BN",
+ "items": [
+  {
+   "id": "Q842921",
+   "name": "Omar Ali Saifuddien Mosque",
+   "sl": 39,
+   "file": "Sultan Omar Ali Saifuddien Mosque; 2002.jpg",
+   "lat": 4.8896,
+   "lon": 114.9391,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Omar Ali Saifuddien Mosque"
+  },
+  {
+   "id": "Q1148514",
+   "name": "Brunei International Airport",
+   "sl": 31,
+   "file": "Brunei International Airport departure.jpg",
+   "lat": 4.9453,
+   "lon": 114.9336,
+   "kind": "built",
+   "types": [
+    "airport of entry",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brunei International Airport"
+  },
+  {
+   "id": "Q1323932",
+   "name": "Istana Nurul Iman",
+   "sl": 27,
+   "file": "Istana-nurul-iman.jpg",
+   "lat": 4.872,
+   "lon": 114.9208,
+   "kind": "built",
+   "types": [
+    "official residence",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Istana Nurul Iman"
+  },
+  {
+   "id": "Q1003282",
+   "name": "Bukit Pagon",
+   "sl": 24,
+   "file": "SunriseOverBukitPagonAC1.jpg",
+   "lat": 4.3,
+   "lon": 115.3333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MY"
+   ],
+   "cat": "Bukit Pagon"
+  },
+  {
+   "id": "Q2298668",
+   "name": "Hassanal Bolkiah National Stadium",
+   "sl": 21,
+   "file": "Hassanal Bolkiah National Stadium 2017.jpg",
+   "lat": 4.929,
+   "lon": 114.9454,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hassanal Bolkiah National Stadium"
+  },
+  {
+   "id": "Q2756903",
+   "name": "Brunei Museum",
+   "sl": 20,
+   "file": "BRUNEI NATIONAL MUSEUM, BRUNEI.jpg",
+   "lat": 4.8853,
+   "lon": 114.9687,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brunei Museum"
+  },
+  {
+   "id": "Q9055985",
+   "name": "Ulu Temburong National Park",
+   "sl": 16,
+   "file": "Long way to go....jpg",
+   "lat": 4.478,
+   "lon": 115.208,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulu Temburong National Park"
+  },
+  {
+   "id": "Q20410627",
+   "name": "Jame 'Asr Hassanil Bolkiah Mosque",
+   "sl": 15,
+   "file": "BN-bsb-jame-asr-hassanil-m-2.jpg",
+   "lat": 4.8979,
+   "lon": 114.9218,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jame' Asr Hassanil Bolkiah Mosque"
+  },
+  {
+   "id": "Q3270751",
+   "name": "Anduki Airfield",
+   "sl": 13,
+   "file": "Anduki Airfield (2).jpg",
+   "lat": 4.6322,
+   "lon": 114.3769,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "heliport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anduki Airfield"
+  },
+  {
+   "id": "Q14629159",
+   "name": "Sultan Haji Omar Ali Saifuddien Bridge",
+   "sl": 13,
+   "file": "Kan0424.jpg",
+   "lat": 4.8863,
+   "lon": 115.0835,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temburong Bridge"
+  },
+  {
+   "id": "Q2405955",
+   "name": "Louisa Reef",
+   "sl": 11,
+   "file": "Louisa Reef LANDSAT 2000.jpg",
+   "lat": 6.3494,
+   "lon": 113.2406,
+   "kind": "natural",
+   "types": [
+    "reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q28446976",
+   "name": "Brunei Darussalam Maritime Museum",
+   "sl": 10,
+   "file": "Visit to the Brunei Darussalam Maritime Museum - 01.jpg",
+   "lat": 4.8819,
+   "lon": 114.9686,
+   "kind": "built",
+   "types": [
+    "maritime museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brunei Darussalam Maritime Museum"
+  },
+  {
+   "id": "Q21787576",
+   "name": "Royal Regalia Museum",
+   "sl": 10,
+   "file": "Royal Regalie (1).JPG",
+   "lat": 4.8929,
+   "lon": 114.9416,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Regalia Museum"
+  },
+  {
+   "id": "Q48771285",
+   "name": "Hassanal Bolkiah Mosque",
+   "sl": 9,
+   "file": "Masjid Hassanal Bolkiah, Mentiri 20.05.2018.jpg",
+   "lat": 4.9668,
+   "lon": 115.0299,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hassanal Bolkiah Mosque, Mentiri"
+  },
+  {
+   "id": "Q29830347",
+   "name": "Ash-Shaliheen Mosque",
+   "sl": 8,
+   "file": "Ash-Shaliheen Mosque, Brunei Darussalam(outside).JPG",
+   "lat": 4.9185,
+   "lon": 114.9359,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ash-Shaliheen Mosque"
+  },
+  {
+   "id": "Q48769540",
+   "name": "Hassanal Bolkiah Mosque",
+   "sl": 8,
+   "file": "Tutong 19 February 2023 02.jpg",
+   "lat": 4.8064,
+   "lon": 114.6621,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hassanal Bolkiah Mosque"
+  },
+  {
+   "id": "Q2755110",
+   "name": "Malay Technology Museum",
+   "sl": 8,
+   "file": "Malay technology museum BSB.JPG",
+   "lat": 4.8834,
+   "lon": 114.9699,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malay Technology Museum"
+  },
+  {
+   "id": "Q7166859",
+   "name": "Peradayan Forest Recreation Park",
+   "sl": 8,
+   "file": "Peradayan Forest Reserve.jpg",
+   "lat": 4.75,
+   "lon": 115.167,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

@@ -1,0 +1,253 @@
+{
+ "country": "AW",
+ "items": [
+  {
+   "id": "Q1139661",
+   "name": "Queen Beatrix International Airport",
+   "sl": 30,
+   "file": "Queen Beatrix Airport.jpg",
+   "lat": 12.5014,
+   "lon": -70.0153,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Queen Beatrix International Airport"
+  },
+  {
+   "id": "Q2028082",
+   "name": "Arikok National Park",
+   "sl": 18,
+   "file": "Arikok NP.jpg",
+   "lat": 12.4988,
+   "lon": -69.9265,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arikok National Park, Aruba"
+  },
+  {
+   "id": "Q594885",
+   "name": "Mount Jamanota",
+   "sl": 18,
+   "file": "Sero Jamanota, Aruba.jpg",
+   "lat": 12.4872,
+   "lon": -69.9403,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sero Jamanota"
+  },
+  {
+   "id": "Q1121555",
+   "name": "Guillermo Prospero Trinidad Stadium",
+   "sl": 15,
+   "file": "Trinidad Stadium Aruba Pitch.jpg",
+   "lat": 12.5131,
+   "lon": -70.0236,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trinidad Stadium"
+  },
+  {
+   "id": "Q2455906",
+   "name": "Hooiberg",
+   "sl": 15,
+   "file": "Aruba-Hooiberg-2013.JPG",
+   "lat": 12.517,
+   "lon": -69.995,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hooiberg"
+  },
+  {
+   "id": "Q4669802",
+   "name": "Aruba Natural Bridge",
+   "sl": 13,
+   "file": "NaturalBridgeAruba.JPG",
+   "lat": 12.5411,
+   "lon": -69.9583,
+   "kind": "natural",
+   "types": [
+    "natural arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aruba Natural Bridge"
+  },
+  {
+   "id": "Q2279321",
+   "name": "California Lighthouse",
+   "sl": 12,
+   "file": "California Lighthouse by Day.jpg",
+   "lat": 12.6134,
+   "lon": -70.0524,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Noordwestpunt Lighthouse"
+  },
+  {
+   "id": "Q2208973",
+   "name": "Alto Vista Chapel",
+   "sl": 11,
+   "file": "Alto Vista Chapel, Aruba.jpg",
+   "lat": 12.5759,
+   "lon": -70.0109,
+   "kind": "built",
+   "types": [
+    "chapel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alto Vista Chapel"
+  },
+  {
+   "id": "Q4785386",
+   "name": "Archaeological Museum of Aruba",
+   "sl": 10,
+   "file": "Archaelogical Museum Aruba 6.jpg",
+   "lat": 12.5209,
+   "lon": -70.0382,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "cultural property",
+    "museum building",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Archaeological Museum of Aruba"
+  },
+  {
+   "id": "Q610796",
+   "name": "Fort Zoutman",
+   "sl": 10,
+   "file": "Bashnya Villema 3.jpg",
+   "lat": 12.5178,
+   "lon": -70.0356,
+   "kind": "built",
+   "types": [
+    "building",
+    "fort",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Zoutman, Aruba"
+  },
+  {
+   "id": "Q7268293",
+   "name": "Quadiriki Caves",
+   "sl": 9,
+   "file": "Guadirikiri Cave.jpg",
+   "lat": 12.4833,
+   "lon": -69.9167,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guadirikiri"
+  },
+  {
+   "id": "Q7592456",
+   "name": "St Ann's Church",
+   "sl": 9,
+   "file": "Aruba - St. Anna Church.jpg",
+   "lat": 12.5625,
+   "lon": -70.0313,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Anne Church (Noord)"
+  },
+  {
+   "id": "Q4897547",
+   "name": "Beth Israel Synagogue",
+   "sl": 8,
+   "file": "Beth Israel, Aruba.jpg",
+   "lat": 12.513,
+   "lon": -70.0303,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q19309285",
+   "name": "Spanish Lagoon",
+   "sl": 8,
+   "file": "Trail Spaans Lagoen.jpeg",
+   "lat": 12.4722,
+   "lon": -69.9762,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spanish Lagoon"
+  },
+  {
+   "id": "Q23662587",
+   "name": "St. Francis of Assisi Church, Oranjestad",
+   "sl": 8,
+   "file": "Sta. Franciscuskerk.JPG",
+   "lat": 12.5229,
+   "lon": -70.0347,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Francis (Aruba)"
+  }
+ ]
+}

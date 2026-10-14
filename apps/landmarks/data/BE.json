@@ -1,0 +1,1359 @@
+{
+ "country": "BE",
+ "items": [
+  {
+   "id": "Q28934",
+   "name": "Brussels Airport",
+   "sl": 68,
+   "file": "Brussels Airport Runway 25 R.jpg",
+   "lat": 50.9014,
+   "lon": 4.4844,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brussels Airport"
+  },
+  {
+   "id": "Q215429",
+   "name": "Grand-Place",
+   "sl": 56,
+   "file": "Brusel Grand-Place radnice 1a.jpg",
+   "lat": 50.8467,
+   "lon": 4.3525,
+   "kind": "built",
+   "types": [
+    "grand place"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand-Place/Grote Markt"
+  },
+  {
+   "id": "Q180901",
+   "name": "Atomium",
+   "sl": 53,
+   "file": "Laeken Atomium 06.jpg",
+   "lat": 50.895,
+   "lon": 4.3414,
+   "kind": "built",
+   "types": [
+    "architectural landmark"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atomium"
+  },
+  {
+   "id": "Q391229",
+   "name": "Tournai Cathedral",
+   "sl": 49,
+   "file": "Tournai pan.jpg",
+   "lat": 50.6065,
+   "lon": 3.3889,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame (Tournai)"
+  },
+  {
+   "id": "Q159860",
+   "name": "Vaalserberg",
+   "sl": 47,
+   "file": "Ac vaalserberg.JPG",
+   "lat": 50.7547,
+   "lon": 6.0208,
+   "kind": "both",
+   "types": [
+    "hill",
+    "international tripoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Vaalserberg"
+  },
+  {
+   "id": "Q239028",
+   "name": "Stoclet Palace",
+   "sl": 45,
+   "file": "Palais Stoclet, vue ensemble.JPG",
+   "lat": 50.8351,
+   "lon": 4.4163,
+   "kind": "built",
+   "types": [
+    "mansion"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Stoclet Palace"
+  },
+  {
+   "id": "Q750675",
+   "name": "Belfries of Belgium and France",
+   "sl": 43,
+   "file": "Belfort Brugge.jpg",
+   "lat": 50.6353,
+   "lon": 3.5148,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Belfries in Belgium and France"
+  },
+  {
+   "id": "Q622671",
+   "name": "King Baudouin Stadium",
+   "sl": 42,
+   "file": "Stade Roi Baudouin.JPG",
+   "lat": 50.8957,
+   "lon": 4.3341,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Baudouin Stadium"
+  },
+  {
+   "id": "Q1431012",
+   "name": "Brussels South Charleroi Airport",
+   "sl": 40,
+   "file": "Aeroport de Charleroi Bruxelles Sud.jpg",
+   "lat": 50.4592,
+   "lon": 4.4538,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brussels South Charleroi Airport"
+  },
+  {
+   "id": "Q322824",
+   "name": "Signal de Botrange",
+   "sl": 40,
+   "file": "Signal de Botrange - panoramio.jpg",
+   "lat": 50.5017,
+   "lon": 6.0931,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Signal de Botrange"
+  },
+  {
+   "id": "Q595802",
+   "name": "Museum Plantin-Moretus",
+   "sl": 39,
+   "file": "Museum Plantin-Moretus 08.jpg",
+   "lat": 51.2183,
+   "lon": 4.3982,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum Plantin-Moretus"
+  },
+  {
+   "id": "Q5901",
+   "name": "Onze-Lieve-Vrouwekathedraal",
+   "sl": 39,
+   "file": "View of Antwerp Cathedral from the Groenplaats.jpg",
+   "lat": 51.2203,
+   "lon": 4.4003,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "church building",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q750675",
+    "name": "Belfries of Belgium and France"
+   },
+   "also": [],
+   "cat": "Onze-Lieve-Vrouwekathedraal (Antwerp)"
+  },
+  {
+   "id": "Q1070150",
+   "name": "Jan Breydel Stadium",
+   "sl": 38,
+   "file": "Panoramio - V&A Dudush - Jan Breydel Stadion.jpg",
+   "lat": 51.1933,
+   "lon": 3.1813,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jan Breydelstadion"
+  },
+  {
+   "id": "Q262326",
+   "name": "Lotto Park",
+   "sl": 37,
+   "file": "Constant Vanden Stockstadion, Anderlecht.jpg",
+   "lat": 50.8342,
+   "lon": 4.2983,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Constant Vanden Stock"
+  },
+  {
+   "id": "Q835090",
+   "name": "Albert Canal",
+   "sl": 36,
+   "file": "Hasselt - Albertkanaal.jpg",
+   "lat": 50.65,
+   "lon": 5.6,
+   "kind": "built",
+   "types": [
+    "canal",
+    "waterway"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Albertkanaal"
+  },
+  {
+   "id": "Q269654",
+   "name": "Cathedral of St. Michael and St. Gudula",
+   "sl": 36,
+   "file": "(Belgium) St. Michael & St. Gudula Cathedral Tower, Brussels.jpg",
+   "lat": 50.8478,
+   "lon": 4.3603,
+   "kind": "built",
+   "types": [
+    "church building",
+    "co-cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of St. Michael and St. Gudula (Brussels)"
+  },
+  {
+   "id": "Q947912",
+   "name": "Fort Eben-Emael",
+   "sl": 32,
+   "file": "Fort Eben-Emael Blok I 7-06-2024 15-07-54.jpg",
+   "lat": 50.7972,
+   "lon": 5.6808,
+   "kind": "built",
+   "types": [
+    "fort",
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort d'Ében-Émael"
+  },
+  {
+   "id": "Q846006",
+   "name": "National Basilica of the Sacred Heart",
+   "sl": 32,
+   "file": "1001 Basilica of the Sacred Heart in Brussels Photo by Giles Laurent.jpg",
+   "lat": 50.8667,
+   "lon": 4.3172,
+   "kind": "built",
+   "types": [
+    "minor basilica",
+    "national shrine"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica of the Sacred Heart (Brussels)"
+  },
+  {
+   "id": "Q1057087",
+   "name": "Olympisch Stadion Antwerp",
+   "sl": 32,
+   "file": "Olympisch Stadion Antwerpen.jpg",
+   "lat": 51.185,
+   "lon": 4.3822,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olympisch Stadion (Antwerp)"
+  },
+  {
+   "id": "Q377500",
+   "name": "Royal Museums of Fine Arts of Belgium",
+   "sl": 32,
+   "file": "Royal Museums of Fine Arts of Belgium 20180629.jpg",
+   "lat": 50.8417,
+   "lon": 4.3582,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "Federal Scientific Institute"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Museums of Fine Arts of Belgium"
+  },
+  {
+   "id": "Q959934",
+   "name": "Stade Maurice Dufrasne",
+   "sl": 32,
+   "file": "Standard liege kaerjeng02.jpg",
+   "lat": 50.6099,
+   "lon": 5.5433,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Maurice Dufrasne"
+  },
+  {
+   "id": "Q17480",
+   "name": "Antwerp International Airport",
+   "sl": 31,
+   "file": "Antwerp Airport (Deurne).jpg",
+   "lat": 51.1894,
+   "lon": 4.4603,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antwerp Airport"
+  },
+  {
+   "id": "Q599193",
+   "name": "High Fens",
+   "sl": 31,
+   "file": "Helle River 01.jpg",
+   "lat": 50.5214,
+   "lon": 6.1028,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "natural region",
+    "plateau",
+    "wetland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "High Fens"
+  },
+  {
+   "id": "Q606067",
+   "name": "Liege Airport",
+   "sl": 31,
+   "file": "Liège Airport - Passenger Terminal-9298.jpg",
+   "lat": 50.6378,
+   "lon": 5.4442,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liège Airport"
+  },
+  {
+   "id": "Q635307",
+   "name": "Royal Palace of Brussels",
+   "sl": 31,
+   "file": "Bruxels April 2012-4.jpg",
+   "lat": 50.8417,
+   "lon": 4.3622,
+   "kind": "built",
+   "types": [
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Palace, Brussels"
+  },
+  {
+   "id": "Q917183",
+   "name": "Church of Our Lady",
+   "sl": 30,
+   "file": "Church Of Our Lady Bruges.jpg",
+   "lat": 51.2046,
+   "lon": 3.2245,
+   "kind": "built",
+   "types": [
+    "church building",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Onze-Lieve-Vrouwekerk (Brugge)"
+  },
+  {
+   "id": "Q99372",
+   "name": "lifts on the old Canal du Centre",
+   "sl": 30,
+   "file": "01 Houdeng-Goegnies 050323 (2).JPG",
+   "lat": 50.4714,
+   "lon": 4.0945,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Four lifts on the old Canal du Centre"
+  },
+  {
+   "id": "Q800398",
+   "name": "Antwerp-Central railway station",
+   "sl": 29,
+   "file": "Antwerpen Centraal station 12-07-2010 14-04-17.JPG",
+   "lat": 51.2169,
+   "lon": 4.4211,
+   "kind": "built",
+   "types": [
+    "dead-end railway station",
+    "public building",
+    "railway station",
+    "through station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antwerp Central Station"
+  },
+  {
+   "id": "Q821009",
+   "name": "Berlaymont building",
+   "sl": 29,
+   "file": "Belgique - Bruxelles - Schuman - Berlaymont - 01.jpg",
+   "lat": 50.8436,
+   "lon": 4.3828,
+   "kind": "built",
+   "types": [
+    "building of public administration",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berlaymont building"
+  },
+  {
+   "id": "Q1134872",
+   "name": "Hoegaarden Brewery",
+   "sl": 29,
+   "file": "Brewery Hoegaarden.jpg",
+   "lat": 50.7716,
+   "lon": 4.9037,
+   "kind": "built",
+   "types": [
+    "brewery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hoegaarden brewery"
+  },
+  {
+   "id": "Q1255327",
+   "name": "Brussels Town Hall",
+   "sl": 28,
+   "file": "Brussels, townhall oeg2043-00090 foto3 2015-06-07 08.38.jpg",
+   "lat": 50.8464,
+   "lon": 4.3517,
+   "kind": "built",
+   "types": [
+    "former town hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brussels town hall"
+  },
+  {
+   "id": "Q1948674",
+   "name": "Groeningemuseum",
+   "sl": 28,
+   "file": "Ingang Groeninge Dijver.jpg",
+   "lat": 51.2053,
+   "lon": 3.2267,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Groeningemuseum"
+  },
+  {
+   "id": "Q1542585",
+   "name": "Royal Castle of Laeken",
+   "sl": 28,
+   "file": "Castle of Laeken.JPG",
+   "lat": 50.8864,
+   "lon": 4.3597,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Castle of Laeken"
+  },
+  {
+   "id": "Q938154",
+   "name": "St Bavo's Cathedral",
+   "sl": 28,
+   "file": "27052005 - St Baafskathedraal.JPG",
+   "lat": 51.053,
+   "lon": 3.7271,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sint-Baafskathedraal"
+  },
+  {
+   "id": "Q800587",
+   "name": "Brussels-South railway station",
+   "sl": 27,
+   "file": "Station Brussel-Zuid Gebouw.jpg",
+   "lat": 50.8353,
+   "lon": 4.3358,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brussels Midi station"
+  },
+  {
+   "id": "Q1471477",
+   "name": "Royal Museum of Fine Arts Antwerp",
+   "sl": 27,
+   "file": "Koninklijk Museum voor Schone Kunsten Antwerpen mit Ankündigung der Wiedereröffnung.jpg",
+   "lat": 51.2088,
+   "lon": 4.3943,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Museum of Fine Arts Antwerp"
+  },
+  {
+   "id": "Q1086358",
+   "name": "St. Rumbold's Cathedral",
+   "sl": 26,
+   "file": "Mechelen Margareta voor Sint-Rombouts 02.jpg",
+   "lat": 51.0289,
+   "lon": 4.4783,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q750675",
+    "name": "Belfries of Belgium and France"
+   },
+   "also": [],
+   "cat": "Sint-Romboutskathedraal (Mechelen)"
+  },
+  {
+   "id": "Q2441211",
+   "name": "Belfry of Bruges",
+   "sl": 25,
+   "file": "Belfort - panoramio.jpg",
+   "lat": 51.208,
+   "lon": 3.2253,
+   "kind": "built",
+   "types": [
+    "belfry",
+    "inclined tower",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q750675",
+    "name": "Belfries of Belgium and France"
+   },
+   "also": [],
+   "cat": "Belfry of Brugge"
+  },
+  {
+   "id": "Q1995367",
+   "name": "Horta Museum",
+   "sl": 25,
+   "file": "Hortamuseum.tif",
+   "lat": 50.8242,
+   "lon": 4.3556,
+   "kind": "built",
+   "types": [
+    "architectural museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Horta Museum"
+  },
+  {
+   "id": "Q1921177",
+   "name": "Major Mining Sites of Wallonia",
+   "sl": 25,
+   "file": "Bois du Cazier 2.jpg",
+   "lat": 50.4353,
+   "lon": 3.8383,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Major Mining Sites of Wallonia"
+  },
+  {
+   "id": "Q1426014",
+   "name": "Major Town Houses of the Architect Victor Horta",
+   "sl": 25,
+   "file": "Tassel House stairway.JPG",
+   "lat": 50.8167,
+   "lon": 4.35,
+   "kind": "",
+   "types": [
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Major town houses of the architect Victor Horta (Brussels)"
+  },
+  {
+   "id": "Q2365880",
+   "name": "Museum of Fine Arts Ghent (MSK)",
+   "sl": 25,
+   "file": "MSK19122008.JPG",
+   "lat": 51.038,
+   "lon": 3.7242,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Fine Arts, Ghent"
+  },
+  {
+   "id": "Q850537",
+   "name": "Palace of Justice of Brussels",
+   "sl": 25,
+   "file": "BrüsselJustizpalast.jpg",
+   "lat": 50.8367,
+   "lon": 4.3517,
+   "kind": "built",
+   "types": [
+    "courthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Justice, Brussels"
+  },
+  {
+   "id": "Q1421339",
+   "name": "Royal Observatory of Belgium",
+   "sl": 25,
+   "file": "Ancien observatoire royal de Bruxelles 1.JPG",
+   "lat": 50.7982,
+   "lon": 4.3586,
+   "kind": "built",
+   "types": [
+    "astronomical observatory",
+    "Federal Scientific Institute"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Observatory of Belgium"
+  },
+  {
+   "id": "Q265453",
+   "name": "Béguinages in Flanders",
+   "sl": 24,
+   "file": "Alexiusbegijnhof.jpg",
+   "lat": 51.031,
+   "lon": 4.4738,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Beguinages"
+  },
+  {
+   "id": "Q1573417",
+   "name": "Liège Cathedral",
+   "sl": 24,
+   "file": "2022-08 Cathédrale Saint-Paul de Liège - crop.jpg",
+   "lat": 50.6403,
+   "lon": 5.5717,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "monastery",
+    "religious community"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Saint-Paul (Liège)"
+  },
+  {
+   "id": "Q662529",
+   "name": "Port of Antwerp",
+   "sl": 24,
+   "file": "Haven Antwerpen04.jpg",
+   "lat": 51.27,
+   "lon": 4.3367,
+   "kind": "both",
+   "types": [
+    "port",
+    "seaport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Antwerp"
+  },
+  {
+   "id": "Q775644",
+   "name": "Rubenshuis",
+   "sl": 24,
+   "file": "Rubenshaus.JPG",
+   "lat": 51.2172,
+   "lon": 4.4094,
+   "kind": "built",
+   "types": [
+    "artist's house",
+    "museum",
+    "private mansion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rubenshuis"
+  },
+  {
+   "id": "Q1147565",
+   "name": "Stade du Pays de Charleroi",
+   "sl": 24,
+   "file": "Charleroi Stade du Pays de Charleroi 1.jpg",
+   "lat": 50.4146,
+   "lon": 4.4538,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade du Pays de Charleroi"
+  },
+  {
+   "id": "Q285074",
+   "name": "Bosuilstadion",
+   "sl": 23,
+   "file": "20110720 bosuil.jpg",
+   "lat": 51.2322,
+   "lon": 4.4717,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bosuilstadion (Antwerpen)"
+  },
+  {
+   "id": "Q1032687",
+   "name": "Canal du Centre",
+   "sl": 23,
+   "file": "0 Thieu - L’ ascenseur hydrauliques n° 4.JPG",
+   "lat": 50.4781,
+   "lon": 4.11,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canal du Centre (Belgium)"
+  },
+  {
+   "id": "Q1101790",
+   "name": "Cinquantenaire Park",
+   "sl": 23,
+   "file": "Parc du Cinquantenaire 30-05-06.JPG",
+   "lat": 50.8406,
+   "lon": 4.3928,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cinquantenaire"
+  },
+  {
+   "id": "Q1881679",
+   "name": "Hôtel Tassel",
+   "sl": 23,
+   "file": "Victor Horta Hotel Tassel.JPG",
+   "lat": 50.8278,
+   "lon": 4.362,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "manor house",
+    "townhouse"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1426014",
+    "name": "Major Town Houses of the Architect Victor Horta"
+   },
+   "also": [],
+   "cat": "Hotel Tassel"
+  },
+  {
+   "id": "Q522604",
+   "name": "Museum van het Heilig Bloed",
+   "sl": 23,
+   "file": "Basilica of the Holy Blood - Saint-Baselius Chapel, Bruges, Belgium..jpg",
+   "lat": 51.2083,
+   "lon": 3.2269,
+   "kind": "built",
+   "types": [
+    "minor basilica",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica of the Holy Blood"
+  },
+  {
+   "id": "Q1432260",
+   "name": "Ostend-Bruges International Airport",
+   "sl": 23,
+   "file": "Oostende - Airport 1.jpg",
+   "lat": 51.2003,
+   "lon": 2.8703,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ostend-Bruges International Airport"
+  },
+  {
+   "id": "Q2005868",
+   "name": "Antwerp City Hall",
+   "sl": 22,
+   "file": "Antwerpen Stadhuis crop1 2006-05-28.jpg",
+   "lat": 51.2214,
+   "lon": 4.3994,
+   "kind": "built",
+   "types": [
+    "belfry",
+    "Rathaus"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q750675",
+    "name": "Belfries of Belgium and France"
+   },
+   "also": [],
+   "cat": "Antwerp City Hall"
+  },
+  {
+   "id": "Q1543972",
+   "name": "Gravensteen",
+   "sl": 22,
+   "file": "Gravensteengent22042008.JPG",
+   "lat": 51.0572,
+   "lon": 3.7206,
+   "kind": "built",
+   "types": [
+    "water castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gravensteen (Ghent)"
+  },
+  {
+   "id": "Q451",
+   "name": "Mundaneum",
+   "sl": 22,
+   "file": "Mundaneum Mons.jpg",
+   "lat": 50.4577,
+   "lon": 3.9555,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mundaneum"
+  },
+  {
+   "id": "Q779703",
+   "name": "Royal Museum for Central Africa",
+   "sl": 22,
+   "file": "AfricaMuseum - 2023-02-09 - 03.jpg",
+   "lat": 50.8309,
+   "lon": 4.5185,
+   "kind": "built",
+   "types": [
+    "ethnographic museum",
+    "Federal Scientific Institute",
+    "natural history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Museum for Central Africa"
+  },
+  {
+   "id": "Q551479",
+   "name": "Royal Theatre of La Monnaie",
+   "sl": 22,
+   "file": "Théâtre de la Monnaie 1.JPG",
+   "lat": 50.8496,
+   "lon": 4.3542,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Theatre of La Monnaie"
+  },
+  {
+   "id": "Q2156810",
+   "name": "De Zoom - Kalmthoutse Heide",
+   "sl": 21,
+   "file": "Kalmthoutse heide.jpg",
+   "lat": 51.3969,
+   "lon": 4.4036,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalmthoutse Heide"
+  },
+  {
+   "id": "Q1375164",
+   "name": "Europa building",
+   "sl": 21,
+   "file": "Europa building February 2016.jpg",
+   "lat": 50.8425,
+   "lon": 4.3808,
+   "kind": "built",
+   "types": [
+    "headquarters"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Europa building"
+  },
+  {
+   "id": "Q46012",
+   "name": "House of European History",
+   "sl": 21,
+   "file": "House of European History, Brussels (sept. 2019).jpg",
+   "lat": 50.8399,
+   "lon": 4.3788,
+   "kind": "built",
+   "types": [
+    "history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "House of European History"
+  },
+  {
+   "id": "Q99495",
+   "name": "Strépy-Thieu boat lift",
+   "sl": 21,
+   "file": "Aerial view of Strépy-Thieu boat lift 6.jpg",
+   "lat": 50.4782,
+   "lon": 4.1098,
+   "kind": "built",
+   "types": [
+    "boat lift"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Strépy-Thieu boat lift"
+  },
+  {
+   "id": "Q925654",
+   "name": "Cegeka Arena",
+   "sl": 20,
+   "file": "Cristal Arena 2013-02-21 opposite stand.jpg",
+   "lat": 51.005,
+   "lon": 5.5333,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cristal Arena"
+  },
+  {
+   "id": "Q763565",
+   "name": "Chapel of the Resurrection, Brussels",
+   "sl": 20,
+   "file": "Chapelle de la Résurrection, Bruxelles.jpg",
+   "lat": 50.8414,
+   "lon": 4.3786,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chapel of the Resurrection, Brussels"
+  },
+  {
+   "id": "Q584031",
+   "name": "Château de Belœil",
+   "sl": 20,
+   "file": "Château de Beloeil - Belgium.jpg",
+   "lat": 50.551,
+   "lon": 3.7302,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Château de Belœil"
+  },
+  {
+   "id": "Q700580",
+   "name": "Fort Breendonk",
+   "sl": 20,
+   "file": "Fort Breendonk entrance (DSCF0597).jpg",
+   "lat": 51.0564,
+   "lon": 4.3414,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort van Breendonk"
+  },
+  {
+   "id": "Q1009271",
+   "name": "Ghent–Terneuzen Canal",
+   "sl": 20,
+   "file": "LocationCanalGentTerneuzen.PNG",
+   "lat": 51.1466,
+   "lon": 3.7824,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ghent–Terneuzen Canal"
+  },
+  {
+   "id": "Q1548310",
+   "name": "Great Mosque of Brussels",
+   "sl": 20,
+   "file": "Bruxelles (Cinquantenaire) la grande Mosquée.JPG",
+   "lat": 50.8433,
+   "lon": 4.3878,
+   "kind": "built",
+   "types": [
+    "congregational mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Brussels"
+  },
+  {
+   "id": "Q128191",
+   "name": "Nemo 33",
+   "sl": 20,
+   "file": "Nemo33 deep view.jpg",
+   "lat": 50.7961,
+   "lon": 4.3169,
+   "kind": "built",
+   "types": [
+    "swimming center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nemo 33"
+  },
+  {
+   "id": "Q220003",
+   "name": "Antwerp Zoo",
+   "sl": 19,
+   "file": "Antwerpen Zoo Entrance 1.jpg",
+   "lat": 51.2164,
+   "lon": 4.4233,
+   "kind": "built",
+   "types": [
+    "tourist destination",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antwerp Zoo"
+  },
+  {
+   "id": "Q815542",
+   "name": "Belgian Comic Strip Center",
+   "sl": 19,
+   "file": "Centre Belge de la Bande Dessinée - 30.jpg",
+   "lat": 50.8513,
+   "lon": 4.3602,
+   "kind": "built",
+   "types": [
+    "comics museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belgian Centre for Comic Strip Art"
+  },
+  {
+   "id": "Q59487",
+   "name": "Boerentoren",
+   "sl": 19,
+   "file": "Boerentoren1.jpg",
+   "lat": 51.2186,
+   "lon": 4.4041,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boerentoren (Antwerp)"
+  },
+  {
+   "id": "Q2117579",
+   "name": "Brussels–Scheldt Maritime Canal",
+   "sl": 19,
+   "file": "Canal de Bruxelles depuis le pont Suzan Daniel..jpg",
+   "lat": 51.0275,
+   "lon": 4.3572,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brussels-Scheldt Maritime Canal"
+  },
+  {
+   "id": "Q571145",
+   "name": "Caves of Han-sur-Lesse",
+   "sl": 19,
+   "file": "Grotten van Han - grot 1.jpg",
+   "lat": 50.125,
+   "lon": 5.1894,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Caves of Han"
+  },
+  {
+   "id": "Q2671145",
+   "name": "Hôtel Solvay",
+   "sl": 19,
+   "file": "Avenue Louise 224 Louizalaan Brussels 2012-08.jpg",
+   "lat": 50.8263,
+   "lon": 4.3653,
+   "kind": "built",
+   "types": [
+    "private mansion"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1426014",
+    "name": "Major Town Houses of the Architect Victor Horta"
+   },
+   "also": [],
+   "cat": "Hôtel Solvay"
+  },
+  {
+   "id": "Q31985",
+   "name": "Lion's Mound",
+   "sl": 19,
+   "file": "Belgique - Butte du Lion - 04.jpg",
+   "lat": 50.6781,
+   "lon": 4.4054,
+   "kind": "natural",
+   "types": [
+    "artificial hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lion of Waterloo"
+  },
+  {
+   "id": "Q1822397",
+   "name": "Menin Gate",
+   "sl": 19,
+   "file": "IFFFC070 000016.jpg",
+   "lat": 50.8521,
+   "lon": 2.8911,
+   "kind": "built",
+   "types": [
+    "city gate",
+    "Commonwealth War Graves Commission maintained memorial",
+    "war memorial"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64685453",
+    "name": "Funerary and memory sites of the First World War (Western Front)"
+   },
+   "also": [],
+   "cat": "Menin Gate"
+  },
+  {
+   "id": "Q1607814",
+   "name": "MS Herald of Free Enterprise",
+   "sl": 19,
+   "file": "Herald of Free Enterprise.jpg",
+   "lat": 51.3746,
+   "lon": 3.1906,
+   "kind": "built",
+   "types": [
+    "roll-on/roll-off ship",
+    "ship",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "IMO 7820485"
+  }
+ ]
+}

@@ -1,0 +1,1031 @@
+{
+ "country": "NA",
+ "items": [
+  {
+   "id": "Q131377",
+   "name": "Namib",
+   "sl": 89,
+   "file": "Namib Desert surface.jpg",
+   "lat": -23,
+   "lon": 15,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Namib Desert"
+  },
+  {
+   "id": "Q675633",
+   "name": "Etosha National Park",
+   "sl": 49,
+   "file": "Zebras Etosha Namibia(1).jpg",
+   "lat": -18.7853,
+   "lon": 16.2639,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Etosha National Park"
+  },
+  {
+   "id": "Q754791",
+   "name": "Twyfelfontein",
+   "sl": 38,
+   "file": "Rock Paintig Twyfelfontein Namibia.jpg",
+   "lat": -20.5956,
+   "lon": 14.3726,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Twyfelfontein"
+  },
+  {
+   "id": "Q1773441",
+   "name": "Namib-Naukluft National Park",
+   "sl": 35,
+   "file": "NamibNaukluftParkDunes.JPG",
+   "lat": -24.5464,
+   "lon": 15.3297,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Namib-Naukluft National Park"
+  },
+  {
+   "id": "Q667326",
+   "name": "Windhoek Hosea Kutako International Airport",
+   "sl": 31,
+   "file": "Hosea Kutako International Airport, Namibia.jpg",
+   "lat": -22.48,
+   "lon": 17.4708,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Windhoek Hosea Kutako International Airport"
+  },
+  {
+   "id": "Q187918",
+   "name": "Epupa Falls",
+   "sl": 30,
+   "file": "Epupa Falls (detail).jpg",
+   "lat": -17,
+   "lon": 13.25,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AO"
+   ],
+   "cat": "Epupa Falls"
+  },
+  {
+   "id": "Q897834",
+   "name": "Brandberg",
+   "sl": 28,
+   "file": "Brand hires trimmed.jpg",
+   "lat": -21.1495,
+   "lon": 14.5775,
+   "kind": "natural",
+   "types": [
+    "cultural landscape",
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brandberg"
+  },
+  {
+   "id": "Q1932730",
+   "name": "Sossusvlei",
+   "sl": 28,
+   "file": "2011-02-09 066.JPG",
+   "lat": -24.7398,
+   "lon": 15.2877,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sossusvlei"
+  },
+  {
+   "id": "Q1101379",
+   "name": "Ruacana Falls",
+   "sl": 27,
+   "file": "Ruacana Falls at High Water from close distance in 03-2011. Author Tom Jakobi.JPG",
+   "lat": -17.3936,
+   "lon": 14.2169,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AO"
+   ],
+   "cat": "Ruacana Falls"
+  },
+  {
+   "id": "Q280231",
+   "name": "Etosha Pan",
+   "sl": 26,
+   "file": "Dry Etosha Pan.jpg",
+   "lat": -18.7853,
+   "lon": 16.2639,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Etosha pan"
+  },
+  {
+   "id": "Q858128",
+   "name": "Cape Cross",
+   "sl": 21,
+   "file": "Cape Cross - panoramio (1).jpg",
+   "lat": -21.7728,
+   "lon": 13.9508,
+   "kind": "natural",
+   "types": [
+    "headland",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Cross"
+  },
+  {
+   "id": "Q394755",
+   "name": "ǀAi-ǀAis/Richtersveld Transfrontier Park",
+   "sl": 21,
+   "file": "Tylecodon paniculatus-PICT2534.jpg",
+   "lat": -28.0539,
+   "lon": 17.0347,
+   "kind": "natural",
+   "types": [
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZA"
+   ],
+   "cat": "Ai-Ais/Richtersveld Transfrontier Park"
+  },
+  {
+   "id": "Q1321635",
+   "name": "Eros Airport",
+   "sl": 18,
+   "file": "Windhoek - Eros (ERS - FYWE) AN1859481.jpg",
+   "lat": -22.6122,
+   "lon": 17.0806,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eros Airport"
+  },
+  {
+   "id": "Q1087458",
+   "name": "Christ Church, Windhoek",
+   "sl": 17,
+   "file": "Iglesia de Cristo, Windhoek, Namibia, 2018-08-04, DD 05.jpg",
+   "lat": -22.5678,
+   "lon": 17.0872,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christuskirche Windhoek"
+  },
+  {
+   "id": "Q2124779",
+   "name": "Spitzkoppe",
+   "sl": 17,
+   "file": "Spitzkoppe Sonnenaufgang.jpg",
+   "lat": -21.8256,
+   "lon": 15.1951,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spitzkoppe"
+  },
+  {
+   "id": "Q960708",
+   "name": "Walvis Bay Airport",
+   "sl": 17,
+   "file": "Flughafen Walfish Bay Luftaufnahme.jpg",
+   "lat": -22.98,
+   "lon": 14.6453,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Walvis Bay Airport"
+  },
+  {
+   "id": "Q1392554",
+   "name": "Nkasa Rupara National Park",
+   "sl": 16,
+   "file": "Map Nkasa Rupara National Park.jpg",
+   "lat": -18.4,
+   "lon": 23.65,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Namibia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nkasa Rupara National Park"
+  },
+  {
+   "id": "Q3695317",
+   "name": "Skeleton Coast National Park",
+   "sl": 16,
+   "file": "CostaEsqueletos.jpg",
+   "lat": -19.19,
+   "lon": 12.72,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skeleton Coast"
+  },
+  {
+   "id": "Q219287",
+   "name": "Katima Mulilo Airport",
+   "sl": 15,
+   "file": "Katima Mulilo Airport.jpg",
+   "lat": -17.6342,
+   "lon": 24.1764,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katima Mulilo Airport"
+  },
+  {
+   "id": "Q281035",
+   "name": "Hardap Dam",
+   "sl": 14,
+   "file": "HardapDam.JPG",
+   "lat": -24.4995,
+   "lon": 17.8587,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hardap Dam"
+  },
+  {
+   "id": "Q1617774",
+   "name": "High Energy Stereoscopic System",
+   "sl": 14,
+   "file": "HESS II gamma ray experiment five telescope array.jpg",
+   "lat": -23.2713,
+   "lon": 16.5,
+   "kind": "built",
+   "types": [
+    "observatory",
+    "telescope"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "HESS"
+  },
+  {
+   "id": "Q3889166",
+   "name": "Kaokoveld",
+   "sl": 14,
+   "file": "Landschaft bei Orupembe-Kaokoveld.jpg",
+   "lat": -17.5,
+   "lon": 12,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AO"
+   ],
+   "cat": "Kaokoveld"
+  },
+  {
+   "id": "Q1431966",
+   "name": "Lüderitz Airport",
+   "sl": 14,
+   "file": "Lüderitz Airport.jpg",
+   "lat": -26.6875,
+   "lon": 15.2428,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lüderitz Airport"
+  },
+  {
+   "id": "Q851733",
+   "name": "Rundu Airport",
+   "sl": 14,
+   "file": "Flughafen Rundu (2018).jpg",
+   "lat": -17.9564,
+   "lon": 19.7194,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1933532",
+   "name": "Sperrgebiet",
+   "sl": 14,
+   "file": "Namibie Kolmanskop 05.JPG",
+   "lat": -26.6753,
+   "lon": 15.0903,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sperrgebiet"
+  },
+  {
+   "id": "Q263097",
+   "name": "The White Lady",
+   "sl": 14,
+   "file": "Weiße Dame Brandberg.JPG",
+   "lat": -21.1106,
+   "lon": 14.6627,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave with prehistoric art"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q325241",
+   "name": "Alte Feste",
+   "sl": 13,
+   "file": "Alte Feste Windhoek (Aussenansicht).jpg",
+   "lat": -22.5693,
+   "lon": 17.0884,
+   "kind": "built",
+   "types": [
+    "national museum",
+    "schloss country house museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alte Feste"
+  },
+  {
+   "id": "Q607602",
+   "name": "Otjikoto Lake",
+   "sl": 13,
+   "file": "Otjikoto Lake.jpg",
+   "lat": -19.1947,
+   "lon": 17.5497,
+   "kind": "natural",
+   "types": [
+    "karst lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Otjikoto Lake"
+  },
+  {
+   "id": "Q2139956",
+   "name": "Tintenpalast",
+   "sl": 13,
+   "file": "Windhuk Independence Memorial Museum Blick auf den Tintenpalast 5 (cropped).jpg",
+   "lat": -22.5666,
+   "lon": 17.0893,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tintenpalast"
+  },
+  {
+   "id": "Q1433103",
+   "name": "Tsumeb Airport",
+   "sl": 13,
+   "file": "Tsumeb-Airport.JPG",
+   "lat": -19.2619,
+   "lon": 17.7325,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsumeb Airport"
+  },
+  {
+   "id": "Q4784077",
+   "name": "Arandis Airport",
+   "sl": 12,
+   "file": "Airport Arandis FYAR.jpg",
+   "lat": -22.4622,
+   "lon": 14.98,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q491209",
+   "name": "Lake Guinas",
+   "sl": 12,
+   "file": "Guinas lake 2015 01.jpg",
+   "lat": -19.2329,
+   "lon": 17.3526,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Guinas"
+  },
+  {
+   "id": "Q847788",
+   "name": "Ondangwa Airport",
+   "sl": 12,
+   "file": "Ondangwa Airport.jpg",
+   "lat": -17.8781,
+   "lon": 15.9525,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ondangwa Airport"
+  },
+  {
+   "id": "Q5314935",
+   "name": "Dune 45",
+   "sl": 11,
+   "file": "Dune45 Sossusvlei Namib Desert Namibia Luca Galuzzi 2004.JPG",
+   "lat": -24.7167,
+   "lon": 15.4667,
+   "kind": "natural",
+   "types": [
+    "dune"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dune 45"
+  },
+  {
+   "id": "Q1431411",
+   "name": "Grootfontein Airport",
+   "sl": 11,
+   "file": "DF-ST-90-10118.jpg",
+   "lat": -19.6022,
+   "lon": 18.1228,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grootfontein Air Force Base"
+  },
+  {
+   "id": "Q851725",
+   "name": "Keetmanshoop Airport",
+   "sl": 11,
+   "file": "Airport of Keetmanshoop.jpg",
+   "lat": -26.5397,
+   "lon": 18.1114,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Keetmanshoop Airport"
+  },
+  {
+   "id": "Q1973744",
+   "name": "Neckartal Dam",
+   "sl": 11,
+   "file": "Neckartal dam aerial view April 2018.jpg",
+   "lat": -26.7027,
+   "lon": 17.7889,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Neckartal Dam"
+  },
+  {
+   "id": "Q1432245",
+   "name": "Oranjemund Airport",
+   "sl": 11,
+   "file": "Oranjemund Airport.jpg",
+   "lat": -28.5847,
+   "lon": 16.4467,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q440667",
+   "name": "Quiver Tree Forest",
+   "sl": 11,
+   "file": "Namibie Quivertree Forest 02.JPG",
+   "lat": -26.48,
+   "lon": 18.237,
+   "kind": "natural",
+   "types": [
+    "natural monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Quiver Tree Forest"
+  },
+  {
+   "id": "Q1455247",
+   "name": "Sam Nujoma Stadium",
+   "sl": 11,
+   "file": "SamNujomaStadium.JPG",
+   "lat": -22.6076,
+   "lon": 17.091,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q661852",
+   "name": "Swakopmund Airport",
+   "sl": 11,
+   "file": "Airfield Swakop 28.08.2010 003.jpg",
+   "lat": -22.6583,
+   "lon": 14.5667,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Swakopmund Airport"
+  },
+  {
+   "id": "Q14755864",
+   "name": "Apollo 11 Cave",
+   "sl": 10,
+   "file": "Apollo-11 stone slab.jpg",
+   "lat": -27.75,
+   "lon": 17.1,
+   "kind": "both",
+   "types": [
+    "cave with prehistoric art"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apollo 11 Cave"
+  },
+  {
+   "id": "Q1225363",
+   "name": "Dikwillem",
+   "sl": 10,
+   "file": "Dikwillem (Namibia).jpg",
+   "lat": -26.4675,
+   "lon": 16.0192,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dikwillem"
+  },
+  {
+   "id": "Q1246079",
+   "name": "Dorob National Park",
+   "sl": 10,
+   "file": "Dorob Nationalpark.jpg",
+   "lat": -22.8167,
+   "lon": 14.6118,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Namibia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dorob National Park"
+  },
+  {
+   "id": "Q11824401",
+   "name": "Gobabis Airport",
+   "sl": 10,
+   "file": "Gobabis Airport.jpg",
+   "lat": -22.5047,
+   "lon": 18.9747,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gobabis Airport"
+  },
+  {
+   "id": "Q523085",
+   "name": "Independence Stadium",
+   "sl": 10,
+   "file": "Independence Stadium Windhoek Namibia Main Gate.jpg",
+   "lat": -22.6076,
+   "lon": 17.091,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q488794",
+   "name": "Katima Mulilo Bridge",
+   "sl": 10,
+   "file": "Katima Mulilo Bridge.jpg",
+   "lat": -17.4721,
+   "lon": 24.2493,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZM"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q801615",
+   "name": "Windhoek railway station",
+   "sl": 10,
+   "file": "Dunst Windhoek Oct 2002 slide012 - Bahnhof von 1912.jpg",
+   "lat": -22.5594,
+   "lon": 17.081,
+   "kind": "built",
+   "types": [
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Windhoek train station"
+  },
+  {
+   "id": "Q369840",
+   "name": "Goreangab Dam",
+   "sl": 9,
+   "file": "Goreangab Dam.jpg",
+   "lat": -22.5286,
+   "lon": 17.0091,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goreangab Dam"
+  },
+  {
+   "id": "Q1351026",
+   "name": "Gross Barmen",
+   "sl": 9,
+   "file": "D1972 near Gross Barmen 28.06.2008 14-52-40.jpg",
+   "lat": -22.1,
+   "lon": 16.75,
+   "kind": "natural",
+   "types": [
+    "protected area of Namibia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1796472",
+   "name": "Königstein",
+   "sl": 9,
+   "file": "Brandberg2.jpg",
+   "lat": -21.15,
+   "lon": 14.5833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2142113",
+   "name": "Reiterdenkmal, Windhoek",
+   "sl": 9,
+   "file": "Südwest Reiter Windhoek.jpg",
+   "lat": -22.5686,
+   "lon": 17.0878,
+   "kind": "built",
+   "types": [
+    "monument",
+    "statue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Reiterdenkmal Windhoek"
+  },
+  {
+   "id": "Q491504",
+   "name": "Roter Kamm crater",
+   "sl": 9,
+   "file": "Roter Kamm Bird's Eye View.jpg",
+   "lat": -27.7667,
+   "lon": 16.2889,
+   "kind": "natural",
+   "types": [
+    "impact crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roter Kamm crater"
+  },
+  {
+   "id": "Q1897618",
+   "name": "St. Mary's Cathedral, Windhoek",
+   "sl": 9,
+   "file": "St. Marien-Kathedrale Windhoek.jpg",
+   "lat": -22.5647,
+   "lon": 17.0823,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Windhoek Catholic Cathedral"
+  },
+  {
+   "id": "Q2371960",
+   "name": "Swakoppoort Dam",
+   "sl": 9,
+   "file": "Swakoppforte-Damm.jpg",
+   "lat": -22.212,
+   "lon": 16.527,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q264484",
+   "name": "Avis Dam",
+   "sl": 8,
+   "file": "Avis dam - panoramio.jpg",
+   "lat": -22.575,
+   "lon": 17.13,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avis dam"
+  },
+  {
+   "id": "Q992385",
+   "name": "Brukkaros Mountain",
+   "sl": 8,
+   "file": "Brukkaros1.jpg",
+   "lat": -25.8672,
+   "lon": 17.7814,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brukkaros"
+  },
+  {
+   "id": "Q316851",
+   "name": "Duwisib Castle",
+   "sl": 8,
+   "file": "Namibie Duwisib Castle 01.JPG",
+   "lat": -25.2572,
+   "lon": 16.5413,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Duwisib"
+  },
+  {
+   "id": "Q317319",
+   "name": "Namutoni",
+   "sl": 8,
+   "file": "Namuntomi.jpg",
+   "lat": -18.8081,
+   "lon": 16.9403,
+   "kind": "built",
+   "types": [
+    "campsite",
+    "citadel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Namutoni, Namibia"
+  },
+  {
+   "id": "Q2023172",
+   "name": "Omatako Dam",
+   "sl": 8,
+   "file": "Omatako-Damm.PNG",
+   "lat": -21.1667,
+   "lon": 17.1667,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1345816",
+   "name": "Shark Island Extermination Camp",
+   "sl": 8,
+   "file": "Herero Nama Shark Island Death Camp 07.jpg",
+   "lat": -26.6366,
+   "lon": 15.1522,
+   "kind": "built",
+   "types": [
+    "concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2533092",
+   "name": "Von Bach Dam",
+   "sl": 8,
+   "file": "S-Von-Bach-Dam-1.jpg",
+   "lat": -22.0139,
+   "lon": 16.9533,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

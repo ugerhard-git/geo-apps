@@ -1,0 +1,1344 @@
+{
+ "country": "NO",
+ "items": [
+  {
+   "id": "Q4069",
+   "name": "North Cape",
+   "sl": 62,
+   "file": "Cabo Norte, Noruega, 2019-09-03, DD 16.jpg",
+   "lat": 71.1725,
+   "lon": 25.7844,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "North Cape"
+  },
+  {
+   "id": "Q193989",
+   "name": "Geirangerfjord",
+   "sl": 57,
+   "file": "00 2269 Geiranger - Norway.jpg",
+   "lat": 62.0944,
+   "lon": 7.0806,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Geirangerfjorden"
+  },
+  {
+   "id": "Q210559",
+   "name": "Oslo Airport",
+   "sl": 56,
+   "file": "Oslo Airport terminal night view.jpg",
+   "lat": 60.2028,
+   "lon": 11.0839,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oslo Airport, Gardermoen"
+  },
+  {
+   "id": "Q201013",
+   "name": "Svalbard Global Seed Vault",
+   "sl": 56,
+   "file": "Svalbard Global Seed Vault February 2025.jpg",
+   "lat": 78.2359,
+   "lon": 15.4914,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "seed bank",
+    "subterranea"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Svalbard Global Seed Vault"
+  },
+  {
+   "id": "Q203942",
+   "name": "Galdhøpiggen",
+   "sl": 52,
+   "file": "Galdhopiggen 2004.jpg",
+   "lat": 61.6333,
+   "lon": 8.3,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galdhøpiggen"
+  },
+  {
+   "id": "Q208495",
+   "name": "Sognefjord",
+   "sl": 50,
+   "file": "Sognefjord, Norway.jpg",
+   "lat": 61.1,
+   "lon": 5.1667,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sognefjorden"
+  },
+  {
+   "id": "Q210678",
+   "name": "Urnes Stave Church",
+   "sl": 49,
+   "file": "2023-07-04-Stabkirche Urnes-6781.jpg",
+   "lat": 61.2981,
+   "lon": 7.3225,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property",
+    "stave church"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Urnes stavkirke"
+  },
+  {
+   "id": "Q814113",
+   "name": "Beerenberg",
+   "sl": 45,
+   "file": "Beerenberg Jan Mayen.JPG",
+   "lat": 71.0797,
+   "lon": -8.1559,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beerenberg"
+  },
+  {
+   "id": "Q216035",
+   "name": "Halti",
+   "sl": 45,
+   "file": "Haltitunturi.jpg",
+   "lat": 69.3128,
+   "lon": 21.2856,
+   "kind": "natural",
+   "types": [
+    "fell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FI"
+   ],
+   "cat": "Halti"
+  },
+  {
+   "id": "Q212209",
+   "name": "Mjøsa",
+   "sl": 45,
+   "file": "Mjøsa 1.jpg",
+   "lat": 60.6667,
+   "lon": 11,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mjøsa"
+  },
+  {
+   "id": "Q43280",
+   "name": "Oslo Opera House",
+   "sl": 44,
+   "file": "Full Opera by night.jpg",
+   "lat": 59.9069,
+   "lon": 10.7536,
+   "kind": "built",
+   "types": [
+    "concert hall",
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oslo Opera house"
+  },
+  {
+   "id": "Q212205",
+   "name": "Nærøyfjord",
+   "sl": 43,
+   "file": "Nærøyfjorden mot Gudvangen.jpg",
+   "lat": 60.9436,
+   "lon": 6.9314,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q12269990",
+    "name": "West Norwegian Fjords – Geirangerfjord and Nærøyfjord"
+   },
+   "also": [],
+   "cat": "Nærøyfjorden"
+  },
+  {
+   "id": "Q215023",
+   "name": "Nidaros Cathedral",
+   "sl": 41,
+   "file": "Die Nidaros Kathedrale in Trondheim. 05.jpg",
+   "lat": 63.4269,
+   "lon": 10.3971,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church town of Sweden",
+    "cultural property",
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nidaros Cathedral"
+  },
+  {
+   "id": "Q654352",
+   "name": "Jostedal Glacier",
+   "sl": 40,
+   "file": "P1000290Jostedalsbreen.JPG",
+   "lat": 61.7106,
+   "lon": 6.9242,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jostedalsbreen"
+  },
+  {
+   "id": "Q200003",
+   "name": "Hornindalsvatnet",
+   "sl": 39,
+   "file": "Hornindalsvatnet map.png",
+   "lat": 61.9333,
+   "lon": 6.35,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hornindalsvatnet"
+  },
+  {
+   "id": "Q746223",
+   "name": "Preikestolen",
+   "sl": 39,
+   "file": "Preikestolen Norge.jpg",
+   "lat": 58.9867,
+   "lon": 6.1875,
+   "kind": "natural",
+   "types": [
+    "cliff",
+    "promontory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Preikestolen"
+  },
+  {
+   "id": "Q169998",
+   "name": "Cape Nordkinn",
+   "sl": 38,
+   "file": "Kinnarodden1000.jpg",
+   "lat": 71.1307,
+   "lon": 27.6497,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kinnarodden"
+  },
+  {
+   "id": "Q844926",
+   "name": "Munch Museum",
+   "sl": 38,
+   "file": "MUNCH Museum front (2020) 4.jpg",
+   "lat": 59.9058,
+   "lon": 10.7553,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Munchmuseet"
+  },
+  {
+   "id": "Q433634",
+   "name": "Rock carvings at Alta",
+   "sl": 38,
+   "file": "Alta-Carvings-2012-07-17-12-15-018.jpg",
+   "lat": 69.9469,
+   "lon": 23.1878,
+   "kind": "",
+   "types": [
+    "petroglyph",
+    "rock art"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock art of Alta"
+  },
+  {
+   "id": "Q59633",
+   "name": "Svalbard Airport",
+   "sl": 38,
+   "file": "Longyearbyen Hotellneset IMG 3003-rot.jpg",
+   "lat": 78.2461,
+   "lon": 15.4656,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Svalbard Airport, Longyear"
+  },
+  {
+   "id": "Q644464",
+   "name": "Akershus Fortress",
+   "sl": 37,
+   "file": "I12 095 Akershus Festning.jpg",
+   "lat": 59.9066,
+   "lon": 10.7362,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fortification",
+    "fortress",
+    "headquarters"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akershus Fortress"
+  },
+  {
+   "id": "Q155222",
+   "name": "Scharnhorst",
+   "sl": 37,
+   "file": "Bundesarchiv DVM 10 Bild-23-63-07, Schlachtschiff \"Scharnhorst\".jpg",
+   "lat": 72.2667,
+   "lon": 28.6833,
+   "kind": "built",
+   "types": [
+    "battlecruiser",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Scharnhorst (ship, 1939)"
+  },
+  {
+   "id": "Q755010",
+   "name": "Borgund Stave Church",
+   "sl": 35,
+   "file": "00 5836 Stabkirche Borgund - Lærdal.jpg",
+   "lat": 61.0472,
+   "lon": 7.8122,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "stave church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Borgund stavkirke"
+  },
+  {
+   "id": "Q619980",
+   "name": "Bergen Airport",
+   "sl": 33,
+   "file": "New Bergen Airport Flesland with old terminal in the background.jpg",
+   "lat": 60.2936,
+   "lon": 5.2181,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bergen Airport, Flesland"
+  },
+  {
+   "id": "Q1063209",
+   "name": "Oslo Cathedral",
+   "sl": 33,
+   "file": "00 7720 Oslo - Domkirche.jpg",
+   "lat": 59.9123,
+   "lon": 10.747,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oslo Domkirke"
+  },
+  {
+   "id": "Q863932",
+   "name": "Royal Palace, Oslo",
+   "sl": 33,
+   "file": "Slottet i Oslo 1.jpg",
+   "lat": 59.9172,
+   "lon": 10.7275,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Palace, Oslo"
+  },
+  {
+   "id": "Q2413018",
+   "name": "Tromsø Airport",
+   "sl": 33,
+   "file": "Tromsø airport, Norway.jpg",
+   "lat": 69.6814,
+   "lon": 18.9178,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tromsø Airport"
+  },
+  {
+   "id": "Q841491",
+   "name": "Hardangerfjord",
+   "sl": 32,
+   "file": "Hardangerfjorden, Ullensvang herad, Hordaland, Norway - panoramio.jpg",
+   "lat": 60.1667,
+   "lon": 6,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hardangerfjorden"
+  },
+  {
+   "id": "Q686248",
+   "name": "Knivskjellodden",
+   "sl": 32,
+   "file": "Cabo Knivskjelodden, Noruega, 2019-09-03, DD 27.jpg",
+   "lat": 71.183,
+   "lon": 25.674,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Knivskjelodden"
+  },
+  {
+   "id": "Q215114",
+   "name": "Unity Arena",
+   "sl": 32,
+   "file": "Telenor Arena Eurovision 2010.JPG",
+   "lat": 59.9037,
+   "lon": 10.623,
+   "kind": "built",
+   "types": [
+    "event arena",
+    "Indoor football arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Telenor Arena"
+  },
+  {
+   "id": "Q866409",
+   "name": "Bislett Stadion",
+   "sl": 31,
+   "file": "Bislett panorama.jpg",
+   "lat": 59.9247,
+   "lon": 10.7333,
+   "kind": "built",
+   "types": [
+    "heritage site",
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bislett stadion"
+  },
+  {
+   "id": "Q1132011",
+   "name": "Lerkendal Stadion",
+   "sl": 31,
+   "file": "Lerkendal stadion, 2021 (2).jpg",
+   "lat": 63.4125,
+   "lon": 10.405,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lerkendal Stadion"
+  },
+  {
+   "id": "Q279579",
+   "name": "Trondheimsfjord",
+   "sl": 31,
+   "file": "Aasenfiord.JPG",
+   "lat": 63.5,
+   "lon": 10.4667,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trondheimsfjorden"
+  },
+  {
+   "id": "Q696445",
+   "name": "Tyrifjorden",
+   "sl": 31,
+   "file": "Holsfjorden, Hole.jpg",
+   "lat": 60.0333,
+   "lon": 10.1333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tyrifjorden"
+  },
+  {
+   "id": "Q1319441",
+   "name": "Arctic Cathedral",
+   "sl": 30,
+   "file": "Arctic Cathedral.JPG",
+   "lat": 69.6481,
+   "lon": 18.9874,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ishavskatedralen"
+  },
+  {
+   "id": "Q1324437",
+   "name": "Femund",
+   "sl": 30,
+   "file": "Engerdal Femunden.jpg",
+   "lat": 61.9959,
+   "lon": 11.9,
+   "kind": "natural",
+   "types": [
+    "bifurcation lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Femund"
+  },
+  {
+   "id": "Q1585051",
+   "name": "Hardangervidda",
+   "sl": 30,
+   "file": "Hardangervidda.jpg",
+   "lat": 60.052,
+   "lon": 7.018,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "vidde"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hardangervidda"
+  },
+  {
+   "id": "Q1419222",
+   "name": "Newtontoppen",
+   "sl": 30,
+   "file": "Newtontoppen.jpg",
+   "lat": 79.0106,
+   "lon": 17.4908,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Newtontoppen"
+  },
+  {
+   "id": "Q955861",
+   "name": "Rondane National Park",
+   "sl": 30,
+   "file": "DigerMidtHøgrondenFromVeslesmeden.jpg",
+   "lat": 61.8333,
+   "lon": 9.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rondane nasjonalpark"
+  },
+  {
+   "id": "Q38339",
+   "name": "Seven Sisters waterfall",
+   "sl": 30,
+   "file": "00 3584 The Seven Sisters - Geirangerfjord.jpg",
+   "lat": 62.107,
+   "lon": 7.0942,
+   "kind": "natural",
+   "types": [
+    "coastal waterfall",
+    "heptad"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "De syv søstrene"
+  },
+  {
+   "id": "Q384858",
+   "name": "Varangerfjord",
+   "sl": 30,
+   "file": "Varang1.jpg",
+   "lat": 70.0911,
+   "lon": 29.0087,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Varangerfjorden"
+  },
+  {
+   "id": "Q397876",
+   "name": "Glittertind",
+   "sl": 29,
+   "file": "Glittertind.jpg",
+   "lat": 61.6519,
+   "lon": 8.5544,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Glittertind"
+  },
+  {
+   "id": "Q565382",
+   "name": "National Theatre Oslo",
+   "sl": 29,
+   "file": "NOR-2016-Oslo-National Theatre.jpg",
+   "lat": 59.9143,
+   "lon": 10.7343,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nationaltheatret"
+  },
+  {
+   "id": "Q373850",
+   "name": "Oslo City Hall",
+   "sl": 29,
+   "file": "Oslo rådhus2.jpg",
+   "lat": 59.9117,
+   "lon": 10.7336,
+   "kind": "built",
+   "types": [
+    "city hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oslo City Hall"
+  },
+  {
+   "id": "Q545033",
+   "name": "Randsfjorden",
+   "sl": 29,
+   "file": "Grimsrud, Randsfjorden.jpg",
+   "lat": 60.3903,
+   "lon": 10.3942,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Randsfjorden"
+  },
+  {
+   "id": "Q1355258",
+   "name": "Stavanger Airport",
+   "sl": 29,
+   "file": "Sola lufthavn.jpg",
+   "lat": 58.8767,
+   "lon": 5.6378,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stavanger Airport, Sola"
+  },
+  {
+   "id": "Q680291",
+   "name": "Ullevaal Stadion",
+   "sl": 29,
+   "file": "Ullevål Stadium (8077753565).jpg",
+   "lat": 59.949,
+   "lon": 10.7343,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ullevaal Stadion"
+  },
+  {
+   "id": "Q957105",
+   "name": "Sandefjord Airport",
+   "sl": 28,
+   "file": "Sandefjord Airport, Torp.JPG",
+   "lat": 59.1867,
+   "lon": 10.2586,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sandefjord Airport, Torp"
+  },
+  {
+   "id": "Q1512593",
+   "name": "Trolltunga",
+   "sl": 28,
+   "file": "View of trolltunga.jpg",
+   "lat": 60.133,
+   "lon": 6.754,
+   "kind": "natural",
+   "types": [
+    "rock"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trolltunga"
+  },
+  {
+   "id": "Q1753121",
+   "name": "Vestfjorden",
+   "sl": 28,
+   "file": "Brennviksanden.jpg",
+   "lat": 68.05,
+   "lon": 14.7667,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vestfjorden"
+  },
+  {
+   "id": "Q7460945",
+   "name": "Vigeland installation",
+   "sl": 28,
+   "file": "Sculptures near monolith in Vigeland Installation in Frogner Park in Oslo Norway.png",
+   "lat": 59.9277,
+   "lon": 10.6989,
+   "kind": "built",
+   "types": [
+    "sculpture garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vigelandsanlegget"
+  },
+  {
+   "id": "Q1020241",
+   "name": "Børgefjell National Park",
+   "sl": 27,
+   "file": "Jetnamsklumpen.jpg",
+   "lat": 65.1833,
+   "lon": 13.9,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Børgefjell"
+  },
+  {
+   "id": "Q941250",
+   "name": "Fram Museum",
+   "sl": 27,
+   "file": "Fram Museum in Oslo.JPG",
+   "lat": 59.9033,
+   "lon": 10.6994,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fram museum"
+  },
+  {
+   "id": "Q1132918",
+   "name": "National Museum of Art, Architecture and Design",
+   "sl": 27,
+   "file": "Nye Nasjonalmuseet (2022) (2).jpg",
+   "lat": 59.9117,
+   "lon": 10.7292,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nasjonalmuseet for kunst, arkitektur og design"
+  },
+  {
+   "id": "Q1352298",
+   "name": "Røssvatnet",
+   "sl": 27,
+   "file": "Røssvatnet with Dårtindan & Lukttinden, 2011 June.jpg",
+   "lat": 65.7841,
+   "lon": 14.0083,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Røssvatnet"
+  },
+  {
+   "id": "Q1139153",
+   "name": "Three-Country Cairn",
+   "sl": 27,
+   "file": "Cairn des trois royaumes - close up.jpg",
+   "lat": 69.06,
+   "lon": 20.5486,
+   "kind": "built",
+   "types": [
+    "boundary marker",
+    "international tripoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FI",
+    "SE"
+   ],
+   "cat": "Tripoint Norway Sweden Finland"
+  },
+  {
+   "id": "Q729886",
+   "name": "Trondheim Airport",
+   "sl": 27,
+   "file": "Vaernes terminal.jpg",
+   "lat": 63.4575,
+   "lon": 10.9242,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trondheim Airport, Værnes"
+  },
+  {
+   "id": "Q1430778",
+   "name": "Alta Airport",
+   "sl": 26,
+   "file": "Alta Airport.jpg",
+   "lat": 69.9761,
+   "lon": 23.3717,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alta Airport"
+  },
+  {
+   "id": "Q39164",
+   "name": "Bodø Airport",
+   "sl": 26,
+   "file": "Bodø lufthavn.jpg",
+   "lat": 67.2692,
+   "lon": 14.3653,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bodø Airport"
+  },
+  {
+   "id": "Q1109724",
+   "name": "Dovrefjell–Sunndalsfjella National Park",
+   "sl": 26,
+   "file": "Snohetta.jpg",
+   "lat": 62.3967,
+   "lon": 9.1731,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dovrefjell-Sunndalsfjella National Park"
+  },
+  {
+   "id": "Q852020",
+   "name": "Heddal stave church",
+   "sl": 26,
+   "file": "Stavechurch-heddal.jpg",
+   "lat": 59.5796,
+   "lon": 9.1763,
+   "kind": "built",
+   "types": [
+    "stave church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heddal stavkirke"
+  },
+  {
+   "id": "Q549376",
+   "name": "Lysefjord",
+   "sl": 26,
+   "file": "Lysefjorden fjord.jpg",
+   "lat": 59.01,
+   "lon": 6.359,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lysefjorden"
+  },
+  {
+   "id": "Q941120",
+   "name": "Nobel Peace Center",
+   "sl": 26,
+   "file": "Centro Nobel Paz.jpg",
+   "lat": 59.9116,
+   "lon": 10.7302,
+   "kind": "built",
+   "types": [
+    "museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nobel Peace Center"
+  },
+  {
+   "id": "Q961220",
+   "name": "Viking Ship Museum",
+   "sl": 26,
+   "file": "Oseberg longship.png",
+   "lat": 59.9048,
+   "lon": 10.6844,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "maritime museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vikingskipshuset"
+  },
+  {
+   "id": "Q3361971",
+   "name": "Vinnufossen",
+   "sl": 26,
+   "file": "Vinnufossen, Sunndal, Norway (front).jpg",
+   "lat": 62.6635,
+   "lon": 8.6699,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vinnufossen"
+  },
+  {
+   "id": "Q175897",
+   "name": "Ålesund Airport, Vigra",
+   "sl": 25,
+   "file": "Alesund-lufthavn.jpg",
+   "lat": 62.5625,
+   "lon": 6.1197,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ålesund Airport, Vigra"
+  },
+  {
+   "id": "Q225004",
+   "name": "Boknafjord",
+   "sl": 25,
+   "file": "Ytre Boknafjorden.JPG",
+   "lat": 59.1667,
+   "lon": 5.5333,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boknafjorden"
+  },
+  {
+   "id": "Q2100974",
+   "name": "Dovrefjell",
+   "sl": 25,
+   "file": "Snohetta.jpg",
+   "lat": 62.1,
+   "lon": 9.4167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dovre (mountain range)"
+  },
+  {
+   "id": "Q257558",
+   "name": "Fantoft Stave Church",
+   "sl": 25,
+   "file": "Fantoft-church.jpg",
+   "lat": 60.3392,
+   "lon": 5.3533,
+   "kind": "built",
+   "types": [
+    "replica",
+    "stave church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fantoft stavkirke"
+  },
+  {
+   "id": "Q663558",
+   "name": "German cruiser Karlsruhe",
+   "sl": 25,
+   "file": "Bundesarchiv Bild 102-12746, Kaiser-Wilhelm-Kanal, Kreuzer \"Karlsruhe\".jpg",
+   "lat": 58.0667,
+   "lon": 8.0667,
+   "kind": "built",
+   "types": [
+    "light cruiser",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karlsruhe (ship, 1927)"
+  },
+  {
+   "id": "Q1341892",
+   "name": "Grieg Hall",
+   "sl": 25,
+   "file": "Grieghallen, Bergen, Noruega, 2019-09-08, DD 65.jpg",
+   "lat": 60.3889,
+   "lon": 5.3282,
+   "kind": "built",
+   "types": [
+    "concert hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grieghallen"
+  },
+  {
+   "id": "Q1292655",
+   "name": "Gudbrandsdalen",
+   "sl": 25,
+   "file": "Dovre panorama.jpg",
+   "lat": 61.6605,
+   "lon": 9.6084,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gudbrandsdalen"
+  },
+  {
+   "id": "Q1415972",
+   "name": "Kon-Tiki Museum",
+   "sl": 25,
+   "file": "KonTiki Museum.jpg",
+   "lat": 59.9036,
+   "lon": 10.6981,
+   "kind": "built",
+   "types": [
+    "museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kon-Tiki Museum"
+  },
+  {
+   "id": "Q1618505",
+   "name": "Molde Airport",
+   "sl": 25,
+   "file": "Molde Airport.jpg",
+   "lat": 62.7447,
+   "lon": 7.2625,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Molde Airport, Årø"
+  },
+  {
+   "id": "Q38588",
+   "name": "Vøringfossen",
+   "sl": 25,
+   "file": "00 N216 Vøringsfossen - Norwegen.jpg",
+   "lat": 60.4269,
+   "lon": 7.2511,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vøringsfossen"
+  },
+  {
+   "id": "Q433737",
+   "name": "Altafjord",
+   "sl": 24,
+   "file": "Altafjorden.jpg",
+   "lat": 69.99,
+   "lon": 23.3242,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Altafjorden"
+  },
+  {
+   "id": "Q271087",
+   "name": "Ånderdalen National Park",
+   "sl": 24,
+   "file": "Ånderdalen nasjonalpark 3.jpg",
+   "lat": 69.2,
+   "lon": 17.2667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ånderdalen nasjonalpark"
+  },
+  {
+   "id": "Q940402",
+   "name": "Finnmarksvidda",
+   "sl": 24,
+   "file": "SUC50562.JPG",
+   "lat": 69.3167,
+   "lon": 23.8167,
+   "kind": "natural",
+   "types": [
+    "plateau",
+    "vidde"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Finnmarksvidda"
+  },
+  {
+   "id": "Q1140044",
+   "name": "Hardangervidda National Park",
+   "sl": 24,
+   "file": "Hardangerviddaflora.jpg",
+   "lat": 60.1333,
+   "lon": 7.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hardangervidda"
+  },
+  {
+   "id": "Q1431455",
+   "name": "Harstad/Narvik Airport",
+   "sl": 24,
+   "file": "Harstad, Troms fylke, Nord Norge (12267584645).jpg",
+   "lat": 68.4889,
+   "lon": 16.6783,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Harstad/Narvik Airport, Evenes"
+  }
+ ]
+}

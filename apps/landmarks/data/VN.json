@@ -1,0 +1,1346 @@
+{
+ "country": "VN",
+ "items": [
+  {
+   "id": "Q4156",
+   "name": "Dong Hoi Airport",
+   "sl": 172,
+   "file": "DHAirport4.jpg",
+   "lat": 17.515,
+   "lon": 106.5906,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dong Hoi Airport"
+  },
+  {
+   "id": "Q478595",
+   "name": "Tan Son Nhat International Airport",
+   "sl": 168,
+   "file": "Tan Son Nhat International Airport at night (12088245464).jpg",
+   "lat": 10.8188,
+   "lon": 106.652,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tan Son Nhat International Airport"
+  },
+  {
+   "id": "Q23513",
+   "name": "Phong Nha–Ke Bang National Park",
+   "sl": 125,
+   "file": "Phongnhatourism.jpg",
+   "lat": 17.5333,
+   "lon": 106.15,
+   "kind": "natural",
+   "types": [
+    "national park of Vietnam"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Phong Nha-Ke Bang National Park"
+  },
+  {
+   "id": "Q773330",
+   "name": "Da Nang International Airport",
+   "sl": 115,
+   "file": "DAD new terminal 2012 02.JPG",
+   "lat": 16.0439,
+   "lon": 108.1994,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Da Nang International Airport"
+  },
+  {
+   "id": "Q25226",
+   "name": "Cam Ranh International Airport",
+   "sl": 101,
+   "file": "Cam Ranh International Airport Terminal 2.jpg",
+   "lat": 11.9981,
+   "lon": 109.2194,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cam Ranh International Airport"
+  },
+  {
+   "id": "Q900492",
+   "name": "Cà Mau Airport",
+   "sl": 99,
+   "file": "Cà Mau Airport.jpg",
+   "lat": 9.1756,
+   "lon": 105.1794,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cà Mau Airport"
+  },
+  {
+   "id": "Q44889",
+   "name": "Son Doong Cave",
+   "sl": 83,
+   "file": "Son Doong Cave 5.jpg",
+   "lat": 17.4569,
+   "lon": 106.2875,
+   "kind": "both",
+   "types": [
+    "cave",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Son Doong Cave"
+  },
+  {
+   "id": "Q43171",
+   "name": "Thien Duong Cave",
+   "sl": 67,
+   "file": "ThienDuongCave1.jpg",
+   "lat": 17.5195,
+   "lon": 106.223,
+   "kind": "both",
+   "types": [
+    "cave",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thien Duong Cave"
+  },
+  {
+   "id": "Q1423325",
+   "name": "Phu Quoc International Airport",
+   "sl": 64,
+   "file": "Phu Quoc International Airport.JPG",
+   "lat": 10.1717,
+   "lon": 103.9911,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phu Quoc International Airport"
+  },
+  {
+   "id": "Q151846",
+   "name": "Pleiku Airport",
+   "sl": 57,
+   "file": "Pleiku Airport.jpg",
+   "lat": 14.0044,
+   "lon": 108.0172,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pleiku Airport"
+  },
+  {
+   "id": "Q160094",
+   "name": "Phu Bai International Airport",
+   "sl": 55,
+   "file": "Phu Bai Airport (2006).jpg",
+   "lat": 16.4017,
+   "lon": 107.7028,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phu Bai International Airport"
+  },
+  {
+   "id": "Q165146",
+   "name": "Lien Khuong Airport",
+   "sl": 54,
+   "file": "Lien Khuong Airport 04.jpg",
+   "lat": 11.7506,
+   "lon": 108.3736,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lien Khuong Airport"
+  },
+  {
+   "id": "Q391406",
+   "name": "Mỹ Sơn",
+   "sl": 54,
+   "file": "2024 - Mỹ Sơn Sanctuary Temple E7 - img 01.jpg",
+   "lat": 15.7632,
+   "lon": 108.1244,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Hindu temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "My Son"
+  },
+  {
+   "id": "Q170343",
+   "name": "Can Tho International Airport",
+   "sl": 52,
+   "file": "Nha Ga HK CHKQT Can Tho 2.jpg",
+   "lat": 10.0853,
+   "lon": 105.7119,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Can Tho International Airport"
+  },
+  {
+   "id": "Q190060",
+   "name": "Citadel of the Hồ Dynasty",
+   "sl": 52,
+   "file": "Ho dynasty's citadel, Vietnam.jpg",
+   "lat": 20.0781,
+   "lon": 105.6047,
+   "kind": "both",
+   "types": [
+    "citadel",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Citadel of the Hồ Dynasty"
+  },
+  {
+   "id": "Q59669",
+   "name": "Tho Xuan Airport",
+   "sl": 52,
+   "file": "Tho Xuan airport.jpg",
+   "lat": 19.9017,
+   "lon": 105.4678,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q192721",
+   "name": "Củ Chi tunnels",
+   "sl": 50,
+   "file": "VietnamCuChiTunnels.jpg",
+   "lat": 11.061,
+   "lon": 106.526,
+   "kind": "built",
+   "types": [
+    "tunnel network"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cu Chi Tunnels"
+  },
+  {
+   "id": "Q193408",
+   "name": "Phu Cat Airport",
+   "sl": 46,
+   "file": "Phucatairport1.jpg",
+   "lat": 13.955,
+   "lon": 109.0422,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phu Cat Airport"
+  },
+  {
+   "id": "Q123782",
+   "name": "Fansipan",
+   "sl": 45,
+   "file": "Fansipan Summit.jpg",
+   "lat": 22.3033,
+   "lon": 103.7753,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fansipan"
+  },
+  {
+   "id": "Q206219",
+   "name": "Imperial Citadel of Thang Long",
+   "sl": 42,
+   "file": "Main Gate - Citadel of Hanoi.jpg",
+   "lat": 21.0325,
+   "lon": 105.8397,
+   "kind": "built",
+   "types": [
+    "citadel",
+    "geographical feature"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Citadel of Hanoi"
+  },
+  {
+   "id": "Q18640924",
+   "name": "Landmark 81",
+   "sl": 42,
+   "file": "Landmark 81 in 2021.jpg",
+   "lat": 10.795,
+   "lon": 106.7219,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Landmark 81"
+  },
+  {
+   "id": "Q47724",
+   "name": "Con Dao Airport",
+   "sl": 41,
+   "file": "ATR72-200 at Co Ong.jpg",
+   "lat": 8.7325,
+   "lon": 106.6289,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Con Dao Airport"
+  },
+  {
+   "id": "Q844098",
+   "name": "Noi Bai International Airport",
+   "sl": 41,
+   "file": "NoiBaioutside.jpg",
+   "lat": 21.2211,
+   "lon": 105.8072,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Noi Bai International Airport"
+  },
+  {
+   "id": "Q20025373",
+   "name": "Hoằng Phúc pagoda",
+   "sl": 38,
+   "file": "HoangPhucPagoda5.jpg",
+   "lat": 17.18,
+   "lon": 106.735,
+   "kind": "built",
+   "types": [
+    "pagoda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hoang Phuc Pagoda"
+  },
+  {
+   "id": "Q203395",
+   "name": "Old Phu Quoc Airport",
+   "sl": 36,
+   "file": "PhuQuocAirport.jpg",
+   "lat": 10.2258,
+   "lon": 103.9608,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q342451",
+   "name": "Red River Delta",
+   "sl": 36,
+   "file": "Haiphong 106.70132E 20.84440N.jpg",
+   "lat": 21.0333,
+   "lon": 105.85,
+   "kind": "natural",
+   "types": [
+    "regions of Vietnam",
+    "river delta"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Red River Delta"
+  },
+  {
+   "id": "Q1406198",
+   "name": "Chu Lai Airport",
+   "sl": 35,
+   "file": "Chu Lai Airport, May 2013.jpg",
+   "lat": 15.4061,
+   "lon": 108.7056,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chu Lai International Airport"
+  },
+  {
+   "id": "Q370746",
+   "name": "Côn Đảo",
+   "sl": 35,
+   "file": "Côn Đảo, Bà Rịa - Vũng Tàu, Vietnam - panoramio (10).jpg",
+   "lat": 8.6436,
+   "lon": 106.6946,
+   "kind": "natural",
+   "types": [
+    "island group",
+    "special zones of Vietnam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Côn Đảo Islands"
+  },
+  {
+   "id": "Q874234",
+   "name": "Ho Chi Minh Mausoleum",
+   "sl": 35,
+   "file": "Lăng Bác - NKS.jpg",
+   "lat": 21.0367,
+   "lon": 105.8347,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "memorial",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ho Chi Minh Mausoleum"
+  },
+  {
+   "id": "Q638512",
+   "name": "Bitexco Financial Tower",
+   "sl": 32,
+   "file": "DJI 0550-HDR-Pano Bitexco Financial Tower.jpg",
+   "lat": 10.7717,
+   "lon": 106.7044,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bitexco Financial Tower"
+  },
+  {
+   "id": "Q28831",
+   "name": "Vinh Airport",
+   "sl": 32,
+   "file": "Vinh International Airport.jpg",
+   "lat": 18.7367,
+   "lon": 105.6708,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vinh International Airport"
+  },
+  {
+   "id": "Q695570",
+   "name": "Buon Ma Thuot Airport",
+   "sl": 31,
+   "file": "Buon Ma Thuot Airport2.JPG",
+   "lat": 12.6681,
+   "lon": 108.12,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buon Ma Thuot Airport"
+  },
+  {
+   "id": "Q1425356",
+   "name": "Cat Bi International Airport",
+   "sl": 30,
+   "file": "Cat Bi Airport.JPG",
+   "lat": 20.8192,
+   "lon": 106.7247,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cat Bi International Airport"
+  },
+  {
+   "id": "Q1202019",
+   "name": "Temple of Literature",
+   "sl": 30,
+   "file": "Hanoi Temple of Literature.jpg",
+   "lat": 21.0286,
+   "lon": 105.8356,
+   "kind": "built",
+   "types": [
+    "heritage site",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Literature, Hanoi"
+  },
+  {
+   "id": "Q983252",
+   "name": "Ban Gioc–Detian Falls",
+   "sl": 28,
+   "file": "Ban Gioc - Detian Falls2.jpg",
+   "lat": 22.8564,
+   "lon": 106.7219,
+   "kind": "both",
+   "types": [
+    "Chinese AAAAA-rated tourist attraction",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Ban Gioc Waterfalls"
+  },
+  {
+   "id": "Q1421202",
+   "name": "Cát Tiên National Park",
+   "sl": 27,
+   "file": "Cat Tien National Park, Vietnam.jpg",
+   "lat": 11.3472,
+   "lon": 107.1514,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cat Tien National Park"
+  },
+  {
+   "id": "Q609140",
+   "name": "AON Hanoi Landmark Tower",
+   "sl": 26,
+   "file": "Tòa nhà Keangnam, Cầu Giấy, Hà Nội 001.jpg",
+   "lat": 21.0173,
+   "lon": 105.7841,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Keangnam Hanoi Landmark Tower"
+  },
+  {
+   "id": "Q55954790",
+   "name": "Golden Bridge",
+   "sl": 24,
+   "file": "The Golden Bridge, Ba Na Hills, Vietnam.jpg",
+   "lat": 15.9949,
+   "lon": 107.9963,
+   "kind": "built",
+   "types": [
+    "footbridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Golden Bridge (Vietnam)"
+  },
+  {
+   "id": "Q1150956",
+   "name": "My Dinh National Stadium",
+   "sl": 24,
+   "file": "Khán đài B - Sân vận động Quốc gia Mỹ Đình.jpg",
+   "lat": 21.0206,
+   "lon": 105.7638,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "My Dinh National Stadium"
+  },
+  {
+   "id": "Q478280",
+   "name": "Cuc Phuong National Park",
+   "sl": 23,
+   "file": "Cuc.Phuong.National.Park.jpg",
+   "lat": 20.3167,
+   "lon": 105.6083,
+   "kind": "natural",
+   "types": [
+    "national park of Vietnam",
+    "nature park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cuc Phuong National Park"
+  },
+  {
+   "id": "Q1151254",
+   "name": "Hoàn Kiếm Lake",
+   "sl": 23,
+   "file": "Ho Hoan Kiem (13574475044).jpg",
+   "lat": 21.0289,
+   "lon": 105.8525,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hoan Kiem Lake"
+  },
+  {
+   "id": "Q2344822",
+   "name": "Óc Eo",
+   "sl": 22,
+   "file": "Ruins of Nam Linh Son archaeological site, Oc Eo.jpg",
+   "lat": 10.2329,
+   "lon": 105.163,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fixed construction"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Óc Eo"
+  },
+  {
+   "id": "Q428129",
+   "name": "Saigon Notre-Dame Basilica",
+   "sl": 22,
+   "file": "Basílica de Nuestra Señora, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 03.JPG",
+   "lat": 10.7797,
+   "lon": 106.6992,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Notre-Dame Cathedral Basilica of Saigon"
+  },
+  {
+   "id": "Q1151193",
+   "name": "Cần Thơ Bridge",
+   "sl": 21,
+   "file": "DSC 8728 (17815712628)2.jpg",
+   "lat": 10.035,
+   "lon": 105.8125,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Can Tho Bridge"
+  },
+  {
+   "id": "Q864758",
+   "name": "Presidential Palace of Vietnam",
+   "sl": 21,
+   "file": "Presidential Palace of Vietnam.jpg",
+   "lat": 21.0394,
+   "lon": 105.8344,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidential Palace, Hanoi"
+  },
+  {
+   "id": "Q1968747",
+   "name": "Ba Bể National Park",
+   "sl": 20,
+   "file": "Ba Be Lake 6464.jpg",
+   "lat": 22.4053,
+   "lon": 105.6153,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ba Be National Park"
+  },
+  {
+   "id": "Q1359941",
+   "name": "Hỏa Lò Prison",
+   "sl": 20,
+   "file": "HanoiHilton.jpg",
+   "lat": 21.0253,
+   "lon": 105.8464,
+   "kind": "built",
+   "types": [
+    "museum",
+    "prison",
+    "prisoner-of-war camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hanoi Hilton"
+  },
+  {
+   "id": "Q10769129",
+   "name": "Imperial City of Hue",
+   "sl": 20,
+   "file": "Citadel Hue.jpg",
+   "lat": 16.4694,
+   "lon": 107.5778,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imperial City, Huế"
+  },
+  {
+   "id": "Q2234574",
+   "name": "Ba Ðình Square",
+   "sl": 19,
+   "file": "Hanoi, Vietnam, Ho Chi Minh Mausoleum on Ba Dinh Square.jpg",
+   "lat": 21.0367,
+   "lon": 105.8358,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ba Đình Square"
+  },
+  {
+   "id": "Q5305270",
+   "name": "Dragon River Bridge",
+   "sl": 19,
+   "file": "Cầu Rồng.jpg",
+   "lat": 16.0611,
+   "lon": 108.2267,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dragon Bridge (Danang)"
+  },
+  {
+   "id": "Q1171693",
+   "name": "Hằng Nga guesthouse",
+   "sl": 19,
+   "file": "HangNgaCrazyHouse2.jpg",
+   "lat": 11.9347,
+   "lon": 108.4306,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hang Nga guesthouse"
+  },
+  {
+   "id": "Q933384",
+   "name": "Independence Palace",
+   "sl": 19,
+   "file": "20190923 Independence Palace-10.jpg",
+   "lat": 10.777,
+   "lon": 106.6954,
+   "kind": "built",
+   "types": [
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Palace"
+  },
+  {
+   "id": "Q703871",
+   "name": "War Remnants Museum",
+   "sl": 19,
+   "file": "War Remnants Museum, HCMC, front.JPG",
+   "lat": 10.7795,
+   "lon": 106.692,
+   "kind": "built",
+   "types": [
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "War Remnants Museum"
+  },
+  {
+   "id": "Q1817188",
+   "name": "Hàng Đẫy Stadium",
+   "sl": 18,
+   "file": "Hàng Đẫy Stadium Gate.jpg",
+   "lat": 21.0297,
+   "lon": 105.8331,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q600269",
+   "name": "Po Nagar",
+   "sl": 18,
+   "file": "04052023 Ponagar Hindu temples complex, Nha Trang Vietnam - 240.jpg",
+   "lat": 12.2653,
+   "lon": 109.1956,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thap Po Nagar"
+  },
+  {
+   "id": "Q6587434",
+   "name": "Van Don International Airport",
+   "sl": 18,
+   "file": "San-bay-van-don-toan-canh.jpg",
+   "lat": 21.0981,
+   "lon": 107.4094,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Van Don International Airport"
+  },
+  {
+   "id": "Q11072051",
+   "name": "Vinh Cam Ranh",
+   "sl": 18,
+   "file": "NGOC SUONG RESORT,CAM RANH,KHANH HOA - panoramio.jpg",
+   "lat": 11.8833,
+   "lon": 109.1667,
+   "kind": "both",
+   "types": [
+    "bay",
+    "bight",
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cam Ranh Bay"
+  },
+  {
+   "id": "Q2623979",
+   "name": "Cà Mau Peninsula",
+   "sl": 17,
+   "file": "Mekong delta.jpg",
+   "lat": 9.0861,
+   "lon": 105.0833,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1186043",
+   "name": "Hanoi Opera House",
+   "sl": 17,
+   "file": "Hanoi Opera House, 24 December 2016.jpg",
+   "lat": 21.0242,
+   "lon": 105.8578,
+   "kind": "built",
+   "types": [
+    "opera house",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hanoi Opera House"
+  },
+  {
+   "id": "Q1186292",
+   "name": "One Pillar Pagoda",
+   "sl": 17,
+   "file": "Hanoi, Vietnam (12041825854).jpg",
+   "lat": 21.0357,
+   "lon": 105.8334,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "One Pillar Pagoda"
+  },
+  {
+   "id": "Q975568",
+   "name": "Thiên Mụ Temple",
+   "sl": 17,
+   "file": "Exit gate of Thiên Mụ Pagoda.jpg",
+   "lat": 16.4536,
+   "lon": 107.5448,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pagoda of the Celestial Lady"
+  },
+  {
+   "id": "Q1136869",
+   "name": "Bạch Long Vĩ",
+   "sl": 16,
+   "file": "Satellite picture of Bach Long Vi 2021-02-19-00 00 2021-02-19-23 59 Sentinel-2 L2A.jpg",
+   "lat": 20.1299,
+   "lon": 107.7292,
+   "kind": "natural",
+   "types": [
+    "island",
+    "special zones of Vietnam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bach Long Vi"
+  },
+  {
+   "id": "Q1654720",
+   "name": "Dien Bien Phu Airport",
+   "sl": 16,
+   "file": "Dien Bien Phu Airport aux2.JPG",
+   "lat": 21.3972,
+   "lon": 103.0078,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dien Bien Airport"
+  },
+  {
+   "id": "Q2421186",
+   "name": "Hoa Lư Ancient Capital",
+   "sl": 16,
+   "file": "Codohoalu2010k1.jpg",
+   "lat": 20.2553,
+   "lon": 105.9542,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hoa Lu"
+  },
+  {
+   "id": "Q2670019",
+   "name": "Long Bien Bridge",
+   "sl": 16,
+   "file": "Long bien bridge.jpg",
+   "lat": 21.0433,
+   "lon": 105.8589,
+   "kind": "built",
+   "types": [
+    "cantilever bridge",
+    "railway bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Long Bien Bridge"
+  },
+  {
+   "id": "Q1320095",
+   "name": "Lý Sơn",
+   "sl": 16,
+   "file": "Ly Son3.jpg",
+   "lat": 15.3808,
+   "lon": 109.1175,
+   "kind": "natural",
+   "types": [
+    "island group",
+    "special zones of Vietnam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ly Son Islands"
+  },
+  {
+   "id": "Q1949129",
+   "name": "Saigon Opera House",
+   "sl": 16,
+   "file": "Municipal Theatre of Ho Chi Minh City, 2023 (01).jpg",
+   "lat": 10.7764,
+   "lon": 106.7028,
+   "kind": "built",
+   "types": [
+    "opera house",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Municipal Theatre of Ho Chi Minh City"
+  },
+  {
+   "id": "Q649680",
+   "name": "Bach Ma National Park",
+   "sl": 15,
+   "file": "Bach Ma NP2.jpg",
+   "lat": 16.2,
+   "lon": 107.8667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bach Ma National Park"
+  },
+  {
+   "id": "Q1091054",
+   "name": "Japanese Bridge",
+   "sl": 15,
+   "file": "2024 Hội An - Japanese Covered Bridge (Chùa Cầu) after renovation - img 11.jpg",
+   "lat": 15.8772,
+   "lon": 108.326,
+   "kind": "built",
+   "types": [
+    "Buddhist temple in Vietnam",
+    "covered bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Japanese Bridge"
+  },
+  {
+   "id": "Q2051647",
+   "name": "Thong Nhat Stadium",
+   "sl": 15,
+   "file": "Thống Nhất Stadium.JPG",
+   "lat": 10.7607,
+   "lon": 106.6633,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thống Nhất Stadium"
+  },
+  {
+   "id": "Q3654706",
+   "name": "Vietnam National Museum of Fine Arts",
+   "sl": 15,
+   "file": "Vietnam National Museum of Fine Arts, Hanoi, Vietnam - 20131030-03.JPG",
+   "lat": 21.0306,
+   "lon": 105.8369,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vietnam National Museum of Fine Arts"
+  },
+  {
+   "id": "Q277837",
+   "name": "Christ of Vung Tau",
+   "sl": 14,
+   "file": "Statue of Jesus in Vung Tau.jpg",
+   "lat": 10.3264,
+   "lon": 107.0844,
+   "kind": "built",
+   "types": [
+    "colossal statue of Jesus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christ of Vung Tau"
+  },
+  {
+   "id": "Q798059",
+   "name": "Co Loa Citadel",
+   "sl": 14,
+   "file": "Citadelle de Cổ Loa.jpg",
+   "lat": 21.1134,
+   "lon": 105.8732,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cổ Loa Citadel"
+  },
+  {
+   "id": "Q2227195",
+   "name": "Ho Chi Minh City Hall",
+   "sl": 14,
+   "file": "Ayuntamiento, Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 09.JPG",
+   "lat": 10.7765,
+   "lon": 106.701,
+   "kind": "built",
+   "types": [
+    "city hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "People's Committee Building of Ho Chi Minh City"
+  },
+  {
+   "id": "Q1055897",
+   "name": "Ho Chi Minh Museum",
+   "sl": 14,
+   "file": "Ho Chi Minh museum, Hanoi 2.jpg",
+   "lat": 21.0357,
+   "lon": 105.8326,
+   "kind": "built",
+   "types": [
+    "history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ho Chi Minh Museum"
+  },
+  {
+   "id": "Q6684904",
+   "name": "Lotte Center Hanoi",
+   "sl": 14,
+   "file": "Lotte Center Hanoi 2.jpg",
+   "lat": 21.0324,
+   "lon": 105.8126,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lotte Center Hanoi"
+  },
+  {
+   "id": "Q1076388",
+   "name": "Saigon Port",
+   "sl": 14,
+   "file": "Container ships on Saigon River 3.jpg",
+   "lat": 10.6475,
+   "lon": 106.745,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saigon Port"
+  },
+  {
+   "id": "Q1923783",
+   "name": "Saint Joseph Cathedral",
+   "sl": 14,
+   "file": "St. Joseph's Cathedral - 50129345872.jpg",
+   "lat": 21.0286,
+   "lon": 105.849,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Joseph's Cathedral, Hanoi"
+  },
+  {
+   "id": "Q1328473",
+   "name": "Ba Bể Lake",
+   "sl": 13,
+   "file": "Babenp 2007 01 3.jpg",
+   "lat": 22.4053,
+   "lon": 105.6153,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ba Be Lake"
+  },
+  {
+   "id": "Q1537215",
+   "name": "Cat Ba National Park",
+   "sl": 13,
+   "file": "Cat Ba national park.JPG",
+   "lat": 20.795,
+   "lon": 107.0106,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cat Ba National Park"
+  }
+ ]
+}

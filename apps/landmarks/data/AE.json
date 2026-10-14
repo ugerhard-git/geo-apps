@@ -1,0 +1,1326 @@
+{
+ "country": "AE",
+ "items": [
+  {
+   "id": "Q12495",
+   "name": "Burj Khalifa",
+   "sl": 140,
+   "file": "Dubai skyline 2015 (crop).jpg",
+   "lat": 25.1972,
+   "lon": 55.2742,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burj Khalifa"
+  },
+  {
+   "id": "Q62939",
+   "name": "Burj al-Arab",
+   "sl": 78,
+   "file": "Burj Al Arab and Jumeirah Beach (9601659067).jpg",
+   "lat": 25.1414,
+   "lon": 55.1853,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burj Al Arab"
+  },
+  {
+   "id": "Q193439",
+   "name": "Dubai International Airport",
+   "sl": 77,
+   "file": "Dubai Airport.jpg",
+   "lat": 25.2528,
+   "lon": 55.3644,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dubai International Airport"
+  },
+  {
+   "id": "Q643562",
+   "name": "Zayed International Airport",
+   "sl": 60,
+   "file": "AbuDhabiIntlAirport.JPG",
+   "lat": 24.4331,
+   "lon": 54.6511,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zayed International Airport"
+  },
+  {
+   "id": "Q695604",
+   "name": "Sheikh Zayed Mosque",
+   "sl": 56,
+   "file": "Sheikh Zayed Mosque Silhouette.jpg",
+   "lat": 24.412,
+   "lon": 54.474,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sheikh Zayed Mosque"
+  },
+  {
+   "id": "Q211844",
+   "name": "Palm Islands",
+   "sl": 48,
+   "file": "59F1 The-Palm Dubai 2005-08-26 H.png",
+   "lat": 25.1169,
+   "lon": 55.1319,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "land reclamation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Palm"
+  },
+  {
+   "id": "Q635826",
+   "name": "Sharjah International Airport",
+   "sl": 46,
+   "file": "Sharjah International Airport - panoramio.jpg",
+   "lat": 25.3286,
+   "lon": 55.5172,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sharjah International Airport"
+  },
+  {
+   "id": "Q838780",
+   "name": "Almas Tower",
+   "sl": 40,
+   "file": "Aerial View of Jumeirah Lakes Towers.jpg",
+   "lat": 25.0688,
+   "lon": 55.1411,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Almas Tower"
+  },
+  {
+   "id": "Q1065223",
+   "name": "Dubai World Central – DWC",
+   "sl": 40,
+   "file": "Dubai-World Central - Al Maktoum International Airport.jpg",
+   "lat": 24.8861,
+   "lon": 55.1722,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "greenfield international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Maktoum International Airport"
+  },
+  {
+   "id": "Q1133309",
+   "name": "Dubai Mall",
+   "sl": 38,
+   "file": "13 Dubai Mall interior with palm trees - Dubai UAE.jpg",
+   "lat": 25.1975,
+   "lon": 55.2792,
+   "kind": "built",
+   "types": [
+    "shopping center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Dubai Mall"
+  },
+  {
+   "id": "Q216264",
+   "name": "23 Marina",
+   "sl": 37,
+   "file": "Mage 2024-05-14 at 19.29.21.jpg",
+   "lat": 25.0898,
+   "lon": 55.1506,
+   "kind": "built",
+   "types": [
+    "residential building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "23 Marina"
+  },
+  {
+   "id": "Q277294",
+   "name": "Palm Jumeirah",
+   "sl": 37,
+   "file": "Artificial Archipelagos, Dubai, United Arab Emirates ISS022-E-024940 lrg (cropped).jpg",
+   "lat": 25.1172,
+   "lon": 55.1344,
+   "kind": "both",
+   "types": [
+    "archipelago",
+    "artificial island",
+    "land reclamation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palm Jumeirah"
+  },
+  {
+   "id": "Q648338",
+   "name": "Rose Tower",
+   "sl": 37,
+   "file": "Rose Rotana Tower Under Construction on 25 February 2007 Pict 2.jpg",
+   "lat": 25.2117,
+   "lon": 55.2767,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rose Tower"
+  },
+  {
+   "id": "Q3176133",
+   "name": "Louvre Abu Dhabi",
+   "sl": 36,
+   "file": "LouvreAD tree.jpg",
+   "lat": 24.533,
+   "lon": 54.4,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Louvre Abu Dhabi"
+  },
+  {
+   "id": "Q845182",
+   "name": "Emirates Office Tower",
+   "sl": 35,
+   "file": "Dub-emtow.jpg",
+   "lat": 25.2175,
+   "lon": 55.2833,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emirates Office Tower"
+  },
+  {
+   "id": "Q19492",
+   "name": "Princess Tower",
+   "sl": 35,
+   "file": "Dubai Marina Aug2012.jpg",
+   "lat": 25.0886,
+   "lon": 55.1469,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Princess Tower"
+  },
+  {
+   "id": "Q391648",
+   "name": "Cayan Tower",
+   "sl": 33,
+   "file": "Infinity Tower during construction, 2010-03-06.jpg",
+   "lat": 25.0869,
+   "lon": 55.1452,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cayan Tower, Dubai"
+  },
+  {
+   "id": "Q1049027",
+   "name": "Jumeirah Emirates Towers Hotel",
+   "sl": 33,
+   "file": "Dub-emtow.jpg",
+   "lat": 25.2175,
+   "lon": 55.2819,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jumeirah Emirates Towers Hotel"
+  },
+  {
+   "id": "Q1165269",
+   "name": "Marina 101",
+   "sl": 33,
+   "file": "Dubai Marina Aug2012.jpg",
+   "lat": 25.089,
+   "lon": 55.1486,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marina 101"
+  },
+  {
+   "id": "Q1391995",
+   "name": "Al Ain International Airport",
+   "sl": 28,
+   "file": "AlAin01.jpg",
+   "lat": 24.2595,
+   "lon": 55.6149,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Ain International Airport"
+  },
+  {
+   "id": "Q756690",
+   "name": "Atlantis, The Palm",
+   "sl": 28,
+   "file": "Vereinigte Arabische Emirate - Dubai - Palm Jumeirah und Dubai Marina - im Vordergrund das Hotel Atlantis - panoramio.jpg",
+   "lat": 25.1304,
+   "lon": 55.1172,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atlantis The Palm"
+  },
+  {
+   "id": "Q1066448",
+   "name": "Mall of the Emirates",
+   "sl": 28,
+   "file": "Mall of the Emirates (3679338750).jpg",
+   "lat": 25.1181,
+   "lon": 55.2006,
+   "kind": "built",
+   "types": [
+    "shopping mall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mall of the Emirates"
+  },
+  {
+   "id": "Q134124",
+   "name": "Ocean Heights",
+   "sl": 28,
+   "file": "Ocean Heights Dubai Marina.jpg",
+   "lat": 25.0909,
+   "lon": 55.15,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ocean Heights"
+  },
+  {
+   "id": "Q677823",
+   "name": "Address Downtown",
+   "sl": 27,
+   "file": "View from Burj Khalifa (8667329327).jpg",
+   "lat": 25.194,
+   "lon": 55.2791,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Address Downtown Dubai"
+  },
+  {
+   "id": "Q401098",
+   "name": "Gevora Hotel",
+   "sl": 27,
+   "file": "Ahmed Abdul Rahim Al Attar Tower Under Construction on 7 March 2008.jpg",
+   "lat": 25.2125,
+   "lon": 55.2772,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ahmed Abdul Rahim Al Attar Tower"
+  },
+  {
+   "id": "Q283849",
+   "name": "Mohammed Bin Zayed Stadium",
+   "sl": 27,
+   "file": "IRN-YMN 20190107 Asian Cup 4.jpg",
+   "lat": 24.4528,
+   "lon": 54.392,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mohammed Bin Zayed Stadium"
+  },
+  {
+   "id": "Q1067672",
+   "name": "Ski Dubai",
+   "sl": 27,
+   "file": "SkiDubai.JPG",
+   "lat": 25.1172,
+   "lon": 55.1983,
+   "kind": "built",
+   "types": [
+    "indoor ski slope",
+    "ski area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ski Dubai"
+  },
+  {
+   "id": "Q167831",
+   "name": "Zayed Sports City Stadium",
+   "sl": 27,
+   "file": "Abu Dhabi Zayed Sports City Stadium 1.jpg",
+   "lat": 24.4161,
+   "lon": 54.4536,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sheikh Zayed Stadium"
+  },
+  {
+   "id": "Q1808295",
+   "name": "Al Yaqoub Tower",
+   "sl": 26,
+   "file": "Al Yaquob Tower Under Construction on 25 January 2008.jpg",
+   "lat": 25.2163,
+   "lon": 55.2798,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Yaquob Tower"
+  },
+  {
+   "id": "Q1262853",
+   "name": "Dubai Creek",
+   "sl": 26,
+   "file": "Cityscape of Dubai Creek.jpg",
+   "lat": 25.2558,
+   "lon": 55.3167,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "tidal creek"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dubai Creek"
+  },
+  {
+   "id": "Q2125281",
+   "name": "Dubai Museum",
+   "sl": 26,
+   "file": "Al Fahidi Fort.jpg",
+   "lat": 25.2631,
+   "lon": 55.2972,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dubai Museum"
+  },
+  {
+   "id": "Q673656",
+   "name": "Ferrari World Abu Dhabi",
+   "sl": 26,
+   "file": "Il museo Ferrari - Abu Dhabi - panoramio.jpg",
+   "lat": 24.4837,
+   "lon": 54.607,
+   "kind": "built",
+   "types": [
+    "theme park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ferrari World"
+  },
+  {
+   "id": "Q1470076",
+   "name": "HHHR Tower",
+   "sl": 26,
+   "file": "H.H.H. Tower Under Construction on 28 December 2007.jpg",
+   "lat": 25.2211,
+   "lon": 55.2808,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "HHHR Tower"
+  },
+  {
+   "id": "Q1244144",
+   "name": "JW Marriott Marquis Dubai",
+   "sl": 26,
+   "file": "Зимний Дубаи - panoramio.jpg",
+   "lat": 25.1853,
+   "lon": 55.2585,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "twin towers"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emirates Park Towers"
+  },
+  {
+   "id": "Q2384491",
+   "name": "The Dubai Fountain",
+   "sl": 26,
+   "file": "Dubai Fountain 7.JPG",
+   "lat": 25.1952,
+   "lon": 55.2751,
+   "kind": "built",
+   "types": [
+    "fountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Dubai Fountain"
+  },
+  {
+   "id": "Q2658546",
+   "name": "Palm Jebel Ali",
+   "sl": 25,
+   "file": "59F1 The-Palm Dubai 2005-08-26 H.png",
+   "lat": 25.0067,
+   "lon": 54.9883,
+   "kind": "both",
+   "types": [
+    "archipelago",
+    "artificial island",
+    "land reclamation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palm Jebel Ali"
+  },
+  {
+   "id": "Q1432589",
+   "name": "Ras Al Khaimah International Airport",
+   "sl": 25,
+   "file": "Ras Al Khaimah International Airport.jpg",
+   "lat": 25.6136,
+   "lon": 55.9389,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ras Al Khaimah International Airport"
+  },
+  {
+   "id": "Q1808317",
+   "name": "The Marina Torch",
+   "sl": 25,
+   "file": "Dubai Marina Aug2012.jpg",
+   "lat": 25.0881,
+   "lon": 55.1475,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Marina Torch"
+  },
+  {
+   "id": "Q15646927",
+   "name": "Hazza bin Zayed Stadium",
+   "sl": 24,
+   "file": "IRN-JPN 20190128 01.jpg",
+   "lat": 24.2456,
+   "lon": 55.7166,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hazza Bin Zayed Stadium"
+  },
+  {
+   "id": "Q2000728",
+   "name": "Sheikh Khalifa International Stadium",
+   "sl": 23,
+   "file": "Sheikh Khalifa International Stadium.jpg",
+   "lat": 24.2073,
+   "lon": 55.7663,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khalifa bin Zayed Stadium"
+  },
+  {
+   "id": "Q40132250",
+   "name": "Ain Dubai",
+   "sl": 22,
+   "file": "Ferris Wheel Ain Dubai in Dubai 02.jpg",
+   "lat": 25.0801,
+   "lon": 55.1241,
+   "kind": "built",
+   "types": [
+    "Ferris wheel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ain Dubai"
+  },
+  {
+   "id": "Q285692",
+   "name": "Al Nahyan Stadium",
+   "sl": 22,
+   "file": "IRN-VIETNAM 20190112 Asian Cup 2.jpg",
+   "lat": 24.4694,
+   "lon": 54.3753,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Nahyan Stadium"
+  },
+  {
+   "id": "Q738685",
+   "name": "Burj Al Alam",
+   "sl": 22,
+   "file": "Burj Al Alam Under Construction on 13 June 2008.jpg",
+   "lat": 25.1815,
+   "lon": 55.273,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1034660",
+   "name": "Capital Gate",
+   "sl": 22,
+   "file": "Boot - panoramio (1).jpg",
+   "lat": 24.4186,
+   "lon": 54.4347,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capital Gate, Abu Dhabi"
+  },
+  {
+   "id": "Q24192494",
+   "name": "Dubai Creek Tower",
+   "sl": 22,
+   "file": "Creek Tower.webp",
+   "lat": 25.1976,
+   "lon": 55.3552,
+   "kind": "built",
+   "types": [
+    "proposed building or structure",
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dubai Creek Tower"
+  },
+  {
+   "id": "Q20386392",
+   "name": "Dubai Frame",
+   "sl": 22,
+   "file": "DONIS Dubai Frame Nighttime.jpg",
+   "lat": 25.2355,
+   "lon": 55.3003,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "work of art"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dubai Frame"
+  },
+  {
+   "id": "Q787902",
+   "name": "Dubailand",
+   "sl": 22,
+   "file": "Inside the Global Village in Dubai February 2019.jpg",
+   "lat": 25.075,
+   "lon": 55.3639,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "family entertainment center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dubailand"
+  },
+  {
+   "id": "Q623517",
+   "name": "Millennium Tower",
+   "sl": 22,
+   "file": "Millennium Tower.png",
+   "lat": 25.1947,
+   "lon": 55.2658,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Millennium Tower (Wrocław)"
+  },
+  {
+   "id": "Q22948398",
+   "name": "Museum of the Future",
+   "sl": 22,
+   "file": "Museum of the Future (10398).jpg",
+   "lat": 25.2191,
+   "lon": 55.2821,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of the Future"
+  },
+  {
+   "id": "Q214046",
+   "name": "21st Century Tower",
+   "sl": 21,
+   "file": "Dubai night skyline.jpg",
+   "lat": 25.2108,
+   "lon": 55.2769,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1972281",
+   "name": "Dubai Islands",
+   "sl": 21,
+   "file": "Palm Deira on 1 May 2007.jpg",
+   "lat": 25.313,
+   "lon": 55.3103,
+   "kind": "both",
+   "types": [
+    "artificial island",
+    "island group",
+    "urban development project"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palm Deira"
+  },
+  {
+   "id": "Q1261870",
+   "name": "Jabal Hafit",
+   "sl": 21,
+   "file": "Jabal hafeet shahin.jpg",
+   "lat": 24.058,
+   "lon": 55.7809,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "OM"
+   ],
+   "cat": "Jebel Hafeet"
+  },
+  {
+   "id": "Q509588",
+   "name": "Port of Jebel Ali",
+   "sl": 21,
+   "file": "Port Jebel Ali on 1 May 2007 Pict 1.jpg",
+   "lat": 25.0113,
+   "lon": 55.0612,
+   "kind": "both",
+   "types": [
+    "deep water port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mena Jabal Ali"
+  },
+  {
+   "id": "Q2525218",
+   "name": "Rashid Stadium",
+   "sl": 21,
+   "file": "TUR-UZB 20190113 Asian Cup 12.jpg",
+   "lat": 25.2797,
+   "lon": 55.3606,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Rashid Stadium"
+  },
+  {
+   "id": "Q1264855",
+   "name": "The Index",
+   "sl": 21,
+   "file": "Liberty House Under Construction on 28 December 2007.jpg",
+   "lat": 25.2071,
+   "lon": 55.279,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Index"
+  },
+  {
+   "id": "Q2886453",
+   "name": "Al Dhafra Air Base",
+   "sl": 20,
+   "file": "Two USAF F-35As at Al Dhafra Air Base before performing at the Dubai Airshow 2025.jpg",
+   "lat": 24.2481,
+   "lon": 54.5475,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Dhafra Air Base"
+  },
+  {
+   "id": "Q647585",
+   "name": "Jumeirah Beach Hotel",
+   "sl": 20,
+   "file": "MTM A8 in Dubai.jpg",
+   "lat": 25.1408,
+   "lon": 55.1903,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jumeirah Beach Hotel"
+  },
+  {
+   "id": "Q200856",
+   "name": "Wild Wadi Water Park",
+   "sl": 20,
+   "file": "Wild-wadi.jpg",
+   "lat": 25.1394,
+   "lon": 55.1892,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "water park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wild Wadi Water Park"
+  },
+  {
+   "id": "Q3119433",
+   "name": "Al-Maktoum Stadium",
+   "sl": 19,
+   "file": "Iran & Iraq match by Amir Ostovari, 2019 AFC Asian Cup 1.jpg",
+   "lat": 25.24,
+   "lon": 55.3131,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q25002",
+   "name": "Formula Rossa",
+   "sl": 19,
+   "file": "Formula Rossa coaster.jpg",
+   "lat": 24.4841,
+   "lon": 54.6093,
+   "kind": "built",
+   "types": [
+    "launched roller coaster",
+    "steel roller coaster"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Formula Rossa"
+  },
+  {
+   "id": "Q1321116",
+   "name": "Guggenheim Abu Dhabi",
+   "sl": 19,
+   "file": "Maquetas de edificios-abu dhabi-2011 (4).JPG",
+   "lat": 24.5395,
+   "lon": 54.399,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guggenheim Abu Dhabi"
+  },
+  {
+   "id": "Q6172505",
+   "name": "Jabal Al Fayah",
+   "sl": 19,
+   "file": "Jebel Faya.jpg",
+   "lat": 25.1114,
+   "lon": 55.839,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "hill"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabal Al-Fayah"
+  },
+  {
+   "id": "Q575128",
+   "name": "Emirates Crown",
+   "sl": 18,
+   "file": "Dubai Marina on 5 May 2008.jpg",
+   "lat": 25.0881,
+   "lon": 55.1464,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emirates Crown"
+  },
+  {
+   "id": "Q1337845",
+   "name": "Emirates Palace",
+   "sl": 18,
+   "file": "Emirates palace from top view.jpg",
+   "lat": 24.4617,
+   "lon": 54.3173,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emirates Palace"
+  },
+  {
+   "id": "Q2758483",
+   "name": "Maktoum Bin Rashid Al Maktoum Stadium",
+   "sl": 18,
+   "file": "Dubai Maktoum Bin Rashid Al Maktoum Stadium 2.jpg",
+   "lat": 25.2908,
+   "lon": 55.3483,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maktoum Bin Rashid Al Maktoum Stadium"
+  },
+  {
+   "id": "Q1735111",
+   "name": "The Landmark",
+   "sl": 18,
+   "file": "The Landmark Abu Dhabi 001.jpg",
+   "lat": 24.4848,
+   "lon": 54.3507,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Landmark (Abu Dhabi)"
+  },
+  {
+   "id": "Q18066085",
+   "name": "Sheikh Zayed Road",
+   "sl": 17,
+   "file": "2008-03-21 Sheikh Zayed Street, Dubai.jpg",
+   "lat": 25.2186,
+   "lon": 55.28,
+   "kind": "built",
+   "types": [
+    "street",
+    "thoroughfare"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sheikh Zayed Road"
+  },
+  {
+   "id": "Q1435741",
+   "name": "Sky Tower",
+   "sl": 17,
+   "file": "Dubai Tower Under Construction on 28 December 2007.jpg",
+   "lat": 24.4959,
+   "lon": 54.4075,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dubai Tower"
+  },
+  {
+   "id": "Q2538723",
+   "name": "Wadi Wurayah",
+   "sl": 17,
+   "file": "Wadi Wurayah - Lower course, just before the dam - 1.jpg",
+   "lat": 25.4226,
+   "lon": 56.3635,
+   "kind": "natural",
+   "types": [
+    "wadi"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi Wurayah"
+  },
+  {
+   "id": "Q1069161",
+   "name": "Chelsea Tower",
+   "sl": 16,
+   "file": "Dubai night skyline.jpg",
+   "lat": 25.2114,
+   "lon": 55.2753,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2739813",
+   "name": "Fujairah International Airport",
+   "sl": 16,
+   "file": "Fujairah International Airport.JPG",
+   "lat": 25.1122,
+   "lon": 56.3239,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fujairah International Airport"
+  },
+  {
+   "id": "Q5594813",
+   "name": "Grand Mosque",
+   "sl": 16,
+   "file": "Grand Mosque of Bur Dubai.jpg",
+   "lat": 25.2644,
+   "lon": 55.2967,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Mosque, Dubai"
+  },
+  {
+   "id": "Q2298717",
+   "name": "Jumeirah Mosque",
+   "sl": 16,
+   "file": "Jumeirah Mosque.jpg",
+   "lat": 25.234,
+   "lon": 55.2655,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jumeirah Mosque"
+  },
+  {
+   "id": "Q3180182",
+   "name": "Port Zayed",
+   "sl": 16,
+   "file": "Abu Dhabi Zayed Port - Saadiyat Bridge - أبو ظبي ميناء زايد - جسر السعديات - panoramio.jpg",
+   "lat": 24.5253,
+   "lon": 54.3864,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zayed Port"
+  },
+  {
+   "id": "Q1641386",
+   "name": "Sulafa Tower",
+   "sl": 16,
+   "file": "Sulafa Tower Under Construction on 20 December 2007.jpg",
+   "lat": 25.0895,
+   "lon": 55.1489,
+   "kind": "built",
+   "types": [
+    "residential building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sulafa Tower"
+  },
+  {
+   "id": "Q1934988",
+   "name": "Al Minhad Air Base",
+   "sl": 15,
+   "file": "UAEAF Lockheed C-130.jpg",
+   "lat": 25.0268,
+   "lon": 55.3662,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q942632",
+   "name": "Marina Pinnacle",
+   "sl": 15,
+   "file": "Marina Pinnacle Under Construction on 7 March 2008.jpg",
+   "lat": 25.0885,
+   "lon": 55.1481,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marina Pinnacle"
+  },
+  {
+   "id": "Q2701976",
+   "name": "Za'abeel Stadium",
+   "sl": 15,
+   "file": "Campo de juego del estadio Zabeel.jpg",
+   "lat": 25.2189,
+   "lon": 55.3171,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q936043",
+   "name": "Al Kazim Towers",
+   "sl": 14,
+   "file": "Dust storm Dubai.JPG",
+   "lat": 25.1002,
+   "lon": 55.1693,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1436004",
+   "name": "Khalid Al Attar Tower 2",
+   "sl": 14,
+   "file": "Khalid Al Attar Tower 2 Under Construction on 28 December 2007.jpg",
+   "lat": 25.2176,
+   "lon": 55.2785,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khalid Al Attar Tower 2"
+  }
+ ]
+}

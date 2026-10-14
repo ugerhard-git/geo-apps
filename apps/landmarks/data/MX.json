@@ -1,0 +1,1358 @@
+{
+ "country": "MX",
+ "items": [
+  {
+   "id": "Q5859",
+   "name": "Chichen Itza",
+   "sl": 110,
+   "file": "Chichen Itza 3.jpg",
+   "lat": 20.6831,
+   "lon": -88.5686,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Chichén Itzá"
+  },
+  {
+   "id": "Q172613",
+   "name": "Teotihuacan",
+   "sl": 79,
+   "file": "ZA77 Teotihuacán edo de mex Herberto de la rosa.jpg",
+   "lat": 19.6925,
+   "lon": -98.8439,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historic site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Teotihuacán"
+  },
+  {
+   "id": "Q181157",
+   "name": "Popocatépetl",
+   "sl": 72,
+   "file": "Mexico-Popocatepetl.jpg",
+   "lat": 19.0234,
+   "lon": -98.6234,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Popocatépetl"
+  },
+  {
+   "id": "Q181427",
+   "name": "Palenque",
+   "sl": 67,
+   "file": "055 Palenque Pakal Maji (29).JPG",
+   "lat": 17.4842,
+   "lon": -92.0464,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Palenque"
+  },
+  {
+   "id": "Q189429",
+   "name": "Sonoran Desert",
+   "sl": 67,
+   "file": "AguaFriaNM (cropped).jpeg",
+   "lat": 32.26,
+   "lon": -112.9261,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Sonoran Desert"
+  },
+  {
+   "id": "Q238147",
+   "name": "Citlaltepetl",
+   "sl": 65,
+   "file": "Pico de Orizaba desde Hidalgo, Puebla.jpg",
+   "lat": 19.03,
+   "lon": -97.27,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Citlaltépetl"
+  },
+  {
+   "id": "Q213232",
+   "name": "Uxmal",
+   "sl": 64,
+   "file": "Panoramica Uxmal.jpg",
+   "lat": 20.3594,
+   "lon": -89.7714,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65455940",
+    "name": "Pre-Hispanic Town of Uxmal"
+   },
+   "also": [],
+   "cat": "Uxmal"
+  },
+  {
+   "id": "Q610961",
+   "name": "Mexico City Metropolitan Cathedral",
+   "sl": 61,
+   "file": "Catedral Metropolitana de la Ciudad de México 1.jpg",
+   "lat": 19.4344,
+   "lon": -99.1331,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Metropolitan Cathedral of Mexico City"
+  },
+  {
+   "id": "Q320454",
+   "name": "Estadio Azteca",
+   "sl": 59,
+   "file": "Vista aérea del Estadio Azteca - 2026 - 02.jpg",
+   "lat": 19.3031,
+   "lon": -99.1506,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Azteca"
+  },
+  {
+   "id": "Q55816",
+   "name": "Chicxulub crater",
+   "sl": 57,
+   "file": "Chicxulub Impact Crater, Gulf of Mexico (33789560443).jpg",
+   "lat": 21.4,
+   "lon": -89.5167,
+   "kind": "natural",
+   "types": [
+    "impact crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chicxulub crater"
+  },
+  {
+   "id": "Q231620",
+   "name": "Parícutin",
+   "sl": 57,
+   "file": "Paricutín volcano.jpg",
+   "lat": 19.493,
+   "lon": -102.251,
+   "kind": "natural",
+   "types": [
+    "cinder cone",
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paricutin"
+  },
+  {
+   "id": "Q272771",
+   "name": "Calakmul",
+   "sl": 53,
+   "file": "In Calakmul, Mexico (8726963632).jpg",
+   "lat": 18.105,
+   "lon": -89.8106,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Calakmul"
+  },
+  {
+   "id": "Q464899",
+   "name": "Monte Albán",
+   "sl": 51,
+   "file": "Monte Albán archeological site, Oaxaca.jpg",
+   "lat": 17.0439,
+   "lon": -96.7678,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16743243",
+    "name": "Historic Centre of Oaxaca and Archaeological Site of Monte Albán"
+   },
+   "also": [],
+   "cat": "Monte Albán"
+  },
+  {
+   "id": "Q29238",
+   "name": "Pyramid of the Sun",
+   "sl": 50,
+   "file": "2020-02-11 Teotihuacan la Avenida de los Muertos y la Pirámide del Sol.jpg",
+   "lat": 19.6925,
+   "lon": -98.8438,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "pyramid",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pirámide del Sol"
+  },
+  {
+   "id": "Q860559",
+   "name": "Aeropuerto Internacional Benito Juárez",
+   "sl": 49,
+   "file": "Benitojuarezarptaerial.jpg",
+   "lat": 19.4361,
+   "lon": -99.0719,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mexico City International Airport"
+  },
+  {
+   "id": "Q855658",
+   "name": "Chihuahuan Desert",
+   "sl": 48,
+   "file": "Chihuahuan Desert.jpg",
+   "lat": 30.5406,
+   "lon": -103.8372,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Chihuahuan Desert"
+  },
+  {
+   "id": "Q664059",
+   "name": "Iztaccihuatl",
+   "sl": 46,
+   "file": "Mujerdormida 2018 1544.jpg",
+   "lat": 19.178,
+   "lon": -98.6418,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iztaccíhuatl"
+  },
+  {
+   "id": "Q825347",
+   "name": "Colima",
+   "sl": 45,
+   "file": "Colima Landsat image.jpg",
+   "lat": 19.5114,
+   "lon": -103.6181,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Colima Volcano"
+  },
+  {
+   "id": "Q725883",
+   "name": "Maya Ruins of Tulum",
+   "sl": 45,
+   "file": "Tulum 2006 2.jpg",
+   "lat": 20.2147,
+   "lon": -87.4289,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tulum (archaeological site)"
+  },
+  {
+   "id": "Q392250",
+   "name": "Isthmus of Tehuantepec",
+   "sl": 43,
+   "file": "La venta - Mexico.jpg",
+   "lat": 17.2,
+   "lon": -94.7,
+   "kind": "natural",
+   "types": [
+    "isthmus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isthmus of Tehuantepec"
+  },
+  {
+   "id": "Q666183",
+   "name": "Estadio Akron",
+   "sl": 42,
+   "file": "Estadio Omnilife Chivas.jpg",
+   "lat": 20.6817,
+   "lon": -103.4628,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Omnilife"
+  },
+  {
+   "id": "Q3058827",
+   "name": "Estadio Monterrey",
+   "sl": 41,
+   "file": "Mexico Guadalupe Monterrey Estadio BBVA Bancomer fifa world cup 2026 6.JPG",
+   "lat": 25.6702,
+   "lon": -100.2437,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio BBVA Bancomer"
+  },
+  {
+   "id": "Q13700",
+   "name": "Lake Texcoco",
+   "sl": 41,
+   "file": "Lake Texcoco (Lago de Texcoco) December 1855 map from Harper's New Monthly Magazine Volume 12 December 1855 to May 1856 (IA harpersnew12harper) (page 34 crop).jpg",
+   "lat": 19.5,
+   "lon": -98.99,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Texcoco Lake, Mexico"
+  },
+  {
+   "id": "Q524249",
+   "name": "National Museum of Anthropology",
+   "sl": 41,
+   "file": "Musee National Anthropologie-Entree.jpg",
+   "lat": 19.4261,
+   "lon": -99.1861,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "museum",
+    "museum building",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Anthropology"
+  },
+  {
+   "id": "Q753895",
+   "name": "Tajín Veracruz",
+   "sl": 41,
+   "file": "El Tajín, Nischenpyramide.(fcm).jpg",
+   "lat": 20.4481,
+   "lon": -97.3782,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "El Tajín"
+  },
+  {
+   "id": "Q797120",
+   "name": "Xochicalco",
+   "sl": 41,
+   "file": "Mexico xochicalco pyramids.JPG",
+   "lat": 18.8043,
+   "lon": -99.2966,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Xochicalco"
+  },
+  {
+   "id": "Q1128327",
+   "name": "Temple of Kukulcan",
+   "sl": 40,
+   "file": "Chichen Itza 3.jpg",
+   "lat": 20.6829,
+   "lon": -88.5686,
+   "kind": "built",
+   "types": [
+    "pyramid",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5859",
+    "name": "Chichen Itza"
+   },
+   "also": [],
+   "cat": "Chichen Itza - Castillo"
+  },
+  {
+   "id": "Q641967",
+   "name": "Cancún International Airport",
+   "sl": 39,
+   "file": "CUNterminal3.jpg",
+   "lat": 21.0367,
+   "lon": -86.8769,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cancun Airport"
+  },
+  {
+   "id": "Q559789",
+   "name": "Sian Ka'an",
+   "sl": 39,
+   "file": "México - Sian Ka'an, Boat Tour.JPG",
+   "lat": 19.3833,
+   "lon": -87.7917,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sian Ka´an"
+  },
+  {
+   "id": "Q841189",
+   "name": "El Chichón",
+   "sl": 35,
+   "file": "El Chichón.jpg",
+   "lat": 17.36,
+   "lon": -93.2278,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Chichón"
+  },
+  {
+   "id": "Q318350",
+   "name": "Lake Chapala",
+   "sl": 35,
+   "file": "Lake chapala.png",
+   "lat": 20.3333,
+   "lon": -103,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Chapala"
+  },
+  {
+   "id": "Q1139081",
+   "name": "Palace of Fine arts",
+   "sl": 34,
+   "file": "Atardecer En Bellas Artes Vertical (128312121).jpeg",
+   "lat": 19.4353,
+   "lon": -99.1414,
+   "kind": "built",
+   "types": [
+    "arts center",
+    "concert hall",
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio de Bellas Artes"
+  },
+  {
+   "id": "Q567966",
+   "name": "Mayapan",
+   "sl": 33,
+   "file": "Mayapan perspectiva 1.jpg",
+   "lat": 20.6294,
+   "lon": -89.4606,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mayapan"
+  },
+  {
+   "id": "Q852546",
+   "name": "Monarch Butterfly Biosphere Reserve",
+   "sl": 33,
+   "file": "Santuario de la Mariposa Monarca (3088019191).jpg",
+   "lat": 19.6064,
+   "lon": -100.2417,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Monarch Butterfly Biosphere Reserve"
+  },
+  {
+   "id": "Q1190524",
+   "name": "Cave of the Crystals",
+   "sl": 32,
+   "file": "Cristales cueva de Naica.JPG",
+   "lat": 27.8508,
+   "lon": -105.4964,
+   "kind": "natural",
+   "types": [
+    "cave",
+    "geode"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minerals of Naica"
+  },
+  {
+   "id": "Q1104936",
+   "name": "Coba",
+   "sl": 32,
+   "file": "Coba El Castillo.JPG",
+   "lat": 20.4898,
+   "lon": -87.7251,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cobá"
+  },
+  {
+   "id": "Q932025",
+   "name": "Guadalajara-M. Hidalgo y Costilla",
+   "sl": 32,
+   "file": "Fachada del Aeropuerto de Guadalajara.jpg",
+   "lat": 20.5218,
+   "lon": -103.3111,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "International airport of Guadalajara, Mexico"
+  },
+  {
+   "id": "Q767558",
+   "name": "Universitary Olympic Stadium",
+   "sl": 32,
+   "file": "Estadio Olímpico Universitario - 2026 - 04.jpg",
+   "lat": 19.3319,
+   "lon": -99.1921,
+   "kind": "built",
+   "types": [
+    "Olympic stadium",
+    "university sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Olímpico Universitario"
+  },
+  {
+   "id": "Q50647",
+   "name": "Valley of Mexico",
+   "sl": 32,
+   "file": "Screenshot 99.13396W 19.41997.pnj.jpg",
+   "lat": 19.6667,
+   "lon": -98.8667,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valley of Mexico"
+  },
+  {
+   "id": "Q432483",
+   "name": "El Vizcaíno Biosphere Reserve",
+   "sl": 31,
+   "file": "Pelícano en Mulegé.jpg",
+   "lat": 27.7922,
+   "lon": -114.2278,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2383410",
+    "name": "Islands and Protected Areas of the Gulf of California"
+   },
+   "also": [],
+   "cat": "El Vizcaíno Biosphere Reserve"
+  },
+  {
+   "id": "Q28416",
+   "name": "Hospicio Cabañas",
+   "sl": 31,
+   "file": "Hospicio Cabañas, Guadalajara, Jalisco - 14.jpg",
+   "lat": 20.6769,
+   "lon": -103.3373,
+   "kind": "built",
+   "types": [
+    "former hospital",
+    "hospice"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Hospicio Cabañas in Guadalajara, Mexico"
+  },
+  {
+   "id": "Q1517884",
+   "name": "National Palace",
+   "sl": 31,
+   "file": "Palacio Nacional, México D.F., México, 2013-10-16, DD 119.JPG",
+   "lat": 19.4325,
+   "lon": -99.1314,
+   "kind": "built",
+   "types": [
+    "museum",
+    "palace",
+    "political institution"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Palace (Mexico)"
+  },
+  {
+   "id": "Q673994",
+   "name": "Nevado de Toluca",
+   "sl": 31,
+   "file": "Vista del Nevado de Toluca.jpg",
+   "lat": 19.1088,
+   "lon": -99.7556,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevado de Toluca"
+  },
+  {
+   "id": "Q29240",
+   "name": "Pyramid of the Moon",
+   "sl": 31,
+   "file": "Pirámide de la Luna, 2020.jpg",
+   "lat": 19.6996,
+   "lon": -98.844,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "pyramid",
+    "step pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pirámide de la Luna"
+  },
+  {
+   "id": "Q774021",
+   "name": "Templo Mayor",
+   "sl": 31,
+   "file": "Templo Mayor 50.jpg",
+   "lat": 19.435,
+   "lon": -99.1314,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "pyramid",
+    "step pyramid",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Templo Mayor - Main Pyramid"
+  },
+  {
+   "id": "Q853265",
+   "name": "Casas Grandes",
+   "sl": 30,
+   "file": "Zona arqueológica de Paquimé 2020.jpg",
+   "lat": 30.3758,
+   "lon": -107.9556,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Archaeological Zone of Paquimé, Casas Grandes"
+  },
+  {
+   "id": "Q2663377",
+   "name": "Frida Kahlo Museum",
+   "sl": 30,
+   "file": "Museo Frida Kahlo.JPG",
+   "lat": 19.3551,
+   "lon": -99.1625,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo Frida Kahlo"
+  },
+  {
+   "id": "Q568672",
+   "name": "Tulasas",
+   "sl": 30,
+   "file": "Telamones Tula.jpg",
+   "lat": 20.0635,
+   "lon": -99.3411,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tula (archeological site)"
+  },
+  {
+   "id": "Q1348507",
+   "name": "Zócalo",
+   "sl": 30,
+   "file": "Panorámicas CDMX IMG 4013 (25660958945).jpg",
+   "lat": 19.4328,
+   "lon": -99.1333,
+   "kind": "built",
+   "types": [
+    "zócalo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza de la Constitución (Mexico City)"
+  },
+  {
+   "id": "Q267267",
+   "name": "Colorado Desert",
+   "sl": 29,
+   "file": "Coloradodesert.jpg",
+   "lat": 32.83,
+   "lon": -115.27,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Colorado Desert"
+  },
+  {
+   "id": "Q583424",
+   "name": "Hermanos Serdán International Airport",
+   "sl": 29,
+   "file": "Terminal AIP.JPG",
+   "lat": 19.1581,
+   "lon": -98.3714,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puebla International Airport"
+  },
+  {
+   "id": "Q2840764",
+   "name": "Aqueduct of Padre Tembleque",
+   "sl": 28,
+   "file": "Zempoala Aqueduct, Acueducto del Padre Tembleque, Tepeyahualco Aqueduct 2.jpg",
+   "lat": 19.8364,
+   "lon": -98.6622,
+   "kind": "built",
+   "types": [
+    "aqueduct"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Aqueduct of Padre Tembleque Hydraulic System"
+  },
+  {
+   "id": "Q1417475",
+   "name": "Great Pyramid of Cholula",
+   "sl": 28,
+   "file": "Mexico.Pue.Cholula.Pyramid.03.jpg",
+   "lat": 19.0575,
+   "lon": -98.3019,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Pyramid of Cholula"
+  },
+  {
+   "id": "Q1366027",
+   "name": "Mitla",
+   "sl": 28,
+   "file": "BestConservedBuilding-Mitla-Oaxaca-Mexico.jpg",
+   "lat": 16.9167,
+   "lon": -96.4,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15661566",
+    "name": "Prehistoric Caves of Yagul and Mitla in the Central Valley of Oaxaca"
+   },
+   "also": [],
+   "cat": "Mitla"
+  },
+  {
+   "id": "Q1141009",
+   "name": "Monasteries on the slopes of Popocatépetl",
+   "sl": 28,
+   "file": "FacadeCatCV2.JPG",
+   "lat": 18.9347,
+   "lon": -98.8978,
+   "kind": "",
+   "types": [
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Monasteries on the slopes of Popocatépetl"
+  },
+  {
+   "id": "Q662263",
+   "name": "Yaxchilan",
+   "sl": 28,
+   "file": "Yaxchilan 1.jpg",
+   "lat": 16.9,
+   "lon": -90.9667,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yaxchilan"
+  },
+  {
+   "id": "Q130025",
+   "name": "Ciudad Universitaria",
+   "sl": 27,
+   "file": "Biblioteca and Torre des Humanidades I from Las Islas, Ciudad Universitaria, Mexico City.jpg",
+   "lat": 19.3322,
+   "lon": -99.1881,
+   "kind": "built",
+   "types": [
+    "campus"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ciudad Universitaria"
+  },
+  {
+   "id": "Q751146",
+   "name": "Franciscan Missions in the Sierra Gorda",
+   "sl": 27,
+   "file": "Sierra gorda.jpg",
+   "lat": 21.2039,
+   "lon": -99.4639,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Franciscan Missions in the Sierra Gorda, Querétaro"
+  },
+  {
+   "id": "Q552005",
+   "name": "Rock Paintings of Sierra de San Francisco",
+   "sl": 27,
+   "file": "Baja California Sur.jpg",
+   "lat": 27.6556,
+   "lon": -112.9161,
+   "kind": "built",
+   "types": [
+    "painting series",
+    "petroglyphic site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock Paintings of Sierra de San Francisco"
+  },
+  {
+   "id": "Q1072510",
+   "name": "Chapultepec Castle",
+   "sl": 26,
+   "file": "Vista aérea del Castillo de Chapultepec 7.jpg",
+   "lat": 19.4206,
+   "lon": -99.1817,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chapultepec Castle"
+  },
+  {
+   "id": "Q1046414",
+   "name": "Luis Barragán House and Studio",
+   "sl": 26,
+   "file": "Luis Barragan House exterior 02.jpg",
+   "lat": 19.4111,
+   "lon": -99.1925,
+   "kind": "built",
+   "types": [
+    "museum",
+    "single-family detached home"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Luis Barragán House and Studio"
+  },
+  {
+   "id": "Q1478843",
+   "name": "Paseo de la Reforma",
+   "sl": 26,
+   "file": "Blick auf den Paseo de la Reforma.jpg",
+   "lat": 19.4344,
+   "lon": -99.1519,
+   "kind": "built",
+   "types": [
+    "avenue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paseo de la Reforma"
+  },
+  {
+   "id": "Q928541",
+   "name": "Angel of Independence",
+   "sl": 25,
+   "file": "Angel de la independencia170409.jpg",
+   "lat": 19.427,
+   "lon": -99.1677,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monumento a la Independencia (México)"
+  },
+  {
+   "id": "Q305419",
+   "name": "Basilica of Our Lady of Guadalupe",
+   "sl": 25,
+   "file": "Mexico city Insigne y Nacional Basílica de Santa María de Guadalupe 7.JPG",
+   "lat": 19.4844,
+   "lon": -99.1172,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "basilica",
+    "Catholic parish church",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nueva Basílica de Nuestra Señora de Guadalupe"
+  },
+  {
+   "id": "Q605455",
+   "name": "Bonampak",
+   "sl": 25,
+   "file": "Stairs bonampak.jpg",
+   "lat": 16.704,
+   "lon": -91.065,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bonampak"
+  },
+  {
+   "id": "Q119656",
+   "name": "Cofre de Peru en tanga",
+   "sl": 25,
+   "file": "Volcan de Cofre de Perote - panoramio.jpg",
+   "lat": 19.4919,
+   "lon": -97.15,
+   "kind": "natural",
+   "types": [
+    "extinct volcano",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cofre de Perote"
+  },
+  {
+   "id": "Q713216",
+   "name": "Corregidora Stadium",
+   "sl": 25,
+   "file": "Estadio la Corregidora.JPG",
+   "lat": 20.5778,
+   "lon": -100.3664,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Corregidora"
+  },
+  {
+   "id": "Q3821829",
+   "name": "El Pinacate y Gran Desierto de Altar Biosphere Reserve",
+   "sl": 25,
+   "file": "Pinacate volcanic field.jpg",
+   "lat": 32,
+   "lon": -113.9167,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "El Pinacate y Gran Desierto de Altar"
+  },
+  {
+   "id": "Q1346716",
+   "name": "Jalisco Stadium",
+   "sl": 25,
+   "file": "Estadio Jalisco 06022022.jpg",
+   "lat": 20.705,
+   "lon": -103.3281,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Jalisco"
+  },
+  {
+   "id": "Q2631595",
+   "name": "Mexico–United States border wall",
+   "sl": 25,
+   "file": "US-Mexico barrier map.png",
+   "lat": 32.5344,
+   "lon": -117.1237,
+   "kind": "built",
+   "types": [
+    "border barrier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Mexico–United States border wall"
+  },
+  {
+   "id": "Q1433064",
+   "name": "Tijuana International Airport",
+   "sl": 25,
+   "file": "Alpskwcrjuanew.jpg",
+   "lat": 32.5408,
+   "lon": -116.97,
+   "kind": "built",
+   "types": [
+    "airport",
+    "airport straddling borders",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "General Abelardo L. Rodríguez International Airport"
+  },
+  {
+   "id": "Q1042074",
+   "name": "Toniná",
+   "sl": 25,
+   "file": "Toniná (17).jpg",
+   "lat": 16.9012,
+   "lon": -92.0097,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toniná"
+  },
+  {
+   "id": "Q805835",
+   "name": "Baluarte Bridge",
+   "sl": 24,
+   "file": "Puente Baluarte 03.jpg",
+   "lat": 23.5343,
+   "lon": -105.7596,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puente Baluarte Bicentenario"
+  },
+  {
+   "id": "Q913166",
+   "name": "La Venta",
+   "sl": 24,
+   "file": "La Venta Pirámide cara norte.jpg",
+   "lat": 18.1053,
+   "lon": -94.0317,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Venta"
+  },
+  {
+   "id": "Q1510389",
+   "name": "Sanctuary of Atotonilco",
+   "sl": 24,
+   "file": "NaveAtotonilco2.JPG",
+   "lat": 21.005,
+   "lon": -100.7946,
+   "kind": "built",
+   "types": [
+    "Catholic pilgrimage church"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15613314",
+    "name": "Protective town of San Miguel and the Sanctuary of Jesús Nazareno de Atotonilco"
+   },
+   "also": [],
+   "cat": "Sanctuary of Atotonilco, San Miguel Allende"
+  },
+  {
+   "id": "Q948178",
+   "name": "Torre Ejecutiva Pemex",
+   "sl": 24,
+   "file": "Torre ejecutiva de PEMEX.jpg",
+   "lat": 19.4389,
+   "lon": -99.1747,
+   "kind": "built",
+   "types": [
+    "office building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre Pemex"
+  },
+  {
+   "id": "Q844813",
+   "name": "Torre Mayor",
+   "sl": 24,
+   "file": "Torre Mayor, México D.F., México, 2014-10-13, DD 11.JPG",
+   "lat": 19.4242,
+   "lon": -99.1756,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre Mayor"
+  },
+  {
+   "id": "Q804072",
+   "name": "Baja California Desert",
+   "sl": 23,
+   "file": "Baja California Desert.jpg",
+   "lat": 27.74,
+   "lon": -113.6,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baja California Desert"
+  },
+  {
+   "id": "Q1688770",
+   "name": "Cave of Swallows",
+   "sl": 23,
+   "file": "Golondrinas Entrance Rappelling.png",
+   "lat": 21.5997,
+   "lon": -99.0989,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sótano de las Golondrinas"
+  },
+  {
+   "id": "Q771800",
+   "name": "Estadio Universitario",
+   "sl": 23,
+   "file": "Mexico monterrey San Nicolás de los Garza Estadio Universitario 1.JPG",
+   "lat": 25.7228,
+   "lon": -100.3121,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Universitario"
+  }
+ ]
+}

@@ -1,0 +1,1401 @@
+{
+ "country": "DE",
+ "items": [
+  {
+   "id": "Q549267",
+   "name": "Laacher See",
+   "sl": 108,
+   "file": "Laacher See - Luftaufnahme.jpg",
+   "lat": 50.4125,
+   "lon": 7.27,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laacher See"
+  },
+  {
+   "id": "Q4204",
+   "name": "Black Forest",
+   "sl": 101,
+   "file": "Blick ins Renchtal.JPG",
+   "lat": 48.3,
+   "lon": 8.15,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "low mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Black Forest"
+  },
+  {
+   "id": "Q4127",
+   "name": "Lake Constance",
+   "sl": 100,
+   "file": "Vorfrühling am Bodensee.jpg",
+   "lat": 47.65,
+   "lon": 9.3167,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "eutrophic lake",
+    "holomictic lake",
+    "hypertrophic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT",
+    "CH"
+   ],
+   "cat": "Lake Constance"
+  },
+  {
+   "id": "Q4152",
+   "name": "Neuschwanstein Castle",
+   "sl": 93,
+   "file": "Neuschwanstein Castle 2024-02.jpg",
+   "lat": 47.5575,
+   "lon": 10.7494,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château",
+    "museum",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64825541",
+    "name": "The Palaces of King Ludwig II of Bavaria: Neuschwanstein, Linderhof, Schachen and Herrenchiemsee"
+   },
+   "also": [],
+   "cat": "Neuschwanstein Castle"
+  },
+  {
+   "id": "Q46033",
+   "name": "Frankfurt Airport",
+   "sl": 89,
+   "file": "FRA June2013.JPG",
+   "lat": 50.0333,
+   "lon": 8.5705,
+   "kind": "built",
+   "types": [
+    "commercial airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Frankfurt Airport"
+  },
+  {
+   "id": "Q82425",
+   "name": "Brandenburg Gate",
+   "sl": 86,
+   "file": "Brandenburger Tor morgens.jpg",
+   "lat": 52.5163,
+   "lon": 13.3777,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "border checkpoint",
+    "city gate",
+    "national symbol"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brandenburg Gate"
+  },
+  {
+   "id": "Q4176",
+   "name": "Cologne Cathedral",
+   "sl": 86,
+   "file": "Kölner Dom von Osten.jpg",
+   "lat": 50.9414,
+   "lon": 6.9583,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cologne Cathedral"
+  },
+  {
+   "id": "Q151510",
+   "name": "Heidelberg University",
+   "sl": 84,
+   "file": "Alte Universitaet.JPG",
+   "lat": 49.4103,
+   "lon": 8.7064,
+   "kind": "built",
+   "types": [
+    "campus",
+    "comprehensive university",
+    "open-access publisher",
+    "public research university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Universität Heidelberg"
+  },
+  {
+   "id": "Q127429",
+   "name": "Allianz Arena",
+   "sl": 80,
+   "file": "Allianz arena daylight Richard Bartz.jpg",
+   "lat": 48.2188,
+   "lon": 11.6248,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Allianz Arena"
+  },
+  {
+   "id": "Q151897",
+   "name": "Reichstag",
+   "sl": 75,
+   "file": "Reichstagsgebäude von Westen.jpg",
+   "lat": 52.5186,
+   "lon": 13.3761,
+   "kind": "built",
+   "types": [
+    "government building",
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Reichstag (building)"
+  },
+  {
+   "id": "Q3375",
+   "name": "Zugspitze",
+   "sl": 75,
+   "file": "Zugspitzmassiv-von-Almkopf-2024.jpg",
+   "lat": 47.4212,
+   "lon": 10.9863,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Zugspitze"
+  },
+  {
+   "id": "Q151374",
+   "name": "Berlin Olympic Stadium",
+   "sl": 72,
+   "file": "Olympiastadion Berlin 2015.jpg",
+   "lat": 52.5147,
+   "lon": 13.2394,
+   "kind": "built",
+   "types": [
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olympiastadion Berlin"
+  },
+  {
+   "id": "Q144825",
+   "name": "Kiel Canal",
+   "sl": 67,
+   "file": "13-09-23-Fotoflug-Nordsee-RalfR-N3S 0008.jpg",
+   "lat": 53.8833,
+   "lon": 9.1333,
+   "kind": "built",
+   "types": [
+    "canal",
+    "ship canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kiel Canal"
+  },
+  {
+   "id": "Q131402",
+   "name": "Munich Airport",
+   "sl": 67,
+   "file": "Munich Airport Aerial View T1 T2 MAC.jpg",
+   "lat": 48.3538,
+   "lon": 11.7861,
+   "kind": "built",
+   "types": [
+    "commercial airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Munich Airport"
+  },
+  {
+   "id": "Q5908",
+   "name": "Aachen Cathedral",
+   "sl": 64,
+   "file": "Aachen Germany Imperial-Cathedral-01.jpg",
+   "lat": 50.7748,
+   "lon": 6.0839,
+   "kind": "built",
+   "types": [
+    "church building",
+    "imperial cathedral"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Aachen Cathedral"
+  },
+  {
+   "id": "Q152131",
+   "name": "Sudetes",
+   "sl": 64,
+   "file": "Śnieżka z zachodu.jpg",
+   "lat": 50.7361,
+   "lon": 15.74,
+   "kind": "natural",
+   "types": [
+    "geomorphological subprovince",
+    "low mountain range",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ",
+    "PL"
+   ],
+   "cat": "Sudetes"
+  },
+  {
+   "id": "Q157298",
+   "name": "Pergamon Museum",
+   "sl": 61,
+   "file": "Pergamonmuseum Front.jpg",
+   "lat": 52.521,
+   "lon": 13.396,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pergamonmuseum"
+  },
+  {
+   "id": "Q150928",
+   "name": "Westfalenstadion",
+   "sl": 61,
+   "file": "Signal iduna park stadium dortmund 6.jpg",
+   "lat": 51.4925,
+   "lon": 7.4517,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Westfalenstadion"
+  },
+  {
+   "id": "Q4198",
+   "name": "Ore Mountains",
+   "sl": 60,
+   "file": "Auersberg panorama (aka).jpg",
+   "lat": 50.5,
+   "lon": 13,
+   "kind": "natural",
+   "types": [
+    "cultural landscape",
+    "low mountain range",
+    "mesoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ"
+   ],
+   "cat": "Ore Mountains"
+  },
+  {
+   "id": "Q150961",
+   "name": "Arena AufSchalke",
+   "sl": 58,
+   "file": "Gelsenkirchen - Schalker Feld - AufSchalke 26 ies.jpg",
+   "lat": 51.5545,
+   "lon": 7.0676,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Veltins-Arena"
+  },
+  {
+   "id": "Q151356",
+   "name": "Fernsehturm Berlin",
+   "sl": 58,
+   "file": "Tv-turm - panoramio.jpg",
+   "lat": 52.5208,
+   "lon": 13.4094,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "observation tower",
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berliner Fernsehturm"
+  },
+  {
+   "id": "Q151545",
+   "name": "Wartburg",
+   "sl": 58,
+   "file": "Thuringia Eisenach asv2020-07 img23 Wartburg Castle.jpg",
+   "lat": 50.9661,
+   "lon": 10.3064,
+   "kind": "built",
+   "types": [
+    "building",
+    "castle",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wartburg Castle"
+  },
+  {
+   "id": "Q4138",
+   "name": "Chiemsee",
+   "sl": 57,
+   "file": "Aerial image of the Chiemsee (view from the southwest).jpg",
+   "lat": 47.89,
+   "lon": 12.47,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chiemsee (lake)"
+  },
+  {
+   "id": "Q22720",
+   "name": "Speyer Cathedral",
+   "sl": 57,
+   "file": "Aerial image of the Speyer Cathedral (view from the southwest) (cropped).jpg",
+   "lat": 49.3172,
+   "lon": 8.4425,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "imperial cathedral"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Speyer Cathedral"
+  },
+  {
+   "id": "Q131610",
+   "name": "Munich Olympic Stadium",
+   "sl": 56,
+   "file": "Blick vom Olympiaberg auf das Olympiastadion.jpg",
+   "lat": 48.1731,
+   "lon": 11.5467,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Olympic stadium",
+    "pitch",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olympic Stadium, Munich"
+  },
+  {
+   "id": "Q160556",
+   "name": "Berlin Brandenburg Airport",
+   "sl": 55,
+   "file": "Berlin Brandenburg Airport Terminal 1 at night.jpg",
+   "lat": 52.3622,
+   "lon": 13.5007,
+   "kind": "built",
+   "types": [
+    "commercial airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berlin Brandenburg Airport"
+  },
+  {
+   "id": "Q9688",
+   "name": "Berlin-Tegel Airport",
+   "sl": 55,
+   "file": "Berlin-Tegel from the air.jpg",
+   "lat": 52.5597,
+   "lon": 13.2878,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "former aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berlin-Tegel Airport"
+  },
+  {
+   "id": "Q131617",
+   "name": "Deutsches Museum",
+   "sl": 55,
+   "file": "Deutsches Museum Portrait 4.jpg",
+   "lat": 48.13,
+   "lon": 11.5833,
+   "kind": "built",
+   "types": [
+    "national museum",
+    "science museum",
+    "technology museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Deutsches Museum"
+  },
+  {
+   "id": "Q26082",
+   "name": "Ishtar Gate",
+   "sl": 55,
+   "file": "Ishtar Gate at Berlin Museum.jpg",
+   "lat": 32.5433,
+   "lon": 44.4222,
+   "kind": "built",
+   "types": [
+    "arch",
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IQ"
+   ],
+   "cat": "Ishtar Gate"
+  },
+  {
+   "id": "Q152349",
+   "name": "MHPArena",
+   "sl": 54,
+   "file": "Blick vom Rotenberg Stadion.jpg",
+   "lat": 48.7922,
+   "lon": 9.2319,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "MHPArena (Stuttgart)"
+  },
+  {
+   "id": "Q150933",
+   "name": "Volksparkstadion",
+   "sl": 54,
+   "file": "RK 1009 9831 Volksparkstadion.jpg",
+   "lat": 53.5869,
+   "lon": 9.8986,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volksparkstadion"
+  },
+  {
+   "id": "Q157273",
+   "name": "Waldstadion",
+   "sl": 54,
+   "file": "Frankfurt stadium.jpg",
+   "lat": 50.0686,
+   "lon": 8.6453,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Waldstadion (Frankfurt am Main)"
+  },
+  {
+   "id": "Q157290",
+   "name": "Bohemian Forest",
+   "sl": 53,
+   "file": "Topo boehmerwald engleder.jpg",
+   "lat": 49,
+   "lon": 13.5,
+   "kind": "natural",
+   "types": [
+    "low mountain range",
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT",
+    "CZ"
+   ],
+   "cat": "Šumava"
+  },
+  {
+   "id": "Q151893",
+   "name": "RheinEnergie Stadion",
+   "sl": 53,
+   "file": "Drohnenaufnahme RheinEnergieStadion im Sportpark Müngersdorf-0551.jpg",
+   "lat": 50.9336,
+   "lon": 6.875,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "RheinEnergieStadion"
+  },
+  {
+   "id": "Q151330",
+   "name": "Sanssouci Palace",
+   "sl": 53,
+   "file": ".00 2522 Schloss Sanssouci in Potsdam.jpg",
+   "lat": 52.4033,
+   "lon": 13.0386,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q852427",
+    "name": "Palaces and Parks of Potsdam and Berlin"
+   },
+   "also": [],
+   "cat": "Schloss Sanssouci"
+  },
+  {
+   "id": "Q7332",
+   "name": "Bergen-Belsen concentration camp",
+   "sl": 52,
+   "file": "Bergen Belsen Liberation 03.jpg",
+   "lat": 52.7589,
+   "lon": 9.9071,
+   "kind": "built",
+   "types": [
+    "concentration camp",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bergen-Belsen concentration camp"
+  },
+  {
+   "id": "Q154828",
+   "name": "Berlin Zoological Garden",
+   "sl": 52,
+   "file": "Giraffe-berlin-zoo.jpg",
+   "lat": 52.5083,
+   "lon": 13.3375,
+   "kind": "built",
+   "types": [
+    "nonprofit organization",
+    "tourist destination",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zoologischer Garten Berlin"
+  },
+  {
+   "id": "Q27706",
+   "name": "Hamburg Airport",
+   "sl": 52,
+   "file": "Hamburg airport terminals.jpg",
+   "lat": 53.6304,
+   "lon": 9.9882,
+   "kind": "built",
+   "types": [
+    "commercial airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hamburg Airport"
+  },
+  {
+   "id": "Q131631",
+   "name": "Nymphenburg Palace",
+   "sl": 52,
+   "file": "Schloss Nymphenburg, Weitwinkelansicht.jpg",
+   "lat": 48.1581,
+   "lon": 11.5036,
+   "kind": "built",
+   "types": [
+    "château",
+    "cultural heritage ensemble",
+    "museum",
+    "secular building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nymphenburg Palace"
+  },
+  {
+   "id": "Q154563",
+   "name": "Berlin Cathedral",
+   "sl": 51,
+   "file": "Berliner Dom von Humboldt-Box.jpg",
+   "lat": 52.5192,
+   "lon": 13.4011,
+   "kind": "built",
+   "types": [
+    "court church",
+    "Lutheran cathedral",
+    "Lutheran church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berlin Cathedral"
+  },
+  {
+   "id": "Q44562",
+   "name": "Ulm Minster",
+   "sl": 51,
+   "file": "Landappbw 526530 1820 Ulmer Münster Luftaufnahme Ulmer Münster (cropped).jpg",
+   "lat": 48.3986,
+   "lon": 9.9925,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulm Minster"
+  },
+  {
+   "id": "Q68689",
+   "name": "Checkpoint Charlie",
+   "sl": 50,
+   "file": "06 Friedrichstrasse, Berlin - Flickr - The Central Intelligence Agency.jpg",
+   "lat": 52.5075,
+   "lon": 13.3903,
+   "kind": "built",
+   "types": [
+    "Berlin border crossing"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Checkpoint Charlie"
+  },
+  {
+   "id": "Q58226",
+   "name": "Düsseldorf Airport",
+   "sl": 50,
+   "file": "Aerial image of the Düsseldorf Airport.jpg",
+   "lat": 51.2809,
+   "lon": 6.7573,
+   "kind": "built",
+   "types": [
+    "commercial airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Düsseldorf Airport"
+  },
+  {
+   "id": "Q156971",
+   "name": "EuroAirport Basel-Mulhouse-Freiburg",
+   "sl": 50,
+   "file": "Euroairport from the air (7262130986).jpg",
+   "lat": 47.5997,
+   "lon": 7.5316,
+   "kind": "built",
+   "types": [
+    "airport straddling borders",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Bâle-Mulhouse Airport"
+  },
+  {
+   "id": "Q152252",
+   "name": "Potsdamer Platz",
+   "sl": 50,
+   "file": "PotsdamerPlatz Vogelperspektive 2004 1.jpg",
+   "lat": 52.5089,
+   "lon": 13.3763,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Potsdamer Platz (Berlin)"
+  },
+  {
+   "id": "Q109773",
+   "name": "Teutoburg Forest",
+   "sl": 50,
+   "file": "Bielstein (Teutoburger Wald).jpg",
+   "lat": 51.8956,
+   "lon": 8.8136,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "low mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teutoburg Forest"
+  },
+  {
+   "id": "Q160899",
+   "name": "Unter den Linden",
+   "sl": 50,
+   "file": "Unter den Linden von oben.jpg",
+   "lat": 52.5166,
+   "lon": 13.381,
+   "kind": "built",
+   "types": [
+    "boulevard"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Unter den Linden (Berlin-Mitte)"
+  },
+  {
+   "id": "Q152783",
+   "name": "Alexanderplatz",
+   "sl": 49,
+   "file": "Berlin - Alexanderplatz1.jpg",
+   "lat": 52.5217,
+   "lon": 13.4136,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alexanderplatz (Berlin-Mitte)"
+  },
+  {
+   "id": "Q154996",
+   "name": "Charlottenburg Palace",
+   "sl": 49,
+   "file": "Schloss Charlottenburg 2025.jpg",
+   "lat": 52.5211,
+   "lon": 13.2958,
+   "kind": "built",
+   "types": [
+    "château",
+    "museum",
+    "summer residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Charlottenburg Palace"
+  },
+  {
+   "id": "Q153491",
+   "name": "Führerbunker",
+   "sl": 49,
+   "file": "Bundesarchiv Bild 183-V04744, Berlin, Garten der zerstörte Reichskanzlei.jpg",
+   "lat": 52.5125,
+   "lon": 13.3815,
+   "kind": "built",
+   "types": [
+    "air-raid shelter",
+    "bunker",
+    "underground infrastructure system"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Führerbunker"
+  },
+  {
+   "id": "Q152339",
+   "name": "Porta Nigra",
+   "sl": 49,
+   "file": "Porta Nigra morgens (100MP).jpg",
+   "lat": 49.7597,
+   "lon": 6.6439,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q279968",
+    "name": "Roman Monuments, Cathedral of St. Peter and Church of Our Lady in Trier UNESCO World Heritage Site"
+   },
+   "also": [],
+   "cat": "Porta Nigra"
+  },
+  {
+   "id": "Q210466",
+   "name": "Red Bull Arena",
+   "sl": 49,
+   "file": "Leipzig stadium.jpg",
+   "lat": 51.3458,
+   "lon": 12.3481,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Red Bull Arena (Leipzig)"
+  },
+  {
+   "id": "Q1097",
+   "name": "Berlin Central Station",
+   "sl": 48,
+   "file": "Berlín hlavní nádraží.jpg",
+   "lat": 52.5251,
+   "lon": 13.3694,
+   "kind": "built",
+   "types": [
+    "central station",
+    "elevated station",
+    "multi-level interchange railway station",
+    "underground railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berlin Hauptbahnhof"
+  },
+  {
+   "id": "Q157229",
+   "name": "Church of Our Lady",
+   "sl": 48,
+   "file": "100130 150006 Dresden Frauenkirche winter blue sky-2.jpg",
+   "lat": 51.0519,
+   "lon": 13.7417,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Frauenkirche (Dresden)"
+  },
+  {
+   "id": "Q156715",
+   "name": "Königssee",
+   "sl": 48,
+   "file": "Aerial image of Königssee (view from the south).jpg",
+   "lat": 47.55,
+   "lon": 12.975,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Königssee"
+  },
+  {
+   "id": "Q131615",
+   "name": "Lake Starnberg",
+   "sl": 48,
+   "file": "Aerial image of Lake Starnberg (view from the south).jpg",
+   "lat": 47.9039,
+   "lon": 11.3072,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Starnberger See"
+  },
+  {
+   "id": "Q153085",
+   "name": "Rhine-Main-Danube Canal",
+   "sl": 48,
+   "file": "Kanal-Fuerth 20080720 SK 0005.jpg",
+   "lat": 49.1917,
+   "lon": 11.2508,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Main-Danube Canal"
+  },
+  {
+   "id": "Q158732",
+   "name": "Stuttgart Airport",
+   "sl": 48,
+   "file": "Luftbild EDDS edit.jpg",
+   "lat": 48.6899,
+   "lon": 9.222,
+   "kind": "built",
+   "types": [
+    "commercial airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stuttgart Airport"
+  },
+  {
+   "id": "Q154568",
+   "name": "Alte Pinakothek",
+   "sl": 47,
+   "file": "Alte Pinakothek.JPG",
+   "lat": 48.1483,
+   "lon": 11.57,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alte Pinakothek"
+  },
+  {
+   "id": "Q156457",
+   "name": "Hohenzollern Castle",
+   "sl": 47,
+   "file": "Burg Hohenzollern ak.jpg",
+   "lat": 48.3236,
+   "lon": 8.9674,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hohenzollern Castle"
+  },
+  {
+   "id": "Q4168",
+   "name": "Loreley",
+   "sl": 47,
+   "file": "Loreley 2025.jpg",
+   "lat": 50.1394,
+   "lon": 7.7289,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Loreley"
+  },
+  {
+   "id": "Q155351",
+   "name": "Merkur Spiel-Arena",
+   "sl": 47,
+   "file": "LTU arena panorama.jpg",
+   "lat": 51.2615,
+   "lon": 6.7331,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Merkur Spiel-Arena"
+  },
+  {
+   "id": "Q157316",
+   "name": "Neues Museum",
+   "sl": 47,
+   "file": "Neues Museum - Joy of Museums.jpg",
+   "lat": 52.5202,
+   "lon": 13.3976,
+   "kind": "built",
+   "types": [
+    "museum",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Neues Museum (Berlin)"
+  },
+  {
+   "id": "Q159483",
+   "name": "Ravensbrück concentration camp",
+   "sl": 47,
+   "file": "Bundesarchiv Bild 183-1985-0417-15, Ravensbrück, Konzentrationslager.jpg",
+   "lat": 53.1899,
+   "lon": 13.1688,
+   "kind": "built",
+   "types": [
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ravensbrück concentration camp"
+  },
+  {
+   "id": "Q159860",
+   "name": "Vaalserberg",
+   "sl": 47,
+   "file": "Ac vaalserberg.JPG",
+   "lat": 50.7547,
+   "lon": 6.0208,
+   "kind": "both",
+   "types": [
+    "hill",
+    "international tripoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BE"
+   ],
+   "cat": "Vaalserberg"
+  },
+  {
+   "id": "Q465816",
+   "name": "Dogger Bank",
+   "sl": 46,
+   "file": "Doggerbank.jpg",
+   "lat": 55.25,
+   "lon": 3.5,
+   "kind": "natural",
+   "types": [
+    "ocean bank"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DK",
+    "GB"
+   ],
+   "cat": "Dogger Bank"
+  },
+  {
+   "id": "Q154498",
+   "name": "Sachsenhausen concentration camp",
+   "sl": 46,
+   "file": "Sachsenhausen 2 - Flickr - GregTheBusker.jpg",
+   "lat": 52.7662,
+   "lon": 13.2624,
+   "kind": "built",
+   "types": [
+    "concentration camp",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sachsenhausen concentration camp"
+  },
+  {
+   "id": "Q156316",
+   "name": "Würzburg Residence",
+   "sl": 46,
+   "file": "Residenz Würzburg, Südfront, 1.jpg",
+   "lat": 49.7928,
+   "lon": 9.9389,
+   "kind": "built",
+   "types": [
+    "museum",
+    "palace",
+    "Schloss"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Würzburg Residence with the Court Gardens and Residence Square"
+  },
+  {
+   "id": "Q156292",
+   "name": "Augustusburg and Falkenlust Palaces",
+   "sl": 45,
+   "file": "Schloss Augustusburg, Southern Facade, November 2017 -01.jpg",
+   "lat": 50.8275,
+   "lon": 6.9081,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Castles of Augustusburg and Falkenlust at Brühl"
+  },
+  {
+   "id": "Q170119",
+   "name": "Berlin Palace",
+   "sl": 45,
+   "file": "Berlin-Mitte-Ehemaliges Berliner Schloss-ZI-0136-06-Th176311.jpg",
+   "lat": 52.5175,
+   "lon": 13.4028,
+   "kind": "built",
+   "types": [
+    "administrative building",
+    "château",
+    "city palace",
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berlin Palace"
+  },
+  {
+   "id": "Q9689",
+   "name": "Berlin Schönefeld Airport",
+   "sl": 45,
+   "file": "FLUGHAFEN SCHONEFELD BERLIN GERMANY JUNE 2013 (9025967808).jpg",
+   "lat": 52.3786,
+   "lon": 13.5206,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berlin-Schönefeld Airport"
+  },
+  {
+   "id": "Q157741",
+   "name": "Cologne Bonn Airport",
+   "sl": 45,
+   "file": "Glasdach Bahnhof Köln-Bonn Flughafen-7035.jpg",
+   "lat": 50.8659,
+   "lon": 7.1427,
+   "kind": "built",
+   "types": [
+    "commercial airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cologne Bonn Airport"
+  },
+  {
+   "id": "Q155693",
+   "name": "Lichtenstein Castle",
+   "sl": 45,
+   "file": "Schloss Lichtenstein 04-2010.jpg",
+   "lat": 48.4066,
+   "lon": 9.2583,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Schloss Lichtenstein (Württemberg)"
+  },
+  {
+   "id": "Q157886",
+   "name": "Maulbronn Monastery",
+   "sl": 45,
+   "file": "Kloster Maulbronn 2009.jpg",
+   "lat": 49.0011,
+   "lon": 8.8129,
+   "kind": "built",
+   "types": [
+    "former administrative territorial entity",
+    "monastery",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Maulbronn Monastery complex"
+  },
+  {
+   "id": "Q156308",
+   "name": "Muskau Park",
+   "sl": 45,
+   "file": "1024 2012-1-sept-5088.jpg",
+   "lat": 51.5476,
+   "lon": 14.7232,
+   "kind": "built",
+   "types": [
+    "English garden",
+    "park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Muskau Park"
+  },
+  {
+   "id": "Q156675",
+   "name": "Wieskirche",
+   "sl": 45,
+   "file": "Wieskirche boenisch okt 2003.jpg",
+   "lat": 47.6806,
+   "lon": 10.9004,
+   "kind": "built",
+   "types": [
+    "Catholic pilgrimage church",
+    "church building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wieskirche"
+  },
+  {
+   "id": "Q157550",
+   "name": "Abbey and Altenmünster of Lorsch",
+   "sl": 44,
+   "file": "Lorsch.jpg",
+   "lat": 49.6537,
+   "lon": 8.5686,
+   "kind": "built",
+   "types": [
+    "abbey",
+    "monastery",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Abbey and Altenmünster of Lorsch"
+  },
+  {
+   "id": "Q156722",
+   "name": "Altes Museum",
+   "sl": 44,
+   "file": "Berlín Staré muzeum 4.jpg",
+   "lat": 52.5194,
+   "lon": 13.3989,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "history museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Altes Museum (Berlin)"
+  },
+  {
+   "id": "Q157825",
+   "name": "Bode Museum",
+   "sl": 44,
+   "file": "Berlin Museumsinsel Fernsehturm.jpg",
+   "lat": 52.5219,
+   "lon": 13.3947,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bode-Museum"
+  },
+  {
+   "id": "Q167193",
+   "name": "Frauenkirche",
+   "sl": 44,
+   "file": "Frauenkirche Munich - View from Peterskirche Tower.jpg",
+   "lat": 48.1386,
+   "lon": 11.5736,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "Catholic parish church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Frauenkirche (Munich)"
+  }
+ ]
+}

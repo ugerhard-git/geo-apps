@@ -1,0 +1,22 @@
+{
+ "country": "CC",
+ "items": [
+  {
+   "id": "Q1105469",
+   "name": "Cocos (Keeling) Islands Airport",
+   "sl": 24,
+   "file": "Cocos (Keeling) Islands Airport - RWY33.jpg",
+   "lat": -12.1883,
+   "lon": 96.8339,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cocos (Keeling) Islands Airport"
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "country": "JM",
+ "items": [
+  {
+   "id": "Q885798",
+   "name": "Blue Mountain Peak",
+   "sl": 32,
+   "file": "Blue Mountain Peak.jpg",
+   "lat": 18.0467,
+   "lon": -76.5792,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Mountain Peak"
+  },
+  {
+   "id": "Q1432206",
+   "name": "Norman Manley International Airport",
+   "sl": 31,
+   "file": "Norman Manley International Airport.jpg",
+   "lat": 17.9356,
+   "lon": -76.7875,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Norman Manley International Airport"
+  },
+  {
+   "id": "Q174140",
+   "name": "Sangster International Airport",
+   "sl": 24,
+   "file": "Sangster Airport.jpg",
+   "lat": 18.5036,
+   "lon": -77.9133,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sangster International Airport"
+  },
+  {
+   "id": "Q4930049",
+   "name": "Blue and John Crow Mountains National Park",
+   "sl": 20,
+   "file": "Blue Mountains, Jamaica.jpg",
+   "lat": 18.0775,
+   "lon": -76.5711,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue and John Crow Mountains National Park"
+  },
+  {
+   "id": "Q1661072",
+   "name": "Independence Park",
+   "sl": 17,
+   "file": "Independence Park.jpg",
+   "lat": 18.0019,
+   "lon": -76.7717,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "velodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1266226",
+   "name": "Dunn's River Falls",
+   "sl": 16,
+   "file": "Dunns River Falls climb.JPG",
+   "lat": 18.4158,
+   "lon": -77.1381,
+   "kind": "natural",
+   "types": [
+    "coastal waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dunn's River Falls"
+  },
+  {
+   "id": "Q1370745",
+   "name": "Sabina Park",
+   "sl": 14,
+   "file": "Sabina Park.jpg",
+   "lat": 17.9779,
+   "lon": -76.7826,
+   "kind": "built",
+   "types": [
+    "cricket field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sabina Park"
+  },
+  {
+   "id": "Q3352144",
+   "name": "Palisadoes",
+   "sl": 13,
+   "file": "Jamaica Palisadoes Kingston; Harbor View Photo Katinka Zuchowicz Photography DSC 8572-2(2).jpg",
+   "lat": 17.9417,
+   "lon": -76.7417,
+   "kind": "natural",
+   "types": [
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palisadoes"
+  },
+  {
+   "id": "Q650517",
+   "name": "Bob Marley Museum",
+   "sl": 12,
+   "file": "56hoperd.JPG",
+   "lat": 18.0196,
+   "lon": -76.7798,
+   "kind": "built",
+   "types": [
+    "biographical museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bob Marley Museum"
+  },
+  {
+   "id": "Q3773063",
+   "name": "Goldeneye",
+   "sl": 12,
+   "file": "GoldeneyeEstate.jpg",
+   "lat": 18.4108,
+   "lon": -76.9436,
+   "kind": "built",
+   "types": [
+    "historic house",
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goldeneye (estate)"
+  },
+  {
+   "id": "Q6129978",
+   "name": "James Bond Beach",
+   "sl": 10,
+   "file": "JamesBondBeach3.jpg",
+   "lat": 18.4061,
+   "lon": -76.9481,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3197133",
+   "name": "Kingston Harbour",
+   "sl": 9,
+   "file": "Jamaica Kingston Harbor.png",
+   "lat": 17.9539,
+   "lon": -76.8037,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kingston Harbour"
+  },
+  {
+   "id": "Q3699493",
+   "name": "Rose Hall, Montego Bay",
+   "sl": 9,
+   "file": "Rose Hall Jamaica Photo Don Ramey Logan.jpg",
+   "lat": 18.5167,
+   "lon": -77.8193,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rose Hall, Montego Bay"
+  },
+  {
+   "id": "Q4120542",
+   "name": "Trelawny Stadium",
+   "sl": 8,
+   "file": "Trelawny Stadium.jpg",
+   "lat": 18.4729,
+   "lon": -77.6313,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Greenfield Stadium, Trelawny"
+  }
+ ]
+}

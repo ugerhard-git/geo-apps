@@ -1,0 +1,1069 @@
+{
+ "country": "TJ",
+ "items": [
+  {
+   "id": "Q486324",
+   "name": "Ferghana Valley",
+   "sl": 75,
+   "file": "Ferganadall (Satellitebild).jpg",
+   "lat": 40.9008,
+   "lon": 71.7578,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG",
+    "UZ"
+   ],
+   "cat": "Fergana Valley"
+  },
+  {
+   "id": "Q41413",
+   "name": "Ismoil Somoni Peak",
+   "sl": 55,
+   "file": "Kommunismi pilt 6100m.jpg",
+   "lat": 38.9427,
+   "lon": 72.0153,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ismail Samani Peak"
+  },
+  {
+   "id": "Q838587",
+   "name": "Lenin Peak",
+   "sl": 46,
+   "file": "Lenin peak from Sary-mogol.jpg",
+   "lat": 39.3437,
+   "lon": 72.8779,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG"
+   ],
+   "cat": "Lenin Peak"
+  },
+  {
+   "id": "Q720015",
+   "name": "Karakul",
+   "sl": 42,
+   "file": "Вершина Уртабуз. Вдали - Пик Ленина. Внизу - озеро Каракуль.JPG",
+   "lat": 39.04,
+   "lon": 73.42,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "protected area",
+    "volcanic crater lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3076575",
+    "name": "Pamir National Park"
+   },
+   "also": [],
+   "cat": "Kara-Kul"
+  },
+  {
+   "id": "Q913334",
+   "name": "Norak Dam",
+   "sl": 40,
+   "file": "Nurek Dam.JPG",
+   "lat": 38.3712,
+   "lon": 69.3482,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nurek Dam"
+  },
+  {
+   "id": "Q3076575",
+   "name": "Pamir National Park",
+   "sl": 39,
+   "file": "Pamir Mountains, Tajikistan, 06-04-2008.jpg",
+   "lat": 38.7412,
+   "lon": 72.1198,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tajikistan national park"
+  },
+  {
+   "id": "Q226748",
+   "name": "Zorkul",
+   "sl": 39,
+   "file": "Lake Zorkul.jpg",
+   "lat": 37.4503,
+   "lon": 73.7251,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AF"
+   ],
+   "cat": "Zorkul Lake"
+  },
+  {
+   "id": "Q422929",
+   "name": "Sarazm",
+   "sl": 38,
+   "file": "Sarazm,area12-W.jpg",
+   "lat": 39.5167,
+   "lon": 67.5667,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarazm"
+  },
+  {
+   "id": "Q631789",
+   "name": "Vandzhyakh Glacier",
+   "sl": 36,
+   "file": "Fedchenko Glacier.jpg",
+   "lat": 38.767,
+   "lon": 72.283,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fedchenko Glacier"
+  },
+  {
+   "id": "Q545239",
+   "name": "Peak Ozodi",
+   "sl": 32,
+   "file": "Peak Korzhenevskoi Pamir from Borodkina ridge at sunset.jpg",
+   "lat": 39.0559,
+   "lon": 72.0117,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peak Korzhenevskaya"
+  },
+  {
+   "id": "Q1474460",
+   "name": "Sarez Lake",
+   "sl": 32,
+   "file": "Sarez 23.jpg",
+   "lat": 38.25,
+   "lon": 72.6167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarez Lake"
+  },
+  {
+   "id": "Q532778",
+   "name": "Dushanbe International Airport",
+   "sl": 31,
+   "file": "Dushanbe international airport 2026.jpg",
+   "lat": 38.5436,
+   "lon": 68.8217,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dushanbe International Airport"
+  },
+  {
+   "id": "Q1891844",
+   "name": "Rogun Dam",
+   "sl": 26,
+   "file": "Rogun Dam.jpg",
+   "lat": 38.6825,
+   "lon": 69.7725,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rogun Dam"
+  },
+  {
+   "id": "Q2478596",
+   "name": "Iskanderkul",
+   "sl": 25,
+   "file": "Iskander-kul, Tajikistan.JPG",
+   "lat": 39.0744,
+   "lon": 68.3683,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iskanderkul"
+  },
+  {
+   "id": "Q619132",
+   "name": "Pik Garmo",
+   "sl": 24,
+   "file": "Pamir Mountains, Tajikistan, 06-04-2008.jpg",
+   "lat": 38.8109,
+   "lon": 72.0716,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1670220",
+   "name": "Pik Karla Marxa",
+   "sl": 24,
+   "file": "Peak Karl Marx 6723m.jpg",
+   "lat": 37.1625,
+   "lon": 72.4817,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2981137",
+   "name": "Pamir Stadium",
+   "sl": 23,
+   "file": "Fc-Istiklol..jpg",
+   "lat": 38.5859,
+   "lon": 68.7695,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1138108",
+   "name": "Tigrovaya Balka Nature Reserve",
+   "sl": 23,
+   "file": "Дарёкул-1.jpg",
+   "lat": 37.25,
+   "lon": 68.5,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tigrovaya balka"
+  },
+  {
+   "id": "Q2280882",
+   "name": "Alexandria Eschate",
+   "sl": 22,
+   "file": "EuthydemusI.jpg",
+   "lat": 40.2861,
+   "lon": 69.6172,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q668883",
+   "name": "Kayrakkum Reservoir",
+   "sl": 22,
+   "file": "Таджикское Море 2015.jpg",
+   "lat": 40.29,
+   "lon": 70.06,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kayrakkum Reservoir"
+  },
+  {
+   "id": "Q2631952",
+   "name": "Khujand Airport",
+   "sl": 20,
+   "file": "Khujand (LBD - UTDL) AN2218848.jpg",
+   "lat": 40.2153,
+   "lon": 69.6947,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khujand International Airport"
+  },
+  {
+   "id": "Q1962119",
+   "name": "Tajikistan National Museum",
+   "sl": 20,
+   "file": "National Museum of Tajikistan Национальный музей Таджикистана(0) Осорхонаи милли.jpg",
+   "lat": 38.5823,
+   "lon": 68.7795,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Tajikistan"
+  },
+  {
+   "id": "Q2631474",
+   "name": "Yashikul",
+   "sl": 20,
+   "file": "Jaschilkul.jpg",
+   "lat": 37.75,
+   "lon": 72.8833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yashilkul"
+  },
+  {
+   "id": "Q4057547",
+   "name": "Buddhistic cloister of Ajina-Tepa",
+   "sl": 19,
+   "file": "Ajina-Tepa.jpg",
+   "lat": 37.798,
+   "lon": 68.8544,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q135442987",
+    "name": "Cultural Heritage Sites of Ancient Khuttal"
+   },
+   "also": [],
+   "cat": "Ajina-Tepa"
+  },
+  {
+   "id": "Q2346429",
+   "name": "Kyzylart Pass",
+   "sl": 19,
+   "file": "WillkommenInGornoBadachschan.JPG",
+   "lat": 39.3843,
+   "lon": 73.3225,
+   "kind": "natural",
+   "types": [
+    "col",
+    "mountain pass"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG"
+   ],
+   "cat": "Kyzylart Pass"
+  },
+  {
+   "id": "Q2652909",
+   "name": "Hisar Valley",
+   "sl": 18,
+   "file": "Dushanbe panorama 04.jpg",
+   "lat": 38.5333,
+   "lon": 68.7667,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hissar Valley"
+  },
+  {
+   "id": "Q122666385",
+   "name": "Silk Roads: Zarafshan-Karakum Corridor",
+   "sl": 18,
+   "file": "Rabat Malik 12-50.JPG",
+   "lat": 39.4415,
+   "lon": 69.6856,
+   "kind": "natural",
+   "types": [
+    "transboundary site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "TM",
+    "UZ"
+   ],
+   "cat": "Silk Roads: Zarafshan-Karakum Corridor"
+  },
+  {
+   "id": "Q2094758",
+   "name": "Engels Peak",
+   "sl": 17,
+   "file": "Pik Engels.jpg",
+   "lat": 37.1718,
+   "lon": 72.5194,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Engels Peak"
+  },
+  {
+   "id": "Q2749807",
+   "name": "Great Farg'ona Canal",
+   "sl": 17,
+   "file": "Great Fergana Canal near Andijan.jpg",
+   "lat": 40.2,
+   "lon": 69.9,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KG",
+    "UZ"
+   ],
+   "cat": "Great Fergana Canal"
+  },
+  {
+   "id": "Q3377037",
+   "name": "Usoi Dam",
+   "sl": 16,
+   "file": "Usoi.jpg",
+   "lat": 38.281,
+   "lon": 72.6134,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Usoi Dam"
+  },
+  {
+   "id": "Q1962237",
+   "name": "Historical Museum of Sughd",
+   "sl": 15,
+   "file": "Historical Museum of Sughd region in Khujand, Tajikistan (2025).jpg",
+   "lat": 40.285,
+   "lon": 69.6181,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Historical Museum of Sughd Region"
+  },
+  {
+   "id": "Q15205803",
+   "name": "Bulunkul",
+   "sl": 13,
+   "file": "Bulunkul lake - panoramio.jpg",
+   "lat": 37.7231,
+   "lon": 72.96,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bulunkul"
+  },
+  {
+   "id": "Q2231909",
+   "name": "Kulob Airport",
+   "sl": 13,
+   "file": "Kulyab Airport Osokin.jpg",
+   "lat": 37.9883,
+   "lon": 69.805,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kulob Airport"
+  },
+  {
+   "id": "Q3382321",
+   "name": "Moscow Peak",
+   "sl": 13,
+   "file": "Pik Moskva.jpg",
+   "lat": 38.9478,
+   "lon": 71.834,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7676856",
+   "name": "Tajik–Afghan Friendship Bridge",
+   "sl": 13,
+   "file": "Bridge Qalaikhum & Nusay of Darwaz.jpg",
+   "lat": 38.4533,
+   "lon": 70.8272,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AF"
+   ],
+   "cat": "Nusay - Qalai Khumb Bridge"
+  },
+  {
+   "id": "Q1319974",
+   "name": "Bokhtar International Airport",
+   "sl": 12,
+   "file": "Фурудгоҳи байналмилалии Қурғонтеппа (approach).jpg",
+   "lat": 37.8622,
+   "lon": 68.8628,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bokhtar International Airport"
+  },
+  {
+   "id": "Q7498194",
+   "name": "Shir Khan Bandar",
+   "sl": 12,
+   "file": "Afghan border crossing at Sher Khan in Kunduz Province-4-cropped.jpg",
+   "lat": 37.19,
+   "lon": 68.615,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "dry port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AF"
+   ],
+   "cat": "Sher Khan Border Crossing"
+  },
+  {
+   "id": "Q5931038",
+   "name": "Stadium Metallurg 1st District",
+   "sl": 12,
+   "file": "Regar celebrates.jpg",
+   "lat": 38.5176,
+   "lon": 68.2162,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6554804",
+   "name": "Takhti-Sangin",
+   "sl": 12,
+   "file": "Takht-i Sangin, plan of the Temple.jpg",
+   "lat": 37.0989,
+   "lon": 68.285,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Takht-i Sangin"
+  },
+  {
+   "id": "Q1794368",
+   "name": "Cyropolis",
+   "sl": 11,
+   "file": "Map of the Achaemenid Empire.jpg",
+   "lat": 36.7731,
+   "lon": 66.8736,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3321294",
+   "name": "Dushanbe Synagogue",
+   "sl": 11,
+   "file": "Synagogue of Dushanbe2.jpg",
+   "lat": 38.5134,
+   "lon": 68.7273,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dushanbe Synagogue"
+  },
+  {
+   "id": "Q13201851",
+   "name": "National Museum of Antiquities of Tajikistan",
+   "sl": 11,
+   "file": "National Museum of Antiquities 20141007 Tajikistan 1427 crop Dushanbe (16070647428).jpg",
+   "lat": 38.5634,
+   "lon": 68.7991,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Antiquities of Tajikistan"
+  },
+  {
+   "id": "Q854688",
+   "name": "Okno",
+   "sl": 11,
+   "file": "Okno (10).jpg",
+   "lat": 38.2808,
+   "lon": 69.2247,
+   "kind": "built",
+   "types": [
+    "military base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Okno"
+  },
+  {
+   "id": "Q5316867",
+   "name": "Dushanbe Flagpole",
+   "sl": 10,
+   "file": "View from the Dushanbe flagpole.jpg",
+   "lat": 38.579,
+   "lon": 68.7801,
+   "kind": "built",
+   "types": [
+    "flagpole"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dushanbe Flagpole"
+  },
+  {
+   "id": "Q2855719",
+   "name": "Farkhad Dam",
+   "sl": 10,
+   "file": "Farhad-GES-1200х900- 00.jpg",
+   "lat": 40.2219,
+   "lon": 69.1614,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UZ"
+   ],
+   "cat": "Farkhad Dam"
+  },
+  {
+   "id": "Q5063955",
+   "name": "Khoja Mashkhad Mausoleum",
+   "sl": 10,
+   "file": "KhojaMahshad,S.jpg",
+   "lat": 37.2202,
+   "lon": 68.1481,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "madrasa",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khoja Mahshad"
+  },
+  {
+   "id": "Q6402378",
+   "name": "Khorog Airport",
+   "sl": 10,
+   "file": "Khorug Airport.jpg",
+   "lat": 37.5022,
+   "lon": 71.5133,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q13202093",
+   "name": "State Academic Opera and Ballet Theatre of Tajikistan Sadriddin Ayni",
+   "sl": 10,
+   "file": "Театр оперы и балета, Душанбе, Таджикистан - 2024.jpg",
+   "lat": 38.5686,
+   "lon": 68.795,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ayni Opera and Ballet Theatre, Dushanbe"
+  },
+  {
+   "id": "Q16904612",
+   "name": "Zorkul Nature Reserve",
+   "sl": 10,
+   "file": "Zorkul Nature Reserve view nortz to the lake.jpg",
+   "lat": 37.4318,
+   "lon": 73.8116,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zorkul reserve"
+  },
+  {
+   "id": "Q12824964",
+   "name": "Kafirkala",
+   "sl": 9,
+   "file": "Kafirkala,citadel-W.jpg",
+   "lat": 37.5889,
+   "lon": 68.6464,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kafirkala"
+  },
+  {
+   "id": "Q4120737",
+   "name": "Pik Chimtarga",
+   "sl": 9,
+   "file": "Chimtarga Peak.jpg",
+   "lat": 39.1978,
+   "lon": 68.195,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "ultra-prominent peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q719686",
+   "name": "Rangkul",
+   "sl": 9,
+   "file": "Jan Kwiatowski & Iwona Jasser - Wyprawa po sine runo - 03.jpg",
+   "lat": 38.4783,
+   "lon": 74.2518,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rangkul"
+  },
+  {
+   "id": "Q13032586",
+   "name": "St. Nicholas Cathedral",
+   "sl": 9,
+   "file": "Кафедральный собор — Никольский в Душанбе 01.jpg",
+   "lat": 38.5664,
+   "lon": 68.8167,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St Nicholas' Cathedral, Dushanbe"
+  },
+  {
+   "id": "Q13201206",
+   "name": "Dashti-Jum Nature Reserve",
+   "sl": 8,
+   "file": "Shuro-obod City TJ.jpg",
+   "lat": 37.6286,
+   "lon": 70.0806,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q12141021",
+   "name": "Dousti Square",
+   "sl": 8,
+   "file": "Tajik Parliament House.jpg",
+   "lat": 38.5739,
+   "lon": 68.7853,
+   "kind": "built",
+   "types": [
+    "square",
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dousti Square"
+  },
+  {
+   "id": "Q13201728",
+   "name": "Golovnaya Dam",
+   "sl": 8,
+   "file": "Hills in Sarband.jpg",
+   "lat": 37.8839,
+   "lon": 68.937,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4208702",
+   "name": "Kayrakkum Dam",
+   "sl": 8,
+   "file": "ГЭС Дружба народов.jpg",
+   "lat": 40.277,
+   "lon": 69.8161,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6794043",
+   "name": "Mausoleum of \"Mukhammad Bashoro\"",
+   "sl": 8,
+   "file": "Mosques in Panjakent District.jpg",
+   "lat": 39.3876,
+   "lon": 67.8523,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6794048",
+   "name": "Mausoleum of Amir Khamza Khasti Podshoh",
+   "sl": 8,
+   "file": "Масҷид ва оромгоҳи Ҳазрати Шоҳ 01.jpg",
+   "lat": 40.1227,
+   "lon": 70.6129,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3495223",
+   "name": "Palace of Unity",
+   "sl": 8,
+   "file": "Dushanbe Vahdat Palace.jpg",
+   "lat": 38.59,
+   "lon": 68.7858,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vahdat Palace"
+  },
+  {
+   "id": "Q7289642",
+   "name": "Ramit State Nature Reserve",
+   "sl": 8,
+   "file": "Ромит.jpg",
+   "lat": 38.7723,
+   "lon": 69.4027,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ramit nature reserve"
+  },
+  {
+   "id": "Q3364555",
+   "name": "Shirkent National Park",
+   "sl": 8,
+   "file": "Райская мухоловка (cropped).jpg",
+   "lat": 38.7257,
+   "lon": 68.2347,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shirkent national park"
+  },
+  {
+   "id": "Q7676850",
+   "name": "Tajikistan–Afghanistan bridge at Panji Poyon",
+   "sl": 8,
+   "file": "Afghanistan - Tajikistan Bridge Completion.jpg",
+   "lat": 37.1944,
+   "lon": 68.6036,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AF"
+   ],
+   "cat": "Afghanistan-Tajikistan Bridge"
+  }
+ ]
+}
