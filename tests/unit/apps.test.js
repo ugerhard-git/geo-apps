@@ -659,6 +659,17 @@ test("landmarks data: what is dropped, and why", () => {
   assert.equal(dropReason({ ...base, types: ["big city"] }), "town or region");
   assert.equal(dropReason({ ...base, types: ["commune of France"] }), "town or region");
   assert.equal(dropReason({ ...base, types: ["city gate"] }), ""); // not a city
+  assert.equal(
+    dropReason({ ...base, types: ["fortified town", "human settlement"] }),
+    "town or region",
+  );
+  assert.equal(
+    dropReason({
+      ...base,
+      types: ["cadastral populated place in the Netherlands", "international airport"],
+    }),
+    "",
+  ); // Schiphol
   assert.equal(dropReason({ ...base, types: ["ancient city"], arch: true }), ""); // Thebes
   assert.equal(dropReason({ ...base, types: ["strait", "sea"] }), "broad geography");
   assert.equal(dropReason({ ...base, types: ["mountain range", "mountain"] }), "");

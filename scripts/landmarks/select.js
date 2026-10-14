@@ -121,6 +121,8 @@ export function dropReason(c) {
   // (Cairo, Calais). Ancient sites nobody lives in (Thebes) have none.
   if (c.hasPop) return "has a population (town, region or country)";
   if (!c.arch && c.types.some((t) => SETTLEMENT.test(t))) return "town or region";
+  if (!c.arch && c.types.some((t) => PEOPLED.test(t)) && !c.types.some((t) => SIGHT.test(t)))
+    return "town or region";
   if (c.types.length && c.types.every((t) => BROAD.test(t))) return "broad geography";
   if (c.types.some((t) => NOT_A_SIGHT.test(t)) && !c.types.some((t) => SIGHT.test(t)))
     return "not a single sight";
