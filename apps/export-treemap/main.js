@@ -11,9 +11,18 @@
  */
 
 import { createCountryPicker } from "../../shared/country-picker.js";
-import { $ } from "../../shared/dom.js";
+import { safeColour } from "../../shared/colour.js";
+import { $, bindColour } from "../../shared/dom.js";
 import { downloadBlob } from "../../shared/sheet.js";
-import { addLabels, drawChart, el, money, resetMeasurements, SVGNS } from "./chart.js";
+import {
+  addLabels,
+  DEFAULT_STYLE,
+  drawChart,
+  el,
+  money,
+  resetMeasurements,
+  SVGNS,
+} from "./chart.js";
 import { ID_OK } from "./config.js";
 import { loadChoices } from "./countries.js";
 import { clip, dataUrl, fetchYear, toProducts } from "./oec.js";
@@ -35,6 +44,11 @@ const els = {
   cutoffVal: $("cutoffVal"),
   labels: /** @type {HTMLSelectElement} */ ($("labels")),
   hideAnswer: /** @type {HTMLInputElement} */ ($("hideAnswer")),
+  fgColor: /** @type {HTMLInputElement} */ ($("fgColor")),
+  bgColor: /** @type {HTMLInputElement} */ ($("bgColor")),
+  bgHex: /** @type {HTMLInputElement} */ ($("bgHex")),
+  transparent: /** @type {HTMLInputElement} */ ($("transparent")),
+  pngOnly: $("pngOnly"),
   go: /** @type {HTMLButtonElement} */ ($("go")),
   dlPng: /** @type {HTMLButtonElement} */ ($("dlPng")),
   dlJpg: /** @type {HTMLButtonElement} */ ($("dlJpg")),
@@ -55,7 +69,7 @@ let chosen = /** @type {Choice | null} */ (null);
 
 /** The last rendered chart, for downloads. */
 let current =
-  /** @type {{svg: SVGElement, countryName: string, year: number, W: number, H: number} | null} */ (
+  /** @type {{svg: SVGElement, countryName: string, year: number, W: number, H: number, style: import("./chart.js").Style} | null} */ (
     null
   );
 /** The last fetched products, so the drawing controls can redraw without refetching. */
@@ -157,9 +171,11 @@ function render(products, countryName, year, note) {
   els.stage.replaceChildren(svg);
 
   resetMeasurements();
-  const boxes = drawChart(svg, kept, total, W, H);
+  const style = currentStyle();
+  els.stage.classList.toggle("see-through", style.transparent);
+  const boxes = drawChart(svg, kept, total, W, H, style);
   const named = addLabels(svg, boxes, els.labels.value);
-  current = { svg, countryName, year, W, H };
+  current = { svg, countryName, year, W, H, style };
 
   els.caption.replaceChildren();
   const strong = document.createElement("strong");
@@ -179,6 +195,15 @@ function render(products, countryName, year, note) {
   applyHide();
   setDownloads(true);
   say(note ? "info" : "", note || "");
+}
+
+/** The colours picked, checked before they reach the SVG. */
+function currentStyle() {
+  return {
+    fg: safeColour(els.fgColor.value, DEFAULT_STYLE.fg),
+    bg: safeColour(els.bgColor.value, DEFAULT_STYLE.bg),
+    transparent: els.transparent.checked,
+  };
 }
 
 function applyHide() {
@@ -253,7 +278,11 @@ async function generate() {
 
 /** @param {boolean} on */
 function setDownloads(on) {
-  els.dlPng.disabled = els.dlJpg.disabled = els.dlSvg.disabled = !on;
+  const transparent = els.transparent.checked;
+  els.dlPng.disabled = els.dlSvg.disabled = !on;
+  // JPG can't store transparency.
+  els.dlJpg.disabled = !on || transparent;
+  els.dlJpg.title = transparent ? "JPG can't be transparent — use PNG or SVG" : "";
 }
 
 /** @param {SVGElement} svg */
@@ -288,8 +317,9 @@ function downloadSvg() {
 }
 
 /**
- * PNG and JPG both go through a canvas; only the encoding differs. The white
- * backdrop matters for JPG, which has no transparency to fall back on.
+ * PNG and JPG both go through a canvas; only the encoding differs. A
+ * transparent chart stays transparent as PNG; JPG, which can't be, is never
+ * offered for one, but gets the background colour as a backdrop regardless.
  *
  * @param {"png" | "jpg"} kind
  */
@@ -305,8 +335,10 @@ function downloadRaster(kind) {
     c.width = chart.W * k;
     c.height = chart.H * k;
     const ctx = /** @type {CanvasRenderingContext2D} */ (c.getContext("2d"));
-    ctx.fillStyle = "#fff";
-    ctx.fillRect(0, 0, c.width, c.height);
+    if (kind === "jpg" || !chart.style.transparent) {
+      ctx.fillStyle = chart.style.bg;
+      ctx.fillRect(0, 0, c.width, c.height);
+    }
     ctx.drawImage(img, 0, 0, c.width, c.height);
     URL.revokeObjectURL(url);
     const jpg = kind === "jpg";
@@ -389,5 +421,14 @@ els.labels.onchange = redraw;
 els.ratio.onchange = redraw;
 els.width.onchange = redraw;
 els.cutoff.onchange = redraw;
+bindColour("fgColor", "fgHex", redraw);
+bindColour("bgColor", "bgHex", redraw);
+els.transparent.onchange = () => {
+  const on = els.transparent.checked;
+  els.bgColor.disabled = els.bgHex.disabled = on;
+  els.pngOnly.hidden = !on;
+  setDownloads(!!current);
+  redraw();
+};
 
 loadCountries();

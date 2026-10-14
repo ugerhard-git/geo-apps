@@ -9,6 +9,16 @@ import { squarify } from "./treemap.js";
 /** @typedef {import("./oec.js").Product} Product */
 
 /**
+ * @typedef {object} Style
+ * @property {string} fg text colour for the headline and legend (#rrggbb)
+ * @property {string} bg background colour (#rrggbb), also showing in the gaps between blocks
+ * @property {boolean} transparent no background at all
+ */
+
+/** @type {Style} */
+export const DEFAULT_STYLE = { fg: "#16202a", bg: "#ffffff", transparent: false };
+
+/**
  * @typedef {object} Box a drawn product block, for labelling
  * @property {number} x
  * @property {number} y
@@ -182,6 +192,9 @@ function shareText(s) {
    The chart
    ═══════════════════════════════════════════════════════════ */
 
+/** The gap between neighbouring product blocks, in px. */
+const HAIR = 1.2;
+
 /**
  * Sections present, biggest first — shared by the treemap and the legend.
  *
@@ -209,22 +222,24 @@ function groupsOf(products) {
  * @param {number} total
  * @param {number} s scale relative to a 1200 px chart
  * @param {number} pad
+ * @param {string} fg
  * @returns {number} height used
  */
-function drawHeadline(svg, total, s, pad) {
+function drawHeadline(svg, total, s, pad, fg) {
   const fs = Math.round(34 * s);
   const subFs = Math.round(15 * s);
   const amount = money(total);
   const base = pad + fs * 0.84;
-  svg.appendChild(textEl(amount, pad, base, fs, "#16202a", 700));
+  svg.appendChild(textEl(amount, pad, base, fs, fg, 700));
   svg.appendChild(
     textEl(
       "total exports",
       pad + widthAt(svg, amount, fs, 700) + 10 * s,
       base,
       subFs,
-      "#5d6b78",
+      fg,
       400,
+      0.7,
     ),
   );
   return Math.round(base + fs * 0.32);
@@ -240,9 +255,10 @@ function drawHeadline(svg, total, s, pad) {
  * @param {number} H
  * @param {number} s
  * @param {number} pad
+ * @param {string} fg
  * @returns {number} height used
  */
-function drawLegend(svg, groups, W, H, s, pad) {
+function drawLegend(svg, groups, W, H, s, pad, fg) {
   const fs = Math.round(14 * s);
   const chip = Math.round(12 * s);
   const inner = Math.round(8 * s);
@@ -286,7 +302,7 @@ function drawLegend(svg, groups, W, H, s, pad) {
           fill: it.color,
         }),
       );
-      svg.appendChild(textEl(it.name, x + chip + inner, top + chip * 0.92, fs, "#46525d", 400));
+      svg.appendChild(textEl(it.name, x + chip + inner, top + chip * 0.92, fs, fg, 400, 0.82));
       x += it.w + between;
     }
     y += rowH;
@@ -302,16 +318,18 @@ function drawLegend(svg, groups, W, H, s, pad) {
  * @param {number} grandTotal everything the country exports
  * @param {number} W
  * @param {number} H
+ * @param {Style} [style]
  * @returns {Box[]} the product blocks, for {@link addLabels}
  */
-export function drawChart(svg, products, grandTotal, W, H) {
+export function drawChart(svg, products, grandTotal, W, H, style = DEFAULT_STYLE) {
   const s = W / 1200;
   const pad = Math.round(16 * s);
-  svg.appendChild(el("rect", { x: 0, y: 0, width: W, height: H, fill: "#ffffff" }));
+  if (!style.transparent)
+    svg.appendChild(el("rect", { x: 0, y: 0, width: W, height: H, fill: style.bg }));
 
   const groups = groupsOf(products);
-  const headerH = drawHeadline(svg, grandTotal, s, pad);
-  const footerH = drawLegend(svg, groups, W, H, s, pad);
+  const headerH = drawHeadline(svg, grandTotal, s, pad, style.fg);
+  const footerH = drawLegend(svg, groups, W, H, s, pad, style.fg);
 
   const areaY = headerH;
   const areaH = H - headerH - footerH;
@@ -331,15 +349,16 @@ export function drawChart(svg, products, grandTotal, W, H) {
     for (const t of squarify(g.n.node.items, bx, by, bw, bh)) {
       const w = Math.max(0, t.w);
       const h = Math.max(0, t.h);
+      // Each block is inset by half a hairline instead of outlined, so the
+      // gaps between blocks show the background — whatever its colour, or
+      // none at all.
       svg.appendChild(
         el("rect", {
-          x: t.x.toFixed(2),
-          y: t.y.toFixed(2),
-          width: w.toFixed(2),
-          height: h.toFixed(2),
+          x: (t.x + HAIR / 2).toFixed(2),
+          y: (t.y + HAIR / 2).toFixed(2),
+          width: Math.max(0, w - HAIR).toFixed(2),
+          height: Math.max(0, h - HAIR).toFixed(2),
           fill: color,
-          stroke: "#ffffff",
-          "stroke-width": 1.2,
         }),
       );
       boxes.push({
