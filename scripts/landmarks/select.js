@@ -42,7 +42,10 @@ const NOT_A_SIGHT =
 
 /* A type that makes a thing a sight even when another type is NOT_A_SIGHT. */
 const SIGHT =
-  /\b(bridge|dam|tower|arch|gate|monument|palace|castle|temple|church|cathedral|mosque|museum|stadium|landmark)$/i;
+  /\b(bridge|dam|tower|arch|gate|monument|palace|castle|temple|church|cathedral|mosque|museum|stadium|landmark|airport|aerodrome|fort|fortress|lighthouse)$/i;
+
+/* Other ways Wikidata says "people live here". */
+const PEOPLED = /\b(populated place|human settlement|town rights|town privileges)\b/i;
 
 /**
  * @typedef {object} Landmark
