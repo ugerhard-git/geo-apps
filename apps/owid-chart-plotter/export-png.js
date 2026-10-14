@@ -1,7 +1,8 @@
 /**
- * OWID chart plotter — the 2400 × 1600 PNG export: title, chart and source
- * line on one canvas. Country names never reach the export, so it works as a
- * quiz clue.
+ * OWID chart plotter — the 2400 × 1600 PNG export: title, chart, an optional
+ * legend and the source line on one canvas. Country names appear only in the
+ * legend, and only when it is switched on (with whatever labels were typed),
+ * so by default the export works as a quiz clue.
  */
 
 import { buildConfig } from "./charts.js";
@@ -54,6 +55,40 @@ function titleLines(c, title, maxW) {
   return lines;
 }
 
+const LEGEND_PX = 28;
+const LEGEND_SWATCH = 24;
+const LEGEND_ROW = 48;
+
+/**
+ * @typedef {object} LegendItem
+ * @property {string} label
+ * @property {string} colour
+ */
+
+/**
+ * Lay legend items out in centred rows no wider than `maxW`.
+ *
+ * @param {CanvasRenderingContext2D} c with the legend font set
+ * @param {LegendItem[]} items
+ * @param {number} maxW
+ * @returns {Array<{items: Array<LegendItem & {w: number}>, w: number}>}
+ */
+function legendRows(c, items, maxW) {
+  const inner = 12; // swatch to text
+  const between = 40; // one item to the next
+  /** @type {Array<{items: Array<LegendItem & {w: number}>, w: number}>} */
+  const rows = [];
+  for (const it of items) {
+    const w = LEGEND_SWATCH + inner + c.measureText(it.label).width;
+    const row = rows[rows.length - 1];
+    if (row && row.w + between + w <= maxW) {
+      row.items.push({ ...it, w });
+      row.w += between + w;
+    } else rows.push({ items: [{ ...it, w }], w });
+  }
+  return rows;
+}
+
 /**
  * Render the export.
  *
@@ -62,9 +97,10 @@ function titleLines(c, title, maxW) {
  * @param {View} opts.view
  * @param {string} opts.title
  * @param {string} opts.stamp source line for the footer
+ * @param {LegendItem[] | null} [opts.legend] a legend under the chart, or none
  * @returns {Promise<HTMLCanvasElement>}
  */
-export async function renderExport({ data, view, title, stamp }) {
+export async function renderExport({ data, view, title, stamp, legend = null }) {
   const mode = view.bg;
   const theme = themeFor(mode);
   const pad = 96;
@@ -84,7 +120,10 @@ export async function renderExport({ data, view, title, stamp }) {
   // The subtitle carries the unit only.
   const subText = data.unit ? "Measured in " + data.unit : "";
   const headH = pad + lines.length * TITLE_LH + (subText ? 44 : 0) + 40;
-  const plotH = EXPORT_H - headH - footH;
+  c.font = "500 " + LEGEND_PX + "px 'Public Sans', sans-serif";
+  const lrows = legend && legend.length ? legendRows(c, legend, plotW) : [];
+  const legendH = lrows.length ? lrows.length * LEGEND_ROW + 24 : 0;
+  const plotH = EXPORT_H - headH - footH - legendH;
   const k = plotH / 460; // scale factor vs. the on-screen reference height
 
   // Render the chart offscreen at full export size.
@@ -133,6 +172,24 @@ export async function renderExport({ data, view, title, stamp }) {
   }
 
   c.drawImage(off, pad, headH);
+
+  // The legend: centred rows of colour swatches and labels under the chart.
+  if (lrows.length) {
+    c.font = "500 " + LEGEND_PX + "px 'Public Sans', sans-serif";
+    c.textBaseline = "middle";
+    lrows.forEach((row, r) => {
+      const y = headH + plotH + 24 + r * LEGEND_ROW + LEGEND_ROW / 2;
+      let x = pad + (plotW - row.w) / 2;
+      for (const it of row.items) {
+        c.fillStyle = it.colour;
+        c.fillRect(x, y - LEGEND_SWATCH / 2, LEGEND_SWATCH, LEGEND_SWATCH);
+        c.fillStyle = theme.ink;
+        c.fillText(it.label, x + LEGEND_SWATCH + 12, y + 1);
+        x += it.w + 40;
+      }
+    });
+    c.textBaseline = "alphabetic";
+  }
 
   c.strokeStyle = theme.rule;
   c.lineWidth = 2;
