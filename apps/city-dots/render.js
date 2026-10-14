@@ -2,6 +2,7 @@
  * City dots — drawing the sheet.
  */
 
+import { GEONAMES_CREDIT } from "../../shared/geonames.js";
 import { frameSpec } from "../../shared/sheet.js";
 import { clamp } from "../../shared/util.js";
 import { MAINLAND_SLACK_DEG } from "./config.js";
@@ -9,7 +10,7 @@ import { projectCountry } from "../../shared/projection.js";
 import { extentOf, pickDots, radiusFor } from "./dots.js";
 
 /** @typedef {import("../../shared/world.js").Polys} Polys */
-/** @typedef {import("./cities.js").City} City */
+/** @typedef {import("../../shared/geonames.js").City} City */
 
 /**
  * @typedef {object} SheetOptions
@@ -38,8 +39,6 @@ import { extentOf, pickDots, radiusFor } from "./dots.js";
  * @property {string} label what "name" prints
  * @property {boolean} mainOnly keep only the mainland
  */
-
-export const CREDIT = "Cities: GeoNames, CC BY 4.0";
 
 /**
  * Which dots end up on the sheet — exported so the page can describe them.
@@ -124,7 +123,7 @@ export function drawSheet(canvas, opts, content) {
     ctx.globalAlpha = 0.45;
     ctx.font = `400 ${px}px "Space Grotesk", sans-serif`;
     ctx.textAlign = "right";
-    ctx.fillText(CREDIT, W - px, H - px);
+    ctx.fillText(GEONAMES_CREDIT, W - px, H - px);
     ctx.textAlign = "center";
     ctx.globalAlpha = 1;
     bottom = Math.min(bottom, H - px * 2.4);

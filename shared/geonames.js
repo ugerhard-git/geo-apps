@@ -1,5 +1,5 @@
 /**
- * City dots — reading the GeoNames city list.
+ * The GeoNames city list, shared by City dots and Climate charts.
  *
  * The list comes from the all-the-cities package: every place GeoNames knows
  * with at least 1000 inhabitants, packed as a stream of length-prefixed
@@ -12,10 +12,37 @@
  * by wire type, and records with impossible values are dropped. Nothing read
  * from it ever reaches the page as markup.
  *
- * Pure — no DOM, no network — so it can be unit-tested.
+ * `decodeCities` is pure — no DOM, no network — so it can be unit-tested.
+ *
+ * @module shared/geonames
  */
 
-import { MAX_RECORDS, SKIP_FEATURES } from "./config.js";
+import { fetchBytes } from "./net.js";
+import { cleanText } from "./text.js";
+
+/**
+ * Every place in GeoNames with at least 1000 inhabitants, packed by the
+ * all-the-cities package (MIT; data from GeoNames, CC BY 4.0). A pinned
+ * version, so the file can't change under the page, and one URL for every
+ * app, so the browser downloads it once.
+ */
+export const CITIES_URL = "https://cdn.jsdelivr.net/npm/all-the-cities@3.1.0/cities.pbf";
+
+/** The file is about 6.4 MB; anything far bigger is not the file we expect. */
+export const MAX_BYTES = 24 * 1024 * 1024;
+
+/** It holds about 138,000 records. */
+export const MAX_RECORDS = 400_000;
+
+/*
+  GeoNames feature codes that are not towns in their own right: parts of a
+  city (PPLX), and places that are historical, abandoned or destroyed. A city
+  and its districts would otherwise show up as a cluster of dots.
+*/
+export const SKIP_FEATURES = new Set(["PPLX", "PPLH", "PPLQ", "PPLW", "PPLCH"]);
+
+/** Credit line GeoNames' licence asks for. */
+export const GEONAMES_CREDIT = "Cities: GeoNames, CC BY 4.0";
 
 /**
  * @typedef {object} City
@@ -23,6 +50,7 @@ import { MAX_RECORDS, SKIP_FEATURES } from "./config.js";
  * @property {number} lat degrees
  * @property {number} pop population (0 when GeoNames has none)
  * @property {boolean} capital the national capital (GeoNames feature PPLC)
+ * @property {string} [name] only when decoded with `names`
  */
 
 /** A malformed file. */
@@ -117,17 +145,24 @@ function ascii(buf, start, end, max) {
   return s;
 }
 
+const UTF8 = new TextDecoder("utf-8", { fatal: false });
+
 /**
  * Decode the city list and group it by country.
  *
  * Coordinates are stored as differences from the previous record, in units
  * of 10⁻⁵ degrees, so every record is read in order even when it is dropped.
  *
+ * Names are only read when asked for: they are untrusted text, cleaned and
+ * capped here, and decoding them costs time and memory City dots doesn't need.
+ *
  * @param {Uint8Array} buf the contents of `cities.pbf`
+ * @param {{names?: boolean}} [opts]
  * @returns {Map<string, City[]>} by ISO alpha-2 country code, largest first
  * @throws when the file is malformed
  */
-export function decodeCities(buf) {
+export function decodeCities(buf, opts = {}) {
+  const withNames = !!opts.names;
   const r = new Reader(buf, 0, buf.length);
   /** @type {Map<string, City[]>} */
   const byCountry = new Map();
@@ -141,6 +176,8 @@ export function decodeCities(buf) {
     let country = "";
     let feature = "";
     let pop = 0;
+    /** @type {[number, number] | null} */
+    let nameSpan = null;
     while (m.pos < m.end) {
       const key = m.varint();
       const tag = Math.floor(key / 8);
@@ -148,6 +185,8 @@ export function decodeCities(buf) {
       if (tag === 3 && wire === 2) {
         const [a, b] = m.span();
         country = ascii(buf, a, b, 2);
+      } else if (tag === 2 && wire === 2) {
+        nameSpan = m.span();
       } else if (tag === 7 && wire === 2) {
         const [a, b] = m.span();
         feature = ascii(buf, a, b, 10);
@@ -162,7 +201,11 @@ export function decodeCities(buf) {
     if (!(x >= -180 && x <= 180 && y >= -90 && y <= 90)) continue;
     let list = byCountry.get(country);
     if (!list) byCountry.set(country, (list = []));
-    list.push({ lon: x, lat: y, pop: Math.min(pop, 5e7), capital: feature === "PPLC" });
+    /** @type {City} */
+    const city = { lon: x, lat: y, pop: Math.min(pop, 5e7), capital: feature === "PPLC" };
+    if (withNames && nameSpan && nameSpan[1] - nameSpan[0] <= 400)
+      city.name = cleanText(UTF8.decode(buf.subarray(nameSpan[0], nameSpan[1])), 80);
+    list.push(city);
   }
   for (const list of byCountry.values()) list.sort((a, b) => b.pop - a.pop);
   return byCountry;
@@ -174,3 +217,17 @@ export function decodeCities(buf) {
  * @param {unknown} e
  */
 export const isFormatError = (e) => e instanceof FormatError;
+
+/**
+ * Download and decode the city list.
+ *
+ * @param {(frac: number | undefined) => void} onProgress
+ * @param {{names?: boolean}} [opts]
+ * @returns {Promise<Map<string, City[]>>}
+ */
+export async function loadCities(onProgress, opts) {
+  const bytes = await fetchBytes(CITIES_URL, MAX_BYTES, onProgress);
+  const cities = decodeCities(bytes, opts);
+  if (!cities.size) throw new Error("no cities in the file");
+  return cities;
+}
