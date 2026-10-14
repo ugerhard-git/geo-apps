@@ -42,10 +42,25 @@ async function sparql(text) {
         signal: AbortSignal.timeout(process.env.LANDMARKS_QUICK ? 90_000 : 180_000),
       });
       const reply = await r.text();
-      if (process.env.LANDMARKS_QUICK)
+      if (process.env.LANDMARKS_QUICK) {
+        let detail = "";
+        if (!r.ok) {
+          try {
+            const j = JSON.parse(reply);
+            detail = Object.entries(j)
+              .map(([k, v]) => k + "=" + JSON.stringify(v).slice(0, 200))
+              .join(" ; ");
+          } catch {
+            detail = reply.slice(0, 400);
+          }
+        }
+        const head = text
+          .slice(text.indexOf("SELECT"), text.indexOf("SELECT") + 40)
+          .replace(/\s+/g, " ");
         console.log(
-          `::notice title=timing::${text.slice(text.indexOf("SELECT"), text.indexOf("SELECT") + 40).replace(/\s+/g, " ")} → HTTP ${r.status}, ${reply.length} bytes`,
+          `::notice title=timing::${head} → HTTP ${r.status}, ${reply.length} bytes ${detail.replace(/\s+/g, " ").slice(0, 1500)}`,
         );
+      }
       if (!r.ok) throw new Error(`HTTP ${r.status}: ${reply.slice(0, 200)}`);
       const rows = JSON.parse(reply)?.results?.bindings;
       if (!Array.isArray(rows)) throw new Error("unexpected response");
