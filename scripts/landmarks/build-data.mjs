@@ -145,6 +145,12 @@ for (const [i, t] of countries.entries()) {
   } catch (e) {
     failed.push(t.code);
     console.log(`${t.code} ${t.name}: FAILED ${String(e && e.message).slice(0, 200)}`);
+    if (process.env.GITHUB_ACTIONS)
+      console.log(
+        `::warning title=${t.code} failed::${String((e && e.stack) || e)
+          .slice(0, 800)
+          .replace(/\n/g, "%0A")}`,
+      );
     // Keep the previous file's count in the index, if there is one.
     try {
       const old = JSON.parse(await readFile(path.join(OUT, t.code + ".json"), "utf8"));
