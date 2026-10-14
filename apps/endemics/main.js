@@ -73,16 +73,34 @@ const licenceAllowed = (rec) => licenceAllows($("licFilter").value, rec);
    Panels
    ═══════════════════════════════════════════════════════════ */
 
-/** The picker grid of thumbnails. */
-function renderGrid() {
-  const q = norm($("filter").value);
-  const list = candidates.filter(
-    (r) => licenceAllowed(r) && (!q || (r.keywords || "").includes(q)),
-  );
-  $("pickerCount").textContent =
-    `${list.length} shown of ${candidates.length} · ${selected.length} of ${MAX_SELECTED} chosen`;
-  $("grid").replaceChildren(...list.map(tileFor));
+/** @type {Map<Species, HTMLElement>} picker tiles, built once per country */
+const tiles = new Map();
+
+/**
+ * Build the picker for a new set of candidates. Tiles are made once;
+ * filtering hides them and choosing one updates its tile, so thumbnails are
+ * never thrown away and decoded again.
+ */
+function buildGrid() {
+  tiles.clear();
+  for (const rec of candidates) tiles.set(rec, tileFor(rec));
+  $("grid").replaceChildren(...tiles.values());
   $("picker").hidden = !candidates.length;
+  filterGrid();
+}
+
+/** Show the tiles that pass the filters, and the count. */
+function filterGrid() {
+  const q = norm($("filter").value);
+  let shown = 0;
+  for (const [rec, tile] of tiles) {
+    const show = licenceAllowed(rec) && (!q || (rec.keywords || "").includes(q));
+    tile.hidden = !show;
+    tile.classList.toggle("on", selected.includes(rec));
+    if (show) shown++;
+  }
+  $("pickerCount").textContent =
+    `${shown} shown of ${candidates.length} · ${selected.length} of ${MAX_SELECTED} chosen`;
 }
 
 /**
@@ -95,10 +113,12 @@ function tileFor(rec) {
 
   const thumb = document.createElement("div");
   thumb.className = "thumb";
+  // `loading` before `src`, or the browser may already have started fetching.
   const img = document.createElement("img");
-  img.src = rec.thumb;
-  img.alt = "";
   img.loading = "lazy";
+  img.decoding = "async";
+  img.alt = "";
+  img.src = rec.thumb;
   thumb.append(img);
   thumb.addEventListener("click", () => toggleSelect(rec));
 
@@ -134,7 +154,7 @@ function toggleSelect(rec) {
     note(`${MAX_SELECTED} is as many as fit on one sheet.`);
     return;
   } else selected.push(rec);
-  renderGrid();
+  filterGrid();
   refresh();
 }
 
@@ -210,6 +230,7 @@ async function pickCountry(c) {
   selected = [];
   $("country").value = c.name;
   picker.close();
+  tiles.clear();
   $("grid").replaceChildren();
   note("");
   refresh();
@@ -258,7 +279,7 @@ async function pickCountry(c) {
 function showCandidates() {
   candidates = [...homeSpecies];
   note(`${homeSpecies.length} endemic to ${chosen ? chosen.name : "here"}.`);
-  renderGrid();
+  buildGrid();
   refresh();
 }
 
@@ -341,10 +362,10 @@ async function exportSheet(type, ext) {
 
 $("licFilter").addEventListener("change", () => {
   selected = selected.filter(licenceAllowed);
-  renderGrid();
+  filterGrid();
   refresh();
 });
-$("filter").addEventListener("input", debounce(renderGrid, 150));
+$("filter").addEventListener("input", debounce(filterGrid, 150));
 
 for (const id of ["optNames", "optCountry", "optTransparent"])
   $(id).addEventListener("change", () => {

@@ -242,6 +242,51 @@ export const commonsFileUrl = (pageid) =>
  */
 
 /**
+ * The address of a Commons render at a given width, built from the
+ * original's address — the documented pattern Wikimedia's thumbnail service
+ * answers to:
+ *
+ *   https://upload.wikimedia.org/wikipedia/commons/a/ab/Name.jpg
+ *   → https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Name.jpg/330px-Name.jpg
+ *
+ * Only for JPEG, PNG, GIF and WebP originals, whose renders keep the name;
+ * other formats (TIFF, SVG, PDF) render under a different one.
+ *
+ * @param {unknown} original
+ * @param {number} width
+ * @returns {string | null}
+ */
+export function renderOfOriginal(original, width) {
+  const url = safeImageUrl(original);
+  if (!url || !Number.isInteger(width) || width < 1) return null;
+  const m =
+    /^(https:\/\/upload\.wikimedia\.org\/wikipedia\/[a-z-]+)\/([0-9a-f])\/([0-9a-f]{2})\/([^/?#]+)$/.exec(
+      url,
+    );
+  if (!m || !/\.(jpe?g|png|gif|webp)$/i.test(m[4])) return null;
+  const [, base, a, ab, name] = m;
+  return safeImageUrl(`${base}/thumb/${a}/${ab}/${name}/${width}px-${name}`);
+}
+
+/**
+ * The small render of a file, never the original when that is large.
+ * Commons usually returns one (`thumburl`), but a reply without it, or with
+ * the original in its place, would otherwise put a multi-megabyte photo in
+ * every tile.
+ *
+ * @param {any} info an `imageinfo` entry
+ * @param {number} thumbW
+ * @returns {string | null}
+ */
+function smallRender(info, thumbW) {
+  const given = safeImageUrl(info.thumburl);
+  if (given && /\/thumb\//.test(given)) return given;
+  const small = Number.isFinite(info.width) && info.width <= thumbW;
+  if (small) return safeImageUrl(info.url);
+  return renderOfOriginal(info.url, thumbW) || given || null;
+}
+
+/**
  * The large render of a file. An original no wider than `fullW` is used as
  * it is (when browsers can show its format), rather than asking for a
  * render at its own, non-standard width, which Wikimedia has to make on
@@ -257,7 +302,21 @@ function largeRender(info, thumb, fullW) {
     const original = safeImageUrl(info.url);
     if (original) return original;
   }
+  if (!/\/thumb\//.test(thumb)) return renderOfOriginal(info.url, fullW) || thumb;
   return widenThumb(thumb, info.width, fullW) || thumb;
+}
+
+/**
+ * The small and large renders for an `imageinfo` entry.
+ *
+ * @param {any} info
+ * @param {number} thumbW
+ * @param {number} fullW
+ * @returns {{thumb: string | null, full: string}}
+ */
+export function pickRenders(info, thumbW, fullW) {
+  const thumb = smallRender(info, thumbW);
+  return { thumb, full: thumb ? largeRender(info, thumb, fullW) : "" };
 }
 
 /**
@@ -293,7 +352,7 @@ export async function fileInfos(titles, thumbW, fullW) {
       if (typeof info.mime === "string" && !/^image\//.test(info.mime)) continue;
       const pageid = Number.isInteger(page.pageid) && page.pageid > 0 ? page.pageid : null;
       if (!pageid) continue;
-      const thumb = firstSafeImageUrl(info.thumburl, info.url);
+      const { thumb, full } = pickRenders(info, thumbW, fullW);
       if (!thumb) continue;
       const ex = info.extmetadata || {};
       /** @param {string} k */
@@ -305,7 +364,7 @@ export async function fileInfos(titles, thumbW, fullW) {
         title: cleanText(String(page.title || ""), 160),
         pageid,
         thumb,
-        full: largeRender(info, thumb, fullW),
+        full,
         width: Number.isFinite(info.width) ? info.width : 0,
         height: Number.isFinite(info.height) ? info.height : 0,
         author: htmlToText(val("Artist"), 70),

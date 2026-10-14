@@ -6,10 +6,13 @@
 export const MAX_SPECIES = 240;
 /** Most photographs that fit on one sheet. */
 export const MAX_SELECTED = 6;
-/** Width of the picker thumbnails, in pixels. */
-export const THUMB_W = 400;
-/** Width of the renders drawn on the sheet, in pixels. */
-export const FULL_W = 1100;
+/*
+  Render widths: small for the picker, large for the sheet. Both are among
+  Wikimedia's standard thumbnail widths, which are pre-rendered and cached;
+  other widths are rendered on request, slowly.
+*/
+export const THUMB_W = 330;
+export const FULL_W = 1280;
 
 /** What people type that CLDR doesn't list, by ISO code. */
 export const ALIASES = {

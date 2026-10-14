@@ -523,3 +523,11 @@ input[type="color"]:disabled {
   font-size: 12.5px;
   max-width: 72ch;
 }
+.tile[hidden] {
+  display: none;
+}
+/* Tiles off-screen aren't laid out or painted until scrolled to. */
+.tile {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 200px;
+}

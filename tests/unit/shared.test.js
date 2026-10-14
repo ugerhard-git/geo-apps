@@ -7,7 +7,13 @@ import { overviewUrl } from "../../shared/back-link.js";
 import { parseAlpha3, parseNumeric } from "../../shared/cldr.js";
 import { parseHex, safeColour } from "../../shared/colour.js";
 import { matchShape } from "../../shared/map-countries.js";
-import { classifyLicence, licenceAllows, safeImageUrl } from "../../shared/commons.js";
+import {
+  classifyLicence,
+  licenceAllows,
+  pickRenders,
+  renderOfOriginal,
+  safeImageUrl,
+} from "../../shared/commons.js";
 import { rankCountries } from "../../shared/country-picker.js";
 import { parseCsv } from "../../shared/net.js";
 import { bareName, cleanText, norm } from "../../shared/text.js";
@@ -158,4 +164,41 @@ test("matchShape finds a country's outline by code, then by name", () => {
   assert.equal(matchShape(t("AU", "Oz"), numeric, shapes)?.name, "Australia"); // the larger
   assert.equal(matchShape(t("XK", "Kosovo"), numeric, shapes)?.name, "Kosovo");
   assert.equal(matchShape(t("ZZ", "Nowhere"), numeric, shapes), null);
+});
+
+test("Commons renders: previews are never large originals", () => {
+  const orig = "https://upload.wikimedia.org/wikipedia/commons/a/ab/K%C3%B6lner_Dom.jpg";
+  const thumbOf = (/** @type {number} */ w) =>
+    `https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/K%C3%B6lner_Dom.jpg/${w}px-K%C3%B6lner_Dom.jpg`;
+  assert.equal(renderOfOriginal(orig, 330), thumbOf(330));
+  assert.equal(
+    renderOfOriginal("https://upload.wikimedia.org/wikipedia/commons/a/ab/Plan.svg", 330),
+    null,
+  );
+  assert.equal(renderOfOriginal("https://evil.example/wikipedia/commons/a/ab/X.jpg", 330), null);
+
+  const big = { url: orig, width: 4000, mime: "image/jpeg" };
+  // The usual reply: Commons gives the thumbnail.
+  assert.deepEqual(pickRenders({ ...big, thumburl: thumbOf(330) }, 330, 1280), {
+    thumb: thumbOf(330),
+    full: thumbOf(1280),
+  });
+  // No thumbnail, or the original in its place: built from the original.
+  assert.deepEqual(pickRenders(big, 330, 1280), { thumb: thumbOf(330), full: thumbOf(1280) });
+  assert.deepEqual(pickRenders({ ...big, thumburl: orig }, 330, 1280), {
+    thumb: thumbOf(330),
+    full: thumbOf(1280),
+  });
+  // A small original is used as it is.
+  assert.deepEqual(pickRenders({ url: orig, width: 300, mime: "image/jpeg" }, 330, 1280), {
+    thumb: orig,
+    full: orig,
+  });
+  assert.deepEqual(
+    pickRenders({ url: orig, width: 900, mime: "image/jpeg", thumburl: thumbOf(330) }, 330, 1280),
+    {
+      thumb: thumbOf(330),
+      full: orig,
+    },
+  );
 });
