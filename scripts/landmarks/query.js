@@ -41,7 +41,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
  * the ISO code; but some codes sit on a wider item — "NL" is on the Kingdom
  * of the Netherlands, while Dutch landmarks name the Netherlands as their
  * country — so a country that is part of the coded item and has no code of
- * its own counts too (that leaves out Aruba and Curaçao, which have theirs).
+ * its own, and is its own country (P17 itself), counts too. That leaves
+ * out Aruba and Curaçao, which have their own codes, and the provinces.
  *
  * @param {string} iso checked by the caller
  */
@@ -51,7 +52,7 @@ function countryPattern(iso) {
   {
     ?coded wdt:P297 "${iso}" .
     ?country wdt:P361 ?coded .
-    ?country wdt:P31/wdt:P279* wd:Q6256 .
+    ?country wdt:P17 ?country .
     MINUS { ?country wdt:P297 ?own . }
   }`;
 }
