@@ -436,9 +436,6 @@ input[type="color"]:disabled {
   border-color: var(--accent);
   box-shadow: 0 0 0 1px var(--accent) inset;
 }
-.tile.decoy {
-  border-style: dashed;
-}
 .tile .thumb {
   height: 118px;
   display: flex;
@@ -496,14 +493,6 @@ input[type="color"]:disabled {
   color: var(--accent);
   font-size: 11.5px;
   text-decoration: underline;
-}
-.tile .tag {
-  font-size: 10.5px;
-  color: var(--warn);
-  border: 1px solid currentColor;
-  border-radius: 2px;
-  padding: 0 4px;
-  align-self: flex-start;
 }
 
 .sources dl {

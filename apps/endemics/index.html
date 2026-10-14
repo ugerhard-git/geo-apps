@@ -19,10 +19,7 @@
   object-src 'none'"
     />
     <title>Endemic animals</title>
-    <meta
-      name="description"
-      content="Animals found in one country and nowhere else, with decoys from other countries if you like."
-    />
+    <meta name="description" content="Animals found in one country and nowhere else, arranged on a quiz sheet." />
     <meta name="geo-apps:tags" content="Wikipedia, Wikimedia Commons, images" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -53,19 +50,6 @@
               <option value="open">Public domain, CC0 and CC BY</option>
               <option value="pd">Public domain and CC0 only</option>
             </select>
-          </div>
-        </div>
-
-        <div class="group">
-          <h2>Difficulty</h2>
-          <label class="chk"><input type="checkbox" id="optDecoys" /><span>Mix in species from elsewhere</span></label>
-          <div class="field hint" id="decoyHint">
-            An endemic animal usually names its country outright. Adding species endemic to other countries turns
-            recognition into a question of which one actually narrows it down.
-          </div>
-          <div class="field" id="decoyCountField" hidden>
-            <label for="decoyShare">How many are from elsewhere <output id="decoyShareOut">half</output></label>
-            <input type="range" id="decoyShare" min="1" max="4" value="2" step="1" />
           </div>
         </div>
 
@@ -108,7 +92,7 @@
             <input
               type="text"
               id="capText"
-              value="One of these lives only here"
+              value="These animals are endemic to this country"
               placeholder="Leave empty for no caption"
               maxlength="120"
               autocomplete="off"

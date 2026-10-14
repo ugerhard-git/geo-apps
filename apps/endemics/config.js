@@ -11,28 +11,6 @@ export const THUMB_W = 400;
 /** Width of the renders drawn on the sheet, in pixels. */
 export const FULL_W = 1100;
 
-/** Countries with enough endemic animals to draw decoys from. */
-export const DECOY_POOL = [
-  "MG",
-  "NZ",
-  "AU",
-  "PH",
-  "ID",
-  "JP",
-  "CU",
-  "LK",
-  "MX",
-  "BR",
-  "ZA",
-  "PG",
-  "SC",
-  "MU",
-  "JM",
-];
-
-/** Seed for the decoy shuffle, so the same country always gets the same decoys. */
-export const DECOY_SEED = 1;
-
 /** What people type that CLDR doesn't list, by ISO code. */
 export const ALIASES = {
   US: ["usa", "america", "united states of america"],
