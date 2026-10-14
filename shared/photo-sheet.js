@@ -23,7 +23,8 @@ import { clamp } from "./util.js";
 
 /**
  * @typedef {object} PhotoStyle
- * @property {(url: string) => Promise<HTMLImageElement>} loadImage
+ * @property {(url: string) => Promise<HTMLImageElement | HTMLCanvasElement>} loadImage an image,
+ *   or a canvas already prepared from one (a blurred sign, say)
  * @property {boolean} names print each record's name under its photo
  * @property {string} fg colour of the names
  * @property {string} at colour of the credits
@@ -47,7 +48,7 @@ const MIN_CREDIT_PX = 6;
  */
 export async function drawPhotos(ctx, records, area, style) {
   if (!records.length) return;
-  /** @type {Array<{rec: PhotoRecord, img: HTMLImageElement}>} */
+  /** @type {Array<{rec: PhotoRecord, img: HTMLImageElement | HTMLCanvasElement}>} */
   const ready = [];
   for (const rec of records) {
     try {

@@ -33,7 +33,7 @@ export const MAX_FILES = 1800;
 /** Most files fetched for one sign class. */
 export const MAX_PER_CLASS = 300;
 /** Most signs that fit on one sheet. */
-export const MAX_SELECTED = 16;
+export const MAX_SELECTED = 8;
 /** Width of the picker thumbnails, in pixels. */
 export const THUMB_W = 320;
 /** Width of the renders drawn on the sheet, in pixels. */
