@@ -41,10 +41,14 @@ const TYPES = {
  */
 async function resolveFile(urlPath) {
   const clean = path.normalize(decodeURIComponent(urlPath)).replace(/^([/\\])+/, "");
+  // Never serve .git, other dot-folders or installed packages, even when the
+  // server is reachable from other machines (HOST=0.0.0.0).
+  if (clean.split(/[/\\]/).some((part) => part.startsWith(".") || part === "node_modules"))
+    return null;
   // The overview's own assets live in site/; everything else in the repo root.
   for (const base of [SITE_DIR, ROOT]) {
     let file = path.join(base, clean);
-    if (!file.startsWith(base)) return null; // no escaping the repository
+    if (file !== base && !file.startsWith(base + path.sep)) return null; // stay inside the repository
     try {
       const s = await stat(file);
       if (s.isDirectory()) {

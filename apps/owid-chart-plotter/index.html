@@ -3,6 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Only what this page needs: its own scripts (Chart.js is kept in vendor/,
+      not loaded from a CDN), Our World in Data's CSVs, the CLDR country names
+      on jsDelivr, and Google Fonts. Everything else is refused, which caps
+      what an injected script could reach. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src https://ourworldindata.org https://*.ourworldindata.org https://cdn.jsdelivr.net;
+  img-src data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'"
+    />
     <title>Our World in Data Charts</title>
     <meta name="description" content="Any Our World in Data dataset, plotted for the countries and years you pick." />
     <meta name="geo-apps:tags" content="Our World in Data, chart" />
@@ -12,7 +29,7 @@
       href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+    <script src="vendor/chart.umd.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
