@@ -78,3 +78,59 @@ export function parseCsv(text) {
   }
   return rows;
 }
+
+/**
+ * Download a binary file, refusing anything implausibly large, and report
+ * progress when the server says how big it is.
+ *
+ * @param {string} url
+ * @param {number} maxBytes
+ * @param {(frac: number | undefined) => void} onProgress
+ * @returns {Promise<Uint8Array>}
+ */
+export async function fetchBytes(url, maxBytes, onProgress) {
+  const r = await fetch(url);
+  if (!r.ok) throw httpError(r.status);
+  const declared = parseInt(r.headers.get("content-length") || "", 10);
+  if (declared > maxBytes) throw new Error("the file is unexpectedly large");
+  if (!r.body) {
+    const buf = new Uint8Array(await r.arrayBuffer());
+    if (buf.length > maxBytes) throw new Error("the file is unexpectedly large");
+    return buf;
+  }
+  const reader = r.body.getReader();
+  /** @type {Uint8Array[]} */
+  const chunks = [];
+  let got = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    got += value.length;
+    if (got > maxBytes) {
+      reader.cancel().catch(() => {});
+      throw new Error("the file is unexpectedly large");
+    }
+    chunks.push(value);
+    onProgress(declared > 0 ? got / declared : undefined);
+  }
+  const out = new Uint8Array(got);
+  let at = 0;
+  for (const c of chunks) {
+    out.set(c, at);
+    at += c.length;
+  }
+  return out;
+}
+
+/**
+ * Fetch a JSON file that may be large, refusing anything over `maxBytes`.
+ *
+ * @param {string} url
+ * @param {number} maxBytes
+ * @param {(frac: number | undefined) => void} [onProgress]
+ * @returns {Promise<any>}
+ */
+export async function getLargeJson(url, maxBytes, onProgress = () => {}) {
+  const bytes = await fetchBytes(url, maxBytes, onProgress);
+  return JSON.parse(new TextDecoder().decode(bytes));
+}

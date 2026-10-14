@@ -7,11 +7,11 @@
  * Pure — no DOM — so it can be unit-tested.
  */
 
-import { boundsOf, mercator, projectSubject } from "../../shared/projection.js";
+import { mercator } from "../../shared/projection.js";
 
 /** @typedef {import("../../shared/world.js").Polys} Polys */
 /** @typedef {import("./cities.js").City} City */
-/** @typedef {{x0: number, y0: number, x1: number, y1: number}} Box */
+/** @typedef {import("../../shared/projection.js").Box} Box */
 
 /**
  * @typedef {object} Dot
@@ -22,51 +22,15 @@ import { boundsOf, mercator, projectSubject } from "../../shared/projection.js";
  */
 
 /**
- * The country's landmasses in the plane, and a box around each, which is
- * what decides whether a city belongs to the part being drawn.
- *
- * @param {Polys | null} polys in degrees, or null when there is no outline
- * @param {boolean} mainOnly
- * @param {string} name the country's Natural Earth name (for mainland rules)
- * @returns {{shape: Polys, boxes: Box[]}}
- */
-export function subject(polys, mainOnly, name) {
-  if (!polys) return { shape: [], boxes: [] };
-  let shape = projectSubject(polys, mainOnly, name);
-  /*
-    A country whose islands lie on both sides of the antimeridian (Fiji,
-    Kiribati, Russia's far east) would stretch across the whole world:
-    its western islands are moved round to join the rest.
-  */
-  const whole = boundsOf(shape);
-  if (whole && whole.x1 - whole.x0 > Math.PI)
-    shape = shape.map((rings) => {
-      const b = boundsOf([rings]);
-      return b && b.x1 < 0
-        ? rings.map((ring) =>
-            ring.map(([x, y]) => /** @type {[number, number]} */ ([x + 2 * Math.PI, y])),
-          )
-        : rings;
-    });
-  /** @type {Box[]} */
-  const boxes = [];
-  for (const rings of shape) {
-    const b = boundsOf([rings]);
-    if (b) boxes.push(b);
-  }
-  return { shape, boxes };
-}
-
-/**
  * The largest `count` cities that lie within reach of the subject.
  *
  * A city just east of the antimeridian is tried shifted by 360°, the way
- * {@link projectSubject} shifts the outline, so Chukotka's towns stay with
+ * `projectCountry` shifts the outline, so Chukotka's towns stay with
  * Russia's outline rather than landing on the far side of the world.
  *
  * @param {City[]} cities largest first
  * @param {number} count
- * @param {Box[]} boxes from {@link subject}; empty means "no outline, keep all"
+ * @param {Box[]} boxes from `projectCountry`; empty means "no outline, keep all"
  * @param {number} slackDeg how far outside a box a city may lie
  * @param {boolean} [withCapital] include the capital even when it is not among the largest
  * @returns {Dot[]} largest first

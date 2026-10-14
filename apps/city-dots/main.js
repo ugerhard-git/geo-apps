@@ -11,17 +11,17 @@
  */
 
 import { addBackLink } from "../../shared/back-link.js";
-import { loadNumeric, loadTerritories } from "../../shared/cldr.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, setSeg } from "../../shared/dom.js";
 import { MAINLAND_OVERRIDE, isNum } from "../../shared/geo.js";
+import { ALIASES, loadMapCountries } from "../../shared/map-countries.js";
+import { fetchBytes } from "../../shared/net.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
-import { bareName, cleanText, slugify } from "../../shared/text.js";
+import { cleanText, slugify } from "../../shared/text.js";
 import { clamp, own } from "../../shared/util.js";
-import { WORLD_ATLAS_URL, topoCountries } from "../../shared/world.js";
 import { decodeCities, isFormatError } from "./cities.js";
-import { ALIASES, CITIES_URL, COUNT_MAX, COUNT_MIN, MAX_BYTES } from "./config.js";
+import { CITIES_URL, COUNT_MAX, COUNT_MIN, MAX_BYTES } from "./config.js";
 import { dotsFor, drawSheet } from "./render.js";
 
 addBackLink();
@@ -36,10 +36,8 @@ addBackLink();
 
 /** @type {Territory[]} */
 let COUNTRIES = [];
-/** @type {Map<string, string>} alpha-2 → ISO numeric */
-let NUMERIC = new Map();
-/** @type {CountryShape[]} */
-let SHAPES = [];
+/** @type {(t: Territory) => CountryShape | null} */
+let shapeFor = () => null;
 /** @type {Map<string, City[]> | null} by alpha-2; null until loaded */
 let CITIES = null;
 /** Why the city list is missing, once it has failed. */
@@ -116,22 +114,6 @@ function sheetContent() {
     label: chosen ? chosen.name : "",
     mainOnly: mainOnly(),
   };
-}
-
-/**
- * The outline for a country: by ISO numeric code, which is how world-atlas
- * identifies its shapes, or by name for the few it leaves without a code.
- *
- * @param {Territory} t
- * @returns {CountryShape | null}
- */
-function shapeFor(t) {
-  const names = new Set([t.name, ...t.alts].map(bareName));
-  const byName = (/** @type {CountryShape} */ s) => names.has(bareName(s.name));
-  const num = NUMERIC.get(t.code);
-  const byId = num ? SHAPES.filter((s) => s.id === num) : [];
-  // A code can be shared: Australia's also marks the Ashmore and Cartier Islands.
-  return byId.find(byName) || byId[0] || SHAPES.find(byName) || null;
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -374,49 +356,6 @@ $("dlJpg").addEventListener("click", () => exportSheet("image/jpeg", "jpg"));
    Start-up
    ═══════════════════════════════════════════════════════════ */
 
-/**
- * Download a binary file, refusing anything implausibly large, and report
- * progress when the server says how big it is.
- *
- * @param {string} url
- * @param {number} maxBytes
- * @param {(frac: number | undefined) => void} onProgress
- * @returns {Promise<Uint8Array>}
- */
-async function fetchBytes(url, maxBytes, onProgress) {
-  const r = await fetch(url);
-  if (!r.ok) throw new Error("HTTP " + r.status);
-  const declared = parseInt(r.headers.get("content-length") || "", 10);
-  if (declared > maxBytes) throw new Error("the file is unexpectedly large");
-  if (!r.body) {
-    const buf = new Uint8Array(await r.arrayBuffer());
-    if (buf.length > maxBytes) throw new Error("the file is unexpectedly large");
-    return buf;
-  }
-  const reader = r.body.getReader();
-  /** @type {Uint8Array[]} */
-  const chunks = [];
-  let got = 0;
-  for (;;) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    got += value.length;
-    if (got > maxBytes) {
-      reader.cancel().catch(() => {});
-      throw new Error("the file is unexpectedly large");
-    }
-    chunks.push(value);
-    onProgress(declared > 0 ? got / declared : undefined);
-  }
-  const out = new Uint8Array(got);
-  let at = 0;
-  for (const c of chunks) {
-    out.set(c, at);
-    at += c.length;
-  }
-  return out;
-}
-
 async function loadCities() {
   try {
     const bytes = await fetchBytes(CITIES_URL, MAX_BYTES, (frac) => {
@@ -442,27 +381,15 @@ async function loadCities() {
 
 async function loadCountries() {
   showLoading();
-  const outlines = fetch(WORLD_ATLAS_URL)
-    .then((r) => {
-      if (!r.ok) throw new Error("HTTP " + r.status);
-      return r.json();
-    })
-    .then(topoCountries)
-    .catch(() => /** @type {CountryShape[]} */ ([])); // the dots still work without
   try {
-    const [territories, numeric, shapes] = await Promise.all([
-      loadTerritories(),
-      loadNumeric().catch(() => new Map()),
-      outlines,
-    ]);
-    COUNTRIES = territories;
-    NUMERIC = numeric;
-    SHAPES = shapes;
+    const got = await loadMapCountries();
+    COUNTRIES = got.territories;
+    shapeFor = got.shapeFor;
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — start typing`;
     input.focus();
-    if (!SHAPES.length)
+    if (got.outlinesFailed)
       note("Couldn't load the country outlines, so maps are framed on the cities alone.");
   } catch (e) {
     note(

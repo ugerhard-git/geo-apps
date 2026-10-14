@@ -5,7 +5,8 @@
 import { frameSpec } from "../../shared/sheet.js";
 import { clamp } from "../../shared/util.js";
 import { MAINLAND_SLACK_DEG } from "./config.js";
-import { extentOf, pickDots, radiusFor, subject } from "./dots.js";
+import { projectCountry } from "../../shared/projection.js";
+import { extentOf, pickDots, radiusFor } from "./dots.js";
 
 /** @typedef {import("../../shared/world.js").Polys} Polys */
 /** @typedef {import("./cities.js").City} City */
@@ -48,7 +49,7 @@ export const CREDIT = "Cities: GeoNames, CC BY 4.0";
  * @param {boolean} withCapital
  */
 export function dotsFor({ polys, shapeName, cities, mainOnly }, count, withCapital) {
-  const { shape, boxes } = subject(polys, mainOnly, shapeName);
+  const { shape, boxes } = projectCountry(polys, mainOnly, shapeName);
   const dots = cities ? pickDots(cities, count, boxes, MAINLAND_SLACK_DEG, withCapital) : [];
   return { shape, boxes, dots };
 }
