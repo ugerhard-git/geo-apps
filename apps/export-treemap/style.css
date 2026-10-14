@@ -28,45 +28,59 @@ body {
   -webkit-font-smoothing: antialiased;
   font-variant-numeric: tabular-nums;
 }
-.wrap {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 28px 20px 56px;
-}
-
-header {
-  margin-bottom: 22px;
-}
-h1 {
-  font-size: 26px;
-  font-weight: 600;
-  letter-spacing: -0.015em;
-  margin: 0 0 4px;
-}
-header p {
-  margin: 0;
-  color: var(--muted);
-  max-width: 62ch;
-}
-
+/* ── layout: settings in a sidebar on the left, the treemap on the right ── */
 .layout {
   display: grid;
-  grid-template-columns: 300px minmax(0, 1fr);
-  gap: 22px;
-  align-items: start;
+  grid-template-columns: 320px minmax(0, 1fr);
+  min-height: 100vh;
+}
+.rail {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  background: var(--panel);
+  border-right: 1px solid var(--rule);
+  padding: 0 20px 24px;
+}
+.rail-head {
+  margin: 0 -20px 18px;
+  padding: 24px 20px 18px;
+  border-bottom: 1px solid var(--rule);
+}
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  margin: 0 0 6px;
+}
+.rail-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.main {
+  padding: 24px 28px 48px;
+  min-width: 0;
 }
 @media (max-width: 860px) {
   .layout {
     grid-template-columns: 1fr;
   }
+  .rail {
+    position: static;
+    height: auto;
+    overflow: visible;
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .main {
+    padding: 20px 16px 40px;
+  }
 }
 
-.rail {
-  background: var(--panel);
-  border: 1px solid var(--rule);
-  border-radius: 4px;
-  padding: 18px;
-}
 .field {
   margin-bottom: 16px;
 }

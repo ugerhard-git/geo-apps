@@ -107,7 +107,7 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 
 ## API keys
 
-Some apps can use a personal key (GeoCards: REST Countries; Export treemaps: OEC). Keys are never
+GeoCards can use a personal REST Countries key. Keys are never
 stored in this repository or on the site. Instead, `shared/keys.js` keeps them in the visitor's
 browser (`localStorage`), and because every app is served from the same origin, a key saved in one app
 is available to all of them. Saving is opt-in: tick "remember" in an app, or use the **Saved API
