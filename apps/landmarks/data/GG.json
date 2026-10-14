@@ -1,0 +1,106 @@
+{
+ "country": "GG",
+ "items": [
+  {
+   "id": "Q8995",
+   "name": "Guernsey Airport",
+   "sl": 23,
+   "file": "Guernsey Airport Terminal.jpg",
+   "lat": 49.435,
+   "lon": -2.6019,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guernsey Airport"
+  },
+  {
+   "id": "Q2559952",
+   "name": "Alderney Airport",
+   "sl": 20,
+   "file": "Alderney Airport.JPG",
+   "lat": 49.7067,
+   "lon": -2.2144,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alderney Airport"
+  },
+  {
+   "id": "Q1591410",
+   "name": "Hauteville House",
+   "sl": 9,
+   "file": "Saint Peter Port - Hauteville House 20260806-01.jpg",
+   "lat": 49.4513,
+   "lon": -2.5377,
+   "kind": "built",
+   "types": [
+    "museum",
+    "museums of the city of Paris"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hauteville House"
+  },
+  {
+   "id": "Q2558981",
+   "name": "Alderney concentration camps",
+   "sl": 8,
+   "file": "Lageplan Konzentrationslager Aldeney B.jpg",
+   "lat": 49.7167,
+   "lon": -2.2,
+   "kind": "built",
+   "types": [
+    "labor camp",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3739747",
+   "name": "Alderney Lighthouse",
+   "sl": 8,
+   "file": "Mannez Lighthouse, Alderney - geograph.ci - 971 - by-Colin-Park.jpg",
+   "lat": 49.7292,
+   "lon": -2.1643,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alderney lighthouse"
+  },
+  {
+   "id": "Q6529562",
+   "name": "Les Hanois",
+   "sl": 8,
+   "file": "Les Hanois Lighthouse, 2011.jpg",
+   "lat": 49.4333,
+   "lon": -2.7,
+   "kind": "natural",
+   "types": [
+    "island",
+    "rock formation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Les Hanois Lighthouse"
+  }
+ ]
+}

@@ -1,0 +1,458 @@
+{
+ "country": "ER",
+ "items": [
+  {
+   "id": "Q141513",
+   "name": "Danakil Desert",
+   "sl": 44,
+   "file": "Danakil-Sable.jpg",
+   "lat": 14.2417,
+   "lon": 40.3,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DJ",
+    "ET"
+   ],
+   "cat": "Danakil Desert"
+  },
+  {
+   "id": "Q1951029",
+   "name": "Mousa Ali",
+   "sl": 29,
+   "file": "Gufa volcanic field.jpg",
+   "lat": 12.4708,
+   "lon": 42.405,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DJ",
+    "ET"
+   ],
+   "cat": "Mousa Ali"
+  },
+  {
+   "id": "Q522898",
+   "name": "Asmara International Airport",
+   "sl": 28,
+   "file": "Eritrean Airlines Boeing 767-200ER UR-SDV-1.jpg",
+   "lat": 15.285,
+   "lon": 38.9017,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asmara International Airport"
+  },
+  {
+   "id": "Q596806",
+   "name": "Nabro Volcano",
+   "sl": 25,
+   "file": "Nabro map.png",
+   "lat": 13.37,
+   "lon": 41.7,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nabro"
+  },
+  {
+   "id": "Q378940",
+   "name": "Adulis",
+   "sl": 24,
+   "file": "MapHymiariteKingdom.jpg",
+   "lat": 15.2636,
+   "lon": 39.6606,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "port city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adulis"
+  },
+  {
+   "id": "Q11957212",
+   "name": "Great Mosque of Asmara",
+   "sl": 21,
+   "file": "Great Mosque (8351473351).jpg",
+   "lat": 15.3389,
+   "lon": 38.9417,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q124393371",
+    "name": "Asmara: A Modernist African City"
+   },
+   "also": [],
+   "cat": "Grand Mosque (Asmara)"
+  },
+  {
+   "id": "Q651210",
+   "name": "Massawa International Airport",
+   "sl": 20,
+   "file": "Antonov An-12BP AN1639638.jpg",
+   "lat": 15.6711,
+   "lon": 39.368,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q55147092",
+   "name": "Mosque of the Companions, Massawa",
+   "sl": 19,
+   "file": "Al Sahaba Mosque, Massawa.jpg",
+   "lat": 15.612,
+   "lon": 39.4806,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosque of the Companions, Massawa"
+  },
+  {
+   "id": "Q1410651",
+   "name": "Fiat Tagliero Building",
+   "sl": 17,
+   "file": "Fiat tagliero, 08.JPG",
+   "lat": 15.3283,
+   "lon": 38.9258,
+   "kind": "built",
+   "types": [
+    "filling station"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q124393371",
+    "name": "Asmara: A Modernist African City"
+   },
+   "also": [],
+   "cat": "Fiat Tagliero Building, Asmara"
+  },
+  {
+   "id": "Q1814890",
+   "name": "Alid Volcano",
+   "sl": 16,
+   "file": "Alid volcano.jpg",
+   "lat": 14.89,
+   "lon": 39.9258,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alid"
+  },
+  {
+   "id": "Q2061047",
+   "name": "Church of Our Lady of the Rosary",
+   "sl": 15,
+   "file": "Asmara, cattedrale cattolica, 03.JPG",
+   "lat": 15.3367,
+   "lon": 38.9379,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q124393371",
+    "name": "Asmara: A Modernist African City"
+   },
+   "also": [],
+   "cat": "Church of Our Lady of the Rosary, Asmara"
+  },
+  {
+   "id": "Q954653",
+   "name": "Cinema Impero",
+   "sl": 15,
+   "file": "Asmara, cinema impero, 07.JPG",
+   "lat": 15.3367,
+   "lon": 38.9403,
+   "kind": "built",
+   "types": [
+    "movie theater"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q124393371",
+    "name": "Asmara: A Modernist African City"
+   },
+   "also": [],
+   "cat": "Cinema Impero"
+  },
+  {
+   "id": "Q733142",
+   "name": "Cicero Stadium",
+   "sl": 14,
+   "file": "Eritrea corner's 08.jpg",
+   "lat": 15.3493,
+   "lon": 38.9213,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3334423",
+   "name": "Semenawi Bahri National Park",
+   "sl": 14,
+   "file": "FILFIL (Semenawi Bahri Mountain Road.jpg",
+   "lat": 15.5992,
+   "lon": 38.9355,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Semenawi Bahri National Park"
+  },
+  {
+   "id": "Q1972822",
+   "name": "Enda Mariam Coptic Cathedral",
+   "sl": 13,
+   "file": "Enda Mariam Orthodox Cathedral (8351473067).jpg",
+   "lat": 15.3398,
+   "lon": 38.9442,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q124393371",
+    "name": "Asmara: A Modernist African City"
+   },
+   "also": [],
+   "cat": "Enda Mariam Cathedral, Asmara"
+  },
+  {
+   "id": "Q256573",
+   "name": "Asmara Synagogue",
+   "sl": 12,
+   "file": "Friedhof Asmara 3.JPG",
+   "lat": 15.3373,
+   "lon": 38.9407,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3285402",
+   "name": "Manda-Inakir",
+   "sl": 12,
+   "file": "Manda-Inakir.jpg",
+   "lat": 12.6333,
+   "lon": 42.3333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DJ",
+    "ET"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q738507",
+   "name": "Asseb Volcano",
+   "sl": 11,
+   "file": "Assab volcanic field.jpg",
+   "lat": 12.9472,
+   "lon": 42.4381,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5256659",
+   "name": "Denden Stadium",
+   "sl": 11,
+   "file": "Asmara aerial view 1981 05.jpg",
+   "lat": 15.3435,
+   "lon": 38.9256,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1758861",
+   "name": "Governor's Palace, Asmara",
+   "sl": 11,
+   "file": "Asmara, amministrazione della regione di makeel 00.JPG",
+   "lat": 15.3361,
+   "lon": 38.9414,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q124393371",
+    "name": "Asmara: A Modernist African City"
+   },
+   "also": [],
+   "cat": "Central Region Administration building (Asmara)"
+  },
+  {
+   "id": "Q3119265",
+   "name": "Gufa Volcano",
+   "sl": 11,
+   "file": "Gufa volcanic field.jpg",
+   "lat": 12.55,
+   "lon": 42.5333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q638169",
+   "name": "Hawulti",
+   "sl": 10,
+   "file": "Balaw Kalaw (metera), stele axumita 05.JPG",
+   "lat": 14.6747,
+   "lon": 39.4247,
+   "kind": "built",
+   "types": [
+    "obelisk"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Balaw Kalaw - Menhir"
+  },
+  {
+   "id": "Q4236500",
+   "name": "Qohaito",
+   "sl": 9,
+   "file": "Kohaito, zona dei palazzi axumiti 09.JPG",
+   "lat": 14.866,
+   "lon": 39.424,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qohaito"
+  },
+  {
+   "id": "Q1652119",
+   "name": "Asmara Cinema-Teatro",
+   "sl": 8,
+   "file": "Asmara, teatro d'opera, 03.JPG",
+   "lat": 15.3358,
+   "lon": 38.9352,
+   "kind": "built",
+   "types": [
+    "movie theater",
+    "opera house",
+    "theatre building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q124393371",
+    "name": "Asmara: A Modernist African City"
+   },
+   "also": [],
+   "cat": "Asmara Opera House"
+  },
+  {
+   "id": "Q16252027",
+   "name": "Asmara President's Office",
+   "sl": 8,
+   "file": "Asmarapalazzodelgovernatore.png",
+   "lat": 15.3362,
+   "lon": 38.9314,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "President's Office (Asmara)"
+  },
+  {
+   "id": "Q5248540",
+   "name": "Debre Bizen",
+   "sl": 8,
+   "file": "Debre Bizen.jpg",
+   "lat": 15.3333,
+   "lon": 39.0833,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Debre Bizen"
+  }
+ ]
+}

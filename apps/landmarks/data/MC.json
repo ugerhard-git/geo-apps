@@ -1,0 +1,373 @@
+{
+ "country": "MC",
+ "items": [
+  {
+   "id": "Q318851",
+   "name": "Stade Louis II",
+   "sl": 42,
+   "file": "Monaco Stade Louis-II 1.jpg",
+   "lat": 43.7278,
+   "lon": 7.4156,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Louis II"
+  },
+  {
+   "id": "Q851527",
+   "name": "Musée océanographique de Monaco",
+   "sl": 33,
+   "file": "Monaco BW 2011-06-07 17-50-43.jpg",
+   "lat": 43.7308,
+   "lon": 7.4253,
+   "kind": "built",
+   "types": [
+    "museum",
+    "organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée Océanographique de Monaco"
+  },
+  {
+   "id": "Q1164788",
+   "name": "Prince's Palace",
+   "sl": 32,
+   "file": "Palais Princier de Monaco.jpg",
+   "lat": 43.7314,
+   "lon": 7.4203,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1779905",
+   "name": "Monte Carlo Casino",
+   "sl": 28,
+   "file": "Le casino de Monte-Carlo.JPG",
+   "lat": 43.7392,
+   "lon": 7.428,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casino de Monte Carlo"
+  },
+  {
+   "id": "Q667450",
+   "name": "Cathedral of Our Lady Immaculate",
+   "sl": 26,
+   "file": "Monaco BW 2011-06-07 16-07-20.jpg",
+   "lat": 43.7302,
+   "lon": 7.4227,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Our Lady Immaculate, Monaco"
+  },
+  {
+   "id": "Q1517182",
+   "name": "Mont Agel",
+   "sl": 23,
+   "file": "Monaco IMG 1183.jpg",
+   "lat": 43.7753,
+   "lon": 7.4264,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Mont Agel"
+  },
+  {
+   "id": "Q1577048",
+   "name": "Opéra de Monte-Carlo",
+   "sl": 20,
+   "file": "Opéra de Monte-Carlo-Monaco.JPG",
+   "lat": 43.7389,
+   "lon": 7.4283,
+   "kind": "built",
+   "types": [
+    "opera house",
+    "performing arts center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Opéra de Monte-Carlo"
+  },
+  {
+   "id": "Q662619",
+   "name": "Monaco Heliport",
+   "sl": 17,
+   "file": "Monaco – Heliport vor dem Cirque de Monte-Carlo - panoramio (cropped).jpg",
+   "lat": 43.7257,
+   "lon": 7.4192,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "heliport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heliports, helipads and helidecks in Monaco"
+  },
+  {
+   "id": "Q1069352",
+   "name": "Chemin des Révoires",
+   "sl": 16,
+   "file": "MonacoLibreDeDroits.jpg",
+   "lat": 43.7328,
+   "lon": 7.4125,
+   "kind": "natural",
+   "types": [
+    "footpath",
+    "mountain",
+    "path"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1279896",
+   "name": "Hôtel de Paris Monte-Carlo",
+   "sl": 16,
+   "file": "Hôtel de Paris Monte-Carlo 001.jpg",
+   "lat": 43.739,
+   "lon": 7.4275,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel de Paris, Monaco"
+  },
+  {
+   "id": "Q3351922",
+   "name": "Rock of Monaco",
+   "sl": 15,
+   "file": "Monaco Ville from Tête de Chien - panoramio.jpg",
+   "lat": 43.731,
+   "lon": 7.424,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "rock formation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1546813",
+   "name": "Grimaldi Forum",
+   "sl": 14,
+   "file": "Grimaldi Forum Monaco - photographe Olivia Marocco.jpg",
+   "lat": 43.7436,
+   "lon": 7.4317,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Forum Grimaldi"
+  },
+  {
+   "id": "Q7230673",
+   "name": "Port Hercules",
+   "sl": 13,
+   "file": "Monaco city and harbour.jpeg",
+   "lat": 43.7352,
+   "lon": 7.4267,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port Hercule"
+  },
+  {
+   "id": "Q1384208",
+   "name": "Jardin Exotique de Monaco",
+   "sl": 12,
+   "file": "Chorisia Monaco.jpg",
+   "lat": 43.7315,
+   "lon": 7.4138,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Botanical gardens in Monaco"
+  },
+  {
+   "id": "Q15229360",
+   "name": "Japanese Garden",
+   "sl": 11,
+   "file": "Jardinmonaco3bis.jpg",
+   "lat": 43.7423,
+   "lon": 7.431,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Japanese garden of Monaco"
+  },
+  {
+   "id": "Q3533145",
+   "name": "Odeon Tower",
+   "sl": 11,
+   "file": "Tour Odéon Monaco 2022 (cropped).jpg",
+   "lat": 43.748,
+   "lon": 7.4307,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tour Odéon (Monaco)"
+  },
+  {
+   "id": "Q584191",
+   "name": "Sainte-Dévote Chapel",
+   "sl": 11,
+   "file": "Église de Saint-Dévote Monaco IMG 1204.jpg",
+   "lat": 43.7375,
+   "lon": 7.421,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Église de Saint-Dévote (Monaco)"
+  },
+  {
+   "id": "Q16010845",
+   "name": "Monaco Top Cars Collection",
+   "sl": 10,
+   "file": "Musee de l'automobile de Monaco.jpg",
+   "lat": 43.7354,
+   "lon": 7.4218,
+   "kind": "built",
+   "types": [
+    "automobile museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monaco Top Cars Collection"
+  },
+  {
+   "id": "Q623013",
+   "name": "Saint-Charles Church",
+   "sl": 9,
+   "file": "Eglise st charles Monaco.jpg",
+   "lat": 43.7426,
+   "lon": 7.4273,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Charles, Monaco"
+  },
+  {
+   "id": "Q1537757",
+   "name": "Ligurian Sea Cetacean Sanctuary",
+   "sl": 8,
+   "file": "Stenella striata.JPG",
+   "lat": 43,
+   "lon": 9,
+   "kind": "natural",
+   "types": [
+    "marine protected area",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR",
+    "IT"
+   ],
+   "cat": "Pelagos Sanctuary for Mediterranean Marine Mammals"
+  },
+  {
+   "id": "Q3330282",
+   "name": "Museum of Stamps and Coins",
+   "sl": 8,
+   "file": "MUSEE DES TIMBRES ET DES MONNAIES - panoramio.jpg",
+   "lat": 43.7309,
+   "lon": 7.4176,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée des Timbres et des Monnaies"
+  },
+  {
+   "id": "Q22936222",
+   "name": "Salle Gaston Médecin",
+   "sl": 8,
+   "file": "Salle Gaston Médecin.JPG",
+   "lat": 43.7276,
+   "lon": 7.4156,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salle Gaston Médecin"
+  }
+ ]
+}

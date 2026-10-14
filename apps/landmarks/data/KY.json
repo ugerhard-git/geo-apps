@@ -1,0 +1,22 @@
+{
+ "country": "KY",
+ "items": [
+  {
+   "id": "Q3275688",
+   "name": "Charles Kirkconnell International Airport",
+   "sl": 15,
+   "file": "Cayman Brac Airport.jpg",
+   "lat": 19.6869,
+   "lon": -79.8828,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Charles Kirkconnell International Airport"
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "country": "TO",
+ "items": [
+  {
+   "id": "Q3143318",
+   "name": "Hunga Tonga–Hunga Haʻapai",
+   "sl": 40,
+   "file": "Hunga Tonga Hunga Ha’apai (NGA, 2017) 2.jpg",
+   "lat": -20.545,
+   "lon": -175.3925,
+   "kind": "natural",
+   "types": [
+    "submarine volcano",
+    "volcanic island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hunga Tonga–Hunga Ha'apai"
+  },
+  {
+   "id": "Q119294",
+   "name": "Tonga Trench",
+   "sl": 37,
+   "file": "Kermadec Arc.jpg",
+   "lat": -22.9447,
+   "lon": -174.7331,
+   "kind": "natural",
+   "types": [
+    "oceanic trench"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tonga Trench"
+  },
+  {
+   "id": "Q1200954",
+   "name": "Niuas",
+   "sl": 27,
+   "file": "Niuatoputapu.gif",
+   "lat": -15.9594,
+   "lon": -173.783,
+   "kind": "natural",
+   "types": [
+    "division of Tonga",
+    "island group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Niua Islands"
+  },
+  {
+   "id": "Q975696",
+   "name": "Fuaʻamotu International Airport",
+   "sl": 24,
+   "file": "Fua'amoto International Airport.jpg",
+   "lat": -21.2411,
+   "lon": -175.1494,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fuaʻamotu International Airport"
+  },
+  {
+   "id": "Q1138750",
+   "name": "Minerva Reefs",
+   "sl": 20,
+   "file": "Minerva Reefs.jpg",
+   "lat": -23.8333,
+   "lon": -179,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "disputed territory",
+    "reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FJ"
+   ],
+   "cat": "Minerva Reefs"
+  },
+  {
+   "id": "Q2992825",
+   "name": "Royal Palace of Nukuʻalofa",
+   "sl": 16,
+   "file": "Royal Palace, Nuku'alofa, Nov 18.jpg",
+   "lat": -21.1314,
+   "lon": -175.2006,
+   "kind": "built",
+   "types": [
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Palace, Nuku'alofa"
+  },
+  {
+   "id": "Q2980547",
+   "name": "Vavaʻu International Airport",
+   "sl": 16,
+   "file": "Vavau airport, Tonga.jpg",
+   "lat": -18.5853,
+   "lon": -173.9617,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vavaʻu International Airport"
+  },
+  {
+   "id": "Q3272015",
+   "name": "Lifuka Island Airport",
+   "sl": 11,
+   "file": "Ha'apai Island Airport, Tonga, South Pacific - panoramio.jpg",
+   "lat": -19.7767,
+   "lon": -174.3411,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q651525",
+   "name": "Niuafoʻou Airport",
+   "sl": 10,
+   "file": "'Esia village and airstrip, Niuafo'ou.jpg",
+   "lat": -15.5711,
+   "lon": -175.6308,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2406972",
+   "name": "Teufaiva Sport Stadium",
+   "sl": 10,
+   "file": "Teufaiva Sport Stadium.jpg",
+   "lat": -21.1414,
+   "lon": -175.2074,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1433433",
+   "name": "Ha'amonga 'a Maui",
+   "sl": 9,
+   "file": "Haʻamonga.jpg",
+   "lat": -21.1367,
+   "lon": -175.0481,
+   "kind": "built",
+   "types": [
+    "trilithon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Megaliths in Tonga"
+  }
+ ]
+}

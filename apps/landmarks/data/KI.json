@@ -1,0 +1,154 @@
+{
+ "country": "KI",
+ "items": [
+  {
+   "id": "Q522496",
+   "name": "Bonriki International Airport",
+   "sl": 29,
+   "file": "NGTA.jpg",
+   "lat": 1.3817,
+   "lon": 173.1469,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bonriki International Airport"
+  },
+  {
+   "id": "Q863815",
+   "name": "Phoenix Islands Protected Area",
+   "sl": 22,
+   "file": "3dPerspective wSeamounts NoRefs.jpg",
+   "lat": -3.6497,
+   "lon": -172.8575,
+   "kind": "natural",
+   "types": [
+    "marine protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1431055",
+   "name": "Cassidy International Airport",
+   "sl": 17,
+   "file": "CassidyAirport CXI 1.JPG",
+   "lat": 1.9861,
+   "lon": -157.3497,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cassidy International Airport"
+  },
+  {
+   "id": "Q803944",
+   "name": "Bairiki National Stadium",
+   "sl": 16,
+   "file": "Bairiki National Stadium, Tarawa, Kiribati.jpg",
+   "lat": 1.3292,
+   "lon": 172.9769,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2398223",
+   "name": "Te Umanibong",
+   "sl": 11,
+   "file": "Te Umanibong.jpg",
+   "lat": 1.3665,
+   "lon": 173.1214,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kiribati Cultural Museum in Bikenibeu"
+  },
+  {
+   "id": "Q751889",
+   "name": "Arorae Island Airport",
+   "sl": 10,
+   "file": "Arorae Kiribati.jpg",
+   "lat": -2.6163,
+   "lon": 176.8021,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1044677",
+   "name": "Carondelet Reef",
+   "sl": 10,
+   "file": "Carondelet Reef dive 2017.jpg",
+   "lat": -5.5667,
+   "lon": -173.85,
+   "kind": "natural",
+   "types": [
+    "landform",
+    "reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1433447",
+   "name": "Abaiang Atoll Airport",
+   "sl": 9,
+   "file": "Flughafen Abaiang.jpg",
+   "lat": 1.7964,
+   "lon": 173.0403,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abaiang Atoll Airport"
+  },
+  {
+   "id": "Q2942914",
+   "name": "Sacred Heart Cathedral",
+   "sl": 8,
+   "file": "Sacred Heart Cathedral (Tarawa).jpg",
+   "lat": 1.3327,
+   "lon": 173.007,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sacred Heart Cathedral, Kiribati"
+  }
+ ]
+}

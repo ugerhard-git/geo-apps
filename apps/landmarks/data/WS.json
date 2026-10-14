@@ -1,0 +1,87 @@
+{
+ "country": "WS",
+ "items": [
+  {
+   "id": "Q1147814",
+   "name": "Silisili",
+   "sl": 28,
+   "file": "Mauga Silisili.jpg",
+   "lat": -13.6183,
+   "lon": -172.4858,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q197933",
+   "name": "Faleolo International Airport",
+   "sl": 24,
+   "file": "Faleolo International Airport.jpg",
+   "lat": -13.8297,
+   "lon": -172.0083,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Faleolo International Airport"
+  },
+  {
+   "id": "Q6922059",
+   "name": "Mount Matavanu",
+   "sl": 12,
+   "file": "Volcano,Savaii.(.Photographer’s.Title).Andrew.Thomas 1906.jpg",
+   "lat": -13.5333,
+   "lon": -172.4,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcanoes in Samoa"
+  },
+  {
+   "id": "Q5429369",
+   "name": "Fagali'i Airport",
+   "sl": 11,
+   "file": "Fagalii.jpg",
+   "lat": -13.8483,
+   "lon": -171.7417,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fagali'i Airport"
+  },
+  {
+   "id": "Q18416912",
+   "name": "Immaculate Conception Cathedral, Apia",
+   "sl": 8,
+   "file": "Immaculate Conception Cathedral, Apia, 2026.jpg",
+   "lat": -13.8321,
+   "lon": -171.7665,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apia Cathedral"
+  }
+ ]
+}

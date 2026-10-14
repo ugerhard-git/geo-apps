@@ -1,0 +1,1370 @@
+{
+ "country": "TH",
+ "items": [
+  {
+   "id": "Q194316",
+   "name": "Suvarnabhumi Airport",
+   "sl": 67,
+   "file": "Bangkok - Suvarnabhumi International (BKK - VTBS) AN1822384.jpg",
+   "lat": 13.6811,
+   "lon": 100.7472,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suvarnabhumi International Airport"
+  },
+  {
+   "id": "Q873769",
+   "name": "Grand Palace",
+   "sl": 48,
+   "file": "0005574 - Wat Phra Kaew 006.jpg",
+   "lat": 13.7501,
+   "lon": 100.492,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historic house museum",
+    "place of worship",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Palace, Bangkok"
+  },
+  {
+   "id": "Q1045876",
+   "name": "Wat Phra Kaew",
+   "sl": 45,
+   "file": "วัดพระศรีรัตนศาสดาราม วัดพระแก้ว กรุงเทพมหานคร - Wat Phra Kaew, Temple of Emerald Buddha, Bangkok, Thailand.jpg",
+   "lat": 13.7514,
+   "lon": 100.4928,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Phra Kaew"
+  },
+  {
+   "id": "Q1025100",
+   "name": "Ayutthaya Historical Park",
+   "sl": 43,
+   "file": "Ayuthistparkmap.png",
+   "lat": 14.3516,
+   "lon": 100.5575,
+   "kind": "natural",
+   "types": [
+    "historical park of Thailand"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ayutthaya Historical Park"
+  },
+  {
+   "id": "Q386420",
+   "name": "Khao Yai National Park",
+   "sl": 43,
+   "file": "KHAOYAI.JPG",
+   "lat": 14.35,
+   "lon": 101.44,
+   "kind": "natural",
+   "types": [
+    "ASEAN Heritage Park",
+    "national park of Thailand",
+    "nature reserve"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16963852",
+    "name": "Dong Phayayen-Khao Yai Forest Complex"
+   },
+   "also": [],
+   "cat": "Khao Yai National Park"
+  },
+  {
+   "id": "Q724970",
+   "name": "Wat Arun",
+   "sl": 43,
+   "file": "Wat Arun from Chao Phraya River.jpg",
+   "lat": 13.7437,
+   "lon": 100.4889,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Arun"
+  },
+  {
+   "id": "Q584125",
+   "name": "Ban Chiang",
+   "sl": 42,
+   "file": "Wat Pho Si Nai - UNESCO World Heritage Site plaque.JPG",
+   "lat": 17.5486,
+   "lon": 103.3583,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ban Chiang Archaeological Site"
+  },
+  {
+   "id": "Q240694",
+   "name": "Phuket International Airport",
+   "sl": 39,
+   "file": "ท่าอากาศยานนานาชาติภูเก็ต อ.ถลาง จ.ภูเก็ต Phuket International Airport (7).jpg",
+   "lat": 8.1133,
+   "lon": 98.3169,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phuket International Airport"
+  },
+  {
+   "id": "Q1046755",
+   "name": "Don Mueang International Airport",
+   "sl": 38,
+   "file": "DMK - Don Mueang Airport - as seen from a flight (2026) - IMG 02.jpg",
+   "lat": 13.9125,
+   "lon": 100.6067,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Don Mueang International Airport"
+  },
+  {
+   "id": "Q423654",
+   "name": "Sukhothai Historical Park",
+   "sl": 37,
+   "file": "Sukhothai, Buddhist stupas on the lake, Thailand.jpg",
+   "lat": 17.0211,
+   "lon": 99.7036,
+   "kind": "natural",
+   "types": [
+    "historical park of Thailand"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q865097",
+    "name": "Historic Town of Sukhothai and Associated Historic Towns"
+   },
+   "also": [],
+   "cat": "Sukhothai Historical Park"
+  },
+  {
+   "id": "Q1819232",
+   "name": "Kaeng Krachan National Park",
+   "sl": 36,
+   "file": "Kaeng Krachan.jpg",
+   "lat": 12.7989,
+   "lon": 99.4533,
+   "kind": "natural",
+   "types": [
+    "national park of Thailand"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaeng Krachan National Park"
+  },
+  {
+   "id": "Q1140075",
+   "name": "Doi Inthanon",
+   "sl": 35,
+   "file": "InthanonChedi1.jpg",
+   "lat": 18.5922,
+   "lon": 98.4867,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doi Inthanon"
+  },
+  {
+   "id": "Q1065082",
+   "name": "Chiang Mai International Airport",
+   "sl": 32,
+   "file": "Chiang Mai International Airport 2025.jpg",
+   "lat": 18.7667,
+   "lon": 98.9625,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chiang Mai Airport"
+  },
+  {
+   "id": "Q804055",
+   "name": "Baiyoke Tower II",
+   "sl": 31,
+   "file": "The Baiyoke Tower II closeup in Bangkok, Thaliand.jpg",
+   "lat": 13.7541,
+   "lon": 100.541,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baiyoke Tower II"
+  },
+  {
+   "id": "Q917862",
+   "name": "First Thai–Lao Friendship Bridge",
+   "sl": 31,
+   "file": "Pont de l'amitié 18-12-2010.jpg",
+   "lat": 17.8783,
+   "lon": 102.7156,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "prestressed concrete bridge",
+    "railway bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LA"
+   ],
+   "cat": "Thai-Lao Friendship Bridge"
+  },
+  {
+   "id": "Q621134",
+   "name": "Huai Kha Khaeng Wildlife Sanctuary",
+   "sl": 30,
+   "file": "ห้วยขาแข้ง 051.jpg",
+   "lat": 15.3333,
+   "lon": 98.9167,
+   "kind": "natural",
+   "types": [
+    "wildlife refuge"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15725130",
+    "name": "Thungyai-Huai Kha Khaeng Wildlife Sanctuaries"
+   },
+   "also": [],
+   "cat": "Huai Kha Khaeng Wildlife Sanctuary"
+  },
+  {
+   "id": "Q717765",
+   "name": "Phang Nga Bay",
+   "sl": 30,
+   "file": "Dramatic karst landscape of Phang Nga Bay, Thailand.jpg",
+   "lat": 8.2833,
+   "lon": 98.6,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "sound"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phang Nga Bay"
+  },
+  {
+   "id": "Q867656",
+   "name": "Samui Airport",
+   "sl": 29,
+   "file": "202402 Check-in Drop-Off Area of USM.jpg",
+   "lat": 9.5478,
+   "lon": 100.0622,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ko Samui Airport"
+  },
+  {
+   "id": "Q806452",
+   "name": "Burapha Withi Expressway",
+   "sl": 28,
+   "file": "Bangna-Bangpakong Road.jpg",
+   "lat": 13.6594,
+   "lon": 100.665,
+   "kind": "built",
+   "types": [
+    "controlled-access highway",
+    "girder bridge",
+    "prestressed concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burapha Withi Expressway"
+  },
+  {
+   "id": "Q1059910",
+   "name": "Wat Pho",
+   "sl": 28,
+   "file": "Altar at Wat Pho.jpg",
+   "lat": 13.7464,
+   "lon": 100.4936,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Pho"
+  },
+  {
+   "id": "Q1640197",
+   "name": "King Power Mahanakhon",
+   "sl": 27,
+   "file": "Bangkok - King Power Mahanakhon คิง เพาเวอร์ มหานคร 2021 May.jpg",
+   "lat": 13.7236,
+   "lon": 100.5283,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "MahaNakhon"
+  },
+  {
+   "id": "Q616894",
+   "name": "Krabi Airport",
+   "sl": 27,
+   "file": "Krabi International Airport, Thailand.jpg",
+   "lat": 8.1002,
+   "lon": 98.9853,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krabi Airport"
+  },
+  {
+   "id": "Q912583",
+   "name": "Hat Yai International Airport",
+   "sl": 26,
+   "file": "Hat Yai International Airport.JPG",
+   "lat": 6.9331,
+   "lon": 100.3928,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hat Yai International Airport"
+  },
+  {
+   "id": "Q1761007",
+   "name": "Songkhla Lake",
+   "sl": 26,
+   "file": "Songkhla Lake (747291297).jpg",
+   "lat": 7.2,
+   "lon": 100.4667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Songkhla lake"
+  },
+  {
+   "id": "Q422995",
+   "name": "Thungyai Naresuan Wildlife Sanctuary",
+   "sl": 26,
+   "file": "Thung Yai Ramit-River.JPG",
+   "lat": 15.3333,
+   "lon": 98.9167,
+   "kind": "natural",
+   "types": [
+    "wildlife refuge"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15725130",
+    "name": "Thungyai-Huai Kha Khaeng Wildlife Sanctuaries"
+   },
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1371432",
+   "name": "U-Tapao International Airport",
+   "sl": 26,
+   "file": "Rayong - U-Taphao International (UTP - VTBU) AN1906182.jpg",
+   "lat": 12.6796,
+   "lon": 101.0049,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "U-Tapao International Airport"
+  },
+  {
+   "id": "Q2165719",
+   "name": "Wat Benchamabophit",
+   "sl": 26,
+   "file": "Wat Benchamabophit face.jpg",
+   "lat": 13.7661,
+   "lon": 100.5142,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Benchamabophit"
+  },
+  {
+   "id": "Q1760508",
+   "name": "Khao Sam Roi Yot National Park",
+   "sl": 25,
+   "file": "Village Bang Pu, Khao Sam Roi Yod national park.jpg",
+   "lat": 12.1825,
+   "lon": 99.9483,
+   "kind": "natural",
+   "types": [
+    "national park of Thailand"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khao Sam Roi Yot National Park"
+  },
+  {
+   "id": "Q1760520",
+   "name": "Khao Sok",
+   "sl": 25,
+   "file": "Karst formations on Cheow Lan Lake, Thailand.jpg",
+   "lat": 8.9367,
+   "lon": 98.5303,
+   "kind": "natural",
+   "types": [
+    "national park of Thailand"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khao Sok National Park"
+  },
+  {
+   "id": "Q630024",
+   "name": "Patong",
+   "sl": 25,
+   "file": "Patong Beach (1).jpg",
+   "lat": 7.8966,
+   "lon": 98.2954,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Patong Beach"
+  },
+  {
+   "id": "Q496543",
+   "name": "Wat Rong Khun",
+   "sl": 25,
+   "file": "Chiang Rai - Wat Rong Khun วัดร่องขุ่น (2026) - img 11.jpg",
+   "lat": 19.8242,
+   "lon": 99.7633,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Rong Khun, Chiang Rai"
+  },
+  {
+   "id": "Q1255815",
+   "name": "Bangkok National Museum",
+   "sl": 24,
+   "file": "Bangkok National Museum.jpg",
+   "lat": 13.7578,
+   "lon": 100.4923,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bangkok National Museum"
+  },
+  {
+   "id": "Q990128",
+   "name": "Erawan National Park",
+   "sl": 24,
+   "file": "Erawan National Park (49797936858).jpg",
+   "lat": 14.3833,
+   "lon": 99.1167,
+   "kind": "natural",
+   "types": [
+    "national park of Thailand"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erawan National Park"
+  },
+  {
+   "id": "Q969597",
+   "name": "Mae Fah Luang – Chiang Rai International Airport",
+   "sl": 24,
+   "file": "Chiang Rai International Airport.jpg",
+   "lat": 19.9522,
+   "lon": 99.8828,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chiang Rai International Airport"
+  },
+  {
+   "id": "Q2083114",
+   "name": "Great Buddha of Thailand",
+   "sl": 23,
+   "file": "Ang Thong - Wiset Chai Chan (2024) Great Buddha of Thailand, Wat Muang - img 01.jpg",
+   "lat": 14.5932,
+   "lon": 100.3778,
+   "kind": "built",
+   "types": [
+    "daibutsu"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phra Buddha Maha Nawamin Sakayamuni Sri Wisetchaichan"
+  },
+  {
+   "id": "Q770306",
+   "name": "Surat Thani Airport",
+   "sl": 23,
+   "file": "Surat thani airport.jpg",
+   "lat": 9.1361,
+   "lon": 99.1392,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Surat Thani International Airport"
+  },
+  {
+   "id": "Q1395364",
+   "name": "Si Satchanalai Historical Park",
+   "sl": 21,
+   "file": "Histparksisatchanalai.png",
+   "lat": 17.426,
+   "lon": 99.7888,
+   "kind": "natural",
+   "types": [
+    "historical park of Thailand"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q865097",
+    "name": "Historic Town of Sukhothai and Associated Historic Towns"
+   },
+   "also": [],
+   "cat": "Si Satchanalai Historical Park"
+  },
+  {
+   "id": "Q972334",
+   "name": "Siam Paragon",
+   "sl": 21,
+   "file": "Siam Paragon 06.23.jpg",
+   "lat": 13.7464,
+   "lon": 100.535,
+   "kind": "built",
+   "types": [
+    "shopping center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siam Paragon"
+  },
+  {
+   "id": "Q1299161",
+   "name": "Udon Thani International Airport",
+   "sl": 21,
+   "file": "Udon Thani terminal,Thailand (27412478245).jpg",
+   "lat": 17.3864,
+   "lon": 102.7883,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport",
+    "military base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Udon Thani International Airport"
+  },
+  {
+   "id": "Q1517698",
+   "name": "Wat Phrathat Doi Suthep",
+   "sl": 21,
+   "file": "Phra That Doi Suthep 01.jpg",
+   "lat": 18.8052,
+   "lon": 98.9216,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Phra That Doi Suthep"
+  },
+  {
+   "id": "Q1518029",
+   "name": "Yaowarat Road",
+   "sl": 21,
+   "file": "2016 Bangkok, Dystrykt Samphanthawong, Ulica Yaowarat (05).jpg",
+   "lat": 13.7388,
+   "lon": 100.5122,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thanon Yaowarat"
+  },
+  {
+   "id": "Q1186076",
+   "name": "Democracy Monument",
+   "sl": 20,
+   "file": "010-Democracy Monument.jpg",
+   "lat": 13.7567,
+   "lon": 100.5017,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Democracy Monument (Bangkok)"
+  },
+  {
+   "id": "Q16963852",
+   "name": "Dong Phayayen-Khao Yai Forest Complex",
+   "sl": 20,
+   "file": "KHAOYAI.JPG",
+   "lat": 14.33,
+   "lon": 102.05,
+   "kind": "",
+   "types": [
+    "forest"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q680065",
+   "name": "Kamphaeng Phet Historical Park",
+   "sl": 20,
+   "file": "Histparkkamphet.png",
+   "lat": 16.484,
+   "lon": 99.524,
+   "kind": "natural",
+   "types": [
+    "historical park of Thailand"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q865097",
+    "name": "Historic Town of Sukhothai and Associated Historic Towns"
+   },
+   "also": [],
+   "cat": "Kamphaeng Phet historical park"
+  },
+  {
+   "id": "Q1092231",
+   "name": "Rama VIII Bridge",
+   "sl": 20,
+   "file": "Rama VIII Bridge at night.jpg",
+   "lat": 13.7692,
+   "lon": 100.4968,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rama VIII Bridge"
+  },
+  {
+   "id": "Q1517758",
+   "name": "Si Thep historical park",
+   "sl": 20,
+   "file": "Khao Khlang Nak-1-HDR-pano.jpg",
+   "lat": 15.4666,
+   "lon": 101.1501,
+   "kind": "natural",
+   "types": [
+    "historical park of Thailand"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Si Thep Historical Park"
+  },
+  {
+   "id": "Q781931",
+   "name": "Wat Phra Sri Sanphet",
+   "sl": 20,
+   "file": "Ayutthaya Wat Phra Si Sanphet (Site of Royal Palace) (31538948627).jpg",
+   "lat": 14.3558,
+   "lon": 100.5583,
+   "kind": "built",
+   "types": [
+    "ruins",
+    "wat"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1025100",
+    "name": "Ayutthaya Historical Park"
+   },
+   "also": [],
+   "cat": "Wat Phra Si Sanphet"
+  },
+  {
+   "id": "Q1817242",
+   "name": "Ao Phang Nga National Park",
+   "sl": 19,
+   "file": "Isla Tapu, Phuket, Tailandia, 2013-08-20, DD 36.JPG",
+   "lat": 8.2619,
+   "lon": 98.4985,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "marine protected area",
+    "national park of Thailand"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ao Phang Nga National Park"
+  },
+  {
+   "id": "Q1235886",
+   "name": "Erawan Shrine",
+   "sl": 19,
+   "file": "Bangkok ErawanShrine2.jpg",
+   "lat": 13.7444,
+   "lon": 100.5404,
+   "kind": "built",
+   "types": [
+    "Hindu temple",
+    "shrine"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erawan Shrine"
+  },
+  {
+   "id": "Q1255783",
+   "name": "Mu Ko Ang Thong National Park",
+   "sl": 19,
+   "file": "Mu Ko Ang Thong, Islands in the sea 2, Thailand.jpg",
+   "lat": 9.6228,
+   "lon": 99.675,
+   "kind": "natural",
+   "types": [
+    "national park of Thailand"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ang Thong National Park"
+  },
+  {
+   "id": "Q2084809",
+   "name": "Phanom Rung historical park",
+   "sl": 19,
+   "file": "Place PhnomrungPrasat.jpg",
+   "lat": 14.5319,
+   "lon": 102.9403,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "historical park of Thailand"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phanom Rung Historical Park"
+  },
+  {
+   "id": "Q233452",
+   "name": "Second Thai–Lao Friendship Bridge",
+   "sl": 19,
+   "file": "Bang Sai Yai, Mueang Mukdahan District, Mukdahan, Thailand - panoramio.jpg",
+   "lat": 16.6011,
+   "lon": 104.7358,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "prestressed concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LA"
+   ],
+   "cat": "Second Thai–Lao Friendship Bridge"
+  },
+  {
+   "id": "Q1454288",
+   "name": "Wat Chedi Luang",
+   "sl": 19,
+   "file": "Wat Chedi Luang, Buddhist temple, Chiang Mai, Thailand.jpg",
+   "lat": 18.7869,
+   "lon": 98.9864,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Chedi Luang"
+  },
+  {
+   "id": "Q2552354",
+   "name": "Wat Phra Mahathat",
+   "sl": 19,
+   "file": "วัดพระมหาธาตุวรมหาวิหาร.jpg",
+   "lat": 8.4114,
+   "lon": 99.9667,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Phra Mahathat"
+  },
+  {
+   "id": "Q2089016",
+   "name": "Dusit Palace",
+   "sl": 18,
+   "file": "Vimanmek Palace stage.jpg",
+   "lat": 13.774,
+   "lon": 100.5125,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dusit Palace"
+  },
+  {
+   "id": "Q1431510",
+   "name": "Hua Hin Airport",
+   "sl": 18,
+   "file": "HHQ front sign.jpg",
+   "lat": 12.6303,
+   "lon": 99.9533,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hua Hin Airport"
+  },
+  {
+   "id": "Q1431704",
+   "name": "Khon Kaen Airport",
+   "sl": 18,
+   "file": "Khon Kaen airport (24583602473).jpg",
+   "lat": 16.4644,
+   "lon": 102.7822,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khon Kaen Airport"
+  },
+  {
+   "id": "Q1388166",
+   "name": "Nakhon Si Thammarat Airport",
+   "sl": 18,
+   "file": "NST Airport, departure airside.jpg",
+   "lat": 8.5394,
+   "lon": 99.9447,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nakhon Si Thammarat Airport"
+  },
+  {
+   "id": "Q1432134",
+   "name": "Nan Nakhon Airport",
+   "sl": 18,
+   "file": "Nan Airport Curb.jpg",
+   "lat": 18.8078,
+   "lon": 100.7833,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nan Airport"
+  },
+  {
+   "id": "Q1813523",
+   "name": "Rama IX Bridge",
+   "sl": 18,
+   "file": "Rama IX Bridge-2.jpg",
+   "lat": 13.6824,
+   "lon": 100.5179,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rama IX Bridge"
+  },
+  {
+   "id": "Q1432929",
+   "name": "Sukhothai Airport",
+   "sl": 18,
+   "file": "Sukhothai Airport at take-off (2025-09) - img 07.jpg",
+   "lat": 17.2378,
+   "lon": 99.8181,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sukhothai Airport"
+  },
+  {
+   "id": "Q1433127",
+   "name": "Ubon Ratchathani International Airport",
+   "sl": 18,
+   "file": "Ubonratchatani International Airport , ท่าอากาศยานนานาชาติอุบลราชธานี - panoramio.jpg",
+   "lat": 15.2513,
+   "lon": 104.8702,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ubon Ratchathani Airport"
+  },
+  {
+   "id": "Q1479428",
+   "name": "Vimanmek Mansion",
+   "sl": 18,
+   "file": "Vimanmek Mansion.JPG",
+   "lat": 13.7739,
+   "lon": 100.5128,
+   "kind": "built",
+   "types": [
+    "museum",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vimanmek Mansion"
+  },
+  {
+   "id": "Q660585",
+   "name": "Wat Mahathat",
+   "sl": 18,
+   "file": "2025-02-03 Wat Maha That (Ayutthaya) วัดมหาธาตุ อยุธยา - img 15.jpg",
+   "lat": 14.3569,
+   "lon": 100.5675,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Mahathat, Ayutthaya"
+  },
+  {
+   "id": "Q2091626",
+   "name": "Wat Pha Luangta Maha Bua",
+   "sl": 18,
+   "file": "Wat Phra Luang Ta Bua.jpg",
+   "lat": 14.1158,
+   "lon": 99.2314,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tiger Temple"
+  },
+  {
+   "id": "Q1771247",
+   "name": "Chang Arena",
+   "sl": 17,
+   "file": "Isan, Mueang Buri Ram District, Buri Ram 31000, Thailand - panoramio (6).jpg",
+   "lat": 14.9667,
+   "lon": 103.0961,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chang Arena"
+  },
+  {
+   "id": "Q669271",
+   "name": "Doi Suthep",
+   "sl": 17,
+   "file": "Panorama of Doi Suthep 2010.jpg",
+   "lat": 18.8164,
+   "lon": 98.8931,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doi Suthep"
+  },
+  {
+   "id": "Q2427500",
+   "name": "Lumpinee Boxing Stadium",
+   "sl": 17,
+   "file": "Lumpinee Boxing Stadium.jpg",
+   "lat": 13.7256,
+   "lon": 100.5475,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lumpinee Boxing Stadium"
+  },
+  {
+   "id": "Q1432358",
+   "name": "Phetchabun Airport",
+   "sl": 17,
+   "file": "EK-47835 (8547827003).jpg",
+   "lat": 16.6758,
+   "lon": 101.195,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phetchabun Airport"
+  },
+  {
+   "id": "Q1343422",
+   "name": "Phitsanulok Airport",
+   "sl": 17,
+   "file": "Phitsanulok Airport (March 2022) ท่าอากาศยานพิษณุโลก - IMG 02.jpg",
+   "lat": 16.7731,
+   "lon": 100.2822,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phitsanulok Airport"
+  },
+  {
+   "id": "Q12065790",
+   "name": "Phu Phra Bat Historical Park",
+   "sl": 17,
+   "file": "Rock formation in Phu Phra Bat.jpg",
+   "lat": 17.7333,
+   "lon": 102.3583,
+   "kind": "natural",
+   "types": [
+    "historical park of Thailand"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phu Phra Bat"
+  },
+  {
+   "id": "Q767544",
+   "name": "Sanam Luang",
+   "sl": 17,
+   "file": "Sanam Luang Bangkok.jpg",
+   "lat": 13.755,
+   "lon": 100.4931,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sanam Luang"
+  },
+  {
+   "id": "Q2057014",
+   "name": "Thanon Patpong",
+   "sl": 17,
+   "file": "Bangkok-Bang Rak - Patpong during midday พัฒน์พงศ์ ตอนกลางวัน (2026 Jul) - IMG 02.jpg",
+   "lat": 13.7283,
+   "lon": 100.5333,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Patpong"
+  },
+  {
+   "id": "Q1433097",
+   "name": "Trat Airport",
+   "sl": 17,
+   "file": "Trat Airport in Thailand.jpg",
+   "lat": 12.2746,
+   "lon": 102.319,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trat Airport"
+  },
+  {
+   "id": "Q2063779",
+   "name": "Wat Chaiwatthanaram",
+   "sl": 17,
+   "file": "Wat Chaiwatthanaram by drone.jpg",
+   "lat": 14.3431,
+   "lon": 100.5419,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Chaiwatthanaram"
+  },
+  {
+   "id": "Q2166761",
+   "name": "Wat Suthat",
+   "sl": 17,
+   "file": "2016 Bangkok, Dystrykt Phra Nakhon, Wat Suthat (34).jpg",
+   "lat": 13.7511,
+   "lon": 100.5011,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Suthat"
+  },
+  {
+   "id": "Q2495658",
+   "name": "Assumption Cathedral",
+   "sl": 16,
+   "file": "Assumption Cathedral Bangkok 2023-10 อาสนวิหารอัสสัมชัญ.jpg",
+   "lat": 13.7231,
+   "lon": 100.5152,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Assumption Cathedral, Bangkok"
+  },
+  {
+   "id": "Q855090",
+   "name": "Bhumibol Bridge",
+   "sl": 16,
+   "file": "Bhumibol 2020.jpg",
+   "lat": 13.6607,
+   "lon": 100.5394,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bhumibol Bridge"
+  },
+  {
+   "id": "Q61053357",
+   "name": "Chitralada Royal Villa",
+   "sl": 16,
+   "file": "Palace-1.jpg",
+   "lat": 13.7693,
+   "lon": 100.5207,
+   "kind": "built",
+   "types": [
+    "garden",
+    "Phra Tamnak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chitralada Royal Villa"
+  },
+  {
+   "id": "Q581198",
+   "name": "Fourth Thai–Lao Friendship Bridge",
+   "sl": 16,
+   "file": "第4友好橋.jpg",
+   "lat": 20.2833,
+   "lon": 100.4167,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "international bridge",
+    "prestressed concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LA"
+   ],
+   "cat": "Fourth Thai–Lao Friendship Bridge"
+  }
+ ]
+}

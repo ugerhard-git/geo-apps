@@ -1,0 +1,1352 @@
+{
+ "country": "SI",
+ "items": [
+  {
+   "id": "Q1024",
+   "name": "Triglav",
+   "sl": 65,
+   "file": "Triglav.jpg",
+   "lat": 46.3783,
+   "lon": 13.8367,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Triglav"
+  },
+  {
+   "id": "Q119206",
+   "name": "Julian Alps",
+   "sl": 57,
+   "file": "Mangart 14.jpg",
+   "lat": 46.3667,
+   "lon": 13.8167,
+   "kind": "natural",
+   "types": [
+    "alpine subsection",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Julian Alps"
+  },
+  {
+   "id": "Q648902",
+   "name": "Lake Bled",
+   "sl": 55,
+   "file": "Aerial image of Lake Bled (view from the southwest).jpg",
+   "lat": 46.3644,
+   "lon": 14.0947,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "glacial lake",
+    "lake",
+    "tectonic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Bled"
+  },
+  {
+   "id": "Q15903",
+   "name": "Postojna Cave",
+   "sl": 51,
+   "file": "Burger PostojnskaJama.jpg",
+   "lat": 45.7828,
+   "lon": 14.2037,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "show cave",
+    "solutional cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Postojna Cave"
+  },
+  {
+   "id": "Q500376",
+   "name": "Škocjan Caves",
+   "sl": 48,
+   "file": "SkocjanskeJame 2013jpg.jpg",
+   "lat": 45.665,
+   "lon": 13.9947,
+   "kind": "both",
+   "types": [
+    "cave",
+    "show cave"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Škocjan Caves"
+  },
+  {
+   "id": "Q1109558",
+   "name": "Ljubljana Jože Pučnik Airport",
+   "sl": 45,
+   "file": "Ljubljana airport 2017.jpg",
+   "lat": 46.2244,
+   "lon": 14.4561,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ljubljana Airport"
+  },
+  {
+   "id": "Q1163005",
+   "name": "Triglav National Park",
+   "sl": 44,
+   "file": "2021 — Drittte Juli-Reise Mateus2019 — Batch (73).jpg",
+   "lat": 46.3831,
+   "lon": 13.8497,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Triglav National Park"
+  },
+  {
+   "id": "Q831903",
+   "name": "Lake Bohinj",
+   "sl": 41,
+   "file": "Aerial image of Lake Bohinj (view from the south).jpg",
+   "lat": 46.2834,
+   "lon": 13.8589,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Bohinj"
+  },
+  {
+   "id": "Q198007",
+   "name": "Karawanks",
+   "sl": 38,
+   "file": "Karavanke1.jpg",
+   "lat": 46.4167,
+   "lon": 14.4167,
+   "kind": "natural",
+   "types": [
+    "alpine subsection"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Karawanks"
+  },
+  {
+   "id": "Q79217",
+   "name": "Predjama Castle",
+   "sl": 35,
+   "file": "El Castillo de Predjama.JPG",
+   "lat": 45.8152,
+   "lon": 14.1276,
+   "kind": "built",
+   "types": [
+    "cave castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Predjama Castle"
+  },
+  {
+   "id": "Q609634",
+   "name": "Southern Limestone Alps",
+   "sl": 32,
+   "file": "Dolomiten Fanes Blau.jpg",
+   "lat": 46.5089,
+   "lon": 10.545,
+   "kind": "natural",
+   "types": [
+    "alpine major sector"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT",
+    "IT"
+   ],
+   "cat": "Southern Limestone Alps"
+  },
+  {
+   "id": "Q2075156",
+   "name": "Ljubljana Castle",
+   "sl": 31,
+   "file": "Ljubljanski grad in Grajski grič.jpg",
+   "lat": 46.0487,
+   "lon": 14.5086,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ljubljana Castle"
+  },
+  {
+   "id": "Q975819",
+   "name": "Ljudski vrt",
+   "sl": 30,
+   "file": "NK Maribor - NK Drava, 2009-02-21.jpg",
+   "lat": 46.5625,
+   "lon": 15.6406,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "cultural heritage site in Slovenia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ljudski vrt"
+  },
+  {
+   "id": "Q753195",
+   "name": "Planica",
+   "sl": 30,
+   "file": "Tamar Valley (NW Slovenia) – 2005-07-17.jpg",
+   "lat": 46.4733,
+   "lon": 13.7242,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Planica"
+  },
+  {
+   "id": "Q543404",
+   "name": "Stožice Stadium",
+   "sl": 30,
+   "file": "Stožice (31296599020).jpg",
+   "lat": 46.0811,
+   "lon": 14.5214,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stožice Stadium"
+  },
+  {
+   "id": "Q1236564",
+   "name": "Ljubljana Cathedral",
+   "sl": 29,
+   "file": "StNicholas-Ljubljana.JPG",
+   "lat": 46.0507,
+   "lon": 14.5082,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ljubljana Cathedral"
+  },
+  {
+   "id": "Q205836",
+   "name": "Lake Cerknica",
+   "sl": 27,
+   "file": "Cerkniško jezero.jpg",
+   "lat": 45.7522,
+   "lon": 14.385,
+   "kind": "natural",
+   "types": [
+    "intermittent lake",
+    "karst lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Cerknica"
+  },
+  {
+   "id": "Q2049047",
+   "name": "Bled Castle",
+   "sl": 26,
+   "file": "4260 Bled, Slovenia - panoramio.jpg",
+   "lat": 46.3697,
+   "lon": 14.1006,
+   "kind": "built",
+   "types": [
+    "spur castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bled Castle"
+  },
+  {
+   "id": "Q660029",
+   "name": "Dragon Bridge",
+   "sl": 25,
+   "file": "Laibach - Jubiläumsbrücke.jpg",
+   "lat": 46.0519,
+   "lon": 14.5103,
+   "kind": "built",
+   "types": [
+    "arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dragon Bridge (Ljubljana)"
+  },
+  {
+   "id": "Q3370031",
+   "name": "Heritage of Mercury. Almadén and Idrija",
+   "sl": 25,
+   "file": "Šelštev, Idrija.jpg",
+   "lat": 46.0039,
+   "lon": 14.0267,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Heritage of Mercury. Almadén and Idrija"
+  },
+  {
+   "id": "Q210436",
+   "name": "Kamnik–Savinja Alps",
+   "sl": 25,
+   "file": "Velika planina 4.JPG",
+   "lat": 46.35,
+   "lon": 14.5833,
+   "kind": "natural",
+   "types": [
+    "alpine subsection"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Kamnik–Savinja Alps"
+  },
+  {
+   "id": "Q701904",
+   "name": "Stol / Hochstuhl",
+   "sl": 25,
+   "file": "HochstuhlVomWainaschGesehen.jpg",
+   "lat": 46.4339,
+   "lon": 14.1739,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Stol (Karawanks)"
+  },
+  {
+   "id": "Q218853",
+   "name": "Pohorje",
+   "sl": 24,
+   "file": "Mariborsko pohorje panorama.jpg",
+   "lat": 46.5333,
+   "lon": 15.4667,
+   "kind": "natural",
+   "types": [
+    "alpine group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pohorje"
+  },
+  {
+   "id": "Q1786056",
+   "name": "Snežnik",
+   "sl": 24,
+   "file": "Snežnik (11567814444).jpg",
+   "lat": 45.5889,
+   "lon": 14.4467,
+   "kind": "natural",
+   "types": [
+    "karst plateau",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Snežnik"
+  },
+  {
+   "id": "Q676315",
+   "name": "Triple Bridge",
+   "sl": 24,
+   "file": "COVID-19 pandemic in Slovenia (Ljubljana downtown, center).jpg",
+   "lat": 46.0511,
+   "lon": 14.5062,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "road bridge",
+    "stone bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Triple Bridge"
+  },
+  {
+   "id": "Q671860",
+   "name": "Vintgar Gorge",
+   "sl": 24,
+   "file": "Bled Vintgar-Klamm 38.JPG",
+   "lat": 46.3947,
+   "lon": 14.0872,
+   "kind": "natural",
+   "types": [
+    "slot canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vintgar Gorge"
+  },
+  {
+   "id": "Q148327",
+   "name": "Emona",
+   "sl": 23,
+   "file": "Emona in ljubljana osm.jpg",
+   "lat": 46.0477,
+   "lon": 14.5009,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emona"
+  },
+  {
+   "id": "Q1003498",
+   "name": "Franja Partisan Hospital",
+   "sl": 23,
+   "file": "FranjaPartizanskaBolnisnica.jpg",
+   "lat": 46.154,
+   "lon": 14.0282,
+   "kind": "built",
+   "types": [
+    "former hospital",
+    "hospitals of the Yugoslav Partisans"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Franja Partisan Hospital"
+  },
+  {
+   "id": "Q763420",
+   "name": "Jalovec",
+   "sl": 23,
+   "file": "Jalovec (2645m) (48522299092).jpg",
+   "lat": 46.4216,
+   "lon": 13.68,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jalovec"
+  },
+  {
+   "id": "Q1030725",
+   "name": "Maribor Edvard Rusjan Airport",
+   "sl": 23,
+   "file": "Maribor airport from airplane (2).jpg",
+   "lat": 46.48,
+   "lon": 15.6861,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maribor Airport"
+  },
+  {
+   "id": "Q1953536",
+   "name": "National Gallery of Slovenia",
+   "sl": 23,
+   "file": "Lublaň, Národní galerie 1.jpg",
+   "lat": 46.054,
+   "lon": 14.5003,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery of Slovenia"
+  },
+  {
+   "id": "Q843444",
+   "name": "Pokljuka",
+   "sl": 23,
+   "file": "Winter cottage at night at Pokljuka 2.jpg",
+   "lat": 46.3603,
+   "lon": 14.03,
+   "kind": "natural",
+   "types": [
+    "alpine subgroup",
+    "karst plateau"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pokljuka"
+  },
+  {
+   "id": "Q385205",
+   "name": "Arena Stožice",
+   "sl": 22,
+   "file": "Stožice Arena.jpg",
+   "lat": 46.0811,
+   "lon": 14.5214,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stožice Arena"
+  },
+  {
+   "id": "Q588460",
+   "name": "Grintovec",
+   "sl": 22,
+   "file": "Grintovec.jpg",
+   "lat": 46.3571,
+   "lon": 14.5354,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grintovec"
+  },
+  {
+   "id": "Q1889515",
+   "name": "Prešeren Square",
+   "sl": 22,
+   "file": "Tromostovje in Prešernov trg (Tromostovje and Prešeren Square).jpg",
+   "lat": 46.0514,
+   "lon": 14.506,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prešeren Square"
+  },
+  {
+   "id": "Q1785618",
+   "name": "Franciscan Church of the Annunciation",
+   "sl": 21,
+   "file": "Ljubljana - Annunciation Church 2.jpg",
+   "lat": 46.0519,
+   "lon": 14.5061,
+   "kind": "built",
+   "types": [
+    "parish church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Annunciation Church (Ljubljana)"
+  },
+  {
+   "id": "Q3436372",
+   "name": "Ljubljana Zoo",
+   "sl": 21,
+   "file": "Alpski kozorog.JPG",
+   "lat": 46.055,
+   "lon": 14.4717,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ljubljana Zoo"
+  },
+  {
+   "id": "Q2033282",
+   "name": "National Museum of Slovenia",
+   "sl": 21,
+   "file": "NarodniMuzej-ljubljana.JPG",
+   "lat": 46.0522,
+   "lon": 14.4994,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Slovenia"
+  },
+  {
+   "id": "Q392142",
+   "name": "Škrlatica",
+   "sl": 21,
+   "file": "Skrlatica2.JPG",
+   "lat": 46.43,
+   "lon": 13.82,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Škrlatica"
+  },
+  {
+   "id": "Q12034073",
+   "name": "Arch. Plečnik's Marketplace",
+   "sl": 20,
+   "file": "Ljubljana - Central Market.jpg",
+   "lat": 46.0514,
+   "lon": 14.5086,
+   "kind": "built",
+   "types": [
+    "market",
+    "square"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64494878",
+    "name": "The works of Jože Plečnik in Ljubljana – Human Centred Urban Design"
+   },
+   "also": [],
+   "cat": "Arch. Plečnik's Marketplace"
+  },
+  {
+   "id": "Q619970",
+   "name": "Ljubljana Marshes",
+   "sl": 20,
+   "file": "Ljubljana marsh - W.jpg",
+   "lat": 46.0006,
+   "lon": 14.4575,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "swamp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ljubljana Marshes"
+  },
+  {
+   "id": "Q1353967",
+   "name": "Letalnica Bratov Gorišek",
+   "sl": 18,
+   "file": "Letalnica brothers Gorisek Planica.jpg",
+   "lat": 46.4765,
+   "lon": 13.7197,
+   "kind": "built",
+   "types": [
+    "flying hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Letalnica bratov Gorišek"
+  },
+  {
+   "id": "Q1481385",
+   "name": "Matajur",
+   "sl": 18,
+   "file": "Matajur001.JPG",
+   "lat": 46.2122,
+   "lon": 13.5292,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Matajur"
+  },
+  {
+   "id": "Q386729",
+   "name": "Mittagskogel",
+   "sl": 18,
+   "file": "Finkenstein Altfinkenstein Mittagskogel 18052007 02.jpg",
+   "lat": 46.5068,
+   "lon": 13.9524,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "Zwölfer"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Mittagskogel"
+  },
+  {
+   "id": "Q478048",
+   "name": "Port of Koper",
+   "sl": 18,
+   "file": "Lukakoper.jpg",
+   "lat": 45.55,
+   "lon": 13.7333,
+   "kind": "both",
+   "types": [
+    "business",
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Koper"
+  },
+  {
+   "id": "Q641455",
+   "name": "Stadion Z'dežele",
+   "sl": 18,
+   "file": "Arena Petrol 2013.jpg",
+   "lat": 46.2467,
+   "lon": 15.2703,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena Petrol"
+  },
+  {
+   "id": "Q1430355",
+   "name": "Krn",
+   "sl": 17,
+   "file": "Krn mountain.JPG",
+   "lat": 46.2661,
+   "lon": 13.6589,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krn"
+  },
+  {
+   "id": "Q4178650",
+   "name": "Nebotičnik",
+   "sl": 17,
+   "file": "Neboticnik Tower 2.jpg",
+   "lat": 46.0532,
+   "lon": 14.5036,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nebotičnik"
+  },
+  {
+   "id": "Q1432473",
+   "name": "Portorož Airport",
+   "sl": 17,
+   "file": "Portorož (14135166976).jpg",
+   "lat": 45.4734,
+   "lon": 13.615,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Portorož Airport"
+  },
+  {
+   "id": "Q2428528",
+   "name": "Tivoli City Park",
+   "sl": 17,
+   "file": "Liubliana 16.jpg",
+   "lat": 46.0539,
+   "lon": 14.4967,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tivoli City Park"
+  },
+  {
+   "id": "Q3112317",
+   "name": "Velika Planina",
+   "sl": 17,
+   "file": "Velika planina (8965484358).jpg",
+   "lat": 46.2955,
+   "lon": 14.6535,
+   "kind": "natural",
+   "types": [
+    "karst plateau",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Big Pasture Plateau"
+  },
+  {
+   "id": "Q970178",
+   "name": "Bonifika Stadium",
+   "sl": 16,
+   "file": "Bonifika Stadium Koper May 2019-2.jpg",
+   "lat": 45.5424,
+   "lon": 13.7305,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bonifika Stadium"
+  },
+  {
+   "id": "Q1779044",
+   "name": "Cross Cave",
+   "sl": 16,
+   "file": "Burger KriznaJama 02.jpg",
+   "lat": 45.7422,
+   "lon": 14.4603,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "cultural heritage site in Slovenia",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cross Cave"
+  },
+  {
+   "id": "Q1011656",
+   "name": "Golica",
+   "sl": 16,
+   "file": "Golica.JPG",
+   "lat": 46.4915,
+   "lon": 14.0546,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Golica"
+  },
+  {
+   "id": "Q3444329",
+   "name": "Ljubljana Town Hall",
+   "sl": 16,
+   "file": "Ljubljana BW 2014-10-09 11-34-41.jpg",
+   "lat": 46.0497,
+   "lon": 14.5071,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ljubljana Town Hall"
+  },
+  {
+   "id": "Q2617274",
+   "name": "Maribor Cathedral",
+   "sl": 16,
+   "file": "Maribor cathedral from east.JPG",
+   "lat": 46.5591,
+   "lon": 15.6449,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maribor Cathedral"
+  },
+  {
+   "id": "Q128857",
+   "name": "Rogla",
+   "sl": 16,
+   "file": "Rogla Slovenia.jpg",
+   "lat": 46.4525,
+   "lon": 15.3336,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rogla"
+  },
+  {
+   "id": "Q281217",
+   "name": "Slovene Hills",
+   "sl": 16,
+   "file": "Jeruzalem-trte.jpg",
+   "lat": 46.5833,
+   "lon": 15.9167,
+   "kind": "natural",
+   "types": [
+    "hill chain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Slovene Hills"
+  },
+  {
+   "id": "Q12363",
+   "name": "Solkan Bridge",
+   "sl": 16,
+   "file": "Solkanski most čez Sočo2.jpg",
+   "lat": 45.9785,
+   "lon": 13.6518,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "stone bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Solkan Bridge"
+  },
+  {
+   "id": "Q3234894",
+   "name": "Tartini Square",
+   "sl": 16,
+   "file": "Piran, Slovenia - panoramio (5).jpg",
+   "lat": 45.5285,
+   "lon": 13.5683,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tartini Square"
+  },
+  {
+   "id": "Q3110294",
+   "name": "Wild Lake",
+   "sl": 16,
+   "file": "DivjeJezero1.JPG",
+   "lat": 45.9822,
+   "lon": 14.0281,
+   "kind": "natural",
+   "types": [
+    "karst spring",
+    "lake",
+    "solutional cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Divje jezero"
+  },
+  {
+   "id": "Q650987",
+   "name": "Aljaž Tower",
+   "sl": 15,
+   "file": "AljazevStolp3039.jpg",
+   "lat": 46.3783,
+   "lon": 13.8366,
+   "kind": "built",
+   "types": [
+    "cultural heritage site in Slovenia",
+    "mountain hut",
+    "tower",
+    "triangulation station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aljaž Tower"
+  },
+  {
+   "id": "Q2477997",
+   "name": "Bežigrad Stadium",
+   "sl": 15,
+   "file": "Gradnja Bežigrajskega stadiona leta 1935.jpg",
+   "lat": 46.0691,
+   "lon": 14.5086,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bežigrad Stadium"
+  },
+  {
+   "id": "Q5160826",
+   "name": "Congress Square",
+   "sl": 15,
+   "file": "La place du Congrès (Ljubljana) (9374292864).jpg",
+   "lat": 46.0501,
+   "lon": 14.5037,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Congress Square"
+  },
+  {
+   "id": "Q1085897",
+   "name": "Črni Kal Viaduct",
+   "sl": 15,
+   "file": "Črni Kal gradnja 2002.JPG",
+   "lat": 45.5575,
+   "lon": 13.8712,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "viaduct"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Črni Kal Viaduct"
+  },
+  {
+   "id": "Q3034795",
+   "name": "Ljubljana Botanical Garden",
+   "sl": 15,
+   "file": "Ljubljana Botanic Garden - pond.jpg",
+   "lat": 46.0402,
+   "lon": 14.5144,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "University of Ljubljana Botanical Garden"
+  },
+  {
+   "id": "Q1890215",
+   "name": "Mangart",
+   "sl": 15,
+   "file": "Mangart 16.jpg",
+   "lat": 46.44,
+   "lon": 13.6539,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Mangart"
+  },
+  {
+   "id": "Q4281383",
+   "name": "Maribor Synagogue",
+   "sl": 15,
+   "file": "Maribor Synagogue 02.JPG",
+   "lat": 46.5567,
+   "lon": 15.6477,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maribor Synagogue"
+  },
+  {
+   "id": "Q1040008",
+   "name": "Razor",
+   "sl": 15,
+   "file": "Razor (1).JPG",
+   "lat": 46.4118,
+   "lon": 13.7913,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Razor (mountain)"
+  },
+  {
+   "id": "Q1366155",
+   "name": "Sečovlje Saltworks",
+   "sl": 15,
+   "file": "Secoveljske soline - Lera3.jpg",
+   "lat": 45.4814,
+   "lon": 13.6029,
+   "kind": "natural",
+   "types": [
+    "salt evaporation pond"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sečovlje Salina"
+  },
+  {
+   "id": "Q3790872",
+   "name": "Cathedral of Saint Nicholas",
+   "sl": 14,
+   "file": "Murska Sobota Cathedral 02.jpg",
+   "lat": 46.6578,
+   "lon": 16.1699,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Murska Sobota Cathedral"
+  },
+  {
+   "id": "Q3355366",
+   "name": "Celje Castle",
+   "sl": 14,
+   "file": "Celjski grad s Pečovnika.jpg",
+   "lat": 46.2197,
+   "lon": 15.2717,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Celje Castle"
+  },
+  {
+   "id": "Q3137601",
+   "name": "Logar Valley, Slovenia",
+   "sl": 14,
+   "file": "Словения ауылы.jpg",
+   "lat": 46.3836,
+   "lon": 14.6216,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Logar Valley (Slovenia)"
+  },
+  {
+   "id": "Q11234584",
+   "name": "Museum of Modern Art",
+   "sl": 14,
+   "file": "Razstava v Moderni galeriji ob dvajseti obletnici vstaje slovenskega naroda 1961.jpg",
+   "lat": 46.053,
+   "lon": 14.4988,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Modern Art (Ljubljana)"
+  },
+  {
+   "id": "Q7541826",
+   "name": "Opera Ljubljana",
+   "sl": 14,
+   "file": "Slovensko narodno gledališče Opera in balet Ljubljana (Ljubljana Opera and Ballet, Slovenia).jpg",
+   "lat": 46.0526,
+   "lon": 14.5007,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ljubljana Opera House"
+  },
+  {
+   "id": "Q4863757",
+   "name": "Potok Cave",
+   "sl": 14,
+   "file": "Potok Cave - Potočka zijalka (Slovenia).JPG",
+   "lat": 46.4494,
+   "lon": 14.6691,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Potok Cave"
+  },
+  {
+   "id": "Q238644",
+   "name": "Prisojnik",
+   "sl": 14,
+   "file": "Prisank 05082007 02.jpg",
+   "lat": 46.426,
+   "lon": 13.7691,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prisojnik"
+  },
+  {
+   "id": "Q909998",
+   "name": "Russian Chapel",
+   "sl": 14,
+   "file": "Vršič-228087.jpg",
+   "lat": 46.4425,
+   "lon": 13.768,
+   "kind": "built",
+   "types": [
+    "Orthodox chapel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Russian Chapel on the Vršič Pass"
+  },
+  {
+   "id": "Q3861947",
+   "name": "Sabotin",
+   "sl": 14,
+   "file": "Sabotin hill, Slovenia.jpg",
+   "lat": 45.9884,
+   "lon": 13.6348,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Sabotin"
+  },
+  {
+   "id": "Q506046",
+   "name": "Stična abbey",
+   "sl": 14,
+   "file": "Cistercijanski samostan Stična (Stična Abbey, Slovenia).jpg",
+   "lat": 45.9569,
+   "lon": 14.8045,
+   "kind": "built",
+   "types": [
+    "Cistercian monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stična Abbey"
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "country": "TV",
+ "items": [
+  {
+   "id": "Q174618",
+   "name": "Nanumea",
+   "sl": 42,
+   "file": "Nanumea.jpg",
+   "lat": -5.683,
+   "lon": 176.1275,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "Council of Tuvalu"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nanumea"
+  },
+  {
+   "id": "Q547997",
+   "name": "Nui",
+   "sl": 37,
+   "file": "Nui atoll.jpg",
+   "lat": -7.2167,
+   "lon": 177.15,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "Council of Tuvalu",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nui"
+  },
+  {
+   "id": "Q128654",
+   "name": "Nukulaelae",
+   "sl": 37,
+   "file": "Nukulaelae.jpg",
+   "lat": -9.3811,
+   "lon": 179.8522,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "Council of Tuvalu",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nukulaelae"
+  },
+  {
+   "id": "Q745924",
+   "name": "Nukufetau",
+   "sl": 36,
+   "file": "Nukufetau.jpg",
+   "lat": -8,
+   "lon": 178.5,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "Council of Tuvalu"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nukufetau"
+  },
+  {
+   "id": "Q632495",
+   "name": "Vaitupu",
+   "sl": 36,
+   "file": "Vaitupu Island.jpg",
+   "lat": -7.4742,
+   "lon": 178.6746,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "Council of Tuvalu",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vaitupu"
+  },
+  {
+   "id": "Q1327938",
+   "name": "Funafuti International Airport",
+   "sl": 23,
+   "file": "Air Force Hercules - Flickr - NZ Defence Force.jpg",
+   "lat": -8.525,
+   "lon": 179.1964,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Funafuti International Airport"
+  },
+  {
+   "id": "Q182636",
+   "name": "Tuvalu Sports Ground",
+   "sl": 14,
+   "file": "Vaiaku-stadion 02.jpg",
+   "lat": -8.5239,
+   "lon": 179.1986,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2423894",
+   "name": "Funafala",
+   "sl": 12,
+   "file": "Ocean side Funafuti.jpg",
+   "lat": -8.6283,
+   "lon": 179.1019,
+   "kind": "natural",
+   "types": [
+    "human settlement",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q897362",
+   "name": "Funafuti Lagoon Hotel",
+   "sl": 11,
+   "file": "Vaiaku Lagi Hotel.jpg",
+   "lat": -8.5236,
+   "lon": 179.1947,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

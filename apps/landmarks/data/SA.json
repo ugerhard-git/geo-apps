@@ -1,0 +1,1339 @@
+{
+ "country": "SA",
+ "items": [
+  {
+   "id": "Q428858",
+   "name": "Al-Masjid Al-Haram",
+   "sl": 109,
+   "file": "Khalili Collection Hajj and Arts of Pilgrimage arc.pp 0211.04 CROP.jpg",
+   "lat": 21.4225,
+   "lon": 39.8261,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "congregational mosque",
+    "educational institution",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masjid al-Haram"
+  },
+  {
+   "id": "Q486080",
+   "name": "Prophet's Mosque",
+   "sl": 86,
+   "file": "Madeena masjid nabavi 12122008230.jpg",
+   "lat": 24.4683,
+   "lon": 39.6108,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "congregational mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Masjid an-Nabawi"
+  },
+  {
+   "id": "Q146038",
+   "name": "Zamzam Well",
+   "sl": 67,
+   "file": "Zamzamwill.JPG",
+   "lat": 21.4226,
+   "lon": 39.8265,
+   "kind": "built",
+   "types": [
+    "water well"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zamzam Well"
+  },
+  {
+   "id": "Q216894",
+   "name": "Mount Arafat",
+   "sl": 61,
+   "file": "Hajj 1965 09.jpg",
+   "lat": 21.3548,
+   "lon": 39.9839,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred place"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Arafat"
+  },
+  {
+   "id": "Q276569",
+   "name": "Quba Mosque",
+   "sl": 61,
+   "file": "Quba Mosque from Afar (2024).jpg",
+   "lat": 24.4392,
+   "lon": 39.6172,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Quba Mosque"
+  },
+  {
+   "id": "Q189476",
+   "name": "Abraj Al Bait",
+   "sl": 59,
+   "file": "Abraj-al-Bait-Towers.JPG",
+   "lat": 21.4189,
+   "lon": 39.8264,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "clock tower",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abraj Al Bait Towers"
+  },
+  {
+   "id": "Q737945",
+   "name": "Jeddah Tower",
+   "sl": 54,
+   "file": "Jeddah Tower August 2019 S.Nitzold.jpg",
+   "lat": 21.734,
+   "lon": 39.0828,
+   "kind": "built",
+   "types": [
+    "building or structure under construction",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jeddah Tower"
+  },
+  {
+   "id": "Q749205",
+   "name": "An Nafud",
+   "sl": 50,
+   "file": "ISS-64 Jubba with Nefud Desert, Saudi Arabia.jpg",
+   "lat": 28.3,
+   "lon": 41,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nafud"
+  },
+  {
+   "id": "Q153592",
+   "name": "King Abdulaziz International Airport",
+   "sl": 50,
+   "file": "King Abdul Aziz International Airport- South Terminal and Terminal 1 (2020-02-16).jpeg",
+   "lat": 21.6617,
+   "lon": 39.173,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Abdulaziz International Airport"
+  },
+  {
+   "id": "Q850602",
+   "name": "Hira",
+   "sl": 45,
+   "file": "Cave Hira.jpg",
+   "lat": 21.4576,
+   "lon": 39.8594,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hira Cave"
+  },
+  {
+   "id": "Q47157",
+   "name": "King Khalid International Airport",
+   "sl": 45,
+   "file": "Riyadh-airport.jpg",
+   "lat": 24.9576,
+   "lon": 46.6988,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Khalid International Airport"
+  },
+  {
+   "id": "Q827735",
+   "name": "King Fahd Causeway",
+   "sl": 42,
+   "file": "King Fahd Causeway bridge num4.jpg",
+   "lat": 26.1825,
+   "lon": 50.3358,
+   "kind": "both",
+   "types": [
+    "bridge–tunnel",
+    "causeway",
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BH"
+   ],
+   "cat": "King Fahd Causeway"
+  },
+  {
+   "id": "Q656743",
+   "name": "Kingdom Centre",
+   "sl": 42,
+   "file": "Kingdomcentreinriyadhsaudiarabia.JPG",
+   "lat": 24.7114,
+   "lon": 46.6744,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kingdom Centre (Riyadh)"
+  },
+  {
+   "id": "Q911155",
+   "name": "King Fahd International Airport",
+   "sl": 39,
+   "file": "King Fahd Airport mosque 2.jpg",
+   "lat": 26.4711,
+   "lon": 49.7978,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Fahd International Airport"
+  },
+  {
+   "id": "Q1973934",
+   "name": "ad-Dahna Desert",
+   "sl": 37,
+   "file": "Al-Dahna.jpg",
+   "lat": 24.1,
+   "lon": 45.4333,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "sand area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ad-Dahna Desert"
+  },
+  {
+   "id": "Q1033157",
+   "name": "Jabal al-Nour",
+   "sl": 37,
+   "file": "Jabal Nur.JPG",
+   "lat": 21.4581,
+   "lon": 39.8614,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabal al-Nour"
+  },
+  {
+   "id": "Q1752043",
+   "name": "King Saud University",
+   "sl": 36,
+   "file": "King saud university entrance.jpg",
+   "lat": 24.722,
+   "lon": 46.627,
+   "kind": "built",
+   "types": [
+    "building",
+    "research institute",
+    "university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Saud University"
+  },
+  {
+   "id": "Q2334553",
+   "name": "Masjid al-Qiblatain",
+   "sl": 36,
+   "file": "Masjid al-Qiblatain.jpg",
+   "lat": 24.4841,
+   "lon": 39.5789,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qiblatayn Mosque"
+  },
+  {
+   "id": "Q1436040",
+   "name": "Mount Uhud",
+   "sl": 34,
+   "file": "Mount Uhud.JPG",
+   "lat": 24.5103,
+   "lon": 39.6139,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Uhud"
+  },
+  {
+   "id": "Q727042",
+   "name": "Green Dome",
+   "sl": 31,
+   "file": "Dome of Prophet's Mosque - Medina.jpg",
+   "lat": 24.4676,
+   "lon": 39.6114,
+   "kind": "built",
+   "types": [
+    "dome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Green Dome"
+  },
+  {
+   "id": "Q763077",
+   "name": "King Fahd Sports City",
+   "sl": 31,
+   "file": "King Fahd International Stadium 2020s.jpg",
+   "lat": 24.7882,
+   "lon": 46.8392,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Fahd Stadium"
+  },
+  {
+   "id": "Q1205940",
+   "name": "Prince Mohammad Bin Abdulaziz International Airport",
+   "sl": 31,
+   "file": "Pano1-1.jpg",
+   "lat": 24.5517,
+   "lon": 39.7143,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prince Mohammad Bin Abdulaziz Airport"
+  },
+  {
+   "id": "Q1788735",
+   "name": "Muzdalifah",
+   "sl": 30,
+   "file": "Muzdalifa.JPG",
+   "lat": 21.3925,
+   "lon": 39.9378,
+   "kind": "natural",
+   "types": [
+    "sacred place",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6411211",
+   "name": "King Abdullah Sports City",
+   "sl": 28,
+   "file": "Jawhara Stadium.jpg",
+   "lat": 21.7626,
+   "lon": 39.1651,
+   "kind": "built",
+   "types": [
+    "association football pitch",
+    "sports complex"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Abdullah Sports City"
+  },
+  {
+   "id": "Q20421103",
+   "name": "KSU Stadium",
+   "sl": 25,
+   "file": "Entire King Saud University Stadium.jpg",
+   "lat": 24.7293,
+   "lon": 46.6237,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Saud University Stadium"
+  },
+  {
+   "id": "Q27365",
+   "name": "Tayma",
+   "sl": 25,
+   "file": "Old town of Tayma 2020.jpg",
+   "lat": 27.6261,
+   "lon": 38.5476,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "oasis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tayma"
+  },
+  {
+   "id": "Q2743319",
+   "name": "Abha International Airport",
+   "sl": 24,
+   "file": "Abha International Airport.jpg",
+   "lat": 18.2404,
+   "lon": 42.6566,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2303314",
+   "name": "Al Faisaliah Centre",
+   "sl": 24,
+   "file": "Al faisliyah center (458038211).jpg",
+   "lat": 24.6903,
+   "lon": 46.6853,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "building complex",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Faisaliyah Tower"
+  },
+  {
+   "id": "Q3245092",
+   "name": "Prince Abdullah Al Faisal Sports City",
+   "sl": 24,
+   "file": "Prince Abdullah Al-Faisal Sports City.jpg",
+   "lat": 21.4466,
+   "lon": 39.2517,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prince Abdullah Al Faisal Stadium"
+  },
+  {
+   "id": "Q20643274",
+   "name": "Rock Art in the Hail Region of Saudi Arabia",
+   "sl": 24,
+   "file": "من آثار الرسوم الصخرية في موقع جبة والشويمس بحائل.jpg",
+   "lat": 28,
+   "lon": 40.9,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock Art in the Hail Region of Saudi Arabia"
+  },
+  {
+   "id": "Q108586048",
+   "name": "Al Naslaa",
+   "sl": 23,
+   "file": "Al Naslaa Rock 20211021 105005.jpg",
+   "lat": 27.2295,
+   "lon": 38.5716,
+   "kind": "built",
+   "types": [
+    "petroglyphic site",
+    "rock formation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Naslaa"
+  },
+  {
+   "id": "Q1261892",
+   "name": "Jabal Sawda",
+   "sl": 23,
+   "file": "Al Sawda peak.jpg",
+   "lat": 18.2672,
+   "lon": 42.3681,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabal Al-Sawdah"
+  },
+  {
+   "id": "Q240426",
+   "name": "King Fahd's Fountain",
+   "sl": 23,
+   "file": "King Fahd’s Fountain.jpg",
+   "lat": 21.5156,
+   "lon": 39.145,
+   "kind": "built",
+   "types": [
+    "fountain",
+    "water well"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Fahd's Fountain in Jeddah"
+  },
+  {
+   "id": "Q3634836",
+   "name": "Hijaz mountains",
+   "sl": 22,
+   "file": "Saudi Mountain Road (8103490749).jpg",
+   "lat": 23,
+   "lon": 41,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hijaz Mountains"
+  },
+  {
+   "id": "Q751987",
+   "name": "Masmak Fort",
+   "sl": 22,
+   "file": "Masmak castle.jpg",
+   "lat": 24.6311,
+   "lon": 46.7133,
+   "kind": "built",
+   "types": [
+    "fort",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masmak fort"
+  },
+  {
+   "id": "Q4915544",
+   "name": "Bir Hima Rock Petroglyphs and Inscriptions",
+   "sl": 21,
+   "file": "Inscriptions of Hima mountain1.jpg",
+   "lat": 18.2492,
+   "lon": 44.4518,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Hima Cultural Area"
+  },
+  {
+   "id": "Q15790479",
+   "name": "Burj Rafal",
+   "sl": 21,
+   "file": "Burj Rafal.JPG",
+   "lat": 24.7922,
+   "lon": 46.6322,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2829327",
+   "name": "Qaryat al-Faw",
+   "sl": 21,
+   "file": "صورة جوية لموقع الفاو الأثري.jpg",
+   "lat": 19.7833,
+   "lon": 45.15,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Qaryat al-Faw"
+  },
+  {
+   "id": "Q1151131",
+   "name": "Jeddah Light",
+   "sl": 20,
+   "file": "Jeddah-seaport-saudiarabia (cropped).PNG",
+   "lat": 21.4687,
+   "lon": 39.1497,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jeddah Light"
+  },
+  {
+   "id": "Q2672934",
+   "name": "Prince Naif bin Abdulaziz International Airport",
+   "sl": 20,
+   "file": "ELQ Airport.jpg",
+   "lat": 26.3028,
+   "lon": 43.7742,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prince Naif bin Abdulaziz Regional Airport"
+  },
+  {
+   "id": "Q2876123",
+   "name": "Ha'il Regional Airport",
+   "sl": 19,
+   "file": "Flughafen Ha'il 20260201 2.jpg",
+   "lat": 27.4397,
+   "lon": 41.6864,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hail International Airport"
+  },
+  {
+   "id": "Q1261987",
+   "name": "Jamaraat Bridge",
+   "sl": 19,
+   "file": "The sprawling Jamarat bridge - Flickr - Al Jazeera English.jpg",
+   "lat": 21.4214,
+   "lon": 39.8728,
+   "kind": "built",
+   "types": [
+    "footbridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jamarat Bridge"
+  },
+  {
+   "id": "Q2419298",
+   "name": "Tomb of Eve",
+   "sl": 19,
+   "file": "Eves-tomb-pelerinage-a-la-mecque-et-a-medina.png",
+   "lat": 21.4919,
+   "lon": 39.19,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Eve"
+  },
+  {
+   "id": "Q3078407",
+   "name": "Ajyad Fortress",
+   "sl": 18,
+   "file": "Mecca prayer, 1889.tif",
+   "lat": 21.4189,
+   "lon": 39.8264,
+   "kind": "built",
+   "types": [
+    "citadel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ajyad Fortress"
+  },
+  {
+   "id": "Q4115817",
+   "name": "Jabal al-Lawz",
+   "sl": 18,
+   "file": "الثلوج تغطي جبل اللوز في تبوك 2022.jpg",
+   "lat": 28.6542,
+   "lon": 35.3058,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2650633",
+   "name": "Prince Mohamed bin Fahd Stadium",
+   "sl": 18,
+   "file": "Mohammed Bin Fahd Stadium, Dammam, Saudi Arabia.jpg",
+   "lat": 26.4272,
+   "lon": 50.1141,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2875750",
+   "name": "Al-Ahsa International Airport",
+   "sl": 17,
+   "file": "Al Hasa Airport.jpg",
+   "lat": 25.2853,
+   "lon": 49.4852,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Ahsa Airport"
+  },
+  {
+   "id": "Q2875755",
+   "name": "Al-Jawf Domestic Airport",
+   "sl": 17,
+   "file": "Al Jouf Airport Terminal (Dec 2017).jpg",
+   "lat": 29.7853,
+   "lon": 40.0997,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4116104",
+   "name": "Jabal Thawr",
+   "sl": 17,
+   "file": "Jabele thor - panoramio.jpg",
+   "lat": 21.3833,
+   "lon": 39.85,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabal Thawr"
+  },
+  {
+   "id": "Q2876145",
+   "name": "Prince Sultan bin Abdulaziz International Airport",
+   "sl": 17,
+   "file": "Tabuk airport.jpg",
+   "lat": 28.3656,
+   "lon": 36.6189,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3071063",
+   "name": "Tuwaiq",
+   "sl": 17,
+   "file": "Tuwaiq Escarpment-14h38m25s-k.jpg",
+   "lat": 19.9144,
+   "lon": 45.2519,
+   "kind": "natural",
+   "types": [
+    "escarpment",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tuwaiq Escarpment"
+  },
+  {
+   "id": "Q2875998",
+   "name": "Yanbu Airport",
+   "sl": 17,
+   "file": "Yanbu Airport Terminal Tower.JPG",
+   "lat": 24.1442,
+   "lon": 38.0636,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yanbu Airport"
+  },
+  {
+   "id": "Q21994709",
+   "name": "'Uruq Bani Ma'arid",
+   "sl": 16,
+   "file": "Rub al Khali 002.JPG",
+   "lat": 19.3369,
+   "lon": 45.9039,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4159640",
+   "name": "Abu Kubais",
+   "sl": 16,
+   "file": "Great Mosque of Mecca1.jpg",
+   "lat": 21.4222,
+   "lon": 39.8297,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabal Abu Qubays"
+  },
+  {
+   "id": "Q6812533",
+   "name": "Mosque of the Jinn",
+   "sl": 16,
+   "file": "Mosque of the Jinn 03.jpg",
+   "lat": 21.4334,
+   "lon": 39.8289,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masjid al-Jinn"
+  },
+  {
+   "id": "Q2875749",
+   "name": "Al-Baha Domestic Airport",
+   "sl": 15,
+   "file": "Al baha airport.jpg",
+   "lat": 20.2961,
+   "lon": 41.6343,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2628988",
+   "name": "King Saud Mosque",
+   "sl": 15,
+   "file": "King Saud Mosque2 (22).jpg",
+   "lat": 21.5217,
+   "lon": 39.1825,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Saud Mosque"
+  },
+  {
+   "id": "Q2743332",
+   "name": "Wadi al-Dawasir Domestic Airport",
+   "sl": 15,
+   "file": "Flughafen ad-Dawasir 20260203 3.jpg",
+   "lat": 20.5042,
+   "lon": 45.1994,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi al-Dawasir Domestic Airport"
+  },
+  {
+   "id": "Q14921963",
+   "name": "Al Jum'ah Mosque",
+   "sl": 14,
+   "file": "Masjid Jum'ah.jpg",
+   "lat": 24.4455,
+   "lon": 39.6152,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Jum'ah Mosque (Medina)"
+  },
+  {
+   "id": "Q12242709",
+   "name": "Bay'ah Mosque",
+   "sl": 14,
+   "file": "مسجد البيعة.jpeg",
+   "lat": 21.4247,
+   "lon": 39.8675,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bay'ah Mosque"
+  },
+  {
+   "id": "Q18210580",
+   "name": "Jeddah Flagpole",
+   "sl": 14,
+   "file": "Jeddah Fahne.JPG",
+   "lat": 21.5079,
+   "lon": 39.1697,
+   "kind": "built",
+   "types": [
+    "flagpole"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4119060",
+   "name": "King Abdullah Sport City Stadium",
+   "sl": 14,
+   "file": "King Abdullah Sport City Stadium A.jpg",
+   "lat": 26.3789,
+   "lon": 43.9478,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Abdullah Sport City Stadium"
+  },
+  {
+   "id": "Q17621052",
+   "name": "Palace of Yamamah",
+   "sl": 14,
+   "file": "AM Spindelegger in Saudi Arabien (8466911257).jpg",
+   "lat": 24.6647,
+   "lon": 46.64,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Yamamah"
+  },
+  {
+   "id": "Q1656524",
+   "name": "Wabar craters",
+   "sl": 14,
+   "file": "Wabar craters.jpg",
+   "lat": 21.5053,
+   "lon": 50.4742,
+   "kind": "natural",
+   "types": [
+    "impact crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wabar craters"
+  },
+  {
+   "id": "Q12242695",
+   "name": "Al-Ijabah Mosque",
+   "sl": 13,
+   "file": "Masjid Ijabah Imam Khairul Annas.JPG",
+   "lat": 24.4719,
+   "lon": 39.6183,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Ijabah Mosque"
+  },
+  {
+   "id": "Q12242767",
+   "name": "Amberiye Mosque",
+   "sl": 13,
+   "file": "Medine Ambariye mescidi.jpg",
+   "lat": 24.4617,
+   "lon": 39.6017,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anbariya Mosque"
+  },
+  {
+   "id": "Q13892708",
+   "name": "Capital Market Authority Headquarters",
+   "sl": 13,
+   "file": "Public Investment Fund Tower 20260128 1.jpg",
+   "lat": 24.7628,
+   "lon": 46.6403,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capital Market Authority Headquarters"
+  },
+  {
+   "id": "Q3850811",
+   "name": "Masjid al-Taneem",
+   "sl": 13,
+   "file": "Masjid Aisha (1).jpg",
+   "lat": 21.4676,
+   "lon": 39.8012,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masjid Aisha (Mecca)"
+  },
+  {
+   "id": "Q6783320",
+   "name": "Masjid-u-Shajarah",
+   "sl": 13,
+   "file": "Abiar Ali.jpg",
+   "lat": 24.4136,
+   "lon": 39.5428,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dhul Hulaifah Miqat Mosque"
+  },
+  {
+   "id": "Q4116941",
+   "name": "Prince Sultan Air Base",
+   "sl": 13,
+   "file": "E-3D 8 Sqn RAF taking off in Saudi Arabia 2003.JPEG",
+   "lat": 24.0625,
+   "lon": 47.5803,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prince Sultan Air Base"
+  },
+  {
+   "id": "Q4120431",
+   "name": "Al Ula International Airport",
+   "sl": 12,
+   "file": "Al-Ula International Airport 20260130 1.jpg",
+   "lat": 26.4833,
+   "lon": 38.1169,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Ula International Airport"
+  },
+  {
+   "id": "Q3848045",
+   "name": "Harrat Rahat",
+   "sl": 12,
+   "file": "Harrat Rahat.jpg",
+   "lat": 23.0833,
+   "lon": 39.7833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Harrat Rahat"
+  },
+  {
+   "id": "Q4022355",
+   "name": "Jawatha Mosque",
+   "sl": 12,
+   "file": "Jawatha1.jpg",
+   "lat": 25.4697,
+   "lon": 49.6786,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q311341",
+    "name": "Al-Ahsa Oasis"
+   },
+   "also": [],
+   "cat": "Jawatha Mosque"
+  },
+  {
+   "id": "Q1407285",
+   "name": "Jeddah TV Tower",
+   "sl": 12,
+   "file": "Jeddah tv tower.jpg",
+   "lat": 21.473,
+   "lon": 39.1996,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6301700",
+   "name": "Jubail Church",
+   "sl": 12,
+   "file": "Jubail Church.jpg",
+   "lat": 26.9374,
+   "lon": 49.6565,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jubail Church"
+  },
+  {
+   "id": "Q117289908",
+   "name": "Mukaab",
+   "sl": 12,
+   "file": "Mukaab Illustration.png",
+   "lat": 24.8081,
+   "lon": 46.5692,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4116944",
+   "name": "Prince Abdullah bin Jalawi Sports City",
+   "sl": 12,
+   "file": "Prince Abdullah bin Jalawi Stadium 15 April 2011.JPG",
+   "lat": 25.3058,
+   "lon": 49.6128,
+   "kind": "built",
+   "types": [
+    "stadium",
+    "venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prince Abdullah bin Jalawi Stadium"
+  },
+  {
+   "id": "Q5270933",
+   "name": "Diamond Tower",
+   "sl": 11,
+   "file": "Diamond Tower Jeddah.jpg",
+   "lat": 21.6469,
+   "lon": 39.1036,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Diamond Tower (Jeddah)"
+  },
+  {
+   "id": "Q1658031",
+   "name": "King Abdulaziz Air Base",
+   "sl": 11,
+   "file": "Saudi dhahran airport.jpg",
+   "lat": 26.2653,
+   "lon": 50.1519,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Abdulaziz Air Base"
+  },
+  {
+   "id": "Q12242742",
+   "name": "Mosque of Al-Saqiya",
+   "sl": 11,
+   "file": "مسجد السقيا.jpg",
+   "lat": 24.4613,
+   "lon": 39.6006,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soqia Mosque"
+  }
+ ]
+}

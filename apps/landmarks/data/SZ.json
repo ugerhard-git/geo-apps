@@ -1,0 +1,108 @@
+{
+ "country": "SZ",
+ "items": [
+  {
+   "id": "Q1337951",
+   "name": "Emlembe",
+   "sl": 26,
+   "file": "Emlembe (2).jpg",
+   "lat": -25.9167,
+   "lon": 31.1333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZA"
+   ],
+   "cat": "Emlembe"
+  },
+  {
+   "id": "Q652974",
+   "name": "Matsapha Airport",
+   "sl": 23,
+   "file": "Matsapha.JPG",
+   "lat": -26.5286,
+   "lon": 31.3078,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mastapha Airport"
+  },
+  {
+   "id": "Q2285574",
+   "name": "King Mswati III International Airport",
+   "sl": 21,
+   "file": "King Mswati III International Airport - Terminal.jpg",
+   "lat": -26.3586,
+   "lon": 31.7169,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Mswati III International Airport"
+  },
+  {
+   "id": "Q178248",
+   "name": "Kaapvaal craton",
+   "sl": 17,
+   "file": "Gold fields.jpg",
+   "lat": -25,
+   "lon": 25,
+   "kind": "natural",
+   "types": [
+    "craton"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BW",
+    "ZA"
+   ],
+   "cat": "Kaapvaal Craton"
+  },
+  {
+   "id": "Q9067090",
+   "name": "Hlane Royal National Park",
+   "sl": 14,
+   "file": "Hlane-Basic-Hide-At-Hippo-Pool.JPG",
+   "lat": -26.25,
+   "lon": 31.88,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hlane Royal National Park"
+  },
+  {
+   "id": "Q1550406",
+   "name": "Waterford Kamhlaba",
+   "sl": 8,
+   "file": "Wk emhlabeni.jpg",
+   "lat": -26.3029,
+   "lon": 31.1041,
+   "kind": "built",
+   "types": [
+    "building",
+    "international school"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

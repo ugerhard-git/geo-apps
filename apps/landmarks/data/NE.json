@@ -1,0 +1,384 @@
+{
+ "country": "NE",
+ "items": [
+  {
+   "id": "Q726863",
+   "name": "W National Park",
+   "sl": 55,
+   "file": "Elephants bath park w wide 2006.jpg",
+   "lat": 12.35,
+   "lon": 2.355,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q25379596",
+    "name": "W-Arly-Pendjari Complex"
+   },
+   "also": [
+    "BF",
+    "BJ"
+   ],
+   "cat": "W National Park"
+  },
+  {
+   "id": "Q272521",
+   "name": "Ténéré desert",
+   "sl": 44,
+   "file": "Fachi-Bilma-Dünen.jpg",
+   "lat": 22.7167,
+   "lon": 16.5,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ténéré"
+  },
+  {
+   "id": "Q794643",
+   "name": "Aïr and Ténéré National Nature Reserve",
+   "sl": 36,
+   "file": "Montagnes Bleus1.jpg",
+   "lat": 18,
+   "lon": 9,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Aïr and Ténéré Natural Reserves"
+  },
+  {
+   "id": "Q905933",
+   "name": "Diori Hamani International Airport",
+   "sl": 31,
+   "file": "Niameyairport 2005 crop.JPG",
+   "lat": 13.4817,
+   "lon": 2.1703,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Diori Hamani International Airport"
+  },
+  {
+   "id": "Q25379596",
+   "name": "W-Arly-Pendjari Complex",
+   "sl": 25,
+   "file": "Elephants bath park w Niger 2006.jpg",
+   "lat": 11.53,
+   "lon": 2.29,
+   "kind": "",
+   "types": [
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "BF",
+    "BJ"
+   ],
+   "cat": "W-Arly-Pendjari Complex"
+  },
+  {
+   "id": "Q3042286",
+   "name": "Mont Idoukal-n-Taghès",
+   "sl": 22,
+   "file": "Mont Idoukal-n-Taghès, Niger (Copernicus 2025-10-28).png",
+   "lat": 17.8392,
+   "lon": 8.7203,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont Idoukal-n-Taghès"
+  },
+  {
+   "id": "Q3440333",
+   "name": "Great Mosque of Agadez",
+   "sl": 20,
+   "file": "1997 277-9A Agadez mosque cropped.jpg",
+   "lat": 16.9742,
+   "lon": 7.9884,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q47800464",
+    "name": "Historic Center of Agadez"
+   },
+   "also": [],
+   "cat": "Agadez Mosque"
+  },
+  {
+   "id": "Q1444681",
+   "name": "Mano Dayak International Airport",
+   "sl": 19,
+   "file": "Niger, Agadez, Airport 1.jpg",
+   "lat": 16.9622,
+   "lon": 7.9903,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mano Dayak International Airport"
+  },
+  {
+   "id": "Q1728284",
+   "name": "Kaouar",
+   "sl": 15,
+   "file": "Kaouartal-bei-Bilma.jpg",
+   "lat": 13.2833,
+   "lon": 4.0833,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1501532",
+   "name": "Stade Général Seyni Kountché",
+   "sl": 15,
+   "file": "Niger, Niamey, Kountché Stadium (1).jpg",
+   "lat": 13.5273,
+   "lon": 2.109,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Général Seyni Kountché"
+  },
+  {
+   "id": "Q3495944",
+   "name": "Zinder Airport",
+   "sl": 15,
+   "file": "Aéroport International de Zinder-2020-2.jpg",
+   "lat": 13.779,
+   "lon": 8.9837,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zinder Airport"
+  },
+  {
+   "id": "Q636174",
+   "name": "River Goulbi de Maradi",
+   "sl": 14,
+   "file": "Goulbi de Maradi 0001 10.jpg",
+   "lat": 13.6333,
+   "lon": 6.3333,
+   "kind": "natural",
+   "types": [
+    "river",
+    "seasonal river",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NG"
+   ],
+   "cat": "Goulbi de Maradi"
+  },
+  {
+   "id": "Q1989844",
+   "name": "Boubou Hama National Museum",
+   "sl": 12,
+   "file": "Zoo du Musée national de Niamey.jpg",
+   "lat": 13.5111,
+   "lon": 2.1072,
+   "kind": "built",
+   "types": [
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Niger"
+  },
+  {
+   "id": "Q1657906",
+   "name": "Diffa Airport",
+   "sl": 12,
+   "file": "Helicopters deployed on Diffa Airport.jpg",
+   "lat": 13.3729,
+   "lon": 12.6267,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Diffa Airport"
+  },
+  {
+   "id": "Q166322",
+   "name": "Erg of Bilma",
+   "sl": 11,
+   "file": "Grand-Erg-du-Bilma.jpg",
+   "lat": 18.6931,
+   "lon": 12.9172,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erg of Bilma"
+  },
+  {
+   "id": "Q1101213",
+   "name": "Kennedy Bridge",
+   "sl": 11,
+   "file": "Niamey river bridge roof sunset 2006.jpg",
+   "lat": 13.5047,
+   "lon": 2.104,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pont Kennedy, Niamey"
+  },
+  {
+   "id": "Q849269",
+   "name": "Gobero",
+   "sl": 9,
+   "file": "Gobero.jpg",
+   "lat": 16.915,
+   "lon": 9.4961,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2090735",
+   "name": "Talak",
+   "sl": 9,
+   "file": "Hoggarpiste1991a.jpg",
+   "lat": 18.3321,
+   "lon": 5.9996,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Talak"
+  },
+  {
+   "id": "Q8553256",
+   "name": "Adrar Bous",
+   "sl": 8,
+   "file": "AdrarBous4.jpg",
+   "lat": 20.3708,
+   "lon": 9.025,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adrar Bous"
+  },
+  {
+   "id": "Q1654561",
+   "name": "Dirkou Airport",
+   "sl": 8,
+   "file": "Niger Dirkou Airport drone base.jpg",
+   "lat": 18.969,
+   "lon": 12.8689,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q571634",
+   "name": "Madama",
+   "sl": 8,
+   "file": "Af Ner 115 Fort de Madama.jpg",
+   "lat": 21.9494,
+   "lon": 13.6515,
+   "kind": "built",
+   "types": [
+    "fort",
+    "outpost"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort de Madama"
+  },
+  {
+   "id": "Q66155370",
+   "name": "W National Park of Niger",
+   "sl": 8,
+   "file": "Bends in the River Niger which give W National Park its distinctive name.jpg",
+   "lat": 12.0407,
+   "lon": 3.0342,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "W National Park of Niger"
+  }
+ ]
+}

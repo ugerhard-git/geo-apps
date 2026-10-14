@@ -1,0 +1,1379 @@
+{
+ "country": "HU",
+ "items": [
+  {
+   "id": "Q6383",
+   "name": "Lake Balaton",
+   "sl": 97,
+   "file": "Balatonlelle, Balaton, 49.jpg",
+   "lat": 46.85,
+   "lon": 17.72,
+   "kind": "natural",
+   "types": [
+    "geographical small region of Hungary",
+    "lake",
+    "Natura 2000 site",
+    "rift lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Balaton"
+  },
+  {
+   "id": "Q6396",
+   "name": "Neusiedl Lake",
+   "sl": 63,
+   "file": "Neusiedler See im Winter.jpg",
+   "lat": 47.8333,
+   "lon": 16.75,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "Natura 2000 site",
+    "steppe lake"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Lake Neusiedl"
+  },
+  {
+   "id": "Q11819",
+   "name": "Hungarian Parliament Building",
+   "sl": 57,
+   "file": "Budapest-Parliament-0001.jpg",
+   "lat": 47.5069,
+   "lon": 19.0456,
+   "kind": "built",
+   "types": [
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hungarian Parliament Building"
+  },
+  {
+   "id": "Q61757",
+   "name": "Hortobágy National Park",
+   "sl": 54,
+   "file": "Hortobagy-ziehbrunnen.jpg",
+   "lat": 47.5946,
+   "lon": 21.1568,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national parkin Hungary",
+    "Natura 2000 site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Hortobágy National Park"
+  },
+  {
+   "id": "Q500945",
+   "name": "Budapest Ferenc Liszt International Airport",
+   "sl": 52,
+   "file": "Aeropark légi felvételen.jpg",
+   "lat": 47.4394,
+   "lon": 19.2619,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Budapest Liszt Ferenc International Airport"
+  },
+  {
+   "id": "Q46313",
+   "name": "Buda Castle",
+   "sl": 47,
+   "file": "20190502 Zamek w Budapeszcie 0647 1862 DxO.jpg",
+   "lat": 47.4961,
+   "lon": 19.0397,
+   "kind": "built",
+   "types": [
+    "castle",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q851122",
+    "name": "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue"
+   },
+   "also": [],
+   "cat": "Buda Castle"
+  },
+  {
+   "id": "Q299973",
+   "name": "Heroes' Square",
+   "sl": 46,
+   "file": "Heroes Square Budapest 2010 01.jpg",
+   "lat": 47.5153,
+   "lon": 19.0781,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q851122",
+    "name": "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue"
+   },
+   "also": [],
+   "cat": "Hősök tere (Budapest 14)"
+  },
+  {
+   "id": "Q465534",
+   "name": "Széchenyi Chain Bridge",
+   "sl": 46,
+   "file": "Budapest - Chain Bridge - panoramio.jpg",
+   "lat": 47.4989,
+   "lon": 19.0435,
+   "kind": "built",
+   "types": [
+    "chain bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chain Bridge, Budapest"
+  },
+  {
+   "id": "Q367395",
+   "name": "Andrássy út",
+   "sl": 43,
+   "file": "Andrássy út Budapest 1896.jpg",
+   "lat": 47.5106,
+   "lon": 19.0713,
+   "kind": "built",
+   "types": [
+    "avenue"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q851122",
+    "name": "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue"
+   },
+   "also": [],
+   "cat": "Andrássy út, Budapest"
+  },
+  {
+   "id": "Q623345",
+   "name": "Aquincum",
+   "sl": 43,
+   "file": "Polgárváros1.jpg",
+   "lat": 47.5641,
+   "lon": 19.0495,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "archaeological site",
+    "castrum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aquincum"
+  },
+  {
+   "id": "Q338665",
+   "name": "St. Stephen's Basilica",
+   "sl": 42,
+   "file": "HUN-2015-Budapest-St. Stephen's Basilica.jpg",
+   "lat": 47.5008,
+   "lon": 19.0539,
+   "kind": "built",
+   "types": [
+    "Catholic church building",
+    "co-cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Stephen's Basilica (Budapest)"
+  },
+  {
+   "id": "Q828125",
+   "name": "Tokaj wine region",
+   "sl": 41,
+   "file": "Tokaj - Hegyalja-06.jpg",
+   "lat": 48.15,
+   "lon": 21.35,
+   "kind": "",
+   "types": [
+    "geographical small region of Hungary",
+    "wine-producing region"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64559620",
+    "name": "Tokaj Wine Region Historic Cultural Landscape"
+   },
+   "also": [],
+   "cat": "Tokaj Wine Region"
+  },
+  {
+   "id": "Q36833",
+   "name": "Hungarian State Opera House",
+   "sl": 40,
+   "file": "Hungarian State Opera House in Budapest.jpg",
+   "lat": 47.5028,
+   "lon": 19.0583,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hungarian State Opera House"
+  },
+  {
+   "id": "Q756096",
+   "name": "Mátra",
+   "sl": 40,
+   "file": "Mátra Galyatető - panoramio.jpg",
+   "lat": 47.8833,
+   "lon": 19.95,
+   "kind": "natural",
+   "types": [
+    "mesoregion (Hungary)",
+    "mountain range",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mátra"
+  },
+  {
+   "id": "Q936285",
+   "name": "Pannonhalma Archabbey",
+   "sl": 40,
+   "file": "Pannonhalma - Bencés apátság.jpg",
+   "lat": 47.5528,
+   "lon": 17.7611,
+   "kind": "built",
+   "types": [
+    "abbey",
+    "archabbey",
+    "cathedral",
+    "Catholic church building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Pannonhalma Archabbey"
+  },
+  {
+   "id": "Q493133",
+   "name": "Matthias Church",
+   "sl": 39,
+   "file": "Matthias Church, Budapest, 2017.jpg",
+   "lat": 47.5019,
+   "lon": 19.0342,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Catholic church building",
+    "parish church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matthias Church (Budapest)"
+  },
+  {
+   "id": "Q39069592",
+   "name": "Puskás Aréna",
+   "sl": 39,
+   "file": "Puskás Aréna 05.jpg",
+   "lat": 47.503,
+   "lon": 19.0979,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puskás Aréna"
+  },
+  {
+   "id": "Q493117",
+   "name": "Fisherman's Bastion",
+   "sl": 37,
+   "file": "Halászbástya épülete díszlépcsővel (103. számú műemlék) 28.jpg",
+   "lat": 47.5022,
+   "lon": 19.0347,
+   "kind": "built",
+   "types": [
+    "bastion",
+    "fishing bastion",
+    "terrace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fisherman's Bastion"
+  },
+  {
+   "id": "Q840886",
+   "name": "Museum of Fine Arts, Budapest",
+   "sl": 37,
+   "file": "Budapest Fine Arts Museum R01.jpg",
+   "lat": 47.5159,
+   "lon": 19.0768,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Budapest Museum of Fine Arts"
+  },
+  {
+   "id": "Q754397",
+   "name": "Dohány Street Synagogue",
+   "sl": 36,
+   "file": "Synagogue-Budapest.jpg",
+   "lat": 47.4959,
+   "lon": 19.0607,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Synagogue in Dohány Street"
+  },
+  {
+   "id": "Q17394000",
+   "name": "Groupama Arena",
+   "sl": 36,
+   "file": "Stadionul Albert Florian din Budapesta1.jpg",
+   "lat": 47.4753,
+   "lon": 19.0961,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Groupama Arena"
+  },
+  {
+   "id": "Q608090",
+   "name": "Caves of Aggtelek Karst and Slovak Karst",
+   "sl": 35,
+   "file": "Domica Cave 22.jpg",
+   "lat": 48.4718,
+   "lon": 20.4953,
+   "kind": "",
+   "types": [
+    "cave system"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "Caves of Aggtelek Karst and Slovak Karst"
+  },
+  {
+   "id": "Q6502593",
+   "name": "Puszta",
+   "sl": 35,
+   "file": "Hortobagy-ziehbrunnen.jpg",
+   "lat": 47.58,
+   "lon": 21.15,
+   "kind": "natural",
+   "types": [
+    "plain",
+    "vegetational formation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puszta"
+  },
+  {
+   "id": "Q915195",
+   "name": "Liberty Bridge",
+   "sl": 34,
+   "file": "Budapesti Szabadság híd Pestről 2014.JPG",
+   "lat": 47.4856,
+   "lon": 19.055,
+   "kind": "built",
+   "types": [
+    "cantilever bridge",
+    "road-rail bridge",
+    "tram bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liberty Bridge, Budapest"
+  },
+  {
+   "id": "Q1063819",
+   "name": "National Széchényi Library",
+   "sl": 34,
+   "file": "Országos Széchényi Könyvtár.jpg",
+   "lat": 47.4952,
+   "lon": 19.0393,
+   "kind": "built",
+   "types": [
+    "budget management department",
+    "library building",
+    "national library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Széchényi Library"
+  },
+  {
+   "id": "Q914141",
+   "name": "Hungarian National Museum",
+   "sl": 33,
+   "file": "Magyar Nemzeti Múzeum.jpg",
+   "lat": 47.4911,
+   "lon": 19.0628,
+   "kind": "built",
+   "types": [
+    "museum building",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hungarian National Museum"
+  },
+  {
+   "id": "Q855526",
+   "name": "Bükk",
+   "sl": 32,
+   "file": "Három-kő a Tar-kőről - panoramio.jpg",
+   "lat": 48.0333,
+   "lon": 20.5,
+   "kind": "natural",
+   "types": [
+    "mesoregion (Hungary)",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bükk-vidék"
+  },
+  {
+   "id": "Q249992",
+   "name": "Lake Hévíz",
+   "sl": 32,
+   "file": "Medicinal Bath Hévíz 01.jpg",
+   "lat": 46.7872,
+   "lon": 17.1931,
+   "kind": "natural",
+   "types": [
+    "hot lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Hévíz"
+  },
+  {
+   "id": "Q1072359",
+   "name": "Lake Tisza",
+   "sl": 32,
+   "file": "Tisza-tó.jpg",
+   "lat": 47.6,
+   "lon": 20.6667,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tisza-tó"
+  },
+  {
+   "id": "Q516668",
+   "name": "Aggtelek National Park",
+   "sl": 31,
+   "file": "Civertanlegifotoaggtelek4.jpg",
+   "lat": 48.4667,
+   "lon": 20.4833,
+   "kind": "natural",
+   "types": [
+    "national parkin Hungary"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q608090",
+    "name": "Caves of Aggtelek Karst and Slovak Karst"
+   },
+   "also": [],
+   "cat": "Aggtelek National Park"
+  },
+  {
+   "id": "Q372376",
+   "name": "House of Terror Museum",
+   "sl": 31,
+   "file": "Peace March for Hungary - 2013.10.23 (70).JPG",
+   "lat": 47.5068,
+   "lon": 19.0651,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "House of Terror Museum"
+  },
+  {
+   "id": "Q577122",
+   "name": "Gellért Hill",
+   "sl": 30,
+   "file": "Gellert hill.jpg",
+   "lat": 47.4864,
+   "lon": 19.0458,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gellért Hill"
+  },
+  {
+   "id": "Q927806",
+   "name": "Sándor Palace",
+   "sl": 30,
+   "file": "Sándor-palota napsütésben.jpg",
+   "lat": 47.4978,
+   "lon": 19.0382,
+   "kind": "built",
+   "types": [
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sándor palace"
+  },
+  {
+   "id": "Q699098",
+   "name": "Elisabeth Bridge",
+   "sl": 29,
+   "file": "View from Citadella on Budapest 2005 154.jpg",
+   "lat": 47.4908,
+   "lon": 19.0492,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "steel bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elisabeth Bridge, Budapest"
+  },
+  {
+   "id": "Q594230",
+   "name": "Ferenc Puskás Stadium",
+   "sl": 29,
+   "file": "Puskas Ferenc Stadion Front.JPG",
+   "lat": 47.5031,
+   "lon": 19.0982,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puskás Ferenc Stadion"
+  },
+  {
+   "id": "Q252071",
+   "name": "Hungarian National Gallery",
+   "sl": 29,
+   "file": "Budapest, Royal Palace Complex, Hungarian National Gallery \"B\" Wing from the Hunyadi Courtyard and the Horse Wrangler Statue.jpg",
+   "lat": 47.4962,
+   "lon": 19.0398,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hungarian National Gallery"
+  },
+  {
+   "id": "Q847072",
+   "name": "Lake Velence",
+   "sl": 29,
+   "file": "Velence Lake Hungary.jpg",
+   "lat": 47.2083,
+   "lon": 18.6,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Velence"
+  },
+  {
+   "id": "Q1089516",
+   "name": "Mária Valéria Bridge",
+   "sl": 29,
+   "file": "Maria-Valeria-Brücke, Esztergom 01.jpg",
+   "lat": 47.7953,
+   "lon": 18.7303,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge",
+    "steel bridge",
+    "truss bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "Marie Valerie Bridge"
+  },
+  {
+   "id": "Q427016",
+   "name": "City Park",
+   "sl": 28,
+   "file": "Vajdahunyad Castle, 2011 Budapešť 0140.jpg",
+   "lat": 47.5139,
+   "lon": 19.0847,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "City Park (Budapest)"
+  },
+  {
+   "id": "Q903138",
+   "name": "Debrecen International Airport",
+   "sl": 28,
+   "file": "Debrecen-apt.jpg",
+   "lat": 47.4889,
+   "lon": 21.6153,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Debrecen International Airport"
+  },
+  {
+   "id": "Q897334",
+   "name": "Danube-Drava National Park",
+   "sl": 27,
+   "file": "Gemenci erdő őzek.JPG",
+   "lat": 46.0864,
+   "lon": 18.2264,
+   "kind": "natural",
+   "types": [
+    "national parkin Hungary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Danube-Drava National Park"
+  },
+  {
+   "id": "Q916120",
+   "name": "Margaret Bridge",
+   "sl": 27,
+   "file": "A steel arch bridge over calm water (Unsplash).jpg",
+   "lat": 47.5147,
+   "lon": 19.0436,
+   "kind": "built",
+   "types": [
+    "road-rail bridge",
+    "tram bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Margaret Bridge, Budapest"
+  },
+  {
+   "id": "Q777301",
+   "name": "Megyeri Bridge",
+   "sl": 27,
+   "file": "Civertanmegyeri4.jpg",
+   "lat": 47.6069,
+   "lon": 19.0919,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Megyeri Bridge"
+  },
+  {
+   "id": "Q695810",
+   "name": "Bakony",
+   "sl": 26,
+   "file": "Fenyőfő hegyek gyűrűjében.jpg",
+   "lat": 47.3,
+   "lon": 17.75,
+   "kind": "natural",
+   "types": [
+    "mesoregion (Hungary)",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bakony"
+  },
+  {
+   "id": "Q991832",
+   "name": "Esztergom Basilica",
+   "sl": 26,
+   "file": "Basilica in Esztergom, Hungary 01.jpg",
+   "lat": 47.7989,
+   "lon": 18.7364,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Catholic church building",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Esztergom Cathedral"
+  },
+  {
+   "id": "Q922898",
+   "name": "Kiskunság National Park",
+   "sl": 26,
+   "file": "Tiszaalpár 045.jpg",
+   "lat": 46.74,
+   "lon": 19.22,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national parkin Hungary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kiskunság National Park"
+  },
+  {
+   "id": "Q953076",
+   "name": "Mecsek",
+   "sl": 26,
+   "file": "Mecsek magyaro 1.jpg",
+   "lat": 46.1608,
+   "lon": 18.3142,
+   "kind": "natural",
+   "types": [
+    "geographical small region of Hungary",
+    "mountain range",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mecsek"
+  },
+  {
+   "id": "Q194783",
+   "name": "Széchenyi thermal bath",
+   "sl": 26,
+   "file": "Budapest Széchenyi Baths R01.jpg",
+   "lat": 47.5183,
+   "lon": 19.0822,
+   "kind": "built",
+   "types": [
+    "bathhouse",
+    "spa",
+    "thermal bath"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Széchenyi Gyógyfürdő"
+  },
+  {
+   "id": "Q950534",
+   "name": "Váci Street",
+   "sl": 26,
+   "file": "Budapest Vaci utca.jpg",
+   "lat": 47.4942,
+   "lon": 19.0525,
+   "kind": "built",
+   "types": [
+    "pedestrian street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Váci utca"
+  },
+  {
+   "id": "Q855548",
+   "name": "Bükk National Park",
+   "sl": 25,
+   "file": "Heves megye, Bélapátfalva, Gyári-tó és Bél-kő.jpg",
+   "lat": 48.04,
+   "lon": 20.53,
+   "kind": "natural",
+   "types": [
+    "national parkin Hungary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bükk National Park"
+  },
+  {
+   "id": "Q630494",
+   "name": "Geschriebenstein",
+   "sl": 25,
+   "file": "Geschriebenstein - Gipfelplateau.JPG",
+   "lat": 47.3528,
+   "lon": 16.4337,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Írott-kő"
+  },
+  {
+   "id": "Q195344",
+   "name": "Great Market Hall",
+   "sl": 25,
+   "file": "Budapest - Központi Vásárcsarnok (2).jpg",
+   "lat": 47.4867,
+   "lon": 19.0588,
+   "kind": "built",
+   "types": [
+    "market hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Market Hall, Budapest"
+  },
+  {
+   "id": "Q1187044",
+   "name": "Hévíz–Balaton Airport",
+   "sl": 25,
+   "file": "Peter Stehlik 2011.08.29 001a Flugplatz Balaton Flybalaton.jpg",
+   "lat": 46.6864,
+   "lon": 17.1592,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sármellék International Airport"
+  },
+  {
+   "id": "Q1069906",
+   "name": "Memento Park",
+   "sl": 25,
+   "file": "Main entrance of the Memento Park with Lenin, Marx and Engels.JPG",
+   "lat": 47.4263,
+   "lon": 18.9989,
+   "kind": "built",
+   "types": [
+    "sculpture garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Memento Park"
+  },
+  {
+   "id": "Q1088467",
+   "name": "Museum of Applied Arts",
+   "sl": 25,
+   "file": "Museum of Applied Arts. Main facade from south. BudapestDSCN3639.jpg",
+   "lat": 47.4861,
+   "lon": 19.0683,
+   "kind": "built",
+   "types": [
+    "museum of decorative arts"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Budapest Museum of Applied Arts"
+  },
+  {
+   "id": "Q1187508",
+   "name": "National Theatre",
+   "sl": 25,
+   "file": "National Theatre Budapest.jpg",
+   "lat": 47.4708,
+   "lon": 19.0708,
+   "kind": "built",
+   "types": [
+    "national theatre",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Theatre (Budapest) (2000-)"
+  },
+  {
+   "id": "Q386630",
+   "name": "Őrség National Park",
+   "sl": 25,
+   "file": "Őriszentpéter2v.jpg",
+   "lat": 46.8389,
+   "lon": 16.4211,
+   "kind": "natural",
+   "types": [
+    "national parkin Hungary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Őrség National Park"
+  },
+  {
+   "id": "Q1092030",
+   "name": "Vajdahunyad Castle",
+   "sl": 25,
+   "file": "Vajdahunyad vára Budapest September 2013.jpg",
+   "lat": 47.5153,
+   "lon": 19.0819,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vajdahunyad castle (Budapest)"
+  },
+  {
+   "id": "Q897623",
+   "name": "Fertő-Hanság National Park",
+   "sl": 24,
+   "file": "A Fertő nádasa és a balfi dombok.jpg",
+   "lat": 47.6608,
+   "lon": 16.739,
+   "kind": "natural",
+   "types": [
+    "national parkin Hungary"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2925869",
+    "name": "Fertö / Neusiedlersee Cultural Landscape"
+   },
+   "also": [],
+   "cat": "Fertő–Hanság National Park"
+  },
+  {
+   "id": "Q368537",
+   "name": "Hall of Arts",
+   "sl": 24,
+   "file": "Palace of Art, 2013 Budapest (326) (13228026303).jpg",
+   "lat": 47.514,
+   "lon": 19.0787,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Art (Budapest)"
+  },
+  {
+   "id": "Q781659",
+   "name": "Petőfi Bridge",
+   "sl": 24,
+   "file": "Budapest Petofi Bridge.jpg",
+   "lat": 47.4789,
+   "lon": 19.0633,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "truss bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Petőfi Bridge"
+  },
+  {
+   "id": "Q473811",
+   "name": "Shoes on the Danube Bank",
+   "sl": 24,
+   "file": "Shoes Danube Promenade IMGP1297.jpg",
+   "lat": 47.5039,
+   "lon": 19.0448,
+   "kind": "built",
+   "types": [
+    "memorial",
+    "sculpture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shoes on the Danube Promenade"
+  },
+  {
+   "id": "Q570848",
+   "name": "Vörösmarty tér",
+   "sl": 24,
+   "file": "Voeresmartyter-gerbeaud-budapest.jpg",
+   "lat": 47.4966,
+   "lon": 19.0506,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vörösmarty tér (Budapest)"
+  },
+  {
+   "id": "Q252452",
+   "name": "Árpád Bridge",
+   "sl": 23,
+   "file": "Arpadhid.jpg",
+   "lat": 47.5375,
+   "lon": 19.0542,
+   "kind": "built",
+   "types": [
+    "beam bridge",
+    "girder bridge",
+    "road bridge",
+    "tram bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Árpád Bridge"
+  },
+  {
+   "id": "Q855211",
+   "name": "Börzsöny",
+   "sl": 23,
+   "file": "Csóványos - Szabó-kövek - panoramio.jpg",
+   "lat": 47.9167,
+   "lon": 19,
+   "kind": "natural",
+   "types": [
+    "mesoregion (Hungary)",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Börzsöny"
+  },
+  {
+   "id": "Q925864",
+   "name": "Eszterházy Palace",
+   "sl": 23,
+   "file": "Aerial image of Esterházy Palace, Fertőd (view from the southeast).jpg",
+   "lat": 47.6194,
+   "lon": 16.8717,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Esterházy Palace, Fertőd"
+  },
+  {
+   "id": "Q960647",
+   "name": "László Papp Budapest Sports Arena",
+   "sl": 23,
+   "file": "Légi felvételen a Papp László Budapest Sportaréna.jpg",
+   "lat": 47.5019,
+   "lon": 19.1054,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "László Papp Budapest Sports Arena"
+  },
+  {
+   "id": "Q787108",
+   "name": "Rákóczi Bridge",
+   "sl": 23,
+   "file": "Lagymanyosi.jpg",
+   "lat": 47.4686,
+   "lon": 19.0675,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rákóczi Bridge"
+  },
+  {
+   "id": "Q922178",
+   "name": "Budapest Zoo & Botanical Garden",
+   "sl": 22,
+   "file": "Hungary budapest zoo entry.jpg",
+   "lat": 47.5191,
+   "lon": 19.0783,
+   "kind": "both",
+   "types": [
+    "botanical garden",
+    "nature reserve",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Budapest Zoo"
+  },
+  {
+   "id": "Q206170",
+   "name": "Citadella",
+   "sl": 22,
+   "file": "Bastion of Hungarian Freedom 2026.jpg",
+   "lat": 47.4869,
+   "lon": 19.0464,
+   "kind": "built",
+   "types": [
+    "citadel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Citadel of Buda"
+  },
+  {
+   "id": "Q543703",
+   "name": "Danube-Ipoly National Park",
+   "sl": 22,
+   "file": "Dobogoko kilatas.jpg",
+   "lat": 47.7667,
+   "lon": 18.95,
+   "kind": "natural",
+   "types": [
+    "national parkin Hungary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Duna-Ipoly National Park"
+  },
+  {
+   "id": "Q20730345",
+   "name": "Hungarian border barrier",
+   "sl": 22,
+   "file": "Hungarian-Serbian border barrier 1.jpg",
+   "lat": 46.3,
+   "lon": 20.0833,
+   "kind": "built",
+   "types": [
+    "border barrier",
+    "cordon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hungary-Serbia border barrier"
+  },
+  {
+   "id": "Q1072717",
+   "name": "Oktogon",
+   "sl": 22,
+   "file": "Oktogon as seen from Oktogon tér 3.jpg",
+   "lat": 47.5053,
+   "lon": 19.0631,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oktogon"
+  },
+  {
+   "id": "Q1076530",
+   "name": "Sió",
+   "sl": 22,
+   "file": "Sió sluice gate.JPG",
+   "lat": 46.3392,
+   "lon": 18.8922,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sió"
+  },
+  {
+   "id": "Q850815",
+   "name": "Buda Hills",
+   "sl": 21,
+   "file": "HU Zsambek Buda Hills.jpg",
+   "lat": 47.55,
+   "lon": 18.8833,
+   "kind": "natural",
+   "types": [
+    "geographical small region of Hungary",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buda Hills"
+  },
+  {
+   "id": "Q854317",
+   "name": "Gresham Palace",
+   "sl": 21,
+   "file": "Gresham palota.jpg",
+   "lat": 47.4997,
+   "lon": 19.048,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gresham Palace"
+  },
+  {
+   "id": "Q1072459",
+   "name": "Pilis Mountains",
+   "sl": 21,
+   "file": "Nagy-Kevély, view.jpg",
+   "lat": 47.7319,
+   "lon": 18.9185,
+   "kind": "natural",
+   "types": [
+    "geographical small region of Hungary",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pilis Mountains"
+  },
+  {
+   "id": "Q631356",
+   "name": "Baradla cave",
+   "sl": 20,
+   "file": "Domica Cave 22.jpg",
+   "lat": 48.4718,
+   "lon": 20.4953,
+   "kind": "both",
+   "types": [
+    "cave",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SK"
+   ],
+   "cat": "Baradla Cave"
+  },
+  {
+   "id": "Q1214829",
+   "name": "Debrecen Stadion",
+   "sl": 20,
+   "file": "NagyerdeiStadionFotoThalerTamas3.jpg",
+   "lat": 47.5539,
+   "lon": 21.6333,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nagyerdei stadion"
+  },
+  {
+   "id": "Q927535",
+   "name": "Early Christian Necropolis of Pécs",
+   "sl": 20,
+   "file": "Pécs - Early Christian Mausoleum 02.JPG",
+   "lat": 46.0744,
+   "lon": 18.2278,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Early Christian Necropolis of Pécs"
+  }
+ ]
+}

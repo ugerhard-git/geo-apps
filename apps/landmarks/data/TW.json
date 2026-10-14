@@ -1,0 +1,1360 @@
+{
+ "country": "TW",
+ "items": [
+  {
+   "id": "Q83101",
+   "name": "Taipei 101",
+   "sl": 85,
+   "file": "Taipei 101 from Xiangshan 20250731.jpg",
+   "lat": 25.0336,
+   "lon": 121.5647,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taipei 101"
+  },
+  {
+   "id": "Q127031",
+   "name": "Taiwan Strait",
+   "sl": 83,
+   "file": "Xiamen Island, Lieyu Island and Kinmen Island.jpg",
+   "lat": 24.8111,
+   "lon": 119.9283,
+   "kind": "natural",
+   "types": [
+    "border",
+    "international border",
+    "maritime boundary",
+    "strait"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Taiwan Strait"
+  },
+  {
+   "id": "Q44856",
+   "name": "Taoyuan International Airport",
+   "sl": 53,
+   "file": "Control tower at Taiwan Taoyuan International Airport, 2023.jpg",
+   "lat": 25.0764,
+   "lon": 121.2239,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taiwan Taoyuan International Airport"
+  },
+  {
+   "id": "Q500275",
+   "name": "Yushan Main Peak",
+   "sl": 52,
+   "file": "Yushan Main Peak at nine o'clock in the morning.jpg",
+   "lat": 23.47,
+   "lon": 120.9573,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yushan Main Peak"
+  },
+  {
+   "id": "Q540668",
+   "name": "National Palace Museum",
+   "sl": 50,
+   "file": "NationalPalace MuseumFrontView.jpg",
+   "lat": 25.1022,
+   "lon": 121.5486,
+   "kind": "built",
+   "types": [
+    "cultural heritage monument in Taipei",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Palace Museum"
+  },
+  {
+   "id": "Q918799",
+   "name": "Penghu Islands",
+   "sl": 46,
+   "file": "Penghu 201506.jpg",
+   "lat": 23.5675,
+   "lon": 119.5775,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "disputed territory",
+    "island group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Penghu County"
+  },
+  {
+   "id": "Q337631",
+   "name": "Tuntex Sky Tower",
+   "sl": 38,
+   "file": "Kaohsiung 85 Sky Tower 01.jpg",
+   "lat": 22.6117,
+   "lon": 120.3,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tuntex Sky Tower"
+  },
+  {
+   "id": "Q716206",
+   "name": "Sun Moon Lake",
+   "sl": 36,
+   "file": "Sun Moon Lake Sentinel-2B MSI 2024-04-04.jpg",
+   "lat": 23.8667,
+   "lon": 120.9167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sun Moon Lake"
+  },
+  {
+   "id": "Q715869",
+   "name": "Legislative Yuan",
+   "sl": 35,
+   "file": "立法院議場二.jpg",
+   "lat": 25.0442,
+   "lon": 121.5197,
+   "kind": "built",
+   "types": [
+    "legislative house",
+    "parliament building",
+    "unicameral legislature"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Legislative Yuan"
+  },
+  {
+   "id": "Q707427",
+   "name": "Taroko National Park",
+   "sl": 34,
+   "file": "Eternal Spring Shrine in Taroko.JPG",
+   "lat": 24.1667,
+   "lon": 121.3333,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taroko National Park"
+  },
+  {
+   "id": "Q540794",
+   "name": "Chiang Kai-shek Memorial Hall",
+   "sl": 33,
+   "file": "Chiang Kai-shek memorial amk.jpg",
+   "lat": 25.0344,
+   "lon": 121.5217,
+   "kind": "built",
+   "types": [
+    "memorial",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chiang Kai-shek Memorial Hall"
+  },
+  {
+   "id": "Q702019",
+   "name": "Taipei Songshan Airport",
+   "sl": 30,
+   "file": "Taipei Songshan Airport 1st Terminal Building 20090926.JPG",
+   "lat": 25.0694,
+   "lon": 121.5517,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport",
+    "international airport",
+    "joint-use aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taipei Songshan Airport"
+  },
+  {
+   "id": "Q709029",
+   "name": "Yangmingshan National Park",
+   "sl": 30,
+   "file": "Yangmingshan National Park - Chien Ying Lee - 01.jpg",
+   "lat": 25.1775,
+   "lon": 121.5475,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yangmingshan National Park"
+  },
+  {
+   "id": "Q16242140",
+   "name": "Republic of China Military Academy",
+   "sl": 28,
+   "file": "陸軍軍官學校大門.jpg",
+   "lat": 22.6192,
+   "lon": 120.366,
+   "kind": "built",
+   "types": [
+    "military academy"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Republic of China Military Academy"
+  },
+  {
+   "id": "Q698931",
+   "name": "Pratas Islands",
+   "sl": 27,
+   "file": "Pratas Island ISS004-10210.jpg",
+   "lat": 20.7022,
+   "lon": 116.7275,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pratas Island"
+  },
+  {
+   "id": "Q707982",
+   "name": "Kenting National Park",
+   "sl": 26,
+   "file": "Maobitou Cape 01.jpg",
+   "lat": 21.98,
+   "lon": 120.7969,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kenting National Park"
+  },
+  {
+   "id": "Q16810",
+   "name": "Kaohsiung International Airport",
+   "sl": 25,
+   "file": "高雄國際機場.JPG",
+   "lat": 22.5769,
+   "lon": 120.35,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaohsiung International Airport"
+  },
+  {
+   "id": "Q20706255",
+   "name": "Fort Zeelandia",
+   "sl": 24,
+   "file": "Tainan Taiwan Fort-Zeelandia-01.jpg",
+   "lat": 23.0017,
+   "lon": 120.1609,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Zeelandia, Taiwan"
+  },
+  {
+   "id": "Q713449",
+   "name": "Port of Kaohsiung",
+   "sl": 24,
+   "file": "Cityscape of Kaohsiung, Taiwan 202303.jpg",
+   "lat": 22.6133,
+   "lon": 120.2792,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Kaohsiung"
+  },
+  {
+   "id": "Q628716",
+   "name": "Scarborough Shoal",
+   "sl": 24,
+   "file": "Scarborough Shoal Landsat.jpg",
+   "lat": 15.1833,
+   "lon": 117.7667,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "skerry",
+    "terra nullius"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN",
+    "PH"
+   ],
+   "cat": "Scarborough Shoal"
+  },
+  {
+   "id": "Q374558",
+   "name": "Taichung International Airport",
+   "sl": 23,
+   "file": "Taichung Airport Airfield color.jpg",
+   "lat": 24.265,
+   "lon": 120.6208,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport",
+    "international airport",
+    "joint-use aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taichung Airport"
+  },
+  {
+   "id": "Q713442",
+   "name": "National Stadium",
+   "sl": 22,
+   "file": "World Games Stadium and National Sports Training Center 2022 02.jpg",
+   "lat": 22.7028,
+   "lon": 120.295,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "World Games Stadium"
+  },
+  {
+   "id": "Q10566876",
+   "name": "Kaohsiung Mosque",
+   "sl": 21,
+   "file": "Kaohsiung Mosque.JPG",
+   "lat": 22.628,
+   "lon": 120.3419,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaohsiung Mosque"
+  },
+  {
+   "id": "Q717882",
+   "name": "Taipei Grand Mosque",
+   "sl": 20,
+   "file": "Taipei Grand Mosque 20060112.jpg",
+   "lat": 25.0279,
+   "lon": 121.5342,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taipei Grand Mosque"
+  },
+  {
+   "id": "Q646013",
+   "name": "Kinmen Airport",
+   "sl": 19,
+   "file": "Kinmen Airport and Surrounds 03.JPG",
+   "lat": 24.4278,
+   "lon": 118.3592,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kinmen Airport"
+  },
+  {
+   "id": "Q708281",
+   "name": "Magong Airport",
+   "sl": 19,
+   "file": "Magong Airport.jpg",
+   "lat": 23.5667,
+   "lon": 119.63,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport",
+    "joint-use aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Magong Airport"
+  },
+  {
+   "id": "Q650361",
+   "name": "Matsu Beigan Airport",
+   "sl": 19,
+   "file": "MatsuAirport.jpg",
+   "lat": 26.2239,
+   "lon": 120.0025,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matsu Beigan Airport"
+  },
+  {
+   "id": "Q38369",
+   "name": "Shifen waterfall",
+   "sl": 19,
+   "file": "ShiFengWaterFall 002.jpg",
+   "lat": 25.0494,
+   "lon": 121.7877,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shifen Waterfall"
+  },
+  {
+   "id": "Q703921",
+   "name": "Hualien Airport",
+   "sl": 18,
+   "file": "Taiwan HuaLien Airport 2.JPG",
+   "lat": 24.0231,
+   "lon": 121.6178,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport",
+    "international airport",
+    "joint-use aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hualien Airport"
+  },
+  {
+   "id": "Q708494",
+   "name": "Ludao Airport",
+   "sl": 18,
+   "file": "Control tower and terminal at Lyudao Airport.jpg",
+   "lat": 22.6736,
+   "lon": 121.4664,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lyudao Airport"
+  },
+  {
+   "id": "Q1065016",
+   "name": "Presidential Palace of Nanjing",
+   "sl": 18,
+   "file": "Entrance to the Former ROC Presidents Residence(5616558734).jpg",
+   "lat": 32.0453,
+   "lon": 118.7922,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Residence of the President of Republic of China, Nanjing"
+  },
+  {
+   "id": "Q707996",
+   "name": "Shei-Pa National Park",
+   "sl": 18,
+   "file": "Hsuehshan CueiChih TheGreenJadePond.jpg",
+   "lat": 24.4147,
+   "lon": 121.2872,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shei-Pa National Park"
+  },
+  {
+   "id": "Q702035",
+   "name": "Tainan Airport",
+   "sl": 18,
+   "file": "Tainan Airport.jpg",
+   "lat": 22.9503,
+   "lon": 120.2056,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport",
+    "international airport",
+    "joint-use aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tainan Airport"
+  },
+  {
+   "id": "Q707720",
+   "name": "Xueshan",
+   "sl": 18,
+   "file": "HsuehMountain.jpg",
+   "lat": 24.3833,
+   "lon": 121.23,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Xueshan (mountain)"
+  },
+  {
+   "id": "Q3446446",
+   "name": "Yushan National Park",
+   "sl": 18,
+   "file": "Mount Yu Shan - Taiwan.jpg",
+   "lat": 23.47,
+   "lon": 120.9573,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yushan National Park"
+  },
+  {
+   "id": "Q712367",
+   "name": "Chiayi Airport",
+   "sl": 17,
+   "file": "Chiayi AFB Apron in Open Day 20120811.jpg",
+   "lat": 23.4548,
+   "lon": 120.4038,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "joint-use aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chiayi Airport"
+  },
+  {
+   "id": "Q708555",
+   "name": "Pingtung Airport",
+   "sl": 17,
+   "file": "屏東航空站.JPG",
+   "lat": 22.6742,
+   "lon": 120.4611,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pingtung Airport"
+  },
+  {
+   "id": "Q55601",
+   "name": "Presidential Office Building",
+   "sl": 17,
+   "file": "Taipei Taiwan Presidential-Office-Building-01.jpg",
+   "lat": 25.04,
+   "lon": 121.512,
+   "kind": "built",
+   "types": [
+    "building",
+    "cultural heritage monument in Taipei"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidential Building (Taiwan)"
+  },
+  {
+   "id": "Q708576",
+   "name": "Taitung Airport",
+   "sl": 17,
+   "file": "Taitung Airport 02.jpg",
+   "lat": 22.7547,
+   "lon": 121.1017,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taitung Airport"
+  },
+  {
+   "id": "Q701698",
+   "name": "Kinmen National Park",
+   "sl": 16,
+   "file": "Kinmen National Park 20140830.JPG",
+   "lat": 24.4477,
+   "lon": 118.364,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kinmen National Park"
+  },
+  {
+   "id": "Q717735",
+   "name": "Lanyu Airport",
+   "sl": 16,
+   "file": "Lanyu Airport building front 2008.jpg",
+   "lat": 22.0278,
+   "lon": 121.5358,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lanyu Airport"
+  },
+  {
+   "id": "Q711919",
+   "name": "Lulin Observatory",
+   "sl": 16,
+   "file": "Lulin Observatory interior.jpg",
+   "lat": 23.4693,
+   "lon": 120.8727,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lulin Observatory"
+  },
+  {
+   "id": "Q597949",
+   "name": "Matsu Nangan Airport",
+   "sl": 16,
+   "file": "Nangan Airport, Nangan, Matsu, Taiwan.JPG",
+   "lat": 26.1574,
+   "lon": 119.9564,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matsu Nangan Airport"
+  },
+  {
+   "id": "Q704778",
+   "name": "Shin Kong Life Tower",
+   "sl": 16,
+   "file": "Taipei.shinkong01.altonthompson.jpg",
+   "lat": 25.0459,
+   "lon": 121.5153,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shin Kong Life Tower"
+  },
+  {
+   "id": "Q713896",
+   "name": "Taipei Municipal Stadium",
+   "sl": 16,
+   "file": "Taipei Municipal Stadium 20150616.jpg",
+   "lat": 25.0494,
+   "lon": 121.5511,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taipei Stadium"
+  },
+  {
+   "id": "Q591131",
+   "name": "Taipei Zoo",
+   "sl": 16,
+   "file": "Taipei Zoo Entrance.jpg",
+   "lat": 25.0026,
+   "lon": 121.582,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taipei Zoo"
+  },
+  {
+   "id": "Q706761",
+   "name": "Bangka Lungshan Temple",
+   "sl": 15,
+   "file": "台北市艋舺龍山寺.jpg",
+   "lat": 25.0372,
+   "lon": 121.4999,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "cultural heritage monument in Taipei",
+    "Miao",
+    "Taoist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bangka Lungshan Temple"
+  },
+  {
+   "id": "Q707309",
+   "name": "Cape Eluanbi",
+   "sl": 15,
+   "file": "Eluanbi.jpg",
+   "lat": 21.9022,
+   "lon": 120.8528,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eluanbi"
+  },
+  {
+   "id": "Q714431",
+   "name": "Fort Provintia",
+   "sl": 15,
+   "file": "Chihkan Tower night.JPG",
+   "lat": 22.9975,
+   "lon": 120.2028,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "building",
+    "fort",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chihkan Tower"
+  },
+  {
+   "id": "Q710284",
+   "name": "Hengchun Airport",
+   "sl": 15,
+   "file": "Hengchun-Township Taiwan Hengchun-Airport-01.jpg",
+   "lat": 22.0381,
+   "lon": 120.7303,
+   "kind": "built",
+   "types": [
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hengchun Airport"
+  },
+  {
+   "id": "Q717673",
+   "name": "Qimei Airport",
+   "sl": 15,
+   "file": "CI-MEI AIRPORT.jpg",
+   "lat": 23.2131,
+   "lon": 119.4175,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "domestic airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qimei Airport"
+  },
+  {
+   "id": "Q4984158",
+   "name": "Fo Guang Shan Buddha Museum",
+   "sl": 14,
+   "file": "Fo Guang Shan Buddha Museum 佛光山佛陀紀念館 .jpg",
+   "lat": 22.7571,
+   "lon": 120.4414,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fo Guang Shan Buddha Museum"
+  },
+  {
+   "id": "Q710183",
+   "name": "Taipei Arena",
+   "sl": 14,
+   "file": "Taipei Arena 20090330.jpg",
+   "lat": 25.0507,
+   "lon": 121.5501,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taipei Arena"
+  },
+  {
+   "id": "Q2420611",
+   "name": "Arromanches",
+   "sl": 13,
+   "file": "HMS Colossus (R15) off Shanghai 1945.jpg",
+   "lat": 25.0333,
+   "lon": 122.3333,
+   "kind": "built",
+   "types": [
+    "light aircraft carrier",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arromanches (R95)"
+  },
+  {
+   "id": "Q5095087",
+   "name": "Chimei Museum",
+   "sl": 13,
+   "file": "Chimei museum1.jpg",
+   "lat": 22.9267,
+   "lon": 120.2436,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chi Mei Museum"
+  },
+  {
+   "id": "Q5207405",
+   "name": "Dabajian Mountain",
+   "sl": 13,
+   "file": "DabajianMountain.jpg",
+   "lat": 24.4661,
+   "lon": 121.2581,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Dabajian"
+  },
+  {
+   "id": "Q714379",
+   "name": "Hehuanshan",
+   "sl": 13,
+   "file": "Hehuanshan.jpg",
+   "lat": 24.1814,
+   "lon": 121.2814,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hehuanshan"
+  },
+  {
+   "id": "Q555332",
+   "name": "National Theater and Concert Hall",
+   "sl": 13,
+   "file": "臺灣臺北國家兩廳院 National Theater and National Concert Hall in Taipei, TAIWAN.jpg",
+   "lat": 25.035,
+   "lon": 121.5181,
+   "kind": "built",
+   "types": [
+    "concert hall",
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Theater and Concert Hall, Republic of China"
+  },
+  {
+   "id": "Q9572819",
+   "name": "Taichung Mosque",
+   "sl": 13,
+   "file": "Taichung Mosque November 2023.jpg",
+   "lat": 24.1361,
+   "lon": 120.6495,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taichung Mosque"
+  },
+  {
+   "id": "Q6121227",
+   "name": "Taijiang National Park",
+   "sl": 13,
+   "file": "Sihcao Green Tunnel of Mangroves.JPG",
+   "lat": 23.063,
+   "lon": 120.055,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taijiang National Park"
+  },
+  {
+   "id": "Q575665",
+   "name": "Tatun Volcano Group",
+   "sl": 13,
+   "file": "Mount Qixing under clear sky on 13th February 2016.jpg",
+   "lat": 25.1714,
+   "lon": 121.555,
+   "kind": "natural",
+   "types": [
+    "non-geologically related mountain range",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tatun Volcano Group"
+  },
+  {
+   "id": "Q1778890",
+   "name": "Xiuguluan Mountain",
+   "sl": 13,
+   "file": "Siougulan.JPG",
+   "lat": 23.4968,
+   "lon": 121.0576,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Xiuguluan Mountain"
+  },
+  {
+   "id": "Q57333",
+   "name": "Chengcing Lake",
+   "sl": 12,
+   "file": "澄清湖一隅.jpg",
+   "lat": 22.6606,
+   "lon": 120.351,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chengcing Lake"
+  },
+  {
+   "id": "Q698662",
+   "name": "Daan Station",
+   "sl": 12,
+   "file": "TRTC Daan Station in the nighttime.JPG",
+   "lat": 25.033,
+   "lon": 121.5436,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "metro station",
+    "underground station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daan Station"
+  },
+  {
+   "id": "Q699205",
+   "name": "Dongmen Station",
+   "sl": 12,
+   "file": "Dongmen Station Platform 1.JPG",
+   "lat": 25.0339,
+   "lon": 121.5289,
+   "kind": "built",
+   "types": [
+    "cross-platform interchange",
+    "interchange station",
+    "metro station",
+    "underground station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dongmen Station (Taipei)"
+  },
+  {
+   "id": "Q713077",
+   "name": "Fort Santo Domingo",
+   "sl": 12,
+   "file": "Official consulate fort santo domingo.jpg",
+   "lat": 25.175,
+   "lon": 121.433,
+   "kind": "built",
+   "types": [
+    "fort",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Santo Domingo"
+  },
+  {
+   "id": "Q712387",
+   "name": "Hsing Tian Kong",
+   "sl": 12,
+   "file": "行天宮臺北本宮.jpg",
+   "lat": 25.0631,
+   "lon": 121.5338,
+   "kind": "built",
+   "types": [
+    "Guandi temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Xingtian Temple"
+  },
+  {
+   "id": "Q700806",
+   "name": "Mount Shou",
+   "sl": 12,
+   "file": "Tzaishan at nsysu.jpg",
+   "lat": 22.6455,
+   "lon": 120.2626,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shoushan (mountain)"
+  },
+  {
+   "id": "Q706692",
+   "name": "National Taiwan Museum",
+   "sl": 12,
+   "file": "National Taiwan Museum front 20070912.jpg",
+   "lat": 25.0428,
+   "lon": 121.515,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Taiwan Museum"
+  },
+  {
+   "id": "Q704502",
+   "name": "Sanzhi UFO houses",
+   "sl": 12,
+   "file": "三芝飛碟屋.jpg",
+   "lat": 25.2608,
+   "lon": 121.4775,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sanzhi UFO Houses"
+  },
+  {
+   "id": "Q15941118",
+   "name": "South Penghu Marine National Park",
+   "sl": 12,
+   "file": "DongJi Island (21359619055).jpg",
+   "lat": 23.25,
+   "lon": 119.6667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "South Penghu Marine National Park"
+  },
+  {
+   "id": "Q697518",
+   "name": "Eternal Golden Castle",
+   "sl": 11,
+   "file": "1 aerial pano eternal golden castle tainan 2017.jpg",
+   "lat": 22.9886,
+   "lon": 120.1603,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fortification"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eternal Golden Castle"
+  },
+  {
+   "id": "Q698599",
+   "name": "Guting Station",
+   "sl": 11,
+   "file": "Guting Station Exit6.JPG",
+   "lat": 25.0271,
+   "lon": 121.5222,
+   "kind": "built",
+   "types": [
+    "cross-platform interchange",
+    "interchange station",
+    "metro station",
+    "underground station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guting Station"
+  },
+  {
+   "id": "Q57345",
+   "name": "Holy Rosary Cathedral",
+   "sl": 11,
+   "file": "Holy Rosary Cathedral, Kaohsiung 2012.JPG",
+   "lat": 22.6202,
+   "lon": 120.2917,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Rosary Cathedral of Kaohsiung"
+  },
+  {
+   "id": "Q698216",
+   "name": "Jingan Station",
+   "sl": 11,
+   "file": "Platform 1, Jingan Station 20120604.jpg",
+   "lat": 24.9939,
+   "lon": 121.5047,
+   "kind": "built",
+   "types": [
+    "elevated station",
+    "interchange station",
+    "metro station",
+    "underground station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jingan Station"
+  },
+  {
+   "id": "Q6125749",
+   "name": "Kaohsiung Museum of History",
+   "sl": 11,
+   "file": "Kaohsiung Museum of History face 20070106.jpg",
+   "lat": 22.6267,
+   "lon": 120.2877,
+   "kind": "built",
+   "types": [
+    "history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaohsiung Museum of History"
+  },
+  {
+   "id": "Q6541958",
+   "name": "Liberty Square",
+   "sl": 11,
+   "file": "Taiwan 2009 Taipei Liberty Plaza Gateway at Chian Kai Shek Cultural Center FRD 7312.jpg",
+   "lat": 25.0346,
+   "lon": 121.5218,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liberty Square (Taipei)"
+  },
+  {
+   "id": "Q4022674",
+   "name": "Longgang Mosque",
+   "sl": 11,
+   "file": "Longgang Mosque.JPG",
+   "lat": 24.9298,
+   "lon": 121.2538,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Longgang Mosque"
+  },
+  {
+   "id": "Q3870130",
+   "name": "Nanhu Mountain",
+   "sl": 11,
+   "file": "NanhuMountain 02.jpg",
+   "lat": 24.3618,
+   "lon": 121.4394,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nanhu Mountain"
+  },
+  {
+   "id": "Q7267977",
+   "name": "Qixingshan",
+   "sl": 11,
+   "file": "Chihsingshan, Tatun volcanoes.jpg",
+   "lat": 25.1708,
+   "lon": 121.5533,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Qixing"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "country": "GS",
+ "items": [
+  {
+   "id": "Q6921213",
+   "name": "Mount Hodson",
+   "sl": 14,
+   "file": "Visokoi Island ISS016.jpg",
+   "lat": -56.7,
+   "lon": -27.15,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GB"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q11655552",
+   "name": "Mount Larsen",
+   "sl": 12,
+   "file": "Base Corbeta Uruguay - DNA.jpg",
+   "lat": -59.4389,
+   "lon": -27.3704,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GB"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q6921221",
+   "name": "Mount Holdgate",
+   "sl": 9,
+   "file": "Cook Island ASTER.jpg",
+   "lat": -59.4524,
+   "lon": -27.1659,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GB"
+   ],
+   "cat": ""
+  }
+ ]
+}

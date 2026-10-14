@@ -1,0 +1,1399 @@
+{
+ "country": "IL",
+ "items": [
+  {
+   "id": "Q23883",
+   "name": "Dead Sea",
+   "sl": 163,
+   "file": "Dead Sea by David Shankbone.jpg",
+   "lat": 31.5207,
+   "lon": 35.4845,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "hypersaline lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "JO",
+    "PS"
+   ],
+   "cat": "Dead Sea"
+  },
+  {
+   "id": "Q83210",
+   "name": "Golan Heights",
+   "sl": 102,
+   "file": "Brechat ram mt hermon.JPG",
+   "lat": 33,
+   "lon": 35.75,
+   "kind": "natural",
+   "types": [
+    "occupied territory",
+    "plateau"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SY"
+   ],
+   "cat": "Golan Heights"
+  },
+  {
+   "id": "Q162843",
+   "name": "Negev",
+   "sl": 97,
+   "file": "Negev-2005-1.JPG",
+   "lat": 30.5,
+   "lon": 34.9167,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Negev"
+  },
+  {
+   "id": "Q126982",
+   "name": "Sea of Galilee",
+   "sl": 97,
+   "file": "Lake Tiberias (Sea of Galilee), Northern Israel.jpg",
+   "lat": 32.8189,
+   "lon": 35.59,
+   "kind": "natural",
+   "types": [
+    "monomictic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sea of Galilee"
+  },
+  {
+   "id": "Q46815",
+   "name": "Israel Museum",
+   "sl": 90,
+   "file": "Israel museum.JPG",
+   "lat": 31.7725,
+   "lon": 35.2042,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Israel Museum, Jerusalem"
+  },
+  {
+   "id": "Q181479",
+   "name": "Ben Gurion Airport",
+   "sl": 82,
+   "file": "Ben-gurion-airport-terminal--september-2012.jpg",
+   "lat": 32.0094,
+   "lon": 34.8828,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ben Gurion International Airport"
+  },
+  {
+   "id": "Q170516",
+   "name": "Calvary",
+   "sl": 81,
+   "file": "Jerusalem Holy Sepulchre BW 18.JPG",
+   "lat": 31.7786,
+   "lon": 35.2294,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Golgotha"
+  },
+  {
+   "id": "Q187702",
+   "name": "Church of the Holy Sepulchre",
+   "sl": 76,
+   "file": "The Church of the Holy Sepulchre-Jerusalem.JPG",
+   "lat": 31.7784,
+   "lon": 35.2298,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "cathedral",
+    "church building",
+    "heritage site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Church of the Holy Sepulchre (Jerusalem)"
+  },
+  {
+   "id": "Q2909160",
+   "name": "The Temple Institute",
+   "sl": 76,
+   "file": "מכון המקדש - 1.jpg",
+   "lat": 31.7755,
+   "lon": 35.2331,
+   "kind": "built",
+   "types": [
+    "museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "The Temple Institute"
+  },
+  {
+   "id": "Q185318",
+   "name": "Mount Carmel",
+   "sl": 75,
+   "file": "MountCarmel1.JPG",
+   "lat": 32.6725,
+   "lon": 35.0233,
+   "kind": "natural",
+   "types": [
+    "hill chain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Carmel"
+  },
+  {
+   "id": "Q186312",
+   "name": "Masada",
+   "sl": 70,
+   "file": "Israel-2013-Aerial 21-Masada.jpg",
+   "lat": 31.3156,
+   "lon": 35.3539,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fortress",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Masada"
+  },
+  {
+   "id": "Q223644",
+   "name": "Solomon's Temple",
+   "sl": 69,
+   "file": "Francois Vatable, reconstructie van de tempel van Salomo (detail).jpg",
+   "lat": 31.7781,
+   "lon": 35.235,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Solomon"
+  },
+  {
+   "id": "Q59174",
+   "name": "Capernaum",
+   "sl": 67,
+   "file": "Kafarnaum BW 7.JPG",
+   "lat": 32.8811,
+   "lon": 35.575,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capernaum"
+  },
+  {
+   "id": "Q205976",
+   "name": "Mount of Olives",
+   "sl": 67,
+   "file": "2013-Aerial-Mount of Olives.jpg",
+   "lat": 31.7779,
+   "lon": 35.2457,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount of Olives"
+  },
+  {
+   "id": "Q126130",
+   "name": "Bible Lands Museum",
+   "sl": 64,
+   "file": "Bible Lands Museum- Jerusalem (5512027905).jpg",
+   "lat": 31.775,
+   "lon": 35.2025,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bible Lands Museum Jerusalem"
+  },
+  {
+   "id": "Q332444",
+   "name": "Mount Zion",
+   "sl": 64,
+   "file": "MtZion from Abu Tor.jpg",
+   "lat": 31.7717,
+   "lon": 35.2286,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Zion"
+  },
+  {
+   "id": "Q156591",
+   "name": "Yad Vashem",
+   "sl": 63,
+   "file": "YadVashemMar042023 01.jpg",
+   "lat": 31.7744,
+   "lon": 35.1772,
+   "kind": "built",
+   "types": [
+    "archives",
+    "documentation centre",
+    "history museum",
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yad Vashem"
+  },
+  {
+   "id": "Q205333",
+   "name": "Gethsemane",
+   "sl": 62,
+   "file": "Getsemane2.JPG",
+   "lat": 31.7794,
+   "lon": 35.2394,
+   "kind": "built",
+   "types": [
+    "garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gethsemane, Jerusalem"
+  },
+  {
+   "id": "Q1177750",
+   "name": "City of David",
+   "sl": 60,
+   "file": "City of David, Southern Wall Temple Mount Kidron Valley Ophel and Siloam.jpg",
+   "lat": 31.773,
+   "lon": 35.2348,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "City of David"
+  },
+  {
+   "id": "Q193785",
+   "name": "Mount Tabor",
+   "sl": 58,
+   "file": "COLOR PHOTO OF MOUNT TABOR TAKEN IN THE LATE 19TH CENTURY BY FRENCH PHOTOGRAPHER, BONFILS. צילום צבע מסוף המאה ה19 של הצלם הצרפתי בונפיס אשר תעד במצלמD311-041.jpg",
+   "lat": 32.6863,
+   "lon": 35.3929,
+   "kind": "natural",
+   "types": [
+    "inselberg",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Tabor"
+  },
+  {
+   "id": "Q23894294",
+   "name": "Museum of Philistine Culture",
+   "sl": 58,
+   "file": "Museum of Philistine culture Ashdod (1).jpg",
+   "lat": 31.7994,
+   "lon": 34.6421,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Philistine culture"
+  },
+  {
+   "id": "Q208379",
+   "name": "Tel Megiddo",
+   "sl": 55,
+   "file": "Megido City Gate1.jpg",
+   "lat": 32.5853,
+   "lon": 35.1844,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15477047",
+    "name": "Biblical Tels - Megiddo, Hazor, Beer Sheba"
+   },
+   "also": [],
+   "cat": "Tel Megiddo"
+  },
+  {
+   "id": "Q501773",
+   "name": "Bethsaida",
+   "sl": 49,
+   "file": "Ruins of Bethsaida village in summer 2011 (7).JPG",
+   "lat": 32.91,
+   "lon": 35.6305,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bethsaida"
+  },
+  {
+   "id": "Q206161",
+   "name": "Mount Herzl",
+   "sl": 49,
+   "file": "ViewOfMountHerzlMar042023 04.jpg",
+   "lat": 31.7741,
+   "lon": 35.1806,
+   "kind": "natural",
+   "types": [
+    "cemetery",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Herzl"
+  },
+  {
+   "id": "Q312818",
+   "name": "Mount Scopus",
+   "sl": 49,
+   "file": "MountScopusDec032022 03.jpg",
+   "lat": 31.7925,
+   "lon": 35.2442,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Mount Scopus"
+  },
+  {
+   "id": "Q2046004",
+   "name": "Judaean Desert",
+   "sl": 48,
+   "file": "JudeanDesert.jpg",
+   "lat": 31.7,
+   "lon": 35.3,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Judean Desert"
+  },
+  {
+   "id": "Q558093",
+   "name": "Gehenna",
+   "sl": 47,
+   "file": "11-3000-115 גיא בן הינום 5.jpg",
+   "lat": 31.7692,
+   "lon": 35.2281,
+   "kind": "both",
+   "types": [
+    "Jewish cemetery",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valley of Hinnom"
+  },
+  {
+   "id": "Q456800",
+   "name": "Mini Israel",
+   "sl": 45,
+   "file": "דגם יד לשיריון.jpg",
+   "lat": 31.8422,
+   "lon": 34.9684,
+   "kind": "built",
+   "types": [
+    "miniature park",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mini Israel"
+  },
+  {
+   "id": "Q740138",
+   "name": "Tel Hazor",
+   "sl": 42,
+   "file": "Tel hatzor.JPG",
+   "lat": 33.0183,
+   "lon": 35.5692,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "national park",
+    "tell"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15477047",
+    "name": "Biblical Tels - Megiddo, Hazor, Beer Sheba"
+   },
+   "also": [],
+   "cat": "Hatzor"
+  },
+  {
+   "id": "Q540520",
+   "name": "Meron",
+   "sl": 41,
+   "file": "Northern slope of Mount Meron.jpg",
+   "lat": 32.9975,
+   "lon": 35.4122,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Meron"
+  },
+  {
+   "id": "Q524253",
+   "name": "Israeli West Bank barrier",
+   "sl": 40,
+   "file": "Qalandia checkpoint - panoramio (535).jpg",
+   "lat": 31.8907,
+   "lon": 35.1617,
+   "kind": "built",
+   "types": [
+    "defense line",
+    "separation barrier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Israeli West Bank barrier"
+  },
+  {
+   "id": "Q763829",
+   "name": "Jezreel Valley",
+   "sl": 40,
+   "file": "PikiWiki Israel 14301 Gilboa Mountain.JPG",
+   "lat": 32.5964,
+   "lon": 35.2419,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jezreel Valley"
+  },
+  {
+   "id": "Q626682",
+   "name": "Arabah",
+   "sl": 38,
+   "file": "Wadi Araba Dunes at Sunset.jpg",
+   "lat": 30.4169,
+   "lon": 35.1514,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "JO"
+   ],
+   "cat": "Arabah"
+  },
+  {
+   "id": "Q4182",
+   "name": "Weizmann Institute of Science",
+   "sl": 38,
+   "file": "Weizmann Institute of Science Aerial View.jpg",
+   "lat": 31.9075,
+   "lon": 34.8092,
+   "kind": "built",
+   "types": [
+    "campus",
+    "institute"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Weizmann Institute of Science"
+  },
+  {
+   "id": "Q24009481",
+   "name": "Western Wall Plaza",
+   "sl": 38,
+   "file": "Dome of the rock-Wailing wall.jpg",
+   "lat": 31.7765,
+   "lon": 35.2337,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Western Wall Plaza"
+  },
+  {
+   "id": "Q2916616",
+   "name": "Victims of Acts of Terror Memorial",
+   "sl": 37,
+   "file": "אנדרטת חללי הטרור - הר הרצל 6.jpg",
+   "lat": 31.775,
+   "lon": 35.178,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Memorial to the Victims of Acts of Terror (Jerusalem)"
+  },
+  {
+   "id": "Q1011544",
+   "name": "Ein Gedi",
+   "sl": 36,
+   "file": "En Gedi Waterfall.jpg",
+   "lat": 31.4667,
+   "lon": 35.3944,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "oasis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ein Gedi"
+  },
+  {
+   "id": "Q955139",
+   "name": "Hula Valley",
+   "sl": 35,
+   "file": "Hula Valley Israel.jpg",
+   "lat": 33.1033,
+   "lon": 35.6092,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hula Valley"
+  },
+  {
+   "id": "Q1250874",
+   "name": "Aelia Capitolina",
+   "sl": 34,
+   "file": "Aelia Capitolina (15683753326).jpg",
+   "lat": 31.7757,
+   "lon": 35.231,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "Roman colony"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aelia Capitolina"
+  },
+  {
+   "id": "Q831297",
+   "name": "Pool of Bethesda",
+   "sl": 34,
+   "file": "Jerusalem Bethesda BW 1.JPG",
+   "lat": 31.7814,
+   "lon": 35.2358,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "biblical place",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pool of Bethesda"
+  },
+  {
+   "id": "Q573379",
+   "name": "Jerusalem International Airport",
+   "sl": 33,
+   "file": "Jerusalem-airport.jpg",
+   "lat": 31.8647,
+   "lon": 35.2192,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jerusalem airport"
+  },
+  {
+   "id": "Q130815",
+   "name": "Basilica of the Annunciation",
+   "sl": 31,
+   "file": "Nazaret Verkuendigungsbasilika BW 16.JPG",
+   "lat": 32.7021,
+   "lon": 35.2977,
+   "kind": "built",
+   "types": [
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Annunciation"
+  },
+  {
+   "id": "Q4880851",
+   "name": "Magdala",
+   "sl": 31,
+   "file": "Ortsschild Magdala.jpg",
+   "lat": 32.8392,
+   "lon": 35.5075,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Migdal (Israel)"
+  },
+  {
+   "id": "Q2151217",
+   "name": "Mosque of Omar",
+   "sl": 31,
+   "file": "Umar Mosque,Jerusalem123.jpg",
+   "lat": 31.7778,
+   "lon": 35.2296,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Mosque of Omar (Jerusalem)"
+  },
+  {
+   "id": "Q2896949",
+   "name": "Ramon Airport",
+   "sl": 31,
+   "file": "Eilat-Ramon International Airport.jpg",
+   "lat": 29.7272,
+   "lon": 34.9983,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ramon Airport"
+  },
+  {
+   "id": "Q1973199",
+   "name": "Timna valley",
+   "sl": 31,
+   "file": "Mushroom in Timna Park in summer 2011 (1).JPG",
+   "lat": 29.7878,
+   "lon": 34.9889,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "protected area",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Timna valley"
+  },
+  {
+   "id": "Q318972",
+   "name": "Cenacle",
+   "sl": 30,
+   "file": "PikiWiki Israel 73793 mount zion jerusalem.jpg",
+   "lat": 31.7718,
+   "lon": 35.2292,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cenacle (Jerusalem)"
+  },
+  {
+   "id": "Q27117",
+   "name": "Eilat Airport",
+   "sl": 30,
+   "file": "Eilat Airport.jpg",
+   "lat": 29.5594,
+   "lon": 34.9592,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eilat Airport"
+  },
+  {
+   "id": "Q1348441",
+   "name": "Gath",
+   "sl": 30,
+   "file": "Tel-Tsafit-206.jpg",
+   "lat": 31.6997,
+   "lon": 34.8469,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tel Zafit"
+  },
+  {
+   "id": "Q1466687",
+   "name": "Gezer",
+   "sl": 30,
+   "file": "Gezer0809.jpg",
+   "lat": 31.8592,
+   "lon": 34.9192,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "national park",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gezer"
+  },
+  {
+   "id": "Q796764",
+   "name": "Museum of the Jewish People at Beit Hatfutsot",
+   "sl": 30,
+   "file": "ANU - Museum of the Jewish People, February 15, 2026.jpg",
+   "lat": 32.1138,
+   "lon": 34.8053,
+   "kind": "built",
+   "types": [
+    "history museum",
+    "museum",
+    "nonprofit organization",
+    "online database"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beyt ha-Tefutsoth"
+  },
+  {
+   "id": "Q1132798",
+   "name": "Sepphoris",
+   "sl": 30,
+   "file": "מבצר ומנזר ציבורי.jpg",
+   "lat": 32.7531,
+   "lon": 35.2792,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "depopulated Palestinian village",
+    "former settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tzippori"
+  },
+  {
+   "id": "Q391331",
+   "name": "Teddy Stadium",
+   "sl": 30,
+   "file": "TeddyStadiumJerusalemِApr172023 03.jpg",
+   "lat": 31.7512,
+   "lon": 35.1906,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teddy Stadium, Jerusalem"
+  },
+  {
+   "id": "Q2918723",
+   "name": "Walls of Jerusalem",
+   "sl": 30,
+   "file": "Jerusalem, city wall.jpg",
+   "lat": 31.7747,
+   "lon": 35.2278,
+   "kind": "built",
+   "types": [
+    "city walls",
+    "defensive wall",
+    "fortification",
+    "sacred place"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15726304",
+    "name": "Old City of Jerusalem and its Walls"
+   },
+   "also": [],
+   "cat": "Old City walls (Jerusalem)"
+  },
+  {
+   "id": "Q830805",
+   "name": "Beit She'arim National Park",
+   "sl": 29,
+   "file": "Cave of coffins.jpg",
+   "lat": 32.7042,
+   "lon": 35.1281,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "protected area",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Bet Shearim"
+  },
+  {
+   "id": "Q1323557",
+   "name": "Ekron",
+   "sl": 29,
+   "file": "PikiWiki Israel 5617 phillistine street in revadim.jpg",
+   "lat": 31.7789,
+   "lon": 34.8511,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "biblical place",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ekron"
+  },
+  {
+   "id": "Q855110",
+   "name": "Expo Tel Aviv",
+   "sl": 29,
+   "file": "The exhibition centre area.jpg",
+   "lat": 32.1053,
+   "lon": 34.8086,
+   "kind": "built",
+   "types": [
+    "convention center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Israel Trade Fairs & Convention Center"
+  },
+  {
+   "id": "Q643113",
+   "name": "Haifa International Airport",
+   "sl": 29,
+   "file": "Haifa Airport terminal 2013.jpg",
+   "lat": 32.8094,
+   "lon": 35.0431,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Haifa Airport"
+  },
+  {
+   "id": "Q477578",
+   "name": "Incense Route – Desert Cities in the Negev",
+   "sl": 29,
+   "file": "Shivta ruins in the Negev.jpg",
+   "lat": 31.0975,
+   "lon": 34.6578,
+   "kind": "",
+   "types": [
+    "itinerary",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Incense Route - Desert Cities in the Negev"
+  },
+  {
+   "id": "Q1375672",
+   "name": "King David Hotel",
+   "sl": 29,
+   "file": "King David Hotel Pool.jpg",
+   "lat": 31.7744,
+   "lon": 35.2222,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King David Hotel"
+  },
+  {
+   "id": "Q573524",
+   "name": "Ovda Airport",
+   "sl": 29,
+   "file": "Ovda Airport.jpg",
+   "lat": 29.9403,
+   "lon": 34.9358,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ovda Airport"
+  },
+  {
+   "id": "Q791665",
+   "name": "Abdah",
+   "sl": 28,
+   "file": "Aerial photograph of Avdat, Israel, Sept. 2007.jpg",
+   "lat": 30.795,
+   "lon": 34.775,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "former settlement",
+    "nature reserve in Israel"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q477578",
+    "name": "Incense Route – Desert Cities in the Negev"
+   },
+   "also": [],
+   "cat": "Avdat"
+  },
+  {
+   "id": "Q715213",
+   "name": "Carmelit",
+   "sl": 28,
+   "file": "The New Carmelit 08-10-2018.jpg",
+   "lat": 32.8097,
+   "lon": 34.9924,
+   "kind": "built",
+   "types": [
+    "funicular"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carmelit"
+  },
+  {
+   "id": "Q555750",
+   "name": "Habima Theatre",
+   "sl": 28,
+   "file": "Habima Theatre (cropped).jpg",
+   "lat": 32.0727,
+   "lon": 34.779,
+   "kind": "built",
+   "types": [
+    "theatre building",
+    "theatre company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Habima National Theatre"
+  },
+  {
+   "id": "Q33224",
+   "name": "International Convention Center",
+   "sl": 28,
+   "file": "Binyanei-HaUmah.JPG",
+   "lat": 31.7862,
+   "lon": 35.2027,
+   "kind": "built",
+   "types": [
+    "convention center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "ICC Jerusalem"
+  },
+  {
+   "id": "Q848509",
+   "name": "Lachish",
+   "sl": 28,
+   "file": "LachishFrontGate.jpg",
+   "lat": 31.5653,
+   "lon": 34.8492,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "former settlement",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tel Lachish"
+  },
+  {
+   "id": "Q1483483",
+   "name": "Pool of Siloam",
+   "sl": 28,
+   "file": "Brockhaus and Efron Jewish Encyclopedia e14 213-0.jpg",
+   "lat": 31.7601,
+   "lon": 35.2475,
+   "kind": "both",
+   "types": [
+    "biblical place",
+    "reservoir",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pool of Siloam"
+  },
+  {
+   "id": "Q261666",
+   "name": "Ramat Gan Stadium",
+   "sl": 28,
+   "file": "Ramat Gan Ramat Gan Stadium 2.jpg",
+   "lat": 32.1003,
+   "lon": 34.8242,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ramat Gan Stadium"
+  },
+  {
+   "id": "Q1432822",
+   "name": "Sde Dov Airport",
+   "sl": 28,
+   "file": "Sde Dov Airport and Reading Power Station.JPG",
+   "lat": 32.1054,
+   "lon": 34.7842,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sde Dov Airport"
+  },
+  {
+   "id": "Q130150",
+   "name": "Bloomfield Stadium",
+   "sl": 27,
+   "file": "Bloomfield Stadium, January 2022 - 42.jpg",
+   "lat": 32.0517,
+   "lon": 34.7615,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bloomfield Stadium"
+  },
+  {
+   "id": "Q1331689",
+   "name": "Church of All Nations",
+   "sl": 27,
+   "file": "Church of all Nations.jpg",
+   "lat": 31.7792,
+   "lon": 35.2396,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "art collection",
+    "Catholic church building",
+    "Catholic pilgrimage church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Church of All Nations (Jerusalem)"
+  },
+  {
+   "id": "Q840618",
+   "name": "Eretz Israel Museum",
+   "sl": 27,
+   "file": "Eretz Israel Museum2.jpg",
+   "lat": 32.1032,
+   "lon": 34.7964,
+   "kind": "built",
+   "types": [
+    "museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eretz Israel Museum"
+  },
+  {
+   "id": "Q12404547",
+   "name": "Mount of Olives Jewish Cemetery",
+   "sl": 27,
+   "file": "Mount of olives.jpg",
+   "lat": 31.7738,
+   "lon": 35.2431,
+   "kind": "built",
+   "types": [
+    "Jewish cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount of Olives Jewish Cemetery"
+  },
+  {
+   "id": "Q174527",
+   "name": "Shrine of the Book",
+   "sl": 27,
+   "file": "Musée de Jérusalem - Israël (7556059626).jpg",
+   "lat": 31.7733,
+   "lon": 35.2028,
+   "kind": "built",
+   "types": [
+    "building",
+    "literary museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shrine of the Book"
+  },
+  {
+   "id": "Q1275701",
+   "name": "Acra",
+   "sl": 26,
+   "file": "Temple Mount southern wall 200509.jpg",
+   "lat": 31.7726,
+   "lon": 35.2359,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fortification"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Acra fortress"
+  },
+  {
+   "id": "Q682612",
+   "name": "Antipatris",
+   "sl": 26,
+   "file": "Afek IMG 8217.JPG",
+   "lat": 32.105,
+   "lon": 34.9304,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ottoman fortress at Antipatris"
+  },
+  {
+   "id": "Q588849",
+   "name": "Church of the Pater Noster",
+   "sl": 26,
+   "file": "Eglise Pater Noster1.JPG",
+   "lat": 31.7781,
+   "lon": 35.2452,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Pater Noster"
+  },
+  {
+   "id": "Q1346856",
+   "name": "Dan",
+   "sl": 26,
+   "file": "Tel Dan - Israelite Gate.jpg",
+   "lat": 33.249,
+   "lon": 35.652,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tel Dan"
+  },
+  {
+   "id": "Q204719",
+   "name": "Dung Gate",
+   "sl": 26,
+   "file": "Jerusalem Dungtor BW 1.JPG",
+   "lat": 31.7747,
+   "lon": 35.2339,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [
+    "PS"
+   ],
+   "cat": "Dung Gate"
+  },
+  {
+   "id": "Q1274674",
+   "name": "Makhtesh Ramon National Park",
+   "sl": 26,
+   "file": "Israel-2013-Aerial 00-Negev-Makhtesh Ramon.jpg",
+   "lat": 30.5786,
+   "lon": 34.8178,
+   "kind": "natural",
+   "types": [
+    "cirque",
+    "depression",
+    "makhtesh"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Makhtesh Ramon"
+  }
+ ]
+}

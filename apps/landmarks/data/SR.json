@@ -1,0 +1,302 @@
+{
+ "country": "SR",
+ "items": [
+  {
+   "id": "Q189934",
+   "name": "Central Suriname Nature Reserve",
+   "sl": 35,
+   "file": "Amazon jungle from above.jpg",
+   "lat": 4,
+   "lon": -56.5,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "tropical forest"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Central Suriname Nature Reserve"
+  },
+  {
+   "id": "Q183494",
+   "name": "Johan Adolf Pengel International Airport",
+   "sl": 26,
+   "file": "JAP Airport, 2022 - 1.jpg",
+   "lat": 5.4528,
+   "lon": -55.1878,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Johan Adolf Pengel International Airport"
+  },
+  {
+   "id": "Q648787",
+   "name": "Jodensavanne",
+   "sl": 24,
+   "file": "Jodensavanne.jpg",
+   "lat": 5.4133,
+   "lon": -54.953,
+   "kind": "",
+   "types": [
+    "human settlement",
+    "plantation"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Jodensavanne"
+  },
+  {
+   "id": "Q926100",
+   "name": "Brokopondo Reservoir",
+   "sl": 20,
+   "file": "Suriname1991 Karte umstrittene Gebiete.jpg",
+   "lat": 4.8406,
+   "lon": -55.0731,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brokopondo Reservoir"
+  },
+  {
+   "id": "Q656587",
+   "name": "Fort Zeelandia",
+   "sl": 16,
+   "file": "Zicht op buitenmuur aan de rivierzijde met zicht op bastion - Paramaribo - 20377866 - RCE.jpg",
+   "lat": 5.8253,
+   "lon": -55.15,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Zeelandia, Paramaribo"
+  },
+  {
+   "id": "Q1948977",
+   "name": "Mosque Keizerstraat",
+   "sl": 16,
+   "file": "Moschee-Keizerstraat-Suriname.jpg",
+   "lat": 5.8286,
+   "lon": -55.1599,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosque Keizerstraat"
+  },
+  {
+   "id": "Q226715",
+   "name": "Zorg en Hoop Airport",
+   "sl": 16,
+   "file": "Zorg En Hoop Airport.jpg",
+   "lat": 5.8115,
+   "lon": -55.1901,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zorg en Hoop Airport"
+  },
+  {
+   "id": "Q516434",
+   "name": "André Kamperveen Stadium",
+   "sl": 15,
+   "file": "KamperveenStadion.jpg",
+   "lat": 5.8374,
+   "lon": -55.1608,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "André Kamperveenstadion"
+  },
+  {
+   "id": "Q2196027",
+   "name": "Presidential Palace of Suriname",
+   "sl": 15,
+   "file": "Presidential palace, Paramaribo, Suriname.jpg",
+   "lat": 5.8268,
+   "lon": -55.1513,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidential Palace of Suriname"
+  },
+  {
+   "id": "Q2736107",
+   "name": "Saint Peter and Paul Cathedral",
+   "sl": 15,
+   "file": "Saints Peter and Paul Cathedral Paramaribo.jpg",
+   "lat": 5.8287,
+   "lon": -55.1541,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sint-Petrus-en-Pauluskathedraal (Paramaribo)"
+  },
+  {
+   "id": "Q2488071",
+   "name": "Neveh Shalom Synagogue",
+   "sl": 12,
+   "file": "Synagoge, Paramaribo Suriname.jpg",
+   "lat": 5.8284,
+   "lon": -55.1592,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Synagoge Neve Shalom (Paramaribo)"
+  },
+  {
+   "id": "Q743626",
+   "name": "Tafelberg",
+   "sl": 12,
+   "file": "Tafelberg Suriname.jpg",
+   "lat": 3.9083,
+   "lon": -56.1722,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "tepui"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tafelberg, Suriname"
+  },
+  {
+   "id": "Q2717827",
+   "name": "Arya Diwaker",
+   "sl": 10,
+   "file": "Arya Dewaker2.jpg",
+   "lat": 5.8196,
+   "lon": -55.1749,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arya Diwaker tempel"
+  },
+  {
+   "id": "Q402132",
+   "name": "Jules Wijdenbosch Bridge",
+   "sl": 10,
+   "file": "Jules Wijdenbosch Bridge 5.jpg",
+   "lat": 5.8056,
+   "lon": -55.1625,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jules Wijdenbosch Bridge"
+  },
+  {
+   "id": "Q25104490",
+   "name": "Kasikasima",
+   "sl": 9,
+   "file": "Kasikasima Mountain in 1904.jpg",
+   "lat": 2.9797,
+   "lon": -55.4108,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kasikasima"
+  },
+  {
+   "id": "Q649213",
+   "name": "Vincent Fayks Airport",
+   "sl": 9,
+   "file": "De Havilland Twin Otter (17544890334).jpg",
+   "lat": 3.3461,
+   "lon": -55.4417,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2033540",
+   "name": "Independence Plaza",
+   "sl": 8,
+   "file": "Onafhankelijkheidsplein Paramaribo.jpg",
+   "lat": 5.8262,
+   "lon": -55.1515,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Onafhankelijkheidsplein (Paramaribo)"
+  },
+  {
+   "id": "Q16740373",
+   "name": "Volzberg",
+   "sl": 8,
+   "file": "Voltzberg Mountain top.jpg",
+   "lat": 4.6775,
+   "lon": -56.1842,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Voltzberg, Suriname"
+  }
+ ]
+}

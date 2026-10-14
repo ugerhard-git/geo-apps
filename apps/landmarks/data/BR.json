@@ -1,0 +1,1404 @@
+{
+ "country": "BR",
+ "items": [
+  {
+   "id": "Q36332",
+   "name": "Iguaçu Falls",
+   "sl": 99,
+   "file": "Aerial Foz de Iguaçu 26 Nov 2005.jpg",
+   "lat": -25.6953,
+   "lon": -54.4367,
+   "kind": "natural",
+   "types": [
+    "horseshoe waterfall",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Iguazu Falls"
+  },
+  {
+   "id": "Q79961",
+   "name": "Christ the Redeemer",
+   "sl": 94,
+   "file": "Christ the Redeemer - Cristo Redentor.jpg",
+   "lat": -22.9519,
+   "lon": -43.2105,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "colossal statue of Jesus",
+    "monument",
+    "pilgrimage site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cristo Redentor (Rio de Janeiro)"
+  },
+  {
+   "id": "Q155174",
+   "name": "Maracanã Stadium",
+   "sl": 89,
+   "file": "Maracana 2022.jpg",
+   "lat": -22.9122,
+   "lon": -43.2303,
+   "kind": "built",
+   "types": [
+    "all-seater stadium",
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio do Maracanã"
+  },
+  {
+   "id": "Q41068",
+   "name": "Paulista Avenue",
+   "sl": 74,
+   "file": "Vista da Avenida Paulista - Sesc Avenida Paulista por Rodrigo Tetsuo Argenton (1).jpg",
+   "lat": -23.5614,
+   "lon": -46.6564,
+   "kind": "built",
+   "types": [
+    "avenue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avenida Paulista"
+  },
+  {
+   "id": "Q42258",
+   "name": "Mirante do Vale",
+   "sl": 71,
+   "file": "Mirante do vale Building(by felipe mostarda).JPG",
+   "lat": -23.5422,
+   "lon": -46.6354,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mirante do Vale"
+  },
+  {
+   "id": "Q157603",
+   "name": "Pantanal",
+   "sl": 71,
+   "file": "Pantanal, south-central South America 5170.jpg",
+   "lat": -17.4,
+   "lon": -57.5,
+   "kind": "natural",
+   "types": [
+    "flooded grasslands and savannas",
+    "natural heritage",
+    "plain",
+    "savanna"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "BO",
+    "PY"
+   ],
+   "cat": "Pantanal"
+  },
+  {
+   "id": "Q82941",
+   "name": "São Paulo Museum of Art",
+   "sl": 65,
+   "file": "Vista aérea de la Avenida Paulista de São Paulo 05.jpg",
+   "lat": -23.5611,
+   "lon": -46.6558,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "cultural center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu de Arte de São Paulo"
+  },
+  {
+   "id": "Q202730",
+   "name": "Copacabana",
+   "sl": 62,
+   "file": "Aerial view of Copacabana beach.jpg",
+   "lat": -22.967,
+   "lon": -43.1807,
+   "kind": "built",
+   "types": [
+    "beach",
+    "neighbourhood in Rio de Janeiro"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Copacabana (Rio de Janeiro)"
+  },
+  {
+   "id": "Q4777",
+   "name": "Mount Roraima",
+   "sl": 59,
+   "file": "Roraima3 (79).JPG",
+   "lat": 5.1419,
+   "lon": -60.7642,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "tepui"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GY",
+    "VE"
+   ],
+   "cat": "Mount Roraima"
+  },
+  {
+   "id": "Q244169",
+   "name": "Itaipu Dam",
+   "sl": 57,
+   "file": "ItaipuAerea2AAL.jpg",
+   "lat": -25.4078,
+   "lon": -54.59,
+   "kind": "both",
+   "types": [
+    "buttress dam",
+    "embankment dam",
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PY"
+   ],
+   "cat": "Itaipu Dam"
+  },
+  {
+   "id": "Q910370",
+   "name": "Mineirão",
+   "sl": 57,
+   "file": "Mineirão Aérea.jpg",
+   "lat": -19.8658,
+   "lon": -43.9708,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mineirão"
+  },
+  {
+   "id": "Q210722",
+   "name": "Sugarloaf Mountain",
+   "sl": 57,
+   "file": "Vista do Morro Dona Marta.jpg",
+   "lat": -22.9494,
+   "lon": -43.1567,
+   "kind": "natural",
+   "types": [
+    "cliff",
+    "inselberg",
+    "mountain",
+    "natural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sugarloaf Mountain"
+  },
+  {
+   "id": "Q1362236",
+   "name": "Neo Química Arena",
+   "sl": 54,
+   "file": "ARENA CORINTHIANS.jpg",
+   "lat": -23.5456,
+   "lon": -46.474,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena Corinthians"
+  },
+  {
+   "id": "Q1327235",
+   "name": "Estádio Couto Pereira",
+   "sl": 53,
+   "file": "Estádio Major Antônio Couto Pereira, 2007-2.jpg",
+   "lat": -25.4211,
+   "lon": -49.2595,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Major Antônio Couto Pereira"
+  },
+  {
+   "id": "Q336088",
+   "name": "Estádio Nacional de Brasília",
+   "sl": 53,
+   "file": "Estádio Nacional de Brasília 2022.jpg",
+   "lat": -15.7835,
+   "lon": -47.8992,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Mané Garrincha"
+  },
+  {
+   "id": "Q332381",
+   "name": "Jaú National Park",
+   "sl": 52,
+   "file": "Jau National Park.jpg",
+   "lat": -2.1703,
+   "lon": -62.6172,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Jaú National Park"
+  },
+  {
+   "id": "Q241074",
+   "name": "Rocas Atoll",
+   "sl": 52,
+   "file": "Atol das Rocas ISS007.jpg",
+   "lat": -3.8664,
+   "lon": -33.8019,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "island",
+    "natural heritage",
+    "territory"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15224654",
+    "name": "Brazilian Atlantic Islands: Fernando de Noronha and Atol das Rocas Reserves"
+   },
+   "also": [],
+   "cat": "Rocas Atoll"
+  },
+  {
+   "id": "Q958185",
+   "name": "Castelão",
+   "sl": 51,
+   "file": "Fortaleza Arena.jpg",
+   "lat": -3.8073,
+   "lon": -38.5225,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Plácido Aderaldo Castelo"
+  },
+  {
+   "id": "Q169420",
+   "name": "Edifício Altino Arantes",
+   "sl": 50,
+   "file": "Edifício do Banespa (cropped).jpg",
+   "lat": -23.5457,
+   "lon": -46.6341,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edifício Altino Arantes"
+  },
+  {
+   "id": "Q641527",
+   "name": "Arena Amazônia",
+   "sl": 48,
+   "file": "Arena Amazônia Manaus.jpg",
+   "lat": -3.0831,
+   "lon": -60.0281,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena Amazônia"
+  },
+  {
+   "id": "Q170610",
+   "name": "Edifício Itália",
+   "sl": 48,
+   "file": "Edifício Itália, SP.jpg",
+   "lat": -23.5454,
+   "lon": -46.6436,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edifício Itália"
+  },
+  {
+   "id": "Q1050224",
+   "name": "Estádio Beira-Rio",
+   "sl": 48,
+   "file": "Beira-Rio-Stadium-Porto-Alegre-Brazil.jpg",
+   "lat": -30.0656,
+   "lon": -51.2361,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Beira-Rio"
+  },
+  {
+   "id": "Q647777",
+   "name": "Lençóis Maranhenses National Park",
+   "sl": 48,
+   "file": "Lençóis Maranhenses 2018.jpg",
+   "lat": -2.4833,
+   "lon": -43.1333,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "natural heritage",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional dos Lençóis Maranhenses"
+  },
+  {
+   "id": "Q506938",
+   "name": "Corcovado",
+   "sl": 47,
+   "file": "Rio Larson 1.jpg",
+   "lat": -22.9525,
+   "lon": -43.2117,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "natural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Corcovado"
+  },
+  {
+   "id": "Q468540",
+   "name": "Ipanema District",
+   "sl": 47,
+   "file": "Ipaneman beach Rio de Janeirossa.jpg",
+   "lat": -22.9838,
+   "lon": -43.2045,
+   "kind": "built",
+   "types": [
+    "beach",
+    "neighbourhood in Rio de Janeiro"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ipanema"
+  },
+  {
+   "id": "Q267394",
+   "name": "Serra da Capivara National Park",
+   "sl": 47,
+   "file": "20030924PPedraFurada9.jpg",
+   "lat": -8.6667,
+   "lon": -42.55,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "natural heritage",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Serra da Capivara National Park"
+  },
+  {
+   "id": "Q6499360",
+   "name": "Arena Fonte Nova",
+   "sl": 46,
+   "file": "Salvador aerea arenafontenova.jpg",
+   "lat": -12.9788,
+   "lon": -38.5043,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena Fonte Nova"
+  },
+  {
+   "id": "Q385406",
+   "name": "São Paulo-Guarulhos International Airport",
+   "sl": 46,
+   "file": "ViewfromAir-SaoPaulo.jpg",
+   "lat": -23.4356,
+   "lon": -46.4731,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "São Paulo-Guarulhos International Airport"
+  },
+  {
+   "id": "Q606803",
+   "name": "Arena da Baixada",
+   "sl": 45,
+   "file": "Arenadabaixada2.jpg",
+   "lat": -25.4483,
+   "lon": -49.2769,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena da Baixada"
+  },
+  {
+   "id": "Q641448",
+   "name": "Arena Pantaloneta",
+   "sl": 45,
+   "file": "Arena Pantanal.jpg",
+   "lat": -15.604,
+   "lon": -56.1216,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena Pantanal"
+  },
+  {
+   "id": "Q1850416",
+   "name": "Museu Nacional",
+   "sl": 45,
+   "file": "26012018-DJI 0500.jpg",
+   "lat": -22.9058,
+   "lon": -43.2261,
+   "kind": "built",
+   "types": [
+    "national museum",
+    "research institute",
+    "university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu Nacional (Rio de Janeiro)"
+  },
+  {
+   "id": "Q1362211",
+   "name": "Arena Cidade da Copa",
+   "sl": 44,
+   "file": "Sport 0(5)X(3)0 Santa Cruz - Pernambucano BetNacional 2024.jpg",
+   "lat": -8.0406,
+   "lon": -35.0083,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena Pernambuco"
+  },
+  {
+   "id": "Q1343986",
+   "name": "Arena das Dunas",
+   "sl": 44,
+   "file": "Natal, Brazil - Arena das Dunas.jpg",
+   "lat": -5.8268,
+   "lon": -35.2124,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena das Dunas"
+  },
+  {
+   "id": "Q278512",
+   "name": "Cerrado",
+   "sl": 43,
+   "file": "Cerrado ecoregion.jpg",
+   "lat": -14.0057,
+   "lon": -47.6846,
+   "kind": "",
+   "types": [
+    "natural heritage",
+    "savanna",
+    "WWF ecoregion"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerrado"
+  },
+  {
+   "id": "Q750251",
+   "name": "Chapada dos Veadeiros National Park",
+   "sl": 43,
+   "file": "Vale do Rio Preto, Parna Chapada dos Veadeiros.jpg",
+   "lat": -14.0833,
+   "lon": -47.6667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q278512",
+    "name": "Cerrado"
+   },
+   "also": [],
+   "cat": "Chapada dos Veadeiros National Park"
+  },
+  {
+   "id": "Q739484",
+   "name": "Pico da Neblina",
+   "sl": 43,
+   "file": "Pico da Neblina (FAB).jpg",
+   "lat": 0.8055,
+   "lon": -66.0054,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "VE"
+   ],
+   "cat": "Pico da Neblina"
+  },
+  {
+   "id": "Q742315",
+   "name": "Iguaçu National Park",
+   "sl": 42,
+   "file": "00 1844 South America - Iguazu Falls from the Brazilian side.jpg",
+   "lat": -25.6833,
+   "lon": -54.4333,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "natural heritage",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Iguaçu National Park"
+  },
+  {
+   "id": "Q282059",
+   "name": "Bananal Island",
+   "sl": 41,
+   "file": "Ilha cantao.jpg",
+   "lat": -11.3561,
+   "lon": -50.2356,
+   "kind": "natural",
+   "types": [
+    "island",
+    "natural heritage",
+    "river island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bananal Island"
+  },
+  {
+   "id": "Q752218",
+   "name": "Emas National Park",
+   "sl": 41,
+   "file": "Cerrado - Campo Sujo.JPG",
+   "lat": -18.0833,
+   "lon": -52.9167,
+   "kind": "natural",
+   "types": [
+    "list of national parks of Brazil",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q278512",
+    "name": "Cerrado"
+   },
+   "also": [],
+   "cat": "Parque Nacional das Emas"
+  },
+  {
+   "id": "Q575822",
+   "name": "Tumucumaque National Park",
+   "sl": 39,
+   "file": "Oyapock maripa falls tree.jpg",
+   "lat": 1.8833,
+   "lon": -53.0833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Montanhas do Tumucumaque"
+  },
+  {
+   "id": "Q2860546",
+   "name": "Brazilian National Archives",
+   "sl": 37,
+   "file": "Arquivo Nacional do Brasil.jpg",
+   "lat": -22.9065,
+   "lon": -43.1907,
+   "kind": "built",
+   "types": [
+    "building",
+    "national archives",
+    "open-access publisher"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arquivo Nacional (Brazil)"
+  },
+  {
+   "id": "Q17489",
+   "name": "Estádio Nilton Santos",
+   "sl": 37,
+   "file": "Stitched 003.jpg",
+   "lat": -22.8932,
+   "lon": -43.2923,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Nilton Santos (Rio de Janeiro)"
+  },
+  {
+   "id": "Q661235",
+   "name": "Lagoa dos Patos",
+   "sl": 37,
+   "file": "Lagoa dos Patos PIA03444 lrg.jpg",
+   "lat": -31.15,
+   "lon": -51.39,
+   "kind": "natural",
+   "types": [
+    "lagoon",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lagoa dos Patos"
+  },
+  {
+   "id": "Q821761",
+   "name": "Estádio do Morumbi",
+   "sl": 34,
+   "file": "Estádio do Morumbi.jpg",
+   "lat": -23.6001,
+   "lon": -46.7202,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Cícero Pompeu de Toledo"
+  },
+  {
+   "id": "Q876280",
+   "name": "Lagoa Mirim",
+   "sl": 34,
+   "file": "Lake Merin.jpg",
+   "lat": -32.75,
+   "lon": -52.8333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UY"
+   ],
+   "cat": "Lake Merin"
+  },
+  {
+   "id": "Q496950",
+   "name": "Palácio do Planalto",
+   "sl": 34,
+   "file": "Planalto panorama.jpg",
+   "lat": -15.799,
+   "lon": -47.8608,
+   "kind": "built",
+   "types": [
+    "official residence",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio do Planalto"
+  },
+  {
+   "id": "Q201720",
+   "name": "Cathedral of Brasília",
+   "sl": 33,
+   "file": "Brasilia Catedral 08 2005 03.jpg",
+   "lat": -15.7983,
+   "lon": -47.8756,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral Metropolitana de Brasília"
+  },
+  {
+   "id": "Q909488",
+   "name": "Brasilia President Juscelino Kubitschek International Airport",
+   "sl": 31,
+   "file": "Brasilia aerea aeroportojk.jpg",
+   "lat": -15.8711,
+   "lon": -47.9186,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brasília International Airport"
+  },
+  {
+   "id": "Q862401",
+   "name": "Congonhas-São Paulo Airport",
+   "sl": 31,
+   "file": "Aeroporto de Congonhas - Aeronaves.jpg",
+   "lat": -23.6261,
+   "lon": -46.6564,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Congonhas-São Paulo International Airport"
+  },
+  {
+   "id": "Q632566",
+   "name": "Edifício Copan",
+   "sl": 31,
+   "file": "Edifício Copan, SP.jpg",
+   "lat": -23.5466,
+   "lon": -46.6444,
+   "kind": "built",
+   "types": [
+    "multifamily residential",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edifício Copan"
+  },
+  {
+   "id": "Q940892",
+   "name": "Guaíra Falls",
+   "sl": 31,
+   "file": "Salto das Sete Quedas.jpg",
+   "lat": -24.073,
+   "lon": -54.284,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PY"
+   ],
+   "cat": "Salto de Sete Quedas"
+  },
+  {
+   "id": "Q1367127",
+   "name": "Rio–Niterói Bridge",
+   "sl": 31,
+   "file": "Ilha de Mocanguê by Diego Baravelli (cropped).jpg",
+   "lat": -22.8711,
+   "lon": -43.1567,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "road bridge",
+    "toll bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rio-Niterói Bridge"
+  },
+  {
+   "id": "Q589546",
+   "name": "Pico da Bandeira",
+   "sl": 29,
+   "file": "Pico da bandeira.jpg",
+   "lat": -20.4352,
+   "lon": -41.7963,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico da Bandeira"
+  },
+  {
+   "id": "Q1434444",
+   "name": "Amazon Theatre",
+   "sl": 28,
+   "file": "Teatro Amazonas Atualmente 01.jpg",
+   "lat": -3.1303,
+   "lon": -60.0233,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teatro Amazonas"
+  },
+  {
+   "id": "Q655175",
+   "name": "Estádio do Pacaembu",
+   "sl": 27,
+   "file": "Estadio Municipal do Pacaembú. - panoramio.jpg",
+   "lat": -23.5486,
+   "lon": -46.6651,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio do Pacaembu"
+  },
+  {
+   "id": "Q657271",
+   "name": "Manaus International Airport",
+   "sl": 27,
+   "file": "Aeroporto Internacional Eduardo Gomes Manaus.jpg",
+   "lat": -3.0411,
+   "lon": -60.0506,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eduardo Gomes-Manaus International Airport"
+  },
+  {
+   "id": "Q865475",
+   "name": "Santos Dumont Airport",
+   "sl": 27,
+   "file": "Santos Dumont Airport.jpg",
+   "lat": -22.91,
+   "lon": -43.1625,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santos Dumont Airport"
+  },
+  {
+   "id": "Q1974494",
+   "name": "Tijuca National Park",
+   "sl": 27,
+   "file": "Floresta da Tijuca 60.jpg",
+   "lat": -22.9594,
+   "lon": -43.2778,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional da Tijuca"
+  },
+  {
+   "id": "Q20048515",
+   "name": "Valongo Wharf",
+   "sl": 27,
+   "file": "Cais do Valongo e da Imperatriz.jpg",
+   "lat": -22.8971,
+   "lon": -43.1874,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historic heritage of Brazil",
+    "ruins",
+    "wharf"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Cais do Valongo"
+  },
+  {
+   "id": "Q751824",
+   "name": "Eldorado Business Tower",
+   "sl": 26,
+   "file": "Eldorado Business tower, São Paulo, Brazil.jpg",
+   "lat": -23.5734,
+   "lon": -46.6977,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eldorado Business Tower"
+  },
+  {
+   "id": "Q387704",
+   "name": "Recife/Guararapes–Gilberto Freyre International Airport",
+   "sl": 26,
+   "file": "Recife airport.jpg",
+   "lat": -8.1264,
+   "lon": -34.9228,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Recife/Guararapes-Gilberto Freyre International Airport"
+  },
+  {
+   "id": "Q2411716",
+   "name": "Rio de Janeiro Cathedral",
+   "sl": 26,
+   "file": "Catedral Rio de Janeiro.jpg",
+   "lat": -22.9109,
+   "lon": -43.1807,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de São Sebastião do Rio de Janeiro"
+  },
+  {
+   "id": "Q381653",
+   "name": "Viracopos International Airport",
+   "sl": 26,
+   "file": "Aeroporto de Campinas.jpg",
+   "lat": -23.0069,
+   "lon": -47.1344,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Viracopos-Campinas International Airport"
+  },
+  {
+   "id": "Q816119",
+   "name": "Belo Monte Dam",
+   "sl": 25,
+   "file": "09 09 2021 Visita à Usina Hidrelétrica Belo Monte (51443381900).jpg",
+   "lat": -3.1278,
+   "lon": -51.7758,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belo Monte Dam"
+  },
+  {
+   "id": "Q1140475",
+   "name": "Friendship Bridge",
+   "sl": 25,
+   "file": "Aerial view of Friendship Bridge between Brazil and Paraguay.jpg",
+   "lat": -25.5096,
+   "lon": -54.6011,
+   "kind": "built",
+   "types": [
+    "concrete arch bridge",
+    "deck arch bridge",
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PY"
+   ],
+   "cat": "Ponte Internacional da Amizade"
+  },
+  {
+   "id": "Q1474721",
+   "name": "Itatiaia National Park",
+   "sl": 25,
+   "file": "Parque Nacional do Itatiaia floresta.jpg",
+   "lat": -22.4958,
+   "lon": -44.5628,
+   "kind": "both",
+   "types": [
+    "list of national parks of Brazil",
+    "museum",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Itatiaia National Park"
+  },
+  {
+   "id": "Q429897",
+   "name": "Lagoa Rodrigo de Freitas",
+   "sl": 25,
+   "file": "Lagoa Rodrigo de Freitas.jpg",
+   "lat": -22.9711,
+   "lon": -43.2117,
+   "kind": "natural",
+   "types": [
+    "lagoon",
+    "natural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lagoa Rodrigo de Freitas"
+  },
+  {
+   "id": "Q1050668",
+   "name": "São Paulo Cathedral",
+   "sl": 25,
+   "file": "Catedral da Sé 13.Nov.2022.jpg",
+   "lat": -23.5512,
+   "lon": -46.6344,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral Metropolitana de São Paulo"
+  },
+  {
+   "id": "Q1987608",
+   "name": "Tancredo Neves International Airport",
+   "sl": 25,
+   "file": "Aeroporto Internacional de BH 02.jpg",
+   "lat": -19.6239,
+   "lon": -43.9714,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tancredo Neves International Airport"
+  },
+  {
+   "id": "Q180464",
+   "name": "Afonso Pena International Airport",
+   "sl": 24,
+   "file": "Afonsopenaairport.jpg",
+   "lat": -25.5317,
+   "lon": -49.1761,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Afonso Pena International Airport"
+  },
+  {
+   "id": "Q1051873",
+   "name": "Cavernas do Peruaçu National Park",
+   "sl": 24,
+   "file": "Criança indígena Xakriabá no interior da caverna Janelão.jpg",
+   "lat": -15.1111,
+   "lon": -44.2239,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Cavernas do Peruaçu"
+  },
+  {
+   "id": "Q1300456",
+   "name": "Ginásio do Maracanãzinho",
+   "sl": 24,
+   "file": "Maracanãzinho.jpg",
+   "lat": -22.9139,
+   "lon": -43.2293,
+   "kind": "built",
+   "types": [
+    "indoor arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maracanãzinho"
+  },
+  {
+   "id": "Q1075303",
+   "name": "Octávio Frias de Oliveira Bridge",
+   "sl": 24,
+   "file": "Ponte estaiada Octavio Frias - Sao Paulo.jpg",
+   "lat": -23.6127,
+   "lon": -46.6992,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte Octávio Frias de Oliveira"
+  },
+  {
+   "id": "Q2330391",
+   "name": "Palácio da Alvorada",
+   "sl": 24,
+   "file": "Palácio da Alvorada brasilia.jpg",
+   "lat": -15.7928,
+   "lon": -47.8222,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio da Alvorada"
+  },
+  {
+   "id": "Q2074717",
+   "name": "Pinto Martins – Fortaleza International Airport",
+   "sl": 24,
+   "file": "Vista do Aeroporto Internacional de Fortaleza Pinto Martins.jpg",
+   "lat": -3.7758,
+   "lon": -38.5322,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aeroporto Internacional Pinto Martins"
+  },
+  {
+   "id": "Q1432702",
+   "name": "Salgado Filho Porto Alegre International Airport",
+   "sl": 24,
+   "file": "Aeroporto 1 Salgado Filho - panoramio (1).jpg",
+   "lat": -29.9939,
+   "lon": -51.1711,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salgado Filho International Airport"
+  },
+  {
+   "id": "Q1595417",
+   "name": "Sanctuary of Bom Jesus de Matosinhos",
+   "sl": 24,
+   "file": "Santuário do Bom Jesus de Matosinhos visão geral.jpg",
+   "lat": -20.5078,
+   "lon": -43.8607,
+   "kind": "built",
+   "types": [
+    "calvary",
+    "church building",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Santuário do Bom Jesus de Matosinhos"
+  },
+  {
+   "id": "Q503828",
+   "name": "São Miguel das Missões",
+   "sl": 24,
+   "file": "Ruinas-saomiguel1.jpg",
+   "lat": -28.5491,
+   "lon": -54.5559,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q465960",
+    "name": "Jesuit missions among the Guaraní"
+   },
+   "also": [],
+   "cat": "Ruins of São Miguel das Missões"
+  },
+  {
+   "id": "Q1753496",
+   "name": "Serra dos Órgãos National Park",
+   "sl": 24,
+   "file": "Amanhecer no Hercules --.jpg",
+   "lat": -22.4821,
+   "lon": -43.0568,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Serra dos Órgãos National Park"
+  },
+  {
+   "id": "Q4788902",
+   "name": "Allianz Parque",
+   "sl": 23,
+   "file": "Allianz Parque 2025.jpg",
+   "lat": -23.5276,
+   "lon": -46.6784,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Allianz Parque"
+  }
+ ]
+}

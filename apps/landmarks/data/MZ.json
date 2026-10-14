@@ -1,0 +1,708 @@
+{
+ "country": "MZ",
+ "items": [
+  {
+   "id": "Q5532",
+   "name": "Lake Malawi",
+   "sl": 107,
+   "file": "Cape McLear, Malawi (2498445835).jpg",
+   "lat": -12.1833,
+   "lon": 34.3667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1077596",
+    "name": "Lake Malawi National Park"
+   },
+   "also": [
+    "MW",
+    "TZ"
+   ],
+   "cat": "Lake Malawi"
+  },
+  {
+   "id": "Q604422",
+   "name": "Great Limpopo Transfrontier Park",
+   "sl": 33,
+   "file": "Makuleke2.JPG",
+   "lat": -22.4333,
+   "lon": 31.3667,
+   "kind": "natural",
+   "types": [
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZA",
+    "ZW"
+   ],
+   "cat": "Great Limpopo Transfrontier Park"
+  },
+  {
+   "id": "Q1353678",
+   "name": "Monte Binga",
+   "sl": 27,
+   "file": "Mt Binga Mozambique.JPG",
+   "lat": -19.7742,
+   "lon": 33.0606,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q755015",
+   "name": "Cahora Bassa Reservoir",
+   "sl": 26,
+   "file": "STS51B-51-14- Lake Cahora Bassa.jpg",
+   "lat": -15.6667,
+   "lon": 31.8333,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Cahora Bassa"
+  },
+  {
+   "id": "Q113952",
+   "name": "Gorongosa National Park",
+   "sl": 25,
+   "file": "Gorongosa Park Gate.JPG",
+   "lat": -18.766,
+   "lon": 34.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gorongosa National Park"
+  },
+  {
+   "id": "Q1361151",
+   "name": "Sofala",
+   "sl": 23,
+   "file": "Sofala1683.jpg",
+   "lat": -20.15,
+   "lon": 34.7167,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1075037",
+   "name": "Lake Chiuta",
+   "sl": 21,
+   "file": "L. Chiuta-N 04.jpg",
+   "lat": -14.8175,
+   "lon": 35.8539,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MW"
+   ],
+   "cat": "Lake Chiuta"
+  },
+  {
+   "id": "Q1102054",
+   "name": "Bazaruto National Park",
+   "sl": 17,
+   "file": "Bazaruto-Island-2009.jpg",
+   "lat": -21.6657,
+   "lon": 35.4659,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1728307",
+   "name": "Cape Delgado",
+   "sl": 17,
+   "file": "Cape Delgado.jpg",
+   "lat": -10.6833,
+   "lon": 40.6333,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabo Delgado"
+  },
+  {
+   "id": "Q381643",
+   "name": "Beira Airport",
+   "sl": 16,
+   "file": "Beira Airport DF-SD-01-01511.jpg",
+   "lat": -19.7964,
+   "lon": 34.9075,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "cultural heritage",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beira Airport"
+  },
+  {
+   "id": "Q130019294",
+   "name": "Maputo National Park",
+   "sl": 16,
+   "file": "Plains zebras (Equus quagga) Maputo.jpg",
+   "lat": -26.5,
+   "lon": 32.8,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Maputo National Park"
+  },
+  {
+   "id": "Q4855656",
+   "name": "Banhine National Park",
+   "sl": 14,
+   "file": "Prosopocera pascoei (11105274504).jpg",
+   "lat": -22.7486,
+   "lon": 32.8085,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banhine National Park"
+  },
+  {
+   "id": "Q11962991",
+   "name": "Cahora Bassa Dam",
+   "sl": 14,
+   "file": "Cahora Bassa em Tete - panoramio - Nelson Deolinda Amin… (10).jpg",
+   "lat": -15.5858,
+   "lon": 32.7047,
+   "kind": "built",
+   "types": [
+    "arch dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cahora Bassa Dam"
+  },
+  {
+   "id": "Q1239603",
+   "name": "Dona Ana Bridge",
+   "sl": 14,
+   "file": "Dona Ana railway bridge over the Zambezi river, Mozambique.jpg",
+   "lat": -17.4419,
+   "lon": 35.0519,
+   "kind": "built",
+   "types": [
+    "railway bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte Dona Ana"
+  },
+  {
+   "id": "Q4992162",
+   "name": "Chapel of Nossa Senhora de Baluarte",
+   "sl": 13,
+   "file": "Nossa Senhora do Baluarte.jpg",
+   "lat": -15.0289,
+   "lon": 40.7446,
+   "kind": "built",
+   "types": [
+    "chapel",
+    "cultural heritage"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q331099",
+    "name": "Island of Mozambique"
+   },
+   "also": [],
+   "cat": "Capela de Nossa Senhora do Baluarte"
+  },
+  {
+   "id": "Q454821",
+   "name": "Lake Amaramba",
+   "sl": 13,
+   "file": "Lago Amaramba plain.JPG",
+   "lat": -14.3775,
+   "lon": 35.9219,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago Amaramba"
+  },
+  {
+   "id": "Q19275941",
+   "name": "Maputo–Catembe Bridge",
+   "sl": 13,
+   "file": "Maputo-Katembe Bridge (34275941386).jpg",
+   "lat": -25.973,
+   "lon": 32.5571,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maputo–Catembe bridge"
+  },
+  {
+   "id": "Q1613668",
+   "name": "Mount Mabu",
+   "sl": 13,
+   "file": "Mount Mabu (10.3897-zse.92.9948) Figure 2 (cropped).jpg",
+   "lat": -16.2989,
+   "lon": 36.3956,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Mabu"
+  },
+  {
+   "id": "Q1526611",
+   "name": "Nampula Airport",
+   "sl": 13,
+   "file": "Nampula Airport.jpg",
+   "lat": -15.1056,
+   "lon": 39.2818,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "cultural heritage",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nampula Airport"
+  },
+  {
+   "id": "Q16498204",
+   "name": "National Library of Mozambique",
+   "sl": 13,
+   "file": "Biblioteca Nacional Moçambique.jpg",
+   "lat": -25.9736,
+   "lon": 32.5731,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "public building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biblioteca Nacional de Moçambique"
+  },
+  {
+   "id": "Q1475549",
+   "name": "Niassa Reserve",
+   "sl": 13,
+   "file": "Sun over the Lake Niassa Reserve (5888437856).jpg",
+   "lat": -11.8336,
+   "lon": 36.8803,
+   "kind": "natural",
+   "types": [
+    "game reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Niassa Reserve"
+  },
+  {
+   "id": "Q1542959",
+   "name": "Grande Hotel Beira",
+   "sl": 12,
+   "file": "Current situation of the Grande Hotel, exterior in front of block B.JPG",
+   "lat": -19.8472,
+   "lon": 34.8406,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "human settlement",
+    "squatter's house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grande Hotel Beira"
+  },
+  {
+   "id": "Q1516857",
+   "name": "Mount Namuli",
+   "sl": 12,
+   "file": "Mount Namuli 3D.gif",
+   "lat": -15.3667,
+   "lon": 37.0333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Namuli"
+  },
+  {
+   "id": "Q1392430",
+   "name": "Pemba Airport",
+   "sl": 12,
+   "file": "Pemba-airport.jpg",
+   "lat": -12.9868,
+   "lon": 40.5225,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pemba Airport, Mozambique"
+  },
+  {
+   "id": "Q1546990",
+   "name": "Quirimbas National Park",
+   "sl": 12,
+   "file": "Avicennia marina - white mangrove (8697515733).jpg",
+   "lat": -12.1277,
+   "lon": 40.422,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q127722",
+   "name": "Cathedral of Our Lady of the Immaculate Conception",
+   "sl": 11,
+   "file": "Cathedral of maputo 05.jpg",
+   "lat": -25.969,
+   "lon": 32.575,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sé Catedral de Maputo"
+  },
+  {
+   "id": "Q3275527",
+   "name": "Chingozi Airport",
+   "sl": 11,
+   "file": "Y Coetsee Tete Airport Mozambique (2017).jpg",
+   "lat": -16.1081,
+   "lon": 33.6403,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "cultural heritage",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chingozi Airport"
+  },
+  {
+   "id": "Q3015312",
+   "name": "Inhambane Airport",
+   "sl": 11,
+   "file": "Inhambane airport terminal.jpg",
+   "lat": -23.8764,
+   "lon": 35.4085,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Inhambane Airport"
+  },
+  {
+   "id": "Q12270259",
+   "name": "Kassuende Bridge",
+   "sl": 11,
+   "file": "Ponte Kassuende Novembro 2014 cropped.jpg",
+   "lat": -16.1923,
+   "lon": 33.6188,
+   "kind": "built",
+   "types": [
+    "bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte Kassuende"
+  },
+  {
+   "id": "Q1907745",
+   "name": "Massingir Dam",
+   "sl": 11,
+   "file": "Massingir dam wall, Dec 2014.jpg",
+   "lat": -23.8847,
+   "lon": 32.1444,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Massingir Dam"
+  },
+  {
+   "id": "Q1526745",
+   "name": "Quelimane Airport",
+   "sl": 11,
+   "file": "Quelimane Airport, Mozambique 01.jpg",
+   "lat": -17.85,
+   "lon": 36.8667,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q890555",
+   "name": "Inhaca Airport",
+   "sl": 10,
+   "file": "The Crocodile River traverses South Africa ESA418736, Inhaca town & airport.png",
+   "lat": -25.9978,
+   "lon": 32.9292,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3566287",
+   "name": "Mocímboa da Praia Airport",
+   "sl": 10,
+   "file": "Aeródromo de Mocímboa da Praia, província de Cabo Delgado, Moçambique.jpg",
+   "lat": -11.3617,
+   "lon": 40.3547,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mocímboa da Praia Airport"
+  },
+  {
+   "id": "Q6573056",
+   "name": "Samora Machel Bridge",
+   "sl": 10,
+   "file": "Tetesuspensionbridge.JPG",
+   "lat": -16.1545,
+   "lon": 33.5942,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte Samora Machel"
+  },
+  {
+   "id": "Q678108",
+   "name": "Armando Emilio Guebuza Bridge",
+   "sl": 9,
+   "file": "Ponte Armando guebuza.JPG",
+   "lat": -17.8081,
+   "lon": 35.3975,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Armando Emilio Guebuza Bridge"
+  },
+  {
+   "id": "Q18712846",
+   "name": "Chimanimani National Reserve",
+   "sl": 9,
+   "file": "Mt Binga Mozambique.JPG",
+   "lat": -19.795,
+   "lon": 33.0892,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chimanimani National Reserve"
+  },
+  {
+   "id": "Q5494243",
+   "name": "Port Maputo",
+   "sl": 9,
+   "file": "COLLECTIE TROPENMUSEUM De haven van Lourenco Marques aan de oostkust van Afrika TMnr 60036361.jpg",
+   "lat": -25.9603,
+   "lon": 32.546,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Maputo"
+  },
+  {
+   "id": "Q5099431",
+   "name": "Chimoio Airport",
+   "sl": 8,
+   "file": "Chimoio Airport, Mozambique.jpg",
+   "lat": -19.1486,
+   "lon": 33.4286,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1814572",
+   "name": "Fort São Sebastião",
+   "sl": 8,
+   "file": "Fort of Sao Sebastiao-2.jpg",
+   "lat": -15.0289,
+   "lon": 40.7438,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "fortress"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q331099",
+    "name": "Island of Mozambique"
+   },
+   "also": [],
+   "cat": "Fortaleza de São Sebastião (Ilha de Moçambique)"
+  },
+  {
+   "id": "Q1128124",
+   "name": "Unity Bridge",
+   "sl": 8,
+   "file": "Unity Bridge Tanzania.jpg",
+   "lat": -11.4153,
+   "lon": 38.4944,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TZ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q17276617",
+   "name": "Vila Algarve",
+   "sl": 8,
+   "file": "Vila Algarve, Maputo, 2013 (11303276763).jpg",
+   "lat": -25.9739,
+   "lon": 32.591,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vila Algarve"
+  }
+ ]
+}

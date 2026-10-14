@@ -1,0 +1,1381 @@
+{
+ "country": "MA",
+ "items": [
+  {
+   "id": "Q309436",
+   "name": "Aït Benhaddou",
+   "sl": 68,
+   "file": "Ksar Aït Benhaddou, Marocco (أيت بن حدو، المغرب, ⴰⵢⵜ ⵃⴰⴷⴷⵓ).jpg",
+   "lat": 31.05,
+   "lon": -7.1333,
+   "kind": "built",
+   "types": [
+    "heritage",
+    "ksar"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Aït Benhaddou"
+  },
+  {
+   "id": "Q378014",
+   "name": "University of al-Qarawiyyin",
+   "sl": 67,
+   "file": "University of Al Qaraouiyine.jpg",
+   "lat": 34.0644,
+   "lon": -4.9733,
+   "kind": "",
+   "types": [
+    "Moroccan public institution",
+    "university"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2072102",
+    "name": "Medina of Fez"
+   },
+   "also": [],
+   "cat": "Al-Qarawiyyin"
+  },
+  {
+   "id": "Q275491",
+   "name": "Rif",
+   "sl": 56,
+   "file": "RifMountainsInTheChefchaouenProvince.jpg",
+   "lat": 35,
+   "lon": -4,
+   "kind": "natural",
+   "types": [
+    "area",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rif"
+  },
+  {
+   "id": "Q41346",
+   "name": "Hassan II Mosque",
+   "sl": 54,
+   "file": "Sunshine on mosque Hassan II in Casablanca, Morocco - Flickr - Milamber's portfolio.jpg",
+   "lat": 33.6073,
+   "lon": -7.6326,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hassan II Mosque"
+  },
+  {
+   "id": "Q503433",
+   "name": "Jbel Toubkal",
+   "sl": 53,
+   "file": "Toubkal 7.90965W 31.05231N.jpg",
+   "lat": 31.0619,
+   "lon": -7.9161,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jbel Toubkal"
+  },
+  {
+   "id": "Q391215",
+   "name": "Volubilis",
+   "sl": 53,
+   "file": "Volubilis 1990.jpg",
+   "lat": 34.04,
+   "lon": -5.5627,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Carthaginian archaeological site",
+    "Roman archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Volubilis"
+  },
+  {
+   "id": "Q1137533",
+   "name": "Koutoubia Mosque",
+   "sl": 42,
+   "file": "Mosquée de la Koutoubia - marakesh.jpg",
+   "lat": 31.6241,
+   "lon": -7.9935,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Koutoubia Mosque"
+  },
+  {
+   "id": "Q955433",
+   "name": "Mohammed V International Airport",
+   "sl": 41,
+   "file": "Avion Royal Air Maroc à l'aéroport de Casablanca.jpg",
+   "lat": 33.3642,
+   "lon": -7.5817,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mohammed V International Airport"
+  },
+  {
+   "id": "Q258348",
+   "name": "Jemaa el-Fnaa",
+   "sl": 38,
+   "file": "MoroccoMarrakech DjemaaElFna..jpg",
+   "lat": 31.626,
+   "lon": -7.9891,
+   "kind": "built",
+   "types": [
+    "bazaar",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jamaa El Fna"
+  },
+  {
+   "id": "Q579331",
+   "name": "Hassan Tower",
+   "sl": 37,
+   "file": "Hassan Tower, Rabat, Marocco (صومعة حسان ).jpg",
+   "lat": 34.0241,
+   "lon": -6.8227,
+   "kind": "built",
+   "types": [
+    "minaret"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hassan Tower"
+  },
+  {
+   "id": "Q429304",
+   "name": "Marrakesh Menara Airport",
+   "sl": 34,
+   "file": "مطار مراكش المنارة.jpg",
+   "lat": 31.6086,
+   "lon": -8.0408,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marrakech-Menara Airport"
+  },
+  {
+   "id": "Q38212",
+   "name": "Ouzoud Falls",
+   "sl": 34,
+   "file": "Cascades d'ouzoud maroc 01.jpg",
+   "lat": 32.0153,
+   "lon": -6.7189,
+   "kind": "natural",
+   "types": [
+    "cascade",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ouzoud Falls"
+  },
+  {
+   "id": "Q846913",
+   "name": "Jebel Irhoud",
+   "sl": 33,
+   "file": "Jebel-Irhoud.png",
+   "lat": 31.855,
+   "lon": -8.8725,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jebel Irhoud"
+  },
+  {
+   "id": "Q1416280",
+   "name": "Agadir–Al Massira Airport",
+   "sl": 31,
+   "file": "Aéroport Agadir.jpg",
+   "lat": 30.3225,
+   "lon": -9.4114,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Agadir – Al Massira Airport"
+  },
+  {
+   "id": "Q1026739",
+   "name": "Jebel Moussa",
+   "sl": 30,
+   "file": "Vue sur les côtes africaines depuis le belvédère du détroit.jpg",
+   "lat": 35.8988,
+   "lon": -5.4131,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jebel Musa"
+  },
+  {
+   "id": "Q1395431",
+   "name": "Majorelle Garden",
+   "sl": 30,
+   "file": "Le jardin des majorelle 16.JPG",
+   "lat": 31.6415,
+   "lon": -8.0029,
+   "kind": "built",
+   "types": [
+    "garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Majorelle Garden"
+  },
+  {
+   "id": "Q740930",
+   "name": "Saguia el-Hamra",
+   "sl": 29,
+   "file": "Saguia el-Hamra.jpg",
+   "lat": 27.1536,
+   "lon": -13.2033,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EH"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1334331",
+   "name": "Sijilmasa",
+   "sl": 29,
+   "file": "The northern gate of sijilmassa Mansouria.jpg",
+   "lat": 31.28,
+   "lon": -4.28,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sijilmasa"
+  },
+  {
+   "id": "Q1578430",
+   "name": "Marrakesh Stadium",
+   "sl": 28,
+   "file": "Stade de marrakech.jpg",
+   "lat": 31.7067,
+   "lon": -7.9806,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Stade de Marrakech"
+  },
+  {
+   "id": "Q1432573",
+   "name": "Rabat-Salé Airport",
+   "sl": 27,
+   "file": "Salé Airport.jpg",
+   "lat": 34.0514,
+   "lon": -6.7517,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rabat-Salé Airport"
+  },
+  {
+   "id": "Q1433022",
+   "name": "Tangier Ibn Battouta Airport",
+   "sl": 27,
+   "file": "Tangier Airport.jpg",
+   "lat": 35.7269,
+   "lon": -5.9169,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tangier – Ibn Battouta Airport"
+  },
+  {
+   "id": "Q772975",
+   "name": "Cape Spartel",
+   "sl": 26,
+   "file": "Cap Spartel Morocco - panoramio (1).jpg",
+   "lat": 35.8006,
+   "lon": -5.9061,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Spartel"
+  },
+  {
+   "id": "Q1431302",
+   "name": "Fes-Saïss Airport",
+   "sl": 26,
+   "file": "AEROPORT FES SAISS FES Commune Oulad Tay.jpg",
+   "lat": 33.9272,
+   "lon": -4.9778,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fès–Saïs Airport"
+  },
+  {
+   "id": "Q1783824",
+   "name": "Mohammed V Stadium",
+   "sl": 26,
+   "file": "Mohammed V stadium.jpg",
+   "lat": 33.5829,
+   "lon": -7.6468,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Mohamed V"
+  },
+  {
+   "id": "Q1579227",
+   "name": "Adrar Stadium",
+   "sl": 25,
+   "file": "Stade-Adrar2019.png",
+   "lat": 30.4272,
+   "lon": -9.5404,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Adrar"
+  },
+  {
+   "id": "Q1382309",
+   "name": "Angads Airport",
+   "sl": 25,
+   "file": "Aeroport Oujda Angads 2024.jpg",
+   "lat": 34.7872,
+   "lon": -1.9239,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1560540",
+   "name": "Ben Youssef Madrasa",
+   "sl": 25,
+   "file": "Medersa-Ben-Youssef-01.jpg",
+   "lat": 31.632,
+   "lon": -7.986,
+   "kind": "built",
+   "types": [
+    "madrasa"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Ben Youssef Madrasa"
+  },
+  {
+   "id": "Q29660",
+   "name": "Bou Inania Madrasa",
+   "sl": 25,
+   "file": "Bou Inania Madrasa 2011.jpg",
+   "lat": 34.0622,
+   "lon": -4.9827,
+   "kind": "built",
+   "types": [
+    "madrasa"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2072102",
+    "name": "Medina of Fez"
+   },
+   "also": [],
+   "cat": "Bou Inania Madrasa, Fes"
+  },
+  {
+   "id": "Q1538846",
+   "name": "Cape Juby",
+   "sl": 25,
+   "file": "ISS008-E-14676 - Lanzarote and Cape Juby.jpg",
+   "lat": 27.9478,
+   "lon": -12.9233,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabo Juby"
+  },
+  {
+   "id": "Q2314811",
+   "name": "Chellah",
+   "sl": 24,
+   "file": "Roman Ruins Zawiya Chellah Rabat Nov25 A7CR 08989.jpg",
+   "lat": 34.0067,
+   "lon": -6.8203,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chellah"
+  },
+  {
+   "id": "Q1370928",
+   "name": "Cherif Al Idrissi Airport",
+   "sl": 24,
+   "file": "Alhoceima airport.jpg",
+   "lat": 35.1769,
+   "lon": -3.8394,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cherif Al Idrissi Airport"
+  },
+  {
+   "id": "Q3302476",
+   "name": "Khenifiss National Park",
+   "sl": 24,
+   "file": "Parc National de Khenifiss.jpg",
+   "lat": 27.972,
+   "lon": -12.37,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khenifiss National Park"
+  },
+  {
+   "id": "Q923835",
+   "name": "Lixus",
+   "sl": 24,
+   "file": "Lixus in Morocco.jpg",
+   "lat": 35.1987,
+   "lon": -6.1104,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Carthaginian archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lixus (ancient city)"
+  },
+  {
+   "id": "Q784621",
+   "name": "Souss-Massa National Park",
+   "sl": 24,
+   "file": "Museum Souss Massa Park Sidi Binzarn Oct25 A7CR 08117.jpg",
+   "lat": 30.075,
+   "lon": -9.67,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Souss-Massa National Park"
+  },
+  {
+   "id": "Q146219",
+   "name": "Erg Chebbi",
+   "sl": 23,
+   "file": "Merzouga Dunes 2011.jpg",
+   "lat": 31.1667,
+   "lon": -3.9833,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erg Chebbi"
+  },
+  {
+   "id": "Q1920259",
+   "name": "Menara gardens",
+   "sl": 23,
+   "file": "Jardins de la Ménara.jpg",
+   "lat": 31.6167,
+   "lon": -8.0242,
+   "kind": "built",
+   "types": [
+    "garden",
+    "heritage"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Menara Garden"
+  },
+  {
+   "id": "Q219028",
+   "name": "Mausoleum of Mohammed V",
+   "sl": 22,
+   "file": "Morocco - Mausoleum of Mohammed V.jpg",
+   "lat": 34.0226,
+   "lon": -6.8219,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mausoleum of Mohammed V"
+  },
+  {
+   "id": "Q1432126",
+   "name": "Nador International Airport",
+   "sl": 22,
+   "file": "Nador - El Aroui Airport.jpg",
+   "lat": 34.9888,
+   "lon": -3.0282,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nador - El Aroui Airport"
+  },
+  {
+   "id": "Q1969097",
+   "name": "Toubkal National Park",
+   "sl": 22,
+   "file": "Village d'Imlil.JPG",
+   "lat": 31.0833,
+   "lon": -7.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toubkal National Park"
+  },
+  {
+   "id": "Q2877688",
+   "name": "Bab Mansour",
+   "sl": 21,
+   "file": "Bab Mansour gate.jpg",
+   "lat": 33.8926,
+   "lon": -5.5646,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bab Mansour in Meknes"
+  },
+  {
+   "id": "Q2339765",
+   "name": "Ceuta border fence",
+   "sl": 21,
+   "file": "CeutaBorderFence.jpg",
+   "lat": 35.8989,
+   "lon": -5.3765,
+   "kind": "built",
+   "types": [
+    "border barrier",
+    "defense line",
+    "international border",
+    "land boundary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Ceuta border fence"
+  },
+  {
+   "id": "Q1277747",
+   "name": "El Badi Palace",
+   "sl": 21,
+   "file": "Badi, palác, Marrákeš, 2025 (10).jpg",
+   "lat": 31.6183,
+   "lon": -7.9858,
+   "kind": "built",
+   "types": [
+    "royal palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "El Badi Palace"
+  },
+  {
+   "id": "Q1433058",
+   "name": "Tetouan Saniat R'mel Airport",
+   "sl": 21,
+   "file": "Sania Ramel Airport.jpg",
+   "lat": 35.5944,
+   "lon": -5.32,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4837210",
+   "name": "Bab Agnaou",
+   "sl": 20,
+   "file": "Bab Agnaou.jpg",
+   "lat": 31.6176,
+   "lon": -7.9907,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Bab Agnaou"
+  },
+  {
+   "id": "Q1438561",
+   "name": "Ifrane National Park",
+   "sl": 20,
+   "file": "Altiplà d'Ifrane.JPG",
+   "lat": 33.4318,
+   "lon": -5.1302,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ifrane National Park"
+  },
+  {
+   "id": "Q2415786",
+   "name": "The Great Mosque of Salé",
+   "sl": 20,
+   "file": "Salé mosque DSCF6808.jpg",
+   "lat": 34.04,
+   "lon": -6.8275,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Salé"
+  },
+  {
+   "id": "Q1479283",
+   "name": "Fez Stadium",
+   "sl": 19,
+   "file": "Complexe sportif de Fès.jpg",
+   "lat": 34.0028,
+   "lon": -4.9689,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Complexe sportif de Fès"
+  },
+  {
+   "id": "Q1432053",
+   "name": "Mogador Airport",
+   "sl": 19,
+   "file": "Essaouira airport.jpg",
+   "lat": 31.3975,
+   "lon": -9.6817,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Essaouira-Mogador Airport"
+  },
+  {
+   "id": "Q2479152",
+   "name": "Ouanoukrim",
+   "sl": 19,
+   "file": "Ouanoukrim.JPG",
+   "lat": 31.0364,
+   "lon": -7.9472,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ouanoukrim"
+  },
+  {
+   "id": "Q3107495",
+   "name": "Tangier Grand Stadium",
+   "sl": 19,
+   "file": "Tangier Stadium.jpg",
+   "lat": 35.7412,
+   "lon": -5.8581,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Stade de Tanger"
+  },
+  {
+   "id": "Q3132083",
+   "name": "Al Hoceima National Park",
+   "sl": 18,
+   "file": "Alhucemas (9).JPG",
+   "lat": 35.1803,
+   "lon": -4.1216,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Hoceima National Park"
+  },
+  {
+   "id": "Q3412514",
+   "name": "Almoravid Koubba",
+   "sl": 18,
+   "file": "Koubba Ba'Adiyn.JPG",
+   "lat": 31.6315,
+   "lon": -7.9872,
+   "kind": "built",
+   "types": [
+    "fountain",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Almoravid Koubba"
+  },
+  {
+   "id": "Q797526",
+   "name": "Bab El-Baradeiyin Mosque",
+   "sl": 18,
+   "file": "Bab berdain mosque DSCF4966.jpg",
+   "lat": 33.8997,
+   "lon": -5.5675,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q12352436",
+    "name": "Medina of Meknes"
+   },
+   "also": [],
+   "cat": "Bab Berdieyinne Mosque"
+  },
+  {
+   "id": "Q2465115",
+   "name": "Bahia Palace",
+   "sl": 18,
+   "file": "Bahia Palace large court.jpg",
+   "lat": 31.6216,
+   "lon": -7.9822,
+   "kind": "built",
+   "types": [
+    "museum",
+    "palace",
+    "royal palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Bahia Palace"
+  },
+  {
+   "id": "Q2884936",
+   "name": "Bin el Ouidane Dam",
+   "sl": 18,
+   "file": "Barrage Bin el Ouidane 1.JPG",
+   "lat": 32.1067,
+   "lon": -6.4639,
+   "kind": "built",
+   "types": [
+    "arch dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bin el Ouidane Dam"
+  },
+  {
+   "id": "Q2937164",
+   "name": "Cape Three Forks",
+   "sl": 18,
+   "file": "Faro de Melilla.jpg",
+   "lat": 35.4235,
+   "lon": -2.9753,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Three Forks"
+  },
+  {
+   "id": "Q12244393",
+   "name": "Caves of Hercules",
+   "sl": 18,
+   "file": "Cuevas de Hércules, Cabo Espartel, Marruecos, 2015-12-11, DD 22-24 HDR.JPG",
+   "lat": 35.7603,
+   "lon": -5.9392,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Caves of Hercules, Tanger"
+  },
+  {
+   "id": "Q1432091",
+   "name": "Errachidia Moulay Ali Cherif Airport",
+   "sl": 18,
+   "file": "Learjet-45-errachidia-02.jpg",
+   "lat": 31.9475,
+   "lon": -4.3983,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3050555",
+   "name": "M'Goun",
+   "sl": 18,
+   "file": "Mgoun.jpg",
+   "lat": 31.51,
+   "lon": -6.44,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "ⵉⵖⵉⵍ ⵎⴳⵯⵏ"
+  },
+  {
+   "id": "Q167862",
+   "name": "Taforalt Cave",
+   "sl": 18,
+   "file": "مغارة تافوغالت.jpg",
+   "lat": 34.8106,
+   "lon": -2.4083,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taforalt"
+  },
+  {
+   "id": "Q385021",
+   "name": "Tazekka National Park",
+   "sl": 18,
+   "file": "Landscape Tazekka Park Morocco Nov25 A7CR 09249.jpg",
+   "lat": 34.0827,
+   "lon": -4.1462,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2826842",
+   "name": "Aghmat",
+   "sl": 17,
+   "file": "Túmulo do poeta português (nascido em Beja) Al-Mu’tamid (3).jpg",
+   "lat": 31.4225,
+   "lon": -7.8011,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aghmat"
+  },
+  {
+   "id": "Q4702240",
+   "name": "Al-Attarine Madrasa",
+   "sl": 17,
+   "file": "Medresa Al-Attarin(js)3.jpg",
+   "lat": 34.0651,
+   "lon": -4.9736,
+   "kind": "built",
+   "types": [
+    "madrasa"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2072102",
+    "name": "Medina of Fez"
+   },
+   "also": [],
+   "cat": "Al-Attarine Madrasa"
+  },
+  {
+   "id": "Q29661",
+   "name": "Bou Inania Madrasa",
+   "sl": 17,
+   "file": "Bou Inania Medersa.jpg",
+   "lat": 33.8952,
+   "lon": -5.5653,
+   "kind": "built",
+   "types": [
+    "madrasa"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q12352436",
+    "name": "Medina of Meknes"
+   },
+   "also": [],
+   "cat": "Bou Inania Madrasa, Meknes"
+  },
+  {
+   "id": "Q3364435",
+   "name": "Iriqui National Park",
+   "sl": 17,
+   "file": "L’Oasis sacrée d’oum Lâalag (signpost).JPG",
+   "lat": 29.8416,
+   "lon": -6.5173,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3163385",
+   "name": "Jbel Siroua",
+   "sl": 17,
+   "file": "Massif du Siroua.JPG",
+   "lat": 30.7039,
+   "lon": -7.6214,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jbel Sirwa"
+  },
+  {
+   "id": "Q2834409",
+   "name": "Noun River",
+   "sl": 17,
+   "file": "DAVIDSON(1839) p014 WADNOON.jpg",
+   "lat": 29.1406,
+   "lon": -10.4105,
+   "kind": "natural",
+   "types": [
+    "main stem",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2152745",
+   "name": "Saadian Tombs",
+   "sl": 17,
+   "file": "Saadian Tombs 1044-HDR.jpg",
+   "lat": 31.6172,
+   "lon": -7.9886,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Saadian Tombs"
+  },
+  {
+   "id": "Q3364481",
+   "name": "Talassemtane National Park",
+   "sl": 17,
+   "file": "Talassemtane National Park (5065135690).jpg",
+   "lat": 35.1828,
+   "lon": -5.2352,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Talassemtane National Park"
+  },
+  {
+   "id": "Q1548305",
+   "name": "The Great Mosque of Taza",
+   "sl": 17,
+   "file": "Chandelier of the Great Mosque of Taza.jpg",
+   "lat": 34.2125,
+   "lon": -4.0189,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Taza"
+  },
+  {
+   "id": "Q2383371",
+   "name": "Tidighin",
+   "sl": 17,
+   "file": "Tidghine 980119747.jpg",
+   "lat": 34.8432,
+   "lon": -4.5081,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q392057",
+   "name": "Agdal Gardens",
+   "sl": 16,
+   "file": "Marrakech, Agdal Gardens, 2007-08-01 retouched.jpg",
+   "lat": 31.6061,
+   "lon": -7.9797,
+   "kind": "built",
+   "types": [
+    "garden",
+    "heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Agdal Gardens"
+  },
+  {
+   "id": "Q11824510",
+   "name": "Guelmim Airport",
+   "sl": 16,
+   "file": "Guelmim Airport.jpg",
+   "lat": 29.0267,
+   "lon": -10.0503,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4886745",
+   "name": "Ibn Yusuf Mosque",
+   "sl": 16,
+   "file": "Ben Youssef Mosque PC264008 (2145401693).jpg",
+   "lat": 31.6319,
+   "lon": -7.9872,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Ali Ben Youssef Mosque"
+  },
+  {
+   "id": "Q3088347",
+   "name": "Jebel Ayachi",
+   "sl": 16,
+   "file": "Djebel Ayachi, Eastern High Atlas, Morocco4.jpg",
+   "lat": 32.4778,
+   "lon": -4.9269,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jbel Ayachi"
+  },
+  {
+   "id": "Q3090631",
+   "name": "Marrakech Museum",
+   "sl": 16,
+   "file": "MuseeDeMarrakech.jpg",
+   "lat": 31.6312,
+   "lon": -7.9868,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Marrakech Museum"
+  },
+  {
+   "id": "Q134713646",
+   "name": "Prince Moulay Abdellah Stadium",
+   "sl": 16,
+   "file": "Moulay Abdellah Stadium.jpg",
+   "lat": 33.9599,
+   "lon": -6.8891,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prince Moulay Abdellah Stadium"
+  },
+  {
+   "id": "Q518888",
+   "name": "Tanger-Med",
+   "sl": 16,
+   "file": "Vue généraleH13A0659.JPG",
+   "lat": 35.8898,
+   "lon": -5.5013,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tanger Med"
+  },
+  {
+   "id": "Q2884929",
+   "name": "Al Massira Dam",
+   "sl": 15,
+   "file": "Airplane view of Moroccan dam 2020.jpg",
+   "lat": 32.4755,
+   "lon": -7.6376,
+   "kind": "built",
+   "types": [
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Massira Dam"
+  },
+  {
+   "id": "Q1948938",
+   "name": "Al-Mansour Mosque",
+   "sl": 15,
+   "file": "Marrakesh Kasbah Mosque view from roof level.jpg",
+   "lat": 31.6177,
+   "lon": -7.9889,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q966780",
+    "name": "Medina of Marrakesh"
+   },
+   "also": [],
+   "cat": "Kasbah Mosque, Marrakech"
+  }
+ ]
+}

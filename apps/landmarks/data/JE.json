@@ -1,0 +1,123 @@
+{
+ "country": "JE",
+ "items": [
+  {
+   "id": "Q8991",
+   "name": "Jersey Airport",
+   "sl": 27,
+   "file": "Jersey Airport.JPG",
+   "lat": 49.2081,
+   "lon": -2.1953,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jersey Airport"
+  },
+  {
+   "id": "Q4345284",
+   "name": "Jersey Zoo",
+   "sl": 16,
+   "file": "Durrell entrance Jersey.jpg",
+   "lat": 49.2292,
+   "lon": -2.0736,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Durrell Wildlife Park"
+  },
+  {
+   "id": "Q2500961",
+   "name": "Elizabeth Castle",
+   "sl": 11,
+   "file": "Elizabeth Castle.jpg",
+   "lat": 49.175,
+   "lon": -2.125,
+   "kind": "built",
+   "types": [
+    "castle",
+    "independent museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elizabeth Castle"
+  },
+  {
+   "id": "Q1313383",
+   "name": "Mont Orgueil",
+   "sl": 10,
+   "file": "Mont Orgueil and Gorey harbour, Jersey.jpg",
+   "lat": 49.1994,
+   "lon": -2.0194,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castle",
+    "history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont Orgueil"
+  },
+  {
+   "id": "Q1395892",
+   "name": "La Hougue Bie",
+   "sl": 9,
+   "file": "La Hougue Bie entrance and chapel, Jersey.jpg",
+   "lat": 49.2006,
+   "lon": -2.0638,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "independent museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Hougue Bie"
+  },
+  {
+   "id": "Q2199337",
+   "name": "Les Platons",
+   "sl": 9,
+   "file": "Les Pliatons Jèrri Mai 2009.jpg",
+   "lat": 49.2479,
+   "lon": -2.1055,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3207850",
+   "name": "La Cotte de St Brelade",
+   "sl": 8,
+   "file": "La Cotte dé Saint Brélade du Ouaisné Saint Brélade Jèrri b.jpg",
+   "lat": 49.1756,
+   "lon": -2.1884,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Cotte de St Brelade"
+  }
+ ]
+}

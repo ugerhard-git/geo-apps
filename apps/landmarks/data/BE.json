@@ -2,24 +2,6 @@
  "country": "BE",
  "items": [
   {
-   "id": "Q675960",
-   "name": "Arlon",
-   "sl": 73,
-   "file": "Arlon E1aJPG.jpg",
-   "lat": 49.6836,
-   "lon": 5.8167,
-   "kind": "built",
-   "types": [
-    "Belgian municipality with the title of city",
-    "municipality of Belgium",
-    "Roman city"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Arlon"
-  },
-  {
    "id": "Q28934",
    "name": "Brussels Airport",
    "sl": 68,
@@ -84,22 +66,6 @@
    "partOf": null,
    "also": [],
    "cat": "Cathédrale Notre-Dame (Tournai)"
-  },
-  {
-   "id": "Q172851",
-   "name": "Spa-Francochamps Circuit",
-   "sl": 48,
-   "file": "2022 4 Hours of Spa-Francorchamps - Circuit.jpg",
-   "lat": 50.4372,
-   "lon": 5.9714,
-   "kind": "built",
-   "types": [
-    "motorsport racing track"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Circuit de Spa-Francorchamps"
   },
   {
    "id": "Q159860",
@@ -447,24 +413,6 @@
    "cat": "Liège Airport"
   },
   {
-   "id": "Q835128",
-   "name": "Oudenburg",
-   "sl": 31,
-   "file": "Onze-Lieve-Vrouwekerk (Oudenburg) 22-07-2021 11-34-41.jpg",
-   "lat": 51.1833,
-   "lon": 3,
-   "kind": "built",
-   "types": [
-    "Belgian municipality with the title of city",
-    "municipality of Belgium",
-    "Roman archaeological site"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Oudenburg"
-  },
-  {
    "id": "Q635307",
    "name": "Royal Palace of Brussels",
    "sl": 31,
@@ -645,22 +593,6 @@
    "partOf": null,
    "also": [],
    "cat": "Brussels Midi station"
-  },
-  {
-   "id": "Q172868",
-   "name": "Circuit Zolder",
-   "sl": 27,
-   "file": "Circuit Zolder 6-11-2008 16-29-22.jpg",
-   "lat": 50.9889,
-   "lon": 5.2556,
-   "kind": "built",
-   "types": [
-    "motorsport racing track"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Circuit Zolder"
   },
   {
    "id": "Q1471477",
@@ -986,22 +918,6 @@
    "partOf": null,
    "also": [],
    "cat": "Basilica of the Holy Blood"
-  },
-  {
-   "id": "Q172878",
-   "name": "Nivelles-Baulers",
-   "sl": 23,
-   "file": "Nivelles circuit.jpg",
-   "lat": 50.6211,
-   "lon": 4.3269,
-   "kind": "built",
-   "types": [
-    "motorsport racing track"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Circuit de Nivelles-Baulers"
   },
   {
    "id": "Q1432260",
@@ -1348,6 +1264,96 @@
    "partOf": null,
    "also": [],
    "cat": "Brussels-Scheldt Maritime Canal"
+  },
+  {
+   "id": "Q571145",
+   "name": "Caves of Han-sur-Lesse",
+   "sl": 19,
+   "file": "Grotten van Han - grot 1.jpg",
+   "lat": 50.125,
+   "lon": 5.1894,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Caves of Han"
+  },
+  {
+   "id": "Q2671145",
+   "name": "Hôtel Solvay",
+   "sl": 19,
+   "file": "Avenue Louise 224 Louizalaan Brussels 2012-08.jpg",
+   "lat": 50.8263,
+   "lon": 4.3653,
+   "kind": "built",
+   "types": [
+    "private mansion"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1426014",
+    "name": "Major Town Houses of the Architect Victor Horta"
+   },
+   "also": [],
+   "cat": "Hôtel Solvay"
+  },
+  {
+   "id": "Q31985",
+   "name": "Lion's Mound",
+   "sl": 19,
+   "file": "Belgique - Butte du Lion - 04.jpg",
+   "lat": 50.6781,
+   "lon": 4.4054,
+   "kind": "natural",
+   "types": [
+    "artificial hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lion of Waterloo"
+  },
+  {
+   "id": "Q1822397",
+   "name": "Menin Gate",
+   "sl": 19,
+   "file": "IFFFC070 000016.jpg",
+   "lat": 50.8521,
+   "lon": 2.8911,
+   "kind": "built",
+   "types": [
+    "city gate",
+    "Commonwealth War Graves Commission maintained memorial",
+    "war memorial"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64685453",
+    "name": "Funerary and memory sites of the First World War (Western Front)"
+   },
+   "also": [],
+   "cat": "Menin Gate"
+  },
+  {
+   "id": "Q1607814",
+   "name": "MS Herald of Free Enterprise",
+   "sl": 19,
+   "file": "Herald of Free Enterprise.jpg",
+   "lat": 51.3746,
+   "lon": 3.1906,
+   "kind": "built",
+   "types": [
+    "roll-on/roll-off ship",
+    "ship",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "IMO 7820485"
   }
  ]
 }

@@ -1,0 +1,561 @@
+{
+ "country": "NI",
+ "items": [
+  {
+   "id": "Q173862",
+   "name": "Lake Nicaragua",
+   "sl": 78,
+   "file": "ISS066-E-103300 - View of Nicaragua.jpg",
+   "lat": 11.5742,
+   "lon": -85.3563,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Nicaragua"
+  },
+  {
+   "id": "Q272380",
+   "name": "Lake Managua",
+   "sl": 50,
+   "file": "LakeManagua Tipitapa1.jpg",
+   "lat": 12.3333,
+   "lon": -86.4167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Managua"
+  },
+  {
+   "id": "Q575891",
+   "name": "Volcán Momotombo",
+   "sl": 35,
+   "file": "Momotombo.jpg",
+   "lat": 12.4247,
+   "lon": -86.5385,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Momotombo"
+  },
+  {
+   "id": "Q48605",
+   "name": "León Cathedral",
+   "sl": 34,
+   "file": "Nicaragua 2017-03-13 (32976253324).jpg",
+   "lat": 12.435,
+   "lon": -86.8781,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "church building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "León Cathedral, Nicaragua"
+  },
+  {
+   "id": "Q530773",
+   "name": "Augusto C. Sandino International Airport",
+   "sl": 32,
+   "file": "Sandino International Airport.jpg",
+   "lat": 12.1417,
+   "lon": -86.169,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Augusto C. Sandino International Airport"
+  },
+  {
+   "id": "Q1067452",
+   "name": "Concepción",
+   "sl": 31,
+   "file": "Moyogalpa Puerto.jpg",
+   "lat": 11.5333,
+   "lon": -85.6167,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Concepción (volcano)"
+  },
+  {
+   "id": "Q1156943",
+   "name": "Maderas",
+   "sl": 29,
+   "file": "Maderas seen from the South by ET.JPG",
+   "lat": 11.4445,
+   "lon": -85.512,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maderas Volcano"
+  },
+  {
+   "id": "Q1422898",
+   "name": "Ruínas de León Viejo",
+   "sl": 29,
+   "file": "Leon Viejo - panoramio.jpg",
+   "lat": 12.4005,
+   "lon": -86.6178,
+   "kind": "",
+   "types": [
+    "abandoned village",
+    "former settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "León Viejo"
+  },
+  {
+   "id": "Q607196",
+   "name": "Volcán San Cristóbal",
+   "sl": 28,
+   "file": "VolcanSanCristobal1.jpg",
+   "lat": 12.7035,
+   "lon": -87.0062,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Cristóbal Volcano"
+  },
+  {
+   "id": "Q613424",
+   "name": "Volcán Masaya",
+   "sl": 26,
+   "file": "Volcan Masaya2.jpg",
+   "lat": 11.9822,
+   "lon": -86.1621,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masaya Volcano"
+  },
+  {
+   "id": "Q528654",
+   "name": "Cosigüina",
+   "sl": 25,
+   "file": "Nicaragua volcan Cosigüina 5.jpg",
+   "lat": 12.971,
+   "lon": -87.5765,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cosigüina"
+  },
+  {
+   "id": "Q1537774",
+   "name": "Volcán Mombacho",
+   "sl": 25,
+   "file": "Mombacho1.jpg",
+   "lat": 11.8273,
+   "lon": -85.9599,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mombacho"
+  },
+  {
+   "id": "Q1345487",
+   "name": "Telica",
+   "sl": 23,
+   "file": "Telica.jpg",
+   "lat": 12.6019,
+   "lon": -86.845,
+   "kind": "natural",
+   "types": [
+    "extinct volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Telica (volcano)"
+  },
+  {
+   "id": "Q607078",
+   "name": "Volcán Cerro Negro",
+   "sl": 23,
+   "file": "Cerro Negro Volcano Crater Nicaragua August 2011.jpg",
+   "lat": 12.5078,
+   "lon": -86.7033,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Negro volcano"
+  },
+  {
+   "id": "Q147245",
+   "name": "Volcán Zapatera",
+   "sl": 19,
+   "file": "Ometepemap.png",
+   "lat": 11.73,
+   "lon": -85.82,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1052045",
+   "name": "Cayos Miskitos",
+   "sl": 16,
+   "file": "Atardecer en Callos Miskitos.jpg",
+   "lat": 14.3833,
+   "lon": -82.7667,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3018368",
+   "name": "Reserva de la Biosfera Bosawás",
+   "sl": 15,
+   "file": "PenasBlancas, part of the Bosawas Reserve, Jinotega Department, Nicaragua.jpg",
+   "lat": 14,
+   "lon": -85,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3000329",
+   "name": "Apoyo Lagoon Natural Reserve",
+   "sl": 14,
+   "file": "Laguna de Apoyo.jpg",
+   "lat": 11.9132,
+   "lon": -86.0372,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna de Apoyo"
+  },
+  {
+   "id": "Q598724",
+   "name": "Bluefields Airport",
+   "sl": 13,
+   "file": "Bluefieds lentok.jpg",
+   "lat": 11.9908,
+   "lon": -83.7742,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1658250",
+   "name": "Corn Island Airport",
+   "sl": 13,
+   "file": "Aeropuerto Corn Island.jpg",
+   "lat": 12.1733,
+   "lon": -83.0589,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Corn Island Airport"
+  },
+  {
+   "id": "Q3017786",
+   "name": "Lago de Apanás",
+   "sl": 13,
+   "file": "Apanaslake.jpg",
+   "lat": 13.1945,
+   "lon": -85.9764,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q537349",
+   "name": "Dennis Martínez National Stadium",
+   "sl": 12,
+   "file": "Estadio Nacional Dennis Martinez .jpg",
+   "lat": 12.1344,
+   "lon": -86.2693,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Nacional Dennis Martínez"
+  },
+  {
+   "id": "Q1542099",
+   "name": "Old Cathedral of Managua",
+   "sl": 12,
+   "file": "Antigua catedral de Managua (cropped).jpg",
+   "lat": 12.1563,
+   "lon": -86.2713,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Old Cathedral of Managua"
+  },
+  {
+   "id": "Q919287",
+   "name": "Cerro Rota",
+   "sl": 11,
+   "file": "Rota volcano.jpg",
+   "lat": 12.5518,
+   "lon": -86.7384,
+   "kind": "natural",
+   "types": [
+    "extinct volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7532228",
+   "name": "Siuna Airport",
+   "sl": 11,
+   "file": "La Costena Landed in Siuna Airstrip.jpg",
+   "lat": 13.7167,
+   "lon": -84.7769,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q620603",
+   "name": "Volcán Apoyeque",
+   "sl": 10,
+   "file": "Apoyeque nicaragua location map.jpg",
+   "lat": 12.2417,
+   "lon": -86.3417,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3847804",
+   "name": "Fortress of the Immaculate Conception",
+   "sl": 9,
+   "file": "El castillo fortress.jpg",
+   "lat": 11.0192,
+   "lon": -84.3967,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fortress of the Immaculate Conception"
+  },
+  {
+   "id": "Q1369488",
+   "name": "Nicaragua National Football Stadium",
+   "sl": 9,
+   "file": "Nicaragua National Football Stadium.jpg",
+   "lat": 12.1092,
+   "lon": -86.2731,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2091580",
+   "name": "Volcán Las Pilas",
+   "sl": 9,
+   "file": "Las Pilas volcanic complex.jpg",
+   "lat": 12.495,
+   "lon": -86.688,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Las Pilas Volcano"
+  },
+  {
+   "id": "Q5758474",
+   "name": "Catedral de Nuestra Señora de la Asunción",
+   "sl": 8,
+   "file": "06.Plaza de la Independencia de Granada.JPG",
+   "lat": 11.9298,
+   "lon": -85.9531,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Our Lady of the Assumption Cathedral in Granada, Nicaragua"
+  },
+  {
+   "id": "Q6825038",
+   "name": "Immaculate Conception Cathedral, Managua",
+   "sl": 8,
+   "file": "Managua Cathedral 2017.jpg",
+   "lat": 12.1326,
+   "lon": -86.266,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Immaculate Conception Cathedral, Managua"
+  },
+  {
+   "id": "Q3649442",
+   "name": "Pearl Cays",
+   "sl": 8,
+   "file": "Pink Pearl Island-1.jpg",
+   "lat": 12.4667,
+   "lon": -83.3833,
+   "kind": "natural",
+   "types": [
+    "island group",
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q21054982",
+   "name": "Tiscapa Lagoon Natural Reserve",
+   "sl": 8,
+   "file": "Tiscapa Lagoon.jpg",
+   "lat": 12.1394,
+   "lon": -86.2705,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna de Tiscapa"
+  },
+  {
+   "id": "Q2530709",
+   "name": "Volcán Azul",
+   "sl": 8,
+   "file": "Вулкан Азул.jpg",
+   "lat": 12.5535,
+   "lon": -83.9589,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

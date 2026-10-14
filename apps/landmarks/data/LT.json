@@ -1,0 +1,1329 @@
+{
+ "country": "LT",
+ "items": [
+  {
+   "id": "Q5595",
+   "name": "Curonian Spit",
+   "sl": 67,
+   "file": "Curonian Spit NP 05-2017 img15 Epha Dune.jpg",
+   "lat": 55.2744,
+   "lon": 20.9708,
+   "kind": "built",
+   "types": [
+    "spit",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Curonian Spit"
+  },
+  {
+   "id": "Q847711",
+   "name": "Vilnius Airport",
+   "sl": 52,
+   "file": "EYVI-VNO by Augustas Didzgalvis.jpg",
+   "lat": 54.6369,
+   "lon": 25.2878,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vilnius International Airport"
+  },
+  {
+   "id": "Q223726",
+   "name": "Hill of Crosses",
+   "sl": 48,
+   "file": "Berg der kreuze 01.JPG",
+   "lat": 56.0153,
+   "lon": 23.4167,
+   "kind": "built",
+   "types": [
+    "hillfort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hill of Crosses"
+  },
+  {
+   "id": "Q847695",
+   "name": "Kaunas Airport",
+   "sl": 37,
+   "file": "Kaunas International Airportxx.JPG",
+   "lat": 54.9639,
+   "lon": 24.0847,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaunas Airport"
+  },
+  {
+   "id": "Q1482013",
+   "name": "Trakai Island Castle",
+   "sl": 37,
+   "file": "Trakai Island Castle, 2007.jpg",
+   "lat": 54.6525,
+   "lon": 24.9331,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trakai Island Castle"
+  },
+  {
+   "id": "Q1539772",
+   "name": "Trakai Historical National Park",
+   "sl": 35,
+   "file": "Trakai-castle-A.jpg",
+   "lat": 54.639,
+   "lon": 24.9361,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trakai Historical National Park"
+  },
+  {
+   "id": "Q1281237",
+   "name": "Vilnius Cathedral",
+   "sl": 35,
+   "file": "Vilnius - Cathedral 01.jpg",
+   "lat": 54.6859,
+   "lon": 25.2879,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q445649",
+    "name": "Vilnius Old Town"
+   },
+   "also": [],
+   "cat": "Vilnius Cathedral"
+  },
+  {
+   "id": "Q400200",
+   "name": "Aukštaitija National Park",
+   "sl": 34,
+   "file": "Lithuania Ladakalnis.jpg",
+   "lat": 55.344,
+   "lon": 26.057,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aukštaitija National Park"
+  },
+  {
+   "id": "Q597311",
+   "name": "Drūkšiai",
+   "sl": 34,
+   "file": "Drūkšiai001.JPG",
+   "lat": 55.6219,
+   "lon": 26.5825,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BY"
+   ],
+   "cat": "Drūkšiai Lake"
+  },
+  {
+   "id": "Q771431",
+   "name": "Aukštojas Hill",
+   "sl": 31,
+   "file": "Aukstojo kalnas.JPG",
+   "lat": 54.5294,
+   "lon": 25.6344,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aukštojas"
+  },
+  {
+   "id": "Q1497616",
+   "name": "Gediminas' Tower",
+   "sl": 31,
+   "file": "Gedimino pilis by Augustas Didzgalvis.jpg",
+   "lat": 54.6868,
+   "lon": 25.2907,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gediminas Tower"
+  },
+  {
+   "id": "Q1332588",
+   "name": "Palanga International Airport",
+   "sl": 31,
+   "file": "Plq-apt-aug222008.jpg",
+   "lat": 55.9733,
+   "lon": 21.0939,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palanga Airport"
+  },
+  {
+   "id": "Q393353",
+   "name": "Žalgiris Arena",
+   "sl": 30,
+   "file": "Žalgiris Arena interior 18 Aug 2011.jpg",
+   "lat": 54.89,
+   "lon": 23.9144,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Žalgirio Arena"
+  },
+  {
+   "id": "Q937212",
+   "name": "Gate of Dawn",
+   "sl": 29,
+   "file": "Ausros vartai.jpg",
+   "lat": 54.6744,
+   "lon": 25.2894,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gate of Dawn"
+  },
+  {
+   "id": "Q1419589",
+   "name": "Merkys",
+   "sl": 29,
+   "file": "Merkys - panoramio.jpg",
+   "lat": 54.1564,
+   "lon": 24.1853,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BY"
+   ],
+   "cat": "Merkys"
+  },
+  {
+   "id": "Q917881",
+   "name": "Twinsbet Arena",
+   "sl": 28,
+   "file": "Zymensas by Augustas Didzgalvis.jpg",
+   "lat": 54.7163,
+   "lon": 25.2799,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Twinsbet Arena"
+  },
+  {
+   "id": "Q738428",
+   "name": "Dzūkija National Park",
+   "sl": 27,
+   "file": "Ulos akies laukyme.jpg",
+   "lat": 54.0819,
+   "lon": 24.3767,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dzūkija National Park"
+  },
+  {
+   "id": "Q665266",
+   "name": "Ninth Fort",
+   "sl": 27,
+   "file": "Kaunas Fortress.Ninth Fort 3.jpg",
+   "lat": 54.9447,
+   "lon": 23.8706,
+   "kind": "built",
+   "types": [
+    "memorial",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "IX Fort"
+  },
+  {
+   "id": "Q937290",
+   "name": "Church of St. Anne, Vilnius",
+   "sl": 26,
+   "file": "St. Anne's Church Exterior 3, Vilnius, Lithuania - Diliff.jpg",
+   "lat": 54.6831,
+   "lon": 25.2933,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Anne in Vilnius"
+  },
+  {
+   "id": "Q1577652",
+   "name": "Presidential Palace of Lithuania",
+   "sl": 26,
+   "file": "Vilnius presidential palace.jpg",
+   "lat": 54.6832,
+   "lon": 25.2859,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidential Palace in Vilnius"
+  },
+  {
+   "id": "Q1520511",
+   "name": "Curonian Spit National Park",
+   "sl": 25,
+   "file": "Lithuania Juodkrante sand dunes.jpg",
+   "lat": 55.481,
+   "lon": 21.097,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Curonian Spit National Park (Lithuania)"
+  },
+  {
+   "id": "Q1050522",
+   "name": "Grūtas Park",
+   "sl": 25,
+   "file": "Grūto parkas - Lenin.JPG",
+   "lat": 54.0208,
+   "lon": 24.0797,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "sculpture garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grūtas"
+  },
+  {
+   "id": "Q1988837",
+   "name": "Cathedral Square",
+   "sl": 24,
+   "file": "Gedimino kalnas 88.jpg",
+   "lat": 54.6853,
+   "lon": 25.2875,
+   "kind": "built",
+   "types": [
+    "Cathedral Square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral Square in Vilnius"
+  },
+  {
+   "id": "Q965566",
+   "name": "FK Žalgiris Home Stadium",
+   "sl": 23,
+   "file": "LFF2 by Augustas Didzgalvis.jpg",
+   "lat": 54.6685,
+   "lon": 25.2947,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "LFF stadionas"
+  },
+  {
+   "id": "Q1433338",
+   "name": "Šiauliai International Airport",
+   "sl": 23,
+   "file": "Šiauliai Airport runway.jpg",
+   "lat": 55.8939,
+   "lon": 23.3947,
+   "kind": "built",
+   "types": [
+    "airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Šiauliai Airport"
+  },
+  {
+   "id": "Q1283798",
+   "name": "Church of St. Peter and St. Paul, Vilnius",
+   "sl": 22,
+   "file": "Vilnius Sts Peter et Paul Church 01.jpg",
+   "lat": 54.6942,
+   "lon": 25.3064,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Peter and St. Paul in Vilnius"
+  },
+  {
+   "id": "Q1583616",
+   "name": "Darius and Girėnas Stadium",
+   "sl": 22,
+   "file": "Kauno stadionas by Augustas Didzgalvis.jpg",
+   "lat": 54.8972,
+   "lon": 23.9369,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "S. Darius and S. Girėnas Stadium"
+  },
+  {
+   "id": "Q1407353",
+   "name": "Vilnius TV Tower",
+   "sl": 22,
+   "file": "Lazdynai - panoramio.jpg",
+   "lat": 54.6871,
+   "lon": 25.2146,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vilnius TV Tower"
+  },
+  {
+   "id": "Q268533",
+   "name": "Žemaitija National Park",
+   "sl": 22,
+   "file": "Lithuania Plateliai lake.jpg",
+   "lat": 56.044,
+   "lon": 21.889,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Žemaitija National Park"
+  },
+  {
+   "id": "Q2453410",
+   "name": "Asveja",
+   "sl": 21,
+   "file": "Hillfort Dubingiai 20200614 01.jpg",
+   "lat": 55.0405,
+   "lon": 25.5094,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asveja"
+  },
+  {
+   "id": "Q2468497",
+   "name": "Kaunas Castle",
+   "sl": 21,
+   "file": "Kaunas Castle in 2011.JPG",
+   "lat": 54.8989,
+   "lon": 23.885,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaunas Castle"
+  },
+  {
+   "id": "Q1686988",
+   "name": "Kaunas Cathedral Basilica",
+   "sl": 21,
+   "file": "Kaunas Cathedral.jpg",
+   "lat": 54.897,
+   "lon": 23.889,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaunas Cathedral"
+  },
+  {
+   "id": "Q83238",
+   "name": "Three Crosses",
+   "sl": 21,
+   "file": "Three Crosses monument at sunset (8178265580).jpg",
+   "lat": 54.6867,
+   "lon": 25.2975,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Three Crosses monument, Vilnius"
+  },
+  {
+   "id": "Q2579161",
+   "name": "Galvė",
+   "sl": 20,
+   "file": "Trakai linnus.jpg",
+   "lat": 54.6611,
+   "lon": 24.9333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galvė"
+  },
+  {
+   "id": "Q1790447",
+   "name": "National Museum of Lithuania",
+   "sl": 20,
+   "file": "LNM by Augustas Didzgalvis.jpg",
+   "lat": 54.6872,
+   "lon": 25.2892,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Lithuania"
+  },
+  {
+   "id": "Q2464737",
+   "name": "Plateliai",
+   "sl": 20,
+   "file": "Lithuania Plateliai lake.jpg",
+   "lat": 56.0472,
+   "lon": 21.8731,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plateliai Lake"
+  },
+  {
+   "id": "Q6598101",
+   "name": "Vilnius Castle Complex",
+   "sl": 20,
+   "file": "Gedimino kalnas by Augustas Didzgalvis.jpg",
+   "lat": 54.6867,
+   "lon": 25.2908,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castles in Vilnius"
+  },
+  {
+   "id": "Q1008822",
+   "name": "Gediminas Avenue",
+   "sl": 19,
+   "file": "Baltic Pride 2022 by Augustas Didzgalvis.jpg",
+   "lat": 54.6872,
+   "lon": 25.2778,
+   "kind": "built",
+   "types": [
+    "prospekt"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q445649",
+    "name": "Vilnius Old Town"
+   },
+   "also": [],
+   "cat": "Gediminas Avenue"
+  },
+  {
+   "id": "Q693075",
+   "name": "Kalnapilio Arena",
+   "sl": 19,
+   "file": "Cido arena.jpg",
+   "lat": 55.7335,
+   "lon": 24.3393,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cido Arena"
+  },
+  {
+   "id": "Q2652794",
+   "name": "Medininkai Castle",
+   "sl": 19,
+   "file": "Medininkų pilis iš dangaus - www.aerialmedia.tv 01.jpg",
+   "lat": 54.5394,
+   "lon": 25.65,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Medininkai Castle"
+  },
+  {
+   "id": "Q1284847",
+   "name": "Palace of the Grand Dukes of Lithuania",
+   "sl": 19,
+   "file": "Valdovu by Augustas Didzgalvis.jpg",
+   "lat": 54.6859,
+   "lon": 25.289,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of the Grand Dukes of Lithuania"
+  },
+  {
+   "id": "Q450541",
+   "name": "Alytus Arena",
+   "sl": 18,
+   "file": "Alytaus arena.JPG",
+   "lat": 54.4039,
+   "lon": 24.0222,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alytus Arena"
+  },
+  {
+   "id": "Q3287428",
+   "name": "Čepkeliai Marsh",
+   "sl": 18,
+   "file": "Cepkeliu marsh.jpg",
+   "lat": 54,
+   "lon": 24.517,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "nature reserve",
+    "swamp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Čepkeliai Marsh"
+  },
+  {
+   "id": "Q2478089",
+   "name": "Kaunas Fortress",
+   "sl": 18,
+   "file": "Kauno tvirtove.Kaunas Fortress.jpg",
+   "lat": 54.8989,
+   "lon": 23.8854,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaunas Fortress"
+  },
+  {
+   "id": "Q1737137",
+   "name": "Kaunas Reservoir",
+   "sl": 18,
+   "file": "Kauno Marios.jpg",
+   "lat": 54.8528,
+   "lon": 24.1672,
+   "kind": "both",
+   "types": [
+    "Natura 2000 site",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaunas Lagoon"
+  },
+  {
+   "id": "Q3266986",
+   "name": "Lithuanian Zoo",
+   "sl": 18,
+   "file": "Lietuvos zoologijos sodas.jpg",
+   "lat": 54.9014,
+   "lon": 23.9514,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lithuanian Zoo"
+  },
+  {
+   "id": "Q2657645",
+   "name": "Mindaugas Bridge",
+   "sl": 18,
+   "file": "Mindaugo tiltas by Augustas Didzgalvis.jpg",
+   "lat": 54.6889,
+   "lon": 25.2883,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mindaugas bridge"
+  },
+  {
+   "id": "Q1567799",
+   "name": "Port of Klaipėda",
+   "sl": 18,
+   "file": "Klaipedos uostas5.jpg",
+   "lat": 55.661,
+   "lon": 21.1455,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Klaipėda"
+  },
+  {
+   "id": "Q391521",
+   "name": "Šiauliai Arena",
+   "sl": 18,
+   "file": "SiauliuArena.jpg",
+   "lat": 55.92,
+   "lon": 23.2828,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Šiauliai Arena"
+  },
+  {
+   "id": "Q392794",
+   "name": "Švyturys Arena",
+   "sl": 18,
+   "file": "ŠvyturioArenaKlp01.JPG",
+   "lat": 55.6875,
+   "lon": 21.1521,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Švyturys Arena"
+  },
+  {
+   "id": "Q1187891",
+   "name": "Tauragnas",
+   "sl": 18,
+   "file": "TauragnasLake001.JPG",
+   "lat": 55.4475,
+   "lon": 25.8908,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tauragnas"
+  },
+  {
+   "id": "Q3500967",
+   "name": "ARVI Football Arena",
+   "sl": 17,
+   "file": "Marijampoles stadiono tribunos.JPG",
+   "lat": 54.5745,
+   "lon": 23.3654,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marijampolė football arena"
+  },
+  {
+   "id": "Q1736161",
+   "name": "Cathedral of the Theotokos, Vilnius",
+   "sl": 17,
+   "file": "Cathedral of the Theotokos by Augustas Didzgalvis.jpg",
+   "lat": 54.6811,
+   "lon": 25.2922,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orthodox Cathedral of the Dormition of the Theotokos in Vilnius"
+  },
+  {
+   "id": "Q1076328",
+   "name": "Choral Synagogue of Vilnius",
+   "sl": 17,
+   "file": "Vilniaus sinagoga.jpg",
+   "lat": 54.6761,
+   "lon": 25.2814,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Choral Synagogue in Vilnius"
+  },
+  {
+   "id": "Q2371127",
+   "name": "Dusia",
+   "sl": 17,
+   "file": "Dusios ežeras.JPG",
+   "lat": 54.2975,
+   "lon": 23.6953,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dusia"
+  },
+  {
+   "id": "Q2029084",
+   "name": "Green Bridge",
+   "sl": 17,
+   "file": "Green Bridge of Vilnius 2015.JPG",
+   "lat": 54.6914,
+   "lon": 25.28,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Green Bridge (Vilnius)"
+  },
+  {
+   "id": "Q1775811",
+   "name": "Pažaislis Monastery",
+   "sl": 17,
+   "file": "Pazaislis by Augustas Didzgalvis.jpg",
+   "lat": 54.876,
+   "lon": 24.022,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pažaislis monastery"
+  },
+  {
+   "id": "Q1093648",
+   "name": "Sartai",
+   "sl": 17,
+   "file": "Sartai.jpg",
+   "lat": 55.8142,
+   "lon": 25.8194,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sartai Lake"
+  },
+  {
+   "id": "Q1736144",
+   "name": "Šiauliai Cathedral",
+   "sl": 17,
+   "file": "Szawle katedra.jpg",
+   "lat": 55.9327,
+   "lon": 23.32,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Šiauliai Cathedral"
+  },
+  {
+   "id": "Q2300182",
+   "name": "Ventė Cape",
+   "sl": 17,
+   "file": "Vente lighthouse.jpg",
+   "lat": 55.35,
+   "lon": 21.2,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ventės Ragas"
+  },
+  {
+   "id": "Q2659104",
+   "name": "Biržai Castle",
+   "sl": 16,
+   "file": "2006Birzupilis.jpg",
+   "lat": 56.2,
+   "lon": 24.75,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biržai Castle"
+  },
+  {
+   "id": "Q3444101",
+   "name": "Church of Vytautas the Great, Kaunas",
+   "sl": 16,
+   "file": "VytautoDidžiojoBažnyčia.jpg",
+   "lat": 54.895,
+   "lon": 23.8866,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Assumption in Kaunas"
+  },
+  {
+   "id": "Q323860",
+   "name": "Museum of Occupations and Freedom Fights",
+   "sl": 16,
+   "file": "Vilnius, Gedimino prospektas 40 (3).jpg",
+   "lat": 54.6879,
+   "lon": 25.2706,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Occupations and Freedom Fights"
+  },
+  {
+   "id": "Q1988894",
+   "name": "Pilies Street",
+   "sl": 16,
+   "file": "“OPEN” (53814353900).jpg",
+   "lat": 54.6847,
+   "lon": 25.2894,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pilies Street in Vilnius"
+  },
+  {
+   "id": "Q1793504",
+   "name": "Rambynas",
+   "sl": 16,
+   "file": "Lithuania Rambynas hill.jpg",
+   "lat": 55.0875,
+   "lon": 22.0211,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rambynas"
+  },
+  {
+   "id": "Q2305235",
+   "name": "Žmuidzinavičius Museum",
+   "sl": 16,
+   "file": "A. Žmuidzinavičiaus memorialiniai namai, Velnių muziejus.jpg",
+   "lat": 54.9008,
+   "lon": 23.9106,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Žmuidzinavičius Museum"
+  },
+  {
+   "id": "Q3504077",
+   "name": "Žuvintas Lake",
+   "sl": 16,
+   "file": "Zuvintas 2022a.jpg",
+   "lat": 54.4708,
+   "lon": 23.6286,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Žuvintas Lake"
+  },
+  {
+   "id": "Q1539380",
+   "name": "Church of St. Casimir, Vilnius",
+   "sl": 15,
+   "file": "Church of St. Casimir in Vilnius (Wilno).JPG",
+   "lat": 54.6776,
+   "lon": 25.2885,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Casimir in Vilnius"
+  },
+  {
+   "id": "Q3581823",
+   "name": "Church of St. Ignatius, Vilnius",
+   "sl": 15,
+   "file": "Church of St Ignatius in Vilnius2.jpg",
+   "lat": 54.6827,
+   "lon": 25.2821,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Ignatius in Vilnius"
+  },
+  {
+   "id": "Q2994043",
+   "name": "Church of St. Johns, Vilnius",
+   "sl": 15,
+   "file": "Vilnius University Great Courtyard 1, Vilnius, Lithuania - Diliff.jpg",
+   "lat": 54.6828,
+   "lon": 25.2883,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Johns in Vilnius"
+  },
+  {
+   "id": "Q5915642",
+   "name": "House of the Signatories",
+   "sl": 15,
+   "file": "House of Signatories.jpg",
+   "lat": 54.6822,
+   "lon": 25.2894,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The House of Signatories"
+  },
+  {
+   "id": "Q1093664",
+   "name": "Luodis",
+   "sl": 15,
+   "file": "Luodis-2011.jpg",
+   "lat": 55.5844,
+   "lon": 26.2123,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Luodis"
+  },
+  {
+   "id": "Q1077949",
+   "name": "Panevėžys Cathedral",
+   "sl": 15,
+   "file": "BZN Cathedral of King Jesus in Panevezys.jpg",
+   "lat": 55.7228,
+   "lon": 24.3562,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Christ the King, Panevėžys"
+  },
+  {
+   "id": "Q530858",
+   "name": "Queen Louise Bridge",
+   "sl": 15,
+   "file": "Koenigin Luise bruecke Tilsit 2008.jpg",
+   "lat": 55.0836,
+   "lon": 21.9056,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Queen Louise bridge"
+  },
+  {
+   "id": "Q3325",
+   "name": "St. Michael the Archangel Church",
+   "sl": 15,
+   "file": "Kauno soboras. 2007-04-06.jpg",
+   "lat": 54.8967,
+   "lon": 23.9211,
+   "kind": "built",
+   "types": [
+    "Catholic church building",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Michael the Archangel in Kaunas"
+  },
+  {
+   "id": "Q1736136",
+   "name": "Telšiai Cathedral",
+   "sl": 15,
+   "file": "BZN Telsiai church 1 front 2.jpg",
+   "lat": 55.9823,
+   "lon": 22.2462,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Telšiai Cathedral"
+  },
+  {
+   "id": "Q1257109",
+   "name": "Town Hall, Vilnius",
+   "sl": 15,
+   "file": "Vilniaus Rotuse by Augustas Didzgalvis.jpg",
+   "lat": 54.678,
+   "lon": 25.287,
+   "kind": "built",
+   "types": [
+    "city hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Town hall in Vilnius"
+  },
+  {
+   "id": "Q2662487",
+   "name": "Žeimena",
+   "sl": 15,
+   "file": "ZeimenaRiver001.JPG",
+   "lat": 54.9,
+   "lon": 25.6333,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Žeimena"
+  },
+  {
+   "id": "Q3435652",
+   "name": "Christ's Resurrection Church",
+   "sl": 14,
+   "file": "Church of Christ's Resurrection, Kaunas, side view.jpg",
+   "lat": 54.9026,
+   "lon": 23.9169,
+   "kind": "built",
+   "types": [
+    "church building",
+    "church desecration",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Christ's Resurrection, Kaunas"
+  },
+  {
+   "id": "Q2453455",
+   "name": "Church of St. Francis and St. Bernard",
+   "sl": 14,
+   "file": "Bernardine in Vilnius.jpg",
+   "lat": 54.6831,
+   "lon": 25.2939,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St. Francis of Assisi in Vilnius"
+  }
+ ]
+}

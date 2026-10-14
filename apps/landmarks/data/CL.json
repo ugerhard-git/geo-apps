@@ -1,0 +1,1381 @@
+{
+ "country": "CL",
+ "items": [
+  {
+   "id": "Q47141",
+   "name": "Atacama Desert",
+   "sl": 104,
+   "file": "Atacama.png",
+   "lat": -24.5,
+   "lon": -69.25,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atacama Desert"
+  },
+  {
+   "id": "Q4078",
+   "name": "Cape Horn",
+   "sl": 83,
+   "file": "00 4479 Cape Horn.jpg",
+   "lat": -55.98,
+   "lon": -67.2892,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Horn"
+  },
+  {
+   "id": "Q233836",
+   "name": "Ojos del Salado",
+   "sl": 72,
+   "file": "Ojos del Salado summit.jpg",
+   "lat": -27.1097,
+   "lon": -68.5414,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Ojos del Salado"
+  },
+  {
+   "id": "Q156325",
+   "name": "Juan Fernández Islands",
+   "sl": 70,
+   "file": "Archpielago Juan Fernandez (Vista hacia Robinson Crusoe).jpg",
+   "lat": -33.6414,
+   "lon": -78.8411,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "integral overseas territory",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juan Fernández Islands"
+  },
+  {
+   "id": "Q214916",
+   "name": "Llullaillaco",
+   "sl": 56,
+   "file": "Habitat du Chinchilla brevicaudata - Lllullaillaco.jpg",
+   "lat": -24.7197,
+   "lon": -68.5367,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Llullaillaco"
+  },
+  {
+   "id": "Q265628",
+   "name": "Very Large Telescope",
+   "sl": 53,
+   "file": "Paranal and the Pacific at sunset (dsc4088, retouched, cropped).jpg",
+   "lat": -24.6275,
+   "lon": -70.4042,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Very Large Telescope"
+  },
+  {
+   "id": "Q901646",
+   "name": "Torres del Paine National Park",
+   "sl": 50,
+   "file": "Torres del Paine, Laguna Azul 09.jpg",
+   "lat": -50.9831,
+   "lon": -72.9664,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torres del Paine National Park"
+  },
+  {
+   "id": "Q459352",
+   "name": "La Silla Observatory",
+   "sl": 45,
+   "file": "La Silla Aerial View.jpg",
+   "lat": -29.2575,
+   "lon": -70.7375,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Silla Observatory"
+  },
+  {
+   "id": "Q215138",
+   "name": "Mount Fitz Roy",
+   "sl": 44,
+   "file": "Fitz Roy 2.jpg",
+   "lat": -49.2714,
+   "lon": -73.0433,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Mount Fitz Roy"
+  },
+  {
+   "id": "Q312930",
+   "name": "Copahue",
+   "sl": 43,
+   "file": "Copahue Volcano.jpg",
+   "lat": -37.8522,
+   "lon": -71.1675,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Copahue Volcano"
+  },
+  {
+   "id": "Q255010",
+   "name": "Parinacota",
+   "sl": 42,
+   "file": "Parinacota.jpg",
+   "lat": -18.1658,
+   "lon": -69.1416,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BO"
+   ],
+   "cat": "Parinacota"
+  },
+  {
+   "id": "Q367943",
+   "name": "Perito Moreno Glacier",
+   "sl": 42,
+   "file": "Perito Moreno Glacier 2023.jpg",
+   "lat": -50.4932,
+   "lon": -73.128,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Perito Moreno Glacier"
+  },
+  {
+   "id": "Q503842",
+   "name": "Lake General Carrera/Buenos Aires",
+   "sl": 41,
+   "file": "Lago Gral. Carrera 01.JPG",
+   "lat": -46.4375,
+   "lon": -71.715,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "General Carrera Lake"
+  },
+  {
+   "id": "Q127671",
+   "name": "Arturo Merino Benítez International Airport",
+   "sl": 40,
+   "file": "Terminal Aeropuerto Pudahuel.jpg",
+   "lat": -33.3928,
+   "lon": -70.7856,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arturo Merino Benítez International Airport"
+  },
+  {
+   "id": "Q858808",
+   "name": "Osorno",
+   "sl": 39,
+   "file": "Petrohué, 2019 (10).jpg",
+   "lat": -41.1,
+   "lon": -72.4931,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcan Osorno"
+  },
+  {
+   "id": "Q1763364",
+   "name": "Rapa Nui National Park",
+   "sl": 39,
+   "file": "Osterinsel Krater-Rano Kao.jpg",
+   "lat": -27.0729,
+   "lon": -109.3486,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rapa Nui National Park"
+  },
+  {
+   "id": "Q117822",
+   "name": "Acotango",
+   "sl": 38,
+   "file": "Acotango.jpg",
+   "lat": -18.3833,
+   "lon": -69.0469,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BO"
+   ],
+   "cat": "Acotango"
+  },
+  {
+   "id": "Q127721",
+   "name": "Carriel Sur International Airport",
+   "sl": 38,
+   "file": "Lan 737en CCP.jpg",
+   "lat": -36.7725,
+   "lon": -73.0631,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carriel Sur Airport"
+  },
+  {
+   "id": "Q422713",
+   "name": "Licancabur",
+   "sl": 38,
+   "file": "Volcan Licancabur Bolivia.jpg",
+   "lat": -22.8336,
+   "lon": -67.8828,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BO"
+   ],
+   "cat": "Licancabur"
+  },
+  {
+   "id": "Q672021",
+   "name": "Vera C. Rubin Observatory",
+   "sl": 38,
+   "file": "Large Synoptic Survey Telescope 3 4 render 2013.png",
+   "lat": -30.2446,
+   "lon": -70.7494,
+   "kind": "built",
+   "types": [
+    "astronomical observatory",
+    "reflecting telescope",
+    "three-mirror anastigmat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vera C. Rubin Observatory"
+  },
+  {
+   "id": "Q918713",
+   "name": "Viedma Lake",
+   "sl": 38,
+   "file": "Lago Viedma NASA 1994.jpg",
+   "lat": -49.5833,
+   "lon": -72.5,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Lake Viedma"
+  },
+  {
+   "id": "Q1048225",
+   "name": "Villarrica Volcano",
+   "sl": 38,
+   "file": "Pucon-y-su-Volcan.jpg",
+   "lat": -39.42,
+   "lon": -71.9392,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villarrica Volcano"
+  },
+  {
+   "id": "Q210869",
+   "name": "Cathedral of the Most Holy Conception",
+   "sl": 37,
+   "file": "Catedral de la Santísima Concepción, Concepción, 2016-10-15.jpg",
+   "lat": -36.8275,
+   "lon": -73.0513,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de la Santísima Concepción"
+  },
+  {
+   "id": "Q594994",
+   "name": "Julio Martínez Prádanos National Stadium",
+   "sl": 37,
+   "file": "Estadio Nacional - A741105.jpg",
+   "lat": -33.4644,
+   "lon": -70.6106,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "clandestine center of detention and torture",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Nacional de Chile"
+  },
+  {
+   "id": "Q826464",
+   "name": "Llanquihue Lake",
+   "sl": 37,
+   "file": "00 2677 Vulkan Osorno - Llanquihue-See (Chile).jpg",
+   "lat": -41.1333,
+   "lon": -72.7833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Llanquihue Lake"
+  },
+  {
+   "id": "Q10914152",
+   "name": "Paranal Observatory",
+   "sl": 37,
+   "file": "Aerial view of the ESO Very Large Telescope (VLT).jpg",
+   "lat": -24.6272,
+   "lon": -70.4042,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paranal Observatory"
+  },
+  {
+   "id": "Q169141",
+   "name": "Cape Froward",
+   "sl": 36,
+   "file": "Cabo Froward (49720247218).jpg",
+   "lat": -53.8929,
+   "lon": -71.3064,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Froward"
+  },
+  {
+   "id": "Q1056102",
+   "name": "Cerro Torre",
+   "sl": 36,
+   "file": "Cerro torre 1987.jpg",
+   "lat": -49.2906,
+   "lon": -73.099,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Cerro Torre"
+  },
+  {
+   "id": "Q152380",
+   "name": "Chaitén",
+   "sl": 36,
+   "file": "Chaiten Volcano NASA.jpg",
+   "lat": -42.8328,
+   "lon": -72.6458,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chaitén volcano"
+  },
+  {
+   "id": "Q577700",
+   "name": "Puyehue-Cordón Caulle",
+   "sl": 36,
+   "file": "Puyehue Lake with Puyehue volcano in the background.jpg",
+   "lat": -40.5903,
+   "lon": -72.1172,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puyehue Volcano"
+  },
+  {
+   "id": "Q1026302",
+   "name": "Calbuco",
+   "sl": 34,
+   "file": "00 126 2680 Vulcano Calbuco - Chile.jpg",
+   "lat": -41.3328,
+   "lon": -72.6111,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Calbuco Volcano"
+  },
+  {
+   "id": "Q1056113",
+   "name": "Cerro Tololo Inter-American Observatory",
+   "sl": 34,
+   "file": "A Stellar Storm.jpg",
+   "lat": -30.1697,
+   "lon": -70.8065,
+   "kind": "built",
+   "types": [
+    "astronomical observatory",
+    "organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "CTIO"
+  },
+  {
+   "id": "Q1478849",
+   "name": "Incahuasi",
+   "sl": 34,
+   "file": "Incahuasi and el fraile plus laguna verde chile.jpg",
+   "lat": -27.0333,
+   "lon": -68.3,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Incahuasi"
+  },
+  {
+   "id": "Q1315570",
+   "name": "Lake Fagnano",
+   "sl": 34,
+   "file": "Lake Fagnano.jpg",
+   "lat": -54.6333,
+   "lon": -68,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Lake Fagnano"
+  },
+  {
+   "id": "Q164121",
+   "name": "Llaima",
+   "sl": 34,
+   "file": "Volcán Llaima y Laguna Conguillío, desde Sierra Nevada.jpg",
+   "lat": -38.6974,
+   "lon": -71.7304,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Llaima"
+  },
+  {
+   "id": "Q27964",
+   "name": "Churches of Chiloé",
+   "sl": 33,
+   "file": "Iglesia de Achao-fachada.jpg",
+   "lat": -42.5,
+   "lon": -73.7667,
+   "kind": "",
+   "types": [],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Churches of Chiloé World Heritage Site"
+  },
+  {
+   "id": "Q572895",
+   "name": "Humberstone and Santa Laura Saltpeter Works",
+   "sl": 33,
+   "file": "Humberstone.jpg",
+   "lat": -20.2083,
+   "lon": -69.7944,
+   "kind": "built",
+   "types": [
+    "refinery"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Oficina Salitrera Humberstone"
+  },
+  {
+   "id": "Q422835",
+   "name": "Tronador",
+   "sl": 33,
+   "file": "Cerro tronador desde lago mascardi 01b.jpg",
+   "lat": -41.1608,
+   "lon": -71.8875,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Cerro Tronador"
+  },
+  {
+   "id": "Q252081",
+   "name": "Guallatiri, Chile",
+   "sl": 31,
+   "file": "Guallatiri 1990-00-00 SCN 0750 2.jpg",
+   "lat": -18.4236,
+   "lon": -69.0897,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guallatiri"
+  },
+  {
+   "id": "Q389121",
+   "name": "Lanín",
+   "sl": 31,
+   "file": "Laguna Huenfuica y Volcán Lanín.jpg",
+   "lat": -39.6372,
+   "lon": -71.5031,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Lanin"
+  },
+  {
+   "id": "Q2005708",
+   "name": "O'Higgins/San Martín Lake",
+   "sl": 30,
+   "file": "Lago O'Higgins 3.jpg",
+   "lat": -48.8333,
+   "lon": -72.6,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "O'Higgins-San Martín Lake"
+  },
+  {
+   "id": "Q1146881",
+   "name": "Palacio de La Moneda",
+   "sl": 30,
+   "file": "Palacio de La Moneda - miguelreflex.jpg",
+   "lat": -33.443,
+   "lon": -70.6539,
+   "kind": "built",
+   "types": [
+    "building of public administration"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio de La Moneda"
+  },
+  {
+   "id": "Q1542408",
+   "name": "Gran Torre Costanera",
+   "sl": 29,
+   "file": "CostaneraCenterTorre2016.jpg",
+   "lat": -33.4169,
+   "lon": -70.6067,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gran Torre Costanera"
+  },
+  {
+   "id": "Q1055899",
+   "name": "Mount Hudson",
+   "sl": 29,
+   "file": "Cerro hudson.jpg",
+   "lat": -45.92,
+   "lon": -72.95,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Hudson"
+  },
+  {
+   "id": "Q1142015",
+   "name": "Salar de Atacama",
+   "sl": 29,
+   "file": "Salar de Atacama.jpg",
+   "lat": -23.4167,
+   "lon": -68.2667,
+   "kind": "natural",
+   "types": [
+    "body of water",
+    "endorheic basin",
+    "lake",
+    "salt pan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salar de Atacama"
+  },
+  {
+   "id": "Q906358",
+   "name": "Volcán Maipo",
+   "sl": 29,
+   "file": "MaipoSat.jpg",
+   "lat": -34.1639,
+   "lon": -69.8322,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maipo"
+  },
+  {
+   "id": "Q1702858",
+   "name": "Bernardo O'Higgins National Park",
+   "sl": 28,
+   "file": "Southern Patagonian Ice Field.jpg",
+   "lat": -50,
+   "lon": -74,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bernardo O'Higgins National Park"
+  },
+  {
+   "id": "Q1068067",
+   "name": "Las Campanas Observatory",
+   "sl": 28,
+   "file": "LasCampanasObservatory.jpg",
+   "lat": -29.016,
+   "lon": -70.6921,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Las Campanas Observatory"
+  },
+  {
+   "id": "Q422737",
+   "name": "Pomerape",
+   "sl": 28,
+   "file": "SajamaPark.jpg",
+   "lat": -18.1263,
+   "lon": -69.1267,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BO"
+   ],
+   "cat": "Pomerape"
+  },
+  {
+   "id": "Q603531",
+   "name": "Chile Rise",
+   "sl": 27,
+   "file": "Chile Rise.jpg",
+   "lat": -43,
+   "lon": -94,
+   "kind": "natural",
+   "types": [
+    "mid-ocean ridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q935435",
+   "name": "Lauca National Park",
+   "sl": 27,
+   "file": "Guanaco, Lauca National Park.jpg",
+   "lat": -18.2444,
+   "lon": -69.3539,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lauca National Park"
+  },
+  {
+   "id": "Q584570",
+   "name": "Nevado Tres Cruces",
+   "sl": 27,
+   "file": "Tres-cruces.jpg",
+   "lat": -27.0981,
+   "lon": -68.7781,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Nevado Tres Cruces"
+  },
+  {
+   "id": "Q1800398",
+   "name": "Ranco Lake",
+   "sl": 27,
+   "file": "Lago Ranco.jpg",
+   "lat": -40.2475,
+   "lon": -72.3853,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago Ranco"
+  },
+  {
+   "id": "Q937167",
+   "name": "Rano Raraku",
+   "sl": 27,
+   "file": "Rano-Raraku-from-South.jpg",
+   "lat": -27.1219,
+   "lon": -109.2889,
+   "kind": "natural",
+   "types": [
+    "volcanic cone",
+    "volcanic crater",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rano Raraku (volcano)"
+  },
+  {
+   "id": "Q422765",
+   "name": "Socompa",
+   "sl": 27,
+   "file": "Volcán Socompa.jpg",
+   "lat": -24.3933,
+   "lon": -68.2561,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Socompa"
+  },
+  {
+   "id": "Q337644",
+   "name": "Acamarachi",
+   "sl": 26,
+   "file": "Acamarachi Volcano.jpg",
+   "lat": -23.2958,
+   "lon": -67.6172,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Acamarachi"
+  },
+  {
+   "id": "Q1702870",
+   "name": "Bosque Fray Jorge National Park",
+   "sl": 26,
+   "file": "FrayJorge.JPG",
+   "lat": -30.6625,
+   "lon": -71.6828,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bosque Fray Jorge National Park"
+  },
+  {
+   "id": "Q859718",
+   "name": "Cerro Paranal",
+   "sl": 26,
+   "file": "Sunrise at Paranal.jpg",
+   "lat": -24.6272,
+   "lon": -70.4047,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Paranal"
+  },
+  {
+   "id": "Q1070747",
+   "name": "Mataveri International Airport",
+   "sl": 26,
+   "file": "Chile-03389 - Airport (49073333472).jpg",
+   "lat": -27.1647,
+   "lon": -109.4217,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mataveri Airport"
+  },
+  {
+   "id": "Q2092228",
+   "name": "Monte San Valentin",
+   "sl": 26,
+   "file": "Lago Gral. Carrera 01.JPG",
+   "lat": -46.595,
+   "lon": -73.3458,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monte San Valentín"
+  },
+  {
+   "id": "Q1031467",
+   "name": "Southern Patagonian Ice Field",
+   "sl": 26,
+   "file": "ISS-38 Southern Patagonian Ice Field.jpg",
+   "lat": -49.494,
+   "lon": -73.2706,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Southern Patagonian Ice Field"
+  },
+  {
+   "id": "Q1800412",
+   "name": "Villarrica Lake",
+   "sl": 26,
+   "file": "Villarrica, Lago Villarrica, 2019 (02).jpg",
+   "lat": -39.25,
+   "lon": -72.0833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villarrica Lake"
+  },
+  {
+   "id": "Q48783",
+   "name": "Lascar",
+   "sl": 25,
+   "file": "Lascar 2.jpg",
+   "lat": -23.3667,
+   "lon": -67.7464,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lascar Volcano"
+  },
+  {
+   "id": "Q1815821",
+   "name": "Mount Darwin",
+   "sl": 25,
+   "file": "Monte Darwin.jpg",
+   "lat": -54.75,
+   "lon": -69.4833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Darwin (Andes)"
+  },
+  {
+   "id": "Q1420297",
+   "name": "Ollagüe",
+   "sl": 25,
+   "file": "Ollagüe from Bolivia(Jan2012).jpg",
+   "lat": -21.3025,
+   "lon": -68.1792,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BO"
+   ],
+   "cat": "Ollagüe Volcano"
+  },
+  {
+   "id": "Q1759349",
+   "name": "Alberto de Agostini National Park",
+   "sl": 24,
+   "file": "BeagleChannelGlacier.jpg",
+   "lat": -54.7491,
+   "lon": -70.4397,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alberto de Agostini National Park"
+  },
+  {
+   "id": "Q609982",
+   "name": "Antuco",
+   "sl": 24,
+   "file": "Antuco Volcano.jpg",
+   "lat": -37.41,
+   "lon": -71.3511,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antuco Volcano"
+  },
+  {
+   "id": "Q1055787",
+   "name": "Cerro Azul",
+   "sl": 24,
+   "file": "Cerro Azul.jpg",
+   "lat": -35.6533,
+   "lon": -70.7608,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Azul (Chile)"
+  },
+  {
+   "id": "Q287760",
+   "name": "Chungará Lake",
+   "sl": 24,
+   "file": "Chile lauca parinacota2.jpg",
+   "lat": -18.2425,
+   "lon": -69.1525,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Chungará"
+  },
+  {
+   "id": "Q995888",
+   "name": "Falso Azufre",
+   "sl": 24,
+   "file": "Laguna Verde (Chile).jpg",
+   "lat": -26.8,
+   "lon": -68.37,
+   "kind": "natural",
+   "types": [
+    "complex volcano",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Falso Azufre"
+  },
+  {
+   "id": "Q975775",
+   "name": "Monte Verde",
+   "sl": 24,
+   "file": "Monte Verde 3.JPG",
+   "lat": -41.5047,
+   "lon": -73.2044,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monte Verde, Chile"
+  },
+  {
+   "id": "Q2742687",
+   "name": "San Pedro",
+   "sl": 24,
+   "file": "San Pedro volcano, Antofagasta, Chile.jpg",
+   "lat": -21.8878,
+   "lon": -68.3914,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Pedro Volcano (Antofagasta)"
+  },
+  {
+   "id": "Q147206",
+   "name": "Zapaleri",
+   "sl": 24,
+   "file": "Volcan Zapaleri Chile Bolivia Argentina.jpg",
+   "lat": -22.8138,
+   "lon": -67.1807,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR",
+    "BO"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q758574",
+   "name": "Aucanquilcha",
+   "sl": 23,
+   "file": "Aucanquilcha Volcano.jpg",
+   "lat": -21.2208,
+   "lon": -68.4683,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aucanquilcha"
+  },
+  {
+   "id": "Q338542",
+   "name": "Cabo de Hornos National Park",
+   "sl": 23,
+   "file": "Hermite.Islands.JPG",
+   "lat": -55.833,
+   "lon": -67.433,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabo de Hornos National Park"
+  },
+  {
+   "id": "Q1324394",
+   "name": "Cerro El Muerto",
+   "sl": 23,
+   "file": "Cerro El Muerto.jpg",
+   "lat": -27.0575,
+   "lon": -68.4839,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Cerro El Muerto"
+  },
+  {
+   "id": "Q680312",
+   "name": "Conguillío National Park",
+   "sl": 23,
+   "file": "Araucaria araucana - Parque Nacional Conguillío por lautaroj - 001.jpg",
+   "lat": -38.6667,
+   "lon": -71.65,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Conguillío National Park"
+  },
+  {
+   "id": "Q1703052",
+   "name": "Laguna San Rafael National Park",
+   "sl": 23,
+   "file": "Lago Gral. Carrera 01.JPG",
+   "lat": -47,
+   "lon": -74,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna San Rafael National Park"
+  },
+  {
+   "id": "Q1340624",
+   "name": "Rano Kau",
+   "sl": 23,
+   "file": "Vulcão Rano Kau-1 (53607874624).jpg",
+   "lat": -27.1864,
+   "lon": -109.4353,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rano Kau"
+  },
+  {
+   "id": "Q658351",
+   "name": "Sausalito Stadium",
+   "sl": 23,
+   "file": "Estadio Sausalito Everton v Unión La Calera 20230716 03.jpg",
+   "lat": -33.0144,
+   "lon": -71.535,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Sausalito"
+  }
+ ]
+}

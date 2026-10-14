@@ -1,0 +1,222 @@
+{
+ "country": "BS",
+ "items": [
+  {
+   "id": "Q1415006",
+   "name": "Lynden Pindling International Airport",
+   "sl": 22,
+   "file": "Lyndon Pindling International Airport, Nassau (1976).jpg",
+   "lat": 25.0389,
+   "lon": -77.4661,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lynden Pindling International Airport"
+  },
+  {
+   "id": "Q746274",
+   "name": "Mount Alvernia",
+   "sl": 22,
+   "file": "The Hermitage, Cat Island, Bahamas.jpg",
+   "lat": 24.2942,
+   "lon": -75.4083,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2722966",
+   "name": "Atlantis Paradise Island",
+   "sl": 17,
+   "file": "The Royal Tower Atlantis Paradise Island photo Don Ramey Logan.jpg",
+   "lat": 25.085,
+   "lon": -77.3208,
+   "kind": "built",
+   "types": [
+    "resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Atlantis, Paradise Island"
+  },
+  {
+   "id": "Q3499608",
+   "name": "Exuma International Airport",
+   "sl": 14,
+   "file": "Exuma International Airport.jpg",
+   "lat": 23.5633,
+   "lon": -75.8731,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Exuma International Airport"
+  },
+  {
+   "id": "Q600140",
+   "name": "Compass Point Studios",
+   "sl": 13,
+   "file": "Compas Point Studio (14949011761).jpg",
+   "lat": 25.0642,
+   "lon": -77.4783,
+   "kind": "built",
+   "types": [
+    "recording studio"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1181185",
+   "name": "Dean's Blue Hole",
+   "sl": 13,
+   "file": "Dean Blue Hole Long Island Bahamas 20110210.JPG",
+   "lat": 23.1064,
+   "lon": -75.0086,
+   "kind": "natural",
+   "types": [
+    "blue hole"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q590296",
+   "name": "Thomas Robinson Stadium",
+   "sl": 13,
+   "file": "Tommy Robinson National Stadium.jpg",
+   "lat": 25.0556,
+   "lon": -77.3587,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Thomas Robinson National Stadium"
+  },
+  {
+   "id": "Q651770",
+   "name": "Leonard M. Thompson International Airport",
+   "sl": 10,
+   "file": "LTIA.jpg",
+   "lat": 26.5114,
+   "lon": -77.0836,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leonard M. Thompson International Airport"
+  },
+  {
+   "id": "Q14216932",
+   "name": "Ocean Cay Marine Reserve",
+   "sl": 10,
+   "file": "Ocean Cay overview from the south direction (March 12, 2024).jpg",
+   "lat": 25.4209,
+   "lon": -79.2055,
+   "kind": "both",
+   "types": [
+    "artificial island",
+    "cay",
+    "island",
+    "privately owned island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ocean Cay"
+  },
+  {
+   "id": "Q2901853",
+   "name": "Arthur's Town Airport",
+   "sl": 9,
+   "file": "The Arthurs Town, Cat Island airport terminal. - panoramio.jpg",
+   "lat": 24.6294,
+   "lon": -75.6739,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arthur's Town Airport"
+  },
+  {
+   "id": "Q800195",
+   "name": "Bahama Banks",
+   "sl": 8,
+   "file": "Bahamabank.jpg",
+   "lat": 24.0465,
+   "lon": -77.6514,
+   "kind": "natural",
+   "types": [
+    "ocean bank"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5422508",
+   "name": "Exuma Cays Land and Sea Park",
+   "sl": 8,
+   "file": "Exuma Cays Land and Sea Park 2.jpeg",
+   "lat": 24.42,
+   "lon": -76.69,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Exuma Cays Land and Sea Park"
+  },
+  {
+   "id": "Q667980",
+   "name": "North Eleuthera Airport",
+   "sl": 8,
+   "file": "North Eleuthera's Airport - panoramio.jpg",
+   "lat": 25.475,
+   "lon": -76.6836,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

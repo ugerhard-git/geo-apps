@@ -1,0 +1,458 @@
+{
+ "country": "BW",
+ "items": [
+  {
+   "id": "Q650872",
+   "name": "Okavango Delta",
+   "sl": 66,
+   "file": "Okavango11.jpg",
+   "lat": -19.4,
+   "lon": 22.9,
+   "kind": "natural",
+   "types": [
+    "body of water",
+    "inland delta",
+    "river delta",
+    "watercourse"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Okavango Delta"
+  },
+  {
+   "id": "Q214007",
+   "name": "Tsodilo",
+   "sl": 53,
+   "file": "Tsodilo rock paintings 1.jpg",
+   "lat": -18.7717,
+   "lon": 21.7542,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsodilo"
+  },
+  {
+   "id": "Q859389",
+   "name": "Chobe National Park",
+   "sl": 40,
+   "file": "Gnus zebras chobe national park.jpg",
+   "lat": -18.65,
+   "lon": 24.4,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chobe National Park"
+  },
+  {
+   "id": "Q194732",
+   "name": "Central Kalahari Game Reserve",
+   "sl": 34,
+   "file": "Oryx running (8025786809).jpg",
+   "lat": -21.8895,
+   "lon": 23.7565,
+   "kind": "natural",
+   "types": [
+    "game reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Central Kalahari Game Reserve"
+  },
+  {
+   "id": "Q849108",
+   "name": "Lake Ngami",
+   "sl": 31,
+   "file": "Lake Ngami-1857.jpg",
+   "lat": -20.4825,
+   "lon": 22.7725,
+   "kind": "natural",
+   "types": [
+    "endorheic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ngami"
+  },
+  {
+   "id": "Q533041",
+   "name": "Makgadikgadi Pans",
+   "sl": 31,
+   "file": "DeltaOkawango.jpg",
+   "lat": -20.7167,
+   "lon": 24.9508,
+   "kind": "natural",
+   "types": [
+    "basin",
+    "salt pan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q859385",
+   "name": "Kgalagadi Transfrontier Park",
+   "sl": 30,
+   "file": "Gemsbock Kalahari.jpg",
+   "lat": -25.7667,
+   "lon": 20.3833,
+   "kind": "natural",
+   "types": [
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZA"
+   ],
+   "cat": "Kgalagadi Transfrontier Park"
+  },
+  {
+   "id": "Q1327949",
+   "name": "Sir Seretse Khama International Airport",
+   "sl": 30,
+   "file": "KhamaInterior.jpg",
+   "lat": -24.5558,
+   "lon": 25.9231,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sir Seretse Khama Airport"
+  },
+  {
+   "id": "Q20808678",
+   "name": "Kazungula Bridge",
+   "sl": 24,
+   "file": "The new bridge at Kazangula.jpg",
+   "lat": -17.7911,
+   "lon": 25.2625,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZM"
+   ],
+   "cat": "Kazungula Bridge"
+  },
+  {
+   "id": "Q1431675",
+   "name": "Kasane Airport",
+   "sl": 22,
+   "file": "Kasane Airport, Botswana (52541632848).jpg",
+   "lat": -17.8297,
+   "lon": 25.1631,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kasane Airport"
+  },
+  {
+   "id": "Q859377",
+   "name": "Nxai Pan National Park",
+   "sl": 20,
+   "file": "Botswana Nxai Pan NP Salzpfanne.jpg",
+   "lat": -20.0417,
+   "lon": 24.7689,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nxai Pan National Park"
+  },
+  {
+   "id": "Q649771",
+   "name": "Lake Makgadikgadi",
+   "sl": 18,
+   "file": "Lake Makgadikgadi SPOT 1136.jpg",
+   "lat": -20.7167,
+   "lon": 24.9508,
+   "kind": "natural",
+   "types": [
+    "paleolake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Makgadikgadi"
+  },
+  {
+   "id": "Q121760",
+   "name": "Maun Airport",
+   "sl": 18,
+   "file": "Maun Airport.jpg",
+   "lat": -19.9725,
+   "lon": 23.4311,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maun Airport"
+  },
+  {
+   "id": "Q353112",
+   "name": "Moremi Game Reserve",
+   "sl": 18,
+   "file": "Moremi elephant.jpg",
+   "lat": -19.1667,
+   "lon": 23.1667,
+   "kind": "natural",
+   "types": [
+    "game reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moremi Game Reserve"
+  },
+  {
+   "id": "Q178248",
+   "name": "Kaapvaal craton",
+   "sl": 17,
+   "file": "Gold fields.jpg",
+   "lat": -25,
+   "lon": 25,
+   "kind": "natural",
+   "types": [
+    "craton"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SZ",
+    "ZA"
+   ],
+   "cat": "Kaapvaal Craton"
+  },
+  {
+   "id": "Q1343495",
+   "name": "Shakawe Airport",
+   "sl": 13,
+   "file": "Shakawe Terminal Building.jpg",
+   "lat": -18.3742,
+   "lon": 21.8311,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shakawe Airport"
+  },
+  {
+   "id": "Q6897936",
+   "name": "Monalanong Hill",
+   "sl": 12,
+   "file": "Mannyelanong Hill 20200721.jpg",
+   "lat": -24.8408,
+   "lon": 25.665,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3491942",
+   "name": "Otse Hill",
+   "sl": 12,
+   "file": "Lovers mountains.jpg",
+   "lat": -25.0183,
+   "lon": 25.7258,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q894862",
+   "name": "Botswana National Stadium",
+   "sl": 11,
+   "file": "Botswana National Stadium 20150928 115938.jpg",
+   "lat": -24.6568,
+   "lon": 25.9329,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5515478",
+   "name": "Gaborone Dam",
+   "sl": 11,
+   "file": "GaberoneAerial.jpg",
+   "lat": -24.7002,
+   "lon": 25.9264,
+   "kind": "both",
+   "types": [
+    "embankment dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gaborone Dam"
+  },
+  {
+   "id": "Q4379069",
+   "name": "Mokolodi Nature Reserve",
+   "sl": 11,
+   "file": "Mokolodi Nature Reserve reception.JPG",
+   "lat": -24.7433,
+   "lon": 25.7989,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mokolodi Nature Reserve"
+  },
+  {
+   "id": "Q859765",
+   "name": "Obed Itani Chilume Stadium",
+   "sl": 11,
+   "file": "Francistown Stadium Botswana.jpg",
+   "lat": -21.1515,
+   "lon": 27.4787,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Obed Itani Chilume Stadium"
+  },
+  {
+   "id": "Q4352520",
+   "name": "Kgale Hill",
+   "sl": 10,
+   "file": "Kgale Hill 2.jpg",
+   "lat": -24.6957,
+   "lon": 25.8678,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kgale Hill"
+  },
+  {
+   "id": "Q859613",
+   "name": "Botswana National Museum",
+   "sl": 9,
+   "file": "Gaborone National Museum 20200211.jpg",
+   "lat": -24.657,
+   "lon": 25.9197,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Botswana National Museum"
+  },
+  {
+   "id": "Q55615899",
+   "name": "Khama Rhino Sanctuary",
+   "sl": 9,
+   "file": "Rinoceronte blanco (Ceratotherium simum), Santuario de Rinocerontes Khama, Botsuana, 2018-08-02, DD 06.jpg",
+   "lat": -22.2347,
+   "lon": 26.72,
+   "kind": "natural",
+   "types": [
+    "game reserve",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khama Rhino Sanctuary, Botswana"
+  },
+  {
+   "id": "Q1747195",
+   "name": "Makgadikgadi Pans National Park",
+   "sl": 8,
+   "file": "690V3686 - Flickr - Lip Kee.jpg",
+   "lat": -20.605,
+   "lon": 24.7828,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Makgadikgadi Pans National Park"
+  },
+  {
+   "id": "Q7630419",
+   "name": "Sua Pan",
+   "sl": 8,
+   "file": "Makgadigadi pans, Sodium Carbonate pans, Na2CO3. Algae causes the red. Camera at 10 000 feet altitude and ground is about 3 280 feet (1000 metres) altitude. - panoramio.jpg",
+   "lat": -20.9922,
+   "lon": 25.9729,
+   "kind": "natural",
+   "types": [
+    "salt pan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sua Pan"
+  }
+ ]
+}

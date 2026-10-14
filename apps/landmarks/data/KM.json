@@ -1,0 +1,103 @@
+{
+ "country": "KM",
+ "items": [
+  {
+   "id": "Q527548",
+   "name": "Mount Karthala",
+   "sl": 37,
+   "file": "Karthala volcano-Comoros.jpg",
+   "lat": -11.7603,
+   "lon": 43.3531,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karthala"
+  },
+  {
+   "id": "Q653299",
+   "name": "Prince Said Ibrahim International Airport",
+   "sl": 30,
+   "file": "Air Tanzania B737 at Hahaya Airport.jpg",
+   "lat": -11.5367,
+   "lon": 43.2714,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prince Said Ibrahim International Airport"
+  },
+  {
+   "id": "Q18379552",
+   "name": "National Museum of Comoros",
+   "sl": 14,
+   "file": "Musee des Comores (10842842534).jpg",
+   "lat": -11.7032,
+   "lon": 43.2556,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of the Comoros"
+  },
+  {
+   "id": "Q3364399",
+   "name": "Mohéli National Park",
+   "sl": 11,
+   "file": "Ouallah-Mohéli-Corail.jpg",
+   "lat": -12.1667,
+   "lon": 43.7667,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3068900",
+   "name": "Stade Said Mohamed Cheikh",
+   "sl": 11,
+   "file": "Nationalstadion Komoren.JPG",
+   "lat": -11.3922,
+   "lon": 43.2886,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q65135568",
+   "name": "Stade omnisports de Malouzini",
+   "sl": 9,
+   "file": "Tribune Ouest Malouzini.jpg",
+   "lat": -11.7242,
+   "lon": 43.2411,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade omnisports de Malouzini"
+  }
+ ]
+}

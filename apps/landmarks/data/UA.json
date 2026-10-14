@@ -1,0 +1,1405 @@
+{
+ "country": "UA",
+ "items": [
+  {
+   "id": "Q2652980",
+   "name": "Crimean Bridge",
+   "sl": 68,
+   "file": "Крымский мост 13 сентября 2019 года (1).jpg",
+   "lat": 45.3086,
+   "lon": 36.5061,
+   "kind": "built",
+   "types": [
+    "cross-sea bridge",
+    "railway bridge",
+    "road bridge",
+    "truss arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Crimean Bridge"
+  },
+  {
+   "id": "Q242711",
+   "name": "Kyiv Pechersk Lavra",
+   "sl": 67,
+   "file": "Києво-Печерська лавра, вид з мосту Патона.jpg",
+   "lat": 50.4341,
+   "lon": 30.5583,
+   "kind": "built",
+   "types": [
+    "eastern orthodox monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16363487",
+    "name": "Kyiv: Saint-Sophia Cathedral and Related Monastic Buildings, Kyiv-Pechersk Lavra"
+   },
+   "also": [],
+   "cat": "Kyiv Pechersk Lavra"
+  },
+  {
+   "id": "Q638445",
+   "name": "Chersonesus",
+   "sl": 65,
+   "file": "Chersonesos ruins.jpg",
+   "lat": 44.6116,
+   "lon": 33.4933,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "cultural property",
+    "historic site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64532917",
+    "name": "Ancient City of Tauric Chersonese and its Chora"
+   },
+   "also": [],
+   "cat": "Chersonesos Taurica"
+  },
+  {
+   "id": "Q830054",
+   "name": "Saint Sophia Cathedral",
+   "sl": 64,
+   "file": "80-391-0151 Kyiv St.Sophia's Cathedral RB 18 2 (cropped).jpg",
+   "lat": 50.4528,
+   "lon": 30.5144,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "church building",
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16363487",
+    "name": "Kyiv: Saint-Sophia Cathedral and Related Monastic Buildings, Kyiv-Pechersk Lavra"
+   },
+   "also": [],
+   "cat": "Saint Sophia Cathedral in Kyiv"
+  },
+  {
+   "id": "Q84151",
+   "name": "Taras Shevchenko National University of Kyiv",
+   "sl": 61,
+   "file": "Universidad Roja de Kiev.jpg",
+   "lat": 50.4419,
+   "lon": 30.5113,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "open-access publisher",
+    "public university",
+    "research university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taras Shevchenko National University of Kyiv"
+  },
+  {
+   "id": "Q477677",
+   "name": "Boryspil International Airport",
+   "sl": 60,
+   "file": "Аэропрт Борисполь стоянки самолетов. Фото Виктора Белоусова - panoramio (1).jpg",
+   "lat": 50.3447,
+   "lon": 30.8933,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boryspil International Airport"
+  },
+  {
+   "id": "Q627508",
+   "name": "Hoverla",
+   "sl": 59,
+   "file": "Говерла 2015.JPG",
+   "lat": 48.1603,
+   "lon": 24.5,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hoverla"
+  },
+  {
+   "id": "Q863759",
+   "name": "Maidan Nezalezhnosti",
+   "sl": 54,
+   "file": "Maidan Nezalezhnosti view.jpg",
+   "lat": 50.4502,
+   "lon": 30.5239,
+   "kind": "built",
+   "types": [],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maidan Nezalezhnosti"
+  },
+  {
+   "id": "Q183529",
+   "name": "Olimpiyskiy National Sports Complex",
+   "sl": 54,
+   "file": "Kyiv NSC Olimpiyskyi 5.jpg",
+   "lat": 50.4333,
+   "lon": 30.5217,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "NSC Olimpiyskyi"
+  },
+  {
+   "id": "Q1130771",
+   "name": "Syvash Bay",
+   "sl": 53,
+   "file": "Старое (озеро, Крым).jpg",
+   "lat": 46.0833,
+   "lon": 34.3333,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "lagoon",
+    "marsh"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Syvash"
+  },
+  {
+   "id": "Q732489",
+   "name": "Mariinskyi Palace",
+   "sl": 51,
+   "file": "Маріїнський палац в Києві (cropped).jpg",
+   "lat": 50.4483,
+   "lon": 30.5375,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mariinskyi Palace (Kyiv)"
+  },
+  {
+   "id": "Q213214",
+   "name": "Isthmus of Perekop",
+   "sl": 48,
+   "file": "Isthmus of Perekop map.png",
+   "lat": 46.15,
+   "lon": 33.6667,
+   "kind": "natural",
+   "types": [
+    "isthmus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isthmus of Perekop"
+  },
+  {
+   "id": "Q180479",
+   "name": "Donbass Arena",
+   "sl": 47,
+   "file": "Donetsk Donbass Arena 40.jpg",
+   "lat": 48.0208,
+   "lon": 37.8097,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Donbass Arena"
+  },
+  {
+   "id": "Q1142386",
+   "name": "Saint Michael's Golden-Domed Monastery",
+   "sl": 46,
+   "file": "Chrám svatého Michala.jpg",
+   "lat": 50.4556,
+   "lon": 30.5228,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building",
+    "eastern orthodox monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Michael's Golden-Domed Monastery in Kyiv"
+  },
+  {
+   "id": "Q1440653",
+   "name": "House with Chimaeras",
+   "sl": 45,
+   "file": "House with Chimaeras-2020.jpg",
+   "lat": 50.445,
+   "lon": 30.5286,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "House with Chimeras (Kyiv)"
+  },
+  {
+   "id": "Q1055311",
+   "name": "Livadia Palace",
+   "sl": 45,
+   "file": "Livadia Palace Crimea.jpg",
+   "lat": 44.4678,
+   "lon": 34.1436,
+   "kind": "built",
+   "types": [
+    "museum",
+    "palace",
+    "summer residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Livadiya palace"
+  },
+  {
+   "id": "Q8032604",
+   "name": "Wooden tserkvas of Carpathian region in Poland and Ukraine",
+   "sl": 45,
+   "file": "Zabytkowa cerkiew wpisana na listę UNESCO.jpg",
+   "lat": 49.5339,
+   "lon": 21.0322,
+   "kind": "natural",
+   "types": [
+    "transboundary site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Wooden churches of Carpathian region in Poland and Ukraine"
+  },
+  {
+   "id": "Q215399",
+   "name": "Arena Lviv",
+   "sl": 44,
+   "file": "Arena Lviv 5.jpg",
+   "lat": 49.7753,
+   "lon": 24.0278,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arena Lviv"
+  },
+  {
+   "id": "Q141012",
+   "name": "Khotyn Fortress",
+   "sl": 43,
+   "file": "73-250-0001 Khotyn Fortress RB 18.jpg",
+   "lat": 48.5219,
+   "lon": 26.4983,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khotyn Fortress"
+  },
+  {
+   "id": "Q3585",
+   "name": "Metalist Stadium",
+   "sl": 43,
+   "file": "Metalist Stadium Kharkiv.jpg",
+   "lat": 49.9809,
+   "lon": 36.2617,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Metalist Stadium, Kharkiv"
+  },
+  {
+   "id": "Q623684",
+   "name": "Arabat Spit",
+   "sl": 41,
+   "file": "Arabat arrow.jpg",
+   "lat": 45.7,
+   "lon": 35,
+   "kind": "built",
+   "types": [
+    "spit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arabat Spit"
+  },
+  {
+   "id": "Q743881",
+   "name": "Khan's Palace",
+   "sl": 41,
+   "file": "Bakhchisarai Palace2.jpg",
+   "lat": 44.7486,
+   "lon": 33.8819,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "building complex",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bakhchisaray Palace"
+  },
+  {
+   "id": "Q936126",
+   "name": "Crimean Astrophysical Observatory",
+   "sl": 40,
+   "file": "Nauchny and CrAO-Crimea Ukraine.jpg",
+   "lat": 44.7267,
+   "lon": 34.0159,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Crimean Astrophysical Observatory"
+  },
+  {
+   "id": "Q1431229",
+   "name": "Donetsk International Airport",
+   "sl": 40,
+   "file": "Donetsk Airport.jpg",
+   "lat": 48.069,
+   "lon": 37.742,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Donetsk International Airport"
+  },
+  {
+   "id": "Q1055941",
+   "name": "Hostomel Airport",
+   "sl": 40,
+   "file": "Gostomel-airport.jpg",
+   "lat": 50.6036,
+   "lon": 30.1919,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hostomel Airport"
+  },
+  {
+   "id": "Q1540436",
+   "name": "Kakhovka Reservoir",
+   "sl": 40,
+   "file": "Kakhovka Reservoir Drys Up (MODIS).jpg",
+   "lat": 47.5,
+   "lon": 34.25,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kakhovka Reservoir"
+  },
+  {
+   "id": "Q958769",
+   "name": "National Academy of Sciences of Ukraine",
+   "sl": 40,
+   "file": "Владимирская 54 Киев 2010 01.JPG",
+   "lat": 50.445,
+   "lon": 30.5125,
+   "kind": "built",
+   "types": [
+    "academy of sciences",
+    "building",
+    "language regulator",
+    "open-access publisher"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Academy of Sciences of Ukraine"
+  },
+  {
+   "id": "Q1427503",
+   "name": "Golden Gate",
+   "sl": 39,
+   "file": "Golden Gate Kiev 2018 G1.jpg",
+   "lat": 50.4483,
+   "lon": 30.5131,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "fortification",
+    "gate",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Golden Gate (Kyiv)"
+  },
+  {
+   "id": "Q167321",
+   "name": "Saint Andrew's Church",
+   "sl": 39,
+   "file": "2017 - Київ - Місячний вечір на Замковій горі.jpg",
+   "lat": 50.4589,
+   "lon": 30.5181,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Andrew's Church, Kyiv"
+  },
+  {
+   "id": "Q1353643",
+   "name": "Swallow's Nest",
+   "sl": 39,
+   "file": "Crimea South Coast 04-14 img10 Gaspra Swallows Nest.jpg",
+   "lat": 44.4306,
+   "lon": 34.1285,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "castle",
+    "folly"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Swallow's Nest (Crimea)"
+  },
+  {
+   "id": "Q2375603",
+   "name": "Kamianets-Podilskyi Castle",
+   "sl": 38,
+   "file": "Zamek w Kamieńcu Podolskim 2019.jpg",
+   "lat": 48.6733,
+   "lon": 26.5625,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamianets-Podilskyi Castle"
+  },
+  {
+   "id": "Q1866166",
+   "name": "Lubart's Castle",
+   "sl": 38,
+   "file": "Вежа луцького замку.jpg",
+   "lat": 50.7389,
+   "lon": 25.3233,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lutsk castle"
+  },
+  {
+   "id": "Q1432234",
+   "name": "Odesa International Airport",
+   "sl": 38,
+   "file": "Новый терминал аэропорта Одесса.jpg",
+   "lat": 46.4269,
+   "lon": 30.6781,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Odesa International Airport"
+  },
+  {
+   "id": "Q156067",
+   "name": "Residence of Bukovinian and Dalmatian Metropolitans",
+   "sl": 38,
+   "file": "Резиденція митрополитів Буковини і Далмації 5.jpg",
+   "lat": 48.2966,
+   "lon": 25.9249,
+   "kind": "",
+   "types": [
+    "architectural ensemble"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace Residence of the Metropolitans (Chernivtsi)"
+  },
+  {
+   "id": "Q2297522",
+   "name": "Sofiyivsky Park",
+   "sl": 38,
+   "file": "Sofievka11.JPG",
+   "lat": 48.7631,
+   "lon": 30.2225,
+   "kind": "built",
+   "types": [
+    "arboretum",
+    "architectural landmark",
+    "cultural property",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sofiivka Park"
+  },
+  {
+   "id": "Q1017178",
+   "name": "Chufut-Kale",
+   "sl": 37,
+   "file": "Cave City.jpg",
+   "lat": 44.741,
+   "lon": 33.9245,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Çufut Qale"
+  },
+  {
+   "id": "Q939543",
+   "name": "Kyiv Zhuliany International Airport",
+   "sl": 37,
+   "file": "Міжнародний аеропорт \"Київ\" (Жуляни).jpg",
+   "lat": 50.4017,
+   "lon": 30.4517,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kyiv International Airport (Zhuliany)"
+  },
+  {
+   "id": "Q735948",
+   "name": "North Crimean Canal",
+   "sl": 37,
+   "file": "Северо-Крымский канал - panoramio.jpg",
+   "lat": 45.3367,
+   "lon": 36.0411,
+   "kind": "built",
+   "types": [
+    "irrigation canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "North Crimean Canal"
+  },
+  {
+   "id": "Q988400",
+   "name": "Mangup",
+   "sl": 36,
+   "file": "Mangup-Kale, Old citadel, Castle, Baba-Dag, Crimea.jpg",
+   "lat": 44.5931,
+   "lon": 33.8014,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cave city",
+    "former settlement",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mangup"
+  },
+  {
+   "id": "Q1774485",
+   "name": "Saint George's Cathedral",
+   "sl": 36,
+   "file": "Lviv - Cathedral of Saint George 01.JPG",
+   "lat": 49.8386,
+   "lon": 24.0131,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint George cathedral, Lviv"
+  },
+  {
+   "id": "Q1189277",
+   "name": "National Art Museum of Ukraine",
+   "sl": 35,
+   "file": "Національний художній музей України, Київ.jpg",
+   "lat": 50.4494,
+   "lon": 30.5311,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "cultural institution",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Art Museum of Ukraine"
+  },
+  {
+   "id": "Q1413595",
+   "name": "Potemkin Stairs",
+   "sl": 35,
+   "file": "Потьомкінські сходи 11.jpg",
+   "lat": 46.4885,
+   "lon": 30.742,
+   "kind": "built",
+   "types": [
+    "monumental staircase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Potemkin Stairs"
+  },
+  {
+   "id": "Q2092607",
+   "name": "Roman-Kosh",
+   "sl": 35,
+   "file": "Roman-Kosh (Crimea) top2.jpg",
+   "lat": 44.6128,
+   "lon": 34.2422,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roman-Kosh"
+  },
+  {
+   "id": "Q1432871",
+   "name": "Simferopol International Airport",
+   "sl": 35,
+   "file": "Аэропорт Симферополь.jpg",
+   "lat": 45.0522,
+   "lon": 33.9753,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "federal aeroport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Simferopol International Airport"
+  },
+  {
+   "id": "Q1472360",
+   "name": "Sviatohirsk Lavra",
+   "sl": 35,
+   "file": "Вид на Миколаївську церкву та міст.jpg",
+   "lat": 49.0283,
+   "lon": 37.5681,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sviatohirsk Lavra"
+  },
+  {
+   "id": "Q708096",
+   "name": "Askania-Nova",
+   "sl": 34,
+   "file": "Przewalski's Horse Askania Nova.jpg",
+   "lat": 46.4519,
+   "lon": 33.8808,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Askania-Nova"
+  },
+  {
+   "id": "Q1241230",
+   "name": "Donets Ridge",
+   "sl": 34,
+   "file": "Пример 2..jpg",
+   "lat": 48,
+   "lon": 39,
+   "kind": "natural",
+   "types": [
+    "highland",
+    "mountain ridge",
+    "upland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Donets Ridge"
+  },
+  {
+   "id": "Q2492784",
+   "name": "Kharkiv International Airport",
+   "sl": 34,
+   "file": "Kharkiv International Airport. Passenger Terminal A.jpg",
+   "lat": 49.9247,
+   "lon": 36.29,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kharkiv International Airport"
+  },
+  {
+   "id": "Q4240278",
+   "name": "Saint Elisabeth Fortress",
+   "sl": 34,
+   "file": "Карта-схема к статье «Елисаветы Святой крепость». Военная энциклопедия Сытина (Санкт-Петербург, 1911-1915).jpg",
+   "lat": 48.498,
+   "lon": 32.254,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Elisabeth fortress, Kropyvnytskyi"
+  },
+  {
+   "id": "Q864741",
+   "name": "Carpathian Biosphere Reserve",
+   "sl": 33,
+   "file": "Нарциси в Мармаросах.jpg",
+   "lat": 48.03,
+   "lon": 24.12,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "Carpathian protected areas in Ukraine",
+    "government organization",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carpathian Biosphere Reserve"
+  },
+  {
+   "id": "Q1369185",
+   "name": "Kyiv TV Tower",
+   "sl": 33,
+   "file": "Киевская телебашня.JPG",
+   "lat": 50.4711,
+   "lon": 30.4533,
+   "kind": "built",
+   "types": [
+    "lattice tower",
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kyiv TV tower"
+  },
+  {
+   "id": "Q282909",
+   "name": "Lviv Danylo Halytskyi International Airport",
+   "sl": 33,
+   "file": "TerminalLWO.png",
+   "lat": 49.8125,
+   "lon": 23.9561,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lviv International Airport"
+  },
+  {
+   "id": "Q1417441",
+   "name": "St Volodymyr's Cathedral",
+   "sl": 33,
+   "file": "St. Volodymyr's Cathedral in Kiev.jpg",
+   "lat": 50.4449,
+   "lon": 30.5087,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Volodymyr's Cathedral"
+  },
+  {
+   "id": "Q1974485",
+   "name": "Dniester Lyman",
+   "sl": 32,
+   "file": "Аккерманська фортеця. Вигляд на лиман.jpg",
+   "lat": 46.2333,
+   "lon": 30.35,
+   "kind": "natural",
+   "types": [
+    "estuary",
+    "liman"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dniester Estuary"
+  },
+  {
+   "id": "Q2628708",
+   "name": "Vorontsov Palace",
+   "sl": 32,
+   "file": "Дворец Воронцова северный фасад.jpg",
+   "lat": 44.4198,
+   "lon": 34.0555,
+   "kind": "built",
+   "types": [
+    "mansion",
+    "museum",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Vorontsov Palace (Alupka)"
+  },
+  {
+   "id": "Q195513",
+   "name": "Odesa Opera and Ballet Theater",
+   "sl": 31,
+   "file": "Украина, Одесса - Оперный театр 04.jpg",
+   "lat": 46.4855,
+   "lon": 30.7413,
+   "kind": "built",
+   "types": [
+    "opera house",
+    "theatre building",
+    "theatre company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Odesa National Academic Opera and Ballet Theatre"
+  },
+  {
+   "id": "Q1188040",
+   "name": "Synevyr",
+   "sl": 31,
+   "file": "Ранкові промені на Синевирі.jpg",
+   "lat": 48.6167,
+   "lon": 23.6839,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Synevyr Lake"
+  },
+  {
+   "id": "Q592734",
+   "name": "Vernadsky National Library of Ukraine",
+   "sl": 31,
+   "file": "2017-05-13 Національна бібліотека України імені В. І. Вернадського.jpg",
+   "lat": 50.4042,
+   "lon": 30.5188,
+   "kind": "built",
+   "types": [
+    "building",
+    "national library",
+    "open-access publisher",
+    "United Nations Depository Library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vernadsky National Library of Ukraine"
+  },
+  {
+   "id": "Q4166247",
+   "name": "Donetsk Academic Regional Drama Theatre",
+   "sl": 30,
+   "file": "Мариупольский драмтеатр.jpg",
+   "lat": 47.0961,
+   "lon": 37.5486,
+   "kind": "built",
+   "types": [
+    "theatre building",
+    "theatre company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Theatre of Mariupol"
+  },
+  {
+   "id": "Q961993",
+   "name": "Freedom Square",
+   "sl": 30,
+   "file": "Будинок держпромисловості, Харків DJI 0057.jpg",
+   "lat": 50.0044,
+   "lon": 36.2342,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Svobody Square, Kharkiv"
+  },
+  {
+   "id": "Q1076911",
+   "name": "Khreshchatyk",
+   "sl": 30,
+   "file": "Khreshchatyk.jpg",
+   "lat": 50.4472,
+   "lon": 30.5219,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khreshchatyk"
+  },
+  {
+   "id": "Q1425651",
+   "name": "Kyiv Reservoir",
+   "sl": 30,
+   "file": "Landsat Kiev Water Reservoir1.JPG",
+   "lat": 50.9064,
+   "lon": 30.4994,
+   "kind": "both",
+   "types": [
+    "geographical feature",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BY"
+   ],
+   "cat": "Kyiv Reservoir"
+  },
+  {
+   "id": "Q2105249",
+   "name": "Kyiv-Pasazhyrskyi railway station",
+   "sl": 30,
+   "file": "Вокзал залізничний. Вид з готелю \"Експрес\".jpg",
+   "lat": 50.4405,
+   "lon": 30.489,
+   "kind": "built",
+   "types": [
+    "central station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Main building of Kyiv-Pasazhyrskyi Railway Station"
+  },
+  {
+   "id": "Q2299324",
+   "name": "Transfiguration Cathedral",
+   "sl": 30,
+   "file": "Спасо-Преображенський собор, Одеса DSC8126.jpg",
+   "lat": 46.4832,
+   "lon": 30.731,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Transfiguration Cathedral, Odesa"
+  },
+  {
+   "id": "Q4905930",
+   "name": "Big Khan Mosque",
+   "sl": 29,
+   "file": "Bakhchysarai 04-14 img14 Palace Grand Mosque.jpg",
+   "lat": 44.7487,
+   "lon": 33.882,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Big mosque in Bakhchisaray Palace"
+  },
+  {
+   "id": "Q1431500",
+   "name": "Kremenchuk Reservoir",
+   "sl": 29,
+   "file": "Landsat Kremenchuk Water Reservoir.jpeg",
+   "lat": 49.2667,
+   "lon": 32.6333,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kremenchuk Reservoir"
+  },
+  {
+   "id": "Q943794",
+   "name": "Pidhirtsi Castle",
+   "sl": 29,
+   "file": "Podhorce - Zamek 01A.jpg",
+   "lat": 49.9431,
+   "lon": 24.9835,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pidhirtsi Castle"
+  },
+  {
+   "id": "Q1517833",
+   "name": "Ai-Petri",
+   "sl": 28,
+   "file": "Ai-Petri.jpg",
+   "lat": 44.4511,
+   "lon": 34.0528,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Aj-Petri"
+  },
+  {
+   "id": "Q4215646",
+   "name": "Carpathian National Nature Park",
+   "sl": 28,
+   "file": "Білий слон.jpg",
+   "lat": 48.3,
+   "lon": 24.5833,
+   "kind": "natural",
+   "types": [
+    "national nature park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carpathian National Nature Park"
+  },
+  {
+   "id": "Q6672159",
+   "name": "Kherson Art Museum",
+   "sl": 28,
+   "file": "Будинок колишньої Херсонської міської думи (мур.) 2.jpg",
+   "lat": 46.6297,
+   "lon": 32.6094,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "34 Soborna Street, Kherson"
+  },
+  {
+   "id": "Q4497328",
+   "name": "Kherson International Airport",
+   "sl": 28,
+   "file": "Kherson airport passenger terminal.jpg",
+   "lat": 46.6681,
+   "lon": 32.5022,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport",
+    "joint-use aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kherson International Airport"
+  },
+  {
+   "id": "Q1641035",
+   "name": "Optymistychna Cave",
+   "sl": 28,
+   "file": "Вхід у печеру Оптимістична (2).jpg",
+   "lat": 48.7349,
+   "lon": 25.9737,
+   "kind": "natural",
+   "types": [
+    "cave",
+    "solutional cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Optymistychna Cave"
+  },
+  {
+   "id": "Q906661",
+   "name": "Panticapaeum",
+   "sl": 28,
+   "file": "Архітектурно-археологічний комплекс «Стародавнє місто Пантікапей».JPG",
+   "lat": 45.3386,
+   "lon": 36.4681,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "Greek colony",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Panticapaeum"
+  },
+  {
+   "id": "Q2642363",
+   "name": "Paton Bridge",
+   "sl": 28,
+   "file": "Paton's Bridge, Kiev.jpg",
+   "lat": 50.4278,
+   "lon": 30.5834,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yevhen Paton Bridge"
+  },
+  {
+   "id": "Q772781",
+   "name": "Yeni-Kale",
+   "sl": 28,
+   "file": "Yeni-Kale fortress, Kerch.jpg",
+   "lat": 45.3494,
+   "lon": 36.6046,
+   "kind": "built",
+   "types": [
+    "cultural heritage site in Ukraine",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Yeni-Kale"
+  },
+  {
+   "id": "Q2470386",
+   "name": "Ayu-Dag",
+   "sl": 27,
+   "file": "Artek001.jpg",
+   "lat": 44.5607,
+   "lon": 34.3268,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Ayu-Dag"
+  },
+  {
+   "id": "Q1431225",
+   "name": "Dnipro International Airport",
+   "sl": 27,
+   "file": "Main terminal at Dnipropetrovsk International Airport.jpg",
+   "lat": 48.3676,
+   "lon": 35.0937,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dnipro Airport"
+  },
+  {
+   "id": "Q4135567",
+   "name": "Genoese Fortress",
+   "sl": 27,
+   "file": "Генуезька фортеця. Панорама.jpg",
+   "lat": 44.8416,
+   "lon": 34.9579,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Genoese fortress (Sudak)"
+  },
+  {
+   "id": "Q1595364",
+   "name": "Pochayiv Lavra",
+   "sl": 27,
+   "file": "Панорама Почаївська лавра 02.jpg",
+   "lat": 50.005,
+   "lon": 25.5067,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pochayiv Lavra"
+  },
+  {
+   "id": "Q1907145",
+   "name": "St. Nicholas Roman Catholic Church, Kyiv",
+   "sl": 27,
+   "file": "Kiev-StNicholasRomanCatholicCathedral.jpg",
+   "lat": 50.4269,
+   "lon": 30.5176,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Nicholas cathedral, Kyiv"
+  }
+ ]
+}

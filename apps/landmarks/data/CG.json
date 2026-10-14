@@ -1,0 +1,225 @@
+{
+ "country": "CG",
+ "items": [
+  {
+   "id": "Q750025",
+   "name": "Pool Malebo",
+   "sl": 44,
+   "file": "PoolMalebo.jpg",
+   "lat": -4.2819,
+   "lon": 15.4886,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD"
+   ],
+   "cat": "Pool Malebo"
+  },
+  {
+   "id": "Q559340",
+   "name": "Livingstone Falls",
+   "sl": 38,
+   "file": "Chutes Livingstone.jpg",
+   "lat": -4.8333,
+   "lon": 14.5,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Livingstone Falls"
+  },
+  {
+   "id": "Q2580451",
+   "name": "Sangha Trinational",
+   "sl": 36,
+   "file": "Sunbeams in Sangha Trinational rainforest.jpg",
+   "lat": 2.6667,
+   "lon": 16.3333,
+   "kind": "",
+   "types": [
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "CF",
+    "CM"
+   ],
+   "cat": "Trinational de la Sangha"
+  },
+  {
+   "id": "Q263883",
+   "name": "Odzala National Park",
+   "sl": 29,
+   "file": "Primage2.jpg",
+   "lat": 0.8,
+   "lon": 14.9,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Odzala-Kokoua National Park"
+  },
+  {
+   "id": "Q644963",
+   "name": "Maya-Maya Airport",
+   "sl": 27,
+   "file": "Aeroport maya-maya.jpg",
+   "lat": -4.2517,
+   "lon": 15.253,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maya-Maya Airport"
+  },
+  {
+   "id": "Q659596",
+   "name": "Congo craton",
+   "sl": 21,
+   "file": "Kimberlite Pipes in Africa.png",
+   "lat": 2,
+   "lon": 21,
+   "kind": "natural",
+   "types": [
+    "craton"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD",
+    "CF"
+   ],
+   "cat": "Congo Craton"
+  },
+  {
+   "id": "Q1799617",
+   "name": "Lake Tele",
+   "sl": 21,
+   "file": "1.5 DJI 0859.jpg",
+   "lat": 1.3333,
+   "lon": 17.15,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3015170",
+   "name": "Nouabalé-Ndoki National Park",
+   "sl": 21,
+   "file": "Gorilla tool use.png",
+   "lat": 2.4428,
+   "lon": 16.5542,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2580451",
+    "name": "Sangha Trinational"
+   },
+   "also": [],
+   "cat": "Nouabalé-Ndoki National Park"
+  },
+  {
+   "id": "Q302517",
+   "name": "Nabemba Tower",
+   "sl": 16,
+   "file": "FLEUVE 01.jpg",
+   "lat": -4.2721,
+   "lon": 15.2891,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q20775738",
+   "name": "Stade Municipal de Kintélé",
+   "sl": 13,
+   "file": "Stade olympique de Brazzaville.jpg",
+   "lat": -4.1548,
+   "lon": 15.3241,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Municipal de Kintélé"
+  },
+  {
+   "id": "Q3015338",
+   "name": "Conkouati-Douli National Park",
+   "sl": 10,
+   "file": "Couché du soleil1.jpg",
+   "lat": -3.905,
+   "lon": 11.47,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Conkouati-Douli National Park"
+  },
+  {
+   "id": "Q2743618",
+   "name": "Stade Alphonse Massemba-Débat",
+   "sl": 10,
+   "file": "Stade Alphonse Massamba-Debat.png",
+   "lat": -4.2735,
+   "lon": 15.2484,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2942910",
+   "name": "Sacred Heart Cathedral, Brazzaville",
+   "sl": 8,
+   "file": "Cathédrale de Brazzaville avant 1926.jpg",
+   "lat": -4.2702,
+   "lon": 15.274,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale de Brazzaville"
+  }
+ ]
+}

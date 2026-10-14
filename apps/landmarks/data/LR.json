@@ -1,0 +1,172 @@
+{
+ "country": "LR",
+ "items": [
+  {
+   "id": "Q721497",
+   "name": "Roberts International Airport",
+   "sl": 26,
+   "file": "Roberts International Airport.JPG",
+   "lat": 6.2339,
+   "lon": -10.3622,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roberts International Airport"
+  },
+  {
+   "id": "Q1969043",
+   "name": "Sapo National Park",
+   "sl": 20,
+   "file": "Zwergflusspferd - Pygmy Hippopotamus - Hexaprotodon liberiensis.jpg",
+   "lat": 5.3698,
+   "lon": -8.505,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1034489",
+   "name": "Cape Palmas",
+   "sl": 17,
+   "file": "Cape Palmas etch.jpg",
+   "lat": 4.369,
+   "lon": -7.7289,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Palmas"
+  },
+  {
+   "id": "Q5616476",
+   "name": "Guinea Highlands",
+   "sl": 16,
+   "file": "Guinea Highlands map.png",
+   "lat": 9.5,
+   "lon": -10,
+   "kind": "natural",
+   "types": [
+    "geographical feature",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GN"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1479922",
+   "name": "Cape Mesurado",
+   "sl": 12,
+   "file": "Missions and missionary society of the Methodist Episcopal Church (1895) (14591228519).jpg",
+   "lat": 6.3133,
+   "lon": -10.8078,
+   "kind": "natural",
+   "types": [
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Mesurado"
+  },
+  {
+   "id": "Q676718",
+   "name": "Spriggs Payne Airport",
+   "sl": 12,
+   "file": "SPRIGGS PAYNE AIRPORT.JPG",
+   "lat": 6.2892,
+   "lon": -10.7586,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spriggs Payne Airport"
+  },
+  {
+   "id": "Q2747540",
+   "name": "Samuel Kanyon Doe Sports Complex",
+   "sl": 11,
+   "file": "SKD Stadium, Monrovia, Liberia, 2015.jpg",
+   "lat": 6.257,
+   "lon": -10.7021,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1801041",
+   "name": "Lake Piso",
+   "sl": 10,
+   "file": "Lake Piso.jpg",
+   "lat": 6.7353,
+   "lon": -11.2511,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Piso"
+  },
+  {
+   "id": "Q587515",
+   "name": "Antoinette Tubman Stadium",
+   "sl": 9,
+   "file": "ATS Stadium 1954.jpg",
+   "lat": 6.309,
+   "lon": -10.8041,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antoinette Tubman Stadium"
+  },
+  {
+   "id": "Q2289945",
+   "name": "Tchien Airport",
+   "sl": 8,
+   "file": "Zwedru-Airport.jpg",
+   "lat": 6.0664,
+   "lon": -8.1367,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

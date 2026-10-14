@@ -1,0 +1,1331 @@
+{
+ "country": "LU",
+ "items": [
+  {
+   "id": "Q24457",
+   "name": "Kneiff",
+   "sl": 31,
+   "file": "Kneiff.jpg",
+   "lat": 50.1573,
+   "lon": 6.0369,
+   "kind": "both",
+   "types": [
+    "architectural landmark",
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kneiff"
+  },
+  {
+   "id": "Q945298",
+   "name": "Stade Josy Barthel",
+   "sl": 31,
+   "file": "Stade Josy Barthel.jpg",
+   "lat": 49.6156,
+   "lon": 6.1097,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Josy Barthel"
+  },
+  {
+   "id": "Q1348719",
+   "name": "Notre-Dame Cathedral",
+   "sl": 24,
+   "file": "Luxembourg BW 2016-09-15 14-36-51.jpg",
+   "lat": 49.6097,
+   "lon": 6.1316,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "Jesuit church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame de Luxembourg"
+  },
+  {
+   "id": "Q585990",
+   "name": "Fort Thüngen",
+   "sl": 22,
+   "file": "Fuerte Thüngen, ciudad de Luxemburgo, Luxemburgo, 2023-12-16, DD 148.jpg",
+   "lat": 49.6164,
+   "lon": 6.1389,
+   "kind": "built",
+   "types": [
+    "bastion",
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Thüngen"
+  },
+  {
+   "id": "Q1205254",
+   "name": "Grand Ducal Palace",
+   "sl": 22,
+   "file": "Palacio Gran Ducal de Luxemburgo.jpg",
+   "lat": 49.6109,
+   "lon": 6.1328,
+   "kind": "built",
+   "types": [
+    "château",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Ducal Palace (Luxembourg)"
+  },
+  {
+   "id": "Q25384178",
+   "name": "Stade de Luxembourg",
+   "sl": 21,
+   "file": "Stade de Luxembourg, Luxembourg vs Azebaidjan 2021-09-01 (103).jpg",
+   "lat": 49.5771,
+   "lon": 6.1157,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "national stadium",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade de Luxembourg"
+  },
+  {
+   "id": "Q1014402",
+   "name": "Vianden Castle",
+   "sl": 21,
+   "file": "Burg Vianden 2009.jpg",
+   "lat": 49.935,
+   "lon": 6.2028,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vianden castle"
+  },
+  {
+   "id": "Q993417",
+   "name": "Buurgplaatz",
+   "sl": 20,
+   "file": "Buergplaz Huldang.jpg",
+   "lat": 50.1619,
+   "lon": 6.0236,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burgplatz (Luxembourg)"
+  },
+  {
+   "id": "Q365643",
+   "name": "Adolphe Bridge",
+   "sl": 19,
+   "file": "Puente Adolfo, ciudad de Luxemburgo, Luxemburgo, 2023-12-16, DD 82.jpg",
+   "lat": 49.6083,
+   "lon": 6.1271,
+   "kind": "built",
+   "types": [
+    "deck arch bridge",
+    "double-decker bridge",
+    "footbridge",
+    "multi-level bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adolphe Bridge"
+  },
+  {
+   "id": "Q2585886",
+   "name": "National Museum of Archeology, History and Art",
+   "sl": 17,
+   "file": "Luxembourg, MNAHA 2023 (101).jpg",
+   "lat": 49.6119,
+   "lon": 6.1331,
+   "kind": "built",
+   "types": [
+    "government agency",
+    "Luxembourg National Cultural Institutions",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée national d'histoire et d'art"
+  },
+  {
+   "id": "Q897106",
+   "name": "Moselle Valley",
+   "sl": 16,
+   "file": "Moseltal bei Cochem - panoramio.jpg",
+   "lat": 50.1,
+   "lon": 7.1,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE",
+    "FR"
+   ],
+   "cat": "Moselle valley"
+  },
+  {
+   "id": "Q1955758",
+   "name": "Mudam",
+   "sl": 16,
+   "file": "Mudam 04 jnl.jpg",
+   "lat": 49.6171,
+   "lon": 6.1399,
+   "kind": "built",
+   "types": [
+    "art collection",
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mudam"
+  },
+  {
+   "id": "Q1341246",
+   "name": "Saint Michael's Church, Luxembourg",
+   "sl": 16,
+   "file": "Luxembourg City SaintMichael2.jpg",
+   "lat": 49.6114,
+   "lon": 6.1347,
+   "kind": "built",
+   "types": [
+    "parish church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Église Saint-Michel (Luxembourg City)"
+  },
+  {
+   "id": "Q1040373",
+   "name": "Stade Jos Nosbaum",
+   "sl": 16,
+   "file": "Jos Nosbaum-026-Haupttribuene.jpg",
+   "lat": 49.4722,
+   "lon": 6.0847,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Jos Nosbaum"
+  },
+  {
+   "id": "Q2621998",
+   "name": "Upper Sûre Lake",
+   "sl": 16,
+   "file": "Leifreg 2.JPG",
+   "lat": 49.9,
+   "lon": 5.8667,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lac de la Haute-Sûre (reservoir)"
+  },
+  {
+   "id": "Q702704",
+   "name": "Abbey of Echternach",
+   "sl": 15,
+   "file": "Echternach - Abbey of Echternach (698 founded by St Willibrord) 1737 - Baroque architecture - Porte St Willibrord - Romanesque St. Willibrord Basilika rebuilt in Neo-romanesque style after the Battle of the Bulge 1945 - Panorama View 04.jpg",
+   "lat": 49.8139,
+   "lon": 6.4225,
+   "kind": "built",
+   "types": [
+    "abbey",
+    "religious community"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Echternach Abbey"
+  },
+  {
+   "id": "Q3247067",
+   "name": "Fischbach Castle",
+   "sl": 15,
+   "file": "Château de Fischbach 2021-07.jpg",
+   "lat": 49.7477,
+   "lon": 6.1866,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Château de Fischbach"
+  },
+  {
+   "id": "Q1102519",
+   "name": "Gëlle Fra",
+   "sl": 15,
+   "file": "Gëlle Fra War Memorial Luxembourg 01 - Illustration with lacking Freedom of Panorama.jpg",
+   "lat": 49.6094,
+   "lon": 6.1289,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "World War I and II memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monument du souvenir Gëlle Fra"
+  },
+  {
+   "id": "Q359860",
+   "name": "Grand Duchess Charlotte Bridge",
+   "sl": 14,
+   "file": "Luxembourg-Pfaffenthal, vue sur le pont G-D Charlotte (101).jpg",
+   "lat": 49.6178,
+   "lon": 6.1308,
+   "kind": "built",
+   "types": [
+    "batter-post rigid-frame bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Duchess Charlotte Bridge"
+  },
+  {
+   "id": "Q976457",
+   "name": "Philharmonie Luxembourg",
+   "sl": 14,
+   "file": "1997-2005 Luxembourg Philharmonie 02.jpg",
+   "lat": 49.6185,
+   "lon": 6.1421,
+   "kind": "built",
+   "types": [
+    "concert hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Philharmonie (Luxembourg)"
+  },
+  {
+   "id": "Q1308887",
+   "name": "Villa Louvigny",
+   "sl": 14,
+   "file": "Luxembourg, villa Louvigny.jpg",
+   "lat": 49.6114,
+   "lon": 6.1225,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa Louvigny"
+  },
+  {
+   "id": "Q1010933",
+   "name": "Beaufort Castle",
+   "sl": 13,
+   "file": "Beaufort Castle 2.jpg",
+   "lat": 49.8336,
+   "lon": 6.2866,
+   "kind": "built",
+   "types": [
+    "castle ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beaufort Castle (Luxembourg)"
+  },
+  {
+   "id": "Q881001",
+   "name": "Camp Ashcan",
+   "sl": 13,
+   "file": "Camp Ashcan prisoners.jpg",
+   "lat": 49.505,
+   "lon": 6.28,
+   "kind": "built",
+   "types": [
+    "military prison",
+    "prisoner-of-war camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Camp Ashcan"
+  },
+  {
+   "id": "Q7431167",
+   "name": "Schengen Castle",
+   "sl": 13,
+   "file": "Schengener Schlass.JPG",
+   "lat": 49.4701,
+   "lon": 6.3658,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Schengen Castle"
+  },
+  {
+   "id": "Q3496262",
+   "name": "Stade Émile Mayrisch",
+   "sl": 13,
+   "file": "Stade municipal Emile Mayrisch Esch-sur-Alzette 2024-12 ---4.jpg",
+   "lat": 49.4922,
+   "lon": 5.9897,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Émile Mayrisch"
+  },
+  {
+   "id": "Q5131949",
+   "name": "Clervaux Castle",
+   "sl": 12,
+   "file": "Clervaux Castle 6.JPG",
+   "lat": 50.0544,
+   "lon": 6.0301,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Clervaux Castle"
+  },
+  {
+   "id": "Q1305120",
+   "name": "Passerelle",
+   "sl": 12,
+   "file": "Luxbg Passerelle Al Bréck 01crop.jpg",
+   "lat": 49.6059,
+   "lon": 6.1333,
+   "kind": "built",
+   "types": [
+    "viaduct"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pont Viaduc/Passerelle (Luxembourg)"
+  },
+  {
+   "id": "Q4713085",
+   "name": "Alcide de Gasperi Building",
+   "sl": 11,
+   "file": "Luxembourg Kirchberg A De Gasperi 01.jpg",
+   "lat": 49.6183,
+   "lon": 6.1436,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alcide de Gasperi Building"
+  },
+  {
+   "id": "Q4770630",
+   "name": "Ansembourg Castle",
+   "sl": 11,
+   "file": "Ansembourg Old1.JPG",
+   "lat": 49.7029,
+   "lon": 6.0376,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vieux Château (Ansembourg)"
+  },
+  {
+   "id": "Q3563262",
+   "name": "Hôtel de la Chambre des Députés",
+   "sl": 11,
+   "file": "Luxembourg City Chambre des députés Nov 2009.jpg",
+   "lat": 49.6106,
+   "lon": 6.1328,
+   "kind": "built",
+   "types": [
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hôtel de la Chambre des députés"
+  },
+  {
+   "id": "Q2555232",
+   "name": "Luxembourg City History Museum",
+   "sl": 11,
+   "file": "Historisches Museum der Stadt Luxemburg 8325-026.jpg",
+   "lat": 49.6099,
+   "lon": 6.1335,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lëtzebuerg City Museum"
+  },
+  {
+   "id": "Q2223322",
+   "name": "Villa Vauban",
+   "sl": 11,
+   "file": "Villa Vauban Luxembourg 02.jpg",
+   "lat": 49.6131,
+   "lon": 6.1225,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa Vauban, Musée d'art de la Ville de Luxembourg"
+  },
+  {
+   "id": "Q2714250",
+   "name": "Bock",
+   "sl": 10,
+   "file": "Luxembourg City Bock and G-D-Charlotte bridge 2013-08.JPG",
+   "lat": 49.6118,
+   "lon": 6.137,
+   "kind": "built",
+   "types": [
+    "castle",
+    "rock formation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rocher du Boc / Bockfiels"
+  },
+  {
+   "id": "Q1011162",
+   "name": "Bourscheid Castle",
+   "sl": 10,
+   "file": "Bourscheid, château (104).jpg",
+   "lat": 49.9054,
+   "lon": 6.0797,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bourscheid castle"
+  },
+  {
+   "id": "Q3913561",
+   "name": "Brandenbourg Castle",
+   "sl": 10,
+   "file": "Tandel, Château Brandenbourg (122).jpg",
+   "lat": 49.9117,
+   "lon": 6.1378,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brandenbourg Castle"
+  },
+  {
+   "id": "Q609225",
+   "name": "Clervaux Abbey",
+   "sl": 10,
+   "file": "Abtei Klierf.JPG",
+   "lat": 50.0544,
+   "lon": 6.0293,
+   "kind": "built",
+   "types": [
+    "benedictine abbey"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abbaye Saint-Maurice-et-Saint-Maur de Clervaux"
+  },
+  {
+   "id": "Q2968219",
+   "name": "Esch-sur-Sûre Castle",
+   "sl": 10,
+   "file": "Esch-sur-Sure 2020 – Sure, château.jpg",
+   "lat": 49.9111,
+   "lon": 5.9347,
+   "kind": "built",
+   "types": [
+    "castle ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Esch-sur-Sûre Castle"
+  },
+  {
+   "id": "Q5594504",
+   "name": "Grand Duchess Charlotte Maternity Hospital",
+   "sl": 10,
+   "file": "Luxembourg, CHL Maternité (101).jpg",
+   "lat": 49.6175,
+   "lon": 6.0992,
+   "kind": "built",
+   "types": [
+    "hospital",
+    "maternity hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "CHL Maternité"
+  },
+  {
+   "id": "Q1011703",
+   "name": "Larochette Castle",
+   "sl": 10,
+   "file": "Larochette, château fort (101).jpg",
+   "lat": 49.7855,
+   "lon": 6.2168,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Larochette castle"
+  },
+  {
+   "id": "Q2564256",
+   "name": "Mamer Castle",
+   "sl": 10,
+   "file": "Mamer Gemeng 2005.jpg",
+   "lat": 49.6261,
+   "lon": 6.0239,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mamer Castle"
+  },
+  {
+   "id": "Q6965109",
+   "name": "Napoléonsgaard",
+   "sl": 10,
+   "file": "Luxembourg Rambrouch Jardin Napoléon front 04.jpg",
+   "lat": 49.8488,
+   "lon": 5.8848,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "lieu-dit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Napoleonsgaart"
+  },
+  {
+   "id": "Q334068",
+   "name": "Neumünster Abbey",
+   "sl": 10,
+   "file": "Abadía Neumünster, ciudad de Luxemburgo, Luxemburgo, 2023-12-16, DD 47.jpg",
+   "lat": 49.6103,
+   "lon": 6.1364,
+   "kind": "built",
+   "types": [
+    "abbey church",
+    "former hospital",
+    "religious community"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abbaye de Neumünster"
+  },
+  {
+   "id": "Q2240075",
+   "name": "New Castle of Ansembourg",
+   "sl": 10,
+   "file": "Ansembourg New1.JPG",
+   "lat": 49.7007,
+   "lon": 6.0467,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nouveau Château (Ansembourg)"
+  },
+  {
+   "id": "Q1735744",
+   "name": "Op Flohr Stadion",
+   "sl": 10,
+   "file": "Stade Op Flohr1.jpg",
+   "lat": 49.6869,
+   "lon": 6.4485,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Op Flohr"
+  },
+  {
+   "id": "Q1393119",
+   "name": "Rockhal",
+   "sl": 10,
+   "file": "Rockhal-vu-vier---w.jpg",
+   "lat": 49.4998,
+   "lon": 5.9473,
+   "kind": "built",
+   "types": [
+    "performing arts center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rockhal"
+  },
+  {
+   "id": "Q3246798",
+   "name": "St. Peter and Paul Church",
+   "sl": 10,
+   "file": "Luxembourg Russian Orthodox Church 02.jpg",
+   "lat": 49.6142,
+   "lon": 6.1192,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Russian-Orthodox Church (Luxembourg)"
+  },
+  {
+   "id": "Q2263835",
+   "name": "Stade Achille Hammerel",
+   "sl": 10,
+   "file": "Stade Achille Hammerel, Luxembourg, 2014.jpg",
+   "lat": 49.6047,
+   "lon": 6.1403,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Achille Hammerel"
+  },
+  {
+   "id": "Q3133033",
+   "name": "Stade de la Frontière",
+   "sl": 10,
+   "file": "Jeunesse Stadion 1.jpg",
+   "lat": 49.4858,
+   "lon": 5.9769,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Op der Grenz"
+  },
+  {
+   "id": "Q1463952",
+   "name": "Titelberg",
+   "sl": 10,
+   "file": "Titelberg west 07.jpg",
+   "lat": 49.5375,
+   "lon": 5.8625,
+   "kind": "built",
+   "types": [
+    "oppidum",
+    "vicus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oppidum Tëtelbierg"
+  },
+  {
+   "id": "Q3097920",
+   "name": "Troisvierges railway station",
+   "sl": 10,
+   "file": "Troisvierges train station photo 1.jpg",
+   "lat": 50.1194,
+   "lon": 5.9911,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Troisvierges train station"
+  },
+  {
+   "id": "Q1970623",
+   "name": "Upper Sûre Natural Park",
+   "sl": 10,
+   "file": "Bauschelt Naturpark.jpg",
+   "lat": 49.9,
+   "lon": 5.8667,
+   "kind": "natural",
+   "types": [
+    "nature park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parc Naturel de la Haute-Sûre (Naturpark Öewersauer)"
+  },
+  {
+   "id": "Q801581",
+   "name": "Wasserbillig railway station",
+   "sl": 10,
+   "file": "Wasserbillig, gare CFL (132).jpg",
+   "lat": 49.7129,
+   "lon": 6.4993,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "railway station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wasserbillig train station"
+  },
+  {
+   "id": "Q2533716",
+   "name": "Bettembourg railway station",
+   "sl": 9,
+   "file": "Bettembourg, gare CFL Bettembourg (102).jpg",
+   "lat": 49.5153,
+   "lon": 6.1019,
+   "kind": "built",
+   "types": [
+    "border train station",
+    "junction station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bettembourg train station"
+  },
+  {
+   "id": "Q4898419",
+   "name": "Bettendorf Castle",
+   "sl": 9,
+   "file": "Chateau Bettendorf.jpg",
+   "lat": 49.8758,
+   "lon": 6.2206,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bettendorf Castle"
+  },
+  {
+   "id": "Q5149278",
+   "name": "Colpach Castle",
+   "sl": 9,
+   "file": "Schloss Kolpach 01.jpg",
+   "lat": 49.7578,
+   "lon": 5.8256,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Colpach Castle"
+  },
+  {
+   "id": "Q250541",
+   "name": "Dudelange Radio Tower",
+   "sl": 9,
+   "file": "Antennepotto.jpg",
+   "lat": 49.4633,
+   "lon": 6.0958,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dudelange transmitter"
+  },
+  {
+   "id": "Q1012473",
+   "name": "Hollenfels Castle",
+   "sl": 9,
+   "file": "Hollenfelscha.JPG",
+   "lat": 49.7121,
+   "lon": 6.0515,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hollenfels Castle"
+  },
+  {
+   "id": "Q1632023",
+   "name": "Koerich Castle",
+   "sl": 9,
+   "file": "Gréiveschlass Käerch.jpg",
+   "lat": 49.6694,
+   "lon": 5.9502,
+   "kind": "built",
+   "types": [
+    "castle ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Koerich Castle"
+  },
+  {
+   "id": "Q478061",
+   "name": "National Museum of Military History",
+   "sl": 9,
+   "file": "Musee Nationale d'Histoire Militaire, Diekirch (5271043396).jpg",
+   "lat": 49.8712,
+   "lon": 6.1589,
+   "kind": "built",
+   "types": [
+    "military museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Military History (Luxembourg)"
+  },
+  {
+   "id": "Q6974489",
+   "name": "National Museum of Natural History, Luxembourg",
+   "sl": 9,
+   "file": "MNHNL 01 Luxembourg.jpg",
+   "lat": 49.6099,
+   "lon": 6.1358,
+   "kind": "built",
+   "types": [
+    "government agency",
+    "Luxembourg National Cultural Institutions",
+    "national museum",
+    "natural history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée national d'histoire naturelle"
+  },
+  {
+   "id": "Q1433766",
+   "name": "Nörtringen Airport",
+   "sl": 9,
+   "file": "Winseler, Aérodrome de Noertrange (101).jpg",
+   "lat": 49.9808,
+   "lon": 5.9182,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Noertrange Airfield"
+  },
+  {
+   "id": "Q2392584",
+   "name": "Parc Merveilleux",
+   "sl": 9,
+   "file": "Eingang Park Bettembourg 01.jpg",
+   "lat": 49.5115,
+   "lon": 6.1207,
+   "kind": "built",
+   "types": [
+    "amusement park",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Märchenpark Bettembourg"
+  },
+  {
+   "id": "Q7431957",
+   "name": "Schoenfels Castle",
+   "sl": 9,
+   "file": "Schoenfels3.JPG",
+   "lat": 49.7194,
+   "lon": 6.0929,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Schoenfels Castle"
+  },
+  {
+   "id": "Q2325813",
+   "name": "Stade Alphonse Theis",
+   "sl": 9,
+   "file": "Stade Alphonse Theis.jpg",
+   "lat": 49.5754,
+   "lon": 6.1583,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Alphonse Theis"
+  },
+  {
+   "id": "Q2375191",
+   "name": "Synagogues in Luxembourg City",
+   "sl": 9,
+   "file": "Luxembourg City Synagogue 01a.jpg",
+   "lat": 49.6097,
+   "lon": 6.1217,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Synagogues in Luxembourg City"
+  },
+  {
+   "id": "Q4807794",
+   "name": "Aspelt Castle",
+   "sl": 8,
+   "file": "Aspelt Castle2.JPG",
+   "lat": 49.5244,
+   "lon": 6.2228,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aspelt Castle"
+  },
+  {
+   "id": "Q5062271",
+   "name": "Centre Hospitalier de Luxembourg",
+   "sl": 8,
+   "file": "Luxembourg, Centre hospitalier de Luxembourg (101).jpg",
+   "lat": 49.6187,
+   "lon": 6.1011,
+   "kind": "built",
+   "types": [
+    "hospital group",
+    "public hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Centre hospitalier de Luxembourg"
+  },
+  {
+   "id": "Q1272946",
+   "name": "Coque",
+   "sl": 8,
+   "file": "Luxembourg, Parc central Kirchberg (105).jpg",
+   "lat": 49.6236,
+   "lon": 6.1542,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "D'Coque"
+  },
+  {
+   "id": "Q1378791",
+   "name": "Erpeldange Castle",
+   "sl": 8,
+   "file": "Erpeldange Castle 01.jpg",
+   "lat": 49.86,
+   "lon": 6.1121,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erpeldange Castle"
+  },
+  {
+   "id": "Q1366851",
+   "name": "Esch-sur-Sûre Dam",
+   "sl": 8,
+   "file": "Barrage Esch-sur-Sure.jpg",
+   "lat": 49.9117,
+   "lon": 5.9228,
+   "kind": "built",
+   "types": [
+    "arch dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barrage d'Esch-sur-Sûre"
+  },
+  {
+   "id": "Q1201800",
+   "name": "German-Luxembourg Nature Park",
+   "sl": 8,
+   "file": "In der Teufelsschlucht 1.jpg",
+   "lat": 49.9667,
+   "lon": 6.2167,
+   "kind": "natural",
+   "types": [
+    "nature park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DE"
+   ],
+   "cat": "Deutsch-Luxemburgischer Naturpark"
+  },
+  {
+   "id": "Q3247189",
+   "name": "Herrenberg",
+   "sl": 8,
+   "file": "Kasär Härebierg-001.jpg",
+   "lat": 49.8833,
+   "lon": 6.1667,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Härebierg"
+  },
+  {
+   "id": "Q2409751",
+   "name": "Mersch Castle",
+   "sl": 8,
+   "file": "Mersch castle 2.jpg",
+   "lat": 49.7478,
+   "lon": 6.1031,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mersch Castle"
+  },
+  {
+   "id": "Q3029261",
+   "name": "Mont St. Jean",
+   "sl": 8,
+   "file": "Gehaansbierg schmuel.jpg",
+   "lat": 49.4903,
+   "lon": 6.0597,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gehaansbierg"
+  },
+  {
+   "id": "Q6978080",
+   "name": "National Resistance Museum, Luxembourg",
+   "sl": 8,
+   "file": "Musée national de la résistance Esch Alzette 01.jpg",
+   "lat": 49.4924,
+   "lon": 5.976,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée national de la résistance et des droits humains"
+  },
+  {
+   "id": "Q466562",
+   "name": "Parc naturel de l'Our / Naturpark Our",
+   "sl": 8,
+   "file": "Our (river).JPG",
+   "lat": 49.9934,
+   "lon": 6.1003,
+   "kind": "natural",
+   "types": [
+    "nature park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parc naturel de l'Our"
+  },
+  {
+   "id": "Q1414793",
+   "name": "Place d'Armes",
+   "sl": 8,
+   "file": "Luxembourg, Place d'Armes (101).jpg",
+   "lat": 49.6114,
+   "lon": 6.129,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Place d'Armes (Luxembourg)"
+  },
+  {
+   "id": "Q2972650",
+   "name": "Sandweiler German war cemetery",
+   "sl": 8,
+   "file": "Sandweiler German war cemetery 6.jpg",
+   "lat": 49.6094,
+   "lon": 6.2056,
+   "kind": "built",
+   "types": [
+    "war cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sandweiler German war cemetery"
+  },
+  {
+   "id": "Q7417572",
+   "name": "Sanem Castle",
+   "sl": 8,
+   "file": "SuessemSchlass01.jpg",
+   "lat": 49.5434,
+   "lon": 5.9259,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sanem Castle"
+  },
+  {
+   "id": "Q7433058",
+   "name": "Schuttbourg Castle",
+   "sl": 8,
+   "file": "Schuttbuerg.jpg",
+   "lat": 49.9645,
+   "lon": 6.0263,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Schuttbourg Castle"
+  }
+ ]
+}

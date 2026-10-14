@@ -1,0 +1,1370 @@
+{
+ "country": "CH",
+ "items": [
+  {
+   "id": "Q6403",
+   "name": "Lake Geneva",
+   "sl": 101,
+   "file": "Lake Geneva aerial.jpg",
+   "lat": 46.45,
+   "lon": 6.55,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Lake Geneva"
+  },
+  {
+   "id": "Q4127",
+   "name": "Lake Constance",
+   "sl": 100,
+   "file": "Vorfrühling am Bodensee.jpg",
+   "lat": 47.65,
+   "lon": 9.3167,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "eutrophic lake",
+    "holomictic lake",
+    "hypertrophic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT",
+    "DE"
+   ],
+   "cat": "Lake Constance"
+  },
+  {
+   "id": "Q1374",
+   "name": "Matterhorn",
+   "sl": 92,
+   "file": "Cervino cloud.jpg",
+   "lat": 45.9764,
+   "lon": 7.6586,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Matterhorn"
+  },
+  {
+   "id": "Q14379",
+   "name": "Lake Maggiore",
+   "sl": 81,
+   "file": "Lago Maggiore Traghetto.JPG",
+   "lat": 46.0981,
+   "lon": 8.7147,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Lake Maggiore"
+  },
+  {
+   "id": "Q15114",
+   "name": "Zurich Airport",
+   "sl": 65,
+   "file": "Zurich airport img 3324.jpg",
+   "lat": 47.4581,
+   "lon": 8.5481,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zurich International Airport"
+  },
+  {
+   "id": "Q14418",
+   "name": "Lake Lugano",
+   "sl": 64,
+   "file": "Lake Lugano Panorama.jpg",
+   "lat": 46,
+   "lon": 9,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Lake Lugano"
+  },
+  {
+   "id": "Q14407",
+   "name": "Lake Zurich",
+   "sl": 63,
+   "file": "Zuerichsee.jpg",
+   "lat": 47.2475,
+   "lon": 8.6775,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Zurich"
+  },
+  {
+   "id": "Q14381",
+   "name": "Lake Lucerne",
+   "sl": 60,
+   "file": "Vierwaldstaettersee.jpg",
+   "lat": 47.0194,
+   "lon": 8.4011,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Lucerne"
+  },
+  {
+   "id": "Q4425",
+   "name": "Eiger",
+   "sl": 58,
+   "file": "Eiger Nordwand - panoramio (1).jpg",
+   "lat": 46.5776,
+   "lon": 8.0053,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eiger"
+  },
+  {
+   "id": "Q15312",
+   "name": "Jungfrau",
+   "sl": 56,
+   "file": "Jungfrau.jpg",
+   "lat": 46.5369,
+   "lon": 7.9625,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q616912",
+    "name": "Jungfrau-Aletsch protected area"
+   },
+   "also": [],
+   "cat": "Jungfrau"
+  },
+  {
+   "id": "Q14375",
+   "name": "Lake Neuchâtel",
+   "sl": 56,
+   "file": "Lac de neuchâtel et montagne de boudry.jpg",
+   "lat": 46.9,
+   "lon": 6.85,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Neuchâtel"
+  },
+  {
+   "id": "Q204658",
+   "name": "Aletsch Glacier",
+   "sl": 53,
+   "file": "Glacier d'Aletsch - 2021.jpg",
+   "lat": 46.4422,
+   "lon": 8.0772,
+   "kind": "natural",
+   "types": [
+    "valley glacier"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q616912",
+    "name": "Jungfrau-Aletsch protected area"
+   },
+   "also": [],
+   "cat": "Aletschgletscher"
+  },
+  {
+   "id": "Q289972",
+   "name": "Geneva International Airport",
+   "sl": 52,
+   "file": "Geneva airport from air.jpg",
+   "lat": 46.2383,
+   "lon": 6.1094,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Geneva International Airport"
+  },
+  {
+   "id": "Q3403",
+   "name": "Dufourspitze",
+   "sl": 50,
+   "file": "MonteRosaWestseite gesehenVomGornergrat.JPG",
+   "lat": 45.9369,
+   "lon": 7.8668,
+   "kind": "natural",
+   "types": [
+    "four-thousander",
+    "main peak",
+    "mountain",
+    "ultra-prominent peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dufourspitze"
+  },
+  {
+   "id": "Q22883",
+   "name": "Engadin",
+   "sl": 49,
+   "file": "Engadine.jpg",
+   "lat": 46.5497,
+   "lon": 9.8959,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Engadin"
+  },
+  {
+   "id": "Q190010",
+   "name": "St. Jakob-Park",
+   "sl": 49,
+   "file": "St. Jakob Park Panorama Switzerland vs Slovenia.jpg",
+   "lat": 47.5414,
+   "lon": 7.62,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Jakob-Park"
+  },
+  {
+   "id": "Q372647",
+   "name": "Chillon Castle",
+   "sl": 48,
+   "file": "Castle of Chillon N.jpg",
+   "lat": 46.4142,
+   "lon": 6.9275,
+   "kind": "built",
+   "types": [
+    "château",
+    "museum building",
+    "water castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Château de Chillon"
+  },
+  {
+   "id": "Q16525",
+   "name": "Mönch",
+   "sl": 48,
+   "file": "Mönch depuis Niederhorn.jpg",
+   "lat": 46.5583,
+   "lon": 7.9972,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mönch"
+  },
+  {
+   "id": "Q1270",
+   "name": "Pennine Alps",
+   "sl": 48,
+   "file": "Valais Alps.jpg",
+   "lat": 45.9775,
+   "lon": 7.6597,
+   "kind": "natural",
+   "types": [
+    "alpine section"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Pennine Alps"
+  },
+  {
+   "id": "Q214924",
+   "name": "Rhine Falls",
+   "sl": 48,
+   "file": "Chutes du Rhin - Octobre 2021.jpg",
+   "lat": 47.6772,
+   "lon": 8.6158,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rhine Falls"
+  },
+  {
+   "id": "Q16648",
+   "name": "Monte San Giorgio",
+   "sl": 47,
+   "file": "Lake Lugano.jpg",
+   "lat": 45.9167,
+   "lon": 8.95,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Monte San Giorgio"
+  },
+  {
+   "id": "Q194479",
+   "name": "Stadion Wankdorf",
+   "sl": 46,
+   "file": "Stadedesuiss2.jpg",
+   "lat": 46.9628,
+   "lon": 7.465,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wankdorf Stadium"
+  },
+  {
+   "id": "Q14429",
+   "name": "Lake Biel",
+   "sl": 45,
+   "file": ".00 3431 Bielersee (Lac de Bienne) - Ort Ligerz, Schweiz.jpg",
+   "lat": 47.0856,
+   "lon": 7.1742,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Biel"
+  },
+  {
+   "id": "Q15265",
+   "name": "Mount Pilatus",
+   "sl": 45,
+   "file": "Pilatus (mountain).JPG",
+   "lat": 46.9739,
+   "lon": 8.2411,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pilatus"
+  },
+  {
+   "id": "Q155699",
+   "name": "Abbey of Saint Gall",
+   "sl": 44,
+   "file": "StGallen asv2022-10 Fürstabtei img1.jpg",
+   "lat": 47.4231,
+   "lon": 9.3772,
+   "kind": "built",
+   "types": [
+    "benedictine abbey"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Fürstabtei St. Gallen"
+  },
+  {
+   "id": "Q15117",
+   "name": "Dom",
+   "sl": 44,
+   "file": "Dom of Mischabel.jpg",
+   "lat": 46.0939,
+   "lon": 7.8589,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dom (mountain)"
+  },
+  {
+   "id": "Q14426",
+   "name": "Lake Thun",
+   "sl": 44,
+   "file": "Aerial image of Lake Thun (view from the east).jpg",
+   "lat": 46.6833,
+   "lon": 7.7167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Thun"
+  },
+  {
+   "id": "Q207623",
+   "name": "Letzigrund",
+   "sl": 44,
+   "file": "Letzigrund 2024 2.jpg",
+   "lat": 47.3828,
+   "lon": 8.5038,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Letzigrund-Stadion, Zürich"
+  },
+  {
+   "id": "Q502053",
+   "name": "Locarno Film Festival",
+   "sl": 44,
+   "file": "Piazza Grande Locarno.jpg",
+   "lat": 46.1696,
+   "lon": 8.796,
+   "kind": "built",
+   "types": [
+    "film festival",
+    "organization",
+    "outdoor cinema",
+    "prize"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Locarno Film Festival"
+  },
+  {
+   "id": "Q14442",
+   "name": "Lake Brienz",
+   "sl": 43,
+   "file": "Aerial image of Lake Brienz (view from the southwest).jpg",
+   "lat": 46.7167,
+   "lon": 7.95,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Brienz"
+  },
+  {
+   "id": "Q15127",
+   "name": "Finsteraarhorn",
+   "sl": 42,
+   "file": "Aerial image of Finsteraarhorn (view from the south).jpg",
+   "lat": 46.5374,
+   "lon": 8.1261,
+   "kind": "natural",
+   "types": [
+    "four-thousander",
+    "main peak",
+    "mountain",
+    "ultra-prominent peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Finsteraarhorn"
+  },
+  {
+   "id": "Q15132",
+   "name": "Piz Bernina",
+   "sl": 42,
+   "file": "Bernina Sunrise.jpg",
+   "lat": 46.3824,
+   "lon": 9.9081,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piz Bernina"
+  },
+  {
+   "id": "Q14448",
+   "name": "Lake Murten",
+   "sl": 41,
+   "file": "Aerial image of Lake Murten (view from the northeast).jpg",
+   "lat": 46.9333,
+   "lon": 7.075,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Murten"
+  },
+  {
+   "id": "Q619845",
+   "name": "Bern Airport",
+   "sl": 40,
+   "file": "Bern Airport Overview.jpg",
+   "lat": 46.9122,
+   "lon": 7.4994,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bern-Belp Airport"
+  },
+  {
+   "id": "Q327221",
+   "name": "Bernese Alps",
+   "sl": 40,
+   "file": "BerneseAlps.jpg",
+   "lat": 46.425,
+   "lon": 7.6936,
+   "kind": "natural",
+   "types": [
+    "alpine subsection"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bernese Alps"
+  },
+  {
+   "id": "Q14436",
+   "name": "Lake Zug",
+   "sl": 40,
+   "file": "Lac de Zoug.jpg",
+   "lat": 47.1167,
+   "lon": 8.4833,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Zug"
+  },
+  {
+   "id": "Q215295",
+   "name": "Stade de Genève",
+   "sl": 40,
+   "file": "The Stade de Genève during a UEFA Europa Conference League match between Servette and Viktoria Pilsen. (2023).jpg",
+   "lat": 46.1778,
+   "lon": 6.1275,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade de Genève"
+  },
+  {
+   "id": "Q83397",
+   "name": "Swiss National Park",
+   "sl": 40,
+   "file": "Swiss National Park 045.JPG",
+   "lat": 46.7,
+   "lon": 10.095,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Swiss National Park"
+  },
+  {
+   "id": "Q15122",
+   "name": "Weisshorn",
+   "sl": 40,
+   "file": "Weisshorn depuis Sorebois.jpg",
+   "lat": 46.1017,
+   "lon": 7.7161,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Weisshorn (VS)"
+  },
+  {
+   "id": "Q317096",
+   "name": "Habsburg Castle",
+   "sl": 37,
+   "file": "Habsburg-Schloss.jpg",
+   "lat": 47.4625,
+   "lon": 8.1807,
+   "kind": "built",
+   "types": [
+    "castle ruin",
+    "hilltop castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Habsburg Castle"
+  },
+  {
+   "id": "Q684661",
+   "name": "Jet d'Eau",
+   "sl": 37,
+   "file": "Jet d'eau de Genève (swiss).jpg",
+   "lat": 46.2074,
+   "lon": 6.1559,
+   "kind": "built",
+   "types": [
+    "fountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jet d'eau de Genève"
+  },
+  {
+   "id": "Q183395",
+   "name": "Reichenbach Falls",
+   "sl": 37,
+   "file": "Schattenhalb Reichenbachfall 7-05-2024 10-56-28.jpg",
+   "lat": 46.7136,
+   "lon": 8.1831,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Reichenbach Falls"
+  },
+  {
+   "id": "Q15293",
+   "name": "Aletschhorn",
+   "sl": 36,
+   "file": "Aletschhorn in snow.jpg",
+   "lat": 46.4653,
+   "lon": 7.9936,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aletschhorn"
+  },
+  {
+   "id": "Q1274",
+   "name": "Lepontine Alps",
+   "sl": 36,
+   "file": "Parte delle alpi lepontine.jpg",
+   "lat": 46.3833,
+   "lon": 8.8333,
+   "kind": "natural",
+   "types": [
+    "alpine section"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Lepontine Alps"
+  },
+  {
+   "id": "Q598646",
+   "name": "Olympic Museum",
+   "sl": 36,
+   "file": "Losanna, museo olimpico, int, torce olimpiche.JPG",
+   "lat": 46.5086,
+   "lon": 6.6339,
+   "kind": "built",
+   "types": [
+    "collection",
+    "memory institution",
+    "sports museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée Olympique, Lausanne"
+  },
+  {
+   "id": "Q594846",
+   "name": "Palace of Nations",
+   "sl": 36,
+   "file": "La delegación ecuatoriana se reúne previo a la presentación del EPU (7244555176).jpg",
+   "lat": 46.2266,
+   "lon": 6.1405,
+   "kind": "built",
+   "types": [
+    "building of public administration"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Nations"
+  },
+  {
+   "id": "Q757067",
+   "name": "Saint John Abbey",
+   "sl": 36,
+   "file": "Benediktinerkloster St. Johann.JPG",
+   "lat": 46.6292,
+   "lon": 10.4478,
+   "kind": "built",
+   "types": [
+    "benedictine nunnery"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Monastery of Saint John in Müstair"
+  },
+  {
+   "id": "Q665000",
+   "name": "Grauspitz",
+   "sl": 35,
+   "file": "Grauspitzen.JPG",
+   "lat": 47.0527,
+   "lon": 9.5813,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LI"
+   ],
+   "cat": "Grauspitz"
+  },
+  {
+   "id": "Q14444",
+   "name": "Walensee",
+   "sl": 35,
+   "file": "Aerial image of the Walensee.jpg",
+   "lat": 47.1167,
+   "lon": 9.2,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Walensee"
+  },
+  {
+   "id": "Q659044",
+   "name": "Rhone Glacier",
+   "sl": 34,
+   "file": "Glacier du Rhône 2009.JPG",
+   "lat": 46.6045,
+   "lon": 8.386,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "valley glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rhône Glacier"
+  },
+  {
+   "id": "Q16540",
+   "name": "Breithorn",
+   "sl": 33,
+   "file": "Breithorn.jpg",
+   "lat": 45.9411,
+   "lon": 7.7472,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Breithorn"
+  },
+  {
+   "id": "Q661389",
+   "name": "Lugano Airport",
+   "sl": 33,
+   "file": "Aerial image of the Lugano airport.jpg",
+   "lat": 46.0036,
+   "lon": 8.9103,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lugano-Agno Airport"
+  },
+  {
+   "id": "Q15120",
+   "name": "Lyskamm",
+   "sl": 33,
+   "file": "Liskamm 01.jpg",
+   "lat": 45.9225,
+   "lon": 7.8356,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Lyskamm"
+  },
+  {
+   "id": "Q15138",
+   "name": "Titlis",
+   "sl": 33,
+   "file": "00 0481 Titlis - Westseite.jpg",
+   "lat": 46.7719,
+   "lon": 8.4378,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Titlis"
+  },
+  {
+   "id": "Q224494",
+   "name": "Zürich Hauptbahnhof",
+   "sl": 33,
+   "file": "Zuerich Hauptbahnhof-2.jpg",
+   "lat": 47.3782,
+   "lon": 8.5402,
+   "kind": "built",
+   "types": [
+    "central station",
+    "dead-end railway station",
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zürich Hauptbahnhof"
+  },
+  {
+   "id": "Q427415",
+   "name": "Bernina Range",
+   "sl": 32,
+   "file": "Morteratsch.jpg",
+   "lat": 46.38,
+   "lon": 9.91,
+   "kind": "natural",
+   "types": [
+    "alpine group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bernina"
+  },
+  {
+   "id": "Q15289",
+   "name": "Bietschhorn",
+   "sl": 32,
+   "file": "Bietschhorn.jpg",
+   "lat": 46.3916,
+   "lon": 7.8508,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q616912",
+    "name": "Jungfrau-Aletsch protected area"
+   },
+   "also": [],
+   "cat": "Bietschhorn"
+  },
+  {
+   "id": "Q25225",
+   "name": "Chapel Bridge",
+   "sl": 32,
+   "file": "Luzern asv2022-10 Kapellbrücke img3.jpg",
+   "lat": 47.0516,
+   "lon": 8.3075,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "covered bridge",
+    "footbridge",
+    "wooden bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kapellbrücke"
+  },
+  {
+   "id": "Q15126",
+   "name": "Grand Combin",
+   "sl": 32,
+   "file": "Aerial image of Grand Combin (view from the southwest).jpg",
+   "lat": 45.9375,
+   "lon": 7.2992,
+   "kind": "natural",
+   "types": [
+    "massif",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Combin"
+  },
+  {
+   "id": "Q16539",
+   "name": "Schreckhorn",
+   "sl": 32,
+   "file": "00 3474 Schreckhorn - Berner Alpen.jpg",
+   "lat": 46.5899,
+   "lon": 8.1182,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Schreckhorn"
+  },
+  {
+   "id": "Q327218",
+   "name": "Glarus Alps",
+   "sl": 31,
+   "file": "Braunwald Alps.jpg",
+   "lat": 46.8333,
+   "lon": 8.9833,
+   "kind": "natural",
+   "types": [
+    "alpine subsection"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Glarner Alps"
+  },
+  {
+   "id": "Q688624",
+   "name": "Morteratsch Glacier",
+   "sl": 31,
+   "file": "Morteratschgletscher 2007.jpg",
+   "lat": 46.4094,
+   "lon": 9.9317,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Morteratsch Glacier"
+  },
+  {
+   "id": "Q15224",
+   "name": "Säntis",
+   "sl": 31,
+   "file": "Säntis - Batzberg IMG 9803.JPG",
+   "lat": 47.2492,
+   "lon": 9.3433,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Säntis"
+  },
+  {
+   "id": "Q30529",
+   "name": "Weissmies",
+   "sl": 31,
+   "file": "Weissmies Triftgletscher.jpg",
+   "lat": 46.1278,
+   "lon": 8.0119,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Weissmies"
+  },
+  {
+   "id": "Q15125",
+   "name": "Dent Blanche",
+   "sl": 30,
+   "file": "Aerial image of Dent Blanche (view from the south).jpg",
+   "lat": 46.0342,
+   "lon": 7.6119,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dent Blanche"
+  },
+  {
+   "id": "Q684948",
+   "name": "Grossmünster",
+   "sl": 30,
+   "file": "Grossmünster Zurich Switzerland 24Jun2021.jpg",
+   "lat": 47.37,
+   "lon": 8.5442,
+   "kind": "built",
+   "types": [
+    "Protestant church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grossmünster"
+  },
+  {
+   "id": "Q14459",
+   "name": "Lake Sempach",
+   "sl": 30,
+   "file": "Aerial image of Lake Sempach (view from the south).jpg",
+   "lat": 47.15,
+   "lon": 8.15,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Sempach"
+  },
+  {
+   "id": "Q14512",
+   "name": "Lake Sils",
+   "sl": 30,
+   "file": "Silsersee.jpg",
+   "lat": 46.4167,
+   "lon": 9.7333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Sils"
+  },
+  {
+   "id": "Q671343",
+   "name": "Mont Blanc massif",
+   "sl": 30,
+   "file": "MonteBiancoAug082024 01.jpg",
+   "lat": 45.8333,
+   "lon": 6.85,
+   "kind": "natural",
+   "types": [
+    "alpine supergroup",
+    "mountain chain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR",
+    "IT"
+   ],
+   "cat": "Massif du Mont-Blanc"
+  },
+  {
+   "id": "Q665130",
+   "name": "Mont Dolent",
+   "sl": 30,
+   "file": "MontDolent0001.jpg",
+   "lat": 45.922,
+   "lon": 7.0461,
+   "kind": "both",
+   "types": [
+    "mountain",
+    "tripoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR",
+    "IT"
+   ],
+   "cat": "Mont Dolent"
+  },
+  {
+   "id": "Q30455",
+   "name": "Rimpfischhorn",
+   "sl": 30,
+   "file": "Wallis Rimpfischhorn mg-k.jpg",
+   "lat": 46.0231,
+   "lon": 7.8839,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rimpfischhorn"
+  },
+  {
+   "id": "Q30459",
+   "name": "Dent d'Hérens",
+   "sl": 29,
+   "file": "Aerial image of Dent d'Hérens (view from the northeast).jpg",
+   "lat": 45.9701,
+   "lon": 7.6051,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IT"
+   ],
+   "cat": "Dent d'Hérens"
+  },
+  {
+   "id": "Q312118",
+   "name": "Glarus thrust",
+   "sl": 29,
+   "file": "Picswiss GL-12-03.jpg",
+   "lat": 46.9167,
+   "lon": 9.25,
+   "kind": "natural",
+   "types": [
+    "alpine group",
+    "landform",
+    "thrust fault"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Glarner Hauptüberschiebung"
+  },
+  {
+   "id": "Q30495",
+   "name": "Gross Fiescherhorn",
+   "sl": 29,
+   "file": ".00 0473 Fischerhörner (4049, 4.025 Meter) und Gletscher Ischmeer (Schweiz).jpg",
+   "lat": 46.5514,
+   "lon": 8.0611,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grosses Fiescherhorn"
+  },
+  {
+   "id": "Q14515",
+   "name": "Lake Silvaplana",
+   "sl": 29,
+   "file": "Silvaplanersee1.jpg",
+   "lat": 46.45,
+   "lon": 9.7944,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Silvaplana"
+  },
+  {
+   "id": "Q15135",
+   "name": "Rheinwaldhorn",
+   "sl": 29,
+   "file": "Rheinwaldhorn0001.jpg",
+   "lat": 46.4936,
+   "lon": 9.04,
+   "kind": "natural",
+   "types": [
+    "main peak",
+    "mountain",
+    "three-thousander"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rheinwaldhorn"
+  },
+  {
+   "id": "Q15291",
+   "name": "Rigi",
+   "sl": 29,
+   "file": "7020 - Meggen - Rainbow over Rigi.JPG",
+   "lat": 47.0568,
+   "lon": 8.4861,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rigi"
+  },
+  {
+   "id": "Q676004",
+   "name": "Wankdorf Stadium",
+   "sl": 29,
+   "file": "Jack Metzger – Stadion Wankdorf 1959 (Com M08-0275-0002).jpg",
+   "lat": 46.9628,
+   "lon": 7.465,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "defunct sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wankdorf Stadium (1925)"
+  },
+  {
+   "id": "Q30525",
+   "name": "Allalinhorn",
+   "sl": 28,
+   "file": "Allalinhorn0001.jpg",
+   "lat": 46.0461,
+   "lon": 7.8948,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Allalinhorn"
+  },
+  {
+   "id": "Q15130",
+   "name": "Alphubel",
+   "sl": 28,
+   "file": "Aerial image of Alphubel (view from the west).jpg",
+   "lat": 46.0629,
+   "lon": 7.8639,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alphubel"
+  }
+ ]
+}

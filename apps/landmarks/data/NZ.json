@@ -1,0 +1,1343 @@
+{
+ "country": "NZ",
+ "items": [
+  {
+   "id": "Q37819",
+   "name": "Auckland Grammar School",
+   "sl": 95,
+   "file": "Auckland Boy's Grammar School.jpg",
+   "lat": -36.8694,
+   "lon": 174.7689,
+   "kind": "built",
+   "types": [
+    "boarding school",
+    "grammar school",
+    "public school",
+    "secondary school"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Auckland Grammar School"
+  },
+  {
+   "id": "Q791",
+   "name": "Taumatawhakatangihangakōauauotamateapōkaiwhenuakitānatahu",
+   "sl": 95,
+   "file": "Longest place name sign and hill, Pōrangahau, October 2026.jpg",
+   "lat": -40.346,
+   "lon": 176.5402,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taumata"
+  },
+  {
+   "id": "Q5059",
+   "name": "Aoraki / Mount Cook",
+   "sl": 69,
+   "file": "00 0985 Mount Cook - New Zealand Alps.jpg",
+   "lat": -43.595,
+   "lon": 170.1419,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain",
+    "parent peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aoraki / Mount Cook"
+  },
+  {
+   "id": "Q199903",
+   "name": "Lake Taupō",
+   "sl": 57,
+   "file": "Lake taupo landsat.jpg",
+   "lat": -38.8167,
+   "lon": 175.9167,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Taupō"
+  },
+  {
+   "id": "Q207284",
+   "name": "Mount Ruapehu",
+   "sl": 52,
+   "file": "00 1100 Ruapehu volcano.jpg",
+   "lat": -39.2817,
+   "lon": 175.5686,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Ruapehu"
+  },
+  {
+   "id": "Q202845",
+   "name": "Tongariro National Park",
+   "sl": 47,
+   "file": "Tongariro Mahuia River n.jpg",
+   "lat": -39.2,
+   "lon": 175.5833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tongariro National Park"
+  },
+  {
+   "id": "Q187197",
+   "name": "Milford Sound / Piopiotahi",
+   "sl": 43,
+   "file": "00 1371 New Zealand - Milford Sound.jpg",
+   "lat": -44.6167,
+   "lon": 167.8667,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Milford Sound"
+  },
+  {
+   "id": "Q45938",
+   "name": "Auckland Airport",
+   "sl": 41,
+   "file": "Auckland International Airport 2017 aerial.png",
+   "lat": -37.0081,
+   "lon": 174.7917,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Auckland Airport"
+  },
+  {
+   "id": "Q575398",
+   "name": "Te Wahipounamu",
+   "sl": 41,
+   "file": "MilfordSound.jpg",
+   "lat": -45.036,
+   "lon": 167.32,
+   "kind": "",
+   "types": [
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Te Wahipounamu"
+  },
+  {
+   "id": "Q877719",
+   "name": "Fiordland National Park",
+   "sl": 40,
+   "file": "On Lake Te Anau.jpg",
+   "lat": -45.386,
+   "lon": 167.347,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q575398",
+    "name": "Te Wahipounamu"
+   },
+   "also": [],
+   "cat": "Fiordland National Park"
+  },
+  {
+   "id": "Q850051",
+   "name": "Taranaki Maunga",
+   "sl": 40,
+   "file": "Mount Taranaki or Mount Egmont, New Zealand.jpg",
+   "lat": -39.2964,
+   "lon": 174.0647,
+   "kind": "natural",
+   "types": [
+    "juridical person",
+    "legal person",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Taranaki"
+  },
+  {
+   "id": "Q656709",
+   "name": "Nukunonu",
+   "sl": 39,
+   "file": "Nukunonu.jpg",
+   "lat": -9.1683,
+   "lon": -171.8097,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nukunonu"
+  },
+  {
+   "id": "Q122795",
+   "name": "Mount Tongariro",
+   "sl": 38,
+   "file": "Tongariro from the air.jpg",
+   "lat": -39.1297,
+   "lon": 175.6358,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Tongariro"
+  },
+  {
+   "id": "Q722125",
+   "name": "Sky Tower",
+   "sl": 38,
+   "file": "Auckland Sky Tower closeup.jpg",
+   "lat": -36.8485,
+   "lon": 174.7623,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sky Tower (Auckland)"
+  },
+  {
+   "id": "Q1061330",
+   "name": "Christchurch International Airport",
+   "sl": 37,
+   "file": "CHC airport.jpg",
+   "lat": -43.4894,
+   "lon": 172.5322,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christchurch International Airport"
+  },
+  {
+   "id": "Q1950336",
+   "name": "Aoraki / Mount Cook National Park",
+   "sl": 36,
+   "file": "Aoraki Mount Cook.JPG",
+   "lat": -43.7333,
+   "lon": 170.1,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q575398",
+    "name": "Te Wahipounamu"
+   },
+   "also": [],
+   "cat": "Aoraki / Mount Cook National Park"
+  },
+  {
+   "id": "Q312411",
+   "name": "Eden Park",
+   "sl": 35,
+   "file": "Eden Park at Dusk, 2013.jpg",
+   "lat": -36.8753,
+   "lon": 174.745,
+   "kind": "built",
+   "types": [
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eden Park"
+  },
+  {
+   "id": "Q318357",
+   "name": "Abel Tasman National Park",
+   "sl": 34,
+   "file": "View south over Anatakapau Bay and Mutton Cove.jpg",
+   "lat": -40.9,
+   "lon": 172.9715,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abel Tasman National Park"
+  },
+  {
+   "id": "Q915603",
+   "name": "Museum of New Zealand Te Papa Tongarewa",
+   "sl": 33,
+   "file": "Te Papa (National Museum), Wellington.jpg",
+   "lat": -41.2906,
+   "lon": 174.7819,
+   "kind": "built",
+   "types": [
+    "Autonomous Crown Entity",
+    "cultural property",
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Te Papa Tongarewa"
+  },
+  {
+   "id": "Q1192560",
+   "name": "Mount Tarawera",
+   "sl": 32,
+   "file": "Okataina.jpg",
+   "lat": -38.2269,
+   "lon": 176.5067,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Tarawera"
+  },
+  {
+   "id": "Q1348677",
+   "name": "Wellington Regional Stadium",
+   "sl": 32,
+   "file": "Wellington Westpac Stadium in 2010.jpg",
+   "lat": -41.2731,
+   "lon": 174.7858,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wellington Regional Stadium"
+  },
+  {
+   "id": "Q1150574",
+   "name": "Wellington Airport",
+   "sl": 31,
+   "file": "Wellington airport aerial.jpg",
+   "lat": -41.329,
+   "lon": 174.8117,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wellington International Airport"
+  },
+  {
+   "id": "Q1053661",
+   "name": "Westland Tai Poutini National Park",
+   "sl": 31,
+   "file": "Westland Tai Poutini National Park.jpg",
+   "lat": -43.567,
+   "lon": 170.083,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q575398",
+    "name": "Te Wahipounamu"
+   },
+   "also": [],
+   "cat": "Westland Tai Poutini National Park"
+  },
+  {
+   "id": "Q384811",
+   "name": "Don Juan Pond",
+   "sl": 29,
+   "file": "DonJuanSTILL.0660 web.jpg",
+   "lat": -77.5623,
+   "lon": 161.1912,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Don Juan Pond"
+  },
+  {
+   "id": "Q1140471",
+   "name": "Lake Te Anau",
+   "sl": 29,
+   "file": "On Lake Te Anau.jpg",
+   "lat": -45.2,
+   "lon": 167.8,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Te Anau"
+  },
+  {
+   "id": "Q1298247",
+   "name": "Egmont National Park",
+   "sl": 28,
+   "file": "Mt Taranaki Drainage System.jpg",
+   "lat": -39.2667,
+   "lon": 174.1,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Egmont National Park"
+  },
+  {
+   "id": "Q673150",
+   "name": "Franz Josef Glacier",
+   "sl": 28,
+   "file": "Franz Josef glacier.JPG",
+   "lat": -43.475,
+   "lon": 170.2,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Franz Josef Glacier / Kā Roimata o Hine Hukatere"
+  },
+  {
+   "id": "Q119196",
+   "name": "Kermadec Trench",
+   "sl": 28,
+   "file": "Kermadec Arc.jpg",
+   "lat": -31,
+   "lon": -177,
+   "kind": "natural",
+   "types": [
+    "oceanic trench"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kermadec Trench"
+  },
+  {
+   "id": "Q1429722",
+   "name": "Kahurangi National Park",
+   "sl": 27,
+   "file": "00 1171 Kahurangi National Park - NZ.jpg",
+   "lat": -41.13,
+   "lon": 172.61,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kahurangi National Park"
+  },
+  {
+   "id": "Q1194022",
+   "name": "Lake Tekapo",
+   "sl": 27,
+   "file": "LakeTekapoNov242024 01.jpg",
+   "lat": -43.9,
+   "lon": 170.525,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tekapo"
+  },
+  {
+   "id": "Q1192728",
+   "name": "Lake Wānaka",
+   "sl": 27,
+   "file": "Lake Wanaka 2005-08.jpg",
+   "lat": -44.5,
+   "lon": 169.1333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Wānaka"
+  },
+  {
+   "id": "Q934019",
+   "name": "Nelson Lakes National Park",
+   "sl": 27,
+   "file": "Peaks between Hukere Stream and Shift Creek valley, Nelson Lakes National Park, New Zealand.jpg",
+   "lat": -42.042,
+   "lon": 172.608,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nelson Lakes National Park"
+  },
+  {
+   "id": "Q282066",
+   "name": "Rakiura National Park",
+   "sl": 27,
+   "file": "Stewart Island Rakiura Track.jpg",
+   "lat": -46.976,
+   "lon": 167.814,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rakiura National Park"
+  },
+  {
+   "id": "Q1147722",
+   "name": "Fox Glacier",
+   "sl": 26,
+   "file": "Fox-Gletscher1.jpg",
+   "lat": -43.502,
+   "lon": 170.081,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fox Glacier / Te Moeka o Tuawe"
+  },
+  {
+   "id": "Q127469",
+   "name": "Lake Wakatipu",
+   "sl": 26,
+   "file": "00 1348 Lake Wakatipu - New Zealand.jpg",
+   "lat": -45.085,
+   "lon": 168.561,
+   "kind": "natural",
+   "types": [
+    "finger lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Wakatipu"
+  },
+  {
+   "id": "Q1070905",
+   "name": "Mount Aspiring National Park",
+   "sl": 26,
+   "file": "Matukituki valley.jpg",
+   "lat": -44.3828,
+   "lon": 168.7328,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q575398",
+    "name": "Te Wahipounamu"
+   },
+   "also": [],
+   "cat": "Mount Aspiring National Park"
+  },
+  {
+   "id": "Q83060",
+   "name": "Mount Ngauruhoe",
+   "sl": 26,
+   "file": "MountNgauruhoe.jpg",
+   "lat": -39.1569,
+   "lon": 175.6319,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Ngauruhoe"
+  },
+  {
+   "id": "Q1075151",
+   "name": "Paparoa National Park",
+   "sl": 26,
+   "file": "Pancake Rocks 06.jpg",
+   "lat": -42.0833,
+   "lon": 171.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paparoa National Park"
+  },
+  {
+   "id": "Q1192621",
+   "name": "Lake Rotorua / Te Rotorua nui ā Kahumatamomoe",
+   "sl": 25,
+   "file": "00 2009 03 20 1526 Lake Rotorua - Neuseeland.jpg",
+   "lat": -38.0833,
+   "lon": 176.2694,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Rotorua"
+  },
+  {
+   "id": "Q1551962",
+   "name": "Mount Tasman",
+   "sl": 25,
+   "file": "Mount Tasman.jpg",
+   "lat": -43.566,
+   "lon": 170.157,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Tasman"
+  },
+  {
+   "id": "Q141735",
+   "name": "Whanganui National Park",
+   "sl": 25,
+   "file": "Whanganui River.jpg",
+   "lat": -39.5833,
+   "lon": 175.0833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Whanganui National Park"
+  },
+  {
+   "id": "Q712300",
+   "name": "Arthur's Pass National Park",
+   "sl": 24,
+   "file": "Waimakariri River close to Arthur's Pass, New Zealand.jpg",
+   "lat": -42.8897,
+   "lon": 171.7214,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arthur's Pass National Park"
+  },
+  {
+   "id": "Q38408",
+   "name": "Sutherland Falls",
+   "sl": 24,
+   "file": "Sutherland Falls.jpg",
+   "lat": -44.8003,
+   "lon": 167.7303,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sutherland Falls"
+  },
+  {
+   "id": "Q1140440",
+   "name": "Haupapa / Tasman Glacier",
+   "sl": 23,
+   "file": "Upper Tasman Glacier.jpg",
+   "lat": -43.6167,
+   "lon": 170.2,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tasman Glacier"
+  },
+  {
+   "id": "Q1192384",
+   "name": "Lake Manapouri",
+   "sl": 23,
+   "file": "ManapouriPower.png",
+   "lat": -45.514,
+   "lon": 167.508,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Manapouri"
+  },
+  {
+   "id": "Q508612",
+   "name": "North Harbour Stadium",
+   "sl": 23,
+   "file": "North harbour stadium.JPG",
+   "lat": -36.7269,
+   "lon": 174.7017,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "North Harbour Stadium"
+  },
+  {
+   "id": "Q87172",
+   "name": "Te Urewera National Park",
+   "sl": 23,
+   "file": "New Zealand, Great Walk Lake Waikaremoana (41).JPG",
+   "lat": -38.539,
+   "lon": 177.029,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area",
+    "wildlife refuge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Te Urewera (geographic area)"
+  },
+  {
+   "id": "Q575365",
+   "name": "Doubtful Sound / Patea",
+   "sl": 22,
+   "file": "00 1406 Neuseeland, Fjordland-Nationalpark - Doubtful Sound.jpg",
+   "lat": -45.345,
+   "lon": 167.03,
+   "kind": "natural",
+   "types": [
+    "fjord",
+    "sound"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doubtful Sound"
+  },
+  {
+   "id": "Q1800949",
+   "name": "Lake Hauroko",
+   "sl": 22,
+   "file": "Lake hauroko.jpg",
+   "lat": -45.958,
+   "lon": 167.305,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Hauroko"
+  },
+  {
+   "id": "Q1210275",
+   "name": "Mount Aspiring / Tititea",
+   "sl": 22,
+   "file": "Mount Aspiring, Otago, New Zealand, 22 July 2005.jpg",
+   "lat": -44.384,
+   "lon": 168.728,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Aspiring / Tititea"
+  },
+  {
+   "id": "Q1752309",
+   "name": "Waikato Stadium",
+   "sl": 22,
+   "file": "Hamilton 03.jpg",
+   "lat": -37.7811,
+   "lon": 175.2683,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Waikato Stadium"
+  },
+  {
+   "id": "Q62066735",
+   "name": "Al Noor Mosque",
+   "sl": 21,
+   "file": "Christchurch Mosque, New Zealand.jpg",
+   "lat": -43.5329,
+   "lon": 172.6118,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christchurch Mosque"
+  },
+  {
+   "id": "Q812091",
+   "name": "Bay of Islands",
+   "sl": 21,
+   "file": "Bay of Islands.jpg",
+   "lat": -35.2,
+   "lon": 174.1667,
+   "kind": "natural",
+   "types": [
+    "bight",
+    "coast"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bay of Islands"
+  },
+  {
+   "id": "Q1034494",
+   "name": "Cape Reinga / Te Rerenga Wairua",
+   "sl": 21,
+   "file": "Cape Reinga, Northland, New Zealand, October 2007.jpg",
+   "lat": -34.4214,
+   "lon": 172.6797,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland",
+    "point"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Reinga"
+  },
+  {
+   "id": "Q1364375",
+   "name": "Dunedin International Airport",
+   "sl": 21,
+   "file": "Dunedin Airport From the air.JPG",
+   "lat": -45.9281,
+   "lon": 170.1983,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dunedin International Airport"
+  },
+  {
+   "id": "Q1204970",
+   "name": "Queenstown Airport",
+   "sl": 21,
+   "file": "Queenstown Airport view from Deer Park.jpg",
+   "lat": -45.0211,
+   "lon": 168.7392,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Queenstown Airport"
+  },
+  {
+   "id": "Q948790",
+   "name": "Rangipo Desert",
+   "sl": 21,
+   "file": "Rangipo.jpg",
+   "lat": -39.3116,
+   "lon": 175.6745,
+   "kind": "natural",
+   "types": [
+    "volcanic desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rangipo Desert"
+  },
+  {
+   "id": "Q1349516",
+   "name": "Lake Ōhau",
+   "sl": 20,
+   "file": "Lake Ohau.jpg",
+   "lat": -44.25,
+   "lon": 169.85,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ohau"
+  },
+  {
+   "id": "Q1440831",
+   "name": "Waimangu Geyser",
+   "sl": 20,
+   "file": "Waimangu geyser.jpg",
+   "lat": -38.2833,
+   "lon": 176.4,
+   "kind": "natural",
+   "types": [
+    "former geographical object",
+    "geyser"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Waimangu Geyser"
+  },
+  {
+   "id": "Q758638",
+   "name": "Auckland Harbour Bridge",
+   "sl": 19,
+   "file": "Auckland Harbour Bridge Watchman.jpg",
+   "lat": -36.8294,
+   "lon": 174.7464,
+   "kind": "built",
+   "types": [
+    "box truss",
+    "cantilever bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Auckland Harbour Bridge"
+  },
+  {
+   "id": "Q1077977",
+   "name": "Christ Church Cathedral",
+   "sl": 19,
+   "file": "00 1754 Christchurch (NZ) - Cathedral Square.jpg",
+   "lat": -43.531,
+   "lon": 172.637,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral",
+    "architectural reconstruction",
+    "construction site",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christ Church Cathedral, Christchurch"
+  },
+  {
+   "id": "Q2113897",
+   "name": "Forsyth Barr Stadium",
+   "sl": 19,
+   "file": "Forsyth Barr Stadium 95.JPG",
+   "lat": -45.8692,
+   "lon": 170.5244,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Forsyth Barr Stadium"
+  },
+  {
+   "id": "Q38477",
+   "name": "Huka Falls",
+   "sl": 19,
+   "file": "Huka Falls.jpg",
+   "lat": -38.6509,
+   "lon": 176.09,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Huka Falls"
+  },
+  {
+   "id": "Q1347588",
+   "name": "Lake Pukaki",
+   "sl": 19,
+   "file": "LakePukakiNov232024 01.jpg",
+   "lat": -44.1167,
+   "lon": 170.1667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Pukaki"
+  },
+  {
+   "id": "Q295182",
+   "name": "Lancaster Park",
+   "sl": 19,
+   "file": "Jade Stadium.jpg",
+   "lat": -43.5419,
+   "lon": 172.6542,
+   "kind": "built",
+   "types": [
+    "defunct sports venue",
+    "park",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lancaster Park"
+  },
+  {
+   "id": "Q3775494",
+   "name": "Taupō Volcano",
+   "sl": 19,
+   "file": "Mount Tauhara from Lake Taupo.jpg",
+   "lat": -38.8056,
+   "lon": 175.9008,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1186221",
+   "name": "Te Oneroa-a-Tōhē / Ninety Mile Beach",
+   "sl": 19,
+   "file": "90mile beach nz landsatimage.jpg",
+   "lat": -34.7798,
+   "lon": 172.982,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1368739",
+   "name": "Hamilton International Airport",
+   "sl": 18,
+   "file": "CTC Aviation, Hamilton, New Zealand, 22 August 2008 - Flickr - PhillipC.jpg",
+   "lat": -37.8667,
+   "lon": 175.3319,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hamilton International Airport"
+  },
+  {
+   "id": "Q1426996",
+   "name": "Mount Smart Stadium",
+   "sl": 18,
+   "file": "EricssonStadium00.jpg",
+   "lat": -36.9183,
+   "lon": 174.8125,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Smart Stadium"
+  },
+  {
+   "id": "Q37305",
+   "name": "Browne Falls",
+   "sl": 17,
+   "file": "Browne Falls (Doubtful Sound).jpg",
+   "lat": -45.3994,
+   "lon": 167.0858,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1898689",
+   "name": "Lake Mapourika",
+   "sl": 17,
+   "file": "Lake mapourika NZ.jpeg",
+   "lat": -43.3167,
+   "lon": 170.2,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mapourika"
+  },
+  {
+   "id": "Q2743469",
+   "name": "McLean Park",
+   "sl": 17,
+   "file": "McLean Park, Napier.jpg",
+   "lat": -39.5019,
+   "lon": 176.9128,
+   "kind": "built",
+   "types": [
+    "cricket pitch",
+    "rugby union venue",
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1049584",
+   "name": "Mitre Peak",
+   "sl": 17,
+   "file": "00 1367 New Zealand - Mitre Peak (Milford Sound).jpg",
+   "lat": -44.633,
+   "lon": 167.856,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mitre Peak (New Zealand)"
+  },
+  {
+   "id": "Q4819492",
+   "name": "Auckland Art Gallery",
+   "sl": 16,
+   "file": "Auckland Art Gallery Toi o Tāmaki - Joy of Museums - External 2.jpg",
+   "lat": -36.8514,
+   "lon": 174.7662,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Auckland Art Gallery"
+  },
+  {
+   "id": "Q758657",
+   "name": "Auckland War Memorial Museum Tāmaki Paenga Hira",
+   "sl": 16,
+   "file": "Auckland War Memorial Museum in 2021 (cropped square).jpg",
+   "lat": -36.8606,
+   "lon": 174.7778,
+   "kind": "built",
+   "types": [
+    "military museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Auckland War Memorial Museum"
+  },
+  {
+   "id": "Q1033769",
+   "name": "Canterbury Museum",
+   "sl": 16,
+   "file": "CanterburyMuseum gobeirne.jpg",
+   "lat": -43.5309,
+   "lon": 172.6271,
+   "kind": "built",
+   "types": [
+    "museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canterbury Museum"
+  },
+  {
+   "id": "Q913465",
+   "name": "Frying Pan Lake",
+   "sl": 16,
+   "file": "Frying Pan Lake NZ.jpg",
+   "lat": -38.284,
+   "lon": 176.395,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Frying Pan Lake"
+  },
+  {
+   "id": "Q1440634",
+   "name": "Lake Hāwea",
+   "sl": 16,
+   "file": "Lake Hawea, New Zealand.jpg",
+   "lat": -44.5,
+   "lon": 169.2833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Hāwea"
+  },
+  {
+   "id": "Q62066751",
+   "name": "Linwood Islamic Centre",
+   "sl": 16,
+   "file": "Linwood Islamic Centre, March 2020.jpg",
+   "lat": -43.5324,
+   "lon": 172.6725,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Linwood Islamic Centre, Chistchurch, New Zealand"
+  },
+  {
+   "id": "Q580585",
+   "name": "Taupō Volcanic Zone",
+   "sl": 16,
+   "file": "00 1055 Taupo Volcanic Zone - Tikitere (Hell's Gate).jpg",
+   "lat": -38.8167,
+   "lon": 176,
+   "kind": "natural",
+   "types": [
+    "volcanic landform"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taupo Volcanic Zone"
+  }
+ ]
+}

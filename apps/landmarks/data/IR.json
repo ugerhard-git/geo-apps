@@ -1,0 +1,1425 @@
+{
+ "country": "IR",
+ "items": [
+  {
+   "id": "Q129072",
+   "name": "Persepolis",
+   "sl": 103,
+   "file": "Gate of All Nations, Persepolis.jpg",
+   "lat": 29.935,
+   "lon": 52.89,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "architectural landmark",
+    "cultural property"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Persepolis"
+  },
+  {
+   "id": "Q199551",
+   "name": "Urmia Lake",
+   "sl": 82,
+   "file": "Lake urmia 1984.jpg",
+   "lat": 37.662,
+   "lon": 45.405,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "endorheic lake",
+    "hypersaline lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Urmia Lake"
+  },
+  {
+   "id": "Q40758",
+   "name": "Damavand",
+   "sl": 79,
+   "file": "981012-Damavand-South-IMG 9861-2.jpg",
+   "lat": 35.9553,
+   "lon": 52.1092,
+   "kind": "both",
+   "types": [
+    "architectural landmark",
+    "Iranian National Natural Heritage",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Damavand"
+  },
+  {
+   "id": "Q180773",
+   "name": "Susa",
+   "sl": 79,
+   "file": "The Apadana, a large hypostyle room of 36 columns in the Palace of Darius, Susa, capital of Elam and of the Achaemenid Empire, Iran (46950284624).jpg",
+   "lat": 32.1894,
+   "lon": 48.2561,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "architectural landmark"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Susa"
+  },
+  {
+   "id": "Q180012",
+   "name": "Behistun inscription",
+   "sl": 70,
+   "file": "کتیبه داریوش ( بیستون(.jpg",
+   "lat": 34.3904,
+   "lon": 47.4359,
+   "kind": "built",
+   "types": [
+    "bas-relief",
+    "cultural property",
+    "inscription",
+    "rock relief"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6547997",
+    "name": "Behistun"
+   },
+   "also": [],
+   "cat": "Behistun Inscription"
+  },
+  {
+   "id": "Q4519",
+   "name": "Naqsh-e Jahan Square",
+   "sl": 67,
+   "file": "Naghshe Jahan Square Isfahan modified2.jpg",
+   "lat": 32.6582,
+   "lon": 51.6773,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "cultural property",
+    "square"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Naqsh-i Jahan Square"
+  },
+  {
+   "id": "Q4523",
+   "name": "Chogha Zanbil",
+   "sl": 66,
+   "file": "Choghazanbil2.jpg",
+   "lat": 32.0083,
+   "lon": 48.5208,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Chogha Zanbil"
+  },
+  {
+   "id": "Q230025",
+   "name": "Pasargadae",
+   "sl": 66,
+   "file": "Pasargadae, Marv Dasht, near Shiraz - 4-8-2013.jpg",
+   "lat": 30.2,
+   "lon": 53.1794,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "cultural property"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Pasargadae"
+  },
+  {
+   "id": "Q767128",
+   "name": "Dasht-e Lut",
+   "sl": 64,
+   "file": "Sand castles - Dasht-e Lut desert - Kerman.JPG",
+   "lat": 30.2639,
+   "lon": 59.2411,
+   "kind": "natural",
+   "types": [
+    "desert in Iran"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Dasht-e Lut"
+  },
+  {
+   "id": "Q210610",
+   "name": "Golestan Palace",
+   "sl": 59,
+   "file": "Milad-poorali.jpg",
+   "lat": 35.6797,
+   "lon": 51.4203,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Golestan Palace"
+  },
+  {
+   "id": "Q328072",
+   "name": "Köpet Dag",
+   "sl": 56,
+   "file": "Ahal.jpg",
+   "lat": 38.0669,
+   "lon": 57.3725,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TM"
+   ],
+   "cat": "Kopet Dag"
+  },
+  {
+   "id": "Q737835",
+   "name": "University of Tehran",
+   "sl": 54,
+   "file": "University of Tehran 1704.jpg",
+   "lat": 35.7041,
+   "lon": 51.3951,
+   "kind": "built",
+   "types": [
+    "campus",
+    "cultural property",
+    "public university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "University of Tehran"
+  },
+  {
+   "id": "Q1256501",
+   "name": "Jameh Mosque of Isfahan",
+   "sl": 53,
+   "file": "20180301124354 IMG 4179And6more Interior 3.jpg",
+   "lat": 32.6697,
+   "lon": 51.6853,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Jameh Mosque of Isfahan"
+  },
+  {
+   "id": "Q622796",
+   "name": "Milad Tower",
+   "sl": 51,
+   "file": "برج میلاد و کوه دماوند از آزادراه تهران کرج - panoramio.jpg",
+   "lat": 35.7446,
+   "lon": 51.3753,
+   "kind": "built",
+   "types": [
+    "communication tower",
+    "landmark",
+    "observation tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Milad Tower"
+  },
+  {
+   "id": "Q4706020",
+   "name": "Alamut Castle",
+   "sl": 50,
+   "file": "2008iran. Iran, Alamut Castle (2573255326).jpg",
+   "lat": 36.4447,
+   "lon": 50.5861,
+   "kind": "built",
+   "types": [
+    "castle",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alamut Castle"
+  },
+  {
+   "id": "Q272514",
+   "name": "Dasht-e Kavir",
+   "sl": 50,
+   "file": "Dasht-e Kavir 2, Iran.JPG",
+   "lat": 34.7376,
+   "lon": 54.8271,
+   "kind": "natural",
+   "types": [
+    "desert in Iran"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dasht-e Kavir"
+  },
+  {
+   "id": "Q696193",
+   "name": "Ecbatana",
+   "sl": 50,
+   "file": "Excavations in Ecbatana.jpg",
+   "lat": 34.8065,
+   "lon": 48.5162,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "cultural property",
+    "locality"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ecbatana"
+  },
+  {
+   "id": "Q648705",
+   "name": "Naqsh-e Rustam",
+   "sl": 50,
+   "file": "The Islamic Republic 049 (8498647398).jpg",
+   "lat": 29.9889,
+   "lon": 52.8747,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural property",
+    "necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naqsh-e Rustam"
+  },
+  {
+   "id": "Q1025825",
+   "name": "Shahr-e Sukhteh",
+   "sl": 50,
+   "file": "کاخ سوخته شهر سوحته.jpg",
+   "lat": 30.5953,
+   "lon": 61.3319,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Shahr-e Sukhteh"
+  },
+  {
+   "id": "Q115253",
+   "name": "Takht-e Soleyman",
+   "sl": 50,
+   "file": "Takhte Soleyman (5).jpg",
+   "lat": 36.6047,
+   "lon": 47.2342,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castle",
+    "cultural property",
+    "shrine"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Takht-e Soleyman"
+  },
+  {
+   "id": "Q643098",
+   "name": "Shah Mosque",
+   "sl": 49,
+   "file": "Naghsh-e-jahan masjed-e-shah esfahan.jpg",
+   "lat": 32.6548,
+   "lon": 51.6778,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "cultural property",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shah Mosque (Isfahan)"
+  },
+  {
+   "id": "Q734729",
+   "name": "Tehran Imam Khomeini International Airport",
+   "sl": 48,
+   "file": "IKA Airport main terminal (cropped).jpg",
+   "lat": 35.4161,
+   "lon": 51.1522,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imam Khomeini International Airport"
+  },
+  {
+   "id": "Q1140026",
+   "name": "Azadi Tower",
+   "sl": 47,
+   "file": "Azadi Tower, Tehran.jpg",
+   "lat": 35.6997,
+   "lon": 51.3381,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "cultural property",
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azadi Tower"
+  },
+  {
+   "id": "Q43277",
+   "name": "Bam Citadel",
+   "sl": 47,
+   "file": "Arge Bam Arad edit.jpg",
+   "lat": 29.1169,
+   "lon": 58.3685,
+   "kind": "built",
+   "types": [
+    "citadel"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Bam Citadel"
+  },
+  {
+   "id": "Q4399",
+   "name": "Tabriz Bazaar",
+   "sl": 45,
+   "file": "GRAND BAZAR OF TABRIZ.jpg",
+   "lat": 38.0808,
+   "lon": 46.2923,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "bazaar",
+    "cultural property"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tabriz Bazaar"
+  },
+  {
+   "id": "Q1962312",
+   "name": "Nasir-ol-Molk Mosque",
+   "sl": 44,
+   "file": "Nasr ol Molk mosque2.jpg",
+   "lat": 29.6086,
+   "lon": 52.5485,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nasir-ol-Molk Mosque"
+  },
+  {
+   "id": "Q513684",
+   "name": "Mehrabad International Airport",
+   "sl": 43,
+   "file": "Mehrabad Airport Terminal 1&2.jpg",
+   "lat": 35.6892,
+   "lon": 51.3136,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mehrabad International Airport"
+  },
+  {
+   "id": "Q2635530",
+   "name": "Tomb of Cyrus the Great",
+   "sl": 43,
+   "file": "Pasargad Tomb Cyrus3.jpg",
+   "lat": 30.1939,
+   "lon": 53.1672,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "cultural property",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Cyrus the Great"
+  },
+  {
+   "id": "Q681427",
+   "name": "Tus",
+   "sl": 43,
+   "file": "Irnh157-Przy Mausoleum Ferdousiego.jpg",
+   "lat": 36.4861,
+   "lon": 59.5176,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tus, Iran"
+  },
+  {
+   "id": "Q653535",
+   "name": "Azadi Stadium",
+   "sl": 42,
+   "file": "Azadi Stadium ACL 2018.jpg",
+   "lat": 35.7244,
+   "lon": 51.2755,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azadi Stadium"
+  },
+  {
+   "id": "Q4243",
+   "name": "Sheikh Safi al-Din Khānegāh and Shrine Ensemble",
+   "sl": 41,
+   "file": "Sheikh Safi Al Din Ardabili Tomb.jpg",
+   "lat": 38.2486,
+   "lon": 48.2914,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "cultural property",
+    "imamzadeh",
+    "mausoleum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sheikh Safi al-Din Khānegāh and Shrine Ensemblei"
+  },
+  {
+   "id": "Q569107",
+   "name": "Anshan Persia",
+   "sl": 40,
+   "file": "Keramik aus Iran.jpg",
+   "lat": 30.0117,
+   "lon": 52.4078,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "city-state"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anshan (Persia)"
+  },
+  {
+   "id": "Q606763",
+   "name": "Gonbad-e Qabus",
+   "sl": 40,
+   "file": "کلاهک.JPG",
+   "lat": 37.2581,
+   "lon": 55.169,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "mausoleum",
+    "tower"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Gonbad-e Qabus"
+  },
+  {
+   "id": "Q1791841",
+   "name": "Imam Reza Shrine",
+   "sl": 39,
+   "file": "RezaShrine.jpg",
+   "lat": 36.288,
+   "lon": 59.6157,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "architectural landmark",
+    "cultural property",
+    "imamzadeh"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Imam Reza Shrine"
+  },
+  {
+   "id": "Q127963",
+   "name": "Eram Garden",
+   "sl": 37,
+   "file": "DJI 0021(0).jpg",
+   "lat": 29.6358,
+   "lon": 52.5256,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "Persian garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eram Garden"
+  },
+  {
+   "id": "Q1364168",
+   "name": "Sabalan",
+   "sl": 37,
+   "file": "Sab dalj1.JPG",
+   "lat": 38.2669,
+   "lon": 47.8369,
+   "kind": "natural",
+   "types": [
+    "Iranian National Natural Heritage",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sabalan"
+  },
+  {
+   "id": "Q856356",
+   "name": "Sheikh Lotfollah Mosque",
+   "sl": 37,
+   "file": "مسجد شیخ لطف الله II.jpg",
+   "lat": 32.6575,
+   "lon": 51.6785,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "cultural property",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sheikh Lotfollah Mosque"
+  },
+  {
+   "id": "Q2393680",
+   "name": "Goharshad Mosque",
+   "sl": 35,
+   "file": "Goharshad Mosque Maqsura Iwan.jpg",
+   "lat": 36.2875,
+   "lon": 59.6147,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goharshad Mosque"
+  },
+  {
+   "id": "Q1152024",
+   "name": "Mashhad International Airport",
+   "sl": 35,
+   "file": "1399012319140852020116134 ضدعفونی کردن فرودگاه بین المللی مشهد.jpg",
+   "lat": 36.2342,
+   "lon": 59.645,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mashhad International Airport"
+  },
+  {
+   "id": "Q721618",
+   "name": "Tabriz International Airport",
+   "sl": 35,
+   "file": "Tabriz Airport.JPG",
+   "lat": 38.1339,
+   "lon": 46.235,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tabriz International Airport"
+  },
+  {
+   "id": "Q1519733",
+   "name": "Blue Mosque",
+   "sl": 34,
+   "file": "Blue Mosque (Tabriz) General view.jpg",
+   "lat": 38.0736,
+   "lon": 46.3011,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Mosque (Tabriz)"
+  },
+  {
+   "id": "Q842826",
+   "name": "Church of Saint Thaddeus",
+   "sl": 34,
+   "file": "Saint Thaddeus Monastery, Iran, northwestern view.jpg",
+   "lat": 39.0922,
+   "lon": 44.5444,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q841896",
+    "name": "Armenian Monastic Ensembles of Iran"
+   },
+   "also": [],
+   "cat": "Saint Thaddeus Monastery"
+  },
+  {
+   "id": "Q611729",
+   "name": "Hamun Lake",
+   "sl": 34,
+   "file": "Hamoun wetland 2020-05-09 05.jpg",
+   "lat": 30.7653,
+   "lon": 61.6372,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "group of lakes",
+    "hamun"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AF"
+   ],
+   "cat": "Lake Hāmūn"
+  },
+  {
+   "id": "Q1076004",
+   "name": "imam Khomeini Mausoleum",
+   "sl": 34,
+   "file": "Iran IMG 3429 Tehran (2864793031).jpg",
+   "lat": 35.5492,
+   "lon": 51.3665,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mausoleum of Ruhollah Khomeini"
+  },
+  {
+   "id": "Q862251",
+   "name": "Istakhr",
+   "sl": 34,
+   "file": "A history of all nations from the earliest times; being a universal historical library (1905) (14595561829).jpg",
+   "lat": 29.9817,
+   "lon": 52.9094,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1631008",
+   "name": "National Museum of Iran",
+   "sl": 34,
+   "file": "Národní muzeum Íránu.jpg",
+   "lat": 35.687,
+   "lon": 51.4146,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Iran"
+  },
+  {
+   "id": "Q1151896",
+   "name": "Shiraz International Airport",
+   "sl": 34,
+   "file": "Shiraz airport by tasnim.jpg",
+   "lat": 29.5392,
+   "lon": 52.59,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shiraz International Airport"
+  },
+  {
+   "id": "Q667674",
+   "name": "Si-o-se Pol",
+   "sl": 34,
+   "file": "Si-o-se-pol Bridge, Isfahan, Iran.png",
+   "lat": 32.6449,
+   "lon": 51.6676,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "architectural landmark",
+    "road bridge",
+    "stone bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Si-o-se Pol"
+  },
+  {
+   "id": "Q16566",
+   "name": "Chehel Sotun",
+   "sl": 33,
+   "file": "Chehelsotun1.JPG",
+   "lat": 32.6574,
+   "lon": 51.6718,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "cultural property",
+    "palace",
+    "pavilion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chehel Sotun"
+  },
+  {
+   "id": "Q1415856",
+   "name": "Fin Garden",
+   "sl": 33,
+   "file": "Bagh-e-fin kashan.jpg",
+   "lat": 33.9463,
+   "lon": 51.3726,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "Persian garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fin Garden"
+  },
+  {
+   "id": "Q957628",
+   "name": "Saint Stepanos Monastery",
+   "sl": 33,
+   "file": "Aras - Jolfa - St. Stepanos Monastery - panoramio.jpg",
+   "lat": 38.9791,
+   "lon": 45.4733,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q841896",
+    "name": "Armenian Monastic Ensembles of Iran"
+   },
+   "also": [],
+   "cat": "Saint Stepanos Monastery"
+  },
+  {
+   "id": "Q20645774",
+   "name": "Soltaniyeh Dome",
+   "sl": 33,
+   "file": "Gonbad Soltaniye.jpg",
+   "lat": 36.4338,
+   "lon": 48.7959,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soltaniyeh Dome"
+  },
+  {
+   "id": "Q2096604",
+   "name": "Sharif University of Technology",
+   "sl": 32,
+   "file": "Sharif University of Technology.jpg",
+   "lat": 35.7018,
+   "lon": 51.3514,
+   "kind": "built",
+   "types": [
+    "campus",
+    "public university",
+    "university of technology"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sharif University of Technology"
+  },
+  {
+   "id": "Q1398856",
+   "name": "Vank Cathedral",
+   "sl": 32,
+   "file": "کلیسای وانک. عکس Rasool AB.JPG",
+   "lat": 32.6349,
+   "lon": 51.6558,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vank Cathedral"
+  },
+  {
+   "id": "Q387503",
+   "name": "Evin Prison",
+   "sl": 30,
+   "file": "EvinHouseofDetention.jpg",
+   "lat": 35.796,
+   "lon": 51.384,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Evin Prison"
+  },
+  {
+   "id": "Q524954",
+   "name": "Mount Taftan",
+   "sl": 30,
+   "file": "Taftan Volcano.jpg",
+   "lat": 28.6,
+   "lon": 61.1333,
+   "kind": "natural",
+   "types": [
+    "Iranian National Natural Heritage",
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taftan"
+  },
+  {
+   "id": "Q2274974",
+   "name": "Shushtar Historical Hydraulic System",
+   "sl": 30,
+   "file": "Shushtar Historical Hydraulic System Darafsh (6).jpg",
+   "lat": 32.0537,
+   "lon": 48.8487,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "cultural property",
+    "hydraulic system"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Shushtar Historical Hydraulic System"
+  },
+  {
+   "id": "Q1302971",
+   "name": "Gundeshapur",
+   "sl": 29,
+   "file": "Ancient City of Gandhi Shapour 02.jpg",
+   "lat": 32.2833,
+   "lon": 48.5167,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gundeshapur"
+  },
+  {
+   "id": "Q295272",
+   "name": "Namak Lake",
+   "sl": 29,
+   "file": "KavirNP Iran L7 aug00sep01.jpg",
+   "lat": 34.4922,
+   "lon": 51.8806,
+   "kind": "natural",
+   "types": [
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Namak Lake"
+  },
+  {
+   "id": "Q841896",
+   "name": "Armenian Monastic Ensembles of Iran",
+   "sl": 28,
+   "file": "Qareh kelissa.jpg",
+   "lat": 38.9789,
+   "lon": 45.4733,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Armenian monastic ensembles of Iran"
+  },
+  {
+   "id": "Q1151889",
+   "name": "Isfahan shahid behadhti International Airport",
+   "sl": 28,
+   "file": "Isfahan International Airport 03.jpg",
+   "lat": 32.7508,
+   "lon": 51.8611,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isfahan International Airport"
+  },
+  {
+   "id": "Q5711011",
+   "name": "Plasco Building",
+   "sl": 28,
+   "file": "0 Plasco Building in March 2021 01.jpg",
+   "lat": 35.6947,
+   "lon": 51.4208,
+   "kind": "built",
+   "types": [
+    "office building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plasco Building"
+  },
+  {
+   "id": "Q1432738",
+   "name": "Sahand",
+   "sl": 28,
+   "file": "Mount-Sahand.jpg",
+   "lat": 37.73,
+   "lon": 46.5,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Sahand"
+  },
+  {
+   "id": "Q1548608",
+   "name": "Tehran Grand Bazaar",
+   "sl": 28,
+   "file": "Grand Bazaar, Tehran 12.jpg",
+   "lat": 35.6769,
+   "lon": 51.4238,
+   "kind": "built",
+   "types": [
+    "bazaar",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tehran Grand Bazaar"
+  },
+  {
+   "id": "Q1756399",
+   "name": "Tehran Museum of Contemporary Art",
+   "sl": 28,
+   "file": "Contemporary arts tehran.jpg",
+   "lat": 35.7114,
+   "lon": 51.3906,
+   "kind": "built",
+   "types": [
+    "contemporary art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tehran Museum of Contemporary Art"
+  },
+  {
+   "id": "Q1581555",
+   "name": "Tepe Sialk",
+   "sl": 28,
+   "file": "Sialk slide.jpg",
+   "lat": 33.9689,
+   "lon": 51.4047,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cultural property",
+    "mound"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tepe Sialk"
+  },
+  {
+   "id": "Q2429287",
+   "name": "Ali Qapu",
+   "sl": 27,
+   "file": "Alighapodibajizahra.jpg",
+   "lat": 32.6571,
+   "lon": 51.6767,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "cultural property",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ali Qapu"
+  },
+  {
+   "id": "Q1681449",
+   "name": "Jamkaran Mosque",
+   "sl": 27,
+   "file": "Jamkaran Mosque.jpg",
+   "lat": 34.5839,
+   "lon": 50.9147,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jamkaran Mosque"
+  },
+  {
+   "id": "Q1957722",
+   "name": "Shah Cheragh shrine",
+   "sl": 27,
+   "file": "Glass hall in Shahcheragh.jpg",
+   "lat": 29.6096,
+   "lon": 52.5433,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "cultural property",
+    "imamzadeh",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shah Cheragh"
+  },
+  {
+   "id": "Q622296",
+   "name": "Ahvaz General Ghasem Soleimani International Airport",
+   "sl": 26,
+   "file": "Ahwaz International Airport Terminal.jpg",
+   "lat": 31.3374,
+   "lon": 48.762,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ahvaz International Airport"
+  },
+  {
+   "id": "Q2358345",
+   "name": "Bandar Abbas International Airport",
+   "sl": 26,
+   "file": "Bandar Abbas International Airport 3.jpg",
+   "lat": 27.2181,
+   "lon": 56.3778,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bandar Abbas International Airport"
+  },
+  {
+   "id": "Q477898",
+   "name": "Bishapur",
+   "sl": 26,
+   "file": "Bishapur by HADI 40.jpg",
+   "lat": 29.7778,
+   "lon": 51.5708,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural property",
+    "historic city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bishapur"
+  },
+  {
+   "id": "Q1314130",
+   "name": "Hasht Behesht Palace",
+   "sl": 26,
+   "file": "کاخ هشت بهشت 01+.jpg",
+   "lat": 32.6534,
+   "lon": 51.6701,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "palace",
+    "pavilion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hasht Behesht Palace"
+  },
+  {
+   "id": "Q1740490",
+   "name": "Khaju Bridge",
+   "sl": 26,
+   "file": "Pole Kahjoo 1.JPG",
+   "lat": 32.6367,
+   "lon": 51.6833,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "architectural landmark",
+    "cultural property",
+    "stone bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khaju Bridge"
+  },
+  {
+   "id": "Q129479",
+   "name": "Tomb of Hafez",
+   "sl": 26,
+   "file": "Háfezova hrobka.jpg",
+   "lat": 29.6258,
+   "lon": 52.5584,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "cultural property",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Hafez"
+  },
+  {
+   "id": "Q1948430",
+   "name": "Abadan International Airport",
+   "sl": 25,
+   "file": "Abadan Airport ABD, Iran 1950s, 1960s. SAS DC-6 at the airport.jpg",
+   "lat": 30.3711,
+   "lon": 48.2283,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abadan Airport"
+  },
+  {
+   "id": "Q806225",
+   "name": "Band-e Kaisar",
+   "sl": 25,
+   "file": "Sushtar Bridge.jpg",
+   "lat": 32.0537,
+   "lon": 48.8487,
+   "kind": "built",
+   "types": [
+    "ancient Roman dam",
+    "Roman bridge",
+    "stone arch bridge",
+    "weir"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2274974",
+    "name": "Shushtar Historical Hydraulic System"
+   },
+   "also": [],
+   "cat": "Band-e Kaisar"
+  },
+  {
+   "id": "Q2561858",
+   "name": "Dzordzor Chapel",
+   "sl": 25,
+   "file": "Dzor Dzor church.jpg",
+   "lat": 39.1879,
+   "lon": 44.4762,
+   "kind": "built",
+   "types": [
+    "chapel"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q841896",
+    "name": "Armenian Monastic Ensembles of Iran"
+   },
+   "also": [],
+   "cat": "Dzordzor Chapel"
+  },
+  {
+   "id": "Q1969012",
+   "name": "Sa'dabad Palace",
+   "sl": 25,
+   "file": "Sadabad9.jpg",
+   "lat": 35.8172,
+   "lon": 51.4236,
+   "kind": "built",
+   "types": [
+    "building",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sa'dabad Palace"
+  },
+  {
+   "id": "Q2302910",
+   "name": "Alvand",
+   "sl": 24,
+   "file": "Alvand 2007.jpg",
+   "lat": 34.6642,
+   "lon": 48.4867,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alvand"
+  }
+ ]
+}

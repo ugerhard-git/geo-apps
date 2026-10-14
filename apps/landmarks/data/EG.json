@@ -2,25 +2,6 @@
  "country": "EG",
  "items": [
   {
-   "id": "Q85",
-   "name": "Cairo",
-   "sl": 261,
-   "file": "Cairo Skyline (2020).jpg",
-   "lat": 30.0444,
-   "lon": 31.2358,
-   "kind": "built",
-   "types": [
-    "ancient city",
-    "big city",
-    "largest city",
-    "megacity"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Cairo"
-  },
-  {
    "id": "Q899",
    "name": "Suez Canal",
    "sl": 177,
@@ -35,25 +16,6 @@
    "partOf": null,
    "also": [],
    "cat": "Suez Canal"
-  },
-  {
-   "id": "Q87",
-   "name": "Alexandria",
-   "sl": 176,
-   "file": "AlexandriaSkyline.jpg",
-   "lat": 31.1975,
-   "lon": 29.8925,
-   "kind": "built",
-   "types": [
-    "big city",
-    "city",
-    "municipality",
-    "polis"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Alexandria"
   },
   {
    "id": "Q37200",
@@ -273,24 +235,6 @@
    },
    "also": [],
    "cat": "Saint Catherine Monastery, Mount Sinai"
-  },
-  {
-   "id": "Q29962",
-   "name": "Asyut",
-   "sl": 74,
-   "file": "The Coptic Center السنتر - panoramio.jpg",
-   "lat": 27.1869,
-   "lon": 31.1714,
-   "kind": "built",
-   "types": [
-    "archaeological site",
-    "big city",
-    "city"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Asyut"
   },
   {
    "id": "Q522862",
@@ -562,24 +506,6 @@
    "cat": "Bibliotheca Alexandrina"
   },
   {
-   "id": "Q381038",
-   "name": "Sais",
-   "sl": 50,
-   "file": "Jean-Francois Champollion - Plan Des Ruines De Sais.cropped.png",
-   "lat": 30.9647,
-   "lon": 30.7683,
-   "kind": "built",
-   "types": [
-    "archaeological site",
-    "emporium",
-    "village in Egypt"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Sais, Egypt"
-  },
-  {
    "id": "Q685414",
    "name": "Dahshur",
    "sl": 49,
@@ -597,42 +523,6 @@
    "partOf": null,
    "also": [],
    "cat": "Dahshur"
-  },
-  {
-   "id": "Q210598",
-   "name": "Tanis",
-   "sl": 49,
-   "file": "Ruins of Tanis.jpg",
-   "lat": 30.9769,
-   "lon": 31.88,
-   "kind": "built",
-   "types": [
-    "ancient city",
-    "archaeological site",
-    "village",
-    "village in Egypt"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Tanis, Egypt"
-  },
-  {
-   "id": "Q626031",
-   "name": "Esna",
-   "sl": 48,
-   "file": "Images by the Nile No 329..JPG",
-   "lat": 25.2933,
-   "lon": 32.5564,
-   "kind": "built",
-   "types": [
-    "archaeological site",
-    "city"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Esna"
   },
   {
    "id": "Q501833",
@@ -669,24 +559,6 @@
    "partOf": null,
    "also": [],
    "cat": "Abusir"
-  },
-  {
-   "id": "Q29019",
-   "name": "Dendera",
-   "sl": 47,
-   "file": "Dendera Temple.jpg",
-   "lat": 26.1422,
-   "lon": 32.6697,
-   "kind": "built",
-   "types": [
-    "archaeological site",
-    "Egyptian temple",
-    "village"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Dendera"
   },
   {
    "id": "Q2583681",
@@ -864,24 +736,6 @@
    "cat": "Sharm el-Sheikh International Airport"
   },
   {
-   "id": "Q340572",
-   "name": "Akhmim",
-   "sl": 43,
-   "file": "AkhmimOpenAirMuseum.jpg",
-   "lat": 26.5642,
-   "lon": 31.7461,
-   "kind": "built",
-   "types": [
-    "archaeological site",
-    "big city",
-    "city"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Akhmim"
-  },
-  {
    "id": "Q385191",
    "name": "Hurghada International Airport",
    "sl": 43,
@@ -1005,23 +859,6 @@
    "partOf": null,
    "also": [],
    "cat": "Al-Azhar Mosque"
-  },
-  {
-   "id": "Q249480",
-   "name": "Herakleopolis Magna",
-   "sl": 41,
-   "file": "Relieve tumba Satbahetep (M.A.N. Inv.1976-114-A-2080) 02.jpg",
-   "lat": 29.0833,
-   "lon": 30.9333,
-   "kind": "built",
-   "types": [
-    "ancient city",
-    "archaeological site"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Herakleopolis Magna"
   },
   {
    "id": "Q732908",
@@ -1163,24 +1000,6 @@
    "cat": "Lake Qarun"
   },
   {
-   "id": "Q817286",
-   "name": "Beni Hasan",
-   "sl": 37,
-   "file": "BeniHasanTombs2.jpg",
-   "lat": 27.9314,
-   "lon": 30.8753,
-   "kind": "built",
-   "types": [
-    "archaeological site",
-    "necropolis",
-    "village"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Beni Hassan"
-  },
-  {
    "id": "Q1988240",
    "name": "Cairo Citadel",
    "sl": 37,
@@ -1296,24 +1115,6 @@
    "cat": "Cairo International Stadium"
   },
   {
-   "id": "Q749187",
-   "name": "Girga",
-   "sl": 35,
-   "file": "Girgeh (1890) - TIMEA.jpg",
-   "lat": 26.3383,
-   "lon": 31.8917,
-   "kind": "built",
-   "types": [
-    "archaeological site",
-    "big city",
-    "city"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Girga"
-  },
-  {
    "id": "Q652046",
    "name": "Muhammad Ali Mosque",
    "sl": 35,
@@ -1346,24 +1147,6 @@
    "partOf": null,
    "also": [],
    "cat": "Naucratis"
-  },
-  {
-   "id": "Q1066424",
-   "name": "Meidum",
-   "sl": 34,
-   "file": "01 meidum distance.jpg",
-   "lat": 29.3724,
-   "lon": 31.172,
-   "kind": "built",
-   "types": [
-    "archaeological site",
-    "village",
-    "village in Egypt"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Meidum"
   },
   {
    "id": "Q1145715",
@@ -1418,6 +1201,219 @@
    "partOf": null,
    "also": [],
    "cat": "Dendera Temple complex"
+  },
+  {
+   "id": "Q287779",
+   "name": "Lisht",
+   "sl": 32,
+   "file": "Carte-lepsius-licht.jpg",
+   "lat": 29.5703,
+   "lon": 31.2311,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis",
+    "village",
+    "village in Egypt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lisht"
+  },
+  {
+   "id": "Q1347322",
+   "name": "Luxor International Airport",
+   "sl": 32,
+   "file": "Flughafen Luxor 01.JPG",
+   "lat": 25.6708,
+   "lon": 32.7064,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Luxor International Airport"
+  },
+  {
+   "id": "Q853955",
+   "name": "Umm el-Qa'ab",
+   "sl": 32,
+   "file": "Umm el-Qaab.jpg",
+   "lat": 26.1749,
+   "lon": 31.9079,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Umm el-Qaab"
+  },
+  {
+   "id": "Q739278",
+   "name": "Buto",
+   "sl": 31,
+   "file": "Buto5-Desouk.jpg",
+   "lat": 31.1964,
+   "lon": 30.7447,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buto"
+  },
+  {
+   "id": "Q1145180",
+   "name": "Canopus",
+   "sl": 31,
+   "file": "Canopus menouthis herakleion.jpg",
+   "lat": 31.3,
+   "lon": 30.0833,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "former settlement",
+    "submerged settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canopus (Peguat)"
+  },
+  {
+   "id": "Q1609149",
+   "name": "Pyramid of Neferirkare",
+   "sl": 31,
+   "file": "Abousir Neferirkare 04.jpg",
+   "lat": 29.895,
+   "lon": 31.2024,
+   "kind": "built",
+   "types": [
+    "Egyptian pyramids",
+    "step pyramid"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyramid of Neferirkare"
+  },
+  {
+   "id": "Q1028367",
+   "name": "Ras Muhammad National Park",
+   "sl": 31,
+   "file": "Ras Mohammed Mangrovie.JPG",
+   "lat": 27.7694,
+   "lon": 34.2097,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ras Muhammad"
+  },
+  {
+   "id": "Q1194015",
+   "name": "Alexandria International Airport",
+   "sl": 30,
+   "file": "Terminal 2, Alexandria International Airport (Egypt).jpg",
+   "lat": 30.9301,
+   "lon": 29.6992,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alexandria International Airport (Egypt)"
+  },
+  {
+   "id": "Q660692",
+   "name": "mortuary temple of Hatshepsut",
+   "sl": 30,
+   "file": "Hatshetsup-temple-1by7.jpg",
+   "lat": 25.7381,
+   "lon": 32.6069,
+   "kind": "built",
+   "types": [
+    "house of millions of years"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mortuary Temple of Hatshepsut"
+  },
+  {
+   "id": "Q2564302",
+   "name": "Rafah Border Crossing",
+   "sl": 30,
+   "file": "Egyptian Convoy to Gaza, Palestine.jpg",
+   "lat": 31.2486,
+   "lon": 34.2592,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "border crossing"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Rafah Land Port"
+  },
+  {
+   "id": "Q1140249",
+   "name": "Temple of Debod",
+   "sl": 30,
+   "file": "Templo de Debod Madrid.JPG",
+   "lat": 40.4241,
+   "lon": -3.7178,
+   "kind": "built",
+   "types": [
+    "Egyptian temple",
+    "moved building",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ES"
+   ],
+   "cat": "Temple of Debod"
+  },
+  {
+   "id": "Q335278",
+   "name": "Abu Rawash",
+   "sl": 29,
+   "file": "Abu Rawash Pyramid.jpg",
+   "lat": 30.0322,
+   "lon": 31.0747,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "necropolis",
+    "village",
+    "village in Egypt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abu Rawash"
   }
  ]
 }

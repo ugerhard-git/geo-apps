@@ -1,0 +1,1346 @@
+{
+ "country": "BA",
+ "items": [
+  {
+   "id": "Q188528",
+   "name": "Stari Most",
+   "sl": 61,
+   "file": "Mostar Old Town Panorama 2007.jpg",
+   "lat": 43.3373,
+   "lon": 17.815,
+   "kind": "built",
+   "types": [
+    "bridge",
+    "deck arch bridge",
+    "heritage designation",
+    "ottoman bridge"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16333723",
+    "name": "Old Bridge Area of the Old City of Mostar"
+   },
+   "also": [],
+   "cat": "Stari Most"
+  },
+  {
+   "id": "Q210055",
+   "name": "Mehmed Paša Sokolović Bridge",
+   "sl": 52,
+   "file": "Visegrad Drina Bridge 1.jpg",
+   "lat": 43.7825,
+   "lon": 19.2879,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "stone bridge"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mehmed Paša Sokolović Bridge in Višegrad"
+  },
+  {
+   "id": "Q740392",
+   "name": "Sarajevo International Airport (SJJ)",
+   "sl": 43,
+   "file": "Sarajevo Airport 1 2024.jpg",
+   "lat": 43.8261,
+   "lon": 18.3374,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarajevo International Airport"
+  },
+  {
+   "id": "Q837723",
+   "name": "Maglić",
+   "sl": 39,
+   "file": "Trnovačko jezero, Maglić.jpg",
+   "lat": 43.2811,
+   "lon": 18.7331,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ME"
+   ],
+   "cat": "Maglić"
+  },
+  {
+   "id": "Q746765",
+   "name": "Bosnian pyramid claims",
+   "sl": 35,
+   "file": "Bosnian Pyramid.jpg",
+   "lat": 43.9769,
+   "lon": 18.1761,
+   "kind": "built",
+   "types": [
+    "pyramid",
+    "theory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alleged Bosnian pyramids"
+  },
+  {
+   "id": "Q1262800",
+   "name": "Sutjeska National Park",
+   "sl": 35,
+   "file": "Perucica.jpg",
+   "lat": 43.337,
+   "lon": 18.684,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National park Sutjeska"
+  },
+  {
+   "id": "Q903860",
+   "name": "Asim Ferhatović Hase Stadium",
+   "sl": 34,
+   "file": "Asim Ferhatović Hase Stadium.jpg",
+   "lat": 43.8739,
+   "lon": 18.4086,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Asim Ferhatović Hase Stadium"
+  },
+  {
+   "id": "Q2418337",
+   "name": "Kozara National Park",
+   "sl": 32,
+   "file": "KozarackiKamen.jpg",
+   "lat": 45.0083,
+   "lon": 16.8917,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National park Kozara"
+  },
+  {
+   "id": "Q539439",
+   "name": "Perućica",
+   "sl": 32,
+   "file": "Perucica.jpg",
+   "lat": 43.314,
+   "lon": 18.6968,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Perućica"
+  },
+  {
+   "id": "Q790278",
+   "name": "Avaz Twist Tower",
+   "sl": 31,
+   "file": "Sarajevo Bus-Station 2011-10-19 (2).jpg",
+   "lat": 43.8606,
+   "lon": 18.4025,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avaz Twist Tower"
+  },
+  {
+   "id": "Q1255835",
+   "name": "Gazi Husrev-beg Mosque",
+   "sl": 31,
+   "file": "Gazi Husrev-beg's Mosque IMG 9523 sarajevo.jpg",
+   "lat": 43.8592,
+   "lon": 18.429,
+   "kind": "built",
+   "types": [
+    "külliye",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gazi Husrev-beg's Mosque"
+  },
+  {
+   "id": "Q1430945",
+   "name": "Banja Luka International Airport",
+   "sl": 30,
+   "file": "Blairport.jpg",
+   "lat": 44.9414,
+   "lon": 17.2975,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banja Luka International Airport"
+  },
+  {
+   "id": "Q1267134",
+   "name": "Ferhat Pasha Mosque",
+   "sl": 30,
+   "file": "Ferhat Pasha Mosque, Banja Luka 2016-2.jpg",
+   "lat": 44.7674,
+   "lon": 17.1873,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ferhat Pasha Mosque (Banja Luka)"
+  },
+  {
+   "id": "Q1277685",
+   "name": "Latin Bridge",
+   "sl": 30,
+   "file": "Latin Bridge 02 (22757259615).jpg",
+   "lat": 43.8577,
+   "lon": 18.429,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "heritage site",
+    "stone arch bridge",
+    "stone bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Latin Bridge"
+  },
+  {
+   "id": "Q1432098",
+   "name": "Mostar International Airport",
+   "sl": 30,
+   "file": "Mostar Airport Control tower.jpg",
+   "lat": 43.2828,
+   "lon": 17.8458,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mostar International Airport"
+  },
+  {
+   "id": "Q1267112",
+   "name": "Cathedral of Jesus' Heart",
+   "sl": 29,
+   "file": "JesusesHearthCathedral.jpg",
+   "lat": 43.8593,
+   "lon": 18.4254,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarajevo Cathedral"
+  },
+  {
+   "id": "Q1433133",
+   "name": "Tuzla International Airport",
+   "sl": 29,
+   "file": "Tuzla International Airport.jpg",
+   "lat": 44.4586,
+   "lon": 18.7247,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tuzla International Airport"
+  },
+  {
+   "id": "Q3179381",
+   "name": "Una National Park",
+   "sl": 29,
+   "file": "Una Unac Confluence.jpg",
+   "lat": 44.4969,
+   "lon": 16.1581,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National park Una"
+  },
+  {
+   "id": "Q2880621",
+   "name": "Vjetrenica",
+   "sl": 29,
+   "file": "Vjetrenica Cave.JPG",
+   "lat": 42.8458,
+   "lon": 17.9839,
+   "kind": "both",
+   "types": [
+    "landform",
+    "show cave"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Vjetrenica"
+  },
+  {
+   "id": "Q861838",
+   "name": "Bilino Polje Stadium",
+   "sl": 28,
+   "file": "Bosna i Hercegovina - Njemačka (11.10.2024) 3.jpg",
+   "lat": 44.2058,
+   "lon": 17.9071,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bilino Polje Stadium"
+  },
+  {
+   "id": "Q1628496",
+   "name": "Emperor's Mosque",
+   "sl": 28,
+   "file": "Sarajevo Kaisermoschee.JPG",
+   "lat": 43.8573,
+   "lon": 18.4307,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emperor's Mosque"
+  },
+  {
+   "id": "Q568938",
+   "name": "National Museum of Bosnia and Herzegovina",
+   "sl": 28,
+   "file": "National Museum of BiH Aerial.JPG",
+   "lat": 43.855,
+   "lon": 18.4026,
+   "kind": "built",
+   "types": [
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Bosnia and Herzegovina"
+  },
+  {
+   "id": "Q975995",
+   "name": "Posavina",
+   "sl": 27,
+   "file": "Sremska Mitrovica - The Bridge of St Irinej 2.jpg",
+   "lat": 45.1667,
+   "lon": 17.3333,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "HR",
+    "RS"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q612240",
+   "name": "Trebević",
+   "sl": 27,
+   "file": "Sarajevo Trebević.JPG",
+   "lat": 43.8233,
+   "lon": 18.4489,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trebević"
+  },
+  {
+   "id": "Q37472",
+   "name": "Kravica",
+   "sl": 26,
+   "file": "Waterfalls Kravica 5, Bosnia and Herzegovina.jpg",
+   "lat": 43.1558,
+   "lon": 17.6083,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kravica"
+  },
+  {
+   "id": "Q1729060",
+   "name": "Karadzozbey Mosque",
+   "sl": 25,
+   "file": "Karadjoz-Bey's Mosque 1.jpg",
+   "lat": 43.3414,
+   "lon": 17.8139,
+   "kind": "built",
+   "types": [
+    "külliye",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karadzozbey Mosque (Mostar)"
+  },
+  {
+   "id": "Q166852",
+   "name": "Semberija",
+   "sl": 25,
+   "file": "Semberijaaa.jpg",
+   "lat": 44.8008,
+   "lon": 19.2136,
+   "kind": "natural",
+   "types": [
+    "landform"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1271286",
+   "name": "Serbian Orthodox Cathedral in Sarajevo",
+   "sl": 25,
+   "file": "Saborna crkva u Sarajevu.jpg",
+   "lat": 43.8582,
+   "lon": 18.4249,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Serbian Orthodox Cathedral in Sarajevo"
+  },
+  {
+   "id": "Q28654544",
+   "name": "War Childhood Museum",
+   "sl": 25,
+   "file": "War Childhood Museum 3.jpg",
+   "lat": 43.862,
+   "lon": 18.4285,
+   "kind": "built",
+   "types": [
+    "history museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "War Childhood Museum in Sarajevo"
+  },
+  {
+   "id": "Q135271",
+   "name": "Cathedral of Christ the Saviour",
+   "sl": 24,
+   "file": "Саборна црква Христа спаситеља 004.jpg",
+   "lat": 44.7722,
+   "lon": 17.1918,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Christ the Saviour (Banja Luka)"
+  },
+  {
+   "id": "Q1267542",
+   "name": "Čvrsnica",
+   "sl": 24,
+   "file": "Čvrsnica 0349.jpg",
+   "lat": 43.6167,
+   "lon": 17.6167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Čvrsnica"
+  },
+  {
+   "id": "Q16831150",
+   "name": "Sarajevo City Hall",
+   "sl": 24,
+   "file": "Sarajevská radnice Vijećnica.jpg",
+   "lat": 43.8591,
+   "lon": 18.4332,
+   "kind": "built",
+   "types": [
+    "city hall",
+    "library",
+    "national monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Town hall in Sarajevo"
+  },
+  {
+   "id": "Q1400323",
+   "name": "Sarajevo Tunnel",
+   "sl": 24,
+   "file": "Sarajevo tunnel.jpg",
+   "lat": 43.8197,
+   "lon": 18.3372,
+   "kind": "built",
+   "types": [
+    "museum",
+    "smuggling tunnel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarajevo Tunnel"
+  },
+  {
+   "id": "Q1508343",
+   "name": "Treskavica",
+   "sl": 24,
+   "file": "Treskavica.jpg",
+   "lat": 43.5897,
+   "lon": 18.3556,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Treskavica"
+  },
+  {
+   "id": "Q108146920",
+   "name": "Vrelo Bosne",
+   "sl": 24,
+   "file": "Vrelo Bosne, Sarajevo.jpg",
+   "lat": 43.8185,
+   "lon": 18.27,
+   "kind": "natural",
+   "types": [
+    "karst spring",
+    "park",
+    "protected area",
+    "river source"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vrelo Bosne"
+  },
+  {
+   "id": "Q619701",
+   "name": "Zelengora",
+   "sl": 24,
+   "file": "Bregoc.JPG",
+   "lat": 43.4225,
+   "lon": 18.4878,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zelengora"
+  },
+  {
+   "id": "Q1246674",
+   "name": "Ali Pasha's Mosque",
+   "sl": 23,
+   "file": "2023.01.29 Alipašina džamija 1.jpg",
+   "lat": 43.8579,
+   "lon": 18.4128,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ali Pasha's Mosque"
+  },
+  {
+   "id": "Q108146921",
+   "name": "Bardača",
+   "sl": 23,
+   "file": "ZPP017 Bardaca 2.jpg",
+   "lat": 45.1026,
+   "lon": 17.4532,
+   "kind": "natural",
+   "types": [
+    "Important Bird Area",
+    "protected area",
+    "wetland conservation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bardača"
+  },
+  {
+   "id": "Q1568852",
+   "name": "Old Jewish Cemetery, Sarajevo",
+   "sl": 23,
+   "file": "Sarajevo Jevrejsko groblje 23.jpg",
+   "lat": 43.8509,
+   "lon": 18.4074,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "Jewish cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jewish cemetery Sarajevo"
+  },
+  {
+   "id": "Q597948",
+   "name": "Sarajevo National Theatre",
+   "sl": 23,
+   "file": "Narodno Pozoriše Sarajevo 2026.png",
+   "lat": 43.857,
+   "lon": 18.4207,
+   "kind": "built",
+   "types": [
+    "residential building",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarajevo National Theatre"
+  },
+  {
+   "id": "Q1268899",
+   "name": "Sarajevo Synagogue",
+   "sl": 23,
+   "file": "Ashkenazi Synagogue Sarajevo.jpg",
+   "lat": 43.8564,
+   "lon": 18.4251,
+   "kind": "built",
+   "types": [
+    "Ashkenazi synagogue",
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarajevo Synagogue"
+  },
+  {
+   "id": "Q776520",
+   "name": "Buško Blato",
+   "sl": 21,
+   "file": "Buško Blato 2022-08-31 - Livno - Canton 10 - Federation of Bosnia and Herzegovina - Bosnia and Herzegovina.jpg",
+   "lat": 43.6607,
+   "lon": 17.0239,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buško lake"
+  },
+  {
+   "id": "Q2784755",
+   "name": "Museum of Modern Art of Republika Srpska",
+   "sl": 21,
+   "file": "Музеј савремене умјетности Републике Српске2.jpg",
+   "lat": 44.7723,
+   "lon": 17.1897,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Modern Art of Republika Srpska"
+  },
+  {
+   "id": "Q1276168",
+   "name": "Ozren",
+   "sl": 21,
+   "file": "Let vrtulnikem5 - pohori Ozren u Doboje.jpg",
+   "lat": 44.5904,
+   "lon": 18.2825,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ozren"
+  },
+  {
+   "id": "Q1649384",
+   "name": "Stadion Grbavica",
+   "sl": 21,
+   "file": "Stadion Grbavica July 2022.jpg",
+   "lat": 43.8467,
+   "lon": 18.3872,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grbavica Stadium"
+  },
+  {
+   "id": "Q231499",
+   "name": "Zvornik Lake",
+   "sl": 21,
+   "file": "Drina River Zvornik Reservoir.JPG",
+   "lat": 44.3107,
+   "lon": 19.1394,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Zvornik Reservoir"
+  },
+  {
+   "id": "Q19951168",
+   "name": "Fethija mosque",
+   "sl": 20,
+   "file": "Bihać – Fethija džamija 1.jpg",
+   "lat": 44.8161,
+   "lon": 15.87,
+   "kind": "built",
+   "types": [
+    "Catholic church building",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fethija mosque"
+  },
+  {
+   "id": "Q1541439",
+   "name": "Jablaničko Lake",
+   "sl": 20,
+   "file": "Ostrožac, Jablanicko jezero i most 20070603 113.jpg",
+   "lat": 43.6922,
+   "lon": 17.8275,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jablanica Reservoir"
+  },
+  {
+   "id": "Q1268862",
+   "name": "Zetra Olympic Hall",
+   "sl": 20,
+   "file": "Sarajevo Olympic Hall 2.jpg",
+   "lat": 43.8718,
+   "lon": 18.4096,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olympic Hall Juan Antonio Samaranch"
+  },
+  {
+   "id": "Q691589",
+   "name": "Arnaudija Mosque",
+   "sl": 19,
+   "file": "Arnaudija Mosque .png",
+   "lat": 44.7699,
+   "lon": 17.1818,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arnaudija Mosque"
+  },
+  {
+   "id": "Q2906584",
+   "name": "Blidinje Nature Park",
+   "sl": 19,
+   "file": "Blidinjsko polje a Blidinjsko jezero mezi pohorimi Cvrsnica.jpg",
+   "lat": 43.6109,
+   "lon": 17.5088,
+   "kind": "natural",
+   "types": [
+    "nature park",
+    "plateau",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blidinje"
+  },
+  {
+   "id": "Q43951417",
+   "name": "Daorson",
+   "sl": 19,
+   "file": "Daorson 2.jpg",
+   "lat": 43.1041,
+   "lon": 17.9268,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "architectural heritage monument",
+    "cultural heritage",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daorson"
+  },
+  {
+   "id": "Q621027",
+   "name": "Gradski stadion",
+   "sl": 19,
+   "file": "Gradski stadion Banja Luka, Septembre 2012.jpg",
+   "lat": 44.7761,
+   "lon": 17.1996,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banja Luka City Stadium"
+  },
+  {
+   "id": "Q21746176",
+   "name": "Kastel Fortress",
+   "sl": 19,
+   "file": "Banjaluka tvrdjava Kastel.JPG",
+   "lat": 44.7658,
+   "lon": 17.1889,
+   "kind": "built",
+   "types": [
+    "fortress",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kastel fortress (Banja Luka)"
+  },
+  {
+   "id": "Q3045471",
+   "name": "Sniper Alley",
+   "sl": 19,
+   "file": "Hirlimann-sarajevo-snipper-alley.jpeg",
+   "lat": 43.856,
+   "lon": 18.413,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sniper Alley (Sarajevo)"
+  },
+  {
+   "id": "Q2574575",
+   "name": "Tara River Canyon",
+   "sl": 19,
+   "file": "Kanjon reke Tare.jpg",
+   "lat": 43.2508,
+   "lon": 19.0085,
+   "kind": "natural",
+   "types": [
+    "canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ME"
+   ],
+   "cat": "Tara River Canyon"
+  },
+  {
+   "id": "Q425929",
+   "name": "Vlašić",
+   "sl": 19,
+   "file": "Mountain Vlašić - Bosnia and Herzegovina.jpg",
+   "lat": 44.2925,
+   "lon": 17.6362,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vlašić"
+  },
+  {
+   "id": "Q1261159",
+   "name": "Ferhadija Mosque",
+   "sl": 18,
+   "file": "Sarajevo 20250225 03.jpg",
+   "lat": 43.8589,
+   "lon": 18.4271,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ferhat Pasha Mosque (Sarajevo)"
+  },
+  {
+   "id": "Q1566083",
+   "name": "Gazi Husrev-begova medresa",
+   "sl": 18,
+   "file": "Gazi Husrev-begova medresa.jpg",
+   "lat": 43.8595,
+   "lon": 18.4289,
+   "kind": "built",
+   "types": [
+    "madrasa",
+    "school building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuršumli Medresa"
+  },
+  {
+   "id": "Q1639258",
+   "name": "Hutovo Blato Nature park",
+   "sl": 18,
+   "file": "Hutovo Blato.jpg",
+   "lat": 43.0568,
+   "lon": 17.7577,
+   "kind": "natural",
+   "types": [
+    "Important Bird Area",
+    "protected area",
+    "wetland conservation"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hutovo Blato"
+  },
+  {
+   "id": "Q959465",
+   "name": "King Fahd Mosque",
+   "sl": 18,
+   "file": "King Fahd Mosque Sarajevo (6).JPG",
+   "lat": 43.8397,
+   "lon": 18.3433,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Fahd Mosque (Sarajevo)"
+  },
+  {
+   "id": "Q2656960",
+   "name": "Bilećko Lake",
+   "sl": 17,
+   "file": "Bilećko jezero sa okolinom 10.jpg",
+   "lat": 42.8253,
+   "lon": 18.4381,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bilećko Lake"
+  },
+  {
+   "id": "Q1092206",
+   "name": "Cincar",
+   "sl": 17,
+   "file": "Cincar from Korićina 01.jpg",
+   "lat": 43.9022,
+   "lon": 17.0628,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cincar"
+  },
+  {
+   "id": "Q2968336",
+   "name": "Ostrožac Castle",
+   "sl": 17,
+   "file": "Utvrda Ostrozac01.JPG",
+   "lat": 44.904,
+   "lon": 15.937,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ostrožac Castle"
+  },
+  {
+   "id": "Q3443263",
+   "name": "Popovo field",
+   "sl": 17,
+   "file": "Popovo Polje.JPG",
+   "lat": 42.75,
+   "lon": 18.2131,
+   "kind": "natural",
+   "types": [
+    "polje",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Popovo polje"
+  },
+  {
+   "id": "Q1567872",
+   "name": "Troglav",
+   "sl": 17,
+   "file": "Troglav pogled iz Sajkovc.jpg",
+   "lat": 43.9481,
+   "lon": 16.5925,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Troglav"
+  },
+  {
+   "id": "Q884054",
+   "name": "Blidinje Lake",
+   "sl": 16,
+   "file": "Blidinjsko jezero (23 ha, hl. max. 3,5 m) z Maleho Vranu.jpg",
+   "lat": 43.6081,
+   "lon": 17.4936,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blidinje Lake"
+  },
+  {
+   "id": "Q12960739",
+   "name": "Čobanija Mosque",
+   "sl": 16,
+   "file": "DžamijaČobanija 03.jpg",
+   "lat": 43.8553,
+   "lon": 18.4209,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Čobanija Mosque"
+  },
+  {
+   "id": "Q3320285",
+   "name": "Gomionica Monastery",
+   "sl": 16,
+   "file": "Манастир Гомионица.jpg",
+   "lat": 44.7297,
+   "lon": 16.9103,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gomionica monastery"
+  },
+  {
+   "id": "Q932846",
+   "name": "Perućac lake",
+   "sl": 16,
+   "file": "Perućac lake.JPG",
+   "lat": 43.7829,
+   "lon": 19.2886,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Perućac Lake"
+  },
+  {
+   "id": "Q1276211",
+   "name": "Prenj",
+   "sl": 16,
+   "file": "Prenj1.jpg",
+   "lat": 43.5348,
+   "lon": 17.9043,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prenj"
+  },
+  {
+   "id": "Q1062192",
+   "name": "Sebilj",
+   "sl": 16,
+   "file": "Sebilj in Sarajevo (8269348990).jpg",
+   "lat": 43.8597,
+   "lon": 18.4313,
+   "kind": "built",
+   "types": [
+    "fountain",
+    "kašna"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sebilj"
+  },
+  {
+   "id": "Q6127500",
+   "name": "Srebrenica Genocide Memorial",
+   "sl": 16,
+   "file": "Srebrenica massacre memorial gravestones 2009 1.jpg",
+   "lat": 44.1581,
+   "lon": 19.3017,
+   "kind": "built",
+   "types": [
+    "memorial cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Srebrenica-Potočari Memorial Center"
+  },
+  {
+   "id": "Q3445913",
+   "name": "Vran",
+   "sl": 16,
+   "file": "Vran Blidinjsko polje 3.jpg",
+   "lat": 43.6747,
+   "lon": 17.5011,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vran mountain"
+  },
+  {
+   "id": "Q3499173",
+   "name": "Čabulja",
+   "sl": 15,
+   "file": "Pohori Cabulja pres udoli Neretvy.jpg",
+   "lat": 43.4833,
+   "lon": 17.65,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Čabulja"
+  },
+  {
+   "id": "Q785524",
+   "name": "Cathedral of Saint Bonaventure",
+   "sl": 15,
+   "file": "Католичка црква 02 cropped.jpg",
+   "lat": 44.7751,
+   "lon": 17.1949,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katedralna crkva Sv. Bonaventure"
+  },
+  {
+   "id": "Q16110042",
+   "name": "Govještica",
+   "sl": 15,
+   "file": "Говјештица 02.jpg",
+   "lat": 43.7739,
+   "lon": 18.8936,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Govještica cave"
+  },
+  {
+   "id": "Q12757258",
+   "name": "Orlovača cave",
+   "sl": 15,
+   "file": "Scena iz pećine Orlovača.jpg",
+   "lat": 43.8833,
+   "lon": 18.5842,
+   "kind": "natural",
+   "types": [
+    "cave",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orlovača cave"
+  },
+  {
+   "id": "Q3390892",
+   "name": "Rama Lake",
+   "sl": 15,
+   "file": "Ramska prehrada s desitkami ostruvku a zalivu.jpg",
+   "lat": 43.8031,
+   "lon": 17.518,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rama lake (Bosnia and Herzegovina)"
+  },
+  {
+   "id": "Q1291556",
+   "name": "Šator",
+   "sl": 15,
+   "file": "Sator mountain.jpg",
+   "lat": 44.1573,
+   "lon": 16.5897,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Šator"
+  }
+ ]
+}

@@ -1,0 +1,965 @@
+{
+ "country": "CD",
+ "items": [
+  {
+   "id": "Q125888",
+   "name": "Lake Albert",
+   "sl": 88,
+   "file": "Lac Albert 2.jpg",
+   "lat": 1.6833,
+   "lon": 30.9167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UG"
+   ],
+   "cat": "Lake Albert (Uganda)"
+  },
+  {
+   "id": "Q125912",
+   "name": "Lake Kivu",
+   "sl": 82,
+   "file": "LakeKivu satellite.jpg",
+   "lat": -1.8531,
+   "lon": 29.1353,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "meromictic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RW"
+   ],
+   "cat": "Lake Kivu"
+  },
+  {
+   "id": "Q223589",
+   "name": "Virunga National Park",
+   "sl": 78,
+   "file": "Virunga 01.jpg",
+   "lat": -0.5,
+   "lon": 29.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Virunga National Park"
+  },
+  {
+   "id": "Q125211",
+   "name": "Lake Edward",
+   "sl": 75,
+   "file": "Lake edward sentinel-2.jpg",
+   "lat": -0.3333,
+   "lon": 29.6,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UG"
+   ],
+   "cat": "Lake Edward"
+  },
+  {
+   "id": "Q504433",
+   "name": "Lake Mweru",
+   "sl": 68,
+   "file": "Lake Mweru Sentinel-2.png",
+   "lat": -9.1667,
+   "lon": 28.5,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZM"
+   ],
+   "cat": "Lake Mweru"
+  },
+  {
+   "id": "Q457304",
+   "name": "Okapi Wildlife Reserve",
+   "sl": 62,
+   "file": "Epulu Okapi Reserve.jpg",
+   "lat": 2,
+   "lon": 28.5,
+   "kind": "natural",
+   "types": [
+    "faunal reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Okapi Fauna Reserve"
+  },
+  {
+   "id": "Q308893",
+   "name": "Garamba National Park",
+   "sl": 59,
+   "file": "Elephants in garamba national park.jpg",
+   "lat": 4,
+   "lon": 29.25,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Garamba National Park"
+  },
+  {
+   "id": "Q328488",
+   "name": "Salonga National Park",
+   "sl": 58,
+   "file": "La rivière Lulilaka, parc national de Salonga, 2005.jpg",
+   "lat": -2,
+   "lon": 21,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "tropical forest"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Salonga National Park"
+  },
+  {
+   "id": "Q214696",
+   "name": "Mount Nyiragongo",
+   "sl": 57,
+   "file": "Lava Lake Nyiragongo 2.jpg",
+   "lat": -1.5167,
+   "lon": 29.25,
+   "kind": "natural",
+   "types": [
+    "stratovolcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nyiragongo"
+  },
+  {
+   "id": "Q457324",
+   "name": "Kahuzi-Biéga National Park",
+   "sl": 56,
+   "file": "Kahuzi-Biega National Park (39423247252).jpg",
+   "lat": -2.3148,
+   "lon": 28.7587,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kahuzi-Biega National Park"
+  },
+  {
+   "id": "Q38417",
+   "name": "Boyoma Falls",
+   "sl": 45,
+   "file": "Zaire kisangani stroom 11 copy.jpg",
+   "lat": 0.4911,
+   "lon": 25.2064,
+   "kind": "natural",
+   "types": [
+    "rapids",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boyoma Falls"
+  },
+  {
+   "id": "Q695846",
+   "name": "Nyamuragira",
+   "sl": 44,
+   "file": "Nyamulagira volcano (20439939664).jpg",
+   "lat": -1.4083,
+   "lon": 29.2,
+   "kind": "natural",
+   "types": [
+    "shield volcano",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nyamuragira"
+  },
+  {
+   "id": "Q750025",
+   "name": "Pool Malebo",
+   "sl": 44,
+   "file": "PoolMalebo.jpg",
+   "lat": -4.2819,
+   "lon": 15.4886,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CG"
+   ],
+   "cat": "Pool Malebo"
+  },
+  {
+   "id": "Q737859",
+   "name": "Mount Karisimbi",
+   "sl": 42,
+   "file": "Karisimbi2.jpg",
+   "lat": -1.5,
+   "lon": 29.45,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RW"
+   ],
+   "cat": "Mount Karisimbi"
+  },
+  {
+   "id": "Q683100",
+   "name": "Lake Mai-Ndombe",
+   "sl": 41,
+   "file": "Lake Mai-Ndombe NASA.jpg",
+   "lat": -2,
+   "lon": 18.33,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mai-Ndombe"
+  },
+  {
+   "id": "Q1324212",
+   "name": "Lake Tumba",
+   "sl": 33,
+   "file": "Lake Tumba NASA.jpg",
+   "lat": -0.8333,
+   "lon": 18,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tumba"
+  },
+  {
+   "id": "Q645492",
+   "name": "N'Djili International Airport",
+   "sl": 30,
+   "file": "KIH01.jpg",
+   "lat": -4.3872,
+   "lon": 15.4422,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "N'djili Airport"
+  },
+  {
+   "id": "Q511779",
+   "name": "Mount Sabyinyo",
+   "sl": 28,
+   "file": "Musanze's Volcano (46355800961).jpg",
+   "lat": -1.4,
+   "lon": 29.6,
+   "kind": "natural",
+   "types": [
+    "extinct volcano",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RW",
+    "UG"
+   ],
+   "cat": "Mount Sabyinyo"
+  },
+  {
+   "id": "Q738866",
+   "name": "Lubumbashi International Airport",
+   "sl": 26,
+   "file": "Lubumbashi International Airport.png",
+   "lat": -11.5913,
+   "lon": 27.531,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lubumbashi International Airport"
+  },
+  {
+   "id": "Q1051621",
+   "name": "Lake Upemba",
+   "sl": 24,
+   "file": "Lake Upemba STS057-104-62.jpg",
+   "lat": -8.6,
+   "lon": 26.44,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Upemba"
+  },
+  {
+   "id": "Q2564541",
+   "name": "Goma International Airport",
+   "sl": 23,
+   "file": "Aérogare et Parking de l'Aéroport de Goma.jpg",
+   "lat": -1.6706,
+   "lon": 29.2383,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goma Airport"
+  },
+  {
+   "id": "Q804039",
+   "name": "Mount Bisoke",
+   "sl": 23,
+   "file": "Mount Bisoke (cropped).jpg",
+   "lat": -1.5111,
+   "lon": 29.4483,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Bisoke"
+  },
+  {
+   "id": "Q27596",
+   "name": "Kisangani Bangoka International Airport",
+   "sl": 22,
+   "file": "Національний контингент у ДР Конго отримав нову вертолітну техніку (31860558211).jpg",
+   "lat": 0.4817,
+   "lon": 25.3381,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kisangani Bangoka International Airport"
+  },
+  {
+   "id": "Q659596",
+   "name": "Congo craton",
+   "sl": 21,
+   "file": "Kimberlite Pipes in Africa.png",
+   "lat": 2,
+   "lon": 21,
+   "kind": "natural",
+   "types": [
+    "craton"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CF",
+    "CG"
+   ],
+   "cat": "Congo Craton"
+  },
+  {
+   "id": "Q19558",
+   "name": "Inga Falls",
+   "sl": 21,
+   "file": "Inga03.jpg",
+   "lat": -5.5331,
+   "lon": 13.6064,
+   "kind": "natural",
+   "types": [
+    "rapids",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Inga Falls"
+  },
+  {
+   "id": "Q428123",
+   "name": "Maiko National Park",
+   "sl": 21,
+   "file": "South maiko panorama.jpg",
+   "lat": -0.4,
+   "lon": 27.5667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maiko National Park"
+  },
+  {
+   "id": "Q1639195",
+   "name": "Mount Mikeno",
+   "sl": 20,
+   "file": "Bukima Patrol Post.jpg",
+   "lat": -1.4628,
+   "lon": 29.4168,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mikeno"
+  },
+  {
+   "id": "Q1432212",
+   "name": "N'Dolo Airport",
+   "sl": 20,
+   "file": "Vue aérienne 2.jpg",
+   "lat": -4.3267,
+   "lon": 15.3272,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "N'Dolo Airport"
+  },
+  {
+   "id": "Q2443546",
+   "name": "Kananga Airport",
+   "sl": 18,
+   "file": "Montemayor Madila Utembi.jpeg",
+   "lat": -5.9,
+   "lon": 22.4667,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kananga Airport"
+  },
+  {
+   "id": "Q617351",
+   "name": "Kindu Airport",
+   "sl": 18,
+   "file": "Kindu Airport.jpg",
+   "lat": -2.9192,
+   "lon": 25.9153,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kindu Airport"
+  },
+  {
+   "id": "Q3214982",
+   "name": "Lake Kisale",
+   "sl": 18,
+   "file": "Lake Kisale NASA.jpg",
+   "lat": -8.2577,
+   "lon": 26.5038,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Kisale"
+  },
+  {
+   "id": "Q477594",
+   "name": "Lofoi Falls",
+   "sl": 17,
+   "file": "Chutes de la Lofoï.jpg",
+   "lat": -10.2603,
+   "lon": 27.6064,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lofoi Falls"
+  },
+  {
+   "id": "Q263406",
+   "name": "Upemba National Park",
+   "sl": 17,
+   "file": "Lake Upemba STS057-104-62.jpg",
+   "lat": -9.0167,
+   "lon": 26.5833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3206848",
+   "name": "Bunia Airport",
+   "sl": 16,
+   "file": "Bunia Airport, 2008 (cropped).jpg",
+   "lat": 1.5658,
+   "lon": 30.2208,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bunia Airport"
+  },
+  {
+   "id": "Q28223432",
+   "name": "Lomami National Park",
+   "sl": 15,
+   "file": "TL2-Area.jpg",
+   "lat": -2,
+   "lon": 25.3,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tshuapa–Lomami–Lualaba Conservation Landscape"
+  },
+  {
+   "id": "Q652383",
+   "name": "Matari Airport",
+   "sl": 15,
+   "file": "Dragon Operations - DN142a.jpg",
+   "lat": 2.8275,
+   "lon": 27.5883,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isiro-Matari Airport"
+  },
+  {
+   "id": "Q652872",
+   "name": "Mbuji Mayi Airport",
+   "sl": 15,
+   "file": "Aéroport de Mbuji-Mayi.jpg",
+   "lat": -6.1211,
+   "lon": 23.5689,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mbuji Mayi Airport"
+  },
+  {
+   "id": "Q37505",
+   "name": "Yellala Falls",
+   "sl": 15,
+   "file": "Yellala-Falls-1880.jpg",
+   "lat": -5.7257,
+   "lon": 13.5441,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6352071",
+   "name": "Kalemie Airport",
+   "sl": 14,
+   "file": "Kalemie Medal Parade (12235622173).jpg",
+   "lat": -5.8756,
+   "lon": 29.25,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalemie Airport"
+  },
+  {
+   "id": "Q6379368",
+   "name": "Kavumu Airport",
+   "sl": 14,
+   "file": "Swala Aviation Short Skyvan Shevelev-1.jpg",
+   "lat": -2.3089,
+   "lon": 28.8086,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kavumu Airport"
+  },
+  {
+   "id": "Q1164634",
+   "name": "Mangroves National Park",
+   "sl": 14,
+   "file": "Village des pêcheurs.jpg",
+   "lat": -5.75,
+   "lon": 12.75,
+   "kind": "natural",
+   "types": [
+    "marine park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mangroves National Park"
+  },
+  {
+   "id": "Q649376",
+   "name": "Mbandaka Airport",
+   "sl": 14,
+   "file": "L’activité incessante des avions et hélicoptères des Nations Unies à l’aéroport de Mbandaka d'où part une bonne partie de l'assistance onusienne à la Coordination de la lutte contre le virus Ebola.jpg",
+   "lat": 0.0225,
+   "lon": 18.2886,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2788303",
+   "name": "Basankusu Airport",
+   "sl": 13,
+   "file": "Airport Basankusu Dibu Basenjis.jpg",
+   "lat": 1.2167,
+   "lon": 19.8,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basankusu Airport"
+  },
+  {
+   "id": "Q5529305",
+   "name": "Gbadolite Airport",
+   "sl": 13,
+   "file": "Airport Gbadolite (19970354525).jpg",
+   "lat": 4.25,
+   "lon": 20.9667,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gbadolite Airport"
+  },
+  {
+   "id": "Q3214837",
+   "name": "Lake Nzilo",
+   "sl": 13,
+   "file": "Lake Delcommune Satellite photo.jpg",
+   "lat": -10.5844,
+   "lon": 25.6572,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Nzilo"
+  },
+  {
+   "id": "Q4887888",
+   "name": "Beni Mavivi Airport",
+   "sl": 11,
+   "file": "SECRETARY-GENERAL’S VISIT TO THE DEMOCRATIC REPUBLIC OF THE CONGO (48710388226).jpg",
+   "lat": 0.575,
+   "lon": 29.4739,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beni Mavivi Airport"
+  },
+  {
+   "id": "Q6406465",
+   "name": "Kikwit Airport",
+   "sl": 11,
+   "file": "Filair kikwit.jpg",
+   "lat": -5.0358,
+   "lon": 18.7856,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11824540",
+   "name": "Lodja Airport",
+   "sl": 11,
+   "file": "The US epidemiologic team after having landed at Lodja Airport - Zaire 1997.jpg",
+   "lat": -3.4187,
+   "lon": 23.4498,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lodja Airport"
+  },
+  {
+   "id": "Q2849739",
+   "name": "Matadi Bridge",
+   "sl": 11,
+   "file": "Pont Marechal, Matadi, Congo.jpg",
+   "lat": -5.8251,
+   "lon": 13.434,
+   "kind": "built",
+   "types": [
+    "road-rail bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matadi Bridge"
+  },
+  {
+   "id": "Q65600754",
+   "name": "National Museum of the Democratic Republic of Congo",
+   "sl": 10,
+   "file": "National Museum of RD Congo 01.jpg",
+   "lat": -4.3351,
+   "lon": 15.2994,
+   "kind": "built",
+   "types": [
+    "cultural history museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of the Democratic Republic of Congo"
+  },
+  {
+   "id": "Q2878705",
+   "name": "Palace of the Nation",
+   "sl": 10,
+   "file": "Palais de la nation.jpg",
+   "lat": -4.3025,
+   "lon": 15.2801,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palais de la Nation (Kinshasa)"
+  },
+  {
+   "id": "Q2448031",
+   "name": "Stade Frederic Kibassa Maliba",
+   "sl": 10,
+   "file": "Le stade de la Kenya.jpg",
+   "lat": -11.7046,
+   "lon": 27.484,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Frédéric Kibassa Maliba"
+  },
+  {
+   "id": "Q3495887",
+   "name": "Stade Tata Raphaël",
+   "sl": 10,
+   "file": "Stade Tata Raphaël lors d'un de l'AS V.CLUB.jpg",
+   "lat": -4.3381,
+   "lon": 15.3222,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Tata Raphaël"
+  },
+  {
+   "id": "Q6358138",
+   "name": "Kamina Air Base",
+   "sl": 9,
+   "file": "United Nations peacekeeping air forces in Congo - January 1963.jpg",
+   "lat": -8.6419,
+   "lon": 25.2528,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamina Air Base"
+  },
+  {
+   "id": "Q3321939",
+   "name": "Mount Mangengenge",
+   "sl": 9,
+   "file": "Mont Mangengenge 2.jpg",
+   "lat": -4.4375,
+   "lon": 15.5238,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Mangengenge"
+  },
+  {
+   "id": "Q2875963",
+   "name": "Tshimpi Airport",
+   "sl": 9,
+   "file": "Aérodrome de Tshimpi, Matadi.jpg",
+   "lat": -5.7983,
+   "lon": 13.4417,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matadi Tshimpi Airport"
+  },
+  {
+   "id": "Q7132053",
+   "name": "Panzi Hospital",
+   "sl": 8,
+   "file": "PanziHospital.png",
+   "lat": -2.5433,
+   "lon": 28.8679,
+   "kind": "built",
+   "types": [
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Panzi Hospital"
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "country": "HK",
+ "items": [
+  {
+   "id": "Q4022264",
+   "name": "Jamia Mosque",
+   "sl": 18,
+   "file": "Shelley Street Temple1.JPG",
+   "lat": 22.2802,
+   "lon": 114.152,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jamia Mosque, Hong Kong"
+  },
+  {
+   "id": "Q6036183",
+   "name": "Jockey Club Innovation Tower",
+   "sl": 14,
+   "file": "Jockey Club Innovation Tower, Hong Kong Polytechnic University, August 2013.jpg",
+   "lat": 22.3056,
+   "lon": 114.179,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jockey Club Innovation Tower, Hong Kong Polytechnic University"
+  },
+  {
+   "id": "Q841959",
+   "name": "Island Shangri-La, Hong Kong",
+   "sl": 13,
+   "file": "Island Shangri-La, Hong-Kong - Tower.jpg",
+   "lat": 22.2772,
+   "lon": 114.1644,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Island Shangri-La"
+  },
+  {
+   "id": "Q1064758",
+   "name": "Mandarin Oriental",
+   "sl": 13,
+   "file": "HK Edinburgh Place 文華東方酒店 Mandarin Oriental Hotel Connaught Road C.JPG",
+   "lat": 22.2821,
+   "lon": 114.159,
+   "kind": "built",
+   "types": [
+    "hotel",
+    "hotel building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mandarin Oriental, Hong Kong"
+  },
+  {
+   "id": "Q3141401",
+   "name": "Hong Kong Disneyland Hotel",
+   "sl": 9,
+   "file": "Disneyland Hotel, HK.JPG",
+   "lat": 22.3079,
+   "lon": 114.0439,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Hong Kong Disneyland Hotel"
+  },
+  {
+   "id": "Q7760943",
+   "name": "The Ritz-Carlton, Hong Kong",
+   "sl": 9,
+   "file": "The Ritz-Carlton Hong Kong Level 9 Lobby.jpg",
+   "lat": 22.3034,
+   "lon": 114.1602,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Ritz-Carlton Hotel Hong Kong"
+  }
+ ]
+}

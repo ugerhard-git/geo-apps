@@ -1,0 +1,1366 @@
+{
+ "country": "RO",
+ "items": [
+  {
+   "id": "Q390275",
+   "name": "Bran Castle",
+   "sl": 50,
+   "file": "Bran Castle TB1.jpg",
+   "lat": 45.515,
+   "lon": 25.3671,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bran Castle"
+  },
+  {
+   "id": "Q257631",
+   "name": "Henri Coandă International Airport",
+   "sl": 49,
+   "file": "HC arrivals.jpg",
+   "lat": 44.5707,
+   "lon": 26.0822,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Henri Coandă International Airport"
+  },
+  {
+   "id": "Q746524",
+   "name": "Moldoveanu Peak",
+   "sl": 48,
+   "file": "Varful-Moldoveanu-scenery.jpg",
+   "lat": 45.5994,
+   "lon": 24.7362,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moldoveanu"
+  },
+  {
+   "id": "Q207376",
+   "name": "Iron Gate",
+   "sl": 46,
+   "file": "Eisernes Tor Staudamm.JPG",
+   "lat": 44.6711,
+   "lon": 22.5297,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Iron Gate (Danube)"
+  },
+  {
+   "id": "Q338602",
+   "name": "National Arena",
+   "sl": 45,
+   "file": "Arena-bukareszt.jpg",
+   "lat": 44.4372,
+   "lon": 26.1525,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "national stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Arena"
+  },
+  {
+   "id": "Q164150",
+   "name": "Palace of the Parliament",
+   "sl": 45,
+   "file": "Avenida de la Unión, Bucarest, Rumanía, 2016-05-29, DD 57.jpg",
+   "lat": 44.4275,
+   "lon": 26.0875,
+   "kind": "built",
+   "types": [
+    "convention center",
+    "palace",
+    "parliament building",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of the Parliament of Romania"
+  },
+  {
+   "id": "Q733069",
+   "name": "Horezu monastery",
+   "sl": 42,
+   "file": "Horezu church.jpg",
+   "lat": 45.1686,
+   "lon": 24.0069,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Horezu Monastery"
+  },
+  {
+   "id": "Q828412",
+   "name": "wooden churches of Maramureș",
+   "sl": 41,
+   "file": "Sârbi Josani.jpg",
+   "lat": 47.8194,
+   "lon": 24.0558,
+   "kind": "",
+   "types": [],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wooden churches in Maramureș County (World Heritage Sites)"
+  },
+  {
+   "id": "Q387687",
+   "name": "churches of Moldavia",
+   "sl": 39,
+   "file": "Voronet church.jpg",
+   "lat": 47.733,
+   "lon": 25.933,
+   "kind": "",
+   "types": [],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Churches of Moldavia World Heritage Site"
+  },
+  {
+   "id": "Q917702",
+   "name": "Peleș Castle",
+   "sl": 36,
+   "file": "01 Chateau Peles.jpg",
+   "lat": 45.3597,
+   "lon": 25.5428,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peleș Castle"
+  },
+  {
+   "id": "Q849786",
+   "name": "Trajan's Bridge",
+   "sl": 36,
+   "file": "Piciorul Podului lui Traian, malul românesc (19 august 2009).jpg",
+   "lat": 44.6238,
+   "lon": 22.6671,
+   "kind": "built",
+   "types": [
+    "deck arch bridge",
+    "former bridge",
+    "road bridge",
+    "Roman bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Trajan's Bridge"
+  },
+  {
+   "id": "Q126576",
+   "name": "Corvin Castle",
+   "sl": 35,
+   "file": "Castelul Corvinilor HD.jpg",
+   "lat": 45.7491,
+   "lon": 22.8883,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castle of Hunedoara"
+  },
+  {
+   "id": "Q203004",
+   "name": "Danube Bridge",
+   "sl": 35,
+   "file": "Most-druschba.jpg",
+   "lat": 43.8875,
+   "lon": 26.0072,
+   "kind": "built",
+   "types": [
+    "footbridge",
+    "international bridge",
+    "road-rail bridge",
+    "steel bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BG"
+   ],
+   "cat": "Friendship Bridge (Danube)"
+  },
+  {
+   "id": "Q204931",
+   "name": "Retezat National Park",
+   "sl": 34,
+   "file": "Retezat near camp Bucura.JPG",
+   "lat": 45.3333,
+   "lon": 22.8333,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Retezat National Park"
+  },
+  {
+   "id": "Q843229",
+   "name": "Bucharest Băneasa Aurel Vlaicu International Airport",
+   "sl": 33,
+   "file": "Aerogara Baneasa fata.jpg",
+   "lat": 44.5036,
+   "lon": 26.1036,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aurel Vlaicu International Airport"
+  },
+  {
+   "id": "Q592260",
+   "name": "Danube – Black Sea Canal",
+   "sl": 33,
+   "file": "Canalul Dunare Marea Neagra.jpg",
+   "lat": 44.198,
+   "lon": 28.3983,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Danube-Black Sea Canal"
+  },
+  {
+   "id": "Q1077240",
+   "name": "New Europe Bridge",
+   "sl": 33,
+   "file": "2013-06 Donaubruecke Vidin.jpg",
+   "lat": 44.005,
+   "lon": 22.9475,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "international bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BG"
+   ],
+   "cat": "Vidin-Calafat Bridge"
+  },
+  {
+   "id": "Q1428093",
+   "name": "National Cathedral",
+   "sl": 32,
+   "file": "Catedrala Mântuirii Neamului - Montarea Crucii (8-Aprilie 2025).jpg",
+   "lat": 44.4259,
+   "lon": 26.0823,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral",
+    "Romanian Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "People's Salvation Cathedral, Bucharest"
+  },
+  {
+   "id": "Q739802",
+   "name": "Sarmizegetusa Regia",
+   "sl": 32,
+   "file": "Sarmizegetusa temples.jpg",
+   "lat": 45.6228,
+   "lon": 23.3103,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "dava",
+    "fortress"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q729327",
+    "name": "Dacian Fortresses of the Orăștie Mountains"
+   },
+   "also": [],
+   "cat": "Sarmizegetusa Regia"
+  },
+  {
+   "id": "Q729327",
+   "name": "Dacian Fortresses of the Orăștie Mountains",
+   "sl": 31,
+   "file": "Sarmizegetusa temples.jpg",
+   "lat": 45.6231,
+   "lon": 23.3119,
+   "kind": "",
+   "types": [
+    "architectural ensemble",
+    "fortification system"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Dacian fortresses of the Orăștie Mountains"
+  },
+  {
+   "id": "Q755457",
+   "name": "Romanian Athenaeum",
+   "sl": 30,
+   "file": "Ateneo Rumano, Bucarest, Rumanía, 2016-05-29, DD 73.jpg",
+   "lat": 44.4413,
+   "lon": 26.0973,
+   "kind": "built",
+   "types": [
+    "concert hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Romanian Athenaeum"
+  },
+  {
+   "id": "Q910124",
+   "name": "Black Church",
+   "sl": 29,
+   "file": "Biserica Neagră (48729880193).jpg",
+   "lat": 45.641,
+   "lon": 25.588,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Black Church"
+  },
+  {
+   "id": "Q1068685",
+   "name": "Cluj International Airport",
+   "sl": 29,
+   "file": "CLJairportEXTfront1.jpg",
+   "lat": 46.7851,
+   "lon": 23.6861,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cluj-Napoca International Airport"
+  },
+  {
+   "id": "Q1417736",
+   "name": "Traian Vuia International Airport",
+   "sl": 29,
+   "file": "Timisoara International Airport.jpg",
+   "lat": 45.81,
+   "lon": 21.3381,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport",
+    "state-owned enterprise"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Timișoara International Airport"
+  },
+  {
+   "id": "Q384463",
+   "name": "Voroneț Monastery",
+   "sl": 27,
+   "file": "Voronet Intrare.JPG",
+   "lat": 47.517,
+   "lon": 25.8642,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q387687",
+    "name": "churches of Moldavia"
+   },
+   "also": [],
+   "cat": "Voroneț monastery"
+  },
+  {
+   "id": "Q638278",
+   "name": "Arcul de Triumf Bucharest",
+   "sl": 25,
+   "file": "Nicolae Ionescu - Pretzel vendors in uniform in front of the Triumph Arch.jpg",
+   "lat": 44.4673,
+   "lon": 26.0784,
+   "kind": "built",
+   "types": [
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arcul de Triumf (Bucharest)"
+  },
+  {
+   "id": "Q1431529",
+   "name": "Iași International Airport",
+   "sl": 25,
+   "file": "Aeroportul International Iasi 2024.jpg",
+   "lat": 47.1789,
+   "lon": 27.62,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iași International Airport"
+  },
+  {
+   "id": "Q2349738",
+   "name": "Lake Razelm",
+   "sl": 25,
+   "file": "Argamum.jpg",
+   "lat": 44.8267,
+   "lon": 28.9847,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Razelm"
+  },
+  {
+   "id": "Q1261597",
+   "name": "Timișoara Orthodox Cathedral",
+   "sl": 25,
+   "file": "Rumunska saborna crkva 03.jpg",
+   "lat": 45.7506,
+   "lon": 21.2242,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral",
+    "Romanian Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Timișoara Orthodox Cathedral"
+  },
+  {
+   "id": "Q1013551",
+   "name": "Poenari Castle",
+   "sl": 24,
+   "file": "BurgPoenari.JPG",
+   "lat": 45.3539,
+   "lon": 24.6352,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Poenari Citadel"
+  },
+  {
+   "id": "Q932599",
+   "name": "Tropaeum Traiani",
+   "sl": 24,
+   "file": "Vedere spre Tropaeum Traiani.jpg",
+   "lat": 44.1019,
+   "lon": 27.9551,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tropaeum Traiani"
+  },
+  {
+   "id": "Q1164460",
+   "name": "Histria",
+   "sl": 23,
+   "file": "2006 0814Histria Main Gate Roman20060404.jpg",
+   "lat": 44.5475,
+   "lon": 28.7747,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Histria (ancient city)"
+  },
+  {
+   "id": "Q382546",
+   "name": "Mihail Kogălniceanu International Airport",
+   "sl": 23,
+   "file": "NASA FIRMS Mihail Kogălniceanu airport.jpg",
+   "lat": 44.3622,
+   "lon": 28.4883,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport",
+    "state-owned enterprise"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mihail Kogălniceanu International Airport"
+  },
+  {
+   "id": "Q1090036",
+   "name": "Negoiu Peak",
+   "sl": 23,
+   "file": "Negoiu.jpg",
+   "lat": 45.5849,
+   "lon": 24.5583,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Negoiu"
+  },
+  {
+   "id": "Q923595",
+   "name": "St. Michael's Church",
+   "sl": 23,
+   "file": "St Michael Cluj Napoca.jpg",
+   "lat": 46.77,
+   "lon": 23.5897,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cluj-Napoca Saint Michael Church"
+  },
+  {
+   "id": "Q794973",
+   "name": "Bâlea Lak",
+   "sl": 22,
+   "file": "Baleasee.jpg",
+   "lat": 45.602,
+   "lon": 24.617,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bâlea Lake"
+  },
+  {
+   "id": "Q168372",
+   "name": "Cheile Nerei-Beușnița National Park",
+   "sl": 22,
+   "file": "Cascadele Beușniței.JPG",
+   "lat": 44.9512,
+   "lon": 21.8882,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cheile Nerei - Beușnița National Park"
+  },
+  {
+   "id": "Q631522",
+   "name": "Măcin Mountains",
+   "sl": 22,
+   "file": "Munţii Măcinului 09.JPG",
+   "lat": 45.21,
+   "lon": 28.3558,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Macin Mountains"
+  },
+  {
+   "id": "Q2522104",
+   "name": "Palace of Culture",
+   "sl": 22,
+   "file": "2020 04 17 Iași Palatul Culturii.jpg",
+   "lat": 47.1574,
+   "lon": 27.587,
+   "kind": "built",
+   "types": [
+    "national museum",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iași Palace of Culture"
+  },
+  {
+   "id": "Q1044149",
+   "name": "Carol I Mosque",
+   "sl": 21,
+   "file": "Moscheea Carol I, Constanta.JPG",
+   "lat": 44.1733,
+   "lon": 28.6597,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Carol I Mosque, Constanța"
+  },
+  {
+   "id": "Q12723726",
+   "name": "Constanța Casino",
+   "sl": 21,
+   "file": "Constanța Casino 2025 (54606449888).jpg",
+   "lat": 44.1705,
+   "lon": 28.6635,
+   "kind": "built",
+   "types": [
+    "casino",
+    "house of culture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Constanța Casino"
+  },
+  {
+   "id": "Q2074133",
+   "name": "Herăstrău Park",
+   "sl": 21,
+   "file": "Parcul Herastrau.jpg",
+   "lat": 44.4792,
+   "lon": 26.0817,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parcul Regele Mihai I al României"
+  },
+  {
+   "id": "Q1088525",
+   "name": "Putna Monastery",
+   "sl": 21,
+   "file": "Manastirea putna1.jpg",
+   "lat": 47.866,
+   "lon": 25.5965,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Putna monastery"
+  },
+  {
+   "id": "Q248589",
+   "name": "St. Michael's Cathedral",
+   "sl": 21,
+   "file": "Alba Iulia Cathedral St. Michael.jpg",
+   "lat": 46.0676,
+   "lon": 23.57,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alba Iulia Roman Catholic Cathedral"
+  },
+  {
+   "id": "Q1253767",
+   "name": "Stadionul Dr. Constantin Rădulescu",
+   "sl": 21,
+   "file": "Cluj-Napoca Stadionul Dr. Constantin Rădulescu 1.jpg",
+   "lat": 46.7797,
+   "lon": 23.5772,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dr. Constantin Rădulescu Stadium"
+  },
+  {
+   "id": "Q851764",
+   "name": "Bucura Lake",
+   "sl": 20,
+   "file": "Lacul Bucura, Lacul Ana a Lacul Bucurelu.jpg",
+   "lat": 45.3583,
+   "lon": 22.875,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lacul Bucura"
+  },
+  {
+   "id": "Q1151535",
+   "name": "Curtea de Argeș Monastery",
+   "sl": 20,
+   "file": "Church of the Dormition, Argeș monastery (by Pudelek) 01.jpg",
+   "lat": 45.1569,
+   "lon": 24.6754,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Curtea de Argeș Monastery"
+  },
+  {
+   "id": "Q632261",
+   "name": "Hoia Forest",
+   "sl": 20,
+   "file": "Hoia toamna-Hoia Forest autumn 2012 - panoramio.jpg",
+   "lat": 46.774,
+   "lon": 23.522,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "haunted place",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hoia Forest"
+  },
+  {
+   "id": "Q1289417",
+   "name": "Iron Gate I Hydroelectric Power Station",
+   "sl": 20,
+   "file": "Eisernes Tor Staudamm.JPG",
+   "lat": 44.6708,
+   "lon": 22.5292,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Iron Gate I hydroelectric power station"
+  },
+  {
+   "id": "Q1232288",
+   "name": "Peleaga",
+   "sl": 20,
+   "file": "Vf-peleaga6.jpg",
+   "lat": 45.3661,
+   "lon": 22.8944,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q946978",
+   "name": "Peștera cu Oase",
+   "sl": 20,
+   "file": "Oase 2-Homo Sapiens.jpg",
+   "lat": 45.0167,
+   "lon": 21.8333,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peștera cu Oase"
+  },
+  {
+   "id": "Q1514860",
+   "name": "Romanian Patriarchal Cathedral",
+   "sl": 20,
+   "file": "Catedrala Patriarhală, București (2023) - IMG 02.jpg",
+   "lat": 44.4246,
+   "lon": 26.0978,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Romanian Orthodox patriarchal cathedral"
+  },
+  {
+   "id": "Q946418",
+   "name": "Sibiu International Airport",
+   "sl": 20,
+   "file": "Flughafen Hermannstadt2.jpg",
+   "lat": 45.789,
+   "lon": 24.095,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sibiu International Airport"
+  },
+  {
+   "id": "Q611070",
+   "name": "Sucevița Monastery",
+   "sl": 20,
+   "file": "Biserica si curtea manastirii Sucevita.jpg",
+   "lat": 47.7781,
+   "lon": 25.7112,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q387687",
+    "name": "churches of Moldavia"
+   },
+   "also": [],
+   "cat": "Sucevița monastery"
+  },
+  {
+   "id": "Q2671791",
+   "name": "Ulpia Traiana Sarmizegetusa",
+   "sl": 20,
+   "file": "Sarmizegetusa (Plan).JPG",
+   "lat": 45.5158,
+   "lon": 22.7881,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "ancient Roman structure",
+    "archaeological site",
+    "castrum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulpia Traiana Sarmizegetusa"
+  },
+  {
+   "id": "Q3078198",
+   "name": "Călimani National Park",
+   "sl": 19,
+   "file": "Kelemen-havasok.jpg",
+   "lat": 47.127,
+   "lon": 25.168,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Călimani National Park"
+  },
+  {
+   "id": "Q13529390",
+   "name": "Eiffel Bridge, Ungheni",
+   "sl": 19,
+   "file": "09.05.2024 - Vizita comună în Republica Moldova a Președinților Grupurilor de prietenie din parlamentele statelor membre ale Uniunii Europene - DSC 1130.jpg",
+   "lat": 47.1999,
+   "lon": 27.7871,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "railway bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MD"
+   ],
+   "cat": "Eiffel Bridge, Ungheni"
+  },
+  {
+   "id": "Q924912",
+   "name": "Lake Sfânta Ana",
+   "sl": 19,
+   "file": "Szent Anna-tó-1.jpg",
+   "lat": 46.1264,
+   "lon": 25.8881,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Saint Anne"
+  },
+  {
+   "id": "Q665510",
+   "name": "Lake Siutghiol",
+   "sl": 19,
+   "file": "Lake Siutghiol.jpg",
+   "lat": 44.2464,
+   "lon": 28.6,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Siutghiol"
+  },
+  {
+   "id": "Q2429589",
+   "name": "Mangalia Mosque",
+   "sl": 19,
+   "file": "RO CT Mangalia Esmahan Sultan mosque.jpg",
+   "lat": 43.8103,
+   "lon": 28.5831,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Esmahan Sultan Mosque"
+  },
+  {
+   "id": "Q1075172",
+   "name": "Moldovița Monastery",
+   "sl": 19,
+   "file": "Oliver Mark - Moldovița Monastery, Bukovina 2018.jpg",
+   "lat": 47.657,
+   "lon": 25.5711,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q387687",
+    "name": "churches of Moldavia"
+   },
+   "also": [],
+   "cat": "Moldovița monastery"
+  },
+  {
+   "id": "Q897451",
+   "name": "Parângu Mare",
+   "sl": 19,
+   "file": "ParanguMare.jpg",
+   "lat": 45.3403,
+   "lon": 23.5408,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parangu Mare"
+  },
+  {
+   "id": "Q623662",
+   "name": "Romanian Peasant Museum",
+   "sl": 19,
+   "file": "Exterior of the Museum of the Romanian Peasant in Bucharest.jpg",
+   "lat": 44.4544,
+   "lon": 26.0837,
+   "kind": "built",
+   "types": [
+    "ethnographic museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of the Romanian Peasant"
+  },
+  {
+   "id": "Q80374",
+   "name": "Statue of Decebalus",
+   "sl": 19,
+   "file": "Rock Sculpture of Decebalus (26845769043).jpg",
+   "lat": 44.6406,
+   "lon": 22.2914,
+   "kind": "built",
+   "types": [
+    "monumental sculpture",
+    "rock relief"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock sculpture of Decebalus"
+  },
+  {
+   "id": "Q3364563",
+   "name": "Bucegi Natural Park",
+   "sl": 18,
+   "file": "Spre Cruce-brana Caraimanului-vedere cabana.jpg",
+   "lat": 45.377,
+   "lon": 25.445,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bucegi Natural Park"
+  },
+  {
+   "id": "Q74413",
+   "name": "Cluj Arena",
+   "sl": 18,
+   "file": "Cluj-Napoca (42741215562).jpg",
+   "lat": 46.7683,
+   "lon": 23.5722,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "rugby union venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cluj Arena"
+  },
+  {
+   "id": "Q1855757",
+   "name": "Curtea Veche",
+   "sl": 18,
+   "file": "Bucharest Day 1 - Curtea Veche (9330338582).jpg",
+   "lat": 44.4301,
+   "lon": 26.1009,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Curtea Veche in Bucharest"
+  },
+  {
+   "id": "Q3845208",
+   "name": "Holy Trinity Cathedral",
+   "sl": 18,
+   "file": "Sibiu - looking toward Orthodox cathedral.jpg",
+   "lat": 45.7945,
+   "lon": 24.1482,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orthodox Cathedral in Sibiu"
+  },
+  {
+   "id": "Q854060",
+   "name": "Lake Izvorul Muntelui",
+   "sl": 18,
+   "file": "Baraj Bicaz vedere spre lacul Izvorul Muntelui.jpg",
+   "lat": 47.0196,
+   "lon": 26.0541,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bicaz Lake"
+  },
+  {
+   "id": "Q179283",
+   "name": "National Museum of Romanian History",
+   "sl": 18,
+   "file": "Museo Nacional de Historia de Rumanía, Bucarest, Rumanía, 2016-05-29, DD 63.jpg",
+   "lat": 44.4315,
+   "lon": 26.0972,
+   "kind": "built",
+   "types": [
+    "history museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Romanian History"
+  },
+  {
+   "id": "Q909374",
+   "name": "Stadionul Steaua",
+   "sl": 18,
+   "file": "Stadionul Steaua.jpg",
+   "lat": 44.4128,
+   "lon": 26.0404,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadionul Steaua"
+  },
+  {
+   "id": "Q3119683",
+   "name": "Stavropoleos Monastery",
+   "sl": 18,
+   "file": "4, Strada Stavropoleos, Bucharest (Romania).jpg",
+   "lat": 44.4317,
+   "lon": 26.0988,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stavropoleos Church"
+  },
+  {
+   "id": "Q1424725",
+   "name": "Arad International Airport",
+   "sl": 17,
+   "file": "Arad 09 approach.JPG",
+   "lat": 46.1717,
+   "lon": 21.2767,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arad Airport"
+  },
+  {
+   "id": "Q568264",
+   "name": "Buila-Vânturarița National Park",
+   "sl": 17,
+   "file": "Buila4.JPG",
+   "lat": 45.24,
+   "lon": 24.096,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buila-Vânturarița National Park"
+  },
+  {
+   "id": "Q2933758",
+   "name": "Calea Victoriei",
+   "sl": 17,
+   "file": "Hotel Continental - Calea Victoriei.jpg",
+   "lat": 44.4429,
+   "lon": 26.0935,
+   "kind": "built",
+   "types": [
+    "avenue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Calea Victoriei, Bucharest"
+  },
+  {
+   "id": "Q5010221",
+   "name": "CEC Palace",
+   "sl": 17,
+   "file": "Palacio CEC, Bucarest, Rumanía, 2016-05-29, DD 65.jpg",
+   "lat": 44.432,
+   "lon": 26.0965,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "CEC Palace, Bucharest"
+  },
+  {
+   "id": "Q929095",
+   "name": "Cheile Turzii",
+   "sl": 17,
+   "file": "Cheile Turzii-(70).JPG",
+   "lat": 46.5639,
+   "lon": 23.6792,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cheile Turzii"
+  },
+  {
+   "id": "Q1257623",
+   "name": "Coronation Cathedral, Alba Iulia",
+   "sl": 17,
+   "file": "Catedrala \"Sf. Treime\".jpg",
+   "lat": 46.0684,
+   "lon": 23.5695,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alba Iulia Orthodox Cathedral"
+  },
+  {
+   "id": "Q733838",
+   "name": "Cotroceni Palace",
+   "sl": 17,
+   "file": "The Bulgarian Head of State is on a visit to Romania to take part in the Three Seas initiative summit 2018 01.jpg",
+   "lat": 44.4341,
+   "lon": 26.0617,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cotroceni Palace"
+  },
+  {
+   "id": "Q1956214",
+   "name": "Dimitrie Gusti National Village Museum in Bucharest",
+   "sl": 17,
+   "file": "(2023) Biserica de lemn din Dragomirești, Maramureș, 1722 - img 18.jpg",
+   "lat": 44.4719,
+   "lon": 26.0776,
+   "kind": "built",
+   "types": [
+    "ethnographic museum",
+    "museum",
+    "open-air museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Village Museum, Bucharest"
+  }
+ ]
+}

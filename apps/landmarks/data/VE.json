@@ -1,0 +1,1334 @@
+{
+ "country": "VE",
+ "items": [
+  {
+   "id": "Q80299",
+   "name": "Angel Falls",
+   "sl": 93,
+   "file": "SaltoAngel4.jpg",
+   "lat": 5.9701,
+   "lon": -62.5362,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Angel Falls"
+  },
+  {
+   "id": "Q182137",
+   "name": "Lake Maracaibo",
+   "sl": 72,
+   "file": "Maracaibo MODIS 2004jun26.jpg",
+   "lat": 9.8158,
+   "lon": -71.5567,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago de Maracaibo"
+  },
+  {
+   "id": "Q4777",
+   "name": "Mount Roraima",
+   "sl": 59,
+   "file": "Roraima3 (79).JPG",
+   "lat": 5.1419,
+   "lon": -60.7642,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "tepui"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR",
+    "GY"
+   ],
+   "cat": "Mount Roraima"
+  },
+  {
+   "id": "Q1244337",
+   "name": "Canaima National Park",
+   "sl": 57,
+   "file": "Canaima 34.JPG",
+   "lat": 5.3193,
+   "lon": -61.7953,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Canaima National Park"
+  },
+  {
+   "id": "Q213704",
+   "name": "Pico Bolívar",
+   "sl": 46,
+   "file": "PicoBolivarMerida.JPG",
+   "lat": 8.5409,
+   "lon": -71.0465,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Bolívar"
+  },
+  {
+   "id": "Q739484",
+   "name": "Pico da Neblina",
+   "sl": 43,
+   "file": "Pico da Neblina (FAB).jpg",
+   "lat": 0.8055,
+   "lon": -66.0054,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": "Pico da Neblina"
+  },
+  {
+   "id": "Q1058344",
+   "name": "Simón Bolívar International Airport",
+   "sl": 34,
+   "file": "Maiquetiaairport.jpg",
+   "lat": 10.6031,
+   "lon": -66.9906,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Simón Bolívar International Airport"
+  },
+  {
+   "id": "Q1061531",
+   "name": "University City of Caracas",
+   "sl": 31,
+   "file": "HansArp-CloudShepher-Manaure1953.JPG",
+   "lat": 10.4908,
+   "lon": -66.8906,
+   "kind": "built",
+   "types": [
+    "campus"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "University City of Caracas"
+  },
+  {
+   "id": "Q126063",
+   "name": "Auyán Tepuy",
+   "sl": 27,
+   "file": "Auyan Tepui 01.JPG",
+   "lat": 5.9009,
+   "lon": -62.55,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "tepui"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Auyantepuy"
+  },
+  {
+   "id": "Q143529",
+   "name": "Guri Dam",
+   "sl": 27,
+   "file": "GuriWasserkraftwerk.jpg",
+   "lat": 7.7656,
+   "lon": -63.0003,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guri Dam"
+  },
+  {
+   "id": "Q637508",
+   "name": "La Guajira Desert",
+   "sl": 24,
+   "file": "La Guajira desert.jpg",
+   "lat": 12.0717,
+   "lon": -71.5978,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CO"
+   ],
+   "cat": "La Guajira desert"
+  },
+  {
+   "id": "Q1469728",
+   "name": "Lake Valencia",
+   "sl": 23,
+   "file": "Albuf.JPG",
+   "lat": 10.1833,
+   "lon": -67.7333,
+   "kind": "natural",
+   "types": [
+    "endorheic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Valencia"
+  },
+  {
+   "id": "Q1188034",
+   "name": "Humboldt peak",
+   "sl": 22,
+   "file": "Pico Humboldt.jpg",
+   "lat": 8.5497,
+   "lon": -70.9961,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Humboldt Peak (Venezuela)"
+  },
+  {
+   "id": "Q2333134",
+   "name": "Kukenán Tepuy",
+   "sl": 22,
+   "file": "Kukenan Tepuy at Sunset.jpg",
+   "lat": 5.2016,
+   "lon": -60.8282,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "tepui"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kukenan"
+  },
+  {
+   "id": "Q1244809",
+   "name": "Médanos de Coro National Park",
+   "sl": 22,
+   "file": "Los medanos de coro PN.jpg",
+   "lat": 11.6064,
+   "lon": -69.7376,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "dune",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Médanos de Coro National Park"
+  },
+  {
+   "id": "Q1335087",
+   "name": "La Chinita International Airport",
+   "sl": 21,
+   "file": "La Chinita International Airport.jpg",
+   "lat": 10.5581,
+   "lon": -71.7278,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Chinita International Airport"
+  },
+  {
+   "id": "Q546383",
+   "name": "Estadio José Pachencho Romero",
+   "sl": 20,
+   "file": "Brazil vs. Uruguay Semifinals Copa América 2007 - 2.jpg",
+   "lat": 10.6741,
+   "lon": -71.645,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio José Encarnación Romero"
+  },
+  {
+   "id": "Q1369587",
+   "name": "Polideportivo Cachamay",
+   "sl": 20,
+   "file": "Cte cachamay aereo.jpg",
+   "lat": 8.3125,
+   "lon": -62.6967,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Cachamay"
+  },
+  {
+   "id": "Q1369553",
+   "name": "Estadio Olímpico",
+   "sl": 19,
+   "file": "Estadio Olímpico (Caracas).jpg",
+   "lat": 10.4913,
+   "lon": -66.8855,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Olímpico de la Universidad Central de Venezuela"
+  },
+  {
+   "id": "Q317207",
+   "name": "General Rafael Urdaneta Bridge",
+   "sl": 19,
+   "file": "General Rafael Urdaneta Bridge view from the lake to Cabimas side.jpg",
+   "lat": 10.5743,
+   "lon": -71.576,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "prestressed concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puente Sobre el Lago de Maracaibo"
+  },
+  {
+   "id": "Q1035333",
+   "name": "Henri Pittier National Park",
+   "sl": 19,
+   "file": "HenriPittierpq.jpg",
+   "lat": 10.38,
+   "lon": -67.619,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Henri Pittier National Park"
+  },
+  {
+   "id": "Q2231898",
+   "name": "Arturo Michelena International Airport",
+   "sl": 18,
+   "file": "Aviones de Avior Airlines en AIAM.jpg",
+   "lat": 10.1497,
+   "lon": -67.9283,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arturo Michelena International Airport"
+  },
+  {
+   "id": "Q607224",
+   "name": "Miraflores Palace",
+   "sl": 18,
+   "file": "Miraflores Palace.png",
+   "lat": 10.5081,
+   "lon": -66.9194,
+   "kind": "built",
+   "types": [
+    "house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio de Miraflores"
+  },
+  {
+   "id": "Q1054303",
+   "name": "Confinanzas Financial Center",
+   "sl": 17,
+   "file": "Centro Financiero Confinanzas Chavez Vive 2014.jpg",
+   "lat": 10.5053,
+   "lon": -66.8989,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Centro Financiero Confinanzas"
+  },
+  {
+   "id": "Q1369388",
+   "name": "Estadio Metropolitano de Fútbol de Lara",
+   "sl": 17,
+   "file": "Estadio Metropolitano de Lara.jpg",
+   "lat": 9.9935,
+   "lon": -69.2199,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Metropolitano de Lara"
+  },
+  {
+   "id": "Q647312",
+   "name": "Estadio Monumental de Maturín",
+   "sl": 17,
+   "file": "Monumental de maturin 3.jpg",
+   "lat": 9.71,
+   "lon": -63.2677,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Monumental de Maturín"
+  },
+  {
+   "id": "Q1369592",
+   "name": "Estadio Polideportivo de Pueblo Nuevo",
+   "sl": 17,
+   "file": "Inauguración Copa América 2007.jpg",
+   "lat": 7.7872,
+   "lon": -72.1979,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Polideportivo de Pueblo Nuevo"
+  },
+  {
+   "id": "Q1815635",
+   "name": "Mosque of Sheikh Ibrahim Al-Ibrahim",
+   "sl": 17,
+   "file": "Mezquita Ibrahim Al-Lbrahim en Caracas frente a la Iglesia San Charbel.jpg",
+   "lat": 10.5017,
+   "lon": -66.8953,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosque of Sheikh Ibrahim Al-Ibrahim"
+  },
+  {
+   "id": "Q3646551",
+   "name": "Pico Bonpland",
+   "sl": 17,
+   "file": "Pico Bonpland visto desde el Pico Humboldt.JPG",
+   "lat": 8.5425,
+   "lon": -71.0032,
+   "kind": "natural",
+   "types": [
+    "glacier",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Bonpland"
+  },
+  {
+   "id": "Q2711269",
+   "name": "Ankoko Island",
+   "sl": 16,
+   "file": "Isla de Anacoco Puesto Militar.jpg",
+   "lat": 6.7244,
+   "lon": -61.1402,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "river island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ankoko Island"
+  },
+  {
+   "id": "Q153541",
+   "name": "Botanical Garden of Mérida",
+   "sl": 16,
+   "file": "Entrada Jardín Botánico Mérida.JPG",
+   "lat": 8.6237,
+   "lon": -71.1441,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Centro jardín botánico de Mérida"
+  },
+  {
+   "id": "Q1369220",
+   "name": "Estadio José Antonio Anzoátegui",
+   "sl": 16,
+   "file": "Jaa ven1-arg0.jpg",
+   "lat": 10.1801,
+   "lon": -64.6561,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio José Antonio Anzoátegui"
+  },
+  {
+   "id": "Q1655978",
+   "name": "Santiago Mariño Caribbean International Airport",
+   "sl": 16,
+   "file": "TerminalSVMG.jpg",
+   "lat": 10.9131,
+   "lon": -63.9675,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santiago Mariño International Airport"
+  },
+  {
+   "id": "Q2097111",
+   "name": "Cuquenan Falls",
+   "sl": 15,
+   "file": "SaltoKukenan.jpg",
+   "lat": 5.1967,
+   "lon": -60.8145,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kukenan Falls"
+  },
+  {
+   "id": "Q1264913",
+   "name": "Pico 31 de Março",
+   "sl": 15,
+   "file": "Pico 31 de Março.JPG",
+   "lat": 0.8,
+   "lon": -66,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q7191016",
+   "name": "Pico Naiguatá",
+   "sl": 15,
+   "file": "Scratching the Sky.jpg",
+   "lat": 10.5433,
+   "lon": -66.7825,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Naiguatá"
+  },
+  {
+   "id": "Q2231506",
+   "name": "Barcelona Internacional Gral J. A. Anzoátegui Airport",
+   "sl": 14,
+   "file": "Aeropuerto13.jpg",
+   "lat": 10.1072,
+   "lon": -64.6892,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "General José Antonio Anzoátegui International Airport"
+  },
+  {
+   "id": "Q4845766",
+   "name": "El Guacharo National Park",
+   "sl": 14,
+   "file": "Cueva del Guacharo.jpg",
+   "lat": 10.1718,
+   "lon": -63.5539,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Guácharo National Park"
+  },
+  {
+   "id": "Q953887",
+   "name": "Estadio Agustín Tovar",
+   "sl": 14,
+   "file": "Estadio Agustín Tovar.PNG",
+   "lat": 8.6244,
+   "lon": -70.2074,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Agustín Tovar"
+  },
+  {
+   "id": "Q1237378",
+   "name": "Estadio Metropolitano de Mérida",
+   "sl": 14,
+   "file": "Estadiometropolitano2.JPG",
+   "lat": 8.5564,
+   "lon": -71.2167,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Metropolitano de Mérida"
+  },
+  {
+   "id": "Q1814384",
+   "name": "Llano del Hato National Astronomical Observatory",
+   "sl": 14,
+   "file": "National Observatory of Llano del Hato.jpg",
+   "lat": 8.7864,
+   "lon": -70.8719,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Observatorio Astronómico Nacional de Llano del Hato"
+  },
+  {
+   "id": "Q1736173",
+   "name": "Caracas Cathedral",
+   "sl": 13,
+   "file": "Catedral de Caracas 2013 001.JPG",
+   "lat": 10.5062,
+   "lon": -66.914,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Caracas Cathedral"
+  },
+  {
+   "id": "Q2630111",
+   "name": "Caracas Museum of Fine Arts",
+   "sl": 13,
+   "file": "Museo de Arte contemporáneo de Caracas, Venezuela.jpg",
+   "lat": 10.5006,
+   "lon": -66.897,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo de Bellas Artes de Caracas"
+  },
+  {
+   "id": "Q683553",
+   "name": "Isla Ratón",
+   "sl": 13,
+   "file": "Salió el sol.JPG",
+   "lat": 5.1311,
+   "lon": -67.8106,
+   "kind": "natural",
+   "types": [
+    "human settlement",
+    "river island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q994694",
+   "name": "National Pantheon",
+   "sl": 13,
+   "file": "Mausole.jpg",
+   "lat": 10.5129,
+   "lon": -66.9126,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Pantheon of Venezuela"
+  },
+  {
+   "id": "Q3364426",
+   "name": "Parima-Tapirapecó National Park",
+   "sl": 13,
+   "file": "Cerro Maweti, rio Ocamo.jpg",
+   "lat": 3.3302,
+   "lon": -64.7047,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parima-Tapirapeco National Park"
+  },
+  {
+   "id": "Q1750622",
+   "name": "Pico Espejo",
+   "sl": 13,
+   "file": "PicoEspejo.JPG",
+   "lat": 8.5292,
+   "lon": -71.0636,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Espejo"
+  },
+  {
+   "id": "Q7191014",
+   "name": "Pico La Concha",
+   "sl": 13,
+   "file": "Pico la Concha.JPG",
+   "lat": 8.5549,
+   "lon": -71.0266,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico La Concha (Sierra Nevada de Mérida)"
+  },
+  {
+   "id": "Q1651329",
+   "name": "Sierra Nevada National Park",
+   "sl": 13,
+   "file": "Bolívar usgs.jpg",
+   "lat": 8.5667,
+   "lon": -70.7,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sierra Nevada de Mérida"
+  },
+  {
+   "id": "Q6079441",
+   "name": "Bolívar Square",
+   "sl": 12,
+   "file": "Fuente sur de la plaza Bolivar de Caracas 2013 001.JPG",
+   "lat": 10.506,
+   "lon": -66.9146,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza Bolívar de Caracas"
+  },
+  {
+   "id": "Q668922",
+   "name": "Caruachi Dam",
+   "sl": 12,
+   "file": "Caruachi 110514-4.JPG",
+   "lat": 8.1602,
+   "lon": -62.7982,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Caruachi Dam"
+  },
+  {
+   "id": "Q19966843",
+   "name": "El Avila National park",
+   "sl": 12,
+   "file": "Scratching the Sky.jpg",
+   "lat": 10.5333,
+   "lon": -66.8667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avila National Park"
+  },
+  {
+   "id": "Q3144635",
+   "name": "El Helicoide",
+   "sl": 12,
+   "file": "Helicoide roca tarpeya caracas.jpg",
+   "lat": 10.4892,
+   "lon": -66.9101,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Helicoide"
+  },
+  {
+   "id": "Q2231932",
+   "name": "Jacinto Lara International Airport",
+   "sl": 12,
+   "file": "Aeropuerto Jacinto Lara.JPG",
+   "lat": 10.0428,
+   "lon": -69.3586,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jacinto Lara International Airport"
+  },
+  {
+   "id": "Q1932974",
+   "name": "Josefa Camejo International Airport",
+   "sl": 12,
+   "file": "Aeropuerto-internacional-josefa-camejo-venezuela.jpg",
+   "lat": 11.7808,
+   "lon": -70.1514,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Josefa Camejo International Airport"
+  },
+  {
+   "id": "Q3896391",
+   "name": "Morrocoy National Park",
+   "sl": 12,
+   "file": "Cocotero en Cayo Sombrero.jpg",
+   "lat": 10.856,
+   "lon": -68.306,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Morrocoy"
+  },
+  {
+   "id": "Q6079839",
+   "name": "Plaza Venezuela",
+   "sl": 12,
+   "file": "Plaza Venezuela Sunset.jpg",
+   "lat": 10.4975,
+   "lon": -66.8856,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Plaza Venezuela"
+  },
+  {
+   "id": "Q849280",
+   "name": "San Esteban National Park",
+   "sl": 12,
+   "file": "San Esteban Loma Linda.jpg",
+   "lat": 10.3908,
+   "lon": -67.9803,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional San Esteban"
+  },
+  {
+   "id": "Q2704391",
+   "name": "Alberto Carnevalli Airport",
+   "sl": 11,
+   "file": "Alberto Canevali airport.JPG",
+   "lat": 8.5822,
+   "lon": -71.1611,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alberto Carnevalli Airport"
+  },
+  {
+   "id": "Q1430783",
+   "name": "Anaco Airport",
+   "sl": 11,
+   "file": "Anacoweb aeropuerto.jpg",
+   "lat": 9.4303,
+   "lon": -64.4708,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anaco Airport"
+  },
+  {
+   "id": "Q2231888",
+   "name": "Antonio José de Sucre Airport",
+   "sl": 11,
+   "file": "Aeropuerto Internacional AJS.jpg",
+   "lat": 10.4503,
+   "lon": -64.1306,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4845607",
+   "name": "Cerro El Copey National Park",
+   "sl": 11,
+   "file": "En lo alto del Copey.JPG",
+   "lat": 11.0088,
+   "lon": -63.8864,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro El Copey National Park"
+  },
+  {
+   "id": "Q2184071",
+   "name": "Contemporary Art Museum of Caracas",
+   "sl": 11,
+   "file": "Museo arte Caracas.JPG",
+   "lat": 10.4985,
+   "lon": -66.8996,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "contemporary art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo de Arte Contemporáneo de Caracas"
+  },
+  {
+   "id": "Q1322397",
+   "name": "José Leonardo Chirino Airport",
+   "sl": 11,
+   "file": "Aeropuerto Int. Jose Leonardo Chirinos (SVCR) Coro.JPG",
+   "lat": 11.415,
+   "lon": -69.6817,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "José Leonardo Chirino Airport"
+  },
+  {
+   "id": "Q1321040",
+   "name": "José Tadeo Monagas International Airport",
+   "sl": 11,
+   "file": "Aeropuerto Jose Tadeo Monagas (Interior).jpg",
+   "lat": 9.7492,
+   "lon": -63.1533,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "José Tadeo Monagas International Airport"
+  },
+  {
+   "id": "Q555444",
+   "name": "Juan Pablo Pérez Alfonso Airport",
+   "sl": 11,
+   "file": "Aeropuerto el vigia.jpg",
+   "lat": 8.6242,
+   "lon": -71.6728,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aeropuerto Juan Pablo Pérez Alfonzo"
+  },
+  {
+   "id": "Q3274614",
+   "name": "La Carlota Air Base",
+   "sl": 11,
+   "file": "Vista aérea del aeropuerto La Carlota.JPG",
+   "lat": 10.485,
+   "lon": -66.8436,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Generalissimo Francisco de Miranda Air Base"
+  },
+  {
+   "id": "Q2291619",
+   "name": "Los Roques Airport",
+   "sl": 11,
+   "file": "El gran roque.jpg",
+   "lat": 11.9458,
+   "lon": -66.6717,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Los Roques Airport"
+  },
+  {
+   "id": "Q1320857",
+   "name": "Manuel Carlos Piar International Airport",
+   "sl": 11,
+   "file": "Manuel Carlos Piar International Airport.jpg",
+   "lat": 8.2886,
+   "lon": -62.7603,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aeropuerto Internacional Manuel Piar"
+  },
+  {
+   "id": "Q212281",
+   "name": "National Art Gallery",
+   "sl": 11,
+   "file": "Galería de Arte Nacional de Venezuela.jpg",
+   "lat": 10.5006,
+   "lon": -66.9025,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galería de Arte Nacional"
+  },
+  {
+   "id": "Q3047192",
+   "name": "Pico Piedras Blancas",
+   "sl": 11,
+   "file": "PiedrasBlancasMucumamo.JPG",
+   "lat": 8.8588,
+   "lon": -70.9517,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Piedras Blancas (Sierra de la Culata)"
+  },
+  {
+   "id": "Q7419470",
+   "name": "Santa Elena de Uairén Airport",
+   "sl": 11,
+   "file": "Aereopuerto de Santa Elena de Uairén.JPG",
+   "lat": 4.5551,
+   "lon": -61.1438,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Elena de Uairén Airport"
+  },
+  {
+   "id": "Q1931117",
+   "name": "Tomás de Heres Airport",
+   "sl": 11,
+   "file": "JimmieAngelPlane.jpg",
+   "lat": 8.1222,
+   "lon": -63.5361,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomás de Heres Airport"
+  },
+  {
+   "id": "Q4760155",
+   "name": "Andrés Bello Catholic University",
+   "sl": 10,
+   "file": "Ucab entrada.jpg",
+   "lat": 10.4643,
+   "lon": -66.9759,
+   "kind": "built",
+   "types": [
+    "Catholic university",
+    "cultural property",
+    "Jesuit university",
+    "private university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Andrés Bello Catholic University"
+  },
+  {
+   "id": "Q3089080",
+   "name": "Angostura Bridge",
+   "sl": 10,
+   "file": "Angostura.JPG",
+   "lat": 8.1444,
+   "lon": -63.5981,
+   "kind": "built",
+   "types": [
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Angostura Bridge"
+  },
+  {
+   "id": "Q1320868",
+   "name": "Barinas Airport",
+   "sl": 10,
+   "file": "Areopuerto de Barinas.jpg",
+   "lat": 8.6194,
+   "lon": -70.2208,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3273974",
+   "name": "Canaima Airport",
+   "sl": 10,
+   "file": "149aq - RUTACA Cessna U206G Stationair 6 II; YV-379C@CAJ;03.10.2001 (4794690312).jpg",
+   "lat": 6.2319,
+   "lon": -62.8542,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canaima Airport"
+  },
+  {
+   "id": "Q8534941",
+   "name": "Cerro de la Neblina",
+   "sl": 10,
+   "file": "Pico da Neblina.jpg",
+   "lat": 0.8864,
+   "lon": -65.9894,
+   "kind": "natural",
+   "types": [
+    "dissected plateau",
+    "massif",
+    "mountain",
+    "tepui"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q65621655",
+   "name": "Coro and its Port",
+   "sl": 10,
+   "file": "Collectie Nationaal Museum van Wereldculturen TM-1869-1a Ingang van het Schottegat te Curacao ten tijde van het Engelse tussenbestuur Curacao John & Josiah Boydell & co. (Uitgever).jpg",
+   "lat": 11.4,
+   "lon": -69.6833,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4845588",
+   "name": "Delta del Orinoco National Park",
+   "sl": 10,
+   "file": "Deltaorinoco.jpg",
+   "lat": 9.8059,
+   "lon": -61.4752,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mariusa National Park"
+  }
+ ]
+}

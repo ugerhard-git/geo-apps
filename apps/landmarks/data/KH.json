@@ -1,0 +1,1421 @@
+{
+ "country": "KH",
+ "items": [
+  {
+   "id": "Q43473",
+   "name": "Angkor Wat",
+   "sl": 137,
+   "file": "Angkor wat temple.jpg",
+   "lat": 13.4125,
+   "lon": 103.8667,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Buddhist temple",
+    "Hindu temple",
+    "temple complex"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Angkor Wat"
+  },
+  {
+   "id": "Q163607",
+   "name": "Angkor",
+   "sl": 91,
+   "file": "Angkor Wat W-Seite.jpg",
+   "lat": 13.4333,
+   "lon": 103.8333,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "city",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Angkor"
+  },
+  {
+   "id": "Q199938",
+   "name": "Tonle Sap",
+   "sl": 63,
+   "file": "Tonlesap.jpg",
+   "lat": 12.8833,
+   "lon": 104.0667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tonle Sap"
+  },
+  {
+   "id": "Q223665",
+   "name": "Angkor Thom",
+   "sl": 54,
+   "file": "Bayon-temple.JPG",
+   "lat": 13.4433,
+   "lon": 103.8597,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Angkor Thom"
+  },
+  {
+   "id": "Q45949",
+   "name": "Preah Vihear Temple",
+   "sl": 52,
+   "file": "03 Prasat Preah Vihear-nX-06478.jpg",
+   "lat": 14.3906,
+   "lon": 104.6803,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "disputed territory",
+    "Khmer temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Preah Vihear"
+  },
+  {
+   "id": "Q654024",
+   "name": "Bayon",
+   "sl": 44,
+   "file": "Trusty Tuk Tuk .jpg",
+   "lat": 13.4413,
+   "lon": 103.8587,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Bayon"
+  },
+  {
+   "id": "Q850268",
+   "name": "Tuol Sleng torture center",
+   "sl": 43,
+   "file": "Tuol Sleng.jpg",
+   "lat": 11.5494,
+   "lon": 104.9178,
+   "kind": "built",
+   "types": [
+    "museum",
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tuol Sleng"
+  },
+  {
+   "id": "Q1054163",
+   "name": "Phnom Penh International Airport",
+   "sl": 34,
+   "file": "Phnom penh airport.JPG",
+   "lat": 11.5464,
+   "lon": 104.8439,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phnom Penh International Airport"
+  },
+  {
+   "id": "Q790099",
+   "name": "Banteay Srei",
+   "sl": 32,
+   "file": "Banteay Srei full2.jpg",
+   "lat": 13.5989,
+   "lon": 103.9629,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "geographical feature",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Banteay Srei"
+  },
+  {
+   "id": "Q790118",
+   "name": "Baphuon",
+   "sl": 31,
+   "file": "BaphuonEasternFacade2011.jpg",
+   "lat": 13.4438,
+   "lon": 103.8562,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Baphuon"
+  },
+  {
+   "id": "Q1778458",
+   "name": "Koh Ker",
+   "sl": 31,
+   "file": "Prasat Thom 1.jpg",
+   "lat": 13.7499,
+   "lon": 104.5473,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Koh Ker"
+  },
+  {
+   "id": "Q1818746",
+   "name": "Sambor Prei Kuk",
+   "sl": 31,
+   "file": "600 CE Ashram Maha Rishi Hindu temple, N17 Kuk Vihear Prasat Asram Maha Rusei, Sambour Kuk Cambodia 01.jpg",
+   "lat": 12.8673,
+   "lon": 105.04,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sambor Prei Kuk"
+  },
+  {
+   "id": "Q1054472",
+   "name": "Siem Reap International Airport",
+   "sl": 30,
+   "file": "Siem Reap International Airport.jpg",
+   "lat": 13.4106,
+   "lon": 103.8128,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siem Reap International Airport"
+  },
+  {
+   "id": "Q539772",
+   "name": "Phnom Aural",
+   "sl": 29,
+   "file": "Phom Aoral.jpg",
+   "lat": 12.0319,
+   "lon": 104.1706,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q592846",
+   "name": "Ta Prohm",
+   "sl": 26,
+   "file": "Ta Prohm.JPG",
+   "lat": 13.435,
+   "lon": 103.8892,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Ta Prohm"
+  },
+  {
+   "id": "Q601605",
+   "name": "Banteay Kdei",
+   "sl": 25,
+   "file": "Banteay Kdei, Angkor, Camboya, 2013-08-16, DD 10.JPG",
+   "lat": 13.4298,
+   "lon": 103.8983,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Banteay Kdei"
+  },
+  {
+   "id": "Q1092258",
+   "name": "Preah Ko",
+   "sl": 25,
+   "file": "Praeh Ko Markh.jpg",
+   "lat": 13.3439,
+   "lon": 103.9727,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Preah Ko"
+  },
+  {
+   "id": "Q944217",
+   "name": "Preah Khan",
+   "sl": 24,
+   "file": "Preah Khan, Angkor, Camboya, 2013-08-17, DD 26.JPG",
+   "lat": 13.462,
+   "lon": 103.8716,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Preah Khan"
+  },
+  {
+   "id": "Q4930319",
+   "name": "Preah Monivong National Park",
+   "sl": 24,
+   "file": "Crinum asiaticum 1.jpg",
+   "lat": 10.862,
+   "lon": 104.0322,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phnom Bokor National Park"
+  },
+  {
+   "id": "Q2113291",
+   "name": "Sihanouk International Airport",
+   "sl": 24,
+   "file": "Cambodian Sihanouk International Airport.jpg",
+   "lat": 10.58,
+   "lon": 103.6369,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sihanouk International Airport"
+  },
+  {
+   "id": "Q788982",
+   "name": "Bakong",
+   "sl": 23,
+   "file": "Bakong Wiki.jpg",
+   "lat": 13.336,
+   "lon": 103.9741,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bakong"
+  },
+  {
+   "id": "Q789081",
+   "name": "Baksei Chamkrong",
+   "sl": 23,
+   "file": "Baksei Chamkrong 3.jpg",
+   "lat": 13.4252,
+   "lon": 103.8581,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "geographical feature",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Baksei Chamkrong"
+  },
+  {
+   "id": "Q604708",
+   "name": "Banteay Samré",
+   "sl": 23,
+   "file": "Banteay Samre.JPG",
+   "lat": 13.4422,
+   "lon": 103.959,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "geographical feature",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banteay Samré"
+  },
+  {
+   "id": "Q956515",
+   "name": "Phnom Kulen",
+   "sl": 23,
+   "file": "Phnom Kulen8.JPG",
+   "lat": 13.6128,
+   "lon": 104.1125,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phnom Kulen"
+  },
+  {
+   "id": "Q420618",
+   "name": "Royal Palace",
+   "sl": 23,
+   "file": "Le Palais Royal (Phnom Penh) (6997773481).jpg",
+   "lat": 11.5637,
+   "lon": 104.9311,
+   "kind": "built",
+   "types": [
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Palace, Phnom Penh"
+  },
+  {
+   "id": "Q1929750",
+   "name": "National Museum of Cambodia",
+   "sl": 22,
+   "file": "2016 Phnom Penh, Muzeum Narodowe Kambodży (10).jpg",
+   "lat": 11.5653,
+   "lon": 104.9292,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Cambodia"
+  },
+  {
+   "id": "Q430246",
+   "name": "Ta Keo",
+   "sl": 21,
+   "file": "DEN TAKEO.JPG",
+   "lat": 13.4447,
+   "lon": 103.882,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Ta Keo"
+  },
+  {
+   "id": "Q1818101",
+   "name": "Wat Phnom",
+   "sl": 21,
+   "file": "Wat Phnom-Phnom Penh-Cambodia.jpg",
+   "lat": 11.576,
+   "lon": 104.9231,
+   "kind": "built",
+   "types": [
+    "wat"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wat Phnom"
+  },
+  {
+   "id": "Q874573",
+   "name": "Chau Say Tevoda",
+   "sl": 20,
+   "file": "Chao Say Tevoda, Angkor, Camboya, 2013-08-16, DD 01.JPG",
+   "lat": 13.4453,
+   "lon": 103.8778,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Hindu temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Chao Say Tevoda"
+  },
+  {
+   "id": "Q1092265",
+   "name": "Lolei",
+   "sl": 20,
+   "file": "Lolei1.JPG",
+   "lat": 13.3527,
+   "lon": 103.9739,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lolei"
+  },
+  {
+   "id": "Q85786340",
+   "name": "Morodok Techo National Stadium",
+   "sl": 20,
+   "file": "Morodok Techno Stadium in 2021.png",
+   "lat": 11.6829,
+   "lon": 104.8763,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2021522",
+   "name": "Olympic Stadium",
+   "sl": 20,
+   "file": "A football match at the Olympic Stadium, Phnom Penh (Chetra Chap, 2015). (19104466005).jpg",
+   "lat": 11.5584,
+   "lon": 104.9121,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phnom Penh Olympic Stadium"
+  },
+  {
+   "id": "Q584347",
+   "name": "Phimeanakas",
+   "sl": 20,
+   "file": "Phimeanakas, Angkor Thom, Camboya, 2013-08-16, DD 05.jpg",
+   "lat": 13.4457,
+   "lon": 103.856,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Phimeanakas"
+  },
+  {
+   "id": "Q578075",
+   "name": "Phnom Bakheng",
+   "sl": 20,
+   "file": "Phnom Bakheng.jpg",
+   "lat": 13.4238,
+   "lon": 103.856,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Phnom Bakheng"
+  },
+  {
+   "id": "Q597206",
+   "name": "Thommanon",
+   "sl": 20,
+   "file": "Thommanon Temple, Angkor, Cambodia.jpg",
+   "lat": 13.4471,
+   "lon": 103.8774,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Thommanon"
+  },
+  {
+   "id": "Q807293",
+   "name": "Baray",
+   "sl": 19,
+   "file": "WestBaray.jpg",
+   "lat": 13.4342,
+   "lon": 103.8003,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q307181",
+   "name": "East Mebon",
+   "sl": 19,
+   "file": "Eastmebon.jpg",
+   "lat": 13.4465,
+   "lon": 103.92,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Eastern Mebon"
+  },
+  {
+   "id": "Q2556297",
+   "name": "National Library of Cambodia",
+   "sl": 19,
+   "file": "National Library - panoramio (1).jpg",
+   "lat": 11.5766,
+   "lon": 104.9196,
+   "kind": "built",
+   "types": [
+    "library building",
+    "national library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1075826",
+   "name": "Pre Rup",
+   "sl": 19,
+   "file": "Pre Rup, Angkor, Camboya, 2013-08-16, DD 13.JPG",
+   "lat": 13.4355,
+   "lon": 103.9205,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Pre Rup"
+  },
+  {
+   "id": "Q4930573",
+   "name": "Ream National Park",
+   "sl": 19,
+   "file": "Nature of Cambodia. Ream.jpg",
+   "lat": 10.5064,
+   "lon": 103.7344,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ream National Park"
+  },
+  {
+   "id": "Q2235932",
+   "name": "Virachey National Park",
+   "sl": 19,
+   "file": "Veal thom.jpg",
+   "lat": 14.3257,
+   "lon": 106.998,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Virachey National Park"
+  },
+  {
+   "id": "Q817162",
+   "name": "Beng Mealea",
+   "sl": 18,
+   "file": "Beng Mealea ប្រាសាទបឹងមាលា ベンメリア DSCF4686.jpg",
+   "lat": 13.4764,
+   "lon": 104.2383,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "geographical feature"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beng Mealea"
+  },
+  {
+   "id": "Q957050",
+   "name": "Hariharalaya",
+   "sl": 18,
+   "file": "Harihara Musée Guimet 897 1.jpg",
+   "lat": 13.3333,
+   "lon": 103.9667,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1929766",
+   "name": "Kirirom National Park",
+   "sl": 18,
+   "file": "Kirirom National Park.jpg",
+   "lat": 11.3102,
+   "lon": 104.051,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kirirom National Park"
+  },
+  {
+   "id": "Q1066013",
+   "name": "Neak Pean",
+   "sl": 18,
+   "file": "NeakPean.jpg",
+   "lat": 13.4631,
+   "lon": 103.8944,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Neak Pean"
+  },
+  {
+   "id": "Q960387",
+   "name": "Phnom Krom",
+   "sl": 18,
+   "file": "Phnom Krom 006.jpg",
+   "lat": 13.2857,
+   "lon": 103.8122,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "geographical feature",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phnom Krom"
+  },
+  {
+   "id": "Q767080",
+   "name": "Terrace of the Elephants",
+   "sl": 18,
+   "file": "Terraza de los Elefantes, Angkor Thom, Camboya, 2013-08-16, DD 04.jpg",
+   "lat": 13.4458,
+   "lon": 103.8586,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Terrace of the Elephants"
+  },
+  {
+   "id": "Q1092609",
+   "name": "Ta Som",
+   "sl": 17,
+   "file": "Tasomeastgop3east.jpg",
+   "lat": 13.4646,
+   "lon": 103.9128,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Ta Som"
+  },
+  {
+   "id": "Q616520",
+   "name": "Terrace of the Leper King",
+   "sl": 17,
+   "file": "Angkor Thom Terrasse des Lepra-Königs 03.jpg",
+   "lat": 13.4476,
+   "lon": 103.8589,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Terrace of the Leper King"
+  },
+  {
+   "id": "Q1074982",
+   "name": "West Baray",
+   "sl": 17,
+   "file": "Westernbaraygcmarino.jpg",
+   "lat": 13.4342,
+   "lon": 103.8006,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Baray",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Western Baray - Angkor"
+  },
+  {
+   "id": "Q599465",
+   "name": "West Mebon",
+   "sl": 17,
+   "file": "Westmeboneastwall.jpg",
+   "lat": 13.4346,
+   "lon": 103.8001,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "geographical feature",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "West Mebon"
+  },
+  {
+   "id": "Q3055319",
+   "name": "Yak Loum",
+   "sl": 17,
+   "file": "Yak Loum.jpg",
+   "lat": 13.73,
+   "lon": 107.015,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Yeak Laom"
+  },
+  {
+   "id": "Q1075833",
+   "name": "Prasat Kravan",
+   "sl": 16,
+   "file": "Prasat Kravan, Angkor, Camboya, 2013-08-16, DD 05.JPG",
+   "lat": 13.4197,
+   "lon": 103.8996,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Prasat Kravan"
+  },
+  {
+   "id": "Q609935",
+   "name": "Srah Srang",
+   "sl": 16,
+   "file": "Srah Srang.JPG",
+   "lat": 13.431,
+   "lon": 103.9067,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "reservoir"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Srah Srang"
+  },
+  {
+   "id": "Q510882",
+   "name": "Phnom Kulen National Park",
+   "sl": 15,
+   "file": "PhnomKulen.jpg",
+   "lat": 13.6062,
+   "lon": 104.0957,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phnom Kulen National Park"
+  },
+  {
+   "id": "Q106511570",
+   "name": "Siem Reap-Angkor International Airport",
+   "sl": 15,
+   "file": "New Siem Reap-Angkor International Airport 05.jpg",
+   "lat": 13.3692,
+   "lon": 104.2231,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siem Reap-Angkor International Airport"
+  },
+  {
+   "id": "Q2654910",
+   "name": "Yasodharapura",
+   "sl": 15,
+   "file": "ICPhnomBakheng05.jpg",
+   "lat": 13.4125,
+   "lon": 103.8667,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4350416",
+   "name": "Botum Sakor National Park",
+   "sl": 14,
+   "file": "In the branches.jpg",
+   "lat": 11.1155,
+   "lon": 103.2497,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Botum Sakor National Park"
+  },
+  {
+   "id": "Q1377254",
+   "name": "Preah Palilay",
+   "sl": 14,
+   "file": "Preahpalilaymonks okt 2007.jpg",
+   "lat": 13.4457,
+   "lon": 103.856,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Preah Palilay"
+  },
+  {
+   "id": "Q1108673",
+   "name": "Independence Monument, Phnom Penh",
+   "sl": 13,
+   "file": "100 riel 2001 obverse.jpg",
+   "lat": 11.5564,
+   "lon": 104.9281,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Monument (Phnom Penh)"
+  },
+  {
+   "id": "Q1092603",
+   "name": "Kbal Spean",
+   "sl": 13,
+   "file": "KbalSpean.jpg",
+   "lat": 13.6874,
+   "lon": 104.0151,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kbal Spean"
+  },
+  {
+   "id": "Q3396600",
+   "name": "Kizuna bridge",
+   "sl": 13,
+   "file": "Kisona Bridge.jpg",
+   "lat": 11.9853,
+   "lon": 105.4705,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kizuna Bridge"
+  },
+  {
+   "id": "Q281329",
+   "name": "Krol Ko",
+   "sl": 13,
+   "file": "Krol Ko (5984979200).jpg",
+   "lat": 13.4681,
+   "lon": 103.895,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "geographical feature",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Krol Ko"
+  },
+  {
+   "id": "Q4930302",
+   "name": "Phnom Dei",
+   "sl": 13,
+   "file": "Phnom Dei2.JPG",
+   "lat": 13.5958,
+   "lon": 103.9836,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q50635",
+   "name": "Prasat Suor Prat",
+   "sl": 13,
+   "file": "Angkor SiemReap Cambodia Suor-Prat-Towers-01.jpg",
+   "lat": 13.4468,
+   "lon": 103.8604,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Prasat Suor Prat"
+  },
+  {
+   "id": "Q2641555",
+   "name": "Silver Pagoda, Phnom Penh",
+   "sl": 13,
+   "file": "Silver Pagoda, Phnom Penh.jpg",
+   "lat": 11.5625,
+   "lon": 104.9317,
+   "kind": "built",
+   "types": [
+    "pagoda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Silver pagoda, Phnom Penh"
+  },
+  {
+   "id": "Q986338",
+   "name": "Angkor Borei and Phnom Da",
+   "sl": 12,
+   "file": "Cambogia, agni, da angkor borei, VII sec.JPG",
+   "lat": 10.9643,
+   "lon": 104.9888,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phnom Da"
+  },
+  {
+   "id": "Q2112869",
+   "name": "Kampong Chhnang Airport",
+   "sl": 12,
+   "file": "Kchhnang airfield.jpg",
+   "lat": 12.255,
+   "lon": 104.5636,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q834830",
+   "name": "Khleangs",
+   "sl": 12,
+   "file": "North Khleang.JPG",
+   "lat": 13.4469,
+   "lon": 103.86,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Khleang"
+  },
+  {
+   "id": "Q1927205",
+   "name": "Phnom Bok",
+   "sl": 12,
+   "file": "Phnom Bok5.JPG",
+   "lat": 13.4661,
+   "lon": 103.9819,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "geographical feature",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phnom Bok"
+  },
+  {
+   "id": "Q7374763",
+   "name": "Phnom Penh railway station",
+   "sl": 12,
+   "file": "Phnom Penh sta.,phnom penh city,cambodia.JPG",
+   "lat": 11.5725,
+   "lon": 104.9167,
+   "kind": "built",
+   "types": [
+    "dead-end railway station",
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phnom Penh train station"
+  },
+  {
+   "id": "Q1092616",
+   "name": "Spean Thma",
+   "sl": 12,
+   "file": "Speanthmasmall.JPG",
+   "lat": 13.4447,
+   "lon": 103.8775,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "bridge"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Spean Thma"
+  },
+  {
+   "id": "Q389395",
+   "name": "Ak Yum",
+   "sl": 11,
+   "file": "Ak Yum 0009.jpg",
+   "lat": 13.4246,
+   "lon": 103.7767,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "geographical feature"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ak Yum"
+  },
+  {
+   "id": "Q190668",
+   "name": "Central Market",
+   "sl": 11,
+   "file": "PhsarThmei.JPG",
+   "lat": 11.5696,
+   "lon": 104.921,
+   "kind": "built",
+   "types": [
+    "market hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Phsar Thom Thmei"
+  },
+  {
+   "id": "Q4930309",
+   "name": "Kep National Park",
+   "sl": 11,
+   "file": "Kep National Park 6.jpg",
+   "lat": 10.5062,
+   "lon": 104.308,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kep National Park"
+  },
+  {
+   "id": "Q2619460",
+   "name": "Mosque Nur ul-Ihsan",
+   "sl": 11,
+   "file": "Mosque Nur ul-Ihsan.JPG",
+   "lat": 11.6305,
+   "lon": 104.9037,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nur ul-Ihsan Mosque"
+  },
+  {
+   "id": "Q845513",
+   "name": "Preah Khan of Kompong Svay",
+   "sl": 11,
+   "file": "Überreste des zentralen Heiligtums.JPG",
+   "lat": 13.408,
+   "lon": 104.7485,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Preah Khan of Kampong Svay"
+  },
+  {
+   "id": "Q17064236",
+   "name": "Ream Naval Base",
+   "sl": 11,
+   "file": "Cambodia, Sihanoukville Province.jpg",
+   "lat": 10.5072,
+   "lon": 103.6119,
+   "kind": "both",
+   "types": [
+    "naval base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ream Naval Base"
+  },
+  {
+   "id": "Q1015194",
+   "name": "Roluos",
+   "sl": 11,
+   "file": "Roluos (4457989967).jpg",
+   "lat": 13.3419,
+   "lon": 103.9722,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2397751",
+    "name": "Angkor"
+   },
+   "also": [],
+   "cat": "Roluos group"
+  },
+  {
+   "id": "Q1992338",
+   "name": "Spean Praptos",
+   "sl": 11,
+   "file": "Spean Praptos 1.JPG",
+   "lat": 13.1267,
+   "lon": 104.3389,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spean Praptos"
+  }
+ ]
+}

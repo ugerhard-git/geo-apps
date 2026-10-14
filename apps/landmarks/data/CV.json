@@ -1,0 +1,583 @@
+{
+ "country": "CV",
+ "items": [
+  {
+   "id": "Q499108",
+   "name": "Pico do Fogo",
+   "sl": 45,
+   "file": "Pico-94-117-13.jpg",
+   "lat": 14.9493,
+   "lon": -24.3404,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico do Fogo"
+  },
+  {
+   "id": "Q494869",
+   "name": "Barlavento Islands",
+   "sl": 34,
+   "file": "Satellite image of Cape Verde in December 2002.jpg",
+   "lat": 16.5833,
+   "lon": -24.3333,
+   "kind": "natural",
+   "types": [
+    "administrative territorial entity of Cape Verde",
+    "first-level administrative division",
+    "island group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barlavento (Cape Verde)"
+  },
+  {
+   "id": "Q500453",
+   "name": "Sotavento Islands",
+   "sl": 32,
+   "file": "Satellite image of Cape Verde in December 2002.jpg",
+   "lat": 15,
+   "lon": -24,
+   "kind": "natural",
+   "types": [
+    "administrative territorial entity of Cape Verde",
+    "first-level administrative division",
+    "island group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sotavento (Cape Verde)"
+  },
+  {
+   "id": "Q482315",
+   "name": "Amílcar Cabral International Airport",
+   "sl": 31,
+   "file": "GVAC SID.jpg",
+   "lat": 16.7376,
+   "lon": -22.95,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amílcar Cabral International Airport"
+  },
+  {
+   "id": "Q1191196",
+   "name": "Praia International Airport",
+   "sl": 28,
+   "file": "Praia International Airport.jpg",
+   "lat": 14.9411,
+   "lon": -23.4847,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Praia International Airport"
+  },
+  {
+   "id": "Q674514",
+   "name": "Cesária Évora Airport",
+   "sl": 23,
+   "file": "CesariaEvoraInternationaleLufthavn.jpg",
+   "lat": 16.8336,
+   "lon": -25.0547,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cesária Évora Airport"
+  },
+  {
+   "id": "Q1430965",
+   "name": "Aristides Pereira International Airport",
+   "sl": 22,
+   "file": "Aeroporto-Internacional-Aristides-Pereira-Terminal-2012.JPG",
+   "lat": 16.1372,
+   "lon": -22.8886,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rabil Airport"
+  },
+  {
+   "id": "Q1953794",
+   "name": "Preguiça Airport",
+   "sl": 17,
+   "file": "LET-410.jpg",
+   "lat": 16.5881,
+   "lon": -24.2839,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Preguiça Airport"
+  },
+  {
+   "id": "Q543335",
+   "name": "Francisco Mendes International Airport",
+   "sl": 16,
+   "file": "Francisco Mendes Airport.jpg",
+   "lat": 14.9261,
+   "lon": -23.4948,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Francisco Mendes International Airport"
+  },
+  {
+   "id": "Q3136638",
+   "name": "Pico da Antónia",
+   "sl": 16,
+   "file": "Pico da Antonia-Sommet (2).jpg",
+   "lat": 15.05,
+   "lon": -23.625,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico da Antónia"
+  },
+  {
+   "id": "Q2408225",
+   "name": "São Filipe Airport",
+   "sl": 16,
+   "file": "AerodromoSFilipe.JPG",
+   "lat": 14.885,
+   "lon": -24.48,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "São Filipe Airport"
+  },
+  {
+   "id": "Q3073175",
+   "name": "Serra da Malagueta",
+   "sl": 16,
+   "file": "Serra Malagueta CV.jpg",
+   "lat": 15.1792,
+   "lon": -23.6833,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Serra Malagueta"
+  },
+  {
+   "id": "Q17714776",
+   "name": "Estádio Pelé",
+   "sl": 15,
+   "file": "Estádio Nacional de Cabo Verde panorama.jpg",
+   "lat": 14.9757,
+   "lon": -23.5307,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estádio Nacional de Cabo Verde"
+  },
+  {
+   "id": "Q569437",
+   "name": "Estádio da Várzea",
+   "sl": 14,
+   "file": "Estádio da Várzea.jpg",
+   "lat": 14.9161,
+   "lon": -23.5122,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Várzea Stadium"
+  },
+  {
+   "id": "Q1031493",
+   "name": "Tarrafal camp",
+   "sl": 14,
+   "file": "Tarrafal concentration camp (9).jpg",
+   "lat": 15.2642,
+   "lon": -23.7439,
+   "kind": "built",
+   "types": [
+    "concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tarrafal concentration camp"
+  },
+  {
+   "id": "Q636824",
+   "name": "Agostinho Neto Airport",
+   "sl": 12,
+   "file": "Ponta do Sol - 2025 - 02.jpg",
+   "lat": 17.2031,
+   "lon": -25.0909,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santo Antão Airport"
+  },
+  {
+   "id": "Q8962993",
+   "name": "Fort Real de São Filipe",
+   "sl": 11,
+   "file": "CidadeVelha-SaoFelipe2.jpg",
+   "lat": 14.9172,
+   "lon": -23.6019,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q464913",
+    "name": "Cidade Velha"
+   },
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q526591",
+   "name": "Monte Verde, Cape Verde",
+   "sl": 11,
+   "file": "2006.07.04.cv.sv.MonteVerde.JPG",
+   "lat": 16.8708,
+   "lon": -24.9417,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monte Verde"
+  },
+  {
+   "id": "Q10280150",
+   "name": "Farol de D. Maria Pia",
+   "sl": 10,
+   "file": "Farol D. Maria Pia-2.jpg",
+   "lat": 14.9004,
+   "lon": -23.5091,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dona Maria Pia Lighthouse"
+  },
+  {
+   "id": "Q484829",
+   "name": "Monte Estância",
+   "sl": 10,
+   "file": "Monte Estância, Boa Vista.jpg",
+   "lat": 16.0458,
+   "lon": -22.7542,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2686462",
+   "name": "Museu da Tabanka",
+   "sl": 10,
+   "file": "Museu da tabanca, Assomada, Cape verde.jpg",
+   "lat": 15.0964,
+   "lon": -23.667,
+   "kind": "built",
+   "types": [
+    "music museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu da Tabanca"
+  },
+  {
+   "id": "Q3330560",
+   "name": "Museu Etnográfico da Praia",
+   "sl": 10,
+   "file": "Praia-Musée ethnographique (1).jpg",
+   "lat": 14.9209,
+   "lon": -23.5072,
+   "kind": "built",
+   "types": [
+    "ethnographic museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu Etnográfico (Praia)"
+  },
+  {
+   "id": "Q2671287",
+   "name": "Topo da Coroa",
+   "sl": 10,
+   "file": "Santo Antão 294A9888 Topo da Coroa.jpg",
+   "lat": 17.0333,
+   "lon": -25.2958,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3321728",
+   "name": "Monte Cara",
+   "sl": 9,
+   "file": "Mindelo-MontCara2000.jpg",
+   "lat": 16.875,
+   "lon": -25.0375,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monte Cara"
+  },
+  {
+   "id": "Q3322536",
+   "name": "Monte Fontainhas",
+   "sl": 9,
+   "file": "Brava-94-118-32.jpg",
+   "lat": 14.85,
+   "lon": -24.7042,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3322537",
+   "name": "Monte Graciosa",
+   "sl": 9,
+   "file": "Monte Graciosa (9).jpg",
+   "lat": 15.3,
+   "lon": -23.75,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monte Graciosa"
+  },
+  {
+   "id": "Q7228056",
+   "name": "Ponta da Fragata",
+   "sl": 9,
+   "file": "Santa Maria - Costa da Fragata, Kite Surfer.JPG",
+   "lat": 16.65,
+   "lon": -22.8833,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "point"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3580187",
+   "name": "Pro-Cathedral of Our Lady of Grace, Praia",
+   "sl": 9,
+   "file": "Praia-Igreja Nossa Senhora da Graça (4).jpg",
+   "lat": 14.9173,
+   "lon": -23.5086,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Nossa Senhora da Graça (Praia)"
+  },
+  {
+   "id": "Q10280149",
+   "name": "Farol de D. Amélia",
+   "sl": 8,
+   "file": "Farol Dona Amélia.jpg",
+   "lat": 16.8266,
+   "lon": -25.0857,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponta Machado Lighthouse"
+  },
+  {
+   "id": "Q10280152",
+   "name": "Farol de Fontes Pereira de Melo",
+   "sl": 8,
+   "file": "Santa Antao - Kaapverdie.jpg",
+   "lat": 17.1144,
+   "lon": -24.9698,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponta de Tumbo Lighthouse"
+  },
+  {
+   "id": "Q5464130",
+   "name": "Fogo National Park",
+   "sl": 8,
+   "file": "Cape Verde isle of Fogo Park panel.jpg",
+   "lat": 14.9581,
+   "lon": -24.3647,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3322542",
+   "name": "Monte Grande (Sal), Cape Verde",
+   "sl": 8,
+   "file": "Monte Grande, Sal.jpg",
+   "lat": 16.821,
+   "lon": -22.9101,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3361218",
+   "name": "Palácio Presidencial",
+   "sl": 8,
+   "file": "Praia-Palácio Presidencial (1).jpg",
+   "lat": 14.9164,
+   "lon": -23.5092,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidential Palace in Praia"
+  },
+  {
+   "id": "Q7191023",
+   "name": "Pico da Cruz",
+   "sl": 8,
+   "file": "Pico da Cruz en Santo Antao.JPG",
+   "lat": 17.1,
+   "lon": -25.0292,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q23007049",
+   "name": "Porto da Praia",
+   "sl": 8,
+   "file": "Praia Harbor.jpg",
+   "lat": 14.9105,
+   "lon": -23.5052,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Praia"
+  }
+ ]
+}

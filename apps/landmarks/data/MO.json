@@ -1,0 +1,23 @@
+{
+ "country": "MO",
+ "items": [
+  {
+   "id": "Q6961151",
+   "name": "Nam Van Lake",
+   "sl": 10,
+   "file": "Nam Van Lake - Macau.jpg",
+   "lat": 22.1853,
+   "lon": 113.542,
+   "kind": "natural",
+   "types": [
+    "artificial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Nam Van Lake"
+  }
+ ]
+}

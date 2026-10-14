@@ -1,0 +1,660 @@
+{
+ "country": "PY",
+ "items": [
+  {
+   "id": "Q157603",
+   "name": "Pantanal",
+   "sl": 71,
+   "file": "Pantanal, south-central South America 5170.jpg",
+   "lat": -17.4,
+   "lon": -57.5,
+   "kind": "natural",
+   "types": [
+    "flooded grasslands and savannas",
+    "natural heritage",
+    "plain",
+    "savanna"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "BO",
+    "BR"
+   ],
+   "cat": "Pantanal"
+  },
+  {
+   "id": "Q244169",
+   "name": "Itaipu Dam",
+   "sl": 57,
+   "file": "ItaipuAerea2AAL.jpg",
+   "lat": -25.4078,
+   "lon": -54.59,
+   "kind": "both",
+   "types": [
+    "buttress dam",
+    "embankment dam",
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": "Itaipu Dam"
+  },
+  {
+   "id": "Q903521",
+   "name": "Silvio Pettirossi International Airport",
+   "sl": 32,
+   "file": "International Airport Silvio Pettirossi by Felipe Méndez.jpg",
+   "lat": -25.2397,
+   "lon": -57.5192,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Silvio Pettirossi International Airport"
+  },
+  {
+   "id": "Q940892",
+   "name": "Guaíra Falls",
+   "sl": 31,
+   "file": "Salto das Sete Quedas.jpg",
+   "lat": -24.073,
+   "lon": -54.284,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": "Salto de Sete Quedas"
+  },
+  {
+   "id": "Q1366015",
+   "name": "La Santísima Trinidad del Paraná",
+   "sl": 28,
+   "file": "Jesuit Missions of La Santísima Trinidad - panoramio (4).jpg",
+   "lat": -27.132,
+   "lon": -55.702,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural heritage",
+    "Jesuit missions among the Guaraní",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15727363",
+    "name": "Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangüé"
+   },
+   "also": [],
+   "cat": "La Santísima Trinidad de Paraná"
+  },
+  {
+   "id": "Q318338",
+   "name": "Jesús de Tavarangüé",
+   "sl": 27,
+   "file": "J37 730 Jesús de Tavarangüe, colegio.jpg",
+   "lat": -27.056,
+   "lon": -55.753,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural heritage",
+    "Jesuit missions among the Guaraní",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15727363",
+    "name": "Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangüé"
+   },
+   "also": [],
+   "cat": "Misión jesuítica de Jesús de Tavarangüé"
+  },
+  {
+   "id": "Q367297",
+   "name": "Estadio Defensores del Chaco",
+   "sl": 25,
+   "file": "Estadio Defensores del Chaco en 2019.jpg",
+   "lat": -25.2921,
+   "lon": -57.6574,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Defensores del Chaco"
+  },
+  {
+   "id": "Q1140475",
+   "name": "Friendship Bridge",
+   "sl": 25,
+   "file": "Aerial view of Friendship Bridge between Brazil and Paraguay.jpg",
+   "lat": -25.5096,
+   "lon": -54.6011,
+   "kind": "built",
+   "types": [
+    "concrete arch bridge",
+    "deck arch bridge",
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": "Ponte Internacional da Amizade"
+  },
+  {
+   "id": "Q1055965",
+   "name": "Cerro Tres Kandú",
+   "sl": 23,
+   "file": "Cerro Tres Kandu Paraguay.jpg",
+   "lat": -25.9017,
+   "lon": -56.16,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Tres Kandú"
+  },
+  {
+   "id": "Q3298842",
+   "name": "Palacio de López",
+   "sl": 23,
+   "file": "00 3819 Asunción - Paraguay (Südamerika).jpg",
+   "lat": -25.2776,
+   "lon": -57.6376,
+   "kind": "built",
+   "types": [
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palacio de los López"
+  },
+  {
+   "id": "Q1432818",
+   "name": "Yacyretá Dam",
+   "sl": 20,
+   "file": "Central vista externa en gris.jpg",
+   "lat": -27.4828,
+   "lon": -56.7358,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station",
+    "transborder building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "Yacyreta Dam"
+  },
+  {
+   "id": "Q2673205",
+   "name": "Guaraní International Airport",
+   "sl": 19,
+   "file": "IATA AGT Aeropuerto Guaraní by Felipe Méndez.jpg",
+   "lat": -25.4553,
+   "lon": -54.8433,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guaraní International Airport"
+  },
+  {
+   "id": "Q2571350",
+   "name": "Ypacaraí Lake",
+   "sl": 19,
+   "file": "Lago1.jpg",
+   "lat": -25.3,
+   "lon": -57.35,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ypacaraí Lake"
+  },
+  {
+   "id": "Q3646784",
+   "name": "Cerro Cora National Park",
+   "sl": 18,
+   "file": "Image-CerroCora DesdeCerroMuralla.jpg",
+   "lat": -22.6514,
+   "lon": -56.0179,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Cora National Park"
+  },
+  {
+   "id": "Q1369223",
+   "name": "Estadio General Pablo Rojas",
+   "sl": 18,
+   "file": "Laolla.jpg",
+   "lat": -25.3,
+   "lon": -57.6375,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio General Pablo Rojas"
+  },
+  {
+   "id": "Q1369069",
+   "name": "Estadio Antonio Oddone Sarubbi",
+   "sl": 15,
+   "file": "3 de febrero.jpg",
+   "lat": -25.5269,
+   "lon": -54.6119,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Antonio Aranda"
+  },
+  {
+   "id": "Q23890126",
+   "name": "Metropolitan Cathedral of Our Lady of the Assumption, Asunción",
+   "sl": 14,
+   "file": "Catedral de Asunción Paraguay.jpg",
+   "lat": -25.2816,
+   "lon": -57.6324,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Asunción"
+  },
+  {
+   "id": "Q31133",
+   "name": "Nacunday National Park",
+   "sl": 14,
+   "file": "Panoramico de Ñacunday.png",
+   "lat": -26.0486,
+   "lon": -54.6708,
+   "kind": "natural",
+   "types": [
+    "national park of Paraguay"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ñacunday National Park"
+  },
+  {
+   "id": "Q654084",
+   "name": "San Roque González de Santa Cruz Bridge",
+   "sl": 14,
+   "file": "Puente-san-roque-gonzales-2.JPG",
+   "lat": -27.3731,
+   "lon": -55.8719,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "railway bridge",
+    "road bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AR"
+   ],
+   "cat": "San Roque González de Santa Cruz Bridge"
+  },
+  {
+   "id": "Q1369355",
+   "name": "Estadio Ueno Osvaldo Domínguez Dibb",
+   "sl": 13,
+   "file": "Olimpiastadium.jpg",
+   "lat": -25.2914,
+   "lon": -57.6086,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Manuel Ferreira"
+  },
+  {
+   "id": "Q3500546",
+   "name": "National Pantheon of the Heroes",
+   "sl": 13,
+   "file": "ASUNCION PANTEON NACIONAL DE LOS HÉROES.jpg",
+   "lat": -25.2822,
+   "lon": -57.6352,
+   "kind": "built",
+   "types": [
+    "church building",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Panteón Nacional de los Héroes"
+  },
+  {
+   "id": "Q1369203",
+   "name": "Estadio Feliciano Cáceres",
+   "sl": 12,
+   "file": "Estadio Feliciano Cáceres Luque.jpg",
+   "lat": -25.2722,
+   "lon": -57.4931,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Feliciano Cáceres"
+  },
+  {
+   "id": "Q1369179",
+   "name": "Estadio Dr. Nicolás Léoz",
+   "sl": 11,
+   "file": "Club Libertad.jpg",
+   "lat": -25.2778,
+   "lon": -57.611,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5758574",
+   "name": "St. Lawrence Cathedral, San Lorenzo",
+   "sl": 11,
+   "file": "Catedral de San Lorenzo - Paraguay.JPG",
+   "lat": -25.3419,
+   "lon": -57.5083,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de San Lorenzo (Paraguay)"
+  },
+  {
+   "id": "Q20007903",
+   "name": "Cathedral Basilica of Our Lady of Miracles, Caacupé",
+   "sl": 10,
+   "file": "Caacupe.JPG",
+   "lat": -25.386,
+   "lon": -57.141,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Caacupé"
+  },
+  {
+   "id": "Q6319285",
+   "name": "Museo Nacional de Bellas Artes de Asunción",
+   "sl": 10,
+   "file": "S3010099.JPG",
+   "lat": -25.2887,
+   "lon": -57.6212,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo Nacional de Bellas Artes (Paraguay)"
+  },
+  {
+   "id": "Q3433454",
+   "name": "Acaray Dam",
+   "sl": 9,
+   "file": "Presa Acaray Paraguay.jpg",
+   "lat": -25.4594,
+   "lon": -54.6292,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Acaray Dam"
+  },
+  {
+   "id": "Q3300187",
+   "name": "Casa de la Independencia Museum",
+   "sl": 9,
+   "file": "Casa de la Independencia museum, Asunción.jpg",
+   "lat": -25.2806,
+   "lon": -57.6362,
+   "kind": "built",
+   "types": [
+    "historic house museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casa de la Independencia, Asunción"
+  },
+  {
+   "id": "Q1655907",
+   "name": "Dr. Luis María Argaña International Airport",
+   "sl": 9,
+   "file": "Airport hall at Mariscal Estigarribia 1.jpg",
+   "lat": -22.045,
+   "lon": -60.6217,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3536562",
+   "name": "Carlos Miguel Jiménez Airport",
+   "sl": 8,
+   "file": "Silvio Pettirossi International Airport.jpg",
+   "lat": -26.8815,
+   "lon": -58.318,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q685185",
+   "name": "Estadio Arsenio Erico",
+   "sl": 8,
+   "file": "Preferencias Estadio Arsenio Erico.jpg",
+   "lat": -25.2984,
+   "lon": -57.6398,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Arsenio Erico"
+  },
+  {
+   "id": "Q679135",
+   "name": "Estadio Luis Alfonso Giagni",
+   "sl": 8,
+   "file": "Estadio Sol De America.jpg",
+   "lat": -25.3676,
+   "lon": -57.5849,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Luis Alfonso Giagni"
+  },
+  {
+   "id": "Q555437",
+   "name": "Juan de Ayolas Airport",
+   "sl": 8,
+   "file": "AYO pic.jpg",
+   "lat": -27.3706,
+   "lon": -56.8539,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3752132",
+   "name": "Lago Ypoa",
+   "sl": 8,
+   "file": "Lago Ypoa.jpg",
+   "lat": -25.9114,
+   "lon": -57.4289,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago Ypoa"
+  },
+  {
+   "id": "Q2985933",
+   "name": "Laguna Blanca",
+   "sl": 8,
+   "file": "Amanecer en laguna blanca largo.png",
+   "lat": -23.8133,
+   "lon": -56.295,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Blanca"
+  },
+  {
+   "id": "Q1122614",
+   "name": "Mburuvicha Róga",
+   "sl": 8,
+   "file": "Mburuvicha Róga Asunción Paraguay.jpg",
+   "lat": -25.2931,
+   "lon": -57.6011,
+   "kind": "built",
+   "types": [
+    "house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q880046",
+   "name": "Saltos del Monday",
+   "sl": 8,
+   "file": "Saltos del Monday111.JPG",
+   "lat": -25.5619,
+   "lon": -54.6314,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saltos del Monday"
+  },
+  {
+   "id": "Q5659088",
+   "name": "Teniente Ramon A. Ayub Gonzalez Airport",
+   "sl": 8,
+   "file": "Pista de aterrizaje Aeropuerto Encarnación.jpg",
+   "lat": -27.222,
+   "lon": -55.835,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

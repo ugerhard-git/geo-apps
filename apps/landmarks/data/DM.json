@@ -1,0 +1,205 @@
+{
+ "country": "DM",
+ "items": [
+  {
+   "id": "Q629436",
+   "name": "Morne Trois Pitons National Park",
+   "sl": 36,
+   "file": "Valley of desolation.jpg",
+   "lat": 15.2667,
+   "lon": -61.2833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Morne Trois Pitons National Park"
+  },
+  {
+   "id": "Q1638549",
+   "name": "Morne Diablotins",
+   "sl": 28,
+   "file": "Morne Diablotins.jpg",
+   "lat": 15.5033,
+   "lon": -61.3972,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Morne Diablotins"
+  },
+  {
+   "id": "Q891027",
+   "name": "Boiling Lake",
+   "sl": 24,
+   "file": "Dominica boiling lake.jpg",
+   "lat": 15.3183,
+   "lon": -61.2942,
+   "kind": "natural",
+   "types": [
+    "fumarole"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q652545",
+   "name": "Douglas–Charles Airport",
+   "sl": 23,
+   "file": "Melville Hall Airport.jpg",
+   "lat": 15.5469,
+   "lon": -61.3,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Douglas–Charles Airport"
+  },
+  {
+   "id": "Q1033097",
+   "name": "Canefield Airport",
+   "sl": 17,
+   "file": "CanefieldTDCF.jpg",
+   "lat": 15.3367,
+   "lon": -61.3922,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canefield Airport"
+  },
+  {
+   "id": "Q1535776",
+   "name": "Morne Watt",
+   "sl": 15,
+   "file": "Morne Watt.jpg",
+   "lat": 15.307,
+   "lon": -61.305,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1354676",
+   "name": "Windsor Park",
+   "sl": 14,
+   "file": "Windsor Park Roseau Dominica.JPG",
+   "lat": 15.3019,
+   "lon": -61.3842,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3503868",
+   "name": "Scotts Head",
+   "sl": 13,
+   "file": "Dominica Coastline (40085007133).jpg",
+   "lat": 15.2125,
+   "lon": -61.3667,
+   "kind": "natural",
+   "types": [
+    "human settlement",
+    "point"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Scotts Head, Dominica"
+  },
+  {
+   "id": "Q12771972",
+   "name": "Morne aux Diables",
+   "sl": 9,
+   "file": "Morne aux Diables.jpg",
+   "lat": 15.6125,
+   "lon": -61.436,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q13388092",
+   "name": "Morne Plat Pays",
+   "sl": 9,
+   "file": "Morne Plat Pays.jpg",
+   "lat": 15.2495,
+   "lon": -61.3465,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5015852",
+   "name": "Cabrits National Park",
+   "sl": 8,
+   "file": "Tanetane-Dominica.jpg",
+   "lat": 15.586,
+   "lon": -61.473,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabrits National Park"
+  },
+  {
+   "id": "Q3324201",
+   "name": "Morne Trois Pitons",
+   "sl": 8,
+   "file": "Freshwater lake at Morne Trois Pitons National Park.jpg",
+   "lat": 15.3712,
+   "lon": -61.3277,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

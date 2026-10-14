@@ -1,0 +1,1322 @@
+{
+ "country": "GT",
+ "items": [
+  {
+   "id": "Q181172",
+   "name": "Tikal",
+   "sl": 75,
+   "file": "Tikal 3.jpg",
+   "lat": 17.2221,
+   "lon": -89.6236,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6063031",
+    "name": "Tikal National Park"
+   },
+   "also": [],
+   "cat": "Tikal"
+  },
+  {
+   "id": "Q318422",
+   "name": "Quiriguá",
+   "sl": 51,
+   "file": "Escultura de Quiriguá.jpg",
+   "lat": 15.2694,
+   "lon": -89.0403,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Quirigua"
+  },
+  {
+   "id": "Q859376",
+   "name": "Volcán de Fuego",
+   "sl": 49,
+   "file": "Volcán de Fuego and Acatenango.jpg",
+   "lat": 14.4747,
+   "lon": -90.8808,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcán de Fuego"
+  },
+  {
+   "id": "Q273276",
+   "name": "Lago de Atitlán",
+   "sl": 41,
+   "file": "Lago de Atitlan seen from orbit.jpg",
+   "lat": 14.7,
+   "lon": -91.2,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Atitlán"
+  },
+  {
+   "id": "Q818467",
+   "name": "Volcán Tajumulco",
+   "sl": 38,
+   "file": "Tajumulco volcano 01.jpg",
+   "lat": 15.0333,
+   "lon": -91.9,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tajumulco"
+  },
+  {
+   "id": "Q204657",
+   "name": "Santa María",
+   "sl": 37,
+   "file": "Santiaguito from Santamaria.jpg",
+   "lat": 14.7558,
+   "lon": -91.5519,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa María Volcano"
+  },
+  {
+   "id": "Q753924",
+   "name": "Pacaya",
+   "sl": 36,
+   "file": "Pacaya erupting in 1976.jpg",
+   "lat": 14.3808,
+   "lon": -90.6011,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pacaya"
+  },
+  {
+   "id": "Q138637",
+   "name": "Lake Izabal",
+   "sl": 35,
+   "file": "Festung am Lago Izabal,Guatemala.JPG",
+   "lat": 15.5,
+   "lon": -89.1667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago de Izabal"
+  },
+  {
+   "id": "Q1509537",
+   "name": "Takalik Abaj",
+   "sl": 33,
+   "file": "ESTRUCTURA 12 MUSEO AL AIRE LIBRE FACHADA OESTE - TAKALIK ABAJ.png",
+   "lat": 14.6458,
+   "lon": -91.7361,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "national park of Guatemala"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Takalik Abaj"
+  },
+  {
+   "id": "Q338192",
+   "name": "Acatenango",
+   "sl": 31,
+   "file": "Volcan de Fuego y Acatenango.jpg",
+   "lat": 14.5008,
+   "lon": -90.8758,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Acatenango"
+  },
+  {
+   "id": "Q1752870",
+   "name": "Volcán Tacaná",
+   "sl": 31,
+   "file": "Volcal-tucan.jpg",
+   "lat": 15.1334,
+   "lon": -92.1058,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcán Tacaná"
+  },
+  {
+   "id": "Q765608",
+   "name": "La Aurora International Airport",
+   "sl": 29,
+   "file": "707landingAurora.jpeg",
+   "lat": 14.5833,
+   "lon": -90.5275,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Aurora International Airport"
+  },
+  {
+   "id": "Q1327687",
+   "name": "Volcán de Agua",
+   "sl": 29,
+   "file": "VolcanAguaPascuas.jpg",
+   "lat": 14.465,
+   "lon": -90.7428,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcán de Agua"
+  },
+  {
+   "id": "Q504904",
+   "name": "El Mirador",
+   "sl": 28,
+   "file": "Elmiradortigre.jpg",
+   "lat": 17.7551,
+   "lon": -89.9204,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Mirador"
+  },
+  {
+   "id": "Q1347461",
+   "name": "Lake Petén Itzá",
+   "sl": 27,
+   "file": "Lake Peten Itza NASA.jpg",
+   "lat": 16.9833,
+   "lon": -89.8,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago Petén Itzá"
+  },
+  {
+   "id": "Q977738",
+   "name": "Uaxactún",
+   "sl": 27,
+   "file": "Uaxactun2.jpg",
+   "lat": 17.3936,
+   "lon": -89.6345,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uaxactun"
+  },
+  {
+   "id": "Q377571",
+   "name": "Volcán Atitlán",
+   "sl": 27,
+   "file": "Atitlan-desde-toliman.jpg",
+   "lat": 14.5833,
+   "lon": -91.1861,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcán Atitlán"
+  },
+  {
+   "id": "Q2031261",
+   "name": "Piedras Negras",
+   "sl": 23,
+   "file": "Piedrasnegrastrono.jpg",
+   "lat": 17.1667,
+   "lon": -91.2625,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piedras Negras, Maya site"
+  },
+  {
+   "id": "Q909286",
+   "name": "Dos Pilas",
+   "sl": 22,
+   "file": "Dos Pilas 1.jpg",
+   "lat": 16.4458,
+   "lon": -90.2958,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dos Pilas"
+  },
+  {
+   "id": "Q2048161",
+   "name": "Dulce River",
+   "sl": 22,
+   "file": "Rio Dulce Guatemala02.jpg",
+   "lat": 15.7475,
+   "lon": -88.8722,
+   "kind": "natural",
+   "types": [
+    "national park of Guatemala",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Río Dulce"
+  },
+  {
+   "id": "Q263509",
+   "name": "Iximche",
+   "sl": 22,
+   "file": "Iximché.JPG",
+   "lat": 14.7358,
+   "lon": -90.9962,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iximche"
+  },
+  {
+   "id": "Q258397",
+   "name": "Lake Amatitlán",
+   "sl": 22,
+   "file": "Pacaya-09.JPG",
+   "lat": 14.4527,
+   "lon": -90.5659,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago de Amatitlán"
+  },
+  {
+   "id": "Q1880965",
+   "name": "Volcán Tolimán",
+   "sl": 22,
+   "file": "Toliman Volcano.jpg",
+   "lat": 14.6125,
+   "lon": -91.1892,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcán Tolimán"
+  },
+  {
+   "id": "Q1081581",
+   "name": "Kaminaljuyu",
+   "sl": 21,
+   "file": "Kaminaljuyu 11.jpg",
+   "lat": 14.6328,
+   "lon": -90.5491,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaminaljuyu"
+  },
+  {
+   "id": "Q2121220",
+   "name": "Quiché' Kingdom of Q'umarkaj",
+   "sl": 21,
+   "file": "Utatlan1.jpg",
+   "lat": 15.0233,
+   "lon": -91.1719,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historical country"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Q'umarkaj"
+  },
+  {
+   "id": "Q398094",
+   "name": "Aguateca",
+   "sl": 20,
+   "file": "Aguateca-plaza.jpg",
+   "lat": 16.4119,
+   "lon": -90.1883,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aguateca"
+  },
+  {
+   "id": "Q652792",
+   "name": "Mixco Viejo",
+   "sl": 20,
+   "file": "Mixco Viejo 1.JPG",
+   "lat": 14.8717,
+   "lon": -90.6642,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mixco Viejo"
+  },
+  {
+   "id": "Q589550",
+   "name": "Mundo Maya International Airport",
+   "sl": 20,
+   "file": "Aeropuerto Internacional Mundo Maya - Guatemala 3.jpg",
+   "lat": 16.9138,
+   "lon": -89.8664,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mundo Maya International Airport"
+  },
+  {
+   "id": "Q1964016",
+   "name": "Nakbe",
+   "sl": 20,
+   "file": "Nakbe str.JPG",
+   "lat": 17.6775,
+   "lon": -89.8686,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nakbe"
+  },
+  {
+   "id": "Q1575468",
+   "name": "Volcán San Pedro",
+   "sl": 20,
+   "file": "Atitlan-Volcan-San-Pedro.jpg",
+   "lat": 14.6558,
+   "lon": -91.2658,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcán San Pedro"
+  },
+  {
+   "id": "Q139979",
+   "name": "Zaculeu",
+   "sl": 20,
+   "file": "Zaculeu Temple House 1979.jpg",
+   "lat": 15.3338,
+   "lon": -91.4927,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zaculeu"
+  },
+  {
+   "id": "Q1811849",
+   "name": "Almolonga",
+   "sl": 19,
+   "file": "Almolonga.jpg",
+   "lat": 14.7965,
+   "lon": -91.5187,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1809388",
+   "name": "Chingo",
+   "sl": 19,
+   "file": "Chingo volcano.jpg",
+   "lat": 14.1181,
+   "lon": -89.7264,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SV"
+   ],
+   "cat": "Chingo"
+  },
+  {
+   "id": "Q2164403",
+   "name": "Petén Basin",
+   "sl": 19,
+   "file": "Nakbe str.JPG",
+   "lat": 16.9,
+   "lon": -89.9,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1540906",
+   "name": "Yaxha",
+   "sl": 19,
+   "file": "Yaxhatemplo216.jpg",
+   "lat": 17.0722,
+   "lon": -89.4,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yaxha"
+  },
+  {
+   "id": "Q2591884",
+   "name": "Cancuén",
+   "sl": 18,
+   "file": "Cancuenpanel3.jpg",
+   "lat": 16.0142,
+   "lon": -90.039,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cancuén"
+  },
+  {
+   "id": "Q582585",
+   "name": "Estadio Doroteo Guamuch Flores",
+   "sl": 18,
+   "file": "Estadio Mateo Flores Guatemala.JPG",
+   "lat": 14.6258,
+   "lon": -90.5105,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Nacional Mateo Flores"
+  },
+  {
+   "id": "Q2662467",
+   "name": "Naranjo",
+   "sl": 17,
+   "file": "Sitio el naranjo 1.jpg",
+   "lat": 17.1336,
+   "lon": -89.2622,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naranjo"
+  },
+  {
+   "id": "Q1534212",
+   "name": "Seibal",
+   "sl": 17,
+   "file": "Dos Pilas Stela 16 detail.jpg",
+   "lat": 16.5117,
+   "lon": -90.0611,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Seibal"
+  },
+  {
+   "id": "Q2661998",
+   "name": "Tecuamburro",
+   "sl": 17,
+   "file": "Tecuamburro.jpg",
+   "lat": 14.1561,
+   "lon": -90.4069,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tecuamburro"
+  },
+  {
+   "id": "Q1800414",
+   "name": "Lake Güija",
+   "sl": 16,
+   "file": "San Diego volcano.jpg",
+   "lat": 14.2667,
+   "lon": -89.5167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SV"
+   ],
+   "cat": "Lake Güija"
+  },
+  {
+   "id": "Q1573483",
+   "name": "Maya Biosphere Reserve",
+   "sl": 16,
+   "file": "Elmiradortigre.jpg",
+   "lat": 17.49,
+   "lon": -89.09,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maya Biosphere Reserve"
+  },
+  {
+   "id": "Q795599",
+   "name": "San Bartolo",
+   "sl": 16,
+   "file": "SBmural.jpg",
+   "lat": 17.5517,
+   "lon": -89.4089,
+   "kind": "built",
+   "types": [
+    "Maya site in Guatemala"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Bartolo (Maya site)"
+  },
+  {
+   "id": "Q3116749",
+   "name": "Volcán Ipala",
+   "sl": 16,
+   "file": "Ipala.jpg",
+   "lat": 14.55,
+   "lon": -89.63,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q532534",
+   "name": "El Perú",
+   "sl": 15,
+   "file": "Waka altar.jpg",
+   "lat": 17.2783,
+   "lon": -90.3806,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Maya site in Guatemala"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Peru (Maya site)"
+  },
+  {
+   "id": "Q3308988",
+   "name": "Laguna Lachuá",
+   "sl": 15,
+   "file": "Lagunalachuà.JPG",
+   "lat": 15.9167,
+   "lon": -90.6667,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "national park of Guatemala"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Lachua"
+  },
+  {
+   "id": "Q2661993",
+   "name": "Moyuta",
+   "sl": 15,
+   "file": "Moyuta.jpg",
+   "lat": 14.03,
+   "lon": -90.1,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2985049",
+   "name": "Naj Tunich",
+   "sl": 15,
+   "file": "Najtunich p20.png",
+   "lat": 16.2756,
+   "lon": -89.2756,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naj Tunich"
+  },
+  {
+   "id": "Q388238",
+   "name": "Nakum",
+   "sl": 15,
+   "file": "Parque Yaxha Nakum Naranjo Templo Guatemala 01.jpg",
+   "lat": 17.18,
+   "lon": -89.36,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nakum"
+  },
+  {
+   "id": "Q973897",
+   "name": "Petexbatún",
+   "sl": 15,
+   "file": "Rio Petexbatun.JPG",
+   "lat": 16.4324,
+   "lon": -90.1873,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Petexbatún"
+  },
+  {
+   "id": "Q1324484",
+   "name": "El Pilar",
+   "sl": 14,
+   "file": "Tzunuun El Pilar.jpg",
+   "lat": 17.2482,
+   "lon": -89.1506,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Maya site in Belize",
+    "Maya site in Guatemala",
+    "transboundary protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BZ"
+   ],
+   "cat": "El Pilar"
+  },
+  {
+   "id": "Q3182080",
+   "name": "Lake Ipala",
+   "sl": 14,
+   "file": "Laguna de Ipala en Guatemala.jpg",
+   "lat": 14.5556,
+   "lon": -89.6389,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna de Ipala"
+  },
+  {
+   "id": "Q2717819",
+   "name": "Machaquila",
+   "sl": 14,
+   "file": "Machaquilast3.jpg",
+   "lat": 16.32,
+   "lon": -89.86,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Machaquilá"
+  },
+  {
+   "id": "Q1773722",
+   "name": "Motul de San José",
+   "sl": 14,
+   "file": "Yaxchilan Lintel 15.jpg",
+   "lat": 17.0264,
+   "lon": -89.9014,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Motul de San José"
+  },
+  {
+   "id": "Q1753887",
+   "name": "Torre del Reformador",
+   "sl": 14,
+   "file": "LaTorreDelReformador2.jpg",
+   "lat": 14.613,
+   "lon": -90.5168,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torre del Reformador, Guatemala"
+  },
+  {
+   "id": "Q672368",
+   "name": "Castillo de San Felipe de Lara",
+   "sl": 13,
+   "file": "Castillo de San Felipe de Lara in Guatemala 01.jpg",
+   "lat": 15.6374,
+   "lon": -88.9934,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castillo de San Felipe de Lara"
+  },
+  {
+   "id": "Q1410761",
+   "name": "Ixkun",
+   "sl": 13,
+   "file": "Ixkun 1.jpg",
+   "lat": 16.5736,
+   "lon": -89.4111,
+   "kind": "built",
+   "types": [
+    "Maya site in Guatemala"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ixkun"
+  },
+  {
+   "id": "Q3495535",
+   "name": "Puerto Barrios Airport",
+   "sl": 13,
+   "file": "Aeropuerto Puerto Barrios.jpg",
+   "lat": 15.7308,
+   "lon": -88.5839,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puerto Barrios Airport"
+  },
+  {
+   "id": "Q1850670",
+   "name": "Semuc Champey",
+   "sl": 13,
+   "file": "Semuc Champey natural wonder.jpg",
+   "lat": 15.5333,
+   "lon": -89.9611,
+   "kind": "natural",
+   "types": [
+    "HDD Jesenice",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Semuc Champey"
+  },
+  {
+   "id": "Q2185890",
+   "name": "Tikal Temple I",
+   "sl": 13,
+   "file": "Tikal Temple1 2006 08 11.JPG",
+   "lat": 17.2221,
+   "lon": -89.6231,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Mesoamerican pyramid",
+    "temple"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6063031",
+    "name": "Tikal National Park"
+   },
+   "also": [],
+   "cat": "Tikal Temple I"
+  },
+  {
+   "id": "Q2303546",
+   "name": "Altar de Sacrificios",
+   "sl": 12,
+   "file": "Image of Altar de Sacrificios,GroupA,Late Pasion Phase.jpg",
+   "lat": 16.467,
+   "lon": -90.533,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Altar de Sacrificios"
+  },
+  {
+   "id": "Q2942341",
+   "name": "Cathedral of Guatemala City",
+   "sl": 12,
+   "file": "CatedralGuatemala.jpg",
+   "lat": 14.6417,
+   "lon": -90.512,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Guatemala"
+  },
+  {
+   "id": "Q2885449",
+   "name": "Chixoy Hydroelectric Dam",
+   "sl": 12,
+   "file": "Planta Hidroeléctrica Chixoy.jpg",
+   "lat": 15.2815,
+   "lon": -90.491,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Planta Hidroeléctrica Chixoy"
+  },
+  {
+   "id": "Q1323914",
+   "name": "El Baúl",
+   "sl": 12,
+   "file": "El Baúl 1.jpg",
+   "lat": 14.3583,
+   "lon": -91.0222,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Baúl"
+  },
+  {
+   "id": "Q3394893",
+   "name": "Laguna Chicabal",
+   "sl": 12,
+   "file": "Laguna Chicabal2.jpg",
+   "lat": 14.7833,
+   "lon": -91.6667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna Chicabal"
+  },
+  {
+   "id": "Q3116485",
+   "name": "Tahual",
+   "sl": 12,
+   "file": "Tahual.jpg",
+   "lat": 14.43,
+   "lon": -89.9,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q574467",
+   "name": "Cerro Santiago",
+   "sl": 11,
+   "file": "Culma volcano.jpg",
+   "lat": 14.3436,
+   "lon": -89.8767,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cerro Santiago Volcanic Field"
+  },
+  {
+   "id": "Q1656846",
+   "name": "Cobán Airport",
+   "sl": 11,
+   "file": "Cobán Airport - Guatemala.jpg",
+   "lat": 15.4689,
+   "lon": -90.4067,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3721023",
+   "name": "El Tintal",
+   "sl": 11,
+   "file": "El Tintal 1.jpg",
+   "lat": 17.5744,
+   "lon": -89.9958,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Tintal"
+  },
+  {
+   "id": "Q1426042",
+   "name": "La Corona",
+   "sl": 11,
+   "file": "La Corona Relieve Juego de Pelota.jpg",
+   "lat": 17.5197,
+   "lon": -90.3722,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Corona (Maya site)"
+  },
+  {
+   "id": "Q2818981",
+   "name": "Quetzaltenango Airport",
+   "sl": 11,
+   "file": "Quetzaltenango Airport in Guatemala.jpg",
+   "lat": 14.8656,
+   "lon": -91.5019,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15063939",
+   "name": "Qʼumarkaj",
+   "sl": 11,
+   "file": "Utatlan2.jpg",
+   "lat": 15.0235,
+   "lon": -91.172,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Q'umarkaj"
+  },
+  {
+   "id": "Q976725",
+   "name": "Retalhuleu Airport",
+   "sl": 11,
+   "file": "MGRT - RER Aircrafts on ground.jpg",
+   "lat": 14.5211,
+   "lon": -91.6972,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3065113",
+   "name": "Suchitan",
+   "sl": 11,
+   "file": "Suchitán.jpg",
+   "lat": 14.3333,
+   "lon": -89.78,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1646028",
+   "name": "Tamarindito",
+   "sl": 11,
+   "file": "Estela 3 de Tamarindito.jpg",
+   "lat": 16.45,
+   "lon": -90.23,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tamarindito"
+  },
+  {
+   "id": "Q4515807",
+   "name": "Chicabal",
+   "sl": 10,
+   "file": "Volcan y laguna chicabal.jpg",
+   "lat": 14.7833,
+   "lon": -91.6667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2982342",
+   "name": "El Golfete",
+   "sl": 10,
+   "file": "Las fotos de paco 093.jpg",
+   "lat": 15.7644,
+   "lon": -88.8694,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5730441",
+   "name": "Laguna de Ayarza",
+   "sl": 10,
+   "file": "Lago de Ayarza,Ayarza,Santa Rosa, Guatemala. - panoramio.jpg",
+   "lat": 14.4167,
+   "lon": -90.1167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laguna de Ayarza"
+  },
+  {
+   "id": "Q14474061",
+   "name": "Puerto Quetzal",
+   "sl": 10,
+   "file": "Puerto Quetzal and Volcano Fuego.jpg",
+   "lat": 13.9206,
+   "lon": -90.7878,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puerto Quetzal"
+  },
+  {
+   "id": "Q6063031",
+   "name": "Tikal National Park",
+   "sl": 10,
+   "file": "Parque Tikal Guatemala 2019.jpg",
+   "lat": 17.2167,
+   "lon": -89.6167,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Guatemala"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tikal National Park"
+  }
+ ]
+}

@@ -1,0 +1,387 @@
+{
+ "country": "HN",
+ "items": [
+  {
+   "id": "Q214827",
+   "name": "Copán",
+   "sl": 56,
+   "file": "Copán Stela B.jpg",
+   "lat": 14.838,
+   "lon": -89.1424,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Copán"
+  },
+  {
+   "id": "Q752181",
+   "name": "Río Plátano Biosphere Reserve",
+   "sl": 46,
+   "file": "Rio platano.jpg",
+   "lat": 15.25,
+   "lon": -84.73,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "nature reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Río Plátano Biosphere Reserve"
+  },
+  {
+   "id": "Q1305720",
+   "name": "Lake Yojoa",
+   "sl": 28,
+   "file": "Lago Yojoa.jpg",
+   "lat": 14.8772,
+   "lon": -87.9806,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago de Yojoa"
+  },
+  {
+   "id": "Q1024890",
+   "name": "Cabo Gracias a Dios",
+   "sl": 24,
+   "file": "Cape Gracias a Dios.jpg",
+   "lat": 15.0065,
+   "lon": -83.1301,
+   "kind": "natural",
+   "types": [
+    "landform",
+    "peninsula"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cabo Gracias a Dios"
+  },
+  {
+   "id": "Q1055875",
+   "name": "Cerro Las Minas",
+   "sl": 23,
+   "file": "Celaque.JPG",
+   "lat": 14.5342,
+   "lon": -88.68,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q930733",
+   "name": "Toncontín International Airport",
+   "sl": 23,
+   "file": "ToncontinTerminal.jpg",
+   "lat": 14.0611,
+   "lon": -87.2176,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toncontín International Airport"
+  },
+  {
+   "id": "Q2308399",
+   "name": "Ramón Villeda Morales International Airport",
+   "sl": 22,
+   "file": "Honduras-0051 - San Pedro Sula Airport (2213586595).jpg",
+   "lat": 15.4534,
+   "lon": -87.9238,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ramón Villeda Morales International Airport"
+  },
+  {
+   "id": "Q624535",
+   "name": "Cayos Cochinos",
+   "sl": 16,
+   "file": "Cayos Cochinos Lighthouse view.jpg",
+   "lat": 15.9736,
+   "lon": -86.4785,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cayos Cochinos"
+  },
+  {
+   "id": "Q555952",
+   "name": "Juan Manuel Gálvez International Airport",
+   "sl": 16,
+   "file": "Roatan International Airport.jpg",
+   "lat": 16.3173,
+   "lon": -86.5264,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juan Manuel Gálvez International Airport"
+  },
+  {
+   "id": "Q2231517",
+   "name": "Golosón International Airport",
+   "sl": 15,
+   "file": "Goloson Airport Honduras aerial 1987.JPEG",
+   "lat": 15.7434,
+   "lon": -86.8574,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Golosón International Airport"
+  },
+  {
+   "id": "Q5057521",
+   "name": "Celaque National Park",
+   "sl": 14,
+   "file": "Vista de Celaque desde Talgua (Noroeste).JPG",
+   "lat": 14.5356,
+   "lon": -88.7072,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Celaque National Park"
+  },
+  {
+   "id": "Q1369538",
+   "name": "Estadio Olímpico Metropolitano",
+   "sl": 14,
+   "file": "Aficion.jpg",
+   "lat": 15.4701,
+   "lon": -88.0068,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Olímpico Metropolitano"
+  },
+  {
+   "id": "Q619348",
+   "name": "Estadio General Francisco Morazán",
+   "sl": 13,
+   "file": "Morazan Stadium Platense Olimpia 2015.jpg",
+   "lat": 15.5075,
+   "lon": -88.0334,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Francisco Morazán"
+  },
+  {
+   "id": "Q6465411",
+   "name": "La Tigra National Park",
+   "sl": 13,
+   "file": "SanJuancito2010.jpg",
+   "lat": 14.1848,
+   "lon": -87.0519,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Tigra National Park"
+  },
+  {
+   "id": "Q1242251",
+   "name": "El Cajón Dam",
+   "sl": 12,
+   "file": "El Cajon Dam Honduras.jpg",
+   "lat": 15.0333,
+   "lon": -87.75,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Cajón Dam (Honduras)"
+  },
+  {
+   "id": "Q1685981",
+   "name": "Jeanette Kawas National Park",
+   "sl": 12,
+   "file": "Jeannette Kawas Punta Sal Beach Near Entrance of Sendero Los Curumos.JPG",
+   "lat": 15.85,
+   "lon": -87.6667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jeannette Kawas National Park"
+  },
+  {
+   "id": "Q2054002",
+   "name": "Pico Bonito National Park",
+   "sl": 11,
+   "file": "Pico Bonito.JPG",
+   "lat": 15.6097,
+   "lon": -86.8722,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q747620",
+   "name": "Soto Cano Air Base",
+   "sl": 11,
+   "file": "CASA C-101 Aviojet, Honduras - Air Force JP7663636.jpg",
+   "lat": 14.382,
+   "lon": -87.6133,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soto Cano Air Base"
+  },
+  {
+   "id": "Q5196587",
+   "name": "Cusuco National Park",
+   "sl": 10,
+   "file": "Helecho gigante.jpg",
+   "lat": 15.5419,
+   "lon": -88.2636,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parque Nacional Cusuco"
+  },
+  {
+   "id": "Q2942492",
+   "name": "Immaculate Conception Cathedral, Comayagua",
+   "sl": 10,
+   "file": "CATEDRAL DE COMAYAGUA circa 2008.JPG",
+   "lat": 14.4602,
+   "lon": -87.6407,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Immaculate Conception Cathedral, Comayagua"
+  },
+  {
+   "id": "Q7511632",
+   "name": "Sierra de Agalta National Park",
+   "sl": 10,
+   "file": "MontanasdelaSierradeAgalta Honduras.jpg",
+   "lat": 15.0103,
+   "lon": -85.8525,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11824691",
+   "name": "Puerto Lempira Airport",
+   "sl": 8,
+   "file": "Let L-410UVP-E9 Turbolet, CM Airlines JP7243168.jpg",
+   "lat": 15.2623,
+   "lon": -83.783,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puerto Lempira Airport"
+  },
+  {
+   "id": "Q5758583",
+   "name": "St. Michael the Archangel Cathedral, Tegucigalpa",
+   "sl": 8,
+   "file": "Barrio La Hoya, Tegucigalpa, Honduras - panoramio.jpg",
+   "lat": 14.1055,
+   "lon": -87.2041,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tegucigalpa Cathedral"
+  }
+ ]
+}

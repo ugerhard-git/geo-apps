@@ -1,0 +1,1421 @@
+{
+ "country": "XK",
+ "items": [
+  {
+   "id": "Q643783",
+   "name": "Pristina International Airport Adem Jashari",
+   "sl": 46,
+   "file": "PIIAJ - Limak Kosovo.jpg",
+   "lat": 42.5728,
+   "lon": 21.0358,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pristina International Airport"
+  },
+  {
+   "id": "Q1246562",
+   "name": "Assembly of the Republic of Kosovo",
+   "sl": 41,
+   "file": "Assembly of the Republic of Kosovo.jpg",
+   "lat": 42.6647,
+   "lon": 21.1644,
+   "kind": "built",
+   "types": [
+    "legislative building",
+    "unicameral legislature"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Assembly of the Republic of Kosovo"
+  },
+  {
+   "id": "Q341983",
+   "name": "Gjeravica",
+   "sl": 39,
+   "file": "Đeravica.jpg",
+   "lat": 42.5328,
+   "lon": 20.1408,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gjeravica"
+  },
+  {
+   "id": "Q1137661",
+   "name": "Gračanica monastery",
+   "sl": 39,
+   "file": "Манастир Грачаница 2.jpg",
+   "lat": 42.5983,
+   "lon": 21.1933,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historic site",
+    "monastery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1982106",
+    "name": "Medieval Monuments in Kosovo"
+   },
+   "also": [
+    "RS"
+   ],
+   "cat": "Gračanica Monastery"
+  },
+  {
+   "id": "Q856462",
+   "name": "National Library of Kosovo",
+   "sl": 33,
+   "file": "NationalLibrary.jpg",
+   "lat": 42.6575,
+   "lon": 21.1623,
+   "kind": "built",
+   "types": [
+    "academic library",
+    "architectural heritage monument",
+    "historic site",
+    "library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Library in Pristina"
+  },
+  {
+   "id": "Q1115637",
+   "name": "Cathedral of Saint Mother Teresa in Pristina",
+   "sl": 30,
+   "file": "Catedral de la Madre Teresa, Pristina, Kosovo, 2014-04-16, DD 11.JPG",
+   "lat": 42.6564,
+   "lon": 21.1593,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mother Teresa Cathedral (Pristina)"
+  },
+  {
+   "id": "Q774234",
+   "name": "Gjakova Airport",
+   "sl": 27,
+   "file": "Aeroporti i Gjakoves Arben Llapashtica.jpg",
+   "lat": 42.4353,
+   "lon": 20.4275,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gjakova Airfield"
+  },
+  {
+   "id": "Q1479905",
+   "name": "Gazivoda Lake",
+   "sl": 26,
+   "file": "Gazivode Lake.JPG",
+   "lat": 42.9617,
+   "lon": 20.5669,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Gazivode Lake"
+  },
+  {
+   "id": "Q20988473",
+   "name": "Kosovo Field",
+   "sl": 26,
+   "file": "Kosovo-polje.jpg",
+   "lat": 42.7175,
+   "lon": 21.085,
+   "kind": "natural",
+   "types": [
+    "field",
+    "polje"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kosovo Field"
+  },
+  {
+   "id": "Q1166159",
+   "name": "Rugova Canyon",
+   "sl": 25,
+   "file": "Rugova Canyon.jpg",
+   "lat": 42.6922,
+   "lon": 20.1686,
+   "kind": "natural",
+   "types": [
+    "natural monument",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rugova Canyon"
+  },
+  {
+   "id": "Q513756",
+   "name": "King's Mosque in Pristina",
+   "sl": 24,
+   "file": "Xhamia e Madhe DSCN4659.JPG",
+   "lat": 42.667,
+   "lon": 21.167,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "church building",
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King's Mosque in Pristina"
+  },
+  {
+   "id": "Q1164619",
+   "name": "Koritnik",
+   "sl": 24,
+   "file": "Koritnik from Pashtrik.jpg",
+   "lat": 42.0798,
+   "lon": 20.5569,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL"
+   ],
+   "cat": "Koritnik"
+  },
+  {
+   "id": "Q1662138",
+   "name": "Marble Cave",
+   "sl": 24,
+   "file": "Shpella e gadimes foto Arben Llapashtica.jpg",
+   "lat": 42.4778,
+   "lon": 21.2075,
+   "kind": "natural",
+   "types": [
+    "cave",
+    "natural monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gadime Cave"
+  },
+  {
+   "id": "Q2097655",
+   "name": "Sinan Pasha Mosque in Prizren",
+   "sl": 24,
+   "file": "Sinan Paşa Camii - Prizren 01.jpg",
+   "lat": 42.2089,
+   "lon": 20.7414,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sinan Pasha Mosque (Prizren)"
+  },
+  {
+   "id": "Q1550984",
+   "name": "Fadil Vokrri Stadium",
+   "sl": 23,
+   "file": "Fadil Vokrri Stadium 2024.jpg",
+   "lat": 42.663,
+   "lon": 21.1569,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fadil Vokrri Stadium"
+  },
+  {
+   "id": "Q1412844",
+   "name": "Sharr Mountains National Park",
+   "sl": 23,
+   "file": "Brod Dragash.jpg",
+   "lat": 42.2025,
+   "lon": 20.9246,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sharri National Park"
+  },
+  {
+   "id": "Q2346964",
+   "name": "Skopska Crna Gora",
+   "sl": 22,
+   "file": "Skopska Crna Gora-MKD.JPG",
+   "lat": 42.1669,
+   "lon": 21.4174,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK",
+    "RS"
+   ],
+   "cat": "Skopska Crna Gora"
+  },
+  {
+   "id": "Q138525",
+   "name": "Camp Bondsteel",
+   "sl": 21,
+   "file": "Camp bondsteel kosovo.jpg",
+   "lat": 42.3667,
+   "lon": 21.25,
+   "kind": "built",
+   "types": [
+    "military base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Camp Bondsteel"
+  },
+  {
+   "id": "Q16955257",
+   "name": "National Theater of Kosovo",
+   "sl": 21,
+   "file": "PRISHTINE KOSOVE (4).jpg",
+   "lat": 42.6632,
+   "lon": 21.1645,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Theatre of Kosovo"
+  },
+  {
+   "id": "Q1512876",
+   "name": "Ulpiana",
+   "sl": 21,
+   "file": "Ulpiana1.JPG",
+   "lat": 42.5919,
+   "lon": 21.186,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ulpiana"
+  },
+  {
+   "id": "Q7994654",
+   "name": "White Drin Canyon",
+   "sl": 21,
+   "file": "Kanioni i drinit të bardhë.jpg",
+   "lat": 42.3529,
+   "lon": 20.5406,
+   "kind": "natural",
+   "types": [
+    "chine",
+    "natural monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "White Drin Canyon"
+  },
+  {
+   "id": "Q12063972",
+   "name": "Newborn monument",
+   "sl": 20,
+   "file": "Newborn Monument 2017.jpg",
+   "lat": 42.6607,
+   "lon": 21.1583,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Newborn monument"
+  },
+  {
+   "id": "Q2194967",
+   "name": "Hajla",
+   "sl": 19,
+   "file": "Panorama Hajle 2000pix.jpg",
+   "lat": 42.7847,
+   "lon": 20.1385,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ME"
+   ],
+   "cat": "Hajla"
+  },
+  {
+   "id": "Q16854755",
+   "name": "National Museum of Kosovo",
+   "sl": 19,
+   "file": "Muzeu i Kosovës.JPG",
+   "lat": 42.6657,
+   "lon": 21.1663,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kosovo Museum"
+  },
+  {
+   "id": "Q15062919",
+   "name": "Fierza Reservoir",
+   "sl": 17,
+   "file": "Old Kukes Bridge.jpg",
+   "lat": 42.12,
+   "lon": 20.302,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL"
+   ],
+   "cat": "Lake Fierza"
+  },
+  {
+   "id": "Q16334463",
+   "name": "National Gallery of Kosovo",
+   "sl": 17,
+   "file": "Pristina - The Kosova Art Gallery.JPG",
+   "lat": 42.6571,
+   "lon": 21.164,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kosova National Art Gallery"
+  },
+  {
+   "id": "Q3137585",
+   "name": "Olympic Stadium Adem Jashari",
+   "sl": 17,
+   "file": "Olympisches Stadium \"Adem Jashari\" Mitrovicë.jpg",
+   "lat": 42.8816,
+   "lon": 20.8509,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Olympic Stadium Adem Jashari"
+  },
+  {
+   "id": "Q263429",
+   "name": "Paštrik",
+   "sl": 17,
+   "file": "All in one.jpg",
+   "lat": 42.2106,
+   "lon": 20.5233,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL"
+   ],
+   "cat": "Pashtrik"
+  },
+  {
+   "id": "Q20568528",
+   "name": "Velika Rudoka",
+   "sl": 17,
+   "file": "Рудока.jpg",
+   "lat": 41.9185,
+   "lon": 20.7765,
+   "kind": "natural",
+   "types": [
+    "plateau",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3078443",
+   "name": "Fortress of Prizren",
+   "sl": 16,
+   "file": "Kalaja e Prizreniit.jpg",
+   "lat": 42.2094,
+   "lon": 20.7456,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castle",
+    "fortress",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaljaja"
+  },
+  {
+   "id": "Q2133217",
+   "name": "Goljak",
+   "sl": 16,
+   "file": "Kosovo.jpg",
+   "lat": 42.6917,
+   "lon": 21.6892,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Goljak"
+  },
+  {
+   "id": "Q769963",
+   "name": "Terzi Bridge",
+   "sl": 16,
+   "file": "Terzijski Most.JPG",
+   "lat": 42.3594,
+   "lon": 20.5092,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "architectural heritage monument",
+    "footbridge",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Terzijski Bridge"
+  },
+  {
+   "id": "Q1520663",
+   "name": "Radoniq Lake",
+   "sl": 15,
+   "file": "Liqeni i Radoniqit - panoramic.jpg",
+   "lat": 42.4906,
+   "lon": 20.4167,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Radoniq Lake"
+  },
+  {
+   "id": "Q3324861",
+   "name": "Hadum Mosque",
+   "sl": 14,
+   "file": "Kompleksi Xhamija e Hadumit 03.jpg",
+   "lat": 42.3754,
+   "lon": 20.4208,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Hadum Mosque"
+  },
+  {
+   "id": "Q3656540",
+   "name": "Ibër Bridge",
+   "sl": 14,
+   "file": "Ibar Bridge in Mitrovica, Kosovo 00 59 11 140000.jpeg",
+   "lat": 42.8916,
+   "lon": 20.8661,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mitrovica Bridge"
+  },
+  {
+   "id": "Q25463698",
+   "name": "Mirusha Park",
+   "sl": 14,
+   "file": "Unseen Mirusha.jpg",
+   "lat": 42.5239,
+   "lon": 20.583,
+   "kind": "natural",
+   "types": [
+    "regional park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q279689",
+   "name": "Banjska Monastery",
+   "sl": 13,
+   "file": "Манастир Бањска 18.jpg",
+   "lat": 42.9714,
+   "lon": 20.7825,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historic site",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Banjska Monastery"
+  },
+  {
+   "id": "Q4451245",
+   "name": "Cathedral of Our Lady of Perpetual Succour",
+   "sl": 13,
+   "file": "Prizren Catholic Cathedral August 2025 front 2.jpg",
+   "lat": 42.2078,
+   "lon": 20.7383,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "cathedral",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Our Lady of Perpetual Succour (Prizren)"
+  },
+  {
+   "id": "Q3113553",
+   "name": "Çyçavica",
+   "sl": 13,
+   "file": "KodraStanicës.jpg",
+   "lat": 42.7381,
+   "lon": 20.9325,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Çyçavica"
+  },
+  {
+   "id": "Q1365953",
+   "name": "Monastery of the Holy Archangels",
+   "sl": 13,
+   "file": "Erzengelkloster1.jpg",
+   "lat": 42.2003,
+   "lon": 20.7636,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historic site",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monastery of the Holy Archangels"
+  },
+  {
+   "id": "Q26928875",
+   "name": "National park Bjeshkët e Nemuna",
+   "sl": 13,
+   "file": "Parku Kombëtar Bjeshkët Nemuna, Liqeni i madh ne Liqenat, Rugove.jpg",
+   "lat": 42.6667,
+   "lon": 20.1667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bjeshkët e Nemuna National Park"
+  },
+  {
+   "id": "Q3324856",
+   "name": "Bajrakli Mosque",
+   "sl": 12,
+   "file": "Bajrakli Mosque, Peć, Kosovo.JPG",
+   "lat": 42.6531,
+   "lon": 20.2938,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bajrakli Mosque, Peja"
+  },
+  {
+   "id": "Q3299979",
+   "name": "Bogićevica",
+   "sl": 12,
+   "file": "Mariashi nga Ropsi.jpg",
+   "lat": 42.6,
+   "lon": 20.08,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL",
+    "ME"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q5321293",
+   "name": "Džini Beg",
+   "sl": 12,
+   "file": "Gjini Beg and Terpeznica.jpg",
+   "lat": 42.0441,
+   "lon": 20.7664,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2317348",
+   "name": "Marijash",
+   "sl": 12,
+   "file": "Peaks of the Balkans - 88 (25019632068).jpg",
+   "lat": 42.6142,
+   "lon": 20.1017,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marijash"
+  },
+  {
+   "id": "Q4022684",
+   "name": "Mosque of Muderis Ali Efendi",
+   "sl": 12,
+   "file": "PrizrenCollection2 2010 100 2517.JPG",
+   "lat": 42.2083,
+   "lon": 20.7379,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Mosque of Muderis Ali Efendi (Prizren)"
+  },
+  {
+   "id": "Q7116823",
+   "name": "Ošljak",
+   "sl": 12,
+   "file": "Sunset Oshlak.jpg",
+   "lat": 42.1967,
+   "lon": 20.8919,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oshlak"
+  },
+  {
+   "id": "Q7845364",
+   "name": "Trekufiri",
+   "sl": 12,
+   "file": "Trekufiri.jpg",
+   "lat": 42.5553,
+   "lon": 20.0789,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL",
+    "ME"
+   ],
+   "cat": "Trekufiri"
+  },
+  {
+   "id": "Q4906649",
+   "name": "Big Vraca",
+   "sl": 11,
+   "file": "Горно Врачанско (Среберено) Езеро и Голема Враца.jpg",
+   "lat": 41.8966,
+   "lon": 20.7516,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": "Golema Vraca"
+  },
+  {
+   "id": "Q5529123",
+   "name": "Gazi Mehmet Pasha's Mosque",
+   "sl": 11,
+   "file": "Xhamia e Bajraklise.JPG",
+   "lat": 42.2063,
+   "lon": 20.7309,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gazi Mehmet Pasha Mosque (Prizren)"
+  },
+  {
+   "id": "Q6978342",
+   "name": "Gjeravica Lake",
+   "sl": 11,
+   "file": "GjeravicaLakeKosovoFatos Katallozi.JPG",
+   "lat": 42.5308,
+   "lon": 20.1351,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gjeravica Lake"
+  },
+  {
+   "id": "Q1254341",
+   "name": "Jashar Pasha Mosque",
+   "sl": 11,
+   "file": "Jashar Pasha mosque.jpg",
+   "lat": 42.666,
+   "lon": 21.1664,
+   "kind": "built",
+   "types": [
+    "monument",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jashar Pasha Mosque"
+  },
+  {
+   "id": "Q3299918",
+   "name": "Miruša Waterfalls",
+   "sl": 11,
+   "file": "KosovoMirusha.jpg",
+   "lat": 42.523,
+   "lon": 20.6028,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mirusha Waterfalls"
+  },
+  {
+   "id": "Q20436561",
+   "name": "Sinan Pasha Mosque",
+   "sl": 11,
+   "file": "Xhamia nga jasht.jpg",
+   "lat": 42.2277,
+   "lon": 21.2574,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Sinan Pasha Mosque (Kaçanik)"
+  },
+  {
+   "id": "Q1391359",
+   "name": "St. Elijah's Church",
+   "sl": 11,
+   "file": "St. Andrew Church, destroyed by Albanians during the pogrom of Serbs from Kosovo in March 2004.jpg",
+   "lat": 42.907,
+   "lon": 21.203,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Saint Elijah Church (Podujevo)"
+  },
+  {
+   "id": "Q954697",
+   "name": "Tomb of Sultan Murat",
+   "sl": 11,
+   "file": "Tyrbaj e sulltan muratit DSCN0872.JPG",
+   "lat": 42.7018,
+   "lon": 21.1043,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "türbe"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Meşhed-i Hüdavendigar"
+  },
+  {
+   "id": "Q3623943",
+   "name": "Žljeb mountain",
+   "sl": 11,
+   "file": "Mokra Gora 4.jpg",
+   "lat": 42.7669,
+   "lon": 20.235,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ME",
+    "RS"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3656391",
+   "name": "Žuti kamen",
+   "sl": 11,
+   "file": "Guri kuq 2522 m.jpg",
+   "lat": 42.6627,
+   "lon": 20.1334,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q16953614",
+   "name": "Brezovica Ski Resort",
+   "sl": 10,
+   "file": "Brezovica Ski Resort - Sharri Mountains.jpg",
+   "lat": 42.2219,
+   "lon": 21.0047,
+   "kind": "built",
+   "types": [
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brezovica ski resort"
+  },
+  {
+   "id": "Q3132366",
+   "name": "Church of the Holy Saviour in Prizren",
+   "sl": 10,
+   "file": "Church of the Holy Saviour, Prizren (by Pudelek).JPG",
+   "lat": 42.2081,
+   "lon": 20.7433,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Eastern Orthodox church building",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Crkva svetog Spasa u Prizrenu"
+  },
+  {
+   "id": "Q3300104",
+   "name": "Kobilica",
+   "sl": 10,
+   "file": "Kobilica1.jpg",
+   "lat": 42.0986,
+   "lon": 20.8433,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": "Kobilica"
+  },
+  {
+   "id": "Q17741507",
+   "name": "Palace of Youth and Sports",
+   "sl": 10,
+   "file": "Palacio de Juventud y Deportes, Pristina, Kosovo, 2014-04-16, DD 19.JPG",
+   "lat": 42.6611,
+   "lon": 21.1572,
+   "kind": "built",
+   "types": [
+    "convention center",
+    "indoor arena",
+    "multi-purpose hall",
+    "shopping mall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Youth and Sports, Pristina"
+  },
+  {
+   "id": "Q940857",
+   "name": "Piribeg",
+   "sl": 10,
+   "file": "Brezovica run.jpg",
+   "lat": 42.1661,
+   "lon": 21.0492,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q7623280",
+   "name": "Streočka Mountain",
+   "sl": 10,
+   "file": "Maja e Strellcit 2 (WPWTR17).jpg",
+   "lat": 42.5717,
+   "lon": 20.2447,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Strellci"
+  },
+  {
+   "id": "Q15958578",
+   "name": "Suzi Çelebi Mosque",
+   "sl": 10,
+   "file": "Xhamia e Suzi Efendise.JPG",
+   "lat": 42.2096,
+   "lon": 20.7339,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Suzi Celebi Mosque (Prizren)"
+  },
+  {
+   "id": "Q3403669",
+   "name": "Višegrad",
+   "sl": 10,
+   "file": "Erzengelkloster1.jpg",
+   "lat": 42.2003,
+   "lon": 20.7625,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "castle ruin",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bistrički Višegrad"
+  },
+  {
+   "id": "Q3396793",
+   "name": "Vushtrri Stone Bridge",
+   "sl": 10,
+   "file": "Taşlı Köprü - Vıcıtırın 01.jpg",
+   "lat": 42.8091,
+   "lon": 20.9771,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "bridge",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ura e Vjetër e Gurit"
+  },
+  {
+   "id": "Q799675",
+   "name": "Badoc Lake",
+   "sl": 9,
+   "file": "Badovce.jpg",
+   "lat": 42.6234,
+   "lon": 21.2412,
+   "kind": "both",
+   "types": [
+    "lake",
+    "water reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Badovc Lake"
+  },
+  {
+   "id": "Q65314982",
+   "name": "Balec Mosque",
+   "sl": 9,
+   "file": "Xhamia e Balecit.jpg",
+   "lat": 42.4657,
+   "lon": 21.4646,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q272635",
+   "name": "Bazaar Mosque in Pristina",
+   "sl": 9,
+   "file": "Carshi Mosque in Pristina.JPG",
+   "lat": 42.6655,
+   "lon": 21.1655,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bazaar Mosque in Pristina"
+  },
+  {
+   "id": "Q3299614",
+   "name": "Big Jažinačko Lake",
+   "sl": 9,
+   "file": "Jazhincë Lake at night.jpg",
+   "lat": 42.1518,
+   "lon": 20.9944,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jazhincë Lake"
+  },
+  {
+   "id": "Q3065266",
+   "name": "Church of Saint Nicholas in Prizren",
+   "sl": 9,
+   "file": "Church of St. Nicholas, Prizren.jpg",
+   "lat": 42.1966,
+   "lon": 20.7363,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "church building",
+    "Eastern Orthodox church building",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tutić Church"
+  },
+  {
+   "id": "Q16761489",
+   "name": "Church of the Holy Emperor Uroš",
+   "sl": 9,
+   "file": "Angela Hennig Kosovo Ferizaj 2008 171.jpg",
+   "lat": 42.3703,
+   "lon": 21.1503,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RS"
+   ],
+   "cat": "Serbian Orthodox church in Uroševac"
+  },
+  {
+   "id": "Q3656402",
+   "name": "Junik Mountains",
+   "sl": 9,
+   "file": "Green mountains - Juniku Mount.JPG",
+   "lat": 42.5023,
+   "lon": 20.1791,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL"
+   ],
+   "cat": "Junik Mountains"
+  },
+  {
+   "id": "Q6476652",
+   "name": "Lake Lićenat",
+   "sl": 9,
+   "file": "Liqeni I Madhe Peje Kosovo from Fatos Katallozi.jpg",
+   "lat": 42.6686,
+   "lon": 20.0908,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leqinat Lake"
+  },
+  {
+   "id": "Q16953559",
+   "name": "Mosque Katip Sinan Qelebi",
+   "sl": 9,
+   "file": "Xhamia e Sinan Katip.JPG",
+   "lat": 42.2139,
+   "lon": 20.7416,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q674536",
+   "name": "Novo Brdo Fortress",
+   "sl": 9,
+   "file": "Novo Brdo Serbia1.jpg",
+   "lat": 42.615,
+   "lon": 21.4167,
+   "kind": "built",
+   "types": [
+    "building",
+    "castle",
+    "historic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Novo Brdo Fortress"
+  },
+  {
+   "id": "Q6980796",
+   "name": "Peskovi",
+   "sl": 9,
+   "file": "Пескови (Шар Планина) 02.jpg",
+   "lat": 42.1394,
+   "lon": 20.9797,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q15958576",
+   "name": "Saraç Mosque",
+   "sl": 9,
+   "file": "Xhamia e Kuklibeut.JPG",
+   "lat": 42.2095,
+   "lon": 20.7476,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "historic site",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosque of Kuklibeu"
+  },
+  {
+   "id": "Q7542972",
+   "name": "Small Vraca",
+   "sl": 9,
+   "file": "Мала Враца.jpg",
+   "lat": 41.8861,
+   "lon": 20.7375,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MK"
+   ],
+   "cat": ""
+  }
+ ]
+}

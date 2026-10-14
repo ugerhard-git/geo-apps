@@ -1,0 +1,495 @@
+{
+ "country": "AO",
+ "items": [
+  {
+   "id": "Q1348116",
+   "name": "Mount Moco",
+   "sl": 35,
+   "file": "Moco.JPG",
+   "lat": -12.4667,
+   "lon": 15.1833,
+   "kind": "natural",
+   "types": [
+    "Important Bird Area",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Moco"
+  },
+  {
+   "id": "Q598002",
+   "name": "Quatro de Fevereiro Airport",
+   "sl": 35,
+   "file": "1.Luanda Airport Aeroporto 4 de Fevereiro LAD.jpg",
+   "lat": -8.8581,
+   "lon": 13.2312,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "cultural heritage",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Quatro de Fevereiro Airport"
+  },
+  {
+   "id": "Q187918",
+   "name": "Epupa Falls",
+   "sl": 30,
+   "file": "Epupa Falls (detail).jpg",
+   "lat": -17,
+   "lon": 13.25,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NA"
+   ],
+   "cat": "Epupa Falls"
+  },
+  {
+   "id": "Q940305",
+   "name": "Kalandula Falls",
+   "sl": 30,
+   "file": "Kalandula Falls C.jpg",
+   "lat": -9.0758,
+   "lon": 16.0033,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalandula Falls"
+  },
+  {
+   "id": "Q3179197",
+   "name": "Quissama National Park",
+   "sl": 28,
+   "file": "Kissama 003.JPG",
+   "lat": -9.9333,
+   "lon": 14.0331,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kissama National Park"
+  },
+  {
+   "id": "Q1101379",
+   "name": "Ruacana Falls",
+   "sl": 27,
+   "file": "Ruacana Falls at High Water from close distance in 03-2011. Author Tom Jakobi.JPG",
+   "lat": -17.3936,
+   "lon": 14.2169,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NA"
+   ],
+   "cat": "Ruacana Falls"
+  },
+  {
+   "id": "Q1370665",
+   "name": "Estádio 11 de Novembro",
+   "sl": 23,
+   "file": "Estadio-11Nov-Luanda 03 linke-Seite-Bogen LWS-2011-08-NC 0991.jpg",
+   "lat": -8.9699,
+   "lon": 13.2837,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio 11 de Novembro"
+  },
+  {
+   "id": "Q3123422",
+   "name": "Iona National Park",
+   "sl": 23,
+   "file": "Imbondeiro Tree.jpg",
+   "lat": -16.6667,
+   "lon": 12.3333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iona National Park"
+  },
+  {
+   "id": "Q2089913",
+   "name": "Lubango Airport",
+   "sl": 23,
+   "file": "Lubango Airport.jpg",
+   "lat": -14.9267,
+   "lon": 13.5768,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lubango Airport"
+  },
+  {
+   "id": "Q3123455",
+   "name": "Bicuari National Park",
+   "sl": 22,
+   "file": "Parque Nacional do Bicuar.png",
+   "lat": -15.3333,
+   "lon": 14.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bicuar National Park"
+  },
+  {
+   "id": "Q2885177",
+   "name": "Capanda Dam",
+   "sl": 21,
+   "file": "Capanda 01.jpg",
+   "lat": -9.7947,
+   "lon": 15.4669,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capanda hydroelectric power plant"
+  },
+  {
+   "id": "Q1225633",
+   "name": "Dilolo Lake",
+   "sl": 21,
+   "file": "Dilolo Lake.jpg",
+   "lat": -11.5167,
+   "lon": 22.05,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2231318",
+   "name": "Albano Machado Airport",
+   "sl": 18,
+   "file": "Boarding 737-200 Huambo.jpg",
+   "lat": -12.8089,
+   "lon": 15.7606,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q541858",
+   "name": "Dr. Antonio Agostinho Neto International Airport",
+   "sl": 17,
+   "file": "Construction site Angola International Airport1.jpg",
+   "lat": -9.0505,
+   "lon": 13.5,
+   "kind": "built",
+   "types": [
+    "airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Angola International Airport"
+  },
+  {
+   "id": "Q81569",
+   "name": "Catumbela Airport",
+   "sl": 16,
+   "file": "Aeroporto Internacional da Catumbela.jpg",
+   "lat": -12.4795,
+   "lon": 13.4873,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3316786",
+   "name": "Luena Airport",
+   "sl": 15,
+   "file": "Luso Airport Angola Dec 1975.jpg",
+   "lat": -11.7682,
+   "lon": 19.8974,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7092208",
+   "name": "Ondjiva Pereira Airport",
+   "sl": 15,
+   "file": "Aeroporto 11 de Novembro, Ondjiva.jpg",
+   "lat": -17.0434,
+   "lon": 15.6839,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3889166",
+   "name": "Kaokoveld",
+   "sl": 14,
+   "file": "Landschaft bei Orupembe-Kaokoveld.jpg",
+   "lat": -17.5,
+   "lon": 12,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NA"
+   ],
+   "cat": "Kaokoveld"
+  },
+  {
+   "id": "Q6699917",
+   "name": "Luengue-Luiana National Park",
+   "sl": 14,
+   "file": "African bush elephants (Loxodonta africana) female with six-week-old baby.jpg",
+   "lat": -16.5833,
+   "lon": 21.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1343366",
+   "name": "Ombaka National Stadium",
+   "sl": 14,
+   "file": "Estádio Nacional de Ombaka (19151153514).jpg",
+   "lat": -12.5936,
+   "lon": 13.39,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1408988",
+   "name": "Fortress of São Miguel",
+   "sl": 12,
+   "file": "Luanda-SMiguelFort2.jpg",
+   "lat": -8.8079,
+   "lon": 13.2232,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fortaleza de São Miguel"
+  },
+  {
+   "id": "Q15043323",
+   "name": "Church of Our Lady of Remedies",
+   "sl": 11,
+   "file": "Luanda Seu-Retouch.jpg",
+   "lat": -8.8136,
+   "lon": 13.2297,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "cultural heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Luanda"
+  },
+  {
+   "id": "Q607494",
+   "name": "Ilha de Luanda",
+   "sl": 11,
+   "file": "Ilha de Luanda.JPG",
+   "lat": -8.7785,
+   "lon": 13.2437,
+   "kind": "built",
+   "types": [
+    "spit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilha do Cabo"
+  },
+  {
+   "id": "Q24893039",
+   "name": "Laúca Dam",
+   "sl": 11,
+   "file": "Barragem-Laúca-em-Malange-01.jpg",
+   "lat": -9.743,
+   "lon": 15.1256,
+   "kind": "built",
+   "types": [
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laúca Dam"
+  },
+  {
+   "id": "Q10333589",
+   "name": "Museu Nacional de História Natural de Angola",
+   "sl": 11,
+   "file": "Museu Nacional Historia Natural Luanda 02.JPG",
+   "lat": -8.8152,
+   "lon": 13.2385,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "natural history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu de História Natural (Luanda)"
+  },
+  {
+   "id": "Q868140",
+   "name": "National Museum of Slavery",
+   "sl": 11,
+   "file": "Museu da Escravatura Luanda.JPG",
+   "lat": -8.9588,
+   "lon": 13.105,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu da Escravatura Luanda"
+  },
+  {
+   "id": "Q10333588",
+   "name": "Museu Nacional de Antropologia",
+   "sl": 8,
+   "file": "Museu Nacional de Antropologia in Luanda - Angola 2015.jpg",
+   "lat": -8.8135,
+   "lon": 13.2278,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "museum",
+    "sobrado"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museu Nacional de Antropologia (Luanda)"
+  },
+  {
+   "id": "Q868147",
+   "name": "Museum of the Armed Forces",
+   "sl": 8,
+   "file": "Museu Nacional de Historia Militar.jpg",
+   "lat": -8.8075,
+   "lon": 13.2231,
+   "kind": "built",
+   "types": [
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fortaleza de São Miguel"
+  },
+  {
+   "id": "Q7128887",
+   "name": "Palácio de Ferro",
+   "sl": 8,
+   "file": "Palácio de Ferro.jpg",
+   "lat": -8.8122,
+   "lon": 13.2357,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palácio de Ferro"
+  }
+ ]
+}

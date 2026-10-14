@@ -1,0 +1,910 @@
+{
+ "country": "MG",
+ "items": [
+  {
+   "id": "Q236601",
+   "name": "Glorioso Islands",
+   "sl": 49,
+   "file": "Glorioso Islands ISS002-E-6913.JPG",
+   "lat": -11.55,
+   "lon": 47.3333,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Glorioso Islands"
+  },
+  {
+   "id": "Q1405154",
+   "name": "Tsingy de Bemaraha Strict Nature Reserve",
+   "sl": 48,
+   "file": "Tsingy de Bemaraha.jpg",
+   "lat": -18.6667,
+   "lon": 44.75,
+   "kind": "natural",
+   "types": [
+    "strict nature reserve of Madagascar"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsingy de Bemaraha Strict Nature Reserve"
+  },
+  {
+   "id": "Q458167",
+   "name": "Ambohimanga",
+   "sl": 45,
+   "file": "Ambohimanga 14.jpg",
+   "lat": -18.7592,
+   "lon": 47.5628,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "hill",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ambohimanga"
+  },
+  {
+   "id": "Q564321",
+   "name": "Rainforests of the Atsinanana",
+   "sl": 43,
+   "file": "Andohahela NP.jpg",
+   "lat": -14.4597,
+   "lon": 49.7025,
+   "kind": "",
+   "types": [
+    "rainforest"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rainforests of the Atsinanana (UNESCO)"
+  },
+  {
+   "id": "Q575679",
+   "name": "Lake Alaotra",
+   "sl": 41,
+   "file": "Lake Alaotra NASA.jpg",
+   "lat": -17.5,
+   "lon": 48.5,
+   "kind": "natural",
+   "types": [
+    "exorheic lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Alaotra"
+  },
+  {
+   "id": "Q1147144",
+   "name": "Maromokotro",
+   "sl": 38,
+   "file": "Maromokotro.jpg",
+   "lat": -14.0228,
+   "lon": 48.9658,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q670038",
+   "name": "Ivato Airport",
+   "sl": 33,
+   "file": "Ivato Intl Airport Antananarivo Madagascar.jpg",
+   "lat": -18.7964,
+   "lon": 47.4761,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ivato Airport"
+  },
+  {
+   "id": "Q2485097",
+   "name": "Marojejy National Park",
+   "sl": 33,
+   "file": "Massif Marojejy 01.jpg",
+   "lat": -14.435,
+   "lon": 49.706,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q564321",
+    "name": "Rainforests of the Atsinanana"
+   },
+   "also": [],
+   "cat": "Marojejy National Park"
+  },
+  {
+   "id": "Q1968746",
+   "name": "Andohahela National Park",
+   "sl": 29,
+   "file": "Andohahela NP.jpg",
+   "lat": -24.7413,
+   "lon": 46.7338,
+   "kind": "",
+   "types": [
+    "national park of Madagascar"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q564321",
+    "name": "Rainforests of the Atsinanana"
+   },
+   "also": [],
+   "cat": "Andohahela National Park"
+  },
+  {
+   "id": "Q964116",
+   "name": "Masoala National Park",
+   "sl": 29,
+   "file": "Masoala, Madagascar.jpg",
+   "lat": -15.65,
+   "lon": 50.1833,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Madagascar"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q564321",
+    "name": "Rainforests of the Atsinanana"
+   },
+   "also": [],
+   "cat": "Masoala National Park"
+  },
+  {
+   "id": "Q1116933",
+   "name": "Andringitra National Park",
+   "sl": 27,
+   "file": "Andringitra, Madagascar by Effervescing Elephant-09.jpg",
+   "lat": -22.195,
+   "lon": 46.885,
+   "kind": "",
+   "types": [
+    "national park of Madagascar"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q564321",
+    "name": "Rainforests of the Atsinanana"
+   },
+   "also": [],
+   "cat": "Andringitra National Park"
+  },
+  {
+   "id": "Q788084",
+   "name": "Avenue of the Baobabs",
+   "sl": 26,
+   "file": "Baobab Avenue Morondava Madagascar - panoramio.jpg",
+   "lat": -20.2508,
+   "lon": 44.4183,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avenue of the Baobabs"
+  },
+  {
+   "id": "Q120414",
+   "name": "Isalo National Park",
+   "sl": 26,
+   "file": "IsaloRock.jpg",
+   "lat": -22.4351,
+   "lon": 45.2884,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Madagascar"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Isalo National Park"
+  },
+  {
+   "id": "Q1498242",
+   "name": "Ranomafana National Park",
+   "sl": 25,
+   "file": "Ranomafana - Andriamamovoka falls.jpg",
+   "lat": -21.22,
+   "lon": 47.43,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q564321",
+    "name": "Rainforests of the Atsinanana"
+   },
+   "also": [],
+   "cat": "Ranomafana National Park"
+  },
+  {
+   "id": "Q1968934",
+   "name": "Amber Mountain National Park",
+   "sl": 23,
+   "file": "Entrée du parc national Montagne d'Ambre.jpg",
+   "lat": -12.595,
+   "lon": 49.155,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montagne d'Ambre National Park"
+  },
+  {
+   "id": "Q2071200",
+   "name": "Zahamena National Park",
+   "sl": 23,
+   "file": "Polystichum setiferum0.jpg",
+   "lat": -17.6122,
+   "lon": 48.7792,
+   "kind": "",
+   "types": [
+    "national park of Madagascar"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q564321",
+    "name": "Rainforests of the Atsinanana"
+   },
+   "also": [],
+   "cat": "Zahamena National Park"
+  },
+  {
+   "id": "Q2024048",
+   "name": "Lake Tsimanampetsotsa",
+   "sl": 22,
+   "file": "Lake Tsimanampetsotsa NASA.jpg",
+   "lat": -24.1094,
+   "lon": 43.7511,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tsimanampetsotsa"
+  },
+  {
+   "id": "Q1290337",
+   "name": "Rova of Antananarivo",
+   "sl": 21,
+   "file": "Palais royal Rova Manjakamiadana 2.jpg",
+   "lat": -18.9236,
+   "lon": 47.5322,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rova of Antananarivo"
+  },
+  {
+   "id": "Q556594",
+   "name": "Ankaratra",
+   "sl": 19,
+   "file": "Ankaratra.jpg",
+   "lat": -19.3498,
+   "lon": 47.2433,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1249710",
+   "name": "Lake Ihotry",
+   "sl": 19,
+   "file": "Lake Ihotry NASA.jpg",
+   "lat": -21.9167,
+   "lon": 43.6667,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ihotry"
+  },
+  {
+   "id": "Q1250102",
+   "name": "Lake Tritriva",
+   "sl": 19,
+   "file": "Lake Tritriva 02.jpg",
+   "lat": -19.929,
+   "lon": 46.9247,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tritriva"
+  },
+  {
+   "id": "Q2355776",
+   "name": "Nosy Komba",
+   "sl": 19,
+   "file": "View of Nosy Komba, Madagascar.jpg",
+   "lat": -13.4661,
+   "lon": 48.3503,
+   "kind": "natural",
+   "types": [
+    "human settlement",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nosy Komba"
+  },
+  {
+   "id": "Q2306524",
+   "name": "Ankarana Special Reserve",
+   "sl": 18,
+   "file": "Les tsingy de l'Ankarana 04.jpg",
+   "lat": -13.0728,
+   "lon": 48.9147,
+   "kind": "natural",
+   "types": [
+    "special reserve of Madagascar"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ankarana Reserve"
+  },
+  {
+   "id": "Q1032650",
+   "name": "Canal des Pangalanes",
+   "sl": 18,
+   "file": "Canal des Pangalanes - Nosy Varika - Mahanoro (7).jpg",
+   "lat": -22.8,
+   "lon": 47.8333,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canal des Pangalanes"
+  },
+  {
+   "id": "Q1351221",
+   "name": "Tsingy de Namoroka National Park",
+   "sl": 17,
+   "file": "Namoroka Tsingy.jpg",
+   "lat": -16.4667,
+   "lon": 45.3333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsingy de Namoroka National Park"
+  },
+  {
+   "id": "Q1968753",
+   "name": "Baie de Baly National Park",
+   "sl": 16,
+   "file": "Propithecus deckenii2.jpg",
+   "lat": -16.0837,
+   "lon": 45.2289,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "national park of Madagascar"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3128625",
+   "name": "Central Highlands",
+   "sl": 16,
+   "file": "Landscape Madagascar 04.jpg",
+   "lat": -20,
+   "lon": 47,
+   "kind": "natural",
+   "types": [
+    "bioregion",
+    "highland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1105705",
+   "name": "Lake Kinkony",
+   "sl": 16,
+   "file": "Lake Kinkony NASA.jpg",
+   "lat": -16.15,
+   "lon": 45.8333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Kinkony"
+  },
+  {
+   "id": "Q1386661",
+   "name": "Kirindy Mitea National Park",
+   "sl": 15,
+   "file": "Sunset baobabs Madagascar.jpg",
+   "lat": -20.8103,
+   "lon": 44.1422,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kirindi Mitea National Park"
+  },
+  {
+   "id": "Q2902969",
+   "name": "Arrachart Airport",
+   "sl": 14,
+   "file": "Aéroport Arrachart Antsiranana.jpg",
+   "lat": -12.3511,
+   "lon": 49.2942,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arrachart Airport"
+  },
+  {
+   "id": "Q613657",
+   "name": "Fascene Airport",
+   "sl": 14,
+   "file": "Aeroport de Nosy Be DSCN1165.jpg",
+   "lat": -13.3181,
+   "lon": 48.3092,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fascene Airport"
+  },
+  {
+   "id": "Q3606079",
+   "name": "Morondava Airport",
+   "sl": 14,
+   "file": "Aeroporto di Morondava.jpg",
+   "lat": -20.2848,
+   "lon": 44.3177,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Morondava Airport"
+  },
+  {
+   "id": "Q2058359",
+   "name": "Sainte Marie Airport",
+   "sl": 14,
+   "file": "Air Madagascar ATR 72-500 at FMMS.jpg",
+   "lat": -17.0902,
+   "lon": 49.8167,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sainte Marie Airport"
+  },
+  {
+   "id": "Q1609060",
+   "name": "Lokobe Reserve",
+   "sl": 13,
+   "file": "Black Lemurs.JPG",
+   "lat": -13.3992,
+   "lon": 48.3183,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lokobe Reserve"
+  },
+  {
+   "id": "Q3378451",
+   "name": "Nosy Alañaña Light",
+   "sl": 13,
+   "file": "Phare de l'Ile aux Prunes.jpg",
+   "lat": -18.0487,
+   "lon": 49.46,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nosy Alagnagna Lighthouse"
+  },
+  {
+   "id": "Q1657683",
+   "name": "Amborovy Airport",
+   "sl": 12,
+   "file": "Aéroport Philbert Tsiranana de Mahajunga.jpg",
+   "lat": -15.6669,
+   "lon": 46.3517,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15278794",
+   "name": "Lake Anosy",
+   "sl": 12,
+   "file": "Lake Anosy, Central Antananarivo, Capital of Madagascar, Photo by Sascha Grabow.jpg",
+   "lat": -18.9152,
+   "lon": 47.5216,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Anosy"
+  },
+  {
+   "id": "Q3214947",
+   "name": "Lake Itasy",
+   "sl": 12,
+   "file": "Itasy lake.jpg",
+   "lat": -19.0667,
+   "lon": 46.7833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Itasy"
+  },
+  {
+   "id": "Q2129178",
+   "name": "Mahamasina Municipal Stadium",
+   "sl": 12,
+   "file": "Antananarivo01.jpg",
+   "lat": -18.9197,
+   "lon": 47.5262,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kianja Barea"
+  },
+  {
+   "id": "Q7409017",
+   "name": "Sambava Airport",
+   "sl": 12,
+   "file": "Sambava airport-Air Mad 737-300 5R-MFI.jpg",
+   "lat": -14.2786,
+   "lon": 50.1747,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sambava Airport"
+  },
+  {
+   "id": "Q2006710",
+   "name": "Toamasina Airport",
+   "sl": 12,
+   "file": "12-2023 TMM.jpg",
+   "lat": -18.1158,
+   "lon": 49.3933,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q939516",
+   "name": "Tôlanaro Airport",
+   "sl": 12,
+   "file": "Aeroport de Tolagnaro.jpg",
+   "lat": -25.0381,
+   "lon": 46.9561,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tolanaro Airport"
+  },
+  {
+   "id": "Q521309",
+   "name": "Betampona Strict Nature Reserve",
+   "sl": 11,
+   "file": "INDRI-2.JPG",
+   "lat": -17.8883,
+   "lon": 49.225,
+   "kind": "natural",
+   "types": [
+    "strict nature reserve of Madagascar"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Betampona Strict Nature Reserve"
+  },
+  {
+   "id": "Q2582157",
+   "name": "Fianarantsoa Airport",
+   "sl": 11,
+   "file": "Fianarantsoa Airport.jpg",
+   "lat": -21.4422,
+   "lon": 47.1108,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fianarantsoa Airport"
+  },
+  {
+   "id": "Q181663",
+   "name": "Andafiavaratra Palace",
+   "sl": 10,
+   "file": "Palais d'Andafiavaratra 01.jpg",
+   "lat": -18.9208,
+   "lon": 47.533,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Andafiavaratra Palace"
+  },
+  {
+   "id": "Q3606099",
+   "name": "Toliara Airport",
+   "sl": 10,
+   "file": "Aeroporto di Tulear.JPG",
+   "lat": -23.3894,
+   "lon": 43.7256,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toliara Airport"
+  },
+  {
+   "id": "Q1287156",
+   "name": "Tsaratanana Reserve",
+   "sl": 10,
+   "file": "EutriorchisAsturKeulemans.jpg",
+   "lat": -13.963,
+   "lon": 48.849,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q458606",
+   "name": "Ambre-Bobaomby",
+   "sl": 9,
+   "file": "Вулканическое поле Амбре-Бобаомби (Мадагаскар).jpg",
+   "lat": -12.595,
+   "lon": 49.1533,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ambre-Bobaomby"
+  },
+  {
+   "id": "Q579317",
+   "name": "Berenty Reserve",
+   "sl": 9,
+   "file": "Berenty 001.jpg",
+   "lat": -25.0092,
+   "lon": 46.3022,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berenty Reserve"
+  },
+  {
+   "id": "Q925904",
+   "name": "Beza Mahafaly Special Reserve",
+   "sl": 9,
+   "file": "Beza Mahafaly.JPG",
+   "lat": -23.6667,
+   "lon": 44.6,
+   "kind": "natural",
+   "types": [
+    "special reserve of Madagascar"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bezaha Mahafaly Special Reserve"
+  },
+  {
+   "id": "Q7849674",
+   "name": "Botanical and Zoological Garden of Tsimbazaza",
+   "sl": 9,
+   "file": "Taro - Tsimbazaza Zoo.jpg",
+   "lat": -18.93,
+   "lon": 47.5261,
+   "kind": "built",
+   "types": [
+    "botanical garden",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tsimbazaza Zoo"
+  },
+  {
+   "id": "Q20725766",
+   "name": "Immaculate Conception Cathedral, Antananarivo",
+   "sl": 9,
+   "file": "Cathédrale Andohalo.jpg",
+   "lat": -18.9179,
+   "lon": 47.5307,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale de l'Immaculée-Conception d'Antananarivo"
+  },
+  {
+   "id": "Q2940854",
+   "name": "Sakaleona Falls",
+   "sl": 9,
+   "file": "Sakaleona.jpg",
+   "lat": -20.5272,
+   "lon": 47.9964,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sakaleona Falls"
+  }
+ ]
+}

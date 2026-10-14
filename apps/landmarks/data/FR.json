@@ -95,25 +95,6 @@
    "cat": "Musée d'Orsay"
   },
   {
-   "id": "Q6454",
-   "name": "Calais",
-   "sl": 119,
-   "file": "Burghers of calais.jpeg",
-   "lat": 50.9475,
-   "lon": 1.8556,
-   "kind": "built",
-   "types": [
-    "border city",
-    "city",
-    "commune of France",
-    "Roman city"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Calais"
-  },
-  {
    "id": "Q2946",
    "name": "Palace of Versailles",
    "sl": 109,
@@ -1409,6 +1390,23 @@
    "partOf": null,
    "also": [],
    "cat": "Stade Bollaert-Delelis"
+  },
+  {
+   "id": "Q127372",
+   "name": "Allianz Riviera",
+   "sl": 44,
+   "file": "Allianzcoupdenvoi.jpg",
+   "lat": 43.7051,
+   "lon": 7.1926,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Allianz Riviera"
   }
  ]
 }

@@ -1,0 +1,480 @@
+{
+ "country": "DO",
+ "items": [
+  {
+   "id": "Q1464758",
+   "name": "Lake Enriquillo",
+   "sl": 33,
+   "file": "Lago Enriquillo.jpg",
+   "lat": 18.4856,
+   "lon": -71.6153,
+   "kind": "natural",
+   "types": [
+    "rift lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Enriquillo"
+  },
+  {
+   "id": "Q1062676",
+   "name": "Las Américas International Airport",
+   "sl": 27,
+   "file": "MDSD-TerminalA.JPG",
+   "lat": 18.4297,
+   "lon": -69.6689,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Las Américas International Airport"
+  },
+  {
+   "id": "Q783742",
+   "name": "Pico Duarte",
+   "sl": 27,
+   "file": "Pico Duarte.jpg",
+   "lat": 19.0331,
+   "lon": -71.0053,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pico Duarte Nacional park"
+  },
+  {
+   "id": "Q1352042",
+   "name": "Punta Cana International Airport",
+   "sl": 27,
+   "file": "PuntaCanaInternationalAirport.JPG",
+   "lat": 18.5667,
+   "lon": -68.3519,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Punta Cana International Airport"
+  },
+  {
+   "id": "Q2722327",
+   "name": "Étang Saumâtre",
+   "sl": 21,
+   "file": "Etang Saumatre NASA.jpg",
+   "lat": 18.5975,
+   "lon": -72.0147,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "HT"
+   ],
+   "cat": "Etang Saumatre"
+  },
+  {
+   "id": "Q2516819",
+   "name": "Fortaleza Ozama",
+   "sl": 21,
+   "file": "Fortaleza Ozama RD 11 2017 6493.jpg",
+   "lat": 18.4732,
+   "lon": -69.8817,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fortaleza Ozama"
+  },
+  {
+   "id": "Q766356",
+   "name": "Gregorio Luperón International Airport",
+   "sl": 21,
+   "file": "Puerto Plata Airport 1.JPG",
+   "lat": 19.7578,
+   "lon": -70.57,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gregorio Luperón International Airport"
+  },
+  {
+   "id": "Q1431111",
+   "name": "Cibao International Airport",
+   "sl": 19,
+   "file": "B777 Continental Cibao.jpg",
+   "lat": 19.4061,
+   "lon": -70.6047,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cibao International Airport"
+  },
+  {
+   "id": "Q737856",
+   "name": "La Romana International Airport",
+   "sl": 19,
+   "file": "La Romana Aeropuerto RD.jpg",
+   "lat": 18.4511,
+   "lon": -68.9117,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Romana International Airport"
+  },
+  {
+   "id": "Q668772",
+   "name": "Alcázar de Colón",
+   "sl": 18,
+   "file": "Santo Domingo - Alcazar de Colon 02.JPG",
+   "lat": 18.4775,
+   "lon": -69.8827,
+   "kind": "built",
+   "types": [
+    "fort",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2470834",
+    "name": "Colonial City of Santo Domingo"
+   },
+   "also": [],
+   "cat": "Alcázar de Colón"
+  },
+  {
+   "id": "Q4868419",
+   "name": "Basílica Catedral Metropolitana Santa María de la Encarnación",
+   "sl": 17,
+   "file": "Dominican Republic, Santo Domingo, Parque Colón, statue of Christopher Columbus.jpg",
+   "lat": 18.473,
+   "lon": -69.8839,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2470834",
+    "name": "Colonial City of Santo Domingo"
+   },
+   "also": [],
+   "cat": "Catedral Santa María La Menor, Santo Domingo"
+  },
+  {
+   "id": "Q2983646",
+   "name": "Columbus Lighthouse",
+   "sl": 16,
+   "file": "Dominican Republic, Santo Domingo, Columbus Lighthouse.jpg",
+   "lat": 18.4786,
+   "lon": -69.8682,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Faro a Colón"
+  },
+  {
+   "id": "Q3305377",
+   "name": "Palacio Nacional",
+   "sl": 16,
+   "file": "Santo Domingo National Palace.jpg",
+   "lat": 18.4742,
+   "lon": -69.8978,
+   "kind": "built",
+   "types": [
+    "official residence"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Palace, Santo Domingo"
+  },
+  {
+   "id": "Q1262548",
+   "name": "Samaná El Catey International Airport",
+   "sl": 16,
+   "file": "Flughafen El Catey.jpg",
+   "lat": 19.27,
+   "lon": -69.7375,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Presidente Juan Bosch International Airport"
+  },
+  {
+   "id": "Q770641",
+   "name": "Estadio Olímpico Félix Sánchez",
+   "sl": 14,
+   "file": "Estadio Olimpico Drone.jpg",
+   "lat": 18.4805,
+   "lon": -69.9187,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q42090",
+   "name": "Los Haitises National Park",
+   "sl": 14,
+   "file": "Los Haitises Park.jpeg",
+   "lat": 19.0258,
+   "lon": -69.63,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Los Haitises National Park"
+  },
+  {
+   "id": "Q673433",
+   "name": "Arroyo Barril Airport",
+   "sl": 13,
+   "file": "Samaná Province, Dominican Republic - panoramio (11).jpg",
+   "lat": 19.1986,
+   "lon": -69.4297,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arroyo Barril International Airport"
+  },
+  {
+   "id": "Q1030428",
+   "name": "María Montez International Airport",
+   "sl": 13,
+   "file": "María Montez International Airport - main entrance.jpg",
+   "lat": 18.2517,
+   "lon": -71.1219,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maria Montez International Airport"
+  },
+  {
+   "id": "Q4868422",
+   "name": "Basílica Catedral Nuestra Señora de la Altagracia",
+   "sl": 11,
+   "file": "BasílicaHigüey.jpg",
+   "lat": 18.6161,
+   "lon": -68.7169,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catedral de Nuestra Señora de la Altagracia en Higüey"
+  },
+  {
+   "id": "Q9055961",
+   "name": "Jaragua National Park",
+   "sl": 11,
+   "file": "CaribFlamingosLOviedo2.jpg",
+   "lat": 17.7892,
+   "lon": -71.499,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jaragua National Park"
+  },
+  {
+   "id": "Q2875806",
+   "name": "Cabo Rojo Airport",
+   "sl": 9,
+   "file": "KingAirCBR.jpg",
+   "lat": 17.9289,
+   "lon": -71.6444,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2033262",
+   "name": "Casa de Campo, Dominican Republic",
+   "sl": 9,
+   "file": "Dominikanische Republik, La Romana – Casa de Campo Information - panoramio.jpg",
+   "lat": 18.4,
+   "lon": -68.9167,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Casa de Campo (La Romana)"
+  },
+  {
+   "id": "Q585251",
+   "name": "Cotubanamá National Park",
+   "sl": 8,
+   "file": "Isla Saona III.jpg",
+   "lat": 18.2283,
+   "lon": -68.683,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cotubanamá Nacional park"
+  },
+  {
+   "id": "Q6974727",
+   "name": "Dominican National Pantheon",
+   "sl": 8,
+   "file": "DOM Santo Domingo, Ciudad Colonial, Pantéon de la Patria 0008.jpg",
+   "lat": 18.4751,
+   "lon": -69.8832,
+   "kind": "built",
+   "types": [
+    "church building",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Pantheon, Santo Domingo"
+  },
+  {
+   "id": "Q6904743",
+   "name": "Monte Cristi National Park",
+   "sl": 8,
+   "file": "Unnamed Road, Dominican Republic - panoramio (9).jpg",
+   "lat": 19.777,
+   "lon": -71.7023,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monte Cristi National Park"
+  },
+  {
+   "id": "Q2284502",
+   "name": "Moto Sierra de Neiba",
+   "sl": 8,
+   "file": "07-05-11LagoEnriquilloDR.jpg",
+   "lat": 18.6358,
+   "lon": -71.5219,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1981524",
+   "name": "Puerta del Conde",
+   "sl": 8,
+   "file": "Puerta del Conde CCSD 09 2018 1629.jpg",
+   "lat": 18.4715,
+   "lon": -69.8915,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puerta del Conde, Santo Domingo"
+  },
+  {
+   "id": "Q3844709",
+   "name": "Santo Domingo Dominican Republic Temple",
+   "sl": 8,
+   "file": "Santo Domingo Temple by Jairo Hernández.jpg",
+   "lat": 18.4666,
+   "lon": -69.9171,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santo Domingo Dominican Republic Temple"
+  }
+ ]
+}

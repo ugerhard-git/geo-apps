@@ -1,0 +1,1310 @@
+{
+ "country": "LV",
+ "items": [
+  {
+   "id": "Q505421",
+   "name": "Riga International Airport",
+   "sl": 52,
+   "file": "Riga Airport 2016.jpg",
+   "lat": 56.9208,
+   "lon": 23.9708,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riga International Airport"
+  },
+  {
+   "id": "Q337179",
+   "name": "Freedom Monument",
+   "sl": 43,
+   "file": "Freedom Monument, Riga (09.09.2022).01.jpg",
+   "lat": 56.9516,
+   "lon": 24.1132,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Freedom monument (Riga)"
+  },
+  {
+   "id": "Q1133059",
+   "name": "Riga Cathedral",
+   "sl": 43,
+   "file": "2025 Riga Cathedral (02).jpg",
+   "lat": 56.9492,
+   "lon": 24.1044,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riga Dome Cathedral"
+  },
+  {
+   "id": "Q322183",
+   "name": "Riga Castle",
+   "sl": 41,
+   "file": "Riga Pils Latvia (cropped).jpg",
+   "lat": 56.951,
+   "lon": 24.1006,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riga Castle"
+  },
+  {
+   "id": "Q1122342",
+   "name": "Gaiziņkalns",
+   "sl": 40,
+   "file": "Gaiziņkalns-aeropanorama - panoramio.jpg",
+   "lat": 56.87,
+   "lon": 25.9594,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gaizinkalns"
+  },
+  {
+   "id": "Q727809",
+   "name": "St. Peter's Church",
+   "sl": 39,
+   "file": "Iglesia de San Pedro, Riga, Letonia, 2012-08-07, DD 32.JPG",
+   "lat": 56.9475,
+   "lon": 24.1094,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Peter's Church, Riga"
+  },
+  {
+   "id": "Q74736",
+   "name": "House of the Blackheads",
+   "sl": 37,
+   "file": "House of Blackheads and St. Peter's Church Tower, Riga, Latvia - Diliff.jpg",
+   "lat": 56.9471,
+   "lon": 24.1069,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "House of Blackheads (Riga)"
+  },
+  {
+   "id": "Q743754",
+   "name": "Gauja National Park",
+   "sl": 35,
+   "file": "Ergeljuklintis424aug037qg.jpg",
+   "lat": 57.4167,
+   "lon": 25.4167,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gauja National Park"
+  },
+  {
+   "id": "Q830319",
+   "name": "Riga Radio and TV Tower",
+   "sl": 35,
+   "file": "Skylines of Riga by Nasta Faley.jpg",
+   "lat": 56.9239,
+   "lon": 24.1369,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riga Radio and TV Tower"
+  },
+  {
+   "id": "Q517037",
+   "name": "Liepāja International Airport",
+   "sl": 33,
+   "file": "LiepajaInternationalAirport.jpg",
+   "lat": 56.5175,
+   "lon": 21.0969,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liepāja International Airport"
+  },
+  {
+   "id": "Q1123987",
+   "name": "Rundāle Palace",
+   "sl": 33,
+   "file": "Rundale Palace (6483271573).jpg",
+   "lat": 56.4133,
+   "lon": 24.0248,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rundāle Palace"
+  },
+  {
+   "id": "Q1643261",
+   "name": "Slītere National Park",
+   "sl": 33,
+   "file": "Pēterezera dabas taka.jpg",
+   "lat": 57.6242,
+   "lon": 22.2944,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Slītere National Park"
+  },
+  {
+   "id": "Q641234",
+   "name": "Xiaomi Arena",
+   "sl": 32,
+   "file": "XIAOMI ARENA.jpg",
+   "lat": 56.968,
+   "lon": 24.1213,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Xiaomi Arena"
+  },
+  {
+   "id": "Q1474452",
+   "name": "Skonto Stadium",
+   "sl": 30,
+   "file": "Skonto stadium (20.10.2025.).jpg",
+   "lat": 56.9614,
+   "lon": 24.1164,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skonto Stadium"
+  },
+  {
+   "id": "Q1728331",
+   "name": "Cape Kolka",
+   "sl": 29,
+   "file": "Kolkas rags.jpg",
+   "lat": 57.7586,
+   "lon": 22.6042,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kolkasrags"
+  },
+  {
+   "id": "Q1282738",
+   "name": "Lake Lubāns",
+   "sl": 29,
+   "file": "Lubāns-See (Lettland).jpg",
+   "lat": 56.7658,
+   "lon": 26.8581,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Lubāns"
+  },
+  {
+   "id": "Q1395739",
+   "name": "Ķemeri National Park",
+   "sl": 28,
+   "file": "Liela Kemeru taka 5jul03.JPG",
+   "lat": 56.9517,
+   "lon": 23.5125,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ķemeri National Park"
+  },
+  {
+   "id": "Q549295",
+   "name": "Rāzna National Park",
+   "sl": 28,
+   "file": "Raznas ezers.JPG",
+   "lat": 56.2667,
+   "lon": 27.5,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "Natura 2000 site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rāzna National Park"
+  },
+  {
+   "id": "Q864764",
+   "name": "North Vidzeme Biosphere Reserve",
+   "sl": 27,
+   "file": "Engelu ala.jpg",
+   "lat": 57.5,
+   "lon": 24.8,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "North Vidzeme Biosphere Reserve"
+  },
+  {
+   "id": "Q1586390",
+   "name": "Museum of the Occupation of Latvia",
+   "sl": 26,
+   "file": "Museum of the Occupation of Latvia (09.09.2022).jpg",
+   "lat": 56.9469,
+   "lon": 24.1064,
+   "kind": "built",
+   "types": [
+    "history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The museum of the Occupation of Latvia"
+  },
+  {
+   "id": "Q654904",
+   "name": "St. James's Cathedral",
+   "sl": 26,
+   "file": "Vistas desde la iglesia de San Pedro, Riga, Letonia, 2012-08-07, DD 21 (cropped).JPG",
+   "lat": 56.9508,
+   "lon": 24.1047,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. James's Cathedral, Riga"
+  },
+  {
+   "id": "Q263710",
+   "name": "Gutmanis Cave",
+   "sl": 25,
+   "file": "Gutmana ala3 8sep07.jpg",
+   "lat": 57.1763,
+   "lon": 24.8423,
+   "kind": "natural",
+   "types": [
+    "cave",
+    "protected Latvian geological and geomorphological natural mo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gutmanis Cave"
+  },
+  {
+   "id": "Q1017107",
+   "name": "Lake Burtnieks",
+   "sl": 24,
+   "file": "Burtnieku ezers pie Burtniekiem.jpg",
+   "lat": 57.7333,
+   "lon": 25.2333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burtnieks lake"
+  },
+  {
+   "id": "Q1939427",
+   "name": "Venta Rapid",
+   "sl": 24,
+   "file": "Ventas rapid kuldiga latvia.jpg",
+   "lat": 56.9681,
+   "lon": 21.9789,
+   "kind": "natural",
+   "types": [
+    "protected Latvian geological and geomorphological natural mo",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Venta Rapid"
+  },
+  {
+   "id": "Q1133726",
+   "name": "Daugava Stadium",
+   "sl": 23,
+   "file": "Grīziņkalns, Latgale Suburb, Riga, Latvia - panoramio.jpg",
+   "lat": 56.9552,
+   "lon": 24.1589,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daugava Stadium (Riga)"
+  },
+  {
+   "id": "Q1508013",
+   "name": "Jelgava Palace",
+   "sl": 23,
+   "file": "Jelgava palace - panoramio (1).jpg",
+   "lat": 56.6558,
+   "lon": 23.733,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jelgava Palace"
+  },
+  {
+   "id": "Q697912",
+   "name": "Riga-Kaiserwald concentration camp",
+   "sl": 22,
+   "file": "Kaiserwald piemineklis.jpg",
+   "lat": 56.9969,
+   "lon": 24.1314,
+   "kind": "built",
+   "types": [
+    "concentration camp",
+    "Nazi concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaiserwald memorial (Riga)"
+  },
+  {
+   "id": "Q1258906",
+   "name": "Lake Drīdzis",
+   "sl": 21,
+   "file": "Dridzis.jpg",
+   "lat": 55.9775,
+   "lon": 27.305,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Drīdzis"
+  },
+  {
+   "id": "Q570564",
+   "name": "Lake Engure",
+   "sl": 21,
+   "file": "Engures ezers pie Dzedriem.jpg",
+   "lat": 57.2667,
+   "lon": 23.1,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Engures ezers"
+  },
+  {
+   "id": "Q603462",
+   "name": "Lake Razna",
+   "sl": 21,
+   "file": "Rāznas ezers, Mākoņkalna pagasts, Rēzeknes novads, Latvia - panoramio.jpg",
+   "lat": 56.3239,
+   "lon": 27.4606,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rāzna Lake"
+  },
+  {
+   "id": "Q1550015",
+   "name": "Nativity Cathedral, Riga",
+   "sl": 21,
+   "file": "20250820 Geburtskathedrale Riga PXL 20250820 180306343.jpg",
+   "lat": 56.9539,
+   "lon": 24.1155,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of the Nativity of Christ (Riga)"
+  },
+  {
+   "id": "Q2152796",
+   "name": "Riga Motor Museum",
+   "sl": 21,
+   "file": "Rīgas motormuzejs (09.09.2022).jpg",
+   "lat": 56.9706,
+   "lon": 24.2277,
+   "kind": "built",
+   "types": [
+    "automobile museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riga Motor Museum"
+  },
+  {
+   "id": "Q32969",
+   "name": "Skonto Hall",
+   "sl": 21,
+   "file": "Olimpiskā Skonto halle.jpg",
+   "lat": 56.9619,
+   "lon": 24.1144,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skonto Hall"
+  },
+  {
+   "id": "Q3243402",
+   "name": "Ventspils International Airport",
+   "sl": 21,
+   "file": "Ventspils Airport 01.jpg",
+   "lat": 57.3578,
+   "lon": 21.5442,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ventspils Airport"
+  },
+  {
+   "id": "Q1454249",
+   "name": "Port of Ventspils",
+   "sl": 20,
+   "file": "Ventspilio uostas.2010-07-23.jpg",
+   "lat": 57.3961,
+   "lon": 21.5622,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Ventspils"
+  },
+  {
+   "id": "Q190670",
+   "name": "Riga Central Market",
+   "sl": 20,
+   "file": "Mercado Central, Riga, Letonia, 2012-08-07, DD 01.JPG",
+   "lat": 56.944,
+   "lon": 24.116,
+   "kind": "built",
+   "types": [
+    "market hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Central Market hall in Riga"
+  },
+  {
+   "id": "Q697919",
+   "name": "Salaspils camp",
+   "sl": 20,
+   "file": "Memorial Salaspils 1.JPG",
+   "lat": 56.8744,
+   "lon": 24.3014,
+   "kind": "built",
+   "types": [
+    "concentration camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Labor camp Salaspils"
+  },
+  {
+   "id": "Q2638127",
+   "name": "Aglona Basilica",
+   "sl": 19,
+   "file": "Aglona Basilica.jpg",
+   "lat": 56.1269,
+   "lon": 27.0156,
+   "kind": "built",
+   "types": [
+    "church building",
+    "international shrine",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica in Aglona"
+  },
+  {
+   "id": "Q2512369",
+   "name": "Cēsis Castle",
+   "sl": 19,
+   "file": "Cesis Burgruine1.jpg",
+   "lat": 57.3133,
+   "lon": 25.27,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cēsis Castle"
+  },
+  {
+   "id": "Q2371274",
+   "name": "Daugavpils International Airport",
+   "sl": 19,
+   "file": "'Lidosta' - panoramio.jpg",
+   "lat": 55.9447,
+   "lon": 26.665,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daugavpils Airport"
+  },
+  {
+   "id": "Q186097",
+   "name": "Powder Tower",
+   "sl": 19,
+   "file": "Torre del Polvorín, Riga, Letonia, 2012-08-07, DD 01.JPG",
+   "lat": 56.9513,
+   "lon": 24.1087,
+   "kind": "built",
+   "types": [
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Powder Tower in Riga"
+  },
+  {
+   "id": "Q2984677",
+   "name": "Riga Zoo",
+   "sl": 19,
+   "file": "Riga Zoo.jpg",
+   "lat": 57.0067,
+   "lon": 24.16,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riga Zoo"
+  },
+  {
+   "id": "Q317508",
+   "name": "Vanšu Bridge",
+   "sl": 19,
+   "file": "Vanšu Bridge (cropped).JPG",
+   "lat": 56.9511,
+   "lon": 24.0953,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vanšu tilts"
+  },
+  {
+   "id": "Q2038810",
+   "name": "Ventspils International Radio Astronomy Center",
+   "sl": 19,
+   "file": "Telescope of Ventspils International Radio Astronomy Centre.jpg",
+   "lat": 57.5535,
+   "lon": 21.8549,
+   "kind": "built",
+   "types": [
+    "radio astronomy observatory",
+    "scientific institute"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Irbene RT32 radiotelescope"
+  },
+  {
+   "id": "Q3018073",
+   "name": "Freeport of Riga",
+   "sl": 18,
+   "file": "Coronado(Valetta)vessel-inRiga(Latvia).JPG",
+   "lat": 56.9569,
+   "lon": 24.1039,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Water transport in Riga"
+  },
+  {
+   "id": "Q16355736",
+   "name": "House of the Livonian Noble Corporation",
+   "sl": 18,
+   "file": "Flickr - Saeima - 4.maijs Saeimā (6).jpg",
+   "lat": 56.9511,
+   "lon": 24.1044,
+   "kind": "built",
+   "types": [
+    "parliament building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Main building of the Saeima"
+  },
+  {
+   "id": "Q1579595",
+   "name": "Liepāja Lake",
+   "sl": 18,
+   "file": "Liepaja Lake.jpg",
+   "lat": 56.4667,
+   "lon": 21.0667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liepājas ezers"
+  },
+  {
+   "id": "Q5926428",
+   "name": "National Botanic Garden of Latvia",
+   "sl": 18,
+   "file": "National Botanic Garden.jpg",
+   "lat": 56.8654,
+   "lon": 24.3551,
+   "kind": "both",
+   "types": [
+    "botanical garden",
+    "protected dendrological plantation in Latvia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Botanic Garden of Latvia"
+  },
+  {
+   "id": "Q1846214",
+   "name": "Peitav Synagogue",
+   "sl": 18,
+   "file": "5-Riga Syna-DSC04895.JPG",
+   "lat": 56.9458,
+   "lon": 24.1106,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peitav Synagogue"
+  },
+  {
+   "id": "Q2451398",
+   "name": "Spilve Airport",
+   "sl": 18,
+   "file": "Riga spilve.jpg",
+   "lat": 56.9917,
+   "lon": 24.075,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Spilve airport"
+  },
+  {
+   "id": "Q16353610",
+   "name": "Teiči Nature Reserve",
+   "sl": 18,
+   "file": "Teiču dabas rezervāts.jpg",
+   "lat": 56.6025,
+   "lon": 26.4986,
+   "kind": "natural",
+   "types": [
+    "Natura 2000 site",
+    "strict nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teiči Strict Nature Reserve"
+  },
+  {
+   "id": "Q2075107",
+   "name": "Turaida Castle",
+   "sl": 18,
+   "file": "Turaida Castle.JPG",
+   "lat": 57.1822,
+   "lon": 24.8503,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Turaida Castle"
+  },
+  {
+   "id": "Q645898",
+   "name": "Bauska Castle",
+   "sl": 17,
+   "file": "Bauskas pils foto Sandris Kuzmickis.jpg",
+   "lat": 56.4036,
+   "lon": 24.1736,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bauska Castle"
+  },
+  {
+   "id": "Q1576080",
+   "name": "Ķīšezers",
+   "sl": 17,
+   "file": "Ķīšezers, Mežaparks, Riga.JPG",
+   "lat": 57.0226,
+   "lon": 24.172,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ķīšezers"
+  },
+  {
+   "id": "Q893597",
+   "name": "Ss. Boris and Gleb Cathedral, Daugavpils",
+   "sl": 17,
+   "file": "Daugavpils Ss Boris and Gleb Orthodox Cathedral (2).jpg",
+   "lat": 55.8707,
+   "lon": 26.5379,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daugavpils Ss Boris and Gleb Orthodox Cathedral"
+  },
+  {
+   "id": "Q2533242",
+   "name": "Cat House",
+   "sl": 15,
+   "file": "Building in Riga 4.JPG",
+   "lat": 56.9502,
+   "lon": 24.1084,
+   "kind": "built",
+   "types": [
+    "multifamily residential"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cat House (Riga)"
+  },
+  {
+   "id": "Q2637736",
+   "name": "Jugla Lake",
+   "sl": 15,
+   "file": "Озеро Юглас.JPG",
+   "lat": 56.9789,
+   "lon": 24.2803,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juglas ezers"
+  },
+  {
+   "id": "Q2568547",
+   "name": "St. John's Church",
+   "sl": 15,
+   "file": "Riga johanneskirche 133731389 crop rotate.jpg",
+   "lat": 56.9475,
+   "lon": 24.1108,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. John's Church, Riga"
+  },
+  {
+   "id": "Q2981391",
+   "name": "Daugava Stadium",
+   "sl": 14,
+   "file": "Daugavas stadions (Liepaja).jpg",
+   "lat": 56.503,
+   "lon": 20.9954,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daugava Stadium (Liepāja)"
+  },
+  {
+   "id": "Q2666994",
+   "name": "Daugavpils Fortress",
+   "sl": 14,
+   "file": "Daugavpils fortress 05.jpg",
+   "lat": 55.8863,
+   "lon": 26.4953,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Daugavpils fortress"
+  },
+  {
+   "id": "Q490189",
+   "name": "Jūrmala Airport",
+   "sl": 14,
+   "file": "Jūrmalas lidostas terminālis (centrs).jpg",
+   "lat": 56.9417,
+   "lon": 23.2233,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jūrmala airport"
+  },
+  {
+   "id": "Q3271618",
+   "name": "Lielvārde Air Base",
+   "sl": 14,
+   "file": "Steadfast Javelin II proves NATO strong, ready 140908-A-JH560-010.jpg",
+   "lat": 56.7783,
+   "lon": 24.8533,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lielvārde airbase"
+  },
+  {
+   "id": "Q2577054",
+   "name": "Monument to the Liberators of Soviet Latvia and Riga from the German Fascist Invaders",
+   "sl": 14,
+   "file": "Bāriņu iela un Uzvaras piemineklis.jpg",
+   "lat": 56.9368,
+   "lon": 24.0858,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monument to the Liberators of Soviet Latvia and Riga from the German Fascist Invaders"
+  },
+  {
+   "id": "Q1532886",
+   "name": "Port of Liepāja",
+   "sl": 14,
+   "file": "DJI Port of Liepāja - ship (51127034931).jpg",
+   "lat": 56.5278,
+   "lon": 20.9944,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2662439",
+   "name": "Ryčy",
+   "sl": 14,
+   "file": "Вид на озеро Ричу.jpg",
+   "lat": 55.7,
+   "lon": 26.7,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BY"
+   ],
+   "cat": "Riču ezers"
+  },
+  {
+   "id": "Q2668017",
+   "name": "St. Alexander Nevsky Church",
+   "sl": 14,
+   "file": "Alexander Nevsky Church.jpg",
+   "lat": 56.9561,
+   "lon": 24.1214,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Eastern Orthodox church building",
+    "wooden church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Saint Alexander Nevsky in Riga"
+  },
+  {
+   "id": "Q7920355",
+   "name": "Ventspils Castle",
+   "sl": 14,
+   "file": "Ventspilis. Livonijos ordino pilis, 1290 m. 2006-09-22.jpg",
+   "lat": 57.3961,
+   "lon": 21.5586,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ventspils Castle"
+  },
+  {
+   "id": "Q6541959",
+   "name": "Zunda Towers",
+   "sl": 14,
+   "file": "Riga Constructions (82409277).jpeg",
+   "lat": 56.9473,
+   "lon": 24.0801,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zunda Towers"
+  },
+  {
+   "id": "Q458599",
+   "name": "Building of Latvian Academy of Sciences",
+   "sl": 13,
+   "file": "Łotewska Akademia Nauk.jpg",
+   "lat": 56.9433,
+   "lon": 24.1218,
+   "kind": "built",
+   "types": [
+    "tower block"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Latvian Academy of Sciences (building)"
+  },
+  {
+   "id": "Q1846204",
+   "name": "Riga Choral Synagogue",
+   "sl": 13,
+   "file": "V10p417001 Riga.jpg",
+   "lat": 56.9424,
+   "lon": 24.1263,
+   "kind": "built",
+   "types": [
+    "demolished synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riga Choral Synagogue"
+  },
+  {
+   "id": "Q2560782",
+   "name": "Sigulda bobsleigh, luge, and skeleton track",
+   "sl": 13,
+   "file": "Siguldas kamaniņu trase. Sigulda luge track - panoramio (2).jpg",
+   "lat": 57.1522,
+   "lon": 24.8386,
+   "kind": "built",
+   "types": [
+    "bobsleigh track"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sigulda bobsleigh, luge, and skeleton track"
+  },
+  {
+   "id": "Q919425",
+   "name": "Sivers",
+   "sl": 13,
+   "file": "Lake Sivers.jpg",
+   "lat": 56.0214,
+   "lon": 27.3381,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Sivers"
+  },
+  {
+   "id": "Q2660396",
+   "name": "Swedish Gate",
+   "sl": 13,
+   "file": "Svenskporten Riga.jpg",
+   "lat": 56.9514,
+   "lon": 24.1064,
+   "kind": "built",
+   "types": [
+    "gate"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Swedish Gate (Riga)"
+  },
+  {
+   "id": "Q2041341",
+   "name": "Akmens tilts",
+   "sl": 12,
+   "file": "Riga akmens tilts stone bridge.jpg",
+   "lat": 56.9447,
+   "lon": 24.1014,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stone Bridge (Riga)"
+  },
+  {
+   "id": "Q2687278",
+   "name": "Albert Street",
+   "sl": 12,
+   "file": "Edificio modernista en Alberta iela 2a, Riga, Letonia, 2012-08-07, DD 02.JPG",
+   "lat": 56.959,
+   "lon": 24.1097,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alberta iela (Riga)"
+  },
+  {
+   "id": "Q4992817",
+   "name": "Ēdole Castle",
+   "sl": 12,
+   "file": "5 Edoles-pils4-14jun08.jpg",
+   "lat": 57.0175,
+   "lon": 21.6969,
+   "kind": "built",
+   "types": [
+    "manor house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ēdole Castle"
+  },
+  {
+   "id": "Q3798865",
+   "name": "Jaunpils Castle",
+   "sl": 12,
+   "file": "6 Jaunpils-pils3-5apr08.jpg",
+   "lat": 56.7306,
+   "lon": 23.0211,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jaunpils Castle"
+  },
+  {
+   "id": "Q5248686",
+   "name": "Kaņieris",
+   "sl": 12,
+   "file": "Kaņiera ezers pie Lapmežciema.jpg",
+   "lat": 57.0031,
+   "lon": 23.4692,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaņieris"
+  },
+  {
+   "id": "Q451098",
+   "name": "Lake Alūksne",
+   "sl": 12,
+   "file": "Alūksnes ezers no putna lidojuma - panoramio (1).jpg",
+   "lat": 57.45,
+   "lon": 27.0833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Alūksne"
+  },
+  {
+   "id": "Q3738617",
+   "name": "Lake Murati",
+   "sl": 12,
+   "file": "Murati järv.jpg",
+   "lat": 57.5833,
+   "lon": 27.0917,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EE"
+   ],
+   "cat": ""
+  }
+ ]
+}

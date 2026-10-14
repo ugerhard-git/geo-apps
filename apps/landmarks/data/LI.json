@@ -1,0 +1,522 @@
+{
+ "country": "LI",
+ "items": [
+  {
+   "id": "Q694782",
+   "name": "Vaduz Castle",
+   "sl": 40,
+   "file": "Liechtenstein asv2022-10 img22 Vaduz Schloss.jpg",
+   "lat": 47.1394,
+   "lon": 9.5244,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vaduz Castle"
+  },
+  {
+   "id": "Q665000",
+   "name": "Grauspitz",
+   "sl": 35,
+   "file": "Grauspitzen.JPG",
+   "lat": 47.0527,
+   "lon": 9.5813,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": "Grauspitz"
+  },
+  {
+   "id": "Q597004",
+   "name": "Rheinpark Stadion",
+   "sl": 35,
+   "file": "Haupttribüne mit Gebirge.JPG",
+   "lat": 47.1403,
+   "lon": 9.5103,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rheinpark-Stadion"
+  },
+  {
+   "id": "Q659729",
+   "name": "Rätikon",
+   "sl": 26,
+   "file": "Schesaplana01.jpg",
+   "lat": 47.0539,
+   "lon": 9.7072,
+   "kind": "natural",
+   "types": [
+    "alpine subsection",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT",
+    "CH"
+   ],
+   "cat": "Rätikon"
+  },
+  {
+   "id": "Q156427",
+   "name": "Vaduz Cathedral",
+   "sl": 25,
+   "file": "Liechtenstein asv2022-10 img21 Vaduz Kathedrale StFlorin.jpg",
+   "lat": 47.1362,
+   "lon": 9.5227,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of St. Florin, Vaduz"
+  },
+  {
+   "id": "Q666531",
+   "name": "Naafkopf",
+   "sl": 24,
+   "file": "Naafkopf.jpg",
+   "lat": 47.0607,
+   "lon": 9.6072,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT",
+    "CH"
+   ],
+   "cat": "Naafkopf"
+  },
+  {
+   "id": "Q2251899",
+   "name": "Malbun",
+   "sl": 23,
+   "file": "Malbun (FL).jpg",
+   "lat": 47.1027,
+   "lon": 9.6078,
+   "kind": "built",
+   "types": [
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malbun"
+  },
+  {
+   "id": "Q1792561",
+   "name": "Kunstmuseum Liechtenstein",
+   "sl": 21,
+   "file": "Kunstmuseum Liechtenstein, Vaduz.jpg",
+   "lat": 47.1393,
+   "lon": 9.5225,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "memory institution",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kunstmuseum Liechtenstein"
+  },
+  {
+   "id": "Q75570",
+   "name": "Falknis",
+   "sl": 19,
+   "file": "Blick auf falknis.JPG",
+   "lat": 47.0505,
+   "lon": 9.5645,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": "Falknis"
+  },
+  {
+   "id": "Q206798",
+   "name": "Drei Schwestern",
+   "sl": 18,
+   "file": "Drei schwestern.JPG",
+   "lat": 47.175,
+   "lon": 9.5714,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Drei Schwestern"
+  },
+  {
+   "id": "Q156543",
+   "name": "Gampriner Seele",
+   "sl": 18,
+   "file": "Gampriner Seele.jpg",
+   "lat": 47.225,
+   "lon": 9.5092,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gampriner Seelein"
+  },
+  {
+   "id": "Q1557760",
+   "name": "Liechtenstein National Museum",
+   "sl": 18,
+   "file": "Liechtenstein asv2022-10 img16 Vaduz Verweserhaus.jpg",
+   "lat": 47.1383,
+   "lon": 9.5227,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "history museum",
+    "memory institution"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liechtensteinisches Landesmuseum"
+  },
+  {
+   "id": "Q1012141",
+   "name": "Gutenberg Castle",
+   "sl": 17,
+   "file": "Liechtenstein asv2022-10 img25 Balzers Burg Gutenberg.jpg",
+   "lat": 47.0653,
+   "lon": 9.5003,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Burg Gutenberg"
+  },
+  {
+   "id": "Q801403",
+   "name": "Schaan-Vaduz railway station",
+   "sl": 17,
+   "file": "Bahnhof Schaan-Vaduz mit Busbahnhof.jpg",
+   "lat": 47.1686,
+   "lon": 9.5083,
+   "kind": "built",
+   "types": [
+    "station located on surface",
+    "through station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Schaan-Vaduz railway station"
+  },
+  {
+   "id": "Q642396",
+   "name": "Galinakopf",
+   "sl": 16,
+   "file": "Galinakopf.jpg",
+   "lat": 47.1517,
+   "lon": 9.6206,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Galinakopf"
+  },
+  {
+   "id": "Q2092547",
+   "name": "Sportpark Eschen-Mauren",
+   "sl": 15,
+   "file": "Grandstand of USV Eschen-Mauren.jpg",
+   "lat": 47.2058,
+   "lon": 9.5378,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4133703",
+   "name": "Garsellakopf",
+   "sl": 14,
+   "file": "Garsellikopf46.jpg",
+   "lat": 47.1702,
+   "lon": 9.5646,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Garsellakopf"
+  },
+  {
+   "id": "Q673660",
+   "name": "Mazorakopf",
+   "sl": 14,
+   "file": "Koraspitz Mazorakopf Mittlerspitz.jpg",
+   "lat": 47.0485,
+   "lon": 9.557,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": "Falknishorn Mazorakopf"
+  },
+  {
+   "id": "Q4187536",
+   "name": "Sarojahoehe",
+   "sl": 14,
+   "file": "Saroja Gipfel vom Sattelköpfle aus gesehen.jpg",
+   "lat": 47.1908,
+   "lon": 9.5725,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Sarojahöhe"
+  },
+  {
+   "id": "Q4072361",
+   "name": "Augstenberg",
+   "sl": 13,
+   "file": "AugstenbergLi01.jpg",
+   "lat": 47.0825,
+   "lon": 9.61,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Augstenberg (Rätikon)"
+  },
+  {
+   "id": "Q4145968",
+   "name": "Gorfion",
+   "sl": 13,
+   "file": "Gorfion vom Bettlerjoch.jpg",
+   "lat": 47.0781,
+   "lon": 9.6186,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Gorvion"
+  },
+  {
+   "id": "Q4244296",
+   "name": "Kuhgrat",
+   "sl": 12,
+   "file": "Kuegrat03.jpg",
+   "lat": 47.1667,
+   "lon": 9.5667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuegrat"
+  },
+  {
+   "id": "Q2065492",
+   "name": "Mittlerspitz",
+   "sl": 12,
+   "file": "Koraspitz Mazorakopf Mittlerspitz.jpg",
+   "lat": 47.065,
+   "lon": 9.5397,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": "Mittlerspitz"
+  },
+  {
+   "id": "Q4332782",
+   "name": "Ochsenkopf",
+   "sl": 12,
+   "file": "Ochsenkopf Rätikon.jpg",
+   "lat": 47.1147,
+   "lon": 9.6244,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Ochsenkopf (Rätikon)"
+  },
+  {
+   "id": "Q972697",
+   "name": "Postal Museum",
+   "sl": 12,
+   "file": "Engländerbau.jpg",
+   "lat": 47.1389,
+   "lon": 9.5228,
+   "kind": "built",
+   "types": [
+    "memory institution",
+    "postal museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liechtenstein Postal Museum"
+  },
+  {
+   "id": "Q4528266",
+   "name": "Schönberg",
+   "sl": 11,
+   "file": "FL - Schönberg 001.jpg",
+   "lat": 47.1303,
+   "lon": 9.5931,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Schönberg (Rätikon)"
+  },
+  {
+   "id": "Q4398696",
+   "name": "Rotspitz",
+   "sl": 10,
+   "file": "Rotspitz vom Gschöllkopf gesehen.jpg",
+   "lat": 47.0579,
+   "lon": 9.5524,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q172960",
+   "name": "Stachlerkopf",
+   "sl": 9,
+   "file": "Malbun Stachlerkopf.jpg",
+   "lat": 47.1219,
+   "lon": 9.5925,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stachlerkopf"
+  },
+  {
+   "id": "Q1367118",
+   "name": "Eschnerberg",
+   "sl": 8,
+   "file": "Eschnerberg von West.jpg",
+   "lat": 47.2333,
+   "lon": 9.55,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AT"
+   ],
+   "cat": "Eschnerberg"
+  },
+  {
+   "id": "Q1795304",
+   "name": "Vaduz city hall",
+   "sl": 8,
+   "file": "Rathaus Vaduz.jpg",
+   "lat": 47.1407,
+   "lon": 9.5219,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rathaus, Vaduz"
+  }
+ ]
+}

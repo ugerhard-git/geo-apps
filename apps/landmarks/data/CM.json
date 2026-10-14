@@ -1,0 +1,771 @@
+{
+ "country": "CM",
+ "items": [
+  {
+   "id": "Q190562",
+   "name": "Mount Cameroon",
+   "sl": 60,
+   "file": "Le Char des Dieux - Fako Mountain - Mount Cameroon National Park - Région du Sud-ouest.jpg",
+   "lat": 4.2167,
+   "lon": 9.1725,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Cameroon"
+  },
+  {
+   "id": "Q332628",
+   "name": "Lake Nyos",
+   "sl": 49,
+   "file": "Nyos Lake correct.jpg",
+   "lat": 6.4381,
+   "lon": 10.2989,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Nyos"
+  },
+  {
+   "id": "Q843147",
+   "name": "Dja Faunal Reserve",
+   "sl": 40,
+   "file": "Mantelmangabe Dja.JPG",
+   "lat": 3.0167,
+   "lon": 12.9833,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "faunal reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Dja River"
+  },
+  {
+   "id": "Q2580451",
+   "name": "Sangha Trinational",
+   "sl": 36,
+   "file": "Sunbeams in Sangha Trinational rainforest.jpg",
+   "lat": 2.6667,
+   "lon": 16.3333,
+   "kind": "",
+   "types": [
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "CF",
+    "CG"
+   ],
+   "cat": "Trinational de la Sangha"
+  },
+  {
+   "id": "Q898928",
+   "name": "Douala International Airport",
+   "sl": 31,
+   "file": "Aéroport de Douala.jpg",
+   "lat": 4.0058,
+   "lon": 9.7194,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Douala International Airport"
+  },
+  {
+   "id": "Q976055",
+   "name": "Chappal Waddi",
+   "sl": 30,
+   "file": "Chappal Wadi.jpg",
+   "lat": 7.0361,
+   "lon": 11.715,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NG"
+   ],
+   "cat": "Chappal Waddi"
+  },
+  {
+   "id": "Q1815584",
+   "name": "Lobéké National Park",
+   "sl": 26,
+   "file": "Buffle dans le Parc National de Lobéké.jpg",
+   "lat": 2.25,
+   "lon": 15.75,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2580451",
+    "name": "Sangha Trinational"
+   },
+   "also": [],
+   "cat": "Lobéké National Park"
+  },
+  {
+   "id": "Q1019469",
+   "name": "Bénoué National Park",
+   "sl": 25,
+   "file": "BénouéNP4.jpg",
+   "lat": 8.3333,
+   "lon": 13.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bénoué National Park"
+  },
+  {
+   "id": "Q1891077",
+   "name": "Lake Monoun",
+   "sl": 25,
+   "file": "Lake Monoun.jpg",
+   "lat": 5.58,
+   "lon": 10.5867,
+   "kind": "natural",
+   "types": [
+    "meromictic lake",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Monoun"
+  },
+  {
+   "id": "Q401009",
+   "name": "Stade Ahmadou Ahidjo",
+   "sl": 25,
+   "file": "Stade Omnisports Ahmadou Ahidjo Yaoundé 01.jpg",
+   "lat": 3.8855,
+   "lon": 11.5405,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Ahmadou Ahidjo"
+  },
+  {
+   "id": "Q1751924",
+   "name": "Waza National Park",
+   "sl": 24,
+   "file": "Kamerun WasaPark Elefanten.jpg",
+   "lat": 11.2667,
+   "lon": 14.4167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Waza National Park"
+  },
+  {
+   "id": "Q25381938",
+   "name": "Paul Biya Stadium",
+   "sl": 22,
+   "file": "09 janvier 2022 Lancement CAN 2021-2.jpg",
+   "lat": 3.9508,
+   "lon": 11.5406,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paul Biya Stadium"
+  },
+  {
+   "id": "Q27516338",
+   "name": "Japoma Sports Complex",
+   "sl": 20,
+   "file": "Japoma Staduim.jpg",
+   "lat": 4.005,
+   "lon": 9.8253,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Japoma Stadium"
+  },
+  {
+   "id": "Q894949",
+   "name": "Bouba Njida National Park",
+   "sl": 19,
+   "file": "Bouba Njida (6841416170).jpg",
+   "lat": 8.6236,
+   "lon": 14.6567,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bouba Njida National Park"
+  },
+  {
+   "id": "Q2161272",
+   "name": "Garoua International Airport",
+   "sl": 19,
+   "file": "Aéroport International Airport - panoramio (2).jpg",
+   "lat": 9.3358,
+   "lon": 13.37,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Garoua International Airport"
+  },
+  {
+   "id": "Q1784847",
+   "name": "Korup National Park",
+   "sl": 19,
+   "file": "Mana suspension bridge over Mana river.JPG",
+   "lat": 5.0933,
+   "lon": 8.8411,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Korup National Park"
+  },
+  {
+   "id": "Q1370490",
+   "name": "Lake Fianga",
+   "sl": 17,
+   "file": "Fianga-See.jpg",
+   "lat": 9.9667,
+   "lon": 15.2,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TD"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q3290107",
+   "name": "Mount Manengouba",
+   "sl": 17,
+   "file": "Manengouba 2.jpg",
+   "lat": 5.022,
+   "lon": 9.842,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "protected area",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Manengouba"
+  },
+  {
+   "id": "Q895125",
+   "name": "Boumba Bek National Park",
+   "sl": 16,
+   "file": "Elephants around tree in Waza, Cameroon.jpg",
+   "lat": 2.2167,
+   "lon": 15.7,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1031366",
+   "name": "Campo Ma'an National Park",
+   "sl": 16,
+   "file": "Peters Duiker (Cephalophus callipygus) from behind, Campo Maan National Park.jpg",
+   "lat": 2.3453,
+   "lon": 9.9912,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Campo Ma'an National Park"
+  },
+  {
+   "id": "Q1544357",
+   "name": "Nki National Park",
+   "sl": 16,
+   "file": "20160721 OSM-Nki.png",
+   "lat": 2.4167,
+   "lon": 14.4167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1375368",
+   "name": "Lagdo Reservoir",
+   "sl": 15,
+   "file": "Lagdo Dam.jpg",
+   "lat": 8.8833,
+   "lon": 13.8333,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lagdo Reservoir"
+  },
+  {
+   "id": "Q16649585",
+   "name": "Limbe Stadium",
+   "sl": 15,
+   "file": "LIMBE STADIUM BY MTTFA.jpg",
+   "lat": 4.0258,
+   "lon": 9.1591,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade de Limbé"
+  },
+  {
+   "id": "Q3322001",
+   "name": "Mount Oku",
+   "sl": 15,
+   "file": "Lake Oku Cameroon.jpg",
+   "lat": 6.1997,
+   "lon": 10.5189,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q808581",
+   "name": "Lake Barombi Mbo",
+   "sl": 14,
+   "file": "Manengouba-Tombel.jpg",
+   "lat": 4.6614,
+   "lon": 9.4025,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Barombi Mbo"
+  },
+  {
+   "id": "Q1115550",
+   "name": "Lake Oku",
+   "sl": 14,
+   "file": "Lake Oku Cameroon.jpg",
+   "lat": 6.1928,
+   "lon": 10.4539,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "maar"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Oku"
+  },
+  {
+   "id": "Q21619235",
+   "name": "Bafoussam omnisports stadium",
+   "sl": 13,
+   "file": "Stade Omnisport (12).jpg",
+   "lat": 5.4781,
+   "lon": 10.5468,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade omnisports de Bafoussam (Kouekong)"
+  },
+  {
+   "id": "Q1251334",
+   "name": "Douala-Edéa National Park",
+   "sl": 12,
+   "file": "Gymnosiphon longistylus Douala-Edea Reserve Cameroon IMG 2163 edit.JPG",
+   "lat": 3.5,
+   "lon": 9.8333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Réserve de faune de Douala-Edéa"
+  },
+  {
+   "id": "Q6477236",
+   "name": "Lake Ossa",
+   "sl": 12,
+   "file": "Lac Ossa en vue aérienne - Réserve de faune du Lac Ossa - Région du Littoral - Cameroun.jpg",
+   "lat": 3.7967,
+   "lon": 10.0248,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ossa"
+  },
+  {
+   "id": "Q1567328",
+   "name": "Stade de la Réunification",
+   "sl": 12,
+   "file": "StadeOmnisportsBepanda.jpg",
+   "lat": 4.0556,
+   "lon": 9.7186,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade de la Réunification"
+  },
+  {
+   "id": "Q5336726",
+   "name": "Edea Hydroelectric Power Station",
+   "sl": 11,
+   "file": "Africa. Cameroons. Giant cranes like these jutting up over the construction work on the Eda dam have given Africa a... - NARA - 541655.tif",
+   "lat": 3.8129,
+   "lon": 10.128,
+   "kind": "built",
+   "types": [
+    "hydroelectric dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edea Hydroelectric Power Plant"
+  },
+  {
+   "id": "Q522250",
+   "name": "Takamanda National Park",
+   "sl": 11,
+   "file": "Mbe mountains community forest.jpg",
+   "lat": 6.1667,
+   "lon": 9.3333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Takamanda National Park"
+  },
+  {
+   "id": "Q2967737",
+   "name": "Chutes d'Ekom",
+   "sl": 10,
+   "file": "Chutes d'Ekom Nkam.jpg",
+   "lat": 5.0625,
+   "lon": 10.0296,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ekom Nkam Falls"
+  },
+  {
+   "id": "Q808580",
+   "name": "Lake Barombi Koto",
+   "sl": 10,
+   "file": "Manengouba-Tombel.jpg",
+   "lat": 4.4667,
+   "lon": 9.2667,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q575233",
+   "name": "Lake Dissoni",
+   "sl": 10,
+   "file": "Manengouba-Tombel.jpg",
+   "lat": 4.7297,
+   "lon": 9.2819,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1107134",
+   "name": "Léré Lake",
+   "sl": 10,
+   "file": "Lake Lere and Lake Trene.jpg",
+   "lat": 9.6167,
+   "lon": 14.1667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TD"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q19972176",
+   "name": "Mbakaou Reservoir",
+   "sl": 10,
+   "file": "Lac de Mbakaou.jpg",
+   "lat": 6.3722,
+   "lon": 12.8117,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15961646",
+   "name": "Blackitude Museum",
+   "sl": 8,
+   "file": "BLackitude Museum.jpg",
+   "lat": 3.8642,
+   "lon": 11.5183,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blackitude Museum"
+  },
+  {
+   "id": "Q2942426",
+   "name": "Cathedral of Saints Peter and Paul, Douala",
+   "sl": 8,
+   "file": "Cathedrale St Pierre et St Paul.JPG",
+   "lat": 4.0442,
+   "lon": 9.6925,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Peter and Saint Paul Cathedral in Douala"
+  },
+  {
+   "id": "Q1051789",
+   "name": "Doual'art",
+   "sl": 8,
+   "file": "Roberto Paci Dalò - SUD Salon Urbain de Douala 2010 (239).jpg",
+   "lat": 4.0433,
+   "lon": 9.6871,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "arts center",
+    "museum",
+    "noncommercial art gallery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doual'art"
+  },
+  {
+   "id": "Q996128",
+   "name": "Japoma Bridge",
+   "sl": 8,
+   "file": "Photo Pont Allemand d'Edéa.JPG",
+   "lat": 3.8067,
+   "lon": 10.1255,
+   "kind": "built",
+   "types": [
+    "railway bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edea bridge"
+  },
+  {
+   "id": "Q6478049",
+   "name": "Lake Tissongo",
+   "sl": 8,
+   "file": "Lac tisongo, mouanko.png",
+   "lat": 3.5689,
+   "lon": 9.8789,
+   "kind": "natural",
+   "types": [
+    "lagoon",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tissongo"
+  },
+  {
+   "id": "Q6481857",
+   "name": "Lamido Grand Mosque",
+   "sl": 8,
+   "file": "LamidoGrandMosque.jpg",
+   "lat": 7.3209,
+   "lon": 13.5855,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lamido Grand Mosque"
+  },
+  {
+   "id": "Q6651058",
+   "name": "Little Mount Cameroon",
+   "sl": 8,
+   "file": "Little Mount Cameroon (Etinde).jpg",
+   "lat": 4.0731,
+   "lon": 9.1158,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Etinde"
+  },
+  {
+   "id": "Q20971100",
+   "name": "Muanenguba Lakes",
+   "sl": 8,
+   "file": "Manegouba.jpg",
+   "lat": 5.0347,
+   "lon": 9.8281,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Manengouba"
+  },
+  {
+   "id": "Q15957739",
+   "name": "Our Lady of Victories Cathedral, Yaoundé",
+   "sl": 8,
+   "file": "Yaoundé Cathédrale.jpg",
+   "lat": 3.8629,
+   "lon": 11.521,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame-de-Victoire de Yaoundé"
+  }
+ ]
+}

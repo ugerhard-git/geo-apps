@@ -1,0 +1,122 @@
+{
+ "country": "CK",
+ "items": [
+  {
+   "id": "Q950725",
+   "name": "Penrhyn",
+   "sl": 32,
+   "file": "Penhryn atoll.jpg",
+   "lat": -9.0056,
+   "lon": -157.9694,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Penrhyn Island"
+  },
+  {
+   "id": "Q967796",
+   "name": "Manihiki",
+   "sl": 28,
+   "file": "Manihiki Aerial.jpg",
+   "lat": -10.4272,
+   "lon": -160.9903,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manihiki"
+  },
+  {
+   "id": "Q954472",
+   "name": "Rarotonga International Airport",
+   "sl": 27,
+   "file": "Rarotonga Airport from air1.JPG",
+   "lat": -21.2028,
+   "lon": -159.8056,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rarotonga International Airport"
+  },
+  {
+   "id": "Q1345121",
+   "name": "Rakahanga",
+   "sl": 24,
+   "file": "Rakahanga atoll.jpg",
+   "lat": -10.0333,
+   "lon": -161.0833,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rakahanga"
+  },
+  {
+   "id": "Q180547",
+   "name": "Suwarrow",
+   "sl": 23,
+   "file": "NE Panorama Suwarrow.jpg",
+   "lat": -13.25,
+   "lon": -163.0833,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suwarrow"
+  },
+  {
+   "id": "Q498069",
+   "name": "Te Manga",
+   "sl": 13,
+   "file": "CookIslands-Rarotonga-TeManga-mgl20030609-01.jpg",
+   "lat": -21.2389,
+   "lon": -159.7891,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q20666409",
+   "name": "St. Joseph's Cathedral, Avarua",
+   "sl": 8,
+   "file": "St. Joseph's Cathedral, Avarua.jpg",
+   "lat": -21.2056,
+   "lon": -159.781,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Joseph's Cathedral, Avarua"
+  }
+ ]
+}

@@ -1,0 +1,670 @@
+{
+ "country": "ZM",
+ "items": [
+  {
+   "id": "Q43278",
+   "name": "Victoria Falls",
+   "sl": 111,
+   "file": "Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 05.jpg",
+   "lat": -17.9248,
+   "lon": 25.8581,
+   "kind": "natural",
+   "types": [
+    "horseshoe waterfall",
+    "waterfall"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q139989268",
+    "name": "Mosi-oa-Tunya / Victoria Falls"
+   },
+   "also": [
+    "ZW"
+   ],
+   "cat": "Victoria Falls"
+  },
+  {
+   "id": "Q504433",
+   "name": "Lake Mweru",
+   "sl": 68,
+   "file": "Lake Mweru Sentinel-2.png",
+   "lat": -9.1667,
+   "lon": 28.5,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD"
+   ],
+   "cat": "Lake Mweru"
+  },
+  {
+   "id": "Q673169",
+   "name": "Lake Bangweulu",
+   "sl": 44,
+   "file": "Bangweulu NASA satellite photo.PNG",
+   "lat": -11.0833,
+   "lon": 29.75,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Bangweulu"
+  },
+  {
+   "id": "Q1047206",
+   "name": "Lake Kariba",
+   "sl": 43,
+   "file": "Kariba, Zimbabwe 04.JPG",
+   "lat": -16.9,
+   "lon": 28,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZW"
+   ],
+   "cat": "Lake Kariba"
+  },
+  {
+   "id": "Q1367609",
+   "name": "Kariba Dam",
+   "sl": 37,
+   "file": "KaribaDam.jpg",
+   "lat": -16.5217,
+   "lon": 28.7614,
+   "kind": "built",
+   "types": [
+    "arch dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZW"
+   ],
+   "cat": "Kariba Dam"
+  },
+  {
+   "id": "Q332302",
+   "name": "Kenneth Kaunda International Airport",
+   "sl": 31,
+   "file": "Lusaka International Airport, Zambia - entrance, 2015.jpg",
+   "lat": -15.3306,
+   "lon": 28.4525,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lusaka International Airport"
+  },
+  {
+   "id": "Q798283",
+   "name": "Kalambo Falls",
+   "sl": 27,
+   "file": "Kalambo Falls.jpg",
+   "lat": -8.5964,
+   "lon": 31.2396,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TZ"
+   ],
+   "cat": "Chutes de Kalambo"
+  },
+  {
+   "id": "Q1973215",
+   "name": "South Luangwa National Park",
+   "sl": 26,
+   "file": "Luangwa River crossing.jpg",
+   "lat": -13,
+   "lon": 31.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "South Luangwa National Park"
+  },
+  {
+   "id": "Q1721097",
+   "name": "Kafue National Park",
+   "sl": 24,
+   "file": "Kafue National Park.jpg",
+   "lat": -15.28,
+   "lon": 25.7,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kafue National Park"
+  },
+  {
+   "id": "Q20808678",
+   "name": "Kazungula Bridge",
+   "sl": 24,
+   "file": "The new bridge at Kazangula.jpg",
+   "lat": -17.7911,
+   "lon": 25.2625,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BW"
+   ],
+   "cat": "Kazungula Bridge"
+  },
+  {
+   "id": "Q651162",
+   "name": "Lake Mweru Wantipa",
+   "sl": 23,
+   "file": "Lake Mweru Wantipa.png",
+   "lat": -8.7,
+   "lon": 29.7667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1650303",
+   "name": "Ngonye Falls",
+   "sl": 21,
+   "file": "Ngonye Falls.jpg",
+   "lat": -16.6542,
+   "lon": 23.5722,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ngonye Falls"
+  },
+  {
+   "id": "Q317323",
+   "name": "Victoria Falls Bridge",
+   "sl": 20,
+   "file": "Victoria Falls Bridge.JPG",
+   "lat": -17.9283,
+   "lon": 25.8572,
+   "kind": "built",
+   "types": [
+    "deck arch bridge",
+    "international bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZW"
+   ],
+   "cat": "Victoria Falls Bridge"
+  },
+  {
+   "id": "Q1431890",
+   "name": "Harry Mwaanga Nkumbula International Airport",
+   "sl": 17,
+   "file": "Livingstone Airport.jpg",
+   "lat": -17.8217,
+   "lon": 25.8228,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Harry Mwaanga Nkumbula International Airport"
+  },
+  {
+   "id": "Q3812559",
+   "name": "Kalambo",
+   "sl": 17,
+   "file": "Shaping marks on the upper surfaces of object 1033 and on the underlying treetrunk.webp",
+   "lat": -8.5964,
+   "lon": 31.2403,
+   "kind": "built",
+   "types": [
+    "archaeological artefact",
+    "archaeological site",
+    "nonbuilding structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1471784",
+   "name": "Liuwa Plain National Park",
+   "sl": 17,
+   "file": "Lady Liuwa, Liuwa Plain National Park, November 2012.jpg",
+   "lat": -14.6667,
+   "lon": 22.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liuwa Plain National Park"
+  },
+  {
+   "id": "Q503518",
+   "name": "Lower Zambezi National Park",
+   "sl": 17,
+   "file": "Lower Zambezi, Zambia (2518067857).jpg",
+   "lat": -15.75,
+   "lon": 29.3333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lower Zambezi National Park"
+  },
+  {
+   "id": "Q1734819",
+   "name": "Kasanka National Park",
+   "sl": 16,
+   "file": "Kasanka.jpg",
+   "lat": -12.565,
+   "lon": 30.1779,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kasanka National Park"
+  },
+  {
+   "id": "Q1417669",
+   "name": "Nsumbu National Park",
+   "sl": 16,
+   "file": "Nsumbu - panoramio.jpg",
+   "lat": -8.7439,
+   "lon": 30.3827,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q806561",
+   "name": "Bangweulu Wetlands",
+   "sl": 14,
+   "file": "Bangweulu Swamps.jpg",
+   "lat": -11.6,
+   "lon": 30.0833,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "swamp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bangweulu Wetlands"
+  },
+  {
+   "id": "Q503514",
+   "name": "Lochinvar National Park",
+   "sl": 14,
+   "file": "Lochinvar National Park.png",
+   "lat": -15.8969,
+   "lon": 27.238,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lochinvar National Park"
+  },
+  {
+   "id": "Q16632749",
+   "name": "National Heroes Stadium",
+   "sl": 14,
+   "file": "Inauguration of Edgar Lungu.jpg",
+   "lat": -15.3695,
+   "lon": 28.2726,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Heroes Stadium"
+  },
+  {
+   "id": "Q18386637",
+   "name": "Kafue Flats",
+   "sl": 13,
+   "file": "Kafue Flats, Zambia (MODIS 2021-04-05).jpg",
+   "lat": -15.7166,
+   "lon": 26.3832,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kafue Flats"
+  },
+  {
+   "id": "Q1074827",
+   "name": "Chishimba Falls",
+   "sl": 12,
+   "file": "Chisimba Falls.JPG",
+   "lat": -10.075,
+   "lon": 30.5583,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chisimba Falls"
+  },
+  {
+   "id": "Q1461688",
+   "name": "Itezhi-Tezhi Dam",
+   "sl": 12,
+   "file": "Itezhi-Tezhi Lake.png",
+   "lat": -15.7599,
+   "lon": 26.0213,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q503530",
+   "name": "Sioma Ngwezi National Park",
+   "sl": 12,
+   "file": "NASA Barotse Floodplain compressed.JPG",
+   "lat": -17,
+   "lon": 23.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sioma Ngwezi National Park"
+  },
+  {
+   "id": "Q201307",
+   "name": "Independence Stadium",
+   "sl": 10,
+   "file": "Zambiafan.jpg",
+   "lat": -15.3711,
+   "lon": 28.2696,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q488794",
+   "name": "Katima Mulilo Bridge",
+   "sl": 10,
+   "file": "Katima Mulilo Bridge.jpg",
+   "lat": -17.4721,
+   "lon": 24.2493,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "NA"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q6444278",
+   "name": "Kundalila Falls",
+   "sl": 10,
+   "file": "Kundalila Falls downside.jpg",
+   "lat": -13.1543,
+   "lon": 30.7025,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kundalila Falls"
+  },
+  {
+   "id": "Q6703036",
+   "name": "Lumangwe Falls",
+   "sl": 10,
+   "file": "Lumangwe falls on the Kalungwishi river during the dry season(September-October).jpg",
+   "lat": -9.5333,
+   "lon": 29.3833,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3566281",
+   "name": "Mfuwe Airport",
+   "sl": 10,
+   "file": "Mfuwe International Airport.JPG",
+   "lat": -13.2586,
+   "lon": 31.9364,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mfuwe International Airport"
+  },
+  {
+   "id": "Q16888311",
+   "name": "Kabwelume Falls",
+   "sl": 9,
+   "file": "Kabwelume falls in the dry season.JPG",
+   "lat": -9.525,
+   "lon": 29.3667,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kabwelume Falls"
+  },
+  {
+   "id": "Q1462385",
+   "name": "Kafue Gorge Dam",
+   "sl": 9,
+   "file": "Eastern Kafue Flats in flood 2004.jpg",
+   "lat": -15.8083,
+   "lon": 28.4208,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11824571",
+   "name": "Mansa Airport",
+   "sl": 9,
+   "file": "Stormy weather, Mansa Airport, Zambia.jpg",
+   "lat": -11.1381,
+   "lon": 28.8761,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2918962",
+   "name": "Mumbuluma Falls",
+   "sl": 9,
+   "file": "Mumbuluma falls - lower falls.jpg",
+   "lat": -10.93,
+   "lon": 28.7367,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mumbuluma Falls"
+  },
+  {
+   "id": "Q1432149",
+   "name": "Peter Zuze Air Force Base",
+   "sl": 9,
+   "file": "SMKIA.jpg",
+   "lat": -12.9958,
+   "lon": 28.6619,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ndola International Airport"
+  },
+  {
+   "id": "Q4863069",
+   "name": "Barotse Floodplain",
+   "sl": 8,
+   "file": "NASA Barotse Floodplain compressed.JPG",
+   "lat": -15.6667,
+   "lon": 23.1667,
+   "kind": "natural",
+   "types": [
+    "floodplain",
+    "plain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barotse Floodplain"
+  },
+  {
+   "id": "Q11318541",
+   "name": "Chirundu Bridge",
+   "sl": 8,
+   "file": "The Chirundu Bridge-edit.jpg",
+   "lat": -16.0378,
+   "lon": 28.852,
+   "kind": "built",
+   "types": [
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZW"
+   ],
+   "cat": "Chirundu Bridge"
+  },
+  {
+   "id": "Q18351462",
+   "name": "Mafinga Central",
+   "sl": 8,
+   "file": "Mafinga Central.jpg",
+   "lat": -9.9527,
+   "lon": 33.3524,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MW"
+   ],
+   "cat": ""
+  }
+ ]
+}

@@ -1,0 +1,175 @@
+{
+ "country": "LC",
+ "items": [
+  {
+   "id": "Q639487",
+   "name": "Pitons",
+   "sl": 31,
+   "file": "Pitonpair.JPG",
+   "lat": 13.8071,
+   "lon": -61.0704,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcanic plug"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Pitons (Saint Lucia)"
+  },
+  {
+   "id": "Q1811114",
+   "name": "Mount Gimie",
+   "sl": 26,
+   "file": "Mt. Gimie.jpg",
+   "lat": 13.8635,
+   "lon": -61.0111,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1431475",
+   "name": "Hewanorra International Airport",
+   "sl": 20,
+   "file": "American Airlines Takeoff Hewanorra International Airport.jpg",
+   "lat": 13.7333,
+   "lon": -60.9525,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hewanorra International Airport"
+  },
+  {
+   "id": "Q3275393",
+   "name": "George F. L. Charles Airport",
+   "sl": 16,
+   "file": "George F.L Charles Airport, Castries St Lucia, Runway View, Aug2014.jpg",
+   "lat": 14.02,
+   "lon": -60.9931,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "George F. L. Charles Airport"
+  },
+  {
+   "id": "Q2572796",
+   "name": "Petit Piton",
+   "sl": 13,
+   "file": "PetitPiton.JPG",
+   "lat": 13.8333,
+   "lon": -61.0667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3412754",
+   "name": "Qualibou",
+   "sl": 13,
+   "file": "View north from Gros Piton.jpg",
+   "lat": 13.838,
+   "lon": -61.046,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qualibou"
+  },
+  {
+   "id": "Q813440",
+   "name": "Daren Sammy Cricket Ground",
+   "sl": 12,
+   "file": "Beausejour Stadium Cricket St Lucia.jpg",
+   "lat": 14.0706,
+   "lon": -60.9314,
+   "kind": "built",
+   "types": [
+    "cricket field",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1321979",
+   "name": "Gros Piton",
+   "sl": 12,
+   "file": "GrosPiton.JPG",
+   "lat": 13.8,
+   "lon": -61.0667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q639487",
+    "name": "Pitons"
+   },
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5052198",
+   "name": "Cathedral Basilica of the Immaculate Conception in Castries",
+   "sl": 10,
+   "file": "Castries - Cathedral Basilica of the Immaculate Conception - panoramio.jpg",
+   "lat": 14.0091,
+   "lon": -60.9901,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral Basilica of the Immaculate Conception, Castries"
+  },
+  {
+   "id": "Q1356963",
+   "name": "George Odlum Stadium",
+   "sl": 9,
+   "file": "George Odlum Stadium.jpg",
+   "lat": 13.7541,
+   "lon": -60.9442,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "George Odlum Stadium"
+  }
+ ]
+}

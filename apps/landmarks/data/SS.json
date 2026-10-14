@@ -1,0 +1,171 @@
+{
+ "country": "SS",
+ "items": [
+  {
+   "id": "Q948298",
+   "name": "Kinyeti",
+   "sl": 33,
+   "file": "Sudan Kinyeti.jpg",
+   "lat": 3.9475,
+   "lon": 32.9089,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kinyeti"
+  },
+  {
+   "id": "Q1122958",
+   "name": "Juba International Airport",
+   "sl": 31,
+   "file": "SPAF Mi17 helicopters at Juba Airport January 2011.jpg",
+   "lat": 4.872,
+   "lon": 31.6011,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juba Airport"
+  },
+  {
+   "id": "Q1432004",
+   "name": "Malakal Airport",
+   "sl": 22,
+   "file": "Sudan Envoy - Malakal Airstrip.jpg",
+   "lat": 9.5589,
+   "lon": 31.6522,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malakal Airport"
+  },
+  {
+   "id": "Q1031812",
+   "name": "Wau Airport",
+   "sl": 17,
+   "file": "Mil Mi-26T UNO 550P UNMISS.jpg",
+   "lat": 7.7258,
+   "lon": 27.975,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wau Airport"
+  },
+  {
+   "id": "Q3505195",
+   "name": "Rumbek Airport",
+   "sl": 16,
+   "file": "Sudan Rumbek aircraft beside airstrip 2004.jpg",
+   "lat": 6.83,
+   "lon": 29.67,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rumbek Airport"
+  },
+  {
+   "id": "Q3275895",
+   "name": "Gogrial Airport",
+   "sl": 13,
+   "file": "Sudan Air Force Antonov An-26-100 MTI-1.jpg",
+   "lat": 8.54,
+   "lon": 28.1,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3505202",
+   "name": "Kapoeta Airport",
+   "sl": 13,
+   "file": "Kapoeta, South Sudan - panoramio.jpg",
+   "lat": 4.78,
+   "lon": 33.585,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3497733",
+   "name": "Raga Airport",
+   "sl": 13,
+   "file": "UNHAS (King Air Charter) Cessna 208B Grand Caravan MTI-1.jpg",
+   "lat": 8.465,
+   "lon": 25.68,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Raga Airport"
+  },
+  {
+   "id": "Q3312031",
+   "name": "Bor Airport",
+   "sl": 12,
+   "file": "Bor airport (cropped).jpg",
+   "lat": 6.1963,
+   "lon": 31.6014,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bor Airport, South Sudan"
+  },
+  {
+   "id": "Q2942508",
+   "name": "St. Theresa Cathedral, Juba",
+   "sl": 8,
+   "file": "Kator church.jpg",
+   "lat": 4.8273,
+   "lon": 31.6003,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Theresa Cathedral, Juba"
+  }
+ ]
+}

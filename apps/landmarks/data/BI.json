@@ -1,0 +1,204 @@
+{
+ "country": "BI",
+ "items": [
+  {
+   "id": "Q681134",
+   "name": "Bujumbura International Airport",
+   "sl": 34,
+   "file": "BujumburaAirport.jpg",
+   "lat": -3.324,
+   "lon": 29.3185,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bujumbura International Airport"
+  },
+  {
+   "id": "Q1808777",
+   "name": "Lake Rweru",
+   "sl": 24,
+   "file": "Lakes of Burundi.jpg",
+   "lat": -2.3778,
+   "lon": 30.3236,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RW"
+   ],
+   "cat": "Lake Rweru"
+  },
+  {
+   "id": "Q3084668",
+   "name": "Kibira National Park",
+   "sl": 23,
+   "file": "Ivyo dusanga kugwinjiriro rw'ikibira i bugarama.jpg",
+   "lat": -2.9147,
+   "lon": 29.4336,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kibira National Park"
+  },
+  {
+   "id": "Q1649074",
+   "name": "Mount Heha",
+   "sl": 23,
+   "file": "Mont Heha Cropped.jpg",
+   "lat": -3.6033,
+   "lon": 29.4992,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont Heha"
+  },
+  {
+   "id": "Q3084675",
+   "name": "Rusizi National Park",
+   "sl": 19,
+   "file": "Rusizi NP hippopotamus.jpg",
+   "lat": -3.2477,
+   "lon": 29.2307,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rusizi National Park"
+  },
+  {
+   "id": "Q3695993",
+   "name": "Ruvubu National Park",
+   "sl": 18,
+   "file": "Les babouins dans le parc national de la Ruvubu.jpg",
+   "lat": -3.111,
+   "lon": 30.373,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ruvubu National Park"
+  },
+  {
+   "id": "Q3214830",
+   "name": "Lake Cyohoha South",
+   "sl": 16,
+   "file": "Lakes of Burundi.jpg",
+   "lat": -2.4303,
+   "lon": 30.1036,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RW"
+   ],
+   "cat": "Lake Cohoha"
+  },
+  {
+   "id": "Q2688645",
+   "name": "National Museum of Gitega",
+   "sl": 14,
+   "file": "Burundi National Museum at Gitega - Flickr - Dave Proffer.jpg",
+   "lat": -3.4182,
+   "lon": 29.9085,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Gitega"
+  },
+  {
+   "id": "Q5118378",
+   "name": "Chutes de la Kagera",
+   "sl": 13,
+   "file": "La chute de karera nyakayi 1 à Rutana.jpg",
+   "lat": -3.83,
+   "lon": 30.08,
+   "kind": "natural",
+   "types": [
+    "natural monument",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kagera waterfalls"
+  },
+  {
+   "id": "Q1402785",
+   "name": "Livingstone–Stanley Monument",
+   "sl": 12,
+   "file": "Livingstone monument burundi.jpg",
+   "lat": -3.4822,
+   "lon": 29.3524,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Livingstone–Stanley Monument"
+  },
+  {
+   "id": "Q16964610",
+   "name": "Christ the King Cathedral",
+   "sl": 8,
+   "file": "Gitega Church.JPG",
+   "lat": -3.4399,
+   "lon": 29.9331,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christ the King churches in Burundi"
+  },
+  {
+   "id": "Q16964613",
+   "name": "Regina Mundi Cathedral, Bujumbura",
+   "sl": 8,
+   "file": "Cathédrale Regina Mundi de Bujumbura, 2024-3.jpg",
+   "lat": -3.3919,
+   "lon": 29.3637,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Regina Mundi de Bujumbura"
+  }
+ ]
+}

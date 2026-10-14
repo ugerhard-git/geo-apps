@@ -1,0 +1,160 @@
+{
+ "country": "CF",
+ "items": [
+  {
+   "id": "Q503835",
+   "name": "Manovo-Gounda St. Floris National Park",
+   "sl": 55,
+   "file": "Manovo.jpg",
+   "lat": 8.5,
+   "lon": 21.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Manovo-Gounda St. Floris National Park"
+  },
+  {
+   "id": "Q2580451",
+   "name": "Sangha Trinational",
+   "sl": 36,
+   "file": "Sunbeams in Sangha Trinational rainforest.jpg",
+   "lat": 2.6667,
+   "lon": 16.3333,
+   "kind": "",
+   "types": [
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "CG",
+    "CM"
+   ],
+   "cat": "Trinational de la Sangha"
+  },
+  {
+   "id": "Q790043",
+   "name": "Bangui M'Poko International Airport",
+   "sl": 30,
+   "file": "Bangui airport 2.jpg",
+   "lat": 4.3978,
+   "lon": 18.5197,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bangui M'Poko International Airport"
+  },
+  {
+   "id": "Q659596",
+   "name": "Congo craton",
+   "sl": 21,
+   "file": "Kimberlite Pipes in Africa.png",
+   "lat": 2,
+   "lon": 21,
+   "kind": "natural",
+   "types": [
+    "craton"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD",
+    "CG"
+   ],
+   "cat": "Congo Craton"
+  },
+  {
+   "id": "Q3364411",
+   "name": "Dzanga-Ndoki National Park",
+   "sl": 16,
+   "file": "Dzanga-Ndoki National Park (10.3897-zookeys.951.53814) Figure 27.jpg",
+   "lat": 2.5,
+   "lon": 16.1667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2580451",
+    "name": "Sangha Trinational"
+   },
+   "also": [],
+   "cat": "Dzanga-Ndoki National Park"
+  },
+  {
+   "id": "Q2990483",
+   "name": "Barthélemy Boganda Stadium",
+   "sl": 12,
+   "file": "Avenue des Martyrs, Bangui - Mapillary (v3azRkJmiUnTDVXUJf35ng).jpg",
+   "lat": 4.3744,
+   "lon": 18.5644,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barthélemy Boganda Stadium"
+  },
+  {
+   "id": "Q1138067",
+   "name": "Dzanga-Sangha Special Reserve",
+   "sl": 11,
+   "file": "Elefanti.jpg",
+   "lat": 3.4333,
+   "lon": 16.3333,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dzanga-Sangha Special Reserve"
+  },
+  {
+   "id": "Q3268379",
+   "name": "Rafaï Airport",
+   "sl": 10,
+   "file": "Aéroport de Rafaï.png",
+   "lat": 4.9896,
+   "lon": 23.9281,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15208031",
+   "name": "Cathédrale Notre-Dame",
+   "sl": 8,
+   "file": "Une foule devant la Cathédrale de Bangui, le 7 mai 2018.jpg",
+   "lat": 4.37,
+   "lon": 18.578,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame (Bangui)"
+  }
+ ]
+}

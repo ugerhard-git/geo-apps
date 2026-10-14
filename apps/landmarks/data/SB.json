@@ -1,0 +1,187 @@
+{
+ "country": "SB",
+ "items": [
+  {
+   "id": "Q859876",
+   "name": "Honiara International Airport",
+   "sl": 29,
+   "file": "Honiara Airport.jpg",
+   "lat": -9.428,
+   "lon": 160.0548,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Honiara International Airport"
+  },
+  {
+   "id": "Q987676",
+   "name": "Kavachi",
+   "sl": 19,
+   "file": "May 14 Kavachi eruption.jpg",
+   "lat": -8.9936,
+   "lon": 157.9725,
+   "kind": "natural",
+   "types": [
+    "submarine volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kavachi"
+  },
+  {
+   "id": "Q333549",
+   "name": "Lawson Tama Stadium",
+   "sl": 17,
+   "file": "Lawson Tama Stadium.jpg",
+   "lat": -9.4367,
+   "lon": 159.9714,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1528772",
+   "name": "Munda Airport",
+   "sl": 11,
+   "file": "Aerial view of Munda airfield, New Georgia, Solomon Islands, circa 1945.jpg",
+   "lat": -8.328,
+   "lon": 157.2631,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q12259031",
+   "name": "Henderson Field",
+   "sl": 10,
+   "file": "Aerial view of Henderson Field, Guadalcanal, in late August 1942.jpg",
+   "lat": -9.4281,
+   "lon": 160.0547,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Henderson Field (Guadalcanal)"
+  },
+  {
+   "id": "Q6924428",
+   "name": "Mount Veve",
+   "sl": 10,
+   "file": "Kolombangara NASA.jpg",
+   "lat": -7.95,
+   "lon": 157.075,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q202990",
+   "name": "Indispensable Reefs",
+   "sl": 9,
+   "file": "STS088-706-64 indispensable.PNG",
+   "lat": -12.6667,
+   "lon": 160.4167,
+   "kind": "natural",
+   "types": [
+    "island",
+    "reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3436178",
+   "name": "Kirakira Airport",
+   "sl": 9,
+   "file": "Kirakira Airstrip.jpg",
+   "lat": -10.4494,
+   "lon": 161.8983,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3436141",
+   "name": "Mono Airport",
+   "sl": 9,
+   "file": "42 Bombardment Group - B-25 Mitchells.jpg",
+   "lat": -7.4161,
+   "lon": 155.5653,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3017740",
+   "name": "Nusatupe Airport",
+   "sl": 9,
+   "file": "Gizo Airport 1.JPG",
+   "lat": -8.0986,
+   "lon": 156.8642,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1432804",
+   "name": "Seghe Airport",
+   "sl": 9,
+   "file": "Segi Point Airfield.jpg",
+   "lat": -8.578,
+   "lon": 157.875,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

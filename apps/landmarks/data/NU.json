@@ -1,0 +1,54 @@
+{
+ "country": "NU",
+ "items": [
+  {
+   "id": "Q1150665",
+   "name": "Niue International Airport",
+   "sl": 21,
+   "file": "Niue airport satellite picture (cropped).jpg",
+   "lat": -19.08,
+   "lon": -169.9256,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Niue International Airport"
+  },
+  {
+   "id": "Q3045995",
+   "name": "Avaiki Cave",
+   "sl": 9,
+   "file": "Avaiki, Niue.jpg",
+   "lat": -18.9975,
+   "lon": -169.911,
+   "kind": "natural",
+   "types": [
+    "sea cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avaiki Cave"
+  },
+  {
+   "id": "Q851603",
+   "name": "Beveridge Reef",
+   "sl": 9,
+   "file": "BeveridgeISS002-E-9895.png",
+   "lat": -20,
+   "lon": -167.8,
+   "kind": "natural",
+   "types": [
+    "reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beveridge Reef"
+  }
+ ]
+}

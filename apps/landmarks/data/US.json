@@ -1,0 +1,1414 @@
+{
+ "country": "US",
+ "items": [
+  {
+   "id": "Q9202",
+   "name": "Statue of Liberty",
+   "sl": 158,
+   "file": "Statue of Liberty and a sightseeing boat, Liberty Island, New York.jpg",
+   "lat": 40.6892,
+   "lon": -74.0444,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "observation tower",
+    "part of UNESCO World Heritage Site",
+    "statue"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Statue of Liberty"
+  },
+  {
+   "id": "Q35525",
+   "name": "White House",
+   "sl": 143,
+   "file": "WhiteHouseSouthFacade.JPG",
+   "lat": 38.8978,
+   "lon": -77.0367,
+   "kind": "built",
+   "types": [
+    "civic building",
+    "mansion",
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "White House"
+  },
+  {
+   "id": "Q34221",
+   "name": "Niagara Falls",
+   "sl": 135,
+   "file": "Niagara Falls USA Canada from Skylon Tower on 2002-05-28, full size.jpg",
+   "lat": 43.08,
+   "lon": -79.071,
+   "kind": "natural",
+   "types": [
+    "horseshoe waterfall",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CA"
+   ],
+   "cat": "Niagara Falls"
+  },
+  {
+   "id": "Q9188",
+   "name": "Empire State Building",
+   "sl": 125,
+   "file": "Empire State Building (aerial view).jpg",
+   "lat": 40.7483,
+   "lon": -73.9856,
+   "kind": "built",
+   "types": [
+    "office building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Empire State Building"
+  },
+  {
+   "id": "Q118841",
+   "name": "Grand Canyon",
+   "sl": 116,
+   "file": "Grand Canyon view from Pima Point 2010.jpg",
+   "lat": 36.0975,
+   "lon": -112.0953,
+   "kind": "natural",
+   "types": [
+    "canyon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Canyon"
+  },
+  {
+   "id": "Q351",
+   "name": "Yellowstone National Park",
+   "sl": 116,
+   "file": "Grand Prismatic Spring 2013.jpg",
+   "lat": 44.6,
+   "lon": -110.5,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "National Park of the United States",
+    "unincorporated community"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Yellowstone National Park"
+  },
+  {
+   "id": "Q1066",
+   "name": "Lake Superior",
+   "sl": 112,
+   "file": "Lake Superior, ISS.jpg",
+   "lat": 47.5288,
+   "lon": -87.76,
+   "kind": "natural",
+   "types": [
+    "glacial lake",
+    "lake",
+    "rift lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CA"
+   ],
+   "cat": "Lake Superior"
+  },
+  {
+   "id": "Q44440",
+   "name": "Golden Gate Bridge",
+   "sl": 110,
+   "file": "GoldenGateBridge-001.jpg",
+   "lat": 37.8197,
+   "lon": -122.4786,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "steel bridge",
+    "suspension bridge",
+    "toll bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Golden Gate Bridge"
+  },
+  {
+   "id": "Q1062",
+   "name": "Lake Ontario",
+   "sl": 108,
+   "file": "ISS-36 Lake Ontario (horizontal).jpg",
+   "lat": 43.7289,
+   "lon": -78.1064,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CA"
+   ],
+   "cat": "Lake Ontario"
+  },
+  {
+   "id": "Q11235",
+   "name": "World Trade Center",
+   "sl": 108,
+   "file": "World Trade Center circa fall 1993.jpg",
+   "lat": 40.7114,
+   "lon": -74.0125,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "World Trade Center (1970–2001)"
+  },
+  {
+   "id": "Q1169",
+   "name": "Lake Michigan",
+   "sl": 107,
+   "file": "Lake Michigan in true color.jpg",
+   "lat": 44.0079,
+   "lon": -86.7565,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Michigan"
+  },
+  {
+   "id": "Q510",
+   "name": "Mariana Trench",
+   "sl": 104,
+   "file": "Marianatrenchmap.png",
+   "lat": 11.35,
+   "lon": 142.2,
+   "kind": "natural",
+   "types": [
+    "oceanic trench"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mariana Trench"
+  },
+  {
+   "id": "Q5492",
+   "name": "Lake Erie",
+   "sl": 102,
+   "file": "A1.23188.1851.LakeErie.143.250m.jpg",
+   "lat": 42.25,
+   "lon": -80.9997,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CA"
+   ],
+   "cat": "Lake Erie"
+  },
+  {
+   "id": "Q11208",
+   "name": "The Pentagon",
+   "sl": 102,
+   "file": "The Pentagon, Headquarters of the US Department of Defense (cropped).jpg",
+   "lat": 38.8708,
+   "lon": -77.055,
+   "kind": "built",
+   "types": [
+    "government building",
+    "groundscraper",
+    "headquarters",
+    "office building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Pentagon"
+  },
+  {
+   "id": "Q130018",
+   "name": "Denali",
+   "sl": 100,
+   "file": "Wonder Lake and Denali.jpg",
+   "lat": 63.0691,
+   "lon": -151.0063,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Denali"
+  },
+  {
+   "id": "Q1383",
+   "name": "Lake Huron",
+   "sl": 100,
+   "file": "Lake Huron in winter.jpg",
+   "lat": 44.5926,
+   "lon": -82.7563,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CA"
+   ],
+   "cat": "Lake Huron"
+  },
+  {
+   "id": "Q29294",
+   "name": "Willis Tower",
+   "sl": 97,
+   "file": "Chicago Sears Tower.jpg",
+   "lat": 41.8786,
+   "lon": -87.6358,
+   "kind": "built",
+   "types": [
+    "office building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Willis Tower"
+  },
+  {
+   "id": "Q83497",
+   "name": "Mount Rushmore",
+   "sl": 96,
+   "file": "Mount Rushmore detail view (100MP).jpg",
+   "lat": 43.8789,
+   "lon": -103.4592,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Rushmore"
+  },
+  {
+   "id": "Q127091",
+   "name": "Pearl Harbor",
+   "sl": 89,
+   "file": "Aerial view of Pearl Harbor on 1 June 1986 (6422248).jpg",
+   "lat": 21.3619,
+   "lon": -157.9536,
+   "kind": "natural",
+   "types": [
+    "harbor",
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pearl Harbor"
+  },
+  {
+   "id": "Q160236",
+   "name": "Metropolitan Museum of Art",
+   "sl": 88,
+   "file": "Metropolitan Museum of Art (The Met) - Central Park, NYC.jpg",
+   "lat": 40.7794,
+   "lon": -73.9633,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum",
+    "nonprofit organization",
+    "production company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Metropolitan Museum of Art"
+  },
+  {
+   "id": "Q160409",
+   "name": "Central Park",
+   "sl": 87,
+   "file": "Southwest corner of Central Park, looking east, NYC.jpg",
+   "lat": 40.7825,
+   "lon": -73.9661,
+   "kind": "built",
+   "types": [
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Central Park"
+  },
+  {
+   "id": "Q131230",
+   "name": "Mauna Kea",
+   "sl": 87,
+   "file": "Mauna Kea10.jpg",
+   "lat": 19.8206,
+   "lon": -155.4681,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mauna Kea"
+  },
+  {
+   "id": "Q11690",
+   "name": "Wall Street",
+   "sl": 87,
+   "file": "Photos NewYork1 032.jpg",
+   "lat": 40.7062,
+   "lon": -74.0091,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wall Street"
+  },
+  {
+   "id": "Q180402",
+   "name": "Yosemite National Park",
+   "sl": 87,
+   "file": "Half Dome with Eastern Yosemite Valley (50MP).jpg",
+   "lat": 37.7425,
+   "lon": -119.5375,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "National Park of the United States",
+    "unincorporated community"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Yosemite National Park"
+  },
+  {
+   "id": "Q125006",
+   "name": "Brooklyn Bridge",
+   "sl": 84,
+   "file": "Brooklyn Bridge and the Lower Manhattan skyline from Pebble Beach, New York.jpg",
+   "lat": 40.7057,
+   "lon": -73.9963,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "multi-level bridge",
+    "railway bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brooklyn Bridge"
+  },
+  {
+   "id": "Q4675",
+   "name": "Mount St. Helens",
+   "sl": 82,
+   "file": "006Spirit Lake pre resize (22027452382).jpg",
+   "lat": 46.2003,
+   "lon": -122.1894,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount St. Helens"
+  },
+  {
+   "id": "Q8685",
+   "name": "John F. Kennedy International Airport",
+   "sl": 81,
+   "file": "JFK Aerial Nov 14 2018.jpg",
+   "lat": 40.64,
+   "lon": -73.78,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "John F. Kennedy International Airport"
+  },
+  {
+   "id": "Q118388",
+   "name": "Death Valley",
+   "sl": 79,
+   "file": "Badwater Desolation.jpg",
+   "lat": 36.4569,
+   "lon": -116.8653,
+   "kind": "natural",
+   "types": [
+    "basin",
+    "desert",
+    "graben",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Death Valley"
+  },
+  {
+   "id": "Q181185",
+   "name": "Disneyland",
+   "sl": 78,
+   "file": "Christmas for Sleeping Beauty Castle (28017248690).jpg",
+   "lat": 33.809,
+   "lon": -117.919,
+   "kind": "built",
+   "types": [
+    "resort",
+    "theme park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Disneyland"
+  },
+  {
+   "id": "Q159762",
+   "name": "Mauna Loa",
+   "sl": 78,
+   "file": "Mauna Loa.jpg",
+   "lat": 19.4833,
+   "lon": -155.6,
+   "kind": "natural",
+   "types": [
+    "shield volcano",
+    "volcanic landform"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mauna Loa"
+  },
+  {
+   "id": "Q54109",
+   "name": "United States Capitol",
+   "sl": 77,
+   "file": "United States Capitol west front edit2.jpg",
+   "lat": 38.8897,
+   "lon": -77.0092,
+   "kind": "built",
+   "types": [
+    "capitol building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "United States Capitol"
+  },
+  {
+   "id": "Q71719",
+   "name": "Hollywood Walk of Fame",
+   "sl": 76,
+   "file": "Stan Freberg Walk of fame.jpg",
+   "lat": 34.1014,
+   "lon": -118.345,
+   "kind": "built",
+   "types": [
+    "hall of fame",
+    "monument",
+    "walk of fame"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hollywood Walk of Fame"
+  },
+  {
+   "id": "Q11274",
+   "name": "Chrysler Building",
+   "sl": 75,
+   "file": "Chrysler Building by David Shankbone Retouched.jpg",
+   "lat": 40.7514,
+   "lon": -73.9757,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chrysler Building"
+  },
+  {
+   "id": "Q11245",
+   "name": "One World Trade Center",
+   "sl": 74,
+   "file": "One World Trade Center, New York (33224081040).jpg",
+   "lat": 40.713,
+   "lon": -74.0135,
+   "kind": "built",
+   "types": [
+    "office building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "One World Trade Center"
+  },
+  {
+   "id": "Q172822",
+   "name": "Hoover Dam",
+   "sl": 73,
+   "file": "Hoover Dam and Black Canyon seen from the Mike O'Callaghan–Pat Tillman Memorial Bridge, panorama, Arizona–Nevada.jpg",
+   "lat": 36.0158,
+   "lon": -114.7378,
+   "kind": "both",
+   "types": [
+    "arch-gravity dam",
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hoover Dam"
+  },
+  {
+   "id": "Q178741",
+   "name": "Great Salt Lake",
+   "sl": 71,
+   "file": "Great Salt Lake by Sentinel-2.jpg",
+   "lat": 41.1667,
+   "lon": -112.5833,
+   "kind": "natural",
+   "types": [
+    "hypersaline lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Salt Lake"
+  },
+  {
+   "id": "Q214861",
+   "name": "Hartsfield–Jackson Atlanta International Airport",
+   "sl": 71,
+   "file": "Atlanta Hartsfield-Jackson.jpg",
+   "lat": 33.6367,
+   "lon": -84.4281,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hartsfield-Jackson Atlanta International Airport"
+  },
+  {
+   "id": "Q274131",
+   "name": "Everglades National Park",
+   "sl": 70,
+   "file": "Sunset over the River of Grass, NPSphoto, G.Gardner (9255157507).jpg",
+   "lat": 25.3125,
+   "lon": -80.6875,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "National Park of the United States"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Everglades National Park"
+  },
+  {
+   "id": "Q184355",
+   "name": "Mojave Desert",
+   "sl": 70,
+   "file": "Calico basin red rock cumulus mediocris.jpg",
+   "lat": 35.0083,
+   "lon": -115.475,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mojave Desert"
+  },
+  {
+   "id": "Q131626",
+   "name": "Smithsonian Institution",
+   "sl": 70,
+   "file": "Smithsonian Castle Aerial highsmith.jpg",
+   "lat": 38.8889,
+   "lon": -77.026,
+   "kind": "built",
+   "types": [
+    "institution",
+    "museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Smithsonian Institution"
+  },
+  {
+   "id": "Q178114",
+   "name": "Washington Monument",
+   "sl": 70,
+   "file": "Washington 250424 Washington Monument 01.jpg",
+   "lat": 38.8895,
+   "lon": -77.0352,
+   "kind": "both",
+   "types": [
+    "National Memorial of the United States",
+    "obelisk"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Washington Monument"
+  },
+  {
+   "id": "Q194057",
+   "name": "Mount Rainier",
+   "sl": 69,
+   "file": "Mount Rainier 5917s.JPG",
+   "lat": 46.8517,
+   "lon": -121.7603,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "sacred mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Rainier"
+  },
+  {
+   "id": "Q8731",
+   "name": "Los Angeles International Airport",
+   "sl": 68,
+   "file": "LAX LA.jpg",
+   "lat": 33.9425,
+   "lon": -118.4081,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Los Angeles International Airport"
+  },
+  {
+   "id": "Q177397",
+   "name": "Area 51",
+   "sl": 67,
+   "file": "Sentinel-Homey.png",
+   "lat": 37.2333,
+   "lon": -115.8083,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "military restricted area",
+    "region associated with claims of anomalous or paranormal eve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Area 51"
+  },
+  {
+   "id": "Q188740",
+   "name": "Museum of Modern Art",
+   "sl": 67,
+   "file": "MoMa NY USA 1.jpg",
+   "lat": 40.7614,
+   "lon": -73.9776,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum",
+    "museum building",
+    "museum of modern art"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Modern Art (New York City)"
+  },
+  {
+   "id": "Q213717",
+   "name": "O'Hare International Airport",
+   "sl": 67,
+   "file": "O'Hare International Airport (USGS).png",
+   "lat": 41.9786,
+   "lon": -87.9047,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "O'Hare International Airport"
+  },
+  {
+   "id": "Q189429",
+   "name": "Sonoran Desert",
+   "sl": 67,
+   "file": "AguaFriaNM (cropped).jpeg",
+   "lat": 32.26,
+   "lon": -112.9261,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MX"
+   ],
+   "cat": "Sonoran Desert"
+  },
+  {
+   "id": "Q459578",
+   "name": "Erie Canal",
+   "sl": 65,
+   "file": "Sunset over the Erie Canal in North Tonawanda, NY..jpg",
+   "lat": 43.0223,
+   "lon": -78.8808,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Erie Canal"
+  },
+  {
+   "id": "Q188698",
+   "name": "Kīlauea",
+   "sl": 65,
+   "file": "Kilauea - Landsat mosaic.jpg",
+   "lat": 19.4211,
+   "lon": -155.2868,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kīlauea"
+  },
+  {
+   "id": "Q11260",
+   "name": "Broadway",
+   "sl": 64,
+   "file": "Broadway 38th Street at dus.jpg",
+   "lat": 40.7701,
+   "lon": -73.9821,
+   "kind": "built",
+   "types": [
+    "street"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Broadway (Manhattan)"
+  },
+  {
+   "id": "Q357",
+   "name": "Guantanamo Bay detention camp",
+   "sl": 64,
+   "file": "PessinGuantanamoCampFiveGate210.JPG",
+   "lat": 19.9025,
+   "lon": -75.1,
+   "kind": "built",
+   "types": [
+    "military prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guantanamo Bay detainment camp"
+  },
+  {
+   "id": "Q191684",
+   "name": "Palomar Observatory",
+   "sl": 64,
+   "file": "Pti aerial photo B.jpg",
+   "lat": 33.3564,
+   "lon": -116.865,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palomar Observatory"
+  },
+  {
+   "id": "Q216344",
+   "name": "Arlington National Cemetery",
+   "sl": 63,
+   "file": "Arlington House.jpg",
+   "lat": 38.8781,
+   "lon": -77.0688,
+   "kind": "built",
+   "types": [
+    "cemetery",
+    "Direct Reporting Unit",
+    "United States national cemetery",
+    "war cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arlington National Cemetery"
+  },
+  {
+   "id": "Q179191",
+   "name": "Rock and Roll Hall of Fame",
+   "sl": 63,
+   "file": "Rock and Roll Hall of Fame, May 2016.jpg",
+   "lat": 41.5086,
+   "lon": -81.6956,
+   "kind": "built",
+   "types": [
+    "award",
+    "hall of fame",
+    "museum building",
+    "music museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock and Roll Hall of Fame"
+  },
+  {
+   "id": "Q220289",
+   "name": "Grand Canyon National Park",
+   "sl": 62,
+   "file": "10 Grand Canyon Navajo Point viewpoint terrace, Grand Canyon National Park, USA - American nature.jpg",
+   "lat": 36.0553,
+   "lon": -112.122,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "National Park of the United States"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Canyon National Park"
+  },
+  {
+   "id": "Q9219",
+   "name": "United States Military Academy",
+   "sl": 62,
+   "file": "USMA Aerial View Looking North.jpg",
+   "lat": 41.3925,
+   "lon": -73.9575,
+   "kind": "built",
+   "types": [
+    "Direct Reporting Unit",
+    "military academy",
+    "military museum",
+    "public educational institution of the United States"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "United States Military Academy"
+  },
+  {
+   "id": "Q219562",
+   "name": "Bryce Canyon National Park",
+   "sl": 61,
+   "file": "USA 10654 Bryce Canyon Luca Galuzzi 2007.jpg",
+   "lat": 37.64,
+   "lon": -112.17,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "National Park of the United States"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bryce Canyon National Park"
+  },
+  {
+   "id": "Q463179",
+   "name": "Fallingwater",
+   "sl": 61,
+   "file": "Fallingwater 2007.jpg",
+   "lat": 39.9064,
+   "lon": -79.4681,
+   "kind": "built",
+   "types": [
+    "historic house museum",
+    "single-family detached home"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q10498496",
+    "name": "The 20th-Century Architecture of Frank Lloyd Wright"
+   },
+   "also": [],
+   "cat": "Fallingwater"
+  },
+  {
+   "id": "Q235539",
+   "name": "Mount Whitney",
+   "sl": 61,
+   "file": "Mount Whitney 2003-03-25.jpg",
+   "lat": 36.5786,
+   "lon": -118.2919,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Whitney"
+  },
+  {
+   "id": "Q217717",
+   "name": "American Museum of Natural History",
+   "sl": 60,
+   "file": "American Museum of Natural History 02.jpg",
+   "lat": 40.7808,
+   "lon": -73.9744,
+   "kind": "built",
+   "types": [
+    "educational institution",
+    "natural history museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "American Museum of Natural History"
+  },
+  {
+   "id": "Q193401",
+   "name": "Cape Canaveral",
+   "sl": 60,
+   "file": "Cape canaveral.jpg",
+   "lat": 28.4556,
+   "lon": -80.5278,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Canaveral"
+  },
+  {
+   "id": "Q169962",
+   "name": "Lake Tahoe",
+   "sl": 60,
+   "file": "Tahoe North Shore from the East Shore.jpg",
+   "lat": 39.0833,
+   "lon": -120.0333,
+   "kind": "natural",
+   "types": [
+    "rift lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Tahoe"
+  },
+  {
+   "id": "Q237128",
+   "name": "Mesa Verde National Park",
+   "sl": 60,
+   "file": "Mesa Verde.jpg",
+   "lat": 37.2604,
+   "lon": -108.4944,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "architectural ensemble",
+    "national park",
+    "National Park of the United States"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mesa Verde National Park"
+  },
+  {
+   "id": "Q214867",
+   "name": "National Gallery of Art",
+   "sl": 60,
+   "file": "National Gallery of Art - West Building.JPG",
+   "lat": 38.8914,
+   "lon": -77.02,
+   "kind": "built",
+   "types": [
+    "national gallery",
+    "nonprofit organization",
+    "public–private partnership",
+    "publishing house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Gallery of Art"
+  },
+  {
+   "id": "Q201469",
+   "name": "Solomon R. Guggenheim Museum",
+   "sl": 60,
+   "file": "NYC - Guggenheim Museum.jpg",
+   "lat": 40.7831,
+   "lon": -73.9589,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum building"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q10498496",
+    "name": "The 20th-Century Architecture of Frank Lloyd Wright"
+   },
+   "also": [],
+   "cat": "Solomon R. Guggenheim Museum"
+  },
+  {
+   "id": "Q216868",
+   "name": "Chesapeake Bay",
+   "sl": 59,
+   "file": "AerialviewoftheentrancetotheChesapeakeBayBridgeTunnel.jpg",
+   "lat": 37.2481,
+   "lon": -76.1194,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "estuary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chesapeake Bay"
+  },
+  {
+   "id": "Q192017",
+   "name": "Monument Valley",
+   "sl": 59,
+   "file": "Monumentvalleyviewfromnorth.jpg",
+   "lat": 36.9833,
+   "lon": -110.1,
+   "kind": "natural",
+   "types": [
+    "structural basin",
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monument Valley"
+  },
+  {
+   "id": "Q8688",
+   "name": "San Francisco International Airport",
+   "sl": 59,
+   "file": "Aerial view of San Francisco International Airport 2010.jpg",
+   "lat": 37.6189,
+   "lon": -122.375,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "San Francisco International Airport"
+  },
+  {
+   "id": "Q319654",
+   "name": "LaGuardia Airport",
+   "sl": 58,
+   "file": "LaGuardia Airport.JPG",
+   "lat": 40.775,
+   "lon": -73.875,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "LaGuardia Airport"
+  },
+  {
+   "id": "Q186125",
+   "name": "Madison Square Garden",
+   "sl": 58,
+   "file": "Madison Square Garden (MSG) - Full (48124330357).jpg",
+   "lat": 40.7505,
+   "lon": -73.9935,
+   "kind": "built",
+   "types": [
+    "indoor arena",
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madison Square Garden"
+  },
+  {
+   "id": "Q373567",
+   "name": "Glacier National Park",
+   "sl": 57,
+   "file": "Saint Mary Lake and Wildgoose Island.jpg",
+   "lat": 48.755,
+   "lon": -113.8,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "National Park of the United States"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q828212",
+    "name": "Waterton-Glacier International Peace Park"
+   },
+   "also": [],
+   "cat": "Glacier National Park"
+  },
+  {
+   "id": "Q205325",
+   "name": "Zion National Park",
+   "sl": 57,
+   "file": "Zion angels landing view.jpg",
+   "lat": 37.2026,
+   "lon": -112.9878,
+   "kind": "natural",
+   "types": [
+    "National Park of the United States"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zion National Park"
+  },
+  {
+   "id": "Q242111",
+   "name": "Death Valley National Park",
+   "sl": 56,
+   "file": "Aguereberry Point - View South (3811736781).jpg",
+   "lat": 36.45,
+   "lon": -116.85,
+   "kind": "natural",
+   "types": [
+    "National Park of the United States"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Death Valley National Park"
+  },
+  {
+   "id": "Q206859",
+   "name": "Walt Disney World Resort",
+   "sl": 56,
+   "file": "Walt Disney World Epcot Spaceship Earth (50099574831).jpg",
+   "lat": 28.3722,
+   "lon": -81.5494,
+   "kind": "built",
+   "types": [
+    "resort",
+    "theme park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Walt Disney World Resort"
+  },
+  {
+   "id": "Q459096",
+   "name": "Dallas/Fort Worth International Airport",
+   "sl": 55,
+   "file": "DFWAirportOverview.jpg",
+   "lat": 32.8969,
+   "lon": -97.0381,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dallas-Fort Worth International Airport"
+  },
+  {
+   "id": "Q205952",
+   "name": "Hawaiʻi Volcanoes National Park",
+   "sl": 55,
+   "file": "Lava-streaming-into-ocean.jpg",
+   "lat": 19.4008,
+   "lon": -155.1236,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "National Park of the United States",
+    "unincorporated community"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Hawaii Volcanoes National Park"
+  },
+  {
+   "id": "Q372093",
+   "name": "Olympic National Park",
+   "sl": 55,
+   "file": "HurricaneRidge 7392t.jpg",
+   "lat": 47.7,
+   "lon": -123.75,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "National Park of the United States"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Olympic National Park"
+  },
+  {
+   "id": "Q217136",
+   "name": "Denali National Park and Preserve",
+   "sl": 54,
+   "file": "Wonder Lake, Denali2.jpg",
+   "lat": 63.2,
+   "lon": -150.3,
+   "kind": "both",
+   "types": [
+    "biosphere reserve",
+    "creative residency",
+    "National Park of the United States",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Denali National Park"
+  },
+  {
+   "id": "Q466786",
+   "name": "Newark Liberty International Airport",
+   "sl": 54,
+   "file": "Newark Liberty International Airport from the Air.jpg",
+   "lat": 40.6925,
+   "lon": -74.1686,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Newark Liberty International Airport"
+  },
+  {
+   "id": "Q125673",
+   "name": "Verrazzano-Narrows Bridge",
+   "sl": 54,
+   "file": "Verrazano Bridge2.jpg",
+   "lat": 40.6064,
+   "lon": -74.0456,
+   "kind": "built",
+   "types": [
+    "double-decker bridge",
+    "road bridge",
+    "suspension bridge",
+    "toll bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Verrazzano-Narrows Bridge"
+  }
+ ]
+}

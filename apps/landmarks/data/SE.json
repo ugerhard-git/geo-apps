@@ -1,0 +1,1394 @@
+{
+ "country": "SE",
+ "items": [
+  {
+   "id": "Q173596",
+   "name": "Vänern",
+   "sl": 79,
+   "file": "Vänern by Sentinel-2.jpg",
+   "lat": 58.9167,
+   "lon": 13.5,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vänern"
+  },
+  {
+   "id": "Q297871",
+   "name": "Øresund Bridge",
+   "sl": 72,
+   "file": "Øresund Bridge from the air in September 2015.jpg",
+   "lat": 55.5764,
+   "lon": 12.8216,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "double-decker bridge",
+    "international bridge",
+    "multi-level bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DK"
+   ],
+   "cat": "Oresund Bridge"
+  },
+  {
+   "id": "Q188195",
+   "name": "Vättern",
+   "sl": 65,
+   "file": "Lake Vättern.png",
+   "lat": 58.4,
+   "lon": 14.6,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vättern"
+  },
+  {
+   "id": "Q184492",
+   "name": "Mälaren",
+   "sl": 64,
+   "file": "Mälaren Slagsta 2009.jpg",
+   "lat": 59.5,
+   "lon": 17.2,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mälaren"
+  },
+  {
+   "id": "Q191583",
+   "name": "Royal Swedish Academy of Sciences",
+   "sl": 63,
+   "file": "Main building of the Royal Swedish Academy of Sciences (Kungliga Vetenskapsakademien), Frescati, Norra Djurgården, Stockholm.jpg",
+   "lat": 59.3664,
+   "lon": 18.0517,
+   "kind": "built",
+   "types": [
+    "academy of sciences",
+    "building",
+    "national academy",
+    "Swedish Royal Academies"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Swedish Academy of Sciences"
+  },
+  {
+   "id": "Q208559",
+   "name": "Drottningholm Palace",
+   "sl": 59,
+   "file": "Drottningholm Palace (by Pudelek) 3.jpg",
+   "lat": 59.3217,
+   "lon": 17.8864,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "cultural property",
+    "heritage site in Sweden",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q28246887",
+    "name": "Royal Domain of Drottningholm"
+   },
+   "also": [],
+   "cat": "Drottningholm Palace"
+  },
+  {
+   "id": "Q214011",
+   "name": "Kebnekaise",
+   "sl": 56,
+   "file": "Kebnekaise view of the tops from the south.jpg",
+   "lat": 67.8833,
+   "lon": 18.55,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "massif",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kebnekaise"
+  },
+  {
+   "id": "Q223499",
+   "name": "Stockholm Arlanda Airport",
+   "sl": 54,
+   "file": "Arlanda 1 Publish.jpg",
+   "lat": 59.6519,
+   "lon": 17.9186,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stockholm-Arlanda Airport"
+  },
+  {
+   "id": "Q208177",
+   "name": "Birka",
+   "sl": 51,
+   "file": "BirkaExcavation1.png",
+   "lat": 59.3367,
+   "lon": 17.545,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "ancient monument",
+    "archaeological site",
+    "town"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2904503",
+    "name": "Birka and Hovgården"
+   },
+   "also": [],
+   "cat": "Birka"
+  },
+  {
+   "id": "Q32926",
+   "name": "Avicii Arena",
+   "sl": 49,
+   "file": "Globen från Hammarbybacken, 2016.jpg",
+   "lat": 59.2936,
+   "lon": 18.0833,
+   "kind": "built",
+   "types": [
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avicii Arena"
+  },
+  {
+   "id": "Q213988",
+   "name": "Skogskyrkogården",
+   "sl": 44,
+   "file": "Skogskyrk Grav 2006.jpg",
+   "lat": 59.2756,
+   "lon": 18.0994,
+   "kind": "",
+   "types": [
+    "cemetery"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Skogskyrkogården"
+  },
+  {
+   "id": "Q750444",
+   "name": "Stockholm Palace",
+   "sl": 44,
+   "file": "Stockholms slott (Stockholm Palace) (24831039126).jpg",
+   "lat": 59.3267,
+   "lon": 18.0717,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "cultural property",
+    "museum",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Palace, Stockholm"
+  },
+  {
+   "id": "Q206435",
+   "name": "Turning Torso",
+   "sl": 44,
+   "file": "The Turning Torso, Malmo.JPG",
+   "lat": 55.6133,
+   "lon": 12.9764,
+   "kind": "built",
+   "types": [
+    "apartment building",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Turning Torso"
+  },
+  {
+   "id": "Q936884",
+   "name": "Engelsberg Ironworks",
+   "sl": 43,
+   "file": "Engelsberg-Huettenwerk-01.jpg",
+   "lat": 59.9692,
+   "lon": 16.0103,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "ironworks",
+    "working life museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Engelsbergs bruk"
+  },
+  {
+   "id": "Q211425",
+   "name": "Hjälmaren",
+   "sl": 43,
+   "file": "Örebro Hemfjärden.jpg",
+   "lat": 59.25,
+   "lon": 15.75,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hjälmaren"
+  },
+  {
+   "id": "Q764547",
+   "name": "Stockholm archipelago",
+   "sl": 43,
+   "file": "Söderarms skärgård.jpg",
+   "lat": 59.3833,
+   "lon": 18.7333,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "skerry coast"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stockholm archipelago"
+  },
+  {
+   "id": "Q850042",
+   "name": "Uppsala Cathedral",
+   "sl": 43,
+   "file": "Uppsala domkyrka, flygbild (cropped).jpg",
+   "lat": 59.8581,
+   "lon": 17.6333,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "heritage site in Sweden",
+    "Lutheran cathedral",
+    "religious work of art"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uppsala domkyrka"
+  },
+  {
+   "id": "Q727078",
+   "name": "Stockholm Olympic Stadium",
+   "sl": 41,
+   "file": "Stockholms Olympiastadion, 070310.JPG",
+   "lat": 59.3453,
+   "lon": 18.0789,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stockholms Olympiastadion"
+  },
+  {
+   "id": "Q1138684",
+   "name": "Strawberry Arena",
+   "sl": 41,
+   "file": "Friends Arena (7751335978).jpg",
+   "lat": 59.3725,
+   "lon": 18,
+   "kind": "built",
+   "types": [
+    "multi-purpose hall",
+    "Multi-purpose stadium",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Strawberry Arena"
+  },
+  {
+   "id": "Q431863",
+   "name": "Göta Canal",
+   "sl": 40,
+   "file": "Göta kanal - KMB - 16001000013273.jpg",
+   "lat": 58.4983,
+   "lon": 16.1733,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Göta Canal"
+  },
+  {
+   "id": "Q1137115",
+   "name": "Gothenburg-Landvetter Airport",
+   "sl": 40,
+   "file": "GOT D-AEMD.jpg",
+   "lat": 57.66,
+   "lon": 12.2911,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gothenburg-Landvetter Airport"
+  },
+  {
+   "id": "Q901371",
+   "name": "Vasa Museum",
+   "sl": 40,
+   "file": "Vasa Museum building view from the sea (3).jpg",
+   "lat": 59.3281,
+   "lon": 18.0914,
+   "kind": "built",
+   "types": [
+    "maritime museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vasa Museum"
+  },
+  {
+   "id": "Q842858",
+   "name": "Nationalmuseum",
+   "sl": 39,
+   "file": "Nationalmuseum September 2014 01.jpg",
+   "lat": 59.3286,
+   "lon": 18.0781,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "national museum",
+    "Swedish government agency"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nationalmuseum Stockholm"
+  },
+  {
+   "id": "Q725108",
+   "name": "Skansen",
+   "sl": 39,
+   "file": "Skansen Entré 2015a.jpg",
+   "lat": 59.3245,
+   "lon": 18.101,
+   "kind": "built",
+   "types": [
+    "nonprofit organization",
+    "open-air museum",
+    "working life museum",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Skansen"
+  },
+  {
+   "id": "Q714783",
+   "name": "Gripsholm Castle",
+   "sl": 38,
+   "file": "Gripsholms slott view2.jpg",
+   "lat": 59.2561,
+   "lon": 17.2192,
+   "kind": "built",
+   "types": [
+    "castle",
+    "cultural property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gripsholms slott"
+  },
+  {
+   "id": "Q849273",
+   "name": "High Coast",
+   "sl": 38,
+   "file": "Hoge Kust.jpg",
+   "lat": 63,
+   "lon": 18.4167,
+   "kind": "",
+   "types": [
+    "territory"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q10532185",
+    "name": "High Coast/Kvarken Archipelago"
+   },
+   "also": [],
+   "cat": "High Coast (Sweden)"
+  },
+  {
+   "id": "Q853730",
+   "name": "Malmö Arena",
+   "sl": 38,
+   "file": "20171031 Malmo Arena 0232 (25463574977).jpg",
+   "lat": 55.5653,
+   "lon": 12.9761,
+   "kind": "built",
+   "types": [
+    "arena",
+    "event venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malmö Arena"
+  },
+  {
+   "id": "Q648483",
+   "name": "Stockholm City Hall",
+   "sl": 38,
+   "file": "Stockholms stadshus september 2011.jpg",
+   "lat": 59.3275,
+   "lon": 18.0547,
+   "kind": "built",
+   "types": [
+    "city hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stockholm City Hall"
+  },
+  {
+   "id": "Q953092",
+   "name": "Abisko National Park",
+   "sl": 36,
+   "file": "Abiskojåkka.jpg",
+   "lat": 68.3243,
+   "lon": 18.6807,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abisko National Park"
+  },
+  {
+   "id": "Q920206",
+   "name": "Grimeton VLF transmitter",
+   "sl": 36,
+   "file": "Varberg Radio Station.jpg",
+   "lat": 57.114,
+   "lon": 12.4044,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "industrial heritage site",
+    "radio station",
+    "radio transmitter"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Varberg Radio Station"
+  },
+  {
+   "id": "Q1916655",
+   "name": "Hovgården",
+   "sl": 36,
+   "file": "Hovgården Royal Tumuli & Adelsö Church 2009.jpg",
+   "lat": 59.36,
+   "lon": 17.52,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "kongsgård"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2904503",
+    "name": "Birka and Hovgården"
+   },
+   "also": [],
+   "cat": "Hovgården"
+  },
+  {
+   "id": "Q1968711",
+   "name": "Nobel Prize Museum",
+   "sl": 36,
+   "file": "Nobel Prize Museum Entrance Stockholm 20240611.JPG",
+   "lat": 59.3252,
+   "lon": 18.0708,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nobel Prize Museum"
+  },
+  {
+   "id": "Q664946",
+   "name": "Stockholm Skavsta Airport",
+   "sl": 36,
+   "file": "StockholmSkavsta2004.jpg",
+   "lat": 58.7886,
+   "lon": 16.9122,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stockholm-Skavsta Airport"
+  },
+  {
+   "id": "Q725623",
+   "name": "Råsunda Stadium",
+   "sl": 35,
+   "file": "Råsunda February 2013 01.jpg",
+   "lat": 59.3628,
+   "lon": 17.9964,
+   "kind": "built",
+   "types": [
+    "defunct sports venue",
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Råsunda Stadium"
+  },
+  {
+   "id": "Q945780",
+   "name": "Sarek National Park",
+   "sl": 35,
+   "file": "Rapadalen-mittre-25.jpg",
+   "lat": 67.2883,
+   "lon": 17.6691,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1137314",
+    "name": "Laponian National Park"
+   },
+   "also": [],
+   "cat": "Sarek National Park"
+  },
+  {
+   "id": "Q1133075",
+   "name": "Storkyrkan",
+   "sl": 35,
+   "file": "Storkyrkan 2025 01.jpg",
+   "lat": 59.3258,
+   "lon": 18.0706,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "hall church",
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Storkyrkan, Stockholm"
+  },
+  {
+   "id": "Q629354",
+   "name": "Storsjön",
+   "sl": 35,
+   "file": "PB190187.JPG",
+   "lat": 63.2167,
+   "lon": 14.3167,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake water body"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Storsjön"
+  },
+  {
+   "id": "Q824352",
+   "name": "Ullevi",
+   "sl": 35,
+   "file": "Ullevi stadium in gothenburg 20060510.jpg",
+   "lat": 57.7058,
+   "lon": 11.9872,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ullevi"
+  },
+  {
+   "id": "Q10717330",
+   "name": "Vändåtberget",
+   "sl": 35,
+   "file": "Lägstaån moränås vandring.jpg",
+   "lat": 63.8042,
+   "lon": 18.312,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vändåtberget"
+  },
+  {
+   "id": "Q631733",
+   "name": "Ytterby mine",
+   "sl": 35,
+   "file": "2019-03 Ytterby Mine on Resarö in Vaxholm Municipality Stockholm archipelago 06.jpg",
+   "lat": 59.4265,
+   "lon": 18.3535,
+   "kind": "built",
+   "types": [
+    "historic landmark",
+    "mine",
+    "working life museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ytterby gruva"
+  },
+  {
+   "id": "Q784269",
+   "name": "Kalmar Strait",
+   "sl": 34,
+   "file": "SatOeland.jpg",
+   "lat": 56.7324,
+   "lon": 16.4493,
+   "kind": "natural",
+   "types": [
+    "sound",
+    "strait"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalmar Strait"
+  },
+  {
+   "id": "Q296799",
+   "name": "Öland Bridge",
+   "sl": 34,
+   "file": "00 2674 Öland bridge - Schweden.jpg",
+   "lat": 56.675,
+   "lon": 16.4167,
+   "kind": "built",
+   "types": [
+    "beam bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Öland bridge"
+  },
+  {
+   "id": "Q217430",
+   "name": "Siljan",
+   "sl": 34,
+   "file": "Siljan WorldWind.jpg",
+   "lat": 60.85,
+   "lon": 14.8,
+   "kind": "natural",
+   "types": [
+    "crater",
+    "lake",
+    "lake water body"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siljan Lake"
+  },
+  {
+   "id": "Q215818",
+   "name": "Torneträsk",
+   "sl": 34,
+   "file": "Tornetresk fra Rohkunborri.jpg",
+   "lat": 68.3667,
+   "lon": 19.1,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake water body"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Torneträsk"
+  },
+  {
+   "id": "Q1642003",
+   "name": "Decorated Farmhouses of Hälsingland",
+   "sl": 33,
+   "file": "Gästgivars.jpg",
+   "lat": 61.7072,
+   "lon": 16.1958,
+   "kind": "",
+   "types": [
+    "architectural ensemble",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Decorated Farmhouses of Hälsingland"
+  },
+  {
+   "id": "Q648226",
+   "name": "Kalmar Castle",
+   "sl": 33,
+   "file": "00 1133 Kalmar (Schweden) - Schloss --- Kalmar (Sweden) - Castle.jpg",
+   "lat": 56.6581,
+   "lon": 16.3553,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "castle",
+    "cultural property",
+    "heritage site in Sweden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kalmar slott"
+  },
+  {
+   "id": "Q1142142",
+   "name": "Nordic Museum",
+   "sl": 33,
+   "file": "Nordiska museet sett från Skansen 2005-07-29.jpg",
+   "lat": 59.3292,
+   "lon": 18.0933,
+   "kind": "built",
+   "types": [
+    "ethnographic museum",
+    "museum building",
+    "museum of culture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nordiska museet"
+  },
+  {
+   "id": "Q29863",
+   "name": "Stockholm Bromma Airport",
+   "sl": 33,
+   "file": "Bromma flygplats2.jpg",
+   "lat": 59.3544,
+   "lon": 17.9397,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stockholm-Bromma Airport"
+  },
+  {
+   "id": "Q845880",
+   "name": "Hornavan",
+   "sl": 32,
+   "file": "Hornavan (Tjärvek) 09.jpg",
+   "lat": 66.2333,
+   "lon": 17.5,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake water body"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hornavan"
+  },
+  {
+   "id": "Q1761052",
+   "name": "Rock Carvings in Tanum",
+   "sl": 32,
+   "file": "Tanumshede 2005 rock carvings 7.jpg",
+   "lat": 58.7,
+   "lon": 11.3364,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rock carvings in Tanum"
+  },
+  {
+   "id": "Q472975",
+   "name": "Rök Runestone",
+   "sl": 32,
+   "file": "Rökstenen 1.JPG",
+   "lat": 58.295,
+   "lon": 14.775,
+   "kind": "built",
+   "types": [
+    "Norse runestone"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Östergötlands runinskrifter 136 (Rökstenen)"
+  },
+  {
+   "id": "Q1420103",
+   "name": "Swedish Museum of Natural History",
+   "sl": 32,
+   "file": "Naturhistoriska Riksmuseet Stockholm (2010).JPG",
+   "lat": 59.3689,
+   "lon": 18.0536,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "national museum",
+    "natural history museum",
+    "Swedish government agency"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Swedish Museum of Natural History"
+  },
+  {
+   "id": "Q898922",
+   "name": "Malmö Airport",
+   "sl": 31,
+   "file": "Sturup airport.jpg",
+   "lat": 55.53,
+   "lon": 13.3714,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malmö Airport"
+  },
+  {
+   "id": "Q657118",
+   "name": "Riddarholm Church",
+   "sl": 31,
+   "file": "Riddarholmskyrkan juni 2005.jpg",
+   "lat": 59.3247,
+   "lon": 18.0647,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property",
+    "heritage site in Sweden",
+    "religious work of art"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riddarholmskyrkan"
+  },
+  {
+   "id": "Q2701834",
+   "name": "3Arena",
+   "sl": 30,
+   "file": "Tele2 Arena September 2014 14 (cropped 2).jpg",
+   "lat": 59.2914,
+   "lon": 18.0853,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tele2 Arena"
+  },
+  {
+   "id": "Q4907651",
+   "name": "Bildmuseet",
+   "sl": 30,
+   "file": "Bildmuseet 01.jpg",
+   "lat": 63.8203,
+   "lon": 20.2763,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bildmuseet"
+  },
+  {
+   "id": "Q3603782",
+   "name": "Gamla bron",
+   "sl": 30,
+   "file": "Gamla bron Umeå 2007-06-24.jpg",
+   "lat": 63.825,
+   "lon": 20.2492,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gamla bron, Umeå"
+  },
+  {
+   "id": "Q1756286",
+   "name": "Gammelstad Church Town",
+   "sl": 30,
+   "file": "Gammelstad.jpg",
+   "lat": 65.6461,
+   "lon": 22.0286,
+   "kind": "",
+   "types": [
+    "church town of Sweden",
+    "cultural property",
+    "heritage site in Sweden"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Church village of Gammelstad, Luleå"
+  },
+  {
+   "id": "Q1413270",
+   "name": "Liseberg",
+   "sl": 30,
+   "file": "Liseberg, 20221223.jpg",
+   "lat": 57.6956,
+   "lon": 11.99,
+   "kind": "built",
+   "types": [
+    "amusement park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liseberg"
+  },
+  {
+   "id": "Q1274511",
+   "name": "Moderna Museet",
+   "sl": 30,
+   "file": "Moderna museet, 2006.jpg",
+   "lat": 59.326,
+   "lon": 18.0847,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "movie theater",
+    "museum of modern art",
+    "Swedish government agency"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moderna museet"
+  },
+  {
+   "id": "Q1138447",
+   "name": "Scandinavium",
+   "sl": 30,
+   "file": "Scandinavium 2009.jpg",
+   "lat": 57.6992,
+   "lon": 11.9878,
+   "kind": "built",
+   "types": [
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Scandinavium"
+  },
+  {
+   "id": "Q10478622",
+   "name": "Döbelns park",
+   "sl": 29,
+   "file": "Döbelns park-Umeå-2007-06-30.jpg",
+   "lat": 63.8228,
+   "lon": 20.2706,
+   "kind": "built",
+   "types": [
+    "English garden",
+    "urban park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Döbelns park"
+  },
+  {
+   "id": "Q15980608",
+   "name": "Guitars – the Museum",
+   "sl": 29,
+   "file": "Guitars-TheMuseum-2014-03-29.jpg",
+   "lat": 63.8272,
+   "lon": 20.2681,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guitars - The Museum"
+  },
+  {
+   "id": "Q1431740",
+   "name": "Kiruna Airport",
+   "sl": 29,
+   "file": "Kiruna flygplats.jpg",
+   "lat": 67.8214,
+   "lon": 20.3356,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kiruna Airport"
+  },
+  {
+   "id": "Q175960",
+   "name": "Malmö stadion",
+   "sl": 29,
+   "file": "Sweden malmö stadion sweden.jpg",
+   "lat": 55.5861,
+   "lon": 12.9892,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malmö Stadion"
+  },
+  {
+   "id": "Q4348256",
+   "name": "Umeå City Church",
+   "sl": 29,
+   "file": "Umeå stads kyrka.jpg",
+   "lat": 63.8236,
+   "lon": 20.2678,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "hall church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Umeå stads kyrka"
+  },
+  {
+   "id": "Q10709194",
+   "name": "Umeå rådhus",
+   "sl": 29,
+   "file": "Umea radhus from south.jpg",
+   "lat": 63.825,
+   "lon": 20.2628,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Umeå rådhus"
+  },
+  {
+   "id": "Q3578460",
+   "name": "Västerbottens museum",
+   "sl": 29,
+   "file": "Västerbottens museum-2014-03-29.jpg",
+   "lat": 63.8289,
+   "lon": 20.2886,
+   "kind": "built",
+   "types": [
+    "county museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gammlia"
+  },
+  {
+   "id": "Q891521",
+   "name": "Bolmen",
+   "sl": 28,
+   "file": "Bolmen, sunnaryd.JPG",
+   "lat": 56.9167,
+   "lon": 13.6667,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake water body"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bolmen"
+  },
+  {
+   "id": "Q29864",
+   "name": "Stockholm Västerås Airport",
+   "sl": 28,
+   "file": "Stockholm Västerås Airport.JPG",
+   "lat": 59.5894,
+   "lon": 16.6336,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stockholm-Västerås Airport"
+  },
+  {
+   "id": "Q1726607",
+   "name": "Swedish History Museum",
+   "sl": 28,
+   "file": "Statens historiska museum 2010.JPG",
+   "lat": 59.3347,
+   "lon": 18.0903,
+   "kind": "built",
+   "types": [
+    "history museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Statens historiska museum"
+  },
+  {
+   "id": "Q1433208",
+   "name": "Visby Airport",
+   "sl": 28,
+   "file": "Visby flygplats.JPG",
+   "lat": 57.6628,
+   "lon": 18.3461,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Visby Airport"
+  },
+  {
+   "id": "Q867234",
+   "name": "Eleda Stadion",
+   "sl": 27,
+   "file": "Sweden malmö eleda stadion nya stadion.jpg",
+   "lat": 55.5836,
+   "lon": 12.9878,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Eleda Stadion"
+  },
+  {
+   "id": "Q571624",
+   "name": "Idrottsparken",
+   "sl": 27,
+   "file": "Nyaparken.jpg",
+   "lat": 58.5842,
+   "lon": 16.1731,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Norrköping idrottspark"
+  },
+  {
+   "id": "Q1431971",
+   "name": "Luleå/Kallax Airport",
+   "sl": 27,
+   "file": "Luleå airport entrance.jpg",
+   "lat": 65.5436,
+   "lon": 22.1219,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Luleå Airport"
+  },
+  {
+   "id": "Q1236689",
+   "name": "Lund Cathedral",
+   "sl": 27,
+   "file": "Domkyrkan in Lund.jpg",
+   "lat": 55.7042,
+   "lon": 13.1936,
+   "kind": "built",
+   "types": [
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lunds domkyrka"
+  },
+  {
+   "id": "Q580404",
+   "name": "Muddus National Park",
+   "sl": 27,
+   "file": "Muddus-wasserfall.jpg",
+   "lat": 66.9163,
+   "lon": 20.1973,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1137314",
+    "name": "Laponian National Park"
+   },
+   "also": [],
+   "cat": "Muddus National Park"
+  },
+  {
+   "id": "Q54315",
+   "name": "Stockholm Central Station",
+   "sl": 27,
+   "file": "The facade of Stockholms Centralstation, seen from Centralplan, Photo 2.jpg",
+   "lat": 59.33,
+   "lon": 18.0561,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "central station",
+    "station building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stockholm Central Station"
+  },
+  {
+   "id": "Q1505447",
+   "name": "Stora Sjöfallet National Park",
+   "sl": 27,
+   "file": "Storasjoefallet1.jpg",
+   "lat": 67.5669,
+   "lon": 17.9937,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q1137314",
+    "name": "Laponian National Park"
+   },
+   "also": [],
+   "cat": "Stora Sjöfallet National Park"
+  },
+  {
+   "id": "Q1139153",
+   "name": "Three-Country Cairn",
+   "sl": 27,
+   "file": "Cairn des trois royaumes - close up.jpg",
+   "lat": 69.06,
+   "lon": 20.5486,
+   "kind": "built",
+   "types": [
+    "boundary marker",
+    "international tripoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FI",
+    "NO"
+   ],
+   "cat": "Tripoint Norway Sweden Finland"
+  }
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "country": "HT",
+ "items": [
+  {
+   "id": "Q206194",
+   "name": "Citadelle Laferrière",
+   "sl": 32,
+   "file": "Citadelle Laferrière Aerial View.jpg",
+   "lat": 19.5736,
+   "lon": -72.2439,
+   "kind": "built",
+   "types": [
+    "citadel",
+    "fort",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q12125635",
+    "name": "National History Park"
+   },
+   "also": [],
+   "cat": "Citadelle La Ferrière"
+  },
+  {
+   "id": "Q794560",
+   "name": "Toussaint Louverture International Airport",
+   "sl": 28,
+   "file": "Aerial view of PAP 2010-01-26 2.JPG",
+   "lat": 18.58,
+   "lon": -72.2925,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toussaint Louverture International Airport"
+  },
+  {
+   "id": "Q930795",
+   "name": "Sans-Souci Palace",
+   "sl": 25,
+   "file": "Sans-Souci Palace front.jpg",
+   "lat": 19.6047,
+   "lon": -72.2186,
+   "kind": "built",
+   "types": [
+    "palace",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q12125635",
+    "name": "National History Park"
+   },
+   "also": [],
+   "cat": "Sans-Souci Palace"
+  },
+  {
+   "id": "Q1971319",
+   "name": "Peak la Selle",
+   "sl": 23,
+   "file": "Pic La Selle, point culminant d'Haïti.jpg",
+   "lat": 18.3667,
+   "lon": -71.9833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2722327",
+   "name": "Étang Saumâtre",
+   "sl": 21,
+   "file": "Etang Saumatre NASA.jpg",
+   "lat": 18.5975,
+   "lon": -72.0147,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DO"
+   ],
+   "cat": "Etang Saumatre"
+  },
+  {
+   "id": "Q509638",
+   "name": "National Palace",
+   "sl": 21,
+   "file": "Palacio presidencial de Haiti.jpg",
+   "lat": 18.5431,
+   "lon": -72.3389,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Palace (Haiti)"
+  },
+  {
+   "id": "Q2286957",
+   "name": "Cap-Haitien International Airport",
+   "sl": 19,
+   "file": "International Airport Cap Haitien (8070547595).jpg",
+   "lat": 19.7331,
+   "lon": -72.1947,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "International Airport Cap Haitien"
+  },
+  {
+   "id": "Q12125635",
+   "name": "National History Park",
+   "sl": 19,
+   "file": "Sans-Souci Palace back.jpg",
+   "lat": 19.5736,
+   "lon": -72.2439,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "National History Park (Haiti)"
+  },
+  {
+   "id": "Q1461247",
+   "name": "Cathedral of Our Lady of the Assumption",
+   "sl": 18,
+   "file": "Cathédrale-Port-au-Prince (before 1924).jpg",
+   "lat": 18.5489,
+   "lon": -72.3386,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Notre-Dame de Port-au-Prince"
+  },
+  {
+   "id": "Q1798978",
+   "name": "La Navidad",
+   "sl": 18,
+   "file": "Vida y viajes de Cristobal Colón, 1851 Construcción de la fortaleza de La Navidad (3819531625).jpg",
+   "lat": 19.6906,
+   "lon": -72.0158,
+   "kind": "built",
+   "types": [
+    "fort",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2875847",
+   "name": "Jérémie Airport",
+   "sl": 17,
+   "file": "Jeremie airport.jpg",
+   "lat": 18.6633,
+   "lon": -74.1705,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aéroport de Jérémie"
+  },
+  {
+   "id": "Q794540",
+   "name": "Jacmel Airport",
+   "sl": 15,
+   "file": "Jacmel Airport.jpg",
+   "lat": 18.2411,
+   "lon": -72.5186,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aéroport de Jacmel"
+  },
+  {
+   "id": "Q1246231",
+   "name": "Labadee",
+   "sl": 15,
+   "file": "Labadee, Haiti Aug 2002.JPG",
+   "lat": 19.7864,
+   "lon": -72.2456,
+   "kind": "both",
+   "types": [
+    "human settlement",
+    "port",
+    "seaside resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Labadee"
+  },
+  {
+   "id": "Q755784",
+   "name": "Stade Sylvio Cator",
+   "sl": 14,
+   "file": "US Navy 100117-N-4275C-190 Haitian citizens seek refuge at the Stade Sylvio Cator, the national soccer stadium, in Port-au-Prince, Haiti.jpg",
+   "lat": 18.5359,
+   "lon": -72.3426,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3038517",
+   "name": "Lake Péligre",
+   "sl": 13,
+   "file": "Lac Peligre Haiti.jpg",
+   "lat": 18.9083,
+   "lon": -72,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lac de Péligre"
+  },
+  {
+   "id": "Q1814848",
+   "name": "La Visite National Park",
+   "sl": 12,
+   "file": "Forest on plateau of Morne d'Enfer in La Visite National Park.jpg",
+   "lat": 18.3344,
+   "lon": -71.9847,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "La Visite National Park"
+  },
+  {
+   "id": "Q3207215",
+   "name": "Lake Miragoâne",
+   "sl": 12,
+   "file": "Etang de Miragoane Haiti.jpg",
+   "lat": 18.4039,
+   "lon": -73.0497,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Étang de Miragoâne"
+  },
+  {
+   "id": "Q2805779",
+   "name": "Trou Caïman",
+   "sl": 10,
+   "file": "Trou Caïman.jpg",
+   "lat": 18.6428,
+   "lon": -72.1463,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trou Caïman"
+  },
+  {
+   "id": "Q3121455",
+   "name": "Hôtel Montana",
+   "sl": 9,
+   "file": "Hotel Montana.jpg",
+   "lat": 18.5272,
+   "lon": -72.2978,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Montana, Port-au-Prince"
+  },
+  {
+   "id": "Q3365701",
+   "name": "Hotel Oloffson",
+   "sl": 9,
+   "file": "Hotel Oloffson mars 2007.JPG",
+   "lat": 18.5294,
+   "lon": -72.3375,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Oloffson, Port-au-Prince"
+  },
+  {
+   "id": "Q2586373",
+   "name": "National Pantheon Museum of Haiti",
+   "sl": 9,
+   "file": "MUPANAH 2018 - Art Gallery 2.jpg",
+   "lat": 18.5433,
+   "lon": -72.3372,
+   "kind": "built",
+   "types": [
+    "art gallery",
+    "cultural center",
+    "mausoleum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée du Panthéon National Haïtien"
+  },
+  {
+   "id": "Q2885443",
+   "name": "Péligre Dam",
+   "sl": 9,
+   "file": "Lac Peligre Haiti.jpg",
+   "lat": 18.9,
+   "lon": -72.0394,
+   "kind": "built",
+   "types": [
+    "gravity dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q166484",
+   "name": "Christopher Hotel",
+   "sl": 8,
+   "file": "UN Haiti - MINUSTAH HQ after 2010 earthquake.jpg",
+   "lat": 18.5391,
+   "lon": -72.3121,
+   "kind": "built",
+   "types": [
+    "former entity",
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Christopher, Port-au-Prince"
+  },
+  {
+   "id": "Q11737318",
+   "name": "Our Lady of the Assumption Cathedral, Cap-Haïtien",
+   "sl": 8,
+   "file": "Cathedral of Cap-Haitien.jpg",
+   "lat": 19.761,
+   "lon": -72.2007,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cap-Haïtien Cathedral"
+  },
+  {
+   "id": "Q7193428",
+   "name": "Pignon Airport",
+   "sl": 8,
+   "file": "HS-PGN - Bangkok Airways - Airbus A319-132 - HKG (13560478625).jpg",
+   "lat": 19.3214,
+   "lon": -72.1186,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7231072",
+   "name": "Port international de Port-au-Prince",
+   "sl": 8,
+   "file": "Port-au-Prince fire from air.jpg",
+   "lat": 18.5596,
+   "lon": -72.3481,
+   "kind": "both",
+   "types": [
+    "seaport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port international de Port-au-Prince"
+  }
+ ]
+}

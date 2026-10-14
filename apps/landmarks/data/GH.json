@@ -1,0 +1,1139 @@
+{
+ "country": "GH",
+ "items": [
+  {
+   "id": "Q201679",
+   "name": "Lake Volta",
+   "sl": 58,
+   "file": "Volta lake.jpg",
+   "lat": 7.4,
+   "lon": 0.2,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Volta"
+  },
+  {
+   "id": "Q894613",
+   "name": "Lake Bosumtwi",
+   "sl": 39,
+   "file": "Bosumtwi Worldwind SW.jpg",
+   "lat": 6.5055,
+   "lon": -1.4089,
+   "kind": "natural",
+   "types": [
+    "impact crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Bosumtwi"
+  },
+  {
+   "id": "Q177689",
+   "name": "Accra International Airport",
+   "sl": 38,
+   "file": "Kotoka International Airport, Accra, Ghana.JPG",
+   "lat": 5.6047,
+   "lon": -0.1674,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kotoka International Airport"
+  },
+  {
+   "id": "Q1282314",
+   "name": "Akosombo Dam",
+   "sl": 38,
+   "file": "Akosombo Dam.jpg",
+   "lat": 6.2989,
+   "lon": 0.0585,
+   "kind": "built",
+   "types": [
+    "hydroelectric dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akosombo Dam"
+  },
+  {
+   "id": "Q55264655",
+   "name": "Elmina Castle",
+   "sl": 35,
+   "file": "Castle of St. George’s 03.JPG",
+   "lat": 5.0827,
+   "lon": -1.3482,
+   "kind": "built",
+   "types": [
+    "castle",
+    "cultural heritage",
+    "factory",
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Elmina Castle"
+  },
+  {
+   "id": "Q1141003",
+   "name": "Asante Traditional Buildings",
+   "sl": 34,
+   "file": "Gold Coast Map 1896.jpg",
+   "lat": 6.4011,
+   "lon": -1.6258,
+   "kind": "",
+   "types": [
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Asante Traditional Buildings"
+  },
+  {
+   "id": "Q490898",
+   "name": "Larabanga Mosque",
+   "sl": 32,
+   "file": "Larabanga Mosque Ghana.jpg",
+   "lat": 9.2166,
+   "lon": -1.8666,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Larabanga Mosque"
+  },
+  {
+   "id": "Q1585600",
+   "name": "Mole National Park",
+   "sl": 29,
+   "file": "Mole National Park Mo 24.08.JPG",
+   "lat": 9.3684,
+   "lon": -2.0935,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mole National Park"
+  },
+  {
+   "id": "Q568693",
+   "name": "Kakum National Park",
+   "sl": 28,
+   "file": "Canopy walkway in Kakum National Park 4.jpg",
+   "lat": 5.3536,
+   "lon": -1.3833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kakum National Park"
+  },
+  {
+   "id": "Q1082964",
+   "name": "Osu Castle",
+   "sl": 27,
+   "file": "Osu Castle (also known as Fort Christiansborg or Christiansborg Castle) in Accra, Ghana.jpg",
+   "lat": 5.5466,
+   "lon": -0.1827,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Christiansborg"
+  },
+  {
+   "id": "Q339568",
+   "name": "Accra Sports Stadium",
+   "sl": 24,
+   "file": "Ohene Djan Sports Stadium, Accra.jpg",
+   "lat": 5.5514,
+   "lon": -0.1919,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Accra Sports Stadium"
+  },
+  {
+   "id": "Q1877066",
+   "name": "Kumasi Airport",
+   "sl": 22,
+   "file": "Kumasi International Airport.jpg",
+   "lat": 6.7144,
+   "lon": -1.5906,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kumasi Airport"
+  },
+  {
+   "id": "Q288618",
+   "name": "Baba Yara Stadium",
+   "sl": 21,
+   "file": "Baba Yara Sports Stadium in Kumasi.jpg",
+   "lat": 6.6827,
+   "lon": -1.6051,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baba Yara Stadium (Kumasi)"
+  },
+  {
+   "id": "Q1254826",
+   "name": "Cape Coast Castle",
+   "sl": 21,
+   "file": "Cape coast castle II.JPG",
+   "lat": 5.1036,
+   "lon": -1.2412,
+   "kind": "built",
+   "types": [
+    "castle",
+    "factory",
+    "slave market"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Cape Coast Castle"
+  },
+  {
+   "id": "Q1967472",
+   "name": "National Museum of Ghana",
+   "sl": 20,
+   "file": "Museum Ground floor from 1st floor.jpg",
+   "lat": 5.5568,
+   "lon": -0.2061,
+   "kind": "built",
+   "types": [
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Ghana"
+  },
+  {
+   "id": "Q778743",
+   "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions",
+   "sl": 19,
+   "file": "Cape Coast Castle, Cape Coast, Ghana.JPG",
+   "lat": 5.1037,
+   "lon": -1.241,
+   "kind": "",
+   "types": [
+    "architectural ensemble",
+    "group of structures or buildings"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+  },
+  {
+   "id": "Q4921908",
+   "name": "Black Star Square",
+   "sl": 18,
+   "file": "Independence Square, Ghana.JPG",
+   "lat": 5.5476,
+   "lon": -0.1926,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Square (Ghana)"
+  },
+  {
+   "id": "Q928853",
+   "name": "Aliu Mahama Sports Stadium",
+   "sl": 17,
+   "file": "Stadium tamale2.jpg",
+   "lat": 9.4097,
+   "lon": -0.8617,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tamale Stadium"
+  },
+  {
+   "id": "Q1261417",
+   "name": "Cape Three Points",
+   "sl": 17,
+   "file": "Cape Three Points Lighthouse 1875.jpg",
+   "lat": 4.7393,
+   "lon": -2.0918,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Three Points"
+  },
+  {
+   "id": "Q1002702",
+   "name": "Bui National Park",
+   "sl": 16,
+   "file": "Mountain beside Bui Lake.jpg",
+   "lat": 8.2998,
+   "lon": -2.3627,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bui National Park"
+  },
+  {
+   "id": "Q980134",
+   "name": "Tagbo Falls",
+   "sl": 16,
+   "file": "Tagbo Falls Ghana.jpg",
+   "lat": 7.1408,
+   "lon": 0.3331,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tagbo Falls"
+  },
+  {
+   "id": "Q2195432",
+   "name": "Tamale International Airport",
+   "sl": 16,
+   "file": "Tamale Airport Terminal.jpg",
+   "lat": 9.5569,
+   "lon": -0.8631,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tamale Airport"
+  },
+  {
+   "id": "Q15560122",
+   "name": "Wli waterfalls",
+   "sl": 16,
+   "file": "Wli Lower Fall-4.jpg",
+   "lat": 7.1058,
+   "lon": 0.6089,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wli waterfalls"
+  },
+  {
+   "id": "Q1438675",
+   "name": "Fort Prinzenstein",
+   "sl": 15,
+   "file": "Fort Prinzenstein in Keta.jpg",
+   "lat": 5.9107,
+   "lon": 0.9919,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Prinsensten"
+  },
+  {
+   "id": "Q2576085",
+   "name": "Takoradi Airport",
+   "sl": 15,
+   "file": "9GAEU-DGTK.jpg",
+   "lat": 4.8958,
+   "lon": -1.7747,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Takoradi Airport"
+  },
+  {
+   "id": "Q855195",
+   "name": "Bia National Park",
+   "sl": 14,
+   "file": "Bia National Park.jpg",
+   "lat": 6.0833,
+   "lon": -3.1,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bia National Park"
+  },
+  {
+   "id": "Q16845075",
+   "name": "Boti Falls",
+   "sl": 14,
+   "file": "Boti Falls, Ghana.jpg",
+   "lat": 6.1647,
+   "lon": -0.2014,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Boti Falls"
+  },
+  {
+   "id": "Q1318387",
+   "name": "Fort São Sebastião de Xama",
+   "sl": 14,
+   "file": "Fort St. Sebastian (Shama, Ghana 2013).jpg",
+   "lat": 5.0108,
+   "lon": -1.6292,
+   "kind": "built",
+   "types": [
+    "factory",
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort San Sebastian (Ghana)"
+  },
+  {
+   "id": "Q6414333",
+   "name": "Kintampo waterfalls",
+   "sl": 14,
+   "file": "Kintempo Water Falls II.jpg",
+   "lat": 8.0897,
+   "lon": -1.6974,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kintampo Waterfalls"
+  },
+  {
+   "id": "Q13848097",
+   "name": "Kwame Nkrumah Mausoleum",
+   "sl": 14,
+   "file": "Kwame nkrumah grave accra ghana.jpg",
+   "lat": 5.5444,
+   "lon": -0.2028,
+   "kind": "built",
+   "types": [
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kwame Nkrumah Memorial Park and Mausoleum"
+  },
+  {
+   "id": "Q1638856",
+   "name": "Kyabobo National Park",
+   "sl": 14,
+   "file": "Small Waterfall at Kyabobo National Park.jpg",
+   "lat": 8.4167,
+   "lon": 0.6167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kyabobo National Park"
+  },
+  {
+   "id": "Q4986338",
+   "name": "Bui Dam",
+   "sl": 13,
+   "file": "Bui Dam Nov 2013.JPG",
+   "lat": 8.2783,
+   "lon": -2.2358,
+   "kind": "built",
+   "types": [
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bui Dam"
+  },
+  {
+   "id": "Q478784",
+   "name": "Fort Amsterdam",
+   "sl": 13,
+   "file": "FortAmsterdamCormantine.JPG",
+   "lat": 5.1924,
+   "lon": -1.0931,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Kormantin"
+  },
+  {
+   "id": "Q1998460",
+   "name": "Fort Saint Anthony",
+   "sl": 13,
+   "file": "Fort Saint Anthony in Axim, Western Region, Ghana.jpg",
+   "lat": 4.868,
+   "lon": -2.2444,
+   "kind": "built",
+   "types": [
+    "factory",
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort San Antonio (Ghana)"
+  },
+  {
+   "id": "Q1153024",
+   "name": "Wa Airport",
+   "sl": 13,
+   "file": "DGLW-Terminal.jpg",
+   "lat": 10.0825,
+   "lon": -2.5075,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wa Airport"
+  },
+  {
+   "id": "Q478471",
+   "name": "Fort Coenraadsburg",
+   "sl": 12,
+   "file": "St Jago.JPG",
+   "lat": 5.0847,
+   "lon": -1.3508,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Conraadsburg"
+  },
+  {
+   "id": "Q504406",
+   "name": "Fort Nassau",
+   "sl": 12,
+   "file": "FortNassauMouri.JPG",
+   "lat": 5.1333,
+   "lon": -1.2,
+   "kind": "built",
+   "types": [
+    "castle",
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Nassau (Ghana)"
+  },
+  {
+   "id": "Q105555389",
+   "name": "Ghana National Mosque",
+   "sl": 12,
+   "file": "National Mosque of Ghana1.jpg",
+   "lat": 5.5907,
+   "lon": -0.1896,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ghana National Mosque"
+  },
+  {
+   "id": "Q472588",
+   "name": "Fort Batenstein",
+   "sl": 11,
+   "file": "Fort Batenstein, top floor.jpg",
+   "lat": 4.8243,
+   "lon": -1.9172,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Boutrie"
+  },
+  {
+   "id": "Q6435738",
+   "name": "Kpong Dam",
+   "sl": 11,
+   "file": "Akuse Dam.jpg",
+   "lat": 6.12,
+   "lon": 0.125,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5579594",
+   "name": "The Flagstaff House",
+   "sl": 11,
+   "file": "Golden Jubilee House.jpg",
+   "lat": 5.5798,
+   "lon": -0.1885,
+   "kind": "built",
+   "types": [
+    "building of public administration"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Flagstaff House (Accra)"
+  },
+  {
+   "id": "Q98410976",
+   "name": "Black Star Gate",
+   "sl": 10,
+   "file": "Black Star Gate (21712600269).jpg",
+   "lat": 5.549,
+   "lon": -0.1929,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Black Star (Accra)"
+  },
+  {
+   "id": "Q11970014",
+   "name": "Fort Fredensborg",
+   "sl": 10,
+   "file": "The National Archives UK - CO 1069-34-28-2-001.jpg",
+   "lat": 5.7446,
+   "lon": 0.1833,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Fredensborg"
+  },
+  {
+   "id": "Q1963564",
+   "name": "Fort Goede Hoop",
+   "sl": 10,
+   "file": "Overzicht binnenplaats naar de achtergevel - Senya Beraku - 20375244 - RCE.jpg",
+   "lat": 5.3874,
+   "lon": -0.4898,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Good Hope (Ghana)"
+  },
+  {
+   "id": "Q1427246",
+   "name": "Fort Metal Cross",
+   "sl": 10,
+   "file": "Fort Metal Cross.jpg",
+   "lat": 4.7934,
+   "lon": -1.945,
+   "kind": "built",
+   "types": [
+    "factory",
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Metal Cross"
+  },
+  {
+   "id": "Q954593",
+   "name": "Fort Patience",
+   "sl": 10,
+   "file": "Overzicht bovenop hoekpunt rechts voor - Apam - 20375238 - RCE.jpg",
+   "lat": 5.2862,
+   "lon": -0.7281,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Apam"
+  },
+  {
+   "id": "Q2424003",
+   "name": "Ussher Fort",
+   "sl": 10,
+   "file": "Crevecoeur and James Fort.png",
+   "lat": 5.5385,
+   "lon": -0.2082,
+   "kind": "built",
+   "types": [
+    "factory",
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Crevecoeur, Accra"
+  },
+  {
+   "id": "Q1282665",
+   "name": "Volta Regional Museum",
+   "sl": 10,
+   "file": "Volta Region Museum outer view.jpg",
+   "lat": 6.6086,
+   "lon": 0.4689,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volta Regional Museum"
+  },
+  {
+   "id": "Q4673779",
+   "name": "Achimota School",
+   "sl": 9,
+   "file": "ACHIMOTA.jpg",
+   "lat": 5.6272,
+   "lon": -0.2136,
+   "kind": "built",
+   "types": [
+    "boarding school",
+    "high school",
+    "public institution"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Achimota School"
+  },
+  {
+   "id": "Q167088",
+   "name": "Adome Bridge",
+   "sl": 9,
+   "file": "Lake Volta 07.jpg",
+   "lat": 6.2394,
+   "lon": 0.0956,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "steel bridge",
+    "through arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adomi Bridge"
+  },
+  {
+   "id": "Q4255947",
+   "name": "Cathedral Basilica of Our Lady of Seven Sorrows",
+   "sl": 9,
+   "file": "Old Navrongo Catholic Cathedral.jpg",
+   "lat": 10.8843,
+   "lon": -1.0779,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "church building",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral Basilica of Our Lady of Seven Sorrows"
+  },
+  {
+   "id": "Q15045463",
+   "name": "Elmina Java Museum",
+   "sl": 9,
+   "file": "Elmina Java Museum sign.jpg",
+   "lat": 5.0995,
+   "lon": -1.3468,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elmina Java Museum"
+  },
+  {
+   "id": "Q2159452",
+   "name": "Fort Apollonia",
+   "sl": 9,
+   "file": "Fort Apollonia 001.jpg",
+   "lat": 4.987,
+   "lon": -2.59,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Apollonia (Ghana)"
+  },
+  {
+   "id": "Q5471403",
+   "name": "Fort James",
+   "sl": 9,
+   "file": "Crevecoeur and James Fort.png",
+   "lat": 5.5337,
+   "lon": -0.2111,
+   "kind": "built",
+   "types": [
+    "fort",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort James, Accra"
+  },
+  {
+   "id": "Q2182050",
+   "name": "Fort Orange",
+   "sl": 9,
+   "file": "FortsSekondi.JPG",
+   "lat": 4.9357,
+   "lon": -1.7073,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Sekondi"
+  },
+  {
+   "id": "Q2139666",
+   "name": "Fort Vredenburgh",
+   "sl": 9,
+   "file": "Fort Vredenburg 05.jpg",
+   "lat": 5.0521,
+   "lon": -1.4839,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Vredenburgh"
+  },
+  {
+   "id": "Q6749385",
+   "name": "Manhyia Palace",
+   "sl": 9,
+   "file": "Manhyia Palace Museum.jpg",
+   "lat": 6.7035,
+   "lon": -1.6158,
+   "kind": "built",
+   "types": [
+    "museum",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manhyia Palace"
+  },
+  {
+   "id": "Q6978924",
+   "name": "National Theatre of Ghana",
+   "sl": 9,
+   "file": "National Theatre of Ghana 20060826.jpg",
+   "lat": 5.5537,
+   "lon": -0.2006,
+   "kind": "built",
+   "types": [
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Theatre of Ghana"
+  },
+  {
+   "id": "Q7983927",
+   "name": "Wesley Girls' High School",
+   "sl": 9,
+   "file": "Wesley Girls' High School birdview 20121020.jpg",
+   "lat": 5.1315,
+   "lon": -1.2795,
+   "kind": "built",
+   "types": [
+    "girls' school",
+    "high school"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wesley Girls' High School"
+  },
+  {
+   "id": "Q106954094",
+   "name": "Akaa Falls",
+   "sl": 8,
+   "file": "Aka falls - Ghana - West Africa.png",
+   "lat": 6.175,
+   "lon": -0.1961,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akaa Falls"
+  },
+  {
+   "id": "Q896065",
+   "name": "Fort Gross Fredericksburg",
+   "sl": 8,
+   "file": "Groß Friedrichsburg.JPG",
+   "lat": 4.7911,
+   "lon": -2.1339,
+   "kind": "built",
+   "types": [
+    "fortification"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Gross Friedrichsburg"
+  },
+  {
+   "id": "Q5472327",
+   "name": "Fort William",
+   "sl": 8,
+   "file": "Fort Williams Ghana (9 of 9).jpg",
+   "lat": 5.1742,
+   "lon": -1.1189,
+   "kind": "built",
+   "types": [
+    "factory",
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q778743",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions"
+   },
+   "also": [],
+   "cat": "Fort Anomabu"
+  },
+  {
+   "id": "Q55611926",
+   "name": "Fort William Lighthouse",
+   "sl": 8,
+   "file": "Fort William (3 of 9).jpg",
+   "lat": 5.108,
+   "lon": -1.2443,
+   "kind": "built",
+   "types": [
+    "fortification",
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort William (Lighthouse)"
+  },
+  {
+   "id": "Q1667812",
+   "name": "Legon",
+   "sl": 8,
+   "file": "Legon Tower.JPG",
+   "lat": 5.65,
+   "lon": -0.1833,
+   "kind": "built",
+   "types": [
+    "campus",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Legon (Ghana)"
+  },
+  {
+   "id": "Q98293324",
+   "name": "Nakore Mosque",
+   "sl": 8,
+   "file": "Nakore Mosque, Upper West Region, Ghana 3.JPG",
+   "lat": 10.0603,
+   "lon": -2.5101,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nakore Mosque"
+  }
+ ]
+}

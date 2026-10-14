@@ -1,0 +1,354 @@
+{
+ "country": "BJ",
+ "items": [
+  {
+   "id": "Q726863",
+   "name": "W National Park",
+   "sl": 55,
+   "file": "Elephants bath park w wide 2006.jpg",
+   "lat": 12.35,
+   "lon": 2.355,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q25379596",
+    "name": "W-Arly-Pendjari Complex"
+   },
+   "also": [
+    "BF",
+    "NE"
+   ],
+   "cat": "W National Park"
+  },
+  {
+   "id": "Q508040",
+   "name": "Koutammakou",
+   "sl": 39,
+   "file": "Togo Taberma house 02.jpg",
+   "lat": 10.0674,
+   "lon": 1.1345,
+   "kind": "built",
+   "types": [
+    "cultural landscape",
+    "human settlement",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "TG"
+   ],
+   "cat": "Koutammakou"
+  },
+  {
+   "id": "Q1474363",
+   "name": "Pendjari National Park",
+   "sl": 39,
+   "file": "Parc national de la Pendjari.JPG",
+   "lat": 11.05,
+   "lon": 1.5167,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q25379596",
+    "name": "W-Arly-Pendjari Complex"
+   },
+   "also": [],
+   "cat": "Pendjari National Park"
+  },
+  {
+   "id": "Q2425839",
+   "name": "Royal Palaces of Abomey",
+   "sl": 39,
+   "file": "Abomey 2006 1.jpg",
+   "lat": 7.1856,
+   "lon": 1.9881,
+   "kind": "built",
+   "types": [
+    "Historical Museum of Abomey",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Abomey"
+  },
+  {
+   "id": "Q856939",
+   "name": "Cadjehoun Airport",
+   "sl": 30,
+   "file": "Benin Golf Air McDonnell Douglas DC-9-32 Mutzair.jpg",
+   "lat": 6.3558,
+   "lon": 2.385,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cadjehoun Airport"
+  },
+  {
+   "id": "Q268631",
+   "name": "Lake Nokoué",
+   "sl": 30,
+   "file": "Lake Nokoue NASA.jpg",
+   "lat": 6.4328,
+   "lon": 2.4256,
+   "kind": "natural",
+   "types": [
+    "lagoon",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Nokoue"
+  },
+  {
+   "id": "Q25379596",
+   "name": "W-Arly-Pendjari Complex",
+   "sl": 25,
+   "file": "Elephants bath park w Niger 2006.jpg",
+   "lat": 11.53,
+   "lon": 2.29,
+   "kind": "",
+   "types": [
+    "group of protected areas"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "BF",
+    "NE"
+   ],
+   "cat": "W-Arly-Pendjari Complex"
+  },
+  {
+   "id": "Q927991",
+   "name": "Stade de l'Amitié",
+   "sl": 20,
+   "file": "Stade de l'amitié de Cotonou.jpg",
+   "lat": 6.386,
+   "lon": 2.3793,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade de l'Amitié Général Mathieu Kérékou"
+  },
+  {
+   "id": "Q21787689",
+   "name": "Lake Ahémé",
+   "sl": 17,
+   "file": "LE LAC AHEME AU BENIN en 2018.jpg",
+   "lat": 6.495,
+   "lon": 1.975,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Aheme"
+  },
+  {
+   "id": "Q1969968",
+   "name": "São João Baptista d’Ajudá",
+   "sl": 16,
+   "file": "Fort of São João Baptista de Ajudá (1890).jpg",
+   "lat": 6.3589,
+   "lon": 2.09,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Forte de São João Baptista de Ajudá"
+  },
+  {
+   "id": "Q3116163",
+   "name": "Stade Charles de Gaulle",
+   "sl": 13,
+   "file": "Stade charles de Gaulle de Porto-Novo.jpg",
+   "lat": 6.4778,
+   "lon": 2.6186,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Charles de Gaulle"
+  },
+  {
+   "id": "Q1433747",
+   "name": "Natitingou Airport",
+   "sl": 11,
+   "file": "Oswald Homéky, ministre béninois du tourisme au parc Pendjari après la disparition des deux touristes français MTCS.jpg",
+   "lat": 10.376,
+   "lon": 1.36,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Natitingou Airport"
+  },
+  {
+   "id": "Q2942229",
+   "name": "Cotonou Cathedral",
+   "sl": 10,
+   "file": "Cotonoucathedral.jpg",
+   "lat": 6.3563,
+   "lon": 2.4392,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cotonou Cathedral"
+  },
+  {
+   "id": "Q18467833",
+   "name": "Door of No Return",
+   "sl": 10,
+   "file": "Porte du non-retour au Benin.jpg",
+   "lat": 6.324,
+   "lon": 2.0894,
+   "kind": "built",
+   "types": [
+    "memorial",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Door of No Return, Ouidah"
+  },
+  {
+   "id": "Q4720905",
+   "name": "Alexandre Sènou Adandé Ethnographic Museum",
+   "sl": 9,
+   "file": "Gate of Porto Novo ethnographic museum Benin Dec 2017.jpg",
+   "lat": 6.4732,
+   "lon": 2.6174,
+   "kind": "built",
+   "types": [
+    "ethnographic museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alexandre Sènou Adandé Museum"
+  },
+  {
+   "id": "Q94238736",
+   "name": "Central mosque of Porto-Novo",
+   "sl": 9,
+   "file": "Grande Mosquee de Porto-Novo.jpg",
+   "lat": 6.4703,
+   "lon": 2.6266,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grande Mosquee de Porto-Novo"
+  },
+  {
+   "id": "Q21786512",
+   "name": "Lac Toho",
+   "sl": 9,
+   "file": "Pirogue du lac toho au Bénin.jpg",
+   "lat": 6.617,
+   "lon": 1.774,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Toho"
+  },
+  {
+   "id": "Q7110333",
+   "name": "Ouidah Museum of History",
+   "sl": 9,
+   "file": "Chapel in Ouidah historical museum Benin Jan 2018 in January 2018.jpg",
+   "lat": 6.3591,
+   "lon": 2.0901,
+   "kind": "built",
+   "types": [
+    "history museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musee d'Histoire de Ouidah"
+  },
+  {
+   "id": "Q2784858",
+   "name": "Royal Palace Museum",
+   "sl": 9,
+   "file": "Honmé2.jpg",
+   "lat": 6.4695,
+   "lon": 2.6252,
+   "kind": "built",
+   "types": [
+    "museum",
+    "palace"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Musée Honmè"
+  },
+  {
+   "id": "Q2091236",
+   "name": "Basilique de l'Immaculée Conception",
+   "sl": 8,
+   "file": "Façade principale de la basilique de ouidah.jpg",
+   "lat": 6.3607,
+   "lon": 2.0847,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilique de l'Immaculée Conception (Ouidah)"
+  }
+ ]
+}

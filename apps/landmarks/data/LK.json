@@ -1,0 +1,1317 @@
+{
+ "country": "LK",
+ "items": [
+  {
+   "id": "Q201743",
+   "name": "Ram Setu",
+   "sl": 68,
+   "file": "Adams Bridge aerial.jpg",
+   "lat": 9.121,
+   "lon": 79.5217,
+   "kind": "natural",
+   "types": [
+    "landform"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IN"
+   ],
+   "cat": "Adam's Bridge"
+  },
+  {
+   "id": "Q272153",
+   "name": "Sigiriya",
+   "sl": 63,
+   "file": "Beauty of Sigiriya by Binuka.jpg",
+   "lat": 7.9569,
+   "lon": 80.7597,
+   "kind": "",
+   "types": [
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sigiriya"
+  },
+  {
+   "id": "Q394443",
+   "name": "Polonnaruwa",
+   "sl": 56,
+   "file": "Polonnaruwa 02.jpg",
+   "lat": 7.9333,
+   "lon": 81,
+   "kind": "",
+   "types": [
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Polonnaruwa"
+  },
+  {
+   "id": "Q60789",
+   "name": "Adam's Peak",
+   "sl": 54,
+   "file": "Adam's Peak - February 2020 (4).jpg",
+   "lat": 6.8094,
+   "lon": 80.4997,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Adam's Peak"
+  },
+  {
+   "id": "Q375634",
+   "name": "Sinharaja Forest Reserve",
+   "sl": 44,
+   "file": "SL Sinharaja Forest asv2020-01 img08.jpg",
+   "lat": 6.24,
+   "lon": 80.28,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected forest"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sinharaja Forest Reserve"
+  },
+  {
+   "id": "Q60900",
+   "name": "Bandaranaike International Airport",
+   "sl": 43,
+   "file": "22 boeing 772 app cmb.jpg",
+   "lat": 7.1811,
+   "lon": 79.8836,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bandaranaike International Airport"
+  },
+  {
+   "id": "Q45690",
+   "name": "Dambulla cave temple",
+   "sl": 39,
+   "file": "Dambulla-temple daurat1.jpg",
+   "lat": 7.8566,
+   "lon": 80.6483,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Dambulla cave temple"
+  },
+  {
+   "id": "Q1146327",
+   "name": "Pidurutalagala",
+   "sl": 35,
+   "file": "SL Nuwara Eliya asv2020-01 img13 Mount Pedro.jpg",
+   "lat": 7.0008,
+   "lon": 80.7739,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "ultra-prominent peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pidurutalagala"
+  },
+  {
+   "id": "Q289175",
+   "name": "Temple of the Tooth",
+   "sl": 34,
+   "file": "SL Kandy asv2020-01 img33 Sacred Tooth Temple.jpg",
+   "lat": 7.2936,
+   "lon": 80.6414,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sri Dalada Maligawa"
+  },
+  {
+   "id": "Q1530863",
+   "name": "Yala National Park",
+   "sl": 32,
+   "file": "Yala Beach.jpg",
+   "lat": 6.55,
+   "lon": 81.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yala National Park"
+  },
+  {
+   "id": "Q2003663",
+   "name": "Bundala National Park",
+   "sl": 29,
+   "file": "SL Bundala NP asv2020-01 img05.jpg",
+   "lat": 6.2139,
+   "lon": 81.225,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bundala National Park"
+  },
+  {
+   "id": "Q3491563",
+   "name": "Avukana Buddha statue",
+   "sl": 24,
+   "file": "Avukana Buddha Statue.jpg",
+   "lat": 8.0228,
+   "lon": 80.5203,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "daibutsu",
+    "rock relief"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avukana Buddha Statue"
+  },
+  {
+   "id": "Q2033487",
+   "name": "National Museum of Colombo",
+   "sl": 24,
+   "file": "SL Colombo asv2020-01 img10 National Museum.jpg",
+   "lat": 6.91,
+   "lon": 79.8608,
+   "kind": "built",
+   "types": [
+    "national museum",
+    "organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Colombo National Museum"
+  },
+  {
+   "id": "Q320543",
+   "name": "Abhayagiri vihāra",
+   "sl": 23,
+   "file": "SL Anuradhapura asv2020-01 img31 Abhayagiriya Stupa.jpg",
+   "lat": 8.3709,
+   "lon": 80.3953,
+   "kind": "built",
+   "types": [
+    "vihāra"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abhayagiri Monastery (Anuradhapura)"
+  },
+  {
+   "id": "Q1630245",
+   "name": "Horton Plains National Park",
+   "sl": 21,
+   "file": "SL Horton Plains NP asv2020-01 img08.jpg",
+   "lat": 6.8,
+   "lon": 80.8,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q422941",
+    "name": "Central Highlands of Sri Lanka"
+   },
+   "also": [],
+   "cat": "Horton Plains National Park"
+  },
+  {
+   "id": "Q3449463",
+   "name": "Lotus Tower",
+   "sl": 20,
+   "file": "Blue lotus tower.jpg",
+   "lat": 6.9269,
+   "lon": 79.8583,
+   "kind": "built",
+   "types": [
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lotus Tower"
+  },
+  {
+   "id": "Q131875",
+   "name": "Udawalawe National Park",
+   "sl": 19,
+   "file": "Eléphant-Uda Walawe National Park (6).jpg",
+   "lat": 6.4383,
+   "lon": 80.8885,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uda Walawe National Park"
+  },
+  {
+   "id": "Q2507050",
+   "name": "Galle Fort",
+   "sl": 18,
+   "file": "SL Galle Fort asv2020-01 img23.jpg",
+   "lat": 6.0275,
+   "lon": 80.2171,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15830652",
+    "name": "Old Town of Galle and its Fortifications"
+   },
+   "also": [],
+   "cat": "Galle Fort"
+  },
+  {
+   "id": "Q6729657",
+   "name": "Magampura Mahinda Rajapaksa Port",
+   "sl": 18,
+   "file": "Hambantota Port Docks two ships.jpg",
+   "lat": 6.1194,
+   "lon": 81.1081,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Magampura Mahinda Rajapaksa Port"
+  },
+  {
+   "id": "Q3524793",
+   "name": "Wilpattu National Park",
+   "sl": 18,
+   "file": "Himantopus himantopus -Wilpattu National Park, Sri Lanka-8.jpg",
+   "lat": 8.4333,
+   "lon": 80,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wilpattu National Park"
+  },
+  {
+   "id": "Q1478212",
+   "name": "Mihintale",
+   "sl": 17,
+   "file": "Mihintale - Stupa Ambasthala i Buda.jpg",
+   "lat": 8.3506,
+   "lon": 80.5169,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mihintale"
+  },
+  {
+   "id": "Q2121558",
+   "name": "R. Premadasa Stadium",
+   "sl": 17,
+   "file": "Percy, Beloved Sri Lankan cricket fan.jpg",
+   "lat": 6.9397,
+   "lon": 79.872,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ranasinghe Premadasa Stadium"
+  },
+  {
+   "id": "Q1101384",
+   "name": "Ratmalana Airport",
+   "sl": 17,
+   "file": "Colombo Airport Ratmalana Landside View.jpg",
+   "lat": 6.822,
+   "lon": 79.8862,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ratmalana Airport"
+  },
+  {
+   "id": "Q1961579",
+   "name": "Jetavanaramaya",
+   "sl": 16,
+   "file": "SL Anuradhapura asv2020-01 img24 Jetavanaramaya Stupa.jpg",
+   "lat": 8.3517,
+   "lon": 80.4036,
+   "kind": "built",
+   "types": [
+    "stupa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jethawanaramaya Stupa"
+  },
+  {
+   "id": "Q3271680",
+   "name": "Sugathadasa Stadium",
+   "sl": 16,
+   "file": "Sugatadasa Stadium.jpg",
+   "lat": 6.9475,
+   "lon": 79.8686,
+   "kind": "built",
+   "types": [
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q814829",
+   "name": "Beira Lake",
+   "sl": 15,
+   "file": "Colombo - Lake.jpg",
+   "lat": 6.9294,
+   "lon": 79.8542,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beira Lake"
+  },
+  {
+   "id": "Q3119056",
+   "name": "Royal Botanic Gardens, Peradeniya",
+   "sl": 15,
+   "file": "Botanical Garden of Peradeniya 03.jpg",
+   "lat": 7.2711,
+   "lon": 80.5956,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Botanical Garden of Peradeniya"
+  },
+  {
+   "id": "Q37540",
+   "name": "Bambarakanda Falls",
+   "sl": 14,
+   "file": "Bambarakanda Waterfall.jpg",
+   "lat": 6.7733,
+   "lon": 80.8311,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bambarakanda Falls"
+  },
+  {
+   "id": "Q5517744",
+   "name": "Gal Vihara",
+   "sl": 14,
+   "file": "උත්තරාරාමය කළු ගල නෙලා.jpg",
+   "lat": 7.9659,
+   "lon": 81.005,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "rock relief"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gal Viharaya"
+  },
+  {
+   "id": "Q2667449",
+   "name": "Jami Ul-Alfar Mosque",
+   "sl": 14,
+   "file": "SL Colombo asv2020-01 img22 Jami Ul-Alfar Mosque.jpg",
+   "lat": 6.9385,
+   "lon": 79.8518,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jami Ul-Alfar Mosque"
+  },
+  {
+   "id": "Q6443439",
+   "name": "Kumana National Park",
+   "sl": 14,
+   "file": "Kumana National Park (Kudumbigala Sanctuary).JPG",
+   "lat": 6.5131,
+   "lon": 81.6878,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kumana National Park"
+  },
+  {
+   "id": "Q7390742",
+   "name": "SLAF Palaly",
+   "sl": 14,
+   "file": "Jaffna international airport.png",
+   "lat": 9.7923,
+   "lon": 80.0701,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jaffna International Airport"
+  },
+  {
+   "id": "Q37307",
+   "name": "Baker's Falls",
+   "sl": 13,
+   "file": "SL Horton Plains NP asv2020-01 img11.jpg",
+   "lat": 6.7922,
+   "lon": 80.7894,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baker's Falls"
+  },
+  {
+   "id": "Q3721993",
+   "name": "Fa Hien Cave",
+   "sl": 13,
+   "file": "Batadombalena.JPG",
+   "lat": 6.6017,
+   "lon": 80.2183,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fa Hien Cave"
+  },
+  {
+   "id": "Q2607851",
+   "name": "Nallur Kandaswamy Devasthanam",
+   "sl": 13,
+   "file": "Nallur temple.jpg",
+   "lat": 9.6747,
+   "lon": 80.0297,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nallur Kandaswamy temple"
+  },
+  {
+   "id": "Q1896585",
+   "name": "Pallekele International Cricket Stadium",
+   "sl": 13,
+   "file": "Pallekele International Cricket Stadium Main pavilion.jpg",
+   "lat": 7.2803,
+   "lon": 80.7222,
+   "kind": "built",
+   "types": [
+    "cricket field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muttiah Muralitharan International Cricket Stadium"
+  },
+  {
+   "id": "Q37424",
+   "name": "Ravana Falls",
+   "sl": 13,
+   "file": "SL Ella asv2020-01 img01 Ravana Falls.jpg",
+   "lat": 6.9039,
+   "lon": 81.0517,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ravana Falls"
+  },
+  {
+   "id": "Q7799227",
+   "name": "Thuparamaya",
+   "sl": 13,
+   "file": "SL Anuradhapura asv2020-01 img34 Thuparamaya Stupa.jpg",
+   "lat": 8.3553,
+   "lon": 80.3961,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Thuparamaya dagoba"
+  },
+  {
+   "id": "Q37408",
+   "name": "Aberdeen Falls",
+   "sl": 12,
+   "file": "Aberdeen falls sri lanka.JPG",
+   "lat": 6.95,
+   "lon": 80.5,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aberdeen Falls"
+  },
+  {
+   "id": "Q1849425",
+   "name": "Batticaloa Fort",
+   "sl": 12,
+   "file": "Batticaloa Portuguese (dutch) fort.jpg",
+   "lat": 7.7119,
+   "lon": 81.7024,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Batticaloa Portuguese fort"
+  },
+  {
+   "id": "Q38384",
+   "name": "Bomburu Ella",
+   "sl": 12,
+   "file": "Bomburu ella falls.jpg",
+   "lat": 6.9475,
+   "lon": 80.8308,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bomburu Ella Falls"
+  },
+  {
+   "id": "Q3522487",
+   "name": "Galle International Stadium",
+   "sl": 12,
+   "file": "Galle International Stadium (2).jpg",
+   "lat": 6.0314,
+   "lon": 80.2163,
+   "kind": "built",
+   "types": [
+    "cricket field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galle International Stadium"
+  },
+  {
+   "id": "Q5521071",
+   "name": "Gangaramaya Temple",
+   "sl": 12,
+   "file": "Gangaramaya Temple.JPG",
+   "lat": 6.9163,
+   "lon": 79.8564,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gangaramaya Temple"
+  },
+  {
+   "id": "Q375975",
+   "name": "Kirigalpoththa",
+   "sl": 12,
+   "file": "Kirigalpoththa-SriLanka-April2010.JPG",
+   "lat": 6.7992,
+   "lon": 80.7667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kirigalpoththa"
+  },
+  {
+   "id": "Q3531488",
+   "name": "Knuckles Mountain Range",
+   "sl": 12,
+   "file": "Knuckles Range.JPG",
+   "lat": 7.4003,
+   "lon": 80.81,
+   "kind": "natural",
+   "types": [
+    "non-geologically related mountain range",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q422941",
+    "name": "Central Highlands of Sri Lanka"
+   },
+   "also": [],
+   "cat": "Knuckles Mountain Range"
+  },
+  {
+   "id": "Q3522793",
+   "name": "SLAF Batticaloa",
+   "sl": 12,
+   "file": "Batticaloa Airport.jpg",
+   "lat": 7.7048,
+   "lon": 81.6771,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q29075893",
+   "name": "St. Anthony's Shrine, Kochchikade",
+   "sl": 12,
+   "file": "St. Anthony's Shrine, Kochchikade.jpg",
+   "lat": 6.9469,
+   "lon": 79.8561,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Anthony's Shrine, Kochchikade"
+  },
+  {
+   "id": "Q37738",
+   "name": "Bopath Ella Falls",
+   "sl": 11,
+   "file": "Bopath Falls.jpg",
+   "lat": 6.8,
+   "lon": 80.3667,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bopath Ella Falls"
+  },
+  {
+   "id": "Q37551",
+   "name": "Devon Falls",
+   "sl": 11,
+   "file": "UG-LK Photowalk - 2018-03-25 - Devon Falls (2).jpg",
+   "lat": 6.9517,
+   "lon": 80.6297,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Devon Falls"
+  },
+  {
+   "id": "Q3070381",
+   "name": "Fort Fredrick",
+   "sl": 11,
+   "file": "Fort Fredrick, entrance.JPG",
+   "lat": 8.5753,
+   "lon": 81.2414,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fort Fredrick"
+  },
+  {
+   "id": "Q2756663",
+   "name": "Jaffna Fort",
+   "sl": 11,
+   "file": "Jaffna Fort (1).jpg",
+   "lat": 9.6621,
+   "lon": 80.0083,
+   "kind": "built",
+   "types": [
+    "fort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jaffna fort"
+  },
+  {
+   "id": "Q15234273",
+   "name": "Kataragama temple",
+   "sl": 11,
+   "file": "Kataragama Maha Devale.jpg",
+   "lat": 6.4167,
+   "lon": 81.3333,
+   "kind": "built",
+   "types": [
+    "Hindu temple",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kataragama temple"
+  },
+  {
+   "id": "Q6378661",
+   "name": "Kaudulla National Park",
+   "sl": 11,
+   "file": "Thimindu 2009 12 31 Kaudulla Pompadour Green Pigeon 1.jpg",
+   "lat": 8.1611,
+   "lon": 80.905,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaudulla National Park"
+  },
+  {
+   "id": "Q2672104",
+   "name": "Pinnawala Elephant Orphanage",
+   "sl": 11,
+   "file": "Pinnawala 01.jpg",
+   "lat": 7.3006,
+   "lon": 80.3883,
+   "kind": "built",
+   "types": [
+    "orphanage",
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pinnawala Elephant Orphanage"
+  },
+  {
+   "id": "Q3534755",
+   "name": "Ruwanweli Maha Saya",
+   "sl": 11,
+   "file": "Ruwanweli Saya 1.jpg",
+   "lat": 8.35,
+   "lon": 80.3964,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "stupa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ruwanwelisaya Stupa"
+  },
+  {
+   "id": "Q7390732",
+   "name": "SLAF China Bay",
+   "sl": 11,
+   "file": "The Royal Navy during the Second World War A24292.jpg",
+   "lat": 8.5386,
+   "lon": 81.1819,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4426067",
+   "name": "St. Lucia's Cathedral",
+   "sl": 11,
+   "file": "SL Colombo asv2020-01 img23 StLucia Church.jpg",
+   "lat": 6.9481,
+   "lon": 79.8644,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Lucia's Cathedral"
+  },
+  {
+   "id": "Q763007",
+   "name": "Colombo Harbour",
+   "sl": 10,
+   "file": "ColomboHarbour-August2013-03.JPG",
+   "lat": 6.9528,
+   "lon": 79.8447,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Colombo Harbour"
+  },
+  {
+   "id": "Q37549",
+   "name": "Diyaluma Falls",
+   "sl": 10,
+   "file": "Diyaluma Falls 1.jpg",
+   "lat": 6.7333,
+   "lon": 81.0315,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Diyaluma Falls"
+  },
+  {
+   "id": "Q5517737",
+   "name": "Gal Oya National Park",
+   "sl": 10,
+   "file": "Gal Oya National Park (Senanayake Samudhraya).JPG",
+   "lat": 7.2167,
+   "lon": 81.3667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gal Oya National Park"
+  },
+  {
+   "id": "Q5518911",
+   "name": "Galle Lighthouse",
+   "sl": 10,
+   "file": "SL Galle Fort asv2020-01 img24.jpg",
+   "lat": 6.0246,
+   "lon": 80.2194,
+   "kind": "built",
+   "types": [
+    "lighthouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galle lighthouse"
+  },
+  {
+   "id": "Q15962212",
+   "name": "Jaffna Public Library",
+   "sl": 10,
+   "file": "Public Library, Jaffna.JPG",
+   "lat": 9.6621,
+   "lon": 80.0118,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jaffna library"
+  },
+  {
+   "id": "Q840346",
+   "name": "Koneswaram Temple",
+   "sl": 10,
+   "file": "Sri Lanka-Trincomalee-Tempel.JPG",
+   "lat": 8.5825,
+   "lon": 81.2456,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Koneswaram temple"
+  },
+  {
+   "id": "Q15253488",
+   "name": "Minneriya National Park",
+   "sl": 10,
+   "file": "At Minneriya National Park, certain elephants are known to be more aggressive as a result of past encounters with humans - Flickr - Al Jazeera English.jpg",
+   "lat": 7.9789,
+   "lon": 80.8489,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minneriya National Park"
+  },
+  {
+   "id": "Q7036906",
+   "name": "Nilaveli",
+   "sl": 10,
+   "file": "Nillaveli Beach.JPG",
+   "lat": 8.6833,
+   "lon": 81.2,
+   "kind": "built",
+   "types": [
+    "beach",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nilaveli"
+  },
+  {
+   "id": "Q7134855",
+   "name": "Parakrama Samudra",
+   "sl": 10,
+   "file": "Polonnaruwa-panta.jpg",
+   "lat": 7.9,
+   "lon": 80.9667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parakrama Samudra"
+  },
+  {
+   "id": "Q7193301",
+   "name": "Pigeon Island National Park",
+   "sl": 10,
+   "file": "Sri Lanka-Trincomalee-Pigeon Island.JPG",
+   "lat": 8.7167,
+   "lon": 81.2,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pigeon Island, Sri Lanka"
+  },
+  {
+   "id": "Q37481",
+   "name": "Ramboda Falls",
+   "sl": 10,
+   "file": "Ramboda water falls.jpg",
+   "lat": 7.067,
+   "lon": 80.7,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ramboda Falls"
+  },
+  {
+   "id": "Q7590097",
+   "name": "St. Mary's Cathedral, Galle",
+   "sl": 10,
+   "file": "Galle-St-Mary's Cathedral.jpg",
+   "lat": 6.0361,
+   "lon": 80.2127,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaluwella Catholic Church"
+  },
+  {
+   "id": "Q16736534",
+   "name": "Wolvendaal Church",
+   "sl": 10,
+   "file": "SL Colombo asv2020-01 img01 Wolvendaal Church.jpg",
+   "lat": 6.9421,
+   "lon": 79.859,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wolvendaal Church"
+  },
+  {
+   "id": "Q24044820",
+   "name": "Adam's Bridge Marine National Park",
+   "sl": 9,
+   "file": "Adams bridge 2.jpg",
+   "lat": 9.0708,
+   "lon": 79.6283,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2927591",
+   "name": "Buduruvagala",
+   "sl": 9,
+   "file": "Buduruwagala - Le grand Bouddha.JPG",
+   "lat": 6.687,
+   "lon": 81.0784,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "colossal statue",
+    "rock relief"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buduruwagala"
+  },
+  {
+   "id": "Q19707419",
+   "name": "Colombo Cricket Club Ground",
+   "sl": 9,
+   "file": "SCC Ground Colombo.jpg",
+   "lat": 6.9078,
+   "lon": 79.8659,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q38347",
+   "name": "Dunhinda Falls",
+   "sl": 9,
+   "file": "SL Badulla asv2020-01 img24 Dunhinda Falls.jpg",
+   "lat": 7.0167,
+   "lon": 81.0667,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dunhinda Falls"
+  },
+  {
+   "id": "Q37959",
+   "name": "Galboda Ella",
+   "sl": 9,
+   "file": "GNature1.jpg",
+   "lat": 6.7844,
+   "lon": 80.7061,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galboda Falls"
+  },
+  {
+   "id": "Q5640444",
+   "name": "Hakgala Botanical Garden",
+   "sl": 9,
+   "file": "Hakgala Botanical Garden.jpg",
+   "lat": 6.9167,
+   "lon": 80.7667,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hakgala Botanical Garden"
+  },
+  {
+   "id": "Q5760601",
+   "name": "Hikkaduwa National Park",
+   "sl": 9,
+   "file": "Name board, Hikkaduwa National Park.jpg",
+   "lat": 6.145,
+   "lon": 80.0925,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hikkaduwa National Park"
+  },
+  {
+   "id": "Q5966035",
+   "name": "Kandy Lake",
+   "sl": 9,
+   "file": "SL Kandy asv2020-01 img10 Arthurs Seat view.jpg",
+   "lat": 7.2917,
+   "lon": 80.6396,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kandy Lake"
+  },
+  {
+   "id": "Q3610575",
+   "name": "Kelaniya Raja Maha Vihara",
+   "sl": 9,
+   "file": "Kelaniya AS1.JPG",
+   "lat": 6.9531,
+   "lon": 79.9185,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kelaniya Raja Maha Vihara"
+  },
+  {
+   "id": "Q6728863",
+   "name": "Maduru Oya National Park",
+   "sl": 9,
+   "file": "Maduru Oya National Park grassland.jpg",
+   "lat": 7.5758,
+   "lon": 81.1428,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maduru Oya National Park"
+  }
+ ]
+}

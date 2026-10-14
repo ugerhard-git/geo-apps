@@ -1,0 +1,711 @@
+{
+ "country": "TM",
+ "items": [
+  {
+   "id": "Q172702",
+   "name": "Karakum Desert",
+   "sl": 91,
+   "file": "MAKarakum6.jpg",
+   "lat": 39,
+   "lon": 60,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karakum"
+  },
+  {
+   "id": "Q184364",
+   "name": "Kyzyl Kum",
+   "sl": 73,
+   "file": "Dzhangeldy Uzbekistan 2008.JPG",
+   "lat": 42.4411,
+   "lon": 63.4614,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "KZ",
+    "UZ"
+   ],
+   "cat": "Kyzyl Kum"
+  },
+  {
+   "id": "Q193325",
+   "name": "Merv",
+   "sl": 70,
+   "file": "Merv City Walls (10) (44747325714).jpg",
+   "lat": 37.6628,
+   "lon": 62.1925,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Merv"
+  },
+  {
+   "id": "Q328072",
+   "name": "Köpet Dag",
+   "sl": 56,
+   "file": "Ahal.jpg",
+   "lat": 38.0669,
+   "lon": 57.3725,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IR"
+   ],
+   "cat": "Kopet Dag"
+  },
+  {
+   "id": "Q854672",
+   "name": "Nisa",
+   "sl": 49,
+   "file": "Nisa.jpg",
+   "lat": 37.9511,
+   "lon": 58.2124,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Nisa, Turkmenistan"
+  },
+  {
+   "id": "Q257416",
+   "name": "Sarygamysh Lake",
+   "sl": 46,
+   "file": "Sarykamysh02.jpg",
+   "lat": 42,
+   "lon": 57.3333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UZ"
+   ],
+   "cat": "Sarygamysh Lake"
+  },
+  {
+   "id": "Q224919",
+   "name": "Karakum Canal",
+   "sl": 42,
+   "file": "Hanhowuz reservoir 2014.jpg",
+   "lat": 37.5889,
+   "lon": 65.2914,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karakum Canal"
+  },
+  {
+   "id": "Q1148527",
+   "name": "Ashgabat International Airport",
+   "sl": 33,
+   "file": "Ashgabat - Main airport terminal.jpg",
+   "lat": 37.9869,
+   "lon": 58.3608,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ashgabat Airport"
+  },
+  {
+   "id": "Q558159",
+   "name": "Türkmenbaşy Mosque",
+   "sl": 24,
+   "file": "Rustam Minnikhanov's trip to Turkmenistan 2008 11.jpg",
+   "lat": 38.0178,
+   "lon": 58.2528,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Türkmenbaşy Ruhy Mosque"
+  },
+  {
+   "id": "Q2564552",
+   "name": "Arch of Neutrality",
+   "sl": 22,
+   "file": "Ashgabat monument of neutrality IMG 5906 (26044793751).jpg",
+   "lat": 37.8822,
+   "lon": 58.3333,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Neutrality Arch"
+  },
+  {
+   "id": "Q2343636",
+   "name": "Olympic Stadium",
+   "sl": 22,
+   "file": "Saparmurat Turkmenbashi Olympic Stadium.jpg",
+   "lat": 37.9044,
+   "lon": 58.3771,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ashgabat Olympic Stadium"
+  },
+  {
+   "id": "Q993863",
+   "name": "Ertuğrul Gazi Mosque",
+   "sl": 21,
+   "file": "Ertugrul Gazi Mosque (12) (45999846362).jpg",
+   "lat": 37.9331,
+   "lon": 58.3989,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ertuğrul Gazi Mosque"
+  },
+  {
+   "id": "Q3110595",
+   "name": "Gonur Depe",
+   "sl": 21,
+   "file": "Gonur ruins.jpg",
+   "lat": 38.2133,
+   "lon": 62.0375,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gonur Tepe"
+  },
+  {
+   "id": "Q856152",
+   "name": "Turkmenbashi Airport",
+   "sl": 21,
+   "file": "Türkmenbaşy şäheriň halkara aeroporty 05.JPG",
+   "lat": 40.0633,
+   "lon": 53.0072,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Turkmenbashi Airport"
+  },
+  {
+   "id": "Q2559322",
+   "name": "Altyndepe",
+   "sl": 20,
+   "file": "Altyndepe, Turkmenistan.jpg",
+   "lat": 36.8579,
+   "lon": 60.4324,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Altyndepe"
+  },
+  {
+   "id": "Q725281",
+   "name": "Ashgabat Stadium",
+   "sl": 19,
+   "file": "Ashgabat suburbs IMG 5855 (26018615962).jpg",
+   "lat": 37.9281,
+   "lon": 58.3503,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q967711",
+   "name": "Turkmenabat Airport",
+   "sl": 19,
+   "file": "Turkmenabat Airport.jpg",
+   "lat": 39.0833,
+   "lon": 63.6133,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Türkmenabat Airport"
+  },
+  {
+   "id": "Q3323339",
+   "name": "Independence Monument, Ashgabat",
+   "sl": 18,
+   "file": "Ashgabat - panoramio.jpg",
+   "lat": 37.8812,
+   "lon": 58.3824,
+   "kind": "built",
+   "types": [
+    "monument",
+    "observation tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Monument, Ashgabat"
+  },
+  {
+   "id": "Q122666385",
+   "name": "Silk Roads: Zarafshan-Karakum Corridor",
+   "sl": 18,
+   "file": "Rabat Malik 12-50.JPG",
+   "lat": 39.4415,
+   "lon": 69.6856,
+   "kind": "natural",
+   "types": [
+    "transboundary site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "TJ",
+    "UZ"
+   ],
+   "cat": "Silk Roads: Zarafshan-Karakum Corridor"
+  },
+  {
+   "id": "Q4393351",
+   "name": "Repetek Biosphere State Reserve",
+   "sl": 17,
+   "file": "Takirs of Karakum Desert.jpg",
+   "lat": 38.34,
+   "lon": 63.11,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cold Winter Deserts of Turan"
+  },
+  {
+   "id": "Q4273784",
+   "name": "Sultan Sanjar's mausoleum",
+   "sl": 17,
+   "file": "SultanSanjarMausoleum1.jpg",
+   "lat": 37.659,
+   "lon": 62.1532,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Sanjar mausoleum"
+  },
+  {
+   "id": "Q6393956",
+   "name": "Kerki International Airport",
+   "sl": 15,
+   "file": "Kerki airport.jpg",
+   "lat": 37.8089,
+   "lon": 65.2125,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15120372",
+   "name": "Yyldyz Hotel",
+   "sl": 15,
+   "file": "Yyldyz Hotel (1) (45250495235).jpg",
+   "lat": 37.9296,
+   "lon": 58.3334,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yyldyz Hotel"
+  },
+  {
+   "id": "Q18404746",
+   "name": "Kutlug Timur Minaret",
+   "sl": 14,
+   "file": "KonyeUrgenchMinaret.jpg",
+   "lat": 42.3086,
+   "lon": 59.1419,
+   "kind": "built",
+   "types": [
+    "minaret"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kutlug Timur Minaret"
+  },
+  {
+   "id": "Q1835821",
+   "name": "Turkmen Carpet Museum",
+   "sl": 14,
+   "file": "The largest carpet in the world.JPG",
+   "lat": 37.924,
+   "lon": 58.3779,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q122731152",
+   "name": "Cold Winter Deserts of Turan",
+   "sl": 12,
+   "file": "Karakum Desert, Turkmenistan.jpg",
+   "lat": 44.0258,
+   "lon": 79.0342,
+   "kind": "",
+   "types": [
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "KZ",
+    "UZ"
+   ],
+   "cat": "Cold Winter Deserts of Turan"
+  },
+  {
+   "id": "Q4494644",
+   "name": "Hazar State Nature Reserve",
+   "sl": 12,
+   "file": "Hazardeniz.JPG",
+   "lat": 39,
+   "lon": 53.0447,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q420194",
+   "name": "Jeitun",
+   "sl": 12,
+   "file": "Jeytun oblique.jpg",
+   "lat": 38.1878,
+   "lon": 58.3491,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Djeitun"
+  },
+  {
+   "id": "Q3043695",
+   "name": "Oguzhan Palace",
+   "sl": 11,
+   "file": "100 manat. Türkmenistan, 2009 b.jpg",
+   "lat": 37.9343,
+   "lon": 58.3806,
+   "kind": "built",
+   "types": [
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oguzkhan Palace"
+  },
+  {
+   "id": "Q1586914",
+   "name": "Ruhyýet Palace",
+   "sl": 11,
+   "file": "10000 manat. Türkmenistan, 2000 b.jpg",
+   "lat": 37.9325,
+   "lon": 58.3778,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ruhyýet Palace"
+  },
+  {
+   "id": "Q3324895",
+   "name": "Saparmurat Hajji Mosque",
+   "sl": 11,
+   "file": "Geok-Tepe02 (3878579427).jpg",
+   "lat": 38.1619,
+   "lon": 57.9673,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gokdepe Mosque"
+  },
+  {
+   "id": "Q4225325",
+   "name": "Köw Ata",
+   "sl": 10,
+   "file": "Kow Ata Underground Lake.jpg",
+   "lat": 38.3005,
+   "lon": 57.5191,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kow Ata Underground Lake"
+  },
+  {
+   "id": "Q4466116",
+   "name": "Turkmenbashi international seaport",
+   "sl": 10,
+   "file": "Turkmenbashy International Sea Port2.jpg",
+   "lat": 40,
+   "lon": 53.0333,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Turkmenbashi International Seaport"
+  },
+  {
+   "id": "Q4064541",
+   "name": "Amudarya State Nature Reserve",
+   "sl": 9,
+   "file": "Amudaryasunset.jpg",
+   "lat": 39.65,
+   "lon": 62.85,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q18404626",
+   "name": "Ashgabat Memorial Complex",
+   "sl": 9,
+   "file": "Eternal glory monument.jpg",
+   "lat": 37.9357,
+   "lon": 58.3167,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Halk Hakydasy Memorial Complex"
+  },
+  {
+   "id": "Q4232314",
+   "name": "Köpetdag Nature Reserve",
+   "sl": 9,
+   "file": "Ahal.jpg",
+   "lat": 37.734,
+   "lon": 58.27,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1835360",
+   "name": "The State Museum of the State Cultural Center of Turkmenistan",
+   "sl": 9,
+   "file": "Akdepe (White Hill) 6000-3000 BCE Ceramic Vessel.jpg",
+   "lat": 37.8854,
+   "lon": 58.349,
+   "kind": "built",
+   "types": [
+    "museum building",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National museum of Turkmenistan"
+  },
+  {
+   "id": "Q7880780",
+   "name": "Ulug Depe",
+   "sl": 9,
+   "file": "02 ULG.jpg",
+   "lat": 37.1556,
+   "lon": 60.0295,
+   "kind": "built",
+   "types": [
+    "settlement site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4076660",
+   "name": "Balkanabat Airport",
+   "sl": 8,
+   "file": "Balkanabat-airport-Turkmenistan.jpg",
+   "lat": 39.4814,
+   "lon": 54.3628,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3510297",
+   "name": "Hanhowuz Reservoir",
+   "sl": 8,
+   "file": "Hanhowuz reservoir 2014.jpg",
+   "lat": 37.2231,
+   "lon": 61.2663,
+   "kind": "built",
+   "types": [
+    "diversion dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hanhowuz Reservoir"
+  },
+  {
+   "id": "Q39048420",
+   "name": "Independence Square, Ashgabat",
+   "sl": 8,
+   "file": "Independence Square, Ashgabat.jpg",
+   "lat": 37.935,
+   "lon": 58.3794,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Square, Ashgabat"
+  },
+  {
+   "id": "Q3437475",
+   "name": "Iran–Turkmenistan Friendship Dam",
+   "sl": 8,
+   "file": "Iran–Turkmenistan Friendship Dam.jpg",
+   "lat": 35.9486,
+   "lon": 61.1633,
+   "kind": "both",
+   "types": [
+    "earth-fill dam",
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IR"
+   ],
+   "cat": "Iran–Turkmenistan Friendship Dam"
+  }
+ ]
+}

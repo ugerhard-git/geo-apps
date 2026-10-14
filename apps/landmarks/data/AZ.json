@@ -1,0 +1,1341 @@
+{
+ "country": "AZ",
+ "items": [
+  {
+   "id": "Q725591",
+   "name": "Mount Bazardüzü",
+   "sl": 107,
+   "file": "Bazarduzu detail.JPG",
+   "lat": 41.2205,
+   "lon": 47.8583,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "RU"
+   ],
+   "cat": "Bazardüzü"
+  },
+  {
+   "id": "Q386864",
+   "name": "Heydar Aliyev International Airport",
+   "sl": 69,
+   "file": "GYD (2).jpg",
+   "lat": 40.4675,
+   "lon": 50.0467,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heydar Aliyev International Airport"
+  },
+  {
+   "id": "Q752128",
+   "name": "Shamakhy Astrophysical Observatory",
+   "sl": 56,
+   "file": "Shamakhi observatory.jpg",
+   "lat": 40.7821,
+   "lon": 48.5998,
+   "kind": "built",
+   "types": [
+    "astronomical observatory",
+    "facility"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shamakhi Astrophysical Observatory"
+  },
+  {
+   "id": "Q318181",
+   "name": "Gobustan State Historical and Cultural Reserve",
+   "sl": 50,
+   "file": "Qobustan giriş qayası 2026 (1).jpg",
+   "lat": 40.1056,
+   "lon": 49.3889,
+   "kind": "natural",
+   "types": [
+    "conservation area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Gobustan State Reserve"
+  },
+  {
+   "id": "Q338889",
+   "name": "Palace of the Shirvanshahs",
+   "sl": 49,
+   "file": "Azerbaigian-baku3.jpg",
+   "lat": 40.3661,
+   "lon": 49.8333,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q29901643",
+    "name": "Walled City of Baku with the Shirvanshahs' Palace and Maiden Tower"
+   },
+   "also": [],
+   "cat": "Palace of the Shirvanshahs"
+  },
+  {
+   "id": "Q4076080",
+   "name": "Baku railway station",
+   "sl": 48,
+   "file": "Бакинский железнодорожный вокзал Ноябрь 2024.jpg",
+   "lat": 40.3802,
+   "lon": 49.8504,
+   "kind": "built",
+   "types": [
+    "central station",
+    "historic building",
+    "interchange station",
+    "last station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baku railway station"
+  },
+  {
+   "id": "Q842822",
+   "name": "Maiden Tower",
+   "sl": 48,
+   "file": "Baku Maiden Tower 004 7736.jpg",
+   "lat": 40.3662,
+   "lon": 49.8373,
+   "kind": "built",
+   "types": [
+    "monument",
+    "tower"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q29901643",
+    "name": "Walled City of Baku with the Shirvanshahs' Palace and Maiden Tower"
+   },
+   "also": [],
+   "cat": "Maiden Tower, Baku"
+  },
+  {
+   "id": "Q2559128",
+   "name": "National Art Museum of Azerbaijan",
+   "sl": 48,
+   "file": "Palace of De Bur.JPG",
+   "lat": 40.3631,
+   "lon": 49.8317,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Art Museum of Azerbaijan"
+  },
+  {
+   "id": "Q2612138",
+   "name": "Baku Olympic Stadium",
+   "sl": 46,
+   "file": "Chelsea won UEFA Europa League final at Olympic Stadium and President Ilham Aliyev watched the final match 16.jpg",
+   "lat": 40.4298,
+   "lon": 49.9198,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baku Olympic Stadium"
+  },
+  {
+   "id": "Q1407274",
+   "name": "Baku TV Tower",
+   "sl": 40,
+   "file": "Baku Botanical Garden 60 (cropped).jpg",
+   "lat": 40.3514,
+   "lon": 49.8233,
+   "kind": "built",
+   "types": [
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baku TV Tower"
+  },
+  {
+   "id": "Q2664428",
+   "name": "National Museum of History of Azerbaijan",
+   "sl": 40,
+   "file": "National Museum of History of Azerbaijan 11.JPG",
+   "lat": 40.3695,
+   "lon": 49.8401,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of History of Azerbaijan"
+  },
+  {
+   "id": "Q48623",
+   "name": "Azerbaijan State Academic Opera and Ballet Theater",
+   "sl": 39,
+   "file": "Azerbaijan State Academic Opera and Ballet Theatre main façade, 2015.jpg",
+   "lat": 40.3747,
+   "lon": 49.8454,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azerbaijan State Academic Opera and Ballet Theater"
+  },
+  {
+   "id": "Q618714",
+   "name": "Baku Crystal Hall",
+   "sl": 39,
+   "file": "Baku bolvard and flag square 1.JPG",
+   "lat": 40.3441,
+   "lon": 49.8503,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baku Crystal Hall"
+  },
+  {
+   "id": "Q1138958",
+   "name": "Tofiq Bahramov Stadium",
+   "sl": 37,
+   "file": "Qarabagh - Young Boys, 27.08.2015 (1).JPG",
+   "lat": 40.3973,
+   "lon": 49.8524,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tofiq Bahramov Stadium"
+  },
+  {
+   "id": "Q80499",
+   "name": "Flame Towers",
+   "sl": 36,
+   "file": "View From Maidens Tower (221090097).jpeg",
+   "lat": 40.3597,
+   "lon": 49.8261,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Flame Towers"
+  },
+  {
+   "id": "Q1740560",
+   "name": "Palace of Shaki Khans",
+   "sl": 36,
+   "file": "Shaki KhanPalace 004 3718.jpg",
+   "lat": 41.2044,
+   "lon": 47.1976,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q106762537",
+    "name": "Historic Centre of Sheki with the Khan’s Palace"
+   },
+   "also": [],
+   "cat": "Khan's Palace of Şəki"
+  },
+  {
+   "id": "Q2452280",
+   "name": "Baku Zoo",
+   "sl": 35,
+   "file": "Baku Zoo.jpg",
+   "lat": 40.393,
+   "lon": 49.849,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baku Zoo"
+  },
+  {
+   "id": "Q43928",
+   "name": "Heydar Aliyev Cultural Center",
+   "sl": 34,
+   "file": "Baku 15 06 14 216000.jpeg",
+   "lat": 40.3953,
+   "lon": 49.8669,
+   "kind": "built",
+   "types": [
+    "performing arts center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heydar Aliyev Cultural Center"
+  },
+  {
+   "id": "Q965862",
+   "name": "Murovdagh",
+   "sl": 34,
+   "file": "Murov mountain in Azerbaijan-Caucasus3.jpg",
+   "lat": 40.27,
+   "lon": 46.32,
+   "kind": "natural",
+   "types": [
+    "mountain chain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Murovdagh"
+  },
+  {
+   "id": "Q754560",
+   "name": "Ateshgah of Baku",
+   "sl": 32,
+   "file": "Jahlinmarceta baku temple.jpg",
+   "lat": 40.4156,
+   "lon": 50.0086,
+   "kind": "built",
+   "types": [
+    "building",
+    "museum",
+    "religious object"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ateshgah of Baku"
+  },
+  {
+   "id": "Q2002193",
+   "name": "Azykh Cave",
+   "sl": 31,
+   "file": "Azykh cave in 2021.jpg",
+   "lat": 39.6192,
+   "lon": 46.9886,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azykh cave"
+  },
+  {
+   "id": "Q1136822",
+   "name": "Azerbaijan Carpet Museum",
+   "sl": 30,
+   "file": "Azərbaycan xalça muzeyi.jpg",
+   "lat": 40.3598,
+   "lon": 49.8355,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museum of Azerbaijan Carpet and Applied Art"
+  },
+  {
+   "id": "Q1859076",
+   "name": "Mingachevir reservoir",
+   "sl": 30,
+   "file": "Mingachevir Reservoir, Azerbaijan.JPG",
+   "lat": 40.9185,
+   "lon": 46.8037,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mingəçevir Reservoir"
+  },
+  {
+   "id": "Q104918311",
+   "name": "Fuzuli International Airport",
+   "sl": 29,
+   "file": "Fuzuli International Airport, Azerbaijan 5.jpg",
+   "lat": 39.5944,
+   "lon": 47.1966,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "greenfield airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fuzuli International Airport"
+  },
+  {
+   "id": "Q2383378",
+   "name": "Hirkan National Park",
+   "sl": 29,
+   "file": "Hirkan National Park (3).jpg",
+   "lat": 38.5639,
+   "lon": 48.7258,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hirkan National Park"
+  },
+  {
+   "id": "Q123753947",
+   "name": "Azerbaijan Railway Museum",
+   "sl": 28,
+   "file": "Railway Museum in Baku.jpg",
+   "lat": 40.3797,
+   "lon": 49.848,
+   "kind": "built",
+   "types": [
+    "museum",
+    "railway museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azerbaijan Railway Museum"
+  },
+  {
+   "id": "Q2001493",
+   "name": "Ghazanchetsots Cathedral",
+   "sl": 28,
+   "file": "Qazançı Cathedral, August 2024.jpg",
+   "lat": 39.7589,
+   "lon": 46.7474,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ghazanchetsots Cathedral"
+  },
+  {
+   "id": "Q593274",
+   "name": "Göygöl National Park",
+   "sl": 28,
+   "file": "Geygol.jpg",
+   "lat": 40.4058,
+   "lon": 46.3225,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Göygöl National Park"
+  },
+  {
+   "id": "Q947593",
+   "name": "Gandzasar monastery",
+   "sl": 27,
+   "file": "Gandzasar Monastery1.jpg",
+   "lat": 40.0568,
+   "lon": 46.5312,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "cultural property",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gandzasar"
+  },
+  {
+   "id": "Q2360985",
+   "name": "Porak",
+   "sl": 27,
+   "file": "PorakVolcano.jpg",
+   "lat": 40.02,
+   "lon": 45.78,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AM"
+   ],
+   "cat": "Porak"
+  },
+  {
+   "id": "Q2096562",
+   "name": "Taza Pir Mosque",
+   "sl": 27,
+   "file": "Təzəpir məscidinin Mərkəzi parkdan görünüşü.jpg",
+   "lat": 40.3721,
+   "lon": 49.8287,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taza Pir Mosque"
+  },
+  {
+   "id": "Q4524236",
+   "name": "Shirvan National Park",
+   "sl": 26,
+   "file": "1 avqust 2010 (6).jpg",
+   "lat": 39.5475,
+   "lon": 49.0156,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shirvan National Park"
+  },
+  {
+   "id": "Q4068343",
+   "name": "Absheron National Park",
+   "sl": 25,
+   "file": "Abşeron Milli Parkının loqosu.jpg",
+   "lat": 40.2836,
+   "lon": 50.3594,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Absheron National Park"
+  },
+  {
+   "id": "Q4032454",
+   "name": "Bakcell Arena",
+   "sl": 25,
+   "file": "İlham Əliyev Bakıda “8 KM” stadionunun açılışında iştirak etmişdir (1).jpg",
+   "lat": 40.4002,
+   "lon": 49.944,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bakcell Arena"
+  },
+  {
+   "id": "Q1678321",
+   "name": "Baku Museum of Modern Art",
+   "sl": 25,
+   "file": "Outside - panoramio.jpg",
+   "lat": 40.378,
+   "lon": 49.8647,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baku Museum of Modern Art"
+  },
+  {
+   "id": "Q856262",
+   "name": "Bibi-Heybat Mosque",
+   "sl": 25,
+   "file": "Северная сторона мечети.jpg",
+   "lat": 40.3086,
+   "lon": 49.8203,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bibi-Eybat mosque"
+  },
+  {
+   "id": "Q2752255",
+   "name": "Lake Sarysu",
+   "sl": 25,
+   "file": "Buffles qui échappent a la chaleur.jpg",
+   "lat": 40.0333,
+   "lon": 48.1765,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2468740",
+   "name": "Zengezur National Park",
+   "sl": 25,
+   "file": "Gemigaya 3.JPG",
+   "lat": 39.0353,
+   "lon": 45.9233,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zangezur National Park"
+  },
+  {
+   "id": "Q2471315",
+   "name": "Armenian Cemetery in Julfa",
+   "sl": 24,
+   "file": "Armenian cemetery in Julfa, 1915.jpg",
+   "lat": 38.9742,
+   "lon": 45.5648,
+   "kind": "built",
+   "types": [
+    "former cemetery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Armenian Cemetery in Culfa, Azerbaijan (city)"
+  },
+  {
+   "id": "Q2993838",
+   "name": "Khudafarin Bridges",
+   "sl": 24,
+   "file": "Khoda Afarin bridges.jpg",
+   "lat": 39.1506,
+   "lon": 46.9401,
+   "kind": "built",
+   "types": [
+    "stone arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IR"
+   ],
+   "cat": "Khudafarin Bridges"
+  },
+  {
+   "id": "Q2471263",
+   "name": "Lake Göygöl",
+   "sl": 24,
+   "file": "Lake Göygöl.jpg",
+   "lat": 40.4097,
+   "lon": 46.3267,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "landslide-dammed lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Göygöl"
+  },
+  {
+   "id": "Q1728783",
+   "name": "Mount Kaputjugh",
+   "sl": 24,
+   "file": "Kaputdzukh 1991.jpg",
+   "lat": 39.15,
+   "lon": 46,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AM"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2115869",
+   "name": "Yukhari Govhar Agha Mosque",
+   "sl": 24,
+   "file": "Yuxarı Gövhər ağa məscidi 2024-cü ilin aprelində.jpg",
+   "lat": 39.7601,
+   "lon": 46.7524,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yukhari Govhar Agha Mosque"
+  },
+  {
+   "id": "Q4056818",
+   "name": "Aghgol National Park",
+   "sl": 23,
+   "file": "Ağgöl Milli Parkının loqosu.jpg",
+   "lat": 40.0092,
+   "lon": 47.65,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ağgöl National Park"
+  },
+  {
+   "id": "Q507050",
+   "name": "Amaras Monastery",
+   "sl": 23,
+   "file": "Amaras-church.jpeg",
+   "lat": 39.6838,
+   "lon": 47.0572,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amaras"
+  },
+  {
+   "id": "Q2664885",
+   "name": "Martyrs' Lane",
+   "sl": 23,
+   "file": "Martyrs' Lane common view.JPG",
+   "lat": 40.3579,
+   "lon": 49.8271,
+   "kind": "built",
+   "types": [
+    "avenue",
+    "cemetery",
+    "war memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Martyrs' Lane, Baku"
+  },
+  {
+   "id": "Q1535049",
+   "name": "Muhammad Mosque",
+   "sl": 23,
+   "file": "Məhəmməd məscidi.JPG",
+   "lat": 40.3654,
+   "lon": 49.8347,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muhammad Mosque (Baku)"
+  },
+  {
+   "id": "Q621107",
+   "name": "National Flag Square",
+   "sl": 23,
+   "file": "New Baku Flagpole Sept 2024.jpg",
+   "lat": 40.3444,
+   "lon": 49.845,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Square of State Flag in Baku"
+  },
+  {
+   "id": "Q597749",
+   "name": "Baku Puppet Theatre",
+   "sl": 22,
+   "file": "Abdulla Şaiq adına Dövlət Kukla Teatrı (2).jpg",
+   "lat": 40.3672,
+   "lon": 49.8392,
+   "kind": "built",
+   "types": [
+    "playhouse",
+    "puppetry building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baku Puppet Theatre"
+  },
+  {
+   "id": "Q980497",
+   "name": "Dadivank Monastery",
+   "sl": 22,
+   "file": "Klášterní komplex Dadivank - panoramio.jpg",
+   "lat": 40.1614,
+   "lon": 46.288,
+   "kind": "built",
+   "types": [
+    "cultural property",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dadivank Monastery"
+  },
+  {
+   "id": "Q4160569",
+   "name": "Juma Mosque in Baku",
+   "sl": 22,
+   "file": "Baku JumaMosque 004 7609.jpg",
+   "lat": 40.3656,
+   "lon": 49.8358,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juma Mosque (Baku)"
+  },
+  {
+   "id": "Q3741772",
+   "name": "Karabakh Plateau",
+   "sl": 22,
+   "file": "Вид на крепость Качахакаберд из селения Колатак,2.JPG",
+   "lat": 39.584,
+   "lon": 46.1761,
+   "kind": "natural",
+   "types": [
+    "highland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AM"
+   ],
+   "cat": "Karabakh Plateau"
+  },
+  {
+   "id": "Q2505221",
+   "name": "Mingechevir Hydro Power Plant",
+   "sl": 22,
+   "file": "Mingachevir Reservoir, Azerbaijan.JPG",
+   "lat": 40.79,
+   "lon": 47.0283,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mingachevir Dam"
+  },
+  {
+   "id": "Q2511710",
+   "name": "Red Bridge",
+   "sl": 22,
+   "file": "Red bridge.jpg",
+   "lat": 41.3292,
+   "lon": 45.0731,
+   "kind": "built",
+   "types": [
+    "international bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GE"
+   ],
+   "cat": "Red Bridge (Georgia-Azerbaijan)"
+  },
+  {
+   "id": "Q2468888",
+   "name": "Altyaghach National Park",
+   "sl": 21,
+   "file": "Altıağac milli parkı, Xızı rayonu.jpg",
+   "lat": 40.8867,
+   "lon": 48.8936,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Altyaghach National Park"
+  },
+  {
+   "id": "Q2584583",
+   "name": "Azerbaijan State Academic National Drama Theatre",
+   "sl": 21,
+   "file": "Азербайджанский драматический театр.jpg",
+   "lat": 40.3753,
+   "lon": 49.8312,
+   "kind": "built",
+   "types": [
+    "organization",
+    "theatre building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azerbaijan State Academic Drama Theatre"
+  },
+  {
+   "id": "Q2069929",
+   "name": "Friday Mosque of Shamakhi",
+   "sl": 21,
+   "file": "Qoşa minarəli məscid. Şamaxı şəhəri.JPG",
+   "lat": 40.6268,
+   "lon": 48.6439,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Friday Mosque of Şamaxı"
+  },
+  {
+   "id": "Q2526720",
+   "name": "Khojaly Airport",
+   "sl": 21,
+   "file": "The currently unused Stepanakert Airport. Nagorno-Karabakh (26276252854).jpg",
+   "lat": 39.9014,
+   "lon": 46.7869,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stepanakert Airport"
+  },
+  {
+   "id": "Q1438571",
+   "name": "Lake Sev",
+   "sl": 21,
+   "file": "Lake Sev 02 (cropped).jpg",
+   "lat": 39.5981,
+   "lon": 46.2317,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AM"
+   ],
+   "cat": "Sev Lake"
+  },
+  {
+   "id": "Q15246895",
+   "name": "Mardinli Mosque",
+   "sl": 21,
+   "file": "Mardinli Mosque, Shusha.jpg",
+   "lat": 39.7623,
+   "lon": 46.753,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mardinli Mosque"
+  },
+  {
+   "id": "Q1816972",
+   "name": "Momine Khatun Mausoleum",
+   "sl": 21,
+   "file": "Momine Hatoon Mausoleum.jpg",
+   "lat": 39.205,
+   "lon": 45.4062,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "mausoleum",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Momine Khatun Mausoleum"
+  },
+  {
+   "id": "Q260554",
+   "name": "Mount Shahdagh",
+   "sl": 21,
+   "file": "Shakhdag.jpg",
+   "lat": 41.2725,
+   "lon": 48.0044,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shahdagh"
+  },
+  {
+   "id": "Q105061488",
+   "name": "Qiyaslı Mosque",
+   "sl": 21,
+   "file": "Мечеть Гияслы Июль 2025.jpg",
+   "lat": 40.0209,
+   "lon": 46.916,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Giyasli Mosque"
+  },
+  {
+   "id": "Q2665945",
+   "name": "Baku Boulevard",
+   "sl": 20,
+   "file": "Vista de Baku, Azerbaiyán, 2016-09-26, DD 120-124 PAN.jpg",
+   "lat": 40.36,
+   "lon": 49.8371,
+   "kind": "built",
+   "types": [
+    "boulevard",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baku Boulevard"
+  },
+  {
+   "id": "Q5521343",
+   "name": "Ganja City Stadium",
+   "sl": 20,
+   "file": "Ganja City Stadium, September 2025 — 2.jpg",
+   "lat": 40.7061,
+   "lon": 46.3619,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ganja City Stadium"
+  },
+  {
+   "id": "Q19273430",
+   "name": "Heydar Mosque",
+   "sl": 20,
+   "file": "Haydar Mescidi.jpg",
+   "lat": 40.4292,
+   "lon": 49.8244,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heydar mosque, Baku"
+  },
+  {
+   "id": "Q2468697",
+   "name": "Shahdag National Park",
+   "sl": 20,
+   "file": "Bazarduzu detail.JPG",
+   "lat": 40.9239,
+   "lon": 48.2528,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shahdag National Park"
+  },
+  {
+   "id": "Q720134",
+   "name": "Tigranakert of Artsakh",
+   "sl": 20,
+   "file": "Tigranakert3.jpg",
+   "lat": 40.0653,
+   "lon": 46.9058,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tigranakert (Azerbaijan)"
+  },
+  {
+   "id": "Q1813398",
+   "name": "Aghdam Mosque",
+   "sl": 19,
+   "file": "Ağdam Cümə məscidi restavrasiyadan sonra, 2024-cü ilin aprelində.jpg",
+   "lat": 39.9933,
+   "lon": 46.9317,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ağdam Mosque"
+  },
+  {
+   "id": "Q1817541",
+   "name": "Alexander Nevsky Cathedral",
+   "sl": 19,
+   "file": "Alexander Nevsky Cathedral, Baku.jpg",
+   "lat": 40.3696,
+   "lon": 49.832,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure",
+    "Eastern Orthodox cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alexander Nevsky Cathedral, Baku"
+  },
+  {
+   "id": "Q12841468",
+   "name": "Lökbatan Mud Volcano",
+   "sl": 19,
+   "file": "Mud Volcano in Gobustan 01.jpg",
+   "lat": 40.3044,
+   "lon": 49.7092,
+   "kind": "both",
+   "types": [
+    "mountain",
+    "mud volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1521003",
+   "name": "Palatial mosque in Baku",
+   "sl": 19,
+   "file": "Şah məscidi interyer.jpg",
+   "lat": 40.3661,
+   "lon": 49.833,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shirvanshahs Palace Mosque"
+  },
+  {
+   "id": "Q1768177",
+   "name": "Sarsang Reservoir",
+   "sl": 19,
+   "file": "Sarsang Reservoir 01.jpg",
+   "lat": 40.1764,
+   "lon": 46.6106,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarsang reservoir"
+  },
+  {
+   "id": "Q4449657",
+   "name": "Tağlar Cave",
+   "sl": 19,
+   "file": "Çaxmaqdaşı və dəvəgözündən əmək alətləri.JPG",
+   "lat": 39.6049,
+   "lon": 46.9649,
+   "kind": "natural",
+   "types": [
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tağlar cave"
+  },
+  {
+   "id": "Q390733",
+   "name": "ASK Arena",
+   "sl": 18,
+   "file": "\"ASK Arena\" after replacement of a covering.jpg",
+   "lat": 40.411,
+   "lon": 49.8977,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shafa Stadium"
+  },
+  {
+   "id": "Q3025343",
+   "name": "Bakmil",
+   "sl": 18,
+   "file": "81-717M at Bakmil metro station.jpg",
+   "lat": 40.4137,
+   "lon": 49.8791,
+   "kind": "built",
+   "types": [
+    "last station",
+    "metro station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bakmil (Baku Metro)"
+  },
+  {
+   "id": "Q2503596",
+   "name": "Besh Barmag Mountain",
+   "sl": 18,
+   "file": "Beşbarmaq dağı 2024-cü ildə.jpg",
+   "lat": 40.9575,
+   "lon": 49.2325,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beşbarmaq"
+  },
+  {
+   "id": "Q2094390",
+   "name": "Dalga Arena",
+   "sl": 18,
+   "file": "Dalga Arena.jpg",
+   "lat": 40.4922,
+   "lon": 50.1389,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2042479",
+   "name": "Gabala City Stadium",
+   "sl": 18,
+   "file": "Qəbələ City Stadium view (2).jpg",
+   "lat": 40.9852,
+   "lon": 47.8425,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gabala City Stadium"
+  },
+  {
+   "id": "Q1030420",
+   "name": "Gabala International Airport",
+   "sl": 18,
+   "file": "Qabala airport.jpg",
+   "lat": 40.8267,
+   "lon": 47.7125,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

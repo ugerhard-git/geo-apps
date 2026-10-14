@@ -1,0 +1,55 @@
+{
+ "country": "PR",
+ "items": [
+  {
+   "id": "Q102327045",
+   "name": "Arecibo Observatory",
+   "sl": 43,
+   "file": "Arecibo radio telescope SJU 06 2019 6144.jpg",
+   "lat": 18.3467,
+   "lon": -66.7533,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "US"
+   ],
+   "cat": "Arecibo Observatory"
+  },
+  {
+   "id": "Q1369267",
+   "name": "Hiram Bithorn Stadium",
+   "sl": 15,
+   "file": "San Juan - Bithorn Stadium.jpg",
+   "lat": 18.4167,
+   "lon": -66.0731,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Estadio Hiram Bithorn"
+  },
+  {
+   "id": "Q3137182",
+   "name": "Museo de Arte de Ponce",
+   "sl": 13,
+   "file": "Museo de Arte, Ponce, Puerto Rico-Exterior.jpg",
+   "lat": 18.0039,
+   "lon": -66.6169,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Museo de Arte de Ponce"
+  }
+ ]
+}

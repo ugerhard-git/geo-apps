@@ -1,0 +1,128 @@
+{
+ "country": "EH",
+ "items": [
+  {
+   "id": "Q185222",
+   "name": "Cape Bojador",
+   "sl": 31,
+   "file": "Faro en Cabo Bojador.jpg",
+   "lat": 26.1269,
+   "lon": -14.4992,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cap Bojador"
+  },
+  {
+   "id": "Q740930",
+   "name": "Saguia el-Hamra",
+   "sl": 29,
+   "file": "Saguia el-Hamra.jpg",
+   "lat": 27.1536,
+   "lon": -13.2033,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MA"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1431242",
+   "name": "Hassan I Airport",
+   "sl": 24,
+   "file": "Hassan 1 Airport.jpg",
+   "lat": 27.1517,
+   "lon": -13.2192,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hassan I Airport"
+  },
+  {
+   "id": "Q1431176",
+   "name": "Dakhla Airport",
+   "sl": 21,
+   "file": "Dakhla Airport.png",
+   "lat": 23.7181,
+   "lon": -15.9319,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Airport Dakhla"
+  },
+  {
+   "id": "Q16538429",
+   "name": "St. Francis of Assisi Cathedral",
+   "sl": 11,
+   "file": "Laayoune Cathedral 2011.jpg",
+   "lat": 27.1631,
+   "lon": -13.2056,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Francis of Assisi Cathedral, El Aaiún, Western Sahara"
+  },
+  {
+   "id": "Q2661450",
+   "name": "Gdeim Izik protest camp",
+   "sl": 9,
+   "file": "Gdeim-izik.jpg",
+   "lat": 27.1536,
+   "lon": -13.2033,
+   "kind": "built",
+   "types": [
+    "protest",
+    "protest camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q24039663",
+   "name": "Our Lady of Mount Carmel Church, Dakhla",
+   "sl": 8,
+   "file": "Church at Dakhla, Morocco - Western Sahara.jpg",
+   "lat": 23.7014,
+   "lon": -15.9281,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "Catholic church building",
+    "heritage"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MA"
+   ],
+   "cat": "Our Lady of Mount Carmel Church, Dakhla"
+  }
+ ]
+}

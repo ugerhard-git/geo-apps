@@ -1,0 +1,390 @@
+{
+ "country": "MU",
+ "items": [
+  {
+   "id": "Q196042",
+   "name": "Agaléga",
+   "sl": 41,
+   "file": "Agalega North ISS.jpg",
+   "lat": -10.415,
+   "lon": 56.635,
+   "kind": "natural",
+   "types": [
+    "administrative territorial entity of Mauritius",
+    "first-level administrative division",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Agalega Islands"
+  },
+  {
+   "id": "Q511859",
+   "name": "Cagados Carajos",
+   "sl": 38,
+   "file": "Cargados Carajos Shoals ISS.jpg",
+   "lat": -16.6333,
+   "lon": 59.6333,
+   "kind": "natural",
+   "types": [
+    "administrative territorial entity of Mauritius",
+    "atoll",
+    "first-level administrative division",
+    "island group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cargados Carajos Shoals"
+  },
+  {
+   "id": "Q36460",
+   "name": "Sir Seewoosagur Ramgoolam International Airport",
+   "sl": 37,
+   "file": "Mauritius 23.08.2009 11-26-52.jpg",
+   "lat": -20.43,
+   "lon": 57.683,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sir Seewoosagur Ramgoolam International Airport"
+  },
+  {
+   "id": "Q9276",
+   "name": "Aapravasi Ghat",
+   "sl": 36,
+   "file": "Aapravasi Ghat Museum, Mauritius (41).jpg",
+   "lat": -20.1586,
+   "lon": 57.5031,
+   "kind": "",
+   "types": [
+    "building complex"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Aapravasi Ghat"
+  },
+  {
+   "id": "Q1129992",
+   "name": "Le Morne Brabant",
+   "sl": 36,
+   "file": "Le Morne Peninsula in Mauritius (53697779236).jpg",
+   "lat": -20.4606,
+   "lon": 57.3136,
+   "kind": "natural",
+   "types": [
+    "kitesurf spot",
+    "mountain",
+    "peninsula"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Le Morne Brabant"
+  },
+  {
+   "id": "Q1760978",
+   "name": "Piton de la Petite Rivière Noire",
+   "sl": 21,
+   "file": "Rempart Mt..jpg",
+   "lat": -20.4088,
+   "lon": 57.4077,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piton de la Petite Rivière Noire"
+  },
+  {
+   "id": "Q2421766",
+   "name": "Black River Gorges National Park",
+   "sl": 16,
+   "file": "BlackRiverGorges.jpg",
+   "lat": -20.4167,
+   "lon": 57.4167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Black River Gorges National Park"
+  },
+  {
+   "id": "Q1298289",
+   "name": "Egmont Islands",
+   "sl": 14,
+   "file": "Egmont map.png",
+   "lat": -6.6667,
+   "lon": 71.35,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GB"
+   ],
+   "cat": "Egmont Islands"
+  },
+  {
+   "id": "Q2338515",
+   "name": "Ganga Talao",
+   "sl": 14,
+   "file": "GangaTalaoLake.jpg",
+   "lat": -20.4181,
+   "lon": 57.4919,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ganga Talao"
+  },
+  {
+   "id": "Q2875887",
+   "name": "Sir Gaëtan Duval Airport",
+   "sl": 14,
+   "file": "Aéroport de Plaine Corail.jpg",
+   "lat": -19.7575,
+   "lon": 63.3608,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sir Gaëtan Duval Airport"
+  },
+  {
+   "id": "Q429442",
+   "name": "Trou aux Cerfs",
+   "sl": 14,
+   "file": "Mauritius trou aux cerfs volcano.jpg",
+   "lat": -20.3181,
+   "lon": 57.5115,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trou aux Cerfs"
+  },
+  {
+   "id": "Q1726782",
+   "name": "Saya de Malha Bank",
+   "sl": 13,
+   "file": "Saya map1lg.PNG",
+   "lat": -10.5,
+   "lon": 61.36,
+   "kind": "natural",
+   "types": [
+    "ocean bank"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saya de Malha"
+  },
+  {
+   "id": "Q931430",
+   "name": "Sir Seewoosagur Ramgoolam Botanical Garden",
+   "sl": 13,
+   "file": "Mon Plaisir im Sir Seewoosagur Ramgoolam Botanical Garden.jpg",
+   "lat": -20.1082,
+   "lon": 57.5773,
+   "kind": "built",
+   "types": [
+    "botanical garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sir Seewoosagur Ramgoolam Botanical Garden"
+  },
+  {
+   "id": "Q2398604",
+   "name": "Le Pouce",
+   "sl": 11,
+   "file": "Le Pouce2.jpg",
+   "lat": -20.1972,
+   "lon": 57.5285,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Le Pouce"
+  },
+  {
+   "id": "Q11694190",
+   "name": "Naval Support Facility Diego Garcia",
+   "sl": 11,
+   "file": "Terminal BIOT.jpg",
+   "lat": -7.3133,
+   "lon": 72.4111,
+   "kind": "built",
+   "types": [
+    "military base",
+    "naval airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GB"
+   ],
+   "cat": "Naval Support Facility Diego Garcia"
+  },
+  {
+   "id": "Q260580",
+   "name": "Pieter Both",
+   "sl": 11,
+   "file": "Pieter Both, mountain.jpg",
+   "lat": -20.1923,
+   "lon": 57.5552,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pieter Both, Mountain"
+  },
+  {
+   "id": "Q3495512",
+   "name": "Stade Anjalay",
+   "sl": 10,
+   "file": "Mauritius anjalay coopen stadium.jpg",
+   "lat": -20.0789,
+   "lon": 57.6,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Anjalay Stadium"
+  },
+  {
+   "id": "Q495247",
+   "name": "Blue Penny Museum",
+   "sl": 9,
+   "file": "Blue Penny Museum (Port Louis, Mauritius).jpg",
+   "lat": -20.1609,
+   "lon": 57.4975,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Penny Museum"
+  },
+  {
+   "id": "Q19899414",
+   "name": "Mangal Mahadev",
+   "sl": 9,
+   "file": "DSCN1121 2 (5488435679).jpg",
+   "lat": -20.4164,
+   "lon": 57.4924,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "monument"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ganga Talao Shiva Monument"
+  },
+  {
+   "id": "Q2942379",
+   "name": "St. Louis Cathedral, Port-Louis",
+   "sl": 9,
+   "file": "Port Louis, Saint Louis Cathedral.jpg",
+   "lat": -20.1645,
+   "lon": 57.5065,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Louis Cathedral, Port Louis"
+  },
+  {
+   "id": "Q3025709",
+   "name": "Stade George V",
+   "sl": 9,
+   "file": "Mauritius stade george v.jpg",
+   "lat": -20.3213,
+   "lon": 57.5297,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade George V"
+  },
+  {
+   "id": "Q2967742",
+   "name": "Tamarind Falls",
+   "sl": 9,
+   "file": "Tamarind falls.jpg",
+   "lat": -20.3444,
+   "lon": 57.4664,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tamarind Falls"
+  },
+  {
+   "id": "Q936834",
+   "name": "Mare aux Vacoas",
+   "sl": 8,
+   "file": "Mare aux vacoas.jpg",
+   "lat": -20.3667,
+   "lon": 57.5,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mare aux Vacoas"
+  }
+ ]
+}

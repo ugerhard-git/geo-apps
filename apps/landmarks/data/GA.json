@@ -1,0 +1,225 @@
+{
+ "country": "GA",
+ "items": [
+  {
+   "id": "Q9055979",
+   "name": "Ivindo National Park",
+   "sl": 32,
+   "file": "Waterfall ivindo gabon.jpg",
+   "lat": 0.088,
+   "lon": 12.63,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ivindo National Park"
+  },
+  {
+   "id": "Q420847",
+   "name": "Libreville International Airport",
+   "sl": 29,
+   "file": "B777 d'Air France à LBV.jpg",
+   "lat": 0.4586,
+   "lon": 9.4122,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Libreville International Airport"
+  },
+  {
+   "id": "Q9055976",
+   "name": "Lopé National Park",
+   "sl": 29,
+   "file": "Lopé National Park river crop.jpg",
+   "lat": -0.5253,
+   "lon": 11.5428,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q14223008",
+    "name": "Ecosystem and Relict Cultural Landscape of Lopé-Okanda"
+   },
+   "also": [],
+   "cat": "Lopé National Park"
+  },
+  {
+   "id": "Q1574539",
+   "name": "Stade d'Angondjé",
+   "sl": 22,
+   "file": "Cameroon celebrating winning 2017 Africa Cup of Nations.jpg",
+   "lat": 0.5222,
+   "lon": 9.3933,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4783434",
+   "name": "Muni",
+   "sl": 19,
+   "file": "Muni beschriftet OSM.png",
+   "lat": 0.9883,
+   "lon": 9.7833,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "estuary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GQ"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1756690",
+   "name": "Loango National Park",
+   "sl": 18,
+   "file": "Gabon Loango National Park Elephant with offspring.jpeg",
+   "lat": -2.1667,
+   "lon": 9.5667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Loango National Park"
+  },
+  {
+   "id": "Q6918943",
+   "name": "Moukalaba-Doudou National Park",
+   "sl": 15,
+   "file": "Corythaeola christata Parc national Moukalaba-Doudou.jpg",
+   "lat": -2.43,
+   "lon": 10.42,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7227798",
+   "name": "Pongara National Park",
+   "sl": 15,
+   "file": "Lance Cpl. Justin Forrester teaches immediate action drills to a park ranger with the Agence Nationale des Parcs Nationaux at the Pongara National Forest in Pongara, Gabon, Sept. 17, 2015.jpg",
+   "lat": 0.1245,
+   "lon": 9.5391,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pongara National Park"
+  },
+  {
+   "id": "Q1807680",
+   "name": "Port-Gentil International Airport",
+   "sl": 15,
+   "file": "AEROPORTPORTGENTIL.JPG",
+   "lat": -0.7117,
+   "lon": 8.7544,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1961377",
+   "name": "Minkébé National Park",
+   "sl": 14,
+   "file": "CongoforestbasinTRIDOM.jpg",
+   "lat": 1.6798,
+   "lon": 12.7595,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1528953",
+   "name": "M'Vengue El Hadj Omar Bongo Ondimba International Airport",
+   "sl": 13,
+   "file": "Aeroport de franceville.jpg",
+   "lat": -1.6561,
+   "lon": 13.4381,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3052720",
+   "name": "Lagune Ndogo",
+   "sl": 12,
+   "file": "Satom.jpg",
+   "lat": -2.5833,
+   "lon": 10,
+   "kind": "natural",
+   "types": [
+    "lagoon",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1751117",
+   "name": "Albert Schweitzer Hospital",
+   "sl": 8,
+   "file": "COLLECTIE TROPENMUSEUM De hutten van het oude ziekenhuis TMnr 20018613.jpg",
+   "lat": -0.7003,
+   "lon": 10.2374,
+   "kind": "built",
+   "types": [
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Albert Schweitzer Hospital, Lambaréné"
+  }
+ ]
+}

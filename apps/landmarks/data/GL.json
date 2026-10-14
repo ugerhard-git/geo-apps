@@ -1,0 +1,1196 @@
+{
+ "country": "GL",
+ "items": [
+  {
+   "id": "Q737190",
+   "name": "Nares Strait",
+   "sl": 41,
+   "file": "Aerial Picture Of Thule Air Base.jpg",
+   "lat": 80,
+   "lon": -70,
+   "kind": "natural",
+   "types": [
+    "strait",
+    "watercourse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CA"
+   ],
+   "cat": "Nares Strait"
+  },
+  {
+   "id": "Q128097",
+   "name": "Cape Farewell",
+   "sl": 40,
+   "file": "Cape farewell greenland landsat.jpg",
+   "lat": 59.7731,
+   "lon": -43.9225,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Farewell Archipelago"
+  },
+  {
+   "id": "Q825709",
+   "name": "Gunnbjørn Fjeld",
+   "sl": 40,
+   "file": "GunnbjornFromAboveABC.jpg",
+   "lat": 68.9195,
+   "lon": -29.8985,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gunnbjørn Fjeld"
+  },
+  {
+   "id": "Q1542432",
+   "name": "Greenland ice sheet",
+   "sl": 38,
+   "file": "Greenland ice sheet USGS.jpg",
+   "lat": 76.7,
+   "lon": -41.2,
+   "kind": "natural",
+   "types": [
+    "ice sheet"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Greenland ice sheet"
+  },
+  {
+   "id": "Q828071",
+   "name": "Ilulissat Icefjord",
+   "sl": 37,
+   "file": "Greenland Ilulissat1.jpg",
+   "lat": 69.15,
+   "lon": -49.55,
+   "kind": "natural",
+   "types": [
+    "fjord",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilulissat"
+  },
+  {
+   "id": "Q426453",
+   "name": "Scoresby Sound",
+   "sl": 35,
+   "file": "Scoresby Sund 2003-08-21 Terra MODIS.jpg",
+   "lat": 70.5,
+   "lon": -25,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Scoresby Sund"
+  },
+  {
+   "id": "Q1139968",
+   "name": "Nuuk Airport",
+   "sl": 33,
+   "file": "Nuuk Airport 2024.jpg",
+   "lat": 64.1917,
+   "lon": -51.6778,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuuk Airport"
+  },
+  {
+   "id": "Q917353",
+   "name": "Cape Morris Jesup",
+   "sl": 30,
+   "file": "Greenland.A2004208.1810.250m.jpg",
+   "lat": 83.6275,
+   "lon": -32.6644,
+   "kind": "both",
+   "types": [
+    "automatic weather station",
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q631430",
+   "name": "Kangerlussuaq Airport",
+   "sl": 28,
+   "file": "Kangerlussuaq Airport in 2010 (2).JPG",
+   "lat": 67.0169,
+   "lon": -50.6894,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kangerlussuaq Airport"
+  },
+  {
+   "id": "Q131520504",
+   "name": "Pituffik Space Base",
+   "sl": 26,
+   "file": "Thule Air Base aerial view.jpg",
+   "lat": 76.5311,
+   "lon": -68.7031,
+   "kind": "built",
+   "types": [
+    "space force base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pituffik Space Base"
+  },
+  {
+   "id": "Q940576",
+   "name": "Thule Air Base",
+   "sl": 26,
+   "file": "Thule Air Base control tower.jpg",
+   "lat": 76.5311,
+   "lon": -68.7031,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pituffik Space Base"
+  },
+  {
+   "id": "Q1636266",
+   "name": "Cape York",
+   "sl": 24,
+   "file": "Glaciers and Icebergs at Cape York.jpg",
+   "lat": 75.92,
+   "lon": -66.45,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape York (Greenland)"
+  },
+  {
+   "id": "Q770424",
+   "name": "Jakobshavn Glacier",
+   "sl": 24,
+   "file": "Greenland Ilulissat-20.jpg",
+   "lat": 69.1667,
+   "lon": -49.8333,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jakobshavn Isbræ"
+  },
+  {
+   "id": "Q2915005",
+   "name": "Narsarsuaq Airport",
+   "sl": 24,
+   "file": "Narsarsuaq-airport-terminal-from-tarmac.jpg",
+   "lat": 61.1606,
+   "lon": -45.4256,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "heliport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Narsarsuaq Airport"
+  },
+  {
+   "id": "Q1164842",
+   "name": "Smith Sound",
+   "sl": 24,
+   "file": "Brother Johns Glacier.JPG",
+   "lat": 78.4167,
+   "lon": -74,
+   "kind": "natural",
+   "types": [
+    "strait",
+    "watercourse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CA"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q798672",
+   "name": "Brattahlíð",
+   "sl": 22,
+   "file": "Brattachurch.jpg",
+   "lat": 61.156,
+   "lon": -45.516,
+   "kind": "built",
+   "types": [
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brattahlíð, Greenland"
+  },
+  {
+   "id": "Q1635061",
+   "name": "Nuuk Stadium",
+   "sl": 22,
+   "file": "Nuuk Stadium 2.jpg",
+   "lat": 64.1808,
+   "lon": -51.7325,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuuk Stadium"
+  },
+  {
+   "id": "Q1817250",
+   "name": "Qilakitsoq",
+   "sl": 22,
+   "file": "Qilakitsoq I-1.jpg",
+   "lat": 70.6086,
+   "lon": -52.1819,
+   "kind": "built",
+   "types": [
+    "abandoned hamlet",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qilakitsoq"
+  },
+  {
+   "id": "Q2983335",
+   "name": "Aasiaat Airport",
+   "sl": 21,
+   "file": "Aasiaat Airport (27422884182).jpg",
+   "lat": 68.7218,
+   "lon": -52.7847,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aasiaat Airport"
+  },
+  {
+   "id": "Q3049018",
+   "name": "Nerlerit Inaat Airport",
+   "sl": 21,
+   "file": "ConstablePynt.jpg",
+   "lat": 70.7433,
+   "lon": -22.6486,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nerlerit Inaat Airport"
+  },
+  {
+   "id": "Q2486782",
+   "name": "Hvalsey",
+   "sl": 20,
+   "file": "Hvalsey Church.jpg",
+   "lat": 60.8282,
+   "lon": -45.7815,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "rural area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hvalsey"
+  },
+  {
+   "id": "Q1431807",
+   "name": "Kulusuk Airport",
+   "sl": 20,
+   "file": "Kulusuk-airport-terminal.jpg",
+   "lat": 65.5736,
+   "lon": -37.1236,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kulusuk Airport"
+  },
+  {
+   "id": "Q1355805",
+   "name": "Nuuk Cathedral",
+   "sl": 20,
+   "file": "Annaassisitta-Oqaluffia-old-nuuk.jpg",
+   "lat": 64.1797,
+   "lon": -51.7442,
+   "kind": "built",
+   "types": [
+    "Lutheran cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuuk Cathedral"
+  },
+  {
+   "id": "Q2748862",
+   "name": "Qaanaaq Airport",
+   "sl": 20,
+   "file": "Qaanaaq Airport (3).jpg",
+   "lat": 77.4886,
+   "lon": -69.3886,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qaanaaq Airport"
+  },
+  {
+   "id": "Q1164352",
+   "name": "Danmarkshavn",
+   "sl": 19,
+   "file": "Danmarkshavn.jpg",
+   "lat": 76.7692,
+   "lon": -18.6706,
+   "kind": "built",
+   "types": [
+    "human settlement",
+    "weather station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3117388",
+   "name": "Greenland National Museum",
+   "sl": 19,
+   "file": "Greenland National Museum.jpg",
+   "lat": 64.1772,
+   "lon": -51.7462,
+   "kind": "built",
+   "types": [
+    "national archives",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Greenland National Museum"
+  },
+  {
+   "id": "Q3085806",
+   "name": "Ilulissat Airport",
+   "sl": 19,
+   "file": "Ilulissat-airport-runway.jpg",
+   "lat": 69.2433,
+   "lon": -51.0572,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilulissat Airport"
+  },
+  {
+   "id": "Q3496947",
+   "name": "Maniitsoq Airport",
+   "sl": 19,
+   "file": "20150714 Maniitsoq Airport IMG 6326 by sebaso.jpg",
+   "lat": 65.4125,
+   "lon": -52.9394,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maniitsoq Airport"
+  },
+  {
+   "id": "Q2336534",
+   "name": "Melville Bay",
+   "sl": 19,
+   "file": "Melville-bay-hunting-boat.jpg",
+   "lat": 75.75,
+   "lon": -61,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Melville Bay"
+  },
+  {
+   "id": "Q2875938",
+   "name": "Sisimiut Airport",
+   "sl": 19,
+   "file": "Sisimiut-airport.jpg",
+   "lat": 66.9514,
+   "lon": -53.7294,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sisimiut Airport"
+  },
+  {
+   "id": "Q1703519",
+   "name": "Church of Hvalsey",
+   "sl": 18,
+   "file": "Church of Hvalsey - Ella Groedem 54 - ilovegreenland.jpg",
+   "lat": 60.8281,
+   "lon": -45.7804,
+   "kind": "built",
+   "types": [
+    "church ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Hvalsey"
+  },
+  {
+   "id": "Q502873",
+   "name": "Independence Fjord",
+   "sl": 18,
+   "file": "Independence Fjord, Greenland aerial photo.jpg",
+   "lat": 82.1333,
+   "lon": -28,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Fjord"
+  },
+  {
+   "id": "Q3496939",
+   "name": "Paamiut Airport",
+   "sl": 18,
+   "file": "Paamiut Airport final runway 35.jpg",
+   "lat": 62.0147,
+   "lon": -49.6708,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paamiut Airport"
+  },
+  {
+   "id": "Q2748890",
+   "name": "Upernavik Airport",
+   "sl": 18,
+   "file": "Upernavik Airport 2007-06-14.jpg",
+   "lat": 72.7903,
+   "lon": -56.1306,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Upernavik Airport"
+  },
+  {
+   "id": "Q141430349",
+   "name": "Garðar",
+   "sl": 17,
+   "file": "Vatnahverfi.jpg",
+   "lat": 60.9871,
+   "lon": -45.4229,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "deserted medieval village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Garðar, Greenland"
+  },
+  {
+   "id": "Q3497799",
+   "name": "Qaarsut Airport",
+   "sl": 17,
+   "file": "Qaarsut-airport-terminal-front.jpg",
+   "lat": 70.7342,
+   "lon": -52.6961,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qaarsut Airport"
+  },
+  {
+   "id": "Q427909",
+   "name": "Sirius Passet",
+   "sl": 17,
+   "file": "Fossils from Sirius Passet.jpg",
+   "lat": 82.7933,
+   "lon": -42.245,
+   "kind": "natural",
+   "types": [
+    "paleontological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sirius Passet"
+  },
+  {
+   "id": "Q2038090",
+   "name": "Sermitsiaq",
+   "sl": 16,
+   "file": "Sermitsiaq.jpg",
+   "lat": 64.3,
+   "lon": -51.5,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sermitsiaq (mountain)"
+  },
+  {
+   "id": "Q2745935",
+   "name": "Katuaq",
+   "sl": 15,
+   "file": "Katuaq2008.JPG",
+   "lat": 64.1775,
+   "lon": -51.7392,
+   "kind": "built",
+   "types": [
+    "arts center",
+    "concert hall",
+    "movie theater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katuaq"
+  },
+  {
+   "id": "Q590286",
+   "name": "Kingittorsuaq Runestone",
+   "sl": 15,
+   "file": "Gron-rune-kingigtorssuaq.jpg",
+   "lat": 55.675,
+   "lon": 12.5751,
+   "kind": "built",
+   "types": [
+    "Norse runestone"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kingigtorssuaq Runestone"
+  },
+  {
+   "id": "Q2292151",
+   "name": "Blok P",
+   "sl": 14,
+   "file": "Greenland 11, Nuuk, Blok P.JPG",
+   "lat": 64.1753,
+   "lon": -51.7336,
+   "kind": "built",
+   "types": [
+    "destroyed building or structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blok P"
+  },
+  {
+   "id": "Q1721512",
+   "name": "Kejser Franz Joseph Fjord",
+   "sl": 14,
+   "file": "Franz Josef Fjord at sunshine.jpg",
+   "lat": 73.45,
+   "lon": -25,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Franz Josef Fjord"
+  },
+  {
+   "id": "Q7267887",
+   "name": "Qinngua Valley",
+   "sl": 14,
+   "file": "Quinnguadalen.jpg",
+   "lat": 60.3019,
+   "lon": -44.475,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qinngua Valley"
+  },
+  {
+   "id": "Q384323",
+   "name": "Uummannaq fjord",
+   "sl": 14,
+   "file": "Sarqarput-strait.jpg",
+   "lat": 70.95,
+   "lon": -53,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uummannaq Fjord"
+  },
+  {
+   "id": "Q3305271",
+   "name": "Nuuk Art Museum",
+   "sl": 12,
+   "file": "Nuuk kunstmuseum.jpg",
+   "lat": 64.1779,
+   "lon": -51.7293,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuuk Art Museum"
+  },
+  {
+   "id": "Q546312",
+   "name": "Petermann Glacier",
+   "sl": 12,
+   "file": "Greenland tmo 2003186.jpg",
+   "lat": 80.75,
+   "lon": -60.75,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Petermann Glacier"
+  },
+  {
+   "id": "Q24823577",
+   "name": "Devil's Castle",
+   "sl": 11,
+   "file": "Teufelsschloss(js).jpg",
+   "lat": 73.3719,
+   "lon": -25.4908,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Devil's Castle, Greenland"
+  },
+  {
+   "id": "Q2907386",
+   "name": "Kvanefjeld",
+   "sl": 11,
+   "file": "Narsaq vue aérienne.jpg",
+   "lat": 60.9833,
+   "lon": -46,
+   "kind": "natural",
+   "types": [
+    "fell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minerals of Kuannersuit plateau"
+  },
+  {
+   "id": "Q11276748",
+   "name": "Myggbukta",
+   "sl": 11,
+   "file": "Myggbukta.jpg",
+   "lat": 73.4911,
+   "lon": -21.5406,
+   "kind": "built",
+   "types": [
+    "mountain hut",
+    "radio station",
+    "weather station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Myggbukta"
+  },
+  {
+   "id": "Q3565611",
+   "name": "Narsaq Heliport",
+   "sl": 11,
+   "file": "Narsaq-heliport-terminal.jpg",
+   "lat": 60.9167,
+   "lon": -46.0586,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "heliport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Narsaq Heliport"
+  },
+  {
+   "id": "Q1337527",
+   "name": "Prince Christian Sound",
+   "sl": 11,
+   "file": "Prins Christian Sund.jpg",
+   "lat": 60.15,
+   "lon": -43.8833,
+   "kind": "natural",
+   "types": [
+    "sound"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prince Christian Sound"
+  },
+  {
+   "id": "Q1134608",
+   "name": "Tunulliarfik fjord",
+   "sl": 11,
+   "file": "Tunulliarfik-qassiarsuk.jpg",
+   "lat": 61,
+   "lon": -45.5833,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tunulliarfik Fjord"
+  },
+  {
+   "id": "Q3056467",
+   "name": "Hans Egede Church",
+   "sl": 10,
+   "file": "Hans Egede Church (25831675992).jpg",
+   "lat": 64.1735,
+   "lon": -51.7369,
+   "kind": "built",
+   "types": [
+    "parish church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hans Egede church in Nuuk"
+  },
+  {
+   "id": "Q15577417",
+   "name": "King Oscar Fjord",
+   "sl": 10,
+   "file": "Greenland, Blue iceberg (js)1.jpg",
+   "lat": 72.3667,
+   "lon": -24,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kong Oscar Fjord"
+  },
+  {
+   "id": "Q2274745",
+   "name": "Nuup Kangerlua",
+   "sl": 10,
+   "file": "Nuup-Kangerlua.jpg",
+   "lat": 64.5,
+   "lon": -51.3833,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuup Kangerlua"
+  },
+  {
+   "id": "Q3361265",
+   "name": "Palasip Qaqqaa",
+   "sl": 10,
+   "file": "Palasip-Qaqqaa.jpg",
+   "lat": 66.9653,
+   "lon": -53.7222,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palasip Qaqqaa"
+  },
+  {
+   "id": "Q3398532",
+   "name": "Port of Nuuk",
+   "sl": 10,
+   "file": "Nuuk-port.jpg",
+   "lat": 64.1708,
+   "lon": -51.7208,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuuk Port"
+  },
+  {
+   "id": "Q3039996",
+   "name": "Queen Ingrid's Hospital",
+   "sl": 10,
+   "file": "Queen Ingrid's Hospital Entrance 2023.jpg",
+   "lat": 64.1692,
+   "lon": -51.738,
+   "kind": "built",
+   "types": [
+    "hospital",
+    "tuberculosis sanatorium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dronning Ingridip Napparsimmavissua"
+  },
+  {
+   "id": "Q24842587",
+   "name": "Hiawatha Glacier",
+   "sl": 9,
+   "file": "Hiawatha Glacier.jpg",
+   "lat": 78.8283,
+   "lon": -67.0439,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q934306",
+   "name": "Kangerlussuaq Fjord",
+   "sl": 9,
+   "file": "Tacan near Kangerlussuaq (7).JPG",
+   "lat": 66.5,
+   "lon": -52.1167,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kangerlussuaq Fjord"
+  },
+  {
+   "id": "Q837950",
+   "name": "Napasorsuaq",
+   "sl": 9,
+   "file": "Kirkespiret W.JPG",
+   "lat": 60.35,
+   "lon": -44.7333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Napasorsuaq"
+  },
+  {
+   "id": "Q3870468",
+   "name": "Nasaasaaq",
+   "sl": 9,
+   "file": "Nasaasaaq.jpg",
+   "lat": 66.9264,
+   "lon": -53.5528,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nasaasaaq"
+  },
+  {
+   "id": "Q3305148",
+   "name": "Qaqortoq Heliport",
+   "sl": 9,
+   "file": "Qaqortoq Heliport 2008-10-28 filtered.jpg",
+   "lat": 60.7157,
+   "lon": -46.0299,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "heliport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qaqortoq Heliport"
+  },
+  {
+   "id": "Q4747200",
+   "name": "Ammassalik Fjord",
+   "sl": 8,
+   "file": "Quernertivartivit1.jpg",
+   "lat": 65.8333,
+   "lon": -37.05,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ammassalik Fjord"
+  },
+  {
+   "id": "Q38251739",
+   "name": "Garðar Cathedral ruins",
+   "sl": 8,
+   "file": "Igaliku Ruinen.JPG",
+   "lat": 60.9873,
+   "lon": -45.4232,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gardar ruins"
+  },
+  {
+   "id": "Q3062720",
+   "name": "Hotel Hans Egede",
+   "sl": 8,
+   "file": "Nuuk main road (cropped).JPG",
+   "lat": 64.1776,
+   "lon": -51.7342,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Hans Egede"
+  },
+  {
+   "id": "Q957169",
+   "name": "Humboldt Glacier",
+   "sl": 8,
+   "file": "Humboldt tmo 2008243.jpg",
+   "lat": 79.5,
+   "lon": -63,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Humboldt Glacier"
+  },
+  {
+   "id": "Q3812774",
+   "name": "Kangerlussuaq",
+   "sl": 8,
+   "file": "Kangerlussuaq Glacier Aug15 2018.jpg",
+   "lat": 68.2167,
+   "lon": -32.0333,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kangerlussuaq Fjord, East Greenland"
+  },
+  {
+   "id": "Q48553",
+   "name": "Nuuk Center",
+   "sl": 8,
+   "file": "Nuuk Center (1) (Kenny McFly).jpg",
+   "lat": 64.1778,
+   "lon": -51.7389,
+   "kind": "built",
+   "types": [
+    "shopping center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nuuk Center"
+  },
+  {
+   "id": "Q3745834",
+   "name": "Sermilik",
+   "sl": 8,
+   "file": "Sermilik - panoramio (2).jpg",
+   "lat": 66,
+   "lon": -37.8667,
+   "kind": "natural",
+   "types": [
+    "fjord"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sermilik"
+  },
+  {
+   "id": "Q7530814",
+   "name": "Sisimiut Museum",
+   "sl": 8,
+   "file": "Museum in Sisimiut.JPG",
+   "lat": 66.9385,
+   "lon": -53.6708,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sisimiut Museum"
+  },
+  {
+   "id": "Q3981263",
+   "name": "Tasersuatsiaq",
+   "sl": 8,
+   "file": "Tasersuatsiaq-lake-ferguson-qeqqata-greenland.jpg",
+   "lat": 66.9736,
+   "lon": -50.65,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tasersuatsiaq"
+  }
+ ]
+}

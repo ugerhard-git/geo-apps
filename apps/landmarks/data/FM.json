@@ -1,0 +1,177 @@
+{
+ "country": "FM",
+ "items": [
+  {
+   "id": "Q846967",
+   "name": "Nan Madol",
+   "sl": 53,
+   "file": "Nan madol.jpg",
+   "lat": 6.8419,
+   "lon": 158.3322,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "artificial island",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Nan Madol"
+  },
+  {
+   "id": "Q1152202",
+   "name": "Yap International Airport",
+   "sl": 22,
+   "file": "YapAirport.jpg",
+   "lat": 9.4989,
+   "lon": 138.0825,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yap International Airport"
+  },
+  {
+   "id": "Q166512",
+   "name": "Chuuk International Airport",
+   "sl": 21,
+   "file": "Chuuk International Airport, Weno.jpg",
+   "lat": 7.4619,
+   "lon": 151.8431,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chuuk International Airport"
+  },
+  {
+   "id": "Q741262",
+   "name": "Pohnpei International Airport",
+   "sl": 20,
+   "file": "PohnpeiAirport.jpg",
+   "lat": 6.985,
+   "lon": 158.2089,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pohnpei International Airport"
+  },
+  {
+   "id": "Q598642",
+   "name": "Kosrae International Airport",
+   "sl": 18,
+   "file": "KosraeAirport.jpg",
+   "lat": 5.3569,
+   "lon": 162.9583,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q570479",
+   "name": "Ant Atoll",
+   "sl": 17,
+   "file": "Ant Atoll NASA 157.96133E 6.77666N.png",
+   "lat": 6.7833,
+   "lon": 157.9667,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "island",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ant Atoll"
+  },
+  {
+   "id": "Q654148",
+   "name": "Olimarao",
+   "sl": 14,
+   "file": "Olimarao-4133030141 986da051bf o.jpg",
+   "lat": 7.7083,
+   "lon": 145.8708,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1569116",
+   "name": "Piagailoe",
+   "sl": 11,
+   "file": "West Fayu.jpg",
+   "lat": 8.4228,
+   "lon": 146.4239,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q17366581",
+   "name": "Leluh",
+   "sl": 9,
+   "file": "Lelu Ruins, Kosrae, Micronesia.jpg",
+   "lat": 5.3325,
+   "lon": 163.025,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leluh Ruins"
+  },
+  {
+   "id": "Q1937584",
+   "name": "Minto Reef",
+   "sl": 9,
+   "file": "Minto.jpg",
+   "lat": 8.1667,
+   "lon": 154.3333,
+   "kind": "natural",
+   "types": [
+    "atoll",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
+}

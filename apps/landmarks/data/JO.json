@@ -1,0 +1,1363 @@
+{
+ "country": "JO",
+ "items": [
+  {
+   "id": "Q23883",
+   "name": "Dead Sea",
+   "sl": 163,
+   "file": "Dead Sea by David Shankbone.jpg",
+   "lat": 31.5207,
+   "lon": 35.4845,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "hypersaline lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL",
+    "PS"
+   ],
+   "cat": "Dead Sea"
+  },
+  {
+   "id": "Q5788",
+   "name": "Petra",
+   "sl": 117,
+   "file": "The Treasury, Petra, Jordan5.jpg",
+   "lat": 30.3286,
+   "lon": 35.4419,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "city"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Petra, Jordan"
+  },
+  {
+   "id": "Q40729",
+   "name": "Wadi Rum",
+   "sl": 60,
+   "file": "Wadi Rum in December.jpg",
+   "lat": 29.5765,
+   "lon": 35.4199,
+   "kind": "natural",
+   "types": [
+    "protected area",
+    "wadi"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi Rum"
+  },
+  {
+   "id": "Q499517",
+   "name": "Qasr Amra",
+   "sl": 46,
+   "file": "Qasr Amra.jpg",
+   "lat": 31.8018,
+   "lon": 36.5873,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Quseir Amra"
+  },
+  {
+   "id": "Q680161",
+   "name": "Mount Nebo",
+   "sl": 43,
+   "file": "Mount Nebo BW 6.JPG",
+   "lat": 31.7678,
+   "lon": 35.7256,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Nebo"
+  },
+  {
+   "id": "Q721494",
+   "name": "Queen Alia International Airport",
+   "sl": 42,
+   "file": "Queen Alia International Airport - New Terminal - 2013.JPG",
+   "lat": 31.7225,
+   "lon": 35.9933,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Queen Alia International Airport"
+  },
+  {
+   "id": "Q12193567",
+   "name": "Al Maghtas",
+   "sl": 41,
+   "file": "Bethany (5).JPG",
+   "lat": 31.8372,
+   "lon": 35.5503,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Baptism place"
+  },
+  {
+   "id": "Q822842",
+   "name": "Umm ar-Rasas",
+   "sl": 40,
+   "file": "Umm Rasas House ruins.JPG",
+   "lat": 31.4997,
+   "lon": 35.9197,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Umm ar-Rasas"
+  },
+  {
+   "id": "Q626682",
+   "name": "Arabah",
+   "sl": 38,
+   "file": "Wadi Araba Dunes at Sunset.jpg",
+   "lat": 30.4169,
+   "lon": 35.1514,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Arabah"
+  },
+  {
+   "id": "Q724954",
+   "name": "Mesha Stele",
+   "sl": 37,
+   "file": "F4171 Louvre stele de Mesha AO5066 rwk.jpg",
+   "lat": 31.4989,
+   "lon": 35.7856,
+   "kind": "built",
+   "types": [
+    "archaeological artefact",
+    "archaeological find",
+    "discovered text",
+    "inscription"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mesha Stele"
+  },
+  {
+   "id": "Q2463859",
+   "name": "Jordan Valley",
+   "sl": 36,
+   "file": "Satellite image of Israel in January 2003.jpg",
+   "lat": 32.3172,
+   "lon": 35.57,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jordan Valley (Middle East)"
+  },
+  {
+   "id": "Q1589883",
+   "name": "Hauran",
+   "sl": 32,
+   "file": "Ummesrareh Johfiyeh Jordan Ahmad Telfah 04.jpg",
+   "lat": 33.0296,
+   "lon": 35.8184,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SY"
+   ],
+   "cat": "Hauran"
+  },
+  {
+   "id": "Q1259626",
+   "name": "Al Khazneh",
+   "sl": 29,
+   "file": "Al Khazneh Petra edit 2.jpg",
+   "lat": 30.3221,
+   "lon": 35.4515,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5788",
+    "name": "Petra"
+   },
+   "also": [],
+   "cat": "Al Khazneh"
+  },
+  {
+   "id": "Q2730007",
+   "name": "Amman International Stadium",
+   "sl": 29,
+   "file": "Aerial View of Amman International Stadium.jpg",
+   "lat": 31.985,
+   "lon": 35.903,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amman International Stadium"
+  },
+  {
+   "id": "Q1574587",
+   "name": "King Abdullah I Mosque",
+   "sl": 29,
+   "file": "Amman BW 29.JPG",
+   "lat": 31.9616,
+   "lon": 35.9131,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Abdullah I Mosque"
+  },
+  {
+   "id": "Q2120208",
+   "name": "Wadi Mujib",
+   "sl": 29,
+   "file": "WadiMujib-Canyon.jpg",
+   "lat": 31.4658,
+   "lon": 35.5733,
+   "kind": "natural",
+   "types": [
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi Mujib"
+  },
+  {
+   "id": "Q1362749",
+   "name": "Montréal Castle",
+   "sl": 27,
+   "file": "Jordanien Shobak.jpg",
+   "lat": 30.5314,
+   "lon": 35.5608,
+   "kind": "built",
+   "types": [
+    "castle",
+    "crusader castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montréal Castle"
+  },
+  {
+   "id": "Q167993",
+   "name": "Pella",
+   "sl": 27,
+   "file": "Classical pella.jpg",
+   "lat": 32.4498,
+   "lon": 35.6134,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "human settlement",
+    "village in Jordan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pella, Jordan"
+  },
+  {
+   "id": "Q3107493",
+   "name": "Umm el-Jimal",
+   "sl": 26,
+   "file": "Uejhousexviii.jpg",
+   "lat": 32.3267,
+   "lon": 36.3697,
+   "kind": "",
+   "types": [
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Umm al Jamal"
+  },
+  {
+   "id": "Q423625",
+   "name": "Ayn Ghazal",
+   "sl": 25,
+   "file": "20100923 amman40.JPG",
+   "lat": 31.988,
+   "lon": 35.976,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ain Ghazal"
+  },
+  {
+   "id": "Q864750",
+   "name": "Dana Biosphere Reserve",
+   "sl": 25,
+   "file": "Dana Reserve 02.jpg",
+   "lat": 30.6875,
+   "lon": 35.5753,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dana Biosphere Reserve"
+  },
+  {
+   "id": "Q1549278",
+   "name": "Machaerus",
+   "sl": 25,
+   "file": "Machaerus Panorama.jpg",
+   "lat": 31.5669,
+   "lon": 35.6336,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Machaerus"
+  },
+  {
+   "id": "Q537641",
+   "name": "Qasr Kharana",
+   "sl": 25,
+   "file": "Qasr Kharana in Jordan.jpg",
+   "lat": 31.7289,
+   "lon": 36.4628,
+   "kind": "built",
+   "types": [
+    "Umayyad desert castles"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qasr Kharana"
+  },
+  {
+   "id": "Q1261902",
+   "name": "Jabal Umm ad Dami",
+   "sl": 24,
+   "file": "Djebel Umm ad Dami.jpg",
+   "lat": 29.3083,
+   "lon": 35.4292,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1430839",
+   "name": "King Hussein International Airport",
+   "sl": 23,
+   "file": "Aqaba BW 4.JPG",
+   "lat": 29.6116,
+   "lon": 35.0181,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Hussein International Airport"
+  },
+  {
+   "id": "Q712133",
+   "name": "Allenby Bridge",
+   "sl": 22,
+   "file": "Allenby-Brücke.jpg",
+   "lat": 31.8742,
+   "lon": 35.5408,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "extradosed bridge",
+    "international bridge",
+    "prestressed concrete bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Allenby Bridge"
+  },
+  {
+   "id": "Q1615584",
+   "name": "Heshbon",
+   "sl": 22,
+   "file": "Tell Hesban (Column).jpg",
+   "lat": 31.7867,
+   "lon": 35.801,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Heshbon"
+  },
+  {
+   "id": "Q15944872",
+   "name": "Mount Seir",
+   "sl": 21,
+   "file": "David Roberts - Mount Seir Wady el Chor - 1927.101 - Cleveland Museum of Art.tif",
+   "lat": 30.1843,
+   "lon": 35.3166,
+   "kind": "natural",
+   "types": [
+    "mountainous area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Seir"
+  },
+  {
+   "id": "Q1636168",
+   "name": "Qasr Mshatta",
+   "sl": 21,
+   "file": "Mschatta-Fassade (Pergamonmuseum).jpg",
+   "lat": 31.7375,
+   "lon": 36.0103,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palace of Mshatta"
+  },
+  {
+   "id": "Q3157009",
+   "name": "Amman Citadel",
+   "sl": 20,
+   "file": "Amman Citadel.jpg",
+   "lat": 31.9547,
+   "lon": 35.9343,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "hill",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amman Citadel"
+  },
+  {
+   "id": "Q844694",
+   "name": "Kerak Castle",
+   "sl": 20,
+   "file": "Kerak BW 1.JPG",
+   "lat": 31.1806,
+   "lon": 35.7014,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Karak castle"
+  },
+  {
+   "id": "Q345467",
+   "name": "Ad Deir",
+   "sl": 19,
+   "file": "Petra Jordan BW 36.JPG",
+   "lat": 30.3382,
+   "lon": 35.4309,
+   "kind": "built",
+   "types": [
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5788",
+    "name": "Petra"
+   },
+   "also": [],
+   "cat": "El Deir"
+  },
+  {
+   "id": "Q3269933",
+   "name": "King Abdullah Stadium",
+   "sl": 19,
+   "file": "King Abdullah II Stadium, Amman, Jordan.jpg",
+   "lat": 31.9275,
+   "lon": 35.9531,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Abdullah II Stadium"
+  },
+  {
+   "id": "Q2915115",
+   "name": "Mount Hor",
+   "sl": 19,
+   "file": "Mthor.jpeg",
+   "lat": 30.3168,
+   "lon": 35.4065,
+   "kind": "natural",
+   "types": [
+    "biblical place",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Hor"
+  },
+  {
+   "id": "Q4165296",
+   "name": "Tomb of Aaron",
+   "sl": 19,
+   "file": "Aaron's tomb.jpg",
+   "lat": 30.3189,
+   "lon": 35.4073,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Aaron"
+  },
+  {
+   "id": "Q1480575",
+   "name": "Ajlun Castle",
+   "sl": 18,
+   "file": "Ajlun Castle in 2009.jpg",
+   "lat": 32.3252,
+   "lon": 35.7273,
+   "kind": "built",
+   "types": [
+    "fortification",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ajlun Castle"
+  },
+  {
+   "id": "Q2121495",
+   "name": "Qasr Azraq",
+   "sl": 18,
+   "file": "QasrAlAzraq.jpg",
+   "lat": 31.88,
+   "lon": 36.8274,
+   "kind": "built",
+   "types": [
+    "castle",
+    "castrum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qasr Al-Azraq"
+  },
+  {
+   "id": "Q2634316",
+   "name": "Roman Theatre of Amman",
+   "sl": 18,
+   "file": "Roman theater of Amman 01.jpg",
+   "lat": 31.9517,
+   "lon": 35.9394,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Roman theatre"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roman theater in Amman"
+  },
+  {
+   "id": "Q2118373",
+   "name": "Siq",
+   "sl": 18,
+   "file": "Petra First Glimpse.jpg",
+   "lat": 30.323,
+   "lon": 35.4565,
+   "kind": "both",
+   "types": [
+    "canyon",
+    "entrance"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5788",
+    "name": "Petra"
+   },
+   "also": [],
+   "cat": "Al-Siq (Petra)"
+  },
+  {
+   "id": "Q56322109",
+   "name": "Gadara",
+   "sl": 17,
+   "file": "Umm Qais 25.JPG",
+   "lat": 32.6555,
+   "lon": 35.6778,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gadara"
+  },
+  {
+   "id": "Q24521524",
+   "name": "The Jordan Museum",
+   "sl": 17,
+   "file": "Jordan Museum.JPG",
+   "lat": 31.9456,
+   "lon": 35.9265,
+   "kind": "built",
+   "types": [
+    "archaeological museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jordan Museum"
+  },
+  {
+   "id": "Q11202572",
+   "name": "Azraq Wetland Reserve",
+   "sl": 16,
+   "file": "Azraq view.jpg",
+   "lat": 31.8291,
+   "lon": 36.8386,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Azraq Wetland Reserve"
+  },
+  {
+   "id": "Q20423672",
+   "name": "Temple of Hercules",
+   "sl": 16,
+   "file": "Temple of Hercules on the Citadel Mountain in Amman 01.jpg",
+   "lat": 31.9538,
+   "lon": 35.9349,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "Roman temple",
+    "ruins",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Hercules (Amman)"
+  },
+  {
+   "id": "Q2677032",
+   "name": "Beidha",
+   "sl": 15,
+   "file": "Baydha Jordanie 258.JPG",
+   "lat": 30.3708,
+   "lon": 35.4478,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beidha"
+  },
+  {
+   "id": "Q1226916",
+   "name": "Capitolias",
+   "sl": 15,
+   "file": "Capitolas theater 3.jpg",
+   "lat": 32.5986,
+   "lon": 35.8584,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capitolias"
+  },
+  {
+   "id": "Q1795940",
+   "name": "King Hussain Mosque",
+   "sl": 15,
+   "file": "Defense.gov photo essay 070416-D-7203T-007.jpg",
+   "lat": 31.9857,
+   "lon": 35.8229,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Hussein Mosque"
+  },
+  {
+   "id": "Q4120140",
+   "name": "Prince Mohammed Stadium",
+   "sl": 15,
+   "file": "تطوير الملعب2.JPG",
+   "lat": 32.0999,
+   "lon": 36.113,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Prince Mohammed Stadium"
+  },
+  {
+   "id": "Q308447",
+   "name": "Abdoun Bridge",
+   "sl": 14,
+   "file": "WadiAbdoun1.jpg",
+   "lat": 31.9513,
+   "lon": 35.8939,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge",
+    "steel bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abdoun Bridge"
+  },
+  {
+   "id": "Q4117207",
+   "name": "Al-Hassan Stadium",
+   "sl": 13,
+   "file": "Irbid5.jpg",
+   "lat": 32.5375,
+   "lon": 35.8603,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Hassan Stadium"
+  },
+  {
+   "id": "Q541800",
+   "name": "Jabal Ram",
+   "sl": 13,
+   "file": "Jabal Ram Peak.JPG",
+   "lat": 29.5833,
+   "lon": 35.4,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jabal Ramm"
+  },
+  {
+   "id": "Q1444552",
+   "name": "Jordan Archaeological Museum",
+   "sl": 13,
+   "file": "20100923 amman21.JPG",
+   "lat": 31.954,
+   "lon": 35.9343,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jordan Archaeological Museum"
+  },
+  {
+   "id": "Q6411206",
+   "name": "King Abdullah Canal",
+   "sl": 13,
+   "file": "King Abudulla I canal JO.jpg",
+   "lat": 31.8135,
+   "lon": 35.6292,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Abdalla Canal"
+  },
+  {
+   "id": "Q2898401",
+   "name": "King Talal Dam",
+   "sl": 13,
+   "file": "Kingtalaldam.jpg",
+   "lat": 32.19,
+   "lon": 35.7981,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "King Talal Dam"
+  },
+  {
+   "id": "Q48816519",
+   "name": "Royal Tank Museum",
+   "sl": 13,
+   "file": "Royal Tank Museum 20.jpg",
+   "lat": 31.9086,
+   "lon": 35.9244,
+   "kind": "built",
+   "types": [
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Royal Tank Museum"
+  },
+  {
+   "id": "Q55634648",
+   "name": "Tell el-Hammam",
+   "sl": 13,
+   "file": "Tall el-Hammam overlooking the Jordan Valley 2007.jpg",
+   "lat": 31.8402,
+   "lon": 35.6737,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tall el-Hammam"
+  },
+  {
+   "id": "Q2527347",
+   "name": "Temple of Artemis",
+   "sl": 13,
+   "file": "Artemis Temple Pan 2 touched.jpg",
+   "lat": 32.2819,
+   "lon": 35.8911,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Roman temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Artemis in Jerash"
+  },
+  {
+   "id": "Q12192959",
+   "name": "Al Husseini Mosque",
+   "sl": 12,
+   "file": "Husseini Mosque Down Town Amman.jpg",
+   "lat": 31.9497,
+   "lon": 35.9347,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Husseini Mosque"
+  },
+  {
+   "id": "Q2635974",
+   "name": "Al-Wehda Dam",
+   "sl": 12,
+   "file": "Reliefkarte Jordanien.png",
+   "lat": 32.7342,
+   "lon": 35.8714,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SY"
+   ],
+   "cat": "Al-Wehda Dam"
+  },
+  {
+   "id": "Q4782454",
+   "name": "Aqaba Fortress",
+   "sl": 12,
+   "file": "Aqaba-fort-flickr01.jpg",
+   "lat": 29.5215,
+   "lon": 35.002,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aqaba Fort"
+  },
+  {
+   "id": "Q16206680",
+   "name": "Arch of Hadrian",
+   "sl": 12,
+   "file": "Hadrian Arc Pan-2.jpg",
+   "lat": 32.2723,
+   "lon": 35.8913,
+   "kind": "built",
+   "types": [
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arch of Hadrian (Jerash)"
+  },
+  {
+   "id": "Q797529",
+   "name": "Bab edh-Dhra",
+   "sl": 12,
+   "file": "Bab edh-Dhra 02.jpg",
+   "lat": 31.2539,
+   "lon": 35.5342,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bab edh-Dhra"
+  },
+  {
+   "id": "Q56072866",
+   "name": "Gerasa",
+   "sl": 12,
+   "file": "General View of Jerash.jpg",
+   "lat": 32.2725,
+   "lon": 35.8942,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Jerash"
+  },
+  {
+   "id": "Q16849904",
+   "name": "Jebel al-Madhbah",
+   "sl": 12,
+   "file": "20100926 petra084.JPG",
+   "lat": 30.3219,
+   "lon": 35.4475,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5788",
+    "name": "Petra"
+   },
+   "also": [],
+   "cat": "Jabal al-Madbah (Petra)"
+  },
+  {
+   "id": "Q2916379",
+   "name": "Jisr ed Damiye",
+   "sl": 12,
+   "file": "גשר אדם.JPG",
+   "lat": 32.1015,
+   "lon": 35.5321,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PS"
+   ],
+   "cat": "Jisr ed Damiye"
+  },
+  {
+   "id": "Q14753682",
+   "name": "Jordan National Gallery of Fine Arts",
+   "sl": 12,
+   "file": "Jordan National Gallery of Fine Arts 4.jpeg",
+   "lat": 31.9589,
+   "lon": 35.9156,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jordan National Gallery of Fine Arts"
+  },
+  {
+   "id": "Q1951988",
+   "name": "Mujib Dam",
+   "sl": 12,
+   "file": "Al Mujib Dam.jpg",
+   "lat": 31.4444,
+   "lon": 35.8175,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mujib Dam"
+  },
+  {
+   "id": "Q20422619",
+   "name": "Odeon of Amman",
+   "sl": 12,
+   "file": "Amman-Odeon(js).jpg",
+   "lat": 31.9523,
+   "lon": 35.9399,
+   "kind": "built",
+   "types": [
+    "odeon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amman Odeon"
+  },
+  {
+   "id": "Q584088",
+   "name": "Aqaba Archaeological Museum",
+   "sl": 11,
+   "file": "Aqaba Archeological Museum02.jpg",
+   "lat": 29.5217,
+   "lon": 35.0014,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aqaba Archaeological Museum"
+  },
+  {
+   "id": "Q2617848",
+   "name": "Bethabara",
+   "sl": 11,
+   "file": "Bethany (5).JPG",
+   "lat": 31.8369,
+   "lon": 35.5472,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "biblical place",
+    "locality"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bethabara"
+  },
+  {
+   "id": "Q639744",
+   "name": "Gadara Aqueduct",
+   "sl": 11,
+   "file": "QanatFiraun.JPG",
+   "lat": 32.6808,
+   "lon": 35.8691,
+   "kind": "built",
+   "types": [
+    "Roman aqueduct"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SY"
+   ],
+   "cat": "Gadara Aqueduct"
+  },
+  {
+   "id": "Q2284751",
+   "name": "Little Petra",
+   "sl": 11,
+   "file": "05 Little Petra Canyon Trail - The Trail Starts at the End of Little Petra - panoramio.jpg",
+   "lat": 30.3753,
+   "lon": 35.4514,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Siq al-Berid"
+  },
+  {
+   "id": "Q2886524",
+   "name": "Muwaffaq Salti Air Base",
+   "sl": 11,
+   "file": "Jordanian F-16 at Azraq.jpg",
+   "lat": 31.8336,
+   "lon": 36.7831,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muwaffaq Salti Air Base"
+  },
+  {
+   "id": "Q13217686",
+   "name": "Port of Aqaba",
+   "sl": 11,
+   "file": "CSCL Rotterdam in Aqaba, Jordan.jpg",
+   "lat": 29.5083,
+   "lon": 34.9917,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Aqaba"
+  },
+  {
+   "id": "Q7267043",
+   "name": "Qasr al Abd",
+   "sl": 11,
+   "file": "View of Qasr Al-Abd, Amman.jpg",
+   "lat": 31.9128,
+   "lon": 35.7518,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qasr al-Abd"
+  },
+  {
+   "id": "Q3412437",
+   "name": "Qasr al-Bint",
+   "sl": 11,
+   "file": "Jordan-18C-108.jpg",
+   "lat": 30.3297,
+   "lon": 35.4403,
+   "kind": "built",
+   "types": [
+    "monument"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q5788",
+    "name": "Petra"
+   },
+   "also": [],
+   "cat": "Qasr al-Bint (Petra)"
+  },
+  {
+   "id": "Q3774735",
+   "name": "Qasr Tuba",
+   "sl": 11,
+   "file": "Qasr Tuba.jpg",
+   "lat": 31.3256,
+   "lon": 36.5708,
+   "kind": "built",
+   "types": [
+    "Umayyad desert castles"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qasr Tuba"
+  },
+  {
+   "id": "Q4165387",
+   "name": "Shaumari Wildlife Reserve",
+   "sl": 11,
+   "file": "Shaumarinaturereserve.jpg",
+   "lat": 31.7419,
+   "lon": 36.7831,
+   "kind": "natural",
+   "types": [
+    "wildlife reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shaumari Wildlife Reserve"
+  },
+  {
+   "id": "Q7697429",
+   "name": "Tell Mar Elias",
+   "sl": 11,
+   "file": "Telmarelias.jpg",
+   "lat": 32.3622,
+   "lon": 35.7222,
+   "kind": "both",
+   "types": [
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tell Mar Elias"
+  },
+  {
+   "id": "Q2559756",
+   "name": "Wadi Araba Crossing",
+   "sl": 11,
+   "file": "Wadi Araba Border Terminal (Israel).JPG",
+   "lat": 29.575,
+   "lon": 34.9781,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Yitzhak Rabin Terminal"
+  },
+  {
+   "id": "Q2845916",
+   "name": "Aqaba Church",
+   "sl": 10,
+   "file": "Early church of Aqaba02.jpg",
+   "lat": 29.5337,
+   "lon": 34.999,
+   "kind": "built",
+   "types": [
+    "church building",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Early church of Aqaba"
+  }
+ ]
+}

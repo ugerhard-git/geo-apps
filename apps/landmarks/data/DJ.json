@@ -1,0 +1,338 @@
+{
+ "country": "DJ",
+ "items": [
+  {
+   "id": "Q81239",
+   "name": "Lake Assal",
+   "sl": 53,
+   "file": "Lake Assal 1-Djibouti.jpg",
+   "lat": 11.65,
+   "lon": 42.4167,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "graben"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Assal"
+  },
+  {
+   "id": "Q141513",
+   "name": "Danakil Desert",
+   "sl": 44,
+   "file": "Danakil-Sable.jpg",
+   "lat": 14.2417,
+   "lon": 40.3,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ER",
+    "ET"
+   ],
+   "cat": "Danakil Desert"
+  },
+  {
+   "id": "Q306194",
+   "name": "Lake Abbe",
+   "sl": 42,
+   "file": "East Africa-Lake Abbe.jpg",
+   "lat": 11.1667,
+   "lon": 41.7833,
+   "kind": "natural",
+   "types": [
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ET"
+   ],
+   "cat": "Lake Abbe"
+  },
+  {
+   "id": "Q620706",
+   "name": "Djibouti-Ambouli International Airport",
+   "sl": 30,
+   "file": "Djibouti airport.jpg",
+   "lat": 11.5473,
+   "lon": 43.1593,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Djibouti-Ambouli International Airport"
+  },
+  {
+   "id": "Q1951029",
+   "name": "Mousa Ali",
+   "sl": 29,
+   "file": "Gufa volcanic field.jpg",
+   "lat": 12.4708,
+   "lon": 42.405,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ER",
+    "ET"
+   ],
+   "cat": "Mousa Ali"
+  },
+  {
+   "id": "Q639993",
+   "name": "Ardoukoba",
+   "sl": 16,
+   "file": "Ardoukoba.jpg",
+   "lat": 11.5719,
+   "lon": 42.4958,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ardoukôba"
+  },
+  {
+   "id": "Q141549",
+   "name": "Day Forest National Park",
+   "sl": 16,
+   "file": "Goda Mountains - National Park of Forêt du Day.jpg",
+   "lat": 11.8,
+   "lon": 42.6833,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Day Forest National Park"
+  },
+  {
+   "id": "Q7231129",
+   "name": "Port of Djibouti",
+   "sl": 14,
+   "file": "Djibouti Port.JPG",
+   "lat": 11.6053,
+   "lon": 43.1392,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Djibouti"
+  },
+  {
+   "id": "Q2175761",
+   "name": "Tadjoura Airport",
+   "sl": 13,
+   "file": "Tadjoura Airport.jpg",
+   "lat": 11.7833,
+   "lon": 42.9167,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q5066007",
+   "name": "Chabelley Airport",
+   "sl": 12,
+   "file": "USMC-111027-A-UF490-085.jpg",
+   "lat": 11.5167,
+   "lon": 43.0667,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q30693574",
+   "name": "Chinese naval base in Djibouti",
+   "sl": 12,
+   "file": "Cidade City Djibouti Africa - Bases Militares China USA (29934552898).jpg",
+   "lat": 11.5902,
+   "lon": 43.0631,
+   "kind": "both",
+   "types": [
+    "naval base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chinese People's Liberation Army Support Base in Djibouti"
+  },
+  {
+   "id": "Q3285402",
+   "name": "Manda-Inakir",
+   "sl": 12,
+   "file": "Manda-Inakir.jpg",
+   "lat": 12.6333,
+   "lon": 42.3333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ER",
+    "ET"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q105477513",
+   "name": "Abdülhamid II Mosque",
+   "sl": 11,
+   "file": "Photo of Abdülhamid II Mosque.jpg",
+   "lat": 11.5933,
+   "lon": 43.1419,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abdülhamid II Mosque"
+  },
+  {
+   "id": "Q2935221",
+   "name": "Camp Lemonnier",
+   "sl": 11,
+   "file": "Marineswithm16.jpg",
+   "lat": 11.3237,
+   "lon": 43.0855,
+   "kind": "built",
+   "types": [
+    "military camp"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Camp Lemonnier"
+  },
+  {
+   "id": "Q10856947",
+   "name": "Hamoudi Mosque",
+   "sl": 11,
+   "file": "Djibouti mosque.JPG",
+   "lat": 11.5924,
+   "lon": 43.1461,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hamoudi Mosque"
+  },
+  {
+   "id": "Q26258414",
+   "name": "Salman Mosque",
+   "sl": 10,
+   "file": "Salman Mosque.jpg",
+   "lat": 11.5691,
+   "lon": 43.1532,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Salman Mosque"
+  },
+  {
+   "id": "Q3064296",
+   "name": "Stade du Ville",
+   "sl": 10,
+   "file": "El Hadj Hassan Gouled Aptidon Stadium.jpg",
+   "lat": 11.5741,
+   "lon": 43.1319,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11824610",
+   "name": "Moucha Airport",
+   "sl": 9,
+   "file": "Djibouti relief location map.jpg",
+   "lat": 11.7167,
+   "lon": 43.2,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3398478",
+   "name": "Port of Doraleh",
+   "sl": 9,
+   "file": "The container terminal at the Port of Djibouti.jpg",
+   "lat": 11.59,
+   "lon": 43.095,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Doraleh"
+  },
+  {
+   "id": "Q16538426",
+   "name": "Our Lady of the Good Shepherd Cathedral, Djibouti",
+   "sl": 8,
+   "file": "Cathédrale de Djibouti.jpg",
+   "lat": 11.5998,
+   "lon": 43.1502,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Djibouti"
+  }
+ ]
+}

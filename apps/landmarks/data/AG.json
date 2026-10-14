@@ -1,0 +1,90 @@
+{
+ "country": "AG",
+ "items": [
+  {
+   "id": "Q1718336",
+   "name": "Mount Obama",
+   "sl": 31,
+   "file": "Boggy Peak.JPG",
+   "lat": 17.05,
+   "lon": -61.85,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1433157",
+   "name": "V. C. Bird International Airport",
+   "sl": 28,
+   "file": "VC Bird International Airport (5916099180).jpg",
+   "lat": 17.1367,
+   "lon": -61.7931,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "V. C. Bird International Airport"
+  },
+  {
+   "id": "Q1435206",
+   "name": "Nelson's Dockyard",
+   "sl": 24,
+   "file": "Antigua English Harbour Nelson's Dockyard 2.jpg",
+   "lat": 17.0083,
+   "lon": -61.7644,
+   "kind": "both",
+   "types": [
+    "harbor museum",
+    "marina"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q124402010",
+    "name": "Antigua Naval Dockyard and Related Archaeological Sites"
+   },
+   "also": [],
+   "cat": "Nelson's Dockyard"
+  },
+  {
+   "id": "Q1937335",
+   "name": "Sir Vivian Richards Stadium",
+   "sl": 19,
+   "file": "Sir Vivian Richards Stadium aerial view Oct 2006.jpg",
+   "lat": 17.1033,
+   "lon": -61.7848,
+   "kind": "built",
+   "types": [
+    "cricket field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sir Vivian Richards Stadium"
+  },
+  {
+   "id": "Q575701",
+   "name": "Antigua Recreation Ground",
+   "sl": 16,
+   "file": "Cricket ground.jpg",
+   "lat": 17.1224,
+   "lon": -61.839,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antigua Recreation Ground"
+  }
+ ]
+}

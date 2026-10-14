@@ -1,0 +1,1453 @@
+{
+ "country": "IT",
+ "items": [
+  {
+   "id": "Q10285",
+   "name": "Colosseum",
+   "sl": 148,
+   "file": "Colosseo 2020.jpg",
+   "lat": 41.8903,
+   "lon": 12.4922,
+   "kind": "built",
+   "types": [
+    "archaeological artifact museum",
+    "archaeological site",
+    "historical civil building museum",
+    "Italian national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Colosseum"
+  },
+  {
+   "id": "Q524",
+   "name": "Mount Vesuvius",
+   "sl": 136,
+   "file": "Il cratere del Vulcano - panoramio.jpg",
+   "lat": 40.8226,
+   "lon": 14.4292,
+   "kind": "natural",
+   "types": [
+    "active volcano",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Vesuvius"
+  },
+  {
+   "id": "Q583",
+   "name": "Mont Blanc",
+   "sl": 127,
+   "file": "Panorama of Mont Blanc du Tacul, Mont Maudit and Mont Blanc from Aiguille du Midi, Chamonix, Haute-Savoie.jpg",
+   "lat": 45.8328,
+   "lon": 6.865,
+   "kind": "natural",
+   "types": [
+    "four-thousander",
+    "highest point",
+    "ice dome",
+    "main peak"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Mont Blanc"
+  },
+  {
+   "id": "Q16990",
+   "name": "Mount Etna",
+   "sl": 125,
+   "file": "View of Mount Etna from Reggio Calabria - Italy - 10 Feb. 2017 - (1).jpg",
+   "lat": 37.7508,
+   "lon": 14.9932,
+   "kind": "both",
+   "types": [
+    "decipoint",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Etna"
+  },
+  {
+   "id": "Q39054",
+   "name": "Leaning Tower of Pisa",
+   "sl": 119,
+   "file": "Campanile Dôme - Pise (IT52) - 2022-08-31 - 20.jpg",
+   "lat": 43.723,
+   "lon": 10.3966,
+   "kind": "built",
+   "types": [
+    "church tower",
+    "inclined tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Leaning Tower (Pisa)"
+  },
+  {
+   "id": "Q1374",
+   "name": "Matterhorn",
+   "sl": 92,
+   "file": "Cervino cloud.jpg",
+   "lat": 45.9764,
+   "lon": 7.6586,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": "Matterhorn"
+  },
+  {
+   "id": "Q6414",
+   "name": "Lake Garda",
+   "sl": 88,
+   "file": "Punta San Vigilio.jpg",
+   "lat": 45.6333,
+   "lon": 10.6667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Garda"
+  },
+  {
+   "id": "Q15523",
+   "name": "Lake Como",
+   "sl": 86,
+   "file": "Panoramic view of Como Lake (Lago di Como), seen from the mountain Monte Grona - Plesio (Como) 2015-10-25.JPG",
+   "lat": 46,
+   "lon": 9.2667,
+   "kind": "natural",
+   "types": [
+    "glacial lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Como"
+  },
+  {
+   "id": "Q133566",
+   "name": "Giuseppe Meazza Stadium",
+   "sl": 81,
+   "file": "Stadio Meazza 2021 3.jpg",
+   "lat": 45.4781,
+   "lon": 9.1239,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadio Giuseppe Meazza"
+  },
+  {
+   "id": "Q14379",
+   "name": "Lake Maggiore",
+   "sl": 81,
+   "file": "Lago Maggiore Traghetto.JPG",
+   "lat": 46.0981,
+   "lon": 8.7147,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": "Lake Maggiore"
+  },
+  {
+   "id": "Q99309",
+   "name": "Pantheon",
+   "sl": 81,
+   "file": "Pantheon (Rome) - Right side and front.jpg",
+   "lat": 41.8986,
+   "lon": 12.4769,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "archaeological artifact museum",
+    "historical civil building museum",
+    "Italian national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pantheon (Rome)"
+  },
+  {
+   "id": "Q18068",
+   "name": "Milan Cathedral",
+   "sl": 78,
+   "file": "20110724 Milan Cathedral 5260.jpg",
+   "lat": 45.464,
+   "lon": 9.1906,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "Catholic cathedral",
+    "church building",
+    "domus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Duomo (Milan)"
+  },
+  {
+   "id": "Q164070",
+   "name": "Strait of Otranto",
+   "sl": 77,
+   "file": "Gulf of Taranto map.png",
+   "lat": 40.2194,
+   "lon": 18.9256,
+   "kind": "natural",
+   "types": [
+    "sound",
+    "strait"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AL"
+   ],
+   "cat": "Strait of Otranto"
+  },
+  {
+   "id": "Q755123",
+   "name": "Phlegraean Fields",
+   "sl": 75,
+   "file": "Pozzuoli NASA ISS004-E-5376 added names.jpg",
+   "lat": 40.827,
+   "lon": 14.139,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "mountain range",
+    "volcanic field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Campi Flegrei"
+  },
+  {
+   "id": "Q5471",
+   "name": "La Scala",
+   "sl": 74,
+   "file": "20110725 Milano La Scala 5507.jpg",
+   "lat": 45.4673,
+   "lon": 9.1888,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teatro alla Scala"
+  },
+  {
+   "id": "Q159884",
+   "name": "Stadio Olimpico",
+   "sl": 73,
+   "file": "Stadio Olimpico 2024.jpg",
+   "lat": 41.9339,
+   "lon": 12.4547,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Olympic stadium",
+    "rugby union venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadio Olimpico (Rome)"
+  },
+  {
+   "id": "Q51252",
+   "name": "Uffizi Gallery",
+   "sl": 73,
+   "file": "Florence, Italy - panoramio (125).jpg",
+   "lat": 43.7683,
+   "lon": 11.2553,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum building",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Uffizi"
+  },
+  {
+   "id": "Q178813",
+   "name": "Herculaneum",
+   "sl": 72,
+   "file": "Antigua ciudad de Herculano, Italia, 2023-03-27, DD 141.jpg",
+   "lat": 40.8061,
+   "lon": 14.3475,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "destroyed city",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16920958",
+    "name": "Archaeological Areas of Pompei, Herculaneum and Torre Annunziata"
+   },
+   "also": [],
+   "cat": "Herculaneum"
+  },
+  {
+   "id": "Q180212",
+   "name": "Roman Forum",
+   "sl": 72,
+   "file": "Foro Romano Musei Capitolini Roma.jpg",
+   "lat": 41.8922,
+   "lon": 12.4852,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "forum",
+    "real property",
+    "roman ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Forum Romanum"
+  },
+  {
+   "id": "Q191739",
+   "name": "Florence Cathedral",
+   "sl": 71,
+   "file": "Florence Duomo from Michelangelo hill.jpg",
+   "lat": 43.7731,
+   "lon": 11.2569,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q2707802",
+    "name": "Historic Centre of Florence"
+   },
+   "also": [],
+   "cat": "Santa Maria del Fiore (Florence)"
+  },
+  {
+   "id": "Q34925",
+   "name": "Capitoline Hill",
+   "sl": 68,
+   "file": "Aracoeli-fachada.jpg",
+   "lat": 41.8933,
+   "lon": 12.4831,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Capitoline Hill"
+  },
+  {
+   "id": "Q185382",
+   "name": "Trevi Fountain",
+   "sl": 68,
+   "file": "Trevi Fountain - Roma.jpg",
+   "lat": 41.9009,
+   "lon": 12.4833,
+   "kind": "built",
+   "types": [
+    "fountain",
+    "sculpture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trevi fountain"
+  },
+  {
+   "id": "Q19101",
+   "name": "Roma Fiumicino Airport",
+   "sl": 66,
+   "file": "Rom Fiumicino 2011-by-RaBoe-02.jpg",
+   "lat": 41.7956,
+   "lon": 12.2499,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fiumicino Airport"
+  },
+  {
+   "id": "Q172988",
+   "name": "St Mark's Basilica",
+   "sl": 65,
+   "file": "Venice - St. Marc's Basilica 01.jpg",
+   "lat": 45.4344,
+   "lon": 12.3397,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Mark's Basilica (Venice)"
+  },
+  {
+   "id": "Q14418",
+   "name": "Lake Lugano",
+   "sl": 64,
+   "file": "Lake Lugano Panorama.jpg",
+   "lat": 46,
+   "lon": 9,
+   "kind": "natural",
+   "types": [
+    "area not part of a municipality of Switzerland",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": "Lake Lugano"
+  },
+  {
+   "id": "Q84090",
+   "name": "Archbasilica of St. John Lateran",
+   "sl": 63,
+   "file": "San Giovanni in Laterano 2021.jpg",
+   "lat": 41.8859,
+   "lon": 12.5062,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "ecclesiastical district",
+    "major basilica",
+    "papal basilica"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q18448486",
+    "name": "Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuor"
+   },
+   "also": [],
+   "cat": "Archbasilica of Saint John Lateran"
+  },
+  {
+   "id": "Q200642",
+   "name": "Palatine Hill",
+   "sl": 63,
+   "file": "Palatine Hill from across the Circus Maximus April 2019.jpg",
+   "lat": 41.8883,
+   "lon": 12.4869,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "hill",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palatine Hill"
+  },
+  {
+   "id": "Q189883",
+   "name": "Doge's Palace",
+   "sl": 60,
+   "file": "(Venice) Doge's Palace facing the sea.jpg",
+   "lat": 45.4337,
+   "lon": 12.3404,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "museum of a public entity",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Doge's Palace (Venice)"
+  },
+  {
+   "id": "Q188487",
+   "name": "Lake Trasimeno",
+   "sl": 59,
+   "file": "Lago Trasimeno vito con il drone.jpg",
+   "lat": 43.14,
+   "lon": 12.1,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lago Trasimeno"
+  },
+  {
+   "id": "Q29286",
+   "name": "Palazzo Pitti",
+   "sl": 59,
+   "file": "Palazzo Pitti nel tardo pomeriggio.jpg",
+   "lat": 43.7652,
+   "lon": 11.25,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "Italian national museum",
+    "museum of modern art",
+    "Museum of the Italian Ministry of Culture"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palazzo Pitti"
+  },
+  {
+   "id": "Q207323",
+   "name": "Vulcano",
+   "sl": 59,
+   "file": "Aerial image of Vulcano (view from the east).jpg",
+   "lat": 38.4042,
+   "lon": 14.9658,
+   "kind": "natural",
+   "types": [
+    "complex volcano",
+    "mountain",
+    "stratovolcano",
+    "volcanic island"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q179883",
+    "name": "Aeolian Islands"
+   },
+   "also": [],
+   "cat": "Vulcano Island"
+  },
+  {
+   "id": "Q212214",
+   "name": "Amalfi Coast",
+   "sl": 58,
+   "file": "Ravello September 2007.jpg",
+   "lat": 40.6333,
+   "lon": 14.6,
+   "kind": "",
+   "types": [
+    "coast"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Amalfi Coast"
+  },
+  {
+   "id": "Q186282",
+   "name": "Basilica di Santa Maria Maggiore",
+   "sl": 58,
+   "file": "Basilica di Santa Maria Maggiore - Roma.jpg",
+   "lat": 41.8975,
+   "lon": 12.4986,
+   "kind": "built",
+   "types": [
+    "ecclesiastical district",
+    "major basilica",
+    "papal basilica",
+    "shrine of Our Lady"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Maria Maggiore (Rome)"
+  },
+  {
+   "id": "Q231699",
+   "name": "Basilica of Saint Paul outside the Walls",
+   "sl": 58,
+   "file": "StPaul.jpg",
+   "lat": 41.8586,
+   "lon": 12.4772,
+   "kind": "built",
+   "types": [
+    "abbey church",
+    "ecclesiastical district",
+    "former cathedral",
+    "major basilica"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q18448486",
+    "name": "Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuor"
+   },
+   "also": [],
+   "cat": "Basilica of Saint Paul Outside the Walls"
+  },
+  {
+   "id": "Q215897",
+   "name": "Castel del Monte",
+   "sl": 58,
+   "file": "Castel del Monte - Andria.jpg",
+   "lat": 41.0848,
+   "lon": 16.2709,
+   "kind": "built",
+   "types": [
+    "Category:Hohenstaufen castles in Southern Italy",
+    "historical park museum",
+    "Italian national museum",
+    "military museum building"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Castel del Monte"
+  },
+  {
+   "id": "Q486382",
+   "name": "Castel Sant'Angelo",
+   "sl": 58,
+   "file": "Castel Sant'Angelo at Night.jpg",
+   "lat": 41.903,
+   "lon": 12.4663,
+   "kind": "built",
+   "types": [
+    "château",
+    "mausoleum",
+    "museum",
+    "quadrangular castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Castel Sant'Angelo (Rome)"
+  },
+  {
+   "id": "Q119206",
+   "name": "Julian Alps",
+   "sl": 57,
+   "file": "Mangart 14.jpg",
+   "lat": 46.3667,
+   "lon": 13.8167,
+   "kind": "natural",
+   "types": [
+    "alpine subsection",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SI"
+   ],
+   "cat": "Julian Alps"
+  },
+  {
+   "id": "Q60910",
+   "name": "Milan–Malpensa \"Silvio Berlusconi\" Airport",
+   "sl": 57,
+   "file": "Aerial photograph of Milan Malpensa airport.jpg",
+   "lat": 45.63,
+   "lon": 8.7231,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Milan Malpensa Airport"
+  },
+  {
+   "id": "Q329967",
+   "name": "Paestum",
+   "sl": 57,
+   "file": "Aerial image of Paestum (view from the south).jpg",
+   "lat": 40.42,
+   "lon": 15.0056,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "Ancient Greek archaeological site",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Paestum"
+  },
+  {
+   "id": "Q192784",
+   "name": "Trajan's Column",
+   "sl": 56,
+   "file": "Trajan column (Rome) September 2015-2.jpg",
+   "lat": 41.8958,
+   "lon": 12.4842,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "victory column"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trajan's Column"
+  },
+  {
+   "id": "Q244952",
+   "name": "Santa Maria delle Grazie",
+   "sl": 55,
+   "file": "3048 - Milano - S. Maria delle Grazie - Facciata - Foto Giovanni Dall'Orto - 6-Mar-2008.jpg",
+   "lat": 45.4658,
+   "lon": 9.1711,
+   "kind": "built",
+   "types": [
+    "abbey church",
+    "church building",
+    "minor basilica"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Maria delle Grazie (Milan)"
+  },
+  {
+   "id": "Q194103",
+   "name": "Aventine Hill",
+   "sl": 54,
+   "file": "Ripa - Aventino - CavalieriDiMalta.JPG",
+   "lat": 41.8833,
+   "lon": 12.4833,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aventine Hill"
+  },
+  {
+   "id": "Q309243",
+   "name": "Grand Canal",
+   "sl": 54,
+   "file": "Panorama of Canal Grande and Ponte di Rialto, Venice - September 2017.jpg",
+   "lat": 45.4422,
+   "lon": 12.3264,
+   "kind": "built",
+   "types": [
+    "canal",
+    "thoroughfare"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Canal Grande (Venice)"
+  },
+  {
+   "id": "Q62149",
+   "name": "Juventus Stadium",
+   "sl": 54,
+   "file": "Juventus v Real Madrid, Champions League, Stadium, Turin, 2013.jpg",
+   "lat": 45.1096,
+   "lon": 7.6412,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juventus Stadium"
+  },
+  {
+   "id": "Q327983",
+   "name": "Palace of Caserta",
+   "sl": 54,
+   "file": "Aerial image of the Palace of Caserta (view from the south).jpg",
+   "lat": 41.0732,
+   "lon": 14.3271,
+   "kind": "built",
+   "types": [
+    "art museum",
+    "cultural property",
+    "Istituto museale ad autonomia speciale",
+    "Italian national museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16962666",
+    "name": "18th-Century Royal Palace at Caserta with the Park, the Aqueduct of Vanvitelli, and the San Leucio Complex"
+   },
+   "also": [],
+   "cat": "Palace of Caserta"
+  },
+  {
+   "id": "Q217527",
+   "name": "Piazza San Marco",
+   "sl": 54,
+   "file": "Piazza San Marco (Venice) at night-msu-2021-6449-.jpg",
+   "lat": 45.434,
+   "lon": 12.338,
+   "kind": "built",
+   "types": [
+    "architectural ensemble",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piazza San Marco (Venice)"
+  },
+  {
+   "id": "Q207896",
+   "name": "Quirinal Hill",
+   "sl": 53,
+   "file": "Quirinal.palace.in.rome.arp.jpg",
+   "lat": 41.9011,
+   "lon": 12.4883,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Quirinal Hill (Rome)"
+  },
+  {
+   "id": "Q223079",
+   "name": "Quirinal Palace",
+   "sl": 53,
+   "file": "Quirinale palazzo e obelisco con dioscuri Roma.jpg",
+   "lat": 41.9,
+   "lon": 12.4875,
+   "kind": "built",
+   "types": [
+    "city palace",
+    "Palazzo",
+    "presidential palace",
+    "royal palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Quirinal Palace"
+  },
+  {
+   "id": "Q76925",
+   "name": "Venetian Lagoon",
+   "sl": 53,
+   "file": "The Venetian Lagoon ESA25362327 (cropped).tiff",
+   "lat": 45.4131,
+   "lon": 12.2972,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "lagoon"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q11352141",
+    "name": "Venice and its Lagoon"
+   },
+   "also": [],
+   "cat": "Venetian lagoon"
+  },
+  {
+   "id": "Q207808",
+   "name": "Circus Maximus",
+   "sl": 52,
+   "file": "Circus Maximus 2025.jpg",
+   "lat": 41.8859,
+   "lon": 12.4857,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "circus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Circus Maximus (Rome)"
+  },
+  {
+   "id": "Q211233",
+   "name": "Esquiline Hill",
+   "sl": 52,
+   "file": "A handbook of Rome and the Campagna (1899) (14762604401).jpg",
+   "lat": 41.8956,
+   "lon": 12.4967,
+   "kind": "natural",
+   "types": [
+    "hill"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rione XV - Esquilino"
+  },
+  {
+   "id": "Q272777",
+   "name": "Hadrian's Villa",
+   "sl": 52,
+   "file": "Tivoli - Wall of the Poikile of Hadrian's Villa (Villa Adriana) - 2019.jpg",
+   "lat": 41.9419,
+   "lon": 12.7753,
+   "kind": "built",
+   "types": [
+    "archaeological park",
+    "archaeological site",
+    "Italian national museum",
+    "Museum of the Italian Ministry of Culture"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa Adriana (Tivoli)"
+  },
+  {
+   "id": "Q52505",
+   "name": "Rialto Bridge",
+   "sl": 52,
+   "file": "Rialto 2025 4.jpg",
+   "lat": 45.438,
+   "lon": 12.3356,
+   "kind": "built",
+   "types": [
+    "arch bridge",
+    "built-on bridge",
+    "covered bridge",
+    "footbridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte di Rialto"
+  },
+  {
+   "id": "Q82709",
+   "name": "Stadio Diego Armando Maradona",
+   "sl": 52,
+   "file": "Stadio Maradona Serie A.jpg",
+   "lat": 40.828,
+   "lon": 14.193,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadio Diego Armando Maradona (Naples)"
+  },
+  {
+   "id": "Q721817",
+   "name": "Basilica of San Vitale",
+   "sl": 51,
+   "file": "Basilica of San Vitale.jpg",
+   "lat": 44.4206,
+   "lon": 12.1964,
+   "kind": "built",
+   "types": [
+    "church building",
+    "cultural property",
+    "minor basilica",
+    "tourist destination"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16886821",
+    "name": "Early Christian Monuments of Ravenna"
+   },
+   "also": [],
+   "cat": "San Vitale (Ravenna)"
+  },
+  {
+   "id": "Q517873",
+   "name": "Bergamo-Il Caravaggio",
+   "sl": 51,
+   "file": "Orio al Serio International Airport 2025.jpg",
+   "lat": 45.6655,
+   "lon": 9.6995,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "heliport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orio al Serio International Airport"
+  },
+  {
+   "id": "Q52517",
+   "name": "Bridge of Sighs",
+   "sl": 51,
+   "file": "Antonio Contin - Ponte dei sospiri (Venice).jpg",
+   "lat": 45.4341,
+   "lon": 12.3409,
+   "kind": "built",
+   "types": [
+    "footbridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bridge of Sighs (Venice)"
+  },
+  {
+   "id": "Q190542",
+   "name": "Costa Concordia",
+   "sl": 51,
+   "file": "Costa Concordia in Palma, Majorca, Spain.JPG",
+   "lat": 44.415,
+   "lon": 8.78,
+   "kind": "built",
+   "types": [
+    "cruise ship",
+    "shipwreck"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Costa Concordia (ship, 2006)"
+  },
+  {
+   "id": "Q15648",
+   "name": "Lake Iseo",
+   "sl": 51,
+   "file": "Isola di Loreto.jpg",
+   "lat": 45.7117,
+   "lon": 10.0719,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Iseo"
+  },
+  {
+   "id": "Q849347",
+   "name": "Venice Marco Polo Airport",
+   "sl": 51,
+   "file": "Aeroporto di Venezia - vue aerienne.jpg",
+   "lat": 45.5053,
+   "lon": 12.3519,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Venice Marco Polo Airport"
+  },
+  {
+   "id": "Q1012797",
+   "name": "Ostia",
+   "sl": 50,
+   "file": "Frigidarium Terme del Foro Ostia Antica 2006-09-08.jpg",
+   "lat": 41.7542,
+   "lon": 12.2875,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ostia Antica"
+  },
+  {
+   "id": "Q750245",
+   "name": "Piazza del Duomo, Pisa",
+   "sl": 50,
+   "file": "Italy - Pisa - Leaning Tower of Pisa.jpg",
+   "lat": 43.7234,
+   "lon": 10.3948,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Piazza dei Miracoli (Pisa)"
+  },
+  {
+   "id": "Q272968",
+   "name": "Velia",
+   "sl": 50,
+   "file": "Velia Excavation and Tower.jpg",
+   "lat": 40.1594,
+   "lon": 15.1544,
+   "kind": "built",
+   "types": [
+    "Ancient Greek archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Velia (ancient town)"
+  },
+  {
+   "id": "Q5786",
+   "name": "Arch of Constantine",
+   "sl": 49,
+   "file": "Arch of Constantine (Rome) - South side, from Via triumphalis.jpg",
+   "lat": 41.8898,
+   "lon": 12.4906,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "real property",
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arch of Constantine (Rome)"
+  },
+  {
+   "id": "Q207486",
+   "name": "Basilica of San Francesco d'Assisi",
+   "sl": 49,
+   "file": "BasilicaDiSanFrancescoAssisiMar262024 02.jpg",
+   "lat": 43.0748,
+   "lon": 12.6058,
+   "kind": "built",
+   "types": [
+    "abbey church",
+    "minor basilica",
+    "papal basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica di San Francesco (Assisi)"
+  },
+  {
+   "id": "Q243456",
+   "name": "Cumae",
+   "sl": 49,
+   "file": "Cumae acropolis seen from lower city AvL.JPG",
+   "lat": 40.8486,
+   "lon": 14.0536,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "polis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cumae"
+  },
+  {
+   "id": "Q208180",
+   "name": "lake Bolsena",
+   "sl": 49,
+   "file": "1lago da san vittore.JPG",
+   "lat": 42.6,
+   "lon": 11.9333,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Bolsena"
+  },
+  {
+   "id": "Q208633",
+   "name": "Ponte Vecchio",
+   "sl": 49,
+   "file": "Ponte Vecchio from Ponte alle Grazie.jpg",
+   "lat": 43.768,
+   "lon": 11.2532,
+   "kind": "built",
+   "types": [
+    "arched bridge",
+    "built-on bridge",
+    "deck arch bridge",
+    "footbridge"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ponte Vecchio (Florence)"
+  },
+  {
+   "id": "Q625149",
+   "name": "Aurelian Walls",
+   "sl": 48,
+   "file": "Celio - le mura tra porta san Sebastiano e porta Ardeatina 1974.JPG",
+   "lat": 41.8733,
+   "lon": 12.499,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city walls",
+    "defensive wall",
+    "real property"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aurelian Walls"
+  },
+  {
+   "id": "Q271928",
+   "name": "Palazzo Vecchio",
+   "sl": 48,
+   "file": "Piazza della signoria, palazzo vecchio, veduta 01.jpg",
+   "lat": 43.7694,
+   "lon": 11.2561,
+   "kind": "built",
+   "types": [
+    "art collection",
+    "art museum",
+    "city hall",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Palazzo Vecchio"
+  },
+  {
+   "id": "Q1270",
+   "name": "Pennine Alps",
+   "sl": 48,
+   "file": "Valais Alps.jpg",
+   "lat": 45.9775,
+   "lon": 7.6597,
+   "kind": "natural",
+   "types": [
+    "alpine section"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CH"
+   ],
+   "cat": "Pennine Alps"
+  },
+  {
+   "id": "Q505617",
+   "name": "Villa Romana del Casale",
+   "sl": 48,
+   "file": "Villa Romana del Casale - Plan (numbered).jpg",
+   "lat": 37.3647,
+   "lon": 14.3346,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "archaeological park",
+    "archaeological site",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa del Casale (Piazza Armerina)"
+  },
+  {
+   "id": "Q51177",
+   "name": "Basilica of Santa Croce",
+   "sl": 47,
+   "file": "ITA Firenze Basilica di Santa Croce 2.jpg",
+   "lat": 43.7685,
+   "lon": 11.2627,
+   "kind": "built",
+   "types": [
+    "church building",
+    "minor basilica",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Santa Croce (Florence)"
+  },
+  {
+   "id": "Q841506",
+   "name": "Galleria Borghese",
+   "sl": 47,
+   "file": "Roma Museo Borghese.jpg",
+   "lat": 41.9142,
+   "lon": 12.4921,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "art museum",
+    "Istituto museale ad autonomia speciale",
+    "Italian national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galleria Borghese"
+  },
+  {
+   "id": "Q828386",
+   "name": "Linate Airport",
+   "sl": 47,
+   "file": "Terminal Linate.jpg",
+   "lat": 45.4609,
+   "lon": 9.28,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Milan Linate Airport"
+  },
+  {
+   "id": "Q463400",
+   "name": "Piazza Navona",
+   "sl": 47,
+   "file": "Paolo Monti - Servizio fotografico (Roma, 1966) - BEIC 6329173.jpg",
+   "lat": 41.8987,
+   "lon": 12.4732,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Piazza Navona (Rome)"
+  },
+  {
+   "id": "Q214629",
+   "name": "Stadio Olimpico Grande Torino",
+   "sl": 47,
+   "file": "Stadio Olimpico di Torino.jpg",
+   "lat": 45.0417,
+   "lon": 7.65,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium",
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadio Olimpico Grande Torino"
+  },
+  {
+   "id": "Q211295",
+   "name": "Trajan's Forum",
+   "sl": 47,
+   "file": "IT-Rom-kaiserforen.jpg",
+   "lat": 41.8954,
+   "lon": 12.4859,
+   "kind": "built",
+   "types": [
+    "forum",
+    "Roman archaeological site",
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trajan's Forum (Rome)"
+  },
+  {
+   "id": "Q217449",
+   "name": "Val d'Orcia",
+   "sl": 47,
+   "file": "Val d'orcia -pienza.JPG",
+   "lat": 43.0667,
+   "lon": 11.55,
+   "kind": "natural",
+   "types": [
+    "cultural landscape",
+    "valley"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Val d'Orcia"
+  },
+  {
+   "id": "Q746063",
+   "name": "Villa d'Este",
+   "sl": 47,
+   "file": "Villa d'Este 01.jpg",
+   "lat": 41.9625,
+   "lon": 12.7961,
+   "kind": "built",
+   "types": [
+    "fountain",
+    "Giardino all'italiana",
+    "historical park museum",
+    "Italian national museum"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Villa d'Este (Tivoli)"
+  }
+ ]
+}

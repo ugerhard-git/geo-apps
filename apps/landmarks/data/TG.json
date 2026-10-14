@@ -1,0 +1,155 @@
+{
+ "country": "TG",
+ "items": [
+  {
+   "id": "Q508040",
+   "name": "Koutammakou",
+   "sl": 39,
+   "file": "Togo Taberma house 02.jpg",
+   "lat": 10.0674,
+   "lon": 1.1345,
+   "kind": "built",
+   "types": [
+    "cultural landscape",
+    "human settlement",
+    "monument"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "BJ"
+   ],
+   "cat": "Koutammakou"
+  },
+  {
+   "id": "Q1431925",
+   "name": "Lomé-Tokoin Airport",
+   "sl": 27,
+   "file": "Aérogare de l'Aéroport International Gnassingbé Eyadéma 01.jpg",
+   "lat": 6.1658,
+   "lon": 1.2542,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lomé-Tokoin International Airport"
+  },
+  {
+   "id": "Q1753509",
+   "name": "Mount Agou",
+   "sl": 27,
+   "file": "Mont agou.png",
+   "lat": 6.8705,
+   "lon": 0.7546,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Agou"
+  },
+  {
+   "id": "Q943221",
+   "name": "Lake Togo",
+   "sl": 25,
+   "file": "Lagune in Aného.jpg",
+   "lat": 6.25,
+   "lon": 1.4167,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Togo, Togo"
+  },
+  {
+   "id": "Q1964585",
+   "name": "Nangbeto Dam",
+   "sl": 14,
+   "file": "Barrage -de Nangbéto 07.jpg",
+   "lat": 7.4236,
+   "lon": 1.4348,
+   "kind": "both",
+   "types": [
+    "embankment dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nangbeto Dam"
+  },
+  {
+   "id": "Q246121",
+   "name": "Kéran National Park",
+   "sl": 13,
+   "file": "Keran National Park (31294475930).jpg",
+   "lat": 10.2001,
+   "lon": 0.628,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kéran National Park"
+  },
+  {
+   "id": "Q144029",
+   "name": "Fazao Mafakassa National Park",
+   "sl": 12,
+   "file": "Vue de la montagne à Fazao.jpg",
+   "lat": 9,
+   "lon": 1,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fazao National Park"
+  },
+  {
+   "id": "Q8214115",
+   "name": "Sokodé Airport",
+   "sl": 9,
+   "file": "Aérodrome de Sokodé (40523839050).jpg",
+   "lat": 8.9956,
+   "lon": 1.1525,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sokodé Airport"
+  },
+  {
+   "id": "Q766138",
+   "name": "Sacred Heart Cathedral",
+   "sl": 8,
+   "file": "Lomé Grand Marché with the Cathédrale du Sacré Coeur (33592985581).jpg",
+   "lat": 6.125,
+   "lon": 1.2263,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sacred Heart Cathedral, Lomé"
+  }
+ ]
+}

@@ -1,0 +1,855 @@
+{
+ "country": "SD",
+ "items": [
+  {
+   "id": "Q5780",
+   "name": "Meroë",
+   "sl": 66,
+   "file": "Sudan Meroe Pyramids 2001.JPG",
+   "lat": 16.9351,
+   "lon": 33.7507,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "historical country"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Meroe"
+  },
+  {
+   "id": "Q181528",
+   "name": "Libyan Desert",
+   "sl": 65,
+   "file": "Libyan Desert - 2006.jpg",
+   "lat": 24,
+   "lon": 25,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG",
+    "LY"
+   ],
+   "cat": "Libyan Desert"
+  },
+  {
+   "id": "Q182796",
+   "name": "Lake Nasser",
+   "sl": 61,
+   "file": "Abu Simbel, Nefertari Temple, Lake Nasser, Egypt, Oct 2004.jpg",
+   "lat": 22.5,
+   "lon": 31.86,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG"
+   ],
+   "cat": "Lake Nasser"
+  },
+  {
+   "id": "Q464909",
+   "name": "Nubian Desert",
+   "sl": 51,
+   "file": "Nubian Desert (8651154432).jpg",
+   "lat": 20.5,
+   "lon": 33,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nubian Desert"
+  },
+  {
+   "id": "Q499019",
+   "name": "Jebel Barkal",
+   "sl": 47,
+   "file": "Gebel Barkal.jpg",
+   "lat": 18.5368,
+   "lon": 31.8276,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "mountain",
+    "Nubian pyramids"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278408",
+    "name": "Gebel Barkal and the Sites of the Napatan Region"
+   },
+   "also": [],
+   "cat": "Jebel Barkal"
+  },
+  {
+   "id": "Q743282",
+   "name": "Napata",
+   "sl": 46,
+   "file": "Amun in Barkal.jpg",
+   "lat": 18.5333,
+   "lon": 31.8167,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "city"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278408",
+    "name": "Gebel Barkal and the Sites of the Napatan Region"
+   },
+   "also": [],
+   "cat": "Napata"
+  },
+  {
+   "id": "Q1050244",
+   "name": "Khartoum International Airport",
+   "sl": 32,
+   "file": "Khartoum International Airport.jpg",
+   "lat": 15.5895,
+   "lon": 32.5532,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khartoum International Airport"
+  },
+  {
+   "id": "Q1002656",
+   "name": "Buhen",
+   "sl": 27,
+   "file": "Buhen3.jpg",
+   "lat": 21.9167,
+   "lon": 31.2833,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buhen"
+  },
+  {
+   "id": "Q1107569",
+   "name": "Kerma",
+   "sl": 26,
+   "file": "Kerma city.JPG",
+   "lat": 19.6008,
+   "lon": 30.4097,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kerma, Sudan"
+  },
+  {
+   "id": "Q2119834",
+   "name": "El-Kurru",
+   "sl": 23,
+   "file": "Al-Kurru,main pyramid.jpg",
+   "lat": 18.4092,
+   "lon": 31.771,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cemetery"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278408",
+    "name": "Gebel Barkal and the Sites of the Napatan Region"
+   },
+   "also": [],
+   "cat": "El-Kurru"
+  },
+  {
+   "id": "Q433112",
+   "name": "Old Dongola",
+   "sl": 23,
+   "file": "Church of the Granite Columns 2007-10-03 02.jpg",
+   "lat": 18.2231,
+   "lon": 30.7439,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Old Dongola"
+  },
+  {
+   "id": "Q1441442",
+   "name": "Jebel Uweinat",
+   "sl": 22,
+   "file": "Africa Mt Uwaynat-20080330.jpg",
+   "lat": 21.9194,
+   "lon": 24.9222,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "non-geologically related mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG",
+    "LY"
+   ],
+   "cat": "Gebel Uweinat"
+  },
+  {
+   "id": "Q1739282",
+   "name": "Kerma kingdom",
+   "sl": 22,
+   "file": "Kerma city.JPG",
+   "lat": 19.6008,
+   "lon": 30.4097,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "historical country"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kingdom of Kerma"
+  },
+  {
+   "id": "Q2119839",
+   "name": "Nuri",
+   "sl": 22,
+   "file": "Pyramids of Nuri.jpg",
+   "lat": 18.5667,
+   "lon": 31.9167,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "village"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278408",
+    "name": "Gebel Barkal and the Sites of the Napatan Region"
+   },
+   "also": [],
+   "cat": "Pyramids of Nuri"
+  },
+  {
+   "id": "Q584387",
+   "name": "Faras",
+   "sl": 21,
+   "file": "Christian Nubia.png",
+   "lat": 22.2,
+   "lon": 31.46,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG"
+   ],
+   "cat": "Faras"
+  },
+  {
+   "id": "Q1431022",
+   "name": "Port Sudan New International Airport",
+   "sl": 21,
+   "file": "Port Sudan Airport.jpg",
+   "lat": 19.4336,
+   "lon": 37.2341,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port Sudan New International Airport"
+  },
+  {
+   "id": "Q643453",
+   "name": "National Museum of Sudan",
+   "sl": 19,
+   "file": "Statue, claimed to depict Natakamani found in Tabo on the isle of Argo.jpg",
+   "lat": 15.606,
+   "lon": 32.508,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Sudan"
+  },
+  {
+   "id": "Q1265064",
+   "name": "Roseires Dam",
+   "sl": 19,
+   "file": "Roseires Dam.jpg",
+   "lat": 11.7997,
+   "lon": 34.3886,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roseires Dam"
+  },
+  {
+   "id": "Q2538740",
+   "name": "Wadi Howar",
+   "sl": 18,
+   "file": "ISS006-E-6474 - View of Sudan.jpg",
+   "lat": 18.0572,
+   "lon": 30.9487,
+   "kind": "natural",
+   "types": [
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TD"
+   ],
+   "cat": "Wadi Howar"
+  },
+  {
+   "id": "Q1921988",
+   "name": "Merowe Dam",
+   "sl": 17,
+   "file": "MeroweDam01.jpg",
+   "lat": 18.6689,
+   "lon": 32.0503,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Merowe Dam"
+  },
+  {
+   "id": "Q953831",
+   "name": "Nyala Airport",
+   "sl": 17,
+   "file": "Sudan Nyala Airport Ilyushin-76.jpg",
+   "lat": 12.0536,
+   "lon": 24.9561,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nyala Airport"
+  },
+  {
+   "id": "Q1760360",
+   "name": "Naqa",
+   "sl": 16,
+   "file": "Sudan tempels of naqa 1.jpg",
+   "lat": 16.2694,
+   "lon": 33.275,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3962345",
+    "name": "Archaeological Sites of the Island of Meroe"
+   },
+   "also": [],
+   "cat": "Naqa"
+  },
+  {
+   "id": "Q2520348",
+   "name": "Deriba Caldera",
+   "sl": 15,
+   "file": "Deriba Caldera.jpg",
+   "lat": 12.9514,
+   "lon": 24.2589,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1431231",
+   "name": "Dongola Airport",
+   "sl": 15,
+   "file": "AN-124.JPG",
+   "lat": 19.1536,
+   "lon": 30.43,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dongola Airport"
+  },
+  {
+   "id": "Q286426",
+   "name": "Musawarat",
+   "sl": 15,
+   "file": "Musawwarat.jpg",
+   "lat": 16.4158,
+   "lon": 33.3236,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3962345",
+    "name": "Archaeological Sites of the Island of Meroe"
+   },
+   "also": [],
+   "cat": "Musawwarat es-Sufra"
+  },
+  {
+   "id": "Q1313871",
+   "name": "Sennar Dam",
+   "sl": 15,
+   "file": "Sannar Reservoir.jpg",
+   "lat": 13.5473,
+   "lon": 33.6352,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2829383",
+   "name": "Al-Merrikh Stadium",
+   "sl": 14,
+   "file": "Al-Marekh Stadium Omdurman Sudan 1964 Designed by Abdel-Moneim Mustafa 8.jpg",
+   "lat": 15.6413,
+   "lon": 32.4716,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Merrikh Stadium"
+  },
+  {
+   "id": "Q1380487",
+   "name": "Saï",
+   "sl": 14,
+   "file": "Ottoman fort, Sai Island, Sudan (24846849815).jpg",
+   "lat": 20.7,
+   "lon": 30.3333,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "island",
+    "river island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saï (island)"
+  },
+  {
+   "id": "Q1457914",
+   "name": "Soleb",
+   "sl": 14,
+   "file": "Soleb1.jpg",
+   "lat": 20.4333,
+   "lon": 30.3333,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soleb"
+  },
+  {
+   "id": "Q8065496",
+   "name": "Zalingei Airport",
+   "sl": 13,
+   "file": "UNHAS (Heli Air Services) Mil Mi-8P MTI-2.jpg",
+   "lat": 12.9012,
+   "lon": 23.4824,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3276033",
+   "name": "Geneina Airport",
+   "sl": 12,
+   "file": "El Geneina Airport MTI-1.jpg",
+   "lat": 13.4835,
+   "lon": 22.4725,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Geneina Airport"
+  },
+  {
+   "id": "Q12217059",
+   "name": "Sanganeb Marine National Park",
+   "sl": 12,
+   "file": "Lamprometra klunzingeri, Sudán.jpg",
+   "lat": 19.7333,
+   "lon": 37.4333,
+   "kind": "natural",
+   "types": [
+    "marine park"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65937857",
+    "name": "Sanganeb Marine National Park and Dungonab Bay – Mukkawar Island Marine National Park"
+   },
+   "also": [],
+   "cat": "Sanganeb"
+  },
+  {
+   "id": "Q458467",
+   "name": "Sudan University of Science and Technology",
+   "sl": 12,
+   "file": "Ust view.jpg",
+   "lat": 15.5992,
+   "lon": 32.5133,
+   "kind": "built",
+   "types": [
+    "building",
+    "university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sudan University of Science and Technology"
+  },
+  {
+   "id": "Q4022362",
+   "name": "Al-Nilin Mosque",
+   "sl": 11,
+   "file": "Masjed Alnileen.JPG",
+   "lat": 15.6176,
+   "lon": 32.4877,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Nilin Mosque"
+  },
+  {
+   "id": "Q16878222",
+   "name": "Khalifa House Museum",
+   "sl": 11,
+   "file": "KhalifaHouseMuseum1.jpg",
+   "lat": 15.383,
+   "lon": 32.29,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khalifa House Museum"
+  },
+  {
+   "id": "Q1227931",
+   "name": "Faras Cathedral",
+   "sl": 10,
+   "file": "MNW-Faras Gallery model of the cathedral.jpg",
+   "lat": 22.1817,
+   "lon": 31.4969,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church ruin",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Faras Cathedral"
+  },
+  {
+   "id": "Q2885151",
+   "name": "Jebel Aulia Dam",
+   "sl": 10,
+   "file": "Gibson Monument Stanwell South Relief.jpg",
+   "lat": 15.2381,
+   "lon": 32.4883,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q20170884",
+   "name": "Jebel Dosha",
+   "sl": 10,
+   "file": "JebelDosha1.jpg",
+   "lat": 20.5,
+   "lon": 30.3,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jebel Dosha"
+  },
+  {
+   "id": "Q1411286",
+   "name": "St. Matthew's Cathedral",
+   "sl": 10,
+   "file": "St. Matthew's Catholic Cathedral (Khartoum) 001.jpg",
+   "lat": 15.6105,
+   "lon": 32.5339,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Matthew's Catholic Cathedral, Khartoum"
+  },
+  {
+   "id": "Q2538648",
+   "name": "Wad ban Naqa",
+   "sl": 10,
+   "file": "Amanishakheto pyrmaid Wad Naqa.jpg",
+   "lat": 16.5111,
+   "lon": 33.1122,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wad Ban Naga"
+  },
+  {
+   "id": "Q481660",
+   "name": "Temple of Amun, Jebel Barkal",
+   "sl": 9,
+   "file": "Amun Tempel Barkal SW.jpg",
+   "lat": 18.5351,
+   "lon": 31.8306,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Amun in Jebel Barkal"
+  },
+  {
+   "id": "Q652705",
+   "name": "Tuti Bridge",
+   "sl": 9,
+   "file": "Khartoum, Sudan (32229241710).jpg",
+   "lat": 15.6083,
+   "lon": 32.5124,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tuti Bridge"
+  },
+  {
+   "id": "Q732310",
+   "name": "Askut",
+   "sl": 8,
+   "file": "Fortezze nilotiche.png",
+   "lat": 21.6333,
+   "lon": 31.1,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q57980405",
+   "name": "Kerma Museum",
+   "sl": 8,
+   "file": "متحف كرمة.jpg",
+   "lat": 19.6008,
+   "lon": 30.4119,
+   "kind": "built",
+   "types": [
+    "archaeological museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kerma Museum"
+  },
+  {
+   "id": "Q2885183",
+   "name": "Khashm el-Girba Dam",
+   "sl": 8,
+   "file": "Khashm el-Girba-Damm.jpg",
+   "lat": 14.9253,
+   "lon": 35.9053,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1792110",
+   "name": "Lake Kundi",
+   "sl": 8,
+   "file": "Sudan-karte-politisch-dschanub-darfur.png",
+   "lat": 10.7167,
+   "lon": 25.25,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q456939",
+   "name": "Pyramids of Meroe",
+   "sl": 8,
+   "file": "Sudan Meroe Pyramids 2001.JPG",
+   "lat": 16.9383,
+   "lon": 33.7492,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pyramids of Meroe"
+  },
+  {
+   "id": "Q1424316",
+   "name": "Sanam",
+   "sl": 8,
+   "file": "Sanam,Sudan SE.jpg",
+   "lat": 18.4834,
+   "lon": 31.8191,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278408",
+    "name": "Gebel Barkal and the Sites of the Napatan Region"
+   },
+   "also": [],
+   "cat": "Sanam"
+  },
+  {
+   "id": "Q1457296",
+   "name": "Tombos",
+   "sl": 8,
+   "file": "TombosQuarryIncompleteStatue.jpg",
+   "lat": 19.7,
+   "lon": 30.3833,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tombos (Nubia)"
+  }
+ ]
+}

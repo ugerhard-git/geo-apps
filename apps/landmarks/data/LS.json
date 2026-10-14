@@ -1,0 +1,289 @@
+{
+ "country": "LS",
+ "items": [
+  {
+   "id": "Q183295",
+   "name": "Drakensberg",
+   "sl": 78,
+   "file": "Monks Cowl (15127602555).jpg",
+   "lat": -29.3667,
+   "lon": 29.5333,
+   "kind": "natural",
+   "types": [
+    "large igneous province",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZA"
+   ],
+   "cat": "Drakensberg"
+  },
+  {
+   "id": "Q733132",
+   "name": "Thabana Ntlenyana",
+   "sl": 30,
+   "file": "Thabana Ntlenyana.jpeg",
+   "lat": -29.4667,
+   "lon": 29.2667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q37683",
+   "name": "Maletsunyane Falls",
+   "sl": 27,
+   "file": "Maletsunyanefalls.JPG",
+   "lat": -29.8686,
+   "lon": 28.0517,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maletsunyane Falls"
+  },
+  {
+   "id": "Q645462",
+   "name": "Moshoeshoe I International Airport",
+   "sl": 27,
+   "file": "Maseru airport (4019614223).jpg",
+   "lat": -29.4622,
+   "lon": 27.5525,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moshoeshoe I International Airport"
+  },
+  {
+   "id": "Q6744547",
+   "name": "Maloti-Drakensberg Park",
+   "sl": 23,
+   "file": "Maloti-Drakensberg Park-113926.jpg",
+   "lat": -29.4665,
+   "lon": 29.3939,
+   "kind": "",
+   "types": [
+    "cultural heritage",
+    "natural heritage"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "ZA"
+   ],
+   "cat": "Maloti-Drakensberg Park"
+  },
+  {
+   "id": "Q284817",
+   "name": "Sehlabathebe National Park",
+   "sl": 23,
+   "file": "Sehlabathebe National Park.jpg",
+   "lat": -29.9,
+   "lon": 29.1167,
+   "kind": "natural",
+   "types": [
+    "national park of Lesotho"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6744547",
+    "name": "Maloti-Drakensberg Park"
+   },
+   "also": [],
+   "cat": "Sehlabathebe National Park"
+  },
+  {
+   "id": "Q1883683",
+   "name": "Mafadi",
+   "sl": 22,
+   "file": "Mafadi mountain top.jpg",
+   "lat": -29.2029,
+   "lon": 29.3583,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ZA"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q599532",
+   "name": "Mont-Aux-Sources",
+   "sl": 17,
+   "file": "Mont-Aux-Sources square.jpg",
+   "lat": -28.7591,
+   "lon": 28.8846,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont-Aux-Sources"
+  },
+  {
+   "id": "Q1433794",
+   "name": "Katse Dam",
+   "sl": 16,
+   "file": "Katse Dam.jpg",
+   "lat": -29.3371,
+   "lon": 28.506,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Katse Dam"
+  },
+  {
+   "id": "Q1040669",
+   "name": "Matekane Air Strip",
+   "sl": 14,
+   "file": "Matekaneairrunway.jpg",
+   "lat": -29.9292,
+   "lon": 27.8482,
+   "kind": "built",
+   "types": [
+    "aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Matekane Air Strip"
+  },
+  {
+   "id": "Q383744",
+   "name": "Afri-Ski",
+   "sl": 13,
+   "file": "AfriSki.jpg",
+   "lat": -28.8228,
+   "lon": 28.7281,
+   "kind": "built",
+   "types": [
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Afri-Ski"
+  },
+  {
+   "id": "Q3434121",
+   "name": "Mejametalana Airport",
+   "sl": 13,
+   "file": "Lesotho Defence Airwing.jpg",
+   "lat": -29.3039,
+   "lon": 27.5033,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4118189",
+   "name": "Setsoto Stadium",
+   "sl": 12,
+   "file": "Setsoto-Stadium Lesotho.jpg",
+   "lat": -29.311,
+   "lon": 27.5013,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3916766",
+   "name": "Semonkong Airport",
+   "sl": 11,
+   "file": "Unnamed Road, Lesotho - panoramio - Graham Maclachlan (51).jpg",
+   "lat": -29.8383,
+   "lon": 28.06,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q665301",
+   "name": "Mohale Dam",
+   "sl": 9,
+   "file": "Mohaledam.jpg",
+   "lat": -29.4567,
+   "lon": 28.0958,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q24249528",
+   "name": "Our Lady of Victories Cathedral, Maseru",
+   "sl": 9,
+   "file": "Roman Catholic Archdiocese of Maseru.jpg",
+   "lat": -29.3169,
+   "lon": 27.4948,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Our Lady of Victories Cathedral, Maseru"
+  },
+  {
+   "id": "Q7849277",
+   "name": "Ts'ehlanyane National Park",
+   "sl": 9,
+   "file": "Ts'ehlanyane National Park.JPG",
+   "lat": -28.924,
+   "lon": 28.458,
+   "kind": "natural",
+   "types": [
+    "national park of Lesotho"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ts'ehlanyane National Park"
+  }
+ ]
+}

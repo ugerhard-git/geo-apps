@@ -1,0 +1,715 @@
+{
+ "country": "RW",
+ "items": [
+  {
+   "id": "Q125912",
+   "name": "Lake Kivu",
+   "sl": 82,
+   "file": "LakeKivu satellite.jpg",
+   "lat": -1.8531,
+   "lon": 29.1353,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "meromictic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD"
+   ],
+   "cat": "Lake Kivu"
+  },
+  {
+   "id": "Q737859",
+   "name": "Mount Karisimbi",
+   "sl": 42,
+   "file": "Karisimbi2.jpg",
+   "lat": -1.5,
+   "lon": 29.45,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD"
+   ],
+   "cat": "Mount Karisimbi"
+  },
+  {
+   "id": "Q1322696",
+   "name": "Kigali International Airport",
+   "sl": 34,
+   "file": "KigaliAirport.jpg",
+   "lat": -1.9684,
+   "lon": 30.1384,
+   "kind": "built",
+   "types": [
+    "airport terminal",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kigali International Airport"
+  },
+  {
+   "id": "Q1356828",
+   "name": "Nyungwe Forest",
+   "sl": 34,
+   "file": "Sunrisenyungwe.jpg",
+   "lat": -2.5282,
+   "lon": 29.2758,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "Important Bird Area",
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Nyungwe Forest National Park"
+  },
+  {
+   "id": "Q932736",
+   "name": "Volcanoes National Park",
+   "sl": 31,
+   "file": "Parc National Des Volcans - Flickr - Dave Proffer (4).jpg",
+   "lat": -1.4675,
+   "lon": 29.4925,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "Important Bird Area",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcanoes National Park"
+  },
+  {
+   "id": "Q511779",
+   "name": "Mount Sabyinyo",
+   "sl": 28,
+   "file": "Musanze's Volcano (46355800961).jpg",
+   "lat": -1.4,
+   "lon": 29.6,
+   "kind": "natural",
+   "types": [
+    "extinct volcano",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CD",
+    "UG"
+   ],
+   "cat": "Mount Sabyinyo"
+  },
+  {
+   "id": "Q543030",
+   "name": "Mount Muhabura",
+   "sl": 26,
+   "file": "MUHABURA VOLCANO (cropped).jpg",
+   "lat": -1.3833,
+   "lon": 29.6667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Muhabura"
+  },
+  {
+   "id": "Q116715",
+   "name": "Akagera National Park",
+   "sl": 25,
+   "file": "Akagera natinal park.jpg",
+   "lat": -1.6333,
+   "lon": 30.7833,
+   "kind": "natural",
+   "types": [
+    "Important Bird Area",
+    "national park",
+    "park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Akagera National Park"
+  },
+  {
+   "id": "Q1808777",
+   "name": "Lake Rweru",
+   "sl": 24,
+   "file": "Lakes of Burundi.jpg",
+   "lat": -2.3778,
+   "lon": 30.3236,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BI"
+   ],
+   "cat": "Lake Rweru"
+  },
+  {
+   "id": "Q938343",
+   "name": "Hôtel des Mille Collines",
+   "sl": 19,
+   "file": "Facade of Hotel des Mille Collines - a.k.a. Hotel Rwanda - Kigali - Rwanda.jpg",
+   "lat": -1.9468,
+   "lon": 30.0619,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hôtel des Mille Collines"
+  },
+  {
+   "id": "Q959903",
+   "name": "Rusumo Falls",
+   "sl": 19,
+   "file": "RusumoFalls1.jpg",
+   "lat": -2.3753,
+   "lon": 30.7925,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TZ"
+   ],
+   "cat": "Rusumo Falls"
+  },
+  {
+   "id": "Q932175",
+   "name": "Mount Gahinga",
+   "sl": 18,
+   "file": "View of Mount Mgahinga on the Uganda Side.jpg",
+   "lat": -1.3873,
+   "lon": 29.6435,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UG"
+   ],
+   "cat": "Mount Gahinga"
+  },
+  {
+   "id": "Q5964053",
+   "name": "Murambi Genocide Memorial",
+   "sl": 18,
+   "file": "Rwandan Genocide Murambi skulls.jpg",
+   "lat": -2.4544,
+   "lon": 29.5684,
+   "kind": "built",
+   "types": [
+    "memorial",
+    "Memorial of the Genocide against the Tutsi in Rwanda"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q56293252",
+    "name": "Memorial sites of the Genocide: Nyamata, Murambi, Gisozi and Bisesero"
+   },
+   "also": [],
+   "cat": "Murambi Genocide Memorial"
+  },
+  {
+   "id": "Q24964550",
+   "name": "Nyamata Genocide Memorial",
+   "sl": 18,
+   "file": "Nyamata Genocide Memorial Church - Flickr - Dave Proffer (11).jpg",
+   "lat": -2.1491,
+   "lon": 30.0937,
+   "kind": "built",
+   "types": [
+    "Memorial of the Genocide against the Tutsi in Rwanda"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q56293252",
+    "name": "Memorial sites of the Genocide: Nyamata, Murambi, Gisozi and Bisesero"
+   },
+   "also": [],
+   "cat": "Nyamata Memorial Site"
+  },
+  {
+   "id": "Q821267",
+   "name": "Kamembe Airport",
+   "sl": 17,
+   "file": "Kamembe Airport from the outside, 2017 2.jpg",
+   "lat": -2.4622,
+   "lon": 28.9078,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamembe Airport"
+  },
+  {
+   "id": "Q6405906",
+   "name": "Kigali Genocide Memorial",
+   "sl": 17,
+   "file": "אתר ההנצחה לרצח העם ברואנדה בקיגאלי 12.jpg",
+   "lat": -1.9309,
+   "lon": 30.0607,
+   "kind": "built",
+   "types": [
+    "Memorial of the Genocide against the Tutsi in Rwanda",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q56293252",
+    "name": "Memorial sites of the Genocide: Nyamata, Murambi, Gisozi and Bisesero"
+   },
+   "also": [],
+   "cat": "Kigali Genocide Memorial"
+  },
+  {
+   "id": "Q2749637",
+   "name": "Stade Amahoro",
+   "sl": 17,
+   "file": "Amahoro stadium Kigali.jpg",
+   "lat": -1.955,
+   "lon": 30.1142,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amahoro Stadium"
+  },
+  {
+   "id": "Q3214830",
+   "name": "Lake Cyohoha South",
+   "sl": 16,
+   "file": "Lakes of Burundi.jpg",
+   "lat": -2.4303,
+   "lon": 30.1036,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BI"
+   ],
+   "cat": "Lake Cohoha"
+  },
+  {
+   "id": "Q24964531",
+   "name": "Bisesero Genocide Memorial",
+   "sl": 14,
+   "file": "Bisesero Genocide Memorial - Near Karongi-Kibuye - Western Rwanda.jpg",
+   "lat": -2.192,
+   "lon": 29.3413,
+   "kind": "built",
+   "types": [
+    "memorial",
+    "Memorial of the Genocide against the Tutsi in Rwanda",
+    "museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q56293252",
+    "name": "Memorial sites of the Genocide: Nyamata, Murambi, Gisozi and Bisesero"
+   },
+   "also": [],
+   "cat": "Bisesero Genocide Memorial"
+  },
+  {
+   "id": "Q3275540",
+   "name": "Gisenyi Airport",
+   "sl": 13,
+   "file": "Gisenyi Airport from satellite.jpg",
+   "lat": -1.68,
+   "lon": 29.2583,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gisenyi Airport"
+  },
+  {
+   "id": "Q65050783",
+   "name": "Kigali Arena",
+   "sl": 13,
+   "file": "Le président du Rwanda Paul Kagame lors de la cérémonie de dévoilement du logo BAL à la Kigali Arena, à Kigali, Rwanda, le 19 décembre 2019.jpg",
+   "lat": -1.953,
+   "lon": 30.1155,
+   "kind": "built",
+   "types": [
+    "arena"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kigali Arena"
+  },
+  {
+   "id": "Q12360463",
+   "name": "Lake Burera",
+   "sl": 13,
+   "file": "Lac Burera.jpg",
+   "lat": -1.4339,
+   "lon": 29.7753,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Burera"
+  },
+  {
+   "id": "Q1657890",
+   "name": "Lake Ihema",
+   "sl": 13,
+   "file": "Lake Ihema.jpg",
+   "lat": -1.8833,
+   "lon": 30.7667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ihema"
+  },
+  {
+   "id": "Q1465883",
+   "name": "Gishwati Forest",
+   "sl": 12,
+   "file": "Gishwati Forest 2001.jpg",
+   "lat": -1.7908,
+   "lon": 29.4542,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gishwati Forest"
+  },
+  {
+   "id": "Q25043410",
+   "name": "Kigali Convention Centre",
+   "sl": 12,
+   "file": "An aerial of Kigali Convention Center on June 19, 2019. Photo by Emmanuel Kwizera.jpg",
+   "lat": -1.9547,
+   "lon": 30.0939,
+   "kind": "built",
+   "types": [
+    "convention center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kigali Convention Centre"
+  },
+  {
+   "id": "Q7596202",
+   "name": "Stade Régional Nyamirambo",
+   "sl": 12,
+   "file": "Kigali Pele Stadium.jpg",
+   "lat": -1.9781,
+   "lon": 30.0441,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kigali Pelé Stadium"
+  },
+  {
+   "id": "Q2110810",
+   "name": "Ethnographic Museum",
+   "sl": 11,
+   "file": "National Museum of Rwanda - Butare - Flickr - Dave Proffer.jpg",
+   "lat": -2.5888,
+   "lon": 29.7452,
+   "kind": "built",
+   "types": [
+    "ethnographic museum",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ethnographic Museum, Rwanda"
+  },
+  {
+   "id": "Q1965734",
+   "name": "Lake Nasho",
+   "sl": 11,
+   "file": "ISS012-E-17845 - View of Rwanda (cropped Lakes Nasho Cyambwe Mpanga).jpg",
+   "lat": -2.0439,
+   "lon": 30.7403,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Nasho"
+  },
+  {
+   "id": "Q7596121",
+   "name": "Huye Stadium",
+   "sl": 10,
+   "file": "Inside Huye Stadium, People doing written exams for vacancies after COVID-19 Lock-down.jpg",
+   "lat": -2.5962,
+   "lon": 29.7421,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Huye"
+  },
+  {
+   "id": "Q15045797",
+   "name": "Lake Ruhondo",
+   "sl": 10,
+   "file": "Lake Ruhondo exotic view 01.jpg",
+   "lat": -1.4864,
+   "lon": 29.7489,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ruhondo"
+  },
+  {
+   "id": "Q11295489",
+   "name": "Kandt House Museum",
+   "sl": 9,
+   "file": "Kandt House Museum (8).jpg",
+   "lat": -1.9466,
+   "lon": 30.0532,
+   "kind": "built",
+   "types": [
+    "museum",
+    "natural history museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kandt House Museum"
+  },
+  {
+   "id": "Q15045700",
+   "name": "Lake Mugesera",
+   "sl": 9,
+   "file": "ISS006-E-24705 - View of Rwanda (cropped).jpg",
+   "lat": -2.108,
+   "lon": 30.315,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mugesera"
+  },
+  {
+   "id": "Q3215184",
+   "name": "Lake Sake",
+   "sl": 9,
+   "file": "ISS006-E-24705 - View of Rwanda (cropped Lake Sake).jpg",
+   "lat": -2.2377,
+   "lon": 30.3693,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Sake"
+  },
+  {
+   "id": "Q5052189",
+   "name": "Cathedral Basilica of Our Lady",
+   "sl": 8,
+   "file": "Cathedral Basilica of Our Lady at Kabgayi - Genocide Site - Outside Muhanga-Gitarama - Rwanda.jpg",
+   "lat": -2.1006,
+   "lon": 29.752,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral Basilica of Our Lady, Kabgayi"
+  },
+  {
+   "id": "Q5560437",
+   "name": "Gikondo Prison",
+   "sl": 8,
+   "file": "Kigali City Prison.jpg",
+   "lat": -1.9435,
+   "lon": 30.0542,
+   "kind": "built",
+   "types": [
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gikondo Prison"
+  },
+  {
+   "id": "Q35721463",
+   "name": "Lake Mihindi",
+   "sl": 8,
+   "file": "The Mihindi Lake - Flickr - askmeaks.jpg",
+   "lat": -1.5194,
+   "lon": 30.7192,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Mihindi"
+  },
+  {
+   "id": "Q3215074",
+   "name": "Lake Muhazi",
+   "sl": 8,
+   "file": "Muhazi Lake.jpg",
+   "lat": -1.85,
+   "lon": 30.4,
+   "kind": "both",
+   "types": [
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Muhazi"
+  },
+  {
+   "id": "Q24807517",
+   "name": "Ntarama Genocide Memorial",
+   "sl": 8,
+   "file": "Exterior of Ntarama Genocide Memorial Site - Rwanda - 01.jpg",
+   "lat": -2.1126,
+   "lon": 30.0501,
+   "kind": "built",
+   "types": [
+    "Memorial of the Genocide against the Tutsi in Rwanda"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ntarama Memorial Site"
+  },
+  {
+   "id": "Q7378553",
+   "name": "Rugezi Marsh",
+   "sl": 8,
+   "file": "Rugezi wetland.jpg",
+   "lat": -1.5289,
+   "lon": 29.9094,
+   "kind": "natural",
+   "types": [
+    "Important Bird Area",
+    "marsh",
+    "protected area",
+    "wetland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rugezi Marsh"
+  },
+  {
+   "id": "Q18391584",
+   "name": "Rwanda Cricket Stadium",
+   "sl": 8,
+   "file": "GCS Drone Shot-YT.jpg",
+   "lat": -2.0295,
+   "lon": 30.1072,
+   "kind": "built",
+   "types": [
+    "cricket field",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gahanga Cricket Stadium"
+  },
+  {
+   "id": "Q3585836",
+   "name": "Sainte-Famille Church",
+   "sl": 8,
+   "file": "Paroisse ste famille.jpg",
+   "lat": -1.9447,
+   "lon": 30.0636,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sainte-Famille Church"
+  }
+ ]
+}

@@ -1,0 +1,1407 @@
+{
+ "country": "RU",
+ "items": [
+  {
+   "id": "Q5513",
+   "name": "Lake Baikal",
+   "sl": 183,
+   "file": "Olkhon Island and Lake Baikal.jpg",
+   "lat": 53.3028,
+   "lon": 108.0047,
+   "kind": "natural",
+   "types": [
+    "freshwater lake",
+    "lake",
+    "mountain lake",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Baikal"
+  },
+  {
+   "id": "Q43105",
+   "name": "Mount Elbrus",
+   "sl": 113,
+   "file": "Mt. Elbrus in Russia.jpg",
+   "lat": 43.3525,
+   "lon": 42.4379,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Elbrus"
+  },
+  {
+   "id": "Q80389",
+   "name": "Kuril Islands",
+   "sl": 107,
+   "file": "Islas Kuriles fronteras esp.jpg",
+   "lat": 47,
+   "lon": 152.1,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuril Islands"
+  },
+  {
+   "id": "Q725591",
+   "name": "Mount Bazardüzü",
+   "sl": 107,
+   "file": "Bazarduzu detail.JPG",
+   "lat": 41.2205,
+   "lon": 47.8583,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "AZ"
+   ],
+   "cat": "Bazardüzü"
+  },
+  {
+   "id": "Q41116",
+   "name": "Red Square",
+   "sl": 101,
+   "file": "Kremlin and Red Square.1.jpg",
+   "lat": 55.7542,
+   "lon": 37.62,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16961872",
+    "name": "Kremlin and Red Square"
+   },
+   "also": [],
+   "cat": "Red Square"
+  },
+  {
+   "id": "Q15288",
+   "name": "Lake Ladoga",
+   "sl": 98,
+   "file": "Sortavalan saaristoa.jpg",
+   "lat": 60.8428,
+   "lon": 31.4597,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Ladoga"
+  },
+  {
+   "id": "Q133274",
+   "name": "Kremlin",
+   "sl": 97,
+   "file": "Moscow 05-2012 Kremlin 22.jpg",
+   "lat": 55.7517,
+   "lon": 37.6178,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "government building",
+    "historic district",
+    "kremlin"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16961872",
+    "name": "Kremlin and Red Square"
+   },
+   "also": [],
+   "cat": "Moscow Kremlin"
+  },
+  {
+   "id": "Q132783",
+   "name": "Hermitage Museum",
+   "sl": 86,
+   "file": "Winter Palace Panorama 4.jpg",
+   "lat": 59.9406,
+   "lon": 30.3136,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hermitage Museum"
+  },
+  {
+   "id": "Q166162",
+   "name": "Lake Onega",
+   "sl": 84,
+   "file": "2 июля 2011. Отдых на Янигубе. - panoramio (2).jpg",
+   "lat": 61.6906,
+   "lon": 35.6556,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Onega"
+  },
+  {
+   "id": "Q186614",
+   "name": "Domodedovo International Airport",
+   "sl": 81,
+   "file": "Domodedovo Airport.jpg",
+   "lat": 55.4086,
+   "lon": 37.9061,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "federal aeroport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Domodedovo International Airport"
+  },
+  {
+   "id": "Q129846",
+   "name": "St. Basil's Cathedral",
+   "sl": 79,
+   "file": "00 0568 Saint Basil's Cathedral - Moscow.jpg",
+   "lat": 55.7525,
+   "lon": 37.6231,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Basil's Cathedral"
+  },
+  {
+   "id": "Q192733",
+   "name": "Sheremetyevo International Airport",
+   "sl": 78,
+   "file": "SVO aerial view 2024.jpg",
+   "lat": 55.9728,
+   "lon": 37.4147,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "federal aeroport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sheremetyevo International Airport"
+  },
+  {
+   "id": "Q138908",
+   "name": "Bolshoi Theatre",
+   "sl": 76,
+   "file": "Moscow - 2025 - Facade of Big Theatre (1).jpg",
+   "lat": 55.7603,
+   "lon": 37.6186,
+   "kind": "built",
+   "types": [
+    "organization",
+    "theatre building",
+    "theatre company"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bolshoi Theatre"
+  },
+  {
+   "id": "Q182147",
+   "name": "Winter Palace",
+   "sl": 76,
+   "file": "00 2038 Winter Palace - Hermitage Museum (St. Petersburg).jpg",
+   "lat": 59.9398,
+   "lon": 30.3146,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Winter Palace"
+  },
+  {
+   "id": "Q2652980",
+   "name": "Crimean Bridge",
+   "sl": 68,
+   "file": "Крымский мост 13 сентября 2019 года (1).jpg",
+   "lat": 45.3086,
+   "lon": 36.5061,
+   "kind": "built",
+   "types": [
+    "cross-sea bridge",
+    "railway bridge",
+    "road bridge",
+    "truss arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UA"
+   ],
+   "cat": "Crimean Bridge"
+  },
+  {
+   "id": "Q5595",
+   "name": "Curonian Spit",
+   "sl": 67,
+   "file": "Curonian Spit NP 05-2017 img15 Epha Dune.jpg",
+   "lat": 55.2744,
+   "lon": 20.9708,
+   "kind": "built",
+   "types": [
+    "spit",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "LT"
+   ],
+   "cat": "Curonian Spit"
+  },
+  {
+   "id": "Q19253",
+   "name": "Lake Peipus",
+   "sl": 67,
+   "file": "Lake Peipus, LandSat-8, 2016-10-20.jpg",
+   "lat": 58.6767,
+   "lon": 27.4917,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "lake system"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EE"
+   ],
+   "cat": "Lake Peipus"
+  },
+  {
+   "id": "Q202163",
+   "name": "Luzhniki Stadium",
+   "sl": 67,
+   "file": "LuzhnikiStadium.jpg",
+   "lat": 55.7158,
+   "lon": 37.5536,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "association football venue",
+    "pitch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Luzhniki Stadium"
+  },
+  {
+   "id": "Q207680",
+   "name": "Mount Kazbek",
+   "sl": 63,
+   "file": "Mkinvarcveri.jpg",
+   "lat": 42.6969,
+   "lon": 44.5189,
+   "kind": "natural",
+   "types": [
+    "dormant volcano",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kazbek"
+  },
+  {
+   "id": "Q722970",
+   "name": "Gazprom Arena",
+   "sl": 62,
+   "file": "Gazprom Arena (2026-05-17) - 0.jpg",
+   "lat": 59.973,
+   "lon": 30.2205,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gazprom Arena"
+  },
+  {
+   "id": "Q210252",
+   "name": "Klyuchevskaya Sopka",
+   "sl": 62,
+   "file": "Ključevskaja za východu slunce.jpg",
+   "lat": 56.0667,
+   "lon": 160.6333,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Klyuchevskaya Sopka"
+  },
+  {
+   "id": "Q191414",
+   "name": "Lenin's Mausoleum",
+   "sl": 62,
+   "file": "0 234 Roter Platz (Lenin-Mausoleum.jpg",
+   "lat": 55.7536,
+   "lon": 37.6197,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mausoleum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lenin Mausoleum"
+  },
+  {
+   "id": "Q191566",
+   "name": "West Siberian Plain",
+   "sl": 62,
+   "file": "Vasyugan.jpg",
+   "lat": 60,
+   "lon": 75,
+   "kind": "natural",
+   "types": [
+    "plain",
+    "Russian Large Landscape",
+    "temperate coniferous forest"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "West Siberian Plain"
+  },
+  {
+   "id": "Q194474",
+   "name": "Cathedral of Christ the Saviour",
+   "sl": 61,
+   "file": "Moscow July 2011-7a.jpg",
+   "lat": 55.7444,
+   "lon": 37.6056,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of Christ the Saviour"
+  },
+  {
+   "id": "Q1149601",
+   "name": "Fisht Olympic Stadium",
+   "sl": 61,
+   "file": "Sochi adler aerial view 2018 23.jpg",
+   "lat": 43.4018,
+   "lon": 39.9559,
+   "kind": "built",
+   "types": [
+    "Olympic stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fisht Olympic Stadium"
+  },
+  {
+   "id": "Q1190634",
+   "name": "Lukoil Arena",
+   "sl": 61,
+   "file": "2017 Confederation Cup - CHIAUS - Spartak Stadium Panorama.jpg",
+   "lat": 55.8178,
+   "lon": 37.4403,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lukoil Arena"
+  },
+  {
+   "id": "Q273462",
+   "name": "Vnukovo International Airport",
+   "sl": 61,
+   "file": "Vnukovo International Airport 2019.jpg",
+   "lat": 55.5961,
+   "lon": 37.2675,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "federal aeroport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Vnukovo International Airport"
+  },
+  {
+   "id": "Q181324",
+   "name": "Ostankino Tower",
+   "sl": 60,
+   "file": "Останкинская башня вечером.jpg",
+   "lat": 55.8197,
+   "lon": 37.6117,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "concert hall",
+    "television tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ostankino Tower"
+  },
+  {
+   "id": "Q1048694",
+   "name": "Russian State Library",
+   "sl": 60,
+   "file": "RIAN archive 169374 Moscow's Russian State Library.jpg",
+   "lat": 55.7517,
+   "lon": 37.609,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "archives",
+    "national library",
+    "public library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Russian State Library"
+  },
+  {
+   "id": "Q183334",
+   "name": "Tretyakov Gallery",
+   "sl": 60,
+   "file": "Moscow 05-2012 TretyakovGallery.jpg",
+   "lat": 55.7414,
+   "lon": 37.6209,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "art museum",
+    "museum",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "State Tretyakov Gallery"
+  },
+  {
+   "id": "Q33993",
+   "name": "Ak Bars Arena",
+   "sl": 59,
+   "file": "Closing of 2013 Summer Universiade 79.jpg",
+   "lat": 55.821,
+   "lon": 49.161,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kazan Arena"
+  },
+  {
+   "id": "Q201843",
+   "name": "Khanka",
+   "sl": 58,
+   "file": "Lake Khanka Landsat 7 2001-09-25.jpg",
+   "lat": 45.0167,
+   "lon": 132.4167,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "protected area of Russia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CN"
+   ],
+   "cat": "Lake Khanka"
+  },
+  {
+   "id": "Q168713",
+   "name": "Aurora",
+   "sl": 57,
+   "file": "Cruiser-Aurora.jpg",
+   "lat": 59.9555,
+   "lon": 30.3378,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "museum ship",
+    "preserved watercraft",
+    "protected cruiser"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aurora (ship, 1900)"
+  },
+  {
+   "id": "Q2854543",
+   "name": "Catherine Palace",
+   "sl": 56,
+   "file": "00 5105 Catherine Palace (Большой Екатерининский дворец) in Pushkin, Russia.jpg",
+   "lat": 59.716,
+   "lon": 30.3956,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Catherine Palace"
+  },
+  {
+   "id": "Q4439101",
+   "name": "Rostov Arena",
+   "sl": 56,
+   "file": "Rostov Arena2018 (cropped).jpg",
+   "lat": 47.2094,
+   "lon": 39.7378,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rostov Arena"
+  },
+  {
+   "id": "Q215423",
+   "name": "Saint Isaac's Cathedral",
+   "sl": 56,
+   "file": "Saint Isaac's Cathedral in SPB.jpeg",
+   "lat": 59.934,
+   "lon": 30.306,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Isaac's Cathedral"
+  },
+  {
+   "id": "Q4533552",
+   "name": "Mordovia Arena",
+   "sl": 55,
+   "file": "Mordovia Arena1.jpg",
+   "lat": 54.1828,
+   "lon": 45.2014,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mordovia Arena"
+  },
+  {
+   "id": "Q81150",
+   "name": "Uvs Lake",
+   "sl": 55,
+   "file": "Uvs núr.JPG",
+   "lat": 50.3,
+   "lon": 92.7,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "salt lake"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q64797735",
+    "name": "Uvs Nuur Basin"
+   },
+   "also": [],
+   "cat": "Uvs Nuur"
+  },
+  {
+   "id": "Q190779",
+   "name": "Central Stadium Yekaterinburg",
+   "sl": 54,
+   "file": "E-burg asv2019-05 img22 Central Stadium.jpg",
+   "lat": 56.8324,
+   "lon": 60.5736,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "association football venue",
+    "organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Central Stadium (Yekaterinburg)"
+  },
+  {
+   "id": "Q4439098",
+   "name": "Rostec Arena",
+   "sl": 54,
+   "file": "Kaliningrad stadium - 2018-04-07.jpg",
+   "lat": 54.6981,
+   "lon": 20.5339,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaliningrad Stadium"
+  },
+  {
+   "id": "Q4439099",
+   "name": "Samara Arena",
+   "sl": 54,
+   "file": "Samara arena.png",
+   "lat": 53.2775,
+   "lon": 50.2377,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samara Arena"
+  },
+  {
+   "id": "Q217457",
+   "name": "Shkhara",
+   "sl": 54,
+   "file": "Shahara peak near Ushguli 1870.jpg",
+   "lat": 42.9994,
+   "lon": 43.1117,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GE"
+   ],
+   "cat": "Shkhara"
+  },
+  {
+   "id": "Q1601986",
+   "name": "The Motherland Calls",
+   "sl": 54,
+   "file": "Волгоград. Мамев курган. Родина-мать зовет.jpg",
+   "lat": 48.7423,
+   "lon": 44.5371,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "historic site",
+    "monument",
+    "statue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Motherland Calls"
+  },
+  {
+   "id": "Q207028",
+   "name": "Mariinsky Theatre",
+   "sl": 53,
+   "file": "Санкт-Петербург, Мариинский театр, фасад (edited version).jpg",
+   "lat": 59.9256,
+   "lon": 30.2961,
+   "kind": "built",
+   "types": [
+    "opera house"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mariinsky Theatre"
+  },
+  {
+   "id": "Q1130771",
+   "name": "Syvash Bay",
+   "sl": 53,
+   "file": "Старое (озеро, Крым).jpg",
+   "lat": 46.0833,
+   "lon": 34.3333,
+   "kind": "natural",
+   "types": [
+    "bay",
+    "lagoon",
+    "marsh"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UA"
+   ],
+   "cat": "Syvash"
+  },
+  {
+   "id": "Q4366184",
+   "name": "Volgograd Arena",
+   "sl": 53,
+   "file": "Volgograd arena aerial view 1.jpg",
+   "lat": 48.7346,
+   "lon": 44.5481,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volgograd Arena"
+  },
+  {
+   "id": "Q724367",
+   "name": "Belukha Mountain",
+   "sl": 52,
+   "file": "2006-07 altaj belucha.jpg",
+   "lat": 49.8069,
+   "lon": 86.5897,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "protected area of Russia"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q155495",
+    "name": "Golden Mountains of Altai"
+   },
+   "also": [],
+   "cat": "Belukha Mountain"
+  },
+  {
+   "id": "Q203462",
+   "name": "Ilmen",
+   "sl": 52,
+   "file": "Ilmen Lake.JPG",
+   "lat": 58.2667,
+   "lon": 31.2833,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ilmen Lake"
+  },
+  {
+   "id": "Q38646",
+   "name": "Peter and Paul Fortress",
+   "sl": 52,
+   "file": "00 4645 Sankt Petersburg - Haseninsel.jpg",
+   "lat": 59.95,
+   "lon": 30.3167,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "citadel",
+    "fortress",
+    "military museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peter & Paul Fortress"
+  },
+  {
+   "id": "Q19572",
+   "name": "Pozo de Kola, Rusia",
+   "sl": 52,
+   "file": "Kola sverhglubokaya 2020.jpg",
+   "lat": 69.3965,
+   "lon": 30.6099,
+   "kind": "built",
+   "types": [
+    "borehole"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kola Superdeep Borehole"
+  },
+  {
+   "id": "Q650495",
+   "name": "Cape Dezhnyov",
+   "sl": 51,
+   "file": "Bering Strait.jpeg",
+   "lat": 66.0792,
+   "lon": -169.6519,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cape Dezhnev"
+  },
+  {
+   "id": "Q215539",
+   "name": "Moscow Conservatory",
+   "sl": 51,
+   "file": "Moscow 05-2017 img41 Conservatory.jpg",
+   "lat": 55.7561,
+   "lon": 37.6043,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "conservatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moscow Conservatory"
+  },
+  {
+   "id": "Q690122",
+   "name": "Pulkovo Airport",
+   "sl": 51,
+   "file": "Pulkovo airport.jpg",
+   "lat": 59.8003,
+   "lon": 30.2625,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "federal aeroport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pulkovo Airport"
+  },
+  {
+   "id": "Q461457",
+   "name": "White Sea – Baltic Canal",
+   "sl": 51,
+   "file": "White Sea–Baltic Canal, lock P7120376 2200.jpg",
+   "lat": 62.8,
+   "lon": 34.8,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "White Sea-Baltic Canal"
+  },
+  {
+   "id": "Q194196",
+   "name": "Valdai Hills",
+   "sl": 50,
+   "file": "Valdai National Park asv2018-08 img14 Lake Sitno.jpg",
+   "lat": 57,
+   "lon": 33.5,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain range",
+    "upland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Valdai Hills"
+  },
+  {
+   "id": "Q593870",
+   "name": "Virgin Komi Forests",
+   "sl": 50,
+   "file": "Four herous01.JPG",
+   "lat": 65.0667,
+   "lon": 60.15,
+   "kind": "natural",
+   "types": [
+    "forest",
+    "natural landscape",
+    "old-growth forest",
+    "protected area of Russia"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Komi Virgin Forests"
+  },
+  {
+   "id": "Q837325",
+   "name": "Cape Chelyuskin",
+   "sl": 49,
+   "file": "Kap Tscheljuskin 3 2012-08-05.jpg",
+   "lat": 77.7167,
+   "lon": 104.3,
+   "kind": "natural",
+   "types": [
+    "cape",
+    "headland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chelyuskin Cape"
+  },
+  {
+   "id": "Q476313",
+   "name": "Dykh-Tau",
+   "sl": 49,
+   "file": "Dykhtau.jpg",
+   "lat": 43.0525,
+   "lon": 43.1317,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dykh-Tau"
+  },
+  {
+   "id": "Q4439075",
+   "name": "Nizhny Novgorod Stadium",
+   "sl": 49,
+   "file": "Nizhny Novgorod Stadium asv2019-05.jpg",
+   "lat": 56.3375,
+   "lon": 43.9633,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nizhny Novgorod Stadium"
+  },
+  {
+   "id": "Q211043",
+   "name": "Russian Museum",
+   "sl": 49,
+   "file": "Spb 06-2012 MichaelPalace.jpg",
+   "lat": 59.9386,
+   "lon": 30.3322,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Russian Museum"
+  },
+  {
+   "id": "Q211962",
+   "name": "Trinity Lavra of St. Sergius",
+   "sl": 49,
+   "file": "00 4659. Klosteranlage Dreifaltigkeit von Sergijew Possad.jpg",
+   "lat": 56.3104,
+   "lon": 38.1307,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "lavra",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Troitse-Sergiyeva Lavra"
+  },
+  {
+   "id": "Q1258473",
+   "name": "Peterhof Palaces and complex",
+   "sl": 48,
+   "file": "Grand Cascade in Peterhof 01.jpg",
+   "lat": 59.8863,
+   "lon": 29.9097,
+   "kind": "both",
+   "types": [
+    "palace complex",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Peterhof (palace and park ensemble)"
+  },
+  {
+   "id": "Q4872",
+   "name": "Pushkin Museum of Fine Arts",
+   "sl": 48,
+   "file": "Gmii.jpg",
+   "lat": 55.747,
+   "lon": 37.606,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "art museum",
+    "museum building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pushkin Museum"
+  },
+  {
+   "id": "Q277576",
+   "name": "Putorana Plateau",
+   "sl": 48,
+   "file": "Plato Putorana 01.jpg",
+   "lat": 69,
+   "lon": 93,
+   "kind": "natural",
+   "types": [
+    "massif",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Putorana Plateau"
+  },
+  {
+   "id": "Q603622",
+   "name": "Qazan Kremlin",
+   "sl": 48,
+   "file": "Казанский кремль. Панорама с колеса обозрения.jpg",
+   "lat": 55.7974,
+   "lon": 49.1072,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "kremlin",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kazan Kremlin"
+  },
+  {
+   "id": "Q650285",
+   "name": "Ufa International Airport",
+   "sl": 48,
+   "file": "Ufa International Airport (April 2025) -0 1.jpg",
+   "lat": 54.5575,
+   "lon": 55.8742,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "federal aeroport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ufa International Airport"
+  },
+  {
+   "id": "Q1514176",
+   "name": "Mount Yamantau",
+   "sl": 47,
+   "file": "Yamantau.JPG",
+   "lat": 54.255,
+   "lon": 58.102,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yamantau"
+  },
+  {
+   "id": "Q382500",
+   "name": "Nevsky Prospect",
+   "sl": 47,
+   "file": "Nevsky Prospekt 20240912 114912 MP.jpg",
+   "lat": 59.9367,
+   "lon": 30.315,
+   "kind": "built",
+   "types": [
+    "historic site",
+    "prospekt"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nevsky Avenue"
+  },
+  {
+   "id": "Q208175",
+   "name": "Novodevichy Cemetery",
+   "sl": 47,
+   "file": "Novodevichy cemetery.jpg",
+   "lat": 55.7247,
+   "lon": 37.5542,
+   "kind": "built",
+   "types": [
+    "cemetery",
+    "historic site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q270725",
+    "name": "Novodevichy Convent"
+   },
+   "also": [],
+   "cat": "Novodevichy cemetery (Moscow)"
+  },
+  {
+   "id": "Q270725",
+   "name": "Novodevichy Convent",
+   "sl": 47,
+   "file": "2024 Novodevichy Convent in Moscow.jpg",
+   "lat": 55.726,
+   "lon": 37.5566,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "eastern orthodox monastery",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Novodevichy Convent"
+  },
+  {
+   "id": "Q121198",
+   "name": "Qol Şärif Mosque",
+   "sl": 47,
+   "file": "Kazan Kremlin Qolsharif Mosque 08-2016 img2.jpg",
+   "lat": 55.7983,
+   "lon": 49.1052,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kul Sharif Mosque"
+  },
+  {
+   "id": "Q845868",
+   "name": "Taymyr",
+   "sl": 47,
+   "file": "Lake Taymyr 2017-07-20 Sentinel-2 L2A Highlight Optimized Natural Color.jpg",
+   "lat": 74.5333,
+   "lon": 101.6333,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Taymyr"
+  },
+  {
+   "id": "Q791652",
+   "name": "Avachinsky",
+   "sl": 46,
+   "file": "Koryaksky volcano Petropavlovsk-Kamchatsky oct-2005.jpg",
+   "lat": 53.255,
+   "lon": 158.8328,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Avachinsky Volcano"
+  },
+  {
+   "id": "Q215208",
+   "name": "Church of the Savior on Blood",
+   "sl": 46,
+   "file": "Собор Воскресения Христова 1.jpg",
+   "lat": 59.94,
+   "lon": 30.3286,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Saviour on the Blood"
+  },
+  {
+   "id": "Q404571",
+   "name": "Kazan Cathedral",
+   "sl": 46,
+   "file": "Spb 06-2012 Nevsky various 02.jpg",
+   "lat": 59.9342,
+   "lon": 30.3246,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "Eastern Orthodox cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kazan Cathedral"
+  },
+  {
+   "id": "Q217109",
+   "name": "Teletskoe",
+   "sl": 46,
+   "file": "Телецкое озеро с севера.jpg",
+   "lat": 51.5292,
+   "lon": 87.7147,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "protected area of Russia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Teletskoye Lake"
+  },
+  {
+   "id": "Q827505",
+   "name": "Volga–Don Canal",
+   "sl": 46,
+   "file": "Судоходный канал.JPG",
+   "lat": 48.57,
+   "lon": 44.15,
+   "kind": "built",
+   "types": [
+    "ship canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volga–Don Canal"
+  },
+  {
+   "id": "Q749556",
+   "name": "Yasnaya Polyana",
+   "sl": 46,
+   "file": "Tula YasnayaPolyana asv2019-09 img04 orchard.jpg",
+   "lat": 54.0751,
+   "lon": 37.5264,
+   "kind": "both",
+   "types": [
+    "estate",
+    "historic site",
+    "museum",
+    "protected area of Russia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yasnaya Polyana"
+  },
+  {
+   "id": "Q277683",
+   "name": "Lena Pillars",
+   "sl": 45,
+   "file": "Белые ночи на территории ЛС.jpg",
+   "lat": 61.1069,
+   "lon": 127.3617,
+   "kind": "natural",
+   "types": [
+    "hoodoo",
+    "natural monument of Russia",
+    "protected area of Russia",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Lena Pillars"
+  },
+  {
+   "id": "Q736587",
+   "name": "Peter and Paul Cathedral",
+   "sl": 45,
+   "file": "PeterandPaulFortress2.JPG",
+   "lat": 59.9503,
+   "lon": 30.3167,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "Eastern Orthodox cathedral",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Peter & Paul Cathedral"
+  }
+ ]
+}

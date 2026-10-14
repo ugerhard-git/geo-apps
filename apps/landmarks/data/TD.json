@@ -1,0 +1,440 @@
+{
+ "country": "TD",
+ "items": [
+  {
+   "id": "Q257441",
+   "name": "Emi Koussi",
+   "sl": 43,
+   "file": "Emi Koussi inner crater.jpg",
+   "lat": 19.7894,
+   "lon": 18.5511,
+   "kind": "natural",
+   "types": [
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emi Koussi"
+  },
+  {
+   "id": "Q547375",
+   "name": "Lakes of Ounianga",
+   "sl": 34,
+   "file": "Ounianga Serir.jpg",
+   "lat": 18.9833,
+   "lon": 20.6667,
+   "kind": "",
+   "types": [
+    "group of lakes"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Lakes of Ounianga"
+  },
+  {
+   "id": "Q979272",
+   "name": "N'Djamena International Airport",
+   "sl": 31,
+   "file": "N'Djamena International Airport, Chad.jpg",
+   "lat": 12.125,
+   "lon": 15.0247,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "N'Djamena International Airport"
+  },
+  {
+   "id": "Q1561524",
+   "name": "Zakouma National Park",
+   "sl": 27,
+   "file": "Antilope Bubale.jpg",
+   "lat": 10.8478,
+   "lon": 19.6478,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zakouma National Park"
+  },
+  {
+   "id": "Q720617",
+   "name": "Lake Fitri",
+   "sl": 25,
+   "file": "ISS-30 Lake Fitri, Chad.jpg",
+   "lat": 12.8092,
+   "lon": 17.5025,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Fitri"
+  },
+  {
+   "id": "Q788723",
+   "name": "Tarso Toussidé",
+   "sl": 20,
+   "file": "Chad Tousside.jpg",
+   "lat": 21.0408,
+   "lon": 16.4736,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Toussidé"
+  },
+  {
+   "id": "Q3495936",
+   "name": "Abéché Airport",
+   "sl": 19,
+   "file": "Aeroport abeché1.jpg",
+   "lat": 13.8469,
+   "lon": 20.8442,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abéché Airport"
+  },
+  {
+   "id": "Q1313863",
+   "name": "Lake Yoa",
+   "sl": 18,
+   "file": "Lac yoa1.jpg",
+   "lat": 19.0572,
+   "lon": 20.5063,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2538740",
+   "name": "Wadi Howar",
+   "sl": 18,
+   "file": "ISS006-E-6474 - View of Sudan.jpg",
+   "lat": 18.0572,
+   "lon": 30.9487,
+   "kind": "natural",
+   "types": [
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SD"
+   ],
+   "cat": "Wadi Howar"
+  },
+  {
+   "id": "Q1370490",
+   "name": "Lake Fianga",
+   "sl": 17,
+   "file": "Fianga-See.jpg",
+   "lat": 9.9667,
+   "lon": 15.2,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CM"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q1281341",
+   "name": "Tarso Voon",
+   "sl": 17,
+   "file": "Tarso Voon NASA.jpg",
+   "lat": 20.9167,
+   "lon": 17.2833,
+   "kind": "natural",
+   "types": [
+    "crater",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tarso Voon"
+  },
+  {
+   "id": "Q1553203",
+   "name": "Guelta d'Archei",
+   "sl": 16,
+   "file": "GueltaCamels.jpg",
+   "lat": 16.9042,
+   "lon": 21.7738,
+   "kind": "natural",
+   "types": [
+    "guelta",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guelta d'Archei"
+  },
+  {
+   "id": "Q2684769",
+   "name": "Chad National Museum",
+   "sl": 15,
+   "file": "Musée national 2.jpg",
+   "lat": 12.1254,
+   "lon": 15.0774,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "history museum",
+    "national museum",
+    "paleontological museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Chad"
+  },
+  {
+   "id": "Q10852631",
+   "name": "Faya-Largeau Airport",
+   "sl": 15,
+   "file": "LARAF MiG-23MS rolling along the runway at Faya Largeau AB,.jpg",
+   "lat": 17.9177,
+   "lon": 19.1077,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Faya-Largeau Airport"
+  },
+  {
+   "id": "Q1673068",
+   "name": "Iro Lake",
+   "sl": 15,
+   "file": "Iro Lake 2021-07-16 Sentinel-2 L2A True color.jpg",
+   "lat": 10.1078,
+   "lon": 19.4252,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Iro Lake"
+  },
+  {
+   "id": "Q2902333",
+   "name": "Djurab Desert",
+   "sl": 12,
+   "file": "Chad 2017 Tigui Collecting fire wood DSC0695.jpg",
+   "lat": 17,
+   "lon": 18,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1127512",
+   "name": "Lake Katam",
+   "sl": 12,
+   "file": "Lac Katam.jpg",
+   "lat": 19.0167,
+   "lon": 20.5139,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q615987",
+   "name": "Aorounga crater",
+   "sl": 10,
+   "file": "Aorounga crater.png",
+   "lat": 19.1,
+   "lon": 19.25,
+   "kind": "natural",
+   "types": [
+    "impact crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aorounga crater"
+  },
+  {
+   "id": "Q1107134",
+   "name": "Léré Lake",
+   "sl": 10,
+   "file": "Lake Lere and Lake Trene.jpg",
+   "lat": 9.6167,
+   "lon": 14.1667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CM"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q937130",
+   "name": "Trou au Natron",
+   "sl": 10,
+   "file": "Chad Trou au Natron 2301-2.jpg",
+   "lat": 20.975,
+   "lon": 16.5675,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trou au Natron"
+  },
+  {
+   "id": "Q2879305",
+   "name": "Bahr el-Ghazal",
+   "sl": 9,
+   "file": "Bahr el-Ghazal.png",
+   "lat": 13.0095,
+   "lon": 15.4444,
+   "kind": "natural",
+   "types": [
+    "Arheisch",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1557855",
+   "name": "Gweni-Fada crater",
+   "sl": 9,
+   "file": "Gweni-Fada crater.jpg",
+   "lat": 17.4186,
+   "lon": 21.7522,
+   "kind": "natural",
+   "types": [
+    "impact crater"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gweni-Fada crater"
+  },
+  {
+   "id": "Q15689003",
+   "name": "Cathedral of Our Lady, N'Djamena",
+   "sl": 8,
+   "file": "ASC Leiden - NSAG - van Es 7 - 019 - La cathédrale moderne avec une arche pointue - N'Djaména, Tchad - 7 janvier 1962.tif",
+   "lat": 12.1114,
+   "lon": 15.0373,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale de Notre-Dame (N'Djamena)"
+  },
+  {
+   "id": "Q105227371",
+   "name": "N'Djamena Grand Mosque",
+   "sl": 8,
+   "file": "Mosquée Roi Fayçal de N'djamena.jpg",
+   "lat": 12.1104,
+   "lon": 15.0508,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grande Mosquée Roi Fayçal de N'Djaména"
+  },
+  {
+   "id": "Q2394632",
+   "name": "Tarso Toh",
+   "sl": 8,
+   "file": "Tarso Toh.jpg",
+   "lat": 21.33,
+   "lon": 16.33,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3515817",
+   "name": "Tarso Yega",
+   "sl": 8,
+   "file": "Tarso Yéga ASTER.jpg",
+   "lat": 20.6475,
+   "lon": 17.4625,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "mountain",
+    "shield volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tarso Yega"
+  }
+ ]
+}

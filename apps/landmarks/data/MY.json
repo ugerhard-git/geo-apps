@@ -1,0 +1,1346 @@
+{
+ "country": "MY",
+ "items": [
+  {
+   "id": "Q83063",
+   "name": "Petronas Towers",
+   "sl": 89,
+   "file": "Kuala Lumpur - panoramio (18).jpg",
+   "lat": 3.1578,
+   "lon": 101.7117,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "twin towers"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Petronas Towers"
+  },
+  {
+   "id": "Q60967",
+   "name": "Mount Kinabalu",
+   "sl": 70,
+   "file": "Kinabalu Sabah Borneo Kampong Kundasang 2.jpg",
+   "lat": 6.075,
+   "lon": 116.5586,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "WWF ecoregion"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Kinabalu"
+  },
+  {
+   "id": "Q500253",
+   "name": "Kuala Lumpur International Airport",
+   "sl": 67,
+   "file": "KLIA MTB&Tower.jpg",
+   "lat": 2.7456,
+   "lon": 101.7097,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuala Lumpur International Airport"
+  },
+  {
+   "id": "Q834893",
+   "name": "Kinabalu Park",
+   "sl": 57,
+   "file": "Kinabalu Sabah Borneo Kampong Kundasang 2.jpg",
+   "lat": 6.15,
+   "lon": 116.65,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Kinabalu National Park"
+  },
+  {
+   "id": "Q61535",
+   "name": "Gunung Mulu National Park",
+   "sl": 49,
+   "file": "Mulu.JPG",
+   "lat": 4.0425,
+   "lon": 114.8125,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Gunung Mulu National Park"
+  },
+  {
+   "id": "Q745016",
+   "name": "Kuala Lumpur Tower",
+   "sl": 43,
+   "file": "KL tower1.JPG",
+   "lat": 3.1528,
+   "lon": 101.7037,
+   "kind": "built",
+   "types": [
+    "moonsighting location in Malaysia",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuala Lumpur Tower"
+  },
+  {
+   "id": "Q687629",
+   "name": "Batu Caves",
+   "sl": 42,
+   "file": "Batu Caves stairs 2022-05.jpg",
+   "lat": 3.2374,
+   "lon": 101.6839,
+   "kind": "both",
+   "types": [
+    "architectural landmark",
+    "cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Batu Caves"
+  },
+  {
+   "id": "Q7969454",
+   "name": "Merdeka 118",
+   "sl": 40,
+   "file": "Merdeka Tower 20241022 - full 2.jpg",
+   "lat": 3.1417,
+   "lon": 101.7007,
+   "kind": "built",
+   "types": [
+    "skyscraper",
+    "supertall building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Merdeka 118"
+  },
+  {
+   "id": "Q1356818",
+   "name": "National Mosque of Malaysia",
+   "sl": 36,
+   "file": "2024 masjid nasional (7).jpg",
+   "lat": 3.1419,
+   "lon": 101.6917,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Masjid Negara"
+  },
+  {
+   "id": "Q1150673",
+   "name": "Penang Island",
+   "sl": 36,
+   "file": "LANDSAT semenanjung malaysia - 2 Penang Island.jpg",
+   "lat": 5.37,
+   "lon": 100.26,
+   "kind": "natural",
+   "types": [
+    "administrative territorial entity",
+    "island",
+    "political territorial entity"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Penang Island"
+  },
+  {
+   "id": "Q728141",
+   "name": "National Park Pahang",
+   "sl": 35,
+   "file": "Taman Negara, Malaysia, Panoramic view 2.jpg",
+   "lat": 4.7,
+   "lon": 102.4667,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taman Negara National Park"
+  },
+  {
+   "id": "Q1144734",
+   "name": "Genting Highlands",
+   "sl": 33,
+   "file": "Chin Swee Caves Temple KL29.JPG",
+   "lat": 3.4237,
+   "lon": 101.7934,
+   "kind": "natural",
+   "types": [
+    "human settlement",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Genting Highlands"
+  },
+  {
+   "id": "Q2344561",
+   "name": "Putra Mosque",
+   "sl": 33,
+   "file": "Putra Mosque being reflected in the lake (crop).jpg",
+   "lat": 2.9361,
+   "lon": 101.6891,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Putra Mosque"
+  },
+  {
+   "id": "Q1143296",
+   "name": "Sultan Abdul Samad Jamek Mosque",
+   "sl": 33,
+   "file": "2024 PANORAMA MASJID JAMEK.jpg",
+   "lat": 3.1489,
+   "lon": 101.696,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Abdul Samad Jamek Mosque"
+  },
+  {
+   "id": "Q118214",
+   "name": "Telekom Tower",
+   "sl": 33,
+   "file": "Menara telekom.jpg",
+   "lat": 3.1158,
+   "lon": 101.6661,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Telekom Tower"
+  },
+  {
+   "id": "Q645760",
+   "name": "Kota Kinabalu International Airport",
+   "sl": 32,
+   "file": "KKIA T1.jpg",
+   "lat": 5.9325,
+   "lon": 116.0492,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kota Kinabalu International Airport"
+  },
+  {
+   "id": "Q123271",
+   "name": "Cape Piai",
+   "sl": 31,
+   "file": "Tanjung Piai jeti1.jpg",
+   "lat": 1.2661,
+   "lon": 103.5108,
+   "kind": "natural",
+   "types": [
+    "cape"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tanjung Piai Johor National Park"
+  },
+  {
+   "id": "Q635363",
+   "name": "National Stadium, Bukit Jalil",
+   "sl": 31,
+   "file": "Bukit Jalil National Stadium 2021.png",
+   "lat": 3.0547,
+   "lon": 101.6912,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadium Nasional Bukit Jalil"
+  },
+  {
+   "id": "Q1984562",
+   "name": "Niah National Park",
+   "sl": 30,
+   "file": "The main entrance to the Niah Caves at sunset..jpg",
+   "lat": 3.8139,
+   "lon": 113.7814,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "cave with prehistoric art"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Niah National Park"
+  },
+  {
+   "id": "Q187315",
+   "name": "Mount Tahan",
+   "sl": 29,
+   "file": "Gunung Tahan. Snapped from Gunung Tangga Lima Belas.jpg",
+   "lat": 4.6311,
+   "lon": 102.2344,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Tahan"
+  },
+  {
+   "id": "Q669261",
+   "name": "Penang International Airport",
+   "sl": 29,
+   "file": "Cmglee Penang airport 2012 terminal.jpg",
+   "lat": 5.2969,
+   "lon": 100.2767,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Penang International Airport"
+  },
+  {
+   "id": "Q1305028",
+   "name": "Kuching International Airport",
+   "sl": 27,
+   "file": "KIA check-in.jpg",
+   "lat": 1.4844,
+   "lon": 110.3467,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuching International Airport"
+  },
+  {
+   "id": "Q3239110",
+   "name": "Senai International Airport",
+   "sl": 27,
+   "file": "Senai International Airport.jpg",
+   "lat": 1.6428,
+   "lon": 103.6686,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Senai International Airport"
+  },
+  {
+   "id": "Q1431802",
+   "name": "Sultan Abdul Aziz Shah Airport",
+   "sl": 27,
+   "file": "Subang airport.jpg",
+   "lat": 3.133,
+   "lon": 101.5537,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Abdul Aziz Shah Airport"
+  },
+  {
+   "id": "Q308510",
+   "name": "Sultan Salahuddin Abdul Aziz Mosque",
+   "sl": 27,
+   "file": "Shah Alam Blue mosque at night.jpg",
+   "lat": 3.0786,
+   "lon": 101.5206,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Salahuddin Abdul Aziz Mosque"
+  },
+  {
+   "id": "Q917630",
+   "name": "National Museum of Malaysia",
+   "sl": 25,
+   "file": "Muzium Negara, 2023 (01).jpg",
+   "lat": 3.1376,
+   "lon": 101.6874,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum (Malaysia)"
+  },
+  {
+   "id": "Q1003282",
+   "name": "Bukit Pagon",
+   "sl": 24,
+   "file": "SunriseOverBukitPagonAC1.jpg",
+   "lat": 4.3,
+   "lon": 115.3333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BN"
+   ],
+   "cat": "Bukit Pagon"
+  },
+  {
+   "id": "Q1431863",
+   "name": "Langkawi International Airport",
+   "sl": 24,
+   "file": "View of Langkawi International Airport.JPG",
+   "lat": 6.3297,
+   "lon": 99.7286,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Langkawi International Airport"
+  },
+  {
+   "id": "Q1155649",
+   "name": "Penang Bridge",
+   "sl": 24,
+   "file": "Penang Bridge in extension.jpg",
+   "lat": 5.3539,
+   "lon": 100.3526,
+   "kind": "built",
+   "types": [
+    "box girder",
+    "cable-stayed bridge",
+    "controlled-access highway",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Penang Bridge"
+  },
+  {
+   "id": "Q892615",
+   "name": "Johor–Singapore Causeway",
+   "sl": 23,
+   "file": "Singapore-Johor Causeway.jpg",
+   "lat": 1.4528,
+   "lon": 103.7692,
+   "kind": "both",
+   "types": [
+    "causeway",
+    "international bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SG"
+   ],
+   "cat": "Johor-Singapore Causeway"
+  },
+  {
+   "id": "Q1651698",
+   "name": "Shah Alam Stadium",
+   "sl": 23,
+   "file": "Shah Alam Stadium (inside).jpg",
+   "lat": 3.0823,
+   "lon": 101.5449,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shah Alam Stadium"
+  },
+  {
+   "id": "Q3043065",
+   "name": "Independence Square",
+   "sl": 22,
+   "file": "Dataran Merdeka 1.jpg",
+   "lat": 3.1488,
+   "lon": 101.6937,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dataran Merdeka"
+  },
+  {
+   "id": "Q3330187",
+   "name": "Islamic Arts Museum Malaysia",
+   "sl": 21,
+   "file": "Islamic Arts Museum Malaysia Exterior (May 2022) - img 02.jpg",
+   "lat": 3.1429,
+   "lon": 101.689,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Islamic Arts Museum Malaysia"
+  },
+  {
+   "id": "Q2414557",
+   "name": "Stadium Merdeka",
+   "sl": 21,
+   "file": "StadiumMerdeka GrandstandFromNorth Sep2024 2.jpg",
+   "lat": 3.1391,
+   "lon": 101.7006,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stadium Merdeka"
+  },
+  {
+   "id": "Q1955098",
+   "name": "A Famosa",
+   "sl": 20,
+   "file": "Melaka-Porta-de-Santiago-2Cimg2194.jpg",
+   "lat": 2.1916,
+   "lon": 102.2503,
+   "kind": "built",
+   "types": [
+    "cultural heritage",
+    "fort"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278743",
+    "name": "Melaka and George Town, Historic Cities of the Straits of Malacca"
+   },
+   "also": [],
+   "cat": "A Famosa"
+  },
+  {
+   "id": "Q1789166",
+   "name": "Crystal Mosque",
+   "sl": 20,
+   "file": "Masjid Kristal (Mei 2011).jpg",
+   "lat": 5.3223,
+   "lon": 103.1207,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Crystal Mosque"
+  },
+  {
+   "id": "Q2474998",
+   "name": "Federal Territory Mosque",
+   "sl": 20,
+   "file": "Kuala Lumpur Malaysia Federal-Territory-Mosque-03.jpg",
+   "lat": 3.1719,
+   "lon": 101.6711,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Federal Territory Mosque"
+  },
+  {
+   "id": "Q822518",
+   "name": "Kek Lok Si",
+   "sl": 20,
+   "file": "Kek Lok Si 1.jpg",
+   "lat": 5.3983,
+   "lon": 100.2731,
+   "kind": "built",
+   "types": [
+    "Buddhist temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kek Lok Si Temple, Penang"
+  },
+  {
+   "id": "Q27670200",
+   "name": "The Exchange 106",
+   "sl": 20,
+   "file": "The Exchange 106 skyline Nov of 2021.jpg",
+   "lat": 3.1419,
+   "lon": 101.7188,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "The Exchange 106"
+  },
+  {
+   "id": "Q820738",
+   "name": "Berjaya Times Square",
+   "sl": 19,
+   "file": "Berjaya Times Square from BBCC (220121) 02.jpg",
+   "lat": 3.1422,
+   "lon": 101.7106,
+   "kind": "built",
+   "types": [
+    "brick and mortar",
+    "shopping center",
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berjaya Times Square"
+  },
+  {
+   "id": "Q2660049",
+   "name": "Kuala Lumpur Bird Park",
+   "sl": 19,
+   "file": "KL Bird park net.jpg",
+   "lat": 3.1424,
+   "lon": 101.6885,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuala Lumpur Bird Park"
+  },
+  {
+   "id": "Q1432050",
+   "name": "Miri Airport",
+   "sl": 19,
+   "file": "Miriairport terminal.jpg",
+   "lat": 4.3219,
+   "lon": 113.9867,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Miri Airport"
+  },
+  {
+   "id": "Q615958",
+   "name": "Sultan Abdul Samad Building",
+   "sl": 19,
+   "file": "Sultan Abdul Samad Building (6843885595).jpg",
+   "lat": 3.1486,
+   "lon": 101.6944,
+   "kind": "built",
+   "types": [
+    "built structure",
+    "government building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Abdul Samad Building"
+  },
+  {
+   "id": "Q3239106",
+   "name": "Sultan Azlan Shah Airport",
+   "sl": 19,
+   "file": "Sultan Azlan Shah Airport airside.jpg",
+   "lat": 4.5704,
+   "lon": 101.0985,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Azlan Shah Airport"
+  },
+  {
+   "id": "Q4022372",
+   "name": "Zahir Mosque",
+   "sl": 19,
+   "file": "Masjid zahir, alor setar.jpg",
+   "lat": 6.1203,
+   "lon": 100.365,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zahir Mosque"
+  },
+  {
+   "id": "Q370159",
+   "name": "Bako National Park",
+   "sl": 18,
+   "file": "797 - Bako NationalparkPANORAMA.JPG",
+   "lat": 1.7167,
+   "lon": 110.4667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bako National Park"
+  },
+  {
+   "id": "Q633612",
+   "name": "Mount Murud",
+   "sl": 18,
+   "file": "Gunung Murud Landscape Near Summit.jpg",
+   "lat": 3.9167,
+   "lon": 115.3333,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Murud"
+  },
+  {
+   "id": "Q1891093",
+   "name": "Mount Tambuyukon",
+   "sl": 18,
+   "file": "SummitTBK.jpg",
+   "lat": 6.2086,
+   "lon": 116.6581,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Tambuyukon"
+  },
+  {
+   "id": "Q3235623",
+   "name": "Sultan Abdul Halim Airport",
+   "sl": 18,
+   "file": "AOR Terminal.jpg",
+   "lat": 6.1894,
+   "lon": 100.3981,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Abdul Halim Airport"
+  },
+  {
+   "id": "Q1431767",
+   "name": "Sultan Ismail Petra Airport",
+   "sl": 18,
+   "file": "WMKCHC.JPG",
+   "lat": 6.1673,
+   "lon": 102.2922,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Ismail Petra Airport"
+  },
+  {
+   "id": "Q1433031",
+   "name": "Tawau Airport",
+   "sl": 18,
+   "file": "Tawau Sabah Tawau-Airport-04.jpg",
+   "lat": 4.3133,
+   "lon": 118.1219,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tawau Airport"
+  },
+  {
+   "id": "Q29168",
+   "name": "Aquaria KLCC",
+   "sl": 17,
+   "file": "Underwater tunnel in Aquaria KLCC.jpg",
+   "lat": 3.1534,
+   "lon": 101.7131,
+   "kind": "built",
+   "types": [
+    "public aquarium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aquaria KLCC"
+  },
+  {
+   "id": "Q3281165",
+   "name": "Kapitan Keling Mosque",
+   "sl": 17,
+   "file": "Kapitan Keling Mosque.jpg",
+   "lat": 5.4167,
+   "lon": 100.3374,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kapitan Keling Mosque"
+  },
+  {
+   "id": "Q3397006",
+   "name": "Kota Kinabalu City Mosque",
+   "sl": 17,
+   "file": "KotaKinabalu Sabah CityMosque-08.jpg",
+   "lat": 5.9959,
+   "lon": 116.1078,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kota Kinabalu City Mosque"
+  },
+  {
+   "id": "Q782821",
+   "name": "Malacca International Airport",
+   "sl": 17,
+   "file": "MKZnewterminalentrance.JPG",
+   "lat": 2.2633,
+   "lon": 102.2514,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malacca International Airport"
+  },
+  {
+   "id": "Q1555064",
+   "name": "Mount Mulu",
+   "sl": 17,
+   "file": "Mulu.JPG",
+   "lat": 4.0455,
+   "lon": 114.9299,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gunung Mulu National Park"
+  },
+  {
+   "id": "Q1306924",
+   "name": "Suria KLCC",
+   "sl": 17,
+   "file": "Suria KLCC (Ampang exit), Kuala Lumpur.jpg",
+   "lat": 3.1567,
+   "lon": 101.712,
+   "kind": "built",
+   "types": [
+    "shopping center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suria KLCC"
+  },
+  {
+   "id": "Q1936216",
+   "name": "Swallow Reef",
+   "sl": 17,
+   "file": "Swallow Reef10.jpg",
+   "lat": 7.3722,
+   "lon": 113.8417,
+   "kind": "natural",
+   "types": [
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Swallow Reef (Layang Layang)"
+  },
+  {
+   "id": "Q3663554",
+   "name": "Endau-Rompin National Park",
+   "sl": 16,
+   "file": "Kincin.jpg",
+   "lat": 2.4389,
+   "lon": 103.273,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Endau-Rompin National Park"
+  },
+  {
+   "id": "Q801042",
+   "name": "Kuala Lumpur Sentral station",
+   "sl": 16,
+   "file": "Kuala Lumpur Sentral Station (KL Sentral).jpg",
+   "lat": 3.134,
+   "lon": 101.686,
+   "kind": "built",
+   "types": [
+    "railway station",
+    "transit-oriented development"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kuala Lumpur Sentral Station"
+  },
+  {
+   "id": "Q4925369",
+   "name": "Perdana Putra",
+   "sl": 16,
+   "file": "Pb6-080701.jpg",
+   "lat": 2.9383,
+   "lon": 101.6922,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Perdana Putra"
+  },
+  {
+   "id": "Q1432733",
+   "name": "Sandakan Airport",
+   "sl": 16,
+   "file": "Sandakan Sabah LapanganTerbang-1.jpg",
+   "lat": 5.9008,
+   "lon": 118.0594,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sandakan Airport"
+  },
+  {
+   "id": "Q3329752",
+   "name": "Sarawak State Museum",
+   "sl": 16,
+   "file": "The Sarawak State Museum, Kuching, Malaysia.JPG",
+   "lat": 1.5547,
+   "lon": 110.3436,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarawak State Museum"
+  },
+  {
+   "id": "Q1097024",
+   "name": "Tunku Abdul Rahman National Park",
+   "sl": 16,
+   "file": "Manukan, Mamutik & Sulug - Happy Islands retouched.jpg",
+   "lat": 5.9667,
+   "lon": 116,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tunku Abdul Rahman National Park"
+  },
+  {
+   "id": "Q3396984",
+   "name": "As Syakirin Mosque",
+   "sl": 15,
+   "file": "As Syakirin Mosque, Kuala Lumpur.jpg",
+   "lat": 3.1572,
+   "lon": 101.7161,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "As-Syakirin Mosque"
+  },
+  {
+   "id": "Q6088543",
+   "name": "Istana Negara, Jalan Tuanku Abdul Halim",
+   "sl": 15,
+   "file": "Kuala Lumpur Malaysia-Istana Negara-Jalan-Duta-01.jpg",
+   "lat": 3.1614,
+   "lon": 101.6636,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Istana Negara, Kuala Lumpur"
+  },
+  {
+   "id": "Q3305737",
+   "name": "KOMTAR",
+   "sl": 15,
+   "file": "Komtar at dusk, George Town, Penang.jpg",
+   "lat": 5.4146,
+   "lon": 100.3298,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "KOMTAR, Penang"
+  },
+  {
+   "id": "Q1431795",
+   "name": "Kudat Airport",
+   "sl": 15,
+   "file": "Kudat Sabah LapanganTerbang-7.jpg",
+   "lat": 6.9242,
+   "lon": 116.8308,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kudat Airport"
+  },
+  {
+   "id": "Q3267866",
+   "name": "Labuan Airport",
+   "sl": 15,
+   "file": "Labuan Malaysia Airport-01.jpg",
+   "lat": 5.3006,
+   "lon": 115.25,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Labuan Airport"
+  },
+  {
+   "id": "Q3229105",
+   "name": "Legoland Malaysia",
+   "sl": 15,
+   "file": "Entrance Legoland Malaysia.jpg",
+   "lat": 1.425,
+   "lon": 103.6272,
+   "kind": "built",
+   "types": [
+    "theme park",
+    "water park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Legoland Malaysia"
+  },
+  {
+   "id": "Q3237825",
+   "name": "Malacca Straits Mosque",
+   "sl": 15,
+   "file": "Malacca Malaysia Malacca-Straits-Mosque-01.jpg",
+   "lat": 2.1789,
+   "lon": 102.249,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Melaka Straits Mosque"
+  },
+  {
+   "id": "Q1083571",
+   "name": "Malaysia–Singapore Second Link",
+   "sl": 15,
+   "file": "Malaysia-Singapore Second Link Linkedua.jpg",
+   "lat": 1.3509,
+   "lon": 103.6331,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "SG"
+   ],
+   "cat": "Malaysia-Singapore Second Link"
+  },
+  {
+   "id": "Q1142942",
+   "name": "National Zoo of Malaysia",
+   "sl": 15,
+   "file": "YosriPintuZooNegara.jpg",
+   "lat": 3.2097,
+   "lon": 101.7578,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zoo Negara"
+  },
+  {
+   "id": "Q3407654",
+   "name": "Penang State Mosque",
+   "sl": 15,
+   "file": "MY-penang-georgetown-masjid-negeri.jpg",
+   "lat": 5.4067,
+   "lon": 100.3014,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Penang State Mosque"
+  },
+  {
+   "id": "Q821014",
+   "name": "Port of Tanjung Pelepas",
+   "sl": 15,
+   "file": "Tanjungpelepas.jpg",
+   "lat": 1.3663,
+   "lon": 103.5484,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Tanjung Pelepas"
+  },
+  {
+   "id": "Q3267807",
+   "name": "Sibu Airport",
+   "sl": 15,
+   "file": "Sibu New Airport Terminal.jpg",
+   "lat": 2.2614,
+   "lon": 111.9853,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sibu Airport"
+  },
+  {
+   "id": "Q2263851",
+   "name": "Sultan Abdul Halim Muadzam Shah Bridge",
+   "sl": 15,
+   "file": "Cmglee Penang Second Bridge aerial.jpg",
+   "lat": 5.2498,
+   "lon": 100.3514,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Second Penang Bridge"
+  },
+  {
+   "id": "Q3235616",
+   "name": "Sultan Haji Ahmad Shah Airport",
+   "sl": 15,
+   "file": "Kuantan-airport-building.jpg",
+   "lat": 3.7752,
+   "lon": 103.2086,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Haji Ahmad Shah Airport"
+  },
+  {
+   "id": "Q48727156",
+   "name": "Sultan Ibrahim Stadium",
+   "sl": 15,
+   "file": "Aerial view of Sultan Ibrahim Stadium (2).jpg",
+   "lat": 1.4817,
+   "lon": 103.6192,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Ibrahim Stadium"
+  },
+  {
+   "id": "Q2233067",
+   "name": "Sultan Mahmud Airport",
+   "sl": 15,
+   "file": "Sultan Mahmud Airport.JPG",
+   "lat": 5.3825,
+   "lon": 103.1033,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sultan Mahmud Airport"
+  }
+ ]
+}

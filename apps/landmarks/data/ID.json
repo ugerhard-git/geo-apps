@@ -1,0 +1,1366 @@
+{
+ "country": "ID",
+ "items": [
+  {
+   "id": "Q42798",
+   "name": "Borobudur Temple",
+   "sl": 99,
+   "file": "Borobudur-Nothwest-view.jpg",
+   "lat": -7.6079,
+   "lon": 110.2038,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Buddhist temple",
+    "Candi"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q29070",
+    "name": "Borobudur Temple Compounds"
+   },
+   "also": [],
+   "cat": "Borobudur"
+  },
+  {
+   "id": "Q82613",
+   "name": "Krakatoa",
+   "sl": 92,
+   "file": "Krakatoa NasaWorldWind 2000.jpg",
+   "lat": -6.102,
+   "lon": 105.423,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "former island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krakatoa"
+  },
+  {
+   "id": "Q134108",
+   "name": "Merapi",
+   "sl": 79,
+   "file": "Mount Merapi Not Just a Legend and Mythology.jpg",
+   "lat": -7.5414,
+   "lon": 110.4461,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Merapi"
+  },
+  {
+   "id": "Q183360",
+   "name": "Lake Toba",
+   "sl": 78,
+   "file": "Toba zoom.jpg",
+   "lat": 2.67,
+   "lon": 98.8875,
+   "kind": "natural",
+   "types": [
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Toba"
+  },
+  {
+   "id": "Q1045888",
+   "name": "Puncak Jaya",
+   "sl": 77,
+   "file": "Puncakjaya.jpg",
+   "lat": -4.0833,
+   "lon": 137.1833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puncak Jaya"
+  },
+  {
+   "id": "Q168714",
+   "name": "Tambora",
+   "sl": 73,
+   "file": "Caldera Mt Tambora Sumbawa Indonesia.jpg",
+   "lat": -8.2453,
+   "lon": 117.9928,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Tambora"
+  },
+  {
+   "id": "Q47721",
+   "name": "Prambanan Temple",
+   "sl": 71,
+   "file": "Prambanan Complex 1.jpg",
+   "lat": -7.752,
+   "lon": 110.4912,
+   "kind": "built",
+   "types": [
+    "Candi",
+    "cultural heritage of Sleman Regency",
+    "Hindu temple"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Prambanan"
+  },
+  {
+   "id": "Q4520",
+   "name": "Komodo National Park",
+   "sl": 65,
+   "file": "Komodo dragon at Komodo National Park.jpg",
+   "lat": -8.6516,
+   "lon": 119.5766,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Komodo National Park"
+  },
+  {
+   "id": "Q4516",
+   "name": "Lorentz National Park",
+   "sl": 62,
+   "file": "Taman Nasional Lorentz.jpg",
+   "lat": -4.75,
+   "lon": 137.8333,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia",
+    "nature reserve"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Lorentz National Park"
+  },
+  {
+   "id": "Q749497",
+   "name": "Soekarno Hatta International Airport",
+   "sl": 60,
+   "file": "Soekarno-Hatta International Airport Terminal 3 apron.jpg",
+   "lat": -6.1274,
+   "lon": 106.6538,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Soekarno-Hatta International Airport"
+  },
+  {
+   "id": "Q158470",
+   "name": "Mount Agung",
+   "sl": 58,
+   "file": "Mount Agung, November 2017 eruption - 27 Nov 2017 03.jpg",
+   "lat": -8.3419,
+   "lon": 115.5078,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Agung"
+  },
+  {
+   "id": "Q270158",
+   "name": "Semeru",
+   "sl": 58,
+   "file": "Mount Semeru.jpg",
+   "lat": -8.1,
+   "lon": 112.9167,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Semeru"
+  },
+  {
+   "id": "Q4521",
+   "name": "Tropical Rainforest Heritage of Sumatra",
+   "sl": 54,
+   "file": "Man of the woods.JPG",
+   "lat": -2.5,
+   "lon": 101.5,
+   "kind": "natural",
+   "types": [
+    "protected area of Indonesia"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tropical rainforest heritage of Sumatra"
+  },
+  {
+   "id": "Q4522",
+   "name": "Ujung Kulon National Park",
+   "sl": 52,
+   "file": "Ujung Kulon National Park, 2014.jpg",
+   "lat": -6.75,
+   "lon": 105.3333,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ujung Kulon National Park"
+  },
+  {
+   "id": "Q207678",
+   "name": "Mount Sinabung",
+   "sl": 51,
+   "file": "Sinabung.jpg",
+   "lat": 3.17,
+   "lon": 98.3919,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Sinabung"
+  },
+  {
+   "id": "Q827728",
+   "name": "Mount Kerinci",
+   "sl": 47,
+   "file": "Uprising-mount kerinci.jpg",
+   "lat": -1.6969,
+   "lon": 101.2644,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Kerinci"
+  },
+  {
+   "id": "Q679590",
+   "name": "Mount Bromo",
+   "sl": 46,
+   "file": "Mount Bromo closeup on sunrise 2.jpg",
+   "lat": -7.9431,
+   "lon": 112.9539,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Bromo"
+  },
+  {
+   "id": "Q847323",
+   "name": "Rinjani",
+   "sl": 46,
+   "file": "Gunung Rinjani dari Jalur Sembalun.jpg",
+   "lat": -8.4167,
+   "lon": 116.4667,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Rinjani"
+  },
+  {
+   "id": "Q1061846",
+   "name": "I Gusti Ngurah Rai International Airport",
+   "sl": 45,
+   "file": "Ngurah Rai International Airport MRD-1.jpg",
+   "lat": -8.7481,
+   "lon": 115.1675,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ngurah Rai International Airport"
+  },
+  {
+   "id": "Q475379",
+   "name": "Istiqlal Mosque",
+   "sl": 41,
+   "file": "View to the northeast from Monas.jpg",
+   "lat": -6.1697,
+   "lon": 106.8308,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Istiqlal Mosque"
+  },
+  {
+   "id": "Q842328",
+   "name": "Sangiran",
+   "sl": 41,
+   "file": "Sangiran 17-02.JPG",
+   "lat": -7.45,
+   "lon": 110.85,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "cultural property"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sangiran"
+  },
+  {
+   "id": "Q513216",
+   "name": "Kelut",
+   "sl": 39,
+   "file": "Kelud eruption 2014 ash in Yogyakarta.jpg",
+   "lat": -7.9333,
+   "lon": 112.3056,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Kelud"
+  },
+  {
+   "id": "Q1335616",
+   "name": "Gunung Leuser National Park",
+   "sl": 37,
+   "file": "Bukit Indonesia Entrance.JPG",
+   "lat": 3.5,
+   "lon": 97.5,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q4521",
+    "name": "Tropical Rainforest Heritage of Sumatra"
+   },
+   "also": [],
+   "cat": "Gunung Leuser National Park"
+  },
+  {
+   "id": "Q548489",
+   "name": "Ijen",
+   "sl": 35,
+   "file": "Ijen volcano.jpg",
+   "lat": -8.058,
+   "lon": 114.242,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ijen"
+  },
+  {
+   "id": "Q1738211",
+   "name": "Keli Mutubuurai",
+   "sl": 35,
+   "file": "Kelimutu 2007-07-21.jpg",
+   "lat": -8.77,
+   "lon": 121.82,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kelimutu"
+  },
+  {
+   "id": "Q4273083",
+   "name": "Kualanamu International Airport",
+   "sl": 34,
+   "file": "KNO Medan apron.JPG",
+   "lat": 3.6417,
+   "lon": 98.878,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kualanamu International Airport"
+  },
+  {
+   "id": "Q1960702",
+   "name": "Marapi",
+   "sl": 34,
+   "file": "Gunung Marapi dalam sensasi Dua Warna (cropped).jpg",
+   "lat": -0.3806,
+   "lon": 100.4733,
+   "kind": "natural",
+   "types": [
+    "complex volcano",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Marapi"
+  },
+  {
+   "id": "Q911748",
+   "name": "Gunung Galunggung",
+   "sl": 33,
+   "file": "GUNUNG GALUNGGUNG.jpg",
+   "lat": -7.2567,
+   "lon": 108.0771,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Galunggung"
+  },
+  {
+   "id": "Q1431631",
+   "name": "Juanda International Airport",
+   "sl": 33,
+   "file": "Juanda Airport.jpg",
+   "lat": -7.38,
+   "lon": 112.7855,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Juanda International Airport"
+  },
+  {
+   "id": "Q1467125",
+   "name": "National Museum of Indonesia",
+   "sl": 33,
+   "file": "Arca Pancuran.jpg",
+   "lat": -6.1761,
+   "lon": 106.8217,
+   "kind": "built",
+   "types": [
+    "museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum (Indonesia)"
+  },
+  {
+   "id": "Q515253",
+   "name": "Tanah Lot",
+   "sl": 33,
+   "file": "Bali - Pura Tanah Lot, 20220827 1005 1141.jpg",
+   "lat": -8.6211,
+   "lon": 115.0868,
+   "kind": "built",
+   "types": [
+    "Balinese temple",
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pura Tanah Lot"
+  },
+  {
+   "id": "Q829418",
+   "name": "Besakih",
+   "sl": 32,
+   "file": "Pura Besakih Sunrise 01.jpg",
+   "lat": -8.3741,
+   "lon": 115.4522,
+   "kind": "built",
+   "types": [
+    "Balinese temple",
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pura Besakih"
+  },
+  {
+   "id": "Q580131",
+   "name": "Mountain Slamet",
+   "sl": 32,
+   "file": "Gunung Slamet dari Kr Salam.jpg",
+   "lat": -7.239,
+   "lon": 109.22,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Slamet"
+  },
+  {
+   "id": "Q145151",
+   "name": "National Monument of Indonesia",
+   "sl": 32,
+   "file": "Around Monas Jakarta (2025) (cropped).jpg",
+   "lat": -6.1754,
+   "lon": 106.8271,
+   "kind": "built",
+   "types": [
+    "memorial",
+    "museum",
+    "national monument",
+    "obelisk"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monumen Nasional"
+  },
+  {
+   "id": "Q2033748",
+   "name": "Gunung Raung",
+   "sl": 31,
+   "file": "Mount Raung.jpg",
+   "lat": -8.125,
+   "lon": 114.0417,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Raung"
+  },
+  {
+   "id": "Q521503",
+   "name": "Madura Strait",
+   "sl": 31,
+   "file": "Bahari Nusantara Madura Strait.JPG",
+   "lat": -7.0011,
+   "lon": 112.6742,
+   "kind": "natural",
+   "types": [
+    "sound",
+    "strait"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Madura Strait"
+  },
+  {
+   "id": "Q43876",
+   "name": "Mount Batur",
+   "sl": 31,
+   "file": "Mount Batur2.JPG",
+   "lat": -8.2419,
+   "lon": 115.375,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Batur"
+  },
+  {
+   "id": "Q598893",
+   "name": "Mountain Merbabu",
+   "sl": 30,
+   "file": "Pemandangan Merbabu dari Kota Salatiga (1).jpg",
+   "lat": -7.455,
+   "lon": 110.44,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Merbabu"
+  },
+  {
+   "id": "Q1135025",
+   "name": "Bromo Tengger Semeru National Park",
+   "sl": 29,
+   "file": "Andhika bayu nugraha-taman nasional bromo tengger semeru.jpg",
+   "lat": -8.0252,
+   "lon": 112.9607,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "national park of Indonesia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bromo Tengger Semeru National Park"
+  },
+  {
+   "id": "Q1186618",
+   "name": "Dempo",
+   "sl": 29,
+   "file": "Gunung dempo (cropped).jpg",
+   "lat": -4.03,
+   "lon": 103.13,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Dempo"
+  },
+  {
+   "id": "Q1512836",
+   "name": "Puncak Mandala",
+   "sl": 29,
+   "file": "Puncak Mandala from North West by Christian Stangl flickr.jpg",
+   "lat": -4.7086,
+   "lon": 140.2892,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Puncak Mandala"
+  },
+  {
+   "id": "Q181737",
+   "name": "Baluran National Park",
+   "sl": 28,
+   "file": "Wild Deers near Bama Point, Baluran.jpg",
+   "lat": -7.8333,
+   "lon": 114.3667,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baluran National Park"
+  },
+  {
+   "id": "Q2729991",
+   "name": "Lewotobi",
+   "sl": 28,
+   "file": "COLLECTIE TROPENMUSEUM Gezicht op het eiland Konga en de dubbele vulkaan Lewotobi die bestaat uit de Perampuan en de Laki-Laki TMnr 60007249.jpg",
+   "lat": -8.5333,
+   "lon": 122.7667,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lewotobi"
+  },
+  {
+   "id": "Q669559",
+   "name": "Mount Salak",
+   "sl": 28,
+   "file": "Mount Salak.JPG",
+   "lat": -6.7158,
+   "lon": 106.7336,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Salak"
+  },
+  {
+   "id": "Q1467910",
+   "name": "Gamalama",
+   "sl": 27,
+   "file": "Ternate, Maluku Islands, Indonesia 2.jpg",
+   "lat": 0.8072,
+   "lon": 127.3339,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gamalama"
+  },
+  {
+   "id": "Q2037360",
+   "name": "Goa Gajah",
+   "sl": 27,
+   "file": "Goa Gajah Front.JPG",
+   "lat": -8.5234,
+   "lon": 115.2863,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "sanctuary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Goa Gajah"
+  },
+  {
+   "id": "Q1032934",
+   "name": "Halim Perdanakusuma International Airport",
+   "sl": 27,
+   "file": "Halim airport.jpg",
+   "lat": -6.2664,
+   "lon": 106.8911,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Halim Perdanakusuma Airport"
+  },
+  {
+   "id": "Q1467901",
+   "name": "Kerinci Seblat National Park",
+   "sl": 27,
+   "file": "Kerinci Seblat river.jpg",
+   "lat": -2.4167,
+   "lon": 101.4833,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q4521",
+    "name": "Tropical Rainforest Heritage of Sumatra"
+   },
+   "also": [],
+   "cat": "Kerinci Seblat National Park"
+  },
+  {
+   "id": "Q1789991",
+   "name": "Sanur Beach",
+   "sl": 27,
+   "file": "Pemandangan Pantai Sanur.jpg",
+   "lat": -8.6833,
+   "lon": 115.2667,
+   "kind": "built",
+   "types": [
+    "beach"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sanur"
+  },
+  {
+   "id": "Q1381311",
+   "name": "West Bali National Park",
+   "sl": 27,
+   "file": "Bali Barat NP 2009.jpg",
+   "lat": -8.15,
+   "lon": 114.5,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "West Bali National Park"
+  },
+  {
+   "id": "Q1220857",
+   "name": "Dieng",
+   "sl": 26,
+   "file": "Complex of Candi Arjuna.jpg",
+   "lat": -7.207,
+   "lon": 109.8641,
+   "kind": "natural",
+   "types": [
+    "cultural geography",
+    "cultural region",
+    "highland",
+    "plateau"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dieng Plateau"
+  },
+  {
+   "id": "Q265585",
+   "name": "Kentur Lokon",
+   "sl": 26,
+   "file": "Gunung Lokon.jpg",
+   "lat": 1.3581,
+   "lon": 124.7919,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Lokon"
+  },
+  {
+   "id": "Q2417904",
+   "name": "Lake Matano",
+   "sl": 26,
+   "file": "Matano Sunset.jpg",
+   "lat": -2.4714,
+   "lon": 121.3298,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "tectonic lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Matano"
+  },
+  {
+   "id": "Q1073134",
+   "name": "Mount Papandayan",
+   "sl": 26,
+   "file": "Indonesia - papandayan 5.jpg",
+   "lat": -7.329,
+   "lon": 107.7157,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Papandayan"
+  },
+  {
+   "id": "Q1275181",
+   "name": "Suramadu Bridge",
+   "sl": 26,
+   "file": "Suramadu Bridge 5.JPG",
+   "lat": -7.1833,
+   "lon": 112.7803,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suramadu Bridge"
+  },
+  {
+   "id": "Q1378379",
+   "name": "Tanjung Puting",
+   "sl": 26,
+   "file": "Wikiearth-Bekantan Taman Nasional Tanjung Puting.jpg",
+   "lat": -2.88,
+   "lon": 111.88,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tanjung Puting National Park"
+  },
+  {
+   "id": "Q678744",
+   "name": "Alas Purwo National Park",
+   "sl": 25,
+   "file": "Merak Jawa.jpg",
+   "lat": -8.6833,
+   "lon": 114.4667,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alas Purwo National Park"
+  },
+  {
+   "id": "Q1548318",
+   "name": "Baiturrahman Grand Mosque",
+   "sl": 25,
+   "file": "Meuseujid Raya Bayturrahman.JPG",
+   "lat": 5.5536,
+   "lon": 95.3172,
+   "kind": "built",
+   "types": [
+    "grand mosque",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baiturrahman Mosque"
+  },
+  {
+   "id": "Q1309771",
+   "name": "Bukit Barisan Selatan National Park",
+   "sl": 25,
+   "file": "DJI 0762 danau minyak dan danau asam.jpg",
+   "lat": -5.25,
+   "lon": 104.1667,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q4521",
+    "name": "Tropical Rainforest Heritage of Sumatra"
+   },
+   "also": [],
+   "cat": "Bukit Barisan Selatan National Park"
+  },
+  {
+   "id": "Q1517532",
+   "name": "Bunaken",
+   "sl": 25,
+   "file": "Feather Stars (Comatulida) (6059124438).jpg",
+   "lat": 1.6667,
+   "lon": 124.65,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bunaken National Park"
+  },
+  {
+   "id": "Q1524354",
+   "name": "Gili Islands",
+   "sl": 25,
+   "file": "Gili Islands & Gunung Rinjiani, Lombok, Indonesia.jpg",
+   "lat": -8.35,
+   "lon": 116.06,
+   "kind": "natural",
+   "types": [
+    "car-free place",
+    "island group"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gili Islands"
+  },
+  {
+   "id": "Q1517521",
+   "name": "Lore Lindu National Park",
+   "sl": 25,
+   "file": "Danau Lindu w bird 2007.jpg",
+   "lat": -1.23,
+   "lon": 119.85,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lore Lindu National Park"
+  },
+  {
+   "id": "Q1381933",
+   "name": "Pura Luhur",
+   "sl": 25,
+   "file": "Uluwatu Temple.jpg",
+   "lat": -8.8294,
+   "lon": 115.0844,
+   "kind": "built",
+   "types": [
+    "Balinese temple",
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pura Luhur Uluwatu"
+  },
+  {
+   "id": "Q1190569",
+   "name": "Tangkuban Perahu",
+   "sl": 25,
+   "file": "Vulkaan Tangkuban Perahu.jpg",
+   "lat": -6.77,
+   "lon": 107.6,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tangkuban Perahu"
+  },
+  {
+   "id": "Q2340739",
+   "name": "Dukono",
+   "sl": 24,
+   "file": "Mt Dukono.jpg",
+   "lat": 1.6992,
+   "lon": 127.8783,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dukono"
+  },
+  {
+   "id": "Q3120910",
+   "name": "Gunung Padang Megalithic Site",
+   "sl": 24,
+   "file": "Gunung Padang Site.jpg",
+   "lat": -6.9938,
+   "lon": 107.0561,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "megalithic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gunung Padang Megalithic Site"
+  },
+  {
+   "id": "Q781529",
+   "name": "Gunung Soputanpatepangan",
+   "sl": 24,
+   "file": "Soputan.jpg",
+   "lat": 1.112,
+   "lon": 124.736,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Soputan"
+  },
+  {
+   "id": "Q1053413",
+   "name": "Karangetang",
+   "sl": 24,
+   "file": "Gunung Karangetang.jpg",
+   "lat": 2.7778,
+   "lon": 125.4075,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Karangetang"
+  },
+  {
+   "id": "Q2746626",
+   "name": "Mendut Temple",
+   "sl": 24,
+   "file": "Candi Mendut - facade north (2025) - img 01.jpg",
+   "lat": -7.6048,
+   "lon": 110.2301,
+   "kind": "built",
+   "types": [
+    "Buddhist temple",
+    "Candi"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q29070",
+    "name": "Borobudur Temple Compounds"
+   },
+   "also": [],
+   "cat": "Candi Mendut"
+  },
+  {
+   "id": "Q1139728",
+   "name": "Merdeka Palace",
+   "sl": 24,
+   "file": "Merdeka Palace Changing Guard 1.jpg",
+   "lat": -6.1702,
+   "lon": 106.8241,
+   "kind": "built",
+   "types": [
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Merdeka Palace"
+  },
+  {
+   "id": "Q2638276",
+   "name": "Merdeka Square",
+   "sl": 24,
+   "file": "Monumen Nasional, Jakarta, Indonesia.jpg",
+   "lat": -6.1753,
+   "lon": 106.8272,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Merdeka Square, Jakarta"
+  },
+  {
+   "id": "Q791817",
+   "name": "Mount Awu",
+   "sl": 24,
+   "file": "Mount Awu Crater.jpg",
+   "lat": 3.6813,
+   "lon": 125.4539,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Awu"
+  },
+  {
+   "id": "Q1493157",
+   "name": "Mount Gamkonora",
+   "sl": 24,
+   "file": "Gamkonora.jpg",
+   "lat": 1.38,
+   "lon": 127.53,
+   "kind": "natural",
+   "types": [
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Gamkonora"
+  },
+  {
+   "id": "Q1145123",
+   "name": "Mount Gede",
+   "sl": 24,
+   "file": "Gede seen from Cilaku.jpg",
+   "lat": -6.7883,
+   "lon": 106.9817,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Gede"
+  },
+  {
+   "id": "Q2302908",
+   "name": "Mount Sibayak",
+   "sl": 24,
+   "file": "Gunung Sibayak 2009 (5502394580).jpeg",
+   "lat": 3.2392,
+   "lon": 98.5056,
+   "kind": "natural",
+   "types": [
+    "caldera",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sibayak"
+  },
+  {
+   "id": "Q963098",
+   "name": "Way Kambas National Park",
+   "sl": 24,
+   "file": "Sumatran Rhinoceros Way Kambas 2008.jpg",
+   "lat": -4.9359,
+   "lon": 105.757,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Way Kambas National Park"
+  },
+  {
+   "id": "Q665399",
+   "name": "Arjuno-Welirang",
+   "sl": 23,
+   "file": "Mount Arjuna.jpg",
+   "lat": -7.765,
+   "lon": 112.5897,
+   "kind": "natural",
+   "types": [
+    "hill",
+    "mountain",
+    "mountain range",
+    "stratovolcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arjuno-Welirang"
+  },
+  {
+   "id": "Q1249761",
+   "name": "Gunung Palung National Park",
+   "sl": 23,
+   "file": "Gunung Palung Jungle.jpg",
+   "lat": -1.24,
+   "lon": 110.2392,
+   "kind": "natural",
+   "types": [
+    "national park of Indonesia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gunung Palung National Park"
+  },
+  {
+   "id": "Q177844",
+   "name": "Minangkabau International Airport",
+   "sl": 23,
+   "file": "Minangkabau Airport.JPG",
+   "lat": -0.7867,
+   "lon": 100.2806,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minangkabau International Airport"
+  },
+  {
+   "id": "Q277598",
+   "name": "Nusa Dua",
+   "sl": 23,
+   "file": "Nusa Dua Beach (171041167).jpg",
+   "lat": -8.8025,
+   "lon": 115.2275,
+   "kind": "both",
+   "types": [
+    "peninsula",
+    "seaside resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nusa Dua"
+  }
+ ]
+}

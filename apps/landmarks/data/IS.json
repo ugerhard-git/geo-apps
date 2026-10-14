@@ -514,6 +514,22 @@
    "cat": "Highland of Iceland"
   },
   {
+   "id": "Q151212",
+   "name": "Laugardalsvöllur",
+   "sl": 35,
+   "file": "Laugardalsvöllur, Iceland's national football stadium.jpg",
+   "lat": 64.1436,
+   "lon": -21.879,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Laugardalsvöllur"
+  },
+  {
    "id": "Q752994",
    "name": "Krafla",
    "sl": 34,
@@ -530,22 +546,6 @@
    "partOf": null,
    "also": [],
    "cat": "Krafla (volcanic system)"
-  },
-  {
-   "id": "Q151212",
-   "name": "Laugardalsvöllur",
-   "sl": 34,
-   "file": "Laugardalsvöllur, Iceland's national football stadium.jpg",
-   "lat": 64.1436,
-   "lon": -21.879,
-   "kind": "built",
-   "types": [
-    "association football venue"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Laugardalsvöllur"
   },
   {
    "id": "Q374269",
@@ -1040,6 +1040,23 @@
    "cat": "Hvalfjörður"
   },
   {
+   "id": "Q1435393",
+   "name": "Kerið",
+   "sl": 24,
+   "file": "Kerid-08-Krater-1980-gje.jpg",
+   "lat": 64.0408,
+   "lon": -20.8847,
+   "kind": "natural",
+   "types": [
+    "volcanic crater",
+    "volcanic crater lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kerið"
+  },
+  {
    "id": "Q574165",
    "name": "Kleifarvatn",
    "sl": 24,
@@ -1121,23 +1138,6 @@
    "partOf": null,
    "also": [],
    "cat": "Imagine Peace Tower"
-  },
-  {
-   "id": "Q1435393",
-   "name": "Kerið",
-   "sl": 23,
-   "file": "Kerid-08-Krater-1980-gje.jpg",
-   "lat": 64.0408,
-   "lon": -20.8847,
-   "kind": "natural",
-   "types": [
-    "volcanic crater",
-    "volcanic crater lake"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Kerið"
   },
   {
    "id": "Q1547402",

@@ -1,0 +1,1368 @@
+{
+ "country": "DZ",
+ "items": [
+  {
+   "id": "Q190048",
+   "name": "Tassili n'Ajjer",
+   "sl": 69,
+   "file": "Tassili Desert Algeria.jpg",
+   "lat": 25.6667,
+   "lon": 9,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "mountain range"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tassili n'Ajjer"
+  },
+  {
+   "id": "Q459629",
+   "name": "Timgad",
+   "sl": 59,
+   "file": "Timgad Ruins Panorama.jpg",
+   "lat": 35.4842,
+   "lon": 6.4687,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "commune of Algeria",
+    "Roman city"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Timgad"
+  },
+  {
+   "id": "Q457362",
+   "name": "Djemila",
+   "sl": 55,
+   "file": "Roman Ruins of Djemila in Sétif, Algeria.jpg",
+   "lat": 36.3206,
+   "lon": 5.7367,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Roman city"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Djemila"
+  },
+  {
+   "id": "Q500367",
+   "name": "Qal'at Bani Hammad",
+   "sl": 51,
+   "file": "28-2 Kalâa de Beni Hammad (3).jpg",
+   "lat": 35.8139,
+   "lon": 4.7933,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "qal'a"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Qal'at Bani Hammad"
+  },
+  {
+   "id": "Q724484",
+   "name": "M'zab",
+   "sl": 47,
+   "file": "Ksar Beni Isguen 2.jpg",
+   "lat": 32.4872,
+   "lon": 3.6814,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "historical region",
+    "oasis",
+    "valley"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Mzab"
+  },
+  {
+   "id": "Q822326",
+   "name": "Mount Tahat",
+   "sl": 41,
+   "file": "Tahat matin.jpg",
+   "lat": 23.2889,
+   "lon": 5.5336,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tahat"
+  },
+  {
+   "id": "Q623452",
+   "name": "Algiers Houari Boumediene Airport",
+   "sl": 36,
+   "file": "Aeroport Houari Boumediene IMG 1362.JPG",
+   "lat": 36.6944,
+   "lon": 3.2169,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Algiers Houari Boumediene Airport"
+  },
+  {
+   "id": "Q584255",
+   "name": "Chott Melrhir",
+   "sl": 32,
+   "file": "Chott Melrhir NASA.jpg",
+   "lat": 34.2378,
+   "lon": 6.2567,
+   "kind": "natural",
+   "types": [
+    "chott",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chott Melrhir"
+  },
+  {
+   "id": "Q2338833",
+   "name": "Algerian Desert",
+   "sl": 31,
+   "file": "El-Gorre.jpg",
+   "lat": 27.3167,
+   "lon": 3.9667,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Algerian Desert"
+  },
+  {
+   "id": "Q307143",
+   "name": "Grand Erg Oriental",
+   "sl": 31,
+   "file": "Dune, Grand erg près de Ksar Ghilane, Tunisien, 2004.jpg",
+   "lat": 30,
+   "lon": 6,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "LY",
+    "TN"
+   ],
+   "cat": "Grand Erg Oriental"
+  },
+  {
+   "id": "Q858024",
+   "name": "Hippo Regius",
+   "sl": 30,
+   "file": "Hippo Regius, Africa Proconsularis, Algeria - 52575435338.jpg",
+   "lat": 36.8825,
+   "lon": 7.75,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "Roman city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hippo Regius"
+  },
+  {
+   "id": "Q2471799",
+   "name": "Ketchaoua Mosque",
+   "sl": 30,
+   "file": "Ketchaoua Mosque - Architectural and Cultural Heritage of the Casbah of Algiers 1.jpg",
+   "lat": 36.785,
+   "lon": 3.0606,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q662102",
+    "name": "Casbah of Algiers"
+   },
+   "also": [],
+   "cat": "Ketchaoua Mosque"
+  },
+  {
+   "id": "Q2386475",
+   "name": "Djamaa El Kebir of Algiers",
+   "sl": 28,
+   "file": "مسجد الجامع الكبير3.JPG",
+   "lat": 36.7853,
+   "lon": 3.0642,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q662102",
+    "name": "Casbah of Algiers"
+   },
+   "also": [],
+   "cat": "Great Mosque of Algiers"
+  },
+  {
+   "id": "Q23012984",
+   "name": "Djamaa El Djazaïr",
+   "sl": 27,
+   "file": "Grande Mosquée d'Alger.jpg",
+   "lat": 36.735,
+   "lon": 3.1402,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Djamaâ El Djazaïr"
+  },
+  {
+   "id": "Q637028",
+   "name": "Oran Ahmed Ben Bella Airport",
+   "sl": 27,
+   "file": "Aéroport dOran (côté tarmac).jpg",
+   "lat": 35.6272,
+   "lon": -0.6114,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oran Ahmed Ben Bella Airport"
+  },
+  {
+   "id": "Q2088381",
+   "name": "Basilica of Notre-Dame-d'Afrique",
+   "sl": 25,
+   "file": "كنيسة السيدة الإفريقية - الجزائر العاصمة.jpg",
+   "lat": 36.8011,
+   "lon": 3.0425,
+   "kind": "built",
+   "types": [
+    "Catholic pilgrimage church",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Notre Dame d'Afrique"
+  },
+  {
+   "id": "Q1537020",
+   "name": "Grand Erg Occidental",
+   "sl": 25,
+   "file": "Grand erg occidental.jpg",
+   "lat": 30.6667,
+   "lon": 0,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand Erg Occidental"
+  },
+  {
+   "id": "Q2510194",
+   "name": "Mohamed Boudiaf International Airport",
+   "sl": 25,
+   "file": "Constantine airport.jpg",
+   "lat": 36.2824,
+   "lon": 6.6171,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q979270",
+   "name": "Annaba Rabah Bitat Airport",
+   "sl": 23,
+   "file": "Annaba (Argelia) (39792080482).jpg",
+   "lat": 36.8222,
+   "lon": 7.8094,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Annaba Rabah Bitat Airport"
+  },
+  {
+   "id": "Q1093156",
+   "name": "Cirta",
+   "sl": 23,
+   "file": "Cirta mosaic.jpg",
+   "lat": 36.3675,
+   "lon": 6.6119,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "Roman city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cirta"
+  },
+  {
+   "id": "Q650992",
+   "name": "El Kala National Park",
+   "sl": 23,
+   "file": "GM Parc national El Kala01.jpg",
+   "lat": 36.8167,
+   "lon": 8.4167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "El Kala National Park"
+  },
+  {
+   "id": "Q3643226",
+   "name": "Chott Ech Chergui",
+   "sl": 22,
+   "file": "Chott Ech Chergui NASA.jpg",
+   "lat": 34.35,
+   "lon": 0.5,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chott Ech Chergui"
+  },
+  {
+   "id": "Q1535159",
+   "name": "Stade 5 Juillet 1962",
+   "sl": 22,
+   "file": "Stade 5 Juillet 1962.jpg",
+   "lat": 36.7599,
+   "lon": 2.9952,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade 5 Juillet 1962"
+  },
+  {
+   "id": "Q3529269",
+   "name": "Tipasa",
+   "sl": 22,
+   "file": "View of Tipasa 01.jpg",
+   "lat": 36.5942,
+   "lon": 2.4419,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "Roman colony"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Ancient Roman archaeological sites in Tipaza"
+  },
+  {
+   "id": "Q1153491",
+   "name": "Abdallah Ibn Salam Mosque",
+   "sl": 21,
+   "file": "Mosquée Abdallah Ibn Salam (ancienne Synagogue d'Oran) en 2011.JPG",
+   "lat": 35.7,
+   "lon": -0.6503,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abdallah Ibn Salam Mosque"
+  },
+  {
+   "id": "Q1951782",
+   "name": "Aguenar–Hadj Bey Akhamok Airport",
+   "sl": 21,
+   "file": "AeroportTamanrasset.jpg",
+   "lat": 22.8111,
+   "lon": 5.4508,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tamanrasset Airport"
+  },
+  {
+   "id": "Q1309744",
+   "name": "Castra Lambaesis",
+   "sl": 21,
+   "file": "Lambaesis-etching.png",
+   "lat": 35.4889,
+   "lon": 6.2558,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "archaeological site",
+    "castrum",
+    "commune of Algeria"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lambese"
+  },
+  {
+   "id": "Q2580089",
+   "name": "Djurdjura National Park",
+   "sl": 21,
+   "file": "Parc national djurdjura, Bouira, Algerie.jpg",
+   "lat": 36.4667,
+   "lon": 4.1333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Djurdjura National Park"
+  },
+  {
+   "id": "Q1384782",
+   "name": "Tanezrouft",
+   "sl": 21,
+   "file": "Tanezrouft(Mali).jpg",
+   "lat": 22.251,
+   "lon": -2.246,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tanezrouft"
+  },
+  {
+   "id": "Q745975",
+   "name": "Chott el Hodna",
+   "sl": 20,
+   "file": "Chottaryel.jpg",
+   "lat": 35.4417,
+   "lon": 4.7667,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chott el Hodna"
+  },
+  {
+   "id": "Q2664184",
+   "name": "Belezma National Park",
+   "sl": 19,
+   "file": "Pic des Cèdres – High Point of the Bélezma National Park 9.jpg",
+   "lat": 35.5833,
+   "lon": 6.0333,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Belezma National Park"
+  },
+  {
+   "id": "Q598215",
+   "name": "Biskra Mohamed Khider Airport",
+   "sl": 19,
+   "file": "Biskra Airport.jpg",
+   "lat": 34.7934,
+   "lon": 5.7383,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Biskra Mohamed Khider Airport"
+  },
+  {
+   "id": "Q3846204",
+   "name": "Emir Abdelkader Mosque",
+   "sl": 19,
+   "file": "Abd al-Qádir 18.jpg",
+   "lat": 36.3471,
+   "lon": 6.6033,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emir Abdelkader Mosque"
+  },
+  {
+   "id": "Q2875946",
+   "name": "Ain Arnat Airport",
+   "sl": 18,
+   "file": "Vue aérienne de l'aéroport de Sétif (Algérie).jpg",
+   "lat": 36.178,
+   "lon": 5.3303,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ain Arnat Airport"
+  },
+  {
+   "id": "Q955819",
+   "name": "Center of Research in Astronomy, Astrophysics and Geophysics",
+   "sl": 18,
+   "file": "CRAAG - Bouzareah.jpg",
+   "lat": 36.7979,
+   "lon": 3.0322,
+   "kind": "built",
+   "types": [
+    "astronomical observatory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2265566",
+   "name": "Mostépha Ben Boulaid Airport",
+   "sl": 18,
+   "file": "Aéroport de Batna - Mostepha Ben Boulaid.JPG",
+   "lat": 35.7518,
+   "lon": 6.3092,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Batna Mostefa Ben Boulaid Airport"
+  },
+  {
+   "id": "Q2875969",
+   "name": "Zenata – Messali El Hadj Airport",
+   "sl": 18,
+   "file": "Tlemcen-airport.jpg",
+   "lat": 35.0134,
+   "lon": -1.4575,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aéroport de Tlemcen"
+  },
+  {
+   "id": "Q15179857",
+   "name": "Amour Range",
+   "sl": 17,
+   "file": "Aïn safsafa.21.site.jpg",
+   "lat": 34,
+   "lon": 2,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Amour Range"
+  },
+  {
+   "id": "Q2875809",
+   "name": "Bejaia Soummam – Abane Ramdane Airport",
+   "sl": 17,
+   "file": "Vue aérienne de l'aéroport de Béjaïa (Algérie).jpg",
+   "lat": 36.712,
+   "lon": 5.0695,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bejaia Soummam Abane Ramdane Airport"
+  },
+  {
+   "id": "Q5600070",
+   "name": "Ben Farès Mosque",
+   "sl": 17,
+   "file": "TheSynagogueGRI.jpg",
+   "lat": 36.7841,
+   "lon": 3.0592,
+   "kind": "built",
+   "types": [
+    "mosque",
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ben Farès Mosque"
+  },
+  {
+   "id": "Q2228220",
+   "name": "Chlef International Airport",
+   "sl": 17,
+   "file": "Façade Nord de l'aéroport de Chlef.jpg",
+   "lat": 36.2148,
+   "lon": 1.3356,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chlef International Airport"
+  },
+  {
+   "id": "Q2671600",
+   "name": "Chrea National Park",
+   "sl": 17,
+   "file": "Pinars.JPG",
+   "lat": 36.4,
+   "lon": 2.8667,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chrea National Park"
+  },
+  {
+   "id": "Q2664193",
+   "name": "Gouraya National Park",
+   "sl": 17,
+   "file": "Les Aiguades.jpg",
+   "lat": 36.7667,
+   "lon": 5.1,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gouraya National Park"
+  },
+  {
+   "id": "Q2989371",
+   "name": "Great Mosque of Tlemcen",
+   "sl": 17,
+   "file": "Grande Mosquée de Tlemcen.jpg",
+   "lat": 34.8837,
+   "lon": -1.3105,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Tlemcen"
+  },
+  {
+   "id": "Q1469697",
+   "name": "Hassan Pasha Mosque",
+   "sl": 17,
+   "file": "2 قاعة الصلاة لمسجد حسن الباشا.jpg",
+   "lat": 35.7044,
+   "lon": -0.6546,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hassan Pasha Mosque"
+  },
+  {
+   "id": "Q1432199",
+   "name": "Noumérat – Moufdi Zakaria Airport",
+   "sl": 17,
+   "file": "DAUG-terminal.jpg",
+   "lat": 32.3843,
+   "lon": 3.7947,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ghardaia Airport/Noumerat-Moufdi Zakaria"
+  },
+  {
+   "id": "Q25060",
+   "name": "Oued Irara–Krim Belkacem Airport",
+   "sl": 17,
+   "file": "HassiMessaoudIntArrivals.jpg",
+   "lat": 31.6739,
+   "lon": 6.1406,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hassi Messaoud Oued Irara - Krim Belkacem Airport"
+  },
+  {
+   "id": "Q2005498",
+   "name": "Abiod Valley",
+   "sl": 16,
+   "file": "Aurès Ghoufi 2.jpg",
+   "lat": 35.5883,
+   "lon": 8.0158,
+   "kind": "natural",
+   "types": [
+    "mountain pass",
+    "wadi"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": "Oued Abiod"
+  },
+  {
+   "id": "Q3119087",
+   "name": "Ahmed Zabana Stadium",
+   "sl": 16,
+   "file": "Stade Ahmed Zabana 2.jpg",
+   "lat": 35.6833,
+   "lon": -0.6362,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Ahmed Zabana"
+  },
+  {
+   "id": "Q12192958",
+   "name": "Djamaa al-Djedid",
+   "sl": 16,
+   "file": "Djamaa J'did.jpg",
+   "lat": 36.7849,
+   "lon": 3.063,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q662102",
+    "name": "Casbah of Algiers"
+   },
+   "also": [],
+   "cat": "Jamaa al-Jdid (Algiers)"
+  },
+  {
+   "id": "Q4115846",
+   "name": "Djebel Chélia",
+   "sl": 16,
+   "file": "Chelia.jpg",
+   "lat": 35.3183,
+   "lon": 6.6375,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chelia (mountain)"
+  },
+  {
+   "id": "Q3025701",
+   "name": "Djebel Issa",
+   "sl": 16,
+   "file": "Vue d Ain Sefra, Algérie.jpg",
+   "lat": 32.9117,
+   "lon": -0.4676,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1015167",
+   "name": "Saint Augustin Basilica",
+   "sl": 16,
+   "file": "Basilique saint augustin annaba 2.jpg",
+   "lat": 36.8819,
+   "lon": 7.7447,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica of Saint Augustine"
+  },
+  {
+   "id": "Q2671615",
+   "name": "Taza National Park",
+   "sl": 16,
+   "file": "Tazza algeria2.jpg",
+   "lat": 36.7002,
+   "lon": 5.5594,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taza National Park"
+  },
+  {
+   "id": "Q2664197",
+   "name": "Tlemcen National Park",
+   "sl": 16,
+   "file": "Tlemcen, Algeria - Ruin of Mansoura.jpg",
+   "lat": 34.7063,
+   "lon": -1.4597,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tlemcen National Park"
+  },
+  {
+   "id": "Q2365220",
+   "name": "Djanet Inedbirene Airport",
+   "sl": 15,
+   "file": "Arrivée de laéroport de Djanet (Algérie).jpg",
+   "lat": 24.2929,
+   "lon": 9.4521,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Djanet Tiska Airport"
+  },
+  {
+   "id": "Q2875839",
+   "name": "Jijel Ferhat Abbas Airport",
+   "sl": 15,
+   "file": "Photo aeroport jijel ferhat abbes 16112015.jpg",
+   "lat": 36.7951,
+   "lon": 5.8736,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jijel Ferhat Abbas Airport"
+  },
+  {
+   "id": "Q1395123",
+   "name": "May 19, 1956 Stadium",
+   "sl": 15,
+   "file": "Annaba Stadium.jpg",
+   "lat": 36.8858,
+   "lon": 7.7331,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "19 May 1956 Stadium"
+  },
+  {
+   "id": "Q3495956",
+   "name": "Miloud Hadefi Stadium",
+   "sl": 15,
+   "file": "Stade de Oran.jpg",
+   "lat": 35.7285,
+   "lon": -0.5494,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Miloud Hadefi Stadium"
+  },
+  {
+   "id": "Q5595115",
+   "name": "Nelson Mandela Stadium",
+   "sl": 15,
+   "file": "Nelson Mandela Stadium.jpg",
+   "lat": 36.6938,
+   "lon": 3.122,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Nelson Mandela Stadium (Algiers)"
+  },
+  {
+   "id": "Q48813977",
+   "name": "Sidi Okba Mosque",
+   "sl": 15,
+   "file": "Sidi Okba Mosque 01.jpg",
+   "lat": 34.749,
+   "lon": 5.8996,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sidi-Okba Mosque"
+  },
+  {
+   "id": "Q1324444",
+   "name": "Thagaste",
+   "sl": 15,
+   "file": "Mileve Hippo Thagaste in Numidia (83193756).jpg",
+   "lat": 36.2667,
+   "lon": 7.9333,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "FR"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2875952",
+   "name": "Timimoun Airport",
+   "sl": 15,
+   "file": "Timimoun Airport.jpg",
+   "lat": 29.2367,
+   "lon": 0.2761,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Timimoun Airport"
+  },
+  {
+   "id": "Q25453544",
+   "name": "Ali Bitchin Mosque",
+   "sl": 14,
+   "file": "Casbah Zoudj Ayoun.jpg",
+   "lat": 36.787,
+   "lon": 3.0619,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q662102",
+    "name": "Casbah of Algiers"
+   },
+   "also": [],
+   "cat": "Ali Bitchin Mosque"
+  },
+  {
+   "id": "Q2877938",
+   "name": "Babors",
+   "sl": 14,
+   "file": "Bougaa.jpg",
+   "lat": 36.55,
+   "lon": 5.4667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Babor Mountains"
+  },
+  {
+   "id": "Q5285370",
+   "name": "Djorf Torba Dam",
+   "sl": 14,
+   "file": "Barrage de djorf torba.jpg",
+   "lat": 31.5117,
+   "lon": -2.7714,
+   "kind": "built",
+   "types": [
+    "dam"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Djorf Torba Dam"
+  },
+  {
+   "id": "Q3048243",
+   "name": "Edough massif",
+   "sl": 14,
+   "file": "Edough.jpg",
+   "lat": 36.8667,
+   "lon": 7.65,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Edough Massif"
+  },
+  {
+   "id": "Q25453602",
+   "name": "El Barani Mosque",
+   "sl": 14,
+   "file": "Mosquée Jamaa Berrani.jpg",
+   "lat": 36.7845,
+   "lon": 3.0558,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q662102",
+    "name": "Casbah of Algiers"
+   },
+   "also": [],
+   "cat": "Mosquée el Berrani"
+  },
+  {
+   "id": "Q5351317",
+   "name": "El Golea Airport",
+   "sl": 14,
+   "file": "Photo el golea airport 05072015.jpg",
+   "lat": 30.5774,
+   "lon": 2.8642,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3056158",
+   "name": "Erg Iguidi",
+   "sl": 14,
+   "file": "STS-45 payload.jpg",
+   "lat": 26.255,
+   "lon": -6.298,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3457262",
+   "name": "Idehan Ubari",
+   "sl": 14,
+   "file": "Libya 4608 Idehan Ubari Dunes Luca Galuzzi 2007.jpg",
+   "lat": 27.3333,
+   "lon": 12,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Idehan Ubari"
+  },
+  {
+   "id": "Q2023039",
+   "name": "Omar Hamadi Stadium",
+   "sl": 14,
+   "file": "Omar Hammadi Stadium.jpg",
+   "lat": 36.8011,
+   "lon": 3.0481,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Omar Hammadi (Bologhine)"
+  },
+  {
+   "id": "Q3301866",
+   "name": "Royal Mausoleum of Mauretania",
+   "sl": 14,
+   "file": "Royal Mausoleum of Mauretania 01.jpg",
+   "lat": 36.5747,
+   "lon": 2.5533,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "mausoleum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q3529269",
+    "name": "Tipasa"
+   },
+   "also": [],
+   "cat": "Royal Mausoleum of Mauretania"
+  },
+  {
+   "id": "Q3476953",
+   "name": "Sebkha el Melah",
+   "sl": 14,
+   "file": "ISS018-E-25087 - View of Sebkha el Melah.jpg",
+   "lat": 29.195,
+   "lon": -1.2425,
+   "kind": "natural",
+   "types": [
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sebkha el Melah (Béni Abbès, Algeria)"
+  },
+  {
+   "id": "Q968208",
+   "name": "Stade 24 Fevrier 1956",
+   "sl": 14,
+   "file": "Stade 24 Février 1956.jpg",
+   "lat": 35.1849,
+   "lon": -0.6216,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade du 24-Février-1956"
+  },
+  {
+   "id": "Q3495789",
+   "name": "Stade Mustapha Tchaker",
+   "sl": 14,
+   "file": "Stade du Chahid Mustapha Tchaker.jpg",
+   "lat": 36.4903,
+   "lon": 2.8467,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Mustapha Tchaker"
+  },
+  {
+   "id": "Q3115090",
+   "name": "1st November of 1954 Great Mosque",
+   "sl": 13,
+   "file": "Mosquée 1er Novembre.jpg",
+   "lat": 35.5459,
+   "lon": 6.1669,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "1st november Mosque of Batna"
+  },
+  {
+   "id": "Q753212",
+   "name": "Atakor",
+   "sl": 13,
+   "file": "Ahaggar Landsat 8 pan sharpened composite.jpg",
+   "lat": 23.2889,
+   "lon": 5.5336,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "volcanic field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2440344",
+   "name": "cathédrale du Sacré-Cœur d'Oran",
+   "sl": 13,
+   "file": "Cathédrale du Sacré-Cœur d'Oran 01.jpg",
+   "lat": 35.7003,
+   "lon": -0.6464,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral",
+    "public library"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sacred Heart Cathedral of Oran"
+  },
+  {
+   "id": "Q3056157",
+   "name": "Erg Chech",
+   "sl": 13,
+   "file": "Chergach meteorite, 5.7 grams, oriented.jpg",
+   "lat": 24.5833,
+   "lon": -2.5833,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "ML",
+    "MR"
+   ],
+   "cat": ""
+  }
+ ]
+}

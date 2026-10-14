@@ -1,0 +1,39 @@
+{
+ "country": "FK",
+ "items": [
+  {
+   "id": "Q2071294",
+   "name": "Royal Air Force Station Mount Pleasant",
+   "sl": 26,
+   "file": "Mount Pleasant Airport - Donald Morrison.jpg",
+   "lat": -51.8228,
+   "lon": -58.4472,
+   "kind": "built",
+   "types": [
+    "Royal Air Force station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "GB"
+   ],
+   "cat": "RAF Mount Pleasant"
+  },
+  {
+   "id": "Q3320132",
+   "name": "Christ Church Cathedral",
+   "sl": 12,
+   "file": "WhaleboneArchCathedral.JPG",
+   "lat": -51.6922,
+   "lon": -57.8586,
+   "kind": "built",
+   "types": [
+    "Anglican or Episcopal cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christ Church Cathedral (Falkland Islands)"
+  }
+ ]
+}

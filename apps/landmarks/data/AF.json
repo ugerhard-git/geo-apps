@@ -1,0 +1,1357 @@
+{
+ "country": "AF",
+ "items": [
+  {
+   "id": "Q484458",
+   "name": "Buddhas of Bamiyan",
+   "sl": 86,
+   "file": "Buddha of Bamiyan.jpg",
+   "lat": 34.832,
+   "lon": 67.8268,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "daibutsu",
+    "destroyed artwork",
+    "lost sculpture"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q50810144",
+    "name": "Cultural Landscape and Archaeological Remains of the Bamiyan Valley"
+   },
+   "also": [],
+   "cat": "Buddhas of Bamiyan"
+  },
+  {
+   "id": "Q192981",
+   "name": "Minaret of Jam",
+   "sl": 75,
+   "file": "Minaret of jam 2009 ghor.jpg",
+   "lat": 34.3964,
+   "lon": 64.5159,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "minaret"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q65953897",
+    "name": "Minaret and Archaeological Remains of Jam"
+   },
+   "also": [],
+   "cat": "Minaret and archaeological remains of Jam"
+  },
+  {
+   "id": "Q271700",
+   "name": "Noshaq",
+   "sl": 57,
+   "file": "Mount Noshaq seen from the base camp (photo Louis Meunier).jpg",
+   "lat": 36.4317,
+   "lon": 71.8283,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PK"
+   ],
+   "cat": "Noshaq"
+  },
+  {
+   "id": "Q744802",
+   "name": "Kabul International Airport",
+   "sl": 52,
+   "file": "Kabul Airport Aerial.jpg",
+   "lat": 34.5659,
+   "lon": 69.2123,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kabul International Airport"
+  },
+  {
+   "id": "Q138388",
+   "name": "Blue Mosque",
+   "sl": 44,
+   "file": "Blue Mosque (general view), Mazar-i Sharif, Afghanistan.jpg",
+   "lat": 36.7089,
+   "lon": 67.1108,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "mazar",
+    "mosque",
+    "pilgrimage site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Mosque, Mazar-i-Sharif"
+  },
+  {
+   "id": "Q613251",
+   "name": "Band-e Amir National Park",
+   "sl": 42,
+   "file": "Lake Band-e-Amir.jpg",
+   "lat": 34.8397,
+   "lon": 67.2308,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Band-e Amir National Park"
+  },
+  {
+   "id": "Q974525",
+   "name": "Panjshir Valley",
+   "sl": 39,
+   "file": "Panjshir River Valley in May 2011.jpg",
+   "lat": 35.2667,
+   "lon": 69.4667,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q226748",
+   "name": "Zorkul",
+   "sl": 39,
+   "file": "Lake Zorkul.jpg",
+   "lat": 37.4503,
+   "lon": 73.7251,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TJ"
+   ],
+   "cat": "Zorkul Lake"
+  },
+  {
+   "id": "Q857845",
+   "name": "Ai-Khanoum",
+   "sl": 38,
+   "file": "AiKhanumCapitals.jpg",
+   "lat": 37.1664,
+   "lon": 69.4108,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "locality"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ai Khanoum"
+  },
+  {
+   "id": "Q611729",
+   "name": "Hamun Lake",
+   "sl": 34,
+   "file": "Hamoun wetland 2020-05-09 05.jpg",
+   "lat": 30.7653,
+   "lon": 61.6372,
+   "kind": "natural",
+   "types": [
+    "biosphere reserve",
+    "group of lakes",
+    "hamun"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IR"
+   ],
+   "cat": "Lake Hāmūn"
+  },
+  {
+   "id": "Q1291612",
+   "name": "Friday Mosque of Herat",
+   "sl": 33,
+   "file": "Herat Masjidi Jami courtyard.jpg",
+   "lat": 34.3431,
+   "lon": 62.1958,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Friday Mosque, Herat"
+  },
+  {
+   "id": "Q715467",
+   "name": "National Museum of Afghanistan",
+   "sl": 33,
+   "file": "National museum of Afghanistan.jpg",
+   "lat": 34.4675,
+   "lon": 69.12,
+   "kind": "built",
+   "types": [
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Museum of Afghanistan"
+  },
+  {
+   "id": "Q800126",
+   "name": "Bagram Air Base",
+   "sl": 31,
+   "file": "F-16 takes off at Bagram 150123-F-CV765-260.jpg",
+   "lat": 34.9464,
+   "lon": 69.265,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bagram Air Base"
+  },
+  {
+   "id": "Q33156",
+   "name": "Kandahar International Airport",
+   "sl": 31,
+   "file": "Women from 203rd Zone Afghan Border Police and TAAC-S attend shura at Kandahar Airfield, Afghanistan 150809-N-SQ656-227.jpg",
+   "lat": 31.5072,
+   "lon": 65.8503,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kandahar International Airport"
+  },
+  {
+   "id": "Q2088454",
+   "name": "Registan Desert",
+   "sl": 29,
+   "file": "Caravane dans le désert du Registan (Afghanistan) en 1969.jpg",
+   "lat": 30.4534,
+   "lon": 65.4071,
+   "kind": "natural",
+   "types": [
+    "desert",
+    "desert in Afghanistan"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Registan Desert"
+  },
+  {
+   "id": "Q902222",
+   "name": "Darul Aman Palace",
+   "sl": 28,
+   "file": "Darulaman palace.jpg",
+   "lat": 34.4648,
+   "lon": 69.1089,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Darul-Aman Palace"
+  },
+  {
+   "id": "Q721468",
+   "name": "Mes Aynak",
+   "sl": 26,
+   "file": "Mes Aynak Jerome Starkey.jpg",
+   "lat": 34.4,
+   "lon": 69.3667,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "mining region"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mes Aynak"
+  },
+  {
+   "id": "Q4789171",
+   "name": "Arg",
+   "sl": 25,
+   "file": "200229-D-AP390-1529 (49603221753).jpg",
+   "lat": 34.5236,
+   "lon": 69.1789,
+   "kind": "built",
+   "types": [
+    "building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arg (Kabul)"
+  },
+  {
+   "id": "Q1431482",
+   "name": "Herat International Airport",
+   "sl": 25,
+   "file": "Plane of Pamir Airways at Herat Airport in 2010.jpg",
+   "lat": 34.2101,
+   "lon": 62.2279,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Herat International Airport"
+  },
+  {
+   "id": "Q509824",
+   "name": "Afghanistan–Uzbekistan Friendship Bridge",
+   "sl": 24,
+   "file": "The friendship bridge connects Mangusar, Uzbekistan and Hariatan, Afghanistan.jpg",
+   "lat": 37.2278,
+   "lon": 67.4282,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "railway bridge",
+    "road bridge",
+    "road-rail bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "UZ"
+   ],
+   "cat": "Afghanistan–Uzbekistan Friendship Bridge"
+  },
+  {
+   "id": "Q1521498",
+   "name": "Ghazi Stadium",
+   "sl": 24,
+   "file": "Ahmad Faisal - football - D.jpg",
+   "lat": 34.5186,
+   "lon": 69.1939,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ghazi Stadium"
+  },
+  {
+   "id": "Q703013",
+   "name": "Mazar-i-Sharif Airport",
+   "sl": 24,
+   "file": "December 2001 Mazar Airfield.jpg",
+   "lat": 36.7069,
+   "lon": 67.2091,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mazar-i-Sharif International Airport"
+  },
+  {
+   "id": "Q2742390",
+   "name": "Jalalabad Airport",
+   "sl": 23,
+   "file": "Nangarhar Airport.jpg",
+   "lat": 34.3997,
+   "lon": 70.4985,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jalalabad Airport"
+  },
+  {
+   "id": "Q3397498",
+   "name": "Green Mosque",
+   "sl": 22,
+   "file": "Green Mosque, Balkh.jpg",
+   "lat": 36.7582,
+   "lon": 66.8967,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Green Mosque, Balkh"
+  },
+  {
+   "id": "Q1144126",
+   "name": "Tillya Tepe",
+   "sl": 22,
+   "file": "MenInArm4.JPG",
+   "lat": 36.7,
+   "lon": 65.787,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tillya Tepe"
+  },
+  {
+   "id": "Q804581",
+   "name": "Bala Hissar",
+   "sl": 21,
+   "file": "Bala Hisar.jpg",
+   "lat": 34.5056,
+   "lon": 69.1917,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bala Hissar (Kabul)"
+  },
+  {
+   "id": "Q3125809",
+   "name": "Haji Piyada Mosque",
+   "sl": 21,
+   "file": "Masjed Haj Piadeh - panoramio.jpg",
+   "lat": 36.7298,
+   "lon": 66.8852,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "mosque",
+    "ruins"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Haji Piyada"
+  },
+  {
+   "id": "Q2393709",
+   "name": "Pul-e Khishti Mosque",
+   "sl": 21,
+   "file": "Pul-i-Khishti Mosque.jpg",
+   "lat": 34.5156,
+   "lon": 69.1803,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pul-e Khishti Mosque"
+  },
+  {
+   "id": "Q3409617",
+   "name": "Abdul Rahman Mosque",
+   "sl": 20,
+   "file": "Abdul Rahman Mosque in March 2010.jpg",
+   "lat": 34.5207,
+   "lon": 69.1743,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abdul Rahman Mosque"
+  },
+  {
+   "id": "Q671801",
+   "name": "Fayzabad Airport",
+   "sl": 20,
+   "file": "Feyzabad international.jpg",
+   "lat": 37.1194,
+   "lon": 70.5183,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fayzabad Airport"
+  },
+  {
+   "id": "Q2875855",
+   "name": "Kunduz Airport",
+   "sl": 19,
+   "file": "Flughafen Kunduz.jpg",
+   "lat": 36.6651,
+   "lon": 68.9106,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kunduz Airport"
+  },
+  {
+   "id": "Q6935822",
+   "name": "Mundigak",
+   "sl": 19,
+   "file": "Afgh02-02-02.jpg",
+   "lat": 31.65,
+   "lon": 65.25,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mundigak"
+  },
+  {
+   "id": "Q2005166",
+   "name": "Alexandria on the Caucasus",
+   "sl": 18,
+   "file": "BegramMedallion.jpg",
+   "lat": 34.9925,
+   "lon": 69.3106,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alexandria in the Caucasus"
+  },
+  {
+   "id": "Q2723683",
+   "name": "Bost Airport",
+   "sl": 18,
+   "file": "Runway at Bost Airfield in 2009.jpg",
+   "lat": 31.5588,
+   "lon": 64.3647,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bost Airport"
+  },
+  {
+   "id": "Q1837469",
+   "name": "Chaghcharan Airport",
+   "sl": 18,
+   "file": "Afghan Air Power (4423773113).jpg",
+   "lat": 34.5264,
+   "lon": 65.2706,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chaghcharan Airport"
+  },
+  {
+   "id": "Q7461208",
+   "name": "Shah-Do Shamshira Mosque",
+   "sl": 18,
+   "file": "Mosque of the King of Two Swords.jpg",
+   "lat": 34.5157,
+   "lon": 69.1714,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shah-Do Shamshira Mosque"
+  },
+  {
+   "id": "Q1432790",
+   "name": "Zaranj Airport",
+   "sl": 18,
+   "file": "Zaranj Airfield assessment-3.jpg",
+   "lat": 30.9695,
+   "lon": 61.8667,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zaranj Airport"
+  },
+  {
+   "id": "Q10859317",
+   "name": "Herat Citadel",
+   "sl": 17,
+   "file": "Herat Citadel.jpg",
+   "lat": 34.3458,
+   "lon": 62.1886,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Citadel of Herat"
+  },
+  {
+   "id": "Q3407426",
+   "name": "Id Gah Mosque",
+   "sl": 17,
+   "file": "AfghanAirForce1.jpg",
+   "lat": 34.5178,
+   "lon": 69.19,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Id Gah Mosque (Kabul)"
+  },
+  {
+   "id": "Q937209",
+   "name": "Tajbeg Palace",
+   "sl": 17,
+   "file": "Evstafiev-40th army HQ-Amin-palace-Kabul.jpg",
+   "lat": 34.4548,
+   "lon": 69.1133,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tajbeg Palace"
+  },
+  {
+   "id": "Q784017",
+   "name": "Camp Shorabak",
+   "sl": 16,
+   "file": "Dusk falls over a U.S. Marine Corps CH-53E Super Stallion helicopter at Camp Bastion in Helmand province, Afghanistan, May 6, 2013 130506-A-CL397-247.jpg",
+   "lat": 31.8664,
+   "lon": 64.1924,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Camp Shorabak"
+  },
+  {
+   "id": "Q833625",
+   "name": "Kabul Zoo",
+   "sl": 16,
+   "file": "Kabul zoo - panoramio.jpg",
+   "lat": 34.5094,
+   "lon": 69.1553,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kabul Zoo"
+  },
+  {
+   "id": "Q2736618",
+   "name": "Tarin Kowt Airport",
+   "sl": 16,
+   "file": "181209TK Ramp Ceremony 04.JPG",
+   "lat": 32.6053,
+   "lon": 65.8642,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tarinkot Airport"
+  },
+  {
+   "id": "Q1092639",
+   "name": "Alexandria Arachosia",
+   "sl": 15,
+   "file": "Old Kandahar city.jpg",
+   "lat": 31.6022,
+   "lon": 65.6589,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Alexandria Arachosia"
+  },
+  {
+   "id": "Q1721841",
+   "name": "Kajaki Dam",
+   "sl": 15,
+   "file": "Kajaki Dam and spillway in 2012.jpg",
+   "lat": 32.3228,
+   "lon": 65.1185,
+   "kind": "both",
+   "types": [
+    "embankment dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kajaki Dam"
+  },
+  {
+   "id": "Q2875606",
+   "name": "Qala i Naw Airport",
+   "sl": 15,
+   "file": "Qala-I-Naw Apr 2009 1.jpg",
+   "lat": 34.9858,
+   "lon": 63.1176,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q117314469",
+   "name": "Qosh Tepa Canal",
+   "sl": 15,
+   "file": "Qosh tepa canal 1.jpg",
+   "lat": 37.0848,
+   "lon": 67.7738,
+   "kind": "built",
+   "types": [
+    "canal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qosh Tepa Canal"
+  },
+  {
+   "id": "Q1550221",
+   "name": "Shortugai",
+   "sl": 15,
+   "file": "Shorugai.jpg",
+   "lat": 37.325,
+   "lon": 69.525,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shortugai"
+  },
+  {
+   "id": "Q2820119",
+   "name": "Ab-i Istada",
+   "sl": 14,
+   "file": "NM22-735-062 (cropped).jpg",
+   "lat": 32.4839,
+   "lon": 67.9069,
+   "kind": "natural",
+   "types": [
+    "lake",
+    "salt lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q58333357",
+   "name": "Ghazni Minarets",
+   "sl": 14,
+   "file": "Minaret of Bahram Shah (with Minaret of Mas'ud III in the background). Ghazni, Afghanistan 2014.jpg",
+   "lat": 33.5646,
+   "lon": 68.4336,
+   "kind": "built",
+   "types": [
+    "minaret"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Minarets in Ghazni"
+  },
+  {
+   "id": "Q1799523",
+   "name": "Surkh Kotal",
+   "sl": 14,
+   "file": "Staircase, Surkh Kotal, 2–4 century CE.jpg",
+   "lat": 36.05,
+   "lon": 68.5667,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Surkh Kotal"
+  },
+  {
+   "id": "Q2013950",
+   "name": "Gowd-e Zerah",
+   "sl": 13,
+   "file": "Goud-e-Zereh.JPG",
+   "lat": 29.8353,
+   "lon": 61.9417,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Godzareh Depression"
+  },
+  {
+   "id": "Q6403410",
+   "name": "Khwaja Abdullah Ansari Mausoleum",
+   "sl": 13,
+   "file": "Herat Ansari entrance portal.jpg",
+   "lat": 34.3745,
+   "lon": 62.2405,
+   "kind": "built",
+   "types": [
+    "mausoleum",
+    "sanctuary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khwaja Abdullah Ansari Mausoleum"
+  },
+  {
+   "id": "Q3631196",
+   "name": "Mount Sikaram",
+   "sl": 13,
+   "file": "Mount Sikaram 2006.jpg",
+   "lat": 34.0383,
+   "lon": 69.9025,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PK"
+   ],
+   "cat": "Mount Sikaram"
+  },
+  {
+   "id": "Q7676856",
+   "name": "Tajik–Afghan Friendship Bridge",
+   "sl": 13,
+   "file": "Bridge Qalaikhum & Nusay of Darwaz.jpg",
+   "lat": 38.4533,
+   "lon": 70.8272,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "suspension bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TJ"
+   ],
+   "cat": "Nusay - Qalai Khumb Bridge"
+  },
+  {
+   "id": "Q2875669",
+   "name": "Taloqan Airport",
+   "sl": 13,
+   "file": "Taloqan Airport Afghanistan.jpg",
+   "lat": 36.7707,
+   "lon": 69.5324,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q58295438",
+   "name": "Citadel of Ghazni",
+   "sl": 12,
+   "file": "CH-NB - Afghanistan, Ghazni (Ghazna)- Menschen - Annemarie Schwarzenbach - SLA-Schwarzenbach-A-5-21-155.jpg",
+   "lat": 33.5492,
+   "lon": 68.4233,
+   "kind": "built",
+   "types": [
+    "citadel",
+    "fortified town",
+    "military base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Citadel of Ghazni"
+  },
+  {
+   "id": "Q967579",
+   "name": "Hamun-e Helmand",
+   "sl": 12,
+   "file": "Hamoun wetland 2020-05-09 07.jpg",
+   "lat": 30.8333,
+   "lon": 61.6667,
+   "kind": "natural",
+   "types": [
+    "intermittent lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IR"
+   ],
+   "cat": "Lake Hāmūn"
+  },
+  {
+   "id": "Q3408934",
+   "name": "Khost Mosque",
+   "sl": 12,
+   "file": "Khost Mosque3498.jpg",
+   "lat": 33.3392,
+   "lon": 69.9169,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6925987",
+   "name": "Mousallah Complex",
+   "sl": 12,
+   "file": "Overview of the Musalla Complex, with the Gawhar Shad Mausoleum in the center.jpg",
+   "lat": 34.3592,
+   "lon": 62.1861,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Musalla complex"
+  },
+  {
+   "id": "Q4755783",
+   "name": "Naghlu Dam",
+   "sl": 12,
+   "file": "Jalalabad dam.jpg",
+   "lat": 34.6411,
+   "lon": 69.7169,
+   "kind": "built",
+   "types": [
+    "gravity dam",
+    "hydroelectric dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Naghlu Dam"
+  },
+  {
+   "id": "Q7461875",
+   "name": "Shahr-e Gholghola",
+   "sl": 12,
+   "file": "02- Gholghola Mountains.jpg",
+   "lat": 34.8181,
+   "lon": 67.8389,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fortress",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q50810144",
+    "name": "Cultural Landscape and Archaeological Remains of the Bamiyan Valley"
+   },
+   "also": [],
+   "cat": "Shahr-e-Gholghola"
+  },
+  {
+   "id": "Q7498194",
+   "name": "Shir Khan Bandar",
+   "sl": 12,
+   "file": "Afghan border crossing at Sher Khan in Kunduz Province-4-cropped.jpg",
+   "lat": 37.19,
+   "lon": 68.615,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "dry port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "TJ"
+   ],
+   "cat": "Sher Khan Border Crossing"
+  },
+  {
+   "id": "Q10401099",
+   "name": "Alexandria Prophthasia",
+   "sl": 11,
+   "file": "Citadelo de Aleksandro la Granda en Farah, Afganio.jpg",
+   "lat": 31.6022,
+   "lon": 65.6589,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q21760467",
+   "name": "Chaqmaqtin Lake",
+   "sl": 11,
+   "file": "View Across Lake Chakmaktin Towards Ak-Tash, Little Pamir.jpg",
+   "lat": 37.2306,
+   "lon": 74.1769,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2875462",
+   "name": "Darwaz Airport",
+   "sl": 11,
+   "file": "Kevron.jpg",
+   "lat": 38.4617,
+   "lon": 70.8818,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7265904",
+   "name": "Qala-i-Jangi",
+   "sl": 11,
+   "file": "120512-F-UZ487-059 (7260391402).jpg",
+   "lat": 36.6667,
+   "lon": 66.9833,
+   "kind": "built",
+   "types": [
+    "fortification"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qala-i-Jangi"
+  },
+  {
+   "id": "Q2886559",
+   "name": "Shindand Air Base",
+   "sl": 11,
+   "file": "Shindand airfield, Afghanistan, before US-led strikes -- 2001-10-10.jpg",
+   "lat": 33.3913,
+   "lon": 62.261,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Shindand Air Base"
+  },
+  {
+   "id": "Q3406259",
+   "name": "Shrine of the Cloak",
+   "sl": 11,
+   "file": "Mosque in Kandahar-2011.jpg",
+   "lat": 31.6196,
+   "lon": 65.708,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4809497",
+   "name": "Yu Aw Synagogue",
+   "sl": 11,
+   "file": "Herat Jews Cemetery.jpg",
+   "lat": 34.3392,
+   "lon": 62.1866,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4720950",
+   "name": "Alexandria Ariana",
+   "sl": 10,
+   "file": "View of Herat Citadel from atop the premises.jpg",
+   "lat": 34.3458,
+   "lon": 62.1886,
+   "kind": "built",
+   "types": [
+    "ancient city"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q25380019",
+   "name": "Bagram Hoard",
+   "sl": 10,
+   "file": "Gladiateur Begram Guimet 18117.jpg",
+   "lat": 34.9667,
+   "lon": 69.3,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Begram Hoard"
+  },
+  {
+   "id": "Q470684",
+   "name": "Camp Marmal",
+   "sl": 10,
+   "file": "C-5 Galaxy at Mazar-e-Sharif Airport in northern Afghanistan.jpg",
+   "lat": 36.7039,
+   "lon": 67.2242,
+   "kind": "built",
+   "types": [
+    "military base"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Camp Marmal"
+  },
+  {
+   "id": "Q1025344",
+   "name": "Dasht-e Naomid",
+   "sl": 10,
+   "file": "Dunes of Algeria.jpg",
+   "lat": 32.4578,
+   "lon": 60.505,
+   "kind": "natural",
+   "types": [
+    "desert in Afghanistan",
+    "desert in Iran",
+    "plain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IR"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q42880538",
+   "name": "Fondukistan Monestary",
+   "sl": 10,
+   "file": "Seated Bodhisattva, Fondukistan monastery, 7th century CE. Kabul Museum.jpg",
+   "lat": 34.9572,
+   "lon": 68.8817,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fondukistan"
+  },
+  {
+   "id": "Q5911615",
+   "name": "Hotel Inter-Continental Kabul",
+   "sl": 10,
+   "file": "Inter-Con Kabul.jpg",
+   "lat": 34.5369,
+   "lon": 69.1253,
+   "kind": "built",
+   "types": [
+    "hotel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hotel Intercontinental, Kabul"
+  },
+  {
+   "id": "Q2029851",
+   "name": "Lashkar Gah Mosque",
+   "sl": 10,
+   "file": "Mosque in Lashkar Gah.jpg",
+   "lat": 31.5905,
+   "lon": 64.3702,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q15253520",
+   "name": "Mir Samir",
+   "sl": 10,
+   "file": "MIRSAMIR.jpg",
+   "lat": 35.5867,
+   "lon": 70.1646,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q16056534",
+   "name": "Parwan Detention Facility",
+   "sl": 10,
+   "file": "Aerial view of the new Bagram Theater Internment Facility.jpg",
+   "lat": 34.9425,
+   "lon": 69.2975,
+   "kind": "built",
+   "types": [
+    "detention center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parwan Detention Facility"
+  },
+  {
+   "id": "Q1798487",
+   "name": "Pul-e-Charkhi prison",
+   "sl": 10,
+   "file": "Afghan National Detention Facility in Kabul -a.jpg",
+   "lat": 34.5196,
+   "lon": 69.3476,
+   "kind": "built",
+   "types": [
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Afghan National Detention Facility"
+  }
+ ]
+}

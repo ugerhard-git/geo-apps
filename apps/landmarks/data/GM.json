@@ -1,0 +1,183 @@
+{
+ "country": "GM",
+ "items": [
+  {
+   "id": "Q335818",
+   "name": "Abuko Nature Reserve",
+   "sl": 15,
+   "file": "Gambia abuko 001.jpg",
+   "lat": 13.3958,
+   "lon": -16.6456,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abuko Nature Reserve"
+  },
+  {
+   "id": "Q1740765",
+   "name": "Kiang West National Park",
+   "sl": 15,
+   "file": "Gambia 079 from KG.jpg",
+   "lat": 13.3833,
+   "lon": -15.9167,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kiang West National Park"
+  },
+  {
+   "id": "Q455108",
+   "name": "Independence Stadium",
+   "sl": 14,
+   "file": "Gambia v guinea.JPG",
+   "lat": 13.4686,
+   "lon": -16.6775,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Independence Stadium (Gambia)"
+  },
+  {
+   "id": "Q492185",
+   "name": "River Gambia National Park",
+   "sl": 14,
+   "file": "Riugambia-baboon.jpg",
+   "lat": 13.6389,
+   "lon": -14.9594,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "River Gambia National Park"
+  },
+  {
+   "id": "Q922736",
+   "name": "Niumi National Park",
+   "sl": 11,
+   "file": "ISS023-E-38961 - View of The Gambia.jpg",
+   "lat": 13.5667,
+   "lon": -16.5,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q1408792",
+   "name": "Pipeline Mosque",
+   "sl": 10,
+   "file": "Gambia Kanifing Municipal 2020-04-16 085 - Mapillary (KuVEMVusr0T1Z8k3 Xr1-w) (cropped).jpg",
+   "lat": 13.4577,
+   "lon": -16.6849,
+   "kind": "built",
+   "types": [
+    "mosque",
+    "religious site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pipeline Mosque"
+  },
+  {
+   "id": "Q859906",
+   "name": "Bijilo Forest Park",
+   "sl": 9,
+   "file": "Borassus aethiopum 0052.jpg",
+   "lat": 13.4328,
+   "lon": -16.7264,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bijilo Forest Park"
+  },
+  {
+   "id": "Q895511",
+   "name": "Box Bar Stadium",
+   "sl": 9,
+   "file": "Gambia Banjul 0022.jpg",
+   "lat": 13.4564,
+   "lon": -16.5817,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Box Bar Stadium"
+  },
+  {
+   "id": "Q632012",
+   "name": "Arch 22",
+   "sl": 8,
+   "file": "Gambia banjul arch22.JPG",
+   "lat": 13.4603,
+   "lon": -16.5823,
+   "kind": "built",
+   "types": [
+    "triumphal arch"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Arch 22"
+  },
+  {
+   "id": "Q1720898",
+   "name": "Kachikally Museum and Crocodile Pool",
+   "sl": 8,
+   "file": "Gambia Kachikally 0002.jpg",
+   "lat": 13.4765,
+   "lon": -16.6724,
+   "kind": "built",
+   "types": [
+    "museum",
+    "structure of worship"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kachikally Museum and Crocodile Pool"
+  },
+  {
+   "id": "Q60851956",
+   "name": "Senegambia bridge",
+   "sl": 8,
+   "file": "SenegambiaBridge NorthApproach 23January2019.jpg",
+   "lat": 13.5164,
+   "lon": -15.5725,
+   "kind": "built",
+   "types": [
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Senegambia Bridge"
+  }
+ ]
+}

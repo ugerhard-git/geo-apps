@@ -1,0 +1,1371 @@
+{
+ "country": "LB",
+ "items": [
+  {
+   "id": "Q173532",
+   "name": "Byblos",
+   "sl": 83,
+   "file": "Byblos Libanon 2003.JPG",
+   "lat": 34.1167,
+   "lon": 35.65,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "city",
+    "city-state",
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Byblos"
+  },
+  {
+   "id": "Q202322",
+   "name": "Beqaa Valley",
+   "sl": 63,
+   "file": "Bekaa Libanon 2003.jpg",
+   "lat": 34.0089,
+   "lon": 36.1453,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beqaa valley"
+  },
+  {
+   "id": "Q668329",
+   "name": "Beirut–Rafic Hariri International Airport",
+   "sl": 41,
+   "file": "Beirut Airport aerial overview Lim.jpg",
+   "lat": 33.8211,
+   "lon": 35.4883,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beirut Rafic Hariri International Airport"
+  },
+  {
+   "id": "Q60945",
+   "name": "Cedars of God",
+   "sl": 37,
+   "file": "Forest of The cedars of God.jpg",
+   "lat": 34.2436,
+   "lon": 36.0483,
+   "kind": "",
+   "types": [
+    "forest"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16946966",
+    "name": "Ouadi Qadisha (the Holy Valley) and the Forest of the Cedars of God (Horsh Arz el-Rab)"
+   },
+   "also": [],
+   "cat": "Cedars of God"
+  },
+  {
+   "id": "Q29384",
+   "name": "Kadisha Valley",
+   "sl": 36,
+   "file": "A mystical canyon of Qadisha (Holy) Valley in northern Lebanon.jpg",
+   "lat": 34.2542,
+   "lon": 35.9536,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16946966",
+    "name": "Ouadi Qadisha (the Holy Valley) and the Forest of the Cedars of God (Horsh Arz el-Rab)"
+   },
+   "also": [],
+   "cat": "Kadisha Valley"
+  },
+  {
+   "id": "Q311330",
+   "name": "Qurnat as Sawda'",
+   "sl": 31,
+   "file": "Qurnat As Sawda top of Lebanon 9 June 1985-EF-Bild-33.JPG",
+   "lat": 34.3,
+   "lon": 36.1167,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qurnat as Sawda"
+  },
+  {
+   "id": "Q1552568",
+   "name": "Jeita Grotto",
+   "sl": 30,
+   "file": "Upper Jeita Grotto.jpg",
+   "lat": 33.9439,
+   "lon": 35.6406,
+   "kind": "both",
+   "types": [
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jeita Grotto"
+  },
+  {
+   "id": "Q476801",
+   "name": "Beaufort Castle",
+   "sl": 27,
+   "file": "Beaufort1982.jpg",
+   "lat": 33.3247,
+   "lon": 35.5321,
+   "kind": "built",
+   "types": [
+    "crusader castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q140592613",
+    "name": "Mount Amel Castles"
+   },
+   "also": [],
+   "cat": "Beaufort Castle, Lebanon"
+  },
+  {
+   "id": "Q2915627",
+   "name": "National Museum of Beirut",
+   "sl": 25,
+   "file": "Beirut Museum.jpg",
+   "lat": 33.8782,
+   "lon": 35.5149,
+   "kind": "built",
+   "types": [
+    "archaeological museum",
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beirut National Museum"
+  },
+  {
+   "id": "Q1942724",
+   "name": "Mohammad Al-Amin Mosque",
+   "sl": 23,
+   "file": "Mohammad Al-Amin Mosque during 2019 Lebanese revolution.jpg",
+   "lat": 33.895,
+   "lon": 35.5064,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mohammad Al-Amin Mosque"
+  },
+  {
+   "id": "Q25906",
+   "name": "Riyak",
+   "sl": 22,
+   "file": "Terrain de Rayak.jpg",
+   "lat": 33.8505,
+   "lon": 36.0098,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "municipality of Lebanon",
+    "town"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Riyaq"
+  },
+  {
+   "id": "Q616837",
+   "name": "Sarepta",
+   "sl": 21,
+   "file": "Sarepta April 27th 1839 - David Roberts, R.A. LCCN2002717517 (cropped).jpg",
+   "lat": 33.4575,
+   "lon": 35.2958,
+   "kind": "both",
+   "types": [
+    "biblical place",
+    "human settlement",
+    "tell",
+    "village/town/city in Lebanon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sarepta, Libanon"
+  },
+  {
+   "id": "Q1367140",
+   "name": "Temple of Eshmun",
+   "sl": 21,
+   "file": "Throne of Ashtart.jpg",
+   "lat": 33.5856,
+   "lon": 35.3981,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Temple of Eshmun"
+  },
+  {
+   "id": "Q1534108",
+   "name": "Aaiha",
+   "sl": 20,
+   "file": "DestroyingAaiha.jpg",
+   "lat": 33.4997,
+   "lon": 35.8733,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "village/town/city in Lebanon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aaiha"
+  },
+  {
+   "id": "Q10661349",
+   "name": "Saint George Greek Orthodox Cathedral",
+   "sl": 20,
+   "file": "St. Georg (beirut, griechisch-orthodox).jpg",
+   "lat": 33.8963,
+   "lon": 35.5051,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox cathedral",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. George Greek Orthodox Cathedral, Beirut"
+  },
+  {
+   "id": "Q1619788",
+   "name": "Byblos Castle",
+   "sl": 19,
+   "file": "Byblos Castle, 2016 08.jpg",
+   "lat": 34.12,
+   "lon": 35.6464,
+   "kind": "built",
+   "types": [
+    "castle",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Byblos Castle"
+  },
+  {
+   "id": "Q25912",
+   "name": "Joub Jannine",
+   "sl": 19,
+   "file": "Joub Jannine from hillside.jpg",
+   "lat": 33.6263,
+   "lon": 35.7838,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "municipality of Lebanon",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Joub Jannine"
+  },
+  {
+   "id": "Q2918974",
+   "name": "Sidon Sea Castle",
+   "sl": 19,
+   "file": "SidonSeaCastle.jpg",
+   "lat": 33.567,
+   "lon": 35.3711,
+   "kind": "built",
+   "types": [
+    "castle",
+    "crusader castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sea Castle (Sidon)"
+  },
+  {
+   "id": "Q38593",
+   "name": "Baatara gorge waterfall",
+   "sl": 18,
+   "file": "Baatara gorge.JPG",
+   "lat": 34.1734,
+   "lon": 35.8704,
+   "kind": "natural",
+   "types": [
+    "pit cave",
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baatara gorge waterfall"
+  },
+  {
+   "id": "Q590474",
+   "name": "Camille Chamoun Sports City Stadium",
+   "sl": 18,
+   "file": "Camille Chamoun Sports City Stadium 2015 (crop).jpg",
+   "lat": 33.8672,
+   "lon": 35.4961,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Camille Chamoun Sports City Stadium"
+  },
+  {
+   "id": "Q287360",
+   "name": "Sursock Museum",
+   "sl": 18,
+   "file": "Sursock house.jpg",
+   "lat": 33.8929,
+   "lon": 35.5162,
+   "kind": "built",
+   "types": [
+    "art museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sursock Museum"
+  },
+  {
+   "id": "Q681554",
+   "name": "Toron",
+   "sl": 17,
+   "file": "Tebnine11.jpg",
+   "lat": 33.1957,
+   "lon": 35.4123,
+   "kind": "built",
+   "types": [
+    "castle ruin",
+    "crusader castle"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q140592613",
+    "name": "Mount Amel Castles"
+   },
+   "also": [],
+   "cat": "Toron des Chevaliers"
+  },
+  {
+   "id": "Q814899",
+   "name": "Beiteddine Palace",
+   "sl": 16,
+   "file": "Courtyard at Beiteddine Palace - 2009.jpg",
+   "lat": 33.6962,
+   "lon": 35.5799,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beiteddine"
+  },
+  {
+   "id": "Q3457446",
+   "name": "Al Shouf Cedar Nature Reserve",
+   "sl": 15,
+   "file": "Barouk Mountain.JPG",
+   "lat": 33.6942,
+   "lon": 35.7021,
+   "kind": "natural",
+   "types": [
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al Shouf Cedar Nature Reserve"
+  },
+  {
+   "id": "Q662865",
+   "name": "Baalbek Stones",
+   "sl": 15,
+   "file": "Baalbek Stone 2.jpg",
+   "lat": 33.9985,
+   "lon": 36.1988,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "monolith"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q178835",
+    "name": "Baalbek"
+   },
+   "also": [],
+   "cat": "Stone of the Pregnant Woman"
+  },
+  {
+   "id": "Q6923461",
+   "name": "Mount Sannine",
+   "sl": 15,
+   "file": "Mount Sannine.jpg",
+   "lat": 33.95,
+   "lon": 35.8667,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Sannine"
+  },
+  {
+   "id": "Q1991217",
+   "name": "Temple of Bacchus",
+   "sl": 15,
+   "file": "Lebanon, Baalbek, Temple of Bacchus 2.jpg",
+   "lat": 34.0061,
+   "lon": 36.2039,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "archaeological site",
+    "Roman temple",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q178835",
+    "name": "Baalbek"
+   },
+   "also": [],
+   "cat": "Temple of Bacchus in Baalbek"
+  },
+  {
+   "id": "Q1774990",
+   "name": "Balamand Monastery",
+   "sl": 14,
+   "file": "Balamand Monastery at Evening.jpg",
+   "lat": 34.3683,
+   "lon": 35.7794,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Balamand Monastery"
+  },
+  {
+   "id": "Q2033557",
+   "name": "Kamid al lawz",
+   "sl": 14,
+   "file": "Kamed.jpg",
+   "lat": 33.6183,
+   "lon": 35.8186,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "municipality of Lebanon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kamid al lawz"
+  },
+  {
+   "id": "Q2306372",
+   "name": "Lake Qaraoun",
+   "sl": 14,
+   "file": "Qaraoun Lake.jpg",
+   "lat": 33.5653,
+   "lon": 35.6931,
+   "kind": "both",
+   "types": [
+    "artificial lake",
+    "lake",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Qaraoun"
+  },
+  {
+   "id": "Q1549519",
+   "name": "Saida Municipal Stadium",
+   "sl": 14,
+   "file": "Saida Municipal Stadium with beachgoers.jpg",
+   "lat": 33.5856,
+   "lon": 35.3847,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saida Municipal Stadium"
+  },
+  {
+   "id": "Q21079381",
+   "name": "Temple of Jupiter",
+   "sl": 14,
+   "file": "Baalbeck Temple.jpg",
+   "lat": 34.0067,
+   "lon": 36.2033,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "archaeological site",
+    "Roman temple",
+    "ruins"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q178835",
+    "name": "Baalbek"
+   },
+   "also": [],
+   "cat": "Temple of Jupiter in Baalbek"
+  },
+  {
+   "id": "Q1677536",
+   "name": "Al-Omari Grand Mosque",
+   "sl": 13,
+   "file": "المسجد العمري.jpg",
+   "lat": 33.8976,
+   "lon": 35.5052,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Omari Grand Mosque"
+  },
+  {
+   "id": "Q879905",
+   "name": "Bkerke",
+   "sl": 13,
+   "file": "Bkerke.jpg",
+   "lat": 33.9678,
+   "lon": 35.6339,
+   "kind": "built",
+   "types": [
+    "human settlement",
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bkerké"
+  },
+  {
+   "id": "Q49977",
+   "name": "Citadel of Tripoli",
+   "sl": 13,
+   "file": "Citadel of Raymond de Saint-Gilles 2009.jpg",
+   "lat": 34.4334,
+   "lon": 35.8445,
+   "kind": "built",
+   "types": [
+    "citadel",
+    "crusader castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Citadel of Tripoli"
+  },
+  {
+   "id": "Q7401302",
+   "name": "Maronite Cathedral of Saint George, Beirut",
+   "sl": 13,
+   "file": "Saint George Maronite Cathedral and Mohammad Al-Amin Mosque by Lebnen18.jpg",
+   "lat": 33.8953,
+   "lon": 35.5053,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. George Maronite Cathedral, Beirut"
+  },
+  {
+   "id": "Q2640238",
+   "name": "Moukhtara",
+   "sl": 13,
+   "file": "HARVEY(1861) p008 PALACE OF SAID BAG JUMBULAH AT MOKTARAH.jpg",
+   "lat": 33.6589,
+   "lon": 35.6139,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Moukhtara"
+  },
+  {
+   "id": "Q3346912",
+   "name": "Royal necropolis of Byblos",
+   "sl": 13,
+   "file": "Byblos(js) 10.jpg",
+   "lat": 34.1194,
+   "lon": 35.6453,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q173532",
+    "name": "Byblos"
+   },
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3906405",
+   "name": "Fakhredine Mosque",
+   "sl": 12,
+   "file": "Fakhredine mosque - Deir al-Qamar - Lebanon.jpg",
+   "lat": 33.6981,
+   "lon": 35.5644,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Fakhreddine Mosque"
+  },
+  {
+   "id": "Q966707",
+   "name": "Maghen Abraham Synagogue",
+   "sl": 12,
+   "file": "Maghen Abraham Synagogue (side).JPG",
+   "lat": 33.8974,
+   "lon": 35.5001,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Synagogues in Lebanon"
+  },
+  {
+   "id": "Q2898390",
+   "name": "Our Lady of Lebanon",
+   "sl": 12,
+   "file": "Ladylebanon.JPG",
+   "lat": 33.9817,
+   "lon": 35.6514,
+   "kind": "built",
+   "types": [
+    "shrine"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sanctuaire Notre-Dame du Liban"
+  },
+  {
+   "id": "Q542263",
+   "name": "Qozhaya",
+   "sl": 12,
+   "file": "Qozhaya01072003.jpg",
+   "lat": 34.2831,
+   "lon": 35.9472,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monastery of Qozhaya"
+  },
+  {
+   "id": "Q7587821",
+   "name": "St. Elie and St. Gregory the Illuminator Armenian Catholic Cathedral",
+   "sl": 12,
+   "file": "St Elie - St Gregory Armenian Catholic Cathedral.jpg",
+   "lat": 33.8929,
+   "lon": 35.5076,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "St. Elie and St. Gregory the Illuminator Armenian Catholic Cathedral"
+  },
+  {
+   "id": "Q2884862",
+   "name": "Barouk",
+   "sl": 11,
+   "file": "View from the Barouk Forest.jpg",
+   "lat": 33.7,
+   "lon": 35.6833,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barouk"
+  },
+  {
+   "id": "Q829310",
+   "name": "Berytus",
+   "sl": 11,
+   "file": "St. George's Cathedral, Beirut.jpg",
+   "lat": 33.8958,
+   "lon": 35.5051,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "Roman colony"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Berytus"
+  },
+  {
+   "id": "Q3817236",
+   "name": "Ksar Akil",
+   "sl": 11,
+   "file": "Ksar-Akil-Flake.jpg",
+   "lat": 33.9167,
+   "lon": 35.6,
+   "kind": "built",
+   "types": [
+    "Paleolithic site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ksar Akil"
+  },
+  {
+   "id": "Q6467705",
+   "name": "Labweh",
+   "sl": 11,
+   "file": "Labweh.jpg",
+   "lat": 34.1973,
+   "lon": 36.3524,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Labweh"
+  },
+  {
+   "id": "Q2919220",
+   "name": "Martyrs' Square",
+   "sl": 11,
+   "file": "Ye old opera house..jpg",
+   "lat": 33.8964,
+   "lon": 35.5072,
+   "kind": "built",
+   "types": [
+    "square"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Martyrs' Square, Beirut"
+  },
+  {
+   "id": "Q7128050",
+   "name": "Palm Islands Nature Reserve",
+   "sl": 11,
+   "file": "Palms Islands.jpg",
+   "lat": 34.4927,
+   "lon": 35.7746,
+   "kind": "natural",
+   "types": [
+    "nature reserve"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q7401666",
+   "name": "St. Louis Cathedral",
+   "sl": 11,
+   "file": "Saint Louis Cathedral - Beirut.jpg",
+   "lat": 33.8979,
+   "lon": 35.5027,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Louis Cathedral, Beirut"
+  },
+  {
+   "id": "Q3571482",
+   "name": "Yammoune",
+   "sl": 11,
+   "file": "Yammouné eau 0053.jpg",
+   "lat": 34.13,
+   "lon": 36.0235,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yemmoune"
+  },
+  {
+   "id": "Q4120090",
+   "name": "Aadloun",
+   "sl": 10,
+   "file": "Adloun1.jpg",
+   "lat": 33.4039,
+   "lon": 35.2739,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "municipality of Lebanon",
+    "village/town/city in Lebanon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aadloun"
+  },
+  {
+   "id": "Q4881386",
+   "name": "Beirut Municipal Stadium",
+   "sl": 10,
+   "file": "Municipal Sports Field, Beirut - 1947.png",
+   "lat": 33.874,
+   "lon": 35.4984,
+   "kind": "built",
+   "types": [
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beirut Municipal Stadium"
+  },
+  {
+   "id": "Q5302302",
+   "name": "Duris",
+   "sl": 10,
+   "file": "Douris.png",
+   "lat": 33.9833,
+   "lon": 36.1833,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Duris, Lebanon"
+  },
+  {
+   "id": "Q20170649",
+   "name": "Emir Assaf Mosque",
+   "sl": 10,
+   "file": "Emir Assaf Mosque.jpg",
+   "lat": 33.8975,
+   "lon": 35.5059,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Emir Assaf Mosque"
+  },
+  {
+   "id": "Q5695359",
+   "name": "Hebbariye",
+   "sl": 10,
+   "file": "Hebbariyeh.jpg",
+   "lat": 33.3675,
+   "lon": 35.6942,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "town",
+    "village"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hebbariye"
+  },
+  {
+   "id": "Q6109935",
+   "name": "Jabal es Saaïdé",
+   "sl": 10,
+   "file": "Reliefkarte Libanon.png",
+   "lat": 34.0344,
+   "lon": 36.0578,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q116448209",
+   "name": "Rachid Karami International Fair",
+   "sl": 10,
+   "file": "TripoliLebanonFair OscarNiemeyer OpenAirTheatre6-RomanDeckert14102018.jpg",
+   "lat": 34.4396,
+   "lon": 35.8259,
+   "kind": "",
+   "types": [
+    "fair ground",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Rachid Karami International Fair in Tripoli"
+  },
+  {
+   "id": "Q2916270",
+   "name": "Rayak Air Base",
+   "sl": 10,
+   "file": "Terrain de Rayak.jpg",
+   "lat": 33.8522,
+   "lon": 35.9903,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rayak Air Base"
+  },
+  {
+   "id": "Q1128852",
+   "name": "Tripoli International Olympic Stadium",
+   "sl": 10,
+   "file": "Tripoli International Olympic Stadium.jpg",
+   "lat": 34.4222,
+   "lon": 35.8219,
+   "kind": "built",
+   "types": [
+    "association football venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4661504",
+   "name": "Aammiq Wetland",
+   "sl": 9,
+   "file": "Ammiq in winter.jpg",
+   "lat": 33.7314,
+   "lon": 35.789,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "wetland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Aammiq Wetland"
+  },
+  {
+   "id": "Q4697322",
+   "name": "Ain Aata",
+   "sl": 9,
+   "file": "HARVEY(1861) p177 CEDARS.jpg",
+   "lat": 33.4364,
+   "lon": 35.7794,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "municipality of Lebanon",
+    "village/town/city in Lebanon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ain Aata"
+  },
+  {
+   "id": "Q3361217",
+   "name": "Baabda Palace",
+   "sl": 9,
+   "file": "Baabda Palace - 1947.jpg",
+   "lat": 33.8417,
+   "lon": 35.5394,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baabda Palace"
+  },
+  {
+   "id": "Q2893455",
+   "name": "Beshamoun",
+   "sl": 9,
+   "file": "Bchamoun skyline.jpg",
+   "lat": 33.7819,
+   "lon": 35.5311,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bechamoun"
+  },
+  {
+   "id": "Q728168",
+   "name": "Corniche Beirut",
+   "sl": 9,
+   "file": "Beirut Corniche, Beirut, Lebanon.jpg",
+   "lat": 33.9,
+   "lon": 35.4708,
+   "kind": "built",
+   "types": [
+    "esplanade"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Beirut Corniche"
+  },
+  {
+   "id": "Q2915403",
+   "name": "Deir el Qamar Synagogue",
+   "sl": 9,
+   "file": "Deir synagogue.jpg",
+   "lat": 33.6984,
+   "lon": 35.5643,
+   "kind": "built",
+   "types": [
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Synagogues in Lebanon"
+  },
+  {
+   "id": "Q3906652",
+   "name": "Mansouri Great Mosque",
+   "sl": 9,
+   "file": "TripoliLebGreatMosqueMinaret.jpg",
+   "lat": 34.4345,
+   "lon": 35.8425,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mansouri Great Mosque"
+  },
+  {
+   "id": "Q787069",
+   "name": "Mzaar Kfardebian",
+   "sl": 9,
+   "file": "OyounElSiman.jpg",
+   "lat": 34.0111,
+   "lon": 35.8248,
+   "kind": "built",
+   "types": [
+    "ski resort"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mzaar Kfardebian"
+  },
+  {
+   "id": "Q75207891",
+   "name": "Roman temple of Bziza",
+   "sl": 9,
+   "file": "Le temple sur les hauteurs du village.jpg",
+   "lat": 34.27,
+   "lon": 35.8216,
+   "kind": "built",
+   "types": [
+    "ancient Roman structure",
+    "archaeological site",
+    "Roman temple",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Roman temple of Bziza"
+  },
+  {
+   "id": "Q9161495",
+   "name": "Taybeh",
+   "sl": 9,
+   "file": "Taybeh posters.jpg",
+   "lat": 33.275,
+   "lon": 35.5208,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "village/town/city in Lebanon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taybeh (Marjaayoun)"
+  },
+  {
+   "id": "Q3906401",
+   "name": "Taynal Mosque",
+   "sl": 9,
+   "file": "Taynal Mosque2009a.JPG",
+   "lat": 34.4309,
+   "lon": 35.8376,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Taynal Mosque"
+  },
+  {
+   "id": "Q15060274",
+   "name": "Tyre Necropolis",
+   "sl": 9,
+   "file": "Al-Bass Arch Site P1010056.JPG",
+   "lat": 33.2722,
+   "lon": 35.2097,
+   "kind": "built",
+   "types": [
+    "Ancient Roman necropolis"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4702301",
+   "name": "Al-Bireh",
+   "sl": 8,
+   "file": "Bire 1.jpg",
+   "lat": 33.5839,
+   "lon": 35.8192,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement",
+    "village/town/city in Lebanon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Bireh, Lebanon"
+  },
+  {
+   "id": "Q2941131",
+   "name": "Casino du Liban",
+   "sl": 8,
+   "file": "CasinoduLiban.jpg",
+   "lat": 34.015,
+   "lon": 35.6405,
+   "kind": "built",
+   "types": [
+    "casino"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6378708",
+   "name": "Kaukaba",
+   "sl": 8,
+   "file": "22.Djisr-Burghuz, pont sur le Litany (Leontes).jpg",
+   "lat": 33.3956,
+   "lon": 35.6383,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kaukaba"
+  },
+  {
+   "id": "Q6555454",
+   "name": "Lion Tower",
+   "sl": 8,
+   "file": "Tripoli Tower of Lions edit.jpg",
+   "lat": 34.4498,
+   "lon": 35.8305,
+   "kind": "built",
+   "types": [
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lion Tower (Tripoli)"
+  },
+  {
+   "id": "Q40888888",
+   "name": "Mim Museum",
+   "sl": 8,
+   "file": "MIM (musée) Musée des minéraux - Beyrouth 02.jpg",
+   "lat": 33.88,
+   "lon": 35.5142,
+   "kind": "built",
+   "types": [
+    "mineralogical museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "MIM (musée)"
+  },
+  {
+   "id": "Q1127667",
+   "name": "Mseilha Fort",
+   "sl": 8,
+   "file": "قلعة المسيلحة.jpg",
+   "lat": 34.2738,
+   "lon": 35.6901,
+   "kind": "built",
+   "types": [
+    "crusader castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mseilha Fort"
+  },
+  {
+   "id": "Q7368795",
+   "name": "Rosh HaNikra Crossing",
+   "sl": 8,
+   "file": "Israel lebanon border.jpg",
+   "lat": 33.0942,
+   "lon": 35.1047,
+   "kind": "built",
+   "types": [
+    "bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Lebanon Border from Rosh Hanikra"
+  },
+  {
+   "id": "Q22948661",
+   "name": "Saint Elias Greek Catholic Cathedral",
+   "sl": 8,
+   "file": "MelkiteGreekCatholicArchdioceseOfBeirutAndJbeil RomanDeckert21112021.jpg",
+   "lat": 33.8967,
+   "lon": 35.5054,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Elias Greek Catholic Cathedral, Beirut"
+  }
+ ]
+}

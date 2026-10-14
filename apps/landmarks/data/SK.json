@@ -1,0 +1,1383 @@
+{
+ "country": "SK",
+ "items": [
+  {
+   "id": "Q194263",
+   "name": "Tatra Mountains",
+   "sl": 73,
+   "file": "Dolina Pieciu Stawow Polskich 2023-09-08.jpg",
+   "lat": 49.2006,
+   "lon": 19.9739,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Tatra Mountains"
+  },
+  {
+   "id": "Q672936",
+   "name": "Rysy",
+   "sl": 57,
+   "file": "Rysy, szczyt.jpg",
+   "lat": 49.1794,
+   "lon": 20.0881,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Rysy"
+  },
+  {
+   "id": "Q81213",
+   "name": "Gerlachovský štít",
+   "sl": 56,
+   "file": "Gerlachovsky stit from Velicka dolina.jpg",
+   "lat": 49.1642,
+   "lon": 20.1339,
+   "kind": "natural",
+   "types": [
+    "highest point",
+    "main peak",
+    "mountain",
+    "two-thousander"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gerlachovský štít"
+  },
+  {
+   "id": "Q690323",
+   "name": "High Tatras",
+   "sl": 51,
+   "file": "Panorama High Tatras from Poprad.jpg",
+   "lat": 49.1667,
+   "lon": 20.1333,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "High Tatra Mountains"
+  },
+  {
+   "id": "Q205558",
+   "name": "Spiš Castle",
+   "sl": 48,
+   "file": "SK SN Spis castle 2024 1.jpg",
+   "lat": 49.0006,
+   "lon": 20.7683,
+   "kind": "built",
+   "types": [
+    "castle ruin"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q6535830",
+    "name": "Levoča, Spiš Castle and the associated cultural monuments"
+   },
+   "also": [],
+   "cat": "Spiš Castle"
+  },
+  {
+   "id": "Q593311",
+   "name": "Bratislava Castle",
+   "sl": 47,
+   "file": "Bratislava - Burg (a).JPG",
+   "lat": 48.1422,
+   "lon": 17.1,
+   "kind": "built",
+   "types": [
+    "building complex",
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bratislava Castle"
+  },
+  {
+   "id": "Q1520849",
+   "name": "Bojnice Castle",
+   "sl": 43,
+   "file": "Bojnice Castle Slovakia.jpg",
+   "lat": 48.78,
+   "lon": 18.5777,
+   "kind": "built",
+   "types": [
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bojnice Castle"
+  },
+  {
+   "id": "Q1080683",
+   "name": "Tatra National Park",
+   "sl": 43,
+   "file": "Tatra mountains western side 2.jpg",
+   "lat": 49.1803,
+   "lon": 19.9194,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tatra Mountains"
+  },
+  {
+   "id": "Q828379",
+   "name": "M. R. Štefánik Airport",
+   "sl": 42,
+   "file": "Bratislava airport.jpg",
+   "lat": 48.17,
+   "lon": 17.2128,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "M. R. Štefánik Airport"
+  },
+  {
+   "id": "Q471717",
+   "name": "wooden churches of the Slovak Carpathians",
+   "sl": 41,
+   "file": "Drevený kostol Hronsek.JPG",
+   "lat": 49.3361,
+   "lon": 19.5583,
+   "kind": "",
+   "types": [],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Wooden churches in the Slovak region of the Carpathian Mountains"
+  },
+  {
+   "id": "Q558893",
+   "name": "Low Tatras",
+   "sl": 37,
+   "file": "Low Tatras - blue trail.jpg",
+   "lat": 48.95,
+   "lon": 19.5,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Low Tatras"
+  },
+  {
+   "id": "Q837291",
+   "name": "Bridge of the Slovak National Uprising",
+   "sl": 36,
+   "file": "Bratislava New Bridge from castle hill.JPG",
+   "lat": 48.1383,
+   "lon": 17.1044,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "observation tower",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Most SNP"
+  },
+  {
+   "id": "Q1507799",
+   "name": "Slovak Paradise National Park",
+   "sl": 36,
+   "file": "Slovensky raj-Stratenska pila.jpg",
+   "lat": 48.9083,
+   "lon": 20.4,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Slovak Paradise National Park"
+  },
+  {
+   "id": "Q608090",
+   "name": "Caves of Aggtelek Karst and Slovak Karst",
+   "sl": 35,
+   "file": "Domica Cave 22.jpg",
+   "lat": 48.4718,
+   "lon": 20.4953,
+   "kind": "",
+   "types": [
+    "cave system"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [
+    "HU"
+   ],
+   "cat": "Caves of Aggtelek Karst and Slovak Karst"
+  },
+  {
+   "id": "Q845990",
+   "name": "Kriváň",
+   "sl": 35,
+   "file": "Kriváň.JPG",
+   "lat": 49.1628,
+   "lon": 20,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kriváň"
+  },
+  {
+   "id": "Q830976",
+   "name": "Devín Castle",
+   "sl": 34,
+   "file": "Devin02.jpg",
+   "lat": 48.1739,
+   "lon": 16.9781,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Devín Castle"
+  },
+  {
+   "id": "Q426712",
+   "name": "Little Carpathians",
+   "sl": 34,
+   "file": "Malé Karpaty, 06 – Taricové skály, 2021 (01a).jpg",
+   "lat": 48.5236,
+   "lon": 17.3925,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Little Carpathians"
+  },
+  {
+   "id": "Q523671",
+   "name": "Malá Fatra",
+   "sl": 34,
+   "file": "Krivanska mala fatra hreben.jpg",
+   "lat": 49.1878,
+   "lon": 19.0311,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Malá Fatra"
+  },
+  {
+   "id": "Q777774",
+   "name": "Košice International Airport",
+   "sl": 33,
+   "file": "Kosice International Airport.jpg",
+   "lat": 48.6631,
+   "lon": 21.2411,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Košice Airport"
+  },
+  {
+   "id": "Q677415",
+   "name": "Pieniny",
+   "sl": 33,
+   "file": "Panorama Pieniny from Trzy Korony.jpg",
+   "lat": 49.4,
+   "lon": 20.4167,
+   "kind": "natural",
+   "types": [
+    "mountain range",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Pieniny"
+  },
+  {
+   "id": "Q239560",
+   "name": "St. Martin's Cathedral, Bratislava",
+   "sl": 33,
+   "file": "Bratislava-Dom-sv-Martina.jpg",
+   "lat": 48.1419,
+   "lon": 17.1047,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of St Martin, Bratislava"
+  },
+  {
+   "id": "Q595780",
+   "name": "Babia Góra",
+   "sl": 31,
+   "file": "Babia Gora.jpg",
+   "lat": 49.5731,
+   "lon": 19.5306,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Babia Góra"
+  },
+  {
+   "id": "Q778954",
+   "name": "Greater Fatra",
+   "sl": 31,
+   "file": "Velka Fatra, Krizna.jpg",
+   "lat": 48.9,
+   "lon": 19.0833,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Veľká Fatra"
+  },
+  {
+   "id": "Q1767601",
+   "name": "Low Tatras National Park",
+   "sl": 31,
+   "file": "Low tatra dumbier.jpg",
+   "lat": 48.9256,
+   "lon": 19.6325,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Low Tatras"
+  },
+  {
+   "id": "Q1093925",
+   "name": "Slovak National Museum",
+   "sl": 31,
+   "file": "Slovački Narodni muzej - panoramio.jpg",
+   "lat": 48.1402,
+   "lon": 17.1129,
+   "kind": "built",
+   "types": [
+    "national museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Slovak National Museum"
+  },
+  {
+   "id": "Q1338173",
+   "name": "White Carpathians",
+   "sl": 31,
+   "file": "Vršatecká bradlá1.jpg",
+   "lat": 48.8575,
+   "lon": 17.6747,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ"
+   ],
+   "cat": "Biele Karpaty"
+  },
+  {
+   "id": "Q607612",
+   "name": "Poloniny National Park",
+   "sl": 30,
+   "file": "Ďurkovec (pohľad z Ďurkovca) 001.jpg",
+   "lat": 49.0714,
+   "lon": 22.5336,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Národný park Poloniny"
+  },
+  {
+   "id": "Q392489",
+   "name": "Štrbské pleso",
+   "sl": 30,
+   "file": "STRBSKE PLESO.jpg",
+   "lat": 49.1225,
+   "lon": 20.0583,
+   "kind": "natural",
+   "types": [
+    "Tatra lakes"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Štrbské pleso (lake)"
+  },
+  {
+   "id": "Q1072105",
+   "name": "Lomnický štít",
+   "sl": 29,
+   "file": "Observatory Skalnate pleso.jpg",
+   "lat": 49.2,
+   "lon": 20.2128,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lomnický štít"
+  },
+  {
+   "id": "Q1089516",
+   "name": "Mária Valéria Bridge",
+   "sl": 29,
+   "file": "Maria-Valeria-Brücke, Esztergom 01.jpg",
+   "lat": 47.7953,
+   "lon": 18.7303,
+   "kind": "built",
+   "types": [
+    "international bridge",
+    "road bridge",
+    "steel bridge",
+    "truss bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "HU"
+   ],
+   "cat": "Marie Valerie Bridge"
+  },
+  {
+   "id": "Q284340",
+   "name": "Dobšinská Ice Cave",
+   "sl": 28,
+   "file": "Dobsinska ladova cave.jpg",
+   "lat": 48.8683,
+   "lon": 20.3044,
+   "kind": "both",
+   "types": [
+    "ice cave",
+    "national nature monument",
+    "protected area",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dobšinská ľadová jaskyňa"
+  },
+  {
+   "id": "Q568640",
+   "name": "Grassalkovich Palace",
+   "sl": 28,
+   "file": "Grasalkovičov palác Bratislava Oct. 2006 011.jpg",
+   "lat": 48.1494,
+   "lon": 17.1078,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grassalkovich Palace"
+  },
+  {
+   "id": "Q633849",
+   "name": "Silesian Beskids",
+   "sl": 28,
+   "file": "View of Skrzyczne from the watchtower on Barania Gora, 2006.jpg",
+   "lat": 49.6664,
+   "lon": 18.9378,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ",
+    "PL"
+   ],
+   "cat": "Silesian Beskids"
+  },
+  {
+   "id": "Q1072091",
+   "name": "Western Tatras",
+   "sl": 28,
+   "file": "Tatra mountains western side 2.jpg",
+   "lat": 49.2,
+   "lon": 19.75,
+   "kind": "natural",
+   "types": [
+    "geomorphological subunit",
+    "mountain range",
+    "tourist destination"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "West Tatra Mountains"
+  },
+  {
+   "id": "Q392291",
+   "name": "Štadión Antona Malatinského",
+   "sl": 27,
+   "file": "The City Arena in Trnava (2018).jpg",
+   "lat": 48.3733,
+   "lon": 17.5917,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "City Arena (Trnava)"
+  },
+  {
+   "id": "Q678465",
+   "name": "Trenčín Castle",
+   "sl": 27,
+   "file": "Trencin Castle 030.jpg",
+   "lat": 48.8942,
+   "lon": 18.0447,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Trenčín Castle"
+  },
+  {
+   "id": "Q612364",
+   "name": "Čachtice Castle",
+   "sl": 26,
+   "file": "Čachtice, hrad, Slovensko.jpg",
+   "lat": 48.7247,
+   "lon": 17.7608,
+   "kind": "built",
+   "types": [
+    "castle ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Čachtice Castle"
+  },
+  {
+   "id": "Q29894",
+   "name": "Orava Castle",
+   "sl": 26,
+   "file": "JBZamekOrawski v2.jpg",
+   "lat": 49.2617,
+   "lon": 19.3581,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orava Castle"
+  },
+  {
+   "id": "Q1351150",
+   "name": "Slovak Karst National Park",
+   "sl": 26,
+   "file": "Zadielska tiesnava.jpg",
+   "lat": 48.579,
+   "lon": 20.544,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q608090",
+    "name": "Caves of Aggtelek Karst and Slovak Karst"
+   },
+   "also": [],
+   "cat": "Slovak Karst National Park"
+  },
+  {
+   "id": "Q392323",
+   "name": "Štadión MŠK Žilina",
+   "sl": 26,
+   "file": "Zilina vs Slovan.JPG",
+   "lat": 49.2292,
+   "lon": 18.7447,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Štadión pod Dubňom"
+  },
+  {
+   "id": "Q579043",
+   "name": "Church of St. Elisabeth",
+   "sl": 25,
+   "file": "Blue Church, Bratislava 02.jpg",
+   "lat": 48.1434,
+   "lon": 17.1168,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Blue Church (Bratislava)"
+  },
+  {
+   "id": "Q908287",
+   "name": "Domica",
+   "sl": 25,
+   "file": "Domica Cave 22.jpg",
+   "lat": 48.4786,
+   "lon": 20.4728,
+   "kind": "both",
+   "types": [
+    "cave",
+    "national nature monument",
+    "protected area",
+    "show cave"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q608090",
+    "name": "Caves of Aggtelek Karst and Slovak Karst"
+   },
+   "also": [],
+   "cat": "Domica Cave"
+  },
+  {
+   "id": "Q1735189",
+   "name": "Kasprowy Wierch",
+   "sl": 25,
+   "file": "Kasprowy Wierch a1.jpg",
+   "lat": 49.2317,
+   "lon": 19.9817,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "PL"
+   ],
+   "cat": "Kasprowy Wierch"
+  },
+  {
+   "id": "Q1783680",
+   "name": "Pieniny National Park",
+   "sl": 25,
+   "file": "Dunajec and Lesnica.jpg",
+   "lat": 49.4,
+   "lon": 20.4569,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pieniny National Park (Slovakia)"
+  },
+  {
+   "id": "Q1432421",
+   "name": "Poprad-Tatry Airport",
+   "sl": 25,
+   "file": "Terminál letiska Poprad-Tatry.jpg",
+   "lat": 49.0736,
+   "lon": 20.2411,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Poprad-Tatry Airport"
+  },
+  {
+   "id": "Q569428",
+   "name": "Cathedral of St. Elizabeth",
+   "sl": 24,
+   "file": "Cathedral of St. Elizabeth in Košice.jpg",
+   "lat": 48.7205,
+   "lon": 21.2576,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral of St Elizabeth, Košice"
+  },
+  {
+   "id": "Q1076258",
+   "name": "Chopok",
+   "sl": 24,
+   "file": "Pohled na zimni Chopok.jpg",
+   "lat": 48.9431,
+   "lon": 19.5931,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chopok"
+  },
+  {
+   "id": "Q1075804",
+   "name": "Ochtinská Aragonite Cave",
+   "sl": 24,
+   "file": "Ochtina Aragonite Cave 14.jpg",
+   "lat": 48.6647,
+   "lon": 20.3092,
+   "kind": "both",
+   "types": [
+    "cave",
+    "national nature monument",
+    "protected area",
+    "show cave"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q608090",
+    "name": "Caves of Aggtelek Karst and Slovak Karst"
+   },
+   "also": [],
+   "cat": "Ochtina Aragonite Cave"
+  },
+  {
+   "id": "Q203932",
+   "name": "Ondrej Nepela Arena",
+   "sl": 24,
+   "file": "OndrejNepela4.JPG",
+   "lat": 48.16,
+   "lon": 17.1361,
+   "kind": "built",
+   "types": [
+    "multi-purpose hall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ondrej Nepela Arena"
+  },
+  {
+   "id": "Q1387301",
+   "name": "Maple Mountains",
+   "sl": 23,
+   "file": "Velký Javorník.jpg",
+   "lat": 49.25,
+   "lon": 18.5,
+   "kind": "natural",
+   "types": [
+    "mesoregion",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "CZ"
+   ],
+   "cat": "Javorníky"
+  },
+  {
+   "id": "Q1968946",
+   "name": "Muránska planina National Park",
+   "sl": 22,
+   "file": "Muráňská planina (2).JPG",
+   "lat": 48.7833,
+   "lon": 20.0333,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Muránska planina"
+  },
+  {
+   "id": "Q1432898",
+   "name": "Sliač Airport",
+   "sl": 22,
+   "file": "Airport Sliac.jpg",
+   "lat": 48.6381,
+   "lon": 19.1342,
+   "kind": "built",
+   "types": [
+    "airbase",
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sliač Airport"
+  },
+  {
+   "id": "Q1744024",
+   "name": "Slovak National Gallery",
+   "sl": 22,
+   "file": "SNG20250403 092013.jpg",
+   "lat": 48.14,
+   "lon": 17.1086,
+   "kind": "built",
+   "types": [
+    "national gallery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Slovak National Gallery"
+  },
+  {
+   "id": "Q7011535",
+   "name": "Tehelné pole",
+   "sl": 22,
+   "file": "Slovakia bratislava Národný futbalový štadión.jpg",
+   "lat": 48.1636,
+   "lon": 17.1369,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tehelné pole (football stadium)"
+  },
+  {
+   "id": "Q481659",
+   "name": "Universitas Istropolitana",
+   "sl": 22,
+   "file": "Blava 2007-3-28-33.jpg",
+   "lat": 48.1425,
+   "lon": 17.1064,
+   "kind": "built",
+   "types": [
+    "house",
+    "university"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Universitas Istropolitana"
+  },
+  {
+   "id": "Q1567025",
+   "name": "Malá Fatra National Park",
+   "sl": 21,
+   "file": "Velky Rozsutec.jpg",
+   "lat": 49.2139,
+   "lon": 19.0808,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Národný park Malá Fatra"
+  },
+  {
+   "id": "Q937895",
+   "name": "Steel Aréna",
+   "sl": 21,
+   "file": "Steel Arena Košice.jpg",
+   "lat": 48.7147,
+   "lon": 21.2481,
+   "kind": "built",
+   "types": [
+    "indoor ice rink",
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Steel Aréna"
+  },
+  {
+   "id": "Q189395",
+   "name": "Zemplínska šírava",
+   "sl": 21,
+   "file": "Slovakia Zemplinska Sirava 10.jpg",
+   "lat": 48.7833,
+   "lon": 22.0367,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zemplínska Šírava Reservoir"
+  },
+  {
+   "id": "Q631356",
+   "name": "Baradla cave",
+   "sl": 20,
+   "file": "Domica Cave 22.jpg",
+   "lat": 48.4718,
+   "lon": 20.4953,
+   "kind": "both",
+   "types": [
+    "cave",
+    "show cave"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "HU"
+   ],
+   "cat": "Baradla Cave"
+  },
+  {
+   "id": "Q8415744",
+   "name": "Basilica of St. Giles",
+   "sl": 20,
+   "file": "Bazilika sv. Jiljí.jpg",
+   "lat": 49.2935,
+   "lon": 21.2755,
+   "kind": "built",
+   "types": [
+    "church building",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Basilica of St Giles, Bardejov"
+  },
+  {
+   "id": "Q899662",
+   "name": "Bratislava hlavná stanica",
+   "sl": 20,
+   "file": "Bratislava Main Station Bratislava hlavná stanica.jpg",
+   "lat": 48.1583,
+   "lon": 17.1069,
+   "kind": "built",
+   "types": [
+    "railway station",
+    "station building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bratislava hlavná stanica"
+  },
+  {
+   "id": "Q341905",
+   "name": "Ďumbier",
+   "sl": 20,
+   "file": "Ďumbier1.JPG",
+   "lat": 48.9366,
+   "lon": 19.6402,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ďumbier"
+  },
+  {
+   "id": "Q686513",
+   "name": "Kráľova hoľa",
+   "sl": 20,
+   "file": "Kráľova hoľa 009.jpg",
+   "lat": 48.883,
+   "lon": 20.1391,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kráľova hoľa"
+  },
+  {
+   "id": "Q1786462",
+   "name": "Stužica",
+   "sl": 20,
+   "file": "Stužica primeval forest, Slovakia.jpg",
+   "lat": 49.0833,
+   "lon": 22.5333,
+   "kind": "natural",
+   "types": [
+    "nature reserve",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stužica forest"
+  },
+  {
+   "id": "Q1584020",
+   "name": "Tehelné pole",
+   "sl": 20,
+   "file": "Slovan Bratislava vs. Olympiakos FC, 2009.jpg",
+   "lat": 48.1636,
+   "lon": 17.1369,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tehelné pole (football stadium)"
+  },
+  {
+   "id": "Q618937",
+   "name": "Apollo Bridge",
+   "sl": 19,
+   "file": "Apollo bridge at night.JPG",
+   "lat": 48.1375,
+   "lon": 17.1281,
+   "kind": "built",
+   "types": [
+    "road bridge",
+    "steel bridge",
+    "through arch bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Most Apollo"
+  },
+  {
+   "id": "Q1804836",
+   "name": "Budatín Castle",
+   "sl": 19,
+   "file": "Budatín hrad - by Pudelek.jpg",
+   "lat": 49.2364,
+   "lon": 18.7339,
+   "kind": "built",
+   "types": [
+    "castle",
+    "château"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Budatín Castle"
+  },
+  {
+   "id": "Q1014752",
+   "name": "Červený Kameň Castle",
+   "sl": 19,
+   "file": "Cerveny Kamen z Kukly 02.jpg",
+   "lat": 48.3917,
+   "lon": 17.3356,
+   "kind": "built",
+   "types": [
+    "castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Červený Kameň"
+  },
+  {
+   "id": "Q592319",
+   "name": "Krásna Hôrka Castle",
+   "sl": 19,
+   "file": "Krasznahorkacivertanlegi2.jpg",
+   "lat": 48.6582,
+   "lon": 20.6003,
+   "kind": "built",
+   "types": [
+    "castle",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Krásna Hôrka"
+  },
+  {
+   "id": "Q1050227",
+   "name": "Kremnica Mint",
+   "sl": 19,
+   "file": "Kremnica mint- J.P. II.jpg",
+   "lat": 48.7053,
+   "lon": 18.916,
+   "kind": "built",
+   "types": [
+    "mint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kremnica mint"
+  },
+  {
+   "id": "Q1130334",
+   "name": "Liptovská Mara",
+   "sl": 19,
+   "file": "Liptovska Mara.jpg",
+   "lat": 49.0986,
+   "lon": 19.4889,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Liptovská Mara"
+  },
+  {
+   "id": "Q737728",
+   "name": "Orava",
+   "sl": 19,
+   "file": "Slovakia Orava 3.jpg",
+   "lat": 49.3821,
+   "lon": 19.5577,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Orava Reservoir"
+  },
+  {
+   "id": "Q942883",
+   "name": "St. Emmeram's Cathedral, Nitra",
+   "sl": 19,
+   "file": "Cathedral Basilica of St Emmeram in Nitra1.JPG",
+   "lat": 48.3185,
+   "lon": 18.0871,
+   "kind": "built",
+   "types": [
+    "cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathedral Basilica of St Emmeram, Nitra"
+  },
+  {
+   "id": "Q958003",
+   "name": "Veľká Fatra National Park",
+   "sl": 19,
+   "file": "Rakytov, Veľká Fatra (SVK) - southern side.jpg",
+   "lat": 49.0167,
+   "lon": 19.1167,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Veľká Fatra"
+  },
+  {
+   "id": "Q1315015",
+   "name": "Zvolen Castle",
+   "sl": 19,
+   "file": "Zvolenský hrad.JPG",
+   "lat": 48.5729,
+   "lon": 19.1274,
+   "kind": "built",
+   "types": [
+    "château",
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zvolen Castle"
+  },
+  {
+   "id": "Q220232",
+   "name": "Bratislava Zoo",
+   "sl": 18,
+   "file": "Bratislava ZOO - Entrance.jpg",
+   "lat": 48.1622,
+   "lon": 17.0744,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bratislava Zoo"
+  },
+  {
+   "id": "Q1067603",
+   "name": "Lanfranconi Bridge",
+   "sl": 18,
+   "file": "Lafranconi Bréck.jpg",
+   "lat": 48.1428,
+   "lon": 17.0756,
+   "kind": "built",
+   "types": [
+    "reinforced concrete bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lafranconi Bridge"
+  },
+  {
+   "id": "Q1717975",
+   "name": "Michael's Gate",
+   "sl": 18,
+   "file": "Bratislava, Michalská veža, Slovensko.jpg",
+   "lat": 48.1451,
+   "lon": 17.1068,
+   "kind": "built",
+   "types": [
+    "city gate",
+    "tower"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Michael's Gate"
+  },
+  {
+   "id": "Q2639347",
+   "name": "Morské oko",
+   "sl": 18,
+   "file": "Morské oko 022.jpg",
+   "lat": 48.9156,
+   "lon": 22.1983,
+   "kind": "natural",
+   "types": [
+    "former protected area",
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Morské oko"
+  },
+  {
+   "id": "Q439356",
+   "name": "Old Town Hall",
+   "sl": 18,
+   "file": "Bratislava Františkánské náměstí 2.jpg",
+   "lat": 48.1436,
+   "lon": 17.1089,
+   "kind": "built",
+   "types": [
+    "Rathaus"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Old Town Hall, Bratislava"
+  }
+ ]
+}

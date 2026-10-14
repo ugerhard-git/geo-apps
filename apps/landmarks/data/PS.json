@@ -1,0 +1,1422 @@
+{
+ "country": "PS",
+ "items": [
+  {
+   "id": "Q23883",
+   "name": "Dead Sea",
+   "sl": 163,
+   "file": "Dead Sea by David Shankbone.jpg",
+   "lat": 31.5207,
+   "lon": 35.4845,
+   "kind": "natural",
+   "types": [
+    "endorheic lake",
+    "hypersaline lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL",
+    "JO"
+   ],
+   "cat": "Dead Sea"
+  },
+  {
+   "id": "Q12192963",
+   "name": "Al-Aqsa Mosque",
+   "sl": 103,
+   "file": "Jerusalem-2013-Temple Mount-Al-Aqsa Mosque (NE exposure).jpg",
+   "lat": 31.7761,
+   "lon": 35.2358,
+   "kind": "built",
+   "types": [
+    "congregational mosque",
+    "mosque",
+    "musalla",
+    "sacred place"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [],
+   "cat": "Al-Qibli Chapel"
+  },
+  {
+   "id": "Q172077",
+   "name": "Dome of the Rock",
+   "sl": 87,
+   "file": "16-04-04-Felsendom-Tempelberg-Jerusalem-RalfR-WAT 6385.jpg",
+   "lat": 31.7781,
+   "lon": 35.2353,
+   "kind": "built",
+   "types": [
+    "dome",
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [],
+   "cat": "Dome of the Rock"
+  },
+  {
+   "id": "Q134821",
+   "name": "Western Wall",
+   "sl": 84,
+   "file": "16-03-30-Klagemauer Jerusalem RalfR-DSCF7673.jpg",
+   "lat": 31.7769,
+   "lon": 35.2343,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "sacred place",
+    "wall"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [],
+   "cat": "Western Wall"
+  },
+  {
+   "id": "Q3906600",
+   "name": "Temple in Jerusalem",
+   "sl": 78,
+   "file": "Israel Museum 17311 (14262124886).jpg",
+   "lat": 31.7778,
+   "lon": 35.2356,
+   "kind": "built",
+   "types": [
+    "biblical concept",
+    "destroyed building or structure",
+    "sacred place",
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "First and Second Jewish temple in Jerusalem"
+  },
+  {
+   "id": "Q187702",
+   "name": "Church of the Holy Sepulchre",
+   "sl": 76,
+   "file": "The Church of the Holy Sepulchre-Jerusalem.JPG",
+   "lat": 31.7784,
+   "lon": 35.2298,
+   "kind": "built",
+   "types": [
+    "architectural heritage monument",
+    "cathedral",
+    "church building",
+    "heritage site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Church of the Holy Sepulchre (Jerusalem)"
+  },
+  {
+   "id": "Q2909160",
+   "name": "The Temple Institute",
+   "sl": 76,
+   "file": "מכון המקדש - 1.jpg",
+   "lat": 31.7755,
+   "lon": 35.2331,
+   "kind": "built",
+   "types": [
+    "museum",
+    "nonprofit organization"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "The Temple Institute"
+  },
+  {
+   "id": "Q194504",
+   "name": "Church of the Nativity",
+   "sl": 62,
+   "file": "Church of the Nativity (7703592746).jpg",
+   "lat": 31.7043,
+   "lon": 35.2076,
+   "kind": "built",
+   "types": [
+    "basilica",
+    "minor basilica",
+    "World Heritage Site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q79395074",
+    "name": "Birthplace of Jesus: Church of the Nativity and the Pilgrimage Route, Bethlehem"
+   },
+   "also": [],
+   "cat": "Church of the Nativity (Bethlehem)"
+  },
+  {
+   "id": "Q204200",
+   "name": "Cavern of the Patriarchs",
+   "sl": 53,
+   "file": "Hebron Cave of the Patriarchs.jpg",
+   "lat": 31.5247,
+   "lon": 35.1108,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "cave",
+    "mausoleum",
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cave of the Patriarchs"
+  },
+  {
+   "id": "Q223399",
+   "name": "Qumran",
+   "sl": 51,
+   "file": "Kumeran4.jpg",
+   "lat": 31.7419,
+   "lon": 35.4599,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "Jewish settlement in the land of Israel",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qumran"
+  },
+  {
+   "id": "Q312818",
+   "name": "Mount Scopus",
+   "sl": 49,
+   "file": "MountScopusDec032022 03.jpg",
+   "lat": 31.7925,
+   "lon": 35.2442,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Mount Scopus"
+  },
+  {
+   "id": "Q2046004",
+   "name": "Judaean Desert",
+   "sl": 48,
+   "file": "JudeanDesert.jpg",
+   "lat": 31.7,
+   "lon": 35.3,
+   "kind": "natural",
+   "types": [
+    "desert"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Judean Desert"
+  },
+  {
+   "id": "Q1288751",
+   "name": "Mount Gerizim",
+   "sl": 43,
+   "file": "רכס הר גריזים.jpg",
+   "lat": 32.1994,
+   "lon": 35.2728,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Gerizim"
+  },
+  {
+   "id": "Q524253",
+   "name": "Israeli West Bank barrier",
+   "sl": 40,
+   "file": "Qalandia checkpoint - panoramio (535).jpg",
+   "lat": 31.8907,
+   "lon": 35.1617,
+   "kind": "built",
+   "types": [
+    "defense line",
+    "separation barrier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Israeli West Bank barrier"
+  },
+  {
+   "id": "Q947597",
+   "name": "Damascus Gate",
+   "sl": 38,
+   "file": "Damascus Gate IMG 3146.jpg",
+   "lat": 31.7816,
+   "lon": 35.2305,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [],
+   "cat": "Damascus Gate"
+  },
+  {
+   "id": "Q860532",
+   "name": "Kidron Valley",
+   "sl": 36,
+   "file": "KidronValleyFromOldCity.JPG",
+   "lat": 31.777,
+   "lon": 35.239,
+   "kind": "natural",
+   "types": [
+    "valley"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Wadi al-Nar"
+  },
+  {
+   "id": "Q312812",
+   "name": "Jaffa Gate",
+   "sl": 35,
+   "file": "Jaffa Gate Jerusalem.jpg",
+   "lat": 31.7765,
+   "lon": 35.2277,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [],
+   "cat": "Jaffa Gate"
+  },
+  {
+   "id": "Q985542",
+   "name": "Shiloh",
+   "sl": 34,
+   "file": "Flickr - RonAlmog - תל שילה (6).jpg",
+   "lat": 32.0557,
+   "lon": 35.2895,
+   "kind": "both",
+   "types": [
+    "ancient city",
+    "archaeological site",
+    "biblical place",
+    "tell"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tel Shilo"
+  },
+  {
+   "id": "Q1177765",
+   "name": "Tower of David",
+   "sl": 34,
+   "file": "מגדל -דוד.jpg",
+   "lat": 31.7761,
+   "lon": 35.2278,
+   "kind": "built",
+   "types": [
+    "citadel",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tower of David"
+  },
+  {
+   "id": "Q1059946",
+   "name": "Holy Lavra of Saint Sabbas",
+   "sl": 32,
+   "file": "Mar Saba IMG 1849.JPG",
+   "lat": 31.705,
+   "lon": 35.331,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mar Saba"
+  },
+  {
+   "id": "Q1063604",
+   "name": "Yasser Arafat International Airport",
+   "sl": 32,
+   "file": "Gaza AirPort , Gaza , 2-1-2011 (47).jpg",
+   "lat": 31.2464,
+   "lon": 34.2761,
+   "kind": "built",
+   "types": [
+    "airport",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Yasser Arafat International Airport"
+  },
+  {
+   "id": "Q2919372",
+   "name": "Al-Shifa Hospital",
+   "sl": 31,
+   "file": "مستشفى الشفاء في غزة بعد القصف، 2025، J.B20241221 7938.MP4.22 27 32 15.Still001.jpg",
+   "lat": 31.5242,
+   "lon": 34.4442,
+   "kind": "built",
+   "types": [
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Shifa Medical Complex"
+  },
+  {
+   "id": "Q1367167",
+   "name": "Golden Gate",
+   "sl": 31,
+   "file": "Golden Gate Jerusalem 2009.JPG",
+   "lat": 31.7789,
+   "lon": 35.2369,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [],
+   "cat": "Golden Gate (Jerusalem)"
+  },
+  {
+   "id": "Q739415",
+   "name": "Great Mosque of Gaza",
+   "sl": 31,
+   "file": "المسجد العمري الكبير في غزة بعد القصف والدمار.jpg",
+   "lat": 31.504,
+   "lon": 34.4644,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Gaza"
+  },
+  {
+   "id": "Q2151217",
+   "name": "Mosque of Omar",
+   "sl": 31,
+   "file": "Umar Mosque,Jerusalem123.jpg",
+   "lat": 31.7778,
+   "lon": 35.2296,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Mosque of Omar (Jerusalem)"
+  },
+  {
+   "id": "Q2564302",
+   "name": "Rafah Border Crossing",
+   "sl": 30,
+   "file": "Egyptian Convoy to Gaza, Palestine.jpg",
+   "lat": 31.2486,
+   "lon": 34.2592,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "border crossing"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG"
+   ],
+   "cat": "Rafah Land Port"
+  },
+  {
+   "id": "Q968028",
+   "name": "Tomb of the Virgin Mary",
+   "sl": 30,
+   "file": "Mary's tomb PA180052.JPG",
+   "lat": 31.7801,
+   "lon": 35.2394,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mary's Tomb"
+  },
+  {
+   "id": "Q3584217",
+   "name": "Church of Saint Porphyrius",
+   "sl": 28,
+   "file": "Saint Porphyrius Church, Gaza City.jpg",
+   "lat": 31.504,
+   "lon": 34.462,
+   "kind": "built",
+   "types": [
+    "church building",
+    "Greek Orthodoxy"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Porphyrius Church (Gaza City)"
+  },
+  {
+   "id": "Q765017",
+   "name": "Saladin Corridor",
+   "sl": 28,
+   "file": "Philadelphie-route01.jpg",
+   "lat": 31.2481,
+   "lon": 34.2571,
+   "kind": "built",
+   "types": [
+    "border barrier",
+    "buffer zone",
+    "demilitarized zone",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "EG"
+   ],
+   "cat": "Saladin Corridor"
+  },
+  {
+   "id": "Q773726",
+   "name": "Chapel of the Ascension",
+   "sl": 27,
+   "file": "5035-20080122-jerusalem-mt-olives-ascension-edicule.jpg",
+   "lat": 31.779,
+   "lon": 35.245,
+   "kind": "built",
+   "types": [
+    "chapel",
+    "heritage site",
+    "mosque",
+    "sanctuary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chapel of the Ascension"
+  },
+  {
+   "id": "Q1331689",
+   "name": "Church of All Nations",
+   "sl": 27,
+   "file": "Church of all Nations.jpg",
+   "lat": 31.7792,
+   "lon": 35.2396,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "art collection",
+    "Catholic church building",
+    "Catholic pilgrimage church"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Church of All Nations (Jerusalem)"
+  },
+  {
+   "id": "Q333594",
+   "name": "Church of Mary Magdalene",
+   "sl": 27,
+   "file": "كنيسة مريم المجدلية (الكنيسة الروسية).jpg",
+   "lat": 31.7789,
+   "lon": 35.2407,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Mary Magdalene Church (Jerusalem)"
+  },
+  {
+   "id": "Q1297538",
+   "name": "Joseph's Tomb",
+   "sl": 27,
+   "file": "Tomb of Joseph at Shechem 1839, by David Roberts.jpg",
+   "lat": 32.2127,
+   "lon": 35.2855,
+   "kind": "built",
+   "types": [
+    "funerary structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Joseph's Tomb"
+  },
+  {
+   "id": "Q204719",
+   "name": "Dung Gate",
+   "sl": 26,
+   "file": "Jerusalem Dungtor BW 1.JPG",
+   "lat": 31.7747,
+   "lon": 35.2339,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [
+    "IL"
+   ],
+   "cat": "Dung Gate"
+  },
+  {
+   "id": "Q1975866",
+   "name": "Mount Ebal",
+   "sl": 26,
+   "file": "Ebal IMG 2155.JPG",
+   "lat": 32.234,
+   "lon": 35.2733,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Ebal, West Bank"
+  },
+  {
+   "id": "Q1151525",
+   "name": "Hurva Synagogue",
+   "sl": 25,
+   "file": "Hurva 31 May 2010.JPG",
+   "lat": 31.7751,
+   "lon": 35.2314,
+   "kind": "built",
+   "types": [
+    "main synagogue",
+    "synagogue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Hurva Synagogue"
+  },
+  {
+   "id": "Q1484405",
+   "name": "Herod's Gate",
+   "sl": 24,
+   "file": "Puerta de Herodes, Jerusalén.jpg",
+   "lat": 31.783,
+   "lon": 35.2338,
+   "kind": "built",
+   "types": [
+    "city gate"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [],
+   "cat": "Herod's Gate"
+  },
+  {
+   "id": "Q1679519",
+   "name": "Jacob's Well",
+   "sl": 24,
+   "file": "Jacob's Well in 2013.jpg",
+   "lat": 32.2094,
+   "lon": 35.2854,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "sanctuary"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Jacob's Well, Nablus"
+  },
+  {
+   "id": "Q121610806",
+   "name": "Masjid Al-Aqsa",
+   "sl": 23,
+   "file": "Jerusalem-2013-Aerial-Temple Mount 02.jpg",
+   "lat": 31.778,
+   "lon": 35.236,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "congregational mosque",
+    "educational institution",
+    "religious complex"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Aqsa"
+  },
+  {
+   "id": "Q10742877",
+   "name": "Mount of Temptation",
+   "sl": 23,
+   "file": "Palestine Jericho2 tango7174.jpg",
+   "lat": 31.8747,
+   "lon": 35.4306,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount of Temptation"
+  },
+  {
+   "id": "Q2402267",
+   "name": "Tell es-Sultan",
+   "sl": 23,
+   "file": "Tell es-sultan.jpg",
+   "lat": 31.8717,
+   "lon": 35.4446,
+   "kind": "built",
+   "types": [
+    "Bronze Age settlement",
+    "Neolithic settlement",
+    "proto-city"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tell es-Sultan"
+  },
+  {
+   "id": "Q712133",
+   "name": "Allenby Bridge",
+   "sl": 22,
+   "file": "Allenby-Brücke.jpg",
+   "lat": 31.8742,
+   "lon": 35.5408,
+   "kind": "built",
+   "types": [
+    "border checkpoint",
+    "extradosed bridge",
+    "international bridge",
+    "prestressed concrete bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "JO"
+   ],
+   "cat": "Allenby Bridge"
+  },
+  {
+   "id": "Q2892250",
+   "name": "Milk Grotto Chapel",
+   "sl": 22,
+   "file": "A Churches in Bethlehem3.jpg",
+   "lat": 31.7034,
+   "lon": 35.2088,
+   "kind": "built",
+   "types": [
+    "chapel"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Milk Grotto in Bethlehem"
+  },
+  {
+   "id": "Q2424300",
+   "name": "Rachel's Tomb",
+   "sl": 22,
+   "file": "Bethlehem rachel tomb 1880.jpg",
+   "lat": 31.7219,
+   "lon": 35.2031,
+   "kind": "built",
+   "types": [
+    "Nefesh",
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rachel's Tomb"
+  },
+  {
+   "id": "Q2141548",
+   "name": "Dome of the Chain",
+   "sl": 21,
+   "file": "Jerusalem-2013(2)-Temple Mount-Dome of the Chain (south exposure).jpg",
+   "lat": 31.7781,
+   "lon": 35.2358,
+   "kind": "built",
+   "types": [
+    "religious building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dome of the Chain"
+  },
+  {
+   "id": "Q1574073",
+   "name": "Qasr al-Yahud",
+   "sl": 21,
+   "file": "Kasser 082.jpg",
+   "lat": 31.8371,
+   "lon": 35.5465,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "human settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Qasr al-Yahud"
+  },
+  {
+   "id": "Q2918480",
+   "name": "Sebastia",
+   "sl": 21,
+   "file": "Sebastia vill.jpg",
+   "lat": 32.2667,
+   "lon": 35.1833,
+   "kind": "",
+   "types": [
+    "human settlement"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Sebastia, Nablus"
+  },
+  {
+   "id": "Q2667420",
+   "name": "Mosque of Omar",
+   "sl": 20,
+   "file": "Bethlehem.JPG",
+   "lat": 31.7045,
+   "lon": 35.2055,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosque of Omar (Bethlehem)"
+  },
+  {
+   "id": "Q1551966",
+   "name": "Saint Anne's Church",
+   "sl": 20,
+   "file": "Church of St Anne (Jerusalem) (05).jpg",
+   "lat": 31.7814,
+   "lon": 35.2364,
+   "kind": "built",
+   "types": [
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of St Anne (Jerusalem)"
+  },
+  {
+   "id": "Q2456319",
+   "name": "Hisham's Palace",
+   "sl": 19,
+   "file": "Hisham Palace in Jericho2.jpg",
+   "lat": 31.8819,
+   "lon": 35.4598,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "palace",
+    "Umayyad desert castles"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Khirbat al Mafjar"
+  },
+  {
+   "id": "Q3407496",
+   "name": "Islamic Museum",
+   "sl": 19,
+   "file": "Jerusalem-2013-Islamic Museum (sign).jpg",
+   "lat": 31.7761,
+   "lon": 35.2348,
+   "kind": "built",
+   "types": [
+    "Islamic museum"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [
+    "IL"
+   ],
+   "cat": "Islamic Museum, al-Aqsa"
+  },
+  {
+   "id": "Q2668745",
+   "name": "Monastery of the Temptation",
+   "sl": 19,
+   "file": "Monastery of the Temptation (Jeriho).jpg",
+   "lat": 31.8746,
+   "lon": 35.4322,
+   "kind": "built",
+   "types": [
+    "monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Monastery of the Temptation"
+  },
+  {
+   "id": "Q1499131",
+   "name": "Church of the Flagellation",
+   "sl": 18,
+   "file": "Geisselungskapelle BW 1.JPG",
+   "lat": 31.7805,
+   "lon": 35.2344,
+   "kind": "built",
+   "types": [
+    "Catholic church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Flagellation"
+  },
+  {
+   "id": "Q15958519",
+   "name": "Holy Family Church",
+   "sl": 18,
+   "file": "Holy Family Church in Gaza.jpg",
+   "lat": 31.5241,
+   "lon": 34.452,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Holy Family church in Gaza City"
+  },
+  {
+   "id": "Q2568172",
+   "name": "Dome of the Ascension",
+   "sl": 17,
+   "file": "Jerusalem-2013-Temple Mount-Dome of the Ascension 04.jpg",
+   "lat": 31.7782,
+   "lon": 35.2349,
+   "kind": "built",
+   "types": [
+    "built structure"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Dome of the Ascension"
+  },
+  {
+   "id": "Q2319323",
+   "name": "Erez Crossing",
+   "sl": 17,
+   "file": "חיילים מעבר ארז חרבות ברזל.jpg",
+   "lat": 31.5582,
+   "lon": 34.5448,
+   "kind": "built",
+   "types": [
+    "border checkpoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Erez crossing"
+  },
+  {
+   "id": "Q1355780",
+   "name": "Lutheran Church of the Redeemer",
+   "sl": 17,
+   "file": "Lutheran Church of the Redeemer (2008).JPG",
+   "lat": 31.7778,
+   "lon": 35.2306,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Lutheran Church of the Redeemer"
+  },
+  {
+   "id": "Q4022315",
+   "name": "Great Mosque of Nablus",
+   "sl": 16,
+   "file": "الجامع الصلاحي الكبير في نابلس.JPG",
+   "lat": 32.218,
+   "lon": 35.2693,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Nablus"
+  },
+  {
+   "id": "Q6393780",
+   "name": "Kerem Shalom border crossing",
+   "sl": 16,
+   "file": "Kerem Shalom border crossing - US Shannon visit (29233312732).jpg",
+   "lat": 31.2208,
+   "lon": 34.2706,
+   "kind": "built",
+   "types": [
+    "border checkpoint"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Kerem Shalom crossing"
+  },
+  {
+   "id": "Q123140218",
+   "name": "Saint Hilarion monastery",
+   "sl": 16,
+   "file": "GAZA003.jpg",
+   "lat": 31.4472,
+   "lon": 34.3663,
+   "kind": "built",
+   "types": [
+    "monastery",
+    "religious complex"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q7697530",
+    "name": "Tell Umm el-'Amr"
+   },
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q601742",
+   "name": "Alexandreion",
+   "sl": 15,
+   "file": "Heart shaped stone.jpg",
+   "lat": 32.0958,
+   "lon": 35.4614,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "fortress"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sartaba"
+  },
+  {
+   "id": "Q3275388",
+   "name": "Gaza Airstrip",
+   "sl": 15,
+   "file": "Gush Katif AIrport.jpg",
+   "lat": 31.3671,
+   "lon": 34.2947,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2917385",
+   "name": "Gaza synagogue",
+   "sl": 15,
+   "file": "PikiWiki Israel 75624 finds in synagogue excavations.jpg",
+   "lat": 31.5205,
+   "lon": 34.4325,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "synagogue ruin"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gaza synagogue"
+  },
+  {
+   "id": "Q65212656",
+   "name": "Indonesia Hospital",
+   "sl": 15,
+   "file": "Images of war 23-25 from Gaza, by Jaber Badwen, IMG 5523.jpg",
+   "lat": 31.5352,
+   "lon": 34.5094,
+   "kind": "built",
+   "types": [
+    "hospital"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Indonesian Hospital, Gaza"
+  },
+  {
+   "id": "Q2657964",
+   "name": "Marwani Mosque",
+   "sl": 15,
+   "file": "Salamounovy staje.jpg",
+   "lat": 31.7764,
+   "lon": 35.2369,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q121610806",
+    "name": "Masjid Al-Aqsa"
+   },
+   "also": [],
+   "cat": "Solomon's Stables"
+  },
+  {
+   "id": "Q6922335",
+   "name": "Mount Nabi Yunis",
+   "sl": 15,
+   "file": "Mount Nabi Yunis in Halhul, Palestine.jpg",
+   "lat": 31.5794,
+   "lon": 35.105,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Nabi Yunis"
+  },
+  {
+   "id": "Q2916617",
+   "name": "Solomon's Pools",
+   "sl": 15,
+   "file": "برك سليمان ارطاس.jpg",
+   "lat": 31.689,
+   "lon": 35.1698,
+   "kind": "both",
+   "types": [
+    "ancient Roman cistern",
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Solomon's Pools"
+  },
+  {
+   "id": "Q492091",
+   "name": "Tomb of Zechariah",
+   "sl": 15,
+   "file": "Jerusalem - Pyramide de Zacharie.jpg",
+   "lat": 31.7762,
+   "lon": 35.2391,
+   "kind": "built",
+   "types": [
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Tomb of Zechariah"
+  },
+  {
+   "id": "Q6863203",
+   "name": "Bab al-Asbat Minaret",
+   "sl": 14,
+   "file": "مئذنة باب الاسباط.JPG",
+   "lat": 31.7802,
+   "lon": 35.2364,
+   "kind": "built",
+   "types": [
+    "minaret"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bab al-Asbat Minaret"
+  },
+  {
+   "id": "Q12408516",
+   "name": "Church of St. Catherine",
+   "sl": 14,
+   "file": "Bethlehem Katharinenkirche Fassade.JPG",
+   "lat": 31.7046,
+   "lon": 35.2076,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of Saint Catherine of Alexandria at the Basilica of the Nativity"
+  },
+  {
+   "id": "Q1761639",
+   "name": "Church of the Condemnation and Imposition of the Cross",
+   "sl": 14,
+   "file": "Church of the Condemnation IMG 1582.jpg",
+   "lat": 31.7804,
+   "lon": 35.2337,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Church of the Condemnation and Imposition of the Cross"
+  },
+  {
+   "id": "Q2916407",
+   "name": "Dothan",
+   "sl": 14,
+   "file": "Dothan, where Joseph was sold by his brethren American Colony, Jerusalem.jpg",
+   "lat": 32.4135,
+   "lon": 35.2399,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "biblical place"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tel Dothan"
+  },
+  {
+   "id": "Q1953449",
+   "name": "Mukataa Ramallah",
+   "sl": 14,
+   "file": "Ramallah Muqata'a 2013.jpg",
+   "lat": 31.9123,
+   "lon": 35.2086,
+   "kind": "built",
+   "types": [
+    "presidential palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mukataa Ramallah"
+  },
+  {
+   "id": "Q7231144",
+   "name": "Port of Gaza",
+   "sl": 14,
+   "file": "GazaPort.JPG",
+   "lat": 31.5252,
+   "lon": 34.4311,
+   "kind": "both",
+   "types": [
+    "port"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Port of Gaza"
+  },
+  {
+   "id": "Q2917302",
+   "name": "Tall Asur",
+   "sl": 14,
+   "file": "Jacob's Dream Promenade IMG 2031.JPG",
+   "lat": 31.9786,
+   "lon": 35.2861,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "summit"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baal-Hazor"
+  },
+  {
+   "id": "Q7697530",
+   "name": "Tell Umm el-'Amr",
+   "sl": 14,
+   "file": "GAZA0010.jpg",
+   "lat": 31.4472,
+   "lon": 34.3664,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "built structure"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tell Umm Amer"
+  },
+  {
+   "id": "Q1708945",
+   "name": "Tomb of Benei Hezir",
+   "sl": 14,
+   "file": "Hezir tomb.JPG",
+   "lat": 31.7764,
+   "lon": 35.2391,
+   "kind": "built",
+   "types": [
+    "tomb"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Bnei Hazir tomb"
+  },
+  {
+   "id": "Q2474899",
+   "name": "Abraham's Oak Holy Trinity Monastery",
+   "sl": 13,
+   "file": "Russian monastery in Hebron.jpg",
+   "lat": 31.5379,
+   "lon": 35.085,
+   "kind": "built",
+   "types": [
+    "eastern orthodox monastery"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Abraham's Oak Holy Trinity Monastery"
+  },
+  {
+   "id": "Q4702683",
+   "name": "Al-Khadra Mosque",
+   "sl": 13,
+   "file": "Al-Khadra Mosque.jpg",
+   "lat": 32.2124,
+   "lon": 35.2709,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Al-Khadra Mosque"
+  },
+  {
+   "id": "Q2030638",
+   "name": "An-Nasr Mosque",
+   "sl": 13,
+   "file": "Nasr Mosque Nablus.JPG",
+   "lat": 32.2189,
+   "lon": 35.2614,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "An-Nasr Mosque"
+  }
+ ]
+}

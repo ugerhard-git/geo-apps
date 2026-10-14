@@ -60,25 +60,6 @@
    "cat": "Kiyomizu-dera"
   },
   {
-   "id": "Q200267",
-   "name": "Kamakura",
-   "sl": 76,
-   "file": "230128 Hasedera Kamakura Kanagawa pref Japan09s3.jpg",
-   "lat": 35.3192,
-   "lon": 139.5472,
-   "kind": "built",
-   "types": [
-    "ancient city",
-    "big city",
-    "city of Japan",
-    "tourist destination"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Kamakura, Kanagawa"
-  },
-  {
    "id": "Q188754",
    "name": "Himeji Castle",
    "sl": 75,
@@ -505,23 +486,6 @@
    "cat": "Chubu International Airport"
   },
   {
-   "id": "Q174170",
-   "name": "Suzuka Circuit",
-   "sl": 45,
-   "file": "Suzukacircuit main-straight.jpg",
-   "lat": 34.8417,
-   "lon": 136.5389,
-   "kind": "built",
-   "types": [
-    "leisure center",
-    "motorsport racing track"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Suzuka Circuit"
-  },
-  {
    "id": "Q500681",
    "name": "Tokyo Imperial Palace",
    "sl": 45,
@@ -662,22 +626,6 @@
    "partOf": null,
    "also": [],
    "cat": "Japan National Stadium"
-  },
-  {
-   "id": "Q171399",
-   "name": "Fuji Speedway",
-   "sl": 40,
-   "file": "Safety car 2024 WEC Fuji.jpg",
-   "lat": 35.3717,
-   "lon": 138.9267,
-   "kind": "built",
-   "types": [
-    "motorsport racing track"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Fuji Speedway"
   },
   {
    "id": "Q874027",
@@ -1415,6 +1363,60 @@
    "partOf": null,
    "also": [],
    "cat": "Tokyo Dome"
+  },
+  {
+   "id": "Q494766",
+   "name": "Wing Stadium Kobe",
+   "sl": 32,
+   "file": "Inside View of Kobe Wing Stadium.jpg",
+   "lat": 34.6567,
+   "lon": 135.1689,
+   "kind": "built",
+   "types": [
+    "Multi-purpose stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kobe Wing Stadium"
+  },
+  {
+   "id": "Q952163",
+   "name": "Fuji Five Lakes",
+   "sl": 31,
+   "file": "Landsat image of Fuji-go-ko.jpg",
+   "lat": 35.4158,
+   "lon": 138.8711,
+   "kind": "",
+   "types": [
+    "group of lakes",
+    "pentad"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q16482294",
+    "name": "Fujisan, sacred place and source of artistic inspiration"
+   },
+   "also": [],
+   "cat": "Fuji Five Lakes"
+  },
+  {
+   "id": "Q41977",
+   "name": "Hiroshima Castle",
+   "sl": 31,
+   "file": "HiroshimaCastle.jpg",
+   "lat": 34.4028,
+   "lon": 132.459,
+   "kind": "built",
+   "types": [
+    "hirajiro",
+    "Japanese castle",
+    "museum"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Hiroshima Castle"
   }
  ]
 }

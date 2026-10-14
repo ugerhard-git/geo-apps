@@ -1,0 +1,496 @@
+{
+ "country": "ML",
+ "items": [
+  {
+   "id": "Q683632",
+   "name": "Great Mosque of Djenné",
+   "sl": 57,
+   "file": "Great Mosque of Djenné 1.jpg",
+   "lat": 13.9053,
+   "lon": -4.5556,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278644",
+    "name": "Old Towns of Djenné"
+   },
+   "also": [],
+   "cat": "Great Mosque of Djenné"
+  },
+  {
+   "id": "Q503823",
+   "name": "Tomb of Askia",
+   "sl": 55,
+   "file": "Askia.jpg",
+   "lat": 16.2897,
+   "lon": -0.0444,
+   "kind": "built",
+   "types": [
+    "pyramid",
+    "tomb"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Tomb of Askia"
+  },
+  {
+   "id": "Q650546",
+   "name": "Bandiagara Escarpment",
+   "sl": 46,
+   "file": "Bandiagara escarpment 1.jpg",
+   "lat": 14.4167,
+   "lon": -3.3167,
+   "kind": "natural",
+   "types": [
+    "escarpment",
+    "protected area"
+   ],
+   "whs": true,
+   "partOf": null,
+   "also": [],
+   "cat": "Bandiagara Escarpment"
+  },
+  {
+   "id": "Q721258",
+   "name": "Bamako-Sénou International Airport",
+   "sl": 29,
+   "file": "L'aéroport international Président Modibo Keïta de Bamako-Senou.jpg",
+   "lat": 12.5378,
+   "lon": -7.9431,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bamako-Sénou International Airport"
+  },
+  {
+   "id": "Q1265294",
+   "name": "Sankore Madrasah",
+   "sl": 28,
+   "file": "Sankore Moske Timboektoe.JPG",
+   "lat": 16.7758,
+   "lon": -3.0056,
+   "kind": "built",
+   "types": [
+    "mosque",
+    "university"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q9427",
+    "name": "Timbuktu"
+   },
+   "also": [],
+   "cat": "Sankore Mosque"
+  },
+  {
+   "id": "Q1426627",
+   "name": "Inner Niger Delta",
+   "sl": 27,
+   "file": "Inland Niger Delta 2007.jpg",
+   "lat": 14.6167,
+   "lon": -4.5,
+   "kind": "natural",
+   "types": [
+    "ecoregion",
+    "inland delta",
+    "river delta",
+    "wetland"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Niger Inland Delta"
+  },
+  {
+   "id": "Q116675",
+   "name": "Mount Tenakourou",
+   "sl": 26,
+   "file": "Mt Tenakourou MS 1954.JPG",
+   "lat": 10.75,
+   "lon": -5.4167,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BF"
+   ],
+   "cat": "Mount Tenakourou"
+  },
+  {
+   "id": "Q2480949",
+   "name": "Djinguereber Mosque",
+   "sl": 24,
+   "file": "Djingareiber cour.jpg",
+   "lat": 16.7714,
+   "lon": -3.01,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Djinguereber Mosque"
+  },
+  {
+   "id": "Q1270436",
+   "name": "Lake Débo",
+   "sl": 21,
+   "file": "Niger River Center Island.jpg",
+   "lat": 15.3444,
+   "lon": -4.1958,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Débo"
+  },
+  {
+   "id": "Q764032",
+   "name": "Timbuktu Airport",
+   "sl": 19,
+   "file": "Timbuktu Airport (6916639).jpg",
+   "lat": 16.7306,
+   "lon": -3.0075,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Timbuktu Airport"
+  },
+  {
+   "id": "Q583804",
+   "name": "Manantali Dam",
+   "sl": 18,
+   "file": "Manantali dam.jpg",
+   "lat": 13.1952,
+   "lon": -10.4299,
+   "kind": "built",
+   "types": [
+    "dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manantali Dam"
+  },
+  {
+   "id": "Q241370",
+   "name": "Mopti Airport",
+   "sl": 18,
+   "file": "SevareMoptiAirport.jpg",
+   "lat": 14.5128,
+   "lon": -4.0794,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mopti Airport"
+  },
+  {
+   "id": "Q3083185",
+   "name": "Gao International Airport",
+   "sl": 16,
+   "file": "Boeing C-17 landing at Gao Airport, Mali.jpg",
+   "lat": 16.2483,
+   "lon": -0.0058,
+   "kind": "built",
+   "types": [
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gao International Airport"
+  },
+  {
+   "id": "Q2477311",
+   "name": "Bamako Grand Mosque",
+   "sl": 15,
+   "file": "Mosque-maison-guide.jpg",
+   "lat": 12.6469,
+   "lon": -7.9931,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q606130",
+   "name": "Gouina Falls",
+   "sl": 15,
+   "file": "Chutes Gouina3.jpg",
+   "lat": 14.015,
+   "lon": -11.1025,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Gouina falls"
+  },
+  {
+   "id": "Q3111939",
+   "name": "Lake Faguibine",
+   "sl": 15,
+   "file": "Faguibine mali.jpg",
+   "lat": 16.75,
+   "lon": -4,
+   "kind": "natural",
+   "types": [
+    "lake"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lake Faguibine"
+  },
+  {
+   "id": "Q607668",
+   "name": "Djenné-Djenno",
+   "sl": 14,
+   "file": "Djenné Moschee.jpg",
+   "lat": 13.89,
+   "lon": -4.5403,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q15278644",
+    "name": "Old Towns of Djenné"
+   },
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2723824",
+   "name": "Lake Sélingué",
+   "sl": 14,
+   "file": "Lac Sélingué2.jpg",
+   "lat": 11.6167,
+   "lon": -8.2333,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lac de Sélingué"
+  },
+  {
+   "id": "Q3056157",
+   "name": "Erg Chech",
+   "sl": 13,
+   "file": "Chergach meteorite, 5.7 grams, oriented.jpg",
+   "lat": 24.5833,
+   "lon": -2.5833,
+   "kind": "natural",
+   "types": [
+    "erg"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "DZ",
+    "MR"
+   ],
+   "cat": ""
+  },
+  {
+   "id": "Q2383511",
+   "name": "Mopti Grand Mosque",
+   "sl": 12,
+   "file": "Mosque Mopti.jpg",
+   "lat": 14.4939,
+   "lon": -4.1967,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mopti Grand Mosque"
+  },
+  {
+   "id": "Q2843735",
+   "name": "Sidi Yahya Mosque",
+   "sl": 12,
+   "file": "Fortier 361 Timbuktu Sidi-Yabya Mosque.jpg",
+   "lat": 16.7723,
+   "lon": -3.0072,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q9427",
+    "name": "Timbuktu"
+   },
+   "also": [],
+   "cat": "Sidi Yahya Mosque"
+  },
+  {
+   "id": "Q1580974",
+   "name": "Stade Modibo Kéïta",
+   "sl": 12,
+   "file": "2014-03-22 Stade omnisports Modibo-Keïta.jpg",
+   "lat": 12.6597,
+   "lon": -7.9931,
+   "kind": "built",
+   "types": [
+    "association football venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stade Modibo Kéïta"
+  },
+  {
+   "id": "Q604144",
+   "name": "Félou Falls",
+   "sl": 11,
+   "file": "Chutes Felou4.jpg",
+   "lat": 14.3564,
+   "lon": -11.3453,
+   "kind": "natural",
+   "types": [
+    "waterfall"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Félou Falls"
+  },
+  {
+   "id": "Q3658491",
+   "name": "Lake Manantali",
+   "sl": 11,
+   "file": "10.34748W 13.10430N.png",
+   "lat": 13.158,
+   "lon": -10.344,
+   "kind": "both",
+   "types": [
+    "reservoir"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2885448",
+   "name": "Sélingué Dam",
+   "sl": 10,
+   "file": "Lac sélingué.jpg",
+   "lat": 11.6384,
+   "lon": -8.2294,
+   "kind": "built",
+   "types": [
+    "hydroelectric dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q6588400",
+   "name": "Tessalit Airport",
+   "sl": 9,
+   "file": "Malian Prime Minister Soumeylou Boubeye Maïga in Tessalit, 22 March 2018 01.jpg",
+   "lat": 20.243,
+   "lon": 0.9773,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tessalit Airport"
+  },
+  {
+   "id": "Q3115100",
+   "name": "Great Mosque of Niono",
+   "sl": 8,
+   "file": "Grande Mosquée du Vendredi de Niono (Mali).JPG",
+   "lat": 14.2507,
+   "lon": -5.9999,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Great Mosque of Niono"
+  },
+  {
+   "id": "Q8215714",
+   "name": "Kidal Airport",
+   "sl": 8,
+   "file": "Manifestation devant l’aéroport de Kidal, Mali, 18 avril 2016.jpg",
+   "lat": 18.433,
+   "lon": 1.417,
+   "kind": "built",
+   "types": [
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2942903",
+   "name": "Sacred Heart Cathedral",
+   "sl": 8,
+   "file": "Bamako Cathedral.jpg",
+   "lat": 12.6435,
+   "lon": -7.9996,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Sacred Heart Cathedral, Bamako"
+  }
+ ]
+}
