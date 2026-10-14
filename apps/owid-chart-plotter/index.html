@@ -16,20 +16,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrap">
-      <header class="mast">
-        <div class="eyebrow">
-          <span>Plotting table</span><span>Source: Our World in Data</span><span>Runs in your browser</span>
-        </div>
-        <h1>Pick an indicator.<br />Pick countries.<br /><em>Draw the chart.</em></h1>
-        <p class="sub">
-          Loads any Our World in Data chart dataset straight from their public CSV endpoint, then plots the countries
-          and years you choose. Export the result as a PNG image or a trimmed CSV.
-        </p>
-      </header>
-
-      <div class="cols">
-        <!-- ============ CONTROLS ============ -->
+    <div class="shell">
+      <aside class="rail">
+        <header class="rail-head">
+          <h1>Our World in Data Charts</h1>
+          <p class="sub">
+            Plot any Our World in Data dataset for the countries and years you pick, then export it as a PNG or CSV.
+          </p>
+        </header>
         <form class="panel" id="form" autocomplete="off">
           <h2>Form <span id="rows">no data</span></h2>
           <div class="panel-body">
@@ -243,30 +237,29 @@
             </details>
           </div>
         </form>
+      </aside>
 
-        <!-- ============ OUTPUT ============ -->
-        <div>
-          <div class="status" id="status">Ready. Choose an indicator and press <b>Load data</b>.</div>
+      <main class="stage">
+        <div class="status" id="status">Ready. Choose an indicator and press <b>Load data</b>.</div>
 
-          <div class="table">
-            <div class="tablehead">
-              <div class="kicker" id="kicker">Awaiting data</div>
-              <h3 id="ctitle">Nothing plotted yet</h3>
-              <p id="csub">The chart draws here as soon as a dataset is loaded.</p>
-            </div>
-            <div class="canvasbox">
-              <canvas id="chart" role="img" aria-label="Chart of the selected indicator"></canvas>
-            </div>
-            <div class="tablefoot">
-              <div id="stamp">Data: Our World in Data</div>
-              <div class="acts">
-                <button type="button" id="png" disabled>Download PNG 2400×1600</button>
-                <button type="button" id="csv" disabled>Download CSV</button>
-              </div>
+        <div class="table">
+          <div class="tablehead">
+            <div class="kicker" id="kicker">Awaiting data</div>
+            <h3 id="ctitle">Nothing plotted yet</h3>
+            <p id="csub">The chart draws here as soon as a dataset is loaded.</p>
+          </div>
+          <div class="canvasbox">
+            <canvas id="chart" role="img" aria-label="Chart of the selected indicator"></canvas>
+          </div>
+          <div class="tablefoot">
+            <div id="stamp">Data: Our World in Data</div>
+            <div class="acts">
+              <button type="button" id="png" disabled>Download PNG 2400×1600</button>
+              <button type="button" id="csv" disabled>Download CSV</button>
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
 
     <script type="module" src="main.js"></script>
