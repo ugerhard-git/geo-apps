@@ -65,7 +65,6 @@ function currentOptions() {
     bg: safeColour($("bgColor").value, "#14171c"),
     at: safeColour($("atColor").value, "#8e97a6"),
     transparent: $("optTransparent").checked,
-    sections: $("optSections").checked,
     country: $("optCountry").checked,
     blur: $("optBlur").checked,
     blurAmount: clamp(+$("blurAmount").value, 0, 150),
@@ -439,7 +438,7 @@ $("frame").addEventListener("change", () => {
 const refreshSoon = debounce(refresh, 400);
 for (const id of ["customW", "customH"]) $(id).addEventListener("input", refreshSoon);
 
-for (const id of ["optSections", "optCountry", "optTransparent", "optBlur"])
+for (const id of ["optCountry", "optTransparent", "optBlur"])
   $(id).addEventListener("change", () => {
     syncExportState();
     refresh();

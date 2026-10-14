@@ -6,10 +6,8 @@
  */
 
 import { blurAll, toCanvas } from "../../shared/blur.js";
-import { drawImageGrid } from "../../shared/image-grid.js";
+import { drawPhotos } from "../../shared/photo-sheet.js";
 import { frameSpec } from "../../shared/sheet.js";
-import { clamp, own } from "../../shared/util.js";
-import { SECTION_LABEL, SECTION_ORDER } from "./config.js";
 
 /**
  * @typedef {object} SheetOptions
@@ -17,7 +15,6 @@ import { SECTION_LABEL, SECTION_ORDER } from "./config.js";
  * @property {string} bg background colour
  * @property {string} at attribution colour
  * @property {boolean} transparent leave the background empty
- * @property {boolean} sections label each sign class
  * @property {boolean} country print the country's name (reveals the answer)
  * @property {boolean} blur blur the signs, to hide their wording
  * @property {number} blurAmount blur strength, in tenths of a percent of the sign's width
@@ -28,7 +25,7 @@ import { SECTION_LABEL, SECTION_ORDER } from "./config.js";
 /**
  * @typedef {object} SheetContent
  * @property {import("./commons-data.js").Country | null} country
- * @property {import("./commons-data.js").Sign[]} signs in the order chosen
+ * @property {import("./commons-data.js").Sign[]} signs in the order chosen, which is the order on the sheet
  * @property {(url: string) => Promise<HTMLImageElement>} loadImage
  */
 
@@ -109,52 +106,40 @@ export async function drawSheet(canvas, opts, { country, signs, loadImage }) {
     bottom -= px * 2.1;
   }
 
-  // One horizontal band per sign class that has anything chosen.
-  const groups = SECTION_ORDER.map((id) => ({
-    id,
-    items: signs.filter((s) => s.section === id),
-  })).filter((g) => g.items.length);
-  if (!groups.length) return;
+  /*
+    The signs are laid out as the photo apps lay out photographs (shared
+    photo-sheet.js): in the order they were picked, mixed rather than grouped
+    by class, each keeping its own shape, with its credit in full underneath.
+    When blurring is on, the blurred sign is what gets laid out.
+  */
+  await drawPhotos(
+    ctx,
+    signs.map((s) => ({ ...s, name: "" })),
+    { x: pad, y: top, w: W - pad * 2, h: bottom - top },
+    {
+      loadImage: async (url) => renderSign(await loadImage(url), opts),
+      names: false,
+      fg: opts.fg,
+      at: opts.at,
+      labelFont: (px) => `600 ${px}px "Barlow Condensed", sans-serif`,
+      creditFont: (px) => `400 ${px}px "Barlow", sans-serif`,
+      creditText,
+    },
+  );
+}
 
-  /** @type {Map<import("./commons-data.js").Sign, HTMLCanvasElement>} */
-  const prepared = new Map();
-  for (const rec of groups.flatMap((g) => g.items)) {
-    let img;
-    try {
-      img = await loadImage(rec.full);
-    } catch {
-      try {
-        img = await loadImage(rec.thumb); // the wider render is unavailable
-      } catch {
-        continue;
-      }
-    }
-    prepared.set(rec, renderSign(img, opts));
-  }
-
-  const bandH = (bottom - top) / groups.length;
-  for (let gi = 0; gi < groups.length; gi++) {
-    const g = groups[gi];
-    const items = g.items.filter((r) => prepared.has(r));
-    if (!items.length) continue;
-    const bandTop = top + gi * bandH;
-    let y = bandTop;
-
-    if (opts.sections) {
-      const hPx = clamp(Math.round(bandH * 0.14), 15, 46);
-      ctx.font = `600 ${hPx}px "Barlow Condensed", sans-serif`;
-      ctx.fillStyle = opts.fg;
-      ctx.textAlign = "left";
-      ctx.textBaseline = "alphabetic";
-      ctx.globalAlpha = 0.78;
-      ctx.fillText((own(SECTION_LABEL, g.id) || "Signs").toUpperCase(), pad, y + hPx);
-      ctx.globalAlpha = 1;
-      y += hPx * 1.7;
-    }
-    drawImageGrid(ctx, items, prepared, pad, y, W - pad * 2, bandTop + bandH - y - bandH * 0.05, {
-      creditColour: opts.at,
-      creditFont: '"Barlow", sans-serif',
-      maxCreditPx: 18,
-    });
-  }
+/**
+ * Author, licence and a permanent link — never the file name, which names
+ * the country.
+ *
+ * @param {import("./commons-data.js").Sign} rec
+ */
+function creditText(rec) {
+  return [
+    rec.author || "Wikimedia Commons",
+    rec.licence.label,
+    rec.describeUrl.replace(/^https:\/\//, ""),
+  ]
+    .filter(Boolean)
+    .join(" · ");
 }
