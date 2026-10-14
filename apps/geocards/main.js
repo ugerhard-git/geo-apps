@@ -7,7 +7,7 @@
  */
 
 import { palette, PRESETS } from "./colours.js";
-import { CARDS, DEFAULTS, GROUP_ORDER } from "./catalogue.js";
+import { DEFAULTS } from "./catalogue.js";
 import {
   ensureFonts,
   renderSheet,
@@ -17,6 +17,7 @@ import {
   smallestScale,
 } from "./render.js";
 import { buildCards } from "./cards.js";
+import { createStatsPicker } from "./picker.js";
 import { cache, invalidateAtlas, rcCheckKey, resolveCountry } from "./data.js";
 import { canRemember, forgetKey, getKey, saveKey } from "../../shared/keys.js";
 import { loadAlpha3, loadTerritories } from "../../shared/cldr.js";
@@ -52,99 +53,25 @@ const state = {
   "meridian.key", are picked up and moved).
 */
 
-/* -- picker -- */
+/* -- statistics picker (see picker.js) -- */
 const available = (def) => def.needs !== "rc" || state.source === "rest";
 
+const statsPicker = createStatsPicker({
+  chosen: $("chosen"),
+  groups: $("groups"),
+  isAvailable: available,
+  onChange: onPick,
+});
+
+/** Redraw the picker, e.g. after the data source changes what is available. */
 function buildPicker() {
-  const host = $("groups");
-  host.innerHTML = "";
-  GROUP_ORDER.forEach((g) => {
-    const items = CARDS.filter((c) => c.group === g);
-    if (!items.length) return;
-
-    const sec = document.createElement("div");
-    sec.className = "group";
-
-    const head = document.createElement("header");
-    const h = document.createElement("h3");
-    h.textContent = g;
-    const all = document.createElement("button");
-    all.type = "button";
-    all.textContent = "select all";
-    const none = document.createElement("button");
-    none.type = "button";
-    none.textContent = "clear";
-    head.append(h, all, none);
-    sec.appendChild(head);
-
-    const row = document.createElement("div");
-    row.className = "chips";
-    items.forEach((c) => {
-      const usable = available(c);
-      const lab = document.createElement("label");
-      lab.className = "chip";
-      const notes = [];
-      if (!usable) notes.push("Needs a REST Countries API key");
-      if (c.reveals) notes.push("Gives the country away");
-      if (c.fb) notes.push("From the final Factbook edition, frozen in 2026");
-      if (notes.length) lab.title = notes.join(". ");
-
-      const inp = document.createElement("input");
-      inp.type = "checkbox";
-      inp.value = c.id;
-      inp.checked = state.selected.includes(c.id);
-      inp.disabled = !usable;
-      inp.addEventListener("change", onPick);
-
-      const sp = document.createElement("span");
-      sp.appendChild(document.createTextNode(c.label));
-      const mark = (cls, text) => {
-        const i = document.createElement("i");
-        i.className = "mark " + cls;
-        if (text) i.textContent = text;
-        sp.appendChild(i);
-      };
-      if (c.reveals) mark("dot", "");
-      if (c.fb) mark("frozen", "2026");
-      if (!usable) mark("key", "key");
-
-      lab.append(inp, sp);
-      row.appendChild(lab);
-    });
-    sec.appendChild(row);
-
-    const setGroup = (on) => {
-      items.forEach((c) => {
-        if (!available(c)) return;
-        const box = row.querySelector(`input[value="${c.id}"]`);
-        if (box) box.checked = on;
-      });
-      onPick();
-    };
-    all.addEventListener("click", () => setGroup(true));
-    none.addEventListener("click", () => setGroup(false));
-
-    host.appendChild(sec);
-  });
+  statsPicker.set(state.selected);
   updateTally();
-}
-
-/* Selection order decides sheet order: keep what is already chosen in the
- order it was chosen, then append anything newly ticked. */
-function currentPicks() {
-  const checked = new Set(
-    [...$("groups").querySelectorAll("input[type=checkbox]")]
-      .filter((b) => b.checked)
-      .map((b) => b.value),
-  );
-  const kept = state.selected.filter((id) => checked.has(id));
-  const added = CARDS.map((c) => c.id).filter((id) => checked.has(id) && !kept.includes(id));
-  return [...kept, ...added];
 }
 
 function updateTally() {
   const n = state.selected.length;
-  $("tally").textContent = n + (n === 1 ? " selected" : " selected");
+  $("tally").textContent = n === 1 ? "1 card" : n + " cards";
   const small = n ? smallestScale(n) < 0.72 : false;
   $("denseNote").hidden = !small;
   if (small)
@@ -152,16 +79,14 @@ function updateTally() {
       `At ${n} cards each one is drawn small, so source credits and list details are dropped to keep the text legible.`;
 }
 
-async function onPick() {
-  const picks = currentPicks();
-  if (!picks.length) {
-    say("Pick at least one statistic.", true);
-    state.selected = [];
-    updateTally();
-    return;
-  }
+/** @param {string[]} picks the new selection, in sheet order */
+async function onPick(picks) {
   state.selected = picks;
   updateTally();
+  if (!picks.length) {
+    say("Pick at least one statistic.", true);
+    return;
+  }
   if (state.country) await generate(state.country, true);
 }
 
@@ -503,8 +428,19 @@ $("toggleKey").addEventListener("click", () => {
     open = p.hidden;
   p.hidden = !open;
   $("toggleKey").setAttribute("aria-expanded", String(open));
-  $("toggleKey").textContent = open ? "Hide API key" : "Add an API key";
+  paintKeyToggle();
 });
+
+/** The key settings start closed; the toggle says whether a key is waiting inside. */
+function paintKeyToggle() {
+  const open = !$("keypanel").hidden;
+  const has = !!$("apikey").value.trim();
+  $("toggleKey").textContent = open
+    ? "Hide API key settings"
+    : has
+      ? "API key settings (a key is saved)"
+      : "API key settings";
+}
 
 $("checkKey").addEventListener("click", async () => {
   const key = $("apikey").value.trim();
@@ -582,14 +518,6 @@ $("rememberKey").addEventListener("change", (e) => {
   }
 });
 
-$("togglePicker").addEventListener("click", () => {
-  const p = $("picker"),
-    open = p.hidden;
-  p.hidden = !open;
-  $("togglePicker").setAttribute("aria-expanded", String(open));
-  $("togglePicker").textContent = open ? "Hide statistics" : "Choose statistics";
-});
-
 $("resetPick").addEventListener("click", () => {
   state.selected = [...DEFAULTS];
   buildPicker();
@@ -617,11 +545,9 @@ const saved = getKey("restcountries");
 if (saved) {
   $("apikey").value = saved;
   $("rememberKey").checked = true;
-  $("keypanel").hidden = false;
-  $("toggleKey").setAttribute("aria-expanded", "true");
-  $("toggleKey").textContent = "Hide API key";
   keySay("A saved key is loaded. Check it to switch to REST Countries.");
 }
 paintSource();
+paintKeyToggle();
 buildPicker();
 ensureFonts();

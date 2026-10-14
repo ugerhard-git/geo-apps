@@ -35,7 +35,7 @@
   </head>
   <body>
     <svg class="graticule" viewBox="0 0 400 400" aria-hidden="true" fill="none">
-      <g stroke="#6FA292" stroke-opacity=".13" stroke-width="1">
+      <g stroke="#2E6E60" stroke-opacity=".10" stroke-width="1">
         <circle cx="200" cy="200" r="170" />
         <ellipse cx="200" cy="200" rx="170" ry="128" />
         <ellipse cx="200" cy="200" rx="170" ry="76" />
@@ -112,21 +112,21 @@
         </section>
 
         <section class="rail-section">
-          <h2>Statistics</h2>
-          <button type="button" class="linkish" id="togglePicker" aria-expanded="false">Choose statistics</button>
-          <div class="picker" id="picker" hidden>
-            <div id="groups"></div>
-            <p class="dense" id="denseNote" hidden></p>
-            <footer>
-              <p>
-                <span id="tally" class="picktally">12 selected</span> — cards appear on the sheet in the order you tick
-                them. A brass dot marks a statistic that gives the country away, a key tag marks one that needs an API
-                key, and a 2026 tag marks one drawn from the final edition of the CIA World Factbook, which stopped
-                being updated that February. The sheet is always 2400 × 1600 pixels.
-              </p>
-              <button type="button" class="btn" id="resetPick">Reset to default</button>
-            </footer>
+          <div class="section-head">
+            <h2>Statistics</h2>
+            <span class="tally" id="tally">12 cards</span>
+            <button type="button" class="linkish" id="resetPick">Reset</button>
           </div>
+          <p class="sub">On the sheet, in this order</p>
+          <ol class="chosen" id="chosen"></ol>
+          <p class="dense" id="denseNote" hidden></p>
+          <p class="sub">Add more</p>
+          <div id="groups"></div>
+          <ul class="legend">
+            <li><i class="mark dot"></i> gives the country away</li>
+            <li><i class="mark frozen">2026</i> final Factbook edition, no longer updated</li>
+            <li><i class="mark key">key</i> needs a REST Countries API key</li>
+          </ul>
         </section>
 
         <section class="rail-section">
@@ -135,7 +135,7 @@
             <button type="button" data-source="open" aria-pressed="true">Open data</button>
             <button type="button" data-source="rest" aria-pressed="false" id="srcRest" disabled>REST Countries</button>
           </div>
-          <button type="button" class="linkish" id="toggleKey" aria-expanded="false">Add an API key</button>
+          <button type="button" class="linkish" id="toggleKey" aria-expanded="false">API key settings</button>
           <div class="keypanel" id="keypanel" hidden>
             <div class="keyrow">
               <div class="field">
