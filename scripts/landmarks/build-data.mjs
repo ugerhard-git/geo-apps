@@ -24,12 +24,18 @@ const OUT = path.join(ROOT, "apps/landmarks/data");
 const UA = "geo-apps-landmarks/1.0 (https://github.com/ugerhard-git/geo-apps)";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/** QLever is a free public service: at most one query every PACE_MS. */
+const PACE_MS = 1500;
+let lastQuery = 0;
+
 /** @param {string} text a SPARQL query */
 async function sparql(text) {
   let last;
-  const waits = process.env.LANDMARKS_QUICK ? [0] : [0, 10_000, 30_000];
-  for (const wait of waits) {
+  let wait = 0;
+  for (let attempt = 0; attempt < 4; attempt++) {
     if (wait) await sleep(wait);
+    await sleep(Math.max(0, lastQuery + PACE_MS - Date.now()));
+    lastQuery = Date.now();
     try {
       const r = await fetch(QLEVER, {
         method: "POST",
@@ -39,7 +45,7 @@ async function sparql(text) {
           "Content-Type": "application/x-www-form-urlencoded",
         },
         body: new URLSearchParams({ query: text }),
-        signal: AbortSignal.timeout(process.env.LANDMARKS_QUICK ? 90_000 : 180_000),
+        signal: AbortSignal.timeout(120_000),
       });
       const reply = await r.text();
       if (process.env.LANDMARKS_QUICK) {
@@ -61,12 +67,23 @@ async function sparql(text) {
           `::notice title=timing::${head} → HTTP ${r.status}, ${reply.length} bytes ${detail.replace(/\s+/g, " ").slice(0, 1500)}`,
         );
       }
+      if (r.status === 429 && !reply.startsWith("{")) {
+        // Rate-limited (an HTML page), as opposed to a query timeout (JSON).
+        const after = parseInt(r.headers.get("retry-after") || "", 10);
+        wait =
+          Number.isFinite(after) && after > 0
+            ? Math.min(after, 300) * 1000
+            : 30_000 * (attempt + 1);
+        last = new Error("rate-limited");
+        continue;
+      }
       if (!r.ok) throw new Error(`HTTP ${r.status}: ${reply.slice(0, 200)}`);
       const rows = JSON.parse(reply)?.results?.bindings;
       if (!Array.isArray(rows)) throw new Error("unexpected response");
       return rows;
     } catch (e) {
       last = e;
+      wait = 10_000 * (attempt + 1);
     }
   }
   throw last;
@@ -90,9 +107,23 @@ async function query(iso) {
   const ids = [...sl.keys()];
   /** @type {Array<{part: string, rows: any[]}>} */
   const parts = [];
-  for (let i = 0; i < ids.length; i += 100)
-    for (const { part, query: text } of detailQueries(ids.slice(i, i + 100)))
-      parts.push({ part, rows: await sparql(text) });
+  for (const { part, query: text } of detailQueries(ids)) {
+    if (part === "labels") continue;
+    parts.push({ part, rows: await sparql(text) });
+  }
+  // Names in other languages, only for the items without an English one.
+  const named = new Set(
+    parts
+      .filter((p) => p.part === "basic")
+      .flatMap((p) => p.rows)
+      .filter((r) => r?.en?.value)
+      .map((r) => (/\/(Q\d+)$/.exec(r?.item?.value || "") || [])[1]),
+  );
+  const unnamed = ids.filter((id) => !named.has(id));
+  if (unnamed.length) {
+    const labels = detailQueries(unnamed).find((p) => p.part === "labels");
+    if (labels) parts.push({ part: "labels", rows: await sparql(labels.query) });
+  }
   return mergeDetails(parts, sl);
 }
 
@@ -159,7 +190,6 @@ for (const [i, t] of countries.entries()) {
       /* no previous file */
     }
   }
-  await sleep(500); // be gentle with a free public service
 }
 
 // The index: which countries have data. Merged with the existing one, so a
