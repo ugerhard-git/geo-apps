@@ -120,8 +120,8 @@ the number of Wikipedias with an article about them, and filters out what can't 
 pictured as one sight (seas, regions, towns, tunnels). The rules are in
 `scripts/landmarks/select.js`, with unit tests.
 
-`.github/workflows/landmarks-data.yml` reruns it on the 1st of every month (about 50
-minutes) and opens a pull request with whatever changed; it can also be started by
+`.github/workflows/landmarks-data.yml` reruns it on the 1st of every month (about 1½
+hours) and opens a pull request with whatever changed; it can also be started by
 hand under **Actions → Landmarks data → Run workflow**. For the pull request to be
 opened automatically, enable **Settings → Actions → General → Allow GitHub Actions to
 create and approve pull requests**; otherwise the workflow pushes a
