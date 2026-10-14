@@ -24,6 +24,10 @@ import { canRemember, forgetKey, getKey, saveKey } from "../../shared/keys.js";
 import { loadAlpha3, loadTerritories } from "../../shared/cldr.js";
 import { createCountryPicker, rankCountries } from "../../shared/country-picker.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 function currentPalette() {
   return palette(state.cardBg, state.cardText, state.cardTransparent, state.sheetBg);
 }

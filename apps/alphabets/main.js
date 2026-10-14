@@ -27,6 +27,10 @@ import { MAX_CELLS, MAX_LANGS, NPM_CDN, URL_TERRITORY_INFO } from "./config.js";
 import { ensureFonts } from "./fonts.js";
 import { drawSheet, fontFor, genericHeading } from "./render.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("./cldr-data.js").Alphabet} Alphabet */
 
 /* ═══════════════════════════════════════════════════════════

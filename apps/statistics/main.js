@@ -18,6 +18,10 @@ import { drawSheet } from "./render.js";
 import { buildSeries } from "./series.js";
 import { loadReference } from "./sources.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("../../shared/cldr.js").Territory} Country */
 /** @typedef {import("./series.js").Series} Series */
 

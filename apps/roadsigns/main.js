@@ -29,6 +29,10 @@ import {
 } from "./config.js";
 import { drawSheet } from "./render.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("./commons-data.js").Country} Country */
 /** @typedef {import("./commons-data.js").Sign} Sign */
 

@@ -31,6 +31,10 @@ import { createRegionEditor } from "./editor.js";
 import { loadPlateSpec } from "./plate-spec.js";
 import { drawSheet } from "./render.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("./commons-data.js").Country} Country */
 /** @typedef {import("./commons-data.js").Plate} Plate */
 

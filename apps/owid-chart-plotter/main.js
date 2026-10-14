@@ -28,6 +28,10 @@ import { buildData, csvCell, fmt, safeName, series } from "./data.js";
 import { renderExport } from "./export-png.js";
 import { fetchCSV, splitSlug } from "./owid.js";
 
+import { addBackLink } from "../../shared/back-link.js";
+
+addBackLink();
+
 /** @typedef {import("./data.js").Dataset} Dataset */
 /** @typedef {import("./charts.js").ChartType} ChartType */
 /** @typedef {import("./charts.js").View} View */

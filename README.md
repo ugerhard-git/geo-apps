@@ -103,6 +103,7 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `wikipedia.js`      | Reading an article's infobox                                                       |
 | `geo.js`            | TopoJSON decoding, distances, finding a country's mainland                         |
 | `keys.js`           | API keys shared by all apps (see below)                                            |
+| `back-link.js`      | The "Back to apps overview" link, shown only on the published site                 |
 
 ## API keys
 
