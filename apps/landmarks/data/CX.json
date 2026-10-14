@@ -1,4 +1,55 @@
 {
  "country": "CX",
- "items": []
+ "items": [
+  {
+   "id": "Q1035011",
+   "name": "Christmas Island Airport",
+   "sl": 25,
+   "file": "Christmas Island Airport at Dusk.jpg",
+   "lat": -10.4506,
+   "lon": 105.6903,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christmas Island Airport"
+  },
+  {
+   "id": "Q1089780",
+   "name": "Christmas Island National Park",
+   "sl": 15,
+   "file": "Christmas Island (5775100858).jpg",
+   "lat": -10.4915,
+   "lon": 105.6232,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "national park of Australia"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Christmas Island National Park"
+  },
+  {
+   "id": "Q524471",
+   "name": "Murray Hill, Christmas Island",
+   "sl": 13,
+   "file": "Map of Christmas Island 1976.jpg",
+   "lat": -10.4833,
+   "lon": 105.5808,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  }
+ ]
 }

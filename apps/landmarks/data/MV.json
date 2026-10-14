@@ -89,57 +89,6 @@
    "cat": "Hanimaadhoo International Airport"
   },
   {
-   "id": "Q2147686",
-   "name": "Thinadhoo",
-   "sl": 14,
-   "file": "GdhThinadhoo.jpg",
-   "lat": 0.5308,
-   "lon": 72.9964,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Thinadhoo (Gaafu Dhaalu)"
-  },
-  {
-   "id": "Q2613356",
-   "name": "Ungoofaaru",
-   "sl": 14,
-   "file": "Raa Atoll, Maldives - panoramio (13).jpg",
-   "lat": 5.6681,
-   "lon": 73.0217,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": ""
-  },
-  {
-   "id": "Q4043243",
-   "name": "Felidhoo",
-   "sl": 12,
-   "file": "Felidhoo 2023-11-07 2.jpg",
-   "lat": 3.4718,
-   "lon": 73.547,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Felidhoo"
-  },
-  {
    "id": "Q6343226",
    "name": "Kaadedhdhoo Airport",
    "sl": 12,

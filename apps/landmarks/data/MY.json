@@ -189,23 +189,6 @@
    "cat": "Taman Negara National Park"
   },
   {
-   "id": "Q1144734",
-   "name": "Genting Highlands",
-   "sl": 33,
-   "file": "Chin Swee Caves Temple KL29.JPG",
-   "lat": 3.4237,
-   "lon": 101.7934,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "mountain"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Genting Highlands"
-  },
-  {
    "id": "Q2344561",
    "name": "Putra Mosque",
    "sl": 33,
@@ -1341,6 +1324,22 @@
    "partOf": null,
    "also": [],
    "cat": "Sultan Mahmud Airport"
+  },
+  {
+   "id": "Q2745033",
+   "name": "Tun Perak Tower",
+   "sl": 15,
+   "file": "Maybank Tower Kuala Lumpur.jpg",
+   "lat": 3.1472,
+   "lon": 101.6997,
+   "kind": "built",
+   "types": [
+    "skyscraper"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tun Perak Tower"
   }
  ]
 }

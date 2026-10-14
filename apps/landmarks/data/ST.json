@@ -71,23 +71,6 @@
    "cat": "Príncipe Airport"
   },
   {
-   "id": "Q963381",
-   "name": "Ilheu Bom Bom",
-   "sl": 19,
-   "file": "Bom Bom Island (21235118752).jpg",
-   "lat": 1.6989,
-   "lon": 7.4026,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Ilhéu Bombom"
-  },
-  {
    "id": "Q2426165",
    "name": "Estádio Nacional 12 de Julho",
    "sl": 13,

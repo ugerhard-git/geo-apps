@@ -407,23 +407,6 @@
    "cat": "Qaanaaq Airport"
   },
   {
-   "id": "Q1164352",
-   "name": "Danmarkshavn",
-   "sl": 19,
-   "file": "Danmarkshavn.jpg",
-   "lat": 76.7692,
-   "lon": -18.6706,
-   "kind": "built",
-   "types": [
-    "human settlement",
-    "weather station"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": ""
-  },
-  {
    "id": "Q3117388",
    "name": "Greenland National Museum",
    "sl": 19,

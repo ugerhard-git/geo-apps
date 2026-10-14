@@ -429,6 +429,22 @@
    "cat": "Mamelles (Sénégal)"
   },
   {
+   "id": "Q2893166",
+   "name": "Guembeul Natural Reserve",
+   "sl": 9,
+   "file": "OryxGuembeul.JPG",
+   "lat": 15.9178,
+   "lon": -16.4612,
+   "kind": "natural",
+   "types": [
+    "Wildlife reserve of Senegal"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guembeul Reserve"
+  },
+  {
    "id": "Q3324921",
    "name": "Mosquée de la Divinité",
    "sl": 9,
@@ -507,22 +523,6 @@
    "partOf": null,
    "also": [],
    "cat": "Chutes de Dindefelo"
-  },
-  {
-   "id": "Q2893166",
-   "name": "Guembeul Natural Reserve",
-   "sl": 8,
-   "file": "OryxGuembeul.JPG",
-   "lat": 15.9178,
-   "lon": -16.4612,
-   "kind": "natural",
-   "types": [
-    "Wildlife reserve of Senegal"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Guembeul Reserve"
   },
   {
    "id": "Q3329908",

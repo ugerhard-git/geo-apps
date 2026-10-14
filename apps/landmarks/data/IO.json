@@ -1,4 +1,43 @@
 {
  "country": "IO",
- "items": []
+ "items": [
+  {
+   "id": "Q1298289",
+   "name": "Egmont Islands",
+   "sl": 14,
+   "file": "Egmont map.png",
+   "lat": -6.6667,
+   "lon": 71.35,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "atoll"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MU"
+   ],
+   "cat": "Egmont Islands"
+  },
+  {
+   "id": "Q11694190",
+   "name": "Naval Support Facility Diego Garcia",
+   "sl": 11,
+   "file": "Terminal BIOT.jpg",
+   "lat": -7.3133,
+   "lon": 72.4111,
+   "kind": "built",
+   "types": [
+    "military base",
+    "naval airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MU"
+   ],
+   "cat": "Naval Support Facility Diego Garcia"
+  }
+ ]
 }

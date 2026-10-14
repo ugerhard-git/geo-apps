@@ -135,23 +135,6 @@
    "cat": "Fakr ad-Din Mosque"
   },
   {
-   "id": "Q1719488",
-   "name": "Ras Kamboni",
-   "sl": 15,
-   "file": "Somalia, Lower Juba, Kamboni (1), central mosque.jpg",
-   "lat": -1.638,
-   "lon": 41.5866,
-   "kind": "natural",
-   "types": [
-    "headland",
-    "human settlement"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Kamboni"
-  },
-  {
    "id": "Q2011096",
    "name": "Abdullahi Yusuf International Airport",
    "sl": 14,

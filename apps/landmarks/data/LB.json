@@ -582,23 +582,6 @@
    "cat": "Al-Omari Grand Mosque"
   },
   {
-   "id": "Q879905",
-   "name": "Bkerke",
-   "sl": 13,
-   "file": "Bkerke.jpg",
-   "lat": 33.9678,
-   "lon": 35.6339,
-   "kind": "built",
-   "types": [
-    "human settlement",
-    "monastery"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Bkerké"
-  },
-  {
    "id": "Q49977",
    "name": "Citadel of Tripoli",
    "sl": 13,
@@ -1366,6 +1349,22 @@
    "partOf": null,
    "also": [],
    "cat": "Saint Elias Greek Catholic Cathedral, Beirut"
+  },
+  {
+   "id": "Q2967982",
+   "name": "Saint Louis Castle",
+   "sl": 8,
+   "file": "St. Louis Castle, Sidon.jpg",
+   "lat": 33.5603,
+   "lon": 35.3707,
+   "kind": "built",
+   "types": [
+    "crusader castle"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Louis Castle"
   }
  ]
 }

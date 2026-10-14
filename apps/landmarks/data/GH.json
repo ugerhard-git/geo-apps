@@ -18,6 +18,24 @@
    "cat": "Lake Volta"
   },
   {
+   "id": "Q177689",
+   "name": "Accra International Airport",
+   "sl": 39,
+   "file": "Kotoka International Airport, Accra, Ghana.JPG",
+   "lat": 5.6047,
+   "lon": -0.1674,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Kotoka International Airport"
+  },
+  {
    "id": "Q894613",
    "name": "Lake Bosumtwi",
    "sl": 39,
@@ -32,24 +50,6 @@
    "partOf": null,
    "also": [],
    "cat": "Lake Bosumtwi"
-  },
-  {
-   "id": "Q177689",
-   "name": "Accra International Airport",
-   "sl": 38,
-   "file": "Kotoka International Airport, Accra, Ghana.JPG",
-   "lat": 5.6047,
-   "lon": -0.1674,
-   "kind": "built",
-   "types": [
-    "airport",
-    "commercial traffic aerodrome",
-    "international airport"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Kotoka International Airport"
   },
   {
    "id": "Q1282314",
@@ -1101,23 +1101,6 @@
    "partOf": null,
    "also": [],
    "cat": "Fort William (Lighthouse)"
-  },
-  {
-   "id": "Q1667812",
-   "name": "Legon",
-   "sl": 8,
-   "file": "Legon Tower.JPG",
-   "lat": 5.65,
-   "lon": -0.1833,
-   "kind": "built",
-   "types": [
-    "campus",
-    "human settlement"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Legon (Ghana)"
   },
   {
    "id": "Q98293324",

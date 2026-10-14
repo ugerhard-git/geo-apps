@@ -101,23 +101,6 @@
    "cat": "Aruba Natural Bridge"
   },
   {
-   "id": "Q6976737",
-   "name": "Palm Beach",
-   "sl": 13,
-   "file": "Palm-Beach-Aruba-2013.JPG",
-   "lat": 12.5667,
-   "lon": -70.0333,
-   "kind": "built",
-   "types": [
-    "beach",
-    "human settlement"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Palm Beach, Aruba"
-  },
-  {
    "id": "Q2279321",
    "name": "California Lighthouse",
    "sl": 12,

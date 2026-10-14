@@ -1342,6 +1342,22 @@
    "cat": "Baradla Cave"
   },
   {
+   "id": "Q664177",
+   "name": "Cave Bath",
+   "sl": 20,
+   "file": "Tap Barl01.jpg",
+   "lat": 48.0606,
+   "lon": 20.7446,
+   "kind": "built",
+   "types": [
+    "bathhouse"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cave Bath"
+  },
+  {
    "id": "Q1214829",
    "name": "Debrecen Stadion",
    "sl": 20,
@@ -1356,24 +1372,6 @@
    "partOf": null,
    "also": [],
    "cat": "Nagyerdei stadion"
-  },
-  {
-   "id": "Q927535",
-   "name": "Early Christian Necropolis of Pécs",
-   "sl": 20,
-   "file": "Pécs - Early Christian Mausoleum 02.JPG",
-   "lat": 46.0744,
-   "lon": 18.2278,
-   "kind": "built",
-   "types": [
-    "archaeological site",
-    "necropolis",
-    "World Heritage Site"
-   ],
-   "whs": true,
-   "partOf": null,
-   "also": [],
-   "cat": "Early Christian Necropolis of Pécs"
   }
  ]
 }

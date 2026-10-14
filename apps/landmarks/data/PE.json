@@ -140,7 +140,7 @@
   {
    "id": "Q917369",
    "name": "Huascarán National Park",
-   "sl": 41,
+   "sl": 42,
    "file": "Llanganuco ancash.jpg",
    "lat": -9.4,
    "lon": -77.4,
@@ -766,6 +766,22 @@
    "cat": "Cathedral of Lima"
   },
   {
+   "id": "Q2325080",
+   "name": "Chacraraju",
+   "sl": 19,
+   "file": "Chacraraju.jpg",
+   "lat": -8.9933,
+   "lon": -77.615,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chacraraju"
+  },
+  {
    "id": "Q1286295",
    "name": "Inca Manco Cápac International Airport",
    "sl": 19,
@@ -882,22 +898,6 @@
    "partOf": null,
    "also": [],
    "cat": "Alejandro Velasco Astete International Airport"
-  },
-  {
-   "id": "Q2325080",
-   "name": "Chacraraju",
-   "sl": 18,
-   "file": "Chacraraju.jpg",
-   "lat": -8.9933,
-   "lon": -77.615,
-   "kind": "natural",
-   "types": [
-    "mountain"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Chacraraju"
   },
   {
    "id": "Q1068427",

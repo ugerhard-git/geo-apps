@@ -1095,23 +1095,6 @@
    "cat": "Ulcinj Salinas"
   },
   {
-   "id": "Q1006453",
-   "name": "Vranjina",
-   "sl": 9,
-   "file": "Vranjina.jpg",
-   "lat": 42.2742,
-   "lon": 19.1356,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Vranjina"
-  },
-  {
    "id": "Q3956807",
    "name": "Dajbabska Gora Tower",
    "sl": 8,

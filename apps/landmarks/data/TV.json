@@ -123,23 +123,6 @@
    "cat": ""
   },
   {
-   "id": "Q2423894",
-   "name": "Funafala",
-   "sl": 12,
-   "file": "Ocean side Funafuti.jpg",
-   "lat": -8.6283,
-   "lon": 179.1019,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": ""
-  },
-  {
    "id": "Q897362",
    "name": "Funafuti Lagoon Hotel",
    "sl": 11,

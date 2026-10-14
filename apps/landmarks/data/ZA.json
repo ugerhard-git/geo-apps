@@ -1258,6 +1258,22 @@
    "cat": "Union Buildings"
   },
   {
+   "id": "Q1760813",
+   "name": "West Coast National Park",
+   "sl": 18,
+   "file": "Langebaan lagoon, West Coast National Park.jpg",
+   "lat": -33.1261,
+   "lon": 18.0447,
+   "kind": "natural",
+   "types": [
+    "national park of South Africa"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "West Coast National Park"
+  },
+  {
    "id": "Q895056",
    "name": "Boulders Beach",
    "sl": 17,
@@ -1344,22 +1360,6 @@
    "partOf": null,
    "also": [],
    "cat": "Lion's Head"
-  },
-  {
-   "id": "Q1521388",
-   "name": "Mokala National Park",
-   "sl": 17,
-   "file": "Kalahari PICT0036.JPG",
-   "lat": -29.1667,
-   "lon": 24.35,
-   "kind": "natural",
-   "types": [
-    "national park of South Africa"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Mokala National Park"
   }
  ]
 }

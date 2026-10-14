@@ -1201,6 +1201,24 @@
    "cat": "Église de la Madeleine (Paris)"
   },
   {
+   "id": "Q1547",
+   "name": "Lyon–Saint-Exupéry Airport",
+   "sl": 47,
+   "file": "Vue aérienne d'une partie de l'aéroport de Lyon Saint-Exupéry et de la gare TGV (septembre 2022).jpg",
+   "lat": 45.7256,
+   "lon": 5.0811,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Lyon Saint-Exupéry Airport"
+  },
+  {
    "id": "Q461340",
    "name": "Paris Observatory, PSL University",
    "sl": 47,
@@ -1268,24 +1286,6 @@
    "cat": "Château de Chenonceau"
   },
   {
-   "id": "Q1547",
-   "name": "Lyon–Saint-Exupéry Airport",
-   "sl": 46,
-   "file": "Vue aérienne d'une partie de l'aéroport de Lyon Saint-Exupéry et de la gare TGV (septembre 2022).jpg",
-   "lat": 45.7256,
-   "lon": 5.0811,
-   "kind": "built",
-   "types": [
-    "airport",
-    "commercial traffic aerodrome",
-    "international airport"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Lyon Saint-Exupéry Airport"
-  },
-  {
    "id": "Q143463",
    "name": "Palais des Papes",
    "sl": 46,
@@ -1305,6 +1305,24 @@
    },
    "also": [],
    "cat": "Palais des Papes d'Avignon"
+  },
+  {
+   "id": "Q651190",
+   "name": "Marseille Provence Airport",
+   "sl": 45,
+   "file": "Marseille Provence Airport 2017 05.jpg",
+   "lat": 43.4367,
+   "lon": 5.215,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Marseille Provence Airport"
   },
   {
    "id": "Q10369016",
@@ -1390,23 +1408,6 @@
    "partOf": null,
    "also": [],
    "cat": "Stade Bollaert-Delelis"
-  },
-  {
-   "id": "Q127372",
-   "name": "Allianz Riviera",
-   "sl": 44,
-   "file": "Allianzcoupdenvoi.jpg",
-   "lat": 43.7051,
-   "lon": 7.1926,
-   "kind": "built",
-   "types": [
-    "association football venue",
-    "sports venue"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Allianz Riviera"
   }
  ]
 }

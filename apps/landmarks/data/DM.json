@@ -118,23 +118,6 @@
    "cat": ""
   },
   {
-   "id": "Q3503868",
-   "name": "Scotts Head",
-   "sl": 13,
-   "file": "Dominica Coastline (40085007133).jpg",
-   "lat": 15.2125,
-   "lon": -61.3667,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "point"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Scotts Head, Dominica"
-  },
-  {
    "id": "Q12771972",
    "name": "Morne aux Diables",
    "sl": 9,

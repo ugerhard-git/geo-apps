@@ -19,22 +19,6 @@
    "cat": "Somapura Mahavihara"
   },
   {
-   "id": "Q799893",
-   "name": "Mosque City of Bagerhat",
-   "sl": 50,
-   "file": "স্বপ্নীল চুনাখোলা মসজিদ।.jpg",
-   "lat": 22.661,
-   "lon": 89.7586,
-   "kind": "",
-   "types": [
-    "human settlement"
-   ],
-   "whs": true,
-   "partOf": null,
-   "also": [],
-   "cat": "Bagerhat District"
-  },
-  {
    "id": "Q30603",
    "name": "Hazrat Shahjalal International Airport",
    "sl": 42,
@@ -1312,6 +1296,22 @@
    "partOf": null,
    "also": [],
    "cat": "Bashundhara City"
+  },
+  {
+   "id": "Q5087951",
+   "name": "Chatteshwari Temple",
+   "sl": 8,
+   "file": "Chatteshwari Temple Close View.jpg",
+   "lat": 22.3528,
+   "lon": 91.8261,
+   "kind": "built",
+   "types": [
+    "temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chatteshwari Temple"
   }
  ]
 }

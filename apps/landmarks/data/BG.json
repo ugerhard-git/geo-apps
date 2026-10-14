@@ -429,24 +429,6 @@
    "cat": "Baba Vida Fortress"
   },
   {
-   "id": "Q1026748",
-   "name": "Golden Sands",
-   "sl": 28,
-   "file": "Goldstrand.jpg",
-   "lat": 43.285,
-   "lon": 28.0417,
-   "kind": "built",
-   "types": [
-    "human settlement",
-    "seaside resort",
-    "settlement formation in Bulgaria"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Golden Sands"
-  },
-  {
    "id": "Q1370380",
    "name": "Plovdiv Airport",
    "sl": 28,
@@ -968,6 +950,22 @@
    "cat": "Tombul Mosque"
   },
   {
+   "id": "Q1058720",
+   "name": "Buzludzha monument",
+   "sl": 20,
+   "file": "Бузлуджа IMG6338.jpg",
+   "lat": 42.7358,
+   "lon": 25.3939,
+   "kind": "built",
+   "types": [
+    "memorial"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Buzludzha monument"
+  },
+  {
    "id": "Q2458142",
    "name": "Dyavolski most",
    "sl": 20,
@@ -1019,22 +1017,6 @@
    "cat": "Pamporovo"
   },
   {
-   "id": "Q1058720",
-   "name": "Buzludzha monument",
-   "sl": 19,
-   "file": "Бузлуджа IMG6338.jpg",
-   "lat": 42.7358,
-   "lon": 25.3939,
-   "kind": "built",
-   "types": [
-    "memorial"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Buzludzha monument"
-  },
-  {
    "id": "Q989356",
    "name": "Cape Emine",
    "sl": 19,
@@ -1049,25 +1031,6 @@
    "partOf": null,
    "also": [],
    "cat": "Emine"
-  },
-  {
-   "id": "Q202098",
-   "name": "Ruy Mountain",
-   "sl": 19,
-   "file": "V.Ruj.jpg",
-   "lat": 42.8628,
-   "lon": 22.5756,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "mountain"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [
-    "RS"
-   ],
-   "cat": "Ruy"
   },
   {
    "id": "Q2991256",
@@ -1354,6 +1317,40 @@
    "partOf": null,
    "also": [],
    "cat": "Lions' Bridge, Sofia"
+  },
+  {
+   "id": "Q3269914",
+   "name": "National Palace of Culture",
+   "sl": 17,
+   "file": "National Palace of Culture (23997858848).jpg",
+   "lat": 42.6847,
+   "lon": 23.3189,
+   "kind": "built",
+   "types": [
+    "convention center",
+    "house of culture",
+    "performing arts center"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Palace of Culture (Bulgaria)"
+  },
+  {
+   "id": "Q873892",
+   "name": "Russian Church, Sofia",
+   "sl": 17,
+   "file": "The Russian Church in Sofia.jpg",
+   "lat": 42.6957,
+   "lon": 23.3291,
+   "kind": "built",
+   "types": [
+    "Eastern Orthodox church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint Nicholas Russian Church, Sofia"
   }
  ]
 }

@@ -164,23 +164,6 @@
    "cat": "Palácio Presidente Nicolau Lobato"
   },
   {
-   "id": "Q2395022",
-   "name": "Tasitolu",
-   "sl": 9,
-   "file": "Tasitolu, Dili, East Timor (310333712).jpg",
-   "lat": -8.5667,
-   "lon": 125.5,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "lake"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Tasitolu"
-  },
-  {
    "id": "Q16493993",
    "name": "Timorese Resistance Archive and Museum",
    "sl": 9,

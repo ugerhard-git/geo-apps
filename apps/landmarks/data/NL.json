@@ -140,25 +140,6 @@
    "cat": "Zuiderzee"
   },
   {
-   "id": "Q33426218",
-   "name": "Brielle",
-   "sl": 49,
-   "file": "060908 020 brielle centrum.jpg",
-   "lat": 51.9017,
-   "lon": 4.1625,
-   "kind": "built",
-   "types": [
-    "cadastral populated place in the Netherlands",
-    "fortified town",
-    "human settlement",
-    "place with town rights and privileges"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Brielle"
-  },
-  {
    "id": "Q221092",
    "name": "Mauritshuis",
    "sl": 49,
@@ -418,23 +399,6 @@
    "partOf": null,
    "also": [],
    "cat": "Royal Palace of Amsterdam"
-  },
-  {
-   "id": "Q669547",
-   "name": "Wieringen",
-   "sl": 37,
-   "file": "Oosterland Wieringen.jpg",
-   "lat": 52.9,
-   "lon": 4.97,
-   "kind": "natural",
-   "types": [
-    "island",
-    "place with town rights and privileges"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Wieringen"
   },
   {
    "id": "Q50719",
@@ -1381,6 +1345,39 @@
    "partOf": null,
    "also": [],
    "cat": "Groninger Museum"
+  },
+  {
+   "id": "Q692381",
+   "name": "Het Loo Palace",
+   "sl": 22,
+   "file": "Het loo front.jpg",
+   "lat": 52.2342,
+   "lon": 5.9458,
+   "kind": "built",
+   "types": [
+    "palace"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Het Loo Palace"
+  },
+  {
+   "id": "Q1344400",
+   "name": "Magere Brug",
+   "sl": 22,
+   "file": "Magere Brug.jpg",
+   "lat": 52.3636,
+   "lon": 4.9024,
+   "kind": "built",
+   "types": [
+    "bascule bridge",
+    "wooden bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Brug 242, Magere Brug"
   }
  ]
 }

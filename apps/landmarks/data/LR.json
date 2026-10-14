@@ -35,24 +35,6 @@
    "cat": ""
   },
   {
-   "id": "Q1034489",
-   "name": "Cape Palmas",
-   "sl": 17,
-   "file": "Cape Palmas etch.jpg",
-   "lat": 4.369,
-   "lon": -7.7289,
-   "kind": "natural",
-   "types": [
-    "cape",
-    "headland",
-    "human settlement"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Cape Palmas"
-  },
-  {
    "id": "Q5616476",
    "name": "Guinea Highlands",
    "sl": 16,

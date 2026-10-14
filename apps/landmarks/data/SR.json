@@ -37,23 +37,6 @@
    "cat": "Johan Adolf Pengel International Airport"
   },
   {
-   "id": "Q648787",
-   "name": "Jodensavanne",
-   "sl": 24,
-   "file": "Jodensavanne.jpg",
-   "lat": 5.4133,
-   "lon": -54.953,
-   "kind": "",
-   "types": [
-    "human settlement",
-    "plantation"
-   ],
-   "whs": true,
-   "partOf": null,
-   "also": [],
-   "cat": "Jodensavanne"
-  },
-  {
    "id": "Q926100",
    "name": "Brokopondo Reservoir",
    "sl": 20,

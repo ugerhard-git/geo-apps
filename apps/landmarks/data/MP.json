@@ -1,4 +1,240 @@
 {
  "country": "MP",
- "items": []
+ "items": [
+  {
+   "id": "Q510",
+   "name": "Mariana Trench",
+   "sl": 104,
+   "file": "Marianatrenchmap.png",
+   "lat": 11.35,
+   "lon": 142.2,
+   "kind": "natural",
+   "types": [
+    "oceanic trench"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mariana Trench"
+  },
+  {
+   "id": "Q1257667",
+   "name": "Saipan International Airport",
+   "sl": 21,
+   "file": "Entrance to Saipan International Airport.JPG",
+   "lat": 15.1189,
+   "lon": 145.7294,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saipan International Airport"
+  },
+  {
+   "id": "Q1137513",
+   "name": "Tinian International Airport",
+   "sl": 17,
+   "file": "Boeing Unloading.jpg",
+   "lat": 14.9992,
+   "lon": 145.6194,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Tinian International Airport"
+  },
+  {
+   "id": "Q169308",
+   "name": "Zealandia Bank",
+   "sl": 17,
+   "file": "Zealandia 3d hires.jpg",
+   "lat": 16.8833,
+   "lon": 145.85,
+   "kind": "natural",
+   "types": [
+    "char",
+    "group of rocks",
+    "ocean bank"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3274817",
+   "name": "Mount Tapochau",
+   "sl": 13,
+   "file": "Mount Tapochau.JPG",
+   "lat": 15.1889,
+   "lon": 145.7431,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q4744430",
+   "name": "American Memorial Park",
+   "sl": 11,
+   "file": "American Memorial Park Visitor Center.JPG",
+   "lat": 15.2164,
+   "lon": 145.72,
+   "kind": "both",
+   "types": [
+    "military museum",
+    "National Memorial of the United States",
+    "park",
+    "protected area"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "American Memorial Park"
+  },
+  {
+   "id": "Q6799175",
+   "name": "Mañagaha",
+   "sl": 9,
+   "file": "Mañagaha Island.jpg",
+   "lat": 15.2409,
+   "lon": 145.7126,
+   "kind": "natural",
+   "types": [
+    "island",
+    "islet",
+    "reef island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mañagaha Island"
+  },
+  {
+   "id": "Q14192457",
+   "name": "Suicide Cliff",
+   "sl": 9,
+   "file": "SUICIDE CLIFF.jpg",
+   "lat": 15.2772,
+   "lon": 145.8097,
+   "kind": "natural",
+   "types": [
+    "cliff"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Suicide Cliff"
+  },
+  {
+   "id": "Q403083",
+   "name": "Ahyi",
+   "sl": 8,
+   "file": "Ahyi 3d hires.jpg",
+   "lat": 20.4375,
+   "lon": 145.0292,
+   "kind": "natural",
+   "types": [
+    "seamount",
+    "submarine volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q11328397",
+   "name": "Banzai Cliff",
+   "sl": 8,
+   "file": "Banzai Cliff 2025.jpg",
+   "lat": 15.2881,
+   "lon": 145.8161,
+   "kind": "natural",
+   "types": [
+    "cliff"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Banzai Cliff"
+  },
+  {
+   "id": "Q11326323",
+   "name": "North Field",
+   "sl": 8,
+   "file": "B-29s Landing on Tinian 1944.jpg",
+   "lat": 15.072,
+   "lon": 145.6384,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "North Field (Tinian)"
+  },
+  {
+   "id": "Q3056587",
+   "name": "Northwest Rota",
+   "sl": 8,
+   "file": "Sulfurbubbles, Brimstone Pit (NW Rota-1), 2006.jpg",
+   "lat": 14.6011,
+   "lon": 144.775,
+   "kind": "natural",
+   "types": [
+    "submarine volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Northwest Rota volcano"
+  },
+  {
+   "id": "Q1356082",
+   "name": "Oleai Sports Complex",
+   "sl": 8,
+   "file": "Oleai Track and Field.JPG",
+   "lat": 15.1638,
+   "lon": 145.7097,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Oleai Sports Complex"
+  },
+  {
+   "id": "Q15043774",
+   "name": "Our Lady of Mount Carmel Cathedral (Chalan Kanoa)",
+   "sl": 8,
+   "file": "Saipan Mount Carmel Cathedral.JPG",
+   "lat": 15.1511,
+   "lon": 145.7019,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Our Lady of Mount Carmel Cathedral (Chalan Kanoa)"
+  }
+ ]
 }

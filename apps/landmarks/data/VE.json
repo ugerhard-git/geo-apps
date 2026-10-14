@@ -714,23 +714,6 @@
    "cat": "Museo de Bellas Artes de Caracas"
   },
   {
-   "id": "Q683553",
-   "name": "Isla Ratón",
-   "sl": 13,
-   "file": "Salió el sol.JPG",
-   "lat": 5.1311,
-   "lon": -67.8106,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "river island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": ""
-  },
-  {
    "id": "Q994694",
    "name": "National Pantheon",
    "sl": 13,
@@ -1329,6 +1312,22 @@
    "partOf": null,
    "also": [],
    "cat": "Mariusa National Park"
+  },
+  {
+   "id": "Q4845617",
+   "name": "Guatopo National Park",
+   "sl": 10,
+   "file": "Parque Nacional Guatopo Guárico.jpg",
+   "lat": 10.0764,
+   "lon": -66.4165,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guatopo National Park"
   }
  ]
 }

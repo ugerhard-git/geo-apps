@@ -1,4 +1,244 @@
 {
  "country": "GF",
- "items": []
+ "items": [
+  {
+   "id": "Q220385",
+   "name": "Devil's Island",
+   "sl": 44,
+   "file": "Île du Diable depuis l'île Royale.jpg",
+   "lat": 5.2939,
+   "lon": -52.5833,
+   "kind": "both",
+   "types": [
+    "island",
+    "penal colony",
+    "prison"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Île du Diable"
+  },
+  {
+   "id": "Q665459",
+   "name": "Guiana Amazonian Park",
+   "sl": 26,
+   "file": "Parc naturel regional de guyane vue du dessus.JPG",
+   "lat": 2.8383,
+   "lon": -53.7722,
+   "kind": "natural",
+   "types": [
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Parc amazonien de Guyane"
+  },
+  {
+   "id": "Q794542",
+   "name": "Cayenne – Félix Eboué Airport",
+   "sl": 25,
+   "file": "Nlletourrochambeau.jpg",
+   "lat": 4.8197,
+   "lon": -52.3619,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cayenne-Félix-Éboué Airport"
+  },
+  {
+   "id": "Q23905739",
+   "name": "Amazon Reef",
+   "sl": 16,
+   "file": "Geodiversidade e biodiversidade do Recife Amazonas.jpg",
+   "lat": 1,
+   "lon": -49,
+   "kind": "natural",
+   "types": [
+    "coral reef",
+    "sponge reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": "Amazon Reef"
+  },
+  {
+   "id": "Q649881",
+   "name": "Maripasoula Airport",
+   "sl": 11,
+   "file": "Maripasoula airport 1.JPG",
+   "lat": 3.6575,
+   "lon": -54.0372,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Maripasoula Airport"
+  },
+  {
+   "id": "Q847490",
+   "name": "Cayenne Cathedral",
+   "sl": 10,
+   "file": "Cayenne Saint Sauveur.jpg",
+   "lat": 4.9397,
+   "lon": -52.3317,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Saint-Sauveur de Cayenne"
+  },
+  {
+   "id": "Q996255",
+   "name": "Franco-Brazilian Binational Bridge",
+   "sl": 10,
+   "file": "Pont depuis l' Oyapock.jpg",
+   "lat": 3.8569,
+   "lon": -51.8256,
+   "kind": "built",
+   "types": [
+    "cable-stayed bridge",
+    "international bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "BR"
+   ],
+   "cat": "Oyapock River Bridge"
+  },
+  {
+   "id": "Q2885258",
+   "name": "Petit-Saut Dam",
+   "sl": 10,
+   "file": "Barrage de Petit-Saut (Guyane).jpg",
+   "lat": 5.062,
+   "lon": -53.05,
+   "kind": "built",
+   "types": [
+    "gravity dam",
+    "hydroelectric power station"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Barrage de Petit-Saut"
+  },
+  {
+   "id": "Q7429454",
+   "name": "Saül Airport",
+   "sl": 10,
+   "file": "Aerogare Saul FG 2005.JPG",
+   "lat": 3.6136,
+   "lon": -53.2042,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saül Airport"
+  },
+  {
+   "id": "Q1560739",
+   "name": "Stade de Baduel",
+   "sl": 10,
+   "file": "Baduel Stadium (15476357808).jpg",
+   "lat": 4.9336,
+   "lon": -52.3118,
+   "kind": "built",
+   "types": [
+    "sports venue",
+    "stadium"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Baduel Stadium"
+  },
+  {
+   "id": "Q3913451",
+   "name": "Grand-Santi Airport",
+   "sl": 9,
+   "file": "Terminal SOGS (14748547350).jpg",
+   "lat": 4.2833,
+   "lon": -54.3811,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Grand-Santi Airport"
+  },
+  {
+   "id": "Q3322280",
+   "name": "Montagne d'Argent",
+   "sl": 9,
+   "file": "Bagne Montagne d'argent.JPG",
+   "lat": 4.3919,
+   "lon": -51.6958,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montagne d'argent"
+  },
+  {
+   "id": "Q3322277",
+   "name": "Montagne de Kaw",
+   "sl": 8,
+   "file": "Mt Kaw.JPG",
+   "lat": 4.5417,
+   "lon": -52.187,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "mountain range"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Montagne de Kaw"
+  },
+  {
+   "id": "Q3576019",
+   "name": "Zoo de Guyane",
+   "sl": 8,
+   "file": "Scarlet Ibis (Eudocimus ruber) (10531856366).jpg",
+   "lat": 4.9458,
+   "lon": -52.4917,
+   "kind": "built",
+   "types": [
+    "zoo"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Guyane Zoo"
+  }
+ ]
 }

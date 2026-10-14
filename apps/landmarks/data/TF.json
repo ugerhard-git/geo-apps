@@ -1,4 +1,123 @@
 {
  "country": "TF",
- "items": []
+ "items": [
+  {
+   "id": "Q220601",
+   "name": "Bassas da India",
+   "sl": 49,
+   "file": "Bassas da India atoll map-fr.png",
+   "lat": -21.4825,
+   "lon": 39.6719,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "island"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Bassas da India"
+  },
+  {
+   "id": "Q236601",
+   "name": "Glorioso Islands",
+   "sl": 49,
+   "file": "Glorioso Islands ISS002-E-6913.JPG",
+   "lat": -11.55,
+   "lon": 47.3333,
+   "kind": "natural",
+   "types": [
+    "archipelago",
+    "disputed territory"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "MG"
+   ],
+   "cat": "Glorioso Islands"
+  },
+  {
+   "id": "Q1945447",
+   "name": "Mont Ross",
+   "sl": 20,
+   "file": "Mont Ross - Archipel des Kerguelen.jpg",
+   "lat": -49.6,
+   "lon": 69.5,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont Ross"
+  },
+  {
+   "id": "Q1129568",
+   "name": "Cook Glacier",
+   "sl": 13,
+   "file": "Kerguelen CookGlacier.JPG",
+   "lat": -49.3139,
+   "lon": 69.0414,
+   "kind": "natural",
+   "types": [
+    "glacier"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cook Glacier"
+  },
+  {
+   "id": "Q2744496",
+   "name": "Notre-Dame des Vents",
+   "sl": 10,
+   "file": "2020-11 Kerguelen Islands - PAF 45.jpg",
+   "lat": -49.3525,
+   "lon": 70.2153,
+   "kind": "built",
+   "types": [
+    "church building"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Église Notre-Dame-du-Vent"
+  },
+  {
+   "id": "Q3322217",
+   "name": "Mont de la Dives",
+   "sl": 9,
+   "file": "2021-03 Amsterdam Island - Mont de la Dives 10.jpg",
+   "lat": -37.8488,
+   "lon": 77.5484,
+   "kind": "natural",
+   "types": [
+    "mountain",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mont de la Dives"
+  },
+  {
+   "id": "Q3562713",
+   "name": "Volcan du Diable",
+   "sl": 8,
+   "file": "Kerguelen VolcanDuDiable.jpg",
+   "lat": -49.4936,
+   "lon": 69.7245,
+   "kind": "natural",
+   "types": [
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Volcan du Diable"
+  }
+ ]
 }

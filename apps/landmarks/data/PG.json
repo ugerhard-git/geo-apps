@@ -236,23 +236,6 @@
    "cat": "Rabaul caldera"
   },
   {
-   "id": "Q611718",
-   "name": "Salamaua",
-   "sl": 16,
-   "file": "Salamaua.jpg",
-   "lat": -7.0333,
-   "lon": 147.0667,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "peninsula"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": ""
-  },
-  {
    "id": "Q799827",
    "name": "Bagana",
    "sl": 14,

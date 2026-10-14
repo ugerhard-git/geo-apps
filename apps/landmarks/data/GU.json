@@ -1,4 +1,127 @@
 {
  "country": "GU",
- "items": []
+ "items": [
+  {
+   "id": "Q1136355",
+   "name": "Antonio B. Won Pat International Airport",
+   "sl": 26,
+   "file": "GuamAntonioWonPatAirport.jpg",
+   "lat": 13.485,
+   "lon": 144.7975,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Antonio B. Won Pat International Airport"
+  },
+  {
+   "id": "Q491372",
+   "name": "Andersen Air Force Base",
+   "sl": 23,
+   "file": "B-2 and F-15 over Andersen Air Force Base.jpg",
+   "lat": 13.584,
+   "lon": 144.93,
+   "kind": "built",
+   "types": [
+    "airbase"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Andersen Air Force Base"
+  },
+  {
+   "id": "Q621760",
+   "name": "Apra Harbor",
+   "sl": 14,
+   "file": "Apra Harbor.jpg",
+   "lat": 13.4333,
+   "lon": 144.6667,
+   "kind": "both",
+   "types": [
+    "harbor",
+    "port",
+    "seaport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Apra Harbor"
+  },
+  {
+   "id": "Q4380977",
+   "name": "Mount Lamlam",
+   "sl": 14,
+   "file": "Mount Lamlam.jpg",
+   "lat": 13.3386,
+   "lon": 144.6628,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q16556041",
+   "name": "Guam Football Association National Training Center",
+   "sl": 12,
+   "file": "PRR MRDB 065 2019 Azkals 1.jpg",
+   "lat": 13.5119,
+   "lon": 144.831,
+   "kind": "built",
+   "types": [
+    "sports venue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q2580264",
+   "name": "Dulce Nombre de Maria Cathedral Basilica",
+   "sl": 10,
+   "file": "Dulce Nombre de Maria Cathedral Basilica.JPG",
+   "lat": 13.4743,
+   "lon": 144.7524,
+   "kind": "built",
+   "types": [
+    "architectural landmark",
+    "art museum",
+    "Catholic cathedral",
+    "minor basilica"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dulce Nombre de Maria Cathedral Basilica"
+  },
+  {
+   "id": "Q326616",
+   "name": "SMS Cormoran",
+   "sl": 9,
+   "file": "SMS Cormoran (1909).jpg",
+   "lat": 13.4592,
+   "lon": 144.6542,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "armed merchantman",
+    "cargo ship",
+    "merchant raider"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cormoran (ship, 1909)"
+  }
+ ]
 }

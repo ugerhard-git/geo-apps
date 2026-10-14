@@ -157,23 +157,6 @@
    "cat": "Gros Morne (Réunion)"
   },
   {
-   "id": "Q3462334",
-   "name": "Saint-Gilles",
-   "sl": 10,
-   "file": "L'Ermitage beach, Réunion.jpg",
-   "lat": -21.0489,
-   "lon": 55.2692,
-   "kind": "built",
-   "types": [
-    "human settlement",
-    "seaside resort"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Saint-Gilles les Bains"
-  },
-  {
    "id": "Q2942776",
    "name": "St. Denis Cathedral, Réunion",
    "sl": 10,

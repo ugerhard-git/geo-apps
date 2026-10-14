@@ -36,6 +36,41 @@
    "partOf": null,
    "also": [],
    "cat": "Mutiny on the Bounty"
+  },
+  {
+   "id": "Q6356681",
+   "name": "Pawala Valley Ridge",
+   "sl": 9,
+   "file": "Pitcairnsatellite.png",
+   "lat": -25.0683,
+   "lon": -130.1133,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3970565",
+   "name": "Portarlington railway station",
+   "sl": 8,
+   "file": "Portarlington Station.jpg",
+   "lat": 53.1461,
+   "lon": -7.1811,
+   "kind": "built",
+   "types": [
+    "railway station",
+    "station located on surface"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IE"
+   ],
+   "cat": "Portarlington railway station"
   }
  ]
 }

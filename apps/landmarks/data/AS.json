@@ -1,4 +1,56 @@
 {
  "country": "AS",
- "items": []
+ "items": [
+  {
+   "id": "Q843075",
+   "name": "National Park of American Samoa",
+   "sl": 35,
+   "file": "AmSamoa Tutuila 491.jpg",
+   "lat": -14.2583,
+   "lon": -170.6833,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "National Park of the United States"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "National Park of American Samoa"
+  },
+  {
+   "id": "Q1631727",
+   "name": "Ofu-Olosega",
+   "sl": 27,
+   "file": "Ofu-OlosegaFromSpace.jpg",
+   "lat": -14.1667,
+   "lon": -169.6167,
+   "kind": "natural",
+   "types": [
+    "island group",
+    "volcano"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ofu-Olosega"
+  },
+  {
+   "id": "Q939904",
+   "name": "Pago Pago International Airport",
+   "sl": 20,
+   "file": "C-141 at Pago Pago Airport.jpg",
+   "lat": -14.3317,
+   "lon": -170.7114,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Pago Pago International Airport"
+  }
+ ]
 }

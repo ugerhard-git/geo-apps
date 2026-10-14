@@ -373,23 +373,6 @@
    "cat": "Lake Tritriva"
   },
   {
-   "id": "Q2355776",
-   "name": "Nosy Komba",
-   "sl": 19,
-   "file": "View of Nosy Komba, Madagascar.jpg",
-   "lat": -13.4661,
-   "lon": 48.3503,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Nosy Komba"
-  },
-  {
    "id": "Q2306524",
    "name": "Ankarana Special Reserve",
    "sl": 18,

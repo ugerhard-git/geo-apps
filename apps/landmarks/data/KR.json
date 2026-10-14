@@ -263,25 +263,6 @@
    "cat": "Gimpo International Airport"
   },
   {
-   "id": "Q45865",
-   "name": "Hahoe Folk Village",
-   "sl": 36,
-   "file": "Hahoe Folk Village 03.jpg",
-   "lat": 36.5381,
-   "lon": 128.5206,
-   "kind": "",
-   "types": [
-    "human settlement"
-   ],
-   "whs": true,
-   "partOf": {
-    "id": "Q3113345",
-    "name": "Historic Villages of Korea: Hahoe and Yangdong"
-   },
-   "also": [],
-   "cat": "Hahoe Folk Village"
-  },
-  {
    "id": "Q562529",
    "name": "Namhansanseong",
    "sl": 36,
@@ -455,25 +436,6 @@
    },
    "also": [],
    "cat": "Tripitaka Koreana"
-  },
-  {
-   "id": "Q495266",
-   "name": "Yangdong Folk Village",
-   "sl": 31,
-   "file": "양동마을 1.jpg",
-   "lat": 36.0011,
-   "lon": 129.2533,
-   "kind": "",
-   "types": [
-    "human settlement"
-   ],
-   "whs": true,
-   "partOf": {
-    "id": "Q3113345",
-    "name": "Historic Villages of Korea: Hahoe and Yangdong"
-   },
-   "also": [],
-   "cat": "Yangdong Folk Village"
   },
   {
    "id": "Q495286",
@@ -1355,6 +1317,39 @@
    "partOf": null,
    "also": [],
    "cat": "Gyeongju National Museum"
+  },
+  {
+   "id": "Q495590",
+   "name": "Love Land",
+   "sl": 18,
+   "file": "Jeju Loveland.jpg",
+   "lat": 33.4517,
+   "lon": 126.4897,
+   "kind": "built",
+   "types": [
+    "erotic museum",
+    "sculpture garden"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Love Land"
+  },
+  {
+   "id": "Q487036",
+   "name": "Myeongdong Cathedral",
+   "sl": 18,
+   "file": "Myeongdong Cathedral 6.jpg",
+   "lat": 37.5633,
+   "lon": 126.9872,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Myeongdong Cathedral"
   }
  ]
 }

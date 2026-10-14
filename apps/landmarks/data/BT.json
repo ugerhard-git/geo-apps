@@ -288,23 +288,6 @@
    "cat": "National Museum of Bhutan"
   },
   {
-   "id": "Q4133200",
-   "name": "Gangteng Monastery",
-   "sl": 13,
-   "file": "Gate to Gante Goemba.jpg",
-   "lat": 27.5,
-   "lon": 90.1667,
-   "kind": "built",
-   "types": [
-    "human settlement",
-    "Tibetan Buddhist monastery"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Gangteng Monastery"
-  },
-  {
    "id": "Q18457036",
    "name": "Liankang Kangri",
    "sl": 12,

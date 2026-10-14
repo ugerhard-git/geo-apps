@@ -855,22 +855,6 @@
    "cat": "Sierra Nevada El Cocuy ó Güicán"
   },
   {
-   "id": "Q692174",
-   "name": "San Basilio de Palenque",
-   "sl": 17,
-   "file": "Fiesta Palenque.jpg",
-   "lat": 10.1033,
-   "lon": -75.199,
-   "kind": "",
-   "types": [
-    "human settlement"
-   ],
-   "whs": true,
-   "partOf": null,
-   "also": [],
-   "cat": "San Basilio de Palenque"
-  },
-  {
    "id": "Q2876055",
    "name": "Simón Bolívar International Airport",
    "sl": 17,
@@ -1363,6 +1347,22 @@
    "partOf": null,
    "also": [],
    "cat": ""
+  },
+  {
+   "id": "Q2629521",
+   "name": "El Abra",
+   "sl": 13,
+   "file": "Petroglyph of El Abra.jpg",
+   "lat": 5.0174,
+   "lon": -73.9512,
+   "kind": "built",
+   "types": [
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Zona Arqueológica de Zipaquirá"
   }
  ]
 }

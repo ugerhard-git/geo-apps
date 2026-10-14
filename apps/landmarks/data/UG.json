@@ -229,23 +229,6 @@
    "cat": "Mount Sabyinyo"
   },
   {
-   "id": "Q1740785",
-   "name": "Kibale National Park",
-   "sl": 26,
-   "file": "Kibale National Park 20190920 102617.jpg",
-   "lat": 0.4333,
-   "lon": 30.3833,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "national park of Uganda"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Kibale National Park"
-  },
-  {
    "id": "Q1509547",
    "name": "Lake George",
    "sl": 25,

@@ -292,6 +292,23 @@
    "cat": "Damascus Gate"
   },
   {
+   "id": "Q1757438",
+   "name": "Samaria",
+   "sl": 38,
+   "file": "Ruins of Samaria.jpg",
+   "lat": 32.2761,
+   "lon": 35.195,
+   "kind": "built",
+   "types": [
+    "archaeological site",
+    "former settlement"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Samaria (ancient city)"
+  },
+  {
    "id": "Q860532",
    "name": "Kidron Valley",
    "sl": 36,
@@ -445,6 +462,23 @@
    "partOf": null,
    "also": [],
    "cat": "Great Mosque of Gaza"
+  },
+  {
+   "id": "Q913099",
+   "name": "Herodium",
+   "sl": 31,
+   "file": "Herodium from above 2.jpg",
+   "lat": 31.6658,
+   "lon": 35.2414,
+   "kind": "both",
+   "types": [
+    "archaeological site",
+    "national park"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Herodium"
   },
   {
    "id": "Q2151217",
@@ -843,20 +877,20 @@
    "cat": "Qasr al-Yahud"
   },
   {
-   "id": "Q2918480",
-   "name": "Sebastia",
+   "id": "Q60305",
+   "name": "Tower of Jericho",
    "sl": 21,
-   "file": "Sebastia vill.jpg",
-   "lat": 32.2667,
-   "lon": 35.1833,
-   "kind": "",
+   "file": "Tower of Jericho.jpg",
+   "lat": 31.8708,
+   "lon": 35.4439,
+   "kind": "built",
    "types": [
-    "human settlement"
+    "archaeological site"
    ],
-   "whs": true,
+   "whs": false,
    "partOf": null,
    "also": [],
-   "cat": "Sebastia, Nablus"
+   "cat": "Tower of Jericho"
   },
   {
    "id": "Q2667420",
@@ -976,6 +1010,25 @@
    "partOf": null,
    "also": [],
    "cat": "Holy Family church in Gaza City"
+  },
+  {
+   "id": "Q1962200",
+   "name": "Alexander",
+   "sl": 17,
+   "file": "Alexander Stream.JPG",
+   "lat": 32.2164,
+   "lon": 35.0946,
+   "kind": "natural",
+   "types": [
+    "national park",
+    "river"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [
+    "IL"
+   ],
+   "cat": "Alexander Stream"
   },
   {
    "id": "Q2568172",
@@ -1369,54 +1422,6 @@
     "IL"
    ],
    "cat": "Bnei Hazir tomb"
-  },
-  {
-   "id": "Q2474899",
-   "name": "Abraham's Oak Holy Trinity Monastery",
-   "sl": 13,
-   "file": "Russian monastery in Hebron.jpg",
-   "lat": 31.5379,
-   "lon": 35.085,
-   "kind": "built",
-   "types": [
-    "eastern orthodox monastery"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Abraham's Oak Holy Trinity Monastery"
-  },
-  {
-   "id": "Q4702683",
-   "name": "Al-Khadra Mosque",
-   "sl": 13,
-   "file": "Al-Khadra Mosque.jpg",
-   "lat": 32.2124,
-   "lon": 35.2709,
-   "kind": "built",
-   "types": [
-    "mosque"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Al-Khadra Mosque"
-  },
-  {
-   "id": "Q2030638",
-   "name": "An-Nasr Mosque",
-   "sl": 13,
-   "file": "Nasr Mosque Nablus.JPG",
-   "lat": 32.2189,
-   "lon": 35.2614,
-   "kind": "built",
-   "types": [
-    "mosque"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "An-Nasr Mosque"
   }
  ]
 }

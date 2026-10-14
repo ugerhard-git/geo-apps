@@ -125,22 +125,6 @@
    "cat": "Stari Ras"
   },
   {
-   "id": "Q904128",
-   "name": "Gamzigrad",
-   "sl": 40,
-   "file": "Romuliana, from air.jpg",
-   "lat": 43.8993,
-   "lon": 22.1862,
-   "kind": "",
-   "types": [
-    "human settlement"
-   ],
-   "whs": true,
-   "partOf": null,
-   "also": [],
-   "cat": "Gamzigrad"
-  },
-  {
    "id": "Q1137661",
    "name": "Gračanica monastery",
    "sl": 39,
@@ -1266,25 +1250,6 @@
    "cat": "Belgrade Aviation Museum"
   },
   {
-   "id": "Q202098",
-   "name": "Ruy Mountain",
-   "sl": 19,
-   "file": "V.Ruj.jpg",
-   "lat": 42.8628,
-   "lon": 22.5756,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "mountain"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [
-    "BG"
-   ],
-   "cat": "Ruy"
-  },
-  {
    "id": "Q1264635",
    "name": "Skadarlija",
    "sl": 19,
@@ -1382,6 +1347,39 @@
    "partOf": null,
    "also": [],
    "cat": "Beograđanka"
+  },
+  {
+   "id": "Q898731",
+   "name": "Branko's Bridge",
+   "sl": 18,
+   "file": "Brankov-most-branko-bridge-hdr-atipiks.jpg",
+   "lat": 44.8147,
+   "lon": 20.4483,
+   "kind": "built",
+   "types": [
+    "girder bridge",
+    "road bridge"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Branko's Bridge"
+  },
+  {
+   "id": "Q859564",
+   "name": "Cer",
+   "sl": 18,
+   "file": "Planina Cer.jpg",
+   "lat": 44.6031,
+   "lon": 19.4942,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cer (mountain)"
   }
  ]
 }

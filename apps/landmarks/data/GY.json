@@ -106,23 +106,6 @@
    "cat": ""
   },
   {
-   "id": "Q3322025",
-   "name": "Paramakatoi",
-   "sl": 12,
-   "file": "Bark House.JPG",
-   "lat": 4.7167,
-   "lon": -59.7,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "mountain"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Paramakatoi"
-  },
-  {
    "id": "Q1557640",
    "name": "Guyana Zoo",
    "sl": 11,

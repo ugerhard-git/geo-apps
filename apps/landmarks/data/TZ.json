@@ -126,26 +126,6 @@
    "cat": "Selous Game Reserve"
   },
   {
-   "id": "Q1741475",
-   "name": "Kilwa Kisiwani",
-   "sl": 50,
-   "file": "GreatMosque.jpg",
-   "lat": -8.9817,
-   "lon": 39.5172,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": true,
-   "partOf": {
-    "id": "Q15726282",
-    "name": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara"
-   },
-   "also": [],
-   "cat": "Kilwa Kisiwani"
-  },
-  {
    "id": "Q756790",
    "name": "Kilimanjaro National Park",
    "sl": 47,
@@ -1359,6 +1339,25 @@
    "partOf": null,
    "also": [],
    "cat": ""
+  },
+  {
+   "id": "Q2942370",
+   "name": "St. Joseph's Cathedral, Zanzibar",
+   "sl": 10,
+   "file": "Stone Town, St. Joseph Cathedral.jpg",
+   "lat": -6.1628,
+   "lon": 39.1888,
+   "kind": "built",
+   "types": [
+    "Catholic cathedral"
+   ],
+   "whs": true,
+   "partOf": {
+    "id": "Q844417",
+    "name": "Stone Town"
+   },
+   "also": [],
+   "cat": "St. Joseph's Cathedral, Zanzibar"
   }
  ]
 }

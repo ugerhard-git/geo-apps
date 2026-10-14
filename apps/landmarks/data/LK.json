@@ -20,38 +20,6 @@
    "cat": "Adam's Bridge"
   },
   {
-   "id": "Q272153",
-   "name": "Sigiriya",
-   "sl": 63,
-   "file": "Beauty of Sigiriya by Binuka.jpg",
-   "lat": 7.9569,
-   "lon": 80.7597,
-   "kind": "",
-   "types": [
-    "human settlement"
-   ],
-   "whs": true,
-   "partOf": null,
-   "also": [],
-   "cat": "Sigiriya"
-  },
-  {
-   "id": "Q394443",
-   "name": "Polonnaruwa",
-   "sl": 56,
-   "file": "Polonnaruwa 02.jpg",
-   "lat": 7.9333,
-   "lon": 81,
-   "kind": "",
-   "types": [
-    "human settlement"
-   ],
-   "whs": true,
-   "partOf": null,
-   "also": [],
-   "cat": "Polonnaruwa"
-  },
-  {
    "id": "Q60789",
    "name": "Adam's Peak",
    "sl": 54,
@@ -1055,23 +1023,6 @@
    "cat": "Minneriya National Park"
   },
   {
-   "id": "Q7036906",
-   "name": "Nilaveli",
-   "sl": 10,
-   "file": "Nillaveli Beach.JPG",
-   "lat": 8.6833,
-   "lon": 81.2,
-   "kind": "built",
-   "types": [
-    "beach",
-    "human settlement"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Nilaveli"
-  },
-  {
    "id": "Q7134855",
    "name": "Parakrama Samudra",
    "sl": 10,
@@ -1312,6 +1263,56 @@
    "partOf": null,
    "also": [],
    "cat": "Maduru Oya National Park"
+  },
+  {
+   "id": "Q6743492",
+   "name": "Maligawila Buddha statue",
+   "sl": 9,
+   "file": "Standing Buddha Statue Maligawila.jpg",
+   "lat": 6.7284,
+   "lon": 81.3523,
+   "kind": "built",
+   "types": [
+    "colossal statue",
+    "statue"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3534773",
+   "name": "Rangiri Dambulla International Stadium",
+   "sl": 9,
+   "file": "RDICS.jpg",
+   "lat": 7.8594,
+   "lon": 80.6339,
+   "kind": "built",
+   "types": [
+    "cricket field"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rangiri Dambulla International Stadium"
+  },
+  {
+   "id": "Q4802366",
+   "name": "SLAF Koggala",
+   "sl": 9,
+   "file": "Koggala test flight 1944.jpg",
+   "lat": 5.9939,
+   "lon": 80.3206,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
   }
  ]
 }

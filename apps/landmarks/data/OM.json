@@ -67,22 +67,6 @@
    "cat": "Sultan Qaboos Grand Mosque"
   },
   {
-   "id": "Q680322",
-   "name": "Qalhat",
-   "sl": 32,
-   "file": "Qalhat, mausoleo di Bibi Maryam, xiv secolo, 07.jpg",
-   "lat": 22.7,
-   "lon": 59.3699,
-   "kind": "",
-   "types": [
-    "human settlement"
-   ],
-   "whs": true,
-   "partOf": null,
-   "also": [],
-   "cat": "Qalhat"
-  },
-  {
    "id": "Q25496",
    "name": "Bat, Al-Khutm and Al-Ayn archaeological sites",
    "sl": 31,

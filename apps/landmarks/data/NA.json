@@ -980,24 +980,6 @@
    "cat": "Namutoni, Namibia"
   },
   {
-   "id": "Q2017124",
-   "name": "Okaukuejo",
-   "sl": 8,
-   "file": "020526033Namibia.JPG",
-   "lat": -19.1784,
-   "lon": 15.9202,
-   "kind": "built",
-   "types": [
-    "campsite",
-    "hotel",
-    "human settlement"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Okaukuejo"
-  },
-  {
    "id": "Q2023172",
    "name": "Omatako Dam",
    "sl": 8,

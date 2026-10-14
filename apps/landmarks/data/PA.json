@@ -622,23 +622,6 @@
    "cat": "Gatun Dam"
   },
   {
-   "id": "Q3311345",
-   "name": "Isla Grande",
-   "sl": 9,
-   "file": "Cristo negro - Isla Grande - Colón - Panamá.jpg",
-   "lat": 9.6333,
-   "lon": -79.5667,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Isla Grande, Panama"
-  },
-  {
    "id": "Q7386320",
    "name": "Río Hato Airport",
    "sl": 9,

@@ -362,24 +362,6 @@
    "cat": "Niassa Reserve"
   },
   {
-   "id": "Q1542959",
-   "name": "Grande Hotel Beira",
-   "sl": 12,
-   "file": "Current situation of the Grande Hotel, exterior in front of block B.JPG",
-   "lat": -19.8472,
-   "lon": 34.8406,
-   "kind": "built",
-   "types": [
-    "cultural heritage",
-    "human settlement",
-    "squatter's house"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Grande Hotel Beira"
-  },
-  {
    "id": "Q1516857",
    "name": "Mount Namuli",
    "sl": 12,

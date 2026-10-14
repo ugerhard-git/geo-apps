@@ -230,26 +230,6 @@
    "cat": "Pashupatinath"
   },
   {
-   "id": "Q889902",
-   "name": "Boudhanath",
-   "sl": 44,
-   "file": "Bouddhanath, 2009.jpg",
-   "lat": 27.7214,
-   "lon": 85.3619,
-   "kind": "built",
-   "types": [
-    "human settlement",
-    "stupa"
-   ],
-   "whs": true,
-   "partOf": {
-    "id": "Q970717",
-    "name": "Kathmandu Valley"
-   },
-   "also": [],
-   "cat": "Boudhanath"
-  },
-  {
    "id": "Q1137644",
    "name": "Pumori",
    "sl": 43,
@@ -1356,6 +1336,22 @@
     "CN"
    ],
    "cat": "Langtang Ri"
+  },
+  {
+   "id": "Q2385286",
+   "name": "Manakamana Temple",
+   "sl": 16,
+   "file": "Gorkha Manakamana Temple (cropped).jpg",
+   "lat": 27.9,
+   "lon": 84.5833,
+   "kind": "built",
+   "types": [
+    "Hindu temple"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Manakamana Temple, Gorkha"
   }
  ]
 }

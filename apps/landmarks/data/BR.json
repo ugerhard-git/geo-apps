@@ -630,6 +630,25 @@
    "cat": "Pico da Neblina"
   },
   {
+   "id": "Q733998",
+   "name": "Rio de Janeiro/Galeão – Antonio Carlos Jobim International Airport",
+   "sl": 43,
+   "file": "Riodejaneiro aerea aeroportogaleao-131756(cut).jpg",
+   "lat": -22.81,
+   "lon": -43.2506,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Rio de Janeiro (state)/Galeão - Antônio Carlos Jobim International Airport"
+  },
+  {
    "id": "Q742315",
    "name": "Iguaçu National Park",
    "sl": 42,
@@ -1383,22 +1402,6 @@
    "partOf": null,
    "also": [],
    "cat": "Serra dos Órgãos National Park"
-  },
-  {
-   "id": "Q4788902",
-   "name": "Allianz Parque",
-   "sl": 23,
-   "file": "Allianz Parque 2025.jpg",
-   "lat": -23.5276,
-   "lon": -46.6784,
-   "kind": "built",
-   "types": [
-    "association football venue"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Allianz Parque"
   }
  ]
 }

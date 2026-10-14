@@ -315,22 +315,6 @@
    "cat": "Pella, Jordan"
   },
   {
-   "id": "Q3107493",
-   "name": "Umm el-Jimal",
-   "sl": 26,
-   "file": "Uejhousexviii.jpg",
-   "lat": 32.3267,
-   "lon": 36.3697,
-   "kind": "",
-   "types": [
-    "human settlement"
-   ],
-   "whs": true,
-   "partOf": null,
-   "also": [],
-   "cat": "Umm al Jamal"
-  },
-  {
    "id": "Q423625",
    "name": "Ayn Ghazal",
    "sl": 25,
@@ -1358,6 +1342,23 @@
    "partOf": null,
    "also": [],
    "cat": "Early church of Aqaba"
+  },
+  {
+   "id": "Q797417",
+   "name": "Ba'ja",
+   "sl": 10,
+   "file": "Ba'ja 09.jpg",
+   "lat": 30.4136,
+   "lon": 35.4614,
+   "kind": "built",
+   "types": [
+    "ancient city",
+    "archaeological site"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Ba'ja"
   }
  ]
 }

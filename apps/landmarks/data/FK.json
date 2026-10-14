@@ -14,10 +14,42 @@
    ],
    "whs": false,
    "partOf": null,
-   "also": [
-    "GB"
-   ],
+   "also": [],
    "cat": "RAF Mount Pleasant"
+  },
+  {
+   "id": "Q1064229",
+   "name": "Mount Usborne",
+   "sl": 22,
+   "file": "Mount Usborne - Flickr - chris lovelock.jpg",
+   "lat": -51.6972,
+   "lon": -58.8344,
+   "kind": "natural",
+   "types": [
+    "mountain"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mount Usborne"
+  },
+  {
+   "id": "Q1432457",
+   "name": "Port Stanley Airport",
+   "sl": 18,
+   "file": "Stanley-Airport.JPG",
+   "lat": -51.6857,
+   "lon": -57.7776,
+   "kind": "built",
+   "types": [
+    "aerodrome",
+    "domestic airport",
+    "heliport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Stanley Airport"
   },
   {
    "id": "Q3320132",

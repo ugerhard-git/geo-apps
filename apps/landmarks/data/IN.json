@@ -1250,23 +1250,6 @@
    "cat": "Ranthambore National Park"
   },
   {
-   "id": "Q1816821",
-   "name": "Sriharikota",
-   "sl": 38,
-   "file": "Pulicat Lake.jpg",
-   "lat": 13.7,
-   "lon": 80.2,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Sriharikota"
-  },
-  {
    "id": "Q1648266",
    "name": "Nanda Devi National Park",
    "sl": 37,
@@ -1369,6 +1352,22 @@
    "partOf": null,
    "also": [],
    "cat": "Calicut International Airport"
+  },
+  {
+   "id": "Q2047322",
+   "name": "Chilika Lake",
+   "sl": 35,
+   "file": "Chilika Lake 2.jpg",
+   "lat": 19.7167,
+   "lon": 85.3167,
+   "kind": "natural",
+   "types": [
+    "lagoon"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Chilika Lake"
   }
  ]
 }

@@ -121,23 +121,6 @@
    "cat": "Ramón Villeda Morales International Airport"
   },
   {
-   "id": "Q624535",
-   "name": "Cayos Cochinos",
-   "sl": 16,
-   "file": "Cayos Cochinos Lighthouse view.jpg",
-   "lat": 15.9736,
-   "lon": -86.4785,
-   "kind": "natural",
-   "types": [
-    "archipelago",
-    "human settlement"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Cayos Cochinos"
-  },
-  {
    "id": "Q555952",
    "name": "Juan Manuel Gálvez International Airport",
    "sl": 16,

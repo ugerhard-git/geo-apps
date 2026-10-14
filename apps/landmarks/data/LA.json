@@ -648,23 +648,6 @@
    "cat": "Wat Sene"
   },
   {
-   "id": "Q1869315",
-   "name": "Long Tieng",
-   "sl": 8,
-   "file": "Duck Soup map.png",
-   "lat": 19.1077,
-   "lon": 102.9239,
-   "kind": "built",
-   "types": [
-    "airbase",
-    "human settlement"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Long Tieng"
-  },
-  {
    "id": "Q6695002",
    "name": "Luang Namtha Museum",
    "sl": 8,

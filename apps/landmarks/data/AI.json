@@ -1,4 +1,22 @@
 {
  "country": "AI",
- "items": []
+ "items": [
+  {
+   "id": "Q1657604",
+   "name": "Clayton J. Lloyd International Airport",
+   "sl": 20,
+   "file": "Aircraft parking at Anguilla Airport.jpg",
+   "lat": 18.2047,
+   "lon": -63.055,
+   "kind": "built",
+   "types": [
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Clayton J. Lloyd International Airport"
+  }
+ ]
 }

@@ -104,23 +104,6 @@
    "cat": "Brunei Museum"
   },
   {
-   "id": "Q1990199",
-   "name": "Kampong Ayer",
-   "sl": 18,
-   "file": "BN-bsb-kampong-ayer.jpg",
-   "lat": 4.8825,
-   "lon": 114.9425,
-   "kind": "built",
-   "types": [
-    "human settlement",
-    "stilt house"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Kampong Ayer"
-  },
-  {
    "id": "Q9055985",
    "name": "Ulu Temburong National Park",
    "sl": 16,

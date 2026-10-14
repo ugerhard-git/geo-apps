@@ -1,4 +1,55 @@
 {
  "country": "PM",
- "items": []
+ "items": [
+  {
+   "id": "Q781851",
+   "name": "Miquelon Airport",
+   "sl": 21,
+   "file": "Miquelon Airport.jpg",
+   "lat": 47.0958,
+   "lon": -56.3844,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Miquelon Airport"
+  },
+  {
+   "id": "Q772823",
+   "name": "Saint-Pierre Airport",
+   "sl": 20,
+   "file": "LFVP.jpg",
+   "lat": 46.7631,
+   "lon": -56.1742,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Saint-Pierre Airport"
+  },
+  {
+   "id": "Q2942441",
+   "name": "Saint-Pierre Cathedral",
+   "sl": 8,
+   "file": "Cathedral of St Pierre and Miquelon.jpg",
+   "lat": 46.7811,
+   "lon": -56.1722,
+   "kind": "built",
+   "types": [
+    "cathedral"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Cathédrale Saint-Pierre de Saint-Pierre-et-Miquelon"
+  }
+ ]
 }

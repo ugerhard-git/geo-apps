@@ -1,4 +1,56 @@
 {
  "country": "YT",
- "items": []
+ "items": [
+  {
+   "id": "Q642313",
+   "name": "Dzaoudzi Pamandzi International Airport",
+   "sl": 24,
+   "file": "Aéroport de Pamandzi.jpg",
+   "lat": -12.8067,
+   "lon": 45.2806,
+   "kind": "built",
+   "types": [
+    "airport",
+    "commercial traffic aerodrome",
+    "international airport"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Dzaoudzi Pamandzi International Airport"
+  },
+  {
+   "id": "Q2882024",
+   "name": "Banc du Geyser",
+   "sl": 23,
+   "file": "Banc du Geyser Panorama MODIS.jpg",
+   "lat": -12.32,
+   "lon": 46.45,
+   "kind": "natural",
+   "types": [
+    "disputed territory",
+    "reef"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": ""
+  },
+  {
+   "id": "Q3324915",
+   "name": "Mosquée de Tsingoni",
+   "sl": 11,
+   "file": "Tsingoni minaret.jpg",
+   "lat": -12.7898,
+   "lon": 45.1065,
+   "kind": "built",
+   "types": [
+    "mosque"
+   ],
+   "whs": false,
+   "partOf": null,
+   "also": [],
+   "cat": "Mosquée de Tsingoni"
+  }
+ ]
 }

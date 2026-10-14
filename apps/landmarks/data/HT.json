@@ -211,24 +211,6 @@
    "cat": "Aéroport de Jacmel"
   },
   {
-   "id": "Q1246231",
-   "name": "Labadee",
-   "sl": 15,
-   "file": "Labadee, Haiti Aug 2002.JPG",
-   "lat": 19.7864,
-   "lon": -72.2456,
-   "kind": "both",
-   "types": [
-    "human settlement",
-    "port",
-    "seaside resort"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Labadee"
-  },
-  {
    "id": "Q755784",
    "name": "Stade Sylvio Cator",
    "sl": 14,

@@ -187,40 +187,6 @@
    "cat": "Catedral de Havana"
   },
   {
-   "id": "Q1052012",
-   "name": "Cayo Coco",
-   "sl": 23,
-   "file": "Spiaggia cayo coco(cuba).jpg",
-   "lat": 22.5147,
-   "lon": -78.5114,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Cayo Coco"
-  },
-  {
-   "id": "Q1052027",
-   "name": "Cayo Largo del Sur",
-   "sl": 23,
-   "file": "Scooters at the Cayo Largo airport.jpg",
-   "lat": 21.6061,
-   "lon": -81.5167,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Cayo Largo"
-  },
-  {
    "id": "Q1352908",
    "name": "El Capitolio",
    "sl": 22,
@@ -765,23 +731,6 @@
    "partOf": null,
    "also": [],
    "cat": "Fortaleza de Jagua"
-  },
-  {
-   "id": "Q2943426",
-   "name": "Cayo Santa María",
-   "sl": 11,
-   "file": "Plage de cayo santa maria.JPG",
-   "lat": 22.6577,
-   "lon": -79,
-   "kind": "natural",
-   "types": [
-    "human settlement",
-    "island"
-   ],
-   "whs": false,
-   "partOf": null,
-   "also": [],
-   "cat": "Cayo Santa María"
   },
   {
    "id": "Q18425275",
