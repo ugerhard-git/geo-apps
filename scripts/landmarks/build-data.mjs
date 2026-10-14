@@ -16,7 +16,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadTerritories } from "../../shared/cldr.js";
-import { QLEVER, landmarkQuery } from "./query.js";
+import { QLEVER, candidateQuery, detailQuery } from "./query.js";
 import { selectLandmarks } from "./select.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -24,8 +24,8 @@ const OUT = path.join(ROOT, "apps/landmarks/data");
 const UA = "geo-apps-landmarks/1.0 (https://github.com/ugerhard-git/geo-apps)";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/** @param {string} iso */
-async function query(iso) {
+/** @param {string} text a SPARQL query */
+async function sparql(text) {
   let last;
   for (const wait of [0, 10_000, 30_000]) {
     if (wait) await sleep(wait);
@@ -37,12 +37,12 @@ async function query(iso) {
           Accept: "application/sparql-results+json",
           "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: new URLSearchParams({ query: landmarkQuery(iso) }),
+        body: new URLSearchParams({ query: text }),
         signal: AbortSignal.timeout(180_000),
       });
-      const text = await r.text();
-      if (!r.ok) throw new Error(`HTTP ${r.status}: ${text.slice(0, 200)}`);
-      const rows = JSON.parse(text)?.results?.bindings;
+      const reply = await r.text();
+      if (!r.ok) throw new Error(`HTTP ${r.status}: ${reply.slice(0, 200)}`);
+      const rows = JSON.parse(reply)?.results?.bindings;
       if (!Array.isArray(rows)) throw new Error("unexpected response");
       return rows;
     } catch (e) {
@@ -50,6 +50,32 @@ async function query(iso) {
     }
   }
   throw last;
+}
+
+/**
+ * One country's rows: candidates, then details for them, with the sitelink
+ * counts of step 1 joined on.
+ *
+ * @param {string} iso
+ */
+async function query(iso) {
+  const cand = await sparql(candidateQuery(iso, 300));
+  /** @type {Map<string, string>} */
+  const sl = new Map();
+  for (const r of cand) {
+    const id = (/\/(Q\d+)$/.exec(r?.item?.value || "") || [])[1];
+    if (id) sl.set(id, String(r?.sl?.value || "0"));
+  }
+  if (!sl.size) return [];
+  const rows = [];
+  const ids = [...sl.keys()];
+  for (let i = 0; i < ids.length; i += 100) {
+    for (const r of await sparql(detailQuery(ids.slice(i, i + 100)))) {
+      const id = (/\/(Q\d+)$/.exec(r?.item?.value || "") || [])[1];
+      if (id) rows.push({ ...r, sl: { value: sl.get(id) || "0" } });
+    }
+  }
+  return rows;
 }
 
 await mkdir(OUT, { recursive: true });
@@ -74,6 +100,22 @@ for (const [i, t] of countries.entries()) {
     const why = {};
     for (const d of dropped)
       why[d.reason.replace(/\d+/g, "n")] = (why[d.reason.replace(/\d+/g, "n")] || 0) + 1;
+    if (process.env.GITHUB_ACTIONS && wanted.length)
+      console.log(
+        `::notice title=${t.code}::` +
+          kept
+            .slice(0, 25)
+            .map(
+              (k, n) =>
+                `${n + 1}. ${k.name} [${k.sl}] ${k.kind}${k.whs ? " WHS" : ""}${k.also.length ? " ALSO " + k.also.join(",") : ""} (${k.types.join(", ")})`,
+            )
+            .join("%0A") +
+          `%0ADropped: ` +
+          dropped
+            .slice(0, 15)
+            .map((d) => `${d.name} [${d.sl}] → ${d.reason}`)
+            .join("; "),
+      );
     console.log(
       `${String(i + 1).padStart(3)}/${countries.length} ${t.code} ${t.name}: ${kept.length} kept, ` +
         `${dropped.length} dropped ${JSON.stringify(why)} · ${Date.now() - t0} ms · ` +
