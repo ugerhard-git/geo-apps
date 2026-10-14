@@ -129,6 +129,20 @@ create and approve pull requests**; otherwise the workflow pushes a
 
 To rebuild a few countries locally: `node scripts/landmarks/build-data.mjs FR JP`.
 
+## Precomputed data: Keyboard layouts
+
+The Keyboard layouts app reads `apps/keyboards/data/layouts.json`: the Windows
+keyboard layouts from Unicode CLDR 43 (the last release that published them;
+Unicode License v3), plus the Korean, Japanese, Zhuyin and Cangjie legends that
+Windows leaves to its input methods, entered by hand in
+`scripts/keyboards/printed.js`. Which layouts a country uses comes from CLDR's
+languages per territory, with exceptions in `scripts/keyboards/countries.js`
+(the Netherlands on US-International, Poland on Polish Programmers…).
+
+The layouts no longer change, so the file is built by hand and committed — see
+the header of `scripts/keyboards/build-data.mjs`. Edit `countries.js` and
+rebuild to change a country's layouts.
+
 ## API keys
 
 GeoCards can use a personal REST Countries key. Keys are never
