@@ -46,133 +46,137 @@
       </g>
     </svg>
 
-    <div class="wrap">
-      <header>
-        <h1 class="wordmark"><span>Geo</span>Cards</h1>
-        <p class="tagline">
-          Country statistics, drawn as cards you can download. Figures come from live data; no country name ever appears
-          on a card.
-        </p>
-      </header>
+    <div class="shell">
+      <aside class="rail">
+        <header class="rail-head">
+          <h1 class="wordmark"><span>Geo</span>Cards</h1>
+          <p class="tagline">
+            Country statistics, drawn as cards you can download. Figures come from live data; no country name ever
+            appears on a card.
+          </p>
+        </header>
 
-      <section class="hero">
-        <form id="form" autocomplete="off">
-          <div class="field">
+        <section class="rail-section">
+          <form id="form" autocomplete="off">
             <label class="lede" for="q">Country</label>
             <div class="search-wrap">
               <input type="text" id="q" name="q" placeholder="Name or ISO code" spellcheck="false" autocomplete="off" />
               <div class="results" id="countryResults"></div>
             </div>
-          </div>
-          <button class="go" type="submit" id="go">Create cards</button>
-        </form>
-        <p class="hint">
-          Pick from the suggestions as you type, or press Enter: English names, local names and ISO codes all work, and
-          near-misses get matched. The field empties once the cards are drawn, so the answer stays off screen.
-        </p>
-        <p class="status" id="status" role="status"></p>
-        <div class="progress" id="progress" hidden><i></i></div>
-      </section>
+            <button class="go" type="submit" id="go">Create cards</button>
+          </form>
+          <p class="hint">
+            Pick from the suggestions as you type, or press Enter: English names, local names and ISO codes all work,
+            and near-misses get matched. The field empties once the cards are drawn, so the answer stays off screen.
+          </p>
+          <p class="status" id="status" role="status"></p>
+          <div class="progress" id="progress" hidden><i></i></div>
+        </section>
 
-      <section class="controls">
-        <div class="ctl">
-          <span>Preset</span>
-          <div class="seg" role="group" aria-label="Colour preset">
-            <button type="button" data-preset="light" aria-pressed="true">Light</button>
-            <button type="button" data-preset="dark" aria-pressed="false">Dark</button>
+        <section class="rail-section">
+          <h2>Cards</h2>
+          <div class="ctl">
+            <span>Preset</span>
+            <div class="seg" role="group" aria-label="Colour preset">
+              <button type="button" data-preset="light" aria-pressed="true">Light</button>
+              <button type="button" data-preset="dark" aria-pressed="false">Dark</button>
+            </div>
           </div>
-        </div>
-        <div class="ctl">
-          <label class="swatchpick" for="cardBg"
-            ><input type="color" id="cardBg" value="#FBF9F3" /><span>Card</span></label
-          >
-          <label class="swatchpick" for="cardText"
-            ><input type="color" id="cardText" value="#16232E" /><span>Text</span></label
-          >
-        </div>
-        <div class="ctl clears">
-          <span>Transparent</span>
-          <label class="switch">
-            <input type="checkbox" id="alphaCard" />
-            <span class="track"></span>
-            inside cards
-          </label>
-          <label class="switch">
-            <input type="checkbox" id="alpha" />
-            <span class="track"></span>
-            behind cards
-          </label>
-        </div>
-        <div class="ctl">
-          <span>Reference data</span>
-          <div class="seg" role="group" aria-label="Reference data source">
+          <div class="ctl">
+            <span>Colours</span>
+            <label class="swatchpick" for="cardBg"
+              ><input type="color" id="cardBg" value="#FBF9F3" /><span>Card</span></label
+            >
+            <label class="swatchpick" for="cardText"
+              ><input type="color" id="cardText" value="#16232E" /><span>Text</span></label
+            >
+          </div>
+          <div class="ctl ctl-stack">
+            <span>Transparent</span>
+            <label class="switch">
+              <input type="checkbox" id="alphaCard" />
+              <span class="track"></span>
+              inside cards
+            </label>
+            <label class="switch">
+              <input type="checkbox" id="alpha" />
+              <span class="track"></span>
+              behind cards
+            </label>
+          </div>
+          <p class="hint">
+            Labels and units are the text colour at reduced strength, so they stay in step with whatever you choose.
+            Pick two colours far enough apart and the card stays readable. Clearing the inside of the cards leaves the
+            text and a hairline border.
+          </p>
+        </section>
+
+        <section class="rail-section">
+          <h2>Statistics</h2>
+          <button type="button" class="linkish" id="togglePicker" aria-expanded="false">Choose statistics</button>
+          <div class="picker" id="picker" hidden>
+            <div id="groups"></div>
+            <p class="dense" id="denseNote" hidden></p>
+            <footer>
+              <p>
+                <span id="tally" class="picktally">12 selected</span> — cards appear on the sheet in the order you tick
+                them. A brass dot marks a statistic that gives the country away, a key tag marks one that needs an API
+                key, and a 2026 tag marks one drawn from the final edition of the CIA World Factbook, which stopped
+                being updated that February. The sheet is always 2400 × 1600 pixels.
+              </p>
+              <button type="button" class="btn" id="resetPick">Reset to default</button>
+            </footer>
+          </div>
+        </section>
+
+        <section class="rail-section">
+          <h2>Reference data</h2>
+          <div class="seg seg-full" role="group" aria-label="Reference data source">
             <button type="button" data-source="open" aria-pressed="true">Open data</button>
             <button type="button" data-source="rest" aria-pressed="false" id="srcRest" disabled>REST Countries</button>
           </div>
-        </div>
-        <button type="button" class="linkish" id="toggleKey" aria-expanded="false">Add an API key</button>
-        <button type="button" class="linkish" id="togglePicker" aria-expanded="false">Choose statistics</button>
-      </section>
-
-      <section class="keypanel" id="keypanel" hidden>
-        <div class="keyrow">
-          <div class="field">
-            <label class="lede" for="apikey">REST Countries API key</label>
-            <input
-              type="password"
-              id="apikey"
-              spellcheck="false"
-              autocomplete="off"
-              autocapitalize="off"
-              autocorrect="off"
-              placeholder="rc_live_…"
-            />
+          <button type="button" class="linkish" id="toggleKey" aria-expanded="false">Add an API key</button>
+          <div class="keypanel" id="keypanel" hidden>
+            <div class="keyrow">
+              <div class="field">
+                <label class="lede" for="apikey">REST Countries API key</label>
+                <input
+                  type="password"
+                  id="apikey"
+                  spellcheck="false"
+                  autocomplete="off"
+                  autocapitalize="off"
+                  autocorrect="off"
+                  placeholder="rc_live_…"
+                />
+              </div>
+              <button type="button" class="btn" id="checkKey">Check key</button>
+              <button type="button" class="btn" id="forgetKey">Forget key</button>
+            </div>
+            <label class="switch" style="margin-top: 16px">
+              <input type="checkbox" id="rememberKey" />
+              <span class="track"></span>
+              Remember this key in this browser
+            </label>
+            <p class="keystatus" id="keystatus" role="status"></p>
+            <p class="keynote">
+              A key adds fourteen fields the open data set does not carry, among them time zones, driving side, the
+              working week, local number formatting and bloc memberships. It costs three requests per session out of the
+              free plan's 500 a month.<br /><br />
+              REST Countries blocks browser requests unless this page's hostname is on the key's allowed origins, so add
+              the host you open this page from on the API Keys page: your GitHub Pages host (for example
+              <code>yourname.github.io</code>) and, for local development with <code>npm run dev</code>,
+              <code>localhost</code>. The key itself is never part of the page or the repository.<br /><br />
+              Remembering the key writes it to this browser’s local storage in plain text. It is shared with the other
+              geo apps on this site, so it only needs entering once, but any other page served from the same origin can
+              read it. Leave that unticked on a shared machine. Forget key wipes it from the page and from storage
+              straight away, for every app; without it the key is only ever held in memory for this tab.
+            </p>
           </div>
-          <button type="button" class="btn" id="checkKey">Check key</button>
-          <button type="button" class="btn" id="forgetKey">Forget key</button>
-        </div>
-        <label class="switch" style="margin-top: 16px">
-          <input type="checkbox" id="rememberKey" />
-          <span class="track"></span>
-          Remember this key in this browser
-        </label>
-        <p class="keystatus" id="keystatus" role="status"></p>
-        <p class="keynote">
-          A key adds fourteen fields the open data set does not carry, among them time zones, driving side, the working
-          week, local number formatting and bloc memberships. It costs three requests per session out of the free plan's
-          500 a month.<br /><br />
-          REST Countries blocks browser requests unless this page's hostname is on the key's allowed origins, so add the
-          host you open this page from on the API Keys page: your GitHub Pages host (for example
-          <code>yourname.github.io</code>) and, for local development with <code>npm run dev</code>,
-          <code>localhost</code>. The key itself is never part of the page or the repository.<br /><br />
-          Remembering the key writes it to this browser’s local storage in plain text. It is shared with the other geo
-          apps on this site, so it only needs entering once, but any other page served from the same origin can read it.
-          Leave that unticked on a shared machine. Forget key wipes it from the page and from storage straight away, for
-          every app; without it the key is only ever held in memory for this tab.
-        </p>
-      </section>
-      <p class="hint">
-        Labels and units are the text colour at reduced strength, so they stay in step with whatever you choose rather
-        than needing their own setting. Pick two colours far enough apart and the card stays readable. Clearing the
-        inside of the cards leaves the text and a hairline border.
-      </p>
+        </section>
+      </aside>
 
-      <section class="picker" id="picker" hidden>
-        <h2>Statistics to draw</h2>
-        <div id="groups"></div>
-        <p class="dense" id="denseNote" hidden></p>
-        <footer>
-          <p>
-            <span id="tally" class="picktally">12 selected</span> — cards appear on the sheet in the order you tick
-            them. A brass dot marks a statistic that gives the country away, a key tag marks one that needs an API key,
-            and a 2026 tag marks one drawn from the final edition of the CIA World Factbook, which stopped being updated
-            that February. The sheet is always 2400 × 1600 pixels.
-          </p>
-          <button type="button" class="btn" id="resetPick">Reset to default</button>
-        </footer>
-      </section>
-
-      <section class="output">
+      <main class="stage">
         <div class="toolbar">
           <span class="count" id="count">No cards yet</span>
           <button type="button" class="btn" id="showText" disabled>Show as text</button>
@@ -186,23 +190,23 @@
             <span id="copystatus" role="status"></span>
           </div>
         </div>
-        <div class="empty" id="empty"><p>Type a country above to build its card set.</p></div>
+        <div class="empty" id="empty"><p>Pick a country on the left to build its card set.</p></div>
         <div class="grid" id="grid"></div>
-      </section>
 
-      <p class="colophon">
-        Out of the box, names, codes, area, languages, currencies, borders and capitals come from the
-        <a href="https://github.com/mledoze/countries" target="_blank" rel="noopener">mledoze/countries</a> ISO 3166
-        data set, used under the ODbL and loaded once per session from a public CDN. Supply a
-        <a href="https://restcountries.com" target="_blank" rel="noopener">REST Countries</a> v5 key and that half is
-        served from their API instead, which carries fourteen further fields. Figures that change year to year —
-        population, GDP, life expectancy, rainfall, forest cover — come live from the
-        <a href="https://data.worldbank.org" target="_blank" rel="noopener">World Bank</a> open data API. Elevation,
-        coastline, terrain, climate and natural resources come from the
-        <a href="https://github.com/factbook/factbook.json" target="_blank" rel="noopener">CIA World Factbook</a>, in
-        the public domain; the CIA discontinued it in February 2026, so those cards are a frozen final edition rather
-        than current reporting.
-      </p>
+        <p class="colophon">
+          Out of the box, names, codes, area, languages, currencies, borders and capitals come from the
+          <a href="https://github.com/mledoze/countries" target="_blank" rel="noopener">mledoze/countries</a> ISO 3166
+          data set, used under the ODbL and loaded once per session from a public CDN. Supply a
+          <a href="https://restcountries.com" target="_blank" rel="noopener">REST Countries</a> v5 key and that half is
+          served from their API instead, which carries fourteen further fields. Figures that change year to year —
+          population, GDP, life expectancy, rainfall, forest cover — come live from the
+          <a href="https://data.worldbank.org" target="_blank" rel="noopener">World Bank</a> open data API. Elevation,
+          coastline, terrain, climate and natural resources come from the
+          <a href="https://github.com/factbook/factbook.json" target="_blank" rel="noopener">CIA World Factbook</a>, in
+          the public domain; the CIA discontinued it in February 2026, so those cards are a frozen final edition rather
+          than current reporting.
+        </p>
+      </main>
     </div>
 
     <script type="module" src="main.js"></script>
