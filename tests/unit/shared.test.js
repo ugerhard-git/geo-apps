@@ -202,3 +202,26 @@ test("Commons renders: previews are never large originals", () => {
     },
   );
 });
+
+test("Commons renders: the reply Commons gives today (thumb host, tracking query)", () => {
+  // Shape of a real reply, October 2026.
+  const info = {
+    width: 4000,
+    mime: "image/jpeg",
+    thumburl:
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Blick_ins_Renchtal.JPG/330px-Blick_ins_Renchtal.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    url: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Blick_ins_Renchtal.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  };
+  assert.deepEqual(pickRenders(info, 330, 1280), {
+    thumb:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Blick_ins_Renchtal.JPG/330px-Blick_ins_Renchtal.JPG",
+    full: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Blick_ins_Renchtal.JPG/1280px-Blick_ins_Renchtal.JPG",
+  });
+  assert.equal(
+    safeImageUrl(info.url),
+    "https://upload.wikimedia.org/wikipedia/commons/7/7a/Blick_ins_Renchtal.JPG",
+  );
+  assert.equal(safeImageUrl("https://thumb.wikimedia.org/other/x.jpg"), null);
+  assert.equal(safeImageUrl("http://upload.wikimedia.org/wikipedia/commons/a/ab/x.jpg"), null);
+  assert.equal(safeImageUrl("https://thumb.wikimedia.org.evil.example/wikipedia/x.jpg"), null);
+});

@@ -16,6 +16,15 @@ export const COMMONS_API = "https://commons.wikimedia.org/w/api.php";
 /** The only host images are ever loaded from. Each app's CSP allows just this one. */
 export const UPLOAD_HOST = "upload.wikimedia.org";
 
+/*
+  Commons now gives thumbnail addresses on thumb.wikimedia.org, with tracking
+  parameters (?utm_source=…) on every address. The same render is served at
+  the same path on upload.wikimedia.org, which is the host every app's CSP
+  allows and which sends the CORS header a canvas needs for export. So
+  thumb-host addresses are moved to the upload host, and the query dropped.
+*/
+const THUMB_HOST = "thumb.wikimedia.org";
+
 /**
  * Call a MediaWiki action API (Commons by default) and return the parsed reply.
  * `format=json`, `formatversion=2` and anonymous CORS (`origin=*`) are added.
@@ -85,7 +94,8 @@ export async function filesIn(title, limit) {
 }
 
 /**
- * Accept a URL only if it is HTTPS on Wikimedia's upload host.
+ * Accept a URL only if it is HTTPS on Wikimedia's upload host (a
+ * thumb.wikimedia.org render is moved there), without its query.
  *
  * A protocol-relative "//upload.wikimedia.org/..." (as rendered wiki HTML
  * uses) has no scheme, so parsing it without a base would throw and look like
@@ -99,7 +109,13 @@ export function safeImageUrl(u) {
   if (!raw) return null;
   try {
     const url = new URL(raw, "https://" + UPLOAD_HOST + "/");
-    if (url.protocol !== "https:" || url.hostname !== UPLOAD_HOST) return null;
+    if (url.protocol !== "https:") return null;
+    if (url.hostname === THUMB_HOST && url.pathname.startsWith("/wikipedia/"))
+      url.hostname = UPLOAD_HOST;
+    if (url.hostname !== UPLOAD_HOST) return null;
+    // Renders and originals need no query; Commons adds tracking to them.
+    url.search = "";
+    url.hash = "";
     return url.href;
   } catch {
     return null;
