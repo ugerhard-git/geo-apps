@@ -119,6 +119,28 @@ To add a service: add an entry to `SERVICES` in `shared/keys.js`, then use `getK
 REST Countries keys are limited to allowed origins: add `https://ugerhard-git.github.io` (and
 `http://127.0.0.1:8080` for local work) in your REST Countries account.
 
+## Security
+
+The apps are static pages, so the main risks are data from the APIs or from
+the user ending up as code, and third-party code running on the site. The
+rules that keep that in check:
+
+- **Data is text, never markup.** Everything from an API, a pasted CSV or a
+  search box is put on the page with `textContent` or DOM calls, never
+  `innerHTML`. HTML from Wikipedia is parsed into a detached document and only
+  read as text. Links built from data always start with a fixed `https://` host.
+- **Every page has a Content-Security-Policy** in its `<head>`:
+  `default-src 'none'`, scripts only from the site itself, and `connect-src`
+  listing exactly the APIs the app uses. Adding a data source means adding its
+  host there.
+- **No third-party scripts.** Libraries are kept in the repository (see
+  `apps/owid-chart-plotter/vendor/`) instead of loaded from a CDN, because all
+  apps share one origin, and with it the browser storage that can hold the
+  REST Countries key.
+- **API keys** live only in the visitor's browser, opt-in, and are only sent to
+  their own service (`shared/keys.js`).
+- **CI** runs with read-only permissions; only the Pages deploy job can publish.
+
 ## Editor setup
 
 Opening the folder in VS Code offers the recommended extensions (`.vscode/extensions.json`): ESLint,

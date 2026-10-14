@@ -8,7 +8,7 @@ import prettier from "eslint-config-prettier";
 import globals from "globals";
 
 export default [
-  { ignores: ["node_modules/", "_site/", "test-results/", "playwright-report/"] },
+  { ignores: ["node_modules/", "_site/", "test-results/", "playwright-report/", "**/vendor/"] },
 
   js.configs.recommended,
 
