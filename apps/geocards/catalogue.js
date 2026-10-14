@@ -1105,20 +1105,7 @@ export const CARDS = [
   },
 ];
 
-export const DEFAULTS = [
-  "population",
-  "area",
-  "density",
-  "gdp",
-  "gdppc",
-  "lifeexp",
-  "urban",
-  "internet",
-  "forest",
-  "languages",
-  "region",
-  "landlocked",
-];
+export const DEFAULTS = ["population", "area", "gdppc", "lifeexp", "internet", "landlocked"];
 export const GROUP_ORDER = [
   "People",
   "Belief",
