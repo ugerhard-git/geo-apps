@@ -14,6 +14,9 @@ import { squarify } from "../../apps/export-treemap/treemap.js";
 import { quantise } from "../../apps/flagcolours/measure.js";
 import { buildData, csvCell, safeName, valueAt } from "../../apps/owid-chart-plotter/data.js";
 import { splitSlug } from "../../apps/owid-chart-plotter/owid.js";
+import { Region, clipLines, clipPath } from "../../apps/rivers/clip.js";
+import { parseLakes, parseRivers } from "../../apps/rivers/data.js";
+import { rankWidth } from "../../apps/rivers/render.js";
 import { applyAffix, detectAffix, stripAffix } from "../../apps/subdivisions/names.js";
 
 test("alphabets: CLDR unicode sets, scripts and case pairs", () => {
@@ -349,4 +352,161 @@ test("city dots: dot areas follow population, with a floor", () => {
   const ext = extentOf([], [{ x: 1, y: 1, pop: 1, capital: false }]);
   assert.ok(ext && ext.x1 > ext.x0 && ext.y1 > ext.y0);
   assert.equal(extentOf([], []), null);
+});
+
+/* ── Rivers ──────────────────────────────────────────────── */
+
+/** A 10° square country with a 2° lake-hole in the middle, in plane units. */
+function squareCountry() {
+  const d = Math.PI / 180;
+  const sq = (/** @type {number} */ a, /** @type {number} */ b) => [
+    [a * d, a * d],
+    [b * d, a * d],
+    [b * d, b * d],
+    [a * d, b * d],
+  ];
+  return new Region([[sq(0, 10), sq(4, 6)]], 6);
+}
+
+test("rivers: the region knows inside, holes and the border strip", () => {
+  const r = squareCountry();
+  const d = Math.PI / 180;
+  assert.equal(r.inside(2 * d, 2 * d), true);
+  assert.equal(r.inside(5 * d, 5 * d), false); // the hole
+  assert.equal(r.inside(12 * d, 2 * d), false);
+  // 6 km is about 0.054°; 0.03° outside is near, 0.2° is not.
+  assert.equal(r.near(10.03 * d, 5 * d), true);
+  assert.equal(r.near(10.2 * d, 5 * d), false);
+});
+
+test("rivers: lines are cut to the country, border runs kept only when long", () => {
+  const r = squareCountry();
+  const d = Math.PI / 180;
+  const path = (/** @type {number[][]} */ pts) =>
+    Float64Array.from(pts.flatMap(([x, y]) => [x * d, y * d]));
+  // Crosses the border: only the inside part (plus the border strip) is kept.
+  const crossing = clipPath(
+    path([
+      [-5, 2],
+      [1, 2],
+      [3, 2],
+      [20, 2],
+    ]),
+    0,
+    r,
+    25,
+  );
+  assert.equal(crossing.length, 1);
+  assert.deepEqual(
+    crossing[0].map((v) => Math.round(v / d)),
+    [1, 2, 3, 2],
+  );
+  // Follows the border just outside it for 8° (about 890 km): a border river.
+  const border = clipPath(
+    path([
+      [10.02, 1],
+      [10.02, 5],
+      [10.02, 9],
+    ]),
+    0,
+    r,
+    25,
+  );
+  assert.equal(border.length, 1);
+  // The same, for 0.1°: a neighbour's river brushing past.
+  assert.equal(
+    clipPath(
+      path([
+        [10.02, 1],
+        [10.02, 1.1],
+      ]),
+      0,
+      r,
+      25,
+    ).length,
+    0,
+  );
+  // A line far away is skipped by its box.
+  const far = {
+    xy: path([
+      [50, 50],
+      [51, 51],
+    ]),
+    box: { x0: 0.87, y0: 0.87, x1: 0.89, y1: 0.89 },
+    rank: 3,
+    kind: /** @type {const} */ ("river"),
+  };
+  assert.equal(clipLines([far], r, 25).length, 0);
+});
+
+test("rivers: GeoJSON is read defensively", () => {
+  const fc = (/** @type {any[]} */ features) => ({ type: "FeatureCollection", features });
+  const lines = parseRivers(
+    fc([
+      {
+        geometry: {
+          type: "LineString",
+          coordinates: [
+            [0, 0],
+            [1, 1],
+          ],
+        },
+        properties: { scalerank: 3, featurecla: "River" },
+      },
+      {
+        geometry: {
+          type: "MultiLineString",
+          coordinates: [
+            [
+              [0, 0],
+              [1, 1],
+            ],
+            [
+              [2, 2],
+              ["x", 3],
+            ],
+          ],
+        },
+        properties: { featurecla: "Intermittent River" },
+      },
+      { geometry: null, properties: {} },
+      {
+        geometry: {
+          type: "LineString",
+          coordinates: [
+            [0, 0],
+            [999, 1],
+          ],
+        },
+        properties: {},
+      },
+    ]),
+  );
+  assert.equal(lines.length, 2);
+  assert.equal(lines[0].rank, 3);
+  assert.equal(lines[1].kind, "intermittent");
+  assert.equal(lines[1].rank, 12); // no rank: the smallest
+  assert.throws(() => parseRivers({ type: "Feature" }));
+  assert.throws(() => parseRivers(fc(Array(30000).fill(null))));
+  const lakes = parseLakes(
+    fc([
+      {
+        geometry: {
+          type: "Polygon",
+          coordinates: [
+            [
+              [0, 0],
+              [1, 0],
+              [1, 1],
+              [0, 0],
+            ],
+            [[9, 9]],
+          ],
+        },
+      },
+    ]),
+  );
+  assert.equal(lakes.length, 1);
+  assert.equal(lakes[0].rings.length, 1); // the broken hole is dropped
+  assert.ok(rankWidth(0) > rankWidth(6) && rankWidth(6) > rankWidth(12) && rankWidth(12) > 0);
 });

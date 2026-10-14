@@ -13,6 +13,7 @@ import { clamp, own } from "./util.js";
 
 /** @typedef {import("./world.js").Polys} Polys */
 /** @typedef {import("./geo.js").Point} Point */
+/** @typedef {{x0: number, y0: number, x1: number, y1: number}} Box */
 
 /** Web Mercator stops here; beyond it y runs off to infinity. */
 export const MERCATOR_LIMIT = 85.05112878;
@@ -141,4 +142,40 @@ export function boundsOf(polys) {
         if (y > y1) y1 = y;
       }
   return Number.isFinite(x0) && x1 > x0 && y1 > y0 ? { x0, y0, x1, y1 } : null;
+}
+
+/**
+ * The country's landmasses in the plane, and a box around each, which is
+ * what decides whether a city belongs to the part being drawn.
+ *
+ * @param {Polys | null} polys in degrees, or null when there is no outline
+ * @param {boolean} mainOnly
+ * @param {string} name the country's Natural Earth name (for mainland rules)
+ * @returns {{shape: Polys, boxes: Box[]}}
+ */
+export function projectCountry(polys, mainOnly, name) {
+  if (!polys) return { shape: [], boxes: [] };
+  let shape = projectSubject(polys, mainOnly, name);
+  /*
+    A country whose islands lie on both sides of the antimeridian (Fiji,
+    Kiribati, Russia's far east) would stretch across the whole world:
+    its western islands are moved round to join the rest.
+  */
+  const whole = boundsOf(shape);
+  if (whole && whole.x1 - whole.x0 > Math.PI)
+    shape = shape.map((rings) => {
+      const b = boundsOf([rings]);
+      return b && b.x1 < 0
+        ? rings.map((ring) =>
+            ring.map(([x, y]) => /** @type {[number, number]} */ ([x + 2 * Math.PI, y])),
+          )
+        : rings;
+    });
+  /** @type {Box[]} */
+  const boxes = [];
+  for (const rings of shape) {
+    const b = boundsOf([rings]);
+    if (b) boxes.push(b);
+  }
+  return { shape, boxes };
 }

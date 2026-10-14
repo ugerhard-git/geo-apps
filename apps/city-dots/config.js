@@ -34,21 +34,3 @@ export const COUNT_DEFAULT = 40;
   coast belongs with it.
 */
 export const MAINLAND_SLACK_DEG = 0.35;
-
-/** Names people type that CLDR doesn't list, by ISO code. */
-export const ALIASES = {
-  US: ["usa", "america"],
-  GB: ["uk", "great britain", "britain", "england"],
-  NL: ["holland"],
-  DE: ["deutschland"],
-  CH: ["schweiz", "suisse"],
-  AT: ["osterreich", "oesterreich"],
-  CI: ["ivory coast"],
-  SZ: ["swaziland"],
-  TR: ["turkey"],
-  CV: ["cape verde"],
-  TL: ["east timor"],
-  CD: ["drc", "congo kinshasa"],
-  CG: ["congo brazzaville"],
-  MM: ["burma"],
-};

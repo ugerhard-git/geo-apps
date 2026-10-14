@@ -6,6 +6,7 @@ import { test } from "node:test";
 import { overviewUrl } from "../../shared/back-link.js";
 import { parseAlpha3, parseNumeric } from "../../shared/cldr.js";
 import { parseHex, safeColour } from "../../shared/colour.js";
+import { matchShape } from "../../shared/map-countries.js";
 import { classifyLicence, licenceAllows, safeImageUrl } from "../../shared/commons.js";
 import { rankCountries } from "../../shared/country-picker.js";
 import { parseCsv } from "../../shared/net.js";
@@ -142,4 +143,19 @@ test("pointInPolys and boxOfPolys", () => {
   assert.equal(pointInPolys(5, 5, square), false); // in the hole
   assert.equal(pointInPolys(12, 2, square), false);
   assert.deepEqual(boxOfPolys(square), { w: 0, s: 0, e: 10, n: 10 });
+});
+
+test("matchShape finds a country's outline by code, then by name", () => {
+  const ring = (/** @type {number} */ n) => Array.from({ length: n }, (_, i) => [i, i % 2]);
+  const shapes = [
+    { name: "Ashmore and Cartier Is.", id: "036", polys: [[ring(5)]] },
+    { name: "Australia", id: "036", polys: [[ring(50)]] },
+    { name: "Kosovo", id: "", polys: [[ring(5)]] },
+  ];
+  const numeric = new Map([["AU", "036"]]);
+  const t = (/** @type {string} */ code, /** @type {string} */ name) => ({ code, name, alts: [] });
+  assert.equal(matchShape(t("AU", "Australia"), numeric, shapes)?.name, "Australia");
+  assert.equal(matchShape(t("AU", "Oz"), numeric, shapes)?.name, "Australia"); // the larger
+  assert.equal(matchShape(t("XK", "Kosovo"), numeric, shapes)?.name, "Kosovo");
+  assert.equal(matchShape(t("ZZ", "Nowhere"), numeric, shapes), null);
 });
