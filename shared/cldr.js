@@ -120,3 +120,33 @@ export function parseAlpha3(data) {
 export async function loadAlpha3() {
   return parseAlpha3(await getJson(URL_CODE_MAPPINGS));
 }
+
+/**
+ * Pull the alpha-2 → ISO numeric table out of CLDR's `codeMappings.json`.
+ * Numeric codes are what world-atlas uses to identify its country shapes.
+ *
+ * @param {any} data parsed `codeMappings.json`
+ * @returns {Map<string, string>} e.g. `"DE"` → `"276"` (always three digits)
+ * @throws when the file does not have the expected shape
+ */
+export function parseNumeric(data) {
+  const m = data && data.supplemental && data.supplemental.codeMappings;
+  if (!m || typeof m !== "object") throw new Error("unexpected code mappings data");
+  /** @type {Map<string, string>} */
+  const out = new Map();
+  for (const code of Object.keys(m)) {
+    const num = own(m, code) && own(m, code)._numeric;
+    if (/^[A-Z]{2}$/.test(code) && typeof num === "string" && /^\d{1,3}$/.test(num))
+      out.set(code, num.padStart(3, "0"));
+  }
+  return out;
+}
+
+/**
+ * Fetch the alpha-2 → ISO numeric table.
+ *
+ * @returns {Promise<Map<string, string>>}
+ */
+export async function loadNumeric() {
+  return parseNumeric(await getJson(URL_CODE_MAPPINGS));
+}

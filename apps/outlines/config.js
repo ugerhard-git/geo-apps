@@ -3,7 +3,7 @@
  */
 
 /** Natural Earth 1:50m country outlines, as TopoJSON. */
-export const TOPO_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json";
+export { WORLD_ATLAS_URL as TOPO_URL } from "../../shared/world.js";
 
 /*
   Natural Earth's 1:50m admin-1 file covers only 34 large federal countries —
@@ -46,9 +46,6 @@ export const ALLOWED_DATA_HOSTS = new Set([
   "raw.githubusercontent.com",
   "cdn.jsdelivr.net",
 ]);
-
-/** Mercator runs to infinity at the poles; this is the usual working limit. */
-export const MERCATOR_LIMIT = 85.05112878;
 
 /** Names people type that the geometry files do not use, by Natural Earth name. */
 export const ALIASES = {

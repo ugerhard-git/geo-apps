@@ -4,12 +4,13 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { overviewUrl } from "../../shared/back-link.js";
-import { parseAlpha3 } from "../../shared/cldr.js";
+import { parseAlpha3, parseNumeric } from "../../shared/cldr.js";
 import { parseHex, safeColour } from "../../shared/colour.js";
 import { classifyLicence, licenceAllows, safeImageUrl } from "../../shared/commons.js";
 import { rankCountries } from "../../shared/country-picker.js";
 import { parseCsv } from "../../shared/net.js";
 import { bareName, cleanText, norm } from "../../shared/text.js";
+import { boxOfPolys, pointInPolys } from "../../shared/world.js";
 
 test("parseHex accepts #rrggbb, rrggbb and #rgb, rejects anything else", () => {
   assert.equal(parseHex("#FF8800"), "#ff8800");
@@ -99,4 +100,46 @@ test("overviewUrl: only apps on the published site get a link back", () => {
   assert.equal(at("http://ugerhard-git.github.io/geo-apps/apps/geocards/"), null);
   assert.equal(at("http://127.0.0.1:8080/apps/geocards/"), null);
   assert.equal(at("https://example.com/apps/geocards/"), null);
+});
+
+test("parseNumeric reads ISO numeric codes, padded to three digits", () => {
+  const m = parseNumeric({
+    supplemental: {
+      codeMappings: {
+        DE: { _numeric: "276" },
+        AF: { _numeric: "4" },
+        "001": { _numeric: "001" },
+        XK: {},
+      },
+    },
+  });
+  assert.equal(m.get("DE"), "276");
+  assert.equal(m.get("AF"), "004");
+  assert.equal(m.has("001"), false);
+  assert.equal(m.has("XK"), false);
+});
+
+test("pointInPolys and boxOfPolys", () => {
+  const square = [
+    [
+      [
+        [0, 0],
+        [10, 0],
+        [10, 10],
+        [0, 10],
+        [0, 0],
+      ],
+      [
+        [4, 4],
+        [6, 4],
+        [6, 6],
+        [4, 6],
+        [4, 4],
+      ],
+    ],
+  ];
+  assert.equal(pointInPolys(2, 2, square), true);
+  assert.equal(pointInPolys(5, 5, square), false); // in the hole
+  assert.equal(pointInPolys(12, 2, square), false);
+  assert.deepEqual(boxOfPolys(square), { w: 0, s: 0, e: 10, n: 10 });
 });

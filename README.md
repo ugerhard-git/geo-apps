@@ -102,6 +102,8 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `blur.js`           | Blurring regions of an image                                                       |
 | `wikipedia.js`      | Reading an article's infobox                                                       |
 | `geo.js`            | TopoJSON decoding, distances, finding a country's mainland                         |
+| `world.js`          | Country shapes from world-atlas (Natural Earth), point-in-polygon tests            |
+| `projection.js`     | Web Mercator, the mainland of a country, bounds — for the map apps                 |
 | `keys.js`           | API keys shared by all apps (see below)                                            |
 | `back-link.js`      | The "Back to apps overview" link, shown only on the published site                 |
 

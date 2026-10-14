@@ -6,20 +6,17 @@
  * name that is not a string drops the shape rather than the page.
  */
 
-import { decodeArcs, isNum } from "../../shared/geo.js";
+import { isNum } from "../../shared/geo.js";
 import { URL_COUNTRY_CODES, parseCsv } from "../../shared/net.js";
 import { cleanText } from "../../shared/text.js";
 import { ALLOWED_DATA_HOSTS, GEOB_API, REGION_HOSTS } from "./config.js";
 
 /** @typedef {import("../../shared/geo.js").Point} Point */
-/** @typedef {Point[][][]} Polys polygons, each a list of rings (outer first) */
+/** @typedef {import("../../shared/world.js").Polys} Polys */
+/** @typedef {import("../../shared/world.js").CountryShape} CountryShape */
 
-/**
- * @typedef {object} CountryShape
- * @property {string} name Natural Earth name, e.g. "United States of America"
- * @property {string} id ISO numeric code, e.g. "840"
- * @property {Polys} polys
- */
+// Countries come from shared/world.js; re-exported for this app's main.js.
+export { topoCountries } from "../../shared/world.js";
 
 /**
  * @typedef {object} Region
@@ -30,64 +27,6 @@ import { ALLOWED_DATA_HOSTS, GEOB_API, REGION_HOSTS } from "./config.js";
 /* ═══════════════════════════════════════════════════════════
    Countries, from TopoJSON
    ═══════════════════════════════════════════════════════════ */
-
-/**
- * Join a ring's arcs end to end; a negative index means "traverse backwards".
- *
- * @param {Point[][]} arcs
- * @param {unknown[]} indices
- * @returns {Point[] | null} `null` when an index is invalid or the ring is too short
- */
-function ringFrom(arcs, indices) {
-  /** @type {Point[]} */
-  const ring = [];
-  for (const idx of indices) {
-    if (!Number.isInteger(idx)) return null;
-    const n = /** @type {number} */ (idx);
-    const arc = arcs[n < 0 ? ~n : n];
-    if (!arc) return null;
-    const part = n < 0 ? arc.slice().reverse() : arc;
-    for (let k = ring.length ? 1 : 0; k < part.length; k++) ring.push(part[k]);
-  }
-  return ring.length >= 4 ? ring : null;
-}
-
-/**
- * Every country in a world-atlas topology.
- *
- * @param {any} topo
- * @returns {CountryShape[]} sorted by name
- */
-export function topoCountries(topo) {
-  if (!topo || typeof topo !== "object") throw new Error("not an object");
-  if (!Array.isArray(topo.arcs)) throw new Error("no arcs");
-  const coll = topo.objects && topo.objects.countries;
-  if (!coll || !Array.isArray(coll.geometries)) throw new Error("no countries");
-  const arcs = decodeArcs(topo);
-  /** @type {CountryShape[]} */
-  const out = [];
-  for (const g of coll.geometries) {
-    const name = cleanText(g && g.properties && g.properties.name, 80);
-    if (!name) continue;
-    // The numeric ISO code, which the region files are reached through.
-    const id = cleanText(g && g.id, 8);
-    /** @type {Polys} */
-    const polys = [];
-    const groups = g.type === "Polygon" ? [g.arcs] : g.type === "MultiPolygon" ? g.arcs : [];
-    for (const rings of groups) {
-      if (!Array.isArray(rings)) continue;
-      const built = [];
-      for (const r of rings) {
-        if (!Array.isArray(r)) continue;
-        const ring = ringFrom(arcs, r);
-        if (ring) built.push(ring);
-      }
-      if (built.length) polys.push(built);
-    }
-    if (polys.length) out.push({ name, id, polys });
-  }
-  return out.sort((a, b) => a.name.localeCompare(b.name));
-}
 
 /* ═══════════════════════════════════════════════════════════
    Country codes: the outlines carry the numeric code, geoBoundaries the alpha-3
