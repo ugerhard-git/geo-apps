@@ -4,22 +4,26 @@
  *
  *   config.js  product groups (HS sections) and the OEC data source
  *   oec.js     the OEC API: country list and one country's exports
+ *   countries.js  the picker's country list (CLDR names joined to OEC ids)
  *   treemap.js the squarified layout (pure)
  *   chart.js   drawing the SVG: headline, blocks, labels, legend
  *   main.js    this file: page state, rendering, downloads, wiring
  */
 
+import { createCountryPicker } from "../../shared/country-picker.js";
 import { $ } from "../../shared/dom.js";
 import { canRemember, forgetKey, getKey, saveKey } from "../../shared/keys.js";
 import { downloadBlob } from "../../shared/sheet.js";
 import { addLabels, drawChart, el, money, resetMeasurements, SVGNS } from "./chart.js";
 import { ID_OK } from "./config.js";
-import { clip, dataUrl, fetchYear, loadCountryList, toProducts } from "./oec.js";
+import { loadChoices } from "./countries.js";
+import { clip, dataUrl, fetchYear, toProducts } from "./oec.js";
 
 /** @typedef {import("./oec.js").Product} Product */
+/** @typedef {import("./countries.js").Choice} Choice */
 
 const els = {
-  country: /** @type {HTMLSelectElement} */ ($("country")),
+  country: /** @type {HTMLInputElement} */ ($("country")),
   countrySrc: $("countrySrc"),
   year: /** @type {HTMLInputElement} */ ($("year")),
   token: /** @type {HTMLInputElement} */ ($("token")),
@@ -43,6 +47,10 @@ const els = {
   copyUrl: $("copyUrl"),
   openUrl: $("openUrl"),
 };
+
+/** Every country on offer, and the one picked. */
+let choices = /** @type {Choice[]} */ ([]);
+let chosen = /** @type {Choice | null} */ (null);
 
 /** The last rendered chart, for downloads. */
 let current =
@@ -94,31 +102,31 @@ function say(kind, text, code, tail) {
    Country list
    ═══════════════════════════════════════════════════════════ */
 
-/**
- * @param {Array<{id: unknown, name: unknown}>} list
- * @param {string} note shown under the picker
- */
-function fillCountries(list, note) {
-  // Ids reach a URL and names reach the page, so both are checked first.
-  const clean = list
-    .filter((c) => ID_OK.test(String(c.id)))
-    .map((c) => ({ id: String(c.id), name: clip(c.name, 80) }))
-    .slice(0, 1000)
-    .sort((a, b) => a.name.localeCompare(b.name));
+const picker = createCountryPicker({
+  items: () => choices,
+  forms: (c) => [c.name, ...c.alts],
+  code: (c) => c.code,
+  label: (c) => c.name,
+  onPick: (c) => {
+    chosen = c;
+    els.country.value = c.name;
+    picker.close();
+    setDownloads(false);
+    generate();
+  },
+});
 
-  els.country.replaceChildren();
-  const frag = document.createDocumentFragment();
-  for (const c of clean) frag.appendChild(new Option(c.name, c.id)); // text, not markup
-  els.country.appendChild(frag);
-
-  const pref = clean.find((c) => c.id === "eudeu") || clean[0];
-  if (pref) els.country.value = pref.id;
-  els.countrySrc.textContent = note;
-}
+/** Typing after a pick means a new search, so the old pick no longer counts. */
+els.country.addEventListener("input", () => {
+  if (chosen && els.country.value !== chosen.name) chosen = null;
+});
 
 async function loadCountries() {
-  const { list, note } = await loadCountryList(+els.year.value, token());
-  fillCountries(list, note);
+  const loaded = await loadChoices(+els.year.value, token());
+  choices = loaded.choices;
+  els.country.disabled = false;
+  els.country.placeholder = `${choices.length} countries — name or code`;
+  els.countrySrc.textContent = loaded.note;
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -182,11 +190,11 @@ function applyHide() {
 
 /** Fetch the chosen country and year (stepping back up to six years) and draw it. */
 async function generate() {
-  const id = els.country.value;
-  const name = els.country.selectedOptions[0]?.textContent || id;
+  const id = chosen ? chosen.oecId : "";
+  const name = chosen ? chosen.name : "";
   const want = parseInt(els.year.value, 10);
   if (!id || !want) {
-    say("err", "Pick a country and a year first.");
+    say("err", "Pick a country from the list and a year first.");
     return;
   }
   if (!ID_OK.test(id)) {
@@ -329,7 +337,7 @@ function downloadRaster(kind) {
 /** ~8 MB, far above any real response. */
 const MAX_PASTE = 8e6;
 
-const currentUrl = () => dataUrl(els.country.value, parseInt(els.year.value, 10), token());
+const currentUrl = () => dataUrl(chosen ? chosen.oecId : "", parseInt(els.year.value, 10), token());
 
 function warnIfToken() {
   if (token()) say("info", "That URL carries your API token — treat it like a password.");
@@ -360,7 +368,7 @@ els.useJson.onclick = () => {
     if (!products.length) throw new Error("That response has no product rows in it.");
     render(
       products,
-      els.country.selectedOptions[0]?.textContent || "Unknown",
+      chosen ? chosen.name : "Unknown",
       parseInt(els.year.value, 10),
       "Drawn from pasted data.",
     );
@@ -402,7 +410,6 @@ els.hideAnswer.onchange = applyHide;
 els.cutoff.oninput = () => {
   els.cutoffVal.textContent = parseFloat(els.cutoff.value).toFixed(2) + "%";
 };
-els.country.onchange = () => setDownloads(false);
 
 // These only change how the chart is drawn, so redraw the data already in hand.
 const redraw = () => {

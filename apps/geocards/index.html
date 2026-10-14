@@ -59,13 +59,16 @@
         <form id="form" autocomplete="off">
           <div class="field">
             <label class="lede" for="q">Country</label>
-            <input type="text" id="q" name="q" placeholder="Name or ISO code" spellcheck="false" required />
+            <div class="search-wrap">
+              <input type="text" id="q" name="q" placeholder="Name or ISO code" spellcheck="false" autocomplete="off" />
+              <div class="results" id="countryResults"></div>
+            </div>
           </div>
           <button class="go" type="submit" id="go">Create cards</button>
         </form>
         <p class="hint">
-          English names, local names and ISO codes all work, and near-misses get matched. The field empties once the
-          cards are drawn, so the answer stays off screen.
+          Pick from the suggestions as you type, or press Enter: English names, local names and ISO codes all work, and
+          near-misses get matched. The field empties once the cards are drawn, so the answer stays off screen.
         </p>
         <p class="status" id="status" role="status"></p>
         <div class="progress" id="progress" hidden><i></i></div>

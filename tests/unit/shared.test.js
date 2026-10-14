@@ -3,6 +3,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
+import { parseAlpha3 } from "../../shared/cldr.js";
 import { parseHex, safeColour } from "../../shared/colour.js";
 import { classifyLicence, licenceAllows, safeImageUrl } from "../../shared/commons.js";
 import { rankCountries } from "../../shared/country-picker.js";
@@ -73,4 +74,15 @@ test("rankCountries: ISO code, then exact, then prefix, then substring", () => {
   assert.deepEqual(names("deutsch"), ["Germany"]);
   assert.deepEqual(names("eria"), ["Algeria", "Nigeria"]);
   assert.deepEqual(names(""), []);
+});
+
+test("parseAlpha3 reads CLDR's code mappings", () => {
+  const m = parseAlpha3({
+    supplemental: {
+      codeMappings: { DE: { _alpha3: "DEU" }, "001": { _numeric: "001" }, XK: { _alpha3: "XKK" } },
+    },
+  });
+  assert.equal(m.get("DE"), "DEU");
+  assert.equal(m.has("001"), false);
+  assert.throws(() => parseAlpha3({}), /unexpected/);
 });

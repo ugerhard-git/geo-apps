@@ -11,6 +11,8 @@
  *   main.js        this file: state, the form, rendering, wiring
  */
 
+import { loadAlpha3, loadTerritories } from "../../shared/cldr.js";
+import { createCountryPicker } from "../../shared/country-picker.js";
 import { $ } from "../../shared/dom.js";
 import { downloadBlob } from "../../shared/sheet.js";
 import { setupPresetChecker } from "./checker.js";
@@ -46,7 +48,6 @@ const els = {
   valcol: select("valcol"),
   valcollbl: $("valcollbl"),
   search: input("search"),
-  picker: $("picker"),
   chips: $("chips"),
   types: $("types"),
   y0: select("y0"),
@@ -148,10 +149,11 @@ function ingest(text, sourceLabel, preferCol) {
   renderValCol(d);
   els.rows.textContent = d.entities.length + " entities · " + d.years.length + " years";
   els.search.disabled = false;
+  els.search.placeholder = `${d.entities.length} countries and regions — name or code`;
   els.y0.disabled = false;
   els.y1.disabled = false;
   fillYears(d.years);
-  renderPicker();
+  picker.close();
   // Adopt the new column's name as the title if the box is empty or still
   // holds the previous column's name (so switching column doesn't leave a
   // stale title).
@@ -257,30 +259,71 @@ function fillYears(years) {
    built with DOM calls rather than innerHTML.
    ═══════════════════════════════════════════════════════════ */
 
-function renderPicker() {
-  if (!data) return;
-  const q = els.search.value.trim().toLowerCase();
-  const list = data.entities
-    .filter((e) => !picked.includes(e) && (!q || e.toLowerCase().includes(q)))
-    .slice(0, 300);
-  els.picker.textContent = "";
-  if (!list.length) {
-    const empty = document.createElement("div");
-    empty.style.cssText = "padding:9px;font-size:12.5px;color:var(--ink-soft)";
-    empty.textContent = "No match.";
-    els.picker.appendChild(empty);
+/**
+ * CLDR's country names, indexed by ISO alpha-3 code, so a CSV row coded "DEU"
+ * gets the badge "DE" and answers to "Federal Republic of Germany" too. Loaded
+ * in the background; until it arrives (or if it can't), entities are matched
+ * on their CSV name and code alone.
+ *
+ * @type {Map<string, import("../../shared/cldr.js").Territory>}
+ */
+let byAlpha3 = new Map();
+Promise.all([loadTerritories(), loadAlpha3()])
+  .then(([territories, alpha3]) => {
+    byAlpha3 = new Map(
+      territories.filter((t) => alpha3.has(t.code)).map((t) => [alpha3.get(t.code) || "", t]),
+    );
+  })
+  .catch(() => {
+    /* names from the CSV still work */
+  });
+
+/**
+ * @typedef {object} EntityChoice
+ * @property {string} entity name as it appears in the CSV
+ * @property {string} code ISO alpha-2 for countries; "" for regions and groups
+ * @property {string[]} forms every name and code the search answers to
+ */
+
+/** @returns {EntityChoice[]} the entities that can still be picked */
+function pickable() {
+  if (!data) return [];
+  const codes = data.codes;
+  return data.entities
+    .filter((e) => !picked.includes(e))
+    .map((entity) => {
+      const a3 = (codes.get(entity) || "").toUpperCase();
+      const iso = /^[A-Z]{3}$/.test(a3) ? a3 : "";
+      const t = iso ? byAlpha3.get(iso) : undefined;
+      const forms = [entity];
+      if (iso) forms.push(iso);
+      if (t) forms.push(t.name, ...t.alts);
+      return { entity, code: t ? t.code : iso, forms };
+    });
+}
+
+/** @param {string} entity */
+function addEntity(entity) {
+  if (picked.length >= MAX_SERIES) {
+    setStatus("err", "Eight series is the limit — remove one first.");
     return;
   }
-  const frag = document.createDocumentFragment();
-  for (const e of list) {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.dataset.e = e;
-    b.textContent = e;
-    frag.appendChild(b);
-  }
-  els.picker.appendChild(frag);
+  picked.push(entity);
+  els.search.value = ""; // ready for the next one
+  picker.close();
+  renderChips();
+  draw();
 }
+
+const picker = createCountryPicker({
+  items: pickable,
+  forms: (c) => c.forms,
+  code: (c) => c.code,
+  label: (c) => c.entity,
+  onPick: (c) => addEntity(c.entity),
+  inputId: "search",
+  resultsId: "picker",
+});
 
 /** One removable chip per picked entity, showing its latest value in range. */
 function renderChips() {
@@ -305,7 +348,6 @@ function renderChips() {
     frag.appendChild(b);
   });
   els.chips.appendChild(frag);
-  renderPicker();
 }
 
 /**
@@ -419,6 +461,8 @@ function exportCsv() {
 
 els.form.addEventListener("submit", (e) => {
   e.preventDefault();
+  // Enter in the country search picks a country (see the picker); it must not reload the dataset.
+  if (document.activeElement === els.search) return;
   load(els.slug.value);
 });
 els.load.addEventListener("click", () => load(els.slug.value));
@@ -431,17 +475,6 @@ els.valcol.addEventListener("change", () => {
   if (lastCsv) ingest(lastCsv.text, lastCsv.source, els.valcol.value);
 });
 
-els.picker.addEventListener("click", (ev) => {
-  const e = clickedEntity(ev);
-  if (!e) return;
-  if (picked.length >= MAX_SERIES) {
-    setStatus("err", "Eight series is the limit — remove one first.");
-    return;
-  }
-  picked.push(e);
-  renderChips();
-  draw();
-});
 els.chips.addEventListener("click", (ev) => {
   const e = clickedEntity(ev);
   if (!e) return;
@@ -449,7 +482,6 @@ els.chips.addEventListener("click", (ev) => {
   renderChips();
   draw();
 });
-els.search.addEventListener("input", renderPicker);
 
 els.types.addEventListener("click", (e) => {
   const b = /** @type {HTMLElement | null} */ (

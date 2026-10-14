@@ -15,6 +15,8 @@ import { parseCsv } from "../../shared/net.js";
  * @property {Map<string, Map<number, number>>} byEntity entity → year → value
  * @property {number[]} years every year with a value, ascending
  * @property {string[]} entities alphabetical
+ * @property {Map<string, string>} codes entity → its Code column value ("DEU",
+ *   "OWID_WRL"), when the CSV has one
  * @property {string} source where the CSV came from, for the chart's footer
  * @property {string[]} columns all CSV headers
  * @property {number} valCol index of the charted column
@@ -70,6 +72,7 @@ export function buildData(text, sourceLabel, preferCol) {
   const head = rows[0].map((h) => h.trim());
   const iE = head.findIndex((h) => /^entity$/i.test(h));
   const iY = head.findIndex((h) => /^year$|^date$/i.test(h));
+  const iCode = head.findIndex((h) => /^code$/i.test(h));
   const entityCol = iE >= 0 ? iE : 0;
   const yearCol = iY >= 0 ? iY : 2;
 
@@ -119,6 +122,8 @@ export function buildData(text, sourceLabel, preferCol) {
   const byEntity = new Map();
   /** @type {Set<number>} */
   const yearSet = new Set();
+  /** @type {Map<string, string>} */
+  const codes = new Map();
   for (let r = 1; r < rows.length; r++) {
     const row = rows[r];
     const name = (row[entityCol] || "").trim();
@@ -131,6 +136,8 @@ export function buildData(text, sourceLabel, preferCol) {
     if (!m) byEntity.set(name, (m = new Map()));
     m.set(year, v);
     yearSet.add(year);
+    const code = iCode >= 0 ? (row[iCode] || "").trim() : "";
+    if (code && !codes.has(name)) codes.set(name, code.slice(0, 16));
   }
   if (!byEntity.size) throw new Error("No numeric values found in that CSV.");
 
@@ -150,6 +157,7 @@ export function buildData(text, sourceLabel, preferCol) {
     byEntity,
     years: [...yearSet].sort((a, b) => a - b),
     entities: [...byEntity.keys()].sort((a, b) => a.localeCompare(b)),
+    codes,
     source: sourceLabel,
     columns: head,
     valCol,

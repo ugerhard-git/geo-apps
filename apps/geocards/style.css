@@ -117,6 +117,58 @@ button {
   font: inherit;
   cursor: pointer;
 }
+.search-wrap {
+  position: relative;
+}
+.results {
+  position: absolute;
+  z-index: 30;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  background: var(--ink-2);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.45);
+}
+.results:empty {
+  display: none;
+}
+.results button {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  width: 100%;
+  text-align: left;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  color: var(--chalk);
+  font:
+    400 16px/1.35 Archivo,
+    system-ui,
+    sans-serif;
+}
+.results button code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  padding: 0 5px;
+  color: var(--slate);
+}
+.results button:hover,
+.results button.on {
+  background: var(--brass);
+  color: #10202b;
+}
+.results button:hover code,
+.results button.on code {
+  color: #10202b;
+  border-color: currentColor;
+}
 .go {
   background: var(--brass);
   color: #10202b;

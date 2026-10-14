@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { casePair, parseUnicodeSet, scriptOf } from "../../apps/alphabets/unicode.js";
+import { joinChoices } from "../../apps/export-treemap/countries.js";
 import { cubeFor, toProducts } from "../../apps/export-treemap/oec.js";
 import { squarify } from "../../apps/export-treemap/treemap.js";
 import { quantise } from "../../apps/flagcolours/measure.js";
@@ -111,4 +112,46 @@ test("OWID plotter: slugs, file names and CSV cells are made safe", () => {
   assert.equal(safeName("../-rf?x#y"), "rf");
   assert.equal(csvCell("=1+1"), '"\'=1+1"');
   assert.equal(csvCell('say "hi"'), '"say ""hi"""');
+});
+
+test("export treemap: CLDR names are joined to OEC ids by ISO alpha-3", () => {
+  const oec = [
+    { id: "eudeu", name: "Germany" },
+    { id: "eucze", name: "Czech Republic" },
+    { id: "xxabc", name: "Somewhere OEC-only" },
+    { id: "bad id!", name: "Dropped" },
+  ];
+  const territories = [
+    { code: "DE", name: "Germany", alts: [] },
+    { code: "CZ", name: "Czechia", alts: [] },
+    { code: "FR", name: "France", alts: [] },
+  ];
+  const alpha3 = new Map([
+    ["DE", "DEU"],
+    ["CZ", "CZE"],
+    ["FR", "FRA"],
+  ]);
+  const choices = joinChoices(oec, territories, alpha3);
+  assert.deepEqual(
+    choices.map((c) => [c.code, c.name, c.oecId]),
+    [
+      ["CZ", "Czechia", "eucze"],
+      ["DE", "Germany", "eudeu"],
+      ["ABC", "Somewhere OEC-only", "xxabc"],
+    ],
+  );
+  // The OEC's own name and the alpha-3 code still find Czechia.
+  assert.ok(choices[0].alts.includes("Czech Republic") && choices[0].alts.includes("CZE"));
+  // Without CLDR, the OEC list is used as it is.
+  assert.equal(joinChoices(oec, null, null).length, 3);
+});
+
+test("OWID plotter: each entity keeps its Code column", () => {
+  const d = buildData(
+    "Entity,Code,Year,V\nGermany,DEU,2000,1\nWorld,OWID_WRL,2000,2\nX,,2000,3\n",
+    "t",
+  );
+  assert.equal(d.codes.get("Germany"), "DEU");
+  assert.equal(d.codes.get("World"), "OWID_WRL");
+  assert.equal(d.codes.has("X"), false);
 });

@@ -88,3 +88,35 @@ export function parseTerritories(data, exclude = NOT_A_COUNTRY) {
 export async function loadTerritories(exclude = NOT_A_COUNTRY) {
   return parseTerritories(await getJson(URL_TERRITORIES), exclude);
 }
+
+/** ISO code mappings: alpha-2 → alpha-3, numeric and FIPS. */
+export const URL_CODE_MAPPINGS = cldrUrl("cldr-core", "supplemental/codeMappings.json");
+
+/**
+ * Pull the alpha-2 → alpha-3 table out of CLDR's `codeMappings.json`.
+ *
+ * @param {any} data parsed `codeMappings.json`
+ * @returns {Map<string, string>} e.g. `"DE"` → `"DEU"`
+ * @throws when the file does not have the expected shape
+ */
+export function parseAlpha3(data) {
+  const m = data && data.supplemental && data.supplemental.codeMappings;
+  if (!m || typeof m !== "object") throw new Error("unexpected code mappings data");
+  /** @type {Map<string, string>} */
+  const out = new Map();
+  for (const code of Object.keys(m)) {
+    const a3 = own(m, code) && own(m, code)._alpha3;
+    if (/^[A-Z]{2}$/.test(code) && typeof a3 === "string" && /^[A-Z]{3}$/.test(a3))
+      out.set(code, a3);
+  }
+  return out;
+}
+
+/**
+ * Fetch the alpha-2 → alpha-3 table.
+ *
+ * @returns {Promise<Map<string, string>>}
+ */
+export async function loadAlpha3() {
+  return parseAlpha3(await getJson(URL_CODE_MAPPINGS));
+}

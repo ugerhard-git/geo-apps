@@ -9,7 +9,7 @@
   default-src 'none';
   script-src 'self';
   style-src 'self' 'unsafe-inline';
-  connect-src https://api-v2.oec.world;
+  connect-src https://api-v2.oec.world https://cdn.jsdelivr.net;
   img-src blob: data:;
   child-src blob:;
   base-uri 'none';
@@ -39,9 +39,10 @@
         <div class="rail">
           <div class="field">
             <label for="country">Country</label>
-            <select id="country">
-              <option value="">Loading…</option>
-            </select>
+            <div class="search-wrap">
+              <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+              <div class="results" id="countryResults"></div>
+            </div>
             <div class="hint" id="countrySrc">Fetching the country list…</div>
           </div>
 

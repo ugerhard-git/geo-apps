@@ -19,6 +19,8 @@ import {
 import { buildCards } from "./cards.js";
 import { cache, invalidateAtlas, rcCheckKey, resolveCountry } from "./data.js";
 import { canRemember, forgetKey, getKey, saveKey } from "../../shared/keys.js";
+import { loadAlpha3, loadTerritories } from "../../shared/cldr.js";
+import { createCountryPicker, rankCountries } from "../../shared/country-picker.js";
 
 function currentPalette() {
   return palette(state.cardBg, state.cardText, state.cardTransparent);
@@ -261,17 +263,66 @@ async function generate(country, quiet) {
   }
 }
 
-$("form").addEventListener("submit", async (e) => {
+/* -- country search --
+   The same type-ahead as the other apps: CLDR names and ISO codes, picked with
+   the arrow keys and Enter or a click. A pick is looked up by its ISO code.
+   Text that matches nothing in the list still goes through the data set's own
+   fuzzy matching, so local names and near-misses keep working. */
+
+/** @type {Array<{code: string, name: string, alts: string[]}>} */
+let COUNTRIES = [];
+const pickerOptions = {
+  forms: (/** @type {any} */ c) => [c.name, ...c.alts],
+  code: (/** @type {any} */ c) => c.code,
+  label: (/** @type {any} */ c) => c.name,
+};
+const picker = createCountryPicker({
+  ...pickerOptions,
+  items: () => COUNTRIES,
+  inputId: "q",
+  onPick: (c) => {
+    picker.close();
+    lookUp(c.code, c.name);
+  },
+});
+
+Promise.all([loadTerritories(), loadAlpha3()])
+  .then(([territories, alpha3]) => {
+    COUNTRIES = territories.map((t) => ({
+      code: t.code,
+      name: t.name,
+      alts: alpha3.has(t.code) ? [...t.alts, alpha3.get(t.code) || ""] : t.alts,
+    }));
+  })
+  .catch(() => {
+    /* no suggestions, but typing a name and pressing Enter still works */
+  });
+
+$("form").addEventListener("submit", (e) => {
   e.preventDefault();
   const q = $("q").value.trim();
-  if (!q || state.busy) return;
+  if (!q) return;
+  const best = rankCountries(q, COUNTRIES, pickerOptions)[0];
+  picker.close();
+  if (best) lookUp(best.code, best.name);
+  else lookUp(q, "");
+});
+
+/**
+ * Find a country in the reference data and draw its cards.
+ *
+ * @param {string} query an ISO code from the picker, or whatever was typed
+ * @param {string} name the picked country's name, for messages; "" for typed text
+ */
+async function lookUp(query, name) {
+  if (state.busy) return;
   $("go").disabled = true;
   $("progress").hidden = false;
   say(cache.atlas ? "Looking it up…" : "Loading the country data set, just this once…");
   let country = null,
     failure = null;
   try {
-    country = await resolveCountry(q, state, (got, total) =>
+    country = await resolveCountry(query, state, (got, total) =>
       say(`Loading country data, ${got} of ${total}\u2026`),
     );
   } catch (err) {
@@ -301,12 +352,17 @@ $("form").addEventListener("submit", async (e) => {
     return;
   }
   if (!country) {
-    say("No country matches that. Try the English name or an ISO code such as DE or DEU.", true);
+    say(
+      name
+        ? `${name} isn't in the current reference data set.`
+        : "No country matches that. Try the English name or an ISO code such as DE or DEU.",
+      true,
+    );
     return;
   }
   $("q").value = ""; // the answer never stays on screen
   await generate(country, false);
-});
+}
 
 /* -- controls -- */
 function markPreset(name) {

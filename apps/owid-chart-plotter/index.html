@@ -139,10 +139,22 @@
             <fieldset>
               <legend>2 — Countries</legend>
               <label class="lbl sr" for="search">Search countries</label>
-              <input type="search" id="search" placeholder="Search countries…" disabled />
-              <div class="picker" id="picker" role="listbox" aria-label="Available countries"></div>
+              <div class="search-wrap">
+                <input
+                  type="search"
+                  id="search"
+                  placeholder="Load a dataset first"
+                  autocomplete="off"
+                  spellcheck="false"
+                  disabled
+                />
+                <div class="results" id="picker"></div>
+              </div>
               <div class="chips" id="chips" aria-live="polite"></div>
-              <p class="hint">Click a chip to remove it. Up to 8 series are drawn at once.</p>
+              <p class="hint">
+                Type a name or ISO code, then pick with Enter or a click. Click a chip to remove it. Up to 8 series are
+                drawn at once.
+              </p>
             </fieldset>
 
             <fieldset>
