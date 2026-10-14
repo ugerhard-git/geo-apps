@@ -6,7 +6,7 @@ name: Landmarks seed (temporary)
 on:
   push:
     branches: [landmarks-app]
-    paths: [scripts/landmarks/**, .github/workflows/landmarks-seed.yml]
+    paths: [scripts/landmarks/**, spike/**, .github/workflows/landmarks-seed.yml]
 
 permissions:
   contents: read
@@ -22,6 +22,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
+      - run: node spike/nl-debug.mjs
       - run: node scripts/landmarks/build-data.mjs $(cat scripts/landmarks/seed-countries.txt 2>/dev/null)
         env:
           LANDMARKS_QUICK: "1"
