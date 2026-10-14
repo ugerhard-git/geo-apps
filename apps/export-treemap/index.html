@@ -86,6 +86,49 @@
           </label>
         </div>
 
+        <div class="field">
+          <label>Colours</label>
+          <div class="row">
+            <div>
+              <label for="fgHex">Text</label>
+              <div class="colour">
+                <input type="color" id="fgColor" value="#16202a" aria-label="Text colour swatch" />
+                <input
+                  type="text"
+                  id="fgHex"
+                  value="#16202a"
+                  placeholder="#rrggbb"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Text colour as hex"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="bgHex">Background</label>
+              <div class="colour">
+                <input type="color" id="bgColor" value="#ffffff" aria-label="Background colour swatch" />
+                <input
+                  type="text"
+                  id="bgHex"
+                  value="#ffffff"
+                  placeholder="#rrggbb"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Background colour as hex"
+                />
+              </div>
+            </div>
+          </div>
+          <label class="chk">
+            <input type="checkbox" id="transparent" />
+            <span>Transparent background</span> <em id="pngOnly" hidden>PNG · SVG only</em>
+          </label>
+          <div class="hint">Product labels pick black or white to suit each block.</div>
+        </div>
+
         <button class="primary" id="go">Generate treemap</button>
 
         <div class="field" style="margin-top: 14px">
