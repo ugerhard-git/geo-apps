@@ -1,7 +1,10 @@
 /**
- * Overview page — the "Saved API keys" panel. Lists every service in
- * shared/keys.js, says whether a key is saved, and lets the visitor save,
- * replace or forget it for all apps at once.
+ * Overview page:
+ *   - search: filters the app list by title and description as you type
+ *   - layout: grid or list, remembered in this browser
+ *   - saved API keys: lists every service in shared/keys.js, says whether a
+ *     key is saved, and lets the visitor save, replace or forget it for all
+ *     apps at once (collapsed by default)
  */
 
 import { canRemember, forgetKey, getKey, saveKey, SERVICES } from "./shared/keys.js";
@@ -69,6 +72,7 @@ function row(id) {
     forget.disabled = !saved;
     save.disabled = !storageWorks;
     input.disabled = !storageWorks;
+    updateKeySummary();
   };
 
   form.addEventListener("submit", (e) => {
@@ -90,3 +94,95 @@ function row(id) {
 }
 
 for (const id of /** @type {ServiceId[]} */ (Object.keys(SERVICES))) list.append(row(id));
+
+/** "1 of 2 saved" next to the collapsed keys heading. */
+function updateKeySummary() {
+  const ids = /** @type {ServiceId[]} */ (Object.keys(SERVICES));
+  const saved = ids.filter((id) => getKey(id)).length;
+  /** @type {HTMLElement} */ (document.getElementById("keySummary")).textContent = saved
+    ? `${saved} of ${ids.length} saved`
+    : "none saved";
+}
+updateKeySummary();
+
+/* ── search ──────────────────────────────────────────────── */
+
+const search = /** @type {HTMLInputElement} */ (document.getElementById("search"));
+const appList = /** @type {HTMLElement} */ (document.getElementById("apps"));
+const cards = /** @type {HTMLElement[]} */ ([...appList.querySelectorAll(".app")]);
+const count = /** @type {HTMLElement} */ (document.getElementById("count"));
+const noMatch = /** @type {HTMLElement} */ (document.getElementById("noMatch"));
+
+/** @param {string} s */
+const fold = (s) =>
+  s
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+
+/** What each card is searched by: its title and description. */
+const haystacks = cards.map((c) =>
+  fold(
+    (c.querySelector("h2")?.textContent || "") + " " + (c.querySelector("p")?.textContent || ""),
+  ),
+);
+
+/** Show the cards whose title or description contains every typed word. */
+function applySearch() {
+  const words = fold(search.value).split(/\s+/).filter(Boolean);
+  let shown = 0;
+  cards.forEach((c, i) => {
+    const hit = words.every((w) => haystacks[i].includes(w));
+    c.hidden = !hit;
+    if (hit) shown++;
+  });
+  count.textContent = words.length ? `${shown} of ${cards.length} apps` : `${cards.length} apps`;
+  noMatch.hidden = shown > 0;
+  /** @type {HTMLElement} */ (document.getElementById("noMatchQuery")).textContent =
+    search.value.trim();
+}
+search.addEventListener("input", applySearch);
+document.getElementById("clearSearch")?.addEventListener("click", () => {
+  search.value = "";
+  applySearch();
+  search.focus();
+});
+// "/" jumps to the search box, as on many sites; Escape clears it.
+document.addEventListener("keydown", (e) => {
+  const typing = e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement;
+  if (e.key === "/" && !typing) {
+    e.preventDefault();
+    search.focus();
+  }
+});
+search.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && search.value) {
+    search.value = "";
+    applySearch();
+  }
+});
+applySearch();
+
+/* ── grid or list ────────────────────────────────────────── */
+
+const VIEW_KEY = "geo-apps.overview.view";
+/** @param {string} view "grid" | "list" */
+function setView(view) {
+  appList.dataset.view = view;
+  for (const b of document.querySelectorAll(".view-switch button"))
+    b.setAttribute("aria-pressed", String(/** @type {HTMLElement} */ (b).dataset.view === view));
+  try {
+    localStorage.setItem(VIEW_KEY, view);
+  } catch {
+    /* not remembered; still works */
+  }
+}
+for (const b of document.querySelectorAll(".view-switch button"))
+  b.addEventListener("click", () => setView(/** @type {HTMLElement} */ (b).dataset.view || "grid"));
+let savedView = "grid";
+try {
+  savedView = localStorage.getItem(VIEW_KEY) === "list" ? "list" : "grid";
+} catch {
+  /* private window or blocked storage: grid */
+}
+setView(savedView);
