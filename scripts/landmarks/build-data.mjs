@@ -27,7 +27,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 /** @param {string} text a SPARQL query */
 async function sparql(text) {
   let last;
-  for (const wait of [0, 10_000, 30_000]) {
+  const waits = process.env.LANDMARKS_QUICK ? [0] : [0, 10_000, 30_000];
+  for (const wait of waits) {
     if (wait) await sleep(wait);
     try {
       const r = await fetch(QLEVER, {
@@ -38,9 +39,13 @@ async function sparql(text) {
           "Content-Type": "application/x-www-form-urlencoded",
         },
         body: new URLSearchParams({ query: text }),
-        signal: AbortSignal.timeout(180_000),
+        signal: AbortSignal.timeout(process.env.LANDMARKS_QUICK ? 90_000 : 180_000),
       });
       const reply = await r.text();
+      if (process.env.LANDMARKS_QUICK)
+        console.log(
+          `::notice title=timing::${text.slice(text.indexOf("SELECT"), text.indexOf("SELECT") + 40).replace(/\s+/g, " ")} → HTTP ${r.status}, ${reply.length} bytes`,
+        );
       if (!r.ok) throw new Error(`HTTP ${r.status}: ${reply.slice(0, 200)}`);
       const rows = JSON.parse(reply)?.results?.bindings;
       if (!Array.isArray(rows)) throw new Error("unexpected response");

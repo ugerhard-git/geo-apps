@@ -14,7 +14,7 @@ permissions:
 jobs:
   seed:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 60
     permissions:
       contents: write
     steps:
@@ -23,6 +23,8 @@ jobs:
         with:
           node-version-file: .nvmrc
       - run: node scripts/landmarks/build-data.mjs $(cat scripts/landmarks/seed-countries.txt 2>/dev/null)
+        env:
+          LANDMARKS_QUICK: "1"
       - name: Commit the data to this branch
         run: |
           git config user.name "github-actions[bot]"
