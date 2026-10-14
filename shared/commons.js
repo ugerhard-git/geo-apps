@@ -242,6 +242,25 @@ export const commonsFileUrl = (pageid) =>
  */
 
 /**
+ * The large render of a file. An original no wider than `fullW` is used as
+ * it is (when browsers can show its format), rather than asking for a
+ * render at its own, non-standard width, which Wikimedia has to make on
+ * request; wider originals get the standard-width render.
+ *
+ * @param {any} info an `imageinfo` entry
+ * @param {string} thumb the small render, the fallback
+ * @param {number} fullW
+ */
+function largeRender(info, thumb, fullW) {
+  const viewable = typeof info.mime === "string" && /^image\/(jpeg|png|gif|webp)$/.test(info.mime);
+  if (viewable && Number.isFinite(info.width) && info.width <= fullW) {
+    const original = safeImageUrl(info.url);
+    if (original) return original;
+  }
+  return widenThumb(thumb, info.width, fullW) || thumb;
+}
+
+/**
  * Renders, sizes, authors and licences for Commons files, 50 per request.
  * Files that are missing, not images, or without a usable URL are left out;
  * a failed batch is skipped rather than failing the rest.
@@ -286,7 +305,7 @@ export async function fileInfos(titles, thumbW, fullW) {
         title: cleanText(String(page.title || ""), 160),
         pageid,
         thumb,
-        full: widenThumb(thumb, info.width, fullW) || thumb,
+        full: largeRender(info, thumb, fullW),
         width: Number.isFinite(info.width) ? info.width : 0,
         height: Number.isFinite(info.height) ? info.height : 0,
         author: htmlToText(val("Artist"), 70),

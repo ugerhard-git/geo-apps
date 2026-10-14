@@ -54,6 +54,8 @@ const photoOf = new Map();
 let selected = [];
 /** @type {"all" | "built" | "natural"} */
 let kindFilter = "all";
+/** @type {Map<string, HTMLElement>} gallery tiles, built once per country */
+const tiles = new Map();
 /** The landmark whose other photographs are on show, if any. */
 let altFor = "";
 /** Incremented by every redraw and every country pick. */
@@ -125,19 +127,74 @@ function el(tag, className, text) {
   return e;
 }
 
-/** The gallery of candidates. */
-function renderGrid() {
+/**
+ * Build the gallery for a new country. Tiles are made once; filtering hides
+ * them and choosing a photo updates its tile, so the thumbnails are never
+ * thrown away and decoded again.
+ */
+function buildGrid() {
+  tiles.clear();
+  for (const l of landmarks) tiles.set(l.id, tileFor(l));
+  $("grid").replaceChildren(...tiles.values());
+  $("picker").hidden = !landmarks.length;
+  filterGrid();
+}
+
+/** Show the tiles that pass the filters. */
+function filterGrid() {
   const q = norm($("filter").value);
-  const list = landmarks.filter(
-    (l) =>
+  let shown = 0;
+  for (const l of landmarks) {
+    const tile = tiles.get(l.id);
+    if (!tile) continue;
+    const show =
       kindMatches(l, kindFilter) &&
       licenceAllowed(l) &&
-      (!q || norm(l.name + " " + l.types.join(" ")).includes(q)),
-  );
+      (!q || norm(l.name + " " + l.types.join(" ")).includes(q));
+    tile.hidden = !show;
+    if (show) shown++;
+  }
   $("pickerCount").textContent =
-    `${list.length} shown of ${landmarks.length} · ${selected.length} of ${MAX_SELECTED} chosen`;
-  $("grid").replaceChildren(...list.map(tileFor));
-  $("picker").hidden = !landmarks.length;
+    `${shown} shown of ${landmarks.length} · ${selected.length} of ${MAX_SELECTED} chosen`;
+}
+
+/**
+ * Bring one tile up to date: chosen or not, and its photograph.
+ *
+ * @param {string} id
+ */
+function updateTile(id) {
+  const tile = tiles.get(id);
+  const f = photoOf.get(id);
+  if (!tile || !f) return;
+  const on = selected.includes(id);
+  tile.classList.toggle("on", on);
+  const thumb = /** @type {HTMLElement} */ (tile.querySelector(".thumb"));
+  thumb.title = on ? "Remove from the sheet" : "Put on the sheet";
+  thumb.setAttribute("aria-pressed", String(on));
+  const img = /** @type {HTMLImageElement} */ (tile.querySelector("img"));
+  if (img.getAttribute("src") !== f.thumb) img.src = f.thumb;
+  const lic = /** @type {HTMLElement} */ (tile.querySelector(".lic"));
+  lic.className = "lic " + licenceClass(f.licence);
+  lic.textContent = f.licence.label + (f.licence.shareAlike ? " · share-alike" : "");
+  const page = /** @type {HTMLAnchorElement} */ (tile.querySelector("a.filelink"));
+  page.href = f.describeUrl;
+}
+
+/**
+ * A thumbnail that loads only when scrolled into view and decodes off the
+ * main thread. `loading` is set before `src`, or the browser may already
+ * have started fetching.
+ *
+ * @param {string} src
+ */
+function thumbImg(src) {
+  const img = /** @type {HTMLImageElement} */ (el("img"));
+  img.loading = "lazy";
+  img.decoding = "async";
+  img.alt = "";
+  img.src = src;
+  return img;
 }
 
 /**
@@ -153,11 +210,7 @@ function tileFor(l) {
   thumb.type = "button";
   thumb.title = on ? "Remove from the sheet" : "Put on the sheet";
   thumb.setAttribute("aria-pressed", String(on));
-  const img = el("img");
-  img.src = f.thumb;
-  img.alt = "";
-  img.loading = "lazy";
-  thumb.append(img, el("span", "rank", "#" + l.rank));
+  thumb.append(thumbImg(f.thumb), el("span", "rank", "#" + l.rank));
   thumb.addEventListener("click", () => toggleSelect(l.id));
 
   const meta = el("div", "meta");
@@ -213,7 +266,8 @@ function toggleSelect(id) {
     return;
   } else selected.push(id);
   note("");
-  renderGrid();
+  updateTile(id);
+  filterGrid();
   refresh();
 }
 
@@ -247,16 +301,13 @@ async function showAlternatives(id) {
         const b = /** @type {HTMLButtonElement} */ (el("button", "alt"));
         b.type = "button";
         if (photoOf.get(id)?.pageid === f.pageid) b.classList.add("on");
-        const img = el("img");
-        img.src = f.thumb;
-        img.alt = "";
-        img.loading = "lazy";
-        b.append(img, el("span", "lic " + licenceClass(f.licence), f.licence.label));
+        b.append(thumbImg(f.thumb), el("span", "lic " + licenceClass(f.licence), f.licence.label));
         b.addEventListener("click", () => {
           photoOf.set(id, f);
           if (!selected.includes(id) && selected.length < MAX_SELECTED) selected.push(id);
           for (const x of $("altGrid").children) x.classList.toggle("on", x === b);
-          renderGrid();
+          updateTile(id);
+          filterGrid();
           refresh();
         });
         return b;
@@ -336,6 +387,7 @@ async function pickCountry(c) {
   $("alts").hidden = true;
   $("country").value = c.name;
   picker.close();
+  tiles.clear();
   $("grid").replaceChildren();
   note("");
   refresh();
@@ -373,7 +425,7 @@ async function pickCountry(c) {
       `${landmarks.length} landmarks, best known first.` +
         (shared ? ` ${shared} also lie in another country — they're marked.` : ""),
     );
-    renderGrid();
+    buildGrid();
     refresh();
   } catch (e) {
     if (mine === pickToken)
@@ -462,7 +514,7 @@ for (const [id, kind] of /** @type {const} */ ([
     kindFilter = kind;
     for (const other of ["kindAll", "kindBuilt", "kindNatural"])
       $(other).setAttribute("aria-pressed", String(other === id));
-    renderGrid();
+    filterGrid();
   });
 
 $("licFilter").addEventListener("change", () => {
@@ -470,10 +522,11 @@ $("licFilter").addEventListener("change", () => {
     const l = byId(id);
     return !!l && licenceAllowed(l);
   });
-  renderGrid();
+  for (const id of tiles.keys()) updateTile(id);
+  filterGrid();
   refresh();
 });
-$("filter").addEventListener("input", debounce(renderGrid, 150));
+$("filter").addEventListener("input", debounce(filterGrid, 150));
 $("altClose").addEventListener("click", () => {
   altFor = "";
   $("alts").hidden = true;
