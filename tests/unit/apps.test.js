@@ -25,6 +25,23 @@ import { parseLakes, parseRivers } from "../../apps/rivers/data.js";
 import { rankWidth } from "../../apps/rivers/render.js";
 import { applyAffix, detectAffix, stripAffix } from "../../apps/subdivisions/names.js";
 import { parseData } from "../../apps/keyboards/data.js";
+import {
+  optionLabel,
+  parseData as parseNames,
+  plainText,
+  topEntries,
+  warningOf,
+} from "../../apps/names/data.js";
+import { sourceLines } from "../../apps/names/render.js";
+import {
+  countryOf,
+  listOf,
+  nameOf,
+  namesByCountry,
+  plain,
+  sourceOf,
+  refIndex,
+} from "../../scripts/names/parse.js";
 import { barsFor, parseData as parseLetters } from "../../apps/letters/data.js";
 import { percentText, printable as printLetter } from "../../apps/letters/render.js";
 import {
@@ -1146,4 +1163,153 @@ test("city dots: towns inside a bigger city's dot are left out, the next ones fi
   assert.deepEqual(dropCovered([big, t1, t2, suburb], 2, radius, id, true), [big, suburb]);
   // Nothing covered: the same as the plain largest.
   assert.deepEqual(dropCovered([big, t1, t2], 2, radius, id), [big, t1]);
+});
+
+test("names data: wikitext is read into whole countries' lists", () => {
+  assert.equal(plain("[[Mohammad (name)|Mohamed]]<ref name=x/>"), "Mohamed");
+  assert.equal(plain("{{cite|a={{b}}}}Emma<ref>{{cite web|url=http://x}}</ref>"), "Emma");
+  assert.deepEqual(nameOf("Aleksandar (Александър)"), { n: "Aleksandar", s: "Александър" });
+  assert.deepEqual(nameOf("Ao あお"), { n: "Ao", s: "あお" });
+  assert.deepEqual(nameOf("(欣怡)"), { n: "", s: "欣怡" });
+  assert.deepEqual(nameOf("Zeinab (Zeynəb)"), { n: "Zeinab (Zeynəb)" }); // Latin in brackets stays
+  assert.equal(nameOf("NA"), null);
+  const codes = {
+    germany: "DE",
+    israel: "IL",
+    canada: "CA",
+    "faroe islands": "FO",
+    denmark: "DK",
+    france: "FR",
+  };
+  const codeOf = (/** @type {string} */ n) => /** @type {any} */ (codes)[n.toLowerCase()] || "";
+  assert.deepEqual(countryOf("Germany (2025)", codeOf), { code: "DE", note: "2025" });
+  assert.equal(countryOf("Paris, France (2025)", codeOf), null);
+  assert.equal(countryOf("Canada, Quebec (2025)", codeOf), null);
+  assert.equal(countryOf("Faroe Islands, Denmark (2024)", codeOf)?.code, "FO");
+  assert.equal(countryOf("Israel, (2025), Jewish boys", codeOf), null);
+  assert.equal(countryOf("Israel, (2025), newborn boys, total population", codeOf)?.code, "IL");
+  const cells = (/** @type {Array<[string, number]>} */ c) =>
+    c.map(([text, span]) => ({ text, span, raw: text }));
+  const census = /** @type {any} */ (
+    listOf(
+      "census, 2010",
+      cells([
+        ["Maria", 1],
+        ["Ana", 1],
+      ]),
+      "Brazil (census, 2010)",
+    )
+  );
+  assert.equal(census.basis, "population");
+  assert.equal(census.old, true);
+  const ties = /** @type {any} */ (
+    listOf(
+      "2018",
+      cells([
+        ["Martina", 1],
+        ["Emma, Jana, Lucia", 3],
+        ["Biel", 1],
+      ]),
+      "Andorra (2018)",
+    )
+  );
+  assert.deepEqual(
+    ties.entries.map((/** @type {any} */ e) => e.rank),
+    [1, 2, 5],
+  );
+  const egypt = /** @type {any} */ (
+    listOf(
+      "2004, unofficial",
+      cells([["A, B, C, D, E, F, G, H, I, J, K, L", 10]]),
+      "Egypt (2004, unofficial)",
+    )
+  );
+  assert.equal(egypt.unranked, true);
+  assert.equal(egypt.unofficial, true);
+  assert.equal(
+    /** @type {any} */ (listOf("2021-2024", cells([["Mia", 1]]), "Estonia (2021-2024)")).years,
+    "2021–2024",
+  );
+  const page = `<ref name="r1">{{cite web|url=https://stat.example/x|title=Names 2025}}</ref>
+=== Europe ===
+==== Female names ====
+{| class="wikitable"
+! Region !! No. 1 !! No. 2
+|-
+|[[Germany]] (2025)<ref name="r1"/>||[[Sophia]]||Emma
+|-
+|[[Paris]], [[France]] (2025)||Louise||Jade
+|}
+==== Male names ====
+{| class="wikitable"
+|-
+|[[Germany]] (2025)<ref>{{cite web|url=https://other.example/y|title=Boys}}</ref>||Noah||Matteo
+|}`;
+  const { countries, dropped } = namesByCountry(page, codeOf);
+  assert.deepEqual(Object.keys(countries), ["DE"]);
+  assert.equal(countries.DE.girls[0].entries[0].names[0].n, "Sophia");
+  assert.equal(countries.DE.girls[0].source?.url, "https://stat.example/x");
+  assert.equal(countries.DE.boys[0].source?.title, "Boys");
+  assert.deepEqual(dropped, ["girls: Paris, France (2025)"]);
+  assert.equal(sourceOf('x<ref name="nope"/>', refIndex(page)), null);
+});
+
+test("names app: the data file is checked; lists are described honestly", () => {
+  const list = (/** @type {any} */ extra) => ({
+    label: "X (2025)",
+    note: "2025",
+    year: 2025,
+    years: "2025",
+    basis: "births",
+    entries: [
+      { rank: 1, names: [{ n: "Sofia", s: "София" }] },
+      { rank: 2, names: [{ n: "Emma" }, { n: "Jana" }] },
+      { rank: 11, names: [{ n: "Late" }] },
+    ],
+    source: { url: "https://stat.example/x", title: "Stats" },
+    ...extra,
+  });
+  const data = parseNames({
+    countries: {
+      BG: {
+        girls: [list({})],
+        boys: [
+          list({
+            year: 2012,
+            years: "2012",
+            basis: "population",
+            source: { url: "javascript:alert(1)" },
+          }),
+        ],
+      },
+      xx: { girls: [list({})] },
+      FR: { girls: [], boys: [] },
+    },
+  });
+  assert.deepEqual([...data.countries.keys()], ["BG"]);
+  const bg = /** @type {any} */ (data.countries.get("BG"));
+  assert.equal(bg.boys[0].source, null); // not a web address
+  assert.equal(bg.boys[0].old, true);
+  assert.equal(warningOf(bg.girls[0]), "");
+  assert.equal(warningOf(bg.boys[0]), "from 2012; names of the whole population, not of newborns");
+  assert.equal(topEntries(bg.girls[0], 10).length, 2);
+  assert.match(optionLabel(bg.boys[0]), /^2012 · whole population/);
+  const text = plainText(
+    "Bulgaria",
+    [
+      { title: "Girls", list: bg.girls[0] },
+      { title: "Boys", list: bg.boys[0] },
+    ],
+    data.source,
+    10,
+  );
+  assert.match(text, /^Most popular baby names — Bulgaria/);
+  assert.match(text, /1\. Sofia \(София\)/);
+  assert.match(text, /2\. Emma, Jana \(tied\)/);
+  assert.match(text, /Note: from 2012; names of the whole population/);
+  assert.match(text, /Source: none cited on Wikipedia/);
+  assert.match(text, /CC BY-SA 4\.0/);
+  const lines = sourceLines([{ title: "Boys", list: bg.boys[0] }], "CC BY-SA 4.0");
+  assert.ok(lines[1].warn && lines[1].text.includes("⚠"));
+  assert.throws(() => parseNames({ countries: {} }));
 });

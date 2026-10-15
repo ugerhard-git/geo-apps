@@ -10,7 +10,7 @@
  *
  *   keys.js    key positions per shape, and what each keycap prints (pure)
  *   data.js    reading and checking the layout file
- *   fonts.js   Noto fonts per script, loaded on demand
+ *   shared/fonts.js  Noto fonts per script, loaded on demand
  *   render.js  drawing the sheet
  */
 
@@ -24,7 +24,7 @@ import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
 import { own } from "../../shared/util.js";
 import { loadData } from "./data.js";
-import { ensureFonts, familiesFor, fontStack } from "./fonts.js";
+import { ensureFonts, familiesFor, fontStack } from "../../shared/fonts.js";
 import { drawSheet } from "./render.js";
 
 addBackLink();
