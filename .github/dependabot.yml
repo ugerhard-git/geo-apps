@@ -1,0 +1,13 @@
+# Keeps the workflows' pinned actions and the dev tools current: Dependabot
+# opens a pull request when one has an update, to review like any other.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
