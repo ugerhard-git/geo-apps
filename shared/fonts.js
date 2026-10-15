@@ -1,9 +1,13 @@
 /**
- * Keyboard layouts — fonts for the legends.
+ * Noto fonts for text in any script, loaded on demand.
  *
- * Every script gets its Noto family from Google Fonts, loaded only when a
- * layout needs it. The canvas falls back glyph by glyph through the list,
- * so one font stack covers a keycap with Latin and Thai on it.
+ * Every script gets its Noto family from Google Fonts, loaded only when some
+ * text needs it. The canvas falls back glyph by glyph through the list, so
+ * one font stack covers a keycap with Latin and Thai on it, or a list of
+ * names in Latin letters and Cyrillic. Used by Keyboard layouts and Baby
+ * names; a page using it needs Google Fonts in its CSP.
+ *
+ * @module shared/fonts
  */
 
 /** Noto family per Unicode script. Latin, Greek, Cyrillic: Noto Sans itself. */
@@ -52,19 +56,35 @@ const DETECT = Object.keys(SCRIPT_FONT).map(
 );
 
 /**
- * The font families a layout's legends need, besides {@link BASE_FONT}.
+ * The font families some text needs, besides {@link BASE_FONT}.
+ *
+ * Chinese characters in Japanese text take the Japanese font; elsewhere the
+ * Traditional font comes first and the Simplified one fills its gaps.
+ *
+ * @param {string} text
+ * @returns {string[]}
+ */
+export function familiesForText(text) {
+  /** @type {Set<string>} */
+  const out = new Set();
+  const kana = /[\p{Script=Hiragana}\p{Script=Katakana}]/u.test(text);
+  for (const [script, re] of DETECT) {
+    if (!re.test(text)) continue;
+    if (script === "Han") {
+      if (kana) out.add("Noto Sans JP");
+      else out.add("Noto Sans TC").add("Noto Sans SC");
+    } else out.add(SCRIPT_FONT[/** @type {keyof SCRIPT_FONT} */ (script)]);
+  }
+  return [...out];
+}
+
+/**
+ * The font families a keyboard layout's legends need.
  *
  * @param {Record<string, string[]>} keys
  * @returns {string[]}
  */
-export function familiesFor(keys) {
-  const text = Object.values(keys).flat().join("");
-  /** @type {Set<string>} */
-  const out = new Set();
-  for (const [script, re] of DETECT)
-    if (re.test(text)) out.add(SCRIPT_FONT[/** @type {keyof SCRIPT_FONT} */ (script)]);
-  return [...out];
-}
+export const familiesFor = (keys) => familiesForText(Object.values(keys).flat().join(""));
 
 /** A canvas font stack: the base font, then the script fonts. */
 export const fontStack = (/** @type {string[]} */ families) =>
@@ -76,7 +96,7 @@ link.rel = "stylesheet";
 const asked = new Set();
 
 /**
- * Load the families (regular weight; Noto Sans also semi-bold) and wait
+ * Load the families (regular weight; Noto Sans also 500–700) and wait
  * until the canvas can use them — it silently falls back otherwise.
  *
  * @param {string[]} families
@@ -87,7 +107,7 @@ export async function ensureFonts(families, sample) {
   for (const f of families) if (/^[A-Za-z ]{3,60}$/.test(f)) asked.add(f);
   if (!link.parentNode || asked.size !== before) {
     const q = [
-      `family=${BASE_FONT.replace(/ /g, "+")}:wght@400;600`,
+      `family=${BASE_FONT.replace(/ /g, "+")}:wght@400;500;600;700`,
       ...[...asked].map((f) => "family=" + f.replace(/ /g, "+")),
     ].join("&");
     // The @font-face rules only exist once the stylesheet has arrived.
@@ -104,7 +124,9 @@ export async function ensureFonts(families, sample) {
   await Promise.all(
     [BASE_FONT, ...families].flatMap((f) => [
       document.fonts.load(`400 40px "${f}"`, text).catch(() => {}),
-      f === BASE_FONT ? document.fonts.load(`600 40px "${f}"`, text).catch(() => {}) : null,
+      ...(f === BASE_FONT
+        ? [500, 600, 700].map((w) => document.fonts.load(`${w} 40px "${f}"`, text).catch(() => {}))
+        : []),
     ]),
   );
 }

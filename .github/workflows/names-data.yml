@@ -1,0 +1,62 @@
+# Refreshes the Baby names app's data (apps/names/data/names.json) from
+# Wikipedia once a month and opens a pull request with the changes, so
+# nothing reaches the site without a review. Also runs on demand:
+# Actions → "Names data" → Run workflow.
+#
+# Kept narrow, like the Landmarks data job:
+#   - runs only on a schedule or by hand, never for pull requests, so it only
+#     ever runs code from main;
+#   - installs nothing (no npm), and its actions are pinned to commits;
+#   - the token is only handed to git in the last step, to push a new branch
+#     and open a pull request.
+# The page is parsed by scripts/names/parse.js; what it writes is plain JSON,
+# checked again by the app when it reads it.
+name: Names data
+
+on:
+  schedule:
+    - cron: "43 4 2 * *" # 04:43 UTC on the 2nd of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: names-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # to push the data branch
+      pull-requests: write # to open the pull request
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+      - name: Build the data
+        run: node scripts/names/build-data.mjs
+      - name: Open a pull request if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- apps/names/data; then
+            echo "No changes."
+            exit 0
+          fi
+          branch="names-data-$(date -u +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add apps/names/data
+          git commit -m "Names data: monthly refresh $(date -u +%Y-%m-%d)"
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "Names data: monthly refresh $(date -u +%Y-%m-%d)" \
+            --body "Refreshed from Wikipedia by the Names data workflow (run ${GITHUB_RUN_ID}). Check the changed countries, then merge to publish." \
+          || echo "::warning::Couldn't open the pull request; open one from the $branch branch."

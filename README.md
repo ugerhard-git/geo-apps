@@ -109,6 +109,7 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `geonames.js`       | The GeoNames city list (all-the-cities): a bounds-checked decoder and loader       |
 | `keys.js`           | API keys shared by all apps (see below)                                            |
 | `back-link.js`      | The "Back to apps overview" link, shown only on the published site                 |
+| `fonts.js`          | Noto fonts per script from Google Fonts, loaded on demand (keyboards, baby names)  |
 
 ## Precomputed data: Landmarks
 
@@ -153,6 +154,23 @@ is counted here: `scripts/letters/select.js` keeps each language's letters,
 folds capitals into small letters and turns the counts into shares. Countries
 get their official Latin-script languages from CLDR. The file is built by hand
 (see the header of `scripts/letters/build-data.mjs`) and committed.
+
+## Precomputed data: Baby names
+
+The Baby names app reads `apps/names/data/names.json`, built from Wikipedia's
+[List of most popular given names](https://en.wikipedia.org/wiki/List_of_most_popular_given_names)
+(CC BY-SA 4.0) by `scripts/names/build-data.mjs`. Only whole countries are
+kept — no "England, United Kingdom", cities or community lists. Every list
+keeps what Wikipedia says about it: its year, whether it counts newborns or
+the whole population, whether its source is unofficial, and the source it
+cites. Lists from before 2015, or undated, are kept and flagged; the sheet
+says so in its source lines.
+
+`.github/workflows/names-data.yml` refreshes the file on the 2nd of each
+month and opens a pull request when anything changed; it also runs by hand
+(**Actions → Names data → Run workflow**). If the page's layout changes so
+much that fewer than 60 countries parse, the run fails instead of opening a
+pull request.
 
 ## API keys
 
