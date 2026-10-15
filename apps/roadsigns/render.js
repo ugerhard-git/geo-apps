@@ -19,6 +19,8 @@ import { frameSpec } from "../../shared/sheet.js";
  * @property {boolean} blur blur the signs, to hide their wording
  * @property {number} blurAmount blur strength, in tenths of a percent of the sign's width
  * @property {string} caption
+ * @property {number} captionScale caption size relative to the usual, 0.5–2
+ * @property {number} creditScale credit size relative to the usual, 0.5–2
  * @property {boolean} capTop caption above (true) or below (false)
  */
 
@@ -78,7 +80,7 @@ export async function drawSheet(canvas, opts, { country, signs, loadImage }) {
     ctx.fillStyle = opts.fg;
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    let px = Math.round(H * 0.045);
+    let px = Math.round(H * 0.045 * opts.captionScale);
     ctx.font = `600 ${px}px "Barlow Condensed", sans-serif`;
     while (px > 14 && ctx.measureText(opts.caption).width > W - pad * 2) {
       px -= 2;
@@ -122,6 +124,7 @@ export async function drawSheet(canvas, opts, { country, signs, loadImage }) {
       fg: opts.fg,
       at: opts.at,
       labelFont: (px) => `600 ${px}px "Barlow Condensed", sans-serif`,
+      creditScale: opts.creditScale,
       creditFont: (px) => `400 ${px}px "Barlow", sans-serif`,
       creditText,
     },

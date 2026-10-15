@@ -531,3 +531,10 @@ input[type="color"]:disabled {
   content-visibility: auto;
   contain-intrinsic-size: auto 200px;
 }
+
+/* A size slider's readout, beside its label. */
+.field label .val {
+  float: right;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.8;
+}

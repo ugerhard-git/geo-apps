@@ -31,6 +31,7 @@ import { clamp } from "./util.js";
  * @property {(px: number) => string} labelFont CSS font for names
  * @property {(px: number) => string} creditFont CSS font for credits
  * @property {(rec: any) => string} creditText the credit line for a record
+ * @property {number} [creditScale] credit size relative to the usual, 0.5–2
  */
 
 /** Most lines a photo credit may wrap onto. */
@@ -69,7 +70,10 @@ export async function drawPhotos(ctx, records, area, style) {
   const gap = Math.round(Math.min(boxW, boxH) * 0.025);
   const needsCredit = ready.some((r) => r.rec.licence.attribution);
   const labelPx = style.names ? clamp(Math.round(boxH * 0.03), 12, 40) : 0;
-  const credPx = needsCredit ? clamp(Math.round(boxH * 0.02), 9, 24) : 0;
+  const scale = clamp(style.creditScale || 1, 0.5, 2);
+  const credPx = needsCredit
+    ? Math.max(MIN_CREDIT_PX, Math.round(clamp(boxH * 0.02, 9, 24) * scale))
+    : 0;
   const aspects = ready.map(({ img }) => {
     const iw = img.naturalWidth || img.width || 1;
     const ih = img.naturalHeight || img.height || 1;

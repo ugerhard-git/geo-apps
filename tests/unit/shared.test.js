@@ -6,6 +6,7 @@ import { test } from "node:test";
 import { overviewUrl } from "../../shared/back-link.js";
 import { parseAlpha3, parseNumeric } from "../../shared/cldr.js";
 import { parseHex, safeColour } from "../../shared/colour.js";
+import { chooseGrid, creditLines } from "../../shared/image-grid.js";
 import { matchShape } from "../../shared/map-countries.js";
 import {
   classifyLicence,
@@ -224,4 +225,35 @@ test("Commons renders: the reply Commons gives today (thumb host, tracking query
   assert.equal(safeImageUrl("https://thumb.wikimedia.org/other/x.jpg"), null);
   assert.equal(safeImageUrl("http://upload.wikimedia.org/wikipedia/commons/a/ab/x.jpg"), null);
   assert.equal(safeImageUrl("https://thumb.wikimedia.org.evil.example/wikipedia/x.jpg"), null);
+});
+
+test("image grid: credit size follows the scale, lines grow with it, room only for what fits", () => {
+  assert.equal(creditLines(0.5), 2);
+  assert.equal(creditLines(1), 2);
+  assert.equal(creditLines(1.5), 3);
+  assert.equal(creditLines(2), 4);
+  const items = [{}, {}];
+  const prepared = new Map(items.map((i) => [i, { width: 400, height: 300 }]));
+  const g = (/** @type {number} */ scale, /** @type {any} */ fit) =>
+    /** @type {any} */ (
+      chooseGrid(
+        /** @type {any} */ (items),
+        /** @type {any} */ (prepared),
+        800,
+        400,
+        10,
+        true,
+        20,
+        scale,
+        fit,
+      )
+    );
+  const small = g(0.5).credPx;
+  const usual = g(1).credPx;
+  const large = g(2).credPx;
+  assert.ok(small < usual && usual < large, `${small} < ${usual} < ${large}`);
+  // When credits only fit at 9 px, only 9 px of room is kept, so the images grow.
+  const tight = g(2, () => 9);
+  assert.equal(tight.credPx, 9);
+  assert.ok(tight.imageH > g(2).imageH);
 });

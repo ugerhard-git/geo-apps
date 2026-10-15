@@ -15,7 +15,17 @@ import { CLDR_VERSION } from "../../shared/cldr.js";
 import { licenceAllows, licenceClass } from "../../shared/commons.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
-import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../../shared/dom.js";
+import {
+  $,
+  bindColour,
+  bindScale,
+  debounce,
+  isPressed,
+  note,
+  progress,
+  scaleOf,
+  setSeg,
+} from "../../shared/dom.js";
 import { createImageLoader, TAINTED_MESSAGE } from "../../shared/images.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
@@ -84,6 +94,8 @@ function currentOptions() {
     articleImage: $("optArticleImage").checked,
     specimenAlpha: clamp(+$("specimenAlpha").value, 10, 90) / 100,
     caption: cleanText($("capText").value, 120),
+    captionScale: scaleOf("capSize"),
+    creditScale: scaleOf("credSize"),
     capTop: isPressed("capTop"),
   };
 }
@@ -600,3 +612,7 @@ loadReference()
       true,
     );
   });
+
+// Caption and credit sizes: redraw as the sliders move, a moment after.
+bindScale("capSize", debounce(refresh, 150));
+bindScale("credSize", debounce(refresh, 150));

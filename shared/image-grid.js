@@ -1,13 +1,25 @@
 /**
  * Laying a set of images out as a grid on a sheet, each with its attribution
- * line underneath when its licence asks for one.
+ * underneath when its licence asks for one — in full, wrapped onto a few
+ * lines (creditLines) and set smaller only if that isn't enough (credits.js).
  *
- * Used by the Commons image apps (currency, plates, road signs).
+ * Used by the Commons image apps (currency, plates).
  *
  * @module shared/image-grid
  */
 
+import { fitCredit } from "./credits.js";
 import { clamp } from "./util.js";
+
+/**
+ * Lines of credit room left under each image: two at the usual size, more
+ * when the credits are set larger (up to four at 200 %).
+ *
+ * @param {number} scale
+ */
+export const creditLines = (scale) => Math.min(4, Math.max(2, Math.ceil(2 * scale - 0.01)));
+/** Smallest credit font, in sheet pixels, before a credit is trimmed instead. */
+const MIN_CREDIT_PX = 6;
 
 /**
  * @typedef {object} GridItem
@@ -40,9 +52,23 @@ import { clamp } from "./util.js";
  * @param {number} gap
  * @param {boolean} needsCredit leave room under each image for a credit line
  * @param {number} maxCreditPx
+ * @param {number} [creditScale] credit size relative to the usual, 0.5–2
+ * @param {(cellW: number, px: number, lines: number) => number} [creditFit] the largest size up to
+ *   `px` at which every credit fits in `lines` lines of `cellW`; without it, `px` is assumed to fit
  * @returns {GridLayout | null}
  */
-export function chooseGrid(items, prepared, w, h, gap, needsCredit, maxCreditPx) {
+export function chooseGrid(
+  items,
+  prepared,
+  w,
+  h,
+  gap,
+  needsCredit,
+  maxCreditPx,
+  creditScale = 1,
+  creditFit = (_w, px) => px,
+) {
+  const lines = creditLines(clamp(creditScale, 0.5, 2));
   const K = items.length;
   /** @type {GridLayout | null} */
   let best = null;
@@ -53,8 +79,13 @@ export function chooseGrid(items, prepared, w, h, gap, needsCredit, maxCreditPx)
     const cellH = (h - gap * (rows - 1)) / rows;
     if (cellW <= 4 || cellH <= 4) continue;
 
-    const credPx = needsCredit ? clamp(Math.round(cellH * 0.13), 9, maxCreditPx) : 0;
-    const imageH = cellH - (credPx ? credPx * 2.0 : 0);
+    // The size asked for, or the largest below it at which the credits fit
+    // this layout's cells — so room is only kept for text that is drawn.
+    const wanted = Math.round(clamp(cellH * 0.13, 9, maxCreditPx) * clamp(creditScale, 0.5, 2));
+    const credPx = needsCredit
+      ? Math.max(MIN_CREDIT_PX, creditFit(cellW, Math.max(MIN_CREDIT_PX, wanted), lines))
+      : 0;
+    const imageH = cellH - (credPx ? credPx * (1.25 * lines + 0.5) : 0);
     if (imageH <= 4) continue;
 
     let worst = Infinity;
@@ -90,8 +121,25 @@ export function fitLine(ctx, text, maxWidth) {
  * @property {string} creditColour fill colour of the credit lines
  * @property {string} creditFont CSS font family for the credit lines, e.g. `'"Barlow", sans-serif'`
  * @property {number} maxCreditPx largest credit font size
+ * @property {number} [creditScale] credit size relative to the usual, 0.5–2
  * @property {string} [authorPrefix=""] put before the author's name, e.g. `"Photo: "`
  */
+
+/**
+ * The credit under an image: author, licence and a permalink.
+ *
+ * @param {GridItem} rec
+ * @param {GridStyle} style
+ */
+function creditLine(rec, style) {
+  return [
+    rec.author ? `${style.authorPrefix || ""}${rec.author}` : "Wikimedia Commons",
+    rec.licence.label,
+    rec.describeUrl.replace(/^https:\/\//, ""),
+  ]
+    .filter(Boolean)
+    .join(" · ");
+}
 
 /**
  * Draw `items` as a centred grid inside the box `(x, y, w, h)`.
@@ -113,10 +161,35 @@ export function drawImageGrid(ctx, items, prepared, x, y, w, h, style) {
   if (!items.length || h <= 10 || w <= 10) return;
   const needsCredit = items.some((r) => r.licence.attribution);
   const gap = Math.max(6, Math.round(Math.min(w, h) * 0.03));
-  const best = chooseGrid(items, prepared, w, h, gap, needsCredit, style.maxCreditPx);
+  const texts = items.map((rec) => (rec.licence.attribution ? creditLine(rec, style) : ""));
+  /** @param {string} s @param {number} px */
+  const measureAt = (s, px) => {
+    ctx.font = `400 ${px}px ${style.creditFont}`;
+    return ctx.measureText(s).width;
+  };
+  /** @param {number} cellW @param {number} px @param {number} lines */
+  const creditFit = (cellW, px, lines) =>
+    Math.min(
+      px,
+      ...texts
+        .filter(Boolean)
+        .map((t) => fitCredit(t, cellW, lines, px, MIN_CREDIT_PX, measureAt)?.px ?? MIN_CREDIT_PX),
+    );
+  const best = chooseGrid(
+    items,
+    prepared,
+    w,
+    h,
+    gap,
+    needsCredit,
+    style.maxCreditPx,
+    style.creditScale || 1,
+    creditFit,
+  );
   if (!best) return;
 
   const { cols, rows, cellW, cellH, credPx, imageH } = best;
+  const lines = creditLines(clamp(style.creditScale || 1, 0.5, 2));
   const gridH = rows * cellH + gap * (rows - 1);
   const yTop = y + Math.max(0, (h - gridH) / 2);
 
@@ -144,17 +217,20 @@ export function drawImageGrid(ctx, items, prepared, x, y, w, h, style) {
     );
 
     if (credPx && rec.licence.attribution) {
-      const bits = [
-        rec.author ? `${style.authorPrefix || ""}${rec.author}` : "Wikimedia Commons",
-        rec.licence.label,
-        rec.describeUrl.replace(/^https:\/\//, ""),
-      ].filter(Boolean);
-      ctx.font = `400 ${credPx}px ${style.creditFont}`;
+      const text = texts[i];
+      let fit = fitCredit(text, cellW, lines, credPx, MIN_CREDIT_PX, measureAt);
+      if (!fit) {
+        // Only an absurdly long credit under a tiny image is trimmed.
+        ctx.font = `400 ${MIN_CREDIT_PX}px ${style.creditFont}`;
+        fit = { px: MIN_CREDIT_PX, lines: [fitLine(ctx, text, cellW)] };
+      }
+      ctx.font = `400 ${fit.px}px ${style.creditFont}`;
       ctx.fillStyle = style.creditColour;
       ctx.textAlign = "center";
       ctx.textBaseline = "top";
-      const line = fitLine(ctx, bits.join(" · "), cellW);
-      ctx.fillText(line, cellX + cellW / 2, cellY + imageH + credPx * 0.4);
+      fit.lines.forEach((line, k) =>
+        ctx.fillText(line, cellX + cellW / 2, cellY + imageH + credPx * 0.3 + k * fit.px * 1.25),
+      );
     }
   });
 }

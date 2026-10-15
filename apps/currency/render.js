@@ -29,6 +29,8 @@ import { factRows } from "./currency-info.js";
  * @property {boolean} articleImage include the article's illustration
  * @property {number} specimenAlpha opacity of the SPECIMEN mark, 0.1–0.9
  * @property {string} caption
+ * @property {number} captionScale caption size relative to the usual, 0.5–2
+ * @property {number} creditScale credit size relative to the usual, 0.5–2
  * @property {boolean} capTop
  */
 
@@ -107,7 +109,7 @@ export async function drawSheet(canvas, opts, content) {
 
   // Caption: shrunk until it fits the width.
   if (opts.caption) {
-    let px = Math.round(H * 0.045);
+    let px = Math.round(H * 0.045 * opts.captionScale);
     ctx.font = `600 ${px}px "Spectral", Georgia, serif`;
     ctx.fillStyle = opts.fg;
     ctx.textAlign = "center";
@@ -214,6 +216,7 @@ export async function drawSheet(canvas, opts, content) {
       creditColour: opts.at,
       creditFont: '"Karla", sans-serif',
       maxCreditPx: 20,
+      creditScale: opts.creditScale,
       authorPrefix: "Photo: ",
     });
   }
