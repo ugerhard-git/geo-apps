@@ -15,6 +15,7 @@ import { frameSpec } from "../../shared/sheet.js";
  * @property {string} bar bar colour
  * @property {string} accent colour of letters beyond a–z, when highlighted
  * @property {boolean} highlight colour letters beyond a–z
+ * @property {string} compareColour colour of the English comparison bars
  * @property {string} ink text colour
  * @property {string} bg background
  * @property {boolean} transparent
@@ -120,9 +121,26 @@ export function drawSheet(canvas, opts, bars) {
   const letterPx = Math.min(slot * (stagger ? 1.2 : 0.62), (bottom - top) * 0.07);
   const valuePx = Math.min(slot * 0.3, letterPx * 0.5);
   const base = bottom - letterPx * (stagger ? 2.8 : 1.6);
-  const ceiling = top + (opts.values ? valuePx * 1.8 : 0);
-  const max = Math.max(...bars.map((b) => b.percent));
-  const barW = slot * 0.72;
+  const compare = bars.some((b) => b.english !== null);
+  let ceiling = top + (opts.values ? valuePx * 1.8 : 0);
+  if (compare) {
+    // A key for the comparison bars only: naming the main language would
+    // give the answer away.
+    const px = Math.max(12, Math.min(letterPx * 0.75, H * 0.03));
+    ctx.font = `400 ${px}px ${FONT}`;
+    ctx.textAlign = "left";
+    ctx.fillStyle = opts.compareColour;
+    ctx.fillRect(pad, top + px * 0.15, px * 0.8, px * 0.8);
+    ctx.fillStyle = opts.ink;
+    ctx.fillText("English", pad + px * 1.2, top + px * 0.6);
+    ctx.textAlign = "center";
+    ceiling = Math.max(ceiling, top + px * 2);
+  }
+  const max = Math.max(...bars.map((b) => Math.max(b.percent, b.english || 0)));
+  // Side by side, the letter's own bar leads and English's is narrower.
+  const barW = slot * (compare ? 0.44 : 0.72);
+  const cmpW = slot * 0.28;
+  const gap = slot * 0.04;
 
   // A faint baseline.
   ctx.fillStyle = opts.ink;
@@ -135,8 +153,14 @@ export function drawSheet(canvas, opts, bars) {
     const h = Math.max(1, ((base - ceiling) * b.percent) / max);
     const colour = opts.highlight && b.extra ? opts.accent : opts.bar;
     ctx.fillStyle = colour;
-    const r = Math.min(barW * 0.18, h / 2);
-    roundTop(ctx, cx - barW / 2, base - h, barW, h, r);
+    const paired = b.english !== null;
+    const x = paired ? cx - (barW + gap + cmpW) / 2 : cx - barW / 2;
+    roundTop(ctx, x, base - h, barW, h, Math.min(barW * 0.18, h / 2));
+    if (paired) {
+      const eh = Math.max(1, ((base - ceiling) * /** @type {number} */ (b.english)) / max);
+      ctx.fillStyle = opts.compareColour;
+      roundTop(ctx, x + barW + gap, base - eh, cmpW, eh, Math.min(cmpW * 0.18, eh / 2));
+    }
 
     ctx.fillStyle = opts.highlight && b.extra ? opts.accent : opts.ink;
     ctx.font = `500 ${letterPx}px ${FONT}`;
@@ -152,7 +176,7 @@ export function drawSheet(canvas, opts, bars) {
       ctx.fillStyle = opts.ink;
       ctx.globalAlpha = 0.75;
       ctx.font = `400 ${valuePx}px ${FONT}`;
-      ctx.fillText(percentText(b.percent), cx, base - h - valuePx * 0.8);
+      ctx.fillText(percentText(b.percent), x + barW / 2, base - h - valuePx * 0.8);
       ctx.globalAlpha = 1;
     }
   });

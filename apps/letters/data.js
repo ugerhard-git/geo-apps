@@ -102,6 +102,7 @@ export async function loadData() {
  * @property {string} letter
  * @property {number} percent
  * @property {boolean} extra beyond a–z
+ * @property {number | null} english the letter's share in English, for comparison; null when English has no such letter or there's no comparison
  */
 
 /**
@@ -109,11 +110,19 @@ export async function loadData() {
  *
  * @param {Language} lang
  * @param {BarOptions} opts
+ * @param {Language | null} [english] compare each letter with English; English's own letters are a–z
  * @returns {Bar[]}
  */
-export function barsFor(lang, opts) {
+export function barsFor(lang, opts, english = null) {
+  /** @type {Map<string, number>} */
+  const en = new Map(english && english !== lang ? english.top.filter(([l]) => BASIC.test(l)) : []);
   const bars = lang.top
-    .map(([letter, percent]) => ({ letter, percent, extra: !BASIC.test(letter) }))
+    .map(([letter, percent]) => ({
+      letter,
+      percent,
+      extra: !BASIC.test(letter),
+      english: en.has(letter) ? /** @type {number} */ (en.get(letter)) : null,
+    }))
     .filter((b) => (b.extra ? !opts.basicOnly && b.percent >= opts.minPercent : true));
   if (opts.order === "alphabet") {
     // The language's own alphabetical order: Swedish puts å ä ö after z.
