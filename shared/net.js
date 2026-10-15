@@ -12,6 +12,9 @@ export const NPM_CDN = "https://cdn.jsdelivr.net/npm";
  */
 export const URL_COUNTRY_CODES =
   "https://cdn.jsdelivr.net/gh/datasets/country-codes@main/data/country-codes.csv";
+/** The same table straight from GitHub, for when jsDelivr is slow to answer. */
+export const URL_COUNTRY_CODES_GITHUB =
+  "https://raw.githubusercontent.com/datasets/country-codes/main/data/country-codes.csv";
 
 /** The Wikidata SPARQL endpoint. */
 export const WDQS = "https://query.wikidata.org/sparql";
@@ -27,6 +30,33 @@ export async function getJson(url) {
   const r = await fetch(url);
   if (!r.ok) throw httpError(r.status);
   return r.json();
+}
+
+/**
+ * Fetch a URL and read its body as UTF-8 text, giving up after `ms`
+ * milliseconds — headers and body together. A request that hangs (a CDN
+ * fetching an uncached file, say) then fails like any other instead of
+ * waiting forever, so the caller can try somewhere else.
+ *
+ * @param {string} url
+ * @param {number} ms
+ * @returns {Promise<{ok: boolean, status: number, text: string}>}
+ * @throws an `Error` "no answer within N s" on time-out, or the network error
+ */
+export async function fetchTextWithin(url, ms) {
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), ms);
+  try {
+    const r = await fetch(url, { signal: ctl.signal });
+    const text = new TextDecoder("utf-8").decode(await r.arrayBuffer());
+    return { ok: r.ok, status: r.status, text };
+  } catch (e) {
+    if (ctl.signal.aborted)
+      throw new Error(`no answer within ${Math.round(ms / 1000)} s`, { cause: e });
+    throw e;
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 /**

@@ -7,9 +7,20 @@
  */
 
 import { isNum } from "../../shared/geo.js";
-import { URL_COUNTRY_CODES, parseCsv } from "../../shared/net.js";
+import {
+  URL_COUNTRY_CODES,
+  URL_COUNTRY_CODES_GITHUB,
+  fetchTextWithin,
+  parseCsv,
+} from "../../shared/net.js";
 import { cleanText } from "../../shared/text.js";
-import { ALLOWED_DATA_HOSTS, GEOB_API, REGION_HOSTS } from "./config.js";
+import {
+  ALLOWED_DATA_HOSTS,
+  CODES_TIMEOUT_MS,
+  GEOB_API,
+  REGION_HOSTS,
+  REGION_TIMEOUT_MS,
+} from "./config.js";
 
 /** @typedef {import("../../shared/geo.js").Point} Point */
 /** @typedef {import("../../shared/world.js").Polys} Polys */
@@ -32,20 +43,6 @@ export { topoCountries } from "../../shared/world.js";
    Country codes: the outlines carry the numeric code, geoBoundaries the alpha-3
    ═══════════════════════════════════════════════════════════ */
 
-/**
- * Read the bytes and decode them as UTF-8 rather than letting the response
- * decide. GitHub serves Git LFS objects as a binary type, and text() then
- * falls back to a one-byte encoding, which turns "Región de Antofagasta" into
- * "RegiÃ³n de Antofagasta".
- *
- * @param {Response} response
- * @returns {Promise<string>}
- */
-async function readUtf8(response) {
-  const buf = await response.arrayBuffer();
-  return new TextDecoder("utf-8").decode(buf);
-}
-
 /** @type {Map<string, string> | null} */
 let iso3ByNumeric = null;
 
@@ -61,12 +58,42 @@ const CODE_SPOT_CHECK = [
   ["250", "FRA"],
 ];
 
+/** @type {Promise<Map<string, string>> | null} the table being fetched, shared by concurrent callers */
+let codesLoading = null;
+
 /** @returns {Promise<Map<string, string>>} alpha-3 by numeric code */
-async function loadCodes() {
-  if (iso3ByNumeric) return iso3ByNumeric;
-  const r = await fetch(URL_COUNTRY_CODES);
-  if (!r.ok) throw new Error("HTTP " + r.status);
-  const rows = parseCsv(await readUtf8(r));
+function loadCodes() {
+  if (iso3ByNumeric) return Promise.resolve(iso3ByNumeric);
+  if (!codesLoading)
+    codesLoading = fetchCodes().finally(() => {
+      codesLoading = null;
+    });
+  return codesLoading;
+}
+
+/**
+ * The code table from jsDelivr, or from GitHub if jsDelivr fails or is slow.
+ *
+ * @returns {Promise<Map<string, string>>}
+ */
+async function fetchCodes() {
+  /** @type {string[]} */
+  const tried = [];
+  let text = "";
+  for (const url of [URL_COUNTRY_CODES, URL_COUNTRY_CODES_GITHUB]) {
+    try {
+      const r = await fetchTextWithin(url, CODES_TIMEOUT_MS);
+      if (r.ok) {
+        text = r.text;
+        break;
+      }
+      tried.push(`${url.split("/")[2]} → HTTP ${r.status}`);
+    } catch (e) {
+      tried.push(`${url.split("/")[2]} → ${cleanText(e && e.message, 40)}`);
+    }
+  }
+  if (!text) throw new Error("couldn't get the country-code table — " + tried.join("; "));
+  const rows = parseCsv(text);
   if (rows.length < 2) throw new Error("the code table was empty");
   const head = rows[0].map((h) => cleanText(h, 60).toLowerCase());
   /** @param {string[]} names */
@@ -158,10 +185,11 @@ function regionPolys(geometry) {
  * geoBoundaries' API where it is.
  *
  * @param {string} iso3
+ * @param {(host: string) => void} onTry told which host is being asked
  * @returns {Promise<any>} the parsed GeoJSON
  * @throws an Error (with `soft: true` when geoBoundaries simply has no file)
  */
-async function fetchRegionFile(iso3) {
+async function fetchRegionFile(iso3, onTry) {
   let data = null;
   let missing = false;
   /** @type {string[]} */
@@ -169,9 +197,10 @@ async function fetchRegionFile(iso3) {
   for (const build of REGION_HOSTS) {
     const url = build(iso3);
     const host = url.split("/")[2];
+    onTry(host);
     let r;
     try {
-      r = await fetch(url);
+      r = await fetchTextWithin(url, REGION_TIMEOUT_MS);
     } catch (e) {
       tried.push(`${host} → ${cleanText(e && e.message, 30)}`);
       continue;
@@ -185,7 +214,7 @@ async function fetchRegionFile(iso3) {
       tried.push(`${host} → HTTP ${r.status}`);
       continue;
     }
-    const text = await readUtf8(r);
+    const text = r.text;
     // A pointer parses as neither JSON nor anything useful; say what it is.
     if (isLfsPointer(text)) {
       tried.push(`${host} → returned a Git LFS pointer, not the data`);
@@ -205,14 +234,15 @@ async function fetchRegionFile(iso3) {
   // Last resort: ask geoBoundaries where the file is rather than assuming.
   if (!data) {
     try {
-      const meta = await fetch(GEOB_API(iso3));
+      onTry("geoboundaries.org");
+      const meta = await fetchTextWithin(GEOB_API(iso3), REGION_TIMEOUT_MS);
       if (meta.ok) {
-        const info = await meta.json();
+        const info = JSON.parse(meta.text);
         const rec = Array.isArray(info) ? info[0] : info;
         const candidate = safeDataUrl(rec && (rec.simplifiedGeometryGeoJSON || rec.gjDownloadURL));
         if (candidate) {
-          const r2 = await fetch(candidate);
-          const t2 = r2.ok ? await readUtf8(r2) : "";
+          const r2 = await fetchTextWithin(candidate, REGION_TIMEOUT_MS);
+          const t2 = r2.ok ? r2.text : "";
           if (t2 && !isLfsPointer(t2)) {
             try {
               const parsed = JSON.parse(t2);
@@ -248,10 +278,11 @@ async function fetchRegionFile(iso3) {
  * One country's first-level divisions.
  *
  * @param {CountryShape} country
+ * @param {(host: string) => void} [onTry] told which host is being asked
  * @returns {Promise<{iso3: string, regions: Region[]}>} regions sorted by name
  * @throws an Error, with `soft: true` when there is simply no file to fetch
  */
-export async function loadRegionsFor(country) {
+export async function loadRegionsFor(country, onTry = () => {}) {
   await loadCodes();
   const iso3 = iso3For(country);
   if (!iso3) {
@@ -259,7 +290,7 @@ export async function loadRegionsFor(country) {
     e.soft = true;
     throw e;
   }
-  const data = await fetchRegionFile(iso3);
+  const data = await fetchRegionFile(iso3, onTry);
   /** @type {Region[]} */
   const out = [];
   for (const f of data.features) {

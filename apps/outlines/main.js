@@ -40,6 +40,8 @@ let chosenRegion = null;
 let regions = null;
 /** The alpha-3 code the regions were fetched under. */
 let regionIso = "";
+/** Incremented by every region fetch, so a slow answer can't overwrite a newer one. */
+let regionRequest = 0;
 /** Incremented by every redraw. */
 let busy = 0;
 
@@ -209,9 +211,17 @@ async function ensureRegions() {
   if (regions && regionIso && regionIso === iso3For(chosen)) return true;
   regions = null;
   chosenRegion = null;
-  progress(`Fetching regions of ${chosen.name}`, 0, true);
+  // A newer request (another country picked meanwhile) wins; an older one's
+  // answer is dropped rather than shown under the wrong country.
+  const mine = ++regionRequest;
+  const country = chosen;
+  const label = `Fetching regions of ${country.name}`;
+  progress(label, 0, true);
   try {
-    const got = await loadRegionsFor(chosen);
+    const got = await loadRegionsFor(country, (host) => {
+      if (mine === regionRequest) progress(`${label} — from ${host}`, 0, true);
+    });
+    if (mine !== regionRequest) return false;
     regions = got.regions;
     regionIso = got.iso3;
     if (!regions.length) {
@@ -221,6 +231,7 @@ async function ensureRegions() {
     note("");
     return true;
   } catch (e) {
+    if (mine !== regionRequest) return false;
     regions = null;
     note(
       (e && e.soft ? "" : "Couldn't fetch the regions: ") +
@@ -230,7 +241,7 @@ async function ensureRegions() {
     );
     return false;
   } finally {
-    progress(null);
+    if (mine === regionRequest) progress(null);
   }
 }
 
