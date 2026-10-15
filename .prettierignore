@@ -6,3 +6,4 @@ playwright-report/
 **/vendor/
 apps/landmarks/data/
 apps/keyboards/data/
+apps/letters/data/
