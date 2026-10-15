@@ -143,6 +143,17 @@ The layouts no longer change, so the file is built by hand and committed — see
 the header of `scripts/keyboards/build-data.mjs`. Edit `countries.js` and
 rebuild to change a country's layouts.
 
+## Precomputed data: Letter frequencies
+
+The Letter frequencies app reads `apps/letters/data/letters.json`. Its numbers
+come from [FineFreq](https://github.com/Bin-2/FineFreq) (Binbin Xu, 2025;
+CC BY 4.0), which publishes per-language character counts from FineWeb and
+FineWeb2 — 96.6 trillion characters of Common Crawl text, 2013–2025. Nothing
+is counted here: `scripts/letters/select.js` keeps each language's letters,
+folds capitals into small letters and turns the counts into shares. Countries
+get their official Latin-script languages from CLDR. The file is built by hand
+(see the header of `scripts/letters/build-data.mjs`) and committed.
+
 ## API keys
 
 GeoCards can use a personal REST Countries key. Keys are never

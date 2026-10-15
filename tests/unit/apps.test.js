@@ -25,6 +25,15 @@ import { parseLakes, parseRivers } from "../../apps/rivers/data.js";
 import { rankWidth } from "../../apps/rivers/render.js";
 import { applyAffix, detectAffix, stripAffix } from "../../apps/subdivisions/names.js";
 import { parseData } from "../../apps/keyboards/data.js";
+import { barsFor, parseData as parseLetters } from "../../apps/letters/data.js";
+import { percentText, printable as printLetter } from "../../apps/letters/render.js";
+import {
+  cldrCode,
+  isLetter,
+  languagesFor,
+  letterShares,
+  parseCsv,
+} from "../../scripts/letters/select.js";
 import { capFor, isNonLatin, keyboard, printable, side } from "../../apps/keyboards/keys.js";
 import { insetPolygon } from "../../apps/keyboards/render.js";
 import { layoutsFor, localeOf } from "../../scripts/keyboards/countries.js";
@@ -973,4 +982,118 @@ test("keyboards app: the layout file is checked on reading", () => {
   assert.equal(ok.latin, "en");
   assert.deepEqual([...data.countries.entries()], [["DE", ["ok"]]]);
   assert.throws(() => parseData({ layouts: {}, countries: {} }));
+});
+
+test("letters data: FineFreq counts become letter shares, nothing else", () => {
+  const csv =
+    "character,unicode_category,total_frequency_all_time\n" +
+    "a,Ll,600\nA,Lu,200\nI,Lu,100\ni,Ll,50\n\u0131,Ll,50\n\u02BB,Lm,100\n,,\n" +
+    '"\u0301",Mn,20\n",",Po,999\n\u0634,Lo,500\n1,Nd,999\n\u00DF,Ll,10\n\u1E9E,Lu,10\n';
+  const rows = parseCsv(csv);
+  assert.equal(rows.find((r) => r.character === ",")?.total_frequency_all_time, "999");
+  assert.ok(isLetter("\u02BB", "Lm"));
+  assert.ok(isLetter("\u0301", "Mn"));
+  assert.ok(!isLetter("\u0634", "Lo")); // Arabic: not a Latin letter
+  assert.ok(!isLetter(",", "Po"));
+  // Turkish: I is the capital of ı, not of i.
+  const tr = new Map(letterShares(rows, "tr").letters);
+  const en = new Map(letterShares(rows, "en").letters);
+  assert.equal(letterShares(rows, "tr").total, 1140);
+  assert.equal(tr.get("\u0131"), Math.round((150 / 1140) * 100 * 1e4) / 1e4);
+  assert.equal(en.get("i"), Math.round((150 / 1140) * 100 * 1e4) / 1e4);
+  assert.equal(en.get("a"), Math.round((800 / 1140) * 100 * 1e4) / 1e4);
+  assert.equal(en.get("\u00DF"), Math.round((20 / 1140) * 100 * 1e4) / 1e4); // ẞ folds into ß
+  assert.equal(en.get("\u0634"), undefined);
+  assert.equal(letterShares([], "en").letters.length, 0);
+});
+
+test("letters data: languages per country, FineFreq codes to CLDR ones", () => {
+  const aliases = {
+    swh: { _replacement: "sw" },
+    deu: { _replacement: "de" },
+    cnr: { _replacement: "sr-ME" },
+  };
+  assert.equal(cldrCode("swh", aliases), "sw");
+  assert.equal(cldrCode("cnr", aliases), "cnr");
+  assert.equal(cldrCode("smo", aliases), "smo");
+  const scriptOf = (/** @type {string} */ c) =>
+    c.includes("_") ? c.split("_")[1] : c === "ar" ? "Arab" : "Latn";
+  const have = new Set(["de", "en", "sw", "tk", "sr", "fr"]);
+  const lp = (/** @type {Record<string, [number, string]>} */ m) =>
+    Object.fromEntries(
+      Object.entries(m).map(([k, [p, st]]) => [
+        k,
+        { _populationPercent: String(p), _officialStatus: st },
+      ]),
+    );
+  assert.deepEqual(languagesFor(lp({ de: [91, "official"], en: [64, ""] }), scriptOf, have), [
+    "de",
+  ]);
+  assert.deepEqual(
+    languagesFor(lp({ sw: [90, "official"], en: [69, "official"] }), scriptOf, have),
+    ["sw", "en"],
+  );
+  // Only a regional Latin-script language: not a clue country.
+  assert.deepEqual(
+    languagesFor(lp({ ar: [50, "official"], tk: [3, "official_regional"] }), scriptOf, have),
+    [],
+  );
+  // Serbian counts in its Latin spelling.
+  assert.deepEqual(
+    languagesFor(
+      lp({ sr: [99, "official"], sr_Latn: [99, "official"] }),
+      (c) => (c === "sr" ? "Cyrl" : scriptOf(c)),
+      have,
+    ),
+    ["sr"],
+  );
+});
+
+test("letters app: the data file is checked, the bars chosen and ordered", () => {
+  const top = [
+    ["e", 15],
+    ["n", 10],
+    ["a", 6],
+    ["\u00E4", 0.5],
+    ["\u00E5", 0.03],
+    ["\u00F6", 0.3],
+    ["<b>", 1],
+    ["z", 101],
+    ["\u0634", 1],
+  ];
+  for (const l of "bcdfghijklmopqrstu") top.push([l, 1]);
+  const data = parseLetters({
+    languages: {
+      sv: { name: "Swedish", letters: 1e9, top },
+      "../x": { name: "X", top },
+      de: { name: "German", top: [] },
+    },
+    countries: { SE: ["sv", "xx"], se: ["sv"] },
+  });
+  assert.deepEqual([...data.languages.keys()], ["sv"]);
+  assert.deepEqual([...data.countries.keys()], ["SE"]);
+  const sv = /** @type {any} */ (data.languages.get("sv"));
+  assert.ok(
+    !sv.top.some(
+      (/** @type {[string, number]} */ [c]) => c === "<b>" || c === "z" || c === "\u0634",
+    ),
+  );
+  const freq = barsFor(sv, { order: "frequency", basicOnly: false, minPercent: 0.05 });
+  assert.equal(freq[0].letter, "e");
+  assert.ok(!freq.some((b) => b.letter === "\u00E5")); // rarer than 0.05 %
+  assert.deepEqual(
+    barsFor(sv, { order: "frequency", basicOnly: true, minPercent: 0 }).filter((b) => b.extra),
+    [],
+  );
+  // Swedish alphabetical order puts ä and ö after the 26.
+  const abc = barsFor(sv, { order: "alphabet", basicOnly: false, minPercent: 0 }).map(
+    (b) => b.letter,
+  );
+  assert.deepEqual(abc.slice(-3), ["\u00E5", "\u00E4", "\u00F6"]);
+  assert.equal(percentText(15.99), "16.0");
+  assert.equal(percentText(6.4), "6.4");
+  assert.equal(percentText(0.004), "<0.01");
+  assert.equal(printLetter("\u0301", false), "\u25CC\u0301");
+  assert.equal(printLetter("\u00DF", true), "\u1E9E");
+  assert.equal(printLetter("\u0149", true), "\u0149"); // ŉ has no one-letter capital
 });
