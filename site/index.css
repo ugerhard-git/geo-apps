@@ -203,12 +203,37 @@ footer {
   padding: 0;
   font-size: 13px;
 }
-.kinds li {
+/* Each key is also a filter: pressed ones narrow the list to their kind. */
+.kinds button {
   display: flex;
   align-items: center;
   gap: 6px;
+  padding: 3px 9px 3px 7px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
 }
-.kinds li::before {
+.kinds button:hover {
+  border-color: var(--k);
+}
+.kinds button:focus-visible {
+  outline: 2px solid var(--k);
+  outline-offset: 1px;
+}
+.kinds button[aria-pressed="true"] {
+  border-color: var(--k);
+  background: color-mix(in srgb, var(--k) 16%, transparent);
+  color: var(--ink, inherit);
+  font-weight: 600;
+}
+/* While some kinds are picked, the others step back. */
+.kinds.filtering button[aria-pressed="false"] {
+  opacity: 0.55;
+}
+.kinds button::before {
   content: "";
   width: 10px;
   height: 10px;

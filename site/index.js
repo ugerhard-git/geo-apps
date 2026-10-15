@@ -1,6 +1,8 @@
 /**
  * Overview page:
  *   - search: filters the app list by title and description as you type
+ *   - kinds: the colour key doubles as a filter; pick one or more kinds to
+ *     see only those apps (none picked: all), together with the search
  *   - layout: grid or list, remembered in this browser
  *   - saved API keys: lists every service in shared/keys.js, says whether a
  *     key is saved, and lets the visitor save, replace or forget it for all
@@ -127,23 +129,49 @@ const haystacks = cards.map((c) =>
   ),
 );
 
-/** Show the cards whose title or description contains every typed word. */
+const kindKey = /** @type {HTMLElement} */ (document.querySelector(".kinds"));
+const kindButtons = /** @type {HTMLButtonElement[]} */ ([...kindKey.querySelectorAll("button")]);
+/** The kinds picked in the colour key; none means all. */
+const kinds = new Set();
+
+/**
+ * Show the cards of a picked kind (any, when none is picked) whose title or
+ * description contains every typed word.
+ */
 function applySearch() {
   const words = fold(search.value).split(/\s+/).filter(Boolean);
   let shown = 0;
   cards.forEach((c, i) => {
-    const hit = words.every((w) => haystacks[i].includes(w));
+    const hit =
+      (!kinds.size || kinds.has(c.dataset.kind || "")) &&
+      words.every((w) => haystacks[i].includes(w));
     c.hidden = !hit;
     if (hit) shown++;
   });
-  count.textContent = words.length ? `${shown} of ${cards.length} apps` : `${cards.length} apps`;
+  const filtered = words.length > 0 || kinds.size > 0;
+  count.textContent = filtered ? `${shown} of ${cards.length} apps` : `${cards.length} apps`;
   noMatch.hidden = shown > 0;
-  /** @type {HTMLElement} */ (document.getElementById("noMatchQuery")).textContent =
-    search.value.trim();
+  const kindNames = kindButtons
+    .filter((b) => kinds.has(b.dataset.kind || ""))
+    .map((b) => b.textContent || "");
+  /** @type {HTMLElement} */ (document.getElementById("noMatchText")).textContent = words.length
+    ? `No ${kindNames.length ? kindNames.join(" or ") + " " : ""}app matches “${search.value.trim()}”. Try a shorter word, or`
+    : "No app of that kind —";
+  kindKey.classList.toggle("filtering", kinds.size > 0);
 }
 search.addEventListener("input", applySearch);
+for (const b of kindButtons)
+  b.addEventListener("click", () => {
+    const kind = b.dataset.kind || "";
+    if (kinds.has(kind)) kinds.delete(kind);
+    else kinds.add(kind);
+    b.setAttribute("aria-pressed", String(kinds.has(kind)));
+    applySearch();
+  });
 document.getElementById("clearSearch")?.addEventListener("click", () => {
   search.value = "";
+  kinds.clear();
+  for (const b of kindButtons) b.setAttribute("aria-pressed", "false");
   applySearch();
   search.focus();
 });

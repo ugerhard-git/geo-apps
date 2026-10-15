@@ -66,12 +66,14 @@
       </div>
       <div class="list-head">
         <p class="count" id="count" aria-live="polite"></p>
-        <ul class="kinds" aria-label="Colour key: the kind of clue each app makes">
-          <li class="k-images">photos &amp; images</li>
-          <li class="k-chart">charts</li>
-          <li class="k-maps">maps</li>
-          <li class="k-text">text</li>
-          <li class="k-cards">cards</li>
+        <ul class="kinds" aria-label="Show only apps of a kind (the colours on the cards)">
+          <li>
+            <button type="button" class="k-images" data-kind="images" aria-pressed="false">photos &amp; images</button>
+          </li>
+          <li><button type="button" class="k-chart" data-kind="chart" aria-pressed="false">charts</button></li>
+          <li><button type="button" class="k-maps" data-kind="maps" aria-pressed="false">maps</button></li>
+          <li><button type="button" class="k-text" data-kind="text" aria-pressed="false">text</button></li>
+          <li><button type="button" class="k-cards" data-kind="cards" aria-pressed="false">cards</button></li>
         </ul>
       </div>
 
@@ -79,7 +81,7 @@
         <!-- APPS -->
       </ul>
       <p class="no-match" id="noMatch" hidden>
-        No app matches “<span id="noMatchQuery"></span>”. Try a shorter word, or
+        <span id="noMatchText"></span>
         <button type="button" class="link" id="clearSearch">show all apps</button>.
       </p>
 
