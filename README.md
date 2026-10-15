@@ -9,6 +9,8 @@ something to recognise without naming it, and exports it as an image.
 Everything runs in the browser. There is no backend and no build step for the apps themselves: each
 one is plain HTML, CSS and JavaScript modules.
 
+Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md) for how changes are made and reviewed.
+
 ## Quick start
 
 ```sh
@@ -80,7 +82,7 @@ host to `connect-src` (or `img-src` for images), or the browser will block the r
    `<meta name="geo-apps:tags" content="Source, kind">`. That is all the overview page needs; there is
    no list to register in.
 3. Import shared code with relative paths, e.g. `import { $ } from "../../shared/dom.js"`.
-4. `npm run dev`, then `npm run check` and `npm test` before pushing.
+4. `npm run dev`, then the checks in `CONTRIBUTING.md` before opening a pull request.
 
 ## Shared modules
 
