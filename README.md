@@ -193,6 +193,10 @@ rules that keep that in check:
   their own service (`shared/keys.js`).
 - **CI** runs with read-only permissions; only the Pages deploy job can publish,
   and only the Landmarks data job can push (to its own branch, via a pull request).
+  Every action is pinned to a commit, not a movable tag, and Dependabot opens a
+  pull request when one (or a dev tool) has an update.
+- **Vendored code is checked against its release:** `vendor/chart.umd.js` is
+  byte-identical to Chart.js 4.4.6 on npm.
 
 ## Editor setup
 
