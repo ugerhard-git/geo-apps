@@ -84,6 +84,32 @@ errors and the Sources panels: say what happened and what to do ("Couldn't
 load the keyboards. Check your connection and reload."), not how the code
 works.
 
+## Code for people
+
+The code is read by the owner and by developers who don't know the project.
+Write it so they can follow it without help.
+
+- **Clear before clever.** Choose the plain version over the shortest or
+  fastest one, unless the speed matters and a comment says why.
+- **Every file explains itself.** Start with a short comment on what the file
+  does; in an app's `main.js`, also the flow from loading to export and what
+  each of its modules is for.
+- **Comments say why, not what.** Explain decisions, sources and edge cases
+  ("Capital ß is ẞ, not SS"); the code already shows what it does.
+- **Small modules with one job each:** data, drawing and the page are kept
+  apart, and functions that only compute have no side effects, so they can be
+  tested.
+- **Names a reader understands:** whole words, matching the interface where
+  possible, no private abbreviations.
+- **JSDoc types** on exported functions and shared data shapes, so editors can
+  help.
+- **Follow the existing patterns.** Reuse `shared/` before writing something
+  new, and move code there once a second app needs it.
+- **No new tools without a reason.** Every dependency or build step is one
+  more thing to learn; propose it to the owner first.
+- **Keep the documentation true.** When the code changes, update its comments
+  and `README.md` in the same pull request.
+
 ## Conventions
 
 - Plain ES modules, no bundler. Each app is `apps/<slug>/` with `index.html`,
