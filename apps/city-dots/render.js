@@ -7,7 +7,9 @@ import { frameSpec } from "../../shared/sheet.js";
 import { clamp } from "../../shared/util.js";
 import { MAINLAND_SLACK_DEG } from "./config.js";
 import { projectCountry } from "../../shared/projection.js";
-import { extentOf, pickDots, radiusFor } from "./dots.js";
+import { dropCovered, extentOf, pickDots, radiusFor } from "./dots.js";
+
+/** @typedef {import("./dots.js").Dot} Dot */
 
 /** @typedef {import("../../shared/world.js").Polys} Polys */
 /** @typedef {import("../../shared/geonames.js").City} City */
@@ -20,6 +22,7 @@ import { extentOf, pickDots, radiusFor } from "./dots.js";
  * @property {string} dot dot colour
  * @property {boolean} outline draw the country's outline faintly
  * @property {boolean} capital ring the capital
+ * @property {boolean} merge leave out towns that would sit inside a bigger city's dot
  * @property {string} bg background colour
  * @property {boolean} bgNone transparent background
  * @property {number} margin fraction of the frame left empty around the map
@@ -160,8 +163,8 @@ export function drawSheet(canvas, opts, content) {
     bottom -= px * 2.1;
   }
 
-  const { shape, boxes, dots } = dotsFor(content, opts.count, opts.capital);
-  const ext = extentOf(boxes, dots);
+  const { shape, boxes, dots: largest } = dotsFor(content, opts.count, opts.capital);
+  const ext = extentOf(boxes, largest);
   if (!ext) return 0;
 
   // Dots poke out past the points they mark, so the map box leaves room for them.
@@ -186,7 +189,18 @@ export function drawSheet(canvas, opts, content) {
     ctx.restore();
   }
 
-  const maxPop = dots.reduce((m, d) => Math.max(m, d.pop), 0);
+  const maxPop = largest.reduce((m, d) => Math.max(m, d.pop), 0);
+  /** @param {Dot} d */
+  const radiusOf = (d) => radiusFor(d.pop, maxPop, rMax, opts.equal);
+  let dots = largest;
+  if (opts.merge) {
+    // More towns than asked for, to fill the places of those left out — but
+    // only ones inside the area already framed.
+    const pool = dotsFor(content, Math.min(opts.count * 4 + 20, 2000), opts.capital).dots.filter(
+      (d) => d.x >= ext.x0 && d.x <= ext.x1 && d.y >= ext.y0 && d.y <= ext.y1,
+    );
+    dots = dropCovered(pool, opts.count, radiusOf, map, opts.capital);
+  }
   /*
     Largest first, so a small town next to a big city sits on top of it
     rather than disappearing underneath. A thin ring in the background colour
@@ -195,7 +209,7 @@ export function drawSheet(canvas, opts, content) {
   const ring = Math.max(1, rMax * 0.06);
   for (const d of dots) {
     const [px, py] = map(d.x, d.y);
-    const r = radiusFor(d.pop, maxPop, rMax, opts.equal);
+    const r = radiusOf(d);
     ctx.beginPath();
     ctx.arc(px, py, r, 0, Math.PI * 2);
     ctx.fillStyle = opts.dot;
@@ -210,7 +224,7 @@ export function drawSheet(canvas, opts, content) {
     for (const d of dots) {
       if (!d.capital) continue;
       const [px, py] = map(d.x, d.y);
-      const r = radiusFor(d.pop, maxPop, rMax, opts.equal);
+      const r = radiusOf(d);
       ctx.beginPath();
       ctx.arc(px, py, r + ring * 2 + Math.max(2, rMax * 0.12), 0, Math.PI * 2);
       ctx.lineWidth = Math.max(1.5, rMax * 0.08);
