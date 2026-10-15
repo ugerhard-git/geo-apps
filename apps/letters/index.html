@@ -81,6 +81,8 @@
             ><input type="checkbox" id="optHighlight" checked /><span>Highlight letters beyond a–z</span></label
           >
           <label class="chk"><input type="checkbox" id="optValues" /><span>Percentages above the bars</span></label>
+          <label class="chk"><input type="checkbox" id="optCompare" /><span>Compare with English</span></label>
+          <div class="hint" id="compareHint">An English bar beside each letter English has too.</div>
           <label class="chk"><input type="checkbox" id="optUpper" /><span>Capital letters</span></label>
         </div>
 
@@ -152,6 +154,22 @@
                   aria-label="Background colour as hex"
                 />
               </div>
+            </div>
+          </div>
+          <div class="field" id="compareField" hidden>
+            <label for="cmpHex">English bars</label>
+            <div class="colour">
+              <input type="color" id="cmpColor" value="#8a8f98" aria-label="English bar colour swatch" />
+              <input
+                type="text"
+                id="cmpHex"
+                value="#8a8f98"
+                placeholder="#rrggbb"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="English bar colour as hex"
+              />
             </div>
           </div>
           <label class="chk"

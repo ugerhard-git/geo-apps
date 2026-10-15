@@ -1090,6 +1090,32 @@ test("letters app: the data file is checked, the bars chosen and ordered", () =>
     (b) => b.letter,
   );
   assert.deepEqual(abc.slice(-3), ["\u00E5", "\u00E4", "\u00F6"]);
+  // Compared with English: a–z get English's share, other letters none.
+  const en = {
+    code: "en",
+    name: "English",
+    letters: 1,
+    top: /** @type {Array<[string, number]>} */ ([
+      ["e", 12],
+      ["a", 8],
+      ["n", 7],
+    ]),
+  };
+  const cmp = barsFor(sv, { order: "frequency", basicOnly: false, minPercent: 0 }, en);
+  assert.equal(cmp.find((b) => b.letter === "e")?.english, 12);
+  assert.equal(cmp.find((b) => b.letter === "b")?.english, null); // not in this English sample
+  assert.equal(cmp.find((b) => b.letter === "\u00E4")?.english, null);
+  assert.ok(
+    barsFor(sv, { order: "frequency", basicOnly: false, minPercent: 0 }).every(
+      (b) => b.english === null,
+    ),
+  );
+  // English isn't compared with itself.
+  assert.ok(
+    barsFor(en, { order: "frequency", basicOnly: false, minPercent: 0 }, en).every(
+      (b) => b.english === null,
+    ),
+  );
   assert.equal(percentText(15.99), "16.0");
   assert.equal(percentText(6.4), "6.4");
   assert.equal(percentText(0.004), "<0.01");

@@ -44,6 +44,7 @@ function currentOptions() {
     bar: safeColour($("barColor").value, "#8fb8ff"),
     accent: safeColour($("accentColor").value, "#f2b84b"),
     highlight: $("optHighlight").checked,
+    compareColour: safeColour($("cmpColor").value, "#8a8f98"),
     ink: safeColour($("inkColor").value, "#e9ecf2"),
     bg: safeColour($("bgColor").value, "#171a21"),
     transparent: $("optTransparent").checked,
@@ -60,11 +61,21 @@ function currentOptions() {
 function bars() {
   if (!lang) return [];
   const min = parseFloat($("minShare").value);
-  return barsFor(lang, {
-    order: isPressed("orderAbc") ? "alphabet" : "frequency",
-    basicOnly: isPressed("lettersBasic"),
-    minPercent: Number.isFinite(min) ? min : 0.02,
-  });
+  const english = compareOn() ? (DATA && DATA.languages.get("en")) || null : null;
+  return barsFor(
+    lang,
+    {
+      order: isPressed("orderAbc") ? "alphabet" : "frequency",
+      basicOnly: isPressed("lettersBasic"),
+      minPercent: Number.isFinite(min) ? min : 0.02,
+    },
+    english,
+  );
+}
+
+/** Comparing with English, which makes no sense for English itself. */
+function compareOn() {
+  return $("optCompare").checked && !!lang && lang.code !== "en";
 }
 
 /* ═══════════════════════════════════════════════════════════
@@ -130,6 +141,12 @@ function syncUI() {
   $("revealTag").hidden = !$("optName").checked;
   $("capPosField").hidden = !cleanText($("capText").value, 120);
   $("minShare").disabled = isPressed("lettersBasic");
+  const isEnglish = !!lang && lang.code === "en";
+  $("optCompare").disabled = isEnglish;
+  $("compareHint").textContent = isEnglish
+    ? "This is English already."
+    : "An English bar beside each letter English has too.";
+  $("compareField").hidden = !compareOn();
 }
 
 /**
@@ -236,6 +253,7 @@ seg("capBottom", "capTop");
 for (const id of [
   "optHighlight",
   "optValues",
+  "optCompare",
   "optUpper",
   "optTransparent",
   "optName",
@@ -254,6 +272,7 @@ $("capText").addEventListener("input", debounce(refresh, 300));
 
 bindColour("barColor", "barHex", refresh);
 bindColour("accentColor", "accentHex", refresh);
+bindColour("cmpColor", "cmpHex", refresh);
 bindColour("inkColor", "inkHex", refresh);
 bindColour("bgColor", "bgHex", refresh);
 
