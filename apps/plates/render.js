@@ -24,6 +24,8 @@ import { SECTION_LABEL, SECTION_ORDER, SHEET_FIELDS } from "./config.js";
  * @property {boolean} spec print the plate requirements
  * @property {boolean} specTop requirements above (true) or below (false)
  * @property {string} caption
+ * @property {number} captionScale caption size relative to the usual, 0.5–2
+ * @property {number} creditScale credit size relative to the usual, 0.5–2
  * @property {boolean} capTop
  * @property {boolean} blurWhole blur whole plates rather than drawn regions
  * @property {number} blurAmount in tenths of a percent of the plate's width
@@ -135,7 +137,7 @@ export async function drawSheet(canvas, opts, { country, plates, spec, loadImage
 
   // Caption: shrunk until it fits the width.
   if (opts.caption) {
-    let px = Math.round(H * 0.045);
+    let px = Math.round(H * 0.045 * opts.captionScale);
     ctx.font = `600 ${px}px "Archivo Narrow", sans-serif`;
     ctx.fillStyle = opts.fg;
     ctx.textAlign = "center";
@@ -259,6 +261,7 @@ export async function drawSheet(canvas, opts, { country, plates, spec, loadImage
       creditColour: opts.at,
       creditFont: '"Archivo", sans-serif',
       maxCreditPx: 20,
+      creditScale: opts.creditScale,
       authorPrefix: "Photo: ",
     });
   }

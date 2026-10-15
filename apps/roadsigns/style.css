@@ -526,3 +526,10 @@ input[type="color"]:disabled {
   font-size: 12.5px;
   max-width: 70ch;
 }
+
+/* A size slider's readout, beside its label. */
+.field label .val {
+  float: right;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.8;
+}

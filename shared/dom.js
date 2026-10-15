@@ -124,3 +124,30 @@ export function debounce(fn, ms) {
     timer = setTimeout(fn, ms);
   };
 }
+
+/**
+ * A size slider (`<input type="range" id>` in percent, with a `#<id>Val`
+ * readout): keep the readout current and call `onChange` while it moves.
+ *
+ * @param {string} id
+ * @param {() => void} onChange
+ */
+export function bindScale(id, onChange) {
+  const input = /** @type {HTMLInputElement} */ ($(id));
+  const show = () => ($(id + "Val").textContent = `${scaleOf(id) * 100}%`);
+  input.addEventListener("input", () => {
+    show();
+    onChange();
+  });
+  show();
+}
+
+/**
+ * A size slider's value as a factor, 0.5–2 (100 % is 1).
+ *
+ * @param {string} id
+ */
+export function scaleOf(id) {
+  const v = parseFloat(/** @type {HTMLInputElement} */ ($(id)).value);
+  return Number.isFinite(v) ? Math.min(2, Math.max(0.5, Math.round(v) / 100)) : 1;
+}

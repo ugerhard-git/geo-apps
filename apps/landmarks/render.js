@@ -18,6 +18,8 @@ import { frameSpec } from "../../shared/sheet.js";
  * @property {boolean} names print each landmark's name (reveals the answer)
  * @property {boolean} country print the country's name (reveals the answer)
  * @property {string} caption
+ * @property {number} captionScale caption size relative to the usual, 0.5–2
+ * @property {number} creditScale credit size relative to the usual, 0.5–2
  * @property {boolean} capTop
  */
 
@@ -80,7 +82,7 @@ export async function drawSheet(canvas, opts, { countryName, photos, loadImage }
 
   if (opts.caption) {
     ctx.fillStyle = opts.fg;
-    let px = Math.round(H * 0.045);
+    let px = Math.round(H * 0.045 * opts.captionScale);
     ctx.font = `600 ${px}px "Fraunces", Georgia, serif`;
     while (px > 14 && ctx.measureText(opts.caption).width > W - pad * 2) {
       px -= 2;
@@ -115,6 +117,7 @@ export async function drawSheet(canvas, opts, { countryName, photos, loadImage }
       fg: opts.fg,
       at: opts.at,
       labelFont: (px) => `500 ${px}px "Fraunces", Georgia, serif`,
+      creditScale: opts.creditScale,
       creditFont: (px) => `400 ${px}px "Inter", sans-serif`,
       creditText,
     },

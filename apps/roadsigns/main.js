@@ -11,7 +11,17 @@
 
 import { licenceAllows, licenceClass } from "../../shared/commons.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
-import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../../shared/dom.js";
+import {
+  $,
+  bindColour,
+  bindScale,
+  debounce,
+  isPressed,
+  note,
+  progress,
+  scaleOf,
+  setSeg,
+} from "../../shared/dom.js";
 import { createImageLoader, TAINTED_MESSAGE } from "../../shared/images.js";
 import { safeColour } from "../../shared/colour.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
@@ -69,6 +79,8 @@ function currentOptions() {
     blur: $("optBlur").checked,
     blurAmount: clamp(+$("blurAmount").value, 0, 150),
     caption: cleanText($("capText").value, 120),
+    captionScale: scaleOf("capSize"),
+    creditScale: scaleOf("credSize"),
     capTop: isPressed("capTop"),
   };
 }
@@ -497,3 +509,7 @@ loadCountries()
       true,
     );
   });
+
+// Caption and credit sizes: redraw as the sliders move, a moment after.
+bindScale("capSize", debounce(refresh, 150));
+bindScale("credSize", debounce(refresh, 150));
