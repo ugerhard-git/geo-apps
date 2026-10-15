@@ -92,6 +92,7 @@ function currentOptions() {
     dot: safeColour($("dotColor").value, "#f0a048"),
     outline: $("optOutline").checked,
     capital: $("optCapital").checked,
+    merge: $("optMerge").checked,
     bg: safeColour($("bgColor").value, "#0f1115"),
     bgNone: $("bgNone").checked,
     margin: clamp(+$("margin").value || 0, 0, 30) / 100,
@@ -174,7 +175,9 @@ function renderSources() {
 function autoFootnote(/** @type {number} */ n) {
   if (!n) return "";
   if (n === 1) return "The only town of 1000 people or more.";
-  const what = `The ${n} largest towns and cities`;
+  const what = $("optMerge").checked
+    ? `${n} of the largest towns and cities`
+    : `The ${n} largest towns and cities`;
   return isPressed("sizeEqual") ? what + "." : `${what}, sized by population.`;
 }
 
@@ -234,11 +237,11 @@ function refresh() {
     return;
   }
   try {
-    drawSheet($("sheet"), opts, content);
+    const drawn = drawSheet($("sheet"), opts, content);
     $("sheetWrap").hidden = false;
     $("empty").hidden = true;
     $("countHint").textContent =
-      dots.length >= opts.count
+      drawn >= opts.count || dots.length >= opts.count
         ? ""
         : dots.length === 1
           ? "Only one place of 1000+ people here."
@@ -319,7 +322,7 @@ for (const id of ["count", "dotSize", "margin"])
     syncUI();
     refreshSoon();
   });
-for (const id of ["optOutline", "optCapital", "bgNone", "optName", "optCredit"])
+for (const id of ["optMerge", "optOutline", "optCapital", "bgNone", "optName", "optCredit"])
   $(id).addEventListener("change", refresh);
 
 $("frame").addEventListener("change", () => {

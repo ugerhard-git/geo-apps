@@ -76,6 +76,41 @@ export function pickDots(cities, count, boxes, slackDeg, withCapital = false) {
 }
 
 /**
+ * Leave out the towns that would sit inside a bigger city's dot — the
+ * separately counted parts of one metropolis (Paris's suburbs, the
+ * districts of a megacity) — and fill their places with the next towns.
+ *
+ * A town is left out when its centre falls inside the dot of a larger
+ * city already kept — unless it is the capital and the capital is to be
+ * shown (ringed), in which case it stays.
+ *
+ * @param {Dot[]} candidates largest first (more than `count`, so there are towns to fill in with)
+ * @param {number} count
+ * @param {(d: Dot) => number} radius a dot's drawn radius
+ * @param {(x: number, y: number) => [number, number]} toCanvas plane to drawing coordinates
+ * @param {boolean} [keepCapital] the capital stays even when covered
+ * @returns {Dot[]} at most `count`, largest first
+ */
+export function dropCovered(candidates, count, radius, toCanvas, keepCapital = false) {
+  /** @type {Array<{d: Dot, x: number, y: number, r: number}>} */
+  const kept = [];
+  for (const d of candidates) {
+    if (kept.length >= count) break;
+    const [x, y] = toCanvas(d.x, d.y);
+    const covered = kept.some((k) => Math.hypot(x - k.x, y - k.y) < k.r);
+    if (covered && !(keepCapital && d.capital)) continue;
+    kept.push({ d, x, y, r: radius(d) });
+  }
+  // A capital to be shown, found only further down, still gets in, last.
+  const capital = keepCapital ? candidates.find((d) => d.capital) : null;
+  if (capital && !kept.some((k) => k.d === capital) && kept.length) {
+    if (kept.length >= count) kept.pop();
+    kept.push({ d: capital, x: 0, y: 0, r: 0 });
+  }
+  return kept.map((k) => k.d);
+}
+
+/**
  * The area the sheet has to show: the outline, and every dot.
  *
  * @param {Box[]} boxes

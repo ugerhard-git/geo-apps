@@ -11,7 +11,7 @@ import { dropReason, fileName, pickName, selectLandmarks } from "../../scripts/l
 import { fitCredit, wrapCredit } from "../../shared/credits.js";
 import { decodeCities, isFormatError } from "../../shared/geonames.js";
 import { justifiedRows } from "../../shared/justified.js";
-import { extentOf, pickDots, radiusFor } from "../../apps/city-dots/dots.js";
+import { dropCovered, extentOf, pickDots, radiusFor } from "../../apps/city-dots/dots.js";
 import { joinChoices } from "../../apps/export-treemap/countries.js";
 import { cubeFor, toProducts } from "../../apps/export-treemap/oec.js";
 import { squarify } from "../../apps/export-treemap/treemap.js";
@@ -1122,4 +1122,28 @@ test("letters app: the data file is checked, the bars chosen and ordered", () =>
   assert.equal(printLetter("\u0301", false), "\u25CC\u0301");
   assert.equal(printLetter("\u00DF", true), "\u1E9E");
   assert.equal(printLetter("\u0149", true), "\u0149"); // ŉ has no one-letter capital
+});
+
+test("city dots: towns inside a bigger city's dot are left out, the next ones fill in", () => {
+  const d = (/** @type {number} */ x, /** @type {number} */ pop, capital = false) => ({
+    x,
+    y: 0,
+    pop,
+    capital,
+  });
+  // A big city at 0 (radius 10), a suburb at 4 (inside it), towns at 30 and 60.
+  const big = d(0, 1000);
+  const suburb = d(4, 300, true);
+  const t1 = d(30, 200);
+  const t2 = d(60, 100);
+  const radius = (/** @type {any} */ c) => (c === big ? 10 : 3);
+  const id = (/** @type {number} */ x, /** @type {number} */ y) =>
+    /** @type {[number, number]} */ ([x, y]);
+  assert.deepEqual(dropCovered([big, suburb, t1, t2], 3, radius, id), [big, t1, t2]);
+  // The capital stays when it's to be ringed.
+  assert.deepEqual(dropCovered([big, suburb, t1, t2], 3, radius, id, true), [big, suburb, t1]);
+  // A ringed capital further down the list still gets the last place.
+  assert.deepEqual(dropCovered([big, t1, t2, suburb], 2, radius, id, true), [big, suburb]);
+  // Nothing covered: the same as the plain largest.
+  assert.deepEqual(dropCovered([big, t1, t2], 2, radius, id), [big, t1]);
 });
