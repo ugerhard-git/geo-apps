@@ -32,6 +32,12 @@ export const REGION_HOSTS = [
     `https://cdn.jsdelivr.net/gh/wmgeolab/geoBoundaries@main/releaseData/gbOpen/${iso3}/ADM1/geoBoundaries-${iso3}-ADM1_simplified.geojson`,
 ];
 
+/** How long one source may take to deliver a region file before the next is tried. */
+export const REGION_TIMEOUT_MS = 20000;
+
+/** How long the country-code table may take from one source. */
+export const CODES_TIMEOUT_MS = 15000;
+
 /**
  * Where geoBoundaries itself says the file is, if the direct addresses fail.
  *

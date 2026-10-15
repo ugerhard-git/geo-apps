@@ -16,7 +16,7 @@ import {
   safeImageUrl,
 } from "../../shared/commons.js";
 import { rankCountries } from "../../shared/country-picker.js";
-import { parseCsv } from "../../shared/net.js";
+import { fetchTextWithin, parseCsv } from "../../shared/net.js";
 import { bareName, cleanText, norm } from "../../shared/text.js";
 import { boxOfPolys, pointInPolys } from "../../shared/world.js";
 
@@ -256,4 +256,34 @@ test("image grid: credit size follows the scale, lines grow with it, room only f
   const tight = g(2, () => 9);
   assert.equal(tight.credPx, 9);
   assert.ok(tight.imageH > g(2).imageH);
+});
+
+test("fetchTextWithin: a request that never answers fails after the limit; others pass through", async () => {
+  const real = globalThis.fetch;
+  try {
+    // Never answers, but honours the abort signal like a real fetch.
+    globalThis.fetch = /** @type {any} */ (
+      (/** @type {string} */ _url, /** @type {{signal: AbortSignal}} */ { signal }) =>
+        new Promise((_, reject) =>
+          signal.addEventListener("abort", () => reject(new Error("aborted"))),
+        )
+    );
+    const t0 = Date.now();
+    await assert.rejects(fetchTextWithin("https://example.org/x", 50), /no answer within 0 s/);
+    assert.ok(Date.now() - t0 < 2000);
+    globalThis.fetch = /** @type {any} */ (async () => new Response("héllo", { status: 404 }));
+    assert.deepEqual(await fetchTextWithin("https://example.org/y", 1000), {
+      ok: false,
+      status: 404,
+      text: "héllo",
+    });
+    globalThis.fetch = /** @type {any} */ (
+      async () => {
+        throw new TypeError("Failed to fetch");
+      }
+    );
+    await assert.rejects(fetchTextWithin("https://example.org/z", 1000), /Failed to fetch/);
+  } finally {
+    globalThis.fetch = real;
+  }
 });
