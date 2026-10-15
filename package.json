@@ -1,6 +1,7 @@
 {
   "name": "geo-apps",
   "private": true,
+  "license": "MIT",
   "description": "Small browser tools that generate clue sheets for a geography game, published with GitHub Pages.",
   "type": "module",
   "engines": {

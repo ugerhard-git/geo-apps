@@ -232,3 +232,22 @@ Every push to `main` runs CI (`.github/workflows/ci.yml`) and deploys the site
 (`.github/workflows/pages.yml`), which runs `npm run build` and publishes `_site/`.
 
 One-time setup on GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+## Licence
+
+The code is released under the [MIT License](LICENSE).
+
+The data files and the vendored library keep their own licences, which also
+apply when you reuse them:
+
+| Files                             | Source             | Licence                     |
+| --------------------------------- | ------------------ | --------------------------- |
+| `apps/keyboards/data/`            | Unicode CLDR 43    | Unicode License v3          |
+| `apps/letters/data/`              | FineFreq (Xu 2025) | CC BY 4.0                   |
+| `apps/names/data/`                | Wikipedia          | CC BY-SA 4.0                |
+| `apps/landmarks/data/`            | Wikidata           | CC0                         |
+| `apps/owid-chart-plotter/vendor/` | Chart.js 4.4.6     | MIT (`chart.js-LICENSE.md`) |
+
+Data, photos and fonts the apps fetch while running (Wikimedia Commons, Our
+World in Data, REST Countries, Google Fonts and others) are not part of this
+repository; each app's Sources panel names them and their licences.
