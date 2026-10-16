@@ -38,7 +38,8 @@ async function open(page, url) {
 const visibleHidden = (page) =>
   page.$$eval("[hidden]", (els) =>
     els
-      .filter((el) => getComputedStyle(el).display !== "none")
+      // The page's own window: this runs in the browser, not in Node.
+      .filter((el) => el.ownerDocument.defaultView?.getComputedStyle(el).display !== "none")
       .map((el) => el.id || el.className || el.tagName),
   );
 
