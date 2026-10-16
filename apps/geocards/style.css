@@ -1,5 +1,11 @@
 /* A light, cool mineral palette. Each token is named for its job; every text
    colour keeps at least 4.5:1 contrast on the backgrounds it sits on. */
+/* Hidden means hidden: without this, a class that sets display (flex, grid)
+   would show an element the page has marked hidden. */
+[hidden] {
+  display: none !important;
+}
+
 :root {
   --bg: #dfe6e8; /* the main area behind the cards */
   --panel: #f3f6f6; /* the sidebar, dropdowns */

@@ -29,11 +29,25 @@ async function open(page, url) {
   return errors;
 }
 
+/**
+ * Elements marked hidden that are shown anyway: a style that sets `display`
+ * on an element overrides its `hidden` attribute.
+ *
+ * @param {import("@playwright/test").Page} page
+ */
+const visibleHidden = (page) =>
+  page.$$eval("[hidden]", (els) =>
+    els
+      .filter((el) => getComputedStyle(el).display !== "none")
+      .map((el) => el.id || el.className || el.tagName),
+  );
+
 test("the overview lists every app", async ({ page }) => {
   const errors = await open(page, "/");
   await expect(page.locator(".app")).toHaveCount(apps.length);
   await expect(page.locator(".key")).not.toHaveCount(0);
   expect(errors).toEqual([]);
+  expect(await visibleHidden(page)).toEqual([]);
 });
 
 for (const app of apps) {
@@ -41,5 +55,6 @@ for (const app of apps) {
     const errors = await open(page, `/apps/${app.slug}/`);
     await expect(page).toHaveTitle(app.title);
     expect(errors).toEqual([]);
+    expect(await visibleHidden(page)).toEqual([]);
   });
 }
