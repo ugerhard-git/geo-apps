@@ -1,3 +1,9 @@
+/* Hidden means hidden: without this, a class that sets display (flex, grid)
+   would show an element the page has marked hidden. */
+[hidden] {
+  display: none !important;
+}
+
 :root {
   --ground: #e6ebf0;
   --ground-2: #f4f7fa;

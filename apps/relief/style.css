@@ -1,3 +1,9 @@
+/* Hidden means hidden: without this, a class that sets display (flex, grid)
+   would show an element the page has marked hidden. */
+[hidden] {
+  display: none !important;
+}
+
 :root {
   --bg: #0f1115;
   --panel: #171a21;
@@ -237,10 +243,6 @@ input:disabled {
 .two > div {
   flex: 1;
   min-width: 0;
-}
-/* display: flex above would otherwise show a hidden pair of fields. */
-.two[hidden] {
-  display: none;
 }
 .colour {
   display: flex;

@@ -1,6 +1,12 @@
 /* Overview page. A light "sky and sea" palette: pale sky behind white cards,
    deep blue-grey text, sea teal for links and focus, and a sunflower yellow
    for highlights. Every text colour keeps at least 4.5:1 contrast. */
+/* Hidden means hidden: without this, a class that sets display (flex, grid)
+   would show an element the page has marked hidden. */
+[hidden] {
+  display: none !important;
+}
+
 :root {
   --sky: #e9f2f6; /* page background */
   --card: #ffffff;
