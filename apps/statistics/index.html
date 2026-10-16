@@ -157,7 +157,8 @@
       <main class="stage">
         <div class="empty" id="empty">
           <strong>Pick a country to see what there is.</strong>
-          Six statistics are offered; whichever a country has data for can go on the sheet, up to four at a time.
+          <span id="statCount">Many</span> statistics are offered; whichever a country has data for can go on the sheet,
+          up to <span id="maxCharts">six</span> at a time.
         </div>
         <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
         <div class="bar" id="bar"><i></i></div>
@@ -167,6 +168,17 @@
         <section class="card" id="picker" hidden>
           <header><h2>Statistics</h2></header>
           <div class="body"><div class="statlist" id="statList"></div></div>
+        </section>
+
+        <section class="card labels" id="labels" hidden>
+          <header><h2>Labels on the sheet</h2></header>
+          <div class="body">
+            <p class="cav">
+              Untick a name or a share to show it as "?" on the sheet. Names that would give the country away, such as
+              its own language or people, start hidden; check them and change what you like.
+            </p>
+            <div id="labelList"></div>
+          </div>
         </section>
 
         <section class="card sources" id="sources" hidden>

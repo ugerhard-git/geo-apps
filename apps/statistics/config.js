@@ -29,10 +29,32 @@ export const OWID = "https://ourworldindata.org/grapher";
  * first kind should be checked for adding up to 100, and only the second needs
  * its unit naming so "34%" is read as "34% of calories" rather than "34%".
  *
- * @type {Record<string, {slug: string, shares: boolean, unit?: string}>}
+ * `credit` names the data OWID adapted, for the Sources panel.
+ *
+ * @type {Record<string, {slug: string, shares: boolean, unit?: string, credit?: string}>}
  */
 export const OWID_CHARTS = {
-  electricity: { slug: "share-elec-by-source", shares: true },
+  electricity: {
+    slug: "share-elec-by-source",
+    shares: true,
+    credit: "adapted from Ember and the Energy Institute",
+  },
+  /*
+    Primary energy, with nuclear and renewables counted by the fossil fuel
+    they replace (OWID's "substitution method"), so they aren't undercounted
+    against coal, oil and gas.
+  */
+  energy: {
+    slug: "share-energy-source-sub",
+    shares: true,
+    credit: "adapted from the Energy Institute Statistical Review of World Energy",
+  },
+  co2: {
+    slug: "co2-by-source",
+    shares: false,
+    unit: "tonnes of CO₂",
+    credit: "adapted from the Global Carbon Budget",
+  },
   deaths: { slug: "share-of-deaths-by-cause", shares: true },
   employment: { slug: "employment-by-economic-sector", shares: true },
   diet: {
@@ -91,7 +113,9 @@ export const FOLDER_BY_INTERMEDIATE = {
 };
 
 /** Most charts on one sheet. */
-export const MAX_CHARTS = 4;
+export const MAX_CHARTS = 6;
+/** How many are ticked when a country is picked: more is allowed, but crowded. */
+export const START_CHARTS = 4;
 
 /** Religion data is Pew's estimate for this year; later columns are projections. */
 export const RELIGION_YEAR = "2020";
@@ -156,7 +180,7 @@ export const PALETTES = [
   },
 ];
 
-/** Thirteen statistics in a flat list is a wall; four headings make it a menu. */
+/** A flat list of statistics is a wall; four headings make it a menu. */
 export const GROUPS = [
   { id: "people", name: "People" },
   { id: "work", name: "Economy and work" },
@@ -284,6 +308,38 @@ export const STATS = [
     source: "OWID",
     blurb: "Share of emissions from each sector.",
   },
+  {
+    id: "exports",
+    group: "work",
+    title: "Exports by type of goods",
+    chart: "pie",
+    source: "World Bank",
+    blurb: "Fuels, ores and metals, food, farm raw materials or manufactured goods.",
+  },
+  {
+    id: "water",
+    group: "land",
+    title: "Water use by sector",
+    chart: "pie",
+    source: "World Bank",
+    blurb: "Fresh water drawn for farming, industry and households.",
+  },
+  {
+    id: "energy",
+    group: "land",
+    title: "Energy by source",
+    chart: "pie",
+    source: "OWID",
+    blurb: "All energy used, not just electricity: oil, gas, coal, nuclear, renewables.",
+  },
+  {
+    id: "co2",
+    group: "land",
+    title: "CO₂ emissions by fuel",
+    chart: "pie",
+    source: "OWID",
+    blurb: "Carbon dioxide from coal, oil, gas, cement and gas flaring.",
+  },
 ];
 
 /**
@@ -306,5 +362,18 @@ export const WB_INDICATORS = {
     ["SP.POP.0014.TO.ZS", "Under 15"],
     ["SP.POP.1564.TO.ZS", "15 to 64"],
     ["SP.POP.65UP.TO.ZS", "65 and over"],
+  ],
+  // Shares of merchandise exports; what UN trade data couldn't classify is "Other".
+  exports: [
+    ["TX.VAL.MANF.ZS.UN", "Manufactured goods"],
+    ["TX.VAL.FUEL.ZS.UN", "Fuels"],
+    ["TX.VAL.MMTL.ZS.UN", "Ores and metals"],
+    ["TX.VAL.FOOD.ZS.UN", "Food"],
+    ["TX.VAL.AGRI.ZS.UN", "Farm raw materials"],
+  ],
+  water: [
+    ["ER.H2O.FWAG.ZS", "Farming"],
+    ["ER.H2O.FWIN.ZS", "Industry"],
+    ["ER.H2O.FWDM.ZS", "Households"],
   ],
 };

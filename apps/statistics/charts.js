@@ -85,10 +85,30 @@ function drawSourceLine(ctx, text, x, y, w, px, opts) {
  * @param {boolean} [absolute]
  * @returns {string}
  */
-function formatShare(value, total, absolute) {
+export function formatShare(value, total, absolute) {
   const pct = absolute ? value : total > 0 ? (value / total) * 100 : 0;
   return `${pct.toFixed(pct < 10 ? 1 : 0)}%`;
 }
+
+/** A hidden name or share is drawn as this, so players see something is hidden. */
+const HIDDEN = "?";
+
+/**
+ * The name of a slice as drawn.
+ *
+ * @param {import("./series.js").Slice} s
+ */
+const nameOf = (s) => (s.hideName ? HIDDEN : s.label);
+
+/**
+ * The share of a slice as drawn.
+ *
+ * @param {import("./series.js").Slice} s
+ * @param {number} total
+ * @param {boolean} [absolute]
+ */
+const shareOf = (s, total, absolute) =>
+  s.hideValue ? HIDDEN : formatShare(s.value, total, absolute);
 
 /**
  * What one legend row needs at a given type size.
@@ -104,14 +124,11 @@ function legendMetrics(ctx, series, total, px, opts) {
   let maxLabel = 0;
   let maxPct = 0;
   ctx.font = `400 ${px}px "Inter", sans-serif`;
-  for (const s of series.slices) maxLabel = Math.max(maxLabel, ctx.measureText(s.label).width);
+  for (const s of series.slices) maxLabel = Math.max(maxLabel, ctx.measureText(nameOf(s)).width);
   if (opts.values) {
     ctx.font = `500 ${px}px "Inter", sans-serif`;
     for (const s of series.slices)
-      maxPct = Math.max(
-        maxPct,
-        ctx.measureText(formatShare(s.value, total, series.absolute)).width,
-      );
+      maxPct = Math.max(maxPct, ctx.measureText(shareOf(s, total, series.absolute)).width);
   }
   const rowW = chip + px * 0.5 + maxLabel + (maxPct ? px * 0.6 + maxPct : 0);
   return { rowW, rowH: px * 1.75, chip, maxLabel, maxPct };
@@ -221,7 +238,7 @@ function drawLegend(ctx, series, total, x, y, w, h, opts, plan) {
     ctx.fillStyle = opts.fg;
     let pctW = 0;
     if (opts.values) {
-      const pct = formatShare(s.value, total, series.absolute);
+      const pct = shareOf(s, total, series.absolute);
       ctx.font = `500 ${px}px "Inter", sans-serif`;
       pctW = m.maxPct + px * 0.6;
       ctx.textAlign = "right";
@@ -230,10 +247,14 @@ function drawLegend(ctx, series, total, x, y, w, h, opts, plan) {
     ctx.textAlign = "left";
     ctx.font = `400 ${px}px "Inter", sans-serif`;
     const room = Math.min(colW, m.rowW) - m.chip - px * 0.5 - pctW;
-    let label = s.label;
+    const full = nameOf(s);
+    let label = full;
     // Only ever a last resort: the layout is chosen so this rarely fires.
-    while (label.length > 4 && ctx.measureText(label).width > room) label = label.slice(0, -2);
-    if (label !== s.label) label = label.replace(/\s+\S*$/, "") + "…";
+    // Half a pixel of slack: the legend is sized to its widest label, and
+    // rounding alone shouldn't cut that label short.
+    while (label.length > 4 && ctx.measureText(label).width > room + 0.5)
+      label = label.slice(0, -2);
+    if (label !== full) label = label.replace(/\s+\S*$/, "") + "…";
     ctx.globalAlpha = 0.9;
     ctx.fillText(label, cx + m.chip + px * 0.5, ly);
     ctx.globalAlpha = 1;
@@ -294,7 +315,7 @@ function drawBars(ctx, series, x, y, w, h, opts) {
   const px = clamp(Math.round(lineH * 0.3), 9, 34);
   ctx.font = `400 ${px}px "Inter", sans-serif`;
   let labelW = 0;
-  for (const s of series.slices) labelW = Math.max(labelW, ctx.measureText(s.label).width);
+  for (const s of series.slices) labelW = Math.max(labelW, ctx.measureText(nameOf(s)).width);
   labelW = Math.min(labelW + px * 0.6, w * 0.4);
   const pctW = opts.values ? px * 2.8 : 0;
   const barMax = w - labelW - pctW;
@@ -307,7 +328,7 @@ function drawBars(ctx, series, x, y, w, h, opts) {
     ctx.textAlign = "right";
     ctx.textBaseline = "middle";
     ctx.font = `400 ${px}px "Inter", sans-serif`;
-    ctx.fillText(s.label, x + labelW - px * 0.5, ly);
+    ctx.fillText(nameOf(s), x + labelW - px * 0.5, ly);
     ctx.globalAlpha = 1;
     ctx.fillStyle = cols[i % cols.length];
     ctx.fillRect(x + labelW, ly - bh / 2, bw, bh);
@@ -315,7 +336,7 @@ function drawBars(ctx, series, x, y, w, h, opts) {
       ctx.fillStyle = opts.fg;
       ctx.textAlign = "left";
       ctx.font = `500 ${px}px "Inter", sans-serif`;
-      ctx.fillText(formatShare(s.value, total, series.absolute), x + labelW + bw + px * 0.4, ly);
+      ctx.fillText(shareOf(s, total, series.absolute), x + labelW + bw + px * 0.4, ly);
     }
   });
 }

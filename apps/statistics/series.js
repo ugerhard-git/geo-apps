@@ -15,7 +15,16 @@ import {
   worldBank,
 } from "./sources.js";
 
-/** @typedef {import("./sources.js").Slice & {isOther?: boolean}} Slice */
+/**
+ * @typedef {import("./sources.js").Slice & {
+ *   isOther?: boolean,
+ *   code?: string,
+ *   hideName?: boolean,
+ *   hideValue?: boolean,
+ * }} Slice
+ *   `code` is the language code, for language slices; `hideName` and
+ *   `hideValue` draw the label or the share as "?"
+ */
 
 /**
  * @typedef {object} Series
@@ -131,7 +140,7 @@ export async function buildSeries(id, country, territoryInfo) {
       const entry = own(pop, code);
       const pct = entry && parseFloat(entry._populationPercent);
       if (!Number.isFinite(pct) || pct <= 0) continue;
-      slices.push({ label: cleanText(own(names, code) || code, 40), value: pct });
+      slices.push({ label: cleanText(own(names, code) || code, 40), value: pct, code });
     }
     if (!slices.length) return null;
     const { slices: kept, folded } = condense(slices, 8);
@@ -217,10 +226,11 @@ export async function buildSeries(id, country, territoryInfo) {
       .pop() || "";
   /** @type {Slice[]} */
   const slices = results.map((r) => ({ label: r.label, value: r.value }));
-  // Two of these describe a part of a whole; the rest is real and must be shown.
-  if (id === "land") {
+  // These describe parts of a whole; the rest is real and must be shown.
+  const rest = { land: "Other land", exports: "Other goods" }[id];
+  if (rest) {
     const used = slices.reduce((s, x) => s + x.value, 0);
-    if (used < 99.5) slices.push({ label: "Other land", value: Math.max(0, 100 - used) });
+    if (used < 99.5) slices.push({ label: rest, value: Math.max(0, 100 - used) });
   }
   if (id === "urban") {
     const urban = slices[0] ? slices[0].value : 0;

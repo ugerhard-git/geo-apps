@@ -1,10 +1,12 @@
 /**
- * Country statistics — up to four pie and bar charts about one country
- * (languages, religion, economy, land, health…) on a quiz sheet.
+ * Country statistics — up to six pie and bar charts about one country
+ * (languages, religion, economy, land, energy, health…) on a quiz sheet.
  *
  * Flow: pick a country → every statistic is fetched from its source
- * (sources.js, series.js) → the first four available are selected → tick
- * others on and off → export. Drawing lives in charts.js and render.js.
+ * (sources.js, series.js) → the first four available are selected, and
+ * labels that would give the country away are hidden (giveaway.js) → tick
+ * charts on and off, show or hide labels → export. Drawing lives in
+ * charts.js and render.js.
  */
 
 import { CLDR_VERSION } from "../../shared/cldr.js";
@@ -13,7 +15,17 @@ import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../../shared/dom.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
-import { GROUPS, MAX_CHARTS, PALETTES, RELIGION_YEAR, STATS } from "./config.js";
+import { formatShare } from "./charts.js";
+import {
+  GROUPS,
+  MAX_CHARTS,
+  OWID_CHARTS,
+  PALETTES,
+  RELIGION_YEAR,
+  START_CHARTS,
+  STATS,
+} from "./config.js";
+import { guessHidden, officialCounts } from "./giveaway.js";
 import { drawSheet } from "./render.js";
 import { buildSeries } from "./series.js";
 import { loadReference } from "./sources.js";
@@ -41,6 +53,12 @@ let available = new Map();
 let selected = [];
 /** Incremented by every redraw. */
 let busy = 0;
+/** Per statistic, the labels drawn as "?" and the labels whose share is. */
+let hiddenNames = new Map();
+let hiddenValues = new Map();
+/** How many countries each language is official in, worked out once. */
+/** @type {Map<string, number> | null} */
+let officialIn = null;
 
 /** @returns {string[]} */
 function palette() {
@@ -64,7 +82,7 @@ function currentOptions() {
 }
 
 /** @returns {import("./render.js").SheetContent} */
-const sheetContent = () => ({ country: chosen, selected, available });
+const sheetContent = () => ({ country: chosen, selected, available, hiddenNames, hiddenValues });
 
 /* ═══════════════════════════════════════════════════════════
    Panels
@@ -171,12 +189,16 @@ function renderSources() {
       "https://data.worldbank.org/",
       "World Bank open data — most recent year with a value, per indicator",
     );
-  if (used.has("OWID"))
+  for (const id of selected) {
+    const chart = available.get(id) && OWID_CHARTS[/** @type {keyof typeof OWID_CHARTS} */ (id)];
+    if (!chart) continue;
+    const stat = STATS.find((s) => s.id === id);
     row(
-      "Electricity",
-      "https://ourworldindata.org/grapher/share-elec-by-source",
-      "Our World in Data, CC BY 4.0 — adapted from Ember and the Energy Institute",
+      stat ? stat.title : "Our World in Data",
+      `https://ourworldindata.org/grapher/${encodeURIComponent(chart.slug)}`,
+      "Our World in Data, CC BY 4.0" + (chart.credit ? " — " + chart.credit : ""),
     );
+  }
   if (used.has("Factbook")) {
     row(
       "Factbook archive",
@@ -199,6 +221,20 @@ function renderSources() {
     caveats.push(
       `Religion figures are Pew estimates for ${RELIGION_YEAR}; shares below 1% were rounded up to 1% in the published data, so a total can drift past 100%.`,
     );
+  if (selected.includes("exports"))
+    caveats.push(
+      "Exports by type are shares of goods exported; services such as tourism aren't counted. Other goods are those the trade data doesn't classify.",
+    );
+  if (selected.includes("energy"))
+    caveats.push(
+      "Energy counts all energy used, not just electricity. Nuclear and renewable power are counted as the fossil fuel they would replace, so they aren't understated.",
+    );
+  if (selected.includes("co2"))
+    caveats.push(
+      "CO₂ by fuel covers fossil fuels and industry; flaring is gas burnt off at oil wells. Land use and forests aren't included.",
+    );
+  if (selected.some((id) => hiddenNames.get(id)?.size || hiddenValues.get(id)?.size))
+    caveats.push("Labels shown as ? are hidden on purpose, so they don't give the answer away.");
   if (selected.some((id) => available.get(id)?.folded))
     caveats.push(
       "Where a chart had more categories than a pie can carry, the smallest were gathered into Other.",
@@ -221,13 +257,81 @@ function renderSources() {
 }
 
 /**
+ * The "Labels" card: every name and share on the sheet, each with a box to
+ * show or hide it. A hidden one is drawn as "?".
+ */
+function renderLabels() {
+  const opts = currentOptions();
+  const nodes = [];
+  for (const id of selected) {
+    const series = available.get(id);
+    const stat = STATS.find((s) => s.id === id);
+    if (!series || !stat) continue;
+    const names = hiddenNames.get(id) || new Set();
+    const values = hiddenValues.get(id) || new Set();
+    hiddenNames.set(id, names);
+    hiddenValues.set(id, values);
+    const h = document.createElement("h3");
+    h.textContent = stat.title; // text, never markup
+    nodes.push(h);
+    const total = series.slices.reduce((t, x) => t + x.value, 0);
+    series.slices.forEach((slice, i) => {
+      const row = document.createElement("div");
+      row.className = "labrow";
+      const chip = document.createElement("i");
+      chip.style.background = safeColour(opts.colours[i % opts.colours.length], "#888888");
+      const name = document.createElement("span");
+      name.className = "lab";
+      name.textContent = slice.label;
+      const share = document.createElement("span");
+      share.className = "val";
+      share.textContent = formatShare(slice.value, total, series.absolute);
+      row.append(
+        chip,
+        name,
+        share,
+        toggle("Name", names, slice.label),
+        toggle("%", values, slice.label),
+      );
+      nodes.push(row);
+    });
+  }
+  $("labelList").replaceChildren(...nodes);
+  $("labels").hidden = !nodes.length;
+}
+
+/**
+ * A tick box that shows a label (ticked) or hides it (unticked).
+ *
+ * @param {string} text
+ * @param {Set<string>} hidden the set it adds to and removes from
+ * @param {string} label
+ */
+function toggle(text, hidden, label) {
+  const wrap = document.createElement("label");
+  wrap.className = "tog";
+  const box = document.createElement("input");
+  box.type = "checkbox";
+  box.checked = !hidden.has(label);
+  box.addEventListener("change", () => {
+    if (box.checked) hidden.delete(label);
+    else hidden.add(label);
+    refresh();
+  });
+  const span = document.createElement("span");
+  span.textContent = text;
+  wrap.append(box, span);
+  return wrap;
+}
+
+/**
  * @param {string} id
  * @param {boolean} want
  */
 function toggleStat(id, want) {
   if (want) {
     if (selected.length >= MAX_CHARTS) {
-      note(`Four charts is as many as fit on one sheet.`);
+      note(`Up to ${MAX_CHARTS} charts fit on one sheet. Untick one to add another.`);
       renderStats();
       return;
     }
@@ -275,6 +379,9 @@ async function pickCountry(c) {
   picker.close();
   available = new Map();
   selected = [];
+  hiddenNames = new Map();
+  hiddenValues = new Map();
+  if (!officialIn) officialIn = officialCounts(territoryInfo);
   renderStats();
   note("");
   await refresh();
@@ -290,13 +397,17 @@ async function pickCountry(c) {
     }
     available.set(stat.id, series);
     if (!series) missing.push(stat.title);
+    else {
+      hiddenNames.set(stat.id, guessHidden(stat.id, series.slices, c, territoryInfo, officialIn));
+      hiddenValues.set(stat.id, new Set());
+    }
     renderStats();
   }
   progress(null);
   // Offer a sensible starting set rather than an empty sheet.
   selected = STATS.map((s) => s.id)
     .filter((id) => available.get(id))
-    .slice(0, MAX_CHARTS);
+    .slice(0, START_CHARTS);
   renderStats();
   note(missing.length ? `No data for: ${missing.join(", ")}. The rest are ready.` : "");
   refresh();
@@ -315,6 +426,7 @@ function refresh() {
     $("sheetWrap").hidden = true;
     $("empty").style.display = chosen ? "none" : "block";
     $("sources").hidden = true;
+    $("labels").hidden = true;
     return;
   }
   try {
@@ -323,6 +435,7 @@ function refresh() {
     $("sheetWrap").hidden = false;
     $("empty").style.display = "none";
     renderSources();
+    renderLabels();
   } catch (e) {
     note("Couldn't draw the sheet: " + cleanText(e && e.message, 80), true);
   }
@@ -424,6 +537,8 @@ $("palette").replaceChildren(
   }),
 );
 renderSwatches();
+$("statCount").textContent = String(STATS.length);
+$("maxCharts").textContent = String(MAX_CHARTS);
 $("capPosField").hidden = !cleanText($("capText").value, 120);
 syncExportState();
 progress("Loading reference data", true);
