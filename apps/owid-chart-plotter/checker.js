@@ -41,17 +41,17 @@ function ckRow(ok, name, slug, detail) {
  * Wire the checker's buttons.
  *
  * @param {object} els
- * @param {HTMLSelectElement} els.preset the dropdown whose options are checked
+ * @param {import("./presets.js").Preset[]} els.presets the charts to check
  * @param {HTMLButtonElement} els.run
  * @param {HTMLButtonElement} els.stop
  * @param {HTMLElement} els.progress
  * @param {HTMLElement} els.out
  */
-export function setupPresetChecker({ preset, run, stop, progress, out }) {
+export function setupPresetChecker({ presets, run, stop, progress, out }) {
   let abort = false;
 
   async function runCheck() {
-    const opts = [...preset.options].filter((o) => o.value);
+    const opts = presets;
     abort = false;
     run.disabled = true;
     stop.disabled = false;
@@ -65,9 +65,9 @@ export function setupPresetChecker({ preset, run, stop, progress, out }) {
     let done = 0;
     for (const o of opts) {
       if (abort) break;
-      progress.textContent = done + 1 + " / " + opts.length + " — " + o.value;
+      progress.textContent = done + 1 + " / " + opts.length + " — " + o.slug;
       try {
-        const ref = splitSlug(o.value);
+        const ref = splitSlug(o.slug);
         const text = await fetchCSV(ref.slug);
         const d = buildData(text, ref.slug, ref.colHint);
         const bits = [
@@ -78,12 +78,10 @@ export function setupPresetChecker({ preset, run, stop, progress, out }) {
         ];
         // More than one numeric column means the choice of column is a judgement call.
         if (d.otherNumeric.length) bits.push("also numeric: " + d.otherNumeric.join(", "));
-        out.appendChild(ckRow(true, o.textContent || "", o.value, bits.join(" · ")));
+        out.appendChild(ckRow(true, o.name, o.slug, bits.join(" · ")));
         pass++;
       } catch (err) {
-        out.appendChild(
-          ckRow(false, o.textContent || "", o.value, /** @type {Error} */ (err).message),
-        );
+        out.appendChild(ckRow(false, o.name, o.slug, /** @type {Error} */ (err).message));
         fail++;
       }
       done++;

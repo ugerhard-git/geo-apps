@@ -7,6 +7,8 @@
  *   owid.js        slugs and fetching from ourworldindata.org
  *   charts.js      Chart.js config per chart type
  *   export-png.js  the 2400 × 1600 PNG
+ *   presets.js     the ready-made charts, and searching them (pure)
+ *   preset-picker.js  the search box and the "Browse all" window
  *   checker.js     the "check every preset" tool
  *   main.js        this file: state, the form, rendering, wiring
  */
@@ -27,6 +29,8 @@ import {
 import { buildData, csvCell, fmt, safeName, series } from "./data.js";
 import { renderExport } from "./export-png.js";
 import { fetchCSV, splitSlug } from "./owid.js";
+import { setupPresetBrowser, setupPresetSearch } from "./preset-picker.js";
+import { PRESETS, presetFor } from "./presets.js";
 
 import { addBackLink } from "../../shared/back-link.js";
 
@@ -45,7 +49,7 @@ const button = (id) => /** @type {HTMLButtonElement} */ ($(id));
 
 const els = {
   form: $("form"),
-  preset: select("preset"),
+  presetSearch: input("presetSearch"),
   slug: input("slug"),
   load: button("load"),
   rows: $("rows"),
@@ -236,8 +240,8 @@ async function load(raw) {
     return;
   }
   els.slug.value = display;
-  // Keep the dropdown in sync when the reference matches a listed dataset.
-  if ([...els.preset.options].some((o) => o.value === display)) els.preset.value = display;
+  // Name the ready-made chart in the search box when it is one, else clear it.
+  els.presetSearch.value = presetFor(display)?.name || "";
   setStatus("load", "Fetching “" + base + "” from Our World in Data…");
   try {
     const text = await fetchCSV(slug);
@@ -524,15 +528,28 @@ function exportCsv() {
 els.form.addEventListener("submit", (e) => {
   e.preventDefault();
   // Enter in the country search picks a country (see the picker); it must not reload the dataset.
-  if (document.activeElement === els.search) return;
+  if (document.activeElement === els.search || document.activeElement === els.presetSearch) return;
   load(els.slug.value);
 });
 els.load.addEventListener("click", () => load(els.slug.value));
-els.preset.addEventListener("change", () => {
-  els.slug.value = els.preset.value;
+/** @param {import("./presets.js").Preset} preset */
+function pickPreset(preset) {
+  els.slug.value = preset.slug;
   els.title.value = "";
-  load(els.preset.value);
-});
+  load(preset.slug);
+}
+setupPresetSearch({ input: els.presetSearch, list: $("presetList") }, pickPreset);
+setupPresetBrowser(
+  {
+    open: button("browse"),
+    dialog: /** @type {HTMLDialogElement} */ ($("browser")),
+    filter: input("browseFilter"),
+    body: $("browseBody"),
+    close: button("browseClose"),
+  },
+  pickPreset,
+);
+$("presetCount").textContent = `All ${PRESETS.length}`;
 els.valcol.addEventListener("change", () => {
   if (lastCsv) ingest(lastCsv.text, lastCsv.source, els.valcol.value);
 });
@@ -607,7 +624,7 @@ if (!chartJsLoaded) {
 }
 
 setupPresetChecker({
-  preset: els.preset,
+  presets: PRESETS,
   run: button("checkrun"),
   stop: button("checkstop"),
   progress: $("checkprog"),
