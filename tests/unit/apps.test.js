@@ -23,6 +23,21 @@ import { creditText } from "../../apps/landmarks/render.js";
 import { Region, clipLines, clipPath } from "../../apps/rivers/clip.js";
 import { parseLakes, parseRivers } from "../../apps/rivers/data.js";
 import { rankWidth } from "../../apps/rivers/render.js";
+import {
+  FLAT_SHADE,
+  autoExaggeration,
+  blurMask,
+  chooseZoom,
+  colourise,
+  decodeTerrarium,
+  heightColour,
+  hillshade,
+  lowestEdgeHeight,
+  rowMetres,
+  sampleHeights,
+  tileKeys,
+  tileRange,
+} from "../../apps/relief/terrain.js";
 import { applyAffix, detectAffix, stripAffix } from "../../apps/subdivisions/names.js";
 import { parseData } from "../../apps/keyboards/data.js";
 import {
@@ -1333,4 +1348,92 @@ test("every app has its own text for when no country is picked yet", async () =>
     seen.set(text, slug);
   }
   assert.ok(seen.size >= 15, "the start texts were found");
+});
+
+test("relief: tiles are found, wrapped round the world and capped in number", () => {
+  // The whole world at zoom 1 is four tiles.
+  const world = { x0: -Math.PI, x1: Math.PI, y0: -Math.PI, y1: Math.PI };
+  assert.equal(tileRange(world, 1).count, 4);
+  assert.deepEqual(tileKeys(world, 1).sort(), ["1/0/0", "1/0/1", "1/1/0", "1/1/1"]);
+  // A box moved east past the antimeridian wraps to the first columns.
+  const east = { x0: Math.PI + 0.01, x1: Math.PI + 0.02, y0: 0.1, y1: 0.11 };
+  assert.ok(tileKeys(east, 6).every((k) => k.startsWith("6/0/")));
+  // Sharp enough for the sheet, unless that needs too many tiles.
+  const box = { x0: 0.1, x1: 0.26, y0: 1.0, y1: 1.2 };
+  const z = chooseZoom(7000, box, 14, 1000);
+  assert.ok((256 * 2 ** z) / (2 * Math.PI) >= 7000);
+  assert.ok(tileRange(box, chooseZoom(7000, box, 14, 20)).count <= 20);
+});
+
+test("relief: Terrarium pixels are read as metres", () => {
+  // 32768 + 1234.5 m → red 132, green 210, blue 128.
+  const rgba = new Uint8ClampedArray([132, 210, 128, 255, 128, 0, 0, 255]);
+  assert.deepEqual([...decodeTerrarium(rgba)], [1234.5, 0]);
+});
+
+test("relief: heights are sampled across tiles; a missing tile is sea level", () => {
+  const tile = new Float32Array(256 * 256).fill(500);
+  const grid = { w: 4, h: 2, z: 1, X0: 250, Y0: 10, step: 4 };
+  const at = (/** @type {string} */ key) => (key === "1/0/0" ? tile : null);
+  const e = sampleHeights(grid, at);
+  assert.equal(e[0], 500); // well inside the first tile
+  assert.equal(e[3], 0); // in the next, missing tile
+  // A pixel at the equator, zoom 0, step 1: the whole circumference / 256.
+  const m = rowMetres({ w: 1, h: 1, z: 0, X0: 128, Y0: 128, step: 1 });
+  assert.ok(Math.abs(m[0] - 40075016.686 / 256) < 1);
+});
+
+test("relief: flat ground gets the flat tone; slopes facing the light are brighter", () => {
+  const w = 5;
+  const h = 5;
+  const metres = new Float64Array(h).fill(30);
+  const flat = hillshade(new Float32Array(w * h).fill(100), w, h, metres, 1);
+  assert.ok(Math.abs(flat[12] - FLAT_SHADE) < 1e-6);
+  // Rising to the east faces west, towards the north-west light...
+  const east = new Float32Array(w * h).map((_, k) => (k % w) * 10);
+  // ...rising to the west faces away from it.
+  const west = new Float32Array(w * h).map((_, k) => (w - (k % w)) * 10);
+  const a = hillshade(east, w, h, metres, 1)[12];
+  const b = hillshade(west, w, h, metres, 1)[12];
+  assert.ok(a > FLAT_SHADE && b < FLAT_SHADE, `${a} ${b}`);
+  // Exaggeration has limits, and steeper countries get less.
+  assert.ok(autoExaggeration(0.01) > autoExaggeration(0.2));
+  assert.equal(autoExaggeration(0), 60);
+  assert.equal(autoExaggeration(10), 1);
+});
+
+test("relief: the mask's edge is softened, and the lowest edge found", () => {
+  const w = 20;
+  const h = 20;
+  const mask = new Uint8Array(w * h);
+  for (let j = 3; j < 17; j++) for (let i = 3; i < 17; i++) mask[j * w + i] = 255;
+  const soft = blurMask(mask, w, h, 3);
+  assert.equal(soft[10 * w + 10], 255); // the middle stays solid
+  assert.ok(soft[10 * w + 3] > 0 && soft[10 * w + 3] < 255); // the edge fades
+  assert.ok(soft[10 * w + 1] > 0); // and spreads out a little
+  const e = new Float32Array(w * h).map((_, k) => 100 + (k % w) * 10);
+  // The edge runs along columns 3 and 16: lowest at column 3, 130 m.
+  assert.equal(lowestEdgeHeight(e, mask, w, h), 130);
+});
+
+test("relief: colours — flat ground is the ground colour; outside the mask the background", () => {
+  const out = new Uint8ClampedArray(8);
+  const p = {
+    land: /** @type {[number, number, number]} */ ([100, 100, 100]),
+    shadow: /** @type {[number, number, number]} */ ([0, 0, 0]),
+    light: /** @type {[number, number, number]} */ ([255, 255, 255]),
+    bg: /** @type {[number, number, number]} */ ([10, 20, 30]),
+    byHeight: false,
+    contrast: 1,
+  };
+  colourise(
+    out,
+    new Float32Array([FLAT_SHADE, 0]),
+    new Float32Array(2),
+    new Uint8Array([255, 0]),
+    p,
+  );
+  assert.deepEqual([...out], [100, 100, 100, 255, 10, 20, 30, 255]);
+  assert.deepEqual(heightColour(-50), heightColour(0));
+  assert.notDeepEqual(heightColour(0), heightColour(3000));
 });
