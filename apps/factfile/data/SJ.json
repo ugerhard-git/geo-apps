@@ -1,0 +1,17 @@
+{
+ "code": "SJ",
+ "names": {"country":["Svalbard"],"people":[],"places":["Arctic Ocean","Longyearbyen","Newtontoppen"],"neighbours":[]},
+ "fields": {
+  "climate": "arctic, tempered by warm North Atlantic Current; cool summers, cold winters; North Atlantic Current flows along west and north coasts of Spitsbergen, keeping water open and navigable most of the year",
+  "terrain": "rugged mountains; much of the upland areas are ice covered; west coast clear of ice about half the year; fjords along west and north coasts",
+  "hazards": "ice floes often block the entrance to Bellsund (a transit point for coal export) on the west coast and occasionally make parts of the northeastern coast inaccessible to maritime traffic",
+  "heights": {"high":1717,"low":0,"mean":null},
+  "coast": 3587,
+  "borders": {"total":0,"lengths":[]},
+  "area": 62045,
+  "resources": "coal, iron ore, copper, zinc, phosphate, wildlife, fish",
+  "languages": "Norwegian, Russian",
+  "system": {"text":"non-self-governing territory of Norway","unsettled":false},
+  "legal": "laws of Norway that explicitly apply to Svalbard, including the Svalbard Act, the Svalbard Environmental Protection Act, and certain regulations…"
+ }
+}

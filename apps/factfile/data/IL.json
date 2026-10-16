@@ -1,0 +1,32 @@
+{
+ "code": "IL",
+ "names": {"country":["Medinat Yisra'el","State of Israel","Yisra'el","Israel"],"people":["Israelis","Israeli"],"places":["Independence Day","Mitspe Shlagim","Tel Aviv-Yafo","Jerusalem","Dead Sea","Northern","Southern","Tel Aviv","Central","Haifa"],"neighbours":["Gaza Strip","West Bank","Lebanon","Lebanese","Jordan","Jordanian","Egypt","Egyptian","Syria","Syrian"]},
+ "fields": {
+  "climate": "temperate; hot and dry in southern and eastern desert areas",
+  "terrain": "Negev desert in the south; low coastal plain; central mountains; Jordan Rift Valley",
+  "hazards": "sandstorms may occur during spring and summer; droughts; periodic earthquakes",
+  "heights": {"high":2224,"low":-431,"mean":508},
+  "coast": 273,
+  "borders": {"total":1068,"lengths":[330,327,208,83,81,59]},
+  "area": 21937,
+  "lake": {"sqkm":1020,"kind":"salt water"},
+  "resources": "timber, potash, copper ore, natural gas, phosphate rock, magnesium bromide, clays, sand",
+  "farm": "milk, chicken, potatoes, tomatoes, tangerines/mandarins, bananas, eggs, avocados, beef, carrots/turnips",
+  "exports": "integrated circuits, diamonds, broadcasting equipment, medical instruments, refined petroleum",
+  "industries": "high-technology products (including aviation, communications, computer-aided design and manufactures, medical electronics, fiber optics), wood and paper products, potash and phosphates, food…",
+  "city": {"millions":4.421,"capital":false},
+  "languages": "Hebrew (official), Arabic (special status under Israeli law), English (most commonly used foreign language)",
+  "religions": "Jewish 73.5%, Muslim 18.1%, Christian 1.9%, Druze 1.6%, other 4.9%",
+  "age": {"median":30.2,"life":83.1},
+  "system": {"text":"parliamentary democracy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":120,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"14 May 1948","event":"following League of Nations mandate under British administration","from":""},
+  "regions": "6 districts",
+  "legal": "mixed system of English common law, British Mandate regulations, and Jewish, Christian, and Muslim religious laws",
+  "suffrage": "18 years of age; universal; 17 years of age for municipal elections",
+  "holiday": {"name":"Independence Day","date":"14 May"},
+  "military": "18-28 years of age for voluntary military service; 18 months service for men, 12 months for women; 18-21 years of age for compulsory military service for men and women…",
+  "memberships": ["OECD"],
+  "colours": "blue, white"
+ }
+}

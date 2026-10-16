@@ -1,0 +1,31 @@
+{
+ "code": "AG",
+ "names": {"country":["Antigua and Barbuda"],"people":["Antiguans","Barbudans","Antiguan","Barbudan"],"places":["Independence Day","Caribbean Sea","Saint George","Saint John's","Saint Philip","Mount Obama","Saint Peter","Saint John","Saint Mary","Saint Paul","Barbuda","Redonda"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical maritime; little seasonal temperature variation",
+  "terrain": "mostly low-lying limestone and coral islands, with some higher volcanic areas",
+  "hazards": "hurricanes and tropical storms (July to October); periodic droughts",
+  "heights": {"high":402,"low":0,"mean":null},
+  "coast": 153,
+  "borders": {"total":0,"lengths":[]},
+  "area": 443,
+  "resources": "NEGL; pleasant climate fosters tourism",
+  "farm": "tropical fruits, milk, mangoes/guavas, eggs, lemons/limes, pumpkins/squash, sweet potatoes, vegetables, cucumbers/gherkins, yams",
+  "exports": "refined petroleum, ships, soybean meal, shellfish, paintings",
+  "industries": "tourism, construction, light manufacturing (clothing, alcohol, household appliances)",
+  "city": {"millions":0.021,"capital":true},
+  "languages": "English (official), Antiguan Creole (an English-based creole)",
+  "religions": "Protestant 68.3% (Anglican 17.6%, Seventh Day Adventist 12.4%, Pentecostal 12.2%, Moravian 8.3%, Methodist 5.6%, Wesleyan Holiness 4.5%, Church of God 4.1%, Baptist 3.6%), Roman Catholic 8.2%, other…",
+  "age": {"median":34.1,"life":78.3},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":18,"how":"all directly elected","term":"5 years"},{"seats":17,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"1 November 1981","event":"","from":"UK"},
+  "regions": "6 parishes and 2 dependencies",
+  "legal": "common law based on the English model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"1 November"},
+  "military": "18-23 years of age for voluntary military service for both men and women; no conscription",
+  "memberships": ["CARICOM","Commonwealth"],
+  "colours": "red, white, blue, black, yellow"
+ }
+}

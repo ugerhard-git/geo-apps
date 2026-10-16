@@ -1,0 +1,30 @@
+{
+ "code": "TV",
+ "names": {"country":["Tuvalu"],"people":["Tuvaluans","Tuvaluan"],"places":["Independence Day","unnamed location","Pacific Ocean","Nukulaelae","Nukufetau","Funafuti","Nanumaga","Nanumea","Vaitupu","Niutao","Nui"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; moderated by easterly trade winds (March to November); westerly gales and heavy rain (November to March)",
+  "terrain": "low-lying and narrow coral atolls",
+  "hazards": "severe tropical storms are usually rare, but in 1997 there were three cyclones; low levels of islands make them sensitive to changes in sea level",
+  "heights": {"high":5,"low":0,"mean":2},
+  "coast": 24,
+  "borders": {"total":0,"lengths":[]},
+  "area": 26,
+  "resources": "fish, coconut (copra)",
+  "farm": "coconuts, vegetables, tropical fruits, bananas, root vegetables, pork, chicken, eggs, pork fat, pork offal",
+  "exports": "fish",
+  "industries": "fishing",
+  "city": {"millions":0.007,"capital":true},
+  "languages": "Tuvaluan (official), English (official), Samoan, Kiribati (on the island of Nui)",
+  "religions": "Protestant 92.7% (Congregational Christian Church of Tuvalu 85.9%, Brethren 2.8%, Seventh Day Adventist 2.5%, Assemblies of God 1.5%), Baha'i 1.5%, Jehovah's Witness 1.5%, other 3.9%, none or refused…",
+  "age": {"median":28.1,"life":69},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":16,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1 October 1978","event":"","from":"UK"},
+  "regions": "7 island councils and 1 town council",
+  "legal": "mixed system of English common law and local customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"1 October"},
+  "memberships": ["Pacific Islands Forum","Commonwealth"],
+  "colours": "light blue, yellow"
+ }
+}

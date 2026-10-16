@@ -1,0 +1,26 @@
+{
+ "code": "PM",
+ "names": {"country":["Territorial Collectivity of Saint Pierre and Miquelon","Département de Saint-Pierre et Miquelon","Saint Pierre and Miquelon","Saint-Pierre et Miquelon"],"people":["Frenchwoman","Frenchman","French"],"places":["Morne de la Grande Montagne","Fête de la Fédération","Atlantic Ocean","Saint Pierre","Saint-Pierre","Miquelon"],"neighbours":[]},
+ "fields": {
+  "climate": "cold and wet, with considerable mist and fog; spring and autumn are often windy",
+  "terrain": "mostly barren rock",
+  "hazards": "persistent fog throughout the year can be a maritime hazard",
+  "heights": {"high":240,"low":0,"mean":null},
+  "coast": 120,
+  "borders": {"total":0,"lengths":[]},
+  "area": 242,
+  "resources": "fish, deepwater ports",
+  "farm": "vegetables; poultry, cattle, sheep, pigs; fish",
+  "exports": "processed crustaceans, shellfish",
+  "industries": "fish processing and supply base for fishing fleets; tourism",
+  "city": {"millions":0.006,"capital":true},
+  "languages": "French (official)",
+  "religions": "Roman Catholic 99%, other 1%",
+  "age": {"median":51.8,"life":81.8},
+  "system": {"text":"parliamentary democracy (Territorial Council); overseas collectivity of France","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":19,"how":"directly elected","term":"6 years"}]},
+  "legal": "French civil law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Fête de la Fédération","date":"14 July"}
+ }
+}

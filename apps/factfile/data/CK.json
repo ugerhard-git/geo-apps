@@ -1,0 +1,28 @@
+{
+ "code": "CK",
+ "names": {"country":["Cook Islands"],"people":["Cook Islanders","Cook Islander"],"places":["Constitution Day","Pacific Ocean","Te Manga","Avarua"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical oceanic; moderated by trade winds; a dry season from April to November and a more humid season from December to March",
+  "terrain": "low coral atolls in north; volcanic, hilly islands in south",
+  "hazards": "tropical cyclones (November to March)",
+  "heights": {"high":652,"low":0,"mean":null},
+  "coast": 120,
+  "borders": {"total":0,"lengths":[]},
+  "area": 236,
+  "resources": "coconuts (copra)",
+  "farm": "coconuts, vegetables, papayas, pork, sweet potatoes, tomatoes, fruits, mangoes/guavas, watermelons, chicken",
+  "exports": "fish, ships, garments, shellfish",
+  "industries": "fishing, fruit processing, tourism, clothing, handicrafts",
+  "languages": "English (official) 86.4%, Cook Islands Maori (Rarotongan) (official) 76.2%, other 8.3%",
+  "religions": "Protestant 55% (Cook Islands Christian Church 43.1%, Seventh Day Adventist 8.3%, Assemblies of God 3.6%), Roman Catholic 16.7%, Church of Jesus Christ 3.9%, Jehovah's Witness 2.2%, Apostolic Church…",
+  "age": {"median":41.5,"life":77.6},
+  "system": {"text":"parliamentary democracy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":24,"how":"directly elected","term":"4 years"}]},
+  "independence": {"date":"4 August 1965","event":"Cook Islands became self-governing state in free association with New…","from":""},
+  "legal": "common law similar to New Zealand common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"the first Monday in August"},
+  "memberships": ["Pacific Islands Forum"],
+  "colours": "green, white"
+ }
+}

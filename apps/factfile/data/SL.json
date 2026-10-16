@@ -1,0 +1,31 @@
+{
+ "code": "SL",
+ "names": {"country":["Republic of Sierra Leone","Sierra Leone"],"people":["Sierra Leoneans","Sierra Leonean"],"places":["Loma Mansa (Bintimani)","Independence Day","Atlantic Ocean","North Western","Freetown","Northern","Southern","Eastern","Western"],"neighbours":["Liberia","Liberian","Guinea","Guinean"]},
+ "fields": {
+  "climate": "tropical; hot, humid; summer rainy season (May to December); winter dry season (December to April)",
+  "terrain": "coastal belt of mangrove swamps, wooded hill country, upland plateau, mountains in east",
+  "hazards": "dry, sand-laden harmattan winds blow from the Sahara (December to February); sandstorms, dust storms",
+  "heights": {"high":1948,"low":0,"mean":279},
+  "coast": 402,
+  "borders": {"total":1093,"lengths":[794,299]},
+  "area": 71740,
+  "resources": "diamonds, titanium ore, bauxite, iron ore, gold, chromite",
+  "farm": "cassava, rice, oil palm fruit, vegetables, sweet potatoes, milk, citrus fruits, fruits, groundnuts, sugarcane",
+  "exports": "iron ore, titanium ore, diamonds, aluminum ore, cocoa beans",
+  "industries": "diamond mining; iron ore, rutile and bauxite mining; small-scale manufacturing (beverages, textiles, footwear)",
+  "city": {"millions":1.309,"capital":true},
+  "languages": "English (official, regular use limited to literate minority), Mende (principal vernacular in the south), Temne (principal vernacular in the north), Krio (English-based Creole, spoken by the…",
+  "religions": "Muslim 77.1%, Christian 22.9%",
+  "age": {"median":19.7,"life":59.4},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":149,"how":"","term":"5 years"}]},
+  "independence": {"date":"27 April 1961","event":"","from":"UK"},
+  "regions": "4 provinces and 1 area",
+  "legal": "mixed system of English common law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"27 April"},
+  "military": "18-25 for voluntary military service for men and women; no conscription",
+  "memberships": ["Islamic Cooperation","African Union","ECOWAS","Commonwealth"],
+  "colours": "green, white, blue"
+ }
+}

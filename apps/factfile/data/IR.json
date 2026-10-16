@@ -1,0 +1,33 @@
+{
+ "code": "IR",
+ "names": {"country":["Jomhuri-ye Eslami-ye Iran","Islamic Republic of Iran","Iran"],"people":["Iranians","Iranian"],"places":["Kohgiluyeh va Bowyer Ahmad","Chahar Mahal va Bakhtiari","Sistan va Baluchestan","Azarbayjan-e Gharbi","Azarbayjan-e Sharqi","Khorasan-e Shomali","Khorasan-e Jonubi","Khorasan-e Razavi","Kuh-e Damavand","Republic Day","Caspian Sea","Kermanshah","Lake Namak","Lake Urmia","Mazandaran","Euphrates","Hormozgan","Khuzestan","Kordestan","Golestan","Lorestan","Ardabil","Bushehr","Esfahan","Hamadan","Helmand","Markazi","Mashhad","Alborz","Kerman","Qazvin","Semnan","Shiraz","Tabriz","Tehran","Tigris","Zanjan","Gilan","Karaj","Fars","Ilam","Yazd","Qom"],"neighbours":["Turkmenistan","Turkmenistani","Afghanistan","Afghan","Azerbaijan","Azerbaijani","Pakistan","Pakistani","Armenia","Armenian","Turkey","Turkish","Iraq","Iraqi"]},
+ "fields": {
+  "climate": "mostly arid or semiarid, subtropical along Caspian coast",
+  "terrain": "rugged, mountainous rim; high, central basin with deserts, mountains; small, discontinuous plains along both coasts",
+  "hazards": "periodic droughts, floods; dust storms, sandstorms; earthquakes",
+  "heights": {"high":5625,"low":-28,"mean":1305},
+  "coast": 2440,
+  "borders": {"total":5894,"lengths":[1599,1148,959,921,689,534,44]},
+  "area": 1648195,
+  "lake": {"sqkm":374000,"kind":"salt water"},
+  "river": {"km":3596,"shared":3},
+  "resources": "petroleum, natural gas, coal, chromium, copper, iron ore, lead, manganese, zinc, sulfur",
+  "farm": "wheat, sugarcane, milk, sugar beets, rice, tomatoes, barley, potatoes, oranges, apples",
+  "exports": "plastics, iron ore, alcohols, natural gas, refined copper",
+  "industries": "petroleum, petrochemicals, gas, fertilizer, caustic soda, textiles, cement and other construction materials, food processing (particularly sugar refining and vegetable oil production), ferrous and…",
+  "city": {"millions":9.5,"capital":true},
+  "languages": "Persian Farsi (official), Azeri and other Turkic dialects, Kurdish, Gilaki and Mazandarani, Luri, Balochi, Arabic",
+  "religions": "Muslim (official) 98.5%, Christian 0.7%, Baha'i 0.3%, agnostic 0.3%, other (includes Zoroastrian, Jewish, Hindu) 0.2%",
+  "age": {"median":35.2,"life":75.6},
+  "system": {"text":"theocratic republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":290,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1 April 1979","event":"Islamic Republic of Iran proclaimed","from":""},
+  "regions": "31 provinces",
+  "legal": "religious system based on secular and Islamic law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Republic Day","date":"1 April"},
+  "military": "16 for voluntary military service for men; military service is compulsory for all Iranian men at age 18 or 19 years of age…",
+  "memberships": ["BRICS","OPEC","Islamic Cooperation"],
+  "colours": "green, white, red"
+ }
+}

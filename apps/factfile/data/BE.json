@@ -1,0 +1,31 @@
+{
+ "code": "BE",
+ "names": {"country":["Koenigreich Belgien","Royaume de Belgique","Kingdom of Belgium","Koninkrijk Belgie","Belgique","Belgien","Belgium","Belgie"],"people":["Belgians","Belgian"],"places":["Belgian National Day (ascension to the throne of King LEOPOLD I)","R é gion de Bruxelles-Capitale","Brussels-Capital Region","Bruxelles-Capitale","Région Flamande","Flemish Region","Walloon Region","Waals Gewest","Vlaanderen","North Sea","Botrange","Brussels","Wallonie","Antwerp","Flandre"],"neighbours":["Netherlands","Dutch","Luxembourg","Germany","German","France","French"]},
+ "fields": {
+  "climate": "temperate; mild winters, cool summers; rainy, humid, cloudy",
+  "terrain": "flat coastal plains in northwest, central rolling hills, rugged mountains of Ardennes Forest in southeast",
+  "hazards": "flooding is a threat along rivers and in areas of reclaimed coastal land, protected from the sea by concrete dikes",
+  "heights": {"high":694,"low":0,"mean":181},
+  "coast": 66.5,
+  "borders": {"total":1297,"lengths":[556,478,133,130]},
+  "area": 30528,
+  "resources": "construction materials, silica sand, carbonates, arable land",
+  "farm": "sugar beets, milk, potatoes, wheat, pork, lettuce, maize, chicken, barley, pears",
+  "exports": "refined petroleum, natural gas, vaccines, cars, packaged medicine",
+  "industries": "engineering and metal products, motor vehicle assembly, transportation equipment, scientific instruments, processed food and beverages, chemicals, pharmaceuticals, base metals, textiles, glass…",
+  "city": {"millions":2.122,"capital":true},
+  "languages": "Dutch (official) 60%, French (official) 40%, German (official) less than 1%",
+  "religions": "Roman Catholic 57.1%, Protestant 2.3%, other Christian, 2.8%, Muslim 6.8%, other 1.7%, atheist 9.1%, nonbeliever/agnostic 20.2%",
+  "age": {"median":42.4,"life":82.3},
+  "system": {"text":"federal parliamentary democracy under a constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":150,"how":"all directly elected","term":"5 years"},{"seats":60,"how":"all indirectly elected","term":"5 years"}]},
+  "independence": {"date":"4 October 1830","event":"a provisional government","from":"Netherlands"},
+  "regions": "3 regions",
+  "legal": "civil law system based on the French Civil Code; judicial review of legislative acts",
+  "suffrage": "18 years of age; universal and compulsory",
+  "holiday": {"name":"Belgian National Day (ascension to the throne of King LEOPOLD I)","date":"21 July"},
+  "military": "18 years of age for voluntary military service for men and women; maximum age varies by position; conscription abolished in 1995",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","Francophonie","Benelux"],
+  "colours": "red, black, yellow"
+ }
+}

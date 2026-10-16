@@ -1,0 +1,32 @@
+{
+ "code": "AM",
+ "names": {"country":["Hayastani Hanrapetut'yun","Republic of Armenia","Hayastan","Armenia"],"people":["Armenians","Armenian"],"places":["Aragats Lerrnagagat'","Independence Day","Geghark'unik'","Vayots' Dzor","Debed River","Aragatsotn","Lake Sevan","Armavir","Kotayk'","Syunik'","Yerevan","Ararat","Shirak","Tavush","Lorri"],"neighbours":["Azerbaijan","Azerbaijani","Georgia","Georgian","Turkey","Turkish","Iran","Iranian"]},
+ "fields": {
+  "climate": "highland continental, hot summers, cold winters",
+  "terrain": "Armenian Highland with mountains; little forest land; fast flowing rivers; good soil in Aras River valley",
+  "hazards": "occasionally severe earthquakes; droughts",
+  "heights": {"high":4090,"low":400,"mean":1792},
+  "coast": 0,
+  "borders": {"total":1570,"lengths":[996,311,219,44]},
+  "area": 29743,
+  "lake": {"sqkm":1360,"kind":"fresh water"},
+  "resources": "small deposits of gold, copper, molybdenum, zinc, bauxite",
+  "farm": "milk, potatoes, grapes, vegetables, wheat, tomatoes, watermelons, apricots, apples, barley",
+  "exports": "gold, diamonds, copper ore, broadcasting equipment, jewelry",
+  "industries": "brandy, mining, diamond processing, metal-cutting machine tools, forging and pressing machines, electric motors, knitted wear, hosiery, shoes, silk fabric, chemicals, trucks, instruments…",
+  "city": {"millions":1.095,"capital":true},
+  "languages": "Armenian 97.2%, Russian 1.4%, Ezidian 1.0%; less than 1%: other, unknown",
+  "religions": "Armenian Apostolic 95.2%, not stated 1.7%; less than 1%: Catholic, no religion, Evangelical, Shar-fadinian, other, Armenian Orthodox, Jehovah's Witness, Pagan, Molokan",
+  "age": {"median":39.5,"life":76.7},
+  "system": {"text":"parliamentary democracy; note - constitutional changes adopted in December 2015 transformed the government to a parliamentary system","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":107,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"21 September 1991","event":"","from":"Soviet Union"},
+  "regions": "11 provinces",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"21 September"},
+  "military": "18-27 for voluntary (men and women), contract (men and women) or compulsory (men) military service; contract military service is 3-12 months or up to 5 years; conscripts serve 24 months…",
+  "memberships": ["CIS","Eurasian Economic Union","CSTO","Francophonie"],
+  "colours": "red, blue, orange"
+ }
+}

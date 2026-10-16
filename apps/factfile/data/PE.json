@@ -1,0 +1,33 @@
+{
+ "code": "PE",
+ "names": {"country":["República del Perú","Republic of Peru","Peru","Perú"],"people":["Peruvians","Peruvian"],"places":["Amazon river source","Independence Day","Nevado Huascaran","Lago Titicaca","Madre de Dios","Pacific Ocean","Huancavelica","La Libertad","Lambayeque","San Martin","Cajamarca","Amazonas","Apurimac","Arequipa","Ayacucho","Moquegua","Trujillo","Huánuco","Ucayali","Ancash","Callao","Loreto","Tumbes","Cusco","Junín","Pasco","Piura","Tacna","Lima","Puno","Ica"],"neighbours":["Colombia","Colombian","Bolivia","Bolivian","Ecuador","Ecuadorian","Brazil","Brazilian","Chile","Chilean"]},
+ "fields": {
+  "climate": "varies from tropical in east to dry desert in west; temperate to frigid in Andes",
+  "terrain": "western coastal plain (costa), high and rugged Andes in center (sierra), eastern lowland jungle of Amazon Basin (selva)",
+  "hazards": "earthquakes, tsunamis, flooding, landslides, mild volcanic activity; volcanism: volcanic activity in the Andes Mountains; Ubinas (5,672 m) is the country's most active volcano…",
+  "heights": {"high":6746,"low":0,"mean":1555},
+  "coast": 2414,
+  "borders": {"total":7062,"lengths":[2659,1529,1494,1212,168]},
+  "area": 1285216,
+  "lake": {"sqkm":8030,"kind":"fresh water"},
+  "river": {"km":6400,"shared":1},
+  "resources": "copper, silver, gold, petroleum, timber, fish, iron ore, coal, phosphate, potash, hydropower, natural gas",
+  "farm": "sugarcane, potatoes, rice, bananas, milk, maize, chicken, oil palm fruit, cassava, grapes",
+  "exports": "copper ore, gold, refined copper, refined petroleum, grapes",
+  "industries": "mining and refining of minerals; steel, metal fabrication; petroleum extraction and refining, natural gas and natural gas liquefaction…",
+  "city": {"millions":11.204,"capital":true},
+  "languages": "Spanish (official) 82.9%, Quechua (official) 13.6%, Aymara (official) 1.6%, Ashaninka 0.3%, other native languages (includes many minor Amazonian languages) 0.8%, other 0.2%, none 0.1%, unspecified…",
+  "religions": "Catholic 76%, Evangelical Christian 15.7%, no religion 5.1%, other religions 3.2%",
+  "age": {"median":30.4,"life":68.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":130,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"28 July 1821","event":"","from":"Spain"},
+  "regions": "24 departments, 1 province, and 1 constitutional province",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal and compulsory until the age of 70",
+  "holiday": {"name":"Independence Day","date":"28-29 July"},
+  "military": "18-30 years of age for voluntary military service (12-24 months)",
+  "memberships": ["Andean Community"],
+  "colours": "red, white"
+ }
+}

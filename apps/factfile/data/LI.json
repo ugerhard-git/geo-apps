@@ -1,0 +1,30 @@
+{
+ "code": "LI",
+ "names": {"country":["Principality of Liechtenstein","Fuerstentum Liechtenstein","Liechtenstein"],"people":["Liechtensteiners","Liechtensteiner","Liechtenstein"],"places":["Vorder-Grauspitz","Ruggeller Riet","National Day","Schellenberg","Triesenberg","Balzers","Gamprin","Planken","Ruggell","Triesen","Eschen","Mauren","Schaan","Vaduz"],"neighbours":["Switzerland","Swiss","Austria","Austrian"]},
+ "fields": {
+  "climate": "continental; cold, cloudy winters with frequent snow or rain; cool to moderately warm, cloudy, humid summers",
+  "terrain": "mostly mountainous (Alps) with Rhine Valley in western third",
+  "hazards": "avalanches, landslides",
+  "heights": {"high":2599,"low":430,"mean":null},
+  "coast": 0,
+  "borders": {"total":75,"lengths":[41,34]},
+  "area": 160,
+  "resources": "hydroelectric potential, arable land",
+  "farm": "wheat, barley, corn, potatoes; livestock, dairy products",
+  "exports": "small specialty machinery, connectors for audio and video, parts for motor vehicles, dental products, hardware",
+  "industries": "electronics, metal manufacturing, dental products, ceramics, pharmaceuticals, food products, precision instruments, tourism, optical instruments",
+  "city": {"millions":0.005,"capital":true},
+  "languages": "German 91.5% (official, Alemannic is the main dialect), Italian 1.5%, Turkish 1.3%, Portuguese 1.1%, other 4.6%",
+  "religions": "Roman Catholic (official) 73.4%, Protestant Reformed 6.3%, Muslim 5.9%, Christian Orthodox 1.3%, Lutheran 1.2%, other Protestant 0.7%, other Christian 0.3%, other 0.8%, none 7%, unspecified 3.3%",
+  "age": {"median":44.4,"life":83},
+  "system": {"text":"constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":25,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"23 January 1719","event":"Principality of Liechtenstein established","from":""},
+  "regions": "11 communes",
+  "legal": "civil law system influenced by Swiss, Austrian, and German law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"National Day","date":"15 August"},
+  "memberships": ["Schengen"],
+  "colours": "blue, red"
+ }
+}

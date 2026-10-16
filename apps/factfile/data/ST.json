@@ -1,0 +1,31 @@
+{
+ "code": "ST",
+ "names": {"country":["Democratic Republic of Sao Tome and Principe","Republica Democratica de Sao Tome e Principe","Sao Tome and Principe","Sao Tome e Principe"],"people":["Sao Tomeans","Sao Tomean"],"places":["Independence Day","Pico de Sao Tome","Atlantic Ocean","Agua Grande","Cantagalo","Me-Zochi","Principe","Sao Tome","Lobata","Lemba","Caue"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; hot, humid; one rainy season (October to May)",
+  "terrain": "volcanic, mountainous",
+  "hazards": "flooding",
+  "heights": {"high":2024,"low":0,"mean":null},
+  "coast": 209,
+  "borders": {"total":0,"lengths":[]},
+  "area": 964,
+  "resources": "fish, hydropower",
+  "farm": "plantains, oil palm fruit, taro, bananas, fruits, cocoa beans, yams, coconuts, cassava, vegetables",
+  "exports": "crude petroleum, cocoa beans, vehicle parts/accessories, palm oil, aircraft parts",
+  "industries": "light construction, textiles, soap, beer, fish processing, timber",
+  "city": {"millions":0.08,"capital":true},
+  "languages": "Portuguese 98.4% (official), Forro 36.2%, Cabo Verdian 8.5%, French 6.8%, Angolar 6.6%, English 4.9%, Lunguie 1%, other (including sign language) 2.4%; other Portuguese-based Creoles are also spoken",
+  "religions": "Catholic 55.7%, Adventist 4.1%, Assembly of God 3.4%, New Apostolic 2.9%, Mana 2.3%, Universal Kingdom of God 2%, Jehovah's Witness 1.2%, other 6.2%, none 21.2%, unspecified 1%",
+  "age": {"median":21.2,"life":67.7},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":55,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"12 July 1975","event":"","from":"Portugal"},
+  "regions": "6 districts, 1 autonomous region",
+  "legal": "mixed system of civil law based on the Portuguese model and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"12 July"},
+  "military": "limited information; 18 is the minimum age for compulsory military service (reportedly not enforced) and 17 years of age (with parental permission) for voluntary service",
+  "memberships": ["African Union","CEMAC","Francophonie","Portuguese-speaking"],
+  "colours": "green, yellow, red, black"
+ }
+}

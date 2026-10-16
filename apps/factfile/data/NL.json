@@ -1,0 +1,32 @@
+{
+ "code": "NL",
+ "names": {"country":["Kingdom of the Netherlands","Koninkrijk der Nederlanden","Netherlands","Nederland","NL"],"people":["Dutchwoman","Dutchman","Dutch"],"places":["Mount Scenery (on the island of Saba in the Caribbean, now considered an integral part of the Netherlands following the dissolution of the Netherlands Antilles)","King's Day (birthday of King WILLEM-ALEXANDER)","Sint Eustatius","Zuidplaspolder","Noord-Brabant","Noord-Holland","Zuid-Holland","river mouth","Gelderland","Overijssel","Amsterdam","Flevoland","Groningen","Rotterdam","Bonaire","Drenthe","Fryslan","Limburg","Utrecht","Zeeland","Rhine","Rijn","Saba"],"neighbours":["Belgium","Belgian","Germany","German"]},
+ "fields": {
+  "climate": "temperate; marine; cool summers and mild winters",
+  "terrain": "mostly coastal lowland and reclaimed land (polders); some hills in southeast",
+  "hazards": "flooding; volcanism: Mount Scenery (887 m), located on the island of Saba in the Caribbean, last erupted in 1640; Round Hill (601 m), a dormant volcano also known as \"The Quill,\" is located on the island of St. Eustatius in the Caribbean…",
+  "heights": {"high":862,"low":-7,"mean":30},
+  "coast": 451,
+  "borders": {"total":1053,"lengths":[575,478]},
+  "area": 41543,
+  "river": {"km":1233,"shared":3},
+  "resources": "natural gas, petroleum, peat, limestone, salt, sand and gravel, arable land",
+  "farm": "milk, sugar beets, potatoes, onions, pork, wheat, chicken, tomatoes, carrots/turnips, beef",
+  "exports": "refined petroleum, vaccines, machinery, crude petroleum, broadcasting equipment",
+  "industries": "agroindustries, metal and engineering products, electrical machinery and equipment, chemicals, petroleum, construction, microelectronics, fishing",
+  "city": {"millions":1.174,"capital":true},
+  "languages": "Dutch (official), Frisian (official in Fryslan province)",
+  "religions": "Roman Catholic 20.1%, Protestant 14.8% (includes Dutch Reformed, Protestant Church of The Netherlands, Calvinist), Muslim 5%, other 5.9% (includes Hindu, Buddhist, Jewish), none 54.1%",
+  "age": {"median":42.2,"life":81.9},
+  "system": {"text":"parliamentary constitutional monarchy; part of the Kingdom of the Netherlands","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":150,"how":"all directly elected","term":"4 years"},{"seats":75,"how":"all indirectly elected","term":"4 years"}]},
+  "independence": {"date":"26 July 1581","event":"","from":""},
+  "regions": "12 provinces, 3 public entities",
+  "legal": "civil law system based on the French system; constitution does not permit judicial review of acts of the States General",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"King's Day (birthday of King WILLEM-ALEXANDER)","date":"27 April"},
+  "military": "17 years of age for voluntary service for men and women; the military is an all-volunteer force…",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","Benelux"],
+  "colours": "orange"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "ER",
+ "names": {"country":["State of Eritrea","Hagere Ertra","Eritrea","Ertra"],"people":["Eritreans","Eritrean"],"places":["near Kulul within the Danakil Depression","Semienawi K'eyyih Bahri","Debubawi K'eyyih Bahri","Independence Day","Gash-Barka","Ma'ikel","Asmara","Debub","Soira"],"neighbours":["Djibouti","Djiboutian","Ethiopia","Ethiopian","Sudan","Sudanese"]},
+ "fields": {
+  "climate": "hot, dry desert strip along Red Sea coast; cooler and wetter in the central highlands (up to 61 cm of rainfall annually, heaviest June to September); semiarid in western hills and lowlands",
+  "terrain": "dominated by extension of Ethiopian north-south trending highlands, descending on the east to a coastal desert plain, on the northwest to hilly terrain and on the southwest to flat-to-rolling plains",
+  "hazards": "frequent droughts, rare earthquakes and volcanoes; locust swarms; volcanism: Dubbi (1,625 m), which last erupted in 1861, was the country's only historically active volcano until Nabro (2,218 m) came to life in 2011",
+  "heights": {"high":3018,"low":-75,"mean":853},
+  "coast": 2234,
+  "borders": {"total":1840,"lengths":[1033,682,125]},
+  "area": 117600,
+  "resources": "gold, potash, zinc, copper, salt, possibly oil and natural gas, fish",
+  "farm": "sorghum, milk, barley, vegetables, root vegetables, cereals, pulses, wheat, beef, maize",
+  "exports": "copper ore, zinc ore, gold, garments, liquor",
+  "industries": "food processing, beverages, clothing and textiles, light manufacturing, salt, cement",
+  "city": {"millions":1.073,"capital":true},
+  "languages": "Tigrinya (official), Arabic (official), English (official), Tigre, Kunama, Afar, other Cushitic languages",
+  "religions": "Eritrean Orthodox, Roman Catholic, Evangelical Lutheran, Sunni Muslim",
+  "age": {"median":21.7,"life":67.5},
+  "system": {"text":"authoritarian","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":150,"how":"all indirectly elected","term":"4 years"}]},
+  "independence": {"date":"24 May 1993","event":"","from":"Ethiopia"},
+  "regions": "6 regions",
+  "legal": "mixed system of civil, customary, and Islamic religious law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"24 May"},
+  "military": "Eritrea mandates military service for all citizens age 18-40; 18-month conscript service obligation, which reportedly includes 4-6 months of military training and 12 months of military or other…",
+  "memberships": ["African Union","COMESA"],
+  "colours": "green, red, blue"
+ }
+}

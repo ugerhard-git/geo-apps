@@ -1,0 +1,33 @@
+{
+ "code": "BR",
+ "names": {"country":["República Federativa do Brasil","Federative Republic of Brazil","Brasil","Brazil"],"people":["Brazilians","Brazilian"],"places":["Río de la Plata/Paraná river source","Paraguay river source","Rio Negro river mouth","Uruguay river source","Rio Grande do Norte","Amazon river mouth","Mato Grosso do Sul","Rio Grande do Sul","Distrito Federal","Independence Day","Lagoa dos Patos","Pico da Neblina","Atlantic Ocean","Belo Horizonte","Espirito Santo","Rio de Janeiro","Santa Catarina","São Francisco","Minas Gerais","Porto Alegre","Lagoa Mirim","Mato Grosso","Pernambuco","São Paulo","Tocantins","Amazonas","Brasília","Maranhao","Rondônia","Alagoas","Paraiba","Roraima","Sergipe","Parana","Recife","Amapa","Bahia","Ceara","Goias","Piaui","Acre","Para"],"neighbours":["French Guiana","Argentina","Argentine","Venezuela","Venezuelan","Colombia","Colombian","Paraguay","Paraguayan","Suriname","Surinamese","Bolivia","Bolivian","Uruguay","Uruguayan","Guyana","Guyanese","Peru","Peruvian"]},
+ "fields": {
+  "climate": "mostly tropical, but temperate in south",
+  "terrain": "mostly flat to rolling lowlands in north; some plains, hills, mountains, and narrow coastal belt",
+  "hazards": "recurring droughts in northeast; floods and occasional frost in south",
+  "heights": {"high":2994,"low":0,"mean":320},
+  "coast": 7491,
+  "borders": {"total":16145,"lengths":[3403,2659,2137,1790,1371,1308,1263,1050,649,515]},
+  "area": 8515770,
+  "lake": {"sqkm":10140,"kind":"fresh water"},
+  "river": {"km":6400,"shared":1},
+  "resources": "alumina, bauxite, beryllium, gold, iron ore, manganese, nickel, niobium, phosphates, platinum, tantalum, tin, rare earth elements, uranium, petroleum, hydropower, timber",
+  "farm": "sugarcane, soybeans, maize, milk, cassava, oranges, chicken, beef, rice, wheat",
+  "exports": "soybeans, crude petroleum, iron ore, raw sugar, corn",
+  "industries": "textiles, shoes, chemicals, cement, lumber, iron ore, tin, steel, aircraft, motor vehicles and parts, other machinery and equipment",
+  "city": {"millions":22.62,"capital":false},
+  "languages": "Portuguese (official and most widely spoken language); less common languages include Spanish (border areas and schools), German, Italian, Japanese, English, and many minor Amerindian languages",
+  "religions": "Roman Catholic 56.8%, Evangelical 26.9%, none 9.3%, other 4%, Spirtism (Espírita) 1.8%, unspecified 1.4%, Umbanda and Candomblé 1.1%, Indigenous religions.06%, undeclared 0.2%",
+  "age": {"median":35.4,"life":76.3},
+  "system": {"text":"federal presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":513,"how":"all directly elected","term":"4 years"},{"seats":81,"how":"all directly elected","term":"8 years"}]},
+  "independence": {"date":"7 September 1822","event":"","from":"Portugal"},
+  "regions": "26 states and 1 federal district",
+  "legal": "civil law",
+  "suffrage": "voluntary between 16 to 18 years of age, over 70, and if illiterate; compulsory between 18 to 70 years of age",
+  "holiday": {"name":"Independence Day","date":"7 September"},
+  "military": "18-45 years of age for compulsory military service for men (only 5-10% of those inducted are required to serve); compulsory service obligation is generally 12 months…",
+  "memberships": ["G20","BRICS","Mercosur","Portuguese-speaking"],
+  "colours": "green, yellow, blue"
+ }
+}

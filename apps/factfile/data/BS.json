@@ -1,0 +1,31 @@
+{
+ "code": "BS",
+ "names": {"country":["Commonwealth of The Bahamas","The Bahamas"],"people":["Bahamians","Bahamian"],"places":["1.3 km NE of Old Bight on Cat Island","Crooked Island and Long Cay","Central Eleuthera","East Grand Bahama","West Grand Bahama","City of Freeport","Independence Day","Acklins Islands","North Eleuthera","South Eleuthera","Atlantic Ocean","Central Andros","Harbour Island","Moore's Island","Berry Islands","Central Abaco","Ragged Island","Spanish Wells","Mangrove Cay","North Andros","San Salvador","South Andros","Black Point","Long Island","North Abaco","South Abaco","Cat Island","Grand Cay","Hope Town","Mayaguana","Rum Cay","Bimini","Inagua","Nassau","Exuma"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine; moderated by warm waters of Gulf Stream",
+  "terrain": "long, flat coral formations with some low rounded hills",
+  "hazards": "hurricanes and other tropical storms cause extensive flood and wind damage",
+  "heights": {"high":64,"low":0,"mean":null},
+  "coast": 3542,
+  "borders": {"total":0,"lengths":[]},
+  "area": 13880,
+  "resources": "salt, aragonite, timber, arable land",
+  "farm": "sugarcane, grapefruits, vegetables, bananas, tomatoes, chicken, tropical fruits, oranges, coconuts, mangoes/guavas",
+  "exports": "refined petroleum, ships, aluminum, shellfish, plastics",
+  "industries": "tourism, banking, oil bunkering, maritime industries, transshipment and logistics, salt, aragonite, pharmaceuticals",
+  "city": {"millions":0.28,"capital":true},
+  "languages": "English (official), Creole (among Haitian immigrants)",
+  "religions": "Protestant 69.9% (includes Baptist 34.9%, Anglican 13.7%, Pentecostal 8.9% Seventh Day Adventist 4.4%, Methodist 3.6%, Church of God 1.9%, Plymouth Brethren 1.6%, other Protestant 0.9%), Roman…",
+  "age": {"median":31.1,"life":76.7},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":39,"how":"all directly elected","term":"5 years"},{"seats":16,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"10 July 1973","event":"","from":"UK"},
+  "regions": "31 districts",
+  "legal": "common-law system based on the English model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"10 July"},
+  "military": "18-30 years of age for voluntary service for men and women (18-60 for Reserves); no conscription",
+  "memberships": ["CARICOM","Commonwealth"],
+  "colours": "aquamarine, yellow, black"
+ }
+}

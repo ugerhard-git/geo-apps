@@ -1,0 +1,31 @@
+{
+ "code": "MY",
+ "names": {"country":["Malaysia"],"people":["Malaysians","Malaysian"],"places":["Independence Day (or Merdeka Day)","Gunung Kinabalu","Negeri Sembilan","Indian Ocean","Kuala Lumpur","Pulau Pinang","Johor Bahru","Terengganu","Kelantan","Selangor","Sarawak","Labuan","Melaka","Pahang","Perlis","Johor","Kedah","Perak","Sabah","Ipoh"],"neighbours":["Indonesia","Indonesian","Thailand","Thai","Brunei","Bruneian"]},
+ "fields": {
+  "climate": "tropical; annual southwest (April to October) and northeast (October to February) monsoons",
+  "terrain": "coastal plains rising to hills and mountains",
+  "hazards": "flooding; landslides; forest fires",
+  "heights": {"high":4095,"low":0,"mean":419},
+  "coast": 4675,
+  "borders": {"total":2742,"lengths":[1881,595,266]},
+  "area": 329847,
+  "resources": "tin, petroleum, timber, copper, iron ore, natural gas, bauxite",
+  "farm": "oil palm fruit, rice, chicken, eggs, tropical fruits, coconuts, vegetables, pineapples, rubber, bananas",
+  "exports": "integrated circuits, refined petroleum, crude petroleum, natural gas, palm oil",
+  "industries": "Peninsular Malaysia - rubber and oil palm processing and manufacturing, petroleum and natural gas, light manufacturing, pharmaceuticals, medical technology, electronics and semiconductors, timber…",
+  "city": {"millions":8.622,"capital":true},
+  "languages": "Bahasa Malaysia (official), English, Chinese (Cantonese, Mandarin, Hokkien, Hakka, Hainan, Foochow), Tamil, Telugu, Malayalam, Panjabi, Thai",
+  "religions": "Muslim (official) 63.5%, Buddhist 18.7%, Christian 9.1%, Hindu 6.1%, other (Confucianism, Taoism, other traditional Chinese religions) 0.9%, none/unspecified 1.8%",
+  "age": {"median":32.2,"life":76.6},
+  "system": {"text":"federal parliamentary constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":223,"how":"all directly elected","term":"5 years"},{"seats":70,"how":"","term":""}]},
+  "independence": {"date":"31 August 1957","event":"","from":"UK"},
+  "regions": "13 states",
+  "legal": "mixed system of English common law, Islamic law (sharia), and customary law; the Federal Court can review legislative acts at the request of the supreme head of the federation",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (or Merdeka Day)","date":"31 August (independence of Malaya)"},
+  "military": "17 years 6 months of age for voluntary military service for men and women (younger with parental consent and proof of age); mandatory retirement age 60; no conscription",
+  "memberships": ["Islamic Cooperation","ASEAN","Commonwealth"],
+  "colours": "gold, black"
+ }
+}

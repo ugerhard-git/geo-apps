@@ -1,0 +1,31 @@
+{
+ "code": "GA",
+ "names": {"country":["République Gabonaise","Gabonese Republic","Gabon"],"people":["Gabonese"],"places":["Independence Day","Ogooue-Maritime","Atlantic Ocean","Ogooue-Ivindo","Mont Bengoue","Moyen-Ogooue","Haut-Ogooue","Ogooue-Lolo","Libreville","Woleu-Ntem","Estuaire","Ngounie","Nyanga"],"neighbours":["Republic of the Congo","Equatorial Guinea","Equatorial Guinean or Equatoguinean","Cameroon","Cameroonian"]},
+ "fields": {
+  "climate": "tropical; always hot, humid",
+  "terrain": "narrow coastal plain; hilly interior; savanna in east and south",
+  "hazards": "none",
+  "heights": {"high":1050,"low":0,"mean":377},
+  "coast": 885,
+  "borders": {"total":3261,"lengths":[2567,349,345]},
+  "area": 267667,
+  "resources": "petroleum, natural gas, diamond, niobium, manganese, uranium, gold, timber, iron ore, hydropower",
+  "farm": "oil palm fruit, plantains, cassava, sugarcane, yams, taro, vegetables, maize, groundnuts, game meat",
+  "exports": "crude petroleum, ships, manganese ore, refined petroleum, wood",
+  "industries": "petroleum extraction and refining; manganese, gold; chemicals, ship repair, food and beverages, textiles, lumbering and plywood, cement",
+  "city": {"millions":0.87,"capital":true},
+  "languages": "French (official), Fang, Myene, Nzebi, Bapounou/Eschira, Bandjabi",
+  "religions": "Protestant 46.4% (Revival Church 37%, other Protestant 9.4%), Roman Catholic 29.8%, other Christian 4%, Muslim 10.8%, traditional/animist 1.1%, other 0.9%, none 7% (2019-21 est.)",
+  "age": {"median":22.3,"life":70.4},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":145,"how":"all directly elected","term":"5 years"},{"seats":70,"how":"all indirectly elected","term":"5 years"}]},
+  "independence": {"date":"17 August 1960","event":"","from":"France"},
+  "regions": "9 provinces",
+  "legal": "mixed system of French civil law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"17 August"},
+  "military": "18-24 years of age for voluntary military service; no conscription",
+  "memberships": ["Islamic Cooperation","CEMAC","Francophonie"],
+  "colours": "green, yellow, blue"
+ }
+}

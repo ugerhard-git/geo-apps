@@ -1,0 +1,28 @@
+{
+ "code": "NU",
+ "names": {"country":["Niue"],"people":["Niueans","Niuean"],"places":["Waitangi Day (Treaty of Waitangi established British sovereignty over New Zealand)","unnamed elevation 1.4 km east of Hikutavake","Pacific Ocean","Alofi"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; modified by southeast trade winds",
+  "terrain": "steep limestone cliffs along coast, central plateau",
+  "hazards": "tropical cyclones",
+  "heights": {"high":80,"low":0,"mean":null},
+  "coast": 64,
+  "borders": {"total":0,"lengths":[]},
+  "area": 260,
+  "resources": "arable land, fish",
+  "farm": "coconuts, taro, fruits, sweet potatoes, tropical fruits, yams, vegetables, lemons/limes, bananas, pork",
+  "exports": "abrasive powder, coin",
+  "industries": "handicrafts, food processing",
+  "city": {"millions":0.001,"capital":true},
+  "languages": "Niuean 46% (official, a Polynesian language closely related to Tongan and Samoan), Niuean and English 32%, English (official) 11%, Niuean and others 5%, other 6%",
+  "religions": "Ekalesia Niue 61.7%, Latter Day Saints 8.7%, Roman Catholic 8.4%, other 8.2%, not stated 5.1%, none 3.7%, Jehovah's Witnesses 2.7%, Seventh Day Adventist 1.4%",
+  "system": {"text":"parliamentary democracy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":20,"how":"","term":"3 years"}]},
+  "independence": {"date":"19 October 1974","event":"Niue became a self-governing state in free association with New…","from":""},
+  "legal": "English common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Waitangi Day (Treaty of Waitangi established British sovereignty over New Zealand)","date":"6 February"},
+  "memberships": ["Pacific Islands Forum"],
+  "colours": "yellow"
+ }
+}

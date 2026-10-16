@@ -174,6 +174,26 @@ month and opens a pull request when anything changed; it also runs by hand
 much that fewer than 60 countries parse, the run fails instead of opening a
 pull request.
 
+## Precomputed data: Fact file
+
+The Fact file app reads `apps/factfile/data/`, one file per country plus
+`index.json`, built from the archived [CIA World Factbook](https://github.com/factbook/factbook.json)
+(public domain). The Factbook stopped in February 2026, so the files are
+built once, not on a schedule:
+
+```
+git clone --depth 1 https://github.com/factbook/factbook.json
+node scripts/factfile/build-data.mjs factbook.json
+```
+
+`scripts/factfile/extract.js` turns each profile into short fields and a list
+of names to black out: the country's own names, its people, cities, peaks,
+lakes, rivers, regions and neighbours. It leaves out anything tied to a person
+or to the last election, since the data no longer changes. The Factbook names
+its files by its own codes ("ng" is Niger, "ni" Nigeria); the script matches
+them to ISO codes through the [country-codes](https://github.com/datasets/country-codes)
+table and stops if fewer than 200 countries come through.
+
 ## Live data: Shaded relief
 
 The Shaded relief app has no data of its own. It reads
@@ -270,6 +290,7 @@ apply when you reuse them:
 | `apps/letters/data/`              | FineFreq (Xu 2025) | CC BY 4.0                   |
 | `apps/names/data/`                | Wikipedia          | CC BY-SA 4.0                |
 | `apps/landmarks/data/`            | Wikidata           | CC0                         |
+| `apps/factfile/data/`             | CIA World Factbook | Public domain               |
 | `apps/owid-chart-plotter/vendor/` | Chart.js 4.4.6     | MIT (`chart.js-LICENSE.md`) |
 
 Data, photos and fonts the apps fetch while running (Wikimedia Commons, Our

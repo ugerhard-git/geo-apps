@@ -1,0 +1,30 @@
+{
+ "code": "PW",
+ "names": {"country":["Republic of Palau","Beluu er a Belau","Belau","Palau"],"people":["Palauans","Palauan"],"places":["Mount Ngerchelchuus","Constitution Day","Pacific Ocean","Ngeremlengui","Ngarchelong","Hatohobei","Ngerulmud","Aimeliik","Kayangel","Melekeok","Ngaraard","Ngardmau","Ngatpang","Ngchesar","Sonsorol","Peleliu","Angaur","Ngiwal","Airai","Koror"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; hot and humid; wet season May to November",
+  "terrain": "varying topography from the high, mountainous main island of Babelthuap to low, coral islands usually fringed by large barrier reefs",
+  "hazards": "typhoons (June to December)",
+  "heights": {"high":242,"low":0,"mean":null},
+  "coast": 1519,
+  "borders": {"total":0,"lengths":[]},
+  "area": 459,
+  "resources": "forests, minerals (especially gold), marine products, deep-seabed minerals",
+  "farm": "coconuts, cassava (manioc, tapioca), sweet potatoes; fish, pigs, chickens, eggs, bananas, papaya, breadfruit, calamansi, soursop, Polynesian chestnuts, Polynesian almonds, mangoes, taro, guava…",
+  "exports": "ships, refined petroleum",
+  "industries": "tourism, fishing, subsistence agriculture",
+  "city": {"millions":0.000277,"capital":true},
+  "languages": "Palauan (official on most islands) 65.2%, other Micronesian 1.9%, English (official) 19.1%, Filipino 9.9%, Chinese 1.2%, other 2.8%",
+  "religions": "Roman Catholic 46.9%, Protestant 30.9% (Evangelical 24.6%, Seventh Day Adventist 5%, other Protestant 1.4%), Modekngei 5.1% (indigenous to Palau), Muslim 4.9%, other 12.3%",
+  "age": {"median":35.5,"life":75.2},
+  "system": {"text":"presidential republic in free association with the US","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":16,"how":"all directly elected","term":"4 years"},{"seats":15,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1 October 1994","event":"","from":"US-administered UN trusteeship"},
+  "regions": "16 states",
+  "legal": "mixed system of civil, common, and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"9 July"},
+  "memberships": ["Pacific Islands Forum"],
+  "colours": "blue, yellow"
+ }
+}

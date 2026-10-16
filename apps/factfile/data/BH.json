@@ -1,0 +1,31 @@
+{
+ "code": "BH",
+ "names": {"country":["Mamlakat al Bahrayn","Kingdom of Bahrain","Al Bahrayn","Bahrain"],"people":["Bahrainis","Bahraini"],"places":["Jabal ad Dukhan","National Day","Persian Gulf","Shamaliyah","Janubiyah","Muharraq","Asimah","Manama"],"neighbours":[]},
+ "fields": {
+  "climate": "arid; mild, pleasant winters; very hot, humid summers",
+  "terrain": "mostly low desert plain rising gently to low central escarpment",
+  "hazards": "periodic droughts; dust storms",
+  "heights": {"high":135,"low":0,"mean":null},
+  "coast": 161,
+  "borders": {"total":0,"lengths":[]},
+  "area": 760,
+  "resources": "oil, associated and nonassociated natural gas, fish, pearls",
+  "farm": "lamb/mutton, dates, milk, tomatoes, chicken, eggs, sheep offal, sheepskins, eggplants, chillies/peppers",
+  "exports": "refined petroleum, aluminum, iron ore, aluminum wire, jewelry",
+  "industries": "petroleum processing and refining, aluminum smelting, iron pelletization, fertilizers, Islamic and offshore banking, insurance, ship repairing, tourism",
+  "city": {"millions":0.709,"capital":true},
+  "languages": "Arabic (official), English, Farsi, Urdu",
+  "religions": "Muslim 74.2%, other 25.9%",
+  "age": {"median":33.5,"life":80.4},
+  "system": {"text":"constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":40,"how":"all directly elected","term":"4 years"},{"seats":40,"how":"all appointed","term":"4 years"}]},
+  "independence": {"date":"15 August 1971","event":"","from":"UK"},
+  "regions": "4 governorates",
+  "legal": "mixed legal system of Islamic (sharia) law, English common law, Egyptian civil, criminal, and commercial codes; customary law",
+  "suffrage": "20 years of age; universal",
+  "holiday": {"name":"National Day","date":"16 December"},
+  "military": "18 years of age for voluntary military service; 18-55 to voluntarily join the reserves",
+  "memberships": ["OAPEC","Gulf Cooperation Council","Arab League","Islamic Cooperation"],
+  "colours": "red, white"
+ }
+}

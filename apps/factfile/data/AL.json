@@ -1,0 +1,32 @@
+{
+ "code": "AL",
+ "names": {"country":["Republika e Shqiperise","Republic of Albania","Shqiperia","Albania"],"people":["Albanians","Albanian"],"places":["Independence Day, 28 November","Maja e Korabit (Golem Korab)","Adriatic Sea","Lake Scutari","Gjirokaster","Elbasan","Shkoder","Durres","Tirana","Tirane","Berat","Diber","Korce","Kukes","Lezhe","Vlore","Fier"],"neighbours":["North Macedonia","Macedonian","Montenegro","Montenegrin","Greece","Greek","Kosovo","Kosovan"]},
+ "fields": {
+  "climate": "mild temperate; cool, cloudy, wet winters; hot, clear, dry summers; interior is cooler and wetter",
+  "terrain": "mostly mountains and hills; small plains along coast",
+  "hazards": "destructive earthquakes; tsunamis occur along southwestern coast; floods; drought",
+  "heights": {"high":2764,"low":0,"mean":708},
+  "coast": 362,
+  "borders": {"total":691,"lengths":[212,186,181,112]},
+  "area": 28748,
+  "lake": {"sqkm":400,"kind":"fresh water"},
+  "resources": "petroleum, natural gas, coal, bauxite, chromite, copper, iron ore, nickel, salt, timber, hydropower, arable land",
+  "farm": "milk, maize, tomatoes, watermelons, potatoes, wheat, grapes, onions, cucumbers/gherkins, olives",
+  "exports": "garments, footwear, electricity, crude petroleum, iron alloys",
+  "industries": "food; footwear, apparel and clothing; lumber, oil, cement, chemicals, mining, basic metals, hydropower",
+  "city": {"millions":0.52,"capital":true},
+  "languages": "Albanian 98.8% (official - derived from Tosk dialect), Greek 0.5%, other 0.6% (including Macedonian, Romani, Vlach, Turkish, Italian, and Serbo-Croatian), unspecified 0.1%",
+  "religions": "Muslim 56.7%, Roman Catholic 10%, Orthodox 6.8%, atheist 2.5%, Bektashi (a Sufi order) 2.1%, other 5.7%, unspecified 16.2%",
+  "age": {"median":37.9,"life":79.9},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":140,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"28 November 1912","event":"","from":"Ottoman Empire"},
+  "regions": "12 counties",
+  "legal": "civil law system except in the northern rural areas where customary law known as the \"Code of Leke\" is still present",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day, 28 November","date":"also known as Flag Day"},
+  "military": "18-30 for voluntary military service for men and women; conscription abolished 2010",
+  "memberships": ["NATO","Islamic Cooperation","Francophonie"],
+  "colours": "red, black"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "code": "PF",
+ "names": {"country":["Pays d'outre-mer de la Polynésie française","Overseas Lands of French Polynesia","Polynésie Française","French Polynesia"],"people":["French Polynesians","French Polynesian"],"places":["Fête de la Fédération","Iles Tuamotu-Gambier","Iles Sous-le-Vent","Iles Australes","Iles Marquises","Pacific Ocean","Iles du Vent","Mont Orohena","Papeete"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical, but moderate",
+  "terrain": "mixture of rugged high islands and low islands with reefs",
+  "hazards": "occasional cyclonic storms in January",
+  "heights": {"high":2241,"low":0,"mean":null},
+  "coast": 2525,
+  "borders": {"total":0,"lengths":[]},
+  "area": 4167,
+  "resources": "timber, fish, cobalt, hydropower",
+  "farm": "coconuts, fruits, cassava, sugarcane, pineapples, eggs, tropical fruits, watermelons, tomatoes, pork",
+  "exports": "pearls, fish, aircraft parts, gas turbines, vanilla",
+  "industries": "tourism, pearls, agricultural processing, handicrafts, phosphates",
+  "city": {"millions":0.136,"capital":true},
+  "languages": "French (official) 73.5%, Tahitian 20.1%, Marquesan 2.6%, Austral languages 1.2%, Paumotu 1%, other 1.6%",
+  "religions": "Protestant 54%, Roman Catholic 30%, other 10%, no religion 6%",
+  "age": {"median":35.8,"life":78.9},
+  "system": {"text":"parliamentary democracy (Assembly of French Polynesia); an overseas collectivity of France","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":57,"how":"directly elected","term":"5 years"}]},
+  "regions": "5 administrative subdivisions",
+  "legal": "the laws of France apply",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Fête de la Fédération","date":"14 July"},
+  "memberships": ["Pacific Islands Forum"],
+  "colours": "red, white"
+ }
+}

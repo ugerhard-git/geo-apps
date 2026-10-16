@@ -1,0 +1,27 @@
+{
+ "code": "GG",
+ "names": {"country":["Bailiwick of Guernsey","Guernsey"],"people":["Channel Islanders","Channel Islander"],"places":["Saint Pierre du Bois","Le Moulin on Sark","Saint Peter Port","English Channel","Liberation Day","Saint Sampson","Saint Saviour","Saint Andrew","Saint Martin","Torteval","Castel","Forest","Vale"],"neighbours":[]},
+ "fields": {
+  "climate": "temperate with mild winters and cool summers; about 50% of days are overcast",
+  "terrain": "mostly flat with low hills in southwest",
+  "hazards": "very large tidal variation and fast currents can make local waters dangerous",
+  "heights": {"high":114,"low":0,"mean":null},
+  "coast": 50,
+  "borders": {"total":0,"lengths":[]},
+  "area": 78,
+  "resources": "cropland",
+  "farm": "tomatoes, greenhouse flowers, sweet peppers, eggplant, fruit; Guernsey cattle",
+  "exports": "aircraft, photo lab equipment, clocks, ships, paintings",
+  "industries": "tourism, banking",
+  "city": {"millions":0.016,"capital":true},
+  "languages": "English, French, Norman-French dialect spoken in country districts",
+  "religions": "Protestant (Anglican, Presbyterian, Baptist, Congregational, Methodist), Roman Catholic",
+  "age": {"median":45.1,"life":83.6},
+  "system": {"text":"parliamentary democracy (States of Deliberation)","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":38,"how":"directly elected","term":"4 years"}]},
+  "legal": "customary system based on Norman customary law; includes elements of the French civil code and English common law",
+  "suffrage": "16 years of age; universal",
+  "holiday": {"name":"Liberation Day","date":"9 May"},
+  "colours": "red, white, yellow"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "CL",
+ "names": {"country":["República de Chile","Republic of Chile","Chile"],"people":["Chileans","Chilean"],"places":["note - Valparaiso is the seat of the national legislature","Libertador General Bernardo O'Higgins","Magallanes y de la Antártica Chilena","Nevado Ojos del Salado","Lago General Carrera","Región Metropolitana","Arica y Parinacota","Independence Day","Lago Llanquihue","Lago O'Higgins","Pacific Ocean","Lago Fagnano","Antofagasta","Concepcion","Valparaiso","Valparaíso","Araucanía","Los Lagos","Coquimbo","Los Ríos","Santiago","Tarapacá","Atacama","Biobío","Aysén","Maule","Ñuble"],"neighbours":["Argentina","Argentine","Bolivia","Bolivian","Peru","Peruvian"]},
+ "fields": {
+  "climate": "temperate; desert in north; Mediterranean in central region; cool and damp in south",
+  "terrain": "low coastal mountains, fertile central valley, rugged Andes in east",
+  "hazards": "severe earthquakes; active volcanism; tsunamis; volcanism: significant volcanic activity due to more than three-dozen active volcanoes along the Andes Mountains…",
+  "heights": {"high":6893,"low":0,"mean":1871},
+  "coast": 6435,
+  "borders": {"total":7801,"lengths":[6691,942,168]},
+  "area": 756102,
+  "lake": {"sqkm":2240,"kind":"fresh water"},
+  "resources": "copper, timber, iron ore, nitrates, precious metals, molybdenum, hydropower",
+  "farm": "grapes, milk, apples, wheat, tomatoes, potatoes, chicken, maize, sugar beets, pork",
+  "exports": "copper ore, refined copper, fish, carbonates, pitted fruits",
+  "industries": "copper, lithium, other minerals, foodstuffs, fish processing, iron and steel, wood and wood products, transport equipment, cement, textiles",
+  "city": {"millions":6.903,"capital":true},
+  "languages": "Spanish 99.5% (official), English 10.2%, Indigenous 1% (includes Mapudungun, Aymara, Quechua, Rapa Nui), other 2.3%, unspecified 0.2%",
+  "religions": "Catholic 57%, none 25.7%, Evangelical or Protestant 16.2%, other Christians and traditions related to Christ 1.3%…",
+  "age": {"median":38.9,"life":80.3},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":155,"how":"all directly elected","term":"4 years"},{"seats":50,"how":"all directly elected","term":"8 years"}]},
+  "independence": {"date":"18 September 1810","event":"","from":"Spain"},
+  "regions": "16 regions",
+  "legal": "civil law system influenced by several Western European civil legal systems; Constitutional Tribunal reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"18 September"},
+  "military": "18-24 for voluntary military service for men and women (17 for men with parental permission)…",
+  "colours": "red, white, blue"
+ }
+}

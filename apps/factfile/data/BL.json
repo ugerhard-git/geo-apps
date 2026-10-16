@@ -1,0 +1,20 @@
+{
+ "code": "BL",
+ "names": {"country":["Collectivité d'outre mer de Saint-Barthélemy","Overseas Collectivity of Saint Barthelemy","Saint Barthelemy","Saint-Barthélemy","Saint-Barth","St. Barths","St. Barts"],"people":[],"places":["Fête de la Fédération","Morne du Vitet","Caribbean Sea","Gustavia"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical, with practically no variation in temperature; has two seasons (dry and humid)",
+  "terrain": "hilly, almost completely surrounded by shallow-water reefs, with plentiful beaches",
+  "heights": {"high":286,"low":0,"mean":null},
+  "borders": {"total":0,"lengths":[]},
+  "area": 25,
+  "resources": "few natural resources; beaches foster tourism",
+  "exports": "refined copper, jewelry",
+  "languages": "French (primary), English",
+  "age": {"median":47.7,"life":81},
+  "system": {"text":"parliamentary democracy (Territorial Council); overseas collectivity of France","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":19,"how":"directly elected","term":"5 years"}]},
+  "legal": "French civil law",
+  "suffrage": "18 years of age, universal",
+  "holiday": {"name":"Fête de la Fédération","date":"14 July"}
+ }
+}

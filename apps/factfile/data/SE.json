@@ -1,0 +1,32 @@
+{
+ "code": "SE",
+ "names": {"country":["Konungariket Sverige","Kingdom of Sweden","Sverige","Sweden"],"people":["Swedish","Swedes","Swede"],"places":["reclaimed bay of Lake Hammarsjon, near Kristianstad -2.","Kebnekaise South","Vastra Gotaland","Vasternorrland","National Day","Ostergotland","Sodermanland","Vasterbotten","Vastmanland","Norrbotten","Gavleborg","Jonkoping","Kronoberg","Stockholm","Blekinge","Jamtland","Varmland","Dalarna","Gotland","Halland","Malaren","Uppsala","Vattern","Kalmar","Orebro","Vanern","Skane"],"neighbours":["Finland","Finnish","Norway","Norwegian"]},
+ "fields": {
+  "climate": "temperate in south with cold, cloudy winters and cool, partly cloudy summers; subarctic in north",
+  "terrain": "mostly flat or gently rolling lowlands; mountains in west",
+  "hazards": "ice floes in the surrounding waters, especially in the Gulf of Bothnia, can interfere with maritime traffic",
+  "heights": {"high":2100,"low":4,"mean":320},
+  "coast": 3218,
+  "borders": {"total":2211,"lengths":[1666,545]},
+  "area": 450295,
+  "lake": {"sqkm":5580,"kind":"fresh water"},
+  "resources": "iron ore, copper, lead, zinc, gold, silver, tungsten, uranium, arsenic, feldspar, timber, hydropower",
+  "farm": "milk, wheat, sugar beets, barley, potatoes, oats, rapeseed, pork, chicken, beef",
+  "exports": "cars, refined petroleum, packaged medicine, paper, vehicle parts/accessories",
+  "industries": "iron and steel, precision equipment (bearings, radio and telephone parts, armaments), wood pulp and paper products, processed foods, motor vehicles",
+  "city": {"millions":1.7,"capital":true},
+  "languages": "Swedish (official)",
+  "religions": "Church of Sweden (Lutheran) 53.9%, other (includes Roman Catholic, Orthodox, Baptist, Muslim, Jewish, and Buddhist) 8.9%, none or unspecified 37.2%",
+  "age": {"median":41.2,"life":82.9},
+  "system": {"text":"parliamentary constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":349,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"6 June 1523","event":"Gustav VASA elected king of Sweden, marking the abolishment of the…","from":""},
+  "regions": "21 counties",
+  "legal": "civil law system influenced by Roman-Germanic law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"National Day","date":"6 June"},
+  "military": "18 years of age for voluntary and selective conscripted service for men and women…",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","Nordic Council"],
+  "colours": "blue, yellow"
+ }
+}

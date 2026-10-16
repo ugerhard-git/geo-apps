@@ -1,0 +1,31 @@
+{
+ "code": "NP",
+ "names": {"country":["Nepal"],"people":["Nepali"],"places":["Mount Everest (highest peak in Asia and highest point on earth above sea level)","Constitution Day","Kanchan Kalan","Sudurpashchim","Kathmandu","Bagmati","Gandaki","Karnali","Lumbini","Madhesh","Koshi"],"neighbours":["China","Chinese","India","Indian"]},
+ "fields": {
+  "climate": "varies from cool summers and severe winters in north to subtropical summers and mild winters in south",
+  "terrain": "Tarai or flat river plain of the Ganges in south; central hill region with rugged Himalayas in north",
+  "hazards": "severe thunderstorms; flooding; landslides; drought and famine depending on the timing, intensity, and duration of the summer monsoons",
+  "heights": {"high":8849,"low":70,"mean":2565},
+  "coast": 0,
+  "borders": {"total":3159,"lengths":[1770,1389]},
+  "area": 147181,
+  "resources": "quartz, water, timber, hydropower, scenic beauty, small deposits of lignite, copper, cobalt, iron ore",
+  "farm": "rice, vegetables, potatoes, sugarcane, maize, wheat, bison milk, milk, mangoes/guavas, bananas",
+  "exports": "knotted carpets, garments, flat-rolled iron, synthetic fibers, palm oil",
+  "industries": "tourism, carpets, textiles, small rice, jute, sugar, oilseed mills, cigarettes, cement and brick production",
+  "city": {"millions":1.571,"capital":true},
+  "languages": "Nepali (official) 44.9%, Maithali 11.1%, Bhojpuri 6.2%, Tharu 5.9%, Tamang 4.9%, Bajjika 3.9%, Avadhi 3%, Nepalbhasha (Newari) 3%, Magar Dhut 2.8%, Doteli 1.7%, Urdu 1.4%, Yakthung/Limbu 1.2%, Gurung…",
+  "religions": "Hindu 81.2%, Buddhist 8.2%, Muslim 5.1%, Kirat 3.2%, Christian 1.8%; less than 1%: Prakriti, Bon, Jains, Sikh",
+  "age": {"median":28.1,"life":73},
+  "system": {"text":"federal parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":275,"how":"all directly elected","term":"5 years"},{"seats":59,"how":"","term":"6 years"}]},
+  "independence": {"date":"1768","event":"unified by Prithvi Narayan SHAH","from":""},
+  "regions": "7 provinces",
+  "legal": "English common law and Hindu legal concepts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"20 September"},
+  "military": "18 years of age for voluntary military service for men and women; upper age limit varies; no conscription",
+  "memberships": ["SAARC"],
+  "colours": "red"
+ }
+}

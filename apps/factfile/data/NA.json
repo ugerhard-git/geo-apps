@@ -1,0 +1,32 @@
+{
+ "code": "NA",
+ "names": {"country":["Republic of Namibia","Namibia"],"people":["Namibians","Namibian"],"places":["Zambezi , Angola, Botswana, Zimbabwe, and Mozambique [m]","Konigstein on Brandberg","Orange river mouth","Independence Day","Atlantic Ocean","Kavango East","Kavango West","Otjozondjupa","Ohangwena","Okavango","Oshikoto","Windhoek","Omaheke","Omusati","Zambezi","Erongo","Hardap","Khomas","Kunene","Oshana"],"neighbours":["South Africa","South African","Botswana","Motswana (singular)","Angola","Angolan","Zambia","Zambian"]},
+ "fields": {
+  "climate": "desert; hot, dry; rainfall sparse and erratic",
+  "terrain": "mostly high plateau; Namib Desert along coast; Kalahari Desert in east",
+  "hazards": "prolonged periods of drought",
+  "heights": {"high":2573,"low":0,"mean":1141},
+  "coast": 1572,
+  "borders": {"total":4220,"lengths":[1544,1427,1005,244]},
+  "area": 824292,
+  "river": {"km":2740,"shared":1},
+  "resources": "diamonds, copper, uranium, gold, silver, lead, tin, lithium, cadmium, tungsten, zinc, salt, hydropower, fish",
+  "farm": "root vegetables, milk, maize, beef, grapes, onions, wheat, fruits, pulses, vegetables",
+  "exports": "gold, diamonds, radioactive chemicals, fish, refined petroleum",
+  "industries": "mining, tourism, fishing, agriculture",
+  "city": {"millions":0.477,"capital":true},
+  "languages": "Oshiwambo languages 49.7%, Nama/Damara 11%, Kavango languages 10.4%, Afrikaans 9.4%, Herero languages 9.2%, Zambezi languages 4.9%, English (official) 2.3%, other African languages 1.5%, other…",
+  "religions": "Christian 97.5%, other 0.6% (includes Muslim, Baha'i, Jewish, Buddhist), unaffiliated 1.9%",
+  "age": {"median":23.1,"life":65.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":104,"how":"","term":"5 years"},{"seats":42,"how":"all indirectly elected","term":"5 years"}]},
+  "independence": {"date":"21 March 1990","event":"","from":"South African mandate"},
+  "regions": "14 regions",
+  "legal": "mixed system of uncodified civil law based on Roman-Dutch law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"21 March"},
+  "military": "18-25 years of age for men and women for voluntary military service; no conscription",
+  "memberships": ["African Union","SADC","Commonwealth"],
+  "colours": "blue, red, green, white, yellow"
+ }
+}

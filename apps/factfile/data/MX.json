@@ -1,0 +1,33 @@
+{
+ "code": "MX",
+ "names": {"country":["Estados Unidos Mexicanos","United Mexican States","Mexico"],"people":["Mexicans","Mexican"],"places":["Rio Grande river mouth","Volcan Pico de Orizaba","Colorado river mouth","Baja California Sur","Laguna de Terminos","Laguna de Chapala","Cuidad de Mexico","Independence Day","Baja California","San Luis Potosi","Toluca de Lerdo","Aguascalientes","Laguna Salada","Quintana Roo","Guadalajara","Mexico City","Guanajuato","Nuevo Leon","Tamaulipas","Chihuahua","Michoacán","Monterrey","Queretaro","Zacatecas","Campeche","Coahuila","Guerrero","Tlaxcala","Veracruz","Chiapas","Durango","Hidalgo","Jalisco","Morelos","Nayarit","Sinaloa","Tabasco","Tijuana","Yucatan","Colima","Mexico","Oaxaca","Puebla","Sonora"],"neighbours":["Guatemala","Guatemalan","Belize","Belizean","US"]},
+ "fields": {
+  "climate": "varies from tropical to desert",
+  "terrain": "high, rugged mountains; low coastal plains; high plateaus; desert",
+  "hazards": "tsunamis along the Pacific coast; volcanoes and destructive earthquakes in the center and south; hurricanes on the Pacific, Gulf of America, and Caribbean coasts; volcanism: volcanic activity in the central-southern part of the country…",
+  "heights": {"high":5636,"low":-10,"mean":1111},
+  "coast": 9330,
+  "borders": {"total":4389,"lengths":[3155,958,276]},
+  "area": 1964375,
+  "lake": {"sqkm":1550,"kind":"salt water"},
+  "river": {"km":3057,"shared":1},
+  "resources": "petroleum, silver, antimony, copper, gold, lead, zinc, natural gas, timber",
+  "farm": "sugarcane, maize, milk, oranges, sorghum, tomatoes, chicken, chillies/peppers, wheat, lemons/limes",
+  "exports": "cars, vehicle parts/accessories, crude petroleum, trucks, computers",
+  "industries": "food and beverages, tobacco, chemicals, iron and steel, petroleum, mining, textiles, clothing, motor vehicles, consumer durables, tourism",
+  "city": {"millions":22.281,"capital":true},
+  "languages": "Spanish only 93.8%, Spanish and indigenous languages (including Mayan, Nahuatl, and others) 5.4%, indigenous only 0.6%, unspecified 0.2%",
+  "religions": "Catholic 77.7%, no religion 10.6%, other Evangelical Churches 7.5%, Jehovah Witness 1.2%…",
+  "age": {"median":31,"life":74.6},
+  "system": {"text":"federal presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":500,"how":"all directly elected","term":"3 years"},{"seats":128,"how":"all directly elected","term":"6 years"}]},
+  "independence": {"date":"16 September 1810","event":"","from":"Spain"},
+  "regions": "32 states",
+  "legal": "civil law system with US constitutional law influence; judicial review of legislative acts",
+  "suffrage": "18 years of age; universal and compulsory",
+  "holiday": {"name":"Independence Day","date":"16 September"},
+  "military": "18 years of age (16 with parental consent) for voluntary service for men and women; men at age 18 subject to lottery-based 12-month compulsory military service",
+  "memberships": ["OECD","G20"],
+  "colours": "green, white, red"
+ }
+}

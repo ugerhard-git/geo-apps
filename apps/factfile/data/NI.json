@@ -1,0 +1,32 @@
+{
+ "code": "NI",
+ "names": {"country":["República de Nicaragua","Republic of Nicaragua","Nicaragua"],"people":["Nicaraguans","Nicaraguan"],"places":["Costa Caribe Norte","Lago de Nicaragua","Costa Caribe Sur","Independence Day","Lago de Managua","Nueva Segovia","Pacific Ocean","Rio San Juan","Chinandega","Chontales","Matagalpa","Jinotega","Granada","Managua","Mogoton","Carazo","Estelí","Madriz","Masaya","Boaco","Rivas","Leon"],"neighbours":["Costa Rica","Costa Rican","Honduras","Honduran"]},
+ "fields": {
+  "climate": "tropical in lowlands, cooler in highlands",
+  "terrain": "extensive Atlantic coastal plains rising to central interior mountains; narrow Pacific coastal plain interrupted by volcanoes",
+  "hazards": "destructive earthquakes; volcanoes; landslides; extremely susceptible to hurricanes; volcanism: significant volcanic activity; Cerro Negro (728 m) is one of Nicaragua's most active volcanoes…",
+  "heights": {"high":2085,"low":0,"mean":298},
+  "coast": 910,
+  "borders": {"total":1253,"lengths":[940,313]},
+  "area": 130370,
+  "lake": {"sqkm":8150,"kind":"fresh water"},
+  "resources": "gold, silver, copper, tungsten, lead, zinc, timber, fish",
+  "farm": "sugarcane, milk, rice, oil palm fruit, maize, plantains, cassava, groundnuts, beans, chicken",
+  "exports": "garments, gold, insulated wire, coffee, beef",
+  "industries": "food processing, chemicals, machinery and metal products, knit and woven apparel, petroleum refining and distribution, beverages, footwear, wood, electric wire harness manufacturing, mining",
+  "city": {"millions":1.095,"capital":true},
+  "languages": "Spanish (official) 99.5%, Indigenous 0.3%, Portuguese 0.1%, other 0.1%",
+  "religions": "Roman Catholic 44.9%, Protestant 38.7% (Evangelical 38.2, Adventist 0.5%), other 1.2%, (includes Jehovah's Witness and Church of Jesus Christ), believer but not belonging to a church 1%, agnostic or…",
+  "age": {"median":29.5,"life":74.7},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":91,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"15 September 1821","event":"","from":"Spain"},
+  "regions": "15 departments and 2 autonomous regions",
+  "legal": "civil law system; Supreme Court may review administrative acts",
+  "suffrage": "16 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"15 September"},
+  "military": "18-30 years of age for voluntary military service (16-20 for cadets); no conscription; tour of duty 18-36 months",
+  "memberships": ["SICA"],
+  "colours": "blue, white"
+ }
+}

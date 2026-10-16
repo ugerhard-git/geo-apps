@@ -1,0 +1,31 @@
+{
+ "code": "SD",
+ "names": {"country":["Republic of the Sudan","Jumhuriyat as-Sudan","As-Sudan","Sudan"],"people":["Sudanese"],"places":["Blue Nile river mouth","Independence Day","Central Darfur","North Kordofan","South Kordofan","West Kordofan","Jabal Marrah","North Darfur","South Darfur","East Darfur","West Darfur","River Nile","White Nile","Blue Nile","Khartoum","Northern","Gedaref","Kassala","Red Sea","An Nīl","Gezira","Sennar","Nyala","Nile"],"neighbours":["Central African Republic","South Sudan","South Sudanese","Ethiopia","Ethiopian","Eritrea","Eritrean","Egypt","Egyptian","Libya","Libyan","Chad","Chadian"]},
+ "fields": {
+  "climate": "hot and dry; arid desert; rainy season varies by region (April to November)",
+  "terrain": "generally flat, featureless plain; desert dominates the north",
+  "hazards": "dust storms and periodic persistent droughts",
+  "heights": {"high":3042,"low":0,"mean":568},
+  "coast": 853,
+  "borders": {"total":6819,"lengths":[2158,1403,1276,744,682,382,174]},
+  "area": 1861484,
+  "river": {"km":6650,"shared":5},
+  "resources": "petroleum; small reserves of iron ore, copper, chromium ore, zinc, tungsten, mica, silver, gold; hydropower",
+  "farm": "sugarcane, sorghum, milk, onions, groundnuts, sesame seeds, goat milk, bananas, mangoes/guavas, millet",
+  "exports": "crude petroleum, gold, oil seeds, sheep and goats, ground nuts",
+  "industries": "oil, cotton ginning, textiles, cement, edible oils, sugar, soap distilling, shoes, petroleum refining, pharmaceuticals, armaments, automobile/light truck assembly, milling",
+  "city": {"millions":6.344,"capital":true},
+  "languages": "Arabic (official), English (official), Nubian, Ta Bedawie, Fur",
+  "religions": "Sunni Muslim, small Christian minority",
+  "age": {"median":19.5,"life":67.8},
+  "system": {"text":"presidential republic","unsettled":false},
+  "independence": {"date":"1 January 1956","event":"","from":"Egypt and the UK"},
+  "regions": "18 states",
+  "legal": "mixed system of Islamic law and English common law",
+  "suffrage": "17 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"1 January"},
+  "military": "18-33 years of age for compulsory or voluntary military service for men and women; service obligation 12-24 months",
+  "memberships": ["Arab League","Islamic Cooperation","COMESA"],
+  "colours": "red, white, black, green"
+ }
+}

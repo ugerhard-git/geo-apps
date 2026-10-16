@@ -1,0 +1,33 @@
+{
+ "code": "ET",
+ "names": {"country":["YeItyop'iya Federalawi Demokrasiyawi Ripeblik","Federal Democratic Republic of Ethiopia","Ityop'iya","Ethiopia","FDRE"],"people":["Ethiopians","Ethiopian"],"places":["Derg Downfall Day (defeat of MENGISTU regime)","YeDebub Biheroch Bihereseboch na Hizboch","YeDebub M'irab Ityop'iya Hizboch","Southern Ethiopia Peoples","Blue Nile river source","Danakil Depression","Binshangul Gumuz","Gambela Hizboch","Abhe Bid Hayk","Lake Turkana","Addis Ababa","Ch'amo Hayk","Hareri Hizb","Abaya Hayk","Adis Abeba","Dire Dawa","Lake Tana","Ras Dejen","Abhe Bad","Oromia","Sidama","Sumale","Tigray","Amara","Afar"],"neighbours":["South Sudan","South Sudanese","Djibouti","Djiboutian","Eritrea","Eritrean","Somalia","Somali","Kenya","Kenyan","Sudan","Sudanese"]},
+ "fields": {
+  "climate": "tropical monsoon with wide topographic-induced variation",
+  "terrain": "high plateau with central mountain range divided by Great Rift Valley",
+  "hazards": "geologically active Great Rift Valley susceptible to earthquakes, volcanic eruptions; frequent droughts; volcanism: volcanic activity in the Great Rift Valley; Erta Ale (613 m) is the country's most active volcano…",
+  "heights": {"high":4550,"low":-125,"mean":1330},
+  "coast": 0,
+  "borders": {"total":5925,"lengths":[1640,1299,1033,867,744,342]},
+  "area": 1104300,
+  "lake": {"sqkm":6400,"kind":"salt water"},
+  "river": {"km":1600,"shared":1},
+  "resources": "small reserves of gold, platinum, copper, potash, natural gas, hydropower",
+  "farm": "maize, cereals, wheat, milk, sorghum, barley, taro, beans, sweet potatoes, potatoes",
+  "exports": "coffee, garments, dried legumes, cut flowers, oil seeds",
+  "industries": "food processing, beverages, textiles, leather, garments, chemicals, metals processing, cement",
+  "city": {"millions":5.461,"capital":true},
+  "languages": "Oromo (official regional working language) 33.8%, Amharic (official national language) 29.3%, Somali (official regional working language) 6.2%, Tigrigna (Tigrinya) (official regional working…",
+  "religions": "Ethiopian Orthodox 43.8%, Muslim 31.3%, Protestant 22.8%, Catholic 0.7%, traditional 0.6%, other 0.8%",
+  "age": {"median":20.6,"life":67.7},
+  "system": {"text":"federal parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":547,"how":"all directly elected","term":"5 years"},{"seats":153,"how":"all indirectly elected","term":"5 years"}]},
+  "independence": {"date":"oldest independent country in Africa and one of the oldest in the world, at least 2,000 years","event":"","from":""},
+  "regions": "12 ethnically based regional states and 2 chartered cities",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Derg Downfall Day (defeat of MENGISTU regime)","date":"28 May"},
+  "military": "18-22 years of age for voluntary military service; 24-month service obligation; no compulsory military service, but the military can conduct callups when necessary and compliance is compulsory",
+  "memberships": ["BRICS","African Union","COMESA"],
+  "colours": "green, yellow, red"
+ }
+}

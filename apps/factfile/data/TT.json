@@ -1,0 +1,31 @@
+{
+ "code": "TT",
+ "names": {"country":["Republic of Trinidad and Tobago","Trinidad and Tobago"],"people":["Trinidadians","Tobagonians","Trinidadian","Tobagonian"],"places":["Couva/Tabaquite/Talparo","San Juan/Laventille","El Cerro del Aripo","Independence Day","Mayaro/Rio Claro","Tunapuna/Piarco","Caribbean Sea","Port of Spain","Port-Of-Spain","Sangre Grande","Diego Martin","Point Fortin","Princes Town","San Fernando","Penal/Debe","Chaguanas","Siparia","Tobago","Arima"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; rainy season (June to December)",
+  "terrain": "mostly plains with some hills and low mountains",
+  "hazards": "outside usual path of hurricanes and other tropical storms",
+  "heights": {"high":940,"low":0,"mean":83},
+  "coast": 362,
+  "borders": {"total":0,"lengths":[]},
+  "area": 5128,
+  "resources": "petroleum, natural gas, asphalt",
+  "farm": "chicken, fruits, coconuts, citrus fruits, maize, oranges, plantains, eggs, taro, mangoes/guavas",
+  "exports": "natural gas, alcohols, ammonia, crude petroleum, iron reductions",
+  "industries": "petroleum and petroleum products, liquefied natural gas, methanol, ammonia, urea, steel products, beverages, food processing, cement, cotton textiles",
+  "city": {"millions":0.545,"capital":true},
+  "languages": "English (official), Trinidadian Creole English, Tobagonian Creole English, Caribbean Hindustani (a dialect of Hindi), Trinidadian Creole French, Spanish, Chinese",
+  "religions": "Protestant 32.1% (Pentecostal/Evangelical/Full Gospel 12%, Baptist 6.9%, Anglican 5.7%, Seventh Day Adventist 4.1%, Presbyterian/Congregational 2.5%, other Protestant 0.9%), Roman Catholic 21.6%…",
+  "age": {"median":39.1,"life":76.5},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":42,"how":"all directly elected","term":"5 years"},{"seats":31,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"31 August 1962","event":"","from":"UK"},
+  "regions": "9 regions, 3 boroughs, 2 cities, 1 ward",
+  "legal": "English common law; Supreme Court reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"31 August"},
+  "military": "generally 18-24 years of age for voluntary military service for men and women; no conscription",
+  "memberships": ["CARICOM","Commonwealth"],
+  "colours": "red, white, black"
+ }
+}

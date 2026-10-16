@@ -1,0 +1,32 @@
+{
+ "code": "VN",
+ "names": {"country":["Cong Hoa Xa Hoi Chu Nghia Viet Nam","Socialist Republic of Vietnam","Viet Nam","Vietnam","SRV"],"people":["Vietnamese"],"places":["Independence Day (National Day)","Pearl river source","Ho Chi Minh City","Ba Ria-Vung Tau","Red river mouth","Sông Tiên Giang","South China Sea","Thua Thien-Hue","river mouth","Thai Nguyen","Tuyen Quang","Binh Duong","Binh Phuoc","Binh Thuan","Fan Si Pan","Kien Giang","Ninh Thuan","Quang Binh","Quang Ngai","Quang Ninh","Tien Giang","Bac Giang","Binh Dinh","Dien Bien","Dong Thap","Hai Duong","Hai Phong","Hau Giang","Khanh Hoa","Ninh Binh","Quang Nam","Quang Tri","Soc Trang","Thai Binh","Thanh Hoa","Vinh Long","Vinh Phuc","An Giang","Bac Lieu","Bac Ninh","Bien Hoa","Cao Bang","Dak Nong","Dong Nai","Ha Giang","Hoa Binh","Hung Yen","Lai Chau","Lam Dong","Lang Son","Nam Dinh","Tay Ninh","Tra Vinh","Bac Kan","Ben Tre","Can Tho","Da Nang","Dak Lak","Gia Lai","Ha Tinh","Kon Tum","Lao Cai","Long An","Nghe An","Phu Tho","Phu Yen","Yen Bai","Ca Mau","Ha Nam","Ha Noi","Mekong","Son La","Hanoi"],"neighbours":["Cambodia","Cambodian","China","Chinese","Laos","Lao or Laotian"]},
+ "fields": {
+  "climate": "tropical in south; monsoonal in north with hot, rainy season (May to September) and warm, dry season (October to March)",
+  "terrain": "low, flat delta in south and north; central highlands; hilly, mountainous in far north and northwest",
+  "hazards": "occasional typhoons (May to January) with extensive flooding, especially in the Mekong River delta",
+  "heights": {"high":3144,"low":0,"mean":398},
+  "coast": 3444,
+  "borders": {"total":4616,"lengths":[2161,1297,1158]},
+  "area": 331210,
+  "river": {"km":4350,"shared":5},
+  "resources": "antimony, phosphates, coal, manganese, rare earth elements, bauxite, chromate, offshore oil and gas deposits, timber, hydropower, arable land",
+  "farm": "rice, vegetables, sugarcane, cassava, maize, pork, fruits, bananas, coconuts, coffee",
+  "exports": "broadcasting equipment, garments, integrated circuits, machine parts, footwear",
+  "industries": "food processing, garments, shoes, machine-building; mining, coal, steel; cement, chemical fertilizer, glass, tires, oil, mobile phones",
+  "city": {"millions":9.321,"capital":false},
+  "languages": "Vietnamese (official); English (often as a second language); some French, Chinese, and Khmer; mountain-area languages (including Mon-Khmer and Malayo-Polynesian)",
+  "religions": "Catholic 6.1%, Buddhist 5.8%, Protestant 1%, other 0.8%, none 86.3%",
+  "age": {"median":33.5,"life":76.1},
+  "system": {"text":"communist party-led state","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":500,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"2 September 1945","event":"","from":"France"},
+  "regions": "58 provinces and 5 municipalities",
+  "legal": "civil law system with European influences",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (National Day)","date":"2 September"},
+  "military": "18-27 years of age for compulsory and voluntary military service for men and women (in practice only men are drafted)…",
+  "memberships": ["ASEAN","Francophonie"],
+  "colours": "red, yellow"
+ }
+}

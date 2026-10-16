@@ -1,0 +1,31 @@
+{
+ "code": "GW",
+ "names": {"country":["Republic of Guinea-Bissau","Republica da Guine-Bissau","Guinea-Bissau","Guine-Bissau"],"people":["Bissau-Guineans","Bissau-Guinean"],"places":["Independence Day","Atlantic Ocean","Bolama/Bijagos","Dongol Ronde","Quinara","Tombali","Bafata","Biombo","Bissau","Cacheu","Gabu","Oio"],"neighbours":["Senegal","Senegalese","Guinea","Guinean"]},
+ "fields": {
+  "climate": "tropical; generally hot and humid; monsoonal-type rainy season (June to November) with southwesterly winds; dry season (December to May) with northeasterly harmattan winds",
+  "terrain": "mostly low-lying coastal plain with a deeply indented estuarine coastline rising to savanna in east; numerous off-shore islands including the Arquipelago Dos Bijagos consisting of 18 main islands and many small islets",
+  "hazards": "hot, dry, dusty harmattan haze may reduce visibility during dry season; brush fires",
+  "heights": {"high":277,"low":0,"mean":70},
+  "coast": 350,
+  "borders": {"total":762,"lengths":[421,341]},
+  "area": 36125,
+  "resources": "fish, timber, phosphates, bauxite, clay, granite, limestone, unexploited deposits of petroleum",
+  "farm": "rice, groundnuts, cashews, root vegetables, oil palm fruit, plantains, cassava, coconuts, vegetables, sweet potatoes",
+  "exports": "coconuts/brazil nuts/cashews, fish, fish oil, processed crustaceans, malt extract",
+  "industries": "agricultural products processing, beer, soft drinks",
+  "city": {"millions":0.664,"capital":true},
+  "languages": "Portuguese-based Creole, Portuguese (official; largely used as a second or third language), Pular (a Fula language), Mandingo",
+  "religions": "Muslim 46.1%, folk religions 30.6%, Christian 18.9%, other or unaffiliated 4.4%",
+  "age": {"median":18.5,"life":64.5},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":102,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"24 September 1973","event":"declared","from":""},
+  "regions": "9 regions",
+  "legal": "mixed system of civil law, which incorporated Portuguese law at independence; influenced by Economic Community of West African States (ECOWAS), West African Economic and Monetary Union (UEMOA)…",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"24 September"},
+  "military": "18-25 years of age for selective compulsory military service for men and women (Air Force service is voluntary)",
+  "memberships": ["Islamic Cooperation","African Union","ECOWAS","WAEMU","Francophonie","Portuguese-speaking"],
+  "colours": "red, yellow, green, black"
+ }
+}

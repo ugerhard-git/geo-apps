@@ -1,0 +1,27 @@
+{
+ "code": "JE",
+ "names": {"country":["Bailiwick of Jersey","Jersey"],"people":["Channel Islanders","Channel Islander"],"places":["English Channel","Liberation Day","Saint Lawrence","Saint Brelade","Saint Clement","Saint Saviour","Saint Helier","Saint Martin","Les Platons","Saint Peter","Saint John","Saint Mary","Saint Ouen","Grouville","Trinity"],"neighbours":[]},
+ "fields": {
+  "climate": "temperate; mild winters and cool summers",
+  "terrain": "gently rolling plain with low, rugged hills along north coast",
+  "hazards": "very large tidal variation can be hazardous to navigation",
+  "heights": {"high":136,"low":0,"mean":null},
+  "coast": 70,
+  "borders": {"total":0,"lengths":[]},
+  "area": 116,
+  "resources": "arable land",
+  "farm": "potatoes, cauliflower, tomatoes; beef, dairy products",
+  "exports": "refined petroleum, beverages, ships, jewelry, artwork",
+  "industries": "tourism, banking and finance, dairy, electronics",
+  "city": {"millions":0.034,"capital":true},
+  "languages": "English (official) 94.5%, Portuguese 4.6%, other 0.9% (includes French (official) and Jerriais)",
+  "religions": "Christian 85.2%, Baha'i 0.3%, Hindu 0.1%, Jewish 0.1%, Muslim 0.1%, atheist 1.1%, agnostic 13.1%",
+  "age": {"median":38.5,"life":83},
+  "system": {"text":"parliamentary democracy (Assembly of the States of Jersey)","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":54,"how":"49 directly elected, 5 appointed","term":"4 years"}]},
+  "legal": "the laws of the UK apply, as well as local statutes",
+  "suffrage": "16 years of age; universal",
+  "holiday": {"name":"Liberation Day","date":"9 May"},
+  "colours": "red, white"
+ }
+}

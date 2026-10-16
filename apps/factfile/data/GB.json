@@ -1,0 +1,29 @@
+{
+ "code": "GB",
+ "names": {"country":["United Kingdom of Great Britain and Northern Ireland","United Kingdom","UK"],"people":["British","Britons","Briton"],"places":["Bath and North East Somerset","City of Kingston upon Hull","Cheshire West and Chester","Causeway Coast and Glens","East Riding of Yorkshire","Antrim and Newtownabbey","Derry City and Strabane","Lisburn and Castlereagh","North East Lincolnshire","Christchurch and Poole","Hammersmith and Fulham","Kensington and Chelsea","North Northamptonshire","Southampton/Portsmouth","Windsor and Maidenhead","Blackburn with Darwen","Dumfries and Galloway","South Gloucestershire","The Vale of Glamorgan","West Northamptonshire","Barking and Dagenham","Central Bedfordshire","Kingston upon Thames","Redcar and Cleveland","Richmond upon Thames","The Scottish Borders","Ards and North Down","East Dunbartonshire","Fermanagh and Omagh","Mid and East Antrim","Newcastle upon Tyne","West Dunbartonshire","North Lincolnshire","Rhondda Cynon Taff","Telford and Wrekin","Brighton and Hove","City of Edinburgh","East Renfrewshire","Neath Port Talbot","North Lanarkshire","Perth and Kinross","South Lanarkshire","Bracknell Forest","Clackmannanshire","Isle of Anglesey","Northern Ireland","Shetland Islands","Stockton-on-Tees","Argyll and Bute","Buckinghamshire","Carmarthenshire","City of Bristol","Gloucestershire","Isles of Scilly","North Yorkshire","Nottinghamshire","Southend-on-Sea","Cambridgeshire","City of London","Leicestershire","Merthyr Tydfil","North Ayrshire","North Somerset","North Tyneside","Northumberland","Orkney Islands","South Ayrshire","South Tyneside","Stoke-on-Trent","Waltham Forest","West Berkshire","West Yorkshire","Worcestershire","Aberdeen City","Aberdeenshire","Blaenau Gwent","Cheshire East","Durham County","East Ayrshire","Herefordshire","Hertfordshire","Isle of Wight","Middlesbrough","Milton Keynes","Monmouthshire","Pembrokeshire","Staffordshire","Tower Hamlets","Wolverhampton","Denbighshire","East Lothian","Glasgow City","Lincolnshire","Peterborough","Renfrewshire","Warwickshire","West Lothian","Armagh City","Bournemouth","Dundee City","East Sussex","Eilean Siar","Oxfordshire","Southampton","West Sussex","Westminster","Birmingham","Caerphilly","Calderdale","Ceredigion","Darlington","Derbyshire","Flintshire","Hartlepool","Hillingdon","Inverclyde","Lancashire","Manchester","Mid Ulster","Midlothian","Nottingham","Portsmouth","Shropshire","St. Helens","Sunderland","Wandsworth","Warrington","Banbridge","Ben Nevis","Blackpool","Doncaster","Gateshead","Greenwich","Hampshire","Islington","Leicester","Liverpool","Redbridge","Rotherham","Sheffield","Southwark","Stockport","Wakefield","Wiltshire","Wokingham","Barnsley","Bradford","Bridgend","Cornwall","Coventry","Haringey","Havering","Highland","Hounslow","Kirklees","Knowlsey","Lewisham","Plymouth","Rochdale","Sandwell","Scotland","Solihull","Somerset","Stirling","Tameside","The Fens","Thurrock","Trafford","Bedford","Belfast","Bromley","Cardiff","Croydon","Cumbria","Enfield","Falkirk","Glasgow","Gwynedd","Hackney","Lambeth","Newport","Norfolk","Reading","Rutland","Salford","Suffolk","Swansea","Swindon","Torfaen","Walsall","Wrexham","Barnet","Bexley","Bolton","Camden","Dorset","Dudley","Ealing","Halton","Harrow","London","Medway","Merton","Newham","Oldham","Sefton","Slough","Surrey","Sutton","Torbay","Wirral","Angus","Brent","Conwy","Derby","Devon","Essex","Leeds","Luton","Moray","Murne","Newry","Powys","Wales","Wigan","Bury","Fife","Kent","York"],"neighbours":["Ireland","Irish"]},
+ "fields": {
+  "climate": "temperate; moderated by prevailing southwest winds over the North Atlantic Current; more than one-half of the days are overcast",
+  "terrain": "mostly rugged hills and low mountains; level to rolling plains in east and southeast",
+  "hazards": "winter windstorms; floods",
+  "heights": {"high":1345,"low":-4,"mean":162},
+  "coast": 12429,
+  "borders": {"total":499,"lengths":[499]},
+  "area": 243610,
+  "resources": "coal, petroleum, natural gas, iron ore, lead, zinc, gold, tin, limestone, salt, clay, chalk, gypsum, potash, silica sand, slate, arable land",
+  "farm": "milk, wheat, sugar beets, barley, potatoes, chicken, rapeseed, pork, beef, oats",
+  "exports": "cars, gold, gas turbines, packaged medicine, crude petroleum",
+  "industries": "machine tools, electric power equipment, automation equipment, railroad equipment, shipbuilding, aircraft, motor vehicles and parts, electronics and communications equipment, metals, chemicals, coal…",
+  "city": {"millions":9.648,"capital":true},
+  "languages": "English",
+  "religions": "Christian (includes Anglican, Roman Catholic, Presbyterian, Methodist) 59.5%, Muslim 4.4%, Hindu 1.3%, other 2%, unspecified 7.2%, none 25.7%",
+  "age": {"median":40.9,"life":82.2},
+  "system": {"text":"parliamentary constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":650,"how":"all directly elected","term":"5 years"},{"seats":800,"how":"all appointed","term":""}]},
+  "independence": {"date":"927","event":"minor English kingdoms unite","from":""},
+  "legal": "common law system; has nonbinding judicial review of Acts of Parliament under the Human Rights Act of 1998",
+  "suffrage": "18 years of age; universal",
+  "military": "16 years of age for enlisted ranks (with parental consent for under 18) and 18 years of age for officers; maximum age varies by military service; conscription abolished in 1963",
+  "memberships": ["EU","NATO","OECD","G7","G20","Commonwealth"],
+  "colours": "red, white, blue (all of Britain); red, white (England); blue, white (Scotland); red, white, green (Wales)"
+ }
+}

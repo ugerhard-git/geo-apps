@@ -1,0 +1,32 @@
+{
+ "code": "RO",
+ "names": {"country":["Romania"],"people":["Romanians","Romanian"],"places":["Unification Day (unification of Romania and Transylvania)","Bistrita-Nasaud","Caras-Severin","river mouth","Moldoveanu","Black Sea","Bucharest","Bucuresti","Constanta","Dambovita","Hunedoara","Maramures","Mehedinti","Satu Mare","Teleorman","Botosani","Calarasi","Harghita","Ialomita","Covasna","Dunărea","Giurgiu","Prahova","Suceava","Vrancea","Braila","Brasov","Danube","Galati","Tulcea","Valcea","Vaslui","Arges","Bacau","Bihor","Buzau","Ilfov","Mures","Neamt","Salaj","Sibiu","Timis","Alba","Arad","Cluj","Dolj","Gorj","Iasi","Olt"],"neighbours":["Bulgaria","Bulgarian","Hungary","Hungarian","Moldova","Moldovan","Ukraine","Ukrainian","Serbia","Serbian"]},
+ "fields": {
+  "climate": "temperate; cold, cloudy winters with frequent snow and fog; sunny summers with frequent showers and thunderstorms",
+  "terrain": "central Transylvanian Basin is separated from the Moldavian Plateau on the east by the Eastern Carpathian Mountains and separated from the Walachian Plain on the south by the Transylvanian Alps",
+  "hazards": "earthquakes, most severe in south and southwest; geologic structure and climate promote landslides",
+  "heights": {"high":2544,"low":0,"mean":414},
+  "coast": 225,
+  "borders": {"total":2844,"lengths":[683,605,601,531,424]},
+  "area": 238391,
+  "river": {"km":2888,"shared":9},
+  "resources": "petroleum (reserves declining), timber, natural gas, coal, iron ore, salt, arable land, hydropower",
+  "farm": "wheat, maize, milk, sunflower seeds, barley, rapeseed, potatoes, grapes, plums, apples",
+  "exports": "cars, vehicle parts/accessories, insulated wire, garments, wheat",
+  "industries": "electric machinery and equipment, auto assembly, textiles and footwear, light machinery, metallurgy, chemicals, food processing, petroleum refining, mining, timber, construction materials",
+  "city": {"millions":1.776,"capital":true},
+  "languages": "Romanian (official) 91.6%, Hungarian 6.3%, Romani 1.2%, other 0.7%",
+  "religions": "Romanian Orthodox 85.3%, Roman Catholic 4.5%, Reformed 3%, Pentecostal 2.5%, other 4.7%",
+  "age": {"median":45.8,"life":76.9},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":331,"how":"all directly elected","term":"4 years"},{"seats":136,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"9 May 1877","event":"independence proclaimed","from":"Ottoman Empire"},
+  "regions": "41 counties and 1 municipality",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Unification Day (unification of Romania and Transylvania)","date":"1 December"},
+  "military": "typically 18-35 years of age for voluntary service for men and women; compulsory service ended in 2007",
+  "memberships": ["EU","NATO","Francophonie"],
+  "colours": "blue, yellow, red"
+ }
+}

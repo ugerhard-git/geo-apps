@@ -1,0 +1,32 @@
+{
+ "code": "EE",
+ "names": {"country":["Republic of Estonia","Eesti Vabariik","Estonia","Eesti"],"people":["Estonians","Estonian"],"places":["Independence Day","Lake Võrtsjärv","Pohja-Parnumaa","Suur Munamagi","Kohtla-Jarve","Laane-Nigula","Narva-Joesuu","Pohja-Sakala","Vaike-Maarja","Haademeeste","Laane-Harju","Lake Peipus","Viru-Nigula","Baltic Sea","Laaneranna","Peipsiaare","Alutaguse","Joelahtme","Poltsamaa","Haapsalu","Luganuse","Marjamaa","Saaremaa","Sillamae","Viljandi","Haljala","Hiiumaa","Kadrina","Kuusalu","Mustvee","Raasiku","Rakvere","Setomaa","Tallinn","Antsla","Jogeva","Kambja","Kanepi","Kastre","Kehtna","Kohila","Luunja","Maardu","Otepaa","Räpina","Saarde","Viimsi","Vormsi","Anija","Harku","Jarva","Johvi","Keila","Kihnu","Kiili","Loksa","Mulgi","Narva","Paide","Parnu","Polva","Rapla","Rouge","Ruhnu","Tartu","Toila","Torva","Valga","Vinni","Elva","Kose","Muhu","Saku","Saue","Tapa","Tori","Turi","Voru","Noo","Rae"],"neighbours":["Latvia","Latvian","Russia","Russian"]},
+ "fields": {
+  "climate": "maritime; wet, moderate winters, cool summers",
+  "terrain": "marshy, lowlands; flat in the north, hilly in the south",
+  "hazards": "sometimes flooding occurs in the spring",
+  "heights": {"high":318,"low":0,"mean":61},
+  "coast": 3794,
+  "borders": {"total":657,"lengths":[333,324]},
+  "area": 45228,
+  "lake": {"sqkm":4300,"kind":"fresh water"},
+  "resources": "oil shale, peat, rare earth elements, phosphorite, clay, limestone, sand, dolomite, arable land, sea mud",
+  "farm": "milk, wheat, barley, rapeseed, peas, oats, potatoes, rye, pork, triticale",
+  "exports": "cars, wood, broadcasting equipment, refined petroleum, prefabricated buildings",
+  "industries": "food, engineering, electronics, wood and wood products, textiles; information technology, telecommunications",
+  "city": {"millions":0.454,"capital":true},
+  "languages": "Estonian (official) 67.2%, Russian 28.5%, other 3.7%, unspecified 0.6%",
+  "religions": "Orthodox 16.5%, Protestant 9.2% (Lutheran 7.7%, other Protestant 1.5%), other 3% (includes Roman Catholic, Muslim, Jehovah's Witness, Pentecostal, Buddhist, and Taara Believer), none 58.4%…",
+  "age": {"median":42.9,"life":78.4},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":101,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"24 February 1918","event":"","from":"Soviet Russia"},
+  "regions": "15 urban municipalities, 64 rural municipalities",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal; age 16 for local elections",
+  "holiday": {"name":"Independence Day","date":"24 February"},
+  "military": "18-27 for compulsory military or governmental service for men; conscript service requirement 8-11 months depending on education…",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD"],
+  "colours": "blue, black, white"
+ }
+}

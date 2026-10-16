@@ -1,0 +1,32 @@
+{
+ "code": "GN",
+ "names": {"country":["République de Guinée","Republic of Guinea","Guinea","Guinée"],"people":["Guineans","Guinean"],"places":["Niger river source","Independence Day","Atlantic Ocean","river source","Mont Nimba","N'Zerekore","Conakry","Faranah","Gambia","Gambie","Kankan","Kindia","Mamou","Boke","Labe"],"neighbours":["Cote d'Ivoire","Guinea-Bissau","Bissau-Guinean","Sierra Leone","Sierra Leonean","Liberia","Liberian","Senegal","Senegalese","Mali","Malian"]},
+ "fields": {
+  "climate": "generally hot and humid; monsoonal-type rainy season (June to November) with southwesterly winds; dry season (December to May) with northeasterly harmattan winds",
+  "terrain": "generally flat coastal plain, hilly to mountainous interior",
+  "hazards": "hot, dry, dusty harmattan haze may reduce visibility during dry season",
+  "heights": {"high":1752,"low":0,"mean":472},
+  "coast": 320,
+  "borders": {"total":4046,"lengths":[1062,816,794,590,421,363]},
+  "area": 245857,
+  "river": {"km":4200,"shared":2},
+  "resources": "bauxite, iron ore, diamonds, gold, uranium, hydropower, fish, salt",
+  "farm": "rice, cassava, maize, groundnuts, oil palm fruit, plantains, potatoes, fonio, yams, sweet potatoes",
+  "exports": "gold, aluminum ore, cocoa beans, crude petroleum, coconuts/brazil nuts/cashews",
+  "industries": "bauxite, gold, diamonds, iron ore; light manufacturing, agricultural processing",
+  "city": {"millions":2.111,"capital":true},
+  "languages": "French (official), Pular, Maninka, Susu, other native languages",
+  "religions": "Muslim 85.2%, Christian 13.4%, animist 0.2%, none 1.2%",
+  "age": {"median":19.5,"life":64.6},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":81,"how":"all appointed","term":""}]},
+  "independence": {"date":"2 October 1958","event":"","from":"France"},
+  "regions": "7 administrative regions and 1 governorate",
+  "legal": "civil law system based on the French model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"2 October"},
+  "military": "18 years of age for voluntary and selective conscripted service; 9-12 months of service",
+  "memberships": ["Islamic Cooperation","Francophonie"],
+  "colours": "red, yellow, green"
+ }
+}

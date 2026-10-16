@@ -1,0 +1,33 @@
+{
+ "code": "KZ",
+ "names": {"country":["Qazaqstan Respublikasy","Republic of Kazakhstan","Kazakhstan","Qazaqstan"],"people":["Kazakhstanis","Kazakhstani"],"places":["Soltustik Qazaqstan [North Kazakhstan]","Shyghys Qazaqstan [East Kazakhstan]","Batys Qazaqstan [West Kazakhstan]","Syr Darya river mouth","Ozero Seletytenzi","Independence Day","Pik Khan-Tengri","Ozero Balkhash","Ozero Sasykkol","Qauyndy Oyysy","Ozero Alakol","Ozero Zaysan","Caspian Sea","Mangghystau","Nur-Sultan","Qaraghandy","Bayqongyr","Qyzylorda","Turkistan","Aral Sea","Pavlodar","Qostanay","Shimkent","Shymkent","Zhambyl","Zhetisu","Almaty","Aqmola","Aqtobe","Astana","Atyrau","Ulytau","Abay"],"neighbours":["Turkmenistan","Turkmenistani","Kyrgyzstan","Kyrgyzstani","Uzbekistan","Uzbekistani","Russia","Russian","China","Chinese"]},
+ "fields": {
+  "climate": "continental, cold winters and hot summers, arid and semiarid",
+  "terrain": "vast flat steppe extending from the Volga in the west to the Altai Mountains in the east and from the plains of western Siberia in the north to oases and deserts of Central Asia in the south",
+  "hazards": "earthquakes in the south; mudslides around Almaty",
+  "heights": {"high":7010,"low":-132,"mean":387},
+  "coast": 0,
+  "borders": {"total":13364,"lengths":[7644,2330,1765,1212,413]},
+  "area": 2724900,
+  "lake": {"sqkm":374000,"kind":"salt water"},
+  "river": {"km":3078,"shared":3},
+  "resources": "major deposits of petroleum, natural gas, coal, iron ore, manganese, chrome ore, nickel, cobalt, copper, molybdenum, lead, zinc, bauxite, gold, uranium",
+  "farm": "wheat, milk, barley, potatoes, watermelons, cantaloupes/melons, sunflower seeds, maize, onions, tomatoes",
+  "exports": "crude petroleum, gold, radioactive chemicals, refined copper, copper ore",
+  "industries": "oil, coal, iron ore, manganese, chromite, lead, zinc, copper, titanium, bauxite, gold, silver, phosphates, sulfur, uranium, iron and steel…",
+  "city": {"millions":1.987,"capital":false},
+  "languages": "Kazakh (official, Qazaq) 80.1%, Russian 83.7%, English 35.1%",
+  "religions": "Muslim 69.3%, Christian 17.2% (Orthodox 17%, other 0.2%), Buddhism 0.1%, other 0.1%, non-believers 2.3%, unspecified 11%",
+  "age": {"median":32.1,"life":73.3},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":98,"how":"all directly elected","term":"5 years"},{"seats":50,"how":"","term":"6 years"}]},
+  "independence": {"date":"16 December 1991","event":"","from":"Soviet Union"},
+  "regions": "17 provinces and 4 cities",
+  "legal": "civil law system influenced by Roman-Germanic law and by the theory and practice of the Russian Federation",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"16 December"},
+  "military": "men 18-27 are subject to conscription for 12-24 months; conscripts may be assigned to the Armed Forces, the National Guard, the Border Service, the State Security Service, or the Ministry of…",
+  "memberships": ["Islamic Cooperation","Shanghai Cooperation","CIS","Eurasian Economic Union","CSTO"],
+  "colours": "blue, yellow"
+ }
+}

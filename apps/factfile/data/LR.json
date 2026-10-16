@@ -1,0 +1,31 @@
+{
+ "code": "LR",
+ "names": {"country":["Republic of Liberia","Liberia"],"people":["Liberians","Liberian"],"places":["Grand Cape Mount","Independence Day","Atlantic Ocean","Mount Wuteve","Grand Bassa","Grand Gedeh","Montserrado","River Cess","Grand Kru","River Gee","Gbarpolu","Maryland","Monrovia","Margibi","Nimba","Sinoe","Bomi","Bong","Lofa"],"neighbours":["Cote d'Ivoire","Sierra Leone","Sierra Leonean","Guinea","Guinean"]},
+ "fields": {
+  "climate": "tropical; hot, humid; dry winters with hot days and cool to cold nights; wet, cloudy summers with frequent heavy showers",
+  "terrain": "mostly flat to rolling coastal plains rising to rolling plateau and low mountains in northeast",
+  "hazards": "dust-laden harmattan winds blow from the Sahara (December to March)",
+  "heights": {"high":1447,"low":0,"mean":243},
+  "coast": 579,
+  "borders": {"total":1667,"lengths":[778,590,299]},
+  "area": 111369,
+  "resources": "iron ore, timber, diamonds, gold, hydropower",
+  "farm": "cassava, sugarcane, rice, oil palm fruit, bananas, rubber, vegetables, plantains, taro, maize",
+  "exports": "gold, ships, iron ore, rubber, refined petroleum",
+  "industries": "mining (iron ore and gold), rubber processing, palm oil processing, diamonds",
+  "city": {"millions":1.678,"capital":true},
+  "languages": "English 20% (official) and 27 indigenous languages, including Liberian English variants",
+  "religions": "Christian 84.9%, Muslim 12%, Traditional 0.5%, other 0.1%, none 2.6%",
+  "age": {"median":20.1,"life":61.6},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":73,"how":"all directly elected","term":"6 years"},{"seats":30,"how":"all directly elected","term":"9 years"}]},
+  "independence": {"date":"26 July 1847","event":"","from":""},
+  "regions": "15 counties",
+  "legal": "mixed system of common law, based on Anglo-American law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"26 July"},
+  "military": "18 years of age for men and women for voluntary military service",
+  "memberships": ["African Union","ECOWAS"],
+  "colours": "red, white, blue"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "code": "UY",
+ "names": {"country":["República Oriental del Uruguay","Oriental Republic of Uruguay","Uruguay"],"people":["Uruguayans","Uruguayan"],"places":["Rio de la Plata/Parana river mouth","Uruguay river mouth","Independence Day","Atlantic Ocean","Cerro Catedral","Treinta y Tres","Cerro Largo","Lagoa Mirim","Montevideo","Tacuarembó","Canelones","Lavalleja","Maldonado","Rio Negro","Paysandú","San José","Artigas","Colonia","Durazno","Florida","Soriano","Flores","Rivera","Rocha","Salto"],"neighbours":["Argentina","Argentine","Brazil","Brazilian"]},
+ "fields": {
+  "climate": "warm temperate; freezing temperatures almost unknown",
+  "terrain": "mostly rolling plains and low hills; fertile coastal lowland",
+  "hazards": "seasonally high winds (the pampero is a chilly and occasional violent wind that blows north from the Argentine pampas), droughts, floods…",
+  "heights": {"high":514,"low":0,"mean":109},
+  "coast": 660,
+  "borders": {"total":1591,"lengths":[1050,541]},
+  "area": 176215,
+  "lake": {"sqkm":2970,"kind":"salt water"},
+  "river": {"km":4880,"shared":3},
+  "resources": "arable land, hydropower, minor minerals, fish",
+  "farm": "milk, rice, wheat, barley, soybeans, beef, rapeseed, sugarcane, maize, beef offal",
+  "exports": "wood pulp, beef, milk, rice, wood",
+  "industries": "food processing, electrical machinery, transportation equipment, petroleum products, textiles, chemicals, beverages",
+  "city": {"millions":1.774,"capital":true},
+  "languages": "Spanish (official, Rioplatense is the most widely spoken dialect)",
+  "religions": "Roman Catholic 36.5%, Protestant 5% (Evangelical (non-specific) 4.6%, Adventist 0.2%, Protestant (non-specific) 0.3%), African American Cults/Umbanda 2.8%, Jehovah's Witness 0.6%, Church of Jesus…",
+  "age": {"median":37.4,"life":78.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":99,"how":"all directly elected","term":"5 years"},{"seats":31,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"25 August 1825","event":"","from":"Brazil"},
+  "regions": "19 departments",
+  "legal": "civil law system based on the Spanish civil code",
+  "suffrage": "18 years of age; universal and compulsory",
+  "holiday": {"name":"Independence Day","date":"25 August"},
+  "military": "generally 18-30 years of age (up to 22 for the Navy and up to 40 for some specialist positions) for voluntary military service for men and women; initial 24-month service obligation",
+  "memberships": ["Mercosur"],
+  "colours": "blue, white, yellow"
+ }
+}

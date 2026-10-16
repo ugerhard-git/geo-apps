@@ -1,0 +1,32 @@
+{
+ "code": "ZW",
+ "names": {"country":["Republic of Zimbabwe","Zimbabwe"],"people":["Zimbabweans","Zimbabwean"],"places":["Zambezi , Angola, Namibia, Botswana, and Mozambique [m]","junction of the Runde and Save Rivers","Mashonaland Central","Matabeleland North","Matabeleland South","Independence Day","Mashonaland East","Mashonaland West","Manicaland","Inyangani","Bulawayo","Masvingo","Midlands","Limpopo","Harare"],"neighbours":["South Africa","South African","Mozambique","Mozambican","Botswana","Motswana (singular)","Zambia","Zambian"]},
+ "fields": {
+  "climate": "tropical; moderated by altitude; rainy season (November to March)",
+  "terrain": "mostly high plateau with higher central plateau (high veld); mountains in east",
+  "hazards": "recurring droughts; floods and severe storms are rare",
+  "heights": {"high":2592,"low":162,"mean":961},
+  "coast": 0,
+  "borders": {"total":3229,"lengths":[1402,834,763,230]},
+  "area": 390757,
+  "river": {"km":2740,"shared":1},
+  "resources": "coal, chromium ore, asbestos, gold, nickel, copper, iron ore, vanadium, lithium, tin, platinum group metals",
+  "farm": "sugarcane, beef, maize, cabbages, potatoes, tomatoes, milk, onions, bananas, wheat",
+  "exports": "gold, tobacco, nickel, minerals, diamonds",
+  "industries": "mining (coal, gold, platinum, copper, nickel, tin, diamonds, clay, numerous metallic and nonmetallic ores), steel, wood products, cement, chemicals, fertilizer, clothing and footwear, foodstuffs…",
+  "city": {"millions":1.578,"capital":true},
+  "languages": "Shona (official, most widely spoken) 80.9%, Ndebele (official, second most widely spoken) 11.5%, English (official, traditionally used for official business) 0.3%, 13 minority languages (official…",
+  "religions": "Apostolic Sect 40.3%, Pentecostal 17%, Protestant 13.8%, other Christian 7.8%, Roman Catholic 6.4%, African traditionalist 5%, other 1.5% (includes Muslim, Jewish, Hindu), none 8.3%",
+  "age": {"median":21.3,"life":67.2},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":280,"how":"all directly elected","term":"5 years"},{"seats":80,"how":"","term":"5 years"}]},
+  "independence": {"date":"18 April 1980","event":"","from":"UK"},
+  "regions": "8 provinces and 2 cities with provincial status",
+  "legal": "mixed system of English common law, Roman-Dutch civil law, and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"18 April"},
+  "military": "18-22 years of age for voluntary military service for men and women (enlisted personnel); 18-24 for officer cadets; 18-30 for technical/specialist personnel; no conscription",
+  "memberships": ["African Union","SADC","COMESA"],
+  "colours": "green, yellow, red, black, white"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code": "BW",
+ "names": {"country":["Republic of Botswana","Botswana"],"people":["Batswana","Motswana"],"places":["Zambezi , Angola, Namibia, Zimbabwe, and Mozambique [m]","junction of the Limpopo and Shashe Rivers","Independence Day (Botswana Day)","Okavango river mouth","Manyelanong Hill","Selebi-Phikwe","Francistown","North East","North West","South East","Kgalagadi","Sowa Town","Gaborone","Kgatleng","Southern","Central","Jwaneng","Kweneng","Limpopo","Lobatse","Ghanzi","Chobe"],"neighbours":["South Africa","South African","Zimbabwe","Zimbabwean","Namibia","Namibian","Zambia","Zambian"]},
+ "fields": {
+  "climate": "semiarid; warm winters and hot summers",
+  "terrain": "predominantly flat to gently rolling tableland; Kalahari Desert in southwest",
+  "hazards": "periodic droughts; seasonal August winds blow from the west, carrying sand and dust across the country, which can obscure visibility",
+  "heights": {"high":1495,"low":513,"mean":1013},
+  "coast": 0,
+  "borders": {"total":4347.15,"lengths":[1969,1544,834,0.15]},
+  "area": 581730,
+  "river": {"km":2740,"shared":1},
+  "resources": "diamonds, copper, nickel, salt, soda ash, potash, coal, iron ore, silver",
+  "farm": "root vegetables, beef, vegetables, sorghum, maize, game meat, milk, watermelons, goat milk, sunflower seeds",
+  "exports": "diamonds, copper ore, insulated wire, carbonates, cattle",
+  "industries": "diamonds, copper, nickel, salt, soda ash, potash, coal, iron ore, silver; beef processing; textiles",
+  "city": {"millions":0.269,"capital":true},
+  "languages": "Setswana 77.3%, Sekalanga 7.4%, Shekgalagadi 3.4%, English (official) 2.8%, Zezuru/Shona 2%, Sesarwa 1.7%, Sembukushu 1.6%, Ndebele 1%, other 2.8%",
+  "religions": "Christian 79.1%, Badimo 4.1%, other 1.4% (includes Baha'i, Hindu, Muslim, Rastafarian), none 15.2%, unspecified 0.3%",
+  "age": {"median":25.8,"life":66.4},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":69,"how":"","term":"5 years"}]},
+  "independence": {"date":"30 September 1966","event":"","from":"UK"},
+  "regions": "10 districts and 6 town councils",
+  "legal": "mixed legal system of civil law influenced by the Roman-Dutch model, including customary and common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (Botswana Day)","date":"30 September"},
+  "military": "18-24 years of age (men and women) for general recruits and officer candidates; 18-40 for special entrant officers; no conscription",
+  "memberships": ["African Union","SADC","Commonwealth"],
+  "colours": "light blue, white, black"
+ }
+}

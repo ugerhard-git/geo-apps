@@ -1,0 +1,30 @@
+{
+ "code": "DM",
+ "names": {"country":["Commonwealth of Dominica","Dominica"],"people":["Dominicans","Dominican"],"places":["Independence Day","Morne Diablotins","Caribbean Sea","Saint Patrick","Saint Andrew","Saint George","Saint Joseph","Saint David","Saint Peter","Saint John","Saint Luke","Saint Mark","Saint Paul","Roseau"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; moderated by northeast trade winds; heavy rainfall",
+  "terrain": "rugged mountains of volcanic origin",
+  "hazards": "flash floods are a constant threat; destructive hurricanes can be expected during the late summer months; volcanism: Dominica lies in the middle of the volcanic-island arc of the Lesser Antilles that extends from the island of Saba in the north to Grenada in…",
+  "heights": {"high":1447,"low":0,"mean":null},
+  "coast": 148,
+  "borders": {"total":0,"lengths":[]},
+  "area": 751,
+  "resources": "timber, hydropower, arable land",
+  "farm": "taro, grapefruits, yams, bananas, coconuts, plantains, milk, yautia, sugarcane, oranges",
+  "exports": "iron blocks, medical instruments, excavation machinery, power equipment, soap",
+  "industries": "soap, coconut oil, tourism, copra, furniture, cement blocks, shoes",
+  "city": {"millions":0.015,"capital":true},
+  "languages": "English (official), French patois",
+  "religions": "Roman Catholic 52.7%, Protestant 29.7% (includes Seventh Day Adventist 6.7%, Pentecostal 6.1%, Baptist 5.2%, Christian Union Church 3.9%, Methodist 2.6%, Gospel Mission 2.1%, other Protestant 3.1%)…",
+  "age": {"median":37.5,"life":78.7},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":32,"how":"","term":"5 years"}]},
+  "independence": {"date":"3 November 1978","event":"","from":"UK"},
+  "regions": "10 parishes",
+  "legal": "common law based on the English model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"3 November"},
+  "memberships": ["CARICOM","Commonwealth","Francophonie"],
+  "colours": "green, yellow, black, white, red"
+ }
+}

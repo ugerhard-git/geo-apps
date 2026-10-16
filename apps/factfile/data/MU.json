@@ -1,0 +1,30 @@
+{
+ "code": "MU",
+ "names": {"country":["Republic of Mauritius","Mauritius"],"people":["Mauritians","Mauritian"],"places":["Independence and Republic Day, 12 March (1968","Cargados Carajos Shoals","Riviere du Rempart","Agalega Islands","Plaines Wilhems","Pamplemousses","Indian Ocean","Black River","Grand Port","Mont Piton","Port Louis","Rodrigues","Savanne","Flacq","Moka"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical, modified by southeast trade winds; warm, dry winter (May to November); hot, wet, humid summer (November to May)",
+  "terrain": "small coastal plain rising to discontinuous mountains encircling central plateau",
+  "hazards": "cyclones (November to April); almost completely surrounded by reefs that may pose maritime hazards",
+  "heights": {"high":828,"low":0,"mean":null},
+  "coast": 177,
+  "borders": {"total":0,"lengths":[]},
+  "area": 2040,
+  "resources": "arable land, fish",
+  "farm": "sugarcane, chicken, pumpkins/squash, tomatoes, eggs, potatoes, cabbages, bananas, onions, cucumbers/gherkins",
+  "exports": "fish, garments, raw sugar, fertilizers, diamonds",
+  "industries": "food processing (largely sugar milling), textiles, clothing, mining, chemicals, metal products, transport equipment, nonelectrical machinery, tourism",
+  "city": {"millions":0.149,"capital":true},
+  "languages": "Creole 86.5%, Bhojpuri 5.3%, French 4.1%, two languages 1.4%, other 2.6% (includes English, one of the two official languages of the National Assembly, which is spoken by less than 1% of the…",
+  "religions": "Hindu 48.5%, Roman Catholic 26.3%, Muslim 17.3%, other Christian 6.4%, other 0.6%, none 0.7%, unspecified 0.1%",
+  "age": {"median":40,"life":75.4},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":67,"how":"","term":"5 years"}]},
+  "independence": {"date":"12 March 1968","event":"","from":"UK"},
+  "regions": "9 districts and 3 dependencies",
+  "legal": "civil system based on French civil law with some elements of English common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence and Republic Day, 12 March (1968","date":"1992)"},
+  "memberships": ["African Union","SADC","COMESA","Francophonie"],
+  "colours": "red, blue, yellow, green"
+ }
+}

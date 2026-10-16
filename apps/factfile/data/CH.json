@@ -1,0 +1,32 @@
+{
+ "code": "CH",
+ "names": {"country":["Schweizerische Eidgenossenschaft","Confederazione Svizzera","Confederation Suisse","Confederaziun Svizra","Swiss Confederation","Switzerland","Svizzera","Schweiz","Suisse","Svizra","CH"],"people":["Swiss"],"places":["Graubuenden/Grigioni/Grischun","Dufourspitze on Monte Rosa","Appenzell Ausserrhoden","Appenzell Innerrhoden","Fribourg/Freiburg","Basel-Landschaft","Lake Constance","Lake Maggiore","Valais/Wallis","river source","Sankt Gallen","Schaffhausen","Basel-Stadt","Lake Geneva","Berne/Bern","Neuchatel","Nidwalden","Solothurn","Obwalden","Thurgau","Zuerich","Aargau","Genève","Glarus","Luzern","Schwyz","Ticino","Zurich","Rhein","Rhine","Bern","Jura","Vaud","Uri","Zug"],"neighbours":["Liechtenstein","Austria","Austrian","Germany","German","France","French","Italy","Italian"]},
+ "fields": {
+  "climate": "temperate, but varies with altitude; cold, cloudy, rainy/snowy winters; cool to warm, cloudy, humid summers with occasional showers",
+  "terrain": "mostly mountains (Alps in south, Jura in northwest) with a central plateau of rolling hills, plains, and large lakes",
+  "hazards": "avalanches, landslides; flash floods",
+  "heights": {"high":4634,"low":195,"mean":1350},
+  "coast": 0,
+  "borders": {"total":1770,"lengths":[698,525,348,158,41]},
+  "area": 41277,
+  "lake": {"sqkm":580,"kind":"fresh water"},
+  "river": {"km":1233,"shared":3},
+  "resources": "hydropower potential, timber, salt",
+  "farm": "milk, sugar beets, wheat, potatoes, pork, apples, barley, beef, maize, grapes",
+  "exports": "gold, packaged medicine, vaccines, nitrogen compounds, base metal watches",
+  "industries": "machinery, chemicals, watches, textiles, precision instruments, tourism, banking, insurance, pharmaceuticals",
+  "city": {"millions":1.432,"capital":false},
+  "languages": "German (or Swiss German) (official) 62.1%, French (official) 22.8%, Italian (official) 8%, English 5.7%, Portuguese 3.5%, Albanian 3.3%, Serbo-Croatian 2.3%, Spanish 2.3%, Romansh (official) 0.5%…",
+  "religions": "Roman Catholic 34.4%, Protestant 22.5%, other Christian 5.7%, Muslim 5.4%, other 1.5%, none 29.4%, unspecified 1.1%",
+  "age": {"median":44.4,"life":83.9},
+  "system": {"text":"federal republic (formally a confederation)","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":200,"how":"all directly elected","term":"4 years"},{"seats":46,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1 August 1291","event":"founding of the Swiss Confederation","from":""},
+  "regions": "26 cantons",
+  "legal": "civil law system; judicial review of legislative acts, except federal decrees of a general obligatory character",
+  "suffrage": "18 years of age; universal",
+  "military": "every Swiss man 18-30 is obligated to serve in the military or the alternative civilian service; women can serve on a voluntary basis…",
+  "memberships": ["Schengen","OECD","Francophonie"],
+  "colours": "red, white"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "PA",
+ "names": {"country":["República de Panama","Republic of Panama","Panama"],"people":["Panamanians","Panamanian"],"places":["Independence Day (Separation Day)","Laguna de Chiriqui","Bocas del Toro","Embera-Wounaan","Pacific Ocean","Naso Tjer Di","Panama Oeste","Ngabe-Bugle","Panama City","Volcan Baru","Los Santos","Guna Yala","Chiriquí","Veraguas","Herrera","Darien","Panama","Coclé","Colon"],"neighbours":["Costa Rica","Costa Rican","Colombia","Colombian"]},
+ "fields": {
+  "climate": "tropical maritime; hot, humid, cloudy; prolonged rainy season (May to January), short dry season (January to May)",
+  "terrain": "interior mostly steep, rugged mountains with dissected, upland plains; coastal plains with rolling hills",
+  "hazards": "occasional severe storms and forest fires in the Darien area",
+  "heights": {"high":3475,"low":0,"mean":360},
+  "coast": 2490,
+  "borders": {"total":687,"lengths":[348,339]},
+  "area": 75420,
+  "lake": {"sqkm":900,"kind":"salt water"},
+  "resources": "copper, mahogany forests, shrimp, hydropower",
+  "farm": "sugarcane, rice, bananas, oranges, oil palm fruit, chicken, plantains, maize, milk, pineapples",
+  "exports": "copper ore, ships, refined petroleum, bananas, fish",
+  "industries": "construction, brewing, cement and other construction materials, sugar milling",
+  "city": {"millions":1.977,"capital":true},
+  "languages": "Spanish (official), Indigenous languages (including Ngabere (Guaymi), Buglere, Kuna, Embera, Wounaan, Naso (Teribe), and Bri Bri), Panamanian English Creole (a mixture of English and Spanish with…",
+  "religions": "Evangelical 55%, Roman Catholic 33.4%, none 10.1%, unspecified 1.5%",
+  "age": {"median":31.7,"life":79.2},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":71,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"3 November 1903","event":"","from":"Colombia"},
+  "regions": "10 provinces and 4 indigenous regions",
+  "legal": "civil law system; Supreme Court of Justice reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (Separation Day)","date":"3 November"},
+  "memberships": ["SICA"],
+  "colours": "blue, white, red"
+ }
+}

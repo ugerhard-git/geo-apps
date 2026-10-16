@@ -1,0 +1,27 @@
+{
+ "code": "CW",
+ "names": {"country":["Country of Curacao","Land Curacao","Pais Korsou","Curacao","Korsou"],"people":["Curacaoan","Dutch"],"places":["King's Day (birthday of King WILLEM-ALEXANDER)","Mt. Christoffel","Caribbean Sea","Willemstad"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine climate, ameliorated by northeast trade winds, results in mild temperatures; semiarid with average rainfall of 60 cm/year",
+  "terrain": "generally low, hilly terrain",
+  "hazards": "Curacao is south of the Caribbean hurricane belt and is rarely threatened",
+  "heights": {"high":372,"low":0,"mean":null},
+  "coast": 364,
+  "borders": {"total":0,"lengths":[]},
+  "area": 444,
+  "resources": "calcium phosphates, protected harbors, hot springs",
+  "farm": "aloe, sorghum, peanuts, vegetables, tropical fruit",
+  "exports": "diamonds, refined petroleum, crude petroleum, gold, petroleum coke",
+  "industries": "tourism, petroleum refining, petroleum transshipment, light manufacturing, financial and business services",
+  "city": {"millions":0.144,"capital":true},
+  "languages": "Papiamento (official) (a creole language that is a mixture of Portuguese, Spanish, Dutch, English, and, to a lesser extent, French, as well as elements of African languages and the language of the…",
+  "religions": "Roman Catholic 72.8%, Pentecostal 6.6%, Protestant 3.2%, Adventist 3%, Jehovah's Witness 2%, Evangelical 1.9%, other 3.8%, none 6%, unspecified 0.6%",
+  "age": {"median":38.1,"life":79.9},
+  "system": {"text":"parliamentary democracy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":21,"how":"directly elected","term":"4 years"}]},
+  "legal": "based on Dutch civil law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"King's Day (birthday of King WILLEM-ALEXANDER)","date":"27 April"},
+  "colours": "blue, yellow, white"
+ }
+}

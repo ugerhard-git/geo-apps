@@ -1,0 +1,27 @@
+{
+ "code": "IM",
+ "names": {"country":["Ellan Vannin","Isle of Man","I.O.M."],"people":["Manxwoman","Manxman","Manx"],"places":["Tynwald Day","Irish Sea","Snaefell","Douglas"],"neighbours":[]},
+ "fields": {
+  "climate": "temperate; cool summers and mild winters; overcast about a third of the time",
+  "terrain": "hills in north and south bisected by central valley",
+  "hazards": "occasional high winds and rough seas",
+  "heights": {"high":621,"low":0,"mean":null},
+  "coast": 160,
+  "borders": {"total":0,"lengths":[]},
+  "area": 572,
+  "resources": "none",
+  "farm": "cereals, vegetables; cattle, sheep, pigs, poultry",
+  "exports": "crude petroleum, artwork, vegetables, fruits, whiskies",
+  "industries": "financial services, light manufacturing, tourism",
+  "city": {"millions":0.027,"capital":true},
+  "languages": "English, Manx Gaelic (about 2% of the population has some knowledge)",
+  "religions": "Christian 54.7%, Muslim 0.5%, Buddhist 0.5%, Hindu 0.4%, Jewish 0.2%, none 43.8%",
+  "age": {"median":45.1,"life":82.5},
+  "system": {"text":"parliamentary democracy (Tynwald)","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":24,"how":"directly elected","term":"5 years"},{"seats":11,"how":"3 appointed, 8 indirectly elected","term":"4 years"}]},
+  "legal": "UK laws apply, as well as Manx statutes",
+  "suffrage": "16 years of age; universal",
+  "holiday": {"name":"Tynwald Day","date":"5 July"},
+  "colours": "red, white"
+ }
+}

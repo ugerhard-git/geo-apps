@@ -1,0 +1,29 @@
+{
+ "code": "SS",
+ "names": {"country":["Republic of South Sudan","South Sudan"],"people":["South Sudanese"],"places":["Northern Bahr el Ghazal","Western Bahr el Ghazal","Central Equatoria","Eastern Equatoria","Western Equatoria","Independence Day","Upper Nile","White Nile","Jonglei","Kinyeti","Warrap","Lakes","Unity","Juba","Nile"],"neighbours":["Democratic Republic of the Congo","Central African Republic","Ethiopia","Ethiopian","Uganda","Ugandan","Kenya","Kenyan","Sudan","Sudanese"]},
+ "fields": {
+  "climate": "hot with seasonal rainfall influenced by the annual shift of the Inter-Tropical Convergence Zone; rainfall heaviest in upland areas of the south and diminishes to the north",
+  "terrain": "plains in the north and center rise to southern highlands along the border with Uganda and Kenya; the White Nile, flowing north out of the uplands of Central Africa, is the major geographic feature of the country…",
+  "heights": {"high":3187,"low":381,"mean":null},
+  "coast": 0,
+  "borders": {"total":6018,"lengths":[2158,1299,1055,714,475,317]},
+  "area": 644329,
+  "river": {"km":6650,"shared":5},
+  "resources": "hydropower, fertile agricultural land, gold, diamonds, petroleum, hardwoods, limestone, iron ore, copper, chromium ore, zinc, tungsten, mica, silver",
+  "farm": "milk, cassava, sorghum, goat milk, vegetables, fruits, groundnuts, sesame seeds, beef, maize",
+  "exports": "crude petroleum, refined petroleum, forage crops, gold, scrap iron",
+  "city": {"millions":0.459,"capital":true},
+  "languages": "English (official), Arabic (includes Juba and Sudanese variants), ethnic languages include Dinka, Nuer, Bari, Zande, Shilluk",
+  "religions": "Christian 60.5%, folk religion 32.9%, Muslim 6.2%, other <1%, unaffiliated <1%",
+  "age": {"median":18.7,"life":60.3},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":550,"how":"all appointed","term":""},{"seats":100,"how":"all appointed","term":""}]},
+  "independence": {"date":"9 July 2011","event":"","from":"Sudan"},
+  "regions": "10 states",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"9 July"},
+  "military": "18 (legal minimum age)-35 for voluntary military service for men and women; 12-24 months service",
+  "memberships": ["African Union","East African Community"],
+  "colours": "red, green, blue, yellow, black, white"
+ }
+}

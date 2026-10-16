@@ -1,0 +1,31 @@
+{
+ "code": "BT",
+ "names": {"country":["Kingdom of Bhutan","Druk Gyalkhap","Druk Yul","Bhutan"],"people":["Bhutanese"],"places":["National Day (Ugyen WANGCHUCK became first hereditary king)","Samdrup Jongkhar","Wangdue Phodrang","Gangkar Puensum","Trashi Yangtse","Drangeme Chhu","Pemagatshel","Trashigang","Bumthang","Lhuentse","Zhemgang","Chhukha","Punakha","Sarpang","Thimphu","Trongsa","Tsirang","Dagana","Mongar","Samtse","Gasa","Paro","Haa"],"neighbours":["China","Chinese","India","Indian"]},
+ "fields": {
+  "climate": "varies; tropical in southern plains; cool winters and hot summers in central valleys; severe winters and cool summers in Himalayas",
+  "terrain": "mostly mountainous with some fertile valleys and savanna",
+  "hazards": "violent storms from the Himalayas are the source of the country's Bhutanese name, which translates as Land of the Thunder Dragon; frequent landslides during the rainy season",
+  "heights": {"high":7570,"low":97,"mean":2220},
+  "coast": 0,
+  "borders": {"total":1136,"lengths":[659,477]},
+  "area": 38394,
+  "resources": "timber, hydropower, gypsum, calcium carbonate",
+  "farm": "rice, milk, potatoes, root vegetables, maize, oranges, areca nuts, chillies/peppers, pumpkins/squash, carrots/turnips",
+  "exports": "iron alloys, aircraft, dolomite, semi-finished iron, cement",
+  "industries": "cement, wood products, processed fruits, alcoholic beverages, calcium carbide, tourism",
+  "city": {"millions":0.203,"capital":true},
+  "languages": "Sharchopkha 28%, Dzongkha (official) 24%, Lhotshamkha 22%, other 26% (includes foreign languages)",
+  "religions": "Lamaistic Buddhist 75.3%, Indian- and Nepali-influenced Hinduism 22.1%, other 2.6%",
+  "age": {"median":31.2,"life":73.7},
+  "system": {"text":"constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":47,"how":"all directly elected","term":"5 years"},{"seats":25,"how":"","term":"0 years"}]},
+  "independence": {"date":"17 December 1907","event":"became a unified kingdom under its first hereditary king","from":""},
+  "regions": "20 districts",
+  "legal": "civil law based on Buddhist religious law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"National Day (Ugyen WANGCHUCK became first hereditary king)","date":"17 December"},
+  "military": "18 years of age for voluntary military service for men and women; militia training is compulsory for men aged 20-25 over a 3-year period",
+  "memberships": ["SAARC"],
+  "colours": "orange, yellow"
+ }
+}

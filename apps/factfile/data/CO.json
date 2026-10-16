@@ -1,0 +1,32 @@
+{
+ "code": "CO",
+ "names": {"country":["República de Colombia","Republic of Colombia","Colombia"],"people":["Colombians","Colombian"],"places":["Providencia y Santa Catalina","Archipiélago de San Andres","Rio Negro river source","Pico Cristobal Colon","Norte de Santander","Independence Day","Valle del Cauca","Pacific Ocean","Barranquilla","Cundinamarca","Bucaramanga","La Guajira","Antioquia","Atlántico","Cartagena","Magdalena","Risaralda","Santander","Amazonas","Casanare","Guaviare","Medellin","Putumayo","Bolivar","Caquetá","Cordoba","Guainía","Orinoco","Quindío","Vichada","Arauca","Bogota","Bogotá","Boyacá","Caldas","Nariño","Tolima","Vaupes","Cauca","Cesar","Choco","Huila","Sucre","Cali","Meta"],"neighbours":["Venezuela","Venezuelan","Ecuador","Ecuadorian","Brazil","Brazilian","Panama","Panamanian","Peru","Peruvian"]},
+ "fields": {
+  "climate": "tropical along coast and eastern plains; cooler in highlands",
+  "terrain": "flat coastal lowlands, central highlands, high Andes Mountains, eastern lowland plains (Llanos)",
+  "hazards": "highlands subject to volcanic eruptions; occasional earthquakes; periodic droughts; volcanism: Galeras (4,276 m) is one of Colombia's most active volcanoes…",
+  "heights": {"high":5730,"low":0,"mean":593},
+  "coast": 3208,
+  "borders": {"total":6672,"lengths":[2341,1790,1494,708,339]},
+  "area": 1138910,
+  "river": {"km":2250,"shared":2},
+  "resources": "petroleum, natural gas, coal, iron ore, nickel, gold, copper, emeralds, hydropower",
+  "farm": "sugarcane, oil palm fruit, milk, rice, plantains, potatoes, bananas, maize, chicken, avocados",
+  "exports": "crude petroleum, coal, gold, coffee, refined petroleum",
+  "industries": "textiles, food processing, oil, clothing and footwear, beverages, chemicals, cement; gold, coal, emeralds",
+  "city": {"millions":11.508,"capital":true},
+  "languages": "Spanish (official) 98.9%, indigenous 1%, Portuguese 0.1%; 65 indigenous languages exist",
+  "religions": "Roman Catholic 63.6%, Protestant 17.2% (Evangelical 16.7%, Adventist 0.3%, other Protestant 0.2%), Jehovah's Witness 0.6%, Church of Jesus Christ 0.1%, other 0.3%, believer, 0.2%…",
+  "age": {"median":33.1,"life":74.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":187,"how":"all directly elected","term":"4 years"},{"seats":108,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"20 July 1810","event":"","from":"Spain"},
+  "regions": "32 departments and 1 capital district",
+  "legal": "civil law system influenced by the Spanish and French civil codes",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"20 July"},
+  "military": "18-24 years of age for compulsory (men) and voluntary (men and women) military (and police) service; conscript service obligation is 18 months or 12 months for those with a college degree…",
+  "memberships": ["Andean Community"],
+  "colours": "yellow, blue, red"
+ }
+}

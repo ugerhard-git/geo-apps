@@ -1,0 +1,33 @@
+{
+ "code": "ID",
+ "names": {"country":["Republic of Indonesia","Republik Indonesia","Indonesia"],"people":["Indonesians","Indonesian"],"places":["Kepulauan Bangka Belitung","Indian/Pacific Oceans","Nusa Tenggara Barat","Nusa Tenggara Timur","Kalimantan Selatan","Kalimantan Tengah","Sulawesi Tenggara","Independence Day","Kalimantan Barat","Kalimantan Timur","Kalimantan Utara","Papua Barat Daya","Papua Pegunungan","Sulawesi Selatan","Sumatera Selatan","Sulawesi Tengah","Kepulauan Riau","Sulawesi Barat","Sulawesi Utara","Sumatera Barat","Sumatera Utara","Papua Selatan","Maluku Utara","Papua Tengah","Jawa Tengah","Papua Barat","Puncak Jaya","Danau Toba","Jawa Barat","Jawa Timur","Yogyakarta","Gorontalo","Tangerang","Bengkulu","Surabaya","Bandung","Jakarta","Lampung","Banten","Bekasi","Maluku","Depok","Jambi","Papua","Sepik","Aceh","Bali","Riau","Fly"],"neighbours":["Papua New Guinea","Papua New Guinean","Timor-Leste","Timorese","Malaysia","Malaysian"]},
+ "fields": {
+  "climate": "tropical; hot, humid; more moderate in highlands",
+  "terrain": "mostly coastal lowlands; larger islands have interior mountains",
+  "hazards": "occasional floods; severe droughts; tsunamis; earthquakes; volcanoes; forest fires; volcanism: Indonesia contains the most volcanoes of any country in the world, with over 75 historically active…",
+  "heights": {"high":4884,"low":0,"mean":367},
+  "coast": 54716,
+  "borders": {"total":2958,"lengths":[1881,824,253]},
+  "area": 1904569,
+  "lake": {"sqkm":1150,"kind":"fresh water"},
+  "river": {"km":1126,"shared":1},
+  "resources": "petroleum, tin, natural gas, nickel, timber, bauxite, copper, fertile soils, coal, gold, silver",
+  "farm": "oil palm fruit, rice, sugarcane, maize, coconuts, cassava, bananas, eggs, chicken, mangoes/guavas",
+  "exports": "coal, palm oil, iron alloys, lignite, garments",
+  "industries": "petroleum and natural gas, textiles, automotive, electrical appliances, apparel, footwear, mining, cement, medical instruments and appliances, handicrafts, chemical fertilizers, plywood, rubber…",
+  "city": {"millions":11.249,"capital":true},
+  "languages": "Bahasa Indonesia (official, modified form of Malay), English, Dutch, local dialects (of which the most widely spoken is Javanese); note - more than 700 languages are used in Indonesia",
+  "religions": "Muslim 87.4%, Protestant 7.5%, Roman Catholic 3.1%, Hindu 1.7%, other 0.8% (includes Buddhist and Confucian)",
+  "age": {"median":31.8,"life":73.6},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":580,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"17 August 1945","event":"","from":"Netherlands"},
+  "regions": "35 provinces, 1 autonomous province, 1 special region, and 1 national capital district",
+  "legal": "civil law system based on the Roman-Dutch model and influenced by customary law",
+  "suffrage": "17 years of age; universal; married persons regardless of age",
+  "holiday": {"name":"Independence Day","date":"17 August"},
+  "military": "18 years of age for voluntary service for men and women; upper age limits vary by military service, position, specialty; compulsory service authorized but not utilized",
+  "memberships": ["G20","Islamic Cooperation","ASEAN"],
+  "colours": "red, white"
+ }
+}

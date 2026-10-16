@@ -1,0 +1,32 @@
+{
+ "code": "LS",
+ "names": {"country":["Kingdom of Lesotho","Lesotho"],"people":["Basotho","Mosotho"],"places":["junction of the Orange and Makhaleng Rivers","Orange river source","Thabana Ntlenyana","Independence Day","Mohale's Hoek","Butha-Buthe","Qacha's Nek","Thaba-Tseka","Mokhotlong","Mafeteng","Quthing","Leribe","Maseru","Berea"],"neighbours":["South Africa","South African"]},
+ "fields": {
+  "climate": "temperate; cool to cold, dry winters; hot, wet summers",
+  "terrain": "mostly highland with plateaus, hills, and mountains",
+  "hazards": "periodic droughts",
+  "heights": {"high":3482,"low":1400,"mean":2161},
+  "coast": 0,
+  "borders": {"total":1106,"lengths":[1106]},
+  "area": 30355,
+  "river": {"km":2092,"shared":2},
+  "resources": "water, agricultural and grazing land, diamonds, sand, clay, building stone",
+  "farm": "milk, potatoes, maize, vegetables, fruits, sorghum, wheat, game meat, beans, wool",
+  "exports": "diamonds, garments, wool, power equipment, bedding",
+  "industries": "food, beverages, textiles, apparel assembly, handicrafts, construction, tourism",
+  "city": {"millions":0.202,"capital":true},
+  "languages": "Sesotho (official), English (official), Phuthi, Xhosa, Zulu",
+  "religions": "Protestant 47.8% (Pentecostal 23.1%, Lesotho Evangelical 17.3%, Anglican 7.4%), Roman Catholic 39.3%, other Christian 9.1%, non-Christian 1.4%, none 2.3%",
+  "age": {"median":24,"life":60.2},
+  "system": {"text":"parliamentary constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":122,"how":"all directly elected","term":"5 years"},{"seats":33,"how":"11 appointed","term":"5 years"}]},
+  "independence": {"date":"4 October 1966","event":"","from":"UK"},
+  "regions": "10 districts",
+  "legal": "mixed system of English common law and Roman-Dutch law; High Court and Court of Appeal review legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"4 October"},
+  "military": "20-30 years of age for voluntary military service for both men and women",
+  "memberships": ["African Union","SADC","Commonwealth"],
+  "colours": "blue, white, green, black"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code": "MN",
+ "names": {"country":["Mongol Uls","Mongolia"],"people":["Mongolians","Mongolian"],"places":["Nayramadlin Orgil (Khuiten Peak)","Naadam (games) holiday","Hovsgol Nuur","Hyargas Nuur","Bayan-Olgiy","Bayanhongor","Har Us Nuur","Ulaanbaatar","Darhan-Uul","Govi-Altay","Govisumber","Ovorhangay","Dornogovi","Suhbaatar","Arhangay","Dundgovi","Hoh Nuur","Omnogovi","Uvs Nuur","Dzavhan","Hovsgol","Selenge","Bulgan","Dornod","Hentiy","Orhon","Amur","Hovd","Tov","Uvs"],"neighbours":["Russia","Russian","China","Chinese"]},
+ "fields": {
+  "climate": "desert; continental (large daily and seasonal temperature ranges)",
+  "terrain": "vast semidesert and desert plains, grassy steppe, mountains in west and southwest; Gobi Desert in south-central",
+  "hazards": "dust storms; grassland and forest fires; drought; \"zud,\" which is harsh winter conditions",
+  "heights": {"high":4374,"low":560,"mean":1528},
+  "coast": 0,
+  "borders": {"total":8082,"lengths":[4630,3452]},
+  "area": 1564116,
+  "lake": {"sqkm":3350,"kind":"salt water"},
+  "river": {"km":4444,"shared":2},
+  "resources": "oil, coal, copper, molybdenum, tungsten, phosphates, tin, nickel, zinc, fluorspar, gold, silver, iron",
+  "farm": "milk, wheat, lamb/mutton, potatoes, beef, carrots/turnips, goat milk, goat meat, bison milk, horse meat",
+  "exports": "coal, copper ore, gold, iron ore, crude petroleum",
+  "industries": "construction and construction materials; mining (coal, copper, molybdenum, fluorspar, tin, tungsten, gold); oil; food and beverages…",
+  "city": {"millions":1.673,"capital":true},
+  "languages": "Mongolian 90% (official, Khalkha dialect is predominant), Turkic, Russian",
+  "religions": "Buddhist 51.8%, no religion 40.6%, Muslim 3.2%, Shaman 2.5%, Christian 1.3%, Other 0.6%",
+  "age": {"median":28.8,"life":71.9},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":126,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"29 December 1911","event":"independence declared","from":"China"},
+  "regions": "21 provinces and 1 municipality",
+  "legal": "civil law system influenced by Soviet and Romano-Germanic systems; constitution ambiguous on judicial review of legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Naadam (games) holiday","date":"11-15 July"},
+  "military": "18-25 years of age for voluntary service for men and women; initial service 24 months; compulsory service for men at 18…",
+  "colours": "red, blue, yellow"
+ }
+}

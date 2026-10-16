@@ -1,0 +1,32 @@
+{
+ "code": "LT",
+ "names": {"country":["Republic of Lithuania","Lietuvos Respublika","Lithuania","Lietuva"],"people":["Lithuanians","Lithuanian"],"places":["Independence Day (or National Day)","Klaipedos Miestas","Panevezio Miestas","Palangos Miestas","Vilniaus Miestas","Alytaus Miestas","Curonian Lagoon","Siauliu Miestas","Kauno Miestas","Druskininkai","Kaisiadorys","Kazlu Rudos","Marijampole","Radviliskis","Salcininkai","Vilkaviskis","Baltic Sea","Elektrenai","Svencionys","Aukstojas","Birstonas","Jurbarkas","Kalvarija","Kedainiai","Mazeikiai","Pakruojis","Panevezys","Raseiniai","Sirvintos","Visaginas","Anksciai","Ignalina","Joniskis","Klaipeda","Kretinga","Kupiskis","Lazdijai","Pagegiai","Pasvalys","Rietavas","Rokiskis","Siauliai","Moletai","Neringa","Prienai","Skuodas","Taurage","Telsiai","Ukmerge","Vilnius","Zarasai","Akmene","Alytus","Birzai","Jonava","Kaunas","Plunge","Sakiai","Silale","Silute","Trakai","Varena","Kelme","Utena"],"neighbours":["Belarus","Belarusian","Latvia","Latvian","Poland","Polish","Russia","Russian"]},
+ "fields": {
+  "climate": "transitional, between maritime and continental; wet, moderate winters and summers",
+  "terrain": "lowland, many scattered small lakes, fertile soil",
+  "hazards": "occasional floods, droughts",
+  "heights": {"high":294,"low":0,"mean":110},
+  "coast": 90,
+  "borders": {"total":1545,"lengths":[640,544,261,100]},
+  "area": 65300,
+  "lake": {"sqkm":1620,"kind":"salt water"},
+  "resources": "peat, arable land, amber",
+  "farm": "wheat, milk, sugar beets, rapeseed, barley, potatoes, triticale, oats, beans, peas",
+  "exports": "refined petroleum, furniture, plastic products, wheat, cars",
+  "industries": "metal-cutting machine tools, electric motors, televisions, refrigerators and freezers, petroleum refining, shipbuilding (small ships), furniture, textiles, food processing, fertilizer, agricultural…",
+  "city": {"millions":0.541,"capital":true},
+  "languages": "Lithuanian (official) 85.3%, Russian 6.8%, Polish 5.1%, other 1.1%, two mother tongues 1.7%",
+  "religions": "Roman Catholic 74.2%, Russian Orthodox 3.7%, Old Believer 0.6%, Evangelical Lutheran 0.6%, Evangelical Reformist 0.2%, other (including Sunni Muslim, Jewish, Greek Catholic, and Karaite) 0.9%, none…",
+  "age": {"median":44,"life":76.1},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":141,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"16 February 1918","event":"","from":"Soviet Russia and Germany"},
+  "regions": "60 municipalities",
+  "legal": "civil law system; legislative acts can be appealed to the Constitutional Court",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (or National Day)","date":"16 February"},
+  "military": "19-26 years of age for conscripted military service for men; 9-month service obligation;  18-38 for voluntary service for men and women; 18-60 for the National Defense Volunteer Services",
+  "memberships": ["EU","Schengen","NATO","OECD"],
+  "colours": "yellow, green, red"
+ }
+}

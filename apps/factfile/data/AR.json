@@ -1,0 +1,33 @@
+{
+ "code": "AR",
+ "names": {"country":["República Argentina","Argentine Republic","Argentina"],"people":["Argentines","Argentine"],"places":["Laguna del Carbón (located between Puerto San Julián and Comandante Luis Piedra Buena in the province of Santa Cruz)","Revolution Day (May Revolution Day)","Río de la Plata/Paraná river mouth","Ciudad Autonoma de Buenos Aires","San Miguel de Tucumán","Laguna Mar Chiquita","Santiago del Estero","Lago Buenos Aires","Lago Colhué Huapi","Lago Nahuel Huapi","Lago San Martín","Lago Argentino","Buenos Aires","Lago Fagnano","Lago Viedma","Corrientes","Entre Rios","Santa Cruz","Catamarca","Rio Negro","La Pampa","La Plata","La Rioja","Misiones","Paraguay","San Juan","San Luis","Santa Fe","Cordoba","Córdoba","Formosa","Mendoza","Neuquen","Rosario","Tucuman","Uruguay","Chubut","Chaco","Jujuy","Salta"],"neighbours":["Paraguay","Paraguayan","Bolivia","Bolivian","Uruguay","Uruguayan","Brazil","Brazilian","Chile","Chilean"]},
+ "fields": {
+  "climate": "mostly temperate; arid in southeast; subantarctic in southwest",
+  "terrain": "rich plains of the Pampas in northern half, flat to rolling plateau of Patagonia in south, rugged Andes along western border",
+  "hazards": "San Miguel de Tucumán and Mendoza areas in the Andes subject to earthquakes; pamperos are violent windstorms that can strike the pampas and northeast; heavy flooding in some areas; volcanism: volcanic activity in the Andes Mountains along the Chilean border…",
+  "heights": {"high":null,"low":-105,"mean":595},
+  "coast": 4989,
+  "borders": {"total":11968,"lengths":[6691,2531,1263,942,541]},
+  "area": 2780400,
+  "lake": {"sqkm":2240,"kind":"fresh water"},
+  "river": {"km":4880,"shared":3},
+  "resources": "fertile plains of the pampas, lead, zinc, tin, copper, iron ore, manganese, petroleum, uranium, arable land",
+  "farm": "maize, soybeans, sugarcane, wheat, milk, sunflower seeds, barley, beef, potatoes, chicken",
+  "exports": "soybean meal, corn, trucks, soybean oil, crude petroleum",
+  "industries": "food processing, motor vehicles, consumer durables, textiles, chemicals and petrochemicals, printing, metallurgy, steel",
+  "city": {"millions":15.49,"capital":true},
+  "languages": "Spanish (official), Italian, English, German, French, indigenous (Quechua, Guarani, Mapudungun)",
+  "religions": "Roman Catholic 62.9%, Evangelical 15.3% (Pentecostal 13%, other Evangelical 2.3%), Jehovah's Witness and Church of Jesus Christ 1.4%, other 1.2% (includes Muslim, Jewish), none 18.9% (includes…",
+  "age": {"median":34.6,"life":78.8},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":257,"how":"all directly elected","term":"4 years"},{"seats":72,"how":"all directly elected","term":"6 years"}]},
+  "independence": {"date":"9 July 1816","event":"","from":"Spain"},
+  "regions": "23 provinces and 1 autonomous city",
+  "legal": "civil law system based on Western European legal systems",
+  "suffrage": "18-70 years of age; universal and compulsory; 16-17 years of age: optional for national elections",
+  "holiday": {"name":"Revolution Day (May Revolution Day)","date":"25 May"},
+  "military": "18-24 years of age for voluntary military service for men and women; conscription suspended in 1995…",
+  "memberships": ["G20","Mercosur"],
+  "colours": "sky blue, white"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "SR",
+ "names": {"country":["Republic of Suriname","Republiek Suriname","Suriname"],"people":["Surinamers","Surinamese","Surinamer"],"places":["unnamed location in the coastal plain","Independence Day","Juliana Top","Brokopondo","Commewijne","Paramaribo","Sipaliwini","Marowijne","Saramacca","Nickerie","Coronie","Wanica","Para"],"neighbours":["French Guiana","Brazil","Brazilian","Guyana","Guyanese"]},
+ "fields": {
+  "climate": "tropical; moderated by trade winds",
+  "terrain": "mostly rolling hills; narrow coastal plain with swamps",
+  "hazards": "flooding",
+  "heights": {"high":1230,"low":-2,"mean":246},
+  "coast": 386,
+  "borders": {"total":1907,"lengths":[836,556,515]},
+  "area": 163820,
+  "resources": "timber, hydropower, fish, kaolin, shrimp, bauxite, gold, and small amounts of nickel, copper, platinum, iron ore",
+  "farm": "rice, sugarcane, oranges, vegetables, chicken, cassava, plantains, pineapples, eggs, citrus fruits",
+  "exports": "gold, fish, refined petroleum, wood, tobacco",
+  "industries": "gold mining, oil, lumber, food processing, fishing",
+  "city": {"millions":0.239,"capital":true},
+  "languages": "Dutch (official), English (widely spoken), Sranang Tongo (Surinamese, sometimes called Taki-Taki, is the native language of Creoles and much of the younger population), Caribbean Hindustani (a…",
+  "religions": "Protestant 23.6% (includes Evangelical 11.2%, Moravian 11.2%, Reformed 0.7%, Lutheran 0.5%), Hindu 22.3%, Roman Catholic 21.6%, Muslim 13.8%, other Christian 3.2%, Winti 1.8%, Jehovah's Witness 1.2%…",
+  "age": {"median":32.3,"life":72.7},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":51,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"25 November 1975","event":"","from":"Netherlands"},
+  "regions": "10 districts",
+  "legal": "civil law system influenced by Dutch civil law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"25 November"},
+  "military": "18-28 years of age for voluntary military service for men and women; no conscription",
+  "memberships": ["Islamic Cooperation","CARICOM"],
+  "colours": "green, white, red, yellow"
+ }
+}

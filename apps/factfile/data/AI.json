@@ -1,0 +1,26 @@
+{
+ "code": "AI",
+ "names": {"country":["Anguilla"],"people":["Anguillans","Anguillan"],"places":["Caribbean Sea","Anguilla Day","Crocus Hill","The Valley"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; moderated by northeast trade winds",
+  "terrain": "flat and low-lying island of coral and limestone",
+  "hazards": "frequent hurricanes and other tropical storms (July to October)",
+  "heights": {"high":73,"low":0,"mean":null},
+  "coast": 61,
+  "borders": {"total":0,"lengths":[]},
+  "area": 91,
+  "resources": "salt, fish, lobster",
+  "farm": "small quantities of tobacco, vegetables; cattle raising",
+  "exports": "packaged medicine, garments, vehicle parts/accessories, vaccines, cars",
+  "industries": "tourism, boat building, offshore financial services",
+  "city": {"millions":0.001,"capital":true},
+  "languages": "English (official)",
+  "religions": "Protestant 73.2% (includes Anglican 22.7%, Methodist 19.4%, Pentecostal 10.5%, Seventh Day Adventist 8.3%, Baptist 7.1%, Church of God 4.9%, Presbyterian 0.2%, Brethren 0.1%), Roman Catholic 6.8%…",
+  "age": {"median":37.5,"life":82.6},
+  "system": {"text":"parliamentary democracy (House of Assembly); self-governing overseas territory of the UK","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":11,"how":"7 directly elected, 2 appointed, 2 ex-officio members","term":"5 years"}]},
+  "legal": "common law based on the English model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Anguilla Day","date":"30 May"}
+ }
+}

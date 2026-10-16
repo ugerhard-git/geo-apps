@@ -1,0 +1,32 @@
+{
+ "code": "HR",
+ "names": {"country":["Republic of Croatia","Republika Hrvatska","Hrvatska","Croatia"],"people":["Croatians","Croatian","Croats","Croat"],"places":["Statehood Day (National Day)","Bjelovarsko-Bilogorska","Dubrovacko-Neretvanska","Koprivnicko-Krizevacka","Viroviticko-Podravska","Splitsko-Dalmatinska","Vukovarsko-Srijemska","Krapinsko-Zagorska","Primorsko-Goranska","Sisacko-Moslavacka","Osjecko-Baranjska","Pozesko-Slavonska","Brodsko-Posavska","Sibensko-Kninska","Licko-Senjska","Adriatic Sea","Varazdinska","Karlovacka","Medimurska","Zagrebacka","Istarska","Zadarska","Danube","Dinara","Zagreb","Dunav"],"neighbours":["Bosnia and Herzegovina","Bosnian","Montenegro","Montenegrin","Slovenia","Slovenian","Hungary","Hungarian","Serbia","Serbian"]},
+ "fields": {
+  "climate": "Mediterranean and continental; continental climate predominant with hot summers and cold winters; mild winters, dry summers along coast",
+  "terrain": "geographically diverse; flat plains along Hungarian border, low mountains and highlands near Adriatic coastline and islands",
+  "hazards": "destructive earthquakes",
+  "heights": {"high":1831,"low":0,"mean":331},
+  "coast": 5835,
+  "borders": {"total":2237,"lengths":[956,600,348,314,19]},
+  "area": 56594,
+  "river": {"km":2888,"shared":9},
+  "resources": "oil, some coal, bauxite, low-grade iron ore, calcium, gypsum, natural asphalt, silica, mica, clays, salt, hydropower",
+  "farm": "maize, wheat, sugar beets, milk, barley, soybeans, sunflower seeds, potatoes, pork, grapes",
+  "exports": "ships, garments, electricity, packaged medicine, wood",
+  "industries": "chemicals and plastics, machine tools, fabricated metal, electronics, pig iron and rolled steel products, aluminum, paper, wood products, construction materials, textiles, shipbuilding, petroleum and…",
+  "city": {"millions":0.684,"capital":true},
+  "languages": "Croatian (official) 95.2%, Serbian 1.2%, other 3.1% (including Bosnian, Romani, Albanian, and Italian) unspecified 0.5%",
+  "religions": "Roman Catholic 79%, Orthodox 3.3%, Protestant 0.3%, other Christian 4.8%, Muslim 1.3%, other 1.1%, agnostic 1.7%, none or atheist 4.7%, unspecified 3.9%",
+  "age": {"median":44.9,"life":77.7},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":151,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"25 June 1991","event":"","from":"Yugoslavia"},
+  "regions": "20 counties and 1 city with special county status",
+  "legal": "civil law system influenced by legal heritage of Austria-Hungary",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Statehood Day (National Day)","date":"30 May"},
+  "military": "18-29 years of age for voluntary military service for men and women; conscription abolished in 2008 but will be reinstated in 2026 when it will become mandatory for men aged 19-29 to undergo two…",
+  "memberships": ["EU","Eurozone","Schengen","NATO"],
+  "colours": "red, white, blue"
+ }
+}

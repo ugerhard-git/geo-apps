@@ -1,0 +1,33 @@
+{
+ "code": "ML",
+ "names": {"country":["République de Mali","Republic of Mali","Mali"],"people":["Malians","Malian"],"places":["Independence Day","Hombori Tondo","Lac Faguibine","Senegal River","Bandiagara","Tombouctou","Koulikoro","Taoudenni","Bougouni","Douentza","Koutiala","Senegal","Sikasso","Bamako","Dioila","Menaka","Kayes","Kidal","Mopti","Niger","Nioro","Segou","Kita","Nara","Gao","San"],"neighbours":["Cote d'Ivoire","Burkina Faso","Burkinabe","Mauritania","Mauritanian","Algeria","Algerian","Guinea","Guinean","Niger","Nigerien"]},
+ "fields": {
+  "climate": "subtropical to arid; hot and dry (February to June); rainy, humid, and mild (June to November); cool and dry (November to February)",
+  "terrain": "mostly flat to rolling northern plains covered by sand; savanna in south, rugged hills in northeast",
+  "hazards": "hot, dust-laden harmattan haze common during dry seasons; recurring droughts; occasional Niger River flooding",
+  "heights": {"high":1155,"low":23,"mean":343},
+  "coast": 0,
+  "borders": {"total":7908,"lengths":[2236,1359,1325,1062,838,599]},
+  "area": 1240192,
+  "lake": {"sqkm":590,"kind":"fresh water"},
+  "river": {"km":4200,"shared":3},
+  "resources": "gold, phosphates, kaolin, salt, limestone, uranium, gypsum, granite, hydropower",
+  "farm": "maize, rice, millet, sorghum, onions, okra, sugarcane, cotton, mangoes/guavas, sweet potatoes",
+  "exports": "gold, cotton, oil seeds, fertilizers, gum resins",
+  "industries": "food processing; construction; phosphate and gold mining",
+  "city": {"millions":2.929,"capital":true},
+  "languages": "Bambara (official), French 17.2%, Peuhl/Foulfoulbe/Fulani 9.4%, Dogon 7.2%, Maraka/Soninke 6.4%, Malinke 5.6%, Sonrhai/Djerma 5.6%, Minianka 4.3%, Tamacheq 3.5%, Senoufo 2.6%, Bobo 2.1%, other 6.3%…",
+  "religions": "Muslim 93.9%, Christian 2.8%, animist 0.7%, none 2.5%",
+  "age": {"median":16.5,"life":63.2},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":147,"how":"all appointed","term":""}]},
+  "independence": {"date":"22 September 1960","event":"","from":"France"},
+  "regions": "19 regions, 1 district",
+  "legal": "civil law system based on the French civil law model and influenced by customary law; Constitutional Court reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"22 September"},
+  "military": "18 years of age for men and women for selective compulsory and voluntary military service; 24-month compulsory service obligation",
+  "memberships": ["Islamic Cooperation","WAEMU"],
+  "colours": "green, yellow, red"
+ }
+}

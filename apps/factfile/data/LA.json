@@ -1,0 +1,32 @@
+{
+ "code": "LA",
+ "names": {"country":["Sathalanalat Paxathipatai Paxaxon Lao","Lao People's Democratic Republic","Mueang Lao","Lao PDR","Laos"],"people":["Laotians","Laotian","Laos","Lao"],"places":["Republic Day (National Day)","Louangphabang","Louangnamtha","Mekong River","Xiangkhouang","Bolikhamxay","Mènam Khong","Savannakhet","Xaignabouli","Xaisomboun","Champasak","Houaphanh","Khammouan","Phongsali","Viangchan","Vientiane","Oudomxai","Phu Bia","Salavan","Attapu","Mekong","Xekong","Bokeo"],"neighbours":["Cambodia","Cambodian","Thailand","Thai","Vietnam","Vietnamese","Burma","Burmese","China","Chinese"]},
+ "fields": {
+  "climate": "tropical monsoon; rainy season (May to November); dry season (December to April)",
+  "terrain": "mostly rugged mountains; some plains and plateaus",
+  "hazards": "floods, droughts",
+  "heights": {"high":2817,"low":70,"mean":710},
+  "coast": 0,
+  "borders": {"total":5274,"lengths":[2161,1845,555,475,238]},
+  "area": 236800,
+  "river": {"km":4350,"shared":5},
+  "resources": "timber, hydropower, gypsum, tin, gold, gemstones",
+  "farm": "cassava, root vegetables, rice, sugarcane, vegetables, bananas, maize, rubber, coffee, watermelons",
+  "exports": "electricity, fertilizers, gold, garments, paper",
+  "industries": "mining (copper, tin, gold, gypsum); timber, electric power, agricultural processing, rubber, construction, garments, cement, tourism",
+  "city": {"millions":0.721,"capital":true},
+  "languages": "Lao (official), French, English, various ethnic languages",
+  "religions": "Buddhist 64.7%, Christian 1.7%, none 31.4%, other/not stated 2.1%",
+  "age": {"median":25.8,"life":69},
+  "system": {"text":"communist party-led state","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":164,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"19 July 1949","event":"","from":"France"},
+  "regions": "17 provinces and 1 prefecture",
+  "legal": "civil law system similar in form to the French system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Republic Day (National Day)","date":"2 December"},
+  "military": "18 years of age for voluntary military service; mandatory military service for men 18-35 with a minimum 18-month service obligation",
+  "memberships": ["ASEAN","Francophonie"],
+  "colours": "red, white, blue"
+ }
+}

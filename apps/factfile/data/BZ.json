@@ -1,0 +1,31 @@
+{
+ "code": "BZ",
+ "names": {"country":["Belize"],"people":["Belizeans","Belizean"],"places":["Battle of St. George's Caye Day (National Day)","Doyle's Delight","Caribbean Sea","Orange Walk","Stann Creek","Belmopan","Corozal","Belize","Toledo","Cayo"],"neighbours":["Guatemala","Guatemalan","Mexico","Mexican"]},
+ "fields": {
+  "climate": "tropical; very hot and humid; rainy season (May to November); dry season (February to May)",
+  "terrain": "flat, swampy coastal plain; low mountains in south",
+  "hazards": "frequent, devastating hurricanes (June to November) and coastal flooding (especially in south)",
+  "heights": {"high":1124,"low":0,"mean":173},
+  "coast": 386,
+  "borders": {"total":542,"lengths":[276,266]},
+  "area": 22966,
+  "resources": "arable land potential, timber, fish, hydropower",
+  "farm": "sugarcane, maize, bananas, sorghum, soybeans, chicken, rice, oranges, fruits, plantains",
+  "exports": "raw sugar, bananas, fish, shellfish, refined petroleum",
+  "industries": "garment production, food processing, tourism, construction, oil",
+  "city": {"millions":0.023,"capital":true},
+  "languages": "English 62.9% (official), Spanish 56.6%, Creole 44.6%, Maya 10.5%, German 3.2%, Garifuna 2.9%, other 1.8%, unknown 0.5%",
+  "religions": "Roman Catholic 40.1%, Protestant 31.5% (includes Pentecostal 8.4%, Seventh Day Adventist 5.4%, Anglican 4.7%, Mennonite 3.7%, Baptist 3.6%, Methodist 2.9%, Nazarene 2.8%), Jehovah's Witness 1.7%…",
+  "age": {"median":27.2,"life":74.3},
+  "system": {"text":"parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":32,"how":"all directly elected","term":"5 years"},{"seats":13,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"21 September 1981","event":"","from":"UK"},
+  "regions": "6 districts",
+  "legal": "English common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Battle of St. George's Caye Day (National Day)","date":"10 September"},
+  "military": "18-23 years of age for voluntary military service; laws allow for conscription only if volunteers are insufficient, but conscription has never been implemented; initial service obligation is 12 years",
+  "memberships": ["CARICOM","SICA","Commonwealth"],
+  "colours": "red, blue"
+ }
+}

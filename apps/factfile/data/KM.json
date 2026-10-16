@@ -1,0 +1,31 @@
+{
+ "code": "KM",
+ "names": {"country":["Al Ittihad al Qumuri","Union of the Comoros","Union des Comores","Udzima wa Komori","Juzur al Qamar","Les Comores","Comoros","Komori"],"people":["Comorans","Comoran"],"places":["Independence Day","Grande Comore","Indian Ocean","Karthala","Anjouan","Moheli","Moroni"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine; rainy season (November to May)",
+  "terrain": "volcanic islands, interiors vary from steep mountains to low hills",
+  "hazards": "cyclones possible during rainy season (December to April); volcanic activity on Grand Comore; volcanism: Karthala (2,361 m) on Grand Comore Island last erupted in 2007; a 2005 eruption forced thousands of people to be evacuated and produced a large ash cloud",
+  "heights": {"high":2360,"low":0,"mean":null},
+  "coast": 340,
+  "borders": {"total":0,"lengths":[]},
+  "area": 2235,
+  "resources": "fish",
+  "farm": "bananas, coconuts, cassava, yams, maize, taro, milk, tomatoes, sweet potatoes, pulses",
+  "exports": "cloves, ships, essential oils, vanilla, scrap iron",
+  "industries": "fishing, tourism, perfume distillation",
+  "city": {"millions":0.062,"capital":true},
+  "languages": "Arabic (official), French (official), Shikomoro (official; similar to Swahili), Comorian",
+  "religions": "Muslim 98.1% (overwhelmingly Sunni Muslim, small Shia Muslim and Ahmadiyya Muslim populations), ethnic religionist 1.1%, Christian 0.6%, other 0.3%",
+  "age": {"median":23.1,"life":67.8},
+  "system": {"text":"federal presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":33,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"6 July 1975","event":"","from":"France"},
+  "regions": "3 islands",
+  "legal": "mixed legal system of Islamic religious law, the French civil code of 1975, and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"6 July"},
+  "military": "18-25 years of age for voluntary military service for men and women; no conscription",
+  "memberships": ["Arab League","Islamic Cooperation","African Union","COMESA","Francophonie"],
+  "colours": "green, white"
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "code": "IO",
+ "names": {"country":["British Indian Ocean Territory","BIOT"],"people":[],"places":["often regarded as being on Diego Garcia","ocean-side dunes on Diego Garcia","administered from London","Indian Ocean"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine; hot, humid, moderated by trade winds",
+  "terrain": "flat and low coral atolls (most areas do not exceed 2 m, or 6.6 ft, in elevation); sits atop the submarine volcanic Chagos-Laccadive Ridge",
+  "hazards": "none; located outside routes of Indian Ocean cyclones",
+  "heights": {"high":9,"low":0,"mean":null},
+  "coast": 698,
+  "borders": {"total":0,"lengths":[]},
+  "area": 60,
+  "resources": "coconuts, fish, sugarcane",
+  "exports": "fish",
+  "legal": "the laws of the UK apply"
+ }
+}

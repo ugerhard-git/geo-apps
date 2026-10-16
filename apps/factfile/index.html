@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- No external scripts. Data: this site (the fact files) and jsDelivr (CLDR country names); fonts: Google Fonts. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src 'self' https://cdn.jsdelivr.net;
+  img-src data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'"
+    />
+    <title>Fact file</title>
+    <meta
+      name="description"
+      content="A country's fact file — climate, terrain, borders, economy, political system — with every name blacked out."
+    />
+    <meta name="geo-apps:tags" content="CIA World Factbook, text" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Fact file</h1>
+          <p>
+            A country's fact file — climate, terrain, borders, economy, political system — with every name blacked out.
+          </p>
+        </div>
+
+        <div class="group">
+          <div class="field search-wrap">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+            <div class="results" id="countryResults"></div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>On the card</h2>
+          <div id="fieldList"></div>
+        </div>
+
+        <div class="group">
+          <h2>Blacking out</h2>
+          <label class="chk"><input type="checkbox" id="optWater" /><span>Seas, oceans and continents too</span></label>
+          <div class="hint">
+            The country's own names, its people, cities, neighbours, peaks, lakes and rivers are always blacked out.
+            Below the card you can show or hide each name.
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Colours</h2>
+          <div class="field two">
+            <div>
+              <label for="paperHex">Paper</label>
+              <div class="colour">
+                <input type="color" id="paperColor" value="#f6f2ea" aria-label="Paper colour swatch" />
+                <input
+                  type="text"
+                  id="paperHex"
+                  placeholder="#rrggbb"
+                  value="#f6f2ea"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Paper colour as hex"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="inkHex">Text</label>
+              <div class="colour">
+                <input type="color" id="inkColor" value="#23262d" aria-label="Text colour swatch" />
+                <input
+                  type="text"
+                  id="inkHex"
+                  placeholder="#rrggbb"
+                  value="#23262d"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Text colour as hex"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="field two">
+            <div>
+              <label for="accentHex">Headings</label>
+              <div class="colour">
+                <input type="color" id="accentColor" value="#b4553a" aria-label="Headings colour swatch" />
+                <input
+                  type="text"
+                  id="accentHex"
+                  placeholder="#rrggbb"
+                  value="#b4553a"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Headings colour as hex"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="barHex">Black-out bars</label>
+              <div class="colour">
+                <input type="color" id="barColor" value="#23262d" aria-label="Black-out bars colour swatch" />
+                <input
+                  type="text"
+                  id="barHex"
+                  placeholder="#rrggbb"
+                  value="#23262d"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Black-out bars colour as hex"
+                />
+              </div>
+            </div>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optTransparent" /><span>Transparent background</span
+            ><em id="pngOnly" hidden>PNG only</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Sheet</h2>
+          <div class="field">
+            <label for="frame">Size</label>
+            <select id="frame">
+              <option value="2400x1600">2400 × 1600 · 3:2</option>
+              <option value="1920x1080">1920 × 1080 · 16:9</option>
+              <option value="1600x1600">1600 × 1600 · 1:1</option>
+              <option value="1600x2400">1600 × 2400 · 2:3</option>
+              <option value="custom">Custom…</option>
+            </select>
+          </div>
+          <div class="field two" id="customSize" hidden>
+            <div>
+              <label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000" />
+            </div>
+            <div>
+              <label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000" />
+            </div>
+          </div>
+          <label class="chk"><input type="checkbox" id="optSource" checked /><span>Source line</span></label>
+          <label class="chk"
+            ><input type="checkbox" id="optName" /><span>Name the country</span
+            ><em id="revealTag" hidden>reveals</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              value="Which country is this?"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+              aria-label="Caption"
+            />
+          </div>
+          <div class="field" id="capPosField">
+            <div class="seg" role="group">
+              <button id="capTop" aria-pressed="true">Above</button>
+              <button id="capBottom" aria-pressed="false">Below</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="noteText">Note</label>
+            <input
+              type="text"
+              id="noteText"
+              value=""
+              placeholder="Leave empty for no note"
+              maxlength="160"
+              autocomplete="off"
+            />
+            <div class="hint">A short explanation for the players, e.g. "Every name is blacked out."</div>
+          </div>
+          <div class="field" id="notePosField" hidden>
+            <div class="seg" role="group">
+              <button id="noteTop" aria-pressed="true">Above the card</button>
+              <button id="noteBottom" aria-pressed="false">Below the card</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <div class="actions">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="empty" id="empty">
+          <strong>Pick a country to see its fact file.</strong>
+          Climate, terrain, borders, what it grows and exports, how it is governed — with every name that would give it
+          away blacked out.
+        </div>
+        <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="note" id="note"></div>
+
+        <section class="card labels" id="names" hidden>
+          <header><h2>Names on the card</h2></header>
+          <div class="body">
+            <p class="cav">
+              Ticked names are blacked out. The app blacks out every name that points to the country; other countries,
+              seas and continents are clues rather than the answer, so they start visible. Check them and change what
+              you like.
+            </p>
+            <div id="nameList"></div>
+          </div>
+        </section>
+
+        <section class="card sources" id="sources" hidden>
+          <header><h2>Sources</h2></header>
+          <div class="body">
+            <dl id="sourceList"></dl>
+            <p class="cav" id="caveat"></p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+{
+ "code": "LV",
+ "names": {"country":["Latvijas Republika","Republic of Latvia","Latvija","Latvia"],"people":["Latvians","Latvian"],"places":["Independence Day (Republic of Latvia Proclamation Day)","Dienvidkurzeme","Gaizina Kalns","Augsdaugava","Aizkraukle","Baltic Sea","Daugavpils","Saulkrasti","Jekabpils","Salaspils","Varaklani","Ventspils","Kraslava","Smiltene","Valmiera","Aluksne","Gulbene","Jelgava","Jurmala","Kuldiga","Liepaja","Limbazi","Rezekne","Sigulda","Bauska","Dobele","Kekava","Livani","Madona","Marupe","Olaine","Preili","Ropazi","Saldus","Tukums","Adazi","Balvi","Cesis","Ludza","Talsi","Valka","Ogre","Riga"],"neighbours":["Lithuania","Lithuanian","Belarus","Belarusian","Estonia","Estonian","Russia","Russian"]},
+ "fields": {
+  "climate": "maritime; wet, moderate winters",
+  "terrain": "low plain",
+  "hazards": "large percentage of agricultural fields can become waterlogged and require drainage",
+  "heights": {"high":312,"low":0,"mean":87},
+  "coast": 498,
+  "borders": {"total":1370,"lengths":[544,333,332,161]},
+  "area": 64589,
+  "resources": "peat, limestone, dolomite, amber, hydropower, timber, arable land",
+  "farm": "wheat, milk, rapeseed, barley, oats, potatoes, rye, beans, peas, chicken",
+  "exports": "wood, wheat, broadcasting equipment, packaged medicine, natural gas",
+  "industries": "processed foods, processed wood products, textiles, processed metals, pharmaceuticals, railroad cars, synthetic fibers, electronics",
+  "city": {"millions":0.621,"capital":true},
+  "languages": "Latvian (official) 56.3%, Russian 33.8%, other 0.6% (includes Polish, Ukrainian, and Belarusian), unspecified 9.4%",
+  "religions": "Lutheran 36.2%, Roman Catholic 19.5%, Orthodox 19.1%, other Christian 1.6%, other 0.1%, unspecified/none 23.5%",
+  "age": {"median":43.8,"life":76.4},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":100,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"18 November 1918","event":"","from":"Soviet Russia"},
+  "regions": "36 municipalities and 7 state cities",
+  "legal": "civil law system with traces of socialist legal traditions and practices",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (Republic of Latvia Proclamation Day)","date":"18 November"},
+  "military": "mandatory military service for all men 18-24; men and women 18-27 may volunteer for military service…",
+  "memberships": ["EU","Eurozone","Schengen","NATO"],
+  "colours": "maroon, white"
+ }
+}

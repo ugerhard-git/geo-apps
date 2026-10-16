@@ -1,0 +1,31 @@
+{
+ "code": "PT",
+ "names": {"country":["Republica Portuguesa","Portuguese Republic","Portugal"],"people":["Portuguese"],"places":["Ponta do Pico (Pico or Pico Alto) on Ilha do Pico in the Azores","Portugal Day (Dia de Portugal)","Viana do Castelo","Atlantic Ocean","Castelo Branco","Portalegre","Vila Real","Braganca","Santarem","Coimbra","Madeira","Setubal","Acores","Aveiro","Guarda","Leiria","Lisboa","Lisbon","Braga","Evora","Porto","Viseu","Beja","Faro"],"neighbours":["Spain","Spanish"]},
+ "fields": {
+  "climate": "maritime temperate; cool and rainy in north, warmer and drier in south",
+  "terrain": "the west-flowing Tagus River divides the country: the north is mountainous toward the interior, while the south is characterized by rolling plains",
+  "hazards": "Azores subject to severe earthquakes; volcanism: limited volcanic activity in the Azores Islands; Fayal or Faial (1,043 m) last erupted in 1958; most volcanoes have not erupted in centuries…",
+  "heights": {"high":2351,"low":0,"mean":372},
+  "coast": 1793,
+  "borders": {"total":1224,"lengths":[1224]},
+  "area": 92090,
+  "resources": "fish, forests (cork), iron ore, copper, zinc, tin, tungsten, silver, gold, uranium, marble, clay, gypsum, salt, arable land, hydropower",
+  "farm": "milk, tomatoes, olives, grapes, maize, pork, potatoes, chicken, apples, oranges",
+  "exports": "cars, garments, vehicle parts/accessories, unpackaged medicine, refined petroleum",
+  "industries": "textiles, clothing, footwear, wood and cork, paper and pulp, chemicals, fuels and lubricants, automobiles and auto parts, base metals, minerals, porcelain and ceramics, glassware, technology…",
+  "city": {"millions":3.001,"capital":true},
+  "languages": "Portuguese (official), Mirandese (official, but locally used)",
+  "religions": "Catholic 68.1%, not applicable 12.9%, no religion 12.0%, no response 2.2%, Protestant 1.8%, other 1.0%; less than 1%: other Christians, Orthodox, Muslim",
+  "age": {"median":46.8,"life":81.9},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":230,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1143","event":"Kingdom of Portugal recognized","from":""},
+  "regions": "18 districts and 2 autonomous regions",
+  "legal": "civil law system; Constitutional Court reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Portugal Day (Dia de Portugal)","date":"10 June"},
+  "military": "18-30 years of age for voluntary or contract military service for men and women (upper age limit varies by military branch, position, role)…",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","Portuguese-speaking"],
+  "colours": "red, green"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "KR",
+ "names": {"country":["Republic of Korea","Taehan-min'guk","South Korea","Han'guk","ROK"],"people":["Koreans","Korean"],"places":["Chungcheongbuk-do","Chungcheongnam-do","Gyeongsangbuk-do","Gyeongsangnam-do","Liberation Day","Jeollabuk-do","Jeollanam-do","Sea of Japan","Gyeonggi-do","Gangwon-do","Halla-san","Daejeon","Gwangju","Incheon","Jeju-do","Daejon","Sejong","Busan","Daegu","Seoul","Ulsan"],"neighbours":["North Korea","Korean"]},
+ "fields": {
+  "climate": "temperate, with rainfall heavier in summer than winter; cold winters",
+  "terrain": "mostly hills and mountains; wide coastal plains in west and south",
+  "hazards": "occasional typhoons bring high winds and floods; low-level seismic activity common in southwest; volcanism: Halla (1,950 m) is considered historically active; it has not erupted in many centuries",
+  "heights": {"high":1950,"low":0,"mean":282},
+  "coast": 2413,
+  "borders": {"total":237,"lengths":[237]},
+  "area": 99720,
+  "resources": "coal, tungsten, graphite, molybdenum, lead, hydropower potential",
+  "farm": "rice, vegetables, cabbages, milk, onions, pork, chicken, eggs, tangerines/mandarins, potatoes",
+  "exports": "integrated circuits, cars, refined petroleum, plastics, machine parts",
+  "industries": "electronics, telecommunications, automobile production, chemicals, shipbuilding, steel",
+  "city": {"millions":9.988,"capital":true},
+  "languages": "Korean, English",
+  "religions": "Protestant 17%, Buddhist 16%, Catholic 6%, none 60%",
+  "age": {"median":47,"life":83.4},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":300,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"15 August 1945","event":"","from":"Japan"},
+  "regions": "9 provinces, 6 metropolitan cities, 1 special city, and 1 special self-governing city",
+  "legal": "mixed system combining European civil law, Anglo-American law, and Chinese classical thought",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Liberation Day","date":"15 August"},
+  "military": "18-29 years of age for voluntary military service for men and women; mandatory military service for all eligible men 18-35 years of age (typically served from 20-28 years of age)…",
+  "memberships": ["OECD","G20"],
+  "colours": "red, white, blue, black"
+ }
+}

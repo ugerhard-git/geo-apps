@@ -1,0 +1,31 @@
+{
+ "code": "IE",
+ "names": {"country":["Ireland","Eire"],"people":["Irishwoman","Irishman","Irish"],"places":["Dun Laoghaire-Rathdown","Saint Patrick's Day","Atlantic Ocean","Carrauntoohil","South Dublin","Roscommon","Tipperary","Waterford","Westmeath","Kilkenny","Limerick","Longford","Monaghan","Donegal","Kildare","Leitrim","Wexford","Wicklow","Carlow","Dublin","Fingal","Galway","Offaly","Cavan","Clare","Kerry","Laois","Louth","Meath","Sligo","Cork","Mayo"],"neighbours":["UK"]},
+ "fields": {
+  "climate": "temperate maritime; modified by North Atlantic Current; mild winters, cool summers; consistently humid; overcast about half the time",
+  "terrain": "mostly flat to rolling interior plain surrounded by rugged hills and low mountains; sea cliffs on west coast",
+  "hazards": "rare extreme weather events",
+  "heights": {"high":1041,"low":0,"mean":118},
+  "coast": 1448,
+  "borders": {"total":490,"lengths":[499]},
+  "area": 70273,
+  "resources": "natural gas, peat, copper, lead, zinc, silver, barite, gypsum, limestone, dolomite",
+  "farm": "milk, barley, beef, wheat, potatoes, pork, oats, chicken, rapeseed, beans",
+  "exports": "vaccines, packaged medicine, nitrogen compounds, integrated circuits, hormones",
+  "industries": "pharmaceuticals, chemicals, computer hardware and software, food products, beverages and brewing; medical devices",
+  "city": {"millions":1.27,"capital":true},
+  "languages": "English (official, the language generally used), Irish (Gaelic or Gaeilge) (official, spoken by approximately 37.7% of the population)",
+  "religions": "Roman Catholic 69.2% (includes lapsed), Protestant 3.7% (Church of Ireland/England/Anglican/Episcopalian 2.5%, other Protestant 1.2%), Orthodox 2%, other Christian 0.9%, Muslim 1.6%, other 1.4%…",
+  "age": {"median":40.5,"life":82},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":174,"how":"all directly elected","term":"5 years"},{"seats":60,"how":"","term":"5 years"}]},
+  "independence": {"date":"6 December 1921","event":"","from":"UK"},
+  "regions": "28 counties and 3 cities",
+  "legal": "common law system based on the English model but substantially modified by customary law; Supreme Court reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Saint Patrick's Day","date":"17 March"},
+  "military": "18-38 years of age for men and women for voluntary military service",
+  "memberships": ["EU","Eurozone","OECD"],
+  "colours": "blue, green"
+ }
+}

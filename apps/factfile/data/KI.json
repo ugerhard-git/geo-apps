@@ -1,0 +1,30 @@
+{
+ "code": "KI",
+ "names": {"country":["Republic of Kiribati","Kiribati"],"people":["I-Kiribati","Kiribati"],"places":["unnamed elevation on Banaba","Northern Gilberts","Southern Gilberts","Central Gilberts","Independence Day","Gilbert Islands","Phoenix Islands","Pacific Ocean","Line Islands","Butaritari","Kiritimati","Tabiteuea","Tabuaeran","Abemama","Aranuka","Marakei","Nikunau","Nonouti","Teraina","Arorae","Banaba","Kanton","Maiana","Onotoa","Tamana","Tarawa","Kuria","Makin","Beru"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; marine, hot and humid, moderated by trade winds",
+  "terrain": "mostly low-lying coral atolls surrounded by extensive reefs",
+  "hazards": "typhoons can occur any time, but usually November to March; occasional tornadoes; low level of some of the islands make them sensitive to changes in sea level",
+  "heights": {"high":81,"low":0,"mean":2},
+  "coast": 1143,
+  "borders": {"total":0,"lengths":[]},
+  "area": 811,
+  "resources": "phosphate (production discontinued in 1979), coconuts (copra), fish",
+  "farm": "coconuts, bananas, vegetables, taro, tropical fruits, pork, chicken, nuts, eggs, pork offal",
+  "exports": "fish, coconut oil",
+  "industries": "fishing, handicrafts",
+  "city": {"millions":0.064,"capital":true},
+  "languages": "Gilbertese, English (official)",
+  "religions": "Roman Catholic 58.9%, Kiribati Uniting Church 21.2%, Kiribati Protestant Church 8.4%, Church of Jesus Christ 5.6%, Seventh Day Adventist 2.1%, Baha'i 2.1%, other 1.7%",
+  "age": {"median":27.7,"life":68.5},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":45,"how":"","term":"4 years"}]},
+  "independence": {"date":"12 July 1979","event":"","from":"UK"},
+  "regions": "3 geographical units",
+  "legal": "English common law supplemented by customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"12 July"},
+  "memberships": ["Pacific Islands Forum","Commonwealth"],
+  "colours": "red, white, blue, yellow"
+ }
+}

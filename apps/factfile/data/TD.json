@@ -1,0 +1,32 @@
+{
+ "code": "TD",
+ "names": {"country":["République du Tchad","Jumhuriyat Tshad","Republic of Chad","Tchad","Tshad","Chad"],"people":["Chadians","Chadian"],"places":["Lake Chad  - 10,360","Logone Occidental","Independence Day","Mayo-Kebbi-Ouest","Logone Oriental","Chari-Baguirmi","Mayo-Kebbi-Est","Barh-El-Gazel","Ennedi-Ouest","Hadjer-Lamis","Moyen-Chari","Emi Koussi","Ennedi-Est","N'djamena","N'Djamena","Wadi-Fira","Tandjile","Djourab","Mandoul","Ouaddai","Salamat","Tibesti","Borkou","Batha","Guera","Kanem","Sila","Lac"],"neighbours":["Central African Republic","Cameroon","Cameroonian","Nigeria","Nigerian","Libya","Libyan","Niger","Nigerien","Sudan","Sudanese"]},
+ "fields": {
+  "climate": "tropical in south, desert in north",
+  "terrain": "broad, arid plains in center, desert in north, mountains in northwest, lowlands in south",
+  "hazards": "hot, dry, dusty harmattan winds occur in north; periodic droughts; locust plagues",
+  "heights": {"high":3445,"low":160,"mean":543},
+  "coast": 0,
+  "borders": {"total":6406,"lengths":[1556,1403,1196,1116,1050,85]},
+  "area": 1284000,
+  "lake": {"sqkm":25900,"kind":"fresh water"},
+  "resources": "petroleum, uranium, natron, kaolin, fish (Lake Chad), gold, limestone, sand and gravel, salt",
+  "farm": "sorghum, groundnuts, millet, beef, cereals, yams, sugarcane, maize, cassava, milk",
+  "exports": "crude petroleum, gold, oil seeds, gum resins, cotton",
+  "industries": "oil, cotton textiles, brewing, natron (sodium carbonate), soap, cigarettes, construction materials",
+  "city": {"millions":1.592,"capital":true},
+  "languages": "French (official), Arabic (official), Sara (in south), more than 120 languages and dialects",
+  "religions": "Muslim 52.1%, Protestant 23.9%, Roman Catholic 20%, animist 0.3%, other Christian 0.2%, none 2.8%, unspecified 0.7% (2014-15 est.)",
+  "age": {"median":16.9,"life":60},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":188,"how":"all directly elected","term":"5 years"},{"seats":69,"how":"","term":"6 years"}]},
+  "independence": {"date":"11 August 1960","event":"","from":"France"},
+  "regions": "23 provinces",
+  "legal": "mixed system of civil and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"11 August"},
+  "military": "18-25 for voluntary service; men subject to 18-36 months of compulsory service at age 20; women are subject to 12 months of compulsory military or civic service at age 21",
+  "memberships": ["Islamic Cooperation","African Union","CEMAC","Francophonie"],
+  "colours": "blue, yellow, red"
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "code": "NF",
+ "names": {"country":["Territory of Norfolk Island","Norfolk Island"],"people":["Norfolk Islanders","Norfolk Islander"],"places":["Bounty Day (commemorates the arrival of Pitcairn Islanders)","Pacific Ocean","Mount Bates","Kingston"],"neighbours":[]},
+ "fields": {
+  "climate": "subtropical; mild, little seasonal temperature variation",
+  "terrain": "volcanic island with mostly rolling plains",
+  "hazards": "tropical cyclones (especially May to July)",
+  "heights": {"high":319,"low":0,"mean":null},
+  "coast": 32,
+  "borders": {"total":0,"lengths":[]},
+  "area": 36,
+  "resources": "fish",
+  "farm": "Norfolk Island pine seed, Kentia palm seed, cereals, vegetables, fruit; cattle, poultry",
+  "exports": "pine seeds, lumber, cars and vehicle parts, soybeans, lactose syrup",
+  "industries": "tourism, light industry, ready mixed concrete",
+  "languages": "English (official) 44.9%, Norfolk (official, a mixture of 18th century English and ancient Tahitian) 40.3%, Fijian 1.8%, other 6.8%, unspecified 6.2%",
+  "religions": "Protestant 46.8% (Anglican 29.2%, Uniting Church in Australia 9.8%, Presbyterian 2.9%, Seventh Day Adventist 2.7%, other 2.2%), Roman Catholic 12.6%, other Christian 2.9%, other 1.4%, none 26.7%…",
+  "system": {"text":"administered as an overseas territory of Australia","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":5,"how":"directly elected","term":"4 years"}]},
+  "legal": "English common law and the laws of Australia",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Bounty Day (commemorates the arrival of Pitcairn Islanders)","date":"8 June"}
+ }
+}

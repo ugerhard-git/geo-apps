@@ -1,0 +1,29 @@
+{
+ "code": "GL",
+ "names": {"country":["Kalaallit Nunaat","Greenland"],"people":["Greenlanders","Greenlander","Greenlandic"],"places":["Gunnbjorn Fjeld","Atlantic Ocean","National Day","Qeqertalik","Sermersooq","Avannaata","Kujalleq","Qeqqata","Nuuk"],"neighbours":[]},
+ "fields": {
+  "climate": "arctic to subarctic; cool summers, cold winters",
+  "terrain": "flat to gradually sloping icecap covers all but a narrow, mountainous, barren, rocky coast",
+  "hazards": "continuous permafrost over northern two-thirds of the island",
+  "heights": {"high":3694,"low":0,"mean":1792},
+  "coast": 44087,
+  "borders": {"total":0,"lengths":[]},
+  "area": 2166086,
+  "resources": "coal, iron ore, lead, zinc, molybdenum, diamonds, gold, platinum, niobium, tantalite, uranium, fish, seals, whales, hydropower, possible oil and gas",
+  "farm": "sheep, cattle, reindeer, fish, shellfish",
+  "exports": "fish, shellfish, processed crustaceans, ships, precious stones",
+  "industries": "fish processing (mainly shrimp and Greenland halibut), anorthosite and ruby mining, handicrafts, hides and skins, small shipyards",
+  "city": {"millions":0.018,"capital":true},
+  "languages": "Greenlandic, Danish, English",
+  "religions": "Evangelical Lutheran, traditional Inuit spiritual beliefs",
+  "age": {"median":35.6,"life":74.5},
+  "system": {"text":"parliamentary democracy (Parliament of Greenland or Inatsisartut)","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":31,"how":"directly elected","term":"4 years"}]},
+  "regions": "5 municipalities",
+  "legal": "Denmark's laws apply in some areas, and Greenland's law for the remainder",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"National Day","date":"June 21"},
+  "memberships": ["Nordic Council"],
+  "colours": "red, white"
+ }
+}

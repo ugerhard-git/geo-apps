@@ -1,0 +1,30 @@
+{
+ "code": "AD",
+ "names": {"country":["Principality of Andorra","Principat d'Andorra","Andorra"],"people":["Andorrans","Andorran"],"places":["Our Lady of Meritxell Day","Pic de Coma Pedrosa","Sant Julia de Loria","Escaldes-Engordany","Andorra la Vella","Andorra La Vella","La Massana","Riu Runer","Canillo","Encamp","Ordino"],"neighbours":["France","French","Spain","Spanish"]},
+ "fields": {
+  "climate": "temperate; snowy, cold winters and warm, dry summers",
+  "terrain": "rugged mountains dissected by narrow valleys",
+  "hazards": "avalanches",
+  "heights": {"high":2946,"low":840,"mean":1996},
+  "coast": 0,
+  "borders": {"total":118,"lengths":[63,55]},
+  "area": 468,
+  "resources": "hydropower, mineral water, timber, iron ore, lead",
+  "farm": "small quantities of rye, wheat, barley, oats, vegetables, tobacco, sheep, cattle",
+  "exports": "paintings, integrated circuits, cars, orthopedic appliances, garments",
+  "industries": "tourism (particularly skiing), banking, timber, furniture",
+  "city": {"millions":0.023,"capital":true},
+  "languages": "Catalan (official) 44.1%, Castilian 40.3%, Portuguese 13.5%, French 10%, English 3%, other 6.8%",
+  "religions": "Christian (predominantly Roman Catholic) 89.5, other 8.8%, unaffiliated 1.7%",
+  "age": {"median":49.4,"life":83.8},
+  "system": {"text":"parliamentary democracy (since March 1993) that retains its chiefs of state in the form of a co-principality…","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":28,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1278","event":"formed under the joint sovereignty of the French Count of Foix and…","from":""},
+  "regions": "7 parishes",
+  "legal": "mixed legal system of civil and customary law with the influence of canon (religious) law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Our Lady of Meritxell Day","date":"8 September"},
+  "memberships": ["Francophonie"],
+  "colours": "blue, yellow, red"
+ }
+}

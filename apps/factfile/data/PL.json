@@ -1,0 +1,33 @@
+{
+ "code": "PL",
+ "names": {"country":["Rzeczpospolita Polska","Republic of Poland","Poland","Polska"],"people":["Polish","Poles","Pole"],"places":["river source and mouth","near Raczki Elblaskie","Warminsko-Mazurskie","Kujawsko-Pomorskie","Zachodniopomorskie","Zalew Szczecinski","Constitution Day","Stettiner Haff","Swietokrzyskie","Wielkopolskie","Dolnoslaskie","Podkarpackie","Malopolskie","Mazowieckie","Lubelskie","Podlaskie","Pomorskie","Lubuskie","Opolskie","Lodzkie","Slaskie","Vistula","Krakow","Warsaw","Wisla","Rysy"],"neighbours":["Lithuania","Lithuanian","Slovakia","Slovak","Belarus","Belarusian","Czechia","Czech","Germany","German","Ukraine","Ukrainian"]},
+ "fields": {
+  "climate": "temperate with cold, cloudy, moderately severe winters with frequent precipitation; mild summers with frequent showers and thundershowers",
+  "terrain": "mostly flat plain; mountains along southern border",
+  "hazards": "flooding",
+  "heights": {"high":2499,"low":-2,"mean":173},
+  "coast": 440,
+  "borders": {"total":2865,"lengths":[699,517,498,467,375,100]},
+  "area": 312685,
+  "lake": {"sqkm":900,"kind":"salt water"},
+  "river": {"km":1213,"shared":2},
+  "resources": "coal, sulfur, copper, natural gas, silver, lead, salt, amber, arable land",
+  "farm": "sugar beets, milk, wheat, maize, potatoes, triticale, apples, rapeseed, barley, rye",
+  "exports": "vehicle parts/accessories, electric batteries, plastic products, cars, seats",
+  "industries": "machine building, iron and steel, coal mining, chemicals, shipbuilding, food processing, glass, beverages, textiles",
+  "city": {"millions":1.798,"capital":true},
+  "languages": "Polish (official) 98.2%, Silesian 1.4%, other 1.1%, unspecified 1.2%",
+  "religions": "Roman Catholic 70.7%, refused to answer 20.9%, no religion 6.9%; less than 1 percent: Orthodox, Jehovah Witness, Evangelic of Augsburg, Greek Catholic, Pentecostal, other Protestant, not stated, old…",
+  "age": {"median":43.4,"life":76.7},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":460,"how":"all directly elected","term":"4 years"},{"seats":100,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"11 November 1918","event":"republic proclaimed","from":""},
+  "regions": "16 provinces or voivodships",
+  "legal": "civil law system; judicial review of legislative, administrative, and other governmental acts; constitutional law rulings of the Constitutional Tribunal are final",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"3 May"},
+  "military": "18 years of age for voluntary military service for men and women; no conscription…",
+  "memberships": ["EU","Schengen","NATO","OECD"],
+  "colours": "white, red"
+ }
+}

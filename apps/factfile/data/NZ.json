@@ -1,0 +1,32 @@
+{
+ "code": "NZ",
+ "names": {"country":["New Zealand","NZ"],"people":["New Zealanders","New Zealander","New Zealand"],"places":["Aoraki/Mount Cook","Manawatu-Wanganui","Chatham Islands","Bay of Plenty","Pacific Ocean","Waitangi Day","Hawke's Bay","Marlborough","Canterbury","Lake Taupo","Wellington","West Coast","Northland","Southland","Auckland","Gisborne","Taranaki","Waikato","Nelson","Tasman","Otago"],"neighbours":[]},
+ "fields": {
+  "climate": "temperate with sharp regional contrasts",
+  "terrain": "predominately mountainous with large coastal plains",
+  "hazards": "earthquakes are common, though usually not severe; volcanic activity; volcanism: significant volcanism on North Island; Ruapehu (2,797 m) has a history of large eruptions in the past century…",
+  "heights": {"high":3724,"low":0,"mean":388},
+  "coast": 15134,
+  "borders": {"total":0,"lengths":[]},
+  "area": 268838,
+  "lake": {"sqkm":610,"kind":"fresh water"},
+  "resources": "natural gas, iron ore, sand, coal, timber, hydropower, gold, limestone",
+  "farm": "milk, beef, kiwifruit, apples, grapes, lamb/mutton, potatoes, wheat, barley, chicken",
+  "exports": "milk, wood, beef, butter, sheep and goat meat",
+  "industries": "agriculture, forestry, fishing, logs and wood articles, manufacturing, mining, construction, financial services, real estate services, tourism",
+  "city": {"millions":1.673,"capital":false},
+  "languages": "English (de facto official) 95.4%, Maori (de jure official) 4%, Samoan 2.2%, Northern Chinese 2%, Hindi 1.5%, French 1.2%, Yue 1.1%, New Zealand Sign Language (de jure official) 0.5%, other or not…",
+  "religions": "Christian 37.3% (Catholic 10.1%, Anglican 6.8%, Presbyterian and Congregational 5.2%, Pentecostal 1.8%, Methodist 1.6%, Church of Jesus Christ 1.2%, other 10.7%), Hindu 2.7%, Maori 1.3%, Muslim…",
+  "age": {"median":38.1,"life":82.9},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":120,"how":"all directly elected","term":"3 years"}]},
+  "independence": {"date":"26 September 1907","event":"","from":"UK"},
+  "regions": "16 regions and 1 territory",
+  "legal": "common law system, based on English model, with special legislation and land courts for the Maori",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Waitangi Day","date":"6 February"},
+  "military": "17 years of age for voluntary military service for men and women; soldiers cannot be deployed until the age of 18; no conscription",
+  "memberships": ["OECD","Pacific Islands Forum","Commonwealth"],
+  "colours": "black, white, red (ochre)"
+ }
+}

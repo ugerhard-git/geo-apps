@@ -1,0 +1,31 @@
+{
+ "code": "UA",
+ "names": {"country":["Ukraina","Ukraine"],"people":["Ukrainians","Ukrainian"],"places":["Crimea or Avtonomna Respublika Krym","river source and mouth","Independence Day","Ivano-Frankivsk","Dnipropetrovsk","Hora Hoverla","Khmelnytskyi","Zaporizhzhia","river mouth","Zakarpattia","Chernivtsi","Kirovohrad","Sevastopol","Black Sea","Chernihiv","Vinnytsia","Cherkasy","Dniester","Mykolaiv","Ternopil","Zhytomyr","Dnieper","Dnister","Donetsk","Kharkiv","Kherson","Luhansk","Poltava","Vistula","Danube","Dnipro","Dunay","Odesa","Rivne","Volyn","Kyiv","Lviv","Sumy"],"neighbours":["Belarus","Belarusian","Hungary","Hungarian","Moldova","Moldovan","Romania","Romanian","Poland","Polish","Russia","Russian"]},
+ "fields": {
+  "climate": "temperate continental; Mediterranean only on the southern Crimean coast; precipitation disproportionately distributed, highest in west and north, lesser in east and southeast…",
+  "terrain": "mostly fertile plains (steppes) and plateaus, with mountains found only in the west (the Carpathians) or in the extreme south of the Crimean Peninsula",
+  "hazards": "occasional floods; occasional droughts",
+  "heights": {"high":2061,"low":0,"mean":175},
+  "coast": 2782,
+  "borders": {"total":5581,"lengths":[1944,1202,1111,601,498,128]},
+  "area": 603550,
+  "river": {"km":2888,"shared":9},
+  "resources": "iron ore, coal, manganese, natural gas, oil, salt, sulfur, graphite, titanium, magnesium, kaolin, nickel, mercury, timber, arable land",
+  "farm": "maize, wheat, potatoes, sugar beets, sunflower seeds, milk, barley, soybeans, rapeseed, tomatoes",
+  "exports": "corn, seed oils, wheat, iron ore, soybeans",
+  "industries": "industrial machinery, ferrous and nonferrous metals, automotive and aircraft components, electronics, chemicals, textiles, mining, construction",
+  "city": {"millions":3.017,"capital":true},
+  "languages": "Ukrainian (official) 67.5%, Russian (regional language) 29.6%, other (includes Crimean Tatar, Moldovan/Romanian, and Hungarian) 2.9%",
+  "religions": "Orthodox (includes the Orthodox Church of Ukraine (OCU), Ukrainian Autocephalous Orthodox Church (UAOC), and the Ukrainian Orthodox - Moscow Patriarchate (UOC-MP)), Ukrainian Greek Catholic, Roman…",
+  "age": {"median":44.6,"life":70.5},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":450,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"24 August 1991","event":"","from":"Soviet Union"},
+  "regions": "24 provinces, 1 autonomous republic, and 2 municipalities with oblast status",
+  "legal": "civil law system; judicial review of legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"24 August"},
+  "military": "18 years of age for voluntary service for men and women; 25 years of age for conscription for men; 18-24 months service obligation",
+  "colours": "blue, yellow"
+ }
+}

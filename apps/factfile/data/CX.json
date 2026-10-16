@@ -1,0 +1,24 @@
+{
+ "code": "CX",
+ "names": {"country":["Territory of Christmas Island","Christmas Island"],"people":["Christmas Islanders","Christmas Islander","Christmas Island"],"places":["Australia Day (commemorates the arrival of the First Fleet of Australian settlers)","The Settlement","Indian Ocean","Murray Hill"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical with a wet season (December to April) and dry season; heat and humidity moderated by trade winds",
+  "terrain": "steep cliffs along coast rise abruptly to central plateau",
+  "hazards": "the narrow fringing reef surrounding the island can be a maritime hazard",
+  "heights": {"high":361,"low":0,"mean":null},
+  "coast": 138.9,
+  "borders": {"total":0,"lengths":[]},
+  "area": 135,
+  "resources": "phosphate, beaches",
+  "exports": "fertilizers, paintings, amine compounds",
+  "industries": "tourism, phosphate extraction (near depletion)",
+  "languages": "English (official) 27.6%, Mandarin 17.2%, Malay 17.1%, Cantonese 3.9%, Min Nan 1.6%, Tagalog 1%, other 4.5%, unspecified 27.1%",
+  "religions": "Muslim 19.4%, Buddhist 18.3%, Roman Catholic 8.8%, Protestant 6.5% (includes Anglican 3.6%, Uniting Church 1.2%, other 1.7%), other Christian 3.3%, other 0.6%, none 15.3%, unspecified 27.7%",
+  "age": {"median":38,"life":null},
+  "system": {"text":"non-self-governing overseas territory of Australia","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":9,"how":"directly elected","term":"4 years"}]},
+  "legal": "system is under the authority of the governor general of Australia and Australian law",
+  "suffrage": "18 years of age",
+  "holiday": {"name":"Australia Day (commemorates the arrival of the First Fleet of Australian settlers)","date":"26 January"}
+ }
+}

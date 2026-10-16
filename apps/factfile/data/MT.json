@@ -1,0 +1,31 @@
+{
+ "code": "MT",
+ "names": {"country":["Repubblika ta' Malta","Republic of Malta","Malta"],"people":["Maltese"],"places":["San Pawl il-Bahar/Saint Paul's Bay","Ta'Dmejrek on Dingli Cliffs","San Lawrenz/Saint Lawrence","Santa Venera/Saint Venera","Santa Lucija/Saint Lucia","San Giljan/Saint Julian","San Gwann/Saint John","Mediterranean Sea","Independence Day","Ghajnsielem","Birkirkara","Birzebbuga","Marsaskala","Marsaxlokk","Ta' Xbiex","Floriana","Gharghur","Mellieha","Pembroke","Siggiewi","Valletta","Fontana","Imqabba","Imtarfa","Kalkara","Tarxien","Xewkija","Xghajra","Zurrieq","Attard","Balzan","Bormla","Dingli","Ghasri","Ghaxaq","Hamrun","Imdina","Imgarr","Imsida","Kercem","Kirkop","Munxar","Naxxar","Qrendi","Sannat","Sliema","Swieqi","Xaghra","Zabbar","Zebbug","Zejtun","Birgu","Fgura","Gharb","Gudja","Gzira","Iklin","Marsa","Mosta","Nadur","Paola","Pieta","Qormi","Rabat","Isla","Lija","Luqa","Qala","Safi"],"neighbours":[]},
+ "fields": {
+  "climate": "Mediterranean; mild, rainy winters; hot, dry summers",
+  "terrain": "mostly low, rocky, flat to dissected plains; many coastal cliffs",
+  "hazards": "occasional droughts",
+  "heights": {"high":253,"low":0,"mean":null},
+  "coast": 196.8,
+  "borders": {"total":0,"lengths":[]},
+  "area": 316,
+  "resources": "limestone, salt, arable land",
+  "farm": "milk, tomatoes, onions, potatoes, chicken, cauliflower/broccoli, cabbages, pork, pumpkins/squash, watermelons",
+  "exports": "refined petroleum, integrated circuits, packaged medicine, ships, postage stamps/documents",
+  "industries": "tourism, electronics, ship building and repair, construction, food and beverages, pharmaceuticals, footwear, clothing, tobacco, aviation services, financial services, information technology services",
+  "city": {"millions":0.213,"capital":true},
+  "languages": "Maltese (official) 90.1%, English (official) 6%, multilingual 3%, other 0.9%",
+  "religions": "Roman Catholic (official) more than 90%",
+  "age": {"median":42.1,"life":83.6},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":65,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"21 September 1964","event":"","from":"UK"},
+  "regions": "68 localities",
+  "legal": "mixed system of English common law and civil law based on the Roman and Napoleonic civil codes; subject to European Union law",
+  "suffrage": "18 years of age (16 in local council elections); universal",
+  "holiday": {"name":"Independence Day","date":"21 September"},
+  "military": "18-30 years of age for men and women for voluntary military service; no conscription",
+  "memberships": ["EU","Eurozone","Schengen","Commonwealth"],
+  "colours": "red, white"
+ }
+}

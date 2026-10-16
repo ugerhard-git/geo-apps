@@ -1,0 +1,30 @@
+{
+ "code": "KP",
+ "names": {"country":["Democratic People's Republic of Korea","Choson-minjujuui-inmin-konghwaguk","North Korea","Choson","DPRK"],"people":["Koreans","Korean"],"places":["Founding of the Democratic People's Republic of Korea (DPRK)","Sea of Japan","P'yongyang","Paektu-san","P'yongbuk","P'yongnam","Pyongyang","Ryanggang","Hwangbuk","Hwangnam","Chagang","Kaesong","Kangwon","Hambuk","Hamnam","Nampo","Rason"],"neighbours":["South Korea","Korean","Russia","Russian","China","Chinese"]},
+ "fields": {
+  "climate": "temperate, with rainfall concentrated in summer; long, bitter winters",
+  "terrain": "mostly hills and mountains separated by deep, narrow valleys; wide coastal plains in west, discontinuous in east",
+  "hazards": "late spring droughts often followed by severe flooding; occasional typhoons during the early fall; volcanism: P'aektu-san (2,744 m) (also known as Baitoushan, Baegdu, or Changbaishan), on the Chinese border, is considered historically active",
+  "heights": {"high":2744,"low":0,"mean":600},
+  "coast": 2495,
+  "borders": {"total":1607,"lengths":[1352,237,18]},
+  "area": 120538,
+  "resources": "coal, iron ore, limestone, magnesite, graphite, copper, zinc, lead, precious metals, hydropower",
+  "farm": "maize, vegetables, rice, apples, cabbages, fruits, sweet potatoes, potatoes, beans, soybeans",
+  "exports": "fake hair, iron alloys, tungsten ore, electricity, cars",
+  "industries": "military products; machine building, electric power, chemicals; mining (coal, iron ore, limestone, magnesite, graphite, copper, zinc, lead, and precious metals), metallurgy…",
+  "city": {"millions":3.158,"capital":true},
+  "languages": "Korean",
+  "religions": "traditionally Buddhist and Confucian, some Christian and syncretic Chondogyo (Religion of the Heavenly Way)",
+  "age": {"median":36.2,"life":73.5},
+  "system": {"text":"dictatorship, single-party communist state","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":687,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"15 August 1945","event":"","from":"Japan"},
+  "regions": "9 provinces and 4 special administration cities",
+  "legal": "civil law system based on the Prussian model; influenced by Japanese traditions and Communist legal theory",
+  "suffrage": "17 years of age; universal and compulsory",
+  "holiday": {"name":"Founding of the Democratic People's Republic of Korea (DPRK)","date":"9 September"},
+  "military": "compulsory military service for men (17-30 years of age) and women (17-23 years of age); service obligation is reportedly up to 10 years for men and up to 7 years for women",
+  "colours": "red, white, blue"
+ }
+}

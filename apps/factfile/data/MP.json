@@ -1,0 +1,26 @@
+{
+ "code": "MP",
+ "names": {"country":["Commonwealth of the Northern Mariana Islands","Northern Mariana Islands","CNMI"],"people":[],"places":["Commonwealth Day","Northern Islands","Agrihan Volcano","Pacific Ocean","Saipan","Tinian","Rota"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine; moderated by northeast trade winds, little seasonal temperature variation; dry season December to June, rainy season July to October",
+  "terrain": "the southern islands in this north-south trending archipelago are limestone, with fringing coral reefs; the northern islands are volcanic, with active volcanoes on several islands",
+  "hazards": "active volcanoes on Pagan and Agrihan; typhoons (especially August to November)",
+  "heights": {"high":965,"low":0,"mean":null},
+  "coast": 1482,
+  "borders": {"total":0,"lengths":[]},
+  "area": 464,
+  "resources": "arable land, fish",
+  "farm": "vegetables and melons, fruits and nuts; ornamental plants; livestock, poultry, eggs; fish and aquaculture products",
+  "exports": "scrap iron, refined petroleum, scrap copper, hydraulic engines, integrated circuits",
+  "industries": "tourism, banking, construction, fishing, handicrafts, other services",
+  "city": {"millions":0.051,"capital":true},
+  "languages": "Philippine languages 32.8%, Chamorro (official) 24.1%, English (official) 17%, other Pacific island languages 10.1% (includes Carolinian (official), Chinese 6.8%, other Asian languages 7.3%, other…",
+  "religions": "Christian (Roman Catholic majority, although traditional beliefs and taboos may still be found)",
+  "age": {"median":32.6,"life":77.1},
+  "system": {"text":"a commonwealth in political union with and under the sovereignty of the US…","unsettled":false},
+  "legal": "the laws of the US apply, except for customs and some aspects of taxation",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Commonwealth Day","date":"8 January"},
+  "colours": "blue, white"
+ }
+}

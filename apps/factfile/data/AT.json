@@ -1,0 +1,33 @@
+{
+ "code": "AT",
+ "names": {"country":["Republik Oesterreich","Republic of Austria","Oesterreich","Austria"],"people":["Austrians","Austrian"],"places":["National Day (commemorates passage of the law on permanent neutrality)","Niederoesterreich","Oberoesterreich","Lake Constance","Neusiedler See","Grossglockner","Burgenland","Steiermark","Vorarlberg","Kaernten","Salzburg","Danube","Vienna","Donau","Tirol","Wien"],"neighbours":["Czech Republic","Liechtenstein","Switzerland","Swiss","Slovakia","Slovak","Slovenia","Slovenian","Germany","German","Hungary","Hungarian","Italy","Italian"]},
+ "fields": {
+  "climate": "temperate; continental, cloudy; cold winters with frequent rain and some snow in lowlands and snow in mountains; moderate summers with occasional showers",
+  "terrain": "mostly mountains (Alps) in the west and south; mostly flat or gently sloping along the eastern and northern margins",
+  "hazards": "landslides; avalanches; earthquakes",
+  "heights": {"high":3798,"low":115,"mean":910},
+  "coast": 0,
+  "borders": {"total":2524,"lengths":[801,404,402,321,299,158,105,34]},
+  "area": 83871,
+  "lake": {"sqkm":540,"kind":"fresh water"},
+  "river": {"km":2888,"shared":9},
+  "resources": "oil, coal, lignite, timber, iron ore, copper, zinc, antimony, magnesite, tungsten, graphite, salt, hydropower",
+  "farm": "milk, sugar beets, maize, wheat, barley, potatoes, pork, grapes, triticale, soybeans",
+  "exports": "cars, packaged medicine, vaccines, vehicle parts/accessories, nitrogen compounds",
+  "industries": "construction, machinery, vehicles and parts, food, metals, chemicals, lumber and paper, electronics, tourism",
+  "city": {"millions":1.975,"capital":true},
+  "languages": "German (official nationwide) 88.6%, Turkish 2.3%, Serbian 2.2%, Croatian (official in Burgenland) 1.6%, other (includes Slovene, official in southern Carinthia, and Hungarian, official in Burgenland)…",
+  "religions": "Roman Catholic 55.2%, Muslim 8.3%, Orthodox 4.9%, Evangelical Christian 3.8%, Jewish 0.1%, other 5.4%, none 22.4%",
+  "age": {"median":44.5,"life":82.7},
+  "system": {"text":"federal parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":183,"how":"all directly elected","term":"5 years"},{"seats":60,"how":"all indirectly elected","term":""}]},
+  "independence": {"date":"976","event":"Margravate of Austria established","from":""},
+  "regions": "9 states",
+  "legal": "civil law system; Constitutional Court reviews legislative acts",
+  "suffrage": "16 years of age; universal",
+  "holiday": {"name":"National Day (commemorates passage of the law on permanent neutrality)","date":"26 October"},
+  "military": "registration requirement at age 17, the legal minimum age for voluntary military service; men above the age of 18 are subject to compulsory military service; women may volunteer…",
+  "memberships": ["EU","Eurozone","Schengen","OECD"],
+  "colours": "red, white"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "code": "LC",
+ "names": {"country":["Saint Lucia"],"people":["Saint Lucians","Saint Lucian"],"places":["Independence Day","Caribbean Sea","Anse-la-Raye","Mount Gimie","Gros-Islet","Vieux-Fort","Soufrière","Canaries","Castries","Choiseul","Dennery","Laborie","Micoud"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical, moderated by northeast trade winds; dry season January to April, rainy season May to August",
+  "terrain": "volcanic and mountainous with broad, fertile valleys",
+  "hazards": "hurricanes; volcanism: Mount Gimie (948 m), also known as Qualibou, is a caldera on the west of the island; the iconic twin pyramidal peaks of Gros Piton (771 m) and Petit Piton (743 m) are lava-dome remnants associated with the Soufrière volcano…",
+  "heights": {"high":948,"low":0,"mean":null},
+  "coast": 158,
+  "borders": {"total":0,"lengths":[]},
+  "area": 616,
+  "resources": "forests, sandy beaches, minerals (pumice), mineral springs, geothermal potential",
+  "farm": "coconuts, bananas, tropical fruits, fruits, root vegetables, plantains, vegetables, cassava, chicken, milk",
+  "exports": "refined petroleum, gravel and crushed stone, beer, liquor, paper containers",
+  "industries": "tourism; clothing, assembly of electronic components, beverages, corrugated cardboard boxes, lime processing, coconut processing",
+  "city": {"millions":0.022,"capital":true},
+  "languages": "English (official), Saint Lucian Creole",
+  "religions": "Roman Catholic 61.5%, Protestant 25.5% (includes Seventh Day Adventist 10.4%, Pentecostal 8.9%, Baptist 2.2%, Anglican 1.6%, Church of God 1.5%, other Protestant 0.9%), other Christian 3.4% (includes…",
+  "age": {"median":40.4,"life":79.4},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":18,"how":"all directly elected","term":"5 years"},{"seats":11,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"22 February 1979","event":"","from":"UK"},
+  "regions": "10 districts",
+  "legal": "English common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"22 February"},
+  "memberships": ["CARICOM","Commonwealth","Francophonie"],
+  "colours": "cerulean blue, gold, black, white"
+ }
+}

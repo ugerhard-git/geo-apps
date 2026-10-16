@@ -1,0 +1,32 @@
+{
+ "code": "CM",
+ "names": {"country":["République du Cameroun","Republic of Cameroon","Cameroon","Cameroun"],"people":["Cameroonians","Cameroonian"],"places":["State Unification Day (National Day)","Fako on Mont Cameroun","Lake Chad  - 10,360","Atlantic Ocean","North-West","South-West","Far North","Adamaoua","Littoral","Yaounde","Centre","Douala","North","South","East","West"],"neighbours":["Central African Republic","Republic of the Congo","Equatorial Guinea","Equatorial Guinean or Equatoguinean","Nigeria","Nigerian","Gabon","Gabonese","Chad","Chadian"]},
+ "fields": {
+  "climate": "varies with terrain, from tropical along coast to semiarid and hot in north",
+  "terrain": "diverse, with coastal plain in southwest, dissected plateau in center, mountains in west, plains in north",
+  "hazards": "volcanic activity with periodic releases of poisonous gases from Lake Nyos and Lake Monoun volcanoes; volcanism: Mt. Cameroon (4,095 m), which last erupted in 2000, is the most frequently active volcano in West Africa…",
+  "heights": {"high":4045,"low":0,"mean":667},
+  "coast": 402,
+  "borders": {"total":5018,"lengths":[1975,1116,901,494,349,183]},
+  "area": 475440,
+  "lake": {"sqkm":25900,"kind":"fresh water"},
+  "resources": "petroleum, bauxite, iron ore, timber, hydropower",
+  "farm": "cassava, plantains, oil palm fruit, maize, taro, tomatoes, sorghum, sugarcane, bananas, vegetables",
+  "exports": "crude petroleum, natural gas, gold, cocoa beans, wood",
+  "industries": "petroleum production and refining, aluminum production, food processing, light consumer goods, textiles, lumber, ship repair",
+  "city": {"millions":4.509,"capital":true},
+  "languages": "24 major African language groups, English (official), French (official)",
+  "religions": "Roman Catholic 33.1%, Muslim 30.6%, Protestant 27.1% other Christian 6.1%, animist 1.3%, other 0.7%, none 1.2%",
+  "age": {"median":19.4,"life":64.2},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":180,"how":"all directly elected","term":"5 years"},{"seats":100,"how":"","term":"5 years"}]},
+  "independence": {"date":"1 January 1960","event":"","from":"French-administered UN trusteeship"},
+  "regions": "10 regions",
+  "legal": "mixed system of English common law, French civil law, and customary law",
+  "suffrage": "20 years of age; universal",
+  "holiday": {"name":"State Unification Day (National Day)","date":"20 May"},
+  "military": "18-23 years of age for voluntary military service for men and women (18-28 for medical services); no conscription; service obligation 4 years",
+  "memberships": ["Islamic Cooperation","African Union","CEMAC","Commonwealth","Francophonie"],
+  "colours": "green, red, yellow"
+ }
+}

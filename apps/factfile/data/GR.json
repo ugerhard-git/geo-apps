@@ -1,0 +1,31 @@
+{
+ "code": "GR",
+ "names": {"country":["Elliniki Dimokratia","Hellenic Republic","Ellada","Greece","Ellas"],"people":["Greeks","Greek"],"places":["Anatoliki Makedonia kai Thraki","Kentriki Makedonia","Mediterranean Sea","Dytiki Makedonia","Independence Day","Dytiki Ellada","Sterea Ellada","Voreio Aigaio","Notio Aigaio","Peloponnisos","Thessaloniki","Ionia Nisia","Agion Oros","Thessalia","Ipeiros","Athens","Attiki","Kriti"],"neighbours":["North Macedonia","Macedonian","Bulgaria","Bulgarian","Albania","Albanian","Turkey","Turkish"]},
+ "fields": {
+  "climate": "temperate; mild, wet winters; hot, dry summers",
+  "terrain": "mountainous with ranges extending into the sea as peninsulas or chains of islands",
+  "hazards": "severe earthquakes; volcanism: Santorini (367 m) has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations…",
+  "heights": {"high":null,"low":0,"mean":498},
+  "coast": 13676,
+  "borders": {"total":1110,"lengths":[472,234,212,192]},
+  "area": 131957,
+  "resources": "lignite, petroleum, iron ore, bauxite, lead, zinc, nickel, magnesite, marble, salt, hydropower potential",
+  "farm": "maize, wheat, sheep milk, oranges, tomatoes, milk, peaches/nectarines, grapes, watermelons, barley",
+  "exports": "refined petroleum, packaged medicine, aluminum, olive oil, tobacco",
+  "industries": "tourism, food and tobacco processing, textiles, chemicals, metal products; mining, petroleum",
+  "city": {"millions":3.154,"capital":true},
+  "languages": "Greek (official) 99%, other (includes English and French) 1%",
+  "religions": "Greek Orthodox 81-90%, Muslim 2%, other 3%, none 4-15%, unspecified 1%",
+  "age": {"median":46.8,"life":81.9},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":300,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"3 February 1830","event":"","from":"Ottoman Empire"},
+  "regions": "13 regions and 1 autonomous monastic state",
+  "legal": "civil legal system based on Roman law",
+  "suffrage": "17 years of age; universal and compulsory",
+  "holiday": {"name":"Independence Day","date":"25 March"},
+  "military": "18 years of age for voluntary military service for men and women; all Greek men 19-45 are subject to compulsory military service…",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","Francophonie"],
+  "colours": "blue, white"
+ }
+}

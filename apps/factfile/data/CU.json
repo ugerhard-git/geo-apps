@@ -1,0 +1,30 @@
+{
+ "code": "CU",
+ "names": {"country":["República de Cuba","Republic of Cuba","Cuba"],"people":["Cubans","Cuban"],"places":["Triumph of the Revolution (Liberation Day)","Isla de la Juventud","Santiago de Cuba","Sancti Spiritus","Ciego de Avila","Caribbean Sea","Pico Turquino","Pinar del Río","Villa Clara","Cienfuegos","Guantanamo","La Habana","Las Tunas","Mayabeque","Artemisa","Camaguey","Matanzas","Holguin","Granma","Havana"],"neighbours":["US Naval Base at Guantanamo Bay"]},
+ "fields": {
+  "climate": "tropical; moderated by trade winds; dry season (November to April); rainy season (May to October)",
+  "terrain": "mostly flat to rolling plains, with rugged hills and mountains in the southeast",
+  "hazards": "the east coast is subject to hurricanes from August to November (in general, the country averages about one hurricane every other year); droughts are common",
+  "heights": {"high":1974,"low":0,"mean":108},
+  "coast": 3735,
+  "borders": {"total":28.5,"lengths":[28.5]},
+  "area": 110860,
+  "resources": "cobalt, nickel, iron ore, chromium, copper, salt, timber, silica, petroleum, arable land",
+  "farm": "sugarcane, cassava, plantains, vegetables, mangoes/guavas, milk, tomatoes, pumpkins/squash, sweet potatoes, bananas",
+  "exports": "tobacco, nickel, liquor, zinc ore, precious metal ore",
+  "industries": "petroleum, nickel, cobalt, pharmaceuticals, tobacco, construction, steel, cement, agricultural machinery, sugar",
+  "city": {"millions":2.149,"capital":true},
+  "languages": "Spanish (official)",
+  "religions": "Christian 58.9%, folk religion 17.6%, Buddhist <1%, Hindu <1%, Jewish <1%, Muslim <1%, other <1%, none 23.2%",
+  "age": {"median":46.2,"life":80.1},
+  "system": {"text":"communist state","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":470,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"20 May 1902","event":"","from":"US administration"},
+  "regions": "15 provinces and 1 special municipality",
+  "legal": "civil law system based on Spanish civil code",
+  "suffrage": "16 years of age; universal",
+  "holiday": {"name":"Triumph of the Revolution (Liberation Day)","date":"1 January"},
+  "military": "military service is mandatory for all men and voluntary for women (ages 17-28); service obligation is 24 months with the Armed Forces or the Ministry of Interior…",
+  "colours": "red, white, blue"
+ }
+}

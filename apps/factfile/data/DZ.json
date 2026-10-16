@@ -1,0 +1,31 @@
+{
+ "code": "DZ",
+ "names": {"country":["Al Jumhuriyah al Jaza'iriyah ad Dimuqratiyah ash Sha'biyah","People's Democratic Republic of Algeria","Al Jaza'ir","Algeria"],"people":["Algerians","Algerian"],"places":["Bordj Badji Mokhtar","Bordj Bou Arreridj","Independence Day","Ain Temouchent","Oum el Bouaghi","Sidi Bel Abbes","Chott Melrhir","Ouled Djellal","Constantine","El Meghaier","Tamanrasset","Beni Abbes","In Guezzam","Mostaganem","Souk Ahras","Tissemsilt","Tizi Ouzou","Ain Defla","Boumerdes","El Bayadh","El Meniaa","Khenchela","Touggourt","Ghardaia","In Salah","Laghouat","Relizane","Timimoun","Algiers","El Oued","El Tarf","Mascara","Ouargla","Tebessa","Tindouf","Tlemcen","Annaba","Bechar","Bejaia","Biskra","Bouira","Djanet","Djelfa","Guelma","Illizi","M'Sila","Skikda","Tiaret","Tipaza","Adrar","Alger","Batna","Blida","Chlef","Jijel","Medea","Naama","Saida","Setif","Tahat","Mila","Oran"],"neighbours":["Mauritania","Mauritanian","Morocco","Moroccan","Tunisia","Tunisian","Libya","Libyan","Niger","Nigerien","Mali","Malian"]},
+ "fields": {
+  "climate": "arid to semiarid; mild, wet winters with hot, dry summers along coast; drier with cold winters and hot summers on high plateau; sirocco is a hot, dust/sand-laden wind especially common in summer",
+  "terrain": "mostly high plateau and desert; Atlas Mountains in the far north and Hoggar Mountains in the south; narrow, discontinuous coastal plain",
+  "hazards": "mountainous areas subject to severe earthquakes; mudslides and floods in rainy season; droughts",
+  "heights": {"high":2908,"low":-40,"mean":800},
+  "coast": 998,
+  "borders": {"total":6734,"lengths":[1941,1359,1034,989,951,460]},
+  "area": 2381740,
+  "resources": "petroleum, natural gas, iron ore, phosphates, uranium, lead, zinc",
+  "farm": "potatoes, watermelons, wheat, milk, onions, tomatoes, vegetables, oranges, dates, barley",
+  "exports": "natural gas, crude petroleum, refined petroleum, fertilizers, iron bars",
+  "industries": "petroleum, natural gas, light industries, mining, electrical, petrochemical, food processing",
+  "city": {"millions":2.902,"capital":true},
+  "languages": "Arabic (official), French (lingua franca), Tamazight (official) (dialects include Kabyle (Taqbaylit), Shawiya (Tacawit), Mzab, Tuareg (Tamahaq))",
+  "religions": "Muslim (official; predominantly Sunni) 99%, other (includes Christian, Jewish, Ahmadi Muslim, Shia Muslim, Ibadi Muslim) <1%",
+  "age": {"median":29.3,"life":77.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":407,"how":"all directly elected","term":"5 years"},{"seats":174,"how":"","term":"6 years"}]},
+  "independence": {"date":"5 July 1962","event":"","from":"France"},
+  "regions": "58 provinces",
+  "legal": "mixed system of French civil law and Islamic law; judicial review of legislative acts in ad hoc Constitutional Council composed of various public officials including several Supreme Court justices",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"5 July"},
+  "military": "18 years of age for voluntary military service for men and women; 19 years of age for mandatory national service for men (all Algerian men must register at age 17)…",
+  "memberships": ["OPEC","OAPEC","Arab League","Islamic Cooperation","African Union"],
+  "colours": "green, white, red"
+ }
+}

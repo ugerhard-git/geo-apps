@@ -1,0 +1,30 @@
+{
+ "code": "IS",
+ "names": {"country":["Iceland","Island"],"people":["Icelanders","Icelander","Icelandic"],"places":["Hvannadalshnukur (at Vatnajokull Glacier)","Sveitarfelagidh Hornafjordhur","Grimsnes-og Grafningshreppur","Skeidha-og Gnupverjahreppur","Sveitarfelagidh Skagastrond","Eyja-og Miklaholtshreppur","Svalbardhsstrandarhreppur","Sveitarfelagidh Arborg","Sveitarfelagidh Olfus","Sveitarfelagidh Vogar","Talknafjardharhreppur","Vopnafjardharhreppur","Grundarfjardharbaer","Kaldrananeshreppur","Rangarthing Eystra","Eyjafjardharsveit","Fljotsdalshreppur","Grytubakkahreppur","Hrunamannahreppur","Hvalfjardharsveit","Skorradalshreppur","Sudhavikurhreppur","Hunathing Vestra","Independence Day","Rangarthing Ytra","Grindavikurbaer","Isafjardharbaer","Reykholahreppur","Sudhurnesjabaer","Thingeyjarsveit","Atlantic Ocean","Blaskogabyggdh","Dalvikurbyggdh","Hafnarfjordhur","Langanesbyggdh","Myrdalshreppur","Skaftarhreppur","Tjorneshreppur","Vestmannaeyjar","Fjardhabyggdh","Kjosarhreppur","Reykjanesbaer","Seltjarnarnes","Skagafjordhur","Snaefellsbaer","Strandabyggdh","Stykkisholmur","Arneshreppur","Borgarbyggdh","Fjallabyggdh","Mosfellsbaer","Nordhurthing","Vesturbyggdh","Bolungarvik","Floahreppur","Horgarsveit","Hveragerdhi","Skagabyggdh","Asahreppur","Dalabyggdh","Gardhabaer","Hunabyggdh","Kopavogur","Mulathing","Reykjavik","Akureyri","Akranes"],"neighbours":[]},
+ "fields": {
+  "climate": "temperate; moderated by North Atlantic Current; mild, windy winters; damp, cool summers",
+  "terrain": "mostly plateau interspersed with mountain peaks, icefields; coast deeply indented by bays and fiords",
+  "hazards": "earthquakes and volcanic activity; volcanism: Iceland is situated on top of a hotspot and experiences severe volcanic activity; Eyjafjallajokull (1,666 m) erupted in 2010, sending ash high into the atmosphere and seriously disrupting European air traffic…",
+  "heights": {"high":2110,"low":0,"mean":557},
+  "coast": 4970,
+  "borders": {"total":0,"lengths":[]},
+  "area": 103000,
+  "resources": "fish, hydropower, geothermal power, diatomite",
+  "farm": "milk, chicken, lamb/mutton, barley, potatoes, pork, beef, eggs, other meats, cucumbers/gherkins",
+  "exports": "aluminum, fish, orthopedic appliances, animal meal, iron alloys",
+  "industries": "tourism, fish processing; aluminum smelting; geothermal power, hydropower; medical/pharmaceutical products",
+  "city": {"millions":0.216,"capital":true},
+  "languages": "Icelandic, English, Polish, Nordic languages, German",
+  "religions": "Evangelical Lutheran Church of Iceland (official) 58.6% Roman Catholic 3.8%, Independent Congregation of Reykjavik 2.6%, Independent Congregation of Hafnarfjordur 1.9%, pagan worship 1.5%, Icelandic…",
+  "age": {"median":38.2,"life":84},
+  "system": {"text":"unitary parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":63,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1 December 1918","event":"became a sovereign state under the Danish Crown","from":""},
+  "regions": "64 municipalities",
+  "legal": "civil law system influenced by the Danish model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"17 June"},
+  "memberships": ["Schengen","NATO","OECD","Nordic Council"],
+  "colours": "blue, white, red"
+ }
+}

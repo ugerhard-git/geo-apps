@@ -1,0 +1,32 @@
+{
+ "code": "SY",
+ "names": {"country":["Al Jumhuriyah al Arabiyah as Suriyah","Syrian Arab Republic","Suriyah","Syria"],"people":["Syrians","Syrian"],"places":["Independence Day (Evacuation Day)","Mount Hermon (Jabal a-Shayk)","Al Ladhiqiyah","Al Qunaytirah","Dayr az Zawr","Yarmuk River","As Suwayda'","Rif Dimashq","Al Hasakah","Ar Raqqah","Euphrates","Damascus","Dimashq","Aleppo","Tartus","Tigris","Dar'a","Halab","Hamah","Idlib","Hims"],"neighbours":["Lebanon","Lebanese","Israel","Israeli","Jordan","Jordanian","Turkey","Turkish","Iraq","Iraqi"]},
+ "fields": {
+  "climate": "mostly desert; hot, dry, sunny summers (June to August) and mild, rainy winters (December to February) along coast; cold weather with snow or sleet periodically in Damascus",
+  "terrain": "primarily semiarid and desert plateau; narrow coastal plain; mountains in west",
+  "hazards": "dust storms, sandstorms; volcanism: Syria's two historically active volcanoes, Es Safa and an unnamed volcano near the Turkish border, have not erupted in centuries",
+  "heights": {"high":2814,"low":-66,"mean":514},
+  "coast": 193,
+  "borders": {"total":2363,"lengths":[899,599,403,379,83]},
+  "area": 187437,
+  "river": {"km":3596,"shared":3},
+  "resources": "petroleum, phosphates, chrome and manganese ores, asphalt, iron ore, rock salt, marble, gypsum, hydropower",
+  "farm": "wheat, barley, milk, sheep milk, tomatoes, olives, potatoes, maize, oranges, grapes",
+  "exports": "olive oil, phosphates, spice seeds, cotton, tomatoes",
+  "industries": "petroleum, textiles, food processing, beverages, tobacco, phosphate rock mining, cement, oil seeds crushing, automobile assembly",
+  "city": {"millions":2.585,"capital":true},
+  "languages": "Arabic (official), Kurdish, Armenian, Aramaic, Circassian, French, English",
+  "religions": "Muslim 87% (official; includes Sunni 74% and Alawi, Ismaili, and Shia 13%), Christian 10% (includes Orthodox, Uniate, and Nestorian), Druze 3%",
+  "age": {"median":24.5,"life":74.8},
+  "system": {"text":"transitional presidential republic","unsettled":true},
+  "parliament": {"chambers":1,"seats":[{"seats":210,"how":"","term":"4 years"}]},
+  "independence": {"date":"17 April 1946","event":"","from":"League of Nations mandate under French administration"},
+  "regions": "14 provinces",
+  "legal": "mixed system of civil and Islamic (sharia) law (for family courts)",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (Evacuation Day)","date":"17 April"},
+  "military": "under Bashar al-ASAD, Syrian men aged 18-38 were required to serve 18-21 months in the military…",
+  "memberships": ["OAPEC","Arab League","Islamic Cooperation"],
+  "colours": "red, white, black, green"
+ }
+}

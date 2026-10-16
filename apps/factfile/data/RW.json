@@ -1,0 +1,33 @@
+{
+ "code": "RW",
+ "names": {"country":["Republika y'u Rwanda","Republic of Rwanda","Rwanda"],"people":["Rwandans","Rwandan"],"places":["Nile river source","Independence Day","Volcan Karisimbi","Rusizi River","Lake Kivu","Kigali","Ouest","Nord","Est","Sud"],"neighbours":["Democratic Republic of the Congo","Tanzania","Tanzanian","Burundi","Burundian","Uganda","Ugandan"]},
+ "fields": {
+  "climate": "temperate; two rainy seasons (February to April, November to January); mild in mountains with frost and snow possible",
+  "terrain": "mostly grassy uplands and hills; relief is mountainous with altitude declining from west to east",
+  "hazards": "periodic droughts; the volcanic Virunga Mountains are in the northwest along the border with Democratic Republic of the Congo…",
+  "heights": {"high":4519,"low":950,"mean":1598},
+  "coast": 0,
+  "borders": {"total":930,"lengths":[315,222,221,172]},
+  "area": 26338,
+  "lake": {"sqkm":2220,"kind":"fresh water"},
+  "river": {"km":6650,"shared":5},
+  "resources": "gold, cassiterite (tin ore), wolframite (tungsten ore), methane, hydropower, arable land",
+  "farm": "bananas, cassava, sweet potatoes, plantains, potatoes, maize, beans, pumpkins/squash, taro, sorghum",
+  "exports": "gold, rare earth ores, coffee, tea, tin ores",
+  "industries": "cement, agricultural products, small-scale beverages, soap, furniture, shoes, plastic goods, textiles, cigarettes",
+  "city": {"millions":1.248,"capital":true},
+  "languages": "Kinyarwanda (official, universal Bantu vernacular) 93.2%, French (official) <0.1%, English (official) <0.1%, Swahili/Kiswahili (official, used in commercial centers) <0.1%, more than one language…",
+  "religions": "Catholic 39.9%, Pentecostal 21.3%, Protestant 14.6%, Adventist 12.2%, other Christians 4.2%, no religion 3.0%, Muslim 2.0%, other religions 2.0%; less than 1%: Jehovah Witness, not specified, Animist",
+  "age": {"median":21.3,"life":66.6},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":80,"how":"","term":"5 years"},{"seats":26,"how":"","term":"5 years"}]},
+  "independence": {"date":"1 July 1962","event":"","from":"Belgium-administered UN trusteeship"},
+  "regions": "4 provinces",
+  "legal": "mixed system of civil law, based on German and Belgian models, and customary law; Supreme Court reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"1 July"},
+  "military": "typically 18-30 years of age for men and women for voluntary military service (including officer candidates and those with university degrees and specialized qualifications)…",
+  "memberships": ["African Union","East African Community","COMESA","Francophonie"],
+  "colours": "blue, yellow, green"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "NO",
+ "names": {"country":["Kingdom of Norway","Kongeriket Norge","Norway","Norge"],"people":["Norwegians","Norwegian"],"places":["Vestfold og Telemark","Troms og Finnmark","Constitution Day","More og Romsdal","Norwegian Sea","Galdhopiggen","Innlandet","Trondelag","Nordland","Rogaland","Vestland","Romsdal","Agder","Viken","Oslo"],"neighbours":["Finland","Finnish","Russia","Russian","Sweden","Swedish"]},
+ "fields": {
+  "climate": "temperate along coast, modified by North Atlantic Current; colder interior with increased precipitation and colder summers; rainy year-round on west coast",
+  "terrain": "glaciated; mostly high plateaus and rugged mountains broken by fertile valleys; small, scattered plains; coastline deeply indented by fjords; arctic tundra in north",
+  "hazards": "rockslides, avalanches; volcanism: Beerenberg (2,227 m) on Jan Mayen Island in the Norwegian Sea is the country's only active volcano",
+  "heights": {"high":2469,"low":0,"mean":460},
+  "coast": 25148,
+  "borders": {"total":2566,"lengths":[1666,709,191]},
+  "area": 323802,
+  "resources": "petroleum, natural gas, iron ore, copper, lead, zinc, titanium, pyrites, nickel, fish, timber, hydropower",
+  "farm": "milk, barley, potatoes, oats, wheat, pork, chicken, beef, eggs, carrots/turnips",
+  "exports": "natural gas, crude petroleum, fish, refined petroleum, aluminum",
+  "industries": "petroleum and gas, shipping, fishing, aquaculture, food processing, shipbuilding, pulp and paper products, metals, chemicals, timber, mining, textiles",
+  "city": {"millions":1.086,"capital":true},
+  "languages": "Bokmal Norwegian (official), Nynorsk Norwegian (official), small Sami- and Finnish-speaking minorities",
+  "religions": "Church of Norway (Evangelical Lutheran - official) 67.5%, Muslim 3.1%, Roman Catholic 3.1%, other Christian 3.8%, other 2.6%, unspecified 19.9%",
+  "age": {"median":41,"life":82.9},
+  "system": {"text":"parliamentary constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":169,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"7 June 1905","event":"union with Sweden declared dissolved","from":""},
+  "regions": "12 counties",
+  "legal": "mixed system of civil, common, and customary law; Supreme Court can advise on legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"17 May"},
+  "military": "17 (men) or 18 (women) for voluntary military service; all Norwegian citizens 19-44 are subject to selective compulsory military service…",
+  "memberships": ["Schengen","NATO","OECD","Nordic Council"],
+  "colours": "red, white, blue"
+ }
+}
