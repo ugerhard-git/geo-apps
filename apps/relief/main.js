@@ -383,7 +383,11 @@ function syncUI() {
   $("dlJpg").title = transparent ? "JPEG cannot store transparency — export as PNG" : "";
   $("pngOnly").hidden = !transparent;
   const m = mode();
-  $("bgField").hidden = m !== "outline" || transparent;
+  // Blended takes its background from the ground; the others use this colour.
+  $("bgField").hidden = m === "blend" || transparent;
+  $("blendBgHint").hidden = m !== "blend" || transparent;
+  $("bgHint").textContent =
+    m === "outline" ? "Around the country." : "Around the map, behind the caption and credit.";
   $("landField").hidden = byHeight;
   $("schemeField").hidden = !byHeight;
   $("customRamp").hidden = !byHeight || $("scheme").value !== "custom";
