@@ -29,6 +29,7 @@ import {
   blurMask,
   chooseZoom,
   colourise,
+  customRamp,
   decodeTerrarium,
   heightColour,
   hillshade,
@@ -1436,4 +1437,34 @@ test("relief: colours — flat ground is the ground colour; outside the mask the
   assert.deepEqual([...out], [100, 100, 100, 255, 10, 20, 30, 255]);
   assert.deepEqual(heightColour(-50), heightColour(0));
   assert.notDeepEqual(heightColour(0), heightColour(3000));
+});
+
+test("relief: custom height colours; a transparent background keeps only the terrain", () => {
+  const ramp = customRamp(["#000000", "#808080", "#ffffff"], [0, 1000, 3000]);
+  assert.deepEqual(heightColour(0, ramp), [0, 0, 0]);
+  assert.deepEqual(heightColour(500, ramp), [64, 64, 64]);
+  assert.deepEqual(heightColour(9000, ramp), [255, 255, 255]);
+
+  // Flat ground at 1000 m, coloured by height: the middle colour.
+  const out = new Uint8ClampedArray(8);
+  const p = {
+    land: /** @type {[number, number, number]} */ ([1, 2, 3]),
+    shadow: /** @type {[number, number, number]} */ ([0, 0, 0]),
+    light: /** @type {[number, number, number]} */ ([255, 255, 255]),
+    bg: /** @type {[number, number, number]} */ ([10, 20, 30]),
+    transparent: true,
+    byHeight: true,
+    ramp,
+    contrast: 1,
+  };
+  const half = new Uint8Array([255, 128]);
+  colourise(
+    out,
+    new Float32Array([FLAT_SHADE, FLAT_SHADE]),
+    new Float32Array([1000, 1000]),
+    half,
+    p,
+  );
+  // The colour stays; the mask becomes opacity, and the background is gone.
+  assert.deepEqual([...out], [128, 128, 128, 255, 128, 128, 128, 128]);
 });

@@ -10,7 +10,7 @@
  */
 
 import {
-  HEIGHT_RAMP,
+  HEIGHT_SCHEMES,
   LIGHTS,
   MAX_EXAGGERATION,
   MIN_EXAGGERATION,
@@ -143,22 +143,26 @@ export function sampleHeights(grid, tileAt) {
   const { w, h, z, X0, Y0, step } = grid;
   const out = new Float32Array(w * h);
   const rowsInWorld = TILE * 2 ** z;
-  /** @type {Map<string, Float32Array | null>} */
-  const local = new Map();
-  /** @param {number} X @param {number} Y */
+  // The tiles under the grid, looked up once: by name per sample is slow.
+  const tx0 = Math.floor((X0 - 1) / TILE);
+  const tx1 = Math.floor((X0 + w * step + 1) / TILE);
+  const ty0 = Math.floor(clamp(Y0 - 1, 0, rowsInWorld - 1) / TILE);
+  const ty1 = Math.floor(clamp(Y0 + h * step + 1, 0, rowsInWorld - 1) / TILE);
+  const cols = tx1 - tx0 + 1;
+  /** @type {Array<Float32Array | null>} */
+  const tiles = [];
+  for (let ty = ty0; ty <= ty1; ty++)
+    for (let tx = tx0; tx <= tx1; tx++) tiles.push(tileAt(tileKey(z, tx, ty)) || null);
+
+  /** @param {number} X @param {number} Y whole world pixels */
   const at = (X, Y) => {
-    const Yc = clamp(Y, 0, rowsInWorld - 1);
+    const Yc = Y < 0 ? 0 : Y >= rowsInWorld ? rowsInWorld - 1 : Y;
     const tx = Math.floor(X / TILE);
     const ty = Math.floor(Yc / TILE);
-    const key = tileKey(z, tx, ty);
-    let t = local.get(key);
-    if (t === undefined) {
-      t = tileAt(key) || null;
-      local.set(key, t);
-    }
+    const t = tiles[(ty - ty0) * cols + (tx - tx0)];
     if (!t) return 0;
     const v = t[(Yc - ty * TILE) * TILE + (X - tx * TILE)];
-    return Number.isFinite(v) ? v : 0;
+    return v === v ? v : 0; // NaN reads as sea level
   };
   for (let j = 0; j < h; j++) {
     const Y = Y0 + j * step - 0.5;
@@ -200,8 +204,13 @@ export function rowMetres(grid) {
    Shading
    ═══════════════════════════════════════════════════════════ */
 
+/** Where {@link gradient} leaves its result: east, north. Reused, so the
+ *  millions of calls per sheet allocate nothing. */
+const GRAD = new Float64Array(2);
+
 /**
- * The slope at a pixel as east and north gradients (rise over run).
+ * The slope at a pixel as east and north gradients (rise over run), left in
+ * {@link GRAD}.
  *
  * @param {Float32Array} e heights
  * @param {number} w
@@ -209,7 +218,6 @@ export function rowMetres(grid) {
  * @param {Float64Array} metres per row
  * @param {number} i
  * @param {number} j
- * @returns {[number, number]}
  */
 function gradient(e, w, h, metres, i, j) {
   const l = i > 0 ? i - 1 : i;
@@ -217,10 +225,9 @@ function gradient(e, w, h, metres, i, j) {
   const u = j > 0 ? j - 1 : j;
   const d = j < h - 1 ? j + 1 : j;
   const m = metres[j];
-  const east = (e[j * w + r] - e[j * w + l]) / ((r - l || 1) * m);
+  GRAD[0] = (e[j * w + r] - e[j * w + l]) / ((r - l || 1) * m);
   // Rows run south, so north is up the column.
-  const north = (e[u * w + i] - e[d * w + i]) / ((d - u || 1) * m);
-  return [east, north];
+  GRAD[1] = (e[u * w + i] - e[d * w + i]) / ((d - u || 1) * m);
 }
 
 /**
@@ -250,7 +257,9 @@ export function slopeQuantile(e, w, h, metres, mask, q) {
   for (let j = 0; j < h; j += every)
     for (let i = 0; i < w; i += every) {
       if (mask && mask[j * w + i] < 128) continue;
-      const [gx, gy] = gradient(e, w, h, metres, i, j);
+      gradient(e, w, h, metres, i, j);
+      const gx = GRAD[0];
+      const gy = GRAD[1];
       slopes.push(Math.hypot(gx, gy));
     }
   if (!slopes.length) return 0;
@@ -295,7 +304,9 @@ export function hillshade(e, w, h, metres, exaggeration) {
   const out = new Float32Array(w * h);
   for (let j = 0; j < h; j++)
     for (let i = 0; i < w; i++) {
-      const [gx, gy] = gradient(e, w, h, metres, i, j);
+      gradient(e, w, h, metres, i, j);
+      const gx = GRAD[0];
+      const gy = GRAD[1];
       // The surface normal, tilted against the slope.
       const nx = -gx * exaggeration;
       const ny = -gy * exaggeration;
@@ -323,26 +334,41 @@ export function hillshade(e, w, h, metres, exaggeration) {
 export function blurMask(mask, w, h, radius) {
   const r = Math.max(0, Math.round(radius / 1.7));
   if (!r) return mask.slice();
-  const a = Float32Array.from(mask);
+  const a = new Float32Array(w * h);
+  for (let k = 0; k < a.length; k++) a[k] = mask[k];
   const b = new Float32Array(w * h);
-  const pass = (/** @type {Float32Array} */ src, /** @type {Float32Array} */ dst, horiz) => {
-    const n = horiz ? w : h;
-    const lines = horiz ? h : w;
-    for (let line = 0; line < lines; line++) {
-      const idx = (/** @type {number} */ k) => (horiz ? line * w + k : k * w + line);
+  const span = 2 * r + 1;
+  /**
+   * One box blur along `count` lines of length `n`: element k of line `line`
+   * is at `line * lineStep + k * step`.
+   *
+   * @param {Float32Array} src
+   * @param {Float32Array} dst
+   * @param {number} n
+   * @param {number} count
+   * @param {number} step
+   * @param {number} lineStep
+   */
+  const pass = (src, dst, n, count, step, lineStep) => {
+    for (let line = 0; line < count; line++) {
+      const o = line * lineStep;
       let sum = 0;
-      for (let k = -r; k <= r; k++) sum += src[idx(clamp(k, 0, n - 1))];
+      for (let k = -r; k <= r; k++) sum += src[o + (k < 0 ? 0 : k >= n ? n - 1 : k) * step];
       for (let k = 0; k < n; k++) {
-        dst[idx(k)] = sum / (2 * r + 1);
-        sum += src[idx(Math.min(n - 1, k + r + 1))] - src[idx(Math.max(0, k - r))];
+        dst[o + k * step] = sum / span;
+        const add = k + r + 1 < n ? k + r + 1 : n - 1;
+        const drop = k - r > 0 ? k - r : 0;
+        sum += src[o + add * step] - src[o + drop * step];
       }
     }
   };
   for (let n = 0; n < 3; n++) {
-    pass(a, b, true);
-    pass(b, a, false);
+    pass(a, b, w, h, 1, w); // along rows
+    pass(b, a, h, w, w, 1); // along columns
   }
-  return Uint8Array.from(a, (v) => Math.round(v));
+  const out = new Uint8Array(w * h);
+  for (let k = 0; k < out.length; k++) out[k] = Math.round(a[k]);
+  return out;
 }
 
 /**
@@ -382,25 +408,59 @@ export function rgbOf(hex) {
   return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
 }
 
-const RAMP = HEIGHT_RAMP.map(([m, hex]) => /** @type {[number, RGB]} */ ([m, rgbOf(hex)]));
+/** @typedef {Array<[number, string]>} Ramp metres → "#rrggbb", rising */
+
+/** The default scheme. */
+export const DEFAULT_RAMP = HEIGHT_SCHEMES[0].ramp;
 
 /**
- * The atlas colour for a height.
+ * A custom scheme from three colours, at the given heights.
+ *
+ * @param {string[]} colours "#rrggbb" for low, middle and high ground
+ * @param {number[]} heights metres, rising
+ * @returns {Ramp}
+ */
+export const customRamp = (colours, heights) =>
+  heights.map((m, i) => /** @type {[number, string]} */ ([m, colours[i]]));
+
+/**
+ * The colour of a scheme at a height, blended between its steps.
  *
  * @param {number} metres
+ * @param {Ramp} [ramp]
  * @returns {RGB}
  */
-export function heightColour(metres) {
-  if (metres <= RAMP[0][0]) return RAMP[0][1];
-  for (let k = 1; k < RAMP.length; k++) {
-    const [m1, c1] = RAMP[k];
+export function heightColour(metres, ramp = DEFAULT_RAMP) {
+  const steps = ramp.map(([m, hex]) => /** @type {[number, RGB]} */ ([m, rgbOf(hex)]));
+  if (metres <= steps[0][0]) return steps[0][1];
+  for (let k = 1; k < steps.length; k++) {
+    const [m1, c1] = steps[k];
     if (metres <= m1) {
-      const [m0, c0] = RAMP[k - 1];
+      const [m0, c0] = steps[k - 1];
       const t = (metres - m0) / (m1 - m0);
       return [0, 1, 2].map((n) => c0[n] + (c1[n] - c0[n]) * t);
     }
   }
-  return RAMP[RAMP.length - 1][1];
+  return steps[steps.length - 1][1];
+}
+
+/** {@link heightColour} every 5 m from sea level to 9 km, as r, g, b. */
+const HEIGHT_STEP = 5;
+/** @type {Map<string, Uint8Array>} one table per scheme, built when first used */
+const tables = new Map();
+
+/** @param {Ramp} ramp */
+function heightTable(ramp) {
+  const key = JSON.stringify(ramp);
+  let t = tables.get(key);
+  if (!t) {
+    const n = 9000 / HEIGHT_STEP + 1;
+    t = new Uint8Array(n * 3);
+    for (let k = 0; k < n; k++) t.set(heightColour(k * HEIGHT_STEP, ramp).map(Math.round), k * 3);
+    if (tables.size > 20) tables.clear(); // custom colours change often
+    tables.set(key, t);
+  }
+  return t;
 }
 
 /**
@@ -409,7 +469,9 @@ export function heightColour(metres) {
  * @property {RGB} shadow
  * @property {RGB} light
  * @property {RGB} bg what shows where the mask is empty
+ * @property {boolean} transparent where the mask is empty, nothing shows
  * @property {boolean} byHeight colour the ground by its height
+ * @property {Ramp} ramp the colours by height
  * @property {number} contrast multiplies {@link SHADOW_GAIN} and {@link LIGHT_GAIN}
  */
 
@@ -425,7 +487,8 @@ export const LIGHT_GAIN = 3.2;
 /**
  * Colour the terrain into RGBA pixels. Flat ground gets exactly the ground
  * colour; slopes towards the light move to `light`, slopes away to
- * `shadow`. Where the mask is partly or wholly empty, `bg` shows through.
+ * `shadow`. Where the mask is partly or wholly empty, `bg` shows through,
+ * or with `transparent`, nothing: the mask becomes the pixels' opacity.
  *
  * @param {Uint8ClampedArray} out RGBA, w × h
  * @param {Float32Array} shade
@@ -435,8 +498,17 @@ export const LIGHT_GAIN = 3.2;
  */
 export function colourise(out, shade, e, mask, p) {
   const flat = FLAT_SHADE;
+  const table = p.byHeight ? heightTable(p.ramp) : new Uint8Array(3);
+  const last = table.length / 3 - 1;
+  const base = [...p.land];
   for (let k = 0; k < shade.length; k++) {
-    const base = p.byHeight ? heightColour(e[k]) : p.land;
+    if (p.byHeight) {
+      const m = e[k] / HEIGHT_STEP;
+      const t = (m <= 0 ? 0 : m >= last ? last : Math.round(m)) * 3;
+      base[0] = table[t];
+      base[1] = table[t + 1];
+      base[2] = table[t + 2];
+    }
     const s = shade[k];
     let r, g, b;
     if (s < flat) {
@@ -452,9 +524,16 @@ export function colourise(out, shade, e, mask, p) {
     }
     const a = mask ? mask[k] / 255 : 1;
     const o = k * 4;
-    out[o] = p.bg[0] + (r - p.bg[0]) * a;
-    out[o + 1] = p.bg[1] + (g - p.bg[1]) * a;
-    out[o + 2] = p.bg[2] + (b - p.bg[2]) * a;
-    out[o + 3] = 255;
+    if (p.transparent) {
+      out[o] = r;
+      out[o + 1] = g;
+      out[o + 2] = b;
+      out[o + 3] = a * 255;
+    } else {
+      out[o] = p.bg[0] + (r - p.bg[0]) * a;
+      out[o + 1] = p.bg[1] + (g - p.bg[1]) * a;
+      out[o + 2] = p.bg[2] + (b - p.bg[2]) * a;
+      out[o + 3] = 255;
+    }
   }
 }

@@ -39,9 +39,16 @@ import { projectCountry } from "../../shared/projection.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
 import { clamp, own } from "../../shared/util.js";
-import { ATTRIBUTION_URL, CREDIT, MAX_TILES, MAX_ZOOM } from "./config.js";
+import {
+  ATTRIBUTION_URL,
+  CREDIT,
+  CUSTOM_HEIGHTS,
+  HEIGHT_SCHEMES,
+  MAX_TILES,
+  MAX_ZOOM,
+} from "./config.js";
 import { drawSheet, neededBox, planSheet, prepareRelief } from "./render.js";
-import { chooseZoom, tileKeys } from "./terrain.js";
+import { chooseZoom, customRamp, tileKeys } from "./terrain.js";
 import { cachedTile, ensureTiles } from "./tiles.js";
 
 addBackLink();
@@ -89,6 +96,24 @@ function mode() {
    What to draw
    ═══════════════════════════════════════════════════════════ */
 
+/**
+ * The colours by height: a preset, or the three custom colours.
+ *
+ * @returns {import("./terrain.js").Ramp}
+ */
+function rampOf() {
+  if ($("scheme").value === "custom")
+    return customRamp(
+      [
+        safeColour($("lowColor").value, "#9fbf8f"),
+        safeColour($("midColor").value, "#d2b88c"),
+        safeColour($("highColor").value, "#f4f2f0"),
+      ],
+      CUSTOM_HEIGHTS,
+    );
+  return (HEIGHT_SCHEMES.find((s) => s.id === $("scheme").value) || HEIGHT_SCHEMES[0]).ramp;
+}
+
 /** @returns {import("./render.js").SheetOptions} */
 function currentOptions() {
   return {
@@ -97,13 +122,17 @@ function currentOptions() {
     shadow: safeColour($("shadowColor").value, "#1e2228"),
     light: safeColour($("lightColor").value, "#ffffff"),
     bg: safeColour($("bgColor").value, "#f8f6f2"),
+    transparent: $("optTransparent").checked,
     byHeight: $("optHeight").checked,
+    ramp: rampOf(),
     relief: scaleOf("relief"),
     margin: clamp(+$("margin").value || 0, 0, 30) / 100,
     name: $("optName").checked,
     label: chosen ? chosen.name : "",
     caption: cleanText($("capText").value, 120),
     capTop: isPressed("capTop"),
+    note: cleanText($("noteText").value, 160),
+    noteTop: isPressed("noteTop"),
     capColour: safeColour($("capColor").value, "#1e2228"),
     credit: $("optCredit").checked ? CREDIT : "",
   };
@@ -143,6 +172,9 @@ function projectedCountry() {
  * @returns {Promise<boolean>} false if it was overtaken or couldn't draw
  */
 async function build(canvas, mine) {
+  const say = (/** @type {string} */ label) => {
+    if (mine === request) working(label);
+  };
   const country = projectedCountry();
   if (!country) return false;
   const opts = currentOptions();
@@ -165,14 +197,14 @@ async function build(canvas, mine) {
     const failed = await ensureTiles(
       keys,
       (done, total) => {
-        if (mine === request) progress(`Loading the terrain · ${done} of ${total} tiles`, true);
+        say(`Loading the terrain · ${done} of ${total} tiles`);
       },
       () => mine !== request,
     );
     if (mine !== request) return false;
-    progress("Shading the terrain", true);
-    // Let the label paint before the slow part.
-    await new Promise((r) => setTimeout(r, 0));
+    say("Shading the terrain");
+    // Shading blocks the page for a moment: let the label show first.
+    await nextPaint();
     if (mine !== request) return false;
     relief = prepareRelief(plan, country.shape, z, cachedTile, opts.relief);
     reliefKey = key;
@@ -265,6 +297,38 @@ function pickCountry(c) {
    Refresh and export
    ═══════════════════════════════════════════════════════════ */
 
+/**
+ * Resolves once the browser has drawn what was just changed on the page, so
+ * that a busy label is on screen before a long calculation blocks it. (A
+ * page in a background tab draws nothing, hence the time limit.)
+ *
+ * @returns {Promise<void>}
+ */
+const nextPaint = () =>
+  new Promise((resolve) => {
+    requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
+    setTimeout(resolve, 100);
+  });
+
+/**
+ * Show the spinner over the sheet, with what is going on. Its fade-in is
+ * delayed a little in the stylesheet, so quick redraws don't flash it, and
+ * it keeps turning while the page is busy (the browser animates it apart
+ * from the page's own work).
+ *
+ * @param {string} label
+ */
+function working(label) {
+  $("busyLabel").textContent = label;
+  $("busy").classList.add("on");
+  $("view").classList.add("working");
+}
+
+function idle() {
+  $("busy").classList.remove("on");
+  $("view").classList.remove("working");
+}
+
 function hideSheet() {
   $("sheetWrap").hidden = true;
   $("empty").hidden = false;
@@ -275,19 +339,24 @@ async function refresh() {
   syncUI();
   const mine = ++request;
   if (!chosen) {
+    idle();
     hideSheet();
     $("sources").hidden = true;
     return;
   }
   if (!shape || !projectedCountry()) {
+    idle();
     hideSheet();
     note(`There is no outline for ${chosen.name} at this scale, so its terrain can't be cut out.`);
     return;
   }
+  working("Drawing the terrain");
+  await nextPaint();
+  if (mine !== request) return;
   try {
     const drawn = await build($("sheet"), mine);
     if (!drawn) return;
-    progress(null);
+    idle();
     $("sheetWrap").hidden = false;
     $("empty").hidden = true;
     note(
@@ -299,7 +368,7 @@ async function refresh() {
     renderSources();
     syncUI();
   } catch (e) {
-    if (mine === request) progress(null);
+    if (mine === request) idle();
     note("Couldn't draw the terrain: " + cleanText(e && e.message, 80), true);
   }
 }
@@ -307,11 +376,19 @@ async function refresh() {
 /** Enable, disable and label the controls that depend on other controls. */
 function syncUI() {
   const ready = !!(chosen && shape && relief);
+  const transparent = $("optTransparent").checked;
+  const byHeight = $("optHeight").checked;
   $("dlPng").disabled = !ready;
-  $("dlJpg").disabled = !ready;
+  $("dlJpg").disabled = !ready || transparent;
+  $("dlJpg").title = transparent ? "JPEG cannot store transparency — export as PNG" : "";
+  $("pngOnly").hidden = !transparent;
   const m = mode();
-  $("bgField").hidden = m !== "outline";
-  $("landField").hidden = $("optHeight").checked;
+  $("bgField").hidden = m !== "outline" || transparent;
+  $("landField").hidden = byHeight;
+  $("schemeField").hidden = !byHeight;
+  $("customRamp").hidden = !byHeight || $("scheme").value !== "custom";
+  showRamp(rampOf());
+  $("notePosField").hidden = !cleanText($("noteText").value, 160);
   $("modeHint").textContent =
     m === "outline"
       ? "The country on its own, on the background colour. Its outline is part of the clue."
@@ -323,6 +400,18 @@ function syncUI() {
 }
 
 /**
+ * The chosen colours by height as a strip under the list.
+ *
+ * @param {import("./terrain.js").Ramp} ramp
+ */
+function showRamp(ramp) {
+  const top = ramp[ramp.length - 1][0] || 1;
+  // Colours here are "#rrggbb" from the presets or from safeColour.
+  const stops = ramp.map(([m, hex]) => `${hex} ${Math.round((m / top) * 100)}%`);
+  $("rampPreview").style.background = `linear-gradient(to right, ${stops.join(", ")})`;
+}
+
+/**
  * Render the sheet at full size and download it.
  *
  * @param {string} type MIME type
@@ -331,9 +420,12 @@ function syncUI() {
 async function exportSheet(type, ext) {
   if (!chosen) return;
   const opts = currentOptions();
+  const mine = request;
+  working("Preparing the download");
+  await nextPaint();
   try {
     const canvas = document.createElement("canvas");
-    if (!(await build(canvas, request))) return;
+    if (!(await build(canvas, mine))) return;
     const blob = await canvasToBlob(canvas, type);
     if (!blob) {
       note("The browser refused to encode the image.", true);
@@ -344,6 +436,8 @@ async function exportSheet(type, ext) {
     downloadBlob(blob, `relief-${slug || "map"}.${ext}`);
   } catch (e) {
     note("Export failed: " + cleanText(e && e.message, 80), true);
+  } finally {
+    if (mine === request) idle();
   }
 }
 
@@ -378,6 +472,15 @@ function seg(on, off) {
 }
 seg("capTop", "capBottom");
 seg("capBottom", "capTop");
+seg("noteTop", "noteBottom");
+seg("noteBottom", "noteTop");
+
+// The colour schemes, from the config: text, never markup.
+$("scheme").replaceChildren(
+  ...HEIGHT_SCHEMES.map((s) => new Option(s.label, s.id)),
+  new Option("Custom…", "custom"),
+);
+$("scheme").addEventListener("change", refresh);
 
 const refreshSoon = debounce(refresh, 250);
 bindScale("relief", refreshSoon);
@@ -385,7 +488,8 @@ $("margin").addEventListener("input", () => {
   syncUI();
   refreshSoon();
 });
-for (const id of ["optHeight", "optName", "optCredit"]) $(id).addEventListener("change", refresh);
+for (const id of ["optHeight", "optName", "optCredit", "optTransparent"])
+  $(id).addEventListener("change", refresh);
 
 $("frame").addEventListener("change", () => {
   $("customSize").hidden = $("frame").value !== "custom";
@@ -398,6 +502,7 @@ $("capText").addEventListener("input", () => {
   $("capPosField").hidden = !cleanText($("capText").value, 120);
   refreshLater();
 });
+$("noteText").addEventListener("input", refreshLater);
 
 const repaint = debounce(refresh, 60);
 bindColour("landColor", "landHex", repaint);
@@ -405,6 +510,9 @@ bindColour("shadowColor", "shadowHex", repaint);
 bindColour("lightColor", "lightHex", repaint);
 bindColour("bgColor", "bgHex", repaint);
 bindColour("capColor", "capHex", repaint);
+bindColour("lowColor", "lowHex", repaint);
+bindColour("midColor", "midHex", repaint);
+bindColour("highColor", "highHex", repaint);
 
 $("dlPng").addEventListener("click", () => exportSheet("image/png", "png"));
 $("dlJpg").addEventListener("click", () => exportSheet("image/jpeg", "jpg"));

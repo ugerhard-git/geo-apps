@@ -41,13 +41,17 @@ import {
  * @property {string} shadow
  * @property {string} light
  * @property {string} bg background, in the "outline" mode and around the map
+ * @property {boolean} transparent no background: only the terrain is drawn
  * @property {boolean} byHeight colour the ground by its height
+ * @property {import("./terrain.js").Ramp} ramp the colours by height
  * @property {number} relief 0.5–2, multiplies the automatic exaggeration
  * @property {number} margin fraction of the frame left empty around the country
  * @property {boolean} name print the name (reveals)
  * @property {string} label the name to print
  * @property {string} caption
  * @property {boolean} capTop
+ * @property {string} note a short explanation, "" for none
+ * @property {boolean} noteTop above the map (otherwise below it)
  * @property {string} capColour colour of the caption, name and credit
  * @property {string} credit the credit line, "" for none
  */
@@ -86,6 +90,32 @@ function fitFont(ctx, text, px, minPx, weight, maxW) {
 }
 
 /**
+ * Break `text` into lines no wider than `maxW` at the current font.
+ *
+ * @param {CanvasRenderingContext2D} ctx
+ * @param {string} text
+ * @param {number} maxW
+ * @returns {string[]}
+ */
+function wrap(ctx, text, maxW) {
+  /** @type {string[]} */
+  const lines = [];
+  let line = "";
+  for (const word of text.split(/\s+/).filter(Boolean)) {
+    const next = line ? line + " " + word : word;
+    if (line && ctx.measureText(next).width > maxW) {
+      lines.push(line);
+      line = word;
+    } else line = next;
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+
+/** The note wraps onto at most this many lines; beyond, its text shrinks. */
+const NOTE_LINES = 3;
+
+/**
  * Where everything goes on the sheet.
  *
  * @param {CanvasRenderingContext2D} ctx for measuring text
@@ -113,6 +143,26 @@ export function planSheet(ctx, opts, frame) {
       texts.push({ text: opts.caption, y: bottom - px * 0.6, px, weight: 500, alpha: 1 });
       bottom -= px * 1.9;
     }
+  }
+  if (opts.note) {
+    // Smaller than the caption, and wrapped rather than shrunk to one line.
+    let px = Math.round(clamp(H * 0.027, 11, 40));
+    /** @type {string[]} */
+    let lines;
+    for (;;) {
+      ctx.font = `400 ${px}px ${FONT}`;
+      lines = wrap(ctx, opts.note, (W - pad * 2) * 0.8);
+      if (lines.length <= NOTE_LINES || px <= 9) break;
+      px -= 1;
+    }
+    const lead = px * 1.35;
+    const height = lines.length * lead + px * 0.6;
+    const first = opts.noteTop ? top + lead / 2 : bottom - height + lead / 2;
+    lines.forEach((text, i) =>
+      texts.push({ text, y: first + i * lead, px, weight: 400, alpha: 0.85 }),
+    );
+    if (opts.noteTop) top += height;
+    else bottom -= height;
   }
   if (opts.name && opts.label) {
     const px = Math.round(H * 0.03);
@@ -263,7 +313,7 @@ function maskOf(shape, w, h, map) {
  */
 export function backgroundOf(opts, relief) {
   if (opts.mode !== "blend") return rgbOf(opts.bg);
-  if (opts.byHeight) return heightColour(relief ? relief.lowest : 0).map(Math.round);
+  if (opts.byHeight) return heightColour(relief ? relief.lowest : 0, opts.ramp).map(Math.round);
   return rgbOf(opts.land);
 }
 
@@ -281,8 +331,11 @@ export function drawSheet(canvas, opts, plan, relief) {
   canvas.height = H;
   const ctx = /** @type {CanvasRenderingContext2D} */ (canvas.getContext("2d"));
   const bg = backgroundOf(opts, relief);
-  ctx.fillStyle = `rgb(${bg.join(",")})`;
-  ctx.fillRect(0, 0, W, H);
+  ctx.clearRect(0, 0, W, H);
+  if (!opts.transparent) {
+    ctx.fillStyle = `rgb(${bg.join(",")})`;
+    ctx.fillRect(0, 0, W, H);
+  }
 
   const img = new ImageData(relief.w, relief.h);
   colourise(img.data, relief.shade, relief.heights, maskFor(opts.mode, relief), {
@@ -290,7 +343,9 @@ export function drawSheet(canvas, opts, plan, relief) {
     shadow: rgbOf(opts.shadow),
     light: rgbOf(opts.light),
     bg,
+    transparent: opts.transparent,
     byHeight: opts.byHeight,
+    ramp: opts.ramp,
     contrast: 1,
   });
   if (relief.w === Math.round(area.w) && relief.h === Math.round(area.h)) {

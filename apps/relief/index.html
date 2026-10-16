@@ -71,6 +71,62 @@
             <div class="hint">Heights are exaggerated to suit the country; this makes slopes steeper or gentler.</div>
           </div>
           <label class="chk"><input type="checkbox" id="optHeight" /><span>Colour by height</span></label>
+          <div class="field" id="schemeField" hidden>
+            <label for="scheme">Height colours</label>
+            <select id="scheme"></select>
+            <div class="ramp" id="rampPreview" aria-hidden="true"></div>
+            <div class="hint">Every scheme spans the same heights, so low countries stay low-coloured.</div>
+          </div>
+          <div id="customRamp" hidden>
+            <div class="field">
+              <label for="lowHex">Low ground (sea level)</label>
+              <div class="colour">
+                <input type="color" id="lowColor" value="#9fbf8f" aria-label="Low ground colour swatch" />
+                <input
+                  type="text"
+                  id="lowHex"
+                  placeholder="#rrggbb"
+                  value="#9fbf8f"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Low ground colour as hex"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label for="midHex">Hills (1,000 m)</label>
+              <div class="colour">
+                <input type="color" id="midColor" value="#d2b88c" aria-label="Hills colour swatch" />
+                <input
+                  type="text"
+                  id="midHex"
+                  placeholder="#rrggbb"
+                  value="#d2b88c"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Hills colour as hex"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label for="highHex">Mountains (3,500 m and up)</label>
+              <div class="colour">
+                <input type="color" id="highColor" value="#f4f2f0" aria-label="Mountains colour swatch" />
+                <input
+                  type="text"
+                  id="highHex"
+                  placeholder="#rrggbb"
+                  value="#f4f2f0"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Mountains colour as hex"
+                />
+              </div>
+            </div>
+          </div>
           <div class="field" id="landField">
             <label for="landHex">Ground</label>
             <div class="colour">
@@ -164,6 +220,10 @@
             </div>
           </div>
           <label class="chk"
+            ><input type="checkbox" id="optTransparent" /><span>Transparent background</span
+            ><em id="pngOnly" hidden>PNG only</em></label
+          >
+          <label class="chk"
             ><input type="checkbox" id="optName" /><span>Name it on the sheet</span
             ><em id="revealTag" hidden>reveals</em></label
           >
@@ -187,6 +247,24 @@
             <div class="seg" role="group">
               <button id="capTop" aria-pressed="true">Above</button>
               <button id="capBottom" aria-pressed="false">Below</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="noteText">Note</label>
+            <input
+              type="text"
+              id="noteText"
+              value=""
+              placeholder="Leave empty for no note"
+              maxlength="160"
+              autocomplete="off"
+            />
+            <div class="hint">A short explanation for the players, e.g. "Heights are exaggerated."</div>
+          </div>
+          <div class="field" id="notePosField" hidden>
+            <div class="seg" role="group">
+              <button id="noteTop" aria-pressed="false">Above the map</button>
+              <button id="noteBottom" aria-pressed="true">Below the map</button>
             </div>
           </div>
           <div class="field" id="capField">
@@ -217,12 +295,17 @@
       </aside>
 
       <main class="stage">
-        <div class="empty" id="empty">
-          <strong>Pick a country to see its mountains and plains.</strong>
-          Lit from the north-west like an old atlas, with no borders, water or names: where the ranges run, how wide the
-          plains are and where the land is flat is the clue.
+        <div class="view" id="view">
+          <div class="empty" id="empty">
+            <strong>Pick a country to see its mountains and plains.</strong>
+            Lit from the north-west like an old atlas, with no borders, water or names: where the ranges run, how wide
+            the plains are and where the land is flat is the clue.
+          </div>
+          <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+          <div class="busy" id="busy" role="status" aria-live="polite">
+            <span class="spinner" aria-hidden="true"></span><span id="busyLabel"></span>
+          </div>
         </div>
-        <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
         <div class="bar" id="bar"><i></i></div>
         <div class="loading" id="loadLabel"></div>
         <div class="note" id="note"></div>
