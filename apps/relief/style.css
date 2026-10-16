@@ -554,3 +554,11 @@ button.link[hidden] {
 .view.working .empty {
   visibility: hidden;
 }
+
+/* The chosen colours by height, as a strip under the list. */
+.ramp {
+  height: 10px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 1px solid var(--rule);
+}

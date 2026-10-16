@@ -39,9 +39,16 @@ import { projectCountry } from "../../shared/projection.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
 import { clamp, own } from "../../shared/util.js";
-import { ATTRIBUTION_URL, CREDIT, MAX_TILES, MAX_ZOOM } from "./config.js";
+import {
+  ATTRIBUTION_URL,
+  CREDIT,
+  CUSTOM_HEIGHTS,
+  HEIGHT_SCHEMES,
+  MAX_TILES,
+  MAX_ZOOM,
+} from "./config.js";
 import { drawSheet, neededBox, planSheet, prepareRelief } from "./render.js";
-import { chooseZoom, tileKeys } from "./terrain.js";
+import { chooseZoom, customRamp, tileKeys } from "./terrain.js";
 import { cachedTile, ensureTiles } from "./tiles.js";
 
 addBackLink();
@@ -89,6 +96,24 @@ function mode() {
    What to draw
    ═══════════════════════════════════════════════════════════ */
 
+/**
+ * The colours by height: a preset, or the three custom colours.
+ *
+ * @returns {import("./terrain.js").Ramp}
+ */
+function rampOf() {
+  if ($("scheme").value === "custom")
+    return customRamp(
+      [
+        safeColour($("lowColor").value, "#9fbf8f"),
+        safeColour($("midColor").value, "#d2b88c"),
+        safeColour($("highColor").value, "#f4f2f0"),
+      ],
+      CUSTOM_HEIGHTS,
+    );
+  return (HEIGHT_SCHEMES.find((s) => s.id === $("scheme").value) || HEIGHT_SCHEMES[0]).ramp;
+}
+
 /** @returns {import("./render.js").SheetOptions} */
 function currentOptions() {
   return {
@@ -97,13 +122,17 @@ function currentOptions() {
     shadow: safeColour($("shadowColor").value, "#1e2228"),
     light: safeColour($("lightColor").value, "#ffffff"),
     bg: safeColour($("bgColor").value, "#f8f6f2"),
+    transparent: $("optTransparent").checked,
     byHeight: $("optHeight").checked,
+    ramp: rampOf(),
     relief: scaleOf("relief"),
     margin: clamp(+$("margin").value || 0, 0, 30) / 100,
     name: $("optName").checked,
     label: chosen ? chosen.name : "",
     caption: cleanText($("capText").value, 120),
     capTop: isPressed("capTop"),
+    note: cleanText($("noteText").value, 160),
+    noteTop: isPressed("noteTop"),
     capColour: safeColour($("capColor").value, "#1e2228"),
     credit: $("optCredit").checked ? CREDIT : "",
   };
@@ -347,11 +376,19 @@ async function refresh() {
 /** Enable, disable and label the controls that depend on other controls. */
 function syncUI() {
   const ready = !!(chosen && shape && relief);
+  const transparent = $("optTransparent").checked;
+  const byHeight = $("optHeight").checked;
   $("dlPng").disabled = !ready;
-  $("dlJpg").disabled = !ready;
+  $("dlJpg").disabled = !ready || transparent;
+  $("dlJpg").title = transparent ? "JPEG cannot store transparency — export as PNG" : "";
+  $("pngOnly").hidden = !transparent;
   const m = mode();
-  $("bgField").hidden = m !== "outline";
-  $("landField").hidden = $("optHeight").checked;
+  $("bgField").hidden = m !== "outline" || transparent;
+  $("landField").hidden = byHeight;
+  $("schemeField").hidden = !byHeight;
+  $("customRamp").hidden = !byHeight || $("scheme").value !== "custom";
+  showRamp(rampOf());
+  $("notePosField").hidden = !cleanText($("noteText").value, 160);
   $("modeHint").textContent =
     m === "outline"
       ? "The country on its own, on the background colour. Its outline is part of the clue."
@@ -360,6 +397,18 @@ function syncUI() {
         : "The terrain around the country too, so there is no edge at all; the country fills the middle.";
   $("revealTag").hidden = !$("optName").checked;
   $("marginOut").textContent = $("margin").value + "%";
+}
+
+/**
+ * The chosen colours by height as a strip under the list.
+ *
+ * @param {import("./terrain.js").Ramp} ramp
+ */
+function showRamp(ramp) {
+  const top = ramp[ramp.length - 1][0] || 1;
+  // Colours here are "#rrggbb" from the presets or from safeColour.
+  const stops = ramp.map(([m, hex]) => `${hex} ${Math.round((m / top) * 100)}%`);
+  $("rampPreview").style.background = `linear-gradient(to right, ${stops.join(", ")})`;
 }
 
 /**
@@ -423,6 +472,15 @@ function seg(on, off) {
 }
 seg("capTop", "capBottom");
 seg("capBottom", "capTop");
+seg("noteTop", "noteBottom");
+seg("noteBottom", "noteTop");
+
+// The colour schemes, from the config: text, never markup.
+$("scheme").replaceChildren(
+  ...HEIGHT_SCHEMES.map((s) => new Option(s.label, s.id)),
+  new Option("Custom…", "custom"),
+);
+$("scheme").addEventListener("change", refresh);
 
 const refreshSoon = debounce(refresh, 250);
 bindScale("relief", refreshSoon);
@@ -430,7 +488,8 @@ $("margin").addEventListener("input", () => {
   syncUI();
   refreshSoon();
 });
-for (const id of ["optHeight", "optName", "optCredit"]) $(id).addEventListener("change", refresh);
+for (const id of ["optHeight", "optName", "optCredit", "optTransparent"])
+  $(id).addEventListener("change", refresh);
 
 $("frame").addEventListener("change", () => {
   $("customSize").hidden = $("frame").value !== "custom";
@@ -443,6 +502,7 @@ $("capText").addEventListener("input", () => {
   $("capPosField").hidden = !cleanText($("capText").value, 120);
   refreshLater();
 });
+$("noteText").addEventListener("input", refreshLater);
 
 const repaint = debounce(refresh, 60);
 bindColour("landColor", "landHex", repaint);
@@ -450,6 +510,9 @@ bindColour("shadowColor", "shadowHex", repaint);
 bindColour("lightColor", "lightHex", repaint);
 bindColour("bgColor", "bgHex", repaint);
 bindColour("capColor", "capHex", repaint);
+bindColour("lowColor", "lowHex", repaint);
+bindColour("midColor", "midHex", repaint);
+bindColour("highColor", "highHex", repaint);
 
 $("dlPng").addEventListener("click", () => exportSheet("image/png", "png"));
 $("dlJpg").addEventListener("click", () => exportSheet("image/jpeg", "jpg"));

@@ -10,7 +10,7 @@
  */
 
 import {
-  HEIGHT_RAMP,
+  HEIGHT_SCHEMES,
   LIGHTS,
   MAX_EXAGGERATION,
   MIN_EXAGGERATION,
@@ -408,35 +408,60 @@ export function rgbOf(hex) {
   return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
 }
 
-const RAMP = HEIGHT_RAMP.map(([m, hex]) => /** @type {[number, RGB]} */ ([m, rgbOf(hex)]));
+/** @typedef {Array<[number, string]>} Ramp metres → "#rrggbb", rising */
+
+/** The default scheme. */
+export const DEFAULT_RAMP = HEIGHT_SCHEMES[0].ramp;
 
 /**
- * The atlas colour for a height.
+ * A custom scheme from three colours, at the given heights.
+ *
+ * @param {string[]} colours "#rrggbb" for low, middle and high ground
+ * @param {number[]} heights metres, rising
+ * @returns {Ramp}
+ */
+export const customRamp = (colours, heights) =>
+  heights.map((m, i) => /** @type {[number, string]} */ ([m, colours[i]]));
+
+/**
+ * The colour of a scheme at a height, blended between its steps.
  *
  * @param {number} metres
+ * @param {Ramp} [ramp]
  * @returns {RGB}
  */
-export function heightColour(metres) {
-  if (metres <= RAMP[0][0]) return RAMP[0][1];
-  for (let k = 1; k < RAMP.length; k++) {
-    const [m1, c1] = RAMP[k];
+export function heightColour(metres, ramp = DEFAULT_RAMP) {
+  const steps = ramp.map(([m, hex]) => /** @type {[number, RGB]} */ ([m, rgbOf(hex)]));
+  if (metres <= steps[0][0]) return steps[0][1];
+  for (let k = 1; k < steps.length; k++) {
+    const [m1, c1] = steps[k];
     if (metres <= m1) {
-      const [m0, c0] = RAMP[k - 1];
+      const [m0, c0] = steps[k - 1];
       const t = (metres - m0) / (m1 - m0);
       return [0, 1, 2].map((n) => c0[n] + (c1[n] - c0[n]) * t);
     }
   }
-  return RAMP[RAMP.length - 1][1];
+  return steps[steps.length - 1][1];
 }
 
 /** {@link heightColour} every 5 m from sea level to 9 km, as r, g, b. */
 const HEIGHT_STEP = 5;
-const HEIGHT_TABLE = (() => {
-  const n = 9000 / HEIGHT_STEP + 1;
-  const t = new Uint8Array(n * 3);
-  for (let k = 0; k < n; k++) t.set(heightColour(k * HEIGHT_STEP).map(Math.round), k * 3);
+/** @type {Map<string, Uint8Array>} one table per scheme, built when first used */
+const tables = new Map();
+
+/** @param {Ramp} ramp */
+function heightTable(ramp) {
+  const key = JSON.stringify(ramp);
+  let t = tables.get(key);
+  if (!t) {
+    const n = 9000 / HEIGHT_STEP + 1;
+    t = new Uint8Array(n * 3);
+    for (let k = 0; k < n; k++) t.set(heightColour(k * HEIGHT_STEP, ramp).map(Math.round), k * 3);
+    if (tables.size > 20) tables.clear(); // custom colours change often
+    tables.set(key, t);
+  }
   return t;
-})();
+}
 
 /**
  * @typedef {object} Palette
@@ -444,7 +469,9 @@ const HEIGHT_TABLE = (() => {
  * @property {RGB} shadow
  * @property {RGB} light
  * @property {RGB} bg what shows where the mask is empty
+ * @property {boolean} transparent where the mask is empty, nothing shows
  * @property {boolean} byHeight colour the ground by its height
+ * @property {Ramp} ramp the colours by height
  * @property {number} contrast multiplies {@link SHADOW_GAIN} and {@link LIGHT_GAIN}
  */
 
@@ -460,7 +487,8 @@ export const LIGHT_GAIN = 3.2;
 /**
  * Colour the terrain into RGBA pixels. Flat ground gets exactly the ground
  * colour; slopes towards the light move to `light`, slopes away to
- * `shadow`. Where the mask is partly or wholly empty, `bg` shows through.
+ * `shadow`. Where the mask is partly or wholly empty, `bg` shows through,
+ * or with `transparent`, nothing: the mask becomes the pixels' opacity.
  *
  * @param {Uint8ClampedArray} out RGBA, w × h
  * @param {Float32Array} shade
@@ -470,15 +498,16 @@ export const LIGHT_GAIN = 3.2;
  */
 export function colourise(out, shade, e, mask, p) {
   const flat = FLAT_SHADE;
-  const last = HEIGHT_TABLE.length / 3 - 1;
+  const table = p.byHeight ? heightTable(p.ramp) : new Uint8Array(3);
+  const last = table.length / 3 - 1;
   const base = [...p.land];
   for (let k = 0; k < shade.length; k++) {
     if (p.byHeight) {
       const m = e[k] / HEIGHT_STEP;
       const t = (m <= 0 ? 0 : m >= last ? last : Math.round(m)) * 3;
-      base[0] = HEIGHT_TABLE[t];
-      base[1] = HEIGHT_TABLE[t + 1];
-      base[2] = HEIGHT_TABLE[t + 2];
+      base[0] = table[t];
+      base[1] = table[t + 1];
+      base[2] = table[t + 2];
     }
     const s = shade[k];
     let r, g, b;
@@ -495,9 +524,16 @@ export function colourise(out, shade, e, mask, p) {
     }
     const a = mask ? mask[k] / 255 : 1;
     const o = k * 4;
-    out[o] = p.bg[0] + (r - p.bg[0]) * a;
-    out[o + 1] = p.bg[1] + (g - p.bg[1]) * a;
-    out[o + 2] = p.bg[2] + (b - p.bg[2]) * a;
-    out[o + 3] = 255;
+    if (p.transparent) {
+      out[o] = r;
+      out[o + 1] = g;
+      out[o + 2] = b;
+      out[o + 3] = a * 255;
+    } else {
+      out[o] = p.bg[0] + (r - p.bg[0]) * a;
+      out[o + 1] = p.bg[1] + (g - p.bg[1]) * a;
+      out[o + 2] = p.bg[2] + (b - p.bg[2]) * a;
+      out[o + 3] = 255;
+    }
   }
 }

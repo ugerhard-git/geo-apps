@@ -188,7 +188,9 @@ keeps the heights in a small cache. The bucket allows any site to read them
 sharp as the sheet (at most 100 tiles), shades the slopes under a light from
 the north-west, and exaggerates heights so that the steepest twentieth of the
 country's slopes reaches about 28°, which suits flat and mountainous
-countries alike. The sources the tiles are made from (SRTM, GMTED2010,
+countries alike. "Colour by height" uses one of the schemes in
+`apps/relief/config.js` or three custom colours; every scheme spans the same
+heights, so a lowland country stays low-coloured. The sources the tiles are made from (SRTM, GMTED2010,
 ETOPO1, EU-DEM and others) ask to be credited, so the sheet carries a credit
 line by default and the Sources panel links to
 [their attributions](https://github.com/tilezen/joerd/blob/master/docs/attribution.md).
