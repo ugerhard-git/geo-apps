@@ -103,7 +103,7 @@ mobile-cellular-subscriptions-per-100-people | Mobile subscriptions per 100 peop
 share-of-women-in-parliament | Women in parliament | gender politics | V-Dem | 1900–2025
 political-regime | Political regime | democracy autocracy politics | V-Dem | 1789–2025
 homicide-rate-unodc | Homicide rate | murder crime violence | UNODC | 1990–2024
-military-expenditure-share-gdp | Military spending, share of GDP | army defence armed forces | SIPRI | 1949–2025
+military-spending-as-a-share-of-gdp-sipri | Military spending, share of GDP | army defence armed forces | SIPRI | 1949–2025
 
 # Food and farming
 daily-meat-consumption-per-person | Meat consumption per person | diet food | FAO | 1961–2023
