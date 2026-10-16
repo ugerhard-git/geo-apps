@@ -46,85 +46,26 @@
           <div class="panel-body">
             <fieldset>
               <legend>1 — Indicator</legend>
-              <label class="lbl" for="preset">Common datasets</label>
-              <select id="preset">
-                <optgroup label="Population &amp; demography">
-                  <option value="population">Population</option>
-                  <option value="population-growth-rates">Population growth rate</option>
-                  <option value="population-density">Population density</option>
-                  <option value="children-born-per-woman">Fertility rate</option>
-                  <option value="median-age">Median age</option>
-                  <option value="share-of-population-urban">Urban population share</option>
-                  <option value="life-expectancy">Life expectancy at birth</option>
-                  <option value="sex-ratio-at-birth">Sex ratio at birth</option>
-                  <option value="migrant-stock-share">Share of people born abroad</option>
-                </optgroup>
-                <optgroup label="Health">
-                  <option value="child-mortality">Child mortality rate</option>
-                  <option value="infant-mortality">Infant mortality rate</option>
-                  <option value="maternal-mortality">Maternal mortality ratio</option>
-                  <option value="happiness-cantril-ladder">Self-reported life satisfaction</option>
-                  <option value="share-of-adults-defined-as-obese">Adult obesity rate</option>
-                  <option value="share-of-adults-who-smoke">Adults who smoke</option>
-                  <option value="total-alcohol-consumption-per-capita-litres-of-pure-alcohol">
-                    Alcohol consumption per adult
-                  </option>
-                  <option value="physicians-per-1000-people">Physicians per 1,000 people</option>
-                  <option value="total-healthcare-expenditure-gdp">Health spending, share of GDP</option>
-                  <option value="prevalence-of-undernourishment">Undernourishment</option>
-                </optgroup>
-                <optgroup label="Economy &amp; work">
-                  <option value="gdp-per-capita-worldbank">GDP per capita</option>
-                  <option value="share-of-population-in-extreme-poverty">Extreme poverty rate</option>
-                  <option value="unemployment-rate">Unemployment rate</option>
-                  <option value="annual-working-hours-per-worker">Annual working hours per worker</option>
-                  <option value="inflation-of-consumer-prices">Consumer price inflation</option>
-                  <option value="trade-as-share-of-gdp">Trade, share of GDP</option>
-                  <option value="international-tourist-trips">Tourist arrivals</option>
-                </optgroup>
-                <optgroup label="Energy">
-                  <option value="energy-mix?metric=per_capita&amp;source=total">Energy use per person</option>
-                  <option value="electricity-mix?frequency=annual&amp;metric=per_capita&amp;source=total">
-                    Electricity generation per person
-                  </option>
-                  <option value="share-of-the-population-with-access-to-electricity">Access to electricity</option>
-                  <option value="share-electricity-renewables">Electricity from renewables</option>
-                </optgroup>
-                <optgroup label="Climate &amp; environment">
-                  <option value="co-emissions-per-capita">CO₂ emissions per person</option>
-                  <option value="annual-co2-emissions-per-country">Annual CO₂ emissions</option>
-                  <option value="cumulative-co-emissions">Cumulative CO₂ emissions</option>
-                  <option value="total-ghg-emissions">Total greenhouse gas emissions</option>
-                  <option value="methane-emissions">Methane emissions</option>
-                  <option value="temperature-anomaly">Global temperature anomaly</option>
-                  <option value="annual-share-of-co2-emissions">Share of global CO₂ emissions</option>
-                  <option value="forest-area-as-share-of-land-area">Forest area, share of land</option>
-                </optgroup>
-                <optgroup label="Education &amp; research">
-                  <option value="mean-years-of-schooling-long-run">Mean years of schooling</option>
-                  <option value="literacy?age_group=adult&amp;sex=both">Adult literacy rate</option>
-                  <option value="research-spending-gdp">R&amp;D spending, share of GDP</option>
-                </optgroup>
-                <optgroup label="Society &amp; technology">
-                  <option value="human-development-index">Human Development Index</option>
-                  <option value="share-of-individuals-using-the-internet">Internet users</option>
-                  <option value="mobile-cellular-subscriptions-per-100-people">
-                    Mobile subscriptions per 100 people
-                  </option>
-                  <option value="share-of-women-in-parliament">Women in parliament</option>
-                  <option value="political-regime">Political regime</option>
-                  <option value="homicide-rate-unodc">Homicide rate</option>
-                  <option value="military-expenditure-share-gdp">Military spending, share of GDP</option>
-                </optgroup>
-                <optgroup label="Food &amp; agriculture">
-                  <option value="daily-meat-consumption-per-person">Meat consumption per person</option>
-                  <option value="cereal-yield">Cereal yields</option>
-                  <option value="fish-and-seafood-consumption-per-capita">Fish and seafood per person</option>
-                  <option value="cocoa-bean-production">Cocoa bean production</option>
-                </optgroup>
-              </select>
+              <label class="lbl" for="presetSearch">Ready-made charts</label>
+              <div class="row">
+                <div class="search-wrap">
+                  <input
+                    type="search"
+                    id="presetSearch"
+                    placeholder="Search, e.g. tourism, CO2, cocoa"
+                    autocomplete="off"
+                    spellcheck="false"
+                    role="combobox"
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-controls="presetList"
+                  />
+                  <div class="results presets" id="presetList" role="listbox" aria-label="Ready-made charts"></div>
+                </div>
+                <button type="button" id="browse" style="flex: 0 0 auto">Browse all</button>
+              </div>
               <label class="lbl" for="slug" style="margin-top: 10px"
-                >Or a chart slug from ourworldindata.org/grapher/…</label
+                >Or any chart's address from ourworldindata.org</label
               >
               <div class="row">
                 <input type="text" id="slug" value="life-expectancy" spellcheck="false" />
@@ -135,16 +76,16 @@
               >
               <select id="valcol" style="display: none"></select>
               <p class="hint">
-                Grouped by theme — 44 datasets, each verified to load. For anything else, open a chart on
-                <a href="https://ourworldindata.org/charts" target="_blank" rel="noopener">ourworldindata.org</a> and
-                copy the last part of its URL.
+                <span id="presetCount">The</span> ready-made charts are checked to load. For anything else, open a chart
+                on <a href="https://ourworldindata.org/charts" target="_blank" rel="noopener">ourworldindata.org</a> and
+                paste its address above.
               </p>
               <details class="check">
-                <summary>Check every dataset</summary>
+                <summary>Check every ready-made chart</summary>
                 <p class="hint">
-                  Loads all listed datasets one by one and reports which fail and which column each one parses to. OWID
-                  renames charts from time to time, so this is how you find dead slugs. It downloads a lot of data and
-                  takes a few minutes.
+                  Loads all ready-made charts one by one and reports which fail and which column each one parses to.
+                  OWID renames charts from time to time, so this is how you find dead slugs. It downloads a lot of data
+                  and takes a few minutes.
                 </p>
                 <div class="row">
                   <button type="button" id="checkrun" style="flex: 0 0 auto">Run check</button>
@@ -302,5 +243,21 @@
     </div>
 
     <script type="module" src="main.js"></script>
+    <dialog class="browser" id="browser" aria-labelledby="browserTitle">
+      <div class="browser-in">
+        <header>
+          <h2 id="browserTitle">All ready-made charts</h2>
+          <input
+            type="search"
+            id="browseFilter"
+            placeholder="Filter"
+            aria-label="Filter the charts"
+            autocomplete="off"
+          />
+          <button type="button" id="browseClose">Close</button>
+        </header>
+        <div class="browser-body" id="browseBody"></div>
+      </div>
+    </dialog>
   </body>
 </html>
