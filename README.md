@@ -174,6 +174,25 @@ month and opens a pull request when anything changed; it also runs by hand
 much that fewer than 60 countries parse, the run fails instead of opening a
 pull request.
 
+## Live data: Shaded relief
+
+The Shaded relief app has no data of its own. It reads
+[Mapzen's Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) on
+AWS Open Data straight from the browser: PNG tiles in the "Terrarium"
+encoding, whose red, green and blue hold a height in metres. The tiles are
+never shown; `apps/relief/tiles.js` decodes each on a scratch canvas and
+keeps the heights in a small cache. The bucket allows any site to read them
+(`Access-Control-Allow-Origin: *`), and no key is needed.
+
+`apps/relief/terrain.js` does the rest: it picks the zoom whose tiles are as
+sharp as the sheet (at most 100 tiles), shades the slopes under a light from
+the north-west, and exaggerates heights so that the steepest twentieth of the
+country's slopes reaches about 28°, which suits flat and mountainous
+countries alike. The sources the tiles are made from (SRTM, GMTED2010,
+ETOPO1, EU-DEM and others) ask to be credited, so the sheet carries a credit
+line by default and the Sources panel links to
+[their attributions](https://github.com/tilezen/joerd/blob/master/docs/attribution.md).
+
 ## API keys
 
 GeoCards can use a personal REST Countries key. Keys are never
@@ -204,7 +223,8 @@ rules that keep that in check:
   host there.
 - **Untrusted files are bounded.** Large downloads go through `fetchBytes`
   with a size cap, and parsers check every length, count and coordinate
-  (see `shared/geonames.js` and `apps/rivers/data.js`).
+  (see `shared/geonames.js` and `apps/rivers/data.js`). Elevation tiles must
+  be PNGs of at most 2 MB and exactly 256 × 256 pixels (`apps/relief/tiles.js`).
 - **No third-party scripts.** Libraries are kept in the repository (see
   `apps/owid-chart-plotter/vendor/`) instead of loaded from a CDN, because all
   apps share one origin, and with it the browser storage that can hold the
