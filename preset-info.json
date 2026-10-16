@@ -1,0 +1,262 @@
+{
+  "population": {
+    "title": "Population",
+    "source": "HYDE (2023); Gapminder (2022); UN WPP (2024) – with major processing by Our World in Data",
+    "years": "–10000-2023"
+  },
+  "population-growth-rates": {
+    "title": "Population growth rate",
+    "source": "UN, World Population Prospects (2024) – processed by Our World in Data",
+    "years": "1950–2023"
+  },
+  "population-density": {
+    "title": "Population density",
+    "source": "HYDE (2023); Gapminder (2022); UN WPP (2024); UN FAO (2024) – with major processing by Our World in Data",
+    "years": "–10000-2100"
+  },
+  "children-born-per-woman": {
+    "title": "Fertility rate: births per woman",
+    "source": "Human Fertility Database (2025); UN, World Population Prospects (2024) – with major processing by Our World in Data",
+    "years": "1891–2023"
+  },
+  "median-age": {
+    "title": "Median age",
+    "source": "UN, World Population Prospects (2024) – processed by Our World in Data",
+    "years": "1950–2023"
+  },
+  "share-of-population-urban": {
+    "title": "Share of population living in urban areas",
+    "source": "United Nations Department of Economic and Social Affairs, Population Division (2025) – with minor processing by Our World in Data",
+    "years": "1950–2025"
+  },
+  "life-expectancy": {
+    "title": "Life expectancy",
+    "source": "Riley (2005); Zijdeman et al. (2015); HMD (2025); UN WPP (2024) – with major processing by Our World in Data",
+    "years": "1543–2023"
+  },
+  "sex-ratio-at-birth": {
+    "title": "Sex ratio at birth",
+    "source": "UN, World Population Prospects (2024) – processed by Our World in Data",
+    "years": "1950–2023"
+  },
+  "migrant-stock-share": {
+    "title": "Share of the population born in another country",
+    "source": "United Nations Department of Economic and Social Affairs (2024) – with minor processing by Our World in Data",
+    "years": "1990–2024"
+  },
+  "child-mortality": {
+    "title": "Child mortality rate",
+    "source": "Gapminder (2015); UN Inter-agency Group for Child Mortality Estimation (2025) – processed by Our World in Data",
+    "years": "1751–2024"
+  },
+  "infant-mortality": {
+    "title": "Infant mortality rate",
+    "source": "United Nations Inter-agency Group for Child Mortality Estimation (2025) – processed by Our World in Data",
+    "years": "1931–2024"
+  },
+  "maternal-mortality": {
+    "title": "Maternal mortality ratio",
+    "source": "UN MMEIG (2023) and other sources – with major processing by Our World in Data",
+    "years": "1751–2020"
+  },
+  "happiness-cantril-ladder": {
+    "title": "Self-reported life satisfaction",
+    "source": "Wellbeing Research Centre (2026) – with major processing by Our World in Data",
+    "years": "2011–2025"
+  },
+  "share-of-adults-defined-as-obese": {
+    "title": "Share of adults who are obese",
+    "source": "World Health Organization – Global Health Observatory (2026) – with minor processing by Our World in Data",
+    "years": "1980–2024"
+  },
+  "share-of-adults-who-smoke": {
+    "title": "Share of adults who smoke or use other tobacco",
+    "source": "World Health Organization – Global Health Observatory (2026) – with minor processing by Our World in Data",
+    "years": "2000–2024"
+  },
+  "total-alcohol-consumption-per-capita-litres-of-pure-alcohol": {
+    "title": "Alcohol consumption per person",
+    "source": "Global Health Observatory Data Repository - World Health Organization (WHO), via World Bank (2026) – processed by Our World in Data",
+    "years": "2000–2020"
+  },
+  "physicians-per-1000-people": {
+    "title": "Medical doctors per 1,000 people",
+    "source": "World Health Organization (Global Health Workforce Statistics), OECD, and country data, via World Bank (2026) – processed by Our World in Data",
+    "years": "1960–2023"
+  },
+  "total-healthcare-expenditure-gdp": {
+    "title": "Total healthcare spending as a share of GDP",
+    "source": "World Health Organization – Global Health Observatory (2026) – with minor processing by Our World in Data",
+    "years": "2000–2023"
+  },
+  "prevalence-of-undernourishment": {
+    "title": "Share of people who are undernourished",
+    "source": "Food and Agriculture Organization of the United Nations (2025) – with major processing by Our World in Data",
+    "years": "2000–2024"
+  },
+  "gdp-per-capita-worldbank": {
+    "title": "GDP per capita",
+    "source": "Eurostat, OECD, IMF, and World Bank (2026) – with minor processing by Our World in Data",
+    "years": "1990–2025"
+  },
+  "share-of-population-in-extreme-poverty": {
+    "title": "Share of population living in extreme poverty",
+    "source": "World Bank Poverty and Inequality Platform (2026) – with major processing by Our World in Data",
+    "years": "1963–2026"
+  },
+  "unemployment-rate": {
+    "title": "Unemployment rate",
+    "source": "ILO Modelled Estimates, via World Bank (2026) – processed by Our World in Data",
+    "years": "1991–2025"
+  },
+  "annual-working-hours-per-worker": {
+    "title": "Annual working hours per worker",
+    "source": "Feenstra et al. – Penn World Table (2025); Huberman and Minns (2005) – with major processing by Our World in Data",
+    "years": "1870–2023"
+  },
+  "inflation-of-consumer-prices": {
+    "title": "Inflation of consumer prices",
+    "source": "International Monetary Fund (IMF) International Financial Statistics, via World Bank (2026) – processed by Our World in Data",
+    "years": "1960–2025"
+  },
+  "trade-as-share-of-gdp": {
+    "title": "Trade as a share of GDP",
+    "source": "National statistical organizations and central banks, OECD national accounts, and World Bank staff estimates (2026) – processed by Our World in Data",
+    "years": "1960–2025"
+  },
+  "international-tourist-trips": {
+    "title": "Arrivals of tourists from abroad",
+    "source": "UN Tourism (2025) – processed by Our World in Data",
+    "years": "1995–2024"
+  },
+  "energy-mix?metric=per_capita&source=total": {
+    "title": "Primary energy use per person",
+    "source": "Energy Institute – Statistical Review of World Energy (2026) and other sources – with major processing by Our World in Data",
+    "years": "1800–2025"
+  },
+  "electricity-mix?frequency=annual&metric=per_capita&source=total": {
+    "title": "Electricity generation per person",
+    "source": "Ember (2026) and other sources – with major processing by Our World in Data",
+    "years": "1900–2025"
+  },
+  "share-of-the-population-with-access-to-electricity": {
+    "title": "Share of the population with access to electricity",
+    "source": "Data compiled from multiple sources by the World Bank – with minor processing by Our World in Data",
+    "years": "1990–2024"
+  },
+  "share-electricity-renewables": {
+    "title": "Share of electricity generation from renewables",
+    "source": "Ember (2026) and other sources – with major processing by Our World in Data",
+    "years": "1900–2025"
+  },
+  "co-emissions-per-capita": {
+    "title": "CO₂ emissions per capita",
+    "source": "Global Carbon Budget (2025); Population based on various sources (2024) – with major processing by Our World in Data",
+    "years": "1750–2024"
+  },
+  "annual-co2-emissions-per-country": {
+    "title": "Annual CO₂ emissions",
+    "source": "Global Carbon Budget (2025) – with major processing by Our World in Data",
+    "years": "1750–2024"
+  },
+  "cumulative-co-emissions": {
+    "title": "Cumulative CO₂ emissions",
+    "source": "Global Carbon Budget (2025) – with major processing by Our World in Data",
+    "years": "1750–2024"
+  },
+  "total-ghg-emissions": {
+    "title": "Greenhouse gas emissions",
+    "source": "Jones et al. (2025) – with major processing by Our World in Data",
+    "years": "1850–2024"
+  },
+  "methane-emissions": {
+    "title": "Methane emissions",
+    "source": "Jones et al. (2025) – with major processing by Our World in Data",
+    "years": "1850–2024"
+  },
+  "temperature-anomaly": {
+    "title": "Temperature change relative to the pre-industrial period",
+    "source": "Met Office Hadley Centre – HadCRUT5 (2026) – with major processing by Our World in Data",
+    "years": "1850–2026"
+  },
+  "annual-share-of-co2-emissions": {
+    "title": "Share of global CO₂ emissions",
+    "source": "Global Carbon Budget (2025) – with major processing by Our World in Data",
+    "years": "1750–2024"
+  },
+  "forest-area-as-share-of-land-area": {
+    "title": "Share of land covered by forest",
+    "source": "Department for Environment, Food & Rural Affairs (2013) and other sources – with major processing by Our World in Data",
+    "years": "1000–2025"
+  },
+  "mean-years-of-schooling-long-run": {
+    "title": "Average years of schooling",
+    "source": "Barro and Lee (2015); Lee and Lee (2016) – with major processing by Our World in Data",
+    "years": "1870–2040"
+  },
+  "literacy?age_group=adult&sex=both": {
+    "title": "Literacy rates among adults",
+    "source": "UNESCO Institute for Statistics (2026) – with minor processing by Our World in Data",
+    "years": "1970–2024"
+  },
+  "research-spending-gdp": {
+    "title": "Research & development spending as a share of GDP",
+    "source": "UNESCO UIS Stat Bulk Data Download Service, via World Bank (2026) – processed by Our World in Data",
+    "years": "1996–2024"
+  },
+  "human-development-index": {
+    "title": "Human Development Index",
+    "source": "UNDP, Human Development Report (2025) – with minor processing by Our World in Data",
+    "years": "1990–2023"
+  },
+  "share-of-individuals-using-the-internet": {
+    "title": "Share of the population using the Internet",
+    "source": "World Telecommunication/ICT Indicators Database - International Telecommunication Union (ITU), via World Bank (2026) – with major processing by Our World in Data",
+    "years": "1990–2025"
+  },
+  "mobile-cellular-subscriptions-per-100-people": {
+    "title": "Mobile phone subscriptions per 100 people",
+    "source": "International Telecommunication Union (ITU), via World Bank (2026) – processed by Our World in Data",
+    "years": "1960–2025"
+  },
+  "share-of-women-in-parliament": {
+    "title": "Share of women in parliament",
+    "source": "V-Dem (2026) – processed by Our World in Data",
+    "years": "1900–2025"
+  },
+  "political-regime": {
+    "title": "Democracy",
+    "source": "V-Dem (2026) – processed by Our World in Data",
+    "years": "1789–2025"
+  },
+  "homicide-rate-unodc": {
+    "title": "Homicide rate",
+    "source": "UN, World Population Prospects (2024); United Nations Office on Drugs and Crime (2025) – with minor processing by Our World in Data",
+    "years": "1990–2024"
+  },
+  "military-expenditure-share-gdp": {
+    "title": "Military spending as a share of GDP",
+    "source": "Stockholm International Peace Research Institute (2026) – with minor processing by Our World in Data",
+    "years": "1949–2025"
+  },
+  "daily-meat-consumption-per-person": {
+    "title": "Daily meat consumption per person",
+    "source": "Food and Agriculture Organization of the United Nations (2025) – processed by Our World in Data",
+    "years": "1961–2023"
+  },
+  "cereal-yield": {
+    "title": "Cereal yields",
+    "source": "Food and Agriculture Organization of the United Nations (2025) – with major processing by Our World in Data",
+    "years": "1961–2024"
+  },
+  "fish-and-seafood-consumption-per-capita": {
+    "title": "Fish and seafood consumption per capita",
+    "source": "Food and Agriculture Organization of the United Nations (2025) – processed by Our World in Data",
+    "years": "1961–2023"
+  },
+  "cocoa-bean-production": {
+    "title": "Cocoa bean production",
+    "source": "Food and Agriculture Organization of the United Nations (2025) – with major processing by Our World in Data",
+    "years": "1961–2024"
+  }
+}
