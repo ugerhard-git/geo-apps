@@ -23,6 +23,8 @@ import { creditText } from "../../apps/landmarks/render.js";
 import { Region, clipLines, clipPath } from "../../apps/rivers/clip.js";
 import { parseLakes, parseRivers } from "../../apps/rivers/data.js";
 import { rankWidth } from "../../apps/rivers/render.js";
+import { guessHidden, namesCountry, officialCounts } from "../../apps/statistics/giveaway.js";
+import { chartBoxes } from "../../apps/statistics/render.js";
 import {
   FLAT_SHADE,
   autoExaggeration,
@@ -1467,4 +1469,60 @@ test("relief: custom height colours; a transparent background keeps only the ter
   );
   // The colour stays; the mask becomes opacity, and the background is gone.
   assert.deepEqual([...out], [128, 128, 128, 255, 128, 128, 128, 128]);
+});
+
+test("statistics: up to six charts are laid out to suit the sheet", () => {
+  const cols = (/** @type {number[][]} */ boxes) =>
+    new Set(boxes.map((b) => Math.round(b[1]))).size;
+  // A wide sheet: two side by side, four in a 2 × 2 grid, six in 3 × 2.
+  const two = chartBoxes(2, 0, 0, 2100, 1300);
+  assert.equal(cols(two), 1);
+  assert.equal(cols(chartBoxes(4, 0, 0, 2100, 1300)), 2);
+  const six = chartBoxes(6, 0, 0, 2100, 1300);
+  assert.equal(six.length, 6);
+  assert.equal(cols(six), 2);
+  // Five: three above, two below sharing the width.
+  const five = chartBoxes(5, 0, 0, 2100, 1300);
+  assert.equal(five[3][2], five[4][2]);
+  assert.ok(Math.abs(five[3][2] * 2 - (2100 - (five[4][0] - five[3][0] - five[3][2]))) < 1);
+  // Nothing spills out of the area.
+  for (const n of [1, 2, 3, 4, 5, 6])
+    for (const [x, y, w, h] of chartBoxes(n, 10, 20, 1500, 1500)) {
+      assert.ok(x >= 10 && y >= 20 && x + w <= 1510.001 && y + h <= 1520.001, `n=${n}`);
+    }
+});
+
+test("statistics: the first guess hides labels that name the country", () => {
+  assert.ok(namesCountry("Hungarian", ["Hungary"]));
+  assert.ok(namesCountry("Japanese", ["Japan"]));
+  assert.ok(namesCountry("Iraqi Arab", ["Iraq"]));
+  assert.ok(!namesCountry("Indian", ["Indonesia"]));
+  assert.ok(!namesCountry("other", ["Otherland"]));
+  // A language official here and in at most one other country is hidden;
+  // one official in many countries is not.
+  const ti = {
+    HU: {
+      languagePopulation: {
+        hu: { _officialStatus: "official" },
+        de: { _populationPercent: "5" },
+      },
+    },
+    AT: { languagePopulation: { de: { _officialStatus: "official" } } },
+    DE: { languagePopulation: { de: { _officialStatus: "official" } } },
+    CH: { languagePopulation: { de: { _officialStatus: "official" } } },
+    RO: { languagePopulation: { hu: { _officialStatus: "official_regional" } } },
+  };
+  assert.equal(officialCounts(ti).get("hu"), 1); // regional status doesn't count
+  const slices = [
+    { label: "Magyar", code: "hu" },
+    { label: "Deutsch", code: "de" },
+    { label: "Other", isOther: true },
+  ];
+  const hidden = guessHidden("languages", slices, { code: "HU", name: "Hungary" }, ti);
+  assert.deepEqual([...hidden], ["Magyar"]);
+  // Charts that aren't about people are left alone.
+  assert.equal(
+    guessHidden("energy", [{ label: "Hungarian gas" }], { code: "HU", name: "Hungary" }, ti).size,
+    0,
+  );
 });
