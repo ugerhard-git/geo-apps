@@ -82,6 +82,7 @@ function sheetOptions() {
     noteTop: isPressed("noteTop"),
     label: $("optName").checked && chosen ? chosen.name : "",
     credit: $("optSource").checked ? SOURCE_LINE : "",
+    fill: $("optFill").checked,
   };
 }
 
@@ -362,7 +363,7 @@ seg("capBottom", "capTop");
 seg("noteTop", "noteBottom");
 seg("noteBottom", "noteTop");
 
-for (const id of ["optWater", "optTransparent", "optSource", "optName"])
+for (const id of ["optWater", "optTransparent", "optFill", "optSource", "optName"])
   $(id).addEventListener("change", refresh);
 
 $("frame").addEventListener("change", () => {

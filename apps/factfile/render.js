@@ -12,7 +12,7 @@
 
 import { frameSpec } from "../../shared/sheet.js";
 import { analyse } from "./blackout.js";
-import { FIELDS } from "./config.js";
+import { FIELDS, FILL_MAX_GAP, FILL_MAX_GROW } from "./config.js";
 
 /** @typedef {import("./blackout.js").Part} Part */
 /** @typedef {import("./blackout.js").Context} Context */
@@ -43,6 +43,7 @@ import { FIELDS } from "./config.js";
  * @property {boolean} noteTop
  * @property {string} label the country's name, printed when not "" (reveals)
  * @property {string} credit the source line, "" for none
+ * @property {boolean} fill grow the facts to fill the card when there is room
  */
 
 /* ═══════════════════════════════════════════════════════════
@@ -556,27 +557,79 @@ export function drawSheet(canvas, o, blocks, hidden) {
   top += 20 * unit;
   if (!blocks.length) return;
 
-  // Two columns on a wide sheet, one on a tall one; shrink until it fits.
+  // Two columns on a wide sheet, one on a tall one.
   const cols = W >= H * 1.1 ? 2 : 1;
   const gapX = W * 0.045;
   const colW = (W - pad * 2 - gapX * (cols - 1)) / cols;
   const room = bottom - top;
-  let s = sizesAt(unit);
-  let heights = blocks.map((b) => blockHeight(ctx, b, colW, s, hidden));
-  let split = cols === 2 ? balance(heights) : blocks.length;
-  for (let k = unit; k > unit * 0.35; k *= 0.94) {
-    s = sizesAt(k);
-    heights = blocks.map((b) => blockHeight(ctx, b, colW, s, hidden));
-    split = cols === 2 ? balance(heights) : blocks.length;
-    const left = heights.slice(0, split).reduce((a, b) => a + b, 0);
-    const right = heights.slice(split).reduce((a, b) => a + b, 0);
-    if (Math.max(left, right) <= room) break;
-  }
+  /** @param {number} k */
+  const layoutAt = (k) => {
+    const s = sizesAt(k);
+    const heights = blocks.map((b) => blockHeight(ctx, b, colW, s, hidden));
+    const split = cols === 2 ? balance(heights) : blocks.length;
+    const tallest = Math.max(sum(heights.slice(0, split)), sum(heights.slice(split)));
+    return { s, heights, split, fits: tallest <= room };
+  };
+  const k = fitScale((k) => layoutAt(k).fits, unit, o.fill ? unit * FILL_MAX_GROW : unit);
+  const { s, heights, split } = layoutAt(k);
+
+  // Spare room goes between the fields, so each column ends at the bottom.
+  const cap = o.fill ? s.line * FILL_MAX_GAP : 0;
+  const columns = cols === 2 ? [heights.slice(0, split), heights.slice(split)] : [heights];
+  const gaps = columns.map((col) => spread(col, room, cap));
   let y = top;
   blocks.forEach((b, i) => {
     if (i === split) y = top;
-    const x = i < split ? pad : pad + colW + gapX;
+    const right = i >= split;
+    const x = right ? pad + colW + gapX : pad;
     drawBlock(ctx, b, x, y, colW, s, o, hidden);
-    y += heights[i];
+    y += heights[i] + gaps[right ? 1 : 0];
   });
+}
+
+/** @param {number[]} xs */
+const sum = (xs) => xs.reduce((a, b) => a + b, 0);
+
+/**
+ * The text scale to draw at: `base` when the content fits; smaller, in steps,
+ * until it does when it doesn't; and when it fits with room to spare, the
+ * largest scale up to `max` that still fits.
+ *
+ * @param {(k: number) => boolean} fitsAt whether the content fits at scale k
+ * @param {number} base the normal scale
+ * @param {number} max the largest scale allowed (base for no growing)
+ * @returns {number}
+ */
+export function fitScale(fitsAt, base, max) {
+  if (!fitsAt(base)) {
+    let k = base;
+    while (k > base * 0.35 && !fitsAt(k)) k *= 0.94;
+    return k;
+  }
+  if (max <= base || fitsAt(max)) return Math.max(base, max);
+  // Growing makes the content taller, so halve the range between a scale
+  // that fits and one that doesn't; eight steps are finer than the eye sees.
+  let lo = base;
+  let hi = max;
+  for (let i = 0; i < 8; i++) {
+    const mid = (lo + hi) / 2;
+    if (fitsAt(mid)) lo = mid;
+    else hi = mid;
+  }
+  return lo;
+}
+
+/**
+ * The extra space to put between consecutive fields of one column so it
+ * ends at the bottom of the room, at most `cap` per gap.
+ *
+ * @param {number[]} heights the column's fields
+ * @param {number} room the height available
+ * @param {number} cap the most extra space per gap
+ * @returns {number}
+ */
+export function spread(heights, room, cap) {
+  if (heights.length < 2) return 0;
+  const spare = room - sum(heights);
+  return spare > 0 ? Math.min(cap, spare / (heights.length - 1)) : 0;
 }

@@ -6,7 +6,7 @@ import { test } from "node:test";
 
 import { analyse, isWater } from "../../apps/factfile/blackout.js";
 import { parseIndex, parseRecord } from "../../apps/factfile/data.js";
-import { balance, peopleText } from "../../apps/factfile/render.js";
+import { balance, fitScale, peopleText, spread } from "../../apps/factfile/render.js";
 import {
   amountIn,
   demonym,
@@ -177,4 +177,23 @@ test("the built data: Factbook codes map to the right countries", () => {
   const niger = parseRecord(JSON.parse(readFileSync("apps/factfile/data/NE.json", "utf8")), "NE");
   assert.ok(niger.names.includes("Niger"));
   assert.ok(niger.fields.area > 1e6);
+});
+
+test("fitScale: shrinks to fit, grows into spare room up to the limit", () => {
+  // Content of height 100·k in a room of 150.
+  const fits = (/** @type {number} */ k) => 100 * k <= 150;
+  assert.equal(fitScale(fits, 1, 1), 1, "no growing when not asked");
+  assert.equal(fitScale(fits, 1, 1.4), 1.4, "the limit when even that fits");
+  const tight = (/** @type {number} */ k) => 100 * k <= 120;
+  const grown = fitScale(tight, 1, 1.4);
+  assert.ok(grown > 1.19 && grown <= 1.2, `grown to ${grown}`);
+  const shrunk = fitScale((k) => 100 * k <= 80, 1, 1.4);
+  assert.ok(shrunk <= 0.8 && shrunk > 0.7, `shrunk to ${shrunk}`);
+});
+
+test("spread: spare room between fields, capped", () => {
+  assert.equal(spread([10, 10, 10], 50, 100), 10);
+  assert.equal(spread([10, 10, 10], 50, 4), 4);
+  assert.equal(spread([10], 50, 100), 0, "one field stays at the top");
+  assert.equal(spread([30, 30], 50, 100), 0, "no room, no gap");
 });
