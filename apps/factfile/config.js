@@ -57,3 +57,11 @@ export const SOURCE_LINE = "CIA World Factbook, as of January 2026 · public dom
 
 /** A data file bigger than this isn't one of ours. */
 export const MAX_FILE_BYTES = 200_000;
+
+/**
+ * "Fill the card": how much bigger than normal the facts may grow when there
+ * is room, and how much extra space (in lines of text) may go between two
+ * fields after that. Beyond these the card would look like a poster.
+ */
+export const FILL_MAX_GROW = 1.4;
+export const FILL_MAX_GAP = 1.5;
