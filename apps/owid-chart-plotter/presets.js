@@ -79,7 +79,7 @@ international-tourist-trips | Tourist arrivals | tourism travel visitors holiday
 energy-mix?metric=per_capita&source=total | Energy use per person | consumption power | Energy Institute | 1800–2025
 electricity-mix?frequency=annual&metric=per_capita&source=total | Electricity generation per person | power production | Ember and others | 1900–2025
 share-of-the-population-with-access-to-electricity | Access to electricity | power grid development | World Bank | 1990–2024
-share-electricity-renewables | Electricity from renewables | green wind solar hydro clean | Ember and others | 1900–2025
+electricity-mix?source=renewables&metric=share_of_generation&frequency=annual | Electricity from renewables | green wind solar hydro clean | Ember and others | 1900–2025
 
 # Climate and environment
 co-emissions-per-capita | CO₂ emissions per person | carbon dioxide pollution | Global Carbon Budget | 1750–2024
