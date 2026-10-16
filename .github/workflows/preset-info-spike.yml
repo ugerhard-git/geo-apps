@@ -1,0 +1,21 @@
+name: Preset info spike
+on:
+  push:
+    branches: [preset-info-spike]
+permissions:
+  contents: write
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/owid/preset-info.mjs --json > preset-info.json
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add preset-info.json
+          git commit -m "preset info"
+          git push
