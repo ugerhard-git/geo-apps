@@ -1313,3 +1313,24 @@ test("names app: the data file is checked; lists are described honestly", () => 
   assert.ok(lines[1].warn && lines[1].text.includes("⚠"));
   assert.throws(() => parseNames({ countries: {} }));
 });
+
+test("every app has its own text for when no country is picked yet", async () => {
+  // Apps are often started as a copy of another one; this catches a start
+  // text that was copied along and never rewritten.
+  const { readdir, readFile } = await import("node:fs/promises");
+  const apps = new URL("../../apps/", import.meta.url);
+  /** @type {Map<string, string>} */
+  const seen = new Map();
+  for (const slug of await readdir(apps)) {
+    const html = await readFile(new URL(`${slug}/index.html`, apps), "utf8").catch(() => "");
+    const match = html.match(/<div class="empty"[^>]*>([\s\S]*?)<\/div>/);
+    if (!match) continue;
+    const text = match[1]
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    assert.ok(!seen.has(text), `${slug} has the same start text as ${seen.get(text)}`);
+    seen.set(text, slug);
+  }
+  assert.ok(seen.size >= 15, "the start texts were found");
+});
