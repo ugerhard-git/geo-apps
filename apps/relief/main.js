@@ -143,6 +143,9 @@ function projectedCountry() {
  * @returns {Promise<boolean>} false if it was overtaken or couldn't draw
  */
 async function build(canvas, mine) {
+  const say = (/** @type {string} */ label) => {
+    if (mine === request) working(label);
+  };
   const country = projectedCountry();
   if (!country) return false;
   const opts = currentOptions();
@@ -165,14 +168,14 @@ async function build(canvas, mine) {
     const failed = await ensureTiles(
       keys,
       (done, total) => {
-        if (mine === request) progress(`Loading the terrain · ${done} of ${total} tiles`, true);
+        say(`Loading the terrain · ${done} of ${total} tiles`);
       },
       () => mine !== request,
     );
     if (mine !== request) return false;
-    progress("Shading the terrain", true);
-    // Let the label paint before the slow part.
-    await new Promise((r) => setTimeout(r, 0));
+    say("Shading the terrain");
+    // Shading blocks the page for a moment: let the label show first.
+    await nextPaint();
     if (mine !== request) return false;
     relief = prepareRelief(plan, country.shape, z, cachedTile, opts.relief);
     reliefKey = key;
@@ -265,6 +268,38 @@ function pickCountry(c) {
    Refresh and export
    ═══════════════════════════════════════════════════════════ */
 
+/**
+ * Resolves once the browser has drawn what was just changed on the page, so
+ * that a busy label is on screen before a long calculation blocks it. (A
+ * page in a background tab draws nothing, hence the time limit.)
+ *
+ * @returns {Promise<void>}
+ */
+const nextPaint = () =>
+  new Promise((resolve) => {
+    requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
+    setTimeout(resolve, 100);
+  });
+
+/**
+ * Show the spinner over the sheet, with what is going on. Its fade-in is
+ * delayed a little in the stylesheet, so quick redraws don't flash it, and
+ * it keeps turning while the page is busy (the browser animates it apart
+ * from the page's own work).
+ *
+ * @param {string} label
+ */
+function working(label) {
+  $("busyLabel").textContent = label;
+  $("busy").classList.add("on");
+  $("view").classList.add("working");
+}
+
+function idle() {
+  $("busy").classList.remove("on");
+  $("view").classList.remove("working");
+}
+
 function hideSheet() {
   $("sheetWrap").hidden = true;
   $("empty").hidden = false;
@@ -275,19 +310,24 @@ async function refresh() {
   syncUI();
   const mine = ++request;
   if (!chosen) {
+    idle();
     hideSheet();
     $("sources").hidden = true;
     return;
   }
   if (!shape || !projectedCountry()) {
+    idle();
     hideSheet();
     note(`There is no outline for ${chosen.name} at this scale, so its terrain can't be cut out.`);
     return;
   }
+  working("Drawing the terrain");
+  await nextPaint();
+  if (mine !== request) return;
   try {
     const drawn = await build($("sheet"), mine);
     if (!drawn) return;
-    progress(null);
+    idle();
     $("sheetWrap").hidden = false;
     $("empty").hidden = true;
     note(
@@ -299,7 +339,7 @@ async function refresh() {
     renderSources();
     syncUI();
   } catch (e) {
-    if (mine === request) progress(null);
+    if (mine === request) idle();
     note("Couldn't draw the terrain: " + cleanText(e && e.message, 80), true);
   }
 }
@@ -331,9 +371,12 @@ function syncUI() {
 async function exportSheet(type, ext) {
   if (!chosen) return;
   const opts = currentOptions();
+  const mine = request;
+  working("Preparing the download");
+  await nextPaint();
   try {
     const canvas = document.createElement("canvas");
-    if (!(await build(canvas, request))) return;
+    if (!(await build(canvas, mine))) return;
     const blob = await canvasToBlob(canvas, type);
     if (!blob) {
       note("The browser refused to encode the image.", true);
@@ -344,6 +387,8 @@ async function exportSheet(type, ext) {
     downloadBlob(blob, `relief-${slug || "map"}.${ext}`);
   } catch (e) {
     note("Export failed: " + cleanText(e && e.message, 80), true);
+  } finally {
+    if (mine === request) idle();
   }
 }
 

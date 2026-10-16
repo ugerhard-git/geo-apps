@@ -217,12 +217,17 @@
       </aside>
 
       <main class="stage">
-        <div class="empty" id="empty">
-          <strong>Pick a country to see its mountains and plains.</strong>
-          Lit from the north-west like an old atlas, with no borders, water or names: where the ranges run, how wide the
-          plains are and where the land is flat is the clue.
+        <div class="view" id="view">
+          <div class="empty" id="empty">
+            <strong>Pick a country to see its mountains and plains.</strong>
+            Lit from the north-west like an old atlas, with no borders, water or names: where the ranges run, how wide
+            the plains are and where the land is flat is the clue.
+          </div>
+          <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+          <div class="busy" id="busy" role="status" aria-live="polite">
+            <span class="spinner" aria-hidden="true"></span><span id="busyLabel"></span>
+          </div>
         </div>
-        <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
         <div class="bar" id="bar"><i></i></div>
         <div class="loading" id="loadLabel"></div>
         <div class="note" id="note"></div>
