@@ -156,8 +156,12 @@ export function planSheet(ctx, opts, frame) {
       px -= 1;
     }
     const lead = px * 1.35;
-    const height = lines.length * lead + px * 0.6;
-    const first = opts.noteTop ? top + lead / 2 : bottom - height + lead / 2;
+    // Space after the note, and on the map's side of it: below the map it
+    // needs more, or the note reads as part of the picture.
+    const after = px * 0.6;
+    const gap = opts.noteTop ? 0 : px * 1.4;
+    const height = lines.length * lead + after + gap;
+    const first = opts.noteTop ? top + lead / 2 : bottom - after - lines.length * lead + lead / 2;
     lines.forEach((text, i) =>
       texts.push({ text, y: first + i * lead, px, weight: 400, alpha: 0.85 }),
     );
