@@ -78,6 +78,8 @@ function currentOptions() {
     country: $("optCountry").checked,
     caption: cleanText($("capText").value, 120),
     capTop: isPressed("capTop"),
+    note: cleanText($("noteText").value, 160),
+    noteTop: isPressed("noteTop"),
     colours: palette(),
   };
 }
@@ -505,6 +507,19 @@ $("capTop").addEventListener("click", () => {
 });
 $("capBottom").addEventListener("click", () => {
   setSeg($("capBottom"), $("capTop"));
+  refresh();
+});
+
+$("noteText").addEventListener("input", () => {
+  $("notePosField").hidden = !cleanText($("noteText").value, 160);
+  refreshAfterCaption();
+});
+$("noteTop").addEventListener("click", () => {
+  setSeg($("noteTop"), $("noteBottom"));
+  refresh();
+});
+$("noteBottom").addEventListener("click", () => {
+  setSeg($("noteBottom"), $("noteTop"));
   refresh();
 });
 

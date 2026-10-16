@@ -103,6 +103,24 @@
               <button id="capBottom" aria-pressed="false">Below</button>
             </div>
           </div>
+          <div class="field">
+            <label for="noteText">Note</label>
+            <input
+              type="text"
+              id="noteText"
+              value=""
+              placeholder="Leave empty for no note"
+              maxlength="160"
+              autocomplete="off"
+            />
+            <div class="hint">A short explanation for the players, e.g. "Latest year with data for each chart."</div>
+          </div>
+          <div class="field" id="notePosField" hidden>
+            <div class="seg" role="group">
+              <button id="noteTop" aria-pressed="false">Above the charts</button>
+              <button id="noteBottom" aria-pressed="true">Below the charts</button>
+            </div>
+          </div>
         </div>
 
         <div class="group">
