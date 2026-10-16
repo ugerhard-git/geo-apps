@@ -20,10 +20,9 @@ import {
  *   isOther?: boolean,
  *   code?: string,
  *   hideName?: boolean,
- *   hideValue?: boolean,
  * }} Slice
- *   `code` is the language code, for language slices; `hideName` and
- *   `hideValue` draw the label or the share as "?"
+ *   `code` is the language code, for language slices; `hideName` draws the
+ *   label as "?"
  */
 
 /**

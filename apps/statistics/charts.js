@@ -101,16 +101,6 @@ const HIDDEN = "?";
 const nameOf = (s) => (s.hideName ? HIDDEN : s.label);
 
 /**
- * The share of a slice as drawn.
- *
- * @param {import("./series.js").Slice} s
- * @param {number} total
- * @param {boolean} [absolute]
- */
-const shareOf = (s, total, absolute) =>
-  s.hideValue ? HIDDEN : formatShare(s.value, total, absolute);
-
-/**
  * What one legend row needs at a given type size.
  *
  * @param {CanvasRenderingContext2D} ctx
@@ -128,7 +118,10 @@ function legendMetrics(ctx, series, total, px, opts) {
   if (opts.values) {
     ctx.font = `500 ${px}px "Inter", sans-serif`;
     for (const s of series.slices)
-      maxPct = Math.max(maxPct, ctx.measureText(shareOf(s, total, series.absolute)).width);
+      maxPct = Math.max(
+        maxPct,
+        ctx.measureText(formatShare(s.value, total, series.absolute)).width,
+      );
   }
   const rowW = chip + px * 0.5 + maxLabel + (maxPct ? px * 0.6 + maxPct : 0);
   return { rowW, rowH: px * 1.75, chip, maxLabel, maxPct };
@@ -238,7 +231,7 @@ function drawLegend(ctx, series, total, x, y, w, h, opts, plan) {
     ctx.fillStyle = opts.fg;
     let pctW = 0;
     if (opts.values) {
-      const pct = shareOf(s, total, series.absolute);
+      const pct = formatShare(s.value, total, series.absolute);
       ctx.font = `500 ${px}px "Inter", sans-serif`;
       pctW = m.maxPct + px * 0.6;
       ctx.textAlign = "right";
@@ -336,7 +329,7 @@ function drawBars(ctx, series, x, y, w, h, opts) {
       ctx.fillStyle = opts.fg;
       ctx.textAlign = "left";
       ctx.font = `500 ${px}px "Inter", sans-serif`;
-      ctx.fillText(shareOf(s, total, series.absolute), x + labelW + bw + px * 0.4, ly);
+      ctx.fillText(formatShare(s.value, total, series.absolute), x + labelW + bw + px * 0.4, ly);
     }
   });
 }
