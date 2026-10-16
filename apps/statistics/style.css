@@ -497,18 +497,33 @@ input[type="color"]:disabled {
   max-width: 70ch;
 }
 
-/* ── Labels card: show or hide each name and share ── */
-.labels h3 {
-  margin: 14px 0 6px;
+/* ── Labels card: one collapsible list of names per chart ── */
+.labels details {
+  border-top: 1px solid var(--rule);
+  padding: 8px 0;
+}
+.labels summary {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  cursor: pointer;
   font-size: 13px;
+}
+.labels summary .count {
+  color: var(--muted);
+  font-size: 12px;
+}
+.labels details[open] summary {
+  margin-bottom: 6px;
 }
 .labrow {
   display: grid;
-  grid-template-columns: 12px minmax(0, 1fr) auto auto auto;
+  grid-template-columns: auto 12px minmax(0, 1fr) auto;
   align-items: center;
   gap: 10px;
-  padding: 3px 0;
+  padding: 3px 0 3px 18px;
   font-size: 13px;
+  cursor: pointer;
 }
 .labrow i {
   width: 12px;
@@ -523,12 +538,4 @@ input[type="color"]:disabled {
 .labrow .val {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
-}
-.labrow .tog {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  color: var(--muted);
-  font-size: 12px;
-  cursor: pointer;
 }

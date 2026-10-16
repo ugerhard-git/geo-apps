@@ -53,9 +53,10 @@ let available = new Map();
 let selected = [];
 /** Incremented by every redraw. */
 let busy = 0;
-/** Per statistic, the labels drawn as "?" and the labels whose share is. */
+/** Per statistic, the labels drawn as "?". */
 let hiddenNames = new Map();
-let hiddenValues = new Map();
+/** The statistics whose list of names is open in the Labels card. */
+const openLabels = new Set();
 /** How many countries each language is official in, worked out once. */
 /** @type {Map<string, number> | null} */
 let officialIn = null;
@@ -82,7 +83,7 @@ function currentOptions() {
 }
 
 /** @returns {import("./render.js").SheetContent} */
-const sheetContent = () => ({ country: chosen, selected, available, hiddenNames, hiddenValues });
+const sheetContent = () => ({ country: chosen, selected, available, hiddenNames });
 
 /* ═══════════════════════════════════════════════════════════
    Panels
@@ -233,7 +234,7 @@ function renderSources() {
     caveats.push(
       "CO₂ by fuel covers fossil fuels and industry; flaring is gas burnt off at oil wells. Land use and forests aren't included.",
     );
-  if (selected.some((id) => hiddenNames.get(id)?.size || hiddenValues.get(id)?.size))
+  if (selected.some((id) => hiddenNames.get(id)?.size))
     caveats.push("Labels shown as ? are hidden on purpose, so they don't give the answer away.");
   if (selected.some((id) => available.get(id)?.folded))
     caveats.push(
@@ -257,8 +258,10 @@ function renderSources() {
 }
 
 /**
- * The "Labels" card: every name and share on the sheet, each with a box to
- * show or hide it. A hidden one is drawn as "?".
+ * The "Labels" card: one collapsible section per chart, listing its names,
+ * each with a box to show it (ticked) or draw it as "?" (unticked). The
+ * sections start closed; the summary says how many names are hidden, so a
+ * guess the app made is visible without opening them.
  */
 function renderLabels() {
   const opts = currentOptions();
@@ -268,16 +271,33 @@ function renderLabels() {
     const stat = STATS.find((s) => s.id === id);
     if (!series || !stat) continue;
     const names = hiddenNames.get(id) || new Set();
-    const values = hiddenValues.get(id) || new Set();
     hiddenNames.set(id, names);
-    hiddenValues.set(id, values);
-    const h = document.createElement("h3");
-    h.textContent = stat.title; // text, never markup
-    nodes.push(h);
+    const section = document.createElement("details");
+    section.open = openLabels.has(id);
+    section.addEventListener("toggle", () => {
+      if (section.open) openLabels.add(id);
+      else openLabels.delete(id);
+    });
+    const summary = document.createElement("summary");
+    const title = document.createElement("strong");
+    title.textContent = stat.title; // text, never markup
+    const count = document.createElement("span");
+    count.className = "count";
+    count.textContent = names.size ? `${names.size} hidden` : "all shown";
+    summary.append(title, count);
+    section.append(summary);
     const total = series.slices.reduce((t, x) => t + x.value, 0);
     series.slices.forEach((slice, i) => {
-      const row = document.createElement("div");
+      const row = document.createElement("label");
       row.className = "labrow";
+      const box = document.createElement("input");
+      box.type = "checkbox";
+      box.checked = !names.has(slice.label);
+      box.addEventListener("change", () => {
+        if (box.checked) names.delete(slice.label);
+        else names.add(slice.label);
+        refresh();
+      });
       const chip = document.createElement("i");
       chip.style.background = safeColour(opts.colours[i % opts.colours.length], "#888888");
       const name = document.createElement("span");
@@ -286,42 +306,13 @@ function renderLabels() {
       const share = document.createElement("span");
       share.className = "val";
       share.textContent = formatShare(slice.value, total, series.absolute);
-      row.append(
-        chip,
-        name,
-        share,
-        toggle("Name", names, slice.label),
-        toggle("%", values, slice.label),
-      );
-      nodes.push(row);
+      row.append(box, chip, name, share);
+      section.append(row);
     });
+    nodes.push(section);
   }
   $("labelList").replaceChildren(...nodes);
   $("labels").hidden = !nodes.length;
-}
-
-/**
- * A tick box that shows a label (ticked) or hides it (unticked).
- *
- * @param {string} text
- * @param {Set<string>} hidden the set it adds to and removes from
- * @param {string} label
- */
-function toggle(text, hidden, label) {
-  const wrap = document.createElement("label");
-  wrap.className = "tog";
-  const box = document.createElement("input");
-  box.type = "checkbox";
-  box.checked = !hidden.has(label);
-  box.addEventListener("change", () => {
-    if (box.checked) hidden.delete(label);
-    else hidden.add(label);
-    refresh();
-  });
-  const span = document.createElement("span");
-  span.textContent = text;
-  wrap.append(box, span);
-  return wrap;
 }
 
 /**
@@ -380,7 +371,7 @@ async function pickCountry(c) {
   available = new Map();
   selected = [];
   hiddenNames = new Map();
-  hiddenValues = new Map();
+  openLabels.clear();
   if (!officialIn) officialIn = officialCounts(territoryInfo);
   renderStats();
   note("");
@@ -399,7 +390,6 @@ async function pickCountry(c) {
     if (!series) missing.push(stat.title);
     else {
       hiddenNames.set(stat.id, guessHidden(stat.id, series.slices, c, territoryInfo, officialIn));
-      hiddenValues.set(stat.id, new Set());
     }
     renderStats();
   }

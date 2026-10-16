@@ -22,7 +22,6 @@ import { STATS } from "./config.js";
  * @property {string[]} selected statistic ids, in the order chosen
  * @property {Map<string, import("./series.js").Series | null>} available
  * @property {Map<string, Set<string>>} hiddenNames per statistic, the labels shown as "?"
- * @property {Map<string, Set<string>>} hiddenValues per statistic, the labels whose share shows as "?"
  */
 
 /**
@@ -70,11 +69,7 @@ export function chartBoxes(n, x, y, w, h) {
  * @param {SheetOptions} opts
  * @param {SheetContent} content
  */
-export function drawSheet(
-  canvas,
-  opts,
-  { country, selected, available, hiddenNames, hiddenValues },
-) {
+export function drawSheet(canvas, opts, { country, selected, available, hiddenNames }) {
   const { W, H } = frameSpec();
   canvas.width = W;
   canvas.height = H;
@@ -127,35 +122,21 @@ export function drawSheet(
     const series = available.get(id);
     const [bx, by, bw, bh] = boxes[i];
     if (stat && series)
-      drawChart(
-        ctx,
-        stat,
-        withHidden(series, hiddenNames.get(id), hiddenValues.get(id)),
-        bx,
-        by,
-        bw,
-        bh,
-        opts,
-      );
+      drawChart(ctx, stat, withHidden(series, hiddenNames.get(id)), bx, by, bw, bh, opts);
   });
 }
 
 /**
- * The series with its hidden names and shares marked, for drawing.
+ * The series with its hidden names marked, for drawing.
  *
  * @param {import("./series.js").Series} series
  * @param {Set<string> | undefined} names
- * @param {Set<string> | undefined} values
  * @returns {import("./series.js").Series}
  */
-function withHidden(series, names, values) {
-  if (!names?.size && !values?.size) return series;
+function withHidden(series, names) {
+  if (!names?.size) return series;
   return {
     ...series,
-    slices: series.slices.map((s) => ({
-      ...s,
-      hideName: !!names?.has(s.label),
-      hideValue: !!values?.has(s.label),
-    })),
+    slices: series.slices.map((s) => ({ ...s, hideName: names.has(s.label) })),
   };
 }
