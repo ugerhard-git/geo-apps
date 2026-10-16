@@ -545,6 +545,7 @@ renderSwatches();
 $("statCount").textContent = String(STATS.length);
 $("maxCharts").textContent = String(MAX_CHARTS);
 $("capPosField").hidden = !cleanText($("capText").value, 120);
+$("notePosField").hidden = !cleanText($("noteText").value, 160);
 syncExportState();
 progress("Loading reference data", true);
 loadReference()
