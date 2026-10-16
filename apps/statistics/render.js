@@ -13,6 +13,8 @@ import { STATS } from "./config.js";
  *   country: boolean,
  *   caption: string,
  *   capTop: boolean,
+ *   note: string,
+ *   noteTop: boolean,
  * }} SheetOptions
  */
 
@@ -62,6 +64,32 @@ export function chartBoxes(n, x, y, w, h) {
   return boxes;
 }
 
+/** The note wraps onto at most this many lines; beyond, its text shrinks. */
+const NOTE_LINES = 3;
+
+/**
+ * Break `text` into lines no wider than `maxW` at the current font.
+ *
+ * @param {CanvasRenderingContext2D} ctx
+ * @param {string} text
+ * @param {number} maxW
+ * @returns {string[]}
+ */
+function wrap(ctx, text, maxW) {
+  /** @type {string[]} */
+  const lines = [];
+  let line = "";
+  for (const word of text.split(/\s+/).filter(Boolean)) {
+    const next = line ? line + " " + word : word;
+    if (line && ctx.measureText(next).width > maxW) {
+      lines.push(line);
+      line = word;
+    } else line = next;
+  }
+  if (line) lines.push(line);
+  return lines;
+}
+
 /**
  * Draw the whole sheet onto `canvas`, resizing it to the chosen frame.
  *
@@ -99,6 +127,35 @@ export function drawSheet(canvas, opts, { country, selected, available, hiddenNa
       ctx.fillText(opts.caption, W / 2, bottom - size * 0.6);
       bottom -= size * 1.9;
     }
+  }
+
+  // A short note, wrapped onto up to three lines: under a caption above the
+  // charts, or over a caption below them.
+  if (opts.note) {
+    let px = Math.round(Math.min(Math.max(H * 0.026, 11), 40));
+    /** @type {string[]} */
+    let lines;
+    for (;;) {
+      ctx.font = `400 ${px}px "Inter", sans-serif`;
+      lines = wrap(ctx, opts.note, (W - pad * 2) * 0.8);
+      if (lines.length <= NOTE_LINES || px <= 9) break;
+      px -= 1;
+    }
+    const lead = px * 1.35;
+    // Space after the note, and on the charts' side of it: below them it
+    // needs more, or the note reads as part of the last row.
+    const after = px * 0.6;
+    const gap = opts.noteTop ? 0 : px * 1.4;
+    const first = opts.noteTop ? top + lead / 2 : bottom - after - lines.length * lead + lead / 2;
+    ctx.fillStyle = opts.fg;
+    ctx.globalAlpha = 0.85;
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    lines.forEach((line, i) => ctx.fillText(line, W / 2, first + i * lead));
+    ctx.globalAlpha = 1;
+    const height = lines.length * lead + after + gap;
+    if (opts.noteTop) top += height;
+    else bottom -= height;
   }
 
   // The country's name, along the bottom.

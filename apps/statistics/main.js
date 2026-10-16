@@ -78,6 +78,8 @@ function currentOptions() {
     country: $("optCountry").checked,
     caption: cleanText($("capText").value, 120),
     capTop: isPressed("capTop"),
+    note: cleanText($("noteText").value, 160),
+    noteTop: isPressed("noteTop"),
     colours: palette(),
   };
 }
@@ -508,6 +510,19 @@ $("capBottom").addEventListener("click", () => {
   refresh();
 });
 
+$("noteText").addEventListener("input", () => {
+  $("notePosField").hidden = !cleanText($("noteText").value, 160);
+  refreshAfterCaption();
+});
+$("noteTop").addEventListener("click", () => {
+  setSeg($("noteTop"), $("noteBottom"));
+  refresh();
+});
+$("noteBottom").addEventListener("click", () => {
+  setSeg($("noteBottom"), $("noteTop"));
+  refresh();
+});
+
 bindColour("fgColor", "fgHex", refresh);
 bindColour("bgColor", "bgHex", refresh);
 
@@ -530,6 +545,7 @@ renderSwatches();
 $("statCount").textContent = String(STATS.length);
 $("maxCharts").textContent = String(MAX_CHARTS);
 $("capPosField").hidden = !cleanText($("capText").value, 120);
+$("notePosField").hidden = !cleanText($("noteText").value, 160);
 syncExportState();
 progress("Loading reference data", true);
 loadReference()
