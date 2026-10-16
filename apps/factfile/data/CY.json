@@ -1,0 +1,31 @@
+{
+ "code": "CY",
+ "names": {"country":["Kypriaki Dimokratia","Kibris Cumhuriyeti","Republic of Cyprus","Cyprus","Kibris","Kypros"],"people":["Cypriots","Cypriot"],"places":["Mediterranean Sea","Nicosia (Lefkosia","Independence Day","Mount Olympus","Ammochostos","Keryneia","Lefkosa)","Lefkosia","Larnaka","Lemesos","Nicosia","Pafos"],"neighbours":[]},
+ "fields": {
+  "climate": "temperate; Mediterranean with hot, dry summers and cool winters",
+  "terrain": "central plain with mountains to north and south; scattered but significant plains along southern coast",
+  "hazards": "moderate earthquake activity; droughts",
+  "heights": {"high":1951,"low":0,"mean":91},
+  "coast": 648,
+  "borders": {"total":156,"lengths":[]},
+  "area": 9251,
+  "resources": "copper, pyrites, asbestos, gypsum, timber, salt, marble, clay earth pigment",
+  "farm": "milk, potatoes, sheep milk, pork, goat milk, wheat, chicken, olives, grapes, barley",
+  "exports": "ships, refined petroleum, packaged medicine, cheese, scented mixtures",
+  "industries": "tourism, food and beverage processing, cement and gypsum, ship repair and refurbishment, textiles, light chemicals, metal products, wood, paper, stone and clay products",
+  "city": {"millions":0.269,"capital":true},
+  "languages": "Greek (official) 80.9%, Turkish (official) 0.2%, English 4.1%, Romanian 2.9%, Russian 2.5%, Bulgarian 2.2%, Arabic 1.2%, Filipino 1.1%, other 4.3%, unspecified 0.6%",
+  "religions": "Eastern Orthodox Christian 89.1%, Roman Catholic 2.9%, Protestant/Anglican 2%, Muslim 1.8%, Buddhist 1%, other (includes Maronite Catholic, Armenian Apostolic, Hindu) 1.4%, unknown 1.1%, none/atheist…",
+  "age": {"median":39.9,"life":80.2},
+  "system": {"text":"Republic of Cyprus - presidential republic; self-declared \"Turkish Republic of Northern Cyprus\" (TRNC) - parliamentary republic with enhanced presidency","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":80,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"16 August 1960","event":"","from":"UK"},
+  "regions": "6 districts",
+  "legal": "mixed system of English common law and civil law, with European law supremacy",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"1 October"},
+  "military": "all Cypriot men must complete 14 months of compulsory service upon reaching the age of 18; women may volunteer for 6 months of service at age 18…",
+  "memberships": ["EU","Eurozone","Commonwealth","Francophonie"],
+  "colours": "blue, white"
+ }
+}

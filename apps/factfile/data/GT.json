@@ -1,0 +1,32 @@
+{
+ "code": "GT",
+ "names": {"country":["República de Guatemala","Republic of Guatemala","Guatemala"],"people":["Guatemalans","Guatemalan"],"places":["Volcan Tajumulco (highest point in Central America)","Independence Day","Guatemala City","Lago de Izabal","Quetzaltenango","Chimaltenango","Huehuetenango","Pacific Ocean","Suchitepéquez","Alta Verapaz","Baja Verapaz","Sacatepéquez","El Progreso","Totonicapán","Chiquimula","Retalhuleu","San Marcos","Santa Rosa","Escuintla","Guatemala","Jutiapa","Izabal","Jalapa","Quiche","Sololá","Zacapa","Peten"],"neighbours":["El Salvador","Salvadoran","Honduras","Honduran","Belize","Belizean","Mexico","Mexican"]},
+ "fields": {
+  "climate": "tropical; hot, humid in lowlands; cooler in highlands",
+  "terrain": "two east-west trending mountain chains divide the country into three regions: the mountainous highlands, the Pacific coast south of mountains, and the vast northern Peten lowlands",
+  "hazards": "numerous volcanoes in mountains, with occasional violent earthquakes; Caribbean coast extremely susceptible to hurricanes and other tropical storms; volcanism: significant volcanic activity in the Sierra Madre range…",
+  "heights": {"high":4220,"low":0,"mean":759},
+  "coast": 400,
+  "borders": {"total":1667,"lengths":[958,266,244,199]},
+  "area": 108889,
+  "lake": {"sqkm":590,"kind":"fresh water"},
+  "resources": "petroleum, nickel, rare woods, fish, chicle, hydropower",
+  "farm": "sugarcane, bananas, oil palm fruit, maize, cantaloupes/melons, potatoes, milk, tomatoes, chicken, pineapples",
+  "exports": "garments, bananas, coffee, palm oil, raw sugar",
+  "industries": "sugar, textiles and clothing, furniture, chemicals, petroleum, metals, rubber, tourism",
+  "city": {"millions":3.095,"capital":true},
+  "languages": "Spanish (official) 69.9%, Maya languages 29.7% (Q'eqchi' 8.3%, K'iche 7.8%, Mam 4.4%, Kaqchikel 3%, Q'anjob'al 1.2%, Poqomchi' 1%, other 4%), other 0.4% (includes Xinca and Garifuna)",
+  "religions": "Evangelical 45.7%, Roman Catholic 42.4%, none 11%, unspecified 0.9%",
+  "age": {"median":26.7,"life":73.5},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":160,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"15 September 1821","event":"","from":"Spain"},
+  "regions": "22 departments",
+  "legal": "civil law system; judicial review of legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"15 September"},
+  "military": "18-28 for voluntary service for men and women (17-21 for military schools); all Guatemalan men 18-49 are subject to selective compulsory service; service obligation is 12-24 months",
+  "memberships": ["SICA"],
+  "colours": "blue, white"
+ }
+}

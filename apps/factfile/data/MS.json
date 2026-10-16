@@ -1,0 +1,27 @@
+{
+ "code": "MS",
+ "names": {"country":["Montserrat"],"people":["Montserratians","Montserratian"],"places":["Soufriere Hills volcano pre-eruption height was","Official birthday of King Charles III","Caribbean Sea","Saint Anthony","Saint Georges","Saint Peter","Plymouth"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; little daily or seasonal temperature variation",
+  "terrain": "volcanic island, mostly mountainous, with small coastal lowland",
+  "hazards": "volcanic eruptions; severe hurricanes (June to November); volcanism: Soufrière Hills volcano (915 m) has erupted continuously since 1995; a massive eruption in 1997 destroyed most of the capital, Plymouth, and made about half of the island uninhabitable…",
+  "heights": {"high":915,"low":0,"mean":null},
+  "coast": 40,
+  "borders": {"total":0,"lengths":[]},
+  "area": 102,
+  "resources": "NEGL",
+  "farm": "cabbages, carrots, cucumbers, tomatoes, onions, peppers; livestock products",
+  "exports": "gravel and crushed stone, sand",
+  "industries": "tourism, rum, textiles, electronic appliances",
+  "languages": "English",
+  "religions": "Protestant 71.4% (includes Anglican 17.7%, Pentecostal/Full Gospel 16.1%, Seventh Day Adventist 15%, Methodist 13.9%, Church of God 6.7%, other Protestant 2%), Roman Catholic 11.4%, Rastafarian 1.4%…",
+  "age": {"median":37.1,"life":76.1},
+  "system": {"text":"parliamentary democracy; self-governing overseas territory of the UK","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":12,"how":"directly elected","term":"5 years"}]},
+  "regions": "3 parishes",
+  "legal": "English common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Official birthday of King Charles III","date":"usually celebrated the second Saturday in June"},
+  "memberships": ["CARICOM"]
+ }
+}

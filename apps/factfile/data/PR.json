@@ -1,0 +1,27 @@
+{
+ "code": "PR",
+ "names": {"country":["Commonwealth of Puerto Rico","Puerto Rico","PR"],"people":["Puerto Ricans","Puerto Rican"],"places":["US Independence Day","Cerro de Punta","Caribbean Sea","Sabana Grande","San Sebastian","Trujillo Alto","Aguas Buenas","Barranquitas","Quebradillas","Santa Isabel","Barceloneta","Hormigueros","Las Piedras","San Lorenzo","Guayanilla","Juana Diaz","Las Marias","Rio Grande","San German","Aguadilla","Cabo Rojo","Canovanas","Naranjito","Vega Alta","Vega Baja","Adjuntas","Aibonito","Carolina","Guaynabo","Luquillo","Mayaguez","Orocovis","Patillas","Penuelas","San Juan","Toa Alta","Toa Baja","Villalba","Arecibo","Bayamon","Comerio","Corozal","Culebra","Fajardo","Florida","Guanica","Guayama","Hatillo","Humacao","Isabela","Maricao","Maunabo","Morovis","Naguabo","Salinas","Vieques","Yabucoa","Aguada","Anasco","Arroyo","Caguas","Catano","Ciales","Dorado","Gurabo","Jayuya","Juncos","Manati","Rincon","Utuado","Camuy","Cayey","Ceiba","Cidra","Coamo","Lajas","Lares","Loiza","Ponce","Yauco","Moca"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine, mild; little seasonal temperature variation",
+  "terrain": "mostly mountains with coastal plain in north; precipitous mountains to the sea on west coast; sandy beaches along most coastal areas",
+  "hazards": "periodic droughts; hurricanes",
+  "heights": {"high":1338,"low":0,"mean":261},
+  "coast": 501,
+  "borders": {"total":0,"lengths":[]},
+  "area": 9104,
+  "resources": "some copper and nickel; potential for onshore and offshore oil",
+  "farm": "milk, plantains, bananas, tomatoes, chicken, oranges, mangoes/guavas, pineapples, eggs, pumpkins/squash",
+  "exports": "packaged medicines, medical cultures/vaccines, hormones, orthopedic and medical appliances, sulfur compounds",
+  "industries": "pharmaceuticals, electronics, apparel, food products, tourism",
+  "city": {"millions":2.44,"capital":true},
+  "languages": "Spanish, English",
+  "religions": "Roman Catholic 56%, Protestant 33% (largely Pentecostal), other 2%, atheist 1%, none 7%",
+  "age": {"median":46.7,"life":82.1},
+  "system": {"text":"unincorporated organized territory of the US with local self-government…","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":51,"how":"directly elected","term":"4 years"},{"seats":30,"how":"directly elected","term":"4 years"}]},
+  "legal": "civil law system based on the Spanish civil code, within the framework of the US federal system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"US Independence Day","date":"4 July"},
+  "colours": "red, white, blue"
+ }
+}

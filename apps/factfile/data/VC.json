@@ -1,0 +1,30 @@
+{
+ "code": "VC",
+ "names": {"country":["Saint Vincent and the Grenadines"],"people":["Saint Vincentians","Saint Vincentian","Vincentians","Vincentian"],"places":["Independence Day","Caribbean Sea","Saint Patrick","La Soufriere","Saint Andrew","Saint George","Saint David","Grenadines","Charlotte","Kingstown"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; little seasonal temperature variation; rainy season (May to November)",
+  "terrain": "volcanic, mountainous",
+  "hazards": "hurricanes; La Soufrière volcano on the island of Saint Vincent is a constant threat; volcanism: La Soufrière (1,234 m) last erupted in 1979…",
+  "heights": {"high":1234,"low":0,"mean":null},
+  "coast": 84,
+  "borders": {"total":0,"lengths":[]},
+  "area": 389,
+  "resources": "hydropower, arable land",
+  "farm": "bananas, root vegetables, plantains, spices, coconuts, fruits, apples, vegetables, mangoes/guavas, sweet potatoes",
+  "exports": "ships, wheat flours, animal food, shellfish, construction vehicles",
+  "industries": "tourism; food processing, cement, furniture, clothing, starch",
+  "city": {"millions":0.027,"capital":true},
+  "languages": "English, Vincentian Creole English, French patois",
+  "religions": "Protestant 75% (Pentecostal 27.6%, Anglican 13.9%, Seventh Day Adventist 11.6%, Baptist 8.9%, Methodist 8.7%, Evangelical 3.8%, Salvation Army 0.3%, Presbyterian/Congregational 0.3%), Roman Catholic…",
+  "age": {"median":38.1,"life":77.2},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":22,"how":"","term":"5 years"}]},
+  "independence": {"date":"27 October 1979","event":"","from":"UK"},
+  "regions": "6 parishes",
+  "legal": "English common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"27 October"},
+  "memberships": ["CARICOM","Commonwealth"],
+  "colours": "blue, gold, green"
+ }
+}

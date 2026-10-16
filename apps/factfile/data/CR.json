@@ -1,0 +1,30 @@
+{
+ "code": "CR",
+ "names": {"country":["República de Costa Rica","Republic of Costa Rica","Costa Rica"],"people":["Costa Ricans","Costa Rican"],"places":["Independence Day","Cerro Chirripo","Pacific Ocean","Guanacaste","Puntarenas","Alajuela","San Jose","San José","Cartago","Heredia","Limon"],"neighbours":["Nicaragua","Nicaraguan","Panama","Panamanian"]},
+ "fields": {
+  "climate": "tropical and subtropical; dry season (December to April); rainy season (May to November); cooler in highlands",
+  "terrain": "coastal plains separated by rugged mountains including over 100 volcanic cones, of which several are major active volcanoes",
+  "hazards": "occasional earthquakes, hurricanes along Atlantic coast; frequent flooding of lowlands at onset of rainy season and landslides; active volcanoes; volcanism: Arenal (1,670 m) is the most active volcano in Costa Rica…",
+  "heights": {"high":3819,"low":0,"mean":746},
+  "coast": 1290,
+  "borders": {"total":661,"lengths":[348,313]},
+  "area": 51100,
+  "resources": "hydropower",
+  "farm": "sugarcane, pineapples, bananas, oil palm fruit, milk, fruits, oranges, chicken, cassava, beef",
+  "exports": "medical instruments, integrated circuits, orthopedic appliances, bananas, tropical fruits",
+  "industries": "medical equipment, food processing, textiles and clothing, construction materials, fertilizer, plastic products",
+  "city": {"millions":1.462,"capital":true},
+  "languages": "Spanish (official), English",
+  "religions": "Roman Catholic 47.5%, Evangelical and Pentecostal 19.8%, Jehovah's Witness 1.4%, other Protestant 1.2%, other 3.1%, none 27%",
+  "age": {"median":36,"life":80.3},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":57,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"15 September 1821","event":"","from":"Spain"},
+  "regions": "7 provinces",
+  "legal": "civil law system based on Spanish civil code; Supreme Court reviews legislative acts",
+  "suffrage": "18 years of age; universal and compulsory",
+  "holiday": {"name":"Independence Day","date":"15 September"},
+  "memberships": ["SICA"],
+  "colours": "blue, white, red"
+ }
+}

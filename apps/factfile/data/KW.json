@@ -1,0 +1,30 @@
+{
+ "code": "KW",
+ "names": {"country":["Dawlat al Kuwayt","State of Kuwait","Al Kuwayt","Kuwait"],"people":["Kuwaitis","Kuwaiti"],"places":["3.6 km W. of Al-Salmi Border Post","Mubarak al Kabir","Al Farwaniyah","National Day","Persian Gulf","Kuwait City","Al 'Asimah","Al Ahmadi","Al Jahra'","Hawalli","Kuwait"],"neighbours":["Saudi Arabia","Saudi or Saudi Arabian","Iraq","Iraqi"]},
+ "fields": {
+  "climate": "dry desert; intensely hot summers; short, cool winters",
+  "terrain": "flat to slightly undulating desert plain",
+  "hazards": "sudden cloudbursts are common from October to April and bring heavy rain, which can damage roads and houses; sandstorms and dust storms occur throughout the year but are most common between March and August",
+  "heights": {"high":300,"low":0,"mean":108},
+  "coast": 499,
+  "borders": {"total":475,"lengths":[254,221]},
+  "area": 17818,
+  "resources": "petroleum, fish, shrimp, natural gas",
+  "farm": "dates, eggs, milk, tomatoes, chicken, lamb/mutton, cucumbers/gherkins, vegetables, maize, eggplants",
+  "exports": "crude petroleum, refined petroleum, natural gas, hydrocarbons, plastics",
+  "industries": "petroleum, petrochemicals, cement, shipbuilding and repair, water desalination, food processing, construction materials",
+  "city": {"millions":3.298,"capital":true},
+  "languages": "Arabic (official), English widely spoken",
+  "religions": "Muslim (official) 74.6%, Christian 18.2%, other and unspecified 7.2%",
+  "age": {"median":30.4,"life":79.6},
+  "system": {"text":"constitutional monarchy (emirate)","unsettled":false},
+  "independence": {"date":"19 June 1961","event":"","from":"UK"},
+  "regions": "6 governorates",
+  "legal": "mixed system consisting of English common law, French civil law, and Islamic sharia law",
+  "suffrage": "21 years of age and at least 20-year citizenship",
+  "holiday": {"name":"National Day","date":"25 February"},
+  "military": "18 years of age for voluntary military service for men and women; 12-month compulsory service for men aged 18-35…",
+  "memberships": ["OPEC","OAPEC","Gulf Cooperation Council","Arab League","Islamic Cooperation"],
+  "colours": "green, white, red, black"
+ }
+}

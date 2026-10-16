@@ -1,0 +1,25 @@
+{
+ "code": "VA",
+ "names": {"country":["La Santa Sede","The Holy See","Santa Sede","Holy See"],"people":[],"places":["Vatican Gardens (Vatican Hill)","Saint Peter's Square","Vatican City"],"neighbours":["Italy","Italian"]},
+ "fields": {
+  "climate": "temperate; mild, rainy winters (September to May) with hot, dry summers (May to September)",
+  "terrain": "urban; low hill",
+  "hazards": "occasional earthquakes",
+  "heights": {"high":78,"low":19,"mean":null},
+  "coast": 0,
+  "borders": {"total":3.4,"lengths":[3.4]},
+  "area": 0,
+  "resources": "none",
+  "industries": "printing; production of coins, medals, postage stamps; mosaics, staff uniforms; worldwide banking and financial activities",
+  "city": {"millions":0.001,"capital":true},
+  "languages": "Italian, Latin, French, various other languages",
+  "religions": "Roman Catholic",
+  "system": {"text":"ecclesiastical elective monarchy; self-described as an \"absolute monarchy\"","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":7,"how":"","term":"5 years"}]},
+  "independence": {"date":"11 February 1929","event":"","from":""},
+  "legal": "religious system based on canon (religious) law",
+  "suffrage": "election of the pope is limited to cardinals under 80 years old",
+  "military": "Pontifical Swiss Guard Corps: 19-30 years of age for voluntary military service; no conscription…",
+  "colours": "yellow, white"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "code": "GI",
+ "names": {"country":["Gibraltar"],"people":["Gibraltarians","Gibraltarian","Gibraltar"],"places":["Mediterranean Sea","Rock of Gibraltar","National Day","Gibraltar"],"neighbours":["Spain","Spanish"]},
+ "fields": {
+  "climate": "Mediterranean with mild winters and warm summers",
+  "terrain": "a narrow coastal lowland borders the Rock of Gibraltar",
+  "hazards": "occasional droughts; no streams or large bodies of water on the peninsula (all potable water comes from desalination)",
+  "heights": {"high":426,"low":0,"mean":null},
+  "coast": 12,
+  "borders": {"total":1.2,"lengths":[1.2]},
+  "area": 7,
+  "resources": "none",
+  "farm": "none",
+  "exports": "refined petroleum, natural gas, ships, cars, scrap iron",
+  "industries": "tourism, banking and finance, ship repairing, tobacco",
+  "city": {"millions":0.035,"capital":true},
+  "languages": "English (used in schools and for official purposes), Spanish, Italian, Portuguese",
+  "religions": "Roman Catholic 72.1%, Church of England 7.7%, other Christian 3.8%, Muslim 3.6%, Jewish 2.4%, Hindu 2%, other 1.1%, none 7.1%, unspecified 0.1%",
+  "age": {"median":37.1,"life":80.9},
+  "system": {"text":"parliamentary democracy (Parliament); self-governing overseas territory of the UK","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":18,"how":"17 directly elected, 1 appointed","term":"4 years"}]},
+  "legal": "the laws of the UK apply",
+  "suffrage": "18 years of age; universal; and British citizens with six months residence or more",
+  "holiday": {"name":"National Day","date":"10 September"},
+  "colours": "red, white, yellow"
+ }
+}

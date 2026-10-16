@@ -1,0 +1,27 @@
+{
+ "code": "AW",
+ "names": {"country":["Country of Aruba","Land Aruba","Pais Aruba","Aruba"],"people":["Arubans","Aruban","Dutch"],"places":["National Anthem and Flag Day","Caribbean Sea","Ceru Jamanota","Oranjestad"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine; little seasonal temperature variation",
+  "terrain": "flat with a few hills; scant vegetation",
+  "hazards": "hurricanes; lies outside the Caribbean hurricane belt and is rarely threatened",
+  "heights": {"high":188,"low":0,"mean":null},
+  "coast": 68.5,
+  "borders": {"total":0,"lengths":[]},
+  "area": 180,
+  "resources": "NEGL; white sandy beaches foster tourism",
+  "farm": "aloes; livestock; fish",
+  "exports": "tobacco, gas turbines, refined petroleum, steam turbines, heating machinery",
+  "industries": "tourism, petroleum transshipment facilities, banking",
+  "city": {"millions":0.03,"capital":true},
+  "languages": "Papiamento (official) (a creole language that mixes Portuguese, Spanish, Dutch, English, French, African languages, and Arawak) 69.4%, Spanish 13.7%, English (widely spoken) 7.1%, Dutch (official)…",
+  "religions": "Roman Catholic 75.3%, Protestant 4.9% (includes Methodist 0.9%, Adventist 0.9%, Anglican 0.4%, other Protestant 2.7%), Jehovah's Witness 1.7%, other 12%, none 5.5%, unspecified 0.5%",
+  "age": {"median":41.2,"life":78.5},
+  "system": {"text":"parliamentary democracy; part of the Kingdom of the Netherlands","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":21,"how":"","term":"4 years"}]},
+  "legal": "civil law system based on the Dutch civil code",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"National Anthem and Flag Day","date":"18 March"},
+  "colours": "blue, yellow, red, white"
+ }
+}

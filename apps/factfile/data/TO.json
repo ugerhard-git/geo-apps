@@ -1,0 +1,31 @@
+{
+ "code": "TO",
+ "names": {"country":["Pule'anga Fakatu'i 'o Tonga","Kingdom of Tonga","Tonga"],"people":["Tongans","Tongan"],"places":["Official birthday of King TUPOU VI","Kao Volcano on Kao Island","Pacific Ocean","Nuku'alofa","Ongo Niua","Tongatapu","Ha'apai","Vava'u"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; modified by trade winds; warm season (December to May), cool season (May to December)",
+  "terrain": "mostly flat islands with limestone bedrock formed from uplifted coral formation; others have limestone overlying volcanic rock",
+  "hazards": "cyclones (October to April); earthquakes and volcanic activity on Fonuafo'ou; volcanism: moderate volcanic activity; Fonualei (180 m) has had frequent activity in recent years, and Niuafo'ou (260 m) has forced evacuations…",
+  "heights": {"high":1046,"low":0,"mean":null},
+  "coast": 419,
+  "borders": {"total":0,"lengths":[]},
+  "area": 747,
+  "resources": "arable land, fish",
+  "farm": "coconuts, pumpkins/squash, cassava, sweet potatoes, vegetables, yams, taro, root vegetables, plantains, lemons/limes",
+  "exports": "refined petroleum, gold, processed fruits and nuts, cassava, fish",
+  "industries": "tourism, construction, fishing",
+  "city": {"millions":0.023,"capital":false},
+  "languages": "Tongan only 85%, Tongan and other language 13.9%, Tongan not used at home 1.1%",
+  "religions": "Protestant 63.9% (Free Wesleyan Church 34.2%, Free Church of Tonga 11.3%, Church of Tonga 6.8%, Seventh Day Adventist 2.5%, Assembly of God 2.5%, Tokaikolo/Maamafo'ou 1.5%, Constitutional Church of…",
+  "age": {"median":26.4,"life":78},
+  "system": {"text":"constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":30,"how":"","term":"4 years"}]},
+  "independence": {"date":"4 June 1970","event":"","from":"UK protectorate status"},
+  "regions": "5 island divisions",
+  "legal": "English common law",
+  "suffrage": "21 years of age; universal",
+  "holiday": {"name":"Official birthday of King TUPOU VI","date":"4 July"},
+  "military": "16-25 years of age for men and women to apply for trainee soldier; no conscription",
+  "memberships": ["Pacific Islands Forum","Commonwealth"],
+  "colours": "red, white"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code": "KE",
+ "names": {"country":["Republic of Kenya","Jamhuri ya Kenya","Kenya"],"people":["Kenyans","Kenyan"],"places":["Jamhuri Day (Independence Day)","Elgeyo/Marakwet","Lake Victoria","Tharaka-Nithi","Indian Ocean","Lake Turkana","Nairobi City","Taita/Taveta","Mount Kenya","Trans Nzoia","Uasin Gishu","Tana River","West Pokot","Kirinyaga","Nyandarua","Homa Bay","Kakamega","Laikipia","Machakos","Marsabit","Mombassa","Murang'a","Baringo","Bungoma","Garissa","Kajiado","Kericho","Makueni","Mandera","Mombasa","Nairobi","Nyamira","Samburu","Turkana","Isiolo","Kiambu","Kilifi","Kisumu","Migori","Nakuru","Vihiga","Bomet","Busia","Kisii","Kitui","Kwale","Nandi","Narok","Nyeri","Siaya","Wajir","Embu","Lamu","Meru"],"neighbours":["South Sudan","South Sudanese","Ethiopia","Ethiopian","Tanzania","Tanzanian","Somalia","Somali","Uganda","Ugandan"]},
+ "fields": {
+  "climate": "varies from tropical along coast to arid in interior",
+  "terrain": "low plains rise to central highlands bisected by Great Rift Valley; fertile plateau in west",
+  "hazards": "recurring drought; flooding during rainy seasons; volcanism: limited volcanic activity; the Barrier (1,032 m) last erupted in 1921; South Island is the only other historically active volcano",
+  "heights": {"high":5199,"low":0,"mean":762},
+  "coast": 536,
+  "borders": {"total":3457,"lengths":[867,814,775,684,317]},
+  "area": 580367,
+  "lake": {"sqkm":62940,"kind":"fresh water"},
+  "resources": "limestone, soda ash, salt, gemstones, fluorspar, zinc, diatomite, gypsum, wildlife, hydropower",
+  "farm": "sugarcane, milk, maize, bananas, tea, potatoes, cassava, cabbages, camel milk, mangoes/guavas",
+  "exports": "tea, cut flowers, garments, gold, tropical fruits",
+  "industries": "agriculture, transportation, services, manufacturing, construction, telecommunications, tourism, retail",
+  "city": {"millions":5.325,"capital":true},
+  "languages": "English (official), Kiswahili (official), numerous indigenous languages",
+  "religions": "Christian 85.5% (Protestant 33.4%, Catholic 20.6%, Evangelical 20.4%, African Instituted Churches 7%, other Christian 4.1%), Muslim 10.9%, other 1.8%, none 1.6%, don't know/no answer 0.2%",
+  "age": {"median":21.5,"life":70.4},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":350,"how":"all directly elected","term":"5 years"},{"seats":68,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"12 December 1963","event":"","from":"UK"},
+  "regions": "47 counties",
+  "legal": "mixed system of English common law, Islamic law, and customary law; Supreme Court reviews laws",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Jamhuri Day (Independence Day)","date":"12 December"},
+  "military": "18-26 years of age for voluntary service for men and women (under 18 with parental consent; upper limit 30 years of age for specialists, tradesmen, or women with a diploma…",
+  "memberships": ["African Union","East African Community","COMESA","Commonwealth"],
+  "colours": "black, red, green, white"
+ }
+}

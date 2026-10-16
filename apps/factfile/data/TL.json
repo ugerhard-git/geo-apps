@@ -1,0 +1,31 @@
+{
+ "code": "TL",
+ "names": {"country":["Republica Democratica de Timor-Leste","Republika Demokratika Timor Lorosa'e","Democratic Republic of Timor-Leste","Timor Lorosa'e","Timor-Leste"],"people":["Timorese"],"places":["Timor Sea, Savu Sea, and Banda Sea","Restoration of Independence Day","Foho Tatamailau","Oe-Cusse Ambeno","Bobonaro","Covalima","Manatuto","Manufahi","Viqueque","Liquica","Ainaro","Baucau","Ermera","Lautem","Aileu","Dili"],"neighbours":["Indonesia","Indonesian"]},
+ "fields": {
+  "climate": "tropical; hot, humid; distinct rainy and dry seasons",
+  "terrain": "mountainous",
+  "hazards": "floods and landslides are common; earthquakes; tsunamis; tropical cyclones",
+  "heights": {"high":2963,"low":0,"mean":null},
+  "coast": 706,
+  "borders": {"total":253,"lengths":[253]},
+  "area": 14874,
+  "resources": "gold, petroleum, natural gas, manganese, marble",
+  "farm": "maize, rice, coconuts, root vegetables, vegetables, cassava, other meats, pork, beans, coffee",
+  "exports": "crude petroleum, natural gas, coffee, scrap iron, telephones",
+  "industries": "printing, soap manufacturing, handicrafts, woven cloth",
+  "city": {"millions":0.281,"capital":true},
+  "languages": "Tetun Prasa 30.6%, Mambai 16.6%, Makasai 10.5%, Tetun Terik 6.1%, Baikenu 5.9%, Kemak 5.8%, Bunak 5.5%, Tokodede 4%, Fataluku 3.5%, Waima'a 1.8%, Galoli 1.4%, Naueti 1.4%, Idate 1.2%, Midiki 1.2%…",
+  "religions": "Catholic 90.7%, other 7.1%, Protestant Evangelical 1.9%; less than 1%: Islam, Buddhist, Hindu",
+  "age": {"median":23,"life":70.5},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":65,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"28 November 1975","event":"","from":"Portugal"},
+  "regions": "12 municipalities and 1 special adminstrative region",
+  "legal": "civil law system based on the Portuguese model",
+  "suffrage": "17 years of age; universal",
+  "holiday": {"name":"Restoration of Independence Day","date":"20 May"},
+  "military": "18 years of age for voluntary military service for men and women; according to Timorese law on military service, all citizens 18-30 must contribute to the defense of independence, sovereignty, and…",
+  "memberships": ["ASEAN","Portuguese-speaking"],
+  "colours": "red, yellow, black, white"
+ }
+}

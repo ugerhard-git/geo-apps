@@ -1,0 +1,30 @@
+{
+ "code": "BA",
+ "names": {"country":["Bosnia and Herzegovina","Bosna i Hercegovina","BiH"],"people":["Herzegovinians","Herzegovinian","Bosnians","Bosnian"],"places":["Independence Day, 1 March and Statehood Day","Adriatic Sea","Sarajevo","Maglic"],"neighbours":["Montenegro","Montenegrin","Croatia","Croatian","Serbia","Serbian"]},
+ "fields": {
+  "climate": "hot summers and cold winters; areas of high elevation have short, cool summers and long, severe winters; mild, rainy winters along coast",
+  "terrain": "mountains and valleys",
+  "hazards": "destructive earthquakes",
+  "heights": {"high":2386,"low":0,"mean":500},
+  "coast": 20,
+  "borders": {"total":1543,"lengths":[956,345,242]},
+  "area": 51197,
+  "resources": "coal, iron ore, antimony, bauxite, copper, lead, zinc, chromite, cobalt, manganese, nickel, clay, gypsum, salt, sand, timber, hydropower",
+  "farm": "maize, milk, vegetables, potatoes, plums, wheat, apples, barley, chicken, tomatoes",
+  "exports": "footwear, electricity, garments, plastic products, insulated wire",
+  "industries": "steel, coal, iron ore, lead, zinc, manganese, bauxite, aluminum, motor vehicle assembly, textiles, tobacco products, wooden furniture, ammunition, domestic appliances, oil refining",
+  "city": {"millions":0.346,"capital":true},
+  "languages": "Bosnian (official) 52.9%, Serbian (official) 30.8%, Croatian (official) 14.6%, other 1.6%, no answer 0.2%",
+  "religions": "Muslim 50.7%, Orthodox 30.7%, Roman Catholic 15.2%, atheist 0.8%, agnostic 0.3%, other 1.2%, undeclared/no answer 1.1%",
+  "age": {"median":45.7,"life":78.5},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":42,"how":"all directly elected","term":"4 years"},{"seats":15,"how":"all appointed","term":"4 years"}]},
+  "independence": {"date":"1 March 1992","event":"","from":"Yugoslavia"},
+  "regions": "3 first-order administrative divisions - Brcko District, Federation of Bosnia and Herzegovina, Republika Srpska",
+  "legal": "civil law system; Constitutional Court review of legislative acts",
+  "suffrage": "18 years of age, 16 if employed; universal",
+  "holiday": {"name":"Independence Day, 1 March and Statehood Day","date":"25 November - both observed in the Federation of Bosnia and Herzegovina entity"},
+  "military": "18 -27 years of age for voluntary military service; conscription ended in January 2006",
+  "colours": "blue, yellow, white"
+ }
+}

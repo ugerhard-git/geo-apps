@@ -1,0 +1,32 @@
+{
+ "code": "UZ",
+ "names": {"country":["O'zbekiston Respublikasi","Republic of Uzbekistan","O'zbekiston","Uzbekistan"],"people":["Uzbekistani"],"places":["Samarqand Viloyati [Samarkand Province]","Farg'ona Viloyati [Fergana Province]","Buxoro Viloyati [Bukhara Province]","Samarqand Shahri [Samarkand City]","Toshkent Shahri [Tashkent City]","Toshkent Viloyati [Nurafshon]","Amu Darya river mouth","Qashqadaryo Viloyati","Surxondaryo Viloyati","Xazrat Sulton Tog'","Namangan Viloyati","Sirdaryo Viloyati","Andijon Viloyati","Independence Day","Jizzax Viloyati","Namangan Shahri","Navoiy Viloyati","Sariqamish Kuli","Xorazm Viloyati","Syr Darya","Tashkent"],"neighbours":["Turkmenistan","Turkmenistani","Afghanistan","Afghan","Kazakhstan","Kazakhstani","Kyrgyzstan","Kyrgyzstani","Tajikistan","Tajikistani"]},
+ "fields": {
+  "climate": "mostly mid-latitude desert, long, hot summers, mild winters; semiarid grassland in east",
+  "terrain": "mostly flat-to-rolling sandy desert with dunes; broad, flat intensely irrigated river valleys along course of Amu Darya, Syr Darya (Sirdaryo), and Zaravshan…",
+  "hazards": "earthquakes; floods; landslides or mudslides; avalanches; droughts",
+  "heights": {"high":4643,"low":-12,"mean":null},
+  "coast": 0,
+  "borders": {"total":6893,"lengths":[2330,1793,1314,1312,144]},
+  "area": 447400,
+  "river": {"km":3078,"shared":3},
+  "resources": "natural gas, petroleum, coal, gold, uranium, silver, copper, lead and zinc, tungsten, molybdenum",
+  "farm": "milk, wheat, cotton, potatoes, carrots/turnips, tomatoes, grapes, watermelons, vegetables, apples",
+  "exports": "gold, cotton yarn, garments, fertilizers, fabric",
+  "industries": "textiles, food processing, machine building, metallurgy, mining, hydrocarbon extraction, chemicals",
+  "city": {"millions":2.603,"capital":true},
+  "languages": "Uzbek (official) 74.3%, Russian 14.2%, Tajik 4.4%, other 7.1%",
+  "religions": "Muslim 88% (mostly Sunni), Eastern Orthodox 9%, other 3%",
+  "age": {"median":29.2,"life":76.2},
+  "system": {"text":"presidential republic; highly authoritarian","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":150,"how":"all directly elected","term":"5 years"},{"seats":65,"how":"","term":"5 years"}]},
+  "independence": {"date":"1 September 1991","event":"","from":"Soviet Union"},
+  "regions": "12 provinces, 1 autonomous republic, and 3 cities",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"1 September"},
+  "military": "18-30 for voluntary/contract service for men and women; 18-27 years of age for compulsory military service for men with a 12-month service obligation",
+  "memberships": ["Islamic Cooperation","Shanghai Cooperation","CIS"],
+  "colours": "blue, white, red, green"
+ }
+}

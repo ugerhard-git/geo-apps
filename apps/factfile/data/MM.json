@@ -1,0 +1,32 @@
+{
+ "code": "MM",
+ "names": {"country":["Pyidaungzu Thammada Myanma Naingngandaw","Myanma Naingngandaw","Union of Burma","Burma"],"people":["Burmese"],"places":["Nay Pyi Taw is the administrative capital","Andaman Sea/Bay of Bengal","Irrawaddy river mouth","Salween river mouth","Independence Day","Gamlang Razi","Nay Pyi Taw","Tanintharyi","Ayeyarwady","Chindwin","Mandalay","Rakhine","Rangoon","Sagaing","Kachin","Magway","Mekong","Yangon","Karen","Kayah","Bago","Chin","Shan","Mon"],"neighbours":["Bangladesh","Bangladeshi","Thailand","Thai","China","Chinese","India","Indian","Laos","Lao or Laotian"]},
+ "fields": {
+  "climate": "tropical monsoon; cloudy, rainy, hot, humid summers (southwest monsoon, June to September); less cloudy, scant rainfall, mild temperatures, lower humidity during winter (northeast monsoon, December to April)",
+  "terrain": "central lowlands ringed by steep, rugged highlands",
+  "hazards": "destructive earthquakes and cyclones; flooding and landslides common during rainy season (June to September); periodic droughts",
+  "heights": {"high":5870,"low":0,"mean":702},
+  "coast": 1930,
+  "borders": {"total":6522,"lengths":[2416,2129,1468,271,238]},
+  "area": 676578,
+  "river": {"km":4350,"shared":5},
+  "resources": "petroleum, timber, tin, antimony, zinc, copper, tungsten, lead, coal, marble, limestone, precious stones, natural gas, hydropower, arable land",
+  "farm": "rice, sugarcane, vegetables, beans, maize, groundnuts, plantains, fruits, coconuts, onions",
+  "exports": "garments, natural gas, dried legumes, rare-earth metal compounds, precious stones",
+  "industries": "agricultural processing; wood and wood products; copper, tin, tungsten, iron; cement, construction materials; pharmaceuticals; fertilizer; oil and natural gas; garments; jade and gems",
+  "city": {"millions":5.61,"capital":true},
+  "languages": "Burmese (official)",
+  "religions": "Buddhist 87.9%, Christian 6.2%, Muslim 4.3%, Animist 0.8%, Hindu 0.5%, other 0.2%, none 0.1%",
+  "age": {"median":31.1,"life":70.3},
+  "system": {"text":"military regime","unsettled":false},
+  "parliament": {"chambers":2,"seats":[]},
+  "independence": {"date":"4 January 1948","event":"","from":"UK"},
+  "regions": "7 regions, 7 states, 1 union territory",
+  "legal": "mixed legal system of English common law (as introduced in codifications designed for colonial India) and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"4 January"},
+  "military": "18-35 years of age (men) and 18-27 years of age (women) for voluntary and conscripted military service; 24-month service obligation…",
+  "memberships": ["ASEAN"],
+  "colours": "yellow, green, red, white"
+ }
+}

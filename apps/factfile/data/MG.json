@@ -1,0 +1,31 @@
+{
+ "code": "MG",
+ "names": {"country":["Repoblikan'i Madagasikara","République de Madagascar","Republic of Madagascar","Madagasikara","Madagascar"],"people":["Malagasy"],"places":["Independence Day","Antananarivo","Fianarantsoa","Indian Ocean","Antsiranana","Maromokotro","Mahajanga","Toamasina","Toliara"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical along coast, temperate inland, arid in south",
+  "terrain": "narrow coastal plain, high plateau and mountains in center",
+  "hazards": "periodic cyclones; drought; and locust infestation; volcanism: Madagascar's volcanoes have not erupted in recorded history",
+  "heights": {"high":2876,"low":0,"mean":615},
+  "coast": 4828,
+  "borders": {"total":0,"lengths":[]},
+  "area": 587041,
+  "resources": "graphite, chromite, coal, bauxite, rare earth elements, salt, quartz, tar sands, semiprecious stones, mica, fish, hydropower",
+  "farm": "rice, sugarcane, cassava, sweet potatoes, milk, bananas, vegetables, mangoes/guavas, maize, potatoes",
+  "exports": "garments, nickel, vanilla, cloves, gold",
+  "industries": "meat processing, seafood, soap, beer, leather, sugar, textiles, glassware, cement, automobile assembly plant, paper, petroleum, tourism, mining",
+  "city": {"millions":3.872,"capital":true},
+  "languages": "Malagasy (official) 99.9%, French (official) 23.6%, English 8.2%, other 0.6%",
+  "religions": "Church of Jesus Christ in Madagascar/Malagasy Lutheran Church/Anglican Church 34%, Roman Catholic 32.3%, other Christian 8.1%, traditional/Animist 1.7%, Muslim 1.4%, other 0.6%, none 21.9%",
+  "age": {"median":20.5,"life":68.8},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":163,"how":"all directly elected","term":"5 years"},{"seats":18,"how":"","term":"5 years"}]},
+  "independence": {"date":"26 June 1960","event":"","from":"France"},
+  "regions": "6 provinces",
+  "legal": "civil law system based on the old French civil code and customary law in matters of marriage, family, and obligation",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"26 June"},
+  "military": "18 years of age for voluntary military service for men and women; service obligation 18 months; conscription available in times of national emergency or war",
+  "memberships": ["African Union","SADC","COMESA","Francophonie"],
+  "colours": "red, green, white"
+ }
+}

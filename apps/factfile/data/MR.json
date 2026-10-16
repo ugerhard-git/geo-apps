@@ -1,0 +1,32 @@
+{
+ "code": "MR",
+ "names": {"country":["Al Jumhuriyah al Islamiyah al Muritaniyah","Islamic Republic of Mauritania","Muritaniyah","Mauritania"],"people":["Mauritanians","Mauritanian"],"places":["Sebkhet Te-n-Dghamcha","Senegal river mouth","Dakhlet Nouadhibou","Hodh ech Chargui","Independence Day","Nouakchott Ouest","Nouakchott Nord","Hodh El Gharbi","Nouakchott Sud","Tiris Zemmour","Kediet Ijill","Nouakchott","Guidimaka","Inchiri","Assaba","Brakna","Gorgol","Tagant","Trarza","Adrar"],"neighbours":["Algeria","Algerian","Morocco","Moroccan","Senegal","Senegalese","Mali","Malian"]},
+ "fields": {
+  "climate": "desert; constantly hot, dry, dusty",
+  "terrain": "mostly barren, flat plains of the Sahara; some central hills",
+  "hazards": "hot, dry, dust/sand-laden sirocco wind primarily in March and April; periodic droughts",
+  "heights": {"high":915,"low":-5,"mean":276},
+  "coast": 754,
+  "borders": {"total":5002,"lengths":[2236,1564,742,460]},
+  "area": 1030700,
+  "river": {"km":1641,"shared":3},
+  "resources": "iron ore, gypsum, copper, phosphate, diamonds, gold, oil, fish",
+  "farm": "rice, milk, goat milk, sorghum, sheep milk, lamb/mutton, beef, camel meat, camel milk, dates",
+  "exports": "gold, iron ore, fish, processed crustaceans, copper ore",
+  "industries": "fish processing, oil production, mining (iron ore, gold, copper)",
+  "city": {"millions":1.492,"capital":true},
+  "languages": "Arabic (official and national), Pular, Soninke, Wolof (all national languages), French",
+  "religions": "Muslim (official) 100%",
+  "age": {"median":18.6,"life":65.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":176,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"28 November 1960","event":"","from":"France"},
+  "regions": "15 regions",
+  "legal": "mixed system of Islamic and French civil law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"28 November"},
+  "military": "18 is the legal minimum age for voluntary military service; has a compulsory two-year military service law, but the law has reportedly never been applied",
+  "memberships": ["Arab League","Islamic Cooperation","African Union","Francophonie"],
+  "colours": "green, yellow"
+ }
+}

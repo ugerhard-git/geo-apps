@@ -1,0 +1,27 @@
+{
+ "code": "VG",
+ "names": {"country":["British Virgin Islands","BVI"],"people":["British Virgin Islanders","British Virgin Islander"],"places":["Caribbean Sea","Territory Day","Mount Sage","Road Town"],"neighbours":[]},
+ "fields": {
+  "climate": "subtropical; humid; temperatures moderated by trade winds",
+  "terrain": "coral islands relatively flat; volcanic islands steep, hilly",
+  "hazards": "hurricanes and tropical storms (July to October)",
+  "heights": {"high":521,"low":0,"mean":null},
+  "coast": 80,
+  "borders": {"total":0,"lengths":[]},
+  "area": 151,
+  "resources": "NEGL; pleasant climate, beaches foster tourism",
+  "farm": "fruits, vegetables; livestock, poultry; fish",
+  "exports": "ships, refined petroleum, aircraft, molasses, precious stones",
+  "industries": "tourism, light industry, construction, rum, concrete block, offshore banking center",
+  "city": {"millions":0.015,"capital":true},
+  "languages": "English (official), Virgin Islands Creole",
+  "religions": "Protestant 70.2% (Methodist 17.6%, Church of God 10.4%, Anglican 9.5%, Seventh Day Adventist 9.0%, Pentecostal 8.2%, Baptist 7.4%, New Testament Church of God 6.9%, other Protestant 1.2%), Roman…",
+  "age": {"median":38.8,"life":80.1},
+  "system": {"text":"Overseas Territory of the UK with limited self-government; parliamentary democracy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":15,"how":"directly elected and appointed","term":"4 years"}]},
+  "legal": "English common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Territory Day","date":"1 July"},
+  "colours": "yellow, green, red, white, blue"
+ }
+}

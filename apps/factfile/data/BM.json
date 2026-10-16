@@ -1,0 +1,28 @@
+{
+ "code": "BM",
+ "names": {"country":["Bermuda"],"people":["Bermudians","Bermudian"],"places":["Atlantic Ocean","Saint George's","Saint George","Bermuda Day","Southampton","Devonshire","Town Hill","Hamilton","Pembroke","Smith's","Warwick","Sandys","Paget"],"neighbours":[]},
+ "fields": {
+  "climate": "subtropical; mild, humid; gales, strong winds common in winter",
+  "terrain": "low hills separated by fertile depressions",
+  "hazards": "hurricanes (June to November)",
+  "heights": {"high":79,"low":0,"mean":null},
+  "coast": 103,
+  "borders": {"total":0,"lengths":[]},
+  "area": 54,
+  "resources": "limestone, pleasant climate fostering tourism",
+  "farm": "bananas, vegetables, citrus, flowers; dairy products, honey",
+  "exports": "crude petroleum, ships, aircraft, liquor, railway cargo containers",
+  "industries": "international business, tourism, light manufacturing",
+  "city": {"millions":0.01,"capital":true},
+  "languages": "English (official), Portuguese",
+  "religions": "Protestant 46.2% (includes Anglican 15.8%, African Methodist Episcopal 8.6%, Seventh Day Adventist 6.7%, Pentecostal 3.5%, Methodist 2.7%, Presbyterian 2.0%, Church of God 1.6%, Baptist 1.2%…",
+  "age": {"median":43.9,"life":82.5},
+  "system": {"text":"Overseas Territory of the UK with limited self-government; parliamentary democracy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":36,"how":"directly elected","term":"5 years"},{"seats":11,"how":"appointed","term":"5 years"}]},
+  "regions": "9 parishes and 2 municipalities",
+  "legal": "English common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Bermuda Day","date":"24 May"},
+  "military": "men and women who are Commonwealth citizens and 18-45 years of age can volunteer for the Bermuda Regiment; service is for a minimum period of three years and two months from the date of enlistment…"
+ }
+}

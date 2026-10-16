@@ -1,0 +1,32 @@
+{
+ "code": "BF",
+ "names": {"country":["Burkina Faso"],"people":["Burkinabe"],"places":["Mouhoun (Black Volta) River","Volta river source","Boucle du Mouhoun","Plateau-Central","Bobo-Dioulasso","Hauts-Bassins","Centre-Ouest","Republic Day","Centre-Nord","Ouagadougou","Tena Kourou","Centre-Est","Centre-Sud","Sud-Ouest","Cascades","Centre","Sahel","Nord","Est"],"neighbours":["Cote d'Ivoire","Benin","Beninese","Ghana","Ghanaian","Niger","Nigerien","Mali","Malian","Togo","Togolese"]},
+ "fields": {
+  "climate": "three climate zones including a hot tropical savanna with a short rainy season in the southern half, a tropical hot semi-arid steppe climate typical of the Sahel region in the northern half, and small area of hot desert…",
+  "terrain": "mostly flat to dissected, undulating plains; hills in the west and southeast; occupies an extensive plateau with savanna that is grassy in the north and gradually gives way to sparse forests in the south",
+  "hazards": "recurring droughts",
+  "heights": {"high":749,"low":200,"mean":297},
+  "coast": 0,
+  "borders": {"total":3611,"lengths":[1325,622,602,545,386,131]},
+  "area": 274200,
+  "river": {"km":1600,"shared":1},
+  "resources": "gold, manganese, zinc, limestone, marble, phosphates, pumice, salt",
+  "farm": "maize, sorghum, fruits, vegetables, millet, cowpeas, cotton, groundnuts, sugarcane, rice",
+  "exports": "gold, cotton, oil seeds, coconuts/brazil nuts/cashews, cement",
+  "industries": "cotton lint, beverages, agricultural processing, soap, cigarettes, textiles, gold",
+  "city": {"millions":3.204,"capital":true},
+  "languages": "Mossi 52.9%, Fula 7.8%, Gourmantche 6.8%, Dyula 5.7%, Bissa 3.3%, Gurunsi 3.2%, French (official) 2.2%, Bwamu 2%, Dagara 2%, San 1.7%, Marka 1.6%, Bobo 1.5%, Senufo 1.5%, Lobi 1.2%, other 6.6%",
+  "religions": "Muslim 63.8%, Roman Catholic 20.1%, Animiste 9%, Protestant 6.2%, other 0.2%, none 0.7%",
+  "age": {"median":19,"life":64.2},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":71,"how":"","term":""}]},
+  "independence": {"date":"5 August 1960","event":"","from":"France"},
+  "regions": "13 regions",
+  "legal": "civil law based on the French model and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Republic Day","date":"11 December"},
+  "military": "generally, 18-35 years of age for voluntary military service for men and women; citizens 18-77 years of age are eligible to volunteer for the VDP",
+  "memberships": ["Islamic Cooperation","WAEMU","Francophonie"],
+  "colours": "red, yellow, green"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "YE",
+ "names": {"country":["Al Jumhuriyah al Yamaniyah","Republic of Yemen","Al Yaman","Yemen"],"people":["Yemenis","Yemeni"],"places":["Jabal an Nabi Shu'ayb","Amanat al 'Asimah","Arkhabil Suqutra","Unification Day","Al Hudaydah","Arabian Sea","Al Bayda'","Al Mahrah","Al Mahwit","Hadramawt","Ad Dali'","Al Jawf","Shabwah","Dhamar","Hajjah","Ma'rib","Raymah","Sa'dah","San'a'","Ta'izz","Abyan","Lahij","Sanaa","Aden","Taiz","Ibb"],"neighbours":["Saudi Arabia","Saudi or Saudi Arabian","Oman","Omani"]},
+ "fields": {
+  "climate": "mostly desert; hot and humid along west coast; temperate in western mountains affected by seasonal monsoon; extraordinarily hot, dry, harsh desert in east",
+  "terrain": "narrow coastal plain backed by flat-topped hills and rugged mountains; dissected upland desert plains in center slope into the desert interior of the Arabian Peninsula",
+  "hazards": "sandstorms and dust storms in summer; volcanism: limited volcanic activity; Jebel at Tair (Jabal al-Tair, Jebel Teir, Jabal al-Tayr, Jazirat at-Tair) (244 m), which forms an island in the Red Sea, became active in 2007…",
+  "heights": {"high":3666,"low":0,"mean":999},
+  "coast": 1906,
+  "borders": {"total":1601,"lengths":[1307,294]},
+  "area": 527968,
+  "resources": "petroleum, fish, rock salt, marble; small deposits of coal, gold, lead, nickel, and copper; fertile soil in west",
+  "farm": "mangoes/guavas, potatoes, milk, onions, spices, chicken, sorghum, watermelons, tomatoes, grapes",
+  "exports": "gold, fish, scrap iron, shellfish, industrial acids/oils/alcohols",
+  "industries": "crude oil production and petroleum refining; small-scale production of cotton textiles, leather goods; food processing; handicrafts; aluminum products; cement; commercial ship repair…",
+  "city": {"millions":3.292,"capital":true},
+  "languages": "Arabic (official)",
+  "religions": "Muslim 99.1% (official; virtually all are citizens, an estimated 65% are Sunni and 35% are Shia), other 0.9% (includes Jewish, Baha'i, Hindu, and Christian…",
+  "age": {"median":20.5,"life":68.2},
+  "system": {"text":"in transition","unsettled":true},
+  "parliament": {"chambers":2,"seats":[{"seats":301,"how":"all directly elected","term":"6 years"},{"seats":111,"how":"all appointed","term":""}]},
+  "independence": {"date":"22 May 1990","event":"Republic of Yemen established with the merger of the Yemen Arab…","from":""},
+  "regions": "22 governorates",
+  "legal": "mixed system of Islamic (sharia) law, Napoleonic law, English common law, and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Unification Day","date":"22 May"},
+  "military": "limited available information; 18 is the legal minimum age for military service under the Yemeni Government",
+  "memberships": ["Arab League","Islamic Cooperation"],
+  "colours": "red, white, black"
+ }
+}

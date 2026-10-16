@@ -1,0 +1,24 @@
+{
+ "code": "PN",
+ "names": {"country":["Pitcairn, Henderson, Ducie, and Oeno Islands","Pitcairn Islands"],"people":["Pitcairn Islanders","Pitcairn Islander"],"places":["Official birthday of King Charles III","Palwala Valley Point on Big Ridge","Pacific Ocean","Adamstown"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; hot and humid; modified by southeast trade winds; rainy season (November to March)",
+  "terrain": "rugged volcanic formation; rocky coastline with cliffs",
+  "hazards": "occasional tropical cyclones (especially November to March), but generally only heavy tropical storms; landslides",
+  "heights": {"high":347,"low":0,"mean":null},
+  "coast": 51,
+  "borders": {"total":0,"lengths":[]},
+  "area": 47,
+  "resources": "miro trees (used for handicrafts), fish",
+  "farm": "honey; wide variety of fruits and vegetables; goats, chickens; fish",
+  "exports": "fertilizers, sulfur, refined petroleum, excavation machinery, ethylene polymers",
+  "industries": "postage stamps, handicrafts, beekeeping, honey",
+  "languages": "English (official), Pitkern (mixture of an 18th century English dialect and a Tahitian dialect)",
+  "religions": "Seventh Day Adventist 100%",
+  "system": {"text":"parliamentary democracy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":10,"how":"directly elected and appointed","term":"2 years"}]},
+  "legal": "local island by-laws",
+  "suffrage": "18 years of age; universal with three years of residency",
+  "holiday": {"name":"Official birthday of King Charles III","date":"usually celebrated the second Saturday in June"}
+ }
+}

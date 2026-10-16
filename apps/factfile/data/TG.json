@@ -1,0 +1,31 @@
+{
+ "code": "TG",
+ "names": {"country":["République Togolaise","Togolese Republic","Togo"],"people":["Togolese"],"places":["Independence Day","Atlantic Ocean","Mont Agou","Centrale","Maritime","Plateaux","Savanes","Kara","Lome"],"neighbours":["Burkina Faso","Burkinabe","Benin","Beninese","Ghana","Ghanaian"]},
+ "fields": {
+  "climate": "tropical; hot, humid in south; semiarid in north",
+  "terrain": "gently rolling savanna in north; central hills; southern plateau; low coastal plain with extensive lagoons and marshes",
+  "hazards": "hot, dry harmattan wind can reduce visibility in north during winter; periodic droughts",
+  "heights": {"high":986,"low":0,"mean":236},
+  "coast": 56,
+  "borders": {"total":1880,"lengths":[1098,651,131]},
+  "area": 56785,
+  "resources": "phosphates, limestone, marble, arable land",
+  "farm": "cassava, maize, yams, sorghum, soybeans, beans, rice, vegetables, oil palm fruit, cotton",
+  "exports": "gold, refined petroleum, soybeans, phosphates, coconuts/brazil nuts/cashews",
+  "industries": "phosphate mining, agricultural processing, cement, handicrafts, textiles, beverages",
+  "city": {"millions":1.982,"capital":true},
+  "languages": "French (official, language of commerce), Ewe and Mina (in the south), Kabye (sometimes spelled Kabiye) and Dagomba (in the north)",
+  "religions": "Christian 42.3%, folk religion 36.9%, Muslim 14%, Hindu <1%, Buddhist <1%, Jewish <1%, other <1%, none 6.2%",
+  "age": {"median":20.9,"life":72.1},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":113,"how":"all directly elected","term":"6 years"},{"seats":61,"how":"","term":"6 years"}]},
+  "independence": {"date":"27 April 1960","event":"","from":"French-administered UN trusteeship"},
+  "regions": "5 regions",
+  "legal": "customary law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"27 April"},
+  "military": "18-24 years of age for military service for men and women; initial 24-month service obligation; no conscription",
+  "memberships": ["Islamic Cooperation","African Union","ECOWAS","WAEMU","Francophonie"],
+  "colours": "green, yellow, red, white"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "code": "KY",
+ "names": {"country":["Cayman Islands"],"people":["Caymanians","Caymanian"],"places":["1 km SW of The Bluff on Cayman Brac","Cayman Brac and Little Cayman","Constitution Day","Caribbean Sea","Bodden Town","George Town","North Side","East End","West Bay"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine; warm, rainy summers (May to October) and cool, relatively dry winters (November to April)",
+  "terrain": "low-lying limestone base surrounded by coral reefs",
+  "hazards": "hurricanes (July to November)",
+  "heights": {"high":50,"low":0,"mean":null},
+  "coast": 160,
+  "borders": {"total":0,"lengths":[]},
+  "area": 264,
+  "resources": "fish, climate and beaches that foster tourism",
+  "farm": "vegetables, fruit; livestock; turtle farming",
+  "exports": "aircraft, ships, refined petroleum, natural gas, broadcasting equipment",
+  "industries": "tourism, banking, insurance and finance, construction, construction materials, furniture",
+  "city": {"millions":0.035,"capital":true},
+  "languages": "English (official) 88.8%, Spanish 3.9%, Filipino 3.8%, other 2.8%, unspecified 0.7%",
+  "religions": "Protestant 60.8% (includes Church of God 19.5%, Seventh Day Adventist 8.7%, non-denominational 8.3%, Baptist 6.9%, Pentecostal 6.8%, Presbyterian/United Church 5.7%, Anglican 2.8%, Wesleyan Holiness…",
+  "age": {"median":41.3,"life":82.5},
+  "system": {"text":"parliamentary democracy; self-governing overseas territory of the UK","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":21,"how":"directly elected and appointed","term":"4 years"}]},
+  "regions": "6 districts",
+  "legal": "English common law and local statutes",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"the first Monday in July"}
+ }
+}

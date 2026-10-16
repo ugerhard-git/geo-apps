@@ -1,0 +1,32 @@
+{
+ "code": "HN",
+ "names": {"country":["República de Honduras","Republic of Honduras","Honduras"],"people":["Hondurans","Honduran"],"places":["Laguna de Caratasca","Francisco Morazán","Islas de la Bahia","Independence Day","Cerro Las Minas","Gracias a Dios","San Pedro Sula","Caribbean Sea","Santa Barbara","Tegucigalpa","El Paraiso","Ocotepeque","Atlántida","Choluteca","Comayagua","Intibucá","Lempira","Olancho","Cortes","La Paz","Colon","Copan","Valle","Yoro"],"neighbours":["El Salvador","Salvadoran","Guatemala","Guatemalan","Nicaragua","Nicaraguan"]},
+ "fields": {
+  "climate": "subtropical in lowlands, temperate in mountains",
+  "terrain": "mostly mountains in interior, narrow coastal plains",
+  "hazards": "frequent, but generally mild, earthquakes; extremely susceptible to damaging hurricanes and floods along the Caribbean coast",
+  "heights": {"high":2870,"low":0,"mean":684},
+  "coast": 823,
+  "borders": {"total":1575,"lengths":[940,391,244]},
+  "area": 112090,
+  "lake": {"sqkm":1110,"kind":"salt water"},
+  "resources": "timber, gold, silver, copper, lead, zinc, iron ore, antimony, coal, fish, hydropower",
+  "farm": "sugarcane, oil palm fruit, maize, milk, bananas, coffee, cantaloupes/melons, oranges, chicken, beans",
+  "exports": "garments, coffee, insulated wire, palm oil, shellfish",
+  "industries": "sugar processing, coffee, woven and knit apparel, wood products, cigars",
+  "city": {"millions":1.568,"capital":true},
+  "languages": "Spanish (official), Amerindian dialects",
+  "religions": "Evangelical 55%, Roman Catholic 33.4%, none 10.1%, unspecified 1.5%",
+  "age": {"median":26.1,"life":73.1},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":128,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"15 September 1821","event":"","from":"Spain"},
+  "regions": "18 departments",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal and compulsory",
+  "holiday": {"name":"Independence Day","date":"15 September"},
+  "military": "18-22 years of age for voluntary military service for men and women; 24–36 month service obligation; no conscription",
+  "memberships": ["SICA"],
+  "colours": "blue, white"
+ }
+}

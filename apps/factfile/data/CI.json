@@ -1,0 +1,32 @@
+{
+ "code": "CI",
+ "names": {"country":["République de Côte d'Ivoire","Republic of Côte d'Ivoire","Cote d'Ivoire","Côte d'Ivoire"],"people":["Ivoirians","Ivoirian"],"places":["note - the US Embassy is in Abidjan","Yamoussoukro , Abidjan","Sassandra-Marahoue","Vallée du Bandama","Independence Day","Gulf of Guinea","Bas-Sassandra","Yamoussoukro","Goh-Djiboua","Monts Nimba","Lagune Aby","Montagnes","Denguele","Abidjan","Lagunes","Savanes","Woroba","Zanzan","Comoe","Lacs"],"neighbours":["Burkina Faso","Burkinabe","Liberia","Liberian","Guinea","Guinean","Ghana","Ghanaian","Mali","Malian"]},
+ "fields": {
+  "climate": "tropical along coast, semiarid in far north; three seasons - warm and dry (November to March), hot and dry (March to May), hot and wet (June to October)",
+  "terrain": "mostly flat to undulating plains; mountains in northwest",
+  "hazards": "coast has heavy surf and no natural harbors; during the rainy season torrential flooding is possible",
+  "heights": {"high":1752,"low":0,"mean":250},
+  "coast": 515,
+  "borders": {"total":3458,"lengths":[816,778,720,599,545]},
+  "area": 322463,
+  "lake": {"sqkm":780,"kind":"salt water"},
+  "resources": "petroleum, natural gas, diamonds, manganese, iron ore, cobalt, bauxite, copper, gold, nickel, tantalum, silica sand, clay, cocoa beans, coffee, palm oil, hydropower",
+  "farm": "yams, cassava, oil palm fruit, cocoa beans, sugarcane, plantains, rice, rubber, maize, cashews",
+  "exports": "gold, cocoa beans, rubber, refined petroleum, coconuts/brazil nuts/cashews",
+  "industries": "foodstuffs, beverages; wood products, oil refining, gold mining, truck and bus assembly, textiles, fertilizer, building materials, electricity",
+  "city": {"millions":5.686,"capital":false},
+  "languages": "French (official), 60 native dialects of which Dioula is the most widely spoken",
+  "religions": "Muslim 42.9%, Catholic 17.2%, Evangelical 11.8%, Methodist 1.7%, other Christian 3.2%, animist 3.6%, other religion 0.5%, none 19.1%",
+  "age": {"median":20,"life":63.2},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":255,"how":"all directly elected","term":"5 years"},{"seats":99,"how":"","term":"5 years"}]},
+  "independence": {"date":"7 August 1960","event":"","from":"France"},
+  "regions": "12 districts and 2 autonomous districts",
+  "legal": "civil law system based on the French civil code; Constitutional Chamber of the Supreme Court reviews legislation",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"7 August"},
+  "military": "18-26 (up to 35 for healthcare professionals) years of age for voluntary military service for men and women; conscription is authorized but reportedly not enforced",
+  "memberships": ["Islamic Cooperation","African Union","ECOWAS","WAEMU","Francophonie"],
+  "colours": "orange, white, green"
+ }
+}

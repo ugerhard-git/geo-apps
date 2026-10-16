@@ -1,0 +1,31 @@
+{
+ "code": "RS",
+ "names": {"country":["Republic of Serbia","Republika Srbija","Serbia","Srbija"],"people":["Serbian","Serbs","Serb"],"places":["Statehood Day, 15 February","Danube and Timok Rivers","Smederevska Palanka","Petrovac na Mlavi","Sremska Mitrovica","Gornji Milanovac","Sremski Karlovci","Veliko Gradiste","Backi Petrovac","Vrnjacka Banja","Aleksandrovac","Backa Palanka","Novi Knezevac","Backa Topola","Bajina Basta","Bela Palanka","Mali Zvornik","Stara Pazova","Velika Plana","Vladicin Han","Arandelovac","Malo Crnice","Bela Crkva","Bosilegrad","Crna Trava","Despotovac","Gadzin Han","Kragujevac","Kursumlija","Nova Crnja","Nova Varos","Novi Becej","Novi Pazar","Prijepolje","Vladimirci","Vlasotince","Aleksinac","Babusnica","Bujanovac","Knjazevac","Koceljeva","Ljubovija","Majdanpek","Mali Idos","Plandiste","Pozarevac","Prokuplje","Smederevo","Sokobanja","Surdulica","Svilajnac","Trgoviste","Zrenjanin","Alibunar","Batocina","Belgrade","Boljevac","Cajetina","Dimitrov","Doljevac","Ivanjica","Jagodina","Kosjeric","Kovacica","Kraljevo","Krusevac","Lajkovac","Leskovac","Merosina","Novi Sad","Srbobran","Subotica","Trstenik","Varvarin","Zagubica","Zitorada","Beograd","Bogatic","Cicevac","Cuprija","Golubac","Kanjiza","Kikinda","Kladovo","Krupanj","Loznica","Medveda","Mionica","Negotin","Osecina","Pancevo","Paracin","Pecinci","Presevo","Rekovac","Sjenica","Svrljig","Temerin","Valjevo","Zajecar","Zitiste","Apatin","Arilje","Beocin","Bojnik","Danube","Indija","Kucevo","Lapovo","Lebane","Lucani","Midzor","Odzaci","Pozega","Priboj","Razanj","Secanj","Sombor","Topola","Vranje","Zabalj","Zabari","Becej","Blace","Cacak","Dunav","Kovin","Opovo","Pirot","Raska","Sabac","Senta","Titel","Tutin","Uzice","Vrbas","Vrsac","Brus","Coka","Irig","Knic","Kula","Ljig","Raca","Ruma","Ada","Bac","Bor","Nis","Sid","Ub"],"neighbours":["Bosnia and Herzegovina","Bosnian","North Macedonia","Macedonian","Montenegro","Montenegrin","Bulgaria","Bulgarian","Croatia","Croatian","Hungary","Hungarian","Romania","Romanian","Kosovo","Kosovan"]},
+ "fields": {
+  "climate": "in the north, continental climate (cold winters and hot, humid summers with well-distributed rainfall)…",
+  "terrain": "extremely varied; to the north, rich fertile plains; to the east, limestone ranges and basins; to the southeast, ancient mountains and hills",
+  "hazards": "destructive earthquakes",
+  "heights": {"high":2169,"low":35,"mean":442},
+  "coast": 0,
+  "borders": {"total":2322,"lengths":[531,366,345,344,314,164,157,101]},
+  "area": 77474,
+  "river": {"km":2888,"shared":9},
+  "resources": "oil, gas, coal, iron ore, copper, zinc, antimony, chromite, gold, silver, magnesium, pyrite, limestone, marble, salt, arable land",
+  "farm": "maize, wheat, sugar beets, milk, sunflower seeds, soybeans, potatoes, barley, apples, plums",
+  "exports": "insulated wire, electricity, copper ore, plastic products, electric motors",
+  "industries": "automobiles, base metals, furniture, food processing, machinery, chemicals, sugar, tires, clothes, pharmaceuticals",
+  "city": {"millions":1.408,"capital":true},
+  "languages": "Serbian (official) 88.1%, Hungarian 3.4%, Bosnian 1.9%, Romani 1.4%, other 3.4%, undeclared or unknown 1.8%",
+  "religions": "Serbian Orthodox 81.1%, unknown 5.3%, Islam 4.2%, Catholic 3.9%, no response 2.5%, atheist 1.1%; less than 1%: other Christians, Protestant, agnostic",
+  "age": {"median":44.1,"life":75.3},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":250,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"5 June 2006","event":"","from":"State Union of Serbia and Montenegro"},
+  "regions": "117 municipalities and 28 cities",
+  "legal": "civil law system",
+  "suffrage": "18 years of age, 16 if employed; universal",
+  "holiday": {"name":"Statehood Day, 15 February","date":"the day the first constitution of the country was adopted"},
+  "military": "18 years of age for voluntary military service for men and women; conscription abolished in 2011",
+  "colours": "red, blue, white"
+ }
+}

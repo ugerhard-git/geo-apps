@@ -1,0 +1,33 @@
+{
+ "code": "MW",
+ "names": {"country":["Republic of Malawi","Dziko la Malawi","Malawi"],"people":["Malawians","Malawian"],"places":["junction of the Shire River and international boundary with Mozambique","Sapitwa (Mount Mlanje)","Independence Day","Blantyre-Limbe","Lake Chilwa","Chiradzulu","Nkhata Bay","Nkhotakota","Blantyre","Chikwawa","Lilongwe","Machinga","Mangochi","Phalombe","Chitipa","Karonga","Kasungu","Mchinji","Mulanje","Ntchisi","Zambezi","Balaka","Likoma","Mwanza","Mzimba","Nsanje","Ntcheu","Rumphi","Salima","Thyolo","Dedza","Zomba","Dowa","Neno"],"neighbours":["Mozambique","Mozambican","Tanzania","Tanzanian","Zambia","Zambian"]},
+ "fields": {
+  "climate": "sub-tropical; rainy season (November to May); dry season (May to November)",
+  "terrain": "narrow elongated plateau with rolling plains, rounded hills, some mountains",
+  "hazards": "flooding; droughts; earthquakes",
+  "heights": {"high":3002,"low":37,"mean":779},
+  "coast": 0,
+  "borders": {"total":2857,"lengths":[1498,847,512]},
+  "area": 118484,
+  "lake": {"sqkm":1040,"kind":"salt water"},
+  "river": {"km":2740,"shared":6},
+  "resources": "limestone, arable land, hydropower, unexploited deposits of uranium, coal, and bauxite",
+  "farm": "sweet potatoes, cassava, maize, sugarcane, mangoes/guavas, potatoes, tomatoes, pigeon peas, pumpkins/squash, plantains",
+  "exports": "tobacco, tea, dried legumes, soybean meal, raw sugar",
+  "industries": "tobacco, tea, sugar, sawmill products, cement, consumer goods",
+  "city": {"millions":1.276,"capital":true},
+  "languages": "English (official), Chewa (dominant), Lambya, Lomwe, Ngoni, Nkhonde, Nyakyusa, Nyanja, Sena, Tonga, Tumbuka, Yao",
+  "religions": "Protestant 33.5% (includes Church of Central Africa Presbyterian 14.2%, Seventh Day Adventist/Baptist 9.4%, Pentecostal 7.6%, Anglican 2.3%), Roman Catholic 17.2%, other Christian 26.6%, Muslim…",
+  "age": {"median":19.4,"life":73},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":229,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"6 July 1964","event":"","from":"UK"},
+  "regions": "28 districts",
+  "legal": "mixed system of English common law and customary law; Supreme Court of Appeal reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"6 July"},
+  "military": "18-24 years of age for men and women for voluntary military service",
+  "memberships": ["African Union","SADC","COMESA","Commonwealth"],
+  "colours": "black, red, green"
+ }
+}

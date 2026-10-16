@@ -1,0 +1,33 @@
+{
+ "code": "UG",
+ "names": {"country":["Republic of Uganda","Uganda"],"people":["Ugandans","Ugandan"],"places":["Margherita Peak on Mount Stanley","Independence Day","Lake Victoria","Nakapiripirit","Bukomansimbi","Albert Nile","Kaberamaido","Kapelebyong","Kiryandongo","Lake Albert","Lake Edward","Madi-Okollo","Nakasongola","Bundibugyo","Bunyangabu","Kitagwenda","Kyankwanzi","Lake Kyoga","Namisindwa","Bulambuli","Butambala","Kalangala","Kapchorwa","Lyantonde","Nabilatuk","Namayingo","Namutumba","Rukungiri","Sembabule","Adjumani","Alebtong","Amolatar","Bushenyi","Butaleja","Isingiro","Kabarole","Kakumiro","Kamwenge","Kiruhura","Kyegegwa","Kyenjojo","Nakaseke","Ntungamo","Rubirizi","Rwampara","Bugweri","Buhweju","Bukedea","Buliisa","Buyende","Kaabong","Kalungu","Kampala","Kanungu","Karenga","Kasanda","Katakwi","Kayunga","Kibaale","Kikuube","Kyotera","Manafwa","Maracha","Masindi","Mbarara","Mitooma","Mityana","Mubende","Ntoroko","Pakwach","Pallisa","Rubanda","Sironko","Amudat","Amuria","Budaka","Bududa","Bugiri","Buikwe","Butebo","Buvuma","Dokolo","Ibanda","Iganga","Kabale","Kagadi","Kalaki","Kaliro","Kamuli","Kasese","Kiboga","Kibuku","Kisoro","Kitgum","Koboko","Kotido","Kwania","Luwero","Lwengo","Masaka","Mayuge","Moroto","Mukono","Obongi","Rukiga","Serere","Sheema","Soroti","Tororo","Wakiso","Agago","Amuru","Bukwo","Busia","Gomba","Hoima","Jinja","Kween","Lamwo","Luuka","Mbale","Mpigi","Napak","Nebbi","Ngora","Nwoya","Omoro","Otuke","Pader","Rakai","Yumbe","Zombo","Abim","Apac","Arua","Gulu","Kazo","Kole","Kumi","Lira","Moyo","Nile","Oyam"],"neighbours":["Democratic Republic of the Congo","South Sudan","South Sudanese","Tanzania","Tanzanian","Rwanda","Rwandan","Kenya","Kenyan"]},
+ "fields": {
+  "climate": "tropical; generally rainy with two dry seasons (December to February, June to August); semiarid in northeast",
+  "terrain": "mostly plateau with rim of mountains",
+  "hazards": "droughts; floods; earthquakes; landslides; hailstorms",
+  "heights": {"high":5110,"low":614,"mean":null},
+  "coast": 0,
+  "borders": {"total":2729,"lengths":[877,814,475,391,172]},
+  "area": 241038,
+  "lake": {"sqkm":62940,"kind":"fresh water"},
+  "river": {"km":6650,"shared":5},
+  "resources": "copper, cobalt, hydropower, limestone, salt, arable land, gold",
+  "farm": "plantains, sugarcane, milk, maize, cassava, sweet potatoes, vegetables, beans, potatoes, tea",
+  "exports": "gold, coffee, fish, refined petroleum, tobacco",
+  "industries": "sugar processing, brewing, tobacco, cotton textiles; cement, steel production",
+  "city": {"millions":3.846,"capital":true},
+  "languages": "English (official), Ganda or Luganda (most widely used of the Niger-Congo languages and the language used most often in the capital), other Niger-Congo languages, Nilo-Saharan languages, Swahili…",
+  "religions": "Protestant 45.1% (Anglican 32.0%, Pentecostal/Born Again/Evangelical 11.1%, Seventh Day Adventist 1.7%, Baptist.3%), Roman Catholic 39.3%, Muslim 13.7%, other 1.6%, none 0.2%",
+  "age": {"median":16.4,"life":69.7},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":529,"how":"","term":"5 years"}]},
+  "independence": {"date":"9 October 1962","event":"","from":"UK"},
+  "regions": "134 districts and 1 capital city",
+  "legal": "mixed system of English common law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"9 October"},
+  "military": "18-22 years of age for voluntary military duty for men and women; 9-year service obligation",
+  "memberships": ["Islamic Cooperation","African Union","East African Community","COMESA","Commonwealth"],
+  "colours": "black, yellow, red"
+ }
+}

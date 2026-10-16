@@ -1,0 +1,32 @@
+{
+ "code": "ES",
+ "names": {"country":["Kingdom of Spain","Reino de España","España","Spain"],"people":["Spaniards","Spaniard","Spanish"],"places":["Comunitat Valenciana   [Valencian Community]","Pico de Teide (Tenerife) on Canary Islands","National Day (Hispanic Day)","Euskadi   [Basque Country]","Catalonha   [Catalonia]","Comunidad Valenciana","Nafarroa   [Navarre]","Castilla-La Mancha","Tagus river source","Atlantic Ocean","Illes Baleares","Castilla-Leon","Extremadura","Pais Vasco","Andalucia","Barcelona","Cantabria","Catalunya","Asturias","Canarias","Cataluña","La Rioja","Valencia","Galicia","Melilla","Navarra","Aragon","Madrid","Murcia","Ceuta"],"neighbours":["Gibraltar","Portugal","Portuguese","Andorra","Andorran","Morocco","Moroccan","France","French"]},
+ "fields": {
+  "climate": "temperate; clear, hot summers in interior, more moderate and cloudy along coast; cloudy, cold winters in interior, partly cloudy and cool along coast",
+  "terrain": "large, flat to dissected plateau surrounded by rugged hills; Pyrenees Mountains in north",
+  "hazards": "periodic droughts, occasional flooding; volcanism: volcanic activity in the Canary Islands, located off Africa's northwest coast…",
+  "heights": {"high":3718,"low":0,"mean":660},
+  "coast": 4964,
+  "borders": {"total":1952.7,"lengths":[1224,646,63,8,1.2]},
+  "area": 505370,
+  "river": {"km":1006,"shared":1},
+  "resources": "coal, lignite, iron ore, copper, lead, zinc, uranium, tungsten, mercury, pyrites, magnesite, fluorspar, gypsum, sepiolite, kaolin, potash, hydropower, arable land",
+  "farm": "milk, olives, pork, grapes, wheat, tomatoes, barley, sugar beets, maize, oranges",
+  "exports": "cars, packaged medicine, refined petroleum, vehicle parts/accessories, garments",
+  "industries": "textiles and apparel (including footwear), food and beverages, metals and metal manufactures, chemicals, shipbuilding, automobiles, machine tools, tourism, clay and refractory products, footwear…",
+  "city": {"millions":6.751,"capital":true},
+  "languages": "Castilian Spanish (official) 74%, Catalan (official in Catalonia, the Balearic Islands, and the Valencian Community) 17%, Galician (official in Galicia) 7%, Basque (official in the Basque Country and…",
+  "religions": "Roman Catholic 58.2%, atheist 16.2%, agnostic 10.8%, other 2.7%, non-believer 10.5%, unspecified 1.7%",
+  "age": {"median":47.2,"life":83},
+  "system": {"text":"parliamentary constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":350,"how":"all directly elected","term":"4 years"},{"seats":265,"how":"","term":"4 years"}]},
+  "independence": {"date":"1492","event":"","from":""},
+  "regions": "17 autonomous communities and 2 autonomous cities",
+  "legal": "civil law system with regional variations",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"National Day (Hispanic Day)","date":"12 October"},
+  "military": "18 years of age for voluntary military service for men and women (upper age limits depend on branch of service, roles, specialties, etc); 24-36 month initial obligation…",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD"],
+  "colours": "red, yellow"
+ }
+}

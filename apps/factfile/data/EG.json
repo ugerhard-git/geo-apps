@@ -1,0 +1,33 @@
+{
+ "code": "EG",
+ "names": {"country":["Jumhuriyat Misr al-Arabiyah","Arab Republic of Egypt","Egypt","Misr"],"people":["Egyptians","Egyptian"],"places":["Qattara Depression","Al Bahr al Ahmar","Al Wadi al Jadid","Al Iskandariyah","Kafr ash Shaykh","Mount Catherine","Al Isma'iliyah","Revolution Day","Ad Daqahliyah","Al Qalyubiyah","Ash Sharqiyah","Al Gharbiyah","Al Minufiyah","Lake Manzala","Shamal Sina'","Al Buhayrah","Bani Suwayf","Janub Sina'","river mouth","Al Qahirah","Alexandria","Al Fayyum","As Suways","Bur Sa'id","Al Jizah","Al Minya","Al Uqsur","An Nīl","Dumyat","Matruh","Aswan","Asyut","Cairo","Suhaj","Nile","Qina"],"neighbours":["Gaza Strip","Israel","Israeli","Libya","Libyan","Sudan","Sudanese"]},
+ "fields": {
+  "climate": "desert; hot, dry summers with moderate winters",
+  "terrain": "vast desert plateau interrupted by Nile valley and delta",
+  "hazards": "periodic droughts; frequent earthquakes; flash floods; landslides; hot, driving windstorms called khamsin occur in spring; dust storms; sandstorms",
+  "heights": {"high":2629,"low":-133,"mean":321},
+  "coast": 2450,
+  "borders": {"total":2612,"lengths":[1276,1115,208,13]},
+  "area": 1001450,
+  "lake": {"sqkm":1360,"kind":"salt water"},
+  "river": {"km":6650,"shared":5},
+  "resources": "petroleum, natural gas, iron ore, phosphates, manganese, limestone, gypsum, talc, asbestos, lead, rare earth elements, zinc",
+  "farm": "sugarcane, sugar beets, wheat, maize, potatoes, tomatoes, rice, milk, onions, oranges",
+  "exports": "refined petroleum, natural gas, fertilizers, garments, crude petroleum",
+  "industries": "textiles, food processing, tourism, chemicals, pharmaceuticals, hydrocarbons, construction, cement, metals, light manufactures",
+  "city": {"millions":22.183,"capital":true},
+  "languages": "Arabic (official); English and French widely understood by educated classes",
+  "religions": "Muslim (predominantly Sunni) 90%, Christian (majority Coptic Orthodox, other Christians include Armenian Apostolic, Catholic, Maronite, Orthodox, and Anglican) 10%",
+  "age": {"median":24.6,"life":75},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":596,"how":"","term":"5 years"},{"seats":300,"how":"","term":"5 years"}]},
+  "independence": {"date":"28 February 1922","event":"","from":"UK protectorate status"},
+  "regions": "27 governorates",
+  "legal": "mixed system based on Napoleonic civil and penal law, Islamic religious law, and vestiges of colonial-era laws; Supreme Constitutional Court reviews laws",
+  "suffrage": "18 years of age; universal and compulsory",
+  "holiday": {"name":"Revolution Day","date":"23 July"},
+  "military": "voluntary enlistment possible from age 16 for men and 17 for women; 18-30 years of age for compulsory service for men; service obligation 14-36 months, followed by a 9-year reserve obligation…",
+  "memberships": ["BRICS","OAPEC","Arab League","Islamic Cooperation","African Union","COMESA","Francophonie"],
+  "colours": "red, white, black"
+ }
+}

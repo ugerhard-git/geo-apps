@@ -1,0 +1,26 @@
+{
+ "code": "AS",
+ "names": {"country":["American Samoa","AS"],"people":["American Samoans","American Samoan"],"places":["Lata Mountain","Pacific Ocean","Swains Island","Rose Island","Pago Pago","Flag Day","Eastern","Western","Manu'a"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine, moderated by southeast trade winds; annual rainfall averages about 3 m; rainy season (November to April), dry season (May to October); little seasonal temperature variation",
+  "terrain": "five volcanic islands with rugged peaks and limited coastal plains, two coral atolls (Rose Atoll, Swains Island)",
+  "hazards": "cyclones common from December to March; volcanism: limited volcanic activity on the Ofu and Olosega Islands; neither has erupted since the 19th century",
+  "heights": {"high":964,"low":0,"mean":null},
+  "coast": 116,
+  "borders": {"total":0,"lengths":[]},
+  "area": 224,
+  "resources": "pumice, pumicite",
+  "farm": "bananas, coconuts, vegetables, taro, breadfruit, yams, copra, pineapples, papayas; dairy products, livestock",
+  "exports": "animal meal, aluminum, refined petroleum, gas turbines, broadcasting equipment",
+  "industries": "tuna canneries (largely supplied by foreign fishing vessels), handicrafts",
+  "city": {"millions":0.049,"capital":true},
+  "languages": "Samoan 87.9% (closely related to Hawaiian and other Polynesian languages), English 3.3%, Tongan 2.1%, other Pacific Islander 4.1%, Asian languages 2.1%, other 0.5%",
+  "religions": "Christian 98.3%, other <1%, unaffiliated <1%",
+  "age": {"median":30.6,"life":75.8},
+  "system": {"text":"unincorporated, unorganized Territory of the US with local self-government…","unsettled":false},
+  "legal": "mixed legal system of US common law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Flag Day","date":"17 April"},
+  "colours": "red, white, blue"
+ }
+}

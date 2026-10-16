@@ -1,0 +1,32 @@
+{
+ "code": "BY",
+ "names": {"country":["Respublika Byelarus'","Republic of Belarus","Respublika Belarus'","Byelarus'","Belarus'","Belarus"],"people":["Belarusians","Belarusian"],"places":["Dzyarzhynskaya Hara","Independence Day","Nyoman River","Horad Minsk","Vitsyebsk","Mahilyow","Dnieper","Dnyapro","Homyel'","Hrodna","Brest","Minsk"],"neighbours":["Lithuania","Lithuanian","Ukraine","Ukrainian","Latvia","Latvian","Poland","Polish","Russia","Russian"]},
+ "fields": {
+  "climate": "cold winters, cool and moist summers; transitional between continental and maritime",
+  "terrain": "generally flat with much marshland",
+  "hazards": "large tracts of marshy land",
+  "heights": {"high":346,"low":90,"mean":160},
+  "coast": 0,
+  "borders": {"total":3599,"lengths":[1312,1111,640,375,161]},
+  "area": 207600,
+  "river": {"km":2287,"shared":2},
+  "resources": "timber, peat deposits, small quantities of oil and natural gas, granite, dolomitic limestone, marl, chalk, sand, gravel, clay",
+  "farm": "milk, sugar beets, potatoes, wheat, triticale, barley, maize, rapeseed, rye, chicken",
+  "exports": "fertilizers, rapeseed oil, wood, poultry, beef",
+  "industries": "metal-cutting machine tools, tractors, trucks, earthmovers, motorcycles, synthetic fibers, fertilizer, textiles, refrigerators, washing machines and other household appliances",
+  "city": {"millions":2.057,"capital":true},
+  "languages": "Russian (official) 71.4%, Belarusian (official) 26%, other 0.3% (includes small Polish- and Ukrainian-speaking minorities), unspecified 2.3%",
+  "religions": "Orthodox 48.3%, Catholic 7.1%, other 3.5%, non-believers 41.1%",
+  "age": {"median":42.5,"life":74.7},
+  "system": {"text":"presidential republic in name, although in fact a dictatorship","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":110,"how":"all directly elected","term":"5 years"},{"seats":65,"how":"","term":"5 years"}]},
+  "independence": {"date":"25 August 1991","event":"","from":"Soviet Union"},
+  "regions": "6 regions and 1 municipality",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"3 July"},
+  "military": "18-27 years of age for compulsory military or alternative service; conscript service obligation is 12-18 months, depending on academic qualifications, and 24-36 months for alternative service…",
+  "memberships": ["CIS","Eurasian Economic Union","CSTO"],
+  "colours": "green, red, white"
+ }
+}

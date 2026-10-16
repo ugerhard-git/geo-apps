@@ -1,0 +1,32 @@
+{
+ "code": "MA",
+ "names": {"country":["Al Mamlakah al Maghribiyah","Kingdom of Morocco","Al Maghrib","Morocco"],"people":["Moroccans","Moroccan"],"places":["Throne Day (accession of King MOHAMMED VI to the throne)","Tanger-Tetouan-Al Hoceima","Laayoune-Sakia El Hamra","Beni Mellal-Khenifra","Dakhla-Oued Ed-Dahab","Rabat-Sale-Kenitra","Casablanca-Settat","Guelmim-Oued Noun","Draa-Tafilalet","Marrakech-Safi","Jebel Toubkal","Souss-Massa","Casablanca","Fes-Meknes","Sebkha Tah","Marrakech","Oriental","Tangier","Agadir","Rabat","Draa","Fes"],"neighbours":["Mauritania","Mauritanian","Algeria","Algerian","Spain","Spanish"]},
+ "fields": {
+  "climate": "Mediterranean in the north, becoming more extreme in the interior; in the south, hot, dry desert; rain is rare; cold offshore air currents produce fog and heavy dew",
+  "terrain": "mountainous northern coast (Rif Mountains) and interior (Atlas Mountains) bordered by large plateaus with intermontane valleys, and fertile coastal plains…",
+  "hazards": "in the north, the mountains are geologically unstable and subject to earthquakes; periodic droughts; windstorms; flash floods; landslides; in the south, a hot, dry, dust/sand-laden sirocco wind can occur during winter and spring…",
+  "heights": {"high":4165,"low":-59,"mean":909},
+  "coast": 2945,
+  "borders": {"total":3523.5,"lengths":[1941,1564,8]},
+  "area": 716550,
+  "river": {"km":1100,"shared":0},
+  "resources": "phosphates, iron ore, manganese, lead, zinc, fish, salt",
+  "farm": "wheat, milk, potatoes, sugar beets, tomatoes, barley, olives, apples, tangerines/mandarins, onions",
+  "exports": "fertilizers, cars, garments, insulated wire, tomatoes",
+  "industries": "automotive parts, phosphate mining and processing, aerospace, food processing, leather goods, textiles, construction, energy, tourism",
+  "city": {"millions":3.893,"capital":false},
+  "languages": "Arabic (official), Tamazight languages (Tamazight (official), Tachelhit, Tarifit), French (often the language of business, government, and diplomacy)",
+  "religions": "Muslim 99% (official; virtually all Sunni, <0.1% Shia), other 1% (includes Christian, Jewish, and Baha'i); note - Jewish about 3,000-3,500",
+  "age": {"median":30.9,"life":74.2},
+  "system": {"text":"parliamentary constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":395,"how":"all directly elected","term":"5 years"},{"seats":120,"how":"all indirectly elected","term":"6 years"}]},
+  "independence": {"date":"2 March 1956","event":"","from":"France"},
+  "regions": "12 regions",
+  "legal": "mixed system of civil law based on French civil law and Islamic (sharia) law; Constitutional Court reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Throne Day (accession of King MOHAMMED VI to the throne)","date":"30 July"},
+  "military": "19-25 years of age for 12-month compulsory and voluntary military service for men and women",
+  "memberships": ["Arab League","Islamic Cooperation","African Union","Francophonie"],
+  "colours": "red, green"
+ }
+}

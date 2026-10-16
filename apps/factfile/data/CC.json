@@ -1,0 +1,25 @@
+{
+ "code": "CC",
+ "names": {"country":["Territory of Cocos  Islands","Cocos  Islands"],"people":["Cocos Islanders","Cocos Islander"],"places":["Australia Day (commemorates the arrival of the First Fleet of Australian settlers)","South Point on South Island","Indian Ocean","West Island"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical with high humidity, moderated by the southeast trade winds for about nine months of the year",
+  "terrain": "flat, low-lying coral atolls",
+  "hazards": "cyclone season is October to April",
+  "heights": {"high":9,"low":0,"mean":null},
+  "coast": 26,
+  "borders": {"total":0,"lengths":[]},
+  "area": 14,
+  "resources": "fish",
+  "farm": "vegetables, bananas, pawpaws, coconuts",
+  "exports": "ships",
+  "industries": "copra products, tourism",
+  "languages": "Malay (Cocos dialect) 68.8%, English 22.3%, unspecified 8.9%; note - data represent language spoken at home",
+  "religions": "Muslim (predominantly Sunni) 75%, Anglican 3.5%, Roman Catholic 2.2%, none 12.9%, unspecified 6.3%",
+  "age": {"median":40,"life":null},
+  "system": {"text":"non-self-governing overseas territory of Australia","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":7,"how":"directly elected","term":"4 years"}]},
+  "legal": "common law based on the Australian model",
+  "suffrage": "18 years of age",
+  "holiday": {"name":"Australia Day (commemorates the arrival of the First Fleet of Australian settlers)","date":"26 January"}
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code": "SN",
+ "names": {"country":["République du Sénégal","Republic of Senegal","Senegal","Sénégal"],"people":["Senegalese"],"places":["unnamed elevation 2.8 km southeast of Nepen Diaka","Independence Day","Atlantic Ocean","Saint-Louis","Tambacounda","Ziguinchor","Kéedougou","Diourbel","Kaffrine","Kaolack","Sedhiou","Senegal","Fatick","Gambia","Gambie","Dakar","Kolda","Louga","Matam","Thies"],"neighbours":["Guinea-Bissau","Bissau-Guinean","Mauritania","Mauritanian","The Gambia","Gambian","Guinea","Guinean","Mali","Malian"]},
+ "fields": {
+  "climate": "tropical; hot, humid; rainy season (May to November) has strong southeast winds; dry season (December to April) dominated by hot, dry, harmattan wind",
+  "terrain": "generally low, rolling, plains rising to foothills in southeast",
+  "hazards": "lowlands seasonally flooded; periodic droughts",
+  "heights": {"high":648,"low":0,"mean":69},
+  "coast": 531,
+  "borders": {"total":2684,"lengths":[749,742,489,363,341]},
+  "area": 196722,
+  "river": {"km":1641,"shared":3},
+  "resources": "fish, phosphates, iron ore",
+  "farm": "rice, groundnuts, watermelons, millet, cassava, sugarcane, maize, sorghum, onions, milk",
+  "exports": "gold, refined petroleum, phosphoric acid, fish, cement",
+  "industries": "agricultural and fish processing, phosphate mining, fertilizer production, petroleum refining, zircon, and gold mining, construction materials, ship construction and repair",
+  "city": {"millions":3.34,"capital":true},
+  "languages": "French (official), Wolof, Pulaar, Jola, Mandinka, Serer, Soninke",
+  "religions": "Muslim 97.2% (most adhere to one of the four main Sufi brotherhoods), Christian 2.7% (mostly Roman Catholic)",
+  "age": {"median":19.4,"life":70.6},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":165,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"4 April 1960","event":"","from":"France"},
+  "regions": "14 regions",
+  "legal": "civil law system based on French law; Constitutional Council reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"4 April"},
+  "military": "18-28 (up to 35 for specialized roles); 24-month service commitment",
+  "memberships": ["Islamic Cooperation","African Union","ECOWAS","WAEMU","Francophonie"],
+  "colours": "green, yellow, red"
+ }
+}

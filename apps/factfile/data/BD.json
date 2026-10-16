@@ -1,0 +1,31 @@
+{
+ "code": "BD",
+ "names": {"country":["People's Republic of Bangladesh","Gana Prajatantri Bangladesh","Bangladesh"],"people":["Bangladeshis","Bangladeshi"],"places":["Brahmaputra river mouth","Ganges river mouth","Independence Day","Bay of Bengal","Mowdok Taung","Chattogram","Chittagong","Mymensingh","Barishal","Rajshahi","Rangpur","Khulna","Sylhet","Bogra","Dhaka"],"neighbours":["Burma","Burmese","India","Indian"]},
+ "fields": {
+  "climate": "tropical; mild winter (October to March); hot, humid summer (March to June); humid, warm rainy monsoon (June to October)",
+  "terrain": "mostly flat alluvial plain; hilly in southeast",
+  "hazards": "droughts; cyclones; much of the country routinely inundated during the summer monsoon season",
+  "heights": {"high":1060,"low":0,"mean":85},
+  "coast": 580,
+  "borders": {"total":4413,"lengths":[4142,271]},
+  "area": 148460,
+  "river": {"km":3969,"shared":2},
+  "resources": "natural gas, arable land, timber, coal",
+  "farm": "rice, milk, potatoes, maize, sugarcane, onions, jute, vegetables, mangoes/guavas, tropical fruits",
+  "exports": "garments, footwear, fabric, textiles, trunks and cases",
+  "industries": "cotton, textiles and clothing, jute, tea, paper, cement, fertilizer, sugar, light engineering",
+  "city": {"millions":23.21,"capital":true},
+  "languages": "Bangla 98.8% (official, also known as Bengali), other 1.2%",
+  "religions": "Muslim 91%, Hindu 8%, other 1%",
+  "age": {"median":27.8,"life":75.2},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "independence": {"date":"16 December 1971","event":"","from":"Pakistan"},
+  "regions": "8 divisions",
+  "legal": "common law, incorporating elements of English common law; since independence, statutory law has been the primary form of legislation…",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"26 March"},
+  "military": "varies by service, but generally 17-23 for voluntary military service; length of service also varies",
+  "memberships": ["Islamic Cooperation","SAARC","Commonwealth"],
+  "colours": "green, red"
+ }
+}

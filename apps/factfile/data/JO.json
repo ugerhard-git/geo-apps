@@ -1,0 +1,32 @@
+{
+ "code": "JO",
+ "names": {"country":["Al Mamlakah al Urduniyah al Hashimiyah","Hashemite Kingdom of Jordan","Al Urdun","Jordan"],"people":["Jordanians","Jordanian"],"places":["Jabal Umm ad Dami","Independence Day","Al 'Aqabah","Al ‘Asimah","At Tafilah","Al Balqa'","Al Mafraq","Az Zarqa'","Al Karak","Dead Sea","Jarash","Madaba","Amman","Irbid","Ma'an"],"neighbours":["Saudi Arabia","Saudi or Saudi Arabian","West Bank","Israel","Israeli","Syria","Syrian","Iraq","Iraqi"]},
+ "fields": {
+  "climate": "mostly arid desert; rainy season in west (November to April)",
+  "terrain": "mostly arid desert plateau; a great north-south geological rift along the west of the country is the dominant topographical feature and includes the Jordan River Valley, the Dead Sea, and the Jordanian Highlands",
+  "hazards": "droughts; periodic earthquakes; flash floods",
+  "heights": {"high":1854,"low":-431,"mean":812},
+  "coast": 26,
+  "borders": {"total":1744,"lengths":[731,379,307,179,148]},
+  "area": 89342,
+  "lake": {"sqkm":1020,"kind":"salt water"},
+  "resources": "phosphates, potash, shale oil",
+  "farm": "tomatoes, milk, chicken, potatoes, olives, cucumbers/gherkins, onions, chillies/peppers, peaches/nectarines, sheep milk",
+  "exports": "fertilizers, garments, phosphates, jewelry, phosphoric acid",
+  "industries": "tourism, information technology, clothing, fertilizer, potash, phosphate mining, pharmaceuticals, petroleum refining, cement, inorganic chemicals, light manufacturing",
+  "city": {"millions":2.232,"capital":true},
+  "languages": "Arabic (official), English (widely understood among upper and middle classes)",
+  "religions": "Muslim 97.1% (official; predominantly Sunni), Christian 2.1% (majority Greek Orthodox, but some Greek and Roman Catholics, Syrian Orthodox, Coptic Orthodox, Armenian Orthodox, and Protestant…",
+  "age": {"median":25.4,"life":76.5},
+  "system": {"text":"parliamentary constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":138,"how":"all directly elected","term":"4 years"},{"seats":69,"how":"all appointed","term":"4 years"}]},
+  "independence": {"date":"25 May 1946","event":"","from":"League of Nations mandate under British administration"},
+  "regions": "12 governorates",
+  "legal": "mixed system developed from Ottoman Empire codes (based on French law), British common law, and Islamic law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"25 May"},
+  "military": "17 years of age for voluntary military service for men and women; initial service term is 24 months; selective compulsory military service (3 months) for men turning 18 will be reinstated in 2026…",
+  "memberships": ["Arab League","Islamic Cooperation"],
+  "colours": "black, white, green, red"
+ }
+}

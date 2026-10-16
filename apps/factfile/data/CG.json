@@ -1,0 +1,32 @@
+{
+ "code": "CG",
+ "names": {"country":["Republic of the Congo","République du Congo","Congo"],"people":["Congolese","Congo"],"places":["Independence Day","Atlantic Ocean","Congo-Oubangui","Cuvette-Ouest","Djoue-Lefini","Pointe-Noire","Brazzaville","Mont Nabeba","Nkeni-Alima","Lekoumou","Likouala","Oubangui","Plateaux","Bouenza","Cuvette","Kouilou","Sangha","Ubangi","Niari","Pool"],"neighbours":["Democratic Republic of the Congo","Central African Republic","Cameroon","Cameroonian","Angola","Angolan","Gabon","Gabonese"]},
+ "fields": {
+  "climate": "tropical; rainy season (March to June); dry season (June to October); persistent high temperatures and humidity; particularly enervating climate astride the Equator",
+  "terrain": "coastal plain, southern basin, central plateau, northern basin",
+  "hazards": "seasonal flooding",
+  "heights": {"high":1020,"low":0,"mean":430},
+  "coast": 169,
+  "borders": {"total":5554,"lengths":[2567,1775,494,487,231]},
+  "area": 342000,
+  "river": {"km":2270,"shared":2},
+  "resources": "petroleum, timber, potash, lead, zinc, uranium, copper, phosphates, gold, magnesium, natural gas, hydropower",
+  "farm": "cassava, sugarcane, oil palm fruit, bananas, plantains, root vegetables, game meat, vegetables, mangoes/guavas, fruits",
+  "exports": "crude petroleum, refined copper, gold, wood, refined petroleum",
+  "industries": "petroleum extraction, cement, lumber, brewing, sugar, palm oil, soap, flour, cigarettes",
+  "city": {"millions":2.638,"capital":true},
+  "languages": "French (official), French Lingala and Monokutuba (trade languages), many local languages and dialects (of which Kikongo is the most widespread)",
+  "religions": "Roman Catholic 33.1%, Awakening Churches/Christian Revival 22.3%, Protestant 19.9%, Salutiste 2.2%, Muslim 1.6%, Kimbanguist 1.5%, other 8.1%, none 11.3%",
+  "age": {"median":20.9,"life":72.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":151,"how":"all directly elected","term":"5 years"},{"seats":72,"how":"all indirectly elected","term":"6 years"}]},
+  "independence": {"date":"15 August 1960","event":"","from":"France"},
+  "regions": "15 departments",
+  "legal": "mixed system of French civil law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"15 August"},
+  "military": "18-25 years of age for voluntary military service for men and women",
+  "memberships": ["African Union","CEMAC","Francophonie"],
+  "colours": "green, yellow, red"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "JM",
+ "names": {"country":["Jamaica"],"people":["Jamaicans","Jamaican"],"places":["Blue Mountain Peak","Independence Day","Saint Catherine","Saint Elizabeth","Caribbean Sea","Saint Andrew","Saint Thomas","Westmoreland","Saint James","Manchester","Saint Mary","Clarendon","Saint Ann","Kingston","Portland","Trelawny","Hanover"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; hot, humid; temperate interior",
+  "terrain": "mostly mountains, with narrow, discontinuous coastal plain",
+  "hazards": "hurricanes (especially July to November)",
+  "heights": {"high":2256,"low":0,"mean":18},
+  "coast": 1022,
+  "borders": {"total":0,"lengths":[]},
+  "area": 10991,
+  "resources": "bauxite, alumina, gypsum, limestone",
+  "farm": "sugarcane, goat milk, yams, chicken, oranges, coconuts, bananas, plantains, pumpkins/squash, pineapples",
+  "exports": "aluminum oxide, refined petroleum, natural gas, liquor, processed fruits and nuts",
+  "industries": "agriculture, mining, manufacture, construction, financial and insurance services, tourism, telecommunications",
+  "city": {"millions":0.597,"capital":true},
+  "languages": "English, Jamaican patois",
+  "religions": "Protestant 64.8% (includes Seventh Day Adventist 12.0%, Pentecostal 11.0%, Other Church of God 9.2%, New Testament Church of God 7.2%, Baptist 6.7%, Church of God in Jamaica 4.8%, Church of God of…",
+  "age": {"median":28.8,"life":76.3},
+  "system": {"text":"parliamentary democracy (Parliament) under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":63,"how":"all directly elected","term":"5 years"},{"seats":21,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"6 August 1962","event":"","from":"UK"},
+  "regions": "14 parishes",
+  "legal": "common law system based on the English model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"6 August"},
+  "military": "18-23 for voluntary military service (17 with parental consent) for men and women; 18-28 for the reserves; no conscription…",
+  "memberships": ["CARICOM","Commonwealth"],
+  "colours": "green, yellow, black"
+ }
+}

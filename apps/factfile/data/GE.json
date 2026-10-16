@@ -1,0 +1,30 @@
+{
+ "code": "GE",
+ "names": {"country":["Republic of Georgia","Sak'art'velo","Georgia"],"people":["Georgians","Georgian"],"places":["Abkhazia or Ap'khazet'is Avtonomiuri Respublika","Ajaria or Acharis Avtonomiuri Respublika","Racha-Lechkhumi and Kvemo Svaneti","Samegrelo and Zemo Svaneti","Samtskhe-Javakheti","Mtskheta Mtianeti","Independence Day","Kvemo Kartli","Mt'a Shkhara","Shida Kartli","Black Sea","Imereti","Kakheti","Tbilisi","Guria"],"neighbours":["Azerbaijan","Azerbaijani","Armenia","Armenian","Russia","Russian","Turkey","Turkish"]},
+ "fields": {
+  "climate": "warm and pleasant; Mediterranean-like on Black Sea coast",
+  "terrain": "largely mountainous with Great Caucasus Mountains in the north and Lesser Caucasus Mountains in the south; Kolkhet'is Dablobi (Kolkhida Lowland) opens to the Black Sea in the west; Mtkvari River Basin in the east…",
+  "hazards": "earthquakes",
+  "heights": {"high":5193,"low":0,"mean":1432},
+  "coast": 310,
+  "borders": {"total":1814,"lengths":[894,428,273,219]},
+  "area": 69700,
+  "resources": "timber, hydropower, manganese deposits, iron ore, copper, minor coal and oil deposits; coastal climate and soils allow for important tea and citrus growth",
+  "farm": "milk, grapes, potatoes, maize, wheat, tangerines/mandarins, tomatoes, barley, apples, eggs",
+  "exports": "cars, copper ore, electricity, garments, wine",
+  "industries": "steel, machine tools, electrical appliances, mining (manganese, copper, gold), chemicals, wood products, wine",
+  "city": {"millions":1.082,"capital":true},
+  "languages": "Georgian (official) 87.6%, Azeri 6.2%, Armenian 3.9%, Russian 1.2%, other 1% (including Abkhaz, the official language in Abkhazia)",
+  "religions": "Eastern Orthodox Christian (official) 83.4%, Muslim 10.7%, Armenian Apostolic Christian 2.9%, other 1.2% (includes Roman Catholic Christian, Jehovah's Witness, Yazidi, Protestant Christian, Jewish)…",
+  "age": {"median":38.6,"life":72.8},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":150,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"9 April 1991","event":"","from":"Soviet Union"},
+  "regions": "9 regions, 1 city, and 2 autonomous republics",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"26 May"},
+  "military": "18-35 years of age for voluntary military service for men and women; conscription was abolished in 2016, but reinstated in 2017 for men 18-27 years of age…",
+  "colours": "red, white"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "code": "XK",
+ "names": {"country":["Republika e Kosoves","Republic of Kosovo","Republika Kosovo","Kosove","Kosovo"],"people":["Kosovan"],"places":["Drini i Bardhe/Beli Drim (located on the border with Albania)","Mitrovice e Veriut   [North Mitrovica]","Mitrovice e Jugut   [South Mitrovica]","Gjeravica/Deravica","Independence Day","Hani i Elezit","Fushe Kosove","Zubin Potok","Gracanice","Leposaviq","Malisheve","Novoberde","Prishtine","Skenderaj","Gllogovc","Kamenice","Podujeve","Pristina","Ranillug","Shterpce","Suhareke","Vushtrri","Dragash","Ferizaj","Gjakove","Kacanik","Kllokot","Mamushe","Partesh","Prizren","Rahovec","Gjilan","Lipjan","Obiliq","Shtime","Zvecan","Decan","Istog","Junik","Kline","Peje","Viti"],"neighbours":["North Macedonia","Macedonian","Montenegro","Montenegrin","Albania","Albanian","Serbia","Serbian"]},
+ "fields": {
+  "climate": "influenced by continental air masses resulting in relatively cold winters with heavy snowfall and hot, dry summers and autumns; Mediterranean and alpine influences create regional variation…",
+  "terrain": "flat fluvial basin at an elevation of 400-700 m above sea level surrounded by several high mountain ranges with elevations of 2,000 to 2,500 m",
+  "heights": {"high":2656,"low":297,"mean":450},
+  "coast": 0,
+  "borders": {"total":714,"lengths":[366,160,112,76]},
+  "area": 10887,
+  "resources": "nickel, lead, zinc, magnesium, lignite, kaolin, chrome, bauxite",
+  "farm": "wheat, corn, berries, potatoes, peppers, fruit; dairy, livestock; fish",
+  "exports": "mattress materials, iron alloys, metal piping, scrap iron, building plastics",
+  "industries": "mineral mining, construction materials, base metals, leather, machinery, appliances, foodstuffs and beverages, textiles",
+  "city": {"millions":0.218782,"capital":true},
+  "languages": "Albanian (official) 94.5%, Bosnian 1.7%, Serbian (official) 1.6%, Turkish 1.1%, other 0.9% (includes Romani), unspecified 0.1%",
+  "religions": "Muslim 95.6%, Roman Catholic 2.2%, Orthodox 1.5%, other 0.1%, none 0.1%, unspecified 0.6%",
+  "age": {"median":32.3,"life":73.1},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":120,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"17 February 2008","event":"","from":"Serbia"},
+  "regions": "38 municipalities",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"17 February"},
+  "military": "any citizen of Kosovo over the age of 18 is eligible to serve in the Kosovo Security Force…",
+  "colours": "blue, gold, white"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "SA",
+ "names": {"country":["Al Mamlakah al Arabiyah as Suudiyah","Al Arabiyah as Suudiyah","Kingdom of Saudi Arabia","Saudi Arabia"],"people":["Saudi Arabian","Saudis","Saudi"],"places":["Saudi National Day (Unification of the Kingdom)","Al Madinah al Munawwarah","Al Hudud ash Shamaliyah","Makkah al Mukarramah","As Sarawat range","Hufuf-Mubarraz","Ash Sharqiyah","Persian Gulf","Ad Dammam","Al Bahah","Al Qasim","Ar Riyad","Al Jawf","Jeddah","Medina","Najran","Riyadh","Ha'il","Jazan","Mecca","Tabuk"],"neighbours":["Jordan","Jordanian","Kuwait","Kuwaiti","Qatar","Qatari","Yemen","Yemeni","Iraq","Iraqi","Oman","Omani","UAE"]},
+ "fields": {
+  "climate": "harsh, dry desert with great temperature extremes",
+  "terrain": "mostly sandy desert",
+  "hazards": "frequent sand and dust storms; volcanism: little activity in the past few centuries, despite many volcanic formations; volcanoes include Harrat Rahat, Harrat Khaybar, Harrat Lunayyir, and Jabal Yar",
+  "heights": {"high":3000,"low":0,"mean":665},
+  "coast": 2640,
+  "borders": {"total":4272,"lengths":[1307,811,731,658,457,221,87]},
+  "area": 2149690,
+  "resources": "petroleum, natural gas, iron ore, gold, copper",
+  "farm": "milk, dates, chicken, wheat, tomatoes, watermelons, potatoes, olives, eggs, onions",
+  "exports": "crude petroleum, refined petroleum, plastics, alcohols, ships",
+  "industries": "crude oil production, petroleum refining, basic petrochemicals, ammonia, industrial gases, sodium hydroxide (caustic soda), cement, fertilizer, plastics, metals, commercial ship repair, commercial…",
+  "city": {"millions":872000,"capital":false},
+  "languages": "Arabic (official)",
+  "religions": "Muslim (official; citizens are 85-90% Sunni and 10-12% Shia), other (includes Eastern Orthodox, Protestant, Roman Catholic, Jewish, Hindu, Buddhist, and Sikh)",
+  "age": {"median":32.8,"life":77.2},
+  "system": {"text":"absolute monarchy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":151,"how":"all appointed","term":"4 years"}]},
+  "independence": {"date":"23 September 1932","event":"unification of the kingdom","from":""},
+  "regions": "13 regions",
+  "legal": "Islamic (sharia) system with some elements of Egyptian, French, and customary law; commercial disputes handled by special committees",
+  "suffrage": "18 years of age; universal for municipal elections",
+  "holiday": {"name":"Saudi National Day (Unification of the Kingdom)","date":"23 September"},
+  "military": "voluntary military service for men (17-40) and women (typically 21-40, although maximum age may vary by role); no conscription",
+  "memberships": ["G20","BRICS","OPEC","OAPEC","Gulf Cooperation Council","Arab League","Islamic Cooperation"],
+  "colours": "green, white"
+ }
+}

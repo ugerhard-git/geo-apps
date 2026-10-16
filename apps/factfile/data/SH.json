@@ -1,0 +1,26 @@
+{
+ "code": "SH",
+ "names": {"country":["Saint Helena, Ascension, and Tristan da Cunha"],"people":["Saint Helenians","Saint Helenian"],"places":["Official birthday of King Charles III","Queen Mary's Peak on Tristan da Cunha","Tristan da Cunha","Atlantic Ocean","Saint Helena","Ascension","Jamestown"],"neighbours":[]},
+ "fields": {
+  "climate": "Saint Helena: tropical marine; mild, tempered by trade winds\nAscension Island: tropical marine; mild, semi-arid\nTristan da Cunha: temperate marine; mild, tempered by trade winds (tends to be cooler than Saint Helena)",
+  "terrain": "the islands of this group are of volcanic origin associated with the Atlantic Mid-Ocean Ridge\nSaint Helena: rugged, volcanic…",
+  "hazards": "active volcanism; volcanism: the volcanoes of Tristan da Cunha (2,060 m) and Nightingale Island (365 m) are active",
+  "heights": {"high":2060,"low":0,"mean":null},
+  "coast": 60,
+  "borders": {"total":0,"lengths":[]},
+  "area": 394,
+  "resources": "fish, lobster",
+  "farm": "coffee, corn, potatoes, vegetables; fish, lobster; livestock; timber",
+  "exports": "fish, shellfish, natural gas, trucks, construction vehicles",
+  "industries": "construction, crafts (furniture, lacework, fancy woodwork), fishing, collectible postage stamps",
+  "city": {"millions":0.001,"capital":true},
+  "languages": "English",
+  "religions": "Anglican 63.2%, unspecified 11.4%, no religion 9%, Jehovah's Witness 3.8%, Baptist 2.3%, Salvation Army 2%, Roman Catholic 2.2%, Seventh Day Adventist 1.9%, New Apostolic 1.6%, other Christian 1.4%…",
+  "age": {"median":45.5,"life":80.9},
+  "system": {"text":"parliamentary democracy","unsettled":false},
+  "regions": "3 administrative areas",
+  "legal": "English common law and local statutes",
+  "suffrage": "18 years of age",
+  "holiday": {"name":"Official birthday of King Charles III","date":"celebrated in April or June as designated by the governor"}
+ }
+}

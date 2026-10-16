@@ -1,0 +1,32 @@
+{
+ "code": "CZ",
+ "names": {"country":["Ceska republika","Czech Republic","Czechia","Cesko"],"people":["Czechs","Czech"],"places":["Czechoslovak Founding Day","Labe (Elbe) River","Kralovehradecky","Moravskoslezsky","Jihomoravsky","river source","Karlovarsky","Stredocesky","Pardubicky","Jihocesky","Liberecky","Olomoucky","Plzensky","Vysocina","Ustecky","Zlinsky","Prague","Snezka","Praha","Elbe","Labe"],"neighbours":["Slovakia","Slovak","Austria","Austrian","Germany","German","Poland","Polish"]},
+ "fields": {
+  "climate": "temperate; cool summers; cold, cloudy, humid winters",
+  "terrain": "Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains; Moravia in the east consists of very hilly country",
+  "hazards": "flooding",
+  "heights": {"high":1602,"low":115,"mean":433},
+  "coast": 0,
+  "borders": {"total":2046,"lengths":[704,699,402,241]},
+  "area": 78867,
+  "river": {"km":1252,"shared":1},
+  "resources": "hard coal, soft coal, kaolin, clay, graphite, timber, arable land",
+  "farm": "wheat, sugar beets, milk, barley, rapeseed, potatoes, maize, triticale, pork, chicken",
+  "exports": "cars, vehicle parts/accessories, broadcasting equipment, computers, plastic products",
+  "industries": "motor vehicles, metallurgy, machinery and equipment, glass, armaments",
+  "city": {"millions":1.323,"capital":true},
+  "languages": "Czech (official) 88.4%, Slovak 1.5%, other 2.6%, unspecified 7.2%",
+  "religions": "Roman Catholic 7%, other believers belonging to a church or religious society 6% (includes Evangelical United Brethren Church and Czechoslovak Hussite Church), believers unaffiliated with a religious…",
+  "age": {"median":44.4,"life":78.6},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":200,"how":"all directly elected","term":"4 years"},{"seats":81,"how":"all directly elected","term":"6 years"}]},
+  "independence": {"date":"1 January 1993","event":"Czechoslovakia split into the Czech Republic and Slovakia","from":""},
+  "regions": "13 regions and 1 capital city",
+  "legal": "new civil code enacted in 2014, replacing civil code of 1964 based on former Austro-Hungarian civil codes and socialist theory",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Czechoslovak Founding Day","date":"28 October"},
+  "military": "18-28 years of age for voluntary military service for men and women; conscription abolished 2004",
+  "memberships": ["EU","Schengen","NATO","OECD"],
+  "colours": "white, red, blue"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "code": "TW",
+ "names": {"country":["Taiwan"],"people":["Taiwan"],"places":["Taiwan is divided into 13 counties","Republic Day (National Day)","New Taipei City","South China Sea","Lienchiang","New Taipei","Kaohsiung","Changhua","Pingtung","Taichung","Hsinchu","Hualien","Keelung","Taitung","Taoyuan","Yu Shan","Chiayi","Kinmen","Miaoli","Nantou","Penghu","Tainan","Taipei","Yunlin","Yilan"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; marine; rainy season during southwest monsoon (June to August); persistent and extensive cloudiness all year",
+  "terrain": "eastern two-thirds mostly rugged mountains; flat to gently rolling plains in west",
+  "hazards": "earthquakes; typhoons; volcanism: Kueishantao Island (401 m), east of Taiwan, is the only historically active volcano, but it has not erupted in centuries",
+  "heights": {"high":3952,"low":0,"mean":1150},
+  "coast": 1566.3,
+  "borders": {"total":0,"lengths":[]},
+  "area": 35980,
+  "resources": "small deposits of coal, natural gas, limestone, marble, asbestos, arable land",
+  "farm": "rice, vegetables, pork, chicken, cabbages, milk, sugarcane, tropical fruits, pineapples, eggs",
+  "exports": "integrated circuits, machine parts, broadcasting equipment, computers, plastics",
+  "industries": "electronics, communications and information technology products, petroleum refining, chemicals, textiles, iron and steel, machinery, cement, food processing, vehicles, consumer products…",
+  "city": {"millions":4.504,"capital":false},
+  "languages": "Mandarin (official), Min Nan, Hakka dialects, approximately 16 indigenous languages",
+  "religions": "Buddhist 35.3%, Taoist 33.2%, Christian 3.9%, folk religion (includes Confucian) approximately 10%, none or unspecified 18.2%",
+  "age": {"median":45.1,"life":81.6},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":113,"how":"directly elected","term":"4 years"}]},
+  "legal": "civil law system",
+  "suffrage": "20 years of age; universal",
+  "holiday": {"name":"Republic Day (National Day)","date":"10 October"},
+  "military": "men 18-36 years of age may volunteer or must complete 12 months of compulsory military service; civil service can be substituted for military service in some cases; women can volunteer",
+  "colours": "blue, white, red"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "code": "FK",
+ "names": {"country":["Falkland Islands"],"people":["Falkland Islanders","Falkland Islander","Falkland Island"],"places":["Atlantic Ocean","Liberation Day","Mount Usborne","Stanley"],"neighbours":[]},
+ "fields": {
+  "climate": "cold marine; strong westerly winds, cloudy, humid; rain occurs on more than half of days in year; average annual rainfall is 60 cm in Stanley…",
+  "terrain": "rocky, hilly, mountainous with some boggy, undulating plains",
+  "hazards": "strong winds persist throughout the year",
+  "heights": {"high":705,"low":0,"mean":null},
+  "coast": 1288,
+  "borders": {"total":0,"lengths":[]},
+  "area": 12173,
+  "resources": "fish, squid, wildlife, calcified seaweed, sphagnum moss",
+  "farm": "fodder and vegetable crops; venison, sheep, dairy products; fish, squid",
+  "exports": "shellfish, fish, wool, sheep and goat meat",
+  "industries": "fish and wool processing; tourism",
+  "city": {"millions":0.002,"capital":true},
+  "languages": "English 89%, Spanish 7.7%, other 3.3%",
+  "religions": "Christian 57.1%, other 1.6%, none 35.4%, unspecified 6%",
+  "age": {"median":null,"life":77.9},
+  "system": {"text":"parliamentary democracy (Legislative Assembly); self-governing overseas territory of the UK","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":10,"how":"8 directly elected, 2 appointed","term":"4 years"}]},
+  "legal": "English common law and local statutes",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Liberation Day","date":"14 June"},
+  "colours": "red, white, blue"
+ }
+}

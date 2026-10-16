@@ -1,0 +1,33 @@
+{
+ "code": "CA",
+ "names": {"country":["Canada"],"people":["Canadians","Canadian"],"places":["Atlantic/Pacific/Arctic Oceans","Saint Lawrence river mouth","Newfoundland and Labrador","Columbia river source","Northwest Territories","Prince Edward Island","North Saskatchewan","Yukon river source","British Columbia","Great Slave Lake","Great Bear Lake","Nettilling Lake","Lake Athabasca","Lake Winnipeg","New Brunswick","Reindeer Lake","Saskatchewan","Mount Logan","Nova Scotia","Canada Day","Athabasca","Churchill","Mackenzie","Superior*","Vancouver","Edmonton","Manitoba","Montreal","Ontario*","Alberta","Calgary","Nunavut","Ontario","Toronto","Fraser","Huron*","Nelson","Ottawa","Québec","Erie*","Liard","Yukon"],"neighbours":["Denmark","Danish","US"]},
+ "fields": {
+  "climate": "varies from temperate in south to subarctic and arctic in north",
+  "terrain": "mostly plains with mountains in west, lowlands in southeast",
+  "hazards": "continuous permafrost in north is a serious obstacle to development; cyclonic storms form east of the Rocky Mountains, a result of the mixing of air masses from the Arctic, Pacific, and North American interior, and produce most of the country's rain and snow…",
+  "heights": {"high":5959,"low":0,"mean":487},
+  "coast": 202080,
+  "borders": {"total":8892,"lengths":[8891,1.3]},
+  "area": 9984670,
+  "lake": {"sqkm":35972,"kind":"fresh water"},
+  "river": {"km":4241,"shared":0},
+  "resources": "bauxite, iron ore, nickel, zinc, copper, gold, lead, uranium, rare earth elements, molybdenum, potash, diamonds, silver, fish, timber, wildlife, coal, petroleum, natural gas, hydropower",
+  "farm": "wheat, rapeseed, maize, milk, barley, soybeans, potatoes, peas, oats, pork",
+  "exports": "crude petroleum, cars, gold, natural gas, refined petroleum",
+  "industries": "transportation equipment, chemicals, processed and unprocessed minerals, food products, wood and paper products, fish products, petroleum, natural gas",
+  "city": {"millions":6.372,"capital":false},
+  "languages": "English (official) 87.1%, French (official) 29.1%, Chinese languages 4.2%, Spanish 3.2%, Punjabi 2.6%, Arabic 2.4%, Tagalog 2.3%, Italian 1.5%",
+  "religions": "Christian 53.3%, Muslim 4.9%, Hindu 2.3%, Sikh 2.1%, Buddhist 1%, Jewish 0.9%, Traditional (North American Indigenous) 0.2%, other religions and traditional spirituality 0.6%, none 34.6%",
+  "age": {"median":42.8,"life":84.2},
+  "system": {"text":"federal parliamentary democracy (Parliament of Canada) under a constitutional monarchy; a Commonwealth realm…","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":343,"how":"all directly elected","term":"4 years"},{"seats":105,"how":"all appointed","term":""}]},
+  "independence": {"date":"1 July 1867","event":"union of British North American colonies","from":""},
+  "regions": "10 provinces and 3 territories",
+  "legal": "common law system except in Quebec, where civil law based on the French civil code prevails",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Canada Day","date":"1 July"},
+  "military": "17 years of age for men and women for voluntary military service (with parental consent); 16 years of age for Reserve and Military College applicants…",
+  "memberships": ["NATO","OECD","G7","G20","Commonwealth","Francophonie"],
+  "colours": "red, white"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "code": "VU",
+ "names": {"country":["Ripablik blong Vanuatu","Republic of Vanuatu","Vanuatu"],"people":["Ni-Vanuatu"],"places":["Independence Day","Pacific Ocean","Tabwemasana","Port-Vila","Malampa","Penama","Sanma","Shefa","Tafea","Torba"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; moderated by southeast trade winds from May to October; moderate rainfall from November to April; may be affected by cyclones from December to April",
+  "terrain": "mostly mountainous islands of volcanic origin; narrow coastal plains",
+  "hazards": "tropical cyclones (January to April); volcanic activity; volcanism also causes minor earthquakes; tsunamis; volcanism: significant volcanic activity with multiple eruptions in recent years…",
+  "heights": {"high":1877,"low":0,"mean":null},
+  "coast": 2528,
+  "borders": {"total":0,"lengths":[]},
+  "area": 12189,
+  "resources": "manganese, hardwood forests, fish",
+  "farm": "coconuts, oranges, yams, cabbages, taro, bananas, chillies/peppers, chestnuts, sweet potatoes, cassava",
+  "exports": "fish, ships, perfume plants, wood, copra",
+  "industries": "food and fish freezing, wood processing, meat canning",
+  "city": {"millions":0.053,"capital":true},
+  "languages": "indigenous languages (more than 100) 82.6%, Bislama (official; creole) 14.5%, English (official) 2.1%, French (official) 0.8%",
+  "religions": "Protestant 39.9% (Presbyterian 27.2%, Seventh Day Adventist 14.8%, Anglican 12%, Churches of Christ 5%, Assemblies of God 4.9%, Neil Thomas Ministry/Inner Life Ministry 3.2%), Roman Catholic 12.1%…",
+  "age": {"median":24.9,"life":75.7},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":52,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"30 July 1980","event":"","from":"France and the UK"},
+  "regions": "6 provinces",
+  "legal": "mixed system of English common law, French law, and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"30 July"},
+  "memberships": ["Pacific Islands Forum","Commonwealth","Francophonie"],
+  "colours": "red, black, green, yellow"
+ }
+}

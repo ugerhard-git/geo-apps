@@ -1,0 +1,31 @@
+{
+ "code": "HT",
+ "names": {"country":["République d'Haïti","Republic of Haiti","Repiblik d Ayiti","Ayiti","Haiti","Haïti"],"people":["Haitians","Haitian"],"places":["Independence Day","Port-au-Prince","Port-Au-Prince","Caribbean Sea","Pic la Selle","Artibonite","Grand'Anse","Nord-Ouest","Nord-Est","Sud-Est","Centre","Nippes","Ouest","Nord","Sud"],"neighbours":["Dominican Republic"]},
+ "fields": {
+  "climate": "tropical; semiarid where mountains in east cut off trade winds",
+  "terrain": "mostly rough and mountainous",
+  "hazards": "lies in the middle of the hurricane belt and subject to severe storms from June to October; occasional flooding and earthquakes; periodic droughts",
+  "heights": {"high":2674,"low":0,"mean":470},
+  "coast": 1771,
+  "borders": {"total":376,"lengths":[376]},
+  "area": 27750,
+  "resources": "bauxite, copper, calcium carbonate, gold, marble, hydropower, arable land",
+  "farm": "sugarcane, cassava, plantains, bananas, mangoes/guavas, avocados, maize, tropical fruits, rice, vegetables",
+  "exports": "garments, essential oils, scrap iron, industrial acids/oils/alcohols, bedding",
+  "industries": "textiles, sugar refining, flour milling, cement, light assembly using imported parts",
+  "city": {"millions":2.987,"capital":true},
+  "languages": "French (official), Creole (official)",
+  "religions": "Catholic 55%, Protestant 29%, Vodou 2.1%, other 4.6%, none 10%",
+  "age": {"median":25.3,"life":65.6},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":119,"how":"all directly elected","term":"4 years"},{"seats":30,"how":"all directly elected","term":"6 years"}]},
+  "independence": {"date":"1 January 1804","event":"","from":"France"},
+  "regions": "10 departments",
+  "legal": "civil law system strongly influenced by Napoleonic Code",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"1 January"},
+  "military": "men and women 18-25 may volunteer for the FAdH",
+  "memberships": ["CARICOM","Francophonie"],
+  "colours": "blue, red"
+ }
+}

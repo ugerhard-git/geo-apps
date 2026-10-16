@@ -1,0 +1,31 @@
+{
+ "code": "GQ",
+ "names": {"country":["République de Guinée équatoriale","Republica de Guinea Ecuatorial","Republic of Equatorial Guinea","Guinée équatoriale","Equatorial Guinea","Guinea Ecuatorial"],"people":["Equatorial Guineans","Equatorial Guinean","Equatoguineans","Equatoguinean"],"places":["note - Malabo is on the island of Bioko","Independence Day","Atlantic Ocean","Bioko Norte","Pico Basile","Centro Sur","Bioko Sur","Wele-Nzas","Djibloho","Kie-Ntem","Annobon","Litoral","Malabo"],"neighbours":["Cameroon","Cameroonian","Gabon","Gabonese"]},
+ "fields": {
+  "climate": "tropical; always hot, humid",
+  "terrain": "coastal plains rise to interior hills; islands are volcanic",
+  "hazards": "violent windstorms; flash floods; volcanism: Santa Isabel (3,007 m), which last erupted in 1923, is the country's only historically active volcano; Santa Isabel and two dormant volcanoes form Bioko Island in the Gulf of Guinea",
+  "heights": {"high":3008,"low":0,"mean":577},
+  "coast": 296,
+  "borders": {"total":528,"lengths":[345,183]},
+  "area": 28051,
+  "resources": "petroleum, natural gas, timber, gold, bauxite, diamonds, tantalum, sand and gravel, clay",
+  "farm": "sweet potatoes, cassava, plantains, oil palm fruit, root vegetables, bananas, coconuts, coffee, cocoa beans, chicken",
+  "exports": "crude petroleum, natural gas, alcohols, wood, scrap iron",
+  "industries": "petroleum, natural gas, sawmilling",
+  "city": {"millions":0.297,"capital":true},
+  "languages": "Spanish (official) 67.6%, other (includes Fang, Bubi, Portuguese (official), French (official), Fa d'Ambo spoken in Annobon) 32.4%",
+  "religions": "Roman Catholic 88%, Protestant 5%, Muslim 2%, other 5% (animist, Baha'i, Jewish)",
+  "age": {"median":22.3,"life":63.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":100,"how":"all directly elected","term":"5 years"},{"seats":70,"how":"","term":"5 years"}]},
+  "independence": {"date":"12 October 1968","event":"","from":"Spain"},
+  "regions": "8 provinces",
+  "legal": "mixed system of civil and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"12 October"},
+  "military": "18-25 for voluntary military service; selective compulsory military service for men; 24-month service obligation",
+  "memberships": ["African Union","CEMAC","Francophonie","Portuguese-speaking"],
+  "colours": "green, white, red, blue"
+ }
+}

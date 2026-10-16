@@ -1,0 +1,31 @@
+{
+ "code": "LK",
+ "names": {"country":["Shri Lanka Prajatantrika Samajavadi Janarajaya","Ilankai Jananayaka Choshalichak Kutiyarachu","Democratic Socialist Republic of Sri Lanka","Shri Lanka","Sri Lanka","Ilankai"],"people":["Sri Lankans","Sri Lankan"],"places":["Independence Day (National Day)","Sri Jayewardenepura Kotte","Pidurutalagala","North Central","North Western","Indian Ocean","Sabaragamuwa","Northern","Southern","Central","Colombo","Eastern","Western","Uva"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical monsoon; northeast monsoon (December to March); southwest monsoon (June to October)",
+  "terrain": "mostly low, flat to rolling plain; mountains in south-central interior",
+  "hazards": "occasional cyclones and tornadoes",
+  "heights": {"high":2524,"low":0,"mean":228},
+  "coast": 1340,
+  "borders": {"total":0,"lengths":[]},
+  "area": 65610,
+  "resources": "limestone, graphite, mineral sands, gems, phosphates, clay, hydropower, arable land",
+  "farm": "rice, coconuts, tea, sugarcane, plantains, milk, fiber crops, cassava, chicken, pumpkins/squash",
+  "exports": "garments, tea, precious stones, used rubber tires, rubber products",
+  "industries": "processing of rubber, tea, coconuts, tobacco and other agricultural commodities; tourism; clothing and textiles; mining",
+  "city": {"millions":0.633,"capital":true},
+  "languages": "Sinhala (official) 87%, Tamil (official) 28.5%, English 23.8%",
+  "religions": "Buddhist (official) 70.2%, Hindu 12.6%, Muslim 9.7%, Roman Catholic 6.1%, other Christian 1.3%, other 0.05%",
+  "age": {"median":34.2,"life":76.8},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":225,"how":"","term":"5 years"}]},
+  "independence": {"date":"4 February 1948","event":"","from":"UK"},
+  "regions": "9 provinces",
+  "legal": "mixed system of Roman-Dutch civil law, English common law, Jaffna Tamil customary law, and Muslim personal law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (National Day)","date":"4 February"},
+  "military": "generally 18-24 years of age for voluntary military service for men and women, although upper age limits may vary by branch of service, roles, specialties, etc; no conscription",
+  "memberships": ["SAARC","Commonwealth"],
+  "colours": "maroon, yellow"
+ }
+}

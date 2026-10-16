@@ -1,0 +1,32 @@
+{
+ "code": "MZ",
+ "names": {"country":["Republica de Mocambique","Republic of Mozambique","Mocambique","Mozambique"],"people":["Mozambicans","Mozambican"],"places":["river mouth , Angola, Namibia, Botswana, and Zimbabwe","Rio Limpopo river mouth","Cidade de Maputo","Independence Day","Cabo Delgado","Indian Ocean","Monte Binga","Rio Zambeze","Inhambane","Zambezia","Nampula","Zambezi","Manica","Maputo","Matola","Niassa","Sofala","Gaza","Tete"],"neighbours":["South Africa","South African","Eswatini","Swati","Tanzania","Tanzanian","Zimbabwe","Zimbabwean","Malawi","Malawian","Zambia","Zambian"]},
+ "fields": {
+  "climate": "tropical to subtropical",
+  "terrain": "mostly coastal lowlands, uplands in center, high plateaus in northwest, mountains in west",
+  "hazards": "severe droughts; devastating cyclones and floods in central and southern provinces",
+  "heights": {"high":2436,"low":0,"mean":345},
+  "coast": 2470,
+  "borders": {"total":4783,"lengths":[1498,1402,840,496,439,108]},
+  "area": 799380,
+  "river": {"km":2740,"shared":1},
+  "resources": "coal, titanium, natural gas, hydropower, tantalum, graphite",
+  "farm": "cassava, maize, sugarcane, tomatoes, beans, potatoes, sweet potatoes, bananas, coconuts, onions",
+  "exports": "coal, natural gas, aluminum, gold, precious stones",
+  "industries": "aluminum, petroleum products, chemicals (fertilizer, soap, paints), textiles, cement, glass, asbestos, tobacco, food, beverages",
+  "city": {"millions":1.852,"capital":false},
+  "languages": "Makhuwa 26.1%, Portuguese (official) 16.6%, Tsonga 8.6%, Nyanja 8.1, Sena 7.1%, Lomwe 7.1%, Chuwabo 4.7%, Ndau 3.8%, Tswa 3.8%, other Mozambican languages 11.8%, other 0.5%, unspecified 1.8%",
+  "religions": "Catholic 27.3%, Islam 19.1%, Pentecostal 16.7%, Saio/Zione 16.3%, no religion 13.5%, other 4.3%, Anglican 1.7%, unknown 1.2%",
+  "age": {"median":17.4,"life":58.3},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":250,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"25 June 1975","event":"","from":"Portugal"},
+  "regions": "10 provinces, 1 city",
+  "legal": "mixed system of Portuguese civil law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"25 June"},
+  "military": "registration for military service is mandatory for all men and women at 18 years of age; 18-35 years of age for selective compulsory military service…",
+  "memberships": ["Islamic Cooperation","African Union","SADC","Commonwealth","Portuguese-speaking"],
+  "colours": "green, black, yellow, white, red"
+ }
+}

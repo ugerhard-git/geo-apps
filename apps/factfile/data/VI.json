@@ -1,0 +1,25 @@
+{
+ "code": "VI",
+ "names": {"country":["Virgin Islands","VI"],"people":["Virgin Islanders","Virgin Islander"],"places":["Transfer Day (from Denmark to the US)","Charlotte Amalie","Crown Mountain","Caribbean Sea","Saint Thomas","Saint Croix","Saint John"],"neighbours":[]},
+ "fields": {
+  "climate": "subtropical, tempered by easterly trade winds, relatively low humidity, little seasonal temperature variation; rainy season September to November",
+  "terrain": "mostly hilly to rugged and mountainous with little flat land",
+  "hazards": "several hurricanes in recent years; frequent and severe droughts and floods; occasional earthquakes",
+  "heights": {"high":474,"low":0,"mean":null},
+  "coast": 188,
+  "borders": {"total":0,"lengths":[]},
+  "area": 1910,
+  "resources": "pleasant climate, beaches foster tourism",
+  "farm": "fruit, vegetables, sorghum; Senepol cattle",
+  "exports": "refined petroleum, jewelry, recreational boats, watches, rum",
+  "industries": "tourism, watch assembly, rum distilling, construction, pharmaceuticals, electronics",
+  "city": {"millions":0.052,"capital":true},
+  "languages": "English 71.6%, Spanish or Spanish Creole 17.2%, French or French Creole 8.6%, other 2.5%",
+  "religions": "Protestant 65.5%, Roman Catholic 27.1%, other Christians 2.2%, other 1.5%, none 3.7%",
+  "age": {"median":43.4,"life":80.7},
+  "system": {"text":"unincorporated organized territory of the US with local self-government…","unsettled":false},
+  "legal": "US common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Transfer Day (from Denmark to the US)","date":"31 March"}
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code": "PH",
+ "names": {"country":["Republic of the Philippines","Republika ng Pilipinas","Philippines","Pilipinas"],"people":["Philippine","Filipinos","Filipino"],"places":["Cagayan de Oro City","Zamboanga del Norte","Mindoro Occidental","Misamis Occidental","Negros Occidental","Surigao del Norte","Zamboanga del Sur","Zamboanga Sibugay","Agusan del Norte","Davao Occidental","Independence Day","Mindoro Oriental","Misamis Oriental","Camarines Norte","Davao del Norte","Dinagat Islands","Lanao del Norte","Negros Oriental","Puerto Princesa","Surigao del Sur","Agusan del Sur","Cagayan de Oro","Davao Oriental","General Santos","Northern Samar","Philippine Sea","South Cotabato","Southern Leyte","Sultan Kudarat","Camarines Sur","Davao del Sur","Eastern Samar","Laguna de Bay","Lanao del Sur","Nueva Vizcaya","Davao de Oro","Ilocos Norte","Catanduanes","Maguindanao","Mandaluyong","Nueva Ecija","Dasmarinas","Ilocos Sur","Marinduque","Muntinlupa","Pangasinan","Valenzuela","Cebu City","Lapu-Lapu","Las Pinas","Mount Apo","Paranaque","Sarangani","Tawi-Tawi","Zamboanga","Antipolo","Batangas","Bukidnon","Caloocan","Camiguin","Cotabato","Guimaras","La Union","Marikina","Mountain","Olongapo","Pampanga","San Juan","Santiago","Siquijor","Sorsogon","Tacloban","Zambales","Angeles","Antique","Bacolod","Basilan","Batanes","Benguet","Biliran","Bulacan","Cagayan","Dagupan","Isabela","Kalinga","Malabon","Mandaue","Masbate","Navotas","Palawan","Quirino","Romblon","Apayao","Aurora","Baguio","Bataan","Butuan","Cavite","Ifugao","Iligan","Iloilo","Laguna","Lucena","Makati","Manila","Quezon","Taguig","Tarlac","Aklan","Albay","Bohol","Capiz","Davao","Leyte","Ormoc","Pasay","Pasig","Rizal","Samar","Abra","Cebu","Naga","Sulu"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine; northeast monsoon (November to April); southwest monsoon (May to October)",
+  "terrain": "mostly mountains with narrow to extensive coastal lowlands",
+  "hazards": "astride typhoon belt, usually affected by several cyclonic storms each year; landslides; active volcanoes; destructive earthquakes; tsunamis; volcanism: significant volcanic activity…",
+  "heights": {"high":2954,"low":0,"mean":442},
+  "coast": 36289,
+  "borders": {"total":0,"lengths":[]},
+  "area": 300000,
+  "lake": {"sqkm":890,"kind":"salt water"},
+  "resources": "timber, petroleum, nickel, cobalt, silver, gold, salt, copper",
+  "farm": "sugarcane, rice, coconuts, maize, bananas, vegetables, tropical fruits, plantains, pineapples, cassava",
+  "exports": "integrated circuits, machine parts, gold, insulated wire, semiconductors",
+  "industries": "semiconductors and electronics assembly, business process outsourcing, food and beverage manufacturing, construction, electric/gas/water supply, chemical products, radio/television/communications…",
+  "city": {"millions":14.667,"capital":true},
+  "languages": "Tagalog 39.9%, Bisaya/Binisaya 16%, Hiligaynon/Ilonggo 7.3%, Ilocano 7.1%, Cebuano 6.5%, Bikol/Bicol 3.9%, Waray 2.6%, Kapampangan 2.4%, Maguindanao 1.4%, Pangasinan/Panggalato 1.3%, other…",
+  "religions": "Roman Catholic 78.8%, Muslim 6.4%, Iglesia ni Cristo 2.6%, other Christian 3.9%, other 8.2%, none/unspecified <0.1",
+  "age": {"median":27.1,"life":70.8},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":317,"how":"all directly elected","term":"3 years"},{"seats":24,"how":"all directly elected","term":"6 years"}]},
+  "independence": {"date":"4 July 1946","event":"","from":"US"},
+  "regions": "81 provinces and 38 chartered cities",
+  "legal": "mixed system of civil, common, Islamic (sharia), and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"12 June"},
+  "military": "some variations in age based on the branch of service, but generally 18-27 years of age for voluntary military service for men and women; no conscription",
+  "memberships": ["ASEAN"],
+  "colours": "red, white, blue, yellow"
+ }
+}

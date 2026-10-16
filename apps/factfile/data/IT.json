@@ -1,0 +1,31 @@
+{
+ "code": "IT",
+ "names": {"country":["Repubblica Italiana","Italian Republic","Italia","Italy"],"people":["Italians","Italian"],"places":["Mont Blanc (Monte Bianco) de Courmayeur (a secondary peak of Mont Blanc)","Trentino-Alto Adige   or Trentino-Suedtirol","Valle d'Aosta   or Vallée d'Aoste","Friuli Venezia Giulia","Mediterranean Sea","Emilia-Romagna","Republic Day","Basilicata","Lombardia","Calabria","Campania","Piemonte","Sardegna","Abruzzo","Bergamo","Liguria","Palermo","Sicilia","Toscana","Marche","Molise","Naples","Puglia","Umbria","Veneto","Lazio","Milan","Turin","Rome"],"neighbours":["Switzerland","Swiss","San Marino","Sammarinese","Holy See","Slovenia","Slovenian","Austria","Austrian","France","French"]},
+ "fields": {
+  "climate": "predominantly Mediterranean; alpine in far north; hot, dry in south",
+  "terrain": "mostly rugged and mountainous; some plains, coastal lowlands",
+  "hazards": "regional risks include landslides, mudflows, avalanches, earthquakes, volcanic eruptions, flooding; land subsidence in Venice; volcanism: significant volcanic activity…",
+  "heights": {"high":4748,"low":0,"mean":538},
+  "coast": 7600,
+  "borders": {"total":1836.4,"lengths":[698,476,404,218,37,3.4]},
+  "area": 301340,
+  "resources": "coal, antimony, mercury, zinc, potash, marble, barite, asbestos, pumice, fluorspar, feldspar, pyrite (sulfur), natural gas and crude oil reserves, fish, arable land",
+  "farm": "milk, wheat, grapes, tomatoes, maize, olives, apples, oranges, sugar beets, rice",
+  "exports": "packaged medicine, garments, cars, refined petroleum, vehicle parts/accessories",
+  "industries": "tourism, machinery, iron and steel, chemicals, food processing, textiles, motor vehicles, clothing, footwear, ceramics",
+  "city": {"millions":4.316,"capital":true},
+  "languages": "Italian (official), German (parts of Trentino-Alto Adige region are predominantly German-speaking), French (small French-speaking minority in Valle d'Aosta region), Slovene (Slovene-speaking minority…",
+  "religions": "Christian 80.8% (overwhelmingly Roman Catholic with very small groups of Jehovah's Witnesses and Protestants), Muslim 4.9%, unaffiliated 13.4%, other 0.9%",
+  "age": {"median":48.8,"life":83},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":400,"how":"all directly elected","term":"5 years"},{"seats":205,"how":"","term":"5 years"}]},
+  "independence": {"date":"17 March 1861","event":"","from":""},
+  "regions": "15 regions and 5 autonomous regions",
+  "legal": "civil law system; Constitutional Court reviews legislation under certain conditions",
+  "suffrage": "18 years of age; universal except in senatorial elections, where minimum age is 25",
+  "holiday": {"name":"Republic Day","date":"2 June"},
+  "military": "17 or 18 years of age for voluntary military service for men and women; voluntary service is a minimum of 12 months with the option to extend in the Armed Forces or compete for positions in other…",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","G7","G20"],
+  "colours": "red, white, green"
+ }
+}

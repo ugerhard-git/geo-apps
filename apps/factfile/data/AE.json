@@ -1,0 +1,31 @@
+{
+ "code": "AE",
+ "names": {"country":["Al Imarat al Arabiyah al Muttahidah","United Arab Emirates","UAE"],"people":["Emiratis","Emirati"],"places":["Independence Day (National Day)","Ra's al Khaymah","Jabal Bil 'Ays","Umm al Qaywayn","Ash Shariqah","Persian Gulf","Al Fujayrah","Abu Dhabi","Abu Zaby","Sharjah","Dubayy","Dubai"],"neighbours":["Saudi Arabia","Saudi or Saudi Arabian","Oman","Omani"]},
+ "fields": {
+  "climate": "desert; cooler in eastern mountains",
+  "terrain": "flat, barren coastal plain merging into rolling sand dunes of vast desert; mountains in east",
+  "hazards": "frequent sand and dust storms",
+  "heights": {"high":1905,"low":0,"mean":149},
+  "coast": 1318,
+  "borders": {"total":1066,"lengths":[609,457]},
+  "area": 83600,
+  "resources": "petroleum, natural gas",
+  "farm": "dates, cucumbers/gherkins, camel milk, goat milk, tomatoes, chicken, goat meat, eggs, milk, camel meat",
+  "exports": "crude petroleum, refined petroleum, gold, broadcasting equipment, natural gas",
+  "industries": "petroleum and petrochemicals; fishing, aluminum, cement, fertilizer, commercial ship repair, construction materials, handicrafts, textiles",
+  "city": {"millions":3.008,"capital":false},
+  "languages": "Arabic (official), English, Hindi, Malayalam, Urdu, Pashto, Tagalog, Persian",
+  "religions": "Muslim 74.5% (official) (Sunni 63.3%, Shia 6.7%, other 4.4%), Christian 12.9%, Hindu 6.2%, Buddhist 3.2%, agnostic 1.3%, other 1.9%",
+  "age": {"median":35.8,"life":79.9},
+  "system": {"text":"federation of monarchies","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":40,"how":"","term":"4 years"}]},
+  "independence": {"date":"2 December 1971","event":"","from":"UK"},
+  "regions": "7 emirates",
+  "legal": "mixed system of Islamic (sharia) law and civil law",
+  "suffrage": "limited",
+  "holiday": {"name":"Independence Day (National Day)","date":"2 December"},
+  "military": "18-40 for voluntary service; 18-30 years of age for compulsory national service for men with a 36-month service obligation for those without a secondary education and 11 months for secondary school…",
+  "memberships": ["BRICS","OPEC","OAPEC","Gulf Cooperation Council","Arab League","Islamic Cooperation"],
+  "colours": "green, white, black, red"
+ }
+}

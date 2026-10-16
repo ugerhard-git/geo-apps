@@ -1,0 +1,33 @@
+{
+ "code": "CN",
+ "names": {"country":["People's Republic of China","Zhonghua Renmin Gongheguo","Zhongguo","China","PRC"],"people":["Chinese"],"places":["Mount Everest (highest peak in Asia and highest point on earth above sea level)","National Day (anniversary of the founding of the People's Republic of China)","Turpan Pendi (Turfan Depression)","Irrawaddy river source","Yarlung Zangbo Jiang","Amur river source","Xinjiang Uyghur","Lancang Jiang","Heilongjiang","river source","Tangra Yumco","Brahmaputra","Dongting Hu","Quinghai Hu","Nei Mongol","Yuan Jiang","Chongqing","Guangdong","Guangzhou","Hong Kong","Hongze Hu","Poyang Hu","Red river","Siling Co","Yin-tu Ho","Zhu Jiang","Huang He","Liaoning","Nu Jiang","Shandong","Shanghai","Shenzhen","Zhejiang","Beijing","Guangxi","Guizhou","Jiangsu","Jiangxi","Ningxia","Qinghai","Salween","Shaanxi","Sichuan","Tianjin","Yangtze","Fujian","Hainan","Mekong","Nam Co","Shanxi","source","Tai Hu","Xizang","Yunnan","Anhui","Gansu","Hebei","Henan","Hubei","Hunan","Indus","Jilin","Macau","Pearl"],"neighbours":["Afghanistan","Afghan","North Korea","Korean","Kazakhstan","Kazakhstani","Kyrgyzstan","Kyrgyzstani","Tajikistan","Tajikistani","Mongolia","Mongolian","Pakistan","Pakistani","Vietnam","Vietnamese","Bhutan","Bhutanese","Russia","Russian","Burma","Burmese","India","Indian","Nepal","Nepali","Laos","Lao or Laotian"]},
+ "fields": {
+  "climate": "extremely diverse; tropical in south to subarctic in north",
+  "terrain": "mostly mountains, high plateaus, deserts in west; plains, deltas, and hills in east",
+  "hazards": "frequent typhoons (about five per year along southern and eastern coasts); damaging floods; tsunamis; earthquakes; droughts; land subsidence…",
+  "heights": {"high":8849,"low":-154,"mean":1840},
+  "coast": 14500,
+  "borders": {"total":22457,"lengths":[4630,4133,2659,2129,1765,1389,1352,1297,1063,477,477,475,438,91]},
+  "area": 9596960,
+  "lake": {"sqkm":4460,"kind":"salt water"},
+  "river": {"km":6300,"shared":0},
+  "resources": "coal, iron ore, helium, petroleum, natural gas, arsenic, bismuth, cobalt, cadmium, ferrosilicon, gallium, germanium, hafnium, indium, lithium, mercury, tantalum, tellurium, tin, titanium, tungsten…",
+  "farm": "maize, rice, vegetables, wheat, sugarcane, potatoes, cucumbers/gherkins, tomatoes, watermelons, pork",
+  "exports": "broadcasting equipment, computers, integrated circuits, garments, machine parts",
+  "industries": "world leader in gross value of industrial output; mining and ore processing, iron, steel, aluminum, and other metals, coal; machine building; armaments; textiles and apparel; petroleum; cement…",
+  "city": {"millions":29.211,"capital":false},
+  "languages": "Standard Chinese or Mandarin (official; Putonghua, based on the Beijing dialect), Yue (Cantonese), Wu (Shanghainese), Minbei (Fuzhou), Minnan (Hokkien-Taiwanese), Xiang, Gan, Hakka dialects, minority…",
+  "religions": "folk religion 21.9%, Buddhist 18.2%, Christian 5.1%, Muslim 1.8%, Hindu < 0.1%, Jewish < 0.1%, other 0.7% (includes Daoist (Taoist)), unaffiliated 52.1%",
+  "age": {"median":40.8,"life":78.7},
+  "system": {"text":"communist party-led state","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":3000,"how":"all indirectly elected","term":"5 years"}]},
+  "independence": {"date":"1 October 1949","event":"People's Republic of China established","from":""},
+  "regions": "23 provinces, 5 autonomous regions, 4 municipalities, and two special administrative regions",
+  "legal": "civil law influenced by Soviet and continental European civil law systems; legislature retains power to interpret statutes",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"National Day (anniversary of the founding of the People's Republic of China)","date":"1 October"},
+  "military": "18-26 years of age depending on education level for men and women for both volunteer and selective compulsory military service; 24-month service obligation",
+  "memberships": ["G20","BRICS","Shanghai Cooperation"],
+  "colours": "red, yellow"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "TN",
+ "names": {"country":["Al Jumhuriyah at Tunisiyah","Republic of Tunisia","Tunisia","Tunis"],"people":["Tunisians","Tunisian"],"places":["Independence Day","Jebel ech Chambi","Shatt al Gharsah","Sidi Bouzid","Ben Arous","Kasserine","Tataouine","Jendouba","Kairouan","L'Ariana","Medenine","Monastir","Zaghouan","Bizerte","Manouba","Siliana","Kebili","Mahdia","Nabeul","Sousse","Tozeur","Gabes","Gafsa","Tunis","Beja","Sfax","Kef"],"neighbours":["Algeria","Algerian","Libya","Libyan"]},
+ "fields": {
+  "climate": "temperate in north with mild, rainy winters and hot, dry summers; desert in south",
+  "terrain": "mountains in north; hot, dry central plain; semiarid south merges into the Sahara",
+  "hazards": "flooding; earthquakes; droughts",
+  "heights": {"high":1544,"low":-17,"mean":246},
+  "coast": 1148,
+  "borders": {"total":1495,"lengths":[1034,461]},
+  "area": 163610,
+  "resources": "petroleum, phosphates, iron ore, lead, zinc, salt",
+  "farm": "milk, tomatoes, olives, onions, chillies/peppers, watermelons, potatoes, wheat, dates, oranges",
+  "exports": "garments, insulated wire, olive oil, refined petroleum, crude petroleum",
+  "industries": "petroleum, mining (particularly phosphate, iron ore), tourism, textiles, footwear, agribusiness, beverages",
+  "city": {"millions":2.475,"capital":true},
+  "languages": "Arabic (official, one of the languages of commerce), French (commerce), Tamazight",
+  "religions": "Muslim (official; Sunni) 99%, other (includes Christian, Jewish, Shia Muslim, and Baha'i) <1%",
+  "age": {"median":34.1,"life":77.3},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":161,"how":"all directly elected","term":"5 years"},{"seats":77,"how":"all indirectly elected","term":"5 years"}]},
+  "independence": {"date":"20 March 1956","event":"","from":"France"},
+  "regions": "24 governorates",
+  "legal": "mixed system of civil law, based on the French civil code and Islamic (sharia) law; Supreme Court reviews some legislative acts in joint session",
+  "suffrage": "18 years of age; universal except for active government security forces (including the police and the military), people with mental…",
+  "holiday": {"name":"Independence Day","date":"20 March"},
+  "military": "18 years of age for voluntary service for men and women; men 20-35 years of age subject to 12 months of compulsory national service",
+  "memberships": ["Arab League","Islamic Cooperation","African Union","Francophonie"],
+  "colours": "red, white"
+ }
+}

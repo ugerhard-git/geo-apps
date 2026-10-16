@@ -1,0 +1,31 @@
+{
+ "code": "LB",
+ "names": {"country":["Al Jumhuriyah al Lubnaniyah","Lebanese Republic","Lebanon","Lubnan"],"people":["Lebanese"],"places":["Mediterranean Sea","Independence Day","Qornet es Saouda","Baalbek-Hermel","Liban-Nord","Mont-Liban","Liban-Sud","Beyrouth","Nabatiye","Aakkar","Beirut","Beqaa"],"neighbours":["Israel","Israeli","Syria","Syrian"]},
+ "fields": {
+  "climate": "Mediterranean; mild to cool, wet winters with hot, dry summers; the Lebanon Mountains experience heavy winter snows",
+  "terrain": "narrow coastal plain; El Beqaa (Bekaa Valley) separates Lebanon and Anti-Lebanon Mountains",
+  "hazards": "earthquakes; dust storms, sandstorms",
+  "heights": {"high":3088,"low":0,"mean":1250},
+  "coast": 225,
+  "borders": {"total":484,"lengths":[403,81]},
+  "area": 10400,
+  "resources": "limestone, iron ore, salt, water-surplus state in a water-deficit region, arable land",
+  "farm": "potatoes, milk, tomatoes, apples, oranges, olives, cucumbers/gherkins, chicken, lemons/limes, wheat",
+  "exports": "jewelry, cars, diamonds, scrap iron, gold",
+  "industries": "banking, tourism, real estate and construction, food processing, wine, jewelry, cement, textiles, mineral and chemical products, wood and furniture products, oil refining, metal fabricating",
+  "city": {"millions":2.421,"capital":true},
+  "languages": "Arabic (official), French, English, Armenian",
+  "religions": "Muslim 67.8% (31.9% Sunni, 31.2% Shia, smaller percentages of Alawites and Ismailis), Christian 32.4% (Maronite Catholics are the largest Christian group), Druze 4.5%, very small numbers of Jews…",
+  "age": {"median":29.4,"life":79.2},
+  "system": {"text":"parliamentary democratic republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":128,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"22 November 1943","event":"","from":"League of Nations mandate under French administration"},
+  "regions": "8 governorates",
+  "legal": "mixed system of civil law based on the French civil code, Ottoman legal tradition, and religious laws covering personal status, marriage, divorce, and other family relations of the Jewish, Islamic…",
+  "suffrage": "21 years of age; authorized for all men and women regardless of religion…",
+  "holiday": {"name":"Independence Day","date":"22 November"},
+  "military": "18-25 years of age for voluntary military service for men and women; no conscription",
+  "memberships": ["Arab League","Islamic Cooperation","Francophonie"],
+  "colours": "red, white, green"
+ }
+}

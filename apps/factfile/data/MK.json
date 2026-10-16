@@ -1,0 +1,31 @@
+{
+ "code": "MK",
+ "names": {"country":["Republika Severna Makedonija","Republic of North Macedonia","Severna Makedonija","North Macedonia"],"people":["Macedonians","Macedonian"],"places":["Independence Day, 8 September","Golem Korab (Maja e Korabit)","Makedonska Kamenica","Cesinovo-Oblesevo","Mavrovo i Rostuse","Staro Nagoricane","Makedonski Brod","Cucer Sandevo","Gjorce Petrov","Kriva Palanka","Demir Kapija","Krivogastani","Sveti Nikole","Vardar River","Centar Zupa","Demir Hisar","Kisela Voda","Studenicani","Zelenikovo","Aracinovo","Bogovinje","Gazi Baba","Gevgelija","Jegunovce","Kavadarci","Novo Selo","Probistip","Valandovo","Vrapciste","Aerodrom","Bogdanci","Bosilovo","Brvenica","Gostivar","Karbinci","Kumanovo","Negotino","Petrovec","Plasnica","Rankovce","Strumica","Vasilevo","Debarca","Delcevo","Dolneni","Gradsko","Ilinden","Karposh","Kratovo","Krusevo","Lipkovo","Pehcevo","Radovis","Rosoman","Sopiste","Vevcani","Zrnovci","Berovo","Bitola","Centar","Dojran","Kicevo","Kocani","Lozovo","Mogila","Novaci","Prilep","Skopje","Struga","Tearce","Tetovo","Vinica","Zelino","Butel","Caska","Chair","Debar","Konce","Ohrid","Resen","Saraj","Veles","Stip"],"neighbours":["Bulgaria","Bulgarian","Albania","Albanian","Greece","Greek","Kosovo","Kosovan","Serbia","Serbian"]},
+ "fields": {
+  "climate": "warm, dry summers and autumns; relatively cold winters with heavy snowfall",
+  "terrain": "mountainous with deep basins and valleys; three large lakes, each divided by a frontier line; country bisected by the Vardar River",
+  "hazards": "high seismic risks",
+  "heights": {"high":2764,"low":50,"mean":741},
+  "coast": 0,
+  "borders": {"total":838,"lengths":[234,181,162,160,101]},
+  "area": 25713,
+  "resources": "low-grade iron ore, copper, lead, zinc, chromite, manganese, nickel, tungsten, gold, silver, asbestos, gypsum, timber, arable land",
+  "farm": "chillies/peppers, milk, wheat, potatoes, grapes, barley, cabbages, maize, watermelons, tomatoes",
+  "exports": "reaction and catalytic products, insulated wire, electricity, garments, seats",
+  "industries": "food processing, beverages, textiles, chemicals, iron, steel, cement, energy, pharmaceuticals, automotive parts",
+  "city": {"millions":0.611,"capital":true},
+  "languages": "Macedonian (official) 61.4%, Albanian (official) 24.3%, Turkish 3.4%, Romani 1.7%, other (includes Aromanian (Vlach) and Bosnian) 2%, unspecified 7.2%",
+  "religions": "Orthodox 46.1%, Islam 32.2%, Christian 13.2%, Other 7.2%; less than 1%: atheist, Catholic, other religions, not specified, Protestant",
+  "age": {"median":40.9,"life":77.3},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":123,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"8 September 1991","event":"referendum endorsed","from":"Yugoslavia"},
+  "regions": "80 municipalities and 1 city",
+  "legal": "civil law system; judicial review of legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day, 8 September","date":"also known as National Day"},
+  "military": "18 years of age for voluntary military service; conscription abolished in 2007",
+  "memberships": ["NATO","Francophonie"],
+  "colours": "red, yellow"
+ }
+}

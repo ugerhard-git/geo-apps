@@ -1,0 +1,31 @@
+{
+ "code": "BB",
+ "names": {"country":["Barbados"],"people":["Barbadians","Barbadian","Bajan"],"places":["Independence Day","Atlantic Ocean","Christ Church","Mount Hillaby","Saint Michael","Saint Andrew","Saint George","Saint Joseph","Saint Philip","Saint Thomas","Saint James","Saint Peter","Bridgetown","Saint John","Saint Lucy"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; rainy season (June to October)",
+  "terrain": "relatively flat; rises gently to central highland region",
+  "hazards": "infrequent hurricanes; periodic landslides",
+  "heights": {"high":336,"low":0,"mean":null},
+  "coast": 97,
+  "borders": {"total":0,"lengths":[]},
+  "area": 430,
+  "resources": "petroleum, fish, natural gas",
+  "farm": "sugarcane, chicken, vegetables, milk, eggs, sweet potatoes, pork, coconuts, tropical fruits, pulses",
+  "exports": "liquor, refined petroleum, packaged medicine, margarine, baked goods",
+  "industries": "tourism, sugar, light manufacturing, component assembly for export",
+  "city": {"millions":0.089,"capital":true},
+  "languages": "English (official), Bajan (English-based creole language, widely spoken in informal settings)",
+  "religions": "Protestant 66.4% (includes Anglican 23.9%, other Pentecostal 19.5%, Adventist 5.9%, Methodist 4.2%, Wesleyan 3.4%, Nazarene 3.2%, Church of God 2.4%, Baptist 1.8%, Moravian 1.2%, other Protestant…",
+  "age": {"median":42.2,"life":79},
+  "system": {"text":"parliamentary republic; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":30,"how":"all directly elected","term":"5 years"},{"seats":21,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"30 November 1966","event":"","from":"UK"},
+  "regions": "11 parishes and 1 city",
+  "legal": "English common law; no judicial review of legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"30 November"},
+  "military": "18-25 for voluntary active service at the start of recruit training; 18-30 for reserves",
+  "memberships": ["CARICOM","Commonwealth"],
+  "colours": "blue, yellow, black"
+ }
+}

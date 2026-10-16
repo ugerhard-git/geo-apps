@@ -1,0 +1,33 @@
+{
+ "code": "TH",
+ "names": {"country":["Kingdom of Thailand","Ratcha Anachak Thai","Prathet Thai","Thailand"],"people":["Thai"],"places":["Birthday of King WACHIRALONGKON","Phra Nakhon Si Ayutthaya","Nakhon Si Thammarat","Prachuap Khiri Khan","Nakhon Ratchasima","Thalesap Songkhla","Gulf of Thailand","Ubon Ratchathani","Nong Bua Lamphu","Samut Songkhram","Kamphaeng Phet","Amnat Charoen","Mae Nam Khong","Maha Sarakham","Nakhon Pathom","Nakhon Phanom","Chachoengsao","Doi Inthanon","Kanchanaburi","Mae Hong Son","Nakhon Nayok","Nakhon Sawan","Pathum Thani","Prachin Buri","Sakon Nakhon","Samut Prakan","Samut Sakhon","Chanthaburi","Phatthalung","Phetchaburi","Phitsanulok","Suphan Buri","Surat Thani","Uthai Thani","Chaiyaphum","Chiang Mai","Chiang Rai","Krung Thep","Narathiwat","Nonthaburi","Phetchabun","Ratchaburi","Udon Thani","Ang Thong","Bueng Kan","Chon Buri","Khon Kaen","Nong Khai","Nothaburi","Si Sa Ket","Sing Buri","Sukhothai","Uttaradit","Buri Ram","Chai Nat","Chumphon","Lop Buri","Mukdahan","Phangnga","Saraburi","Songkhla","Yasothon","Bangkok","Kalasin","Lampang","Lamphun","Pattani","Phichit","Sa Kaeo","Salween","Songkla","Mekong","Phayao","Phuket","Ranong","Rayong","Roi Et","Krabi","Phrae","Satun","Surin","Trang","Loei","Trat","Yala","Mun","Nan","Tak"],"neighbours":["Cambodia","Cambodian","Malaysia","Malaysian","Burma","Burmese","Laos","Lao or Laotian"]},
+ "fields": {
+  "climate": "tropical; rainy, warm, cloudy southwest monsoon (mid-May to September); dry, cool northeast monsoon (November to mid-March); southern isthmus always hot and humid",
+  "terrain": "central plain; Khorat Plateau in the east; mountains elsewhere",
+  "hazards": "land subsidence in Bangkok area resulting from the depletion of the water table; droughts",
+  "heights": {"high":2565,"low":0,"mean":287},
+  "coast": 3219,
+  "borders": {"total":5673,"lengths":[2416,1845,817,595]},
+  "area": 513120,
+  "lake": {"sqkm":1290,"kind":"salt water"},
+  "river": {"km":4350,"shared":5},
+  "resources": "tin, rubber, natural gas, tungsten, tantalum, timber, lead, fish, gypsum, lignite, fluorite, arable land",
+  "farm": "sugarcane, rice, cassava, oil palm fruit, maize, rubber, tropical fruits, chicken, mangoes/guavas, fruits",
+  "exports": "machine parts, integrated circuits, trucks, cars, broadcasting equipment",
+  "industries": "tourism, textiles and garments, agricultural processing, beverages, tobacco, cement, light manufacturing such as jewelry and electric appliances, computers and parts, integrated circuits, furniture…",
+  "city": {"millions":11.07,"capital":true},
+  "languages": "Thai (official) only 90.7%, Thai and other languages 6.4%, only other languages 2.9% (includes Malay, Burmese); English is a secondary language among the elite",
+  "religions": "Buddhist 92.5%, Muslim 5.4%, Christian 1.2%, other 0.9% (includes animist, Confucian, Hindu, Jewish, Sikh, and Taoist)",
+  "age": {"median":41.9,"life":78.2},
+  "system": {"text":"constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":500,"how":"all directly elected","term":"4 years"},{"seats":200,"how":"all indirectly elected","term":"5 years"}]},
+  "independence": {"date":"1238","event":"traditional founding date","from":""},
+  "regions": "76 provinces and 1 municipality",
+  "legal": "civil law system with common law influences",
+  "suffrage": "18 years of age; universal and compulsory",
+  "holiday": {"name":"Birthday of King WACHIRALONGKON","date":"28 July"},
+  "military": "18 years of age for voluntary military service for men and women; all men register at 17 years of age and are subject to selective compulsory military service at 21…",
+  "memberships": ["ASEAN"],
+  "colours": "red, white, blue"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "MV",
+ "names": {"country":["Dhivehi Raajjeyge Jumhooriyyaa","Republic of Maldives","Dhivehi Raajje","Maldives"],"people":["Maldivians","Maldivian"],"places":["8th tee, golf course, Villingi Island","Nilandheatholhu Dhekunuburi","Thiladhunmathee Dhekunuburi","Huvadhuatholhu Dhekunuburi","Miladhunmadulu Dhekunuburi","Nilandheatholhu Uthuruburi","Thiladhunmathee Uthuruburi","Huvadhuatholhu Uthuruburi","Maalhosmadulu Dhekunuburi","Miladhunmadulu Uthuruburi","Maalhosmadulu Uthuruburi","Ariatholhu Dhekunuburi","Ariatholhu Uthuruburi","Independence Day","Felidhuatholhu","Faadhippolhu","Hahdhunmathi","Indian Ocean","Maaleatholhu","Mulakatholhu","Kolhumadulu","Fuvammulah","Maale","Addu","Male","Malé"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; hot, humid; dry, northeast monsoon (November to March); rainy, southwest monsoon (June to August)",
+  "terrain": "flat coral atolls, with white sandy beaches; sits atop the submarine volcanic Chagos-Laccadive Ridge",
+  "hazards": "tsunamis; low elevation of islands makes them sensitive to sea level rise",
+  "heights": {"high":5,"low":0,"mean":2},
+  "coast": 644,
+  "borders": {"total":0,"lengths":[]},
+  "area": 298,
+  "resources": "fish",
+  "farm": "fruits, vegetables, nuts, other meats, papayas, bananas, tomatoes, maize, pulses, chillies/peppers",
+  "exports": "fish, aircraft, refined petroleum, scrap iron, natural gas",
+  "industries": "tourism, fish processing, shipping, boat building, coconut processing, woven mats, rope, handicrafts, coral and sand mining",
+  "city": {"millions":0.177,"capital":true},
+  "languages": "Dhivehi (official, closely related to Sinhala, script derived from Arabic), English (spoken by most government officials)",
+  "religions": "Sunni Muslim (official)",
+  "age": {"median":32.4,"life":77.4},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":93,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"26 July 1965","event":"","from":"UK"},
+  "regions": "21 administrative atolls",
+  "legal": "Islamic (sharia) legal system with English common law influences, primarily in commercial matters",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"26 July"},
+  "military": "18-25 years of age for voluntary service; no conscription",
+  "memberships": ["Islamic Cooperation","SAARC","Commonwealth"],
+  "colours": "red, green, white"
+ }
+}

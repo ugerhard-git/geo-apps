@@ -1,0 +1,23 @@
+{
+ "code": "MF",
+ "names": {"country":["Collectivité d'outre mer de Saint-Martin","Overseas Collectivity of Saint Martin","Saint Martin","Saint-Martin"],"people":[],"places":["Fête de la Fédération","Pic du Paradis","Caribbean Sea","Marigot"],"neighbours":["Sint Maarten"]},
+ "fields": {
+  "climate": "temperature averages 27-29 degrees Celsius all year long; low humidity, gentle trade winds, brief, intense rain showers; hurricane season stretches from July to November",
+  "hazards": "subject to hurricanes from July to November",
+  "heights": {"high":424,"low":0,"mean":null},
+  "coast": 58.9,
+  "borders": {"total":16,"lengths":[16]},
+  "area": 50,
+  "resources": "salt",
+  "exports": "gold, special use vessels, furniture, scrap aluminum, rum",
+  "industries": "tourism, light industry and manufacturing, heavy industry",
+  "languages": "French (official), Dutch, English, Guadeloupian Creole, Haitian Creole, Italian, Martiniquan Creole, Papiamento (dialect of Netherlands Antilles), Spanish",
+  "religions": "Roman Catholic, Jehovah's Witness, Protestant, Hindu",
+  "age": {"median":34.3,"life":81},
+  "system": {"text":"parliamentary democracy (Territorial Council); overseas collectivity of France","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":23,"how":"directly elected","term":"5 years"}]},
+  "legal": "French civil law",
+  "suffrage": "18 years of age, universal",
+  "holiday": {"name":"Fête de la Fédération","date":"14 July"}
+ }
+}

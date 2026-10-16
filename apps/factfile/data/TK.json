@@ -1,0 +1,25 @@
+{
+ "code": "TK",
+ "names": {"country":["Tokelau"],"people":["Tokelauans","Tokelauan"],"places":["unnamed location","Pacific Ocean","Waitangi Day"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; moderated by trade winds (April to November)",
+  "terrain": "low-lying coral atolls enclosing large lagoons",
+  "hazards": "lies in Pacific cyclone belt",
+  "heights": {"high":5,"low":0,"mean":null},
+  "coast": 101,
+  "borders": {"total":0,"lengths":[]},
+  "area": 12,
+  "resources": "fish",
+  "farm": "coconuts, root vegetables, tropical fruits, pork, bananas, eggs, chicken",
+  "exports": "cars, telephones, garments, iron fasteners, fabric",
+  "industries": "small-scale enterprises for copra production, woodworking, plaited craft goods; stamps, coins; fishing",
+  "languages": "Tokelauan 88.1% (a Polynesian language), English 48.6%, Samoan 26.7%, Tuvaluan 11.2%, Kiribati 1.5%, other 2.8%, none 2.8%, unspecified 0.8% (2016 ests.)",
+  "religions": "Congregational Christian Church 50.4%, Roman Catholic 38.7%, Presbyterian 5.9%, other Christian 4.2%, unspecified 0.8%",
+  "system": {"text":"parliamentary democracy under a constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":20,"how":"","term":"3 years"}]},
+  "legal": "common law system of New Zealand",
+  "suffrage": "21 years of age; universal",
+  "holiday": {"name":"Waitangi Day","date":"6 February"},
+  "colours": "blue, yellow, white"
+ }
+}

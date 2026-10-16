@@ -1,0 +1,32 @@
+{
+ "code": "MD",
+ "names": {"country":["Republic of Moldova","Republica Moldova","Moldova"],"people":["Moldovans","Moldovan"],"places":["Chisinau in Romanian","Dniester (Nistru)","Dealul Balanesti","Independence Day","Stinga Nistrului","Basarabeasca","Stefan Voda","Anenii Noi","Soldanesti","Donduseni","Nisporeni","Telenesti","Calarasi","Cantemir","Chisinau","Cimislia","Criuleni","Dniester","Dubasari","Floresti","Gagauzia","Hincesti","Ialoveni","Singerei","Straseni","Taraclia","Briceni","Causeni","Drochia","Dunărea","Falesti","Glodeni","Riscani","Ungheni","Bender","Danube","Edinet","Nistru","Ocnita","Rezina","Soroca","Balti","Cahul","Leova","Orhei"],"neighbours":["Romania","Romanian","Ukraine","Ukrainian"]},
+ "fields": {
+  "climate": "moderate winters, warm summers",
+  "terrain": "rolling steppe, gradual slope south to Black Sea",
+  "hazards": "landslides",
+  "heights": {"high":430,"low":2,"mean":139},
+  "coast": 0,
+  "borders": {"total":1885,"lengths":[1202,683]},
+  "area": 33851,
+  "river": {"km":2888,"shared":9},
+  "resources": "lignite, phosphorites, gypsum, limestone, arable land",
+  "farm": "wheat, maize, sunflower seeds, grapes, apples, sugar beets, barley, milk, rapeseed, potatoes",
+  "exports": "insulated wire, garments, refined petroleum, seed oils, wheat",
+  "industries": "sugar processing, vegetable oil, food processing, agricultural machinery; foundry equipment, refrigerators and freezers, washing machines; hosiery, shoes, textiles",
+  "city": {"millions":0.488,"capital":true},
+  "languages": "Moldovan/Romanian 80.2% (official) (56.7% Moldovan; 23.5% Romanian), Russian 9.7%, Gagauz 4.2% (a Turkish language), Ukrainian 3.9%, Bulgarian 1.5%, Romani 0.3%, other 0.2%",
+  "religions": "Orthodox 90.1%, other Christian 2.6%, other 0.1%, agnostic <0.1%, atheist 0.2%, unspecified 6.9%",
+  "age": {"median":40.4,"life":70.1},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":101,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"27 August 1991","event":"","from":"Soviet Union"},
+  "regions": "32 districts, 3 municipalities, 1 autonomous territorial unit, and 1 territorial unit",
+  "legal": "civil law system with Germanic law influences; Constitutional Court reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"27 August"},
+  "military": "18-27 years of age for compulsory or voluntary military service; male registration required at age 16; 12-month service obligation…",
+  "memberships": ["CIS","Francophonie"],
+  "colours": "blue, yellow, red"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code": "CF",
+ "names": {"country":["République centrafricaine","Central African Republic","CAR"],"people":["Central Africans","Central African"],"places":["Bamingui-Bangoran","Oubangui River","Mambere-Kadei","Ombella-Mpoko","Sangha-Mbaere","Nana-Grebizi","Nana-Mambere","Republic Day","Basse-Kotto","Haut-Mbomou","Haute-Kotto","Mont Ngaoui","Ouham-Pende","river [s]","Oubangui","Bangui","Lobaye","Mbomou","Ubangi","Vakaga","Ouaka","Ouham","Kemo"],"neighbours":["Democratic Republic of the Congo","South Sudan","South Sudanese","Cameroon","Cameroonian","Sudan","Sudanese","Chad","Chadian"]},
+ "fields": {
+  "climate": "tropical; hot, dry winters; mild to hot, wet summers",
+  "terrain": "vast, flat to rolling plateau; scattered hills in northeast and southwest",
+  "hazards": "hot, dry, dusty harmattan winds affect northern areas; floods are common",
+  "heights": {"high":1410,"low":335,"mean":635},
+  "coast": 0,
+  "borders": {"total":5920,"lengths":[1747,1556,1055,901,174]},
+  "area": 622984,
+  "river": {"km":2270,"shared":2},
+  "resources": "diamonds, uranium, timber, gold, oil, hydropower",
+  "farm": "cassava, groundnuts, yams, coffee, maize, sesame seeds, taro, sugarcane, beef, milk",
+  "exports": "gold, wood, diamonds, vehicle parts/accessories, cotton",
+  "industries": "gold and diamond mining, logging, brewing, sugar refining",
+  "city": {"millions":0.958,"capital":true},
+  "languages": "French (official), Sangho (lingua franca and national language), tribal languages",
+  "religions": "Roman Catholic 34.6%, Protestant 15.7%, other Christian 22.9%, Muslim 13.8%, ethnic religionist 12%, Baha'i 0.2%, agnostic/atheist 0.7%",
+  "age": {"median":20.6,"life":56.4},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":140,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"13 August 1960","event":"","from":"France"},
+  "regions": "14 prefectures, 2 economic prefectures, and 1 commune",
+  "legal": "civil law system based on the French model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Republic Day","date":"1 December"},
+  "military": "18-22 years of age for voluntary military service for men and women; no conscription although the constitution provides for the possibility of conscription in the event of an imminent threat to the…",
+  "memberships": ["African Union","CEMAC","Francophonie"],
+  "colours": "blue, white, green, yellow, red"
+ }
+}

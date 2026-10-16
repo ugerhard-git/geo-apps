@@ -1,0 +1,30 @@
+{
+ "code": "FM",
+ "names": {"country":["Federated States of Micronesia","FSM"],"people":["Micronesians","Micronesian","Pohnpeians","Pohnpeian","Chuukese","Kosraens","Kosraen","Yapese"],"places":["Nanlaud on Pohnpei","Constitution Day","Pacific Ocean","Palikir","Pohnpei","Kosrae","Chuuk","Yap"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; heavy year-round rainfall, especially in the eastern islands; located on southern edge of the typhoon belt with occasionally severe damage",
+  "terrain": "islands vary geologically from high mountainous islands to low, coral atolls; volcanic outcroppings on Pohnpei, Kosrae, and Chuuk",
+  "hazards": "typhoons (June to December)",
+  "heights": {"high":782,"low":0,"mean":null},
+  "coast": 6112,
+  "borders": {"total":0,"lengths":[]},
+  "area": 702,
+  "resources": "timber, marine products, deep-seabed minerals, phosphate",
+  "farm": "coconuts, cassava, vegetables, sweet potatoes, bananas, pork, plantains, fruits, beef, eggs",
+  "exports": "fish, diamonds, garments",
+  "industries": "tourism, construction; specialized aquaculture, craft items (shell and wood)",
+  "city": {"millions":0.007,"capital":true},
+  "languages": "English (official and common language), Chuukese, Kosrean, Pohnpeian, Yapese, Ulithian, Woleaian, Nukuoro, Kapingamarangi",
+  "religions": "Roman Catholic 54.7%, Protestant 41.1% (includes Congregational 38.5%, Baptist 1.1%, Seventh Day Adventist 0.8%, Assembly of God 0.7%), Church of Jesus Christ 1.5%, other 1.9%, none 0.7%, unspecified…",
+  "age": {"median":28.7,"life":75},
+  "system": {"text":"federal republic in free association with the US","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":14,"how":"all directly elected","term":"2 years"}]},
+  "independence": {"date":"3 November 1986","event":"","from":"US-administered UN trusteeship"},
+  "regions": "4 states",
+  "legal": "mixed system of common and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"10 May"},
+  "memberships": ["Pacific Islands Forum"],
+  "colours": "light blue, white"
+ }
+}

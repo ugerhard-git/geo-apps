@@ -1,0 +1,31 @@
+{
+ "code": "LU",
+ "names": {"country":["Grand Duché de Luxembourg","Grand Duchy of Luxembourg","Luxembourg"],"people":["Luxembourgers","Luxembourger","Luxembourg"],"places":["National Day (birthday of Grand Duke HENRI)","Esch-sur-Alzette","Moselle River","Grevenmacher","Buurgplaatz","Echternach","Luxembourg","Capellen","Clervaux","Diekirch","Redange","Vianden","Mersch","Remich","Wiltz"],"neighbours":["Belgium","Belgian","Germany","German","France","French"]},
+ "fields": {
+  "climate": "modified continental with mild winters, cool summers",
+  "terrain": "mostly gently rolling uplands with broad, shallow valleys; uplands to slightly mountainous in the north; steep slope down to Moselle flood plain in the southeast",
+  "hazards": "occasional flooding",
+  "heights": {"high":559,"low":133,"mean":325},
+  "coast": 0,
+  "borders": {"total":327,"lengths":[130,128,69]},
+  "area": 2586,
+  "resources": "iron ore (no longer exploited), arable land",
+  "farm": "milk, wheat, barley, triticale, potatoes, pork, grapes, beef, rye, rapeseed",
+  "exports": "iron blocks, gas turbines, plastic products, rubber tires, plastics",
+  "industries": "banking and financial services, construction, real estate services, iron, metals, and steel, information technology, telecommunications, cargo transportation and logistics, chemicals, engineering…",
+  "city": {"millions":0.12,"capital":true},
+  "languages": "Luxembourgish (official administrative, judicial, and national language) 48.9%, Portuguese 15.4%, French (official administrative, judicial, and legislative language) 14.9%, Italian 3.6%, English…",
+  "religions": "Christian (predominantly Roman Catholic) 70.6%, Muslim 2.3%, other (includes Buddhist, folk religions, Hindu, Jewish) 0.4%, unaffiliated 26.7%",
+  "age": {"median":40.1,"life":83.4},
+  "system": {"text":"constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":60,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"1839","event":"","from":"Netherlands"},
+  "regions": "12 cantons",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal and compulsory",
+  "holiday": {"name":"National Day (birthday of Grand Duke HENRI)","date":"23 June"},
+  "military": "18-26 years of age for voluntary military service for men and women; no conscription (abolished 1969)",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","Francophonie","Benelux"],
+  "colours": "red, white, light blue"
+ }
+}

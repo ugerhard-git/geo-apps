@@ -1,0 +1,31 @@
+{
+ "code": "SI",
+ "names": {"country":["Republic of Slovenia","Republika Slovenija","Slovenija","Slovenia"],"people":["Slovenian","Slovenes","Slovene"],"places":["Sveta Trojica v Slovenskih Goricah","Sveti Andraz v Slovenskih Goricah","Sveti Jurij v Slovenskih Goricah","Independence Day/Statehood Day","Miklavz na Dravskem Polju","Sveti Jurij ob Scavnici","Cerklje na Gorenjskem","Dobrova-Polhov Gradec","Gorenja Vas-Poljane","Kosanjevica na Krki","Dobrovnik/Dobronak","Lovrenc na Pohorju","Miren-Kostanjevica","Ribnica na Pohorju","Slovenska Bistrica","Smartno pri Litiji","Bistrica ob Sotli","Dol pri Ljubljani","Dolenjske Toplice","Mokronog-Trebelno","Ravne na Koroskem","Recica ob Savinji","Slovenske Konjice","Smarje pri Jelsah","Smarjeske Toplice","Sredisce ob Dravi","Crna na Koroskem","Ilirska Bistrica","Moravske Toplice","Selnica ob Dravi","Sempeter-Vrtojba","Gornji Petrovci","Radlje ob Dravi","Rogaska Slatina","Smartno ob Paki","Zagorje ob Savi","Gornja Radgona","Hrpelje-Kozina","Ivancna Gorica","Lendava/Lendva","Slovenj Gradec","Hoce-Slivnica","Kanal ob Soci","Kranjska Gora","Murska Sobota","Rence-Vogrsko","Velika Polana","Adriatic Sea","Log-Dragomer","Loska Dolina","Piran/Pirano","Trnovska Vas","Velike Lasce","Gornji Grad","Izola/Isola","Loski Potok","Nova Gorica","Skofja Loka","Sveti Tomaz","Ajdovscina","Cerkvenjak","Dobrepolje","Novo Mesto","Podcetrtek","Radovljica","Sentjernej","Sentrupert","Borovnica","Braslovce","Brezovica","Cirkulane","Crensovci","Dravograd","Gorisnica","Grosuplje","Kidricevo","Ljubljana","Mirna Pec","Oplotnica","Podlehnik","Race-Fram","Razkrizje","Rogasovci","Skofljica","Sodrazica","Sveta Ana","Zelezniki","Zirovnica","Zuzemberk","Beltinci","Benedikt","Cerknica","Crnomelj","Destrnik","Hrastnik","Jesenice","Jezersko","Jursinci","Krizevci","Ljutomer","Lukovica","Majsperk","Markovci","Mislinja","Osilnica","Podvelka","Poljcane","Postojna","Preddvor","Prevalje","Trbovlje","Turnisce","Vuzenica","Ankaran","Brezice","Cankova","Domzale","Dornava","Hajdina","Kobarid","Kobilje","Kocevje","Komenda","Kungota","Logatec","Maribor","Medvode","Metlika","Moravce","Mozirje","Nazarje","Odranci","Pesnica","Polzela","Prebold","Puconci","Radenci","Ribnica","Rogatec","Salovci","Sentilj","Sentjur","Sevnica","Skocjan","Solcava","Sostanj","Trebnje","Triglav","Velenje","Vitanje","Vransko","Vrhnika","Bohinj","Cerkno","Divaca","Dobrna","Duplek","Horjul","Idrija","Kamnik","Kostel","Lenart","Litija","Ljubno","Makole","Menges","Mezica","Radece","Sencur","Sezana","Starse","Straza","Tisina","Tolmin","Verzej","Vipava","Vodice","Vojnik","Zetale","Apace","Bloke","Bovec","Celje","Dobje","Gorje","Hodos","Komen","Koper","Kozje","Kranj","Krsko","Kuzma","Lasko","Mirna","Naklo","Ormoz","Pivka","Semic","Store","Tabor","Trzic","Trzin","Videm","Zalec","Zavrc","Zrece","Bled","Brda","Grad","Luce","Muta","Ptuj","Ruse","Ziri","Ig"],"neighbours":["Austria","Austrian","Croatia","Croatian","Hungary","Hungarian","Italy","Italian"]},
+ "fields": {
+  "climate": "Mediterranean climate on the coast, continental climate with mild to hot summers and cold winters in the plateaus and valleys to the east",
+  "terrain": "a short southwestern coastal strip of Karst topography on the Adriatic; an alpine mountain region lies adjacent to Italy and Austria in the north; mixed mountains and valleys with numerous rivers to the east",
+  "hazards": "flooding; earthquakes",
+  "heights": {"high":2864,"low":0,"mean":492},
+  "coast": 46.6,
+  "borders": {"total":1211,"lengths":[600,299,218,94]},
+  "area": 20273,
+  "resources": "lignite, lead, zinc, building stone, hydropower, forests",
+  "farm": "milk, maize, wheat, barley, grapes, chicken, potatoes, beef, apples, pork",
+  "exports": "packaged medicine, cars, refined petroleum, vehicle parts/accessories, plastic products",
+  "industries": "ferrous metallurgy and aluminum products, lead and zinc smelting; electronics (including military electronics), trucks, automobiles, electric power equipment, wood products, textiles, chemicals…",
+  "city": {"millions":0.286,"capital":true},
+  "languages": "Slovene (official) 87.7%, Croatian 2.8%, Serbo-Croatian 1.8%, Bosnian 1.6%, Serbian 1.6%, Hungarian 0.4% (official, only in municipalities where Hungarian nationals reside), Italian 0.2% (official…",
+  "religions": "Catholic 69%, Orthodox 4%, Muslim 3%, Christian 1%, other 3%, atheist 14%, non-believer/agnostic 4%, refused to answer 2%",
+  "age": {"median":46,"life":82.2},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":90,"how":"all directly elected","term":"4 years"},{"seats":40,"how":"all indirectly elected","term":"5 years"}]},
+  "independence": {"date":"25 June 1991","event":"","from":"Yugoslavia"},
+  "regions": "200 municipalities and 12 urban municipalities",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day/Statehood Day","date":"25 June"},
+  "military": "18-30 years of age for voluntary military service for men and women; recruits sign up for 3-, 5-, or 10-year service contracts; no conscription",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD"],
+  "colours": "white, blue, red"
+ }
+}

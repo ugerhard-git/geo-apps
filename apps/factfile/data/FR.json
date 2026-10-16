@@ -1,0 +1,33 @@
+{
+ "code": "FR",
+ "names": {"country":["République française","French Republic","France"],"people":["Frenchwoman","Frenchman","French"],"places":["Provence-Alpes-Côte d'Azur","Marseille-Aix-en-Provence","Bourgogne-Franche-Comté","Fête de la Fédération","Auvergne-Rhône-Alpes","Centre-Val de Loire","Nouvelle-Aquitaine","Rhone River delta","Pays de la Loire","Hauts-de-France","Ile-de-France","Lake Geneva","Guadeloupe","Martinique","Grand Est","Normandie","Occitanie","Bordeaux","Bretagne","Toulouse","Mayotte","Réunion","Guyane","Corse","Lille","Loire","Paris","Rhine","Lyon","Rhin"],"neighbours":["Switzerland","Swiss","Luxembourg","Andorra","Andorran","Belgium","Belgian","Germany","German","Monaco","Monegasque or Monacan","Italy","Italian","Spain","Spanish"]},
+ "fields": {
+  "climate": "metropolitan France: generally cool winters and mild summers, but mild winters and hot summers along the Mediterranean; occasional strong, cold, dry, north-to-northwesterly wind known as the mistral",
+  "terrain": "metropolitan France: mostly flat plains or gently rolling hills in north and west; remainder is mountainous, especially Pyrenees in south, Alps in east\nFrench Guiana: low-lying coastal plains rising to hills and small…",
+  "hazards": "metropolitan France: flooding; avalanches; midwinter windstorms; drought; forest fires in south\noverseas departments: hurricanes (cyclones); flooding…",
+  "heights": {"high":null,"low":-2,"mean":375},
+  "coast": 4853,
+  "borders": {"total":3956,"lengths":[646,556,525,476,418,69,55,6]},
+  "area": 643801,
+  "lake": {"sqkm":580,"kind":"fresh water"},
+  "river": {"km":1233,"shared":3},
+  "resources": "metropolitan France: coal, iron ore, bauxite, zinc, uranium, antimony, arsenic, potash, feldspar, fluorspar, gypsum, timber, arable land, fish…",
+  "farm": "wheat, sugar beets, milk, maize, barley, potatoes, grapes, rapeseed, pork, sunflower seeds",
+  "exports": "aircraft, cars, packaged medicine, gas turbines, vehicle parts/accessories",
+  "industries": "machinery, chemicals, automobiles, metallurgy, aircraft, electronics, textiles, food processing, tourism",
+  "city": {"millions":11.208,"capital":true},
+  "languages": "French (official) 100%, declining regional dialects and languages (Provençal, Breton, Alsatian, Corsican, Catalan, Basque, Flemish, Occitan, Picard)",
+  "religions": "Roman Catholic 47%, Muslim 4%, Protestant 2%, Buddhist 2%, Orthodox 1%, Jewish 1%, other 1%, none 33%, unspecified 9%",
+  "age": {"median":42.7,"life":82.6},
+  "system": {"text":"semi-presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":577,"how":"all directly elected","term":"5 years"},{"seats":348,"how":"all indirectly elected","term":"6 years"}]},
+  "independence": {"date":"486","event":"Frankish tribes unified under Merovingian kingship","from":""},
+  "regions": "18 regions",
+  "legal": "civil law; review of administrative but not legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Fête de la Fédération","date":"14 July"},
+  "military": "generally 17-30 years of age for both men and women with some variations by service, position, and enlisted versus officer; 17-40 for National Gendarmerie; basic service contract is for 12 months…",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","G7","G20","Francophonie"],
+  "colours": "blue, white, red"
+ }
+}

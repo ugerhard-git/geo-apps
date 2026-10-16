@@ -1,0 +1,32 @@
+{
+ "code": "DJ",
+ "names": {"country":["République de Djibouti","Republic of Djibouti","Jumhuriyat Jibuti","Djibouti","Jibuti"],"people":["Djiboutians","Djiboutian"],"places":["Independence Day","Abhe Bid Hayk","Ali Sabieh","Moussa Ali","Lac Assal","Tadjourah","Abhe Bad","Djibouti","Dikhil","Obock","Arta"],"neighbours":["Ethiopia","Ethiopian","Eritrea","Eritrean","Somalia","Somali"]},
+ "fields": {
+  "climate": "desert; torrid, dry",
+  "terrain": "coastal plain and plateau separated by central mountains",
+  "hazards": "earthquakes; droughts; occasional cyclonic disturbances from the Indian Ocean bring heavy rains and flash floods; volcanism: experiences limited volcanic activity; Ardoukoba (298 m) last erupted in 1978…",
+  "heights": {"high":2021,"low":-155,"mean":430},
+  "coast": 314,
+  "borders": {"total":528,"lengths":[342,125,61]},
+  "area": 23200,
+  "lake": {"sqkm":780,"kind":"salt water"},
+  "resources": "potential geothermal power, gold, clay, granite, limestone, marble, salt, diatomite, gypsum, pumice, petroleum",
+  "farm": "vegetables, beans, milk, beef, camel milk, lemons/limes, goat meat, lamb/mutton, tomatoes, beef offal",
+  "exports": "raw sugar, seed oils, cars, palm oil, rice",
+  "industries": "construction, agricultural processing, shipping",
+  "city": {"millions":0.6,"capital":true},
+  "languages": "French (official), Arabic (official), Somali, Afar",
+  "religions": "Sunni Muslim 94% (nearly all Djiboutians), other 6% (mainly foreign-born residents - Shia Muslim, Christian, Hindu, Jewish, Baha'i, and atheist)",
+  "age": {"median":26.7,"life":65.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":65,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"27 June 1977","event":"","from":"France"},
+  "regions": "6 districts",
+  "legal": "mixed system based primarily on the French civil code (as it existed in 1997), Islamic religious law (in matters of family law and successions), and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"27 June"},
+  "military": "18-26 years of age for voluntary military service",
+  "memberships": ["Arab League","Islamic Cooperation","African Union","COMESA","Francophonie"],
+  "colours": "light blue, green, white, red"
+ }
+}

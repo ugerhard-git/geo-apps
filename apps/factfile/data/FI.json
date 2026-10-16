@@ -1,0 +1,32 @@
+{
+ "code": "FI",
+ "names": {"country":["Republic of Finland","Republiken Finland","Suomen tasavalta","Finland","Suomi"],"people":["Finnish","Finns","Finn"],"places":["Halti (alternatively Haltia, Haltitunturi, Haltiatunturi)","Mellersta Osterbotten   [Central Ostrobothnia]","Norra Osterbotten   [North Ostrobothnia]","Sodra Osterbotten   [South Ostrobothnia]","Egentliga Finland   [Southwest Finland]","Mellersta Finland   [Central Finland]","Norra Karelen   [North Karelia]","Sodra Karelen   [South Karelia]","Norra Savolax   [North Savo]","Osterbotten   [Ostrobothnia]","Sodra Savolax   [South Savo]","Birkaland   [Tampere]","Egentliga Tavastland","Paijanne-Tavastland","Nyland   [Newland]","Pohjois-Pohjanmaa","Independence Day","Etela-Pohjanmaa","Keski-Pohjanmaa","Pohjois-Karjala","Varsinais-Suomi","Etela-Karjala","Kymmenedalen","Pohjois-Savo","Keski-Suomi","Kymenlaakso","Paijat-Hame","Ahvenanmaa","Baltic Sea","Etela-Savo","Inarijarvi","Kajanaland","Kanta-Hame","Oulujarvi","Pirkanmaa","Pohjanmaa","Satakunta","Helsinki","Lappland","Paijanne","Pielinen","Uusimaa","Kainuu","Saimaa","Aland","Lappi"],"neighbours":["Norway","Norwegian","Russia","Russian","Sweden","Swedish"]},
+ "fields": {
+  "climate": "cold temperate; potentially subarctic but comparatively mild because of moderating influence of the North Atlantic Current, Baltic Sea, and more than 60,000 lakes",
+  "terrain": "mostly low, flat to rolling plains interspersed with lakes and low hills",
+  "hazards": "severe winters in the north",
+  "heights": {"high":1328,"low":0,"mean":164},
+  "coast": 1250,
+  "borders": {"total":2563,"lengths":[1309,709,545]},
+  "area": 338145,
+  "lake": {"sqkm":1760,"kind":"fresh water"},
+  "resources": "timber, iron ore, copper, lead, zinc, chromite, nickel, gold, silver, limestone",
+  "farm": "milk, barley, oats, wheat, potatoes, sugar beets, pork, chicken, peas, rye",
+  "exports": "paper, refined petroleum, steel, wood pulp, ships",
+  "industries": "metals and metal products, electronics, machinery and scientific instruments, shipbuilding, pulp and paper, foodstuffs, chemicals, textiles, clothing",
+  "city": {"millions":1.338,"capital":true},
+  "languages": "Finnish (official) 85.9%, Swedish (official) 5.2%, Russian 1.7%, other 7.2%",
+  "religions": "Lutheran 66.6%, Greek Orthodox 1.1%, other 1.7%, none 30.6%",
+  "age": {"median":44,"life":82.2},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":200,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"6 December 1917","event":"","from":"Russia"},
+  "regions": "19 regions",
+  "legal": "civil law system based on the Swedish model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"6 December"},
+  "military": "all Finnish men are obligated to serve 5.5-12 months of service within a branch of the military or the Border Guard upon reaching the age of 18 (length of service depends on the type of duty)…",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","Nordic Council"],
+  "colours": "blue, white"
+ }
+}

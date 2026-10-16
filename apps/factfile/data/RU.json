@@ -1,0 +1,33 @@
+{
+ "code": "RU",
+ "names": {"country":["Rossiyskaya Federatsiya","Russian Federation","Rossiya","Russia"],"people":["Russians","Russian"],"places":["Gora El'brus (highest point in Europe)","Saint Petersburg [Sankt-Peterburg]","Zabaykalsk [Transbaikal]","Karachayevo-Cherkesiya","Primorskiy [Maritime]","Yevreyskaya [Jewish]","Kabardino-Balkariya","Khanty-Mansi-Yugra","Ozero Malyye Chany","Ural river source","Amur river mouth","Nizhniy Novgorod","Saint Petersburg","Sakha [Yakutiya]","Curonian Lagoon","Moscow [Moskva]","Ozero Vygozero","Yenisey-Angara","Bashkortostan","North Ossetia","Yamalo-Nenets","Yekaterinburg","Ozero Beloye","river source","Arkhangelsk","Caspian Sea","Chelyabinsk","Ingushetiya","Kaliningrad","Krasnoyarsk","Lake Baikal","Lake Khanka","Lake Ladoga","Lake Peipus","Novosibirsk","Chuvashiya","Khabarovsk","Lake Onega","Russia Day","Sverdlovsk","Astrakhan","Buryatiya","Kalmykiya","Kamchatka","Khakasiya","Krasnodar","Leningrad","Mordoviya","Ob-Irtysh","Stavropol","Tatarstan","Udmurtiya","Ulyanovsk","Volgograd","Yaroslavl","Belgorod","Chechnya","Chukotka","Dagestan","Kareliya","Kemerovo","Kostroma","Mariy-El","Murmansk","Novgorod","Orenburg","Sakhalin","Smolensk","Vladimir","Voronezh","Adygeya","Bryansk","Dnieper","Irkutsk","Ivanovo","Lipetsk","Magadan","Pechora","Saratov","Vologda","Kaluga","Kolyma","Kurgan","Moscow","Nenets","Rostov","Ryazan","Samara","Tambov","Tyumen","Altay","Dnepr","Kazan","Kirov","Kursk","Penza","Pskov","Tomsk","Volga","Amur","Komi","Lena","Omsk","Orel","Perm","Tula","Tver","Tyva","Don"],"neighbours":["North Korea","Korean","Azerbaijan","Azerbaijani","Kazakhstan","Kazakhstani","Lithuania","Lithuanian","Mongolia","Mongolian","Belarus","Belarusian","Estonia","Estonian","Finland","Finnish","Georgia","Georgian","Ukraine","Ukrainian","Latvia","Latvian","Norway","Norwegian","Poland","Polish","China","Chinese"]},
+ "fields": {
+  "climate": "ranges from steppes in the south through humid continental in much of European Russia; subarctic in Siberia to tundra climate in the polar north; winters vary from cool along Black Sea coast to frigid in Siberia…",
+  "terrain": "broad plain with low hills west of Urals; vast coniferous forest and tundra in Siberia; uplands and mountains along southern border regions",
+  "hazards": "permafrost over much of Siberia is a major impediment to development; volcanic activity in the Kuril Islands; volcanoes and earthquakes on the Kamchatka Peninsula; spring floods and summer/autumn forest fires in Siberia and parts of European Russia…",
+  "heights": {"high":5642,"low":-28,"mean":600},
+  "coast": 37653,
+  "borders": {"total":22407,"lengths":[7644,4133,3452,1944,1312,1309,894,338,332,324,261,209,191,18]},
+  "area": 17098242,
+  "lake": {"sqkm":374000,"kind":"salt water"},
+  "river": {"km":5539,"shared":0},
+  "resources": "wide natural-resource base including major deposits of oil, natural gas, coal, and many strategic minerals, bauxite, reserves of rare earth elements, timber",
+  "farm": "wheat, sugar beets, milk, barley, potatoes, sunflower seeds, maize, soybeans, chicken, pork",
+  "exports": "crude petroleum, refined petroleum, natural gas, coal, fertilizers",
+  "industries": "complete range of mining and extractive industries producing coal, oil, gas, chemicals, and metals; all forms of machine building from rolling mills to high-performance aircraft and space vehicles…",
+  "city": {"millions":12.68,"capital":true},
+  "languages": "Russian (official) 85.7%, Tatar 3.2%, Chechen 1%, other 10.1%",
+  "religions": "Russian Orthodox 15-20%, Muslim 10-15%, other Christian 2%",
+  "age": {"median":42.3,"life":72.3},
+  "system": {"text":"semi-presidential federation","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":450,"how":"all directly elected","term":"5 years"},{"seats":170,"how":"all appointed","term":""}]},
+  "independence": {"date":"25 December 1991","event":"","from":"Soviet Union"},
+  "regions": "46 provinces, 21 republics, 4 autonomous districts, 9 federal subjects, 2 federal cities, and 1 autonomous province",
+  "legal": "civil law system; judicial review of legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Russia Day","date":"12 June"},
+  "military": "18-30 years of age for compulsory service for men; 18-65 years of age for voluntary/contractual service; women and non-Russian citizens (18-30) may volunteer; minimum 12-month service obligation",
+  "memberships": ["G20","BRICS","Shanghai Cooperation","CIS","Eurasian Economic Union","CSTO"],
+  "colours": "white, blue, red"
+ }
+}

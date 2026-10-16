@@ -1,0 +1,33 @@
+{
+ "code": "TR",
+ "names": {"country":["Republic of Turkey","Turkey Cumhuriyeti","Turkey"],"people":["Turkish","Turks","Turk"],"places":["Euphrates river source","Tigris river source","Mediterranean Sea","Afyonkarahisar","Kahramanmaras","Lake Beysehir","Lake Egridir","Mount Ararat","Republic Day","Diyarbakir","Kirklareli","Balikesir","Canakkale","Eskisehir","Gaziantep","Gumushane","Kastamonu","Kirikkale","Sanliurfa","Zonguldak","Adiyaman","Erzincan","Istanbul","Kirsehir","Lake Tuz","Lake Van","Nevsehir","Osmaniye","Tekirdag","Aksaray","Antalya","Ardahan","Bayburt","Bilecik","Cankiri","Denizli","Erzurum","Giresun","Hakkari","Isparta","Karabuk","Karaman","Kayseri","Kocaeli","Kutahya","Malatya","Sakarya","Trabzon","Tunceli","Amasya","Ankara","Artvin","Bartin","Batman","Bingol","Bitlis","Burdur","Edirne","Elazig","Manisa","Mardin","Mersin","Samsun","Sirnak","Yalova","Yozgat","Adana","Aydin","Bursa","Corum","Duzce","Hatay","Igdir","Izmir","Kilis","Konya","Mugla","Nigde","Siirt","Sinop","Sivas","Tokat","Agri","Bolu","Kars","Ordu","Rize","Usak","Mus","Van"],"neighbours":["Azerbaijan","Azerbaijani","Bulgaria","Bulgarian","Armenia","Armenian","Georgia","Georgian","Greece","Greek","Syria","Syrian","Iran","Iranian","Iraq","Iraqi"]},
+ "fields": {
+  "climate": "temperate; hot, dry summers with mild, wet winters; harsher in interior",
+  "terrain": "high central plateau (Anatolia); narrow coastal plain; several mountain ranges",
+  "hazards": "severe earthquakes, especially in northern Turkey, along an arc extending from the Sea of Marmara to Lake Van; landslides; flooding; volcanism: limited volcanic activity…",
+  "heights": {"high":5137,"low":0,"mean":1132},
+  "coast": 7200,
+  "borders": {"total":2816,"lengths":[899,534,367,311,273,223,192,17]},
+  "area": 783562,
+  "lake": {"sqkm":3740,"kind":"salt water"},
+  "river": {"km":3596,"shared":3},
+  "resources": "coal, iron ore, copper, chromium, antimony, mercury, gold, barite, borate, celestite (strontium), emery, feldspar, limestone, magnesite, marble, perlite, pumice, pyrites (sulfur), clay, arable land…",
+  "farm": "sugar beets, wheat, milk, tomatoes, barley, maize, potatoes, apples, grapes, watermelons",
+  "exports": "garments, cars, gold, refined petroleum, vehicle parts/accessories",
+  "industries": "textiles, food processing, automobiles, electronics, mining (coal, chromate, copper, boron), steel, petroleum, construction, lumber, paper",
+  "city": {"millions":15.848,"capital":false},
+  "languages": "Turkish (official), Kurdish, other minority languages",
+  "religions": "Muslim 99.8% (mostly Sunni), other 0.2% (mostly Christians and Jews)",
+  "age": {"median":34.4,"life":76.7},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":600,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"29 October 1923","event":"republic proclaimed, succeeding the Ottoman Empire","from":""},
+  "regions": "81 provinces",
+  "legal": "civil law system based on various European systems, notably the Swiss civil code",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Republic Day","date":"29 October"},
+  "military": "military service is compulsory for Turkish men 20-41 for a period of 6-12 months; men and women may volunteer",
+  "memberships": ["NATO","OECD","G20","Islamic Cooperation"],
+  "colours": "red, white"
+ }
+}

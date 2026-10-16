@@ -1,0 +1,32 @@
+{
+ "code": "PG",
+ "names": {"country":["Independent State of Papua New Guinea","Papua New Guinea","Papuaniugini","PNG"],"people":["Papua New Guineans","Papua New Guinean"],"places":["Sepik river source and mouth","Fly river source and mouth","Southern Highlands","Eastern Highlands","Western Highlands","East New Britain","Independence Day","National Capital","West New Britain","Mount Wilhelm","Pacific Ocean","Bougainville","Port Moresby","New Ireland","East Sepik","West Sepik","Milne Bay","Northern","Central","Western","Chimbu","Jiwaka","Madang","Morobe","Manus","Enga","Gulf","Hela"],"neighbours":["Indonesia","Indonesian"]},
+ "fields": {
+  "climate": "tropical; northwest monsoon (December to March), southeast monsoon (May to October); slight seasonal temperature variation",
+  "terrain": "mostly mountains with coastal lowlands and rolling foothills",
+  "hazards": "active volcanism; frequent and sometimes severe earthquakes; mud slides; tsunamis; volcanism: severe volcanic activity…",
+  "heights": {"high":4509,"low":0,"mean":667},
+  "coast": 5152,
+  "borders": {"total":824,"lengths":[824]},
+  "area": 462840,
+  "river": {"km":1126,"shared":1},
+  "resources": "gold, copper, silver, natural gas, timber, oil, fisheries",
+  "farm": "oil palm fruit, coconuts, bananas, fruits, sweet potatoes, game meat, yams, root vegetables, vegetables, sugarcane",
+  "exports": "natural gas, gold, copper ore, palm oil, nickel",
+  "industries": "oil and gas; mining (gold, copper, and nickel); palm oil processing; plywood and wood chip production; copra crushing; construction; tourism; fishing…",
+  "city": {"millions":0.41,"capital":true},
+  "languages": "Tok Pisin (official), English (official), Hiri Motu (official), some 839 living indigenous languages are spoken (about 12% of the world's total)",
+  "religions": "Protestant 64.3% (Evangelical Lutheran 18.4%, Seventh Day Adventist 12.9%, Pentecostal 10.4%, United Church 10.3%, Evangelical Alliance 5.9%, Anglican 3.2%, Baptist 2.8%, Salvation Army 0.4%), Roman…",
+  "age": {"median":21.9,"life":70.1},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":118,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"16 September 1975","event":"","from":"Australia-administered UN trusteeship"},
+  "regions": "20 provinces, 1 autonomous region, and 1 district",
+  "legal": "mixed system of English common law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"16 September"},
+  "military": "18-27 (30 for officers) for voluntary military service for men and women; no conscription",
+  "memberships": ["Pacific Islands Forum","Commonwealth"],
+  "colours": "red, black"
+ }
+}

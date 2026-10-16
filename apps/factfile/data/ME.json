@@ -1,0 +1,32 @@
+{
+ "code": "ME",
+ "names": {"country":["Montenegro","Crna Gora"],"people":["Montenegrins","Montenegrin"],"places":["Statehood Day, 13 July (1878","Adriatic Sea","Bijelo Polje","Lake Scutari","Andrijevica","Danilovgrad","Herceg Novi","Zia Kolata","Podgorica","Mojkovac","Petnjica","Pljevlja","Cetinje","Gusinje","Kolasin","Pluzine","Zabljak","Berane","Niksic","Rozaje","Savnik","Ulcinj","Budva","Kotor","Tivat","Plav","Tuzi","Zeta","Bar"],"neighbours":["Bosnia and Herzegovina","Bosnian","Albania","Albanian","Croatia","Croatian","Kosovo","Kosovan","Serbia","Serbian"]},
+ "fields": {
+  "climate": "Mediterranean climate, hot dry summers and autumns and relatively cold winters with heavy snowfalls inland",
+  "terrain": "highly indented coastline with narrow coastal plain backed by rugged high limestone mountains and plateaus",
+  "hazards": "destructive earthquakes",
+  "heights": {"high":2534,"low":0,"mean":1086},
+  "coast": 293.5,
+  "borders": {"total":680,"lengths":[242,186,157,76,19]},
+  "area": 13812,
+  "lake": {"sqkm":400,"kind":"fresh water"},
+  "resources": "bauxite, hydroelectricity",
+  "farm": "milk, potatoes, watermelons, grapes, sheep milk, cabbages, oranges, eggs, goat milk, figs",
+  "exports": "electricity, aluminum, copper ore, aluminum ore, packaged medicine",
+  "industries": "steelmaking, aluminum, agricultural processing, consumer goods, tourism",
+  "city": {"millions":0.177,"capital":true},
+  "languages": "Serbian 42.9%, Montenegrin (official) 37%, Bosnian 5.3%, Albanian 5.3%, Serbo-Croat 2%, other 3.5%, unspecified 4%",
+  "religions": "Orthodox 72.1%, Muslim 19.1%, Catholic 3.4%, atheist 1.2%, other 1.5%, unspecified 2.6%",
+  "age": {"median":41.5,"life":78.2},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":81,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"3 June 2006","event":"","from":"State Union of Serbia and Montenegro"},
+  "regions": "25 municipalities",
+  "legal": "civil law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Statehood Day, 13 July (1878","date":"1941)"},
+  "military": "18-30 for voluntary military service; conscription abolished in 2006",
+  "memberships": ["NATO"],
+  "colours": "red, gold"
+ }
+}

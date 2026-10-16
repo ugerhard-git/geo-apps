@@ -1,0 +1,30 @@
+{
+ "code": "DK",
+ "names": {"country":["Kingdom of Denmark","Kongeriget Danmark","Danmark","Denmark"],"people":["Danish","Danes","Dane"],"places":["Constitution Day","Store Mollehoj","Hovedstaden","Midtjylland","Nordjylland","Copenhagen","Lammefjord","Syddanmark","Sjaelland"],"neighbours":["Germany","German","Canada","Canadian"]},
+ "fields": {
+  "climate": "temperate; humid and overcast; mild, windy winters and cool summers",
+  "terrain": "low and flat to gently rolling plains",
+  "hazards": "flooding is a threat in some areas of the country (e.g., parts of Jutland, along the southern coast of the island of Lolland) that are protected from the sea by a system of dikes",
+  "heights": {"high":171,"low":-7,"mean":34},
+  "coast": 7314,
+  "borders": {"total":141,"lengths":[140,1.3]},
+  "area": 43094,
+  "resources": "petroleum, natural gas, fish, arable land, salt, limestone, chalk, stone, gravel and sand",
+  "farm": "milk, wheat, potatoes, barley, sugar beets, pork, rapeseed, rye, oats, chicken",
+  "exports": "packaged medicine, fish, vaccines, refined petroleum, pork",
+  "industries": "wind turbines, pharmaceuticals, medical equipment, shipbuilding and refurbishment, iron, steel, nonferrous metals, chemicals, food processing, machinery and transportation equipment, textiles and…",
+  "city": {"millions":1.381,"capital":true},
+  "languages": "Danish, Faroese, Greenlandic (an Inuit dialect), German (small minority); note - English is the predominant second language",
+  "religions": "Evangelical Lutheran (official) 71.4%, Muslim 4.3%, other/none/unspecified (denominations include Roman Catholic, Jehovah's Witness, Serbian Orthodox Christian, Jewish, Baptist, Buddhist, Church of…",
+  "age": {"median":42.2,"life":82.1},
+  "system": {"text":"parliamentary constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":179,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"ca. 965","event":"unified and Christianized under Harald I GORMSSON","from":""},
+  "legal": "civil law; judicial review of legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"5 June"},
+  "military": "18 years of age for compulsory and voluntary military service for men and women; draftees serve 11 months, including five months of basic training, followed by six months in an operational unit",
+  "memberships": ["EU","Schengen","NATO","OECD","Nordic Council"],
+  "colours": "red, white"
+ }
+}

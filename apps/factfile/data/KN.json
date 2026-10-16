@@ -1,0 +1,30 @@
+{
+ "code": "KN",
+ "names": {"country":["Federation of Saint Kitts and Nevis","Saint Kitts and Nevis"],"people":["Kittitians","Kittitian","Nevisians","Nevisian"],"places":["Christ Church Nichola Town","Saint Thomas Middle Island","Saint George Basseterre","Saint George Gingerland","Saint Anne Sandy Point","Saint Paul Charlestown","Saint Peter Basseterre","Trinity Palmetto Point","Saint John Capesterre","Saint Paul Capesterre","Saint James Windward","Saint Thomas Lowland","Saint John Figtree","Independence Day","Saint Mary Cayon","Mount Liamuiga","Caribbean Sea","Basseterre"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical, tempered by constant sea breezes; little seasonal temperature variation; rainy season (May to November)",
+  "terrain": "volcanic with mountainous interiors",
+  "hazards": "hurricanes (July to October); volcanism: Mount Liamuiga (1,156 m) on Saint Kitts and Nevis Peak (985 m) on Nevis are part of the volcanic-island arc of the Lesser Antilles, which extends from Saba in the north to Grenada in the south",
+  "heights": {"high":1156,"low":0,"mean":null},
+  "coast": 135,
+  "borders": {"total":0,"lengths":[]},
+  "area": 261,
+  "resources": "arable land",
+  "farm": "coconuts, tropical fruits, root vegetables, vegetables, eggs, pulses, sweet potatoes, watermelons, cucumbers/gherkins, tomatoes",
+  "exports": "ships, measuring instruments, beer, electrical transformers, electrical control boards",
+  "industries": "tourism, cotton, salt, copra, clothing, footwear, beverages",
+  "city": {"millions":0.014,"capital":true},
+  "languages": "English (official)",
+  "age": {"median":39.1,"life":77.6},
+  "system": {"text":"federal parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":16,"how":"","term":"5 years"}]},
+  "independence": {"date":"19 September 1983","event":"","from":"UK"},
+  "regions": "14 parishes",
+  "legal": "English common law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"19 September"},
+  "military": "18 years of age for voluntary military service for men and women (under 18 with written parental permission); no conscription",
+  "memberships": ["CARICOM","Commonwealth"],
+  "colours": "green, yellow, red, black, white"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code": "PK",
+ "names": {"country":["Islamic Republic of Pakistan","Jamhuryat Islami Pakistan","Pakistan"],"people":["Pakistanis","Pakistani"],"places":["Islamabad Capital Territory","K2 (Mt. Godwin-Austen)","Pakistan Day, 23 March","Chenab river mouth","Khyber Pakhtunkhwa","Sutlej river mouth","Indus river mouth","Gilgit-Baltistan","Azad Kashmir","Arabian Sea","Balochistan","Faisalabad","Gujranwala","Islamabad","Peshawar","Karachi","Lahore","Punjab","Sindh"],"neighbours":["Afghanistan","Afghan","China","Chinese","India","Indian","Iran","Iranian"]},
+ "fields": {
+  "climate": "mostly hot, dry desert; temperate in northwest; arctic in north",
+  "terrain": "divided into three major geographic areas: the northern highlands, the Indus River plain in the center and east, and the Balochistan Plateau in the south and west",
+  "hazards": "frequent earthquakes, occasionally severe especially in north and west; flooding along the Indus after heavy rains (July and August)",
+  "heights": {"high":8611,"low":0,"mean":900},
+  "coast": 1046,
+  "borders": {"total":7257,"lengths":[3190,2670,959,438]},
+  "area": 796095,
+  "river": {"km":3610,"shared":2},
+  "resources": "arable land, extensive natural gas reserves, limited petroleum, poor quality coal, iron ore, copper, salt, limestone",
+  "farm": "sugarcane, bison milk, wheat, milk, rice, maize, potatoes, cotton, mangoes/guavas, chicken",
+  "exports": "garments, fabric, refined petroleum, rice, cotton fabric",
+  "industries": "textiles and apparel, food processing, pharmaceuticals, surgical instruments, construction materials, paper products, fertilizer, shrimp",
+  "city": {"millions":17.236,"capital":false},
+  "languages": "Punjabi 38.8%, Pashto (alternate name, Pashtu) 18.2%, Sindhi 14.6%, Saraiki (a Punjabi variant) 12.2%, Urdu 7.1%, Balochi 3%, Hindko 2.4%, Brahui 1.2%, other 2.4%",
+  "religions": "Muslim 96.4%, Hindu 1.6%, Christian 1.4%; less than 1%: scheduled castes, Qadiani/Ahmadi, other, Sikh.",
+  "age": {"median":23.2,"life":70.3},
+  "system": {"text":"federal parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":336,"how":"all directly elected","term":"5 years"},{"seats":96,"how":"all indirectly elected","term":"6 years"}]},
+  "independence": {"date":"14 August 1947","event":"","from":"British India"},
+  "regions": "4 provinces, 2 Pakistan-administered areas, and 1 capital territory",
+  "legal": "common law system with Islamic law influence",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Pakistan Day, 23 March","date":"also referred to as Pakistan Resolution Day or Republic Day"},
+  "military": "16-28 years of age for voluntary military service for men and women; lower and upper age limits vary by military branch, position, and role; personnel cannot be deployed for combat until age 18",
+  "memberships": ["Islamic Cooperation","SAARC","Shanghai Cooperation","Commonwealth"],
+  "colours": "green, white"
+ }
+}

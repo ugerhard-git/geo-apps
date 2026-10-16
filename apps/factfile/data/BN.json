@@ -1,0 +1,31 @@
+{
+ "code": "BN",
+ "names": {"country":["Negara Brunei Darussalam","Brunei Darussalam","Brunei"],"people":["Bruneians","Bruneian"],"places":["Bandar Seri Begawan","Brunei dan Muara","South China Sea","National Day","Bukit Pagon","Temburong","Belait","Tutong"],"neighbours":["Malaysia","Malaysian"]},
+ "fields": {
+  "climate": "tropical; hot, humid, rainy",
+  "terrain": "flat coastal plain rises to mountains in east; hilly lowland in west",
+  "hazards": "typhoons, earthquakes, and severe flooding are rare",
+  "heights": {"high":1850,"low":0,"mean":478},
+  "coast": 161,
+  "borders": {"total":266,"lengths":[266]},
+  "area": 5765,
+  "resources": "petroleum, natural gas, timber",
+  "farm": "chicken, eggs, fruits, vegetables, rice, bananas, beans, cucumbers/gherkins, pineapples, beef",
+  "exports": "refined petroleum, natural gas, crude petroleum, hydrocarbons, fertilizers",
+  "industries": "petroleum, petroleum refining, liquefied natural gas, construction, agriculture, aquaculture, transportation",
+  "city": {"millions":0.266682,"capital":true},
+  "languages": "Malay (Bahasa Melayu) (official), English, Chinese dialects",
+  "religions": "Muslim (official) 82.1%, Christian 6.7%, Buddhist 6.3%, other 4.9%",
+  "age": {"median":32.6,"life":78.9},
+  "system": {"text":"absolute monarchy or sultanate","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":45,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"1 January 1984","event":"","from":"UK"},
+  "regions": "4 districts",
+  "legal": "mixed legal system based on English common law and Islamic law",
+  "suffrage": "18 years of age for village elections; universal",
+  "holiday": {"name":"National Day","date":"23 February"},
+  "military": "18-25 years of age for voluntary military service",
+  "memberships": ["Islamic Cooperation","ASEAN","Commonwealth"],
+  "colours": "yellow, white, black"
+ }
+}

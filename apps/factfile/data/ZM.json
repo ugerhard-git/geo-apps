@@ -1,0 +1,33 @@
+{
+ "code": "ZM",
+ "names": {"country":["Republic of Zambia","Zambia"],"people":["Zambians","Zambian"],"places":["Lake Bangweulu - 4,000","Zambezi river source","Congo river source","Independence Day","Lake Tanganyika","Mafinga Central","North-Western","Zambezi river","Copperbelt","Lake Mweru","Muchinga","Northern","Southern","Central","Eastern","Luapula","Western","Lusaka","Kitwe"],"neighbours":["Democratic Republic of the Congo","Mozambique","Mozambican","Botswana","Motswana (singular)","Tanzania","Tanzanian","Zimbabwe","Zimbabwean","Namibia","Namibian","Angola","Angolan","Malawi","Malawian"]},
+ "fields": {
+  "climate": "tropical; modified by altitude; rainy season (October to April)",
+  "terrain": "mostly high plateau with some hills and mountains",
+  "hazards": "periodic drought; tropical storms (November to April)",
+  "heights": {"high":2330,"low":329,"mean":1138},
+  "coast": 0,
+  "borders": {"total":6043.15,"lengths":[2332,1065,847,763,439,353,244,0.15]},
+  "area": 752618,
+  "lake": {"sqkm":32000,"kind":"fresh water"},
+  "river": {"km":4700,"shared":3},
+  "resources": "copper, cobalt, zinc, lead, coal, emeralds, gold, silver, uranium, hydropower",
+  "farm": "sugarcane, cassava, maize, soybeans, milk, vegetables, wheat, groundnuts, sweet potatoes, beef",
+  "exports": "raw copper, refined copper, gold, precious stones, electricity",
+  "industries": "copper mining and processing, emerald mining, construction, foodstuffs, beverages, chemicals, textiles, fertilizer, horticulture",
+  "city": {"millions":3.181,"capital":true},
+  "languages": "Bemba 33.4%, Nyanja 14.7%, Tonga 11.4%, Lozi 5.5%, Chewa 4.5%, Nsenga 2.9%, Tumbuka 2.5%, Lunda (North Western) 1.9%, Kaonde 1.8%, Lala 1.8%, Lamba 1.8%, English (official) 1.7%, Luvale 1.5%, Mambwe…",
+  "religions": "Protestant 75.3%, Roman Catholic 20.2%, other 2.7% (includes Muslim, Buddhist, Hindu, and Baha'i), none 1.8%",
+  "age": {"median":19,"life":66.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":167,"how":"","term":"5 years"}]},
+  "independence": {"date":"24 October 1964","event":"","from":"UK"},
+  "regions": "10 provinces",
+  "legal": "mixed system of English common law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"24 October"},
+  "military": "18-25 years of age (17 with parental consent) for voluntary military service for men and women; no conscription; initial service of 7 years followed by 5 in the Reserves",
+  "memberships": ["African Union","SADC","COMESA","Commonwealth"],
+  "colours": "green, red, black, orange"
+ }
+}

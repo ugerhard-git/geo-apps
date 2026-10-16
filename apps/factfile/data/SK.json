@@ -1,0 +1,32 @@
+{
+ "code": "SK",
+ "names": {"country":["Slovenska republika","Slovak Republic","Slovensko","Slovakia"],"people":["Slovaks","Slovak"],"places":["Gerlachovsky Stit","Constitution Day","Banska Bystrica","Bodrok River","Bratislava","Trencin","Danube","Kosice","Presov","Trnava","Zilina","Dunaj","Nitra"],"neighbours":["Austria","Austrian","Czechia","Czech","Hungary","Hungarian","Ukraine","Ukrainian","Poland","Polish"]},
+ "fields": {
+  "climate": "temperate; cool summers; cold, cloudy, humid winters",
+  "terrain": "rugged mountains in the central and northern part and lowlands in the south",
+  "hazards": "flooding",
+  "heights": {"high":2655,"low":94,"mean":458},
+  "coast": 0,
+  "borders": {"total":1587,"lengths":[627,517,241,105,97]},
+  "area": 49035,
+  "river": {"km":2888,"shared":9},
+  "resources": "lignite, small amounts of iron ore, copper and manganese ore; salt; arable land",
+  "farm": "wheat, sugar beets, maize, milk, barley, rapeseed, sunflower seeds, potatoes, soybeans, pork",
+  "exports": "cars, vehicle parts/accessories, video displays, broadcasting equipment, refined petroleum",
+  "industries": "automobiles; metal and metal products; electricity, gas, coke, oil, nuclear fuel; chemicals, synthetic fibers, wood and paper products; machinery; earthenware and ceramics; textiles…",
+  "city": {"millions":0.441,"capital":true},
+  "languages": "Slovak (official) 81.8%, Hungarian 8.5%, Roma 1.8%, other 2.2%, unspecified 5.7%",
+  "religions": "Roman Catholic 55.8%, Evangelical Church of the Augsburg Confession 5.3%, Greek Catholic 4%, Reformed Christian 1.6%, other 3%, none 23.8%, unspecified 6.5%",
+  "age": {"median":43.1,"life":77.2},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":150,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1 January 1993","event":"Czechoslovakia split into the Czech Republic and Slovakia","from":""},
+  "regions": "8 regions",
+  "legal": "civil law system based on Austro-Hungarian codes",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"1 September"},
+  "military": "minimum age is 18 for voluntary service for men and women; citizens 18-65 can volunteer for the military reserves",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD"],
+  "colours": "white, blue, red"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code": "BG",
+ "names": {"country":["Republic of Bulgaria","Republika Bulgaria","Bulgaria"],"people":["Bulgarians","Bulgarian"],"places":["Liberation Day","Veliko Tarnovo","Stara Zagora","Blagoevgrad","Targovishte","Kyustendil","Pazardzhik","Sofia-Grad","Black Sea","Kardzhali","Silistra","Dobrich","Gabrovo","Haskovo","Montana","Plovdiv","Razgrad","Smolyan","Burgas","Danube","Lovech","Musala","Pernik","Pleven","Shumen","Sliven","Vratsa","Yambol","Dunav","Sofia","Varna","Vidin","Ruse"],"neighbours":["Macedonia","Romania","Romanian","Greece","Greek","Serbia","Serbian","Turkey","Turkish"]},
+ "fields": {
+  "climate": "temperate; cold, damp winters; hot, dry summers",
+  "terrain": "mostly mountains with lowlands in north and southeast",
+  "hazards": "earthquakes; landslides",
+  "heights": {"high":2925,"low":0,"mean":472},
+  "coast": 354,
+  "borders": {"total":1806,"lengths":[605,472,344,223,162]},
+  "area": 110879,
+  "river": {"km":2888,"shared":9},
+  "resources": "bauxite, copper, lead, zinc, coal, timber, arable land",
+  "farm": "wheat, maize, sunflower seeds, barley, milk, rapeseed, grapes, potatoes, triticale, tomatoes",
+  "exports": "refined petroleum, garments, refined copper, wheat, natural gas",
+  "industries": "electricity, gas, water; food, beverages, tobacco; machinery and equipment, automotive parts, base metals, chemical products, coke, refined petroleum, nuclear fuel; outsourcing centers",
+  "city": {"millions":1.288,"capital":true},
+  "languages": "Bulgarian (official) 77.3%, Turkish 7.9%, Romani 3.5%, other 1%, unspecified 10.4%",
+  "religions": "Christian 64.7%, Muslim 9.8%, other 0.1%, none 4.7%, unspecified 20.7%",
+  "age": {"median":45.5,"life":76.1},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":240,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"3 March 1878","event":"as an autonomous principality within the Ottoman Empire","from":""},
+  "regions": "28 provinces",
+  "legal": "civil law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Liberation Day","date":"3 March"},
+  "military": "18 years of age for voluntary service for men and women",
+  "memberships": ["EU","NATO","Francophonie"],
+  "colours": "white, green, red"
+ }
+}

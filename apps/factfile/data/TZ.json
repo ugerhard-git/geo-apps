@@ -1,0 +1,33 @@
+{
+ "code": "TZ",
+ "names": {"country":["Jamhuri ya Muungano wa Tanzania","United Republic of Tanzania","Tanzania"],"people":["Tanzanians","Tanzanian"],"places":["Kilimanjaro (highest point in Africa)","Union Day (Tanganyika and Zanzibar)","Kaskazini Unguja","Kaskazini Pemba","Lake Tanganyika","Mjini Magharibi","Dar es Salaam","Dar Es Salaam","Kusini Unguja","Lake Victoria","Indian Ocean","Kusini Pemba","Kilimanjaro","Lake Rukwa","Shinyanga","Morogoro","Zanzibar","Manyara","Singida","Arusha","Dodoma","Iringa","Kagera","Katavi","Kigoma","Mtwara","Mwanza","Njombe","Ruvuma","Simiyu","Songwe","Tabora","Geita","Lindi","Mbeya","Pwani","Rukwa","Tanga","Mara","Nile"],"neighbours":["Democratic Republic of the Congo","Mozambique","Mozambican","Burundi","Burundian","Malawi","Malawian","Rwanda","Rwandan","Uganda","Ugandan","Zambia","Zambian","Kenya","Kenyan"]},
+ "fields": {
+  "climate": "varies from tropical along coast to temperate in highlands",
+  "terrain": "plains along coast; central plateau; highlands in north, south",
+  "hazards": "flooding on the central plateau during the rainy season; drought; volcanism: limited volcanic activity; Ol Doinyo Lengai (2,962 m) has emitted lava in recent years; other historically active volcanoes include Kieyo and Meru",
+  "heights": {"high":5895,"low":0,"mean":1018},
+  "coast": 1424,
+  "borders": {"total":4161,"lengths":[840,775,589,512,479,391,353,222]},
+  "area": 947300,
+  "lake": {"sqkm":62940,"kind":"fresh water"},
+  "river": {"km":6650,"shared":5},
+  "resources": "hydropower, tin, phosphates, iron ore, coal, diamonds, gemstones (including tanzanite, found only in Tanzania), gold, natural gas, nickel",
+  "farm": "maize, cassava, sweet potatoes, bananas, milk, sugarcane, rice, vegetables, beans, sunflower seeds",
+  "exports": "gold, refined petroleum, dried legumes, refined copper, coal",
+  "industries": "agricultural processing (sugar, beer, cigarettes, sisal twine); mining (diamonds, gold, and iron), salt, soda ash; cement, oil refining, shoes, apparel, wood products, fertilizer",
+  "city": {"millions":7.776,"capital":false},
+  "languages": "Kiswahili or Swahili (official), Kiunguja (name for Swahili in Zanzibar), English (official, primary language of commerce, administration, and higher education), Arabic, many local languages",
+  "religions": "Christian 63.1%, Muslim 34.1%, folk religion 1.1%, Buddhist <1%, Hindu <1%, Jewish <1%, other <1%, unspecified 1.6%",
+  "age": {"median":18.8,"life":70.8},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":403,"how":"","term":"5 years"}]},
+  "independence": {"date":"26 April 1964","event":"Tanganyika united with Zanzibar to form the United Republic of…","from":""},
+  "regions": "31 regions",
+  "legal": "English common law; judicial review of legislative acts limited to matters of interpretation",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Union Day (Tanganyika and Zanzibar)","date":"26 April"},
+  "military": "generally 18-25 years of age for voluntary military service for men and women, but may go up to 35 years of age depending on education levels and for medical specialists; no conscription",
+  "memberships": ["African Union","SADC","East African Community","Commonwealth"],
+  "colours": "green, yellow, blue, black"
+ }
+}

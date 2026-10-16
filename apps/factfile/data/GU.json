@@ -1,0 +1,27 @@
+{
+ "code": "GU",
+ "names": {"country":["Guahan","Guam","GU"],"people":["Guamanians","Guamanian"],"places":["Discovery Day (or Magellan Day)","Pacific Ocean","Mount Lamlam","Hagatna"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine; generally warm and humid, moderated by northeast trade winds; dry season (January to June), rainy season (July to December); little seasonal temperature variation",
+  "terrain": "volcanic origin, surrounded by coral reefs; relatively flat coralline limestone plateau (source of most fresh water), with steep coastal cliffs and narrow coastal plains in north, low hills in center, mountains in south",
+  "hazards": "frequent squalls during rainy season; relatively rare but potentially destructive typhoons (June to December)",
+  "heights": {"high":406,"low":0,"mean":null},
+  "coast": 125.5,
+  "borders": {"total":0,"lengths":[]},
+  "area": 544,
+  "resources": "aquatic wildlife (supporting tourism), fishing (largely undeveloped)",
+  "farm": "fruits, copra, vegetables; eggs, pork, poultry, beef",
+  "exports": "scrap iron, scrap copper, trunks and cases",
+  "industries": "national defense, tourism, construction, transshipment services, concrete products, printing and publishing, food processing, textiles",
+  "city": {"millions":0.147,"capital":true},
+  "languages": "English 43.3%, Filipino 24.9%, Chamorro 16%, other Pacific Island languages 9.4%, Asian languages 6.5%",
+  "religions": "Christian (predominantly Roman Catholic) 94.2%, folk religions 1.5%, Buddhist 1.1%, other 1.6%, unaffiliated 1.7%",
+  "age": {"median":30.5,"life":78},
+  "system": {"text":"unincorporated organized territory of the US with local self-government…","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":15,"how":"directly elected","term":"2 years"}]},
+  "legal": "common law modeled on US system; US federal laws apply",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Discovery Day (or Magellan Day)","date":"first Monday in March"},
+  "colours": "deep blue, red"
+ }
+}

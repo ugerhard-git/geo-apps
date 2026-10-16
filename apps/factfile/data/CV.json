@@ -1,0 +1,31 @@
+{
+ "code": "CV",
+ "names": {"country":["Republica de Cabo Verde","Republic of Cabo Verde","Cabo Verde"],"people":["Cabo Verdeans","Cabo Verdean"],"places":["Mt. Fogo (a volcano on Fogo Island)","Ribeira Grande de Santiago","São Lourenco dos Orgaos","Tarrafal de São Nicolau","Santa Catarina do Fogo","São Salvador do Mundo","Independence Day","Atlantic Ocean","Ribeira Grande","Santa Catarina","Ribeira Brava","São Domingos","São Vicente","Porto Novo","Santa Cruz","São Filipe","São Miguel","Boa Vista","Mosteiros","Tarrafal","Brava","Praia","Maio","Paul","Sal"],"neighbours":[]},
+ "fields": {
+  "climate": "temperate; warm, dry summer; precipitation meager and erratic",
+  "terrain": "steep, rugged, rocky, volcanic",
+  "hazards": "prolonged droughts; seasonal harmattan wind produces obscuring dust; volcanically and seismically active; volcanism: Fogo (2,829 m), which last erupted in 1995, is Cabo Verde's only active volcano",
+  "heights": {"high":2829,"low":0,"mean":null},
+  "coast": 965,
+  "borders": {"total":0,"lengths":[]},
+  "area": 4033,
+  "resources": "salt, basalt rock, limestone, kaolin, fish, clay, gypsum",
+  "farm": "sugarcane, tomatoes, coconuts, pulses, goat milk, milk, vegetables, bananas, cabbages, onions",
+  "exports": "fish, refined petroleum, railway cargo containers, shellfish, garments",
+  "industries": "food and beverages, fish processing, shoes and garments, salt mining, ship repair",
+  "city": {"millions":0.168,"capital":true},
+  "languages": "Portuguese (official), Crioulo (a Portuguese-based creole language with two main dialects)",
+  "religions": "Roman Catholic 72.5%, Protestant 4% (includes Adventist 1.9%, Nazarene 1.8%, Assembly of God 0.2%, God is Love 0.1%), Christian Rationalism 1.7%, Muslim 1.3%, Jehovah's Witness 1.2%, Church of Jesus…",
+  "age": {"median":29.3,"life":74.3},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":72,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"5 July 1975","event":"","from":"Portugal"},
+  "regions": "22 municipalities",
+  "legal": "civil law system of Portugal",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"5 July"},
+  "military": "17 years of age for voluntary service (with parental consent); 18-35 years of age for selective compulsory service (14-month service obligation)",
+  "memberships": ["African Union","ECOWAS","Francophonie","Portuguese-speaking"],
+  "colours": "blue, white, red, yellow"
+ }
+}

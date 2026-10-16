@@ -1,0 +1,33 @@
+{
+ "code": "DE",
+ "names": {"country":["Federal Republic of Germany","Bundesrepublik Deutschland","Deutschland","Germany"],"people":["Germans","German"],"places":["Neuendorf bei Wilster -3.","Mecklenburg-Vorpommern","Nordrhein-Westfalen","Baden-Wuerttemberg","Schleswig-Holstein","Zalew Szczecinski","Elbe river mouth","German Unity Day","Rheinland-Pfalz","Lake Constance","Sachsen-Anhalt","Stettiner Haff","Niedersachsen","river source","Brandenburg","Thueringen","Frankfurt","Zugspitze","Saarland","Cologne","Hamburg","Sachsen","Bayern","Berlin","Bremen","Danube","Hessen","Munich","Donau","Rhein","Rhine"],"neighbours":["Netherlands","Dutch","Switzerland","Swiss","Luxembourg","Austria","Austrian","Belgium","Belgian","Czechia","Czech","Denmark","Danish","France","French","Poland","Polish"]},
+ "fields": {
+  "climate": "temperate and marine; cool, cloudy, wet winters and summers; occasional warm mountain (foehn) wind",
+  "terrain": "lowlands in north, uplands in center, Bavarian Alps in south",
+  "hazards": "flooding",
+  "heights": {"high":2963,"low":5,"mean":263},
+  "coast": 2389,
+  "borders": {"total":3694,"lengths":[801,704,575,447,418,348,140,133,128]},
+  "area": 357022,
+  "lake": {"sqkm":900,"kind":"salt water"},
+  "river": {"km":2888,"shared":9},
+  "resources": "coal, lignite, natural gas, iron ore, copper, nickel, uranium, potash, salt, construction materials, timber, arable land",
+  "farm": "milk, sugar beets, wheat, potatoes, barley, maize, rapeseed, pork, rye, triticale",
+  "exports": "cars, vehicle parts/accessories, packaged medicine, plastic products, vaccines",
+  "industries": "iron, steel, coal, cement, chemicals, machinery, vehicles, machine tools, electronics, automobiles, food and beverages, shipbuilding, textiles",
+  "city": {"millions":3.574,"capital":true},
+  "languages": "German (official); note - Danish, Frisian, Sorbian, and Romani are official minority languages…",
+  "religions": "Roman Catholic 24.8%, Protestant 22.6%, Muslim 3.7%, other 5.1%, none 43.8%",
+  "age": {"median":46.9,"life":81.9},
+  "system": {"text":"federal parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":630,"how":"all directly elected","term":"4 years"},{"seats":69,"how":"all appointed","term":""}]},
+  "independence": {"date":"18 January 1871","event":"establishment of the German Empire","from":""},
+  "regions": "16 states",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal; age 16 for some state and municipal elections",
+  "holiday": {"name":"German Unity Day","date":"3 October"},
+  "military": "17-23 years of age for voluntary military service for men and women (must have completed compulsory full-time education and have German citizenship); service obligation 7-23 months or 12 years",
+  "memberships": ["EU","Eurozone","Schengen","NATO","OECD","G7","G20"],
+  "colours": "black, red, yellow"
+ }
+}

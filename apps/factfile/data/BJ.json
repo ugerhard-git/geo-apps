@@ -1,0 +1,31 @@
+{
+ "code": "BJ",
+ "names": {"country":["République du Benin","Republic of Benin","Benin"],"people":["Beninese"],"places":["PORTO-NOVO ; 1.253 million Abomey-Calavi","unnamed elevation","Independence Day","Atlantic Ocean","Atlantique","Porto-Novo","Collines","Littoral","Alibori","Atacora","Cotonou","Plateau","Borgou","Couffo","Donga","Oueme","Mono","Zou"],"neighbours":["Burkina Faso","Burkinabe","Nigeria","Nigerian","Niger","Nigerien","Togo","Togolese"]},
+ "fields": {
+  "climate": "tropical; hot, humid in south; semiarid in north",
+  "terrain": "mostly flat to undulating plain; some hills and low mountains",
+  "hazards": "hot, dry, dusty harmattan wind may affect north from December to March",
+  "heights": {"high":675,"low":0,"mean":273},
+  "coast": 121,
+  "borders": {"total":2123,"lengths":[809,651,386,277]},
+  "area": 112622,
+  "resources": "small offshore oil deposits, limestone, marble, timber",
+  "farm": "cassava, yams, maize, oil palm fruit, cotton, soybeans, rice, pineapples, tomatoes, chillies/peppers",
+  "exports": "gold, cotton, coconuts/brazil nuts/cashews, soybeans, wood",
+  "industries": "textiles, food processing, construction materials, cement",
+  "city": {"millions":0.722,"capital":false},
+  "languages": "55 languages; French (official); Fon (a Gbe language), Yom (a Gur language) and Yoruba are the most important indigenous languages in the south…",
+  "religions": "Muslim 27.7%, Roman Catholic 25.5%, Protestant 13.5% (Celestial 6.7%, Methodist 3.4%, other Protestant 3.4%), Vodoun 11.6%, other Christian 9.5%, other traditional religions 2.6%, other 2.6%, none…",
+  "age": {"median":17.2,"life":63},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":109,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1 August 1960","event":"","from":"France"},
+  "regions": "12 departments",
+  "legal": "civil law system modeled largely on the French system and some customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"1 August"},
+  "military": "18-30 years of age for voluntary and selective compulsory military service for men and women; compulsory service is 18 months",
+  "memberships": ["Islamic Cooperation","African Union","ECOWAS","WAEMU","Francophonie"],
+  "colours": "green, yellow, red"
+ }
+}

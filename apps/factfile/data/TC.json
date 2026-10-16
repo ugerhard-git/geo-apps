@@ -1,0 +1,25 @@
+{
+ "code": "TC",
+ "names": {"country":["Turks and Caicos Islands","TCA"],"people":[],"places":["Blue Hill on Providenciales and Flamingo Hill on East Caicos","Atlantic Ocean","Grand Turk"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; marine; moderated by trade winds; sunny and relatively dry",
+  "terrain": "low, flat limestone; extensive marshes and mangrove swamps",
+  "hazards": "frequent hurricanes",
+  "heights": {"high":48,"low":0,"mean":null},
+  "coast": 389,
+  "borders": {"total":0,"lengths":[]},
+  "area": 948,
+  "resources": "spiny lobster, conch",
+  "farm": "corn, beans, cassava (manioc, tapioca), citrus fruits; fish",
+  "exports": "plastics, shellfish, carbonates, tobacco, garments",
+  "industries": "tourism, offshore financial services",
+  "city": {"millions":0.005,"capital":true},
+  "languages": "English (official)",
+  "religions": "Protestant 72.8% (Baptist 35.8%, Church of God 11.7%, Anglican 10%, Methodist 9.3%, Seventh Day Adventist 6%), Roman Catholic 11.4%, Jehovah's Witness 1.8%, other 14%",
+  "age": {"median":36.6,"life":81.3},
+  "system": {"text":"parliamentary democracy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":21,"how":"directly elected or appointed","term":"4 years"}]},
+  "legal": "mixed system of English common law and civil law",
+  "suffrage": "18 years of age; universal"
+ }
+}

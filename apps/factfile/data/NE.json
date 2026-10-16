@@ -1,0 +1,32 @@
+{
+ "code": "NE",
+ "names": {"country":["République du Niger","Republic of Niger","Niger"],"people":["Nigeriens","Nigerien"],"places":["Lake Chad  - 10,360","Idoukal-n-Taghes","Republic Day","Niger River","Tillaberi","Agadez","Maradi","Niamey","Tahoua","Zinder","Diffa","Dosso","Niger"],"neighbours":["Burkina Faso","Burkinabe","Algeria","Algerian","Nigeria","Nigerian","Benin","Beninese","Libya","Libyan","Chad","Chadian","Mali","Malian"]},
+ "fields": {
+  "climate": "desert; mostly hot, dry, dusty; tropical in extreme south",
+  "terrain": "predominately desert plains and sand dunes; flat to rolling plains in south; hills in north",
+  "hazards": "recurring droughts",
+  "heights": {"high":2022,"low":200,"mean":474},
+  "coast": 0,
+  "borders": {"total":5834,"lengths":[1608,1196,951,838,622,342,277]},
+  "area": 1267000,
+  "lake": {"sqkm":25900,"kind":"fresh water"},
+  "river": {"km":4200,"shared":4},
+  "resources": "uranium, coal, iron ore, tin, phosphates, gold, molybdenum, gypsum, salt, petroleum",
+  "farm": "millet, cowpeas, sorghum, onions, milk, sugarcane, cabbages, cassava, groundnuts, tomatoes",
+  "exports": "gold, oil seeds, uranium and thorium ore, radioactive chemicals, refined petroleum",
+  "industries": "uranium mining, petroleum, cement, brick, soap, textiles, food processing, chemicals, slaughterhouses",
+  "city": {"millions":1.437,"capital":true},
+  "languages": "Hausa, Zarma, French (official), Fufulde, Tamashek, Kanuri, Gurmancema, Tagdal",
+  "religions": "Muslim 95.5%, ethnic religionist 4.1%, Christian 0.3%, agnostics and other 0.1%",
+  "age": {"median":15.3,"life":60.9},
+  "system": {"text":"formerly semi-presidential republic","unsettled":true},
+  "parliament": {"chambers":1,"seats":[{"seats":194,"how":"all appointed","term":""}]},
+  "independence": {"date":"3 August 1960","event":"","from":"France"},
+  "regions": "7 regions and 1 capital district",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Republic Day","date":"18 December"},
+  "military": "18 is the legal minimum age for selective compulsory or voluntary military service for unmarried men and women; 24-month service term",
+  "memberships": ["Islamic Cooperation","WAEMU","Francophonie"],
+  "colours": "orange, white, green"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "JP",
+ "names": {"country":["Nippon-koku","Nihon-koku","Nippon","Japan","Nihon"],"people":["Japanese"],"places":["Birthday of Emperor NARUHITO","Kitakyushu-Fukuoka","Shizuoka-Hamamatsu","Hachiro-gata","Mount Fuji","Fukushima","Hiroshima","Kagoshima","Tokushima","Yamaguchi","Yamanashi","Hokkaido","Ishikawa","Kanagawa","Kumamoto","Miyazaki","Nagasaki","Shizuoka","Wakayama","Yamagata","Fukuoka","Ibaraki","Niigata","Okayama","Okinawa","Saitama","Sapporo","Shimane","Tochigi","Tottori","Aomori","Kagawa","Miyagi","Nagano","Nagoya","Toyama","Aichi","Akita","Chiba","Ehime","Fukui","Gunma","Hyogo","Iwate","Kochi","Kyoto","Osaka","Shiga","Tokyo","Gifu","Nara","Oita","Saga","Mie"],"neighbours":[]},
+ "fields": {
+  "climate": "varies from tropical in south to cool temperate in north",
+  "terrain": "mostly rugged and mountainous",
+  "hazards": "many dormant and some active volcanoes; about 1,500 seismic occurrences (mostly tremors but occasional severe earthquakes) every year; tsunamis; typhoons…",
+  "heights": {"high":3776,"low":-4,"mean":438},
+  "coast": 29751,
+  "borders": {"total":0,"lengths":[]},
+  "area": 377915,
+  "resources": "negligible mineral resources, fish",
+  "farm": "rice, milk, sugar beets, vegetables, eggs, chicken, potatoes, onions, cabbages, pork",
+  "exports": "cars, integrated circuits, machinery, vehicle parts/accessories, construction vehicles",
+  "industries": "motor vehicles, electronic equipment, machine tools, steel and nonferrous metals, ships, chemicals, textiles, processed foods",
+  "city": {"millions":37.194,"capital":true},
+  "languages": "Japanese",
+  "religions": "Shintoism 48.6%, Buddhism 46.4%, Christianity 1.1%, other 4%",
+  "age": {"median":50.2,"life":85.2},
+  "system": {"text":"parliamentary constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":465,"how":"all directly elected","term":"4 years"},{"seats":248,"how":"all directly elected","term":"6 years"}]},
+  "independence": {"date":"3 May 1947","event":"current constitution adopted as amendment to Meiji Constitution","from":""},
+  "regions": "47 prefectures",
+  "legal": "civil law system based on German model; also reflects Anglo-American influence and Japanese traditions; Supreme Court reviews legislative acts",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Birthday of Emperor NARUHITO","date":"23 February"},
+  "military": "18-32 years of age for voluntary military service for men and women; no conscription",
+  "memberships": ["OECD","G7","G20"],
+  "colours": "red, white"
+ }
+}

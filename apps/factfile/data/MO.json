@@ -1,0 +1,27 @@
+{
+ "code": "MO",
+ "names": {"country":["Macau Special Administrative Region","Macau"],"people":["Chinese"],"places":["National Day (anniversary of the Founding of the People's Republic of China)","South China Sea","Alto Coloane","Macau"],"neighbours":[]},
+ "fields": {
+  "climate": "subtropical; marine with cool winters, warm summers",
+  "terrain": "generally flat",
+  "hazards": "typhoons",
+  "heights": {"high":172,"low":0,"mean":null},
+  "coast": 41,
+  "borders": {"total":3,"lengths":[]},
+  "area": 28,
+  "resources": "NEGL",
+  "farm": "pork, chicken, beef, eggs, pork offal, pork fat, pepper, beef offal, cattle hides, goose meat",
+  "exports": "jewelry, garments, broadcasting equipment, precious metal watches, video and card games",
+  "industries": "tourism, gambling, clothing, textiles, electronics, footwear, toys",
+  "city": {"millions":0.682,"capital":false},
+  "languages": "Cantonese 81%, Mandarin 4.7%, other Chinese dialects 5.4%, English 3.6%, Tagalog 2.9%, Portuguese 0.6%, other 1.8%",
+  "religions": "folk religion 58.9%, Buddhist 17.3%, Christian 7.2%, other 1.2%, none 15.4%",
+  "age": {"median":43,"life":85.3},
+  "system": {"text":"executive-led limited democracy; a special administrative region of the People's Republic of China","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":33,"how":"14 directly elected, 12 indirectly elected, 7 appointed","term":"4 years"}]},
+  "legal": "civil law system based on the Portuguese model",
+  "suffrage": "18 years of age in direct elections for some legislative positions, universal for permanent residents living in Macau for the past 7 years",
+  "holiday": {"name":"National Day (anniversary of the Founding of the People's Republic of China)","date":"1 October"},
+  "colours": "green, white, yellow"
+ }
+}

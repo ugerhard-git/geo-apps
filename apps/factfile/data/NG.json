@@ -1,0 +1,33 @@
+{
+ "code": "NG",
+ "names": {"country":["Federal Republic of Nigeria","Nigeria"],"people":["Nigerians","Nigerian"],"places":["Independence Day (National Day)","Federal Capital Territory","Lake Chad  - 10,360","Niger river mouth","Atlantic Ocean","Chappal Waddi","Port Harcourt","Cross River","Benin City","Akwa Ibom","Nasarawa","Adamawa","Anambra","Bayelsa","Katsina","Plateau","Zamfara","Bauchi","Ebonyi","Ibadan","Jigawa","Kaduna","Rivers","Sokoto","Taraba","Abuja","Benue","Borno","Delta","Ekiti","Enugu","Gombe","Kebbi","Kwara","Lagos","Niger","Abia","Kano","Kogi","Ogun","Ondo","Osun","Yobe","Edo","Imo","Oyo"],"neighbours":["Cameroon","Cameroonian","Benin","Beninese","Niger","Nigerien","Chad","Chadian"]},
+ "fields": {
+  "climate": "varies; equatorial in south, tropical in center, arid in north",
+  "terrain": "southern lowlands merge into central hills and plateaus; mountains in southeast, plains in north",
+  "hazards": "periodic droughts; flooding",
+  "heights": {"high":2419,"low":0,"mean":380},
+  "coast": 853,
+  "borders": {"total":4477,"lengths":[1975,1608,809,85]},
+  "area": 923768,
+  "lake": {"sqkm":25900,"kind":"fresh water"},
+  "river": {"km":4200,"shared":4},
+  "resources": "natural gas, petroleum, tin, iron ore, coal, limestone, niobium, lead, zinc, arable land",
+  "farm": "cassava, yams, maize, oil palm fruit, rice, taro, bananas, vegetables, sorghum, groundnuts",
+  "exports": "crude petroleum, natural gas, gold, fertilizers, cocoa beans",
+  "industries": "crude oil, coal, tin, columbite; rubber products, wood; hides and skins, textiles, cement and other construction materials, food products, footwear, chemicals, fertilizer, printing, ceramics, steel",
+  "city": {"millions":15.946,"capital":false},
+  "languages": "English (official), Hausa, Yoruba, Igbo (Ibo), Fulani, over 500 additional indigenous languages",
+  "religions": "Muslim 53.5%, Roman Catholic 10.6%, other Christian 35.3%, other 0.6%",
+  "age": {"median":19.4,"life":62.2},
+  "system": {"text":"federal presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":360,"how":"all directly elected","term":"4 years"},{"seats":109,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"1 October 1960","event":"","from":"UK"},
+  "regions": "36 states and 1 territory",
+  "legal": "mixed system of English common law, Islamic law (in 12 northern states), and traditional law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (National Day)","date":"1 October"},
+  "military": "18-25 years of age for voluntary military service for men and women; no conscription",
+  "memberships": ["OPEC","Islamic Cooperation","African Union","ECOWAS","Commonwealth"],
+  "colours": "green, white"
+ }
+}

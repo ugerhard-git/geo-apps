@@ -1,0 +1,31 @@
+{
+ "code": "OM",
+ "names": {"country":["Sultanate of Oman","Saltanat Uman","Oman","Uman"],"people":["Omanis","Omani"],"places":["Shamal ash Sharqiyah","Janub ash Sharqiyah","Shamal al Batinah","Janub al Batinah","Ad Dakhiliyah","National Day","Arabian Sea","Jabal Shams","Al Buraymi","Az Zahirah","Al Wusta","Musandam","Masqat","Muscat","Zufar"],"neighbours":["Saudi Arabia","Saudi or Saudi Arabian","Yemen","Yemeni","UAE"]},
+ "fields": {
+  "climate": "dry desert; hot, humid along coast; hot, dry interior; strong southwest summer monsoon (May to September) in far south",
+  "terrain": "central desert plain, rugged mountains in north and south",
+  "hazards": "summer winds often raise large sandstorms and dust storms in interior; periodic droughts",
+  "heights": {"high":3004,"low":0,"mean":310},
+  "coast": 2092,
+  "borders": {"total":1561,"lengths":[658,609,294]},
+  "area": 309500,
+  "resources": "petroleum, copper, asbestos, some marble, limestone, chromium, gypsum, natural gas",
+  "farm": "vegetables, dates, milk, tomatoes, sorghum, chillies/peppers, goat milk, cucumbers/gherkins, cantaloupes/melons, cabbages",
+  "exports": "crude petroleum, refined petroleum, natural gas, semi-finished iron, fertilizers",
+  "industries": "crude oil production and refining, natural and liquefied natural gas production; construction, cement, copper, steel, chemicals, optic fiber",
+  "city": {"millions":1.65,"capital":true},
+  "languages": "Arabic (official), English, Baluchi, Swahili, Urdu, Indian dialects",
+  "religions": "Muslim 85.9%, Christian 6.4%, Hindu 5.7%, other and unaffiliated 2%",
+  "age": {"median":27.5,"life":77.4},
+  "system": {"text":"absolute monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":90,"how":"all directly elected","term":"4 years"},{"seats":87,"how":"all appointed","term":"4 years"}]},
+  "independence": {"date":"1650","event":"expulsion of the Portuguese","from":""},
+  "regions": "11 governorates",
+  "legal": "mixed system of Anglo-Saxon law and Islamic law",
+  "suffrage": "21 years of age; universal",
+  "holiday": {"name":"National Day","date":"18 November"},
+  "military": "18-25 for voluntary military service for men and women; no conscription",
+  "memberships": ["Gulf Cooperation Council","Arab League","Islamic Cooperation"],
+  "colours": "red, white, green"
+ }
+}

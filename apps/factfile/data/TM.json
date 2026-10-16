@@ -1,0 +1,33 @@
+{
+ "code": "TM",
+ "names": {"country":["Turkmenistan"],"people":["Turkmenistanis","Turkmenistani"],"places":["Vpadina Akchanaya (Sarygamysh Koli is a lake in northern Turkmenistan with a water level that fluctuates above and below the elevation of Vpadina Akchanaya, the lake has dropped as low as","Dashoguz Velayat","Independence Day","Balkan Velayat","Gora Ayribaba","Lebap Velayat","Ahal Velayat","Mary Velayat","Caspian Sea","Amu Darya","Ashgabat"],"neighbours":["Afghanistan","Afghan","Kazakhstan","Kazakhstani","Uzbekistan","Uzbekistani","Iran","Iranian"]},
+ "fields": {
+  "climate": "subtropical desert",
+  "terrain": "flat-to-rolling sandy desert with dunes rising to mountains in the south; low mountains along border with Iran; borders Caspian Sea in west",
+  "hazards": "earthquakes; mudslides; droughts; dust storms; floods",
+  "heights": {"high":3139,"low":-110,"mean":230},
+  "coast": 0,
+  "borders": {"total":4158,"lengths":[1793,1148,804,413]},
+  "area": 488100,
+  "lake": {"sqkm":374000,"kind":"salt water"},
+  "river": {"km":2620,"shared":3},
+  "resources": "petroleum, natural gas, sulfur, salt",
+  "farm": "milk, wheat, potatoes, cotton, watermelons, tomatoes, grapes, barley, beef, lamb/mutton",
+  "exports": "natural gas, refined petroleum, fertilizers, crude petroleum, electricity",
+  "industries": "natural gas, oil, petroleum products, textiles, food processing",
+  "city": {"millions":0.902,"capital":true},
+  "languages": "Turkmen (official) 72%, Russian 12%, Uzbek 9%, other 7%",
+  "religions": "Muslim 93%, Christian 6.4%, Buddhist <1%, folk religion <1%, Jewish <1%, other <1%, unspecified <1%",
+  "age": {"median":31.6,"life":72.4},
+  "system": {"text":"presidential republic; authoritarian","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":56,"how":"","term":"5 years"}]},
+  "independence": {"date":"27 October 1991","event":"","from":"Soviet Union"},
+  "regions": "5 provinces and 1 independent city",
+  "legal": "civil law system with Islamic (sharia) law influences",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"27 October"},
+  "military": "18-27 years of age for compulsory military service for men and volunteer service for men and women; 24-month conscript service obligation",
+  "memberships": ["Islamic Cooperation"],
+  "colours": "green, white"
+ }
+}

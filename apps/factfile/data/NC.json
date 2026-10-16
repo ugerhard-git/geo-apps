@@ -1,0 +1,29 @@
+{
+ "code": "NC",
+ "names": {"country":["Territoire des Nouvelle-Calédonie et dépendances","Territory of New Caledonia and Dependencies","Nouvelle-Calédonie","New Caledonia"],"people":["New Caledonians","New Caledonian"],"places":["Fête de la Fédération","Pacific Ocean","Province Iles","Province Nord","Mont Panie","Noumea"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; modified by southeast trade winds; hot, humid",
+  "terrain": "coastal plains with interior mountains",
+  "hazards": "cyclones, most frequent from November to March; volcanism: Matthew and Hunter Islands are historically active",
+  "heights": {"high":1628,"low":0,"mean":null},
+  "coast": 2254,
+  "borders": {"total":0,"lengths":[]},
+  "area": 18575,
+  "resources": "nickel, chrome, iron, cobalt, manganese, silver, gold, lead, copper",
+  "farm": "coconuts, vegetables, fruits, pork, beef, maize, eggs, bananas, yams, oranges",
+  "exports": "iron alloys, nickel, nickel ore, processed crustaceans, shellfish",
+  "industries": "nickel mining and smelting",
+  "city": {"millions":0.198,"capital":true},
+  "languages": "French (official), 33 Melanesian-Polynesian dialects",
+  "religions": "Christian 85.2%, Muslim 2.8%, other 1.6%, unaffiliated 10.4%",
+  "age": {"median":34.6,"life":79.3},
+  "system": {"text":"parliamentary democracy (Territorial Congress); an overseas collectivity of France","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":54,"how":"indirectly elected","term":"5 years"}]},
+  "regions": "3 provinces",
+  "legal": "civil law system based on French civil law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Fête de la Fédération","date":"14 July"},
+  "memberships": ["Pacific Islands Forum"],
+  "colours": "grey, red"
+ }
+}

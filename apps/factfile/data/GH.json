@@ -1,0 +1,32 @@
+{
+ "code": "GH",
+ "names": {"country":["Republic of Ghana","Ghana"],"people":["Ghanaians","Ghanaian"],"places":["Volta river mouth","Independence Day","Sekondi Takoradi","Atlantic Ocean","Mount Afadjato","Greater Accra","Western North","North East","Upper East","Upper West","Bono East","Northern","Savannah","Ashanti","Central","Eastern","Western","Kumasi","Accra","Ahafo","Volta","Bono","Oti"],"neighbours":["Cote d'Ivoire","Burkina Faso","Burkinabe","Togo","Togolese"]},
+ "fields": {
+  "climate": "tropical; warm and comparatively dry along southeast coast; hot and humid in southwest; hot and dry in north",
+  "terrain": "mostly low plains with dissected plateau in south-central area",
+  "hazards": "dry, dusty, northeastern harmattan winds from January to March; droughts",
+  "heights": {"high":885,"low":0,"mean":190},
+  "coast": 539,
+  "borders": {"total":2420,"lengths":[1098,720,602]},
+  "area": 238533,
+  "river": {"km":1600,"shared":1},
+  "resources": "gold, timber, industrial diamonds, bauxite, manganese, fish, rubber, hydropower, petroleum, silver, salt, limestone",
+  "farm": "cassava, yams, plantains, maize, oil palm fruit, taro, rice, oranges, pineapples, cocoa beans",
+  "exports": "gold, crude petroleum, cocoa beans, manganese ore, cocoa paste",
+  "industries": "mining, lumbering, light manufacturing, aluminum smelting, food processing, cement, small commercial ship building, petroleum",
+  "city": {"millions":3.768,"capital":false},
+  "languages": "Asante 16%, Ewe 14%, Fante 11.6%, Boron (Brong) 4.9%, Dagomba 4.4%, Dangme 4.2%, Dagarte (Dagaba) 3.9%, Kokomba 3.5%, Akyem 3.2%, Ga 3.1%, other 31.2%",
+  "religions": "Christian 71.3% (Pentecostal/Charismatic 31.6%, Protestant 17.4%, Catholic 10%, other 12.3%), Muslim 19.9%, traditionalist 3.2%, other 4.5%, none 1.1%",
+  "age": {"median":21.6,"life":70.1},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":276,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"6 March 1957","event":"","from":"UK"},
+  "regions": "16 regions",
+  "legal": "mixed system of English common law and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"6 March"},
+  "military": "18-27 years of age for voluntary military service; no conscription",
+  "memberships": ["African Union","ECOWAS","Commonwealth","Francophonie"],
+  "colours": "red, yellow, green, black"
+ }
+}

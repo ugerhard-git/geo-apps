@@ -1,0 +1,32 @@
+{
+ "code": "BO",
+ "names": {"country":["Estado Plurinacional de Bolivia","Plurinational State of Bolivia","Bolivia"],"people":["Bolivians","Bolivian"],"places":["Cochabamba; 278,000 Sucre","Independence Day","Lago Titicaca","Nevado Sajama","Rio Paraguay","Chuquisaca","Cochabamba","Lago Poopo","Santa Cruz","La Paz","Potosi","Tarija","Oruro","Pando","Sucre","Beni"],"neighbours":["Argentina","Argentine","Paraguay","Paraguayan","Brazil","Brazilian","Chile","Chilean","Peru","Peruvian"]},
+ "fields": {
+  "climate": "varies with altitude; humid and tropical to cold and semiarid",
+  "terrain": "rugged Andes Mountains with a highland plateau (Altiplano), hills, lowland plains of the Amazon Basin",
+  "hazards": "flooding in the northeast (March to April); volcanism: volcanic activity in Andes Mountains on the border with Chile…",
+  "heights": {"high":6542,"low":90,"mean":1192},
+  "coast": 0,
+  "borders": {"total":7252,"lengths":[3403,1212,942,942,753]},
+  "area": 1098581,
+  "lake": {"sqkm":8030,"kind":"fresh water"},
+  "resources": "lithium, tin, natural gas, petroleum, zinc, tungsten, antimony, silver, iron, lead, gold, timber, hydropower",
+  "farm": "sugarcane, soybeans, maize, potatoes, sorghum, rice, milk, chicken, plantains, beef",
+  "exports": "gold, natural gas, precious metal ore, zinc ore, soybean meal",
+  "industries": "mining, smelting, electricity, petroleum, food and beverages, handicrafts, clothing, jewelry",
+  "city": {"millions":1.936,"capital":true},
+  "languages": "Spanish (official) 68.1%, Quechua (official) 17.2%, Aymara (official) 10.5%, Guarani (official) 0.6%, other 1.5%, unspecified 2.1%; note - Spanish and all Indigenous languages are official",
+  "religions": "Roman Catholic 65%, Protestant 19.6% (Evangelical (non-specific) 11.9%, Evangelical Baptist 2.1%, Evangelical Pentecostal 1.8%, Evangelical Methodist 0.7%, Adventist 2.8%, Protestant (non-specific)…",
+  "age": {"median":27,"life":72.5},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":130,"how":"all directly elected","term":"5 years"},{"seats":36,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"6 August 1825","event":"","from":"Spain"},
+  "regions": "9 departments",
+  "legal": "civil law system with influences from Roman, Spanish, canon (religious), French, and ethnic groups' pre-colonial law",
+  "suffrage": "18 years of age; universal and compulsory",
+  "holiday": {"name":"Independence Day","date":"6 August"},
+  "military": "voluntary service for men and women 18-22 years of age; selective 12-month compulsory service for men, 18-22 (24 months of search and rescue service can be substituted for military service)",
+  "memberships": ["Andean Community"],
+  "colours": "red, yellow, green"
+ }
+}

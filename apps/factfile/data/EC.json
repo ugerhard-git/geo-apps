@@ -1,0 +1,31 @@
+{
+ "code": "EC",
+ "names": {"country":["República del Ecuador","Republic of Ecuador","Ecuador"],"people":["Ecuadorians","Ecuadorian"],"places":["Independence Day (independence of Quito)","Santo Domingo de los Tsachilas","Zamora Chinchipe","Morona Santiago","Pacific Ocean","Santa Elena","Chimborazo","Esmeraldas","Tungurahua","Galapagos","Guayaquil","Pichincha","Sucumbios","Cotopaxi","Imbabura","Los Rios","Orellana","Bolivar","Pastaza","Carchi","El Oro","Guayas","Manabí","Azuay","Cañar","Quito","Loja","Napo"],"neighbours":["Colombia","Colombian","Peru","Peruvian"]},
+ "fields": {
+  "climate": "tropical along coast, becoming cooler inland at higher elevations; tropical in Amazonian jungle lowlands",
+  "terrain": "coastal plain (costa), inter-Andean central highlands (sierra), and flat to rolling eastern jungle (oriente)",
+  "hazards": "frequent earthquakes; landslides; volcanic activity; floods; periodic droughts; volcanism: volcanic activity concentrated along the Andes Mountains; Sangay (5,230 m) is mainland Ecuador's most active volcano…",
+  "heights": {"high":null,"low":0,"mean":1117},
+  "coast": 2237,
+  "borders": {"total":2237,"lengths":[1529,708]},
+  "area": 283561,
+  "resources": "petroleum, fish, timber, hydropower",
+  "farm": "bananas, sugarcane, milk, oil palm fruit, maize, rice, plantains, chicken, pineapples, cocoa beans",
+  "exports": "crude petroleum, shellfish, bananas, fish, gold",
+  "industries": "petroleum, food processing, textiles, wood products, chemicals",
+  "city": {"millions":3.142,"capital":false},
+  "languages": "Spanish (Castilian; official) 98.6%, indigenous 3.9% (Quechua 3.2%, other indigenous 0.7%), foreign 2.8%, other 0.6% (includes Ecuadorian sign language)",
+  "religions": "Roman Catholic 68.2%, Protestant 19% (Evangelical 18.3%, Adventist 0.6%, other Protestant 0.2%), Jehovah's Witness 1.4%, other 2.3%, none 8.2% don't know/no response 1%",
+  "age": {"median":28.2,"life":74.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":151,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"24 May 1822","event":"","from":"Spain"},
+  "regions": "24 provinces",
+  "legal": "civil law based on the Chilean civil code with modifications; traditional law in ethnic communities",
+  "suffrage": "18-65 years of age; universal and compulsory; voluntary for 16-18, over 65, and other eligible voters",
+  "holiday": {"name":"Independence Day (independence of Quito)","date":"10 August"},
+  "military": "18-22 years of age for voluntary military service for men and women; 12-month service obligation; conscription abolished in 2008",
+  "memberships": ["OPEC","Andean Community"],
+  "colours": "yellow, blue, red"
+ }
+}

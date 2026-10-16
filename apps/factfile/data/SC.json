@@ -1,0 +1,31 @@
+{
+ "code": "SC",
+ "names": {"country":["Republic of Seychelles","Seychelles"],"people":["Seychellois"],"places":["Ile Persévérance II","La Rivière Anglaise","Grand Anse Praslin","Ile Persévérance I","Morne Seychellois","Baie Sainte Anne","Constitution Day","Grand Anse Mahe","Anse aux Pins","Anse Boileau","Indian Ocean","Les Mamelles","Pointe Larue","Roche Caiman","Anse Etoile","Anse Royale","Baie Lazare","Beau Vallon","Mont Buxton","Mont Fleuri","Saint Louis","Port Glaud","Bel Ombre","Plaisance","La Digue","Takamaka","Victoria","Bel Air","Cascade","Au Cap","Glacis"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical marine; humid; cooler season during southeast monsoon (late May to September); warmer season during northwest monsoon (March to May)",
+  "terrain": "Mahe Group is volcanic with a narrow coastal strip and rocky, hilly interior; others are relatively flat coral atolls, or elevated reefs; sits atop the submarine Mascarene Plateau",
+  "hazards": "lies outside the cyclone belt, so severe storms are rare; occasional short droughts",
+  "heights": {"high":905,"low":0,"mean":null},
+  "coast": 491,
+  "borders": {"total":0,"lengths":[]},
+  "area": 455,
+  "resources": "fish, coconuts (copra), cinnamon trees",
+  "farm": "coconuts, vegetables, bananas, eggs, chicken, pork, fruits, tomatoes, tropical fruits, cassava",
+  "exports": "fish, scrap iron, animal meal, broadcasting equipment, ships",
+  "industries": "fishing, tourism, beverages",
+  "city": {"millions":0.028,"capital":true},
+  "languages": "Seychellois Creole (official) 89.1%, English (official) 5.1%, French (official) 0.7%, other 3.8%, unspecified 1.4%",
+  "religions": "Roman Catholic 76.2%, Protestant 10.5% (Anglican 6.1%, Pentecostal Assembly 1.5%, Seventh Day Adventist 1.2%, other Protestant 1.7%), other Christian 2.4%, Hindu 2.4%, Muslim 1.6%, other…",
+  "age": {"median":39.2,"life":76.6},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":34,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"29 June 1976","event":"","from":"UK"},
+  "regions": "27 administrative districts",
+  "legal": "mixed system of English common law, French civil law, and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Constitution Day","date":"18 June"},
+  "military": "18-35 years of age for voluntary military service for men and women; no conscription",
+  "memberships": ["African Union","SADC","COMESA","Commonwealth","Francophonie"],
+  "colours": "blue, yellow, red, white, green"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "code": "FO",
+ "names": {"country":["Faroe Islands","Foroyar"],"people":["Faroese"],"places":["Olaifest (Olavsoka)","Slaettaratindur","Atlantic Ocean","Torshavn"],"neighbours":[]},
+ "fields": {
+  "climate": "mild winters, cool summers; usually overcast; foggy, windy",
+  "terrain": "rugged, rocky, some low peaks; cliffs along most of coast",
+  "hazards": "strong winds and heavy rains can occur throughout the year",
+  "heights": {"high":882,"low":0,"mean":null},
+  "coast": 1117,
+  "borders": {"total":0,"lengths":[]},
+  "area": 1393,
+  "resources": "fish, whales, hydropower, possible oil and gas",
+  "farm": "milk, potatoes, lamb/mutton, sheepskins, sheep offal, beef, sheep fat, beef offal, cattle hides, beef suet",
+  "exports": "fish and fish products",
+  "industries": "fishing, fish processing, tourism, small ship repair and refurbishment, handicrafts",
+  "city": {"millions":0.021,"capital":true},
+  "languages": "Faroese 93.8% (derived from Old Norse), Danish 3.2%, other 3%",
+  "religions": "Christian 87% (predominantly Evangelical Lutheran), other 0.9%, none 3.7%, unspecified 8.9%",
+  "age": {"median":37,"life":81.7},
+  "system": {"text":"parliamentary democracy (Faroese Parliament); part of the Kingdom of Denmark","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":33,"how":"directly elected","term":"4 years"}]},
+  "regions": "29 first-order municipalities Eidhi, Eystur, Famjin, Fuglafjordhur, Fugloy, Hov, Husavik, Hvalba, Hvannasund, Klaksvik, Kunoy, Kvivik, Nes, Porkeri, Runavik, Sandur, Sjovar, Skalavik, Skopun, Skuvoy, Sorvagur, Sumba, Sunda, Torshavn, Tvoroyri, Vagar, Vagur, Vestmanna, Vidhareidhi",
+  "legal": "the laws of Denmark apply",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Olaifest (Olavsoka)","date":"29 July"},
+  "memberships": ["Nordic Council"]
+ }
+}

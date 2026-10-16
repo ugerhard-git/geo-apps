@@ -1,0 +1,28 @@
+{
+ "code": "WF",
+ "names": {"country":["Territory of the Wallis and Futuna Islands","Territoire des Iles Wallis et Futuna","Wallis and Futuna","Wallis et Futuna"],"people":["Futuna Islanders","Futuna Islander","Wallisians","Wallisian","Futunans","Futunan","Wallis"],"places":["Mont Singavi (on Futuna)","Fête de la Fédération","Pacific Ocean","Mata-Utu"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; hot, rainy season (November to April); cool, dry season (May to October); rains 250-300 cm per year (80% humidity); average temperature 26.6 degrees Celsius",
+  "terrain": "volcanic origin; low hills",
+  "hazards": "cyclones; tsunamis",
+  "heights": {"high":522,"low":0,"mean":null},
+  "coast": 129,
+  "borders": {"total":0,"lengths":[]},
+  "area": 142,
+  "resources": "NEGL",
+  "farm": "coconuts, breadfruit, yams, taro, bananas; pigs, goats; fish",
+  "exports": "seats",
+  "industries": "copra, handicrafts, fishing, lumber",
+  "city": {"millions":0.001,"capital":true},
+  "languages": "Wallisian (indigenous Polynesian language) 58.9%, Futunian 30.1%, French (official) 10.8%, other 0.2%",
+  "religions": "Roman Catholic 99%, other 1%",
+  "age": {"median":36.9,"life":81.1},
+  "system": {"text":"parliamentary democracy (Territorial Assembly); overseas collectivity of France","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":20,"how":"directly elected","term":"5 years"}]},
+  "regions": "3 administrative precincts Alo, Sigave, Uvea",
+  "legal": "French civil law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Fête de la Fédération","date":"14 July"},
+  "colours": "red, white"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "code": "GM",
+ "names": {"country":["Republic of The Gambia","The Gambia"],"people":["Gambians","Gambian"],"places":["Gambia river mouth","unnamed elevation","Independence Day","Atlantic Ocean","Central River","Lower River","Upper River","North Bank","West Coast","Kanifing","Banjul"],"neighbours":["Senegal","Senegalese"]},
+ "fields": {
+  "climate": "tropical; hot, rainy season (June to November); cooler, dry season (November to May)",
+  "terrain": "flood plain of the Gambia River flanked by some low hills",
+  "hazards": "droughts",
+  "heights": {"high":63,"low":0,"mean":34},
+  "coast": 80,
+  "borders": {"total":749,"lengths":[749]},
+  "area": 11300,
+  "river": {"km":1094,"shared":2},
+  "resources": "fish, clay, silica sand, titanium (rutile and ilmenite), tin, zircon",
+  "farm": "rice, groundnuts, milk, millet, oil palm fruit, maize, vegetables, cassava, fruits, sorghum",
+  "exports": "packaged medicine, cars, harvesting machinery, refined petroleum, trailers",
+  "industries": "peanuts, fish, hides, tourism, beverages, agricultural machinery assembly, woodworking, metalworking, clothing",
+  "city": {"millions":0.481,"capital":true},
+  "languages": "English (official), Mandinka, Wolof, Fula, other indigenous vernaculars",
+  "religions": "Muslim 96.4%, Christian 3.5%, other or none 0.1% (2019-20 est.)",
+  "age": {"median":20.5,"life":68.4},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":58,"how":"","term":"5 years"}]},
+  "independence": {"date":"18 February 1965","event":"","from":"UK"},
+  "regions": "5 regions, 1 city, and 1 municipality",
+  "legal": "mixed system of English common law, Islamic law, and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"18 February"},
+  "military": "18-28 years of age for men and women depending on enlisted, officer, or specialized positions",
+  "memberships": ["Islamic Cooperation","African Union","ECOWAS"],
+  "colours": "red, blue, green, white"
+ }
+}

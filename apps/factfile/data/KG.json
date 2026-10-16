@@ -1,0 +1,32 @@
+{
+ "code": "KG",
+ "names": {"country":["Kyrgyz Respublikasy","Kyrgyz Republic","Kyrgyzstan"],"people":["Kyrgyzstanis","Kyrgyzstani"],"places":["Jengish Chokusu (Pik Pobedy)","Kara-Daryya (Karadar'ya)","Syr Darya river source","Jalal-Abad Oblusu","Independence Day","Ysyk-Kol Oblusu","Bishkek Shaary","Batken Oblusu","Naryn Oblusu","Talas Oblusu","Chuy Oblusu","Osh Oblusu","Osh Shaary","Bishkek"],"neighbours":["Kazakhstan","Kazakhstani","Tajikistan","Tajikistani","Uzbekistan","Uzbekistani","China","Chinese"]},
+ "fields": {
+  "climate": "dry continental to polar in high Tien Shan Mountains; subtropical in southwest (Fergana Valley); temperate in northern foothill zone",
+  "terrain": "peaks of the Tien Shan mountain range and associated valleys and basins encompass the entire country",
+  "hazards": "major flooding during snow melt; prone to earthquakes",
+  "heights": {"high":7439,"low":132,"mean":2988},
+  "coast": 0,
+  "borders": {"total":4573,"lengths":[1314,1212,1063,984]},
+  "area": 199951,
+  "river": {"km":3078,"shared":3},
+  "resources": "abundant hydropower; gold, rare earth metals; locally exploitable coal, oil, and natural gas; other deposits of nepheline, mercury, bismuth, lead, and zinc",
+  "farm": "milk, potatoes, maize, sugar beets, wheat, barley, tomatoes, onions, watermelons, carrots/turnips",
+  "exports": "gold, coal, precious metal ore, refined petroleum, garments",
+  "industries": "small machinery, textiles, food processing, cement, shoes, lumber, refrigerators, furniture, electric motors, gold, rare earth metals",
+  "city": {"millions":1.105,"capital":true},
+  "languages": "Kyrgyz (state language) 71.4%, Uzbek 14.4%, Russian (official language) 9%, other 5.2%",
+  "religions": "Muslim 90% (majority Sunni), Christian 7% (Russian Orthodox 3%), other 3% (includes Jewish, Buddhist, Baha'i)",
+  "age": {"median":28.6,"life":72.9},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":90,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"31 August 1991","event":"","from":"Soviet Union"},
+  "regions": "7 provinces and 2 cities",
+  "legal": "civil law system that includes features of French civil law and Russian Federation laws",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"31 August"},
+  "military": "18-27 years of age for compulsory or voluntary service for men in the Armed Forces or Interior Ministry…",
+  "memberships": ["Islamic Cooperation","Shanghai Cooperation","CIS","Eurasian Economic Union","CSTO"],
+  "colours": "red, yellow"
+ }
+}

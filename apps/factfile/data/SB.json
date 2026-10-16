@@ -1,0 +1,30 @@
+{
+ "code": "SB",
+ "names": {"country":["Solomon Islands"],"people":["Solomon Islanders","Solomon Islander"],"places":["Rennell and Bellona","Mount Popomanaseu","Independence Day","Makira and Ulawa","Pacific Ocean","Guadalcanal","Choiseul","Central","Honiara","Malaita","Western","Isabel","Temotu"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical monsoon; few temperature and weather extremes",
+  "terrain": "mostly rugged mountains with some low coral atolls",
+  "hazards": "tropical cyclones, but rarely destructive; geologically active region with frequent earthquakes, tremors, and volcanic activity; tsunamis…",
+  "heights": {"high":2335,"low":0,"mean":null},
+  "coast": 5313,
+  "borders": {"total":0,"lengths":[]},
+  "area": 28896,
+  "resources": "fish, forests, gold, bauxite, phosphates, lead, zinc, nickel",
+  "farm": "oil palm fruit, coconuts, sweet potatoes, yams, taro, fruits, pulses, vegetables, cocoa beans, cassava",
+  "exports": "wood, fish, gold, precious metal ore, palm oil",
+  "industries": "fish (tuna), mining, timber",
+  "city": {"millions":0.082,"capital":true},
+  "languages": "Melanesian pidgin (lingua franca in much of the country), English (official but spoken by only 1%-2% of the population), 120 indigenous languages",
+  "religions": "Protestant 73.4% (Church of Melanesia 31.9%, South Sea Evangelical 17.1%, Seventh Day Adventist 11.7%, United Church 10.1%, Christian Fellowship Church 2.5%), Roman Catholic 19.6%, other Christian…",
+  "age": {"median":25.5,"life":77.2},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":50,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"7 July 1978","event":"","from":"UK"},
+  "regions": "9 provinces and 1 city",
+  "legal": "mixed system of English common law and customary law",
+  "suffrage": "21 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"7 July"},
+  "memberships": ["Pacific Islands Forum","Commonwealth"],
+  "colours": "blue, yellow, green, white"
+ }
+}

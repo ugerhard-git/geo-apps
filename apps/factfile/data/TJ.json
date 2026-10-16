@@ -1,0 +1,32 @@
+{
+ "code": "TJ",
+ "names": {"country":["Republic of Tajikistan","Jumhurii Tojikiston","Tajikistan","Tojikiston"],"people":["Tajikistanis","Tajikistani"],"places":["Kuhistoni Badakhshon [Gorno-Badakhshan]","Independence Day (or National Day)","Nohiyahoi Tobei Jumhuri","Amu Darya river source","Syr Darya (Sirdaryo)","Qullai Somoniyon","Syr Darya","Dushanbe","Khatlon","Sughd"],"neighbours":["Afghanistan","Afghan","Kyrgyzstan","Kyrgyzstani","Uzbekistan","Uzbekistani","China","Chinese"]},
+ "fields": {
+  "climate": "mid-latitude continental, hot summers, mild winters; semiarid to polar in Pamir Mountains",
+  "terrain": "mountainous region dominated by the Alay Mountains in the north and the Pamirs in the southeast; western Fergana Valley in north, Kofirnihon and Vakhsh Valleys in southwest",
+  "hazards": "earthquakes; floods",
+  "heights": {"high":7495,"low":300,"mean":3186},
+  "coast": 0,
+  "borders": {"total":4130,"lengths":[1357,1312,984,477]},
+  "area": 144100,
+  "river": {"km":3078,"shared":3},
+  "resources": "hydropower, some petroleum, uranium, mercury, brown coal, lead, zinc, antimony, tungsten, silver, gold",
+  "farm": "potatoes, milk, wheat, watermelons, onions, tomatoes, carrots/turnips, cotton, vegetables, grapes",
+  "exports": "gold, precious metal ore, aluminum, lead ore, antimony",
+  "industries": "aluminum, cement, coal, gold, silver, antimony, textile, vegetable oil",
+  "city": {"millions":0.987,"capital":true},
+  "languages": "Tajik (official) 84.4%, Uzbek 11.9%, Kyrgyz 0.8%, Russian 0.5%, other 2.4%",
+  "religions": "Muslim 98% (Sunni 95%, Shia 3%) other 2%",
+  "age": {"median":22.8,"life":71.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":63,"how":"all directly elected","term":"5 years"},{"seats":33,"how":"","term":"5 years"}]},
+  "independence": {"date":"9 September 1991","event":"","from":"Soviet Union"},
+  "regions": "2 provinces, 1 autonomous province, 1 capital region, and 1 area referred to as Districts Under Republic Administration",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day (or National Day)","date":"9 September"},
+  "military": "18-27 years of age for compulsory (men only) or voluntary (men and women) military service; up to a 24-month service obligation for conscripts based on education level",
+  "memberships": ["Islamic Cooperation","Shanghai Cooperation","CIS","CSTO"],
+  "colours": "red, white, green"
+ }
+}

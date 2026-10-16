@@ -1,0 +1,14 @@
+{
+ "code": "GS",
+ "names": {"country":["South Georgia and the South Sandwich Islands","South Georgia and South Sandwich Islands","SGSSI"],"people":[],"places":["Mount Paget (South Georgia)","Atlantic Ocean"],"neighbours":[]},
+ "fields": {
+  "climate": "variable, with mostly westerly winds throughout the year interspersed with periods of calm; nearly all precipitation falls as snow",
+  "terrain": "most of the islands are rugged and mountainous rising steeply from the sea; South Georgia is largely barren with steep, glacier-covered mountains…",
+  "hazards": "the South Sandwich Islands have prevailing weather conditions that generally make them difficult to approach by ship; they are also subject to active volcanism",
+  "heights": {"high":2934,"low":0,"mean":null},
+  "borders": {"total":0,"lengths":[]},
+  "area": 3903,
+  "resources": "fish",
+  "legal": "the laws of the UK apply"
+ }
+}

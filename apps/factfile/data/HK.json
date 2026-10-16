@@ -1,0 +1,27 @@
+{
+ "code": "HK",
+ "names": {"country":["Hong Kong Special Administrative Region","Heung Kong Takpit Hangching Ku (Eitel","Heung Kong (Eitel","Dyer-Ball)","Hong Kong","HK"],"people":["Chinese/Hong Konger","Chinese/Hong Kong"],"places":["National Day (Anniversary of the Founding of the People's Republic of China)","South China Sea","Tai Mo Shan","Hong Kong"],"neighbours":[]},
+ "fields": {
+  "climate": "subtropical monsoon; cool and humid in winter, hot and rainy from spring through summer, warm and sunny in fall",
+  "terrain": "hilly to mountainous with steep slopes; lowlands in north",
+  "hazards": "occasional typhoons",
+  "heights": {"high":958,"low":0,"mean":null},
+  "coast": 733,
+  "borders": {"total":33,"lengths":[]},
+  "area": 1108,
+  "resources": "outstanding deepwater harbor, feldspar",
+  "farm": "pork, chicken, spinach, vegetables, pork offal, game meat, beef, fruits, onions, pork fat",
+  "exports": "gold, integrated circuits, gas turbines, broadcasting equipment, jewelry",
+  "industries": "trading and logistics, financial services, professional services, tourism, cultural and creative, clothing and textiles, shipping, electronics, toys, clocks and watches",
+  "city": {"millions":7.685,"capital":false},
+  "languages": "Cantonese (official) 85.4%, English (official) 4.5%, Putonghua (official) 2.2%, other Chinese dialects 2.8%, other 2%, persons under 5 or mute 3.2%",
+  "religions": "Buddhist or Taoist 27.9%, Protestant 6.7%, Roman Catholic 5.3%, Muslim 4.2%, Hindu 1.4%, Sikh 0.2%, other or none 54.3%",
+  "age": {"median":47.6,"life":84},
+  "system": {"text":"presidential limited democracy; a special administrative region of the People's Republic of China","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":90,"how":"","term":""}]},
+  "legal": "mixed system of common law based on the English model and Chinese customary law (in matters of family and land tenure)…",
+  "suffrage": "18 years of age in direct elections for 20 of the 90 Legislative Council seats and all of the seats in 18 district councils…",
+  "holiday": {"name":"National Day (Anniversary of the Founding of the People's Republic of China)","date":"1 October"},
+  "colours": "red, white"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "SO",
+ "names": {"country":["Jamhuuriyadda Federaalka Soomaaliya","Jumhuriyat as Sumal al Fidiraliyah","Federal Republic of Somalia","Soomaaliya","As Sumal","Somalia"],"people":["Somalis","Somali"],"places":["Foundation of the Somali Republic","Shabeellaha Dhexe","Shabeellaha Hoose","Mount Shimbiris","Woqooyi Galbeed","Jubbada Dhexe","Jubbada Hoose","Indian Ocean","Galguduud","Mogadishu","Banaadir","Hargeysa","Togdheer","Hiiraan","Bakool","Nugaal","Sanaag","Awdal","Mudug","Bari","Gedo","Sool","Bay"],"neighbours":["Djibouti","Djiboutian","Ethiopia","Ethiopian","Kenya","Kenyan"]},
+ "fields": {
+  "climate": "principally desert; northeast monsoon (December to February), moderate temperatures in north and hot in south…",
+  "terrain": "mostly flat to undulating plateau rising to hills in north",
+  "hazards": "recurring droughts; frequent dust storms over eastern plains in summer; floods during rainy season",
+  "heights": {"high":2460,"low":0,"mean":410},
+  "coast": 3025,
+  "borders": {"total":2385,"lengths":[1640,684,61]},
+  "area": 637657,
+  "resources": "uranium and largely unexploited reserves of iron ore, tin, gypsum, bauxite, copper, salt, natural gas, likely oil reserves",
+  "farm": "camel milk, milk, goat milk, sheep milk, sugarcane, fruits, sorghum, cassava, vegetables, maize",
+  "exports": "sheep and goats, gold, postage stamps/documents, other animals, cattle",
+  "industries": "light industries, including sugar refining, textiles, wireless communication",
+  "city": {"millions":2.61,"capital":true},
+  "languages": "Somali (official), Arabic (official), Italian, English",
+  "religions": "Muslim 99.9% (Sunni Muslim 98.1%, Shia Muslim 1.2%, Islamic schismatic 0.6%), ethnic religionist 0.1%",
+  "age": {"median":15.7,"life":56.5},
+  "system": {"text":"federal parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":275,"how":"all indirectly elected","term":"5 years"},{"seats":54,"how":"all indirectly elected","term":"5 years"}]},
+  "independence": {"date":"1 July 1960","event":"","from":"a merger of British Somaliland, which became independent from the UK on 26 June 1960, and Italian Somaliland, which became independent from the Italian-administered UN trusteeship on 1 July 1960 to form the Somali Republic"},
+  "regions": "18 regions",
+  "legal": "mixed system of civil law, Islamic (sharia) law, and customary law (referred to as Xeer)",
+  "suffrage": "18 years of age; universal suffrage starting with 24 June 2024 local elections",
+  "holiday": {"name":"Foundation of the Somali Republic","date":"1 July"},
+  "military": "18-22 for voluntary military service for men and women in the Somali Armed Forces; compulsory service is reportedly authorized, but not currently utilized",
+  "memberships": ["Arab League","Islamic Cooperation","African Union","East African Community"],
+  "colours": "blue, white"
+ }
+}

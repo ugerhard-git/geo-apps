@@ -1,0 +1,32 @@
+{
+ "code": "AZ",
+ "names": {"country":["Azarbaycan Respublikasi","Republic of Azerbaijan","Azarbaycan","Azerbaijan"],"people":["Azerbaijanis","Azerbaijani"],"places":["Republic Day (founding of the Democratic Republic of Azerbaijan)","Bazarduzu Dagi","Caspian Sea","Mingacevir","Bilasuvar","Calilabad","Haciqabul","Ismayilli","Sabirabad","Agcabadi","Beylaqan","Cabrayil","Daskasan","Goranboy","Kalbacar","Kangarli","Kurdamir","Lankaran","Naftalan","Naxcivan","Neftcala","Qobustan","Sumqayit","Xankandi","Xocavand","Yardimli","Zangilan","Zaqatala","Abseron","Agstafa","Balakan","Gadabay","Masalli","Ordubad","Qubadli","Sadarak","Siyazan","Astara","Fuzuli","Goycay","Goygol","Imisli","Qabala","Saatli","Sabran","Sahbuz","Salyan","Samaxi","Samkir","Sirvan","Tartar","Xacmaz","Xocali","Yevlax","Zardab","Agdam","Agdas","Babak","Barda","Culfa","Ganca","Lacin","Lerik","Qazax","Qusar","Samux","Sarur","Tovuz","Agsu","Baku","Oguz","Quba","Saki","Susa","Ucar","Xizi","Qax"],"neighbours":["Armenia","Armenian","Georgia","Georgian","Russia","Russian","Turkey","Turkish","Iran","Iranian"]},
+ "fields": {
+  "climate": "dry, semiarid steppe",
+  "terrain": "large, flat Kur-Araz Ovaligi (Kura-Araks Lowland, much of it below sea level) with Great Caucasus Mountains to the north, Qarabag Yaylasi (Karabakh Upland) to the west…",
+  "hazards": "droughts",
+  "heights": {"high":4466,"low":-28,"mean":384},
+  "coast": 0,
+  "borders": {"total":2468,"lengths":[996,689,428,338,17]},
+  "area": 86600,
+  "lake": {"sqkm":374000,"kind":"salt water"},
+  "resources": "petroleum, natural gas, iron ore, nonferrous metals, bauxite",
+  "farm": "milk, wheat, barley, potatoes, tomatoes, watermelons, onions, apples, maize, cotton",
+  "exports": "crude petroleum, natural gas, refined petroleum, plastics, electricity",
+  "industries": "petroleum and petroleum products, natural gas, oilfield equipment; steel, iron ore; cement; chemicals and petrochemicals; textiles",
+  "city": {"millions":2.432,"capital":true},
+  "languages": "Azerbaijani 96.1%, other 1.4%; less than 1%: Russian, Avar, Talyshi, Turkish, Tatar, Sakhur, Tat, Ukrainian, Georgian, Hebrew",
+  "religions": "Muslim 97.3% (predominantly Shia), Christian 2.6%, other <0.1, unaffiliated <0.1",
+  "age": {"median":34.8,"life":75.9},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":125,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"30 August 1991","event":"declared","from":"Soviet Union"},
+  "regions": "66 districts, 11 cities",
+  "legal": "civil law system",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Republic Day (founding of the Democratic Republic of Azerbaijan)","date":"28 May"},
+  "military": "18-30 years of age for compulsory military service for men; 18-35 years of age voluntary/contractual service for men (18-40 for women volunteers)…",
+  "memberships": ["Islamic Cooperation","CIS"],
+  "colours": "blue, red, green"
+ }
+}

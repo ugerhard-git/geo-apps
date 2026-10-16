@@ -1,0 +1,30 @@
+{
+ "code": "SM",
+ "names": {"country":["Repubblica di San Marino","Republic of San Marino","San Marino"],"people":["Sammarinese"],"places":["Founding of the Republic (or Feast of Saint Marinus)","San Marino Citta","Borgo Maggiore","Montegiardino","Torrente Ausa","Monte Titano","Chiesanuova","Fiorentino","San Marino","Serravalle","Acquaviva","Domagnano","Faetano"],"neighbours":["Italy","Italian"]},
+ "fields": {
+  "climate": "Mediterranean; mild to cool winters; warm, sunny summers",
+  "terrain": "rugged mountains",
+  "hazards": "occasional earthquakes",
+  "heights": {"high":739,"low":55,"mean":null},
+  "coast": 0,
+  "borders": {"total":37,"lengths":[37]},
+  "area": 61,
+  "resources": "building stone",
+  "farm": "wheat, grapes, corn, olives; cattle, pigs, horses, beef, cheese, hides",
+  "exports": "washing and bottling machines, other foods, packaged medicine, woodworking machines, aircraft",
+  "industries": "tourism, banking, textiles, electronics, ceramics, cement, wine",
+  "city": {"millions":0.004,"capital":false},
+  "languages": "Italian",
+  "religions": "Roman Catholic",
+  "age": {"median":46.3,"life":84.2},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":60,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"3 September 301","event":"traditional founding date","from":""},
+  "regions": "9 municipalities",
+  "legal": "civil law system with Italian civil law influences",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Founding of the Republic (or Feast of Saint Marinus)","date":"3 September (A.D. 301)"},
+  "military": "18 is the legal minimum age for voluntary military service; no conscription; government has the authority to call up all San Marino citizens from 16-60 years of age to serve in the military",
+  "colours": "white, blue"
+ }
+}

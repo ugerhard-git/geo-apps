@@ -1,0 +1,30 @@
+{
+ "code": "GD",
+ "names": {"country":["Grenada"],"people":["Grenadians","Grenadian"],"places":["Carriacou and Petite Martinique","Mount Saint Catherine","Independence Day","Saint George's","Caribbean Sea","Saint Patrick","Saint Andrew","Saint George","Saint David","Saint John","Saint Mark"],"neighbours":[]},
+ "fields": {
+  "climate": "tropical; tempered by northeast trade winds",
+  "terrain": "volcanic in origin with central mountains",
+  "hazards": "lies on edge of hurricane belt; hurricane season lasts from June to November; volcanism: Mount Saint Catherine (840 m) is on the island of Grenada…",
+  "heights": {"high":840,"low":0,"mean":null},
+  "coast": 121,
+  "borders": {"total":0,"lengths":[]},
+  "area": 344,
+  "resources": "timber, tropical fruit",
+  "farm": "sugarcane, coconuts, eggs, vegetables, fruits, bananas, plantains, grapefruits, avocados, mangoes/guavas",
+  "exports": "nutmeg/cardamons, fish, wheat flours, frozen fruits and nuts, aqueous paints",
+  "industries": "food and beverages, textiles, light assembly operations, tourism, construction, education, call-center operations",
+  "city": {"millions":0.039,"capital":true},
+  "languages": "English (official), French patois",
+  "religions": "Protestant 49.2% (includes Pentecostal 17.2%, Seventh Day Adventist 13.2%, Anglican 8.5%, Baptist 3.2%, Church of God 2.4%, Evangelical 1.9%, Methodist 1.6%, other 1.2%), Roman Catholic 36%…",
+  "age": {"median":35.9,"life":76.3},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy; a Commonwealth realm","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":15,"how":"all directly elected","term":"5 years"},{"seats":13,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"7 February 1974","event":"","from":"UK"},
+  "regions": "6 parishes and 1 dependency",
+  "legal": "common law based on English model",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Independence Day","date":"7 February"},
+  "memberships": ["CARICOM"],
+  "colours": "red, yellow, green"
+ }
+}

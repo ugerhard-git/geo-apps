@@ -1,0 +1,32 @@
+{
+ "code": "PY",
+ "names": {"country":["República del Paraguay","Republic of Paraguay","Paraguay"],"people":["Paraguayans","Paraguayan"],"places":["junction of Río Paraguay and Río Paraná","Río de la Plata/Paraná","Paraguay river mouth","Independence Day","Presidente Hayes","Alto Paraguay","Alto Parana","Cerro Pero","Concepcion","Cordillera","Canindeyú","Paraguarí","San Pedro","Asuncion","Asunción","Boquerón","Caaguazú","Misiones","Ñeembucú","Amambay","Caazapá","Central","Guairá","Itapúa"],"neighbours":["Argentina","Argentine","Bolivia","Bolivian","Brazil","Brazilian"]},
+ "fields": {
+  "climate": "subtropical to temperate; substantial rainfall in the eastern portions, becoming semiarid in the far west",
+  "terrain": "grassy plains and wooded hills east of Rio Paraguay; Gran Chaco region west of Rio Paraguay mostly low, marshy plain near the river, and dry forest and thorny scrub elsewhere",
+  "hazards": "local flooding in southeast (early September to June); poorly drained plains may become boggy (early October to June)",
+  "heights": {"high":842,"low":46,"mean":178},
+  "coast": 0,
+  "borders": {"total":4655,"lengths":[2531,1371,753]},
+  "area": 406752,
+  "river": {"km":4880,"shared":3},
+  "resources": "hydropower, timber, iron ore, manganese, limestone",
+  "farm": "soybeans, sugarcane, maize, cassava, wheat, rice, milk, beef, oranges, bananas",
+  "exports": "soybeans, beef, electricity, corn, soybean meal",
+  "industries": "sugar processing, cement, textiles, beverages, wood products, steel, base metals, electric power",
+  "city": {"millions":3.511,"capital":true},
+  "languages": "Spanish (official) and Guarani (official) 46.3%, only Guarani 34%, only Spanish 15.2%, other (includes Portuguese, German, other Indigenous languages) 4.1%, no response 0.4%",
+  "religions": "Roman Catholic 80.4%, Protestant 7% (Evangelical (non-specific) 6.7%, Evangelical Pentecostal <0.1%, Adventist <0.1%, Protestant (non-specific) <0.1%), Believer (not belonging to the church) 5.7%…",
+  "age": {"median":32.3,"life":78.8},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":80,"how":"all directly elected","term":"5 years"},{"seats":45,"how":"all directly elected","term":"5 years"}]},
+  "independence": {"date":"14-15 May 1811","event":"","from":"Spain"},
+  "regions": "17 departments and 1 capital city",
+  "legal": "civil law system with influences from Argentine, Spanish, Roman, and French civil law models; Supreme Court of Justice reviews legislative acts",
+  "suffrage": "18 years of age; universal and compulsory until the age of 75",
+  "holiday": {"name":"Independence Day","date":"14-15 May (observed 15 May)"},
+  "military": "18-25 years of age for voluntary service for men and women; all men 18-25 are required to perform military service for at least 12 months",
+  "memberships": ["Mercosur"],
+  "colours": "red, white, blue"
+ }
+}

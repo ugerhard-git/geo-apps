@@ -1,0 +1,32 @@
+{
+ "code": "HU",
+ "names": {"country":["Magyarorszag","Hungary"],"people":["Hungarians","Hungarian"],"places":["Szabolcs-Szatmar-Bereg","Borsod-Abauj-Zemplen","Jasz-Nagykun-Szolnok","Saint Stephen's Day","Gyor-Moson-Sopron","Komarom-Esztergom","Hodmezovasarhely","Csongrad-Csanad","Szekesfehervar","Lake Balaton","Zalaegerszeg","Bacs-Kiskun","Dunaujvaros","Hajdu-Bihar","Nagykanizsa","Nyiregyhaza","Salgotarjan","Szombathely","Tisza River","Bekescsaba","Esztergom","Kecskemet","Szekszard","Tatabanya","Budapest","Debrecen","Kaposvar","Veszprem","Baranya","Miskolc","Szolnok","Danube","Nograd","Somogy","Sopron","Szeged","Bekes","Fejer","Heves","Kekes","Tolna","Baja","Duna","Eger","Gyor","Pecs","Pest","Zala","Erd","Vas"],"neighbours":["Slovakia","Slovak","Slovenia","Slovenian","Austria","Austrian","Croatia","Croatian","Romania","Romanian","Ukraine","Ukrainian","Serbia","Serbian"]},
+ "fields": {
+  "climate": "temperate; cold, cloudy, humid winters; warm summers",
+  "terrain": "mostly flat to rolling plains; hills and low mountains on the Slovakian border",
+  "heights": {"high":1014,"low":78,"mean":143},
+  "coast": 0,
+  "borders": {"total":2106,"lengths":[627,424,348,321,164,128,94]},
+  "area": 93028,
+  "lake": {"sqkm":590,"kind":"fresh water"},
+  "river": {"km":2888,"shared":9},
+  "resources": "bauxite, coal, natural gas, fertile soils, arable land",
+  "farm": "maize, wheat, barley, milk, sunflower seeds, sugar beets, rapeseed, apples, pork, grapes",
+  "exports": "cars, vehicle parts/accessories, electric batteries, packaged medicine, computers",
+  "industries": "mining, metallurgy, construction materials, processed foods, textiles, chemicals (especially pharmaceuticals), motor vehicles",
+  "city": {"millions":1.778,"capital":true},
+  "languages": "Hungarian (official) 98.8%, English 25.3%, German 12.6%, Russian 2.1%, French 1.5%, Romanian 1.4%, other 5.1%",
+  "religions": "Catholic 30.1% (Roman Catholic 27.5%, Greek Catholic 1.7%, other Catholic 0.9%), Calvinist 9.8%, Lutheran 1.8%, other Christian (includes Orthodox) 1.6%, other 0.4%, none 16.1%, no answer 40.1%",
+  "age": {"median":45.1,"life":76},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":199,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"16 November 1918","event":"republic proclaimed","from":""},
+  "regions": "19 counties, 25 cities with county rights, and 1 capital city",
+  "legal": "civil system influenced by the German model",
+  "suffrage": "18 years of age, 16 if married and marriage is registered in Hungary; universal",
+  "holiday": {"name":"Saint Stephen's Day","date":"20 August"},
+  "military": "18 years of age for voluntary military service; no conscription (abolished 2005)",
+  "memberships": ["EU","Schengen","NATO","OECD"],
+  "colours": "red, white, green"
+ }
+}

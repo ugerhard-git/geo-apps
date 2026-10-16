@@ -1,0 +1,32 @@
+{
+ "code": "AF",
+ "names": {"country":["Jamhuri-ye Islami-ye Afghanistan (prior to 15 August 2021","current country name is disputed)","Islamic Republic of Afghanistan","current country name disputed","Afghanistan"],"people":["Afghans","Afghan"],"places":["previous: Independence Day","Ab-e Istadah-ye Muqur","Helmand river source","Badakhshan","Amu Darya","Nangarhar","Sar-e Pul","Daykundi","Kandahar","Nuristan","Panjshir","Samangan","Badghis","Baghlan","Helmand","Jowzjan","Laghman","Paktika","Paktiya","Uruzgan","Bamyan","Faryab","Ghazni","Kapisa","Kunduz","Nimroz","Noshak","Parwan","Takhar","Wardak","Balkh","Farah","Herat","Kabul","Khost","Kunar","Logar","Zabul","Ghor"],"neighbours":["Turkmenistan","Turkmenistani","Tajikistan","Tajikistani","Uzbekistan","Uzbekistani","Pakistan","Pakistani","China","Chinese","Iran","Iranian"]},
+ "fields": {
+  "climate": "arid to semiarid; cold winters and hot summers",
+  "terrain": "mostly rugged mountains; plains in north and southwest",
+  "hazards": "damaging earthquakes occur in Hindu Kush mountains; flooding; droughts",
+  "heights": {"high":7492,"low":258,"mean":1884},
+  "coast": 0,
+  "borders": {"total":5987,"lengths":[2670,1357,921,804,144,91]},
+  "area": 652230,
+  "lake": {"sqkm":520,"kind":"salt water"},
+  "river": {"km":2620,"shared":3},
+  "resources": "natural gas, petroleum, coal, copper, chromite, talc, barites, sulfur, lead, zinc, iron ore, salt, precious and semiprecious stones, arable land",
+  "farm": "wheat, milk, grapes, watermelons, potatoes, cantaloupes/melons, vegetables, rice, onions, maize",
+  "exports": "coal, grapes, tropical fruits, gum resins, other nuts",
+  "industries": "small-scale production of bricks, textiles, soap, furniture, shoes, fertilizer, apparel, food products, non-alcoholic beverages, mineral water, cement; handwoven carpets; natural gas, coal, copper",
+  "city": {"millions":4.589,"capital":true},
+  "languages": "Afghan Persian or Dari (official, lingua franca) 77%, Pashto (official) 48%, Uzbeki 11%, English 6%, Turkmani 3%, Urdu 3%, Pashaie 1%, Nuristani 1%, Arabic 1%, Balochi 1%, other <1%",
+  "religions": "Muslim 99.7% (Sunni 84.7 - 89.7%, Shia 10 - 15%), other <0.3%",
+  "age": {"median":18.4,"life":54.4},
+  "system": {"text":"theocratic; the United States does not recognize the Taliban Government","unsettled":false},
+  "independence": {"date":"19 August 1919","event":"","from":"UK control over Afghan foreign affairs"},
+  "regions": "34 provinces",
+  "legal": "the Taliban is implementing its own interpretation of Islamic law, which is partially based on the Hanifi school of Islamic jurisprudence and have enforced strict punishments…",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"previous: Independence Day","date":"19 August"},
+  "military": "service is voluntary; there is no conscription",
+  "memberships": ["Islamic Cooperation","SAARC"],
+  "colours": "red, green, black"
+ }
+}

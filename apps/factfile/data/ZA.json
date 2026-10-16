@@ -1,0 +1,32 @@
+{
+ "code": "ZA",
+ "names": {"country":["Republic of South Africa","South Africa","RSA"],"people":["South Africans","South African"],"places":["Atlantic/Indian Oceans","Ntheledi (Mafadi)","Port Elizabeth","KwaZulu-Natal","Limpoporivier","Northern Cape","Bloemfontein","Eastern Cape","Johannesburg","river source","Western Cape","Freedom Day","Free State","Mpumalanga","North West","Cape Town","West Rand","Pretoria","Vaal [s]","Gauteng","Limpopo","Durban","Orange"],"neighbours":["Mozambique","Mozambican","Botswana","Motswana (singular)","Eswatini","Swati","Zimbabwe","Zimbabwean","Lesotho","Basotho","Namibia","Namibian"]},
+ "fields": {
+  "climate": "mostly semiarid; subtropical along east coast; sunny days, cool nights",
+  "terrain": "vast interior plateau rimmed by rugged hills and narrow coastal plain",
+  "hazards": "prolonged droughts; volcanism: the volcano that formed Marion Island in the Prince Edward Islands is South Africa's only active volcano",
+  "heights": {"high":3450,"low":0,"mean":1034},
+  "coast": 2798,
+  "borders": {"total":5244,"lengths":[1969,1106,1005,496,438,230]},
+  "area": 1219090,
+  "river": {"km":2092,"shared":2},
+  "resources": "gold, chromium, antimony, coal, iron ore, manganese, nickel, phosphates, tin, rare earth elements, uranium, gem diamonds, platinum, copper, vanadium, salt, natural gas",
+  "farm": "sugarcane, maize, milk, soybeans, potatoes, wheat, grapes, chicken, oranges, apples",
+  "exports": "gold, platinum, coal, cars, iron ore",
+  "industries": "mining (world's largest producer of platinum, gold, chromium), automobile assembly, metalworking, machinery, textiles, iron and steel, chemicals, fertilizer, foodstuffs, commercial ship repair",
+  "city": {"millions":10.316,"capital":false},
+  "languages": "isiZulu or Zulu (official) 25.3%, isiXhosa or Xhosa (official) 14.8%, Afrikaans (official) 12.2%, Sepedi or Pedi (official) 10.1%, Setswana or Tswana (official) 9.1%, English (official) 8.1%, Sesotho…",
+  "religions": "Christian 86%, ancestral, tribal, animist, or other traditional African religions 5.4%, Muslim 1.9%, other 1.5%, nothing in particular 5.2%",
+  "age": {"median":30.7,"life":71.9},
+  "system": {"text":"parliamentary republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":400,"how":"all directly elected","term":"5 years"},{"seats":90,"how":"all appointed","term":"5 years"}]},
+  "independence": {"date":"31 May 1910","event":"Union of South Africa formed","from":"four British colonies: Cape Colony, Natal, Transvaal, and Orange Free State"},
+  "regions": "9 provinces",
+  "legal": "mixed system of Roman-Dutch civil law, English common law, and customary law",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"Freedom Day","date":"27 April"},
+  "military": "18-22 (18-26 for college graduates) years of age for voluntary military service for men and women; initial 24-month service obligation",
+  "memberships": ["G20","BRICS","African Union","SADC","Commonwealth"],
+  "colours": "red, green, blue, yellow, black, white"
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "code": "LY",
+ "names": {"country":["State of Libya","Dawlat Libiya","Libiya","Libya"],"people":["Libyans","Libyan"],"places":["Al Jabal al Akhdar","Al Jabal al Gharbi","An Nuqat al Khams","Sabkhat Ghuzayyil","Liberation Day","Wadi ash Shati","Wadi al Hayat","Bikku Bitti","Al Jafarah","Az Zawiyah","Al Butnan","Al Jufrah","Al Kufrah","Al Marqab","Tarabulus","Al Wahat","Banghazi","Benghazi","Misratah","Al Marj","Tripoli","Darnah","Murzuq","Nalut","Sabha","Ghat","Surt"],"neighbours":["Algeria","Algerian","Tunisia","Tunisian","Egypt","Egyptian","Niger","Nigerien","Sudan","Sudanese","Chad","Chadian"]},
+ "fields": {
+  "climate": "Mediterranean along coast; dry, extreme desert interior",
+  "terrain": "mostly barren, flat to undulating plains, plateaus, depressions",
+  "hazards": "hot, dry, dust-laden ghibli is a southern wind lasting one to four days in spring and fall; dust storms, sandstorms",
+  "heights": {"high":2267,"low":-47,"mean":423},
+  "coast": 1770,
+  "borders": {"total":4339,"lengths":[1115,1050,989,461,382,342]},
+  "area": 1759540,
+  "resources": "petroleum, natural gas, gypsum",
+  "farm": "potatoes, onions, watermelons, tomatoes, dates, olives, milk, chicken, wheat, vegetables",
+  "exports": "crude petroleum, natural gas, refined petroleum, gold, scrap iron",
+  "industries": "petroleum, petrochemicals, aluminum, iron and steel, food processing, textiles, handicrafts, cement",
+  "city": {"millions":1.183,"capital":true},
+  "languages": "Arabic (official), Italian, English (all widely understood in the major cities); Tamazight (Nafusi, Ghadamis, Suknah, Awjilah, Tamasheq)",
+  "religions": "Muslim (official; virtually all Sunni) 96.6%, Christian 2.7%, Buddhist <1%, Hindu <1%, Jewish <1%, folk religion <1%, other <1%, unaffiliated <1%",
+  "age": {"median":26.4,"life":77.7},
+  "system": {"text":"in transition","unsettled":true},
+  "parliament": {"chambers":1,"seats":[{"seats":200,"how":"all directly elected","term":""}]},
+  "independence": {"date":"24 December 1951","event":"","from":"UN trusteeship"},
+  "regions": "22 governorates",
+  "legal": "Libya's post-revolution system is in flux and driven by state and non-state entities",
+  "suffrage": "18 years of age, universal",
+  "holiday": {"name":"Liberation Day","date":"23 October"},
+  "military": "not available",
+  "memberships": ["OPEC","OAPEC","Arab League","Islamic Cooperation","African Union","COMESA"],
+  "colours": "red, black, green"
+ }
+}

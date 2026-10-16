@@ -1,0 +1,27 @@
+{
+ "code": "SX",
+ "names": {"country":["Country of Sint Maarten","Land Sint Maarten","Sint Maarten"],"people":[],"places":["King's Day (birthday of King WILLEM-ALEXANDER)","Caribbean Sea","Philipsburg"],"neighbours":["Saint Martin"]},
+ "fields": {
+  "climate": "tropical marine climate, ameliorated by northeast trade winds, results in moderate temperatures; average rainfall of 150 cm/year; hurricane season stretches from July to November",
+  "terrain": "low, hilly terrain, volcanic origin",
+  "hazards": "subject to hurricanes from July to November",
+  "heights": {"high":250,"low":0,"mean":null},
+  "coast": 58.9,
+  "borders": {"total":16,"lengths":[16]},
+  "area": 34,
+  "resources": "fish, salt",
+  "farm": "sugar",
+  "exports": "scrap iron, ships, jewelry, flavored water, liquor",
+  "industries": "tourism, light industry",
+  "city": {"millions":0.001327,"capital":true},
+  "languages": "English (official) 67.5%, Spanish 12.9%, Creole 8.2%, Dutch (official) 4.2%, Papiamento (a Spanish-Portuguese-Dutch-English dialect) 2.2%, French 1.5%, other 3.5%",
+  "religions": "Protestant 41.9% (Pentecostal 14.7%, Methodist 10.0%, Seventh Day Adventist 6.6%, Baptist 4.7%, Anglican 3.1%, other Protestant 2.8%), Roman Catholic 33.1%, Hindu 5.2%, Christian 4.1%, Jehovah's…",
+  "age": {"median":40.8,"life":79.7},
+  "system": {"text":"parliamentary democracy under a constitutional monarchy","unsettled":false},
+  "parliament": {"chambers":1,"seats":[{"seats":15,"how":"directly elected","term":"4 years"}]},
+  "legal": "based on Dutch civil law system with some English common law influence",
+  "suffrage": "18 years of age; universal",
+  "holiday": {"name":"King's Day (birthday of King WILLEM-ALEXANDER)","date":"27 April"},
+  "colours": "red, white, blue"
+ }
+}

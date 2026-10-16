@@ -1,0 +1,31 @@
+{
+ "code": "SZ",
+ "names": {"country":["Kingdom of Eswatini","Umbuso weSwatini","eSwatini","Eswatini"],"people":["still used among English speakers","note - former term","emaSwati","liSwati","Swazis","Swati","Swazi"],"places":["Independence Day (Somhlolo Day)","Great Usutu River","Shiselweni","Emlembe","Lobamba","Lubombo","Manzini","Mbabane","Hhohho"],"neighbours":["South Africa","South African","Mozambique","Mozambican"]},
+ "fields": {
+  "climate": "varies from tropical to near temperate",
+  "terrain": "mostly mountains and hills; some moderately sloping plains",
+  "hazards": "drought",
+  "heights": {"high":1862,"low":21,"mean":305},
+  "coast": 0,
+  "borders": {"total":546,"lengths":[438,108]},
+  "area": 17364,
+  "resources": "asbestos, coal, clay, cassiterite, hydropower, forests, small gold and diamond deposits, quarry stone, and talc",
+  "farm": "sugarcane, maize, root vegetables, grapefruits, oranges, milk, pineapples, bananas, beef, sweet potatoes",
+  "exports": "scented mixtures, raw sugar, industrial acids/oils/alcohols, garments, wood",
+  "industries": "soft drink concentrates, coal, forestry, sugar processing, textiles, and apparel",
+  "city": {"millions":0.068,"capital":true},
+  "languages": "English (official, used for government business), siSwati (official)",
+  "religions": "Christian 90% (Zionist - a blend of Christianity and traditional African religions - 40%, Roman Catholic 20%, other Christian 30% - includes Anglican, Methodist, Church of Jesus Christ, Jehovah's…",
+  "age": {"median":24.8,"life":60.7},
+  "system": {"text":"absolute monarchy","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":74,"how":"","term":"5 years"},{"seats":30,"how":"","term":"5 years"}]},
+  "independence": {"date":"6 September 1968","event":"","from":"UK"},
+  "regions": "4 regions",
+  "legal": "mixed system of civil, common, and customary law",
+  "suffrage": "18 years of age",
+  "holiday": {"name":"Independence Day (Somhlolo Day)","date":"6 September"},
+  "military": "18-35 years of age for voluntary military service for men and women; no conscription",
+  "memberships": ["African Union","SADC","COMESA","Commonwealth"],
+  "colours": "blue, yellow, red"
+ }
+}

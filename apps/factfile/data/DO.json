@@ -1,0 +1,31 @@
+{
+ "code": "DO",
+ "names": {"country":["República Dominicana","Dominican Republic","La Dominicana","The Dominican"],"people":["Dominicans","Dominican"],"places":["María Trinidad Sánchez","San Pedro de Macorís","Lago de Enriquillo","Santiago Rodríguez","Distrito Nacional","Hermanas Mirabal","Independence Day","San José de Ocoa","Lago Enriquillo","Sánchez Ramírez","Monseñor Nouel","Independencia","La Altagracia","San Cristóbal","Santo Domingo","Monte Cristi","Puerto Plata","Monte Plata","Pico Duarte","Elías Piña","Hato Mayor","Pedernales","Espaillat","La Romana","Barahona","El Seibo","San Juan","Santiago","Valverde","Baoruco","Dajabón","La Vega","Peravia","Duarte","Samaná","Azua"],"neighbours":["Haiti","Haitian"]},
+ "fields": {
+  "climate": "tropical maritime; little seasonal temperature variation; seasonal variation in rainfall",
+  "terrain": "rugged highlands and mountains interspersed with fertile valleys",
+  "hazards": "lies in the middle of the hurricane belt and subject to severe storms from June to October; occasional flooding; periodic droughts",
+  "heights": {"high":3098,"low":-46,"mean":424},
+  "coast": 1288,
+  "borders": {"total":376,"lengths":[376]},
+  "area": 48670,
+  "lake": {"sqkm":500,"kind":"salt water"},
+  "resources": "nickel, bauxite, gold, silver, arable land",
+  "farm": "sugarcane, bananas, papayas, plantains, avocados, rice, milk, watermelons, vegetables, pineapples",
+  "exports": "medical instruments, tobacco, gold, garments, power equipment",
+  "industries": "tourism, sugar processing, gold mining, textiles, cement, tobacco, electrical components, medical devices",
+  "city": {"millions":3.524,"capital":true},
+  "languages": "Spanish (official)",
+  "religions": "Evangelical 50.2%, Roman Catholic 30.1%, none 18.5%, unspecified 1.2%",
+  "age": {"median":29.6,"life":72.6},
+  "system": {"text":"presidential republic","unsettled":false},
+  "parliament": {"chambers":2,"seats":[{"seats":190,"how":"all directly elected","term":"4 years"},{"seats":32,"how":"all directly elected","term":"4 years"}]},
+  "independence": {"date":"27 February 1844","event":"","from":"Haiti"},
+  "regions": "31 provinces, 1 district",
+  "legal": "civil law system based on the French civil code; Criminal Procedures Code modified in 2004 to include important elements of an accusatory system",
+  "suffrage": "18 years of age; universal and compulsory; married persons can vote, regardless of age",
+  "holiday": {"name":"Independence Day","date":"27 February"},
+  "military": "17-early 20s for voluntary military service for men and women (ages vary depending on military service and position; under 18 admitted with permission of parents)",
+  "colours": "red, white, blue"
+ }
+}
