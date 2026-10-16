@@ -1,0 +1,29 @@
+name: Presets spike
+on:
+  push:
+    branches: [presets-spike]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Fetch metadata
+        run: |
+          mkdir -p spike/meta
+          while read -r s; do
+            base="${s%%\?*}"
+            q=""; [ "$base" != "$s" ] && q="?${s#*\?}"
+            out="spike/meta/$(echo "$s" | tr '?&=' '___').json"
+            curl -sS -m 30 -A "geo-apps preset spike" "https://ourworldindata.org/grapher/${base}.metadata.json${q}" -o "$out" || echo "{}" > "$out"
+            sleep 1
+          done < spike/slugs.txt
+          ls -la spike/meta | head -80
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add spike/meta
+          git commit -m "spike: preset metadata [skip ci]"
+          git push
