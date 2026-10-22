@@ -28,7 +28,7 @@ import {
 } from "./charts.js";
 import { buildData, csvCell, fmt, safeName, series } from "./data.js";
 import { renderExport } from "./export-png.js";
-import { fetchCSV, splitSlug } from "./owid.js";
+import { MAX_CSV_BYTES, SLUG_OK, TooLarge, fetchCSV, splitSlug } from "./owid.js";
 import { setupPresetBrowser, setupPresetSearch } from "./preset-picker.js";
 import { PRESETS, presetFor } from "./presets.js";
 
@@ -237,6 +237,14 @@ async function load(raw) {
   const { display, slug, colHint, base } = splitSlug(raw);
   if (!slug) {
     setStatus("err", "Enter a chart slug first.");
+    return;
+  }
+  if (!SLUG_OK.test(slug)) {
+    setStatus(
+      "err",
+      "That doesn't look like a chart from ourworldindata.org. Paste the chart's address, " +
+        "e.g. ourworldindata.org/grapher/life-expectancy.",
+    );
     return;
   }
   els.slug.value = display;
@@ -594,6 +602,10 @@ els.png.addEventListener("click", exportPng);
 els.csv.addEventListener("click", exportCsv);
 
 els.usepaste.addEventListener("click", () => {
+  if (els.paste.value.length > MAX_CSV_BYTES) {
+    setStatus("err", new TooLarge().message);
+    return;
+  }
   try {
     ingest(els.paste.value, "pasted CSV");
   } catch (err) {
@@ -604,6 +616,11 @@ els.usefile.addEventListener("click", () => els.file.click());
 els.file.addEventListener("change", () => {
   const f = els.file.files?.[0];
   if (!f) return;
+  if (f.size > MAX_CSV_BYTES) {
+    setStatus("err", new TooLarge().message);
+    els.file.value = "";
+    return;
+  }
   const r = new FileReader();
   r.onload = () => {
     try {
@@ -618,7 +635,7 @@ els.file.addEventListener("change", () => {
 if (!chartJsLoaded) {
   setStatus(
     "err",
-    "The charting library (Chart.js, from cdn.jsdelivr.net) didn't load, so nothing can be drawn. Check the connection and reload.",
+    "The charting library (Chart.js, kept with this app) didn't load, so nothing can be drawn. Reload the page.",
   );
   els.load.disabled = true;
 }

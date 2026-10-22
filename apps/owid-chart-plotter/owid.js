@@ -40,6 +40,54 @@ export function splitSlug(value) {
 }
 
 /**
+ * What a slug may look like: a chart name, then optionally a query of plain
+ * parameters ("literacy?age_group=adult&sex=both"). Anything else — slashes,
+ * "@", spaces — is refused before a URL is built from it.
+ */
+export const SLUG_OK = /^[A-Za-z0-9-]{1,120}(\?[A-Za-z0-9_=&.,%~-]{0,300})?$/;
+
+/**
+ * The largest CSV the app reads, fetched or uploaded. OWID's biggest charts
+ * are a few megabytes; this leaves plenty of room while keeping a runaway
+ * download or a wrong file from freezing the page.
+ */
+export const MAX_CSV_BYTES = 40 * 1024 * 1024;
+
+/** A CSV over {@link MAX_CSV_BYTES}: an answer, not a reason to retry. */
+export class TooLarge extends Error {
+  constructor() {
+    super("That CSV is larger than this app reads (40 MB).");
+  }
+}
+
+/**
+ * A response's body as text, refusing anything over {@link MAX_CSV_BYTES}.
+ *
+ * @param {Response} res
+ * @returns {Promise<string>}
+ */
+async function cappedText(res) {
+  const declared = parseInt(res.headers.get("content-length") || "", 10);
+  if (declared > MAX_CSV_BYTES) throw new TooLarge();
+  if (!res.body) return res.text();
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder("utf-8");
+  let text = "";
+  let got = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    got += value.length;
+    if (got > MAX_CSV_BYTES) {
+      reader.cancel().catch(() => {});
+      throw new TooLarge();
+    }
+    text += decoder.decode(value, { stream: true });
+  }
+  return text + decoder.decode();
+}
+
+/**
  * The CSV URLs to try for a slug, best first.
  *
  * @param {string} slug
@@ -70,6 +118,7 @@ export function csvUrls(slug) {
  * @returns {Promise<string>}
  */
 export async function fetchCSV(slug) {
+  if (!SLUG_OK.test(slug)) throw new Error("That isn't a chart name from ourworldindata.org.");
   let httpErr = null;
   const backoff = [700, 1800]; // three attempts in total
   for (let attempt = 0; attempt <= backoff.length; attempt++) {
@@ -80,9 +129,11 @@ export async function fetchCSV(slug) {
           httpErr = new Error("HTTP " + res.status + " — that slug is wrong.");
           continue;
         }
-        return await res.text();
-      } catch {
-        /* network-level rejection; fall through to retry */
+        return await cappedText(res);
+      } catch (err) {
+        // Too large is a real answer; anything else is a network-level
+        // rejection, so fall through to retry.
+        if (err instanceof TooLarge) throw err;
       }
     }
     if (httpErr) break; // a real answer; retrying won't help

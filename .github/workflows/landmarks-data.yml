@@ -45,7 +45,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet -- apps/landmarks/data; then
+          # status, not diff: a new file (a country seen for the first time)
+          # counts as a change too.
+          if [ -z "$(git status --porcelain -- apps/landmarks/data)" ]; then
             echo "No changes."
             exit 0
           fi
