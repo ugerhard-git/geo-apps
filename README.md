@@ -247,14 +247,21 @@ rules that keep that in check:
   with a size cap, and parsers check every length, count and coordinate
   (see `shared/geonames.js` and `apps/rivers/data.js`). Elevation tiles must
   be PNGs of at most 2 MB and exactly 256 × 256 pixels (`apps/relief/tiles.js`).
+  CSVs in the OWID chart plotter, fetched, uploaded or pasted, are capped at
+  40 MB, and a chart name must look like one before an address is built from
+  it (`apps/owid-chart-plotter/owid.js`).
 - **No third-party scripts.** Libraries are kept in the repository (see
   `apps/owid-chart-plotter/vendor/`) instead of loaded from a CDN, because all
   apps share one origin, and with it the browser storage that can hold the
   REST Countries key.
 - **API keys** live only in the visitor's browser, opt-in, and are only sent to
-  their own service (`shared/keys.js`).
+  their own service (`shared/keys.js`). Browser storage belongs to the whole
+  `ugerhard-git.github.io` address, so any other site published from this
+  GitHub account could read a saved key; keep that in mind before publishing
+  code you haven't reviewed from the same account.
 - **CI** runs with read-only permissions; only the Pages deploy job can publish,
-  and only the Landmarks data job can push (to its own branch, via a pull request).
+  and only the Landmarks and Names data jobs can push (each to a new branch,
+  via a pull request).
   Every action is pinned to a commit, not a movable tag, and Dependabot opens a
   pull request when one (or a dev tool) has an update.
 - **Vendored code is checked against its release:** `vendor/chart.umd.js` is

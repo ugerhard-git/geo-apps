@@ -3,6 +3,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
+import { SLUG_OK, splitSlug } from "../../apps/owid-chart-plotter/owid.js";
 import {
   GROUPS,
   PRESETS,
@@ -15,7 +16,7 @@ test("every ready-made chart is complete", () => {
   assert.ok(PRESETS.length >= 50);
   const slugs = new Set();
   for (const p of PRESETS) {
-    assert.match(p.slug, /^[a-z0-9-]+(\?[a-z0-9_=&-]+)?$/, `slug of ${p.name}`);
+    assert.match(p.slug, SLUG_OK, `slug of ${p.name}`);
     assert.ok(!slugs.has(p.slug), `${p.slug} is listed twice`);
     slugs.add(p.slug);
     assert.ok(p.name && p.group && p.source, `${p.slug} has a name, group and source`);
@@ -46,4 +47,19 @@ test("searchPresets: names first, then search words; every word must match", () 
   assert.ok(names("tour")[0] === "Tourist arrivals");
   assert.deepEqual(names("co2 share"), ["Share of global CO₂ emissions"]);
   assert.deepEqual(names("zzz"), []);
+});
+
+test("SLUG_OK lets chart names through and nothing that changes the address", () => {
+  for (const ok of [
+    "life-expectancy",
+    "literacy?age_group=adult&sex=both",
+    "energy-mix?metric=per_capita",
+  ])
+    assert.match(ok, SLUG_OK);
+  for (const bad of ["", "a/b", "//evil.example", "x@evil.example", "../x", "a b", "a?b=<c>"])
+    assert.doesNotMatch(bad, SLUG_OK, bad);
+  assert.equal(
+    splitSlug("https://ourworldindata.org/grapher/median-age#Median age").slug,
+    "median-age",
+  );
 });
