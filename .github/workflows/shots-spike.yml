@@ -17,7 +17,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - run: curl -sS -o /dev/null -w "%{http_code} %{content_type}\n" -H "Origin: https://ugerhard-git.github.io" -D site/oec-headers.txt "https://api-v2.oec.world/tesseract/data.jsonrecords?cube=trade_i_baci_a_22&drilldowns=HS4,Year,Exporter+Country&measures=Trade+Value&include=Exporter+Country:sachl;Year:2023&limit=6000,0" > site/oec-status.txt 2>&1 || true
+      - run: |
+          curl -sS -o /dev/null -w "%{http_code} %{content_type}\n" -H "Origin: https://ugerhard-git.github.io" -D site/oec-headers.txt "https://api-v2.oec.world/tesseract/data.jsonrecords?cube=trade_i_baci_a_22&drilldowns=HS4,Year,Exporter+Country&measures=Trade+Value&include=Exporter+Country:sachl;Year:2023&limit=6000,0" > site/oec-status.txt 2>&1 || true
       - run: SHOTS_DEBUG=site/shots-debug node scripts/screenshots/take.mjs $(cat spike-apps.txt 2>/dev/null) > site/shots-log.txt 2>&1 || true
       - run: |
           git config user.name "github-actions"
