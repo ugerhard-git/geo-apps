@@ -2,7 +2,7 @@
   "alphabets": {"w":720,"h":480,"alt":"The Icelandic alphabet, with þ and ð, laid out as a quiz sheet"},
   "city-dots": {"w":720,"h":480,"alt":"Croatia's 20 largest cities as dots, from Zagreb down the Dalmatian coast","custom":true},
   "climate": {"w":720,"h":480,"alt":"A climate chart for India, with monsoon rain in summer"},
-  "currency": {"w":720,"h":480,"alt":"Old Japanese banknotes on a quiz sheet"},
+  "currency": {"w":720,"h":480,"alt":"Euro banknotes from 5 to 200, marked as specimens, on a quiz sheet","custom":true},
   "endemics": {"w":720,"h":480,"alt":"Animals found only in Madagascar"},
   "export-treemap": {"w":720,"h":480,"alt":"A treemap of France's exports, led by aircraft, cars and medicines","custom":true},
   "factfile": {"w":720,"h":480,"alt":"A fact card about Hungary, with every name blacked out"},
