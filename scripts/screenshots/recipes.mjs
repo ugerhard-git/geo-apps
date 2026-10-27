@@ -129,8 +129,8 @@ export const RECIPES = {
     alt: "Life expectancy over time in three countries",
   },
   plates: {
-    steps: [PD, { country: "United States" }, { click: ".tile .thumb", count: 6 }],
-    alt: "American licence plates, blurred, on a quiz sheet",
+    steps: [OPEN, { country: "Netherlands" }, { click: ".tile .thumb", count: 6 }],
+    alt: "Dutch licence plates, blurred, on a quiz sheet",
   },
   relief: {
     steps: [{ country: "Switzerland" }],
