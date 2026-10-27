@@ -231,8 +231,12 @@ merging. Run it after an app's sheet changes its look. Apps with Commons
 photos use public-domain files where there are enough, and otherwise files
 whose credit line is on the sheet.
 
-The Export treemaps app has no recipe: its data source turns away requests
-from GitHub's servers. Its picture, if any, is added by hand.
+A picture can also be made by hand: export the sheet from the app, scale it
+to fit 720 × 480, save it as `site/shots/<app>.webp` and mark its entry in
+`shots.json` with `"custom": true`. The workflow then leaves it alone, unless
+that app is named when the workflow is run. The Export treemaps picture is
+always made this way, because its data source turns away requests from
+GitHub's servers.
 
 ## API keys
 
