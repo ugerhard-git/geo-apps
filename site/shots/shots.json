@@ -1,0 +1,22 @@
+{
+  "alphabets": {"w":720,"h":480,"alt":"The Icelandic alphabet, with þ and ð, laid out as a quiz sheet"},
+  "city-dots": {"w":720,"h":480,"alt":"Egypt's cities as dots, tracing the Nile"},
+  "climate": {"w":720,"h":480,"alt":"A climate chart for India, with monsoon rain in summer"},
+  "currency": {"w":720,"h":480,"alt":"Japanese banknotes and coins on a quiz sheet"},
+  "export-treemap": {"w":720,"h":200,"alt":"A treemap of Chile's exports, led by copper"},
+  "factfile": {"w":720,"h":480,"alt":"A fact card about Hungary, with every name blacked out"},
+  "flagcolours": {"w":720,"h":480,"alt":"The colours of South Africa's flag, measured and shown as bars"},
+  "geo-imagery": {"w":539,"h":480,"alt":"A satellite image of Egypt"},
+  "geocards": {"w":720,"h":480,"alt":"Statistics cards about Mongolia"},
+  "keyboards": {"w":720,"h":480,"alt":"The French AZERTY keyboard layout"},
+  "letters": {"w":720,"h":480,"alt":"How often each letter is used in Polish, with ł, ż and ś"},
+  "names": {"w":720,"h":480,"alt":"The most popular baby names in Spain"},
+  "outlines": {"w":720,"h":480,"alt":"The outline of Greece and its islands"},
+  "owid-chart-plotter": {"w":720,"h":317,"alt":"Life expectancy over time in three countries"},
+  "plates": {"w":720,"h":480,"alt":"Dutch licence plates on a quiz sheet"},
+  "relief": {"w":720,"h":480,"alt":"A shaded relief map of Switzerland's mountains"},
+  "rivers": {"w":720,"h":480,"alt":"The rivers of Brazil, led by the Amazon"},
+  "roadsigns": {"w":720,"h":480,"alt":"Swedish road signs, including the moose warning"},
+  "statistics": {"w":720,"h":480,"alt":"Charts of India's languages, religions and economy"},
+  "subdivisions": {"w":720,"h":480,"alt":"Australia's states and territories"}
+}

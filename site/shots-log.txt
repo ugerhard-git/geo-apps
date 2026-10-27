@@ -1,0 +1,24 @@
+ok   alphabets (720 × 480)
+ok   city-dots (720 × 480)
+ok   climate (720 × 480)
+ok   currency (720 × 480)
+FAIL endemics: locator.waitFor: Timeout 60000ms exceeded.
+ok   export-treemap (720 × 200)
+ok   factfile (720 × 480)
+ok   flagcolours (720 × 480)
+ok   geo-imagery (539 × 480)
+ok   geocards (720 × 480)
+ok   keyboards (720 × 480)
+FAIL landmarks: locator.waitFor: Timeout 60000ms exceeded.
+ok   letters (720 × 480)
+ok   names (720 × 480)
+ok   outlines (720 × 480)
+ok   owid-chart-plotter (720 × 317)
+ok   plates (720 × 480)
+ok   relief (720 × 480)
+ok   rivers (720 × 480)
+ok   roadsigns (720 × 480)
+ok   statistics (720 × 480)
+ok   subdivisions (720 × 480)
+
+No new picture for: endemics, landmarks
