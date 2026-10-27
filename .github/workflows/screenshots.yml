@@ -1,0 +1,88 @@
+# Takes a fresh picture of each app's sheet for the overview page and opens a
+# pull request with them, to look at before they go live. Runs only by hand:
+# Actions → "App screenshots" → Run workflow (optionally naming apps).
+#
+# Two jobs, so the one that installs packages and opens the apps never holds
+# a token that can write:
+#   - shoot: read-only; installs the dev tools, runs
+#     scripts/screenshots/take.mjs and hands the pictures on as an artifact;
+#   - publish: installs nothing and runs no repository code; it only commits
+#     the pictures to a new branch and opens a pull request.
+name: App screenshots
+
+on:
+  workflow_dispatch:
+    inputs:
+      apps:
+        description: "Only these apps, separated by spaces (empty: all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: screenshots
+  cancel-in-progress: false
+
+jobs:
+  shoot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Take the pictures
+        env:
+          APPS: ${{ inputs.apps }}
+        # A failed app keeps its old picture; the others are still worth a
+        # pull request, so a failure here doesn't stop the run.
+        run: node scripts/screenshots/take.mjs $APPS || echo "::warning::Some apps got no new picture; see the log."
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: shots
+          path: site/shots/
+          retention-days: 3
+
+  publish:
+    needs: shoot
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # to push the pictures' branch
+      pull-requests: write # to open the pull request
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: shots
+          path: site/shots/
+      - name: Open a pull request if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Only pictures and their list: nothing else may come from the artifact.
+          find site/shots -type f ! -name '*.webp' ! -name 'shots.json' -delete
+          if [ -z "$(git status --porcelain -- site/shots)" ]; then
+            echo "No changes."
+            exit 0
+          fi
+          branch="screenshots-$(date -u +%Y-%m-%d-%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add site/shots
+          git commit -m "App screenshots: new pictures for the overview"
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$branch"
+          gh pr create --base main --head "$branch" \
+            --title "App screenshots: new pictures for the overview" \
+            --body "Taken by the App screenshots workflow (run ${GITHUB_RUN_ID}). Look at each picture, then merge to publish." \
+          || echo "::warning::Couldn't open the pull request; open one from the $branch branch."
