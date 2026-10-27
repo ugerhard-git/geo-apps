@@ -1,7 +1,5 @@
-FAIL endemics: locator.waitFor: Timeout 120000ms exceeded.
+ok   endemics (720 × 480)
 FAIL export-treemap: locator.waitFor: Timeout 90000ms exceeded.
-FAIL landmarks: locator.waitFor: Timeout 120000ms exceeded.
-ok   owid-chart-plotter (720 × 426)
-ok   plates (720 × 480)
+ok   landmarks (720 × 480)
 
-No new picture for: endemics, export-treemap, landmarks
+No new picture for: export-treemap
