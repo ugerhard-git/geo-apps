@@ -17,10 +17,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - run: node scripts/screenshots/take.mjs $(cat spike-apps.txt 2>/dev/null) > site/shots-log.txt 2>&1 || true
+      - run: SHOTS_DEBUG=site/shots-debug node scripts/screenshots/take.mjs $(cat spike-apps.txt 2>/dev/null) > site/shots-log.txt 2>&1 || true
       - run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add -f site/shots site/shots-log.txt
+          git add -f site/shots site/shots-log.txt; git add -f site/shots-debug || true
           git commit -m "spike result"
           git push
