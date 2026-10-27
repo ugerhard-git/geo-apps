@@ -1,5 +1,1 @@
-ok   endemics (720 × 480)
-FAIL export-treemap: locator.waitFor: Timeout 90000ms exceeded.
-ok   landmarks (720 × 480)
-
-No new picture for: export-treemap
+ok   plates (720 × 480)
