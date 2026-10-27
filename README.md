@@ -215,6 +215,25 @@ ETOPO1, EU-DEM and others) ask to be credited, so the sheet carries a credit
 line by default and the Sources panel links to
 [their attributions](https://github.com/tilezen/joerd/blob/master/docs/attribution.md).
 
+## Overview pictures
+
+Each card on the overview shows a small picture of the app's sheet, from
+`site/shots/<app>.webp`; `site/shots/shots.json` lists each picture's size
+and description. They're made by `scripts/screenshots/take.mjs`, which opens
+every app, runs the steps in `scripts/screenshots/recipes.mjs` (a country
+chosen to show the app at its best, and a few settings) and saves the sheet,
+at most 720 × 480 pixels.
+
+The apps need live data, so the pictures are taken on GitHub: **Actions →
+App screenshots → Run workflow**, optionally naming only some apps. The
+workflow opens a pull request with the new pictures, to look at before
+merging. Run it after an app's sheet changes its look. Apps with Commons
+photos use public-domain files where there are enough, and otherwise files
+whose credit line is on the sheet.
+
+The Export treemaps app has no recipe: its data source turns away requests
+from GitHub's servers. Its picture, if any, is added by hand.
+
 ## API keys
 
 GeoCards can use a personal REST Countries key. Keys are never
