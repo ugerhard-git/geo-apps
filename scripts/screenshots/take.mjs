@@ -69,9 +69,11 @@ async function runStep(page, step) {
     await page.uncheck(step.uncheck);
   } else if (step.fill) {
     await page.fill(step.fill[0], step.fill[1]);
+  } else if (step.hide) {
+    await page.addStyleTag({ content: `${step.hide} { visibility: hidden !important; }` });
   } else if (step.click) {
     const all = page.locator(step.click);
-    await all.first().waitFor({ timeout: 60_000 });
+    await all.first().waitFor({ timeout: 120_000 });
     const n = Math.min(step.count || 1, await all.count());
     for (let i = 0; i < n; i++) {
       await all.nth(i).click();
