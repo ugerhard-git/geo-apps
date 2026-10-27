@@ -14,7 +14,9 @@
  *
  * The apps fetch live data, so this needs the internet. It runs on GitHub
  * (Actions → "App screenshots" → Run workflow), which opens a pull request
- * with the new pictures. Set PW_CHROMIUM_PATH to use a Chromium of your own.
+ * with the new pictures. Set PW_CHROMIUM_PATH to use a Chromium of your own,
+ * and SHOTS_DEBUG to a folder to keep a picture of each page whose recipe
+ * failed.
  */
 
 // The functions passed to page.evaluate run in the browser, not in Node.
@@ -72,7 +74,8 @@ async function runStep(page, step) {
   } else if (step.hide) {
     await page.addStyleTag({ content: `${step.hide} { visibility: hidden !important; }` });
   } else if (step.click) {
-    const all = page.locator(step.click);
+    // Only what can be seen: a photo grid hides the tiles its licence filter leaves out.
+    const all = page.locator(`${step.click} >> visible=true`);
     await all.first().waitFor({ timeout: 120_000 });
     const n = Math.min(step.count || 1, await all.count());
     for (let i = 0; i < n; i++) {
@@ -154,6 +157,15 @@ async function shoot(browser, slug, recipe) {
     if (!data.startsWith("data:image/webp;base64,")) throw new Error("no WebP from the browser");
     await writeFile(path.join(OUT, `${slug}.webp`), Buffer.from(data.split(",")[1], "base64"));
     return { w, h };
+  } catch (err) {
+    // With SHOTS_DEBUG=<folder>, the page as it was when the recipe failed.
+    if (process.env.SHOTS_DEBUG) {
+      await mkdir(process.env.SHOTS_DEBUG, { recursive: true });
+      await page
+        .screenshot({ path: path.join(process.env.SHOTS_DEBUG, `${slug}.png`), fullPage: true })
+        .catch(() => {});
+    }
+    throw err;
   } finally {
     await page.close();
   }
