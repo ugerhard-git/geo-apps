@@ -534,3 +534,44 @@ footer {
     transition: none !important;
   }
 }
+
+/* ── app pictures (site/shots/, taken by scripts/screenshots/take.mjs) ── */
+.app .shot {
+  display: block;
+  aspect-ratio: 3 / 2;
+  margin: -6px -8px 16px;
+  border-radius: 8px;
+  background: var(--sky);
+  overflow: hidden;
+}
+.app .shot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.apps[data-view="list"] .app a {
+  grid-template-columns: 84px minmax(200px, 260px) 1fr auto;
+}
+.apps[data-view="list"] .app .shot {
+  width: 84px;
+  margin: 0;
+  border-radius: 6px;
+}
+/* A card without a picture yet shows none; a list row keeps the empty
+   frame, so the rows still line up. */
+.app .shot:empty {
+  display: none;
+}
+.apps[data-view="list"] .app .shot:empty {
+  display: block;
+}
+@media (max-width: 720px) {
+  .apps[data-view="list"] .app a {
+    grid-template-columns: 1fr;
+  }
+  .apps[data-view="list"] .app .shot,
+  .apps[data-view="list"] .app .shot:empty {
+    display: none;
+  }
+}

@@ -13,8 +13,9 @@
  * Nothing else needs registering: add a folder and it appears on the index.
  */
 
+import { createHash } from "node:crypto";
 import { readdir, readFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -88,6 +89,63 @@ export async function collectApps() {
   return apps.sort((a, b) => a.title.localeCompare(b.title));
 }
 
+/**
+ * @typedef {object} Shot an app's picture, from site/shots/shots.json
+ * @property {number} w width in pixels
+ * @property {number} h height in pixels
+ * @property {string} alt what it shows
+ */
+
+/**
+ * The pictures taken by scripts/screenshots/take.mjs, by app. Only pictures
+ * whose file exists are kept; a missing or broken list means no pictures.
+ *
+ * @returns {Record<string, Shot & {v: string}>} with `v`, a short hash of the
+ *   file, so a new picture isn't hidden by a cached old one
+ */
+export function readShots() {
+  const dir = path.join(SITE_DIR, "shots");
+  /** @type {Record<string, Shot & {v: string}>} */
+  const out = {};
+  let list;
+  try {
+    list = JSON.parse(readFileSync(path.join(dir, "shots.json"), "utf8"));
+  } catch {
+    return out;
+  }
+  for (const [slug, shot] of Object.entries(list || {})) {
+    const file = path.join(dir, `${slug}.webp`);
+    if (!/^[a-z0-9-]+$/.test(slug) || !existsSync(file)) continue;
+    const w = Number(shot?.w);
+    const h = Number(shot?.h);
+    if (!(w > 0 && h > 0)) continue;
+    const v = createHash("sha256").update(readFileSync(file)).digest("hex").slice(0, 10);
+    out[slug] = { w, h, alt: String(shot.alt || ""), v };
+  }
+  return out;
+}
+
+/**
+ * The picture frame at the top of a card (or the left of a list row). It is
+ * always there, so the cards line up; empty until the app has a picture.
+ *
+ * @param {AppInfo} app
+ * @param {(Shot & {v: string}) | undefined} shot
+ */
+function shotHtml(app, shot) {
+  if (!shot) return `<span class="shot" aria-hidden="true"></span>`;
+  const src = `shots/${encodeURIComponent(app.slug)}.webp?v=${shot.v}`;
+  return `<span class="shot"><img src="${src}" width="${shot.w}" height="${shot.h}" alt="${escapeHtml(shot.alt)}" loading="lazy" decoding="async" /></span>`;
+}
+
+/**
+ * @template T
+ * @param {Record<string, T>} obj
+ * @param {string} key
+ * @returns {T | undefined}
+ */
+const own = (obj, key) => (Object.hasOwn(obj, key) ? obj[key] : undefined);
+
 /** What kind of clue an app makes, from its tags; drives the card's colour. */
 const KINDS = ["images", "chart", "maps", "text", "cards"];
 
@@ -96,8 +154,9 @@ const KINDS = ["images", "chart", "maps", "text", "cards"];
  * "API key" tag gets its own style.
  *
  * @param {AppInfo} app
+ * @param {Record<string, Shot & {v: string}>} shots
  */
-function card(app) {
+function card(app, shots) {
   const kind = app.tags.find((t) => KINDS.includes(t.toLowerCase()))?.toLowerCase() || "other";
   const tags = app.tags.length
     ? `<ul class="tags">${app.tags
@@ -107,6 +166,7 @@ function card(app) {
   return `
       <li class="app" data-kind="${kind}">
         <a href="apps/${encodeURIComponent(app.slug)}/">
+          ${shotHtml(app, own(shots, app.slug))}
           <h2>${escapeHtml(app.title)}</h2>
           <p>${escapeHtml(app.description || "")}</p>
           ${tags}
@@ -122,7 +182,8 @@ function card(app) {
  */
 export async function renderIndex(apps) {
   const template = await readFile(path.join(SITE_DIR, "index.html"), "utf8");
+  const shots = readShots();
   return template
     .replace("<!-- APP_COUNT -->", String(apps.length))
-    .replace("<!-- APPS -->", apps.map(card).join(""));
+    .replace("<!-- APPS -->", apps.map((app) => card(app, shots)).join(""));
 }

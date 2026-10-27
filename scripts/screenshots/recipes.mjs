@@ -9,6 +9,7 @@
  *   { check: "#id" } / { uncheck }   tick or untick a box
  *   { fill: ["#id", "text"] }        type into a field
  *   { click: "selector", count: 6 }  click the first N matches (default 1)
+ *   { hide: "selector" }             leave something out of the picture
  *   { wait: 2000 }                   wait this many milliseconds
  *
  * After the steps, take.mjs waits until the page has finished loading and
@@ -16,7 +17,9 @@
  * element is photographed.
  *
  * Apps with photos from Commons use public-domain files only (`#licFilter`
- * set to "pd"), so the pictures need no credits on the overview.
+ * set to "pd"), so the pictures need no credits on the overview. Where that
+ * leaves too few photos, "open" adds CC BY files, and the sheet's own credit
+ * line names their authors.
  *
  * `alt` describes the picture for people who can't see it.
  */
@@ -30,6 +33,7 @@
  * @property {[string, string]} [fill]
  * @property {string} [click]
  * @property {number} [count]
+ * @property {string} [hide]
  * @property {number} [wait]
  */
 
@@ -42,6 +46,8 @@
 
 /** Photo apps: public-domain files only, then the first few put on the sheet. */
 const PD = { select: /** @type {[string, string]} */ (["#licFilter", "pd"]) };
+/** Public domain, CC0 and CC BY, for apps with too few public-domain photos. */
+const OPEN = { select: /** @type {[string, string]} */ (["#licFilter", "open"]) };
 
 /** @type {Record<string, Recipe>} */
 export const RECIPES = {
@@ -62,12 +68,12 @@ export const RECIPES = {
     alt: "Japanese banknotes and coins on a quiz sheet",
   },
   endemics: {
-    steps: [PD, { country: "Madagascar" }, { click: ".tile .thumb", count: 6 }],
+    steps: [OPEN, { country: "Madagascar" }, { click: ".tile .thumb", count: 6 }],
     alt: "Animals and plants found only in Madagascar",
   },
   "export-treemap": {
-    steps: [{ country: "Chile" }, { click: "#go" }],
-    capture: "#stage",
+    steps: [{ country: "Chile" }, { click: "#go:enabled" }],
+    capture: "#stage svg",
     alt: "A treemap of Chile's exports, led by copper",
   },
   factfile: {
@@ -93,7 +99,7 @@ export const RECIPES = {
     alt: "The French AZERTY keyboard layout",
   },
   landmarks: {
-    steps: [PD, { country: "Italy" }, { click: ".tile .thumb", count: 6 }],
+    steps: [OPEN, { country: "Italy" }, { click: ".tile .thumb", count: 6 }],
     alt: "Photos of landmarks in Italy",
   },
   letters: {
@@ -117,13 +123,14 @@ export const RECIPES = {
       { click: "#picker button" },
       { fill: ["#search", "Brazil"] },
       { click: "#picker button" },
+      { hide: ".tablefoot .acts" },
     ],
-    capture: ".canvasbox",
+    capture: ".table",
     alt: "Life expectancy over time in three countries",
   },
   plates: {
-    steps: [PD, { country: "Netherlands" }, { click: ".tile .thumb", count: 4 }],
-    alt: "Dutch licence plates on a quiz sheet",
+    steps: [PD, { country: "United States" }, { click: ".tile .thumb", count: 6 }],
+    alt: "American licence plates, blurred, on a quiz sheet",
   },
   relief: {
     steps: [{ country: "Switzerland" }],
