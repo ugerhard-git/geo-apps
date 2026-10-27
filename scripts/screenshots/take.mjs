@@ -11,6 +11,8 @@
  * 720 × 480 pixels. `site/shots/shots.json` records each picture's size and
  * description, which the overview reads. An app whose recipe fails keeps its
  * old picture (or none) and is listed at the end; the run then exits with 1.
+ * A picture made by hand is marked `"custom": true` there and is left alone
+ * unless its app is named on the command line.
  *
  * The apps fetch live data, so this needs the internet. It runs on GitHub
  * (Actions → "App screenshots" → Run workflow), which opens a pull request
@@ -172,10 +174,16 @@ async function shoot(browser, slug, recipe) {
 }
 
 const only = process.argv.slice(2);
-const slugs = Object.keys(RECIPES).filter((s) => !only.length || only.includes(s));
 await mkdir(OUT, { recursive: true });
-/** @type {Record<string, {w: number, h: number, alt: string}>} */
+/** @type {Record<string, {w: number, h: number, alt: string, custom?: boolean}>} */
 const manifest = existsSync(MANIFEST) ? JSON.parse(await readFile(MANIFEST, "utf8")) : {};
+// A picture made by hand ("custom": true in shots.json) is kept, unless the
+// app is named on the command line.
+const kept = Object.keys(RECIPES).filter((s) => !only.length && manifest[s]?.custom);
+for (const slug of kept) console.log(`kept ${slug} (made by hand)`);
+const slugs = Object.keys(RECIPES).filter(
+  (s) => (!only.length || only.includes(s)) && !kept.includes(s),
+);
 
 const server = spawn(process.execPath, ["scripts/dev-server.mjs"], {
   cwd: ROOT,

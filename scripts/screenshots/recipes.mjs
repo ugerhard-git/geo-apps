@@ -72,9 +72,7 @@ export const RECIPES = {
     alt: "Animals found only in Madagascar",
   },
   // export-treemap has no recipe: OEC, its data source, turns away requests
-  // from GitHub's servers, so its picture can't be taken there. Export a PNG
-  // from the app instead and save it as site/shots/export-treemap.webp, with
-  // an entry in shots.json.
+  // from GitHub's servers. Its picture is made by hand (see the README).
   factfile: {
     steps: [{ country: "Hungary" }],
     alt: "A fact card about Hungary, with every name blacked out",
