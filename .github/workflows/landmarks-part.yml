@@ -1,0 +1,52 @@
+# One part of the monthly Landmarks data refresh, called by landmarks-data.yml.
+# It continues from the data the previous part left (an artifact of the same
+# run), refreshes its share of the countries and hands the data on.
+#
+# Read-only: it fetches from QLever and writes files, nothing else. The
+# script stops starting new countries after 200 minutes, so the job always
+# finishes and passes its work on, well inside its own 240.
+name: Landmarks data (one part)
+
+on:
+  workflow_call:
+    inputs:
+      part:
+        description: "Which part, from 1"
+        type: number
+        required: true
+      parts:
+        description: "How many parts in all"
+        type: number
+        required: true
+      previous:
+        description: "The previous part's artifact; empty for the first part"
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+      - name: Continue from the previous part
+        if: inputs.previous != ''
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: ${{ inputs.previous }}
+          path: apps/landmarks/data
+      - name: Build this part's countries
+        run: node scripts/landmarks/build-data.mjs --part=${{ inputs.part }}/${{ inputs.parts }} --minutes=200
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: landmarks-data-${{ inputs.part }}
+          path: apps/landmarks/data/
+          retention-days: 3
