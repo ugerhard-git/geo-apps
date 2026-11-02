@@ -123,14 +123,20 @@ the number of Wikipedias with an article about them, and filters out what can't 
 pictured as one sight (seas, regions, towns, tunnels). The rules are in
 `scripts/landmarks/select.js`, with unit tests.
 
-`.github/workflows/landmarks-data.yml` reruns it on the 1st of every month (about 1½
-hours) and opens a pull request with whatever changed; it can also be started by
-hand under **Actions → Landmarks data → Run workflow**. For the pull request to be
-opened automatically, enable **Settings → Actions → General → Allow GitHub Actions to
-create and approve pull requests**; otherwise the workflow pushes a
-`landmarks-data-<date>` branch and says so.
+`.github/workflows/landmarks-data.yml` reruns it on the 1st of every month and opens
+a pull request with whatever changed; it can also be started by hand under **Actions →
+Landmarks data → Run workflow**. QLever has grown too slow for all countries to fit in
+one job's time, so the work runs in six parts, one after another
+(`.github/workflows/landmarks-part.yml`), each continuing from the previous part's data;
+the whole run takes several hours. Each part stops starting new countries after 200
+minutes, and a country not reached, or whose query fails, keeps its previous file. A
+query QLever gives up on is not retried. For the pull request to be opened
+automatically, enable **Settings → Actions → General → Allow GitHub Actions to create
+and approve pull requests**; otherwise the workflow pushes a `landmarks-data-<date>`
+branch and says so.
 
-To rebuild a few countries locally: `node scripts/landmarks/build-data.mjs FR JP`.
+To rebuild a few countries locally: `node scripts/landmarks/build-data.mjs FR JP`
+(or one part: `--part=2/6`).
 
 ## Precomputed data: Keyboard layouts
 

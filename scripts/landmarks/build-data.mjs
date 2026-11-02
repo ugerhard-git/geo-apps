@@ -7,6 +7,15 @@
  *
  *   node scripts/landmarks/build-data.mjs            every country
  *   node scripts/landmarks/build-data.mjs FR JP      just these
+ *   node scripts/landmarks/build-data.mjs --part=2/6 every sixth country,
+ *                                                    starting with the second
+ *   node scripts/landmarks/build-data.mjs --minutes=200
+ *                                                    stop starting countries
+ *                                                    after 200 minutes
+ *
+ * The workflow runs the countries in parts, one job after another, each with
+ * a time budget below GitHub's limit for a job: QLever has grown slower than
+ * one job can wait for. A country not reached keeps its previous file.
  *
  * A country whose query fails keeps its previous file, and is listed in
  * index.json, so one bad night never wipes data.
@@ -38,6 +47,9 @@ const PACE_MS = 1500;
 const FEW = 30;
 let lastQuery = 0;
 
+/** A query QLever gave up on: not worth asking again. */
+class QueryTimeout extends Error {}
+
 /** @param {string} text a SPARQL query */
 async function sparql(text) {
   let last;
@@ -58,6 +70,10 @@ async function sparql(text) {
         signal: AbortSignal.timeout(120_000),
       });
       const reply = await r.text();
+      // QLever answers a query that ran out of time with a 429 and a JSON
+      // error. The same query will run out of time again, so it isn't retried.
+      if (r.status === 429 && reply.startsWith("{") && /timed out/i.test(reply))
+        throw new QueryTimeout(`query timed out: ${reply.slice(0, 200)}`);
       if (r.status === 429 && !reply.startsWith("{")) {
         // Rate-limited (an HTML page), as opposed to a query timeout (JSON).
         const after = parseInt(r.headers.get("retry-after") || "", 10);
@@ -73,6 +89,7 @@ async function sparql(text) {
       if (!Array.isArray(rows)) throw new Error("unexpected response");
       return rows;
     } catch (e) {
+      if (e instanceof QueryTimeout) throw e;
       last = e;
       wait = 10_000 * (attempt + 1);
     }
@@ -131,17 +148,32 @@ async function query(iso) {
 }
 
 await mkdir(OUT, { recursive: true });
-const wanted = process.argv.slice(2).filter((a) => /^[A-Z]{2}$/.test(a));
-const countries = (await loadTerritories()).filter(
-  (t) => !wanted.length || wanted.includes(t.code),
-);
+const args = process.argv.slice(2);
+const wanted = args.filter((a) => /^[A-Z]{2}$/.test(a));
+// --part=K/N: the countries whose place in the list, counted from 1, leaves
+// K when divided by N (K = N for none left), so each part gets a mix of big
+// and small countries.
+const part = /^--part=(\d+)\/(\d+)$/.exec(args.find((a) => a.startsWith("--part=")) || "");
+const [k, n] = part ? [Number(part[1]), Number(part[2])] : [1, 1];
+if (part && !(n >= 1 && k >= 1 && k <= n)) throw new Error("--part must be K/N with 1 ≤ K ≤ N");
+const minutesArg = /^--minutes=(\d+)$/.exec(args.find((a) => a.startsWith("--minutes=")) || "");
+const budgetMs = minutesArg ? Number(minutesArg[1]) * 60_000 : Infinity;
+const countries = (await loadTerritories())
+  .filter((t) => !wanted.length || wanted.includes(t.code))
+  .filter((_, i) => i % n === k - 1);
 
 /** @type {Record<string, number>} */
 const counts = {};
 /** @type {string[]} */
 const failed = [];
+/** @type {string[]} */
+const skipped = [];
 const started = Date.now();
 for (const [i, t] of countries.entries()) {
+  if (Date.now() - started > budgetMs) {
+    skipped.push(...countries.slice(i).map((c) => c.code));
+    break;
+  }
   const t0 = Date.now();
   try {
     const { rows, parents } = await query(t.code);
@@ -215,8 +247,17 @@ index.countries = Object.fromEntries(
 );
 index.source = "Wikidata via QLever, ranked by sitelinks";
 index.updated = new Date().toISOString().slice(0, 10);
-index.failed = failed;
+// Failures from earlier parts or runs stay listed unless this run did them again.
+const done = new Set(countries.map((c) => c.code).filter((c) => !skipped.includes(c)));
+index.failed = [
+  ...(index.failed || []).filter((/** @type {string} */ c) => !done.has(c)),
+  ...failed,
+].sort();
 await writeFile(path.join(OUT, "index.json"), JSON.stringify(index, null, 1) + "\n");
 console.log(
   `Done: ${Object.keys(counts).length - failed.length} countries, ${failed.length} failed, ${Math.round((Date.now() - started) / 1000)} s`,
 );
+if (skipped.length) {
+  const msg = `Out of time: ${skipped.length} countries not reached, kept as they were: ${skipped.join(" ")}`;
+  console.log(process.env.GITHUB_ACTIONS ? `::warning title=Not reached::${msg}` : msg);
+}
