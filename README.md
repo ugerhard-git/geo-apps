@@ -287,6 +287,9 @@ rules that keep that in check:
   via a pull request).
   Every action is pinned to a commit, not a movable tag, and Dependabot opens a
   pull request when one (or a dev tool) has an update.
+- **Overrides in `package.json`:** `minimatch` is forced to version 11, which
+  fixes a denial-of-service issue (GHSA-g3hv-75wg-m249), because ESLint still
+  asks for version 10. Remove the override once ESLint asks for 11 itself.
 - **Vendored code is checked against its release:** `vendor/chart.umd.js` is
   byte-identical to Chart.js 4.4.6 on npm.
 
