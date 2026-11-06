@@ -1,0 +1,26 @@
+/* Presets (shared/presets.js): the "Start from" menu and the two dice, at
+   the top of an app's sidebar. Uses the app's own --rule and --accent. */
+.presets .dice {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.presets .dice button {
+  flex: 1;
+  padding: 7px 6px;
+  border: 1px solid var(--rule, #30353f);
+  border-radius: 3px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+.presets .dice button:hover:not(:disabled) {
+  border-color: var(--accent, #6ea8fe);
+}
+.presets .dice button:disabled,
+.presets select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -244,6 +244,30 @@ that app is named when the workflow is run. The Export treemaps picture is
 always made this way, because its data source turns away requests from
 GitHub's servers.
 
+## Presets
+
+Some apps open with an example already drawn and offer a **Start from** menu
+at the top of the sidebar: examples (a country, a look and the app's own
+options, chosen to show what the app can do) and looks (matched colour
+schemes that keep the country). Two buttons give ideas: **Random country**
+keeps the look, **Random look** keeps the country. Text the user typed
+(caption, note) is never touched, and once a setting is changed by hand the
+menu says "Custom (based on …)". So far: Fact file, Shaded relief, Country
+statistics and Alphabets.
+
+- `shared/looks.js` holds the looks, shared by every app. Unit tests check
+  that text stays readable on each (contrast at least 7 : 1).
+- `shared/presets.js` applies a preset by setting the page's own controls and
+  firing the events a person would, so the app's usual handlers do the rest.
+  Before an example, every setting goes back to how the page started.
+- Each app's `presets.js` lists its examples (the first is drawn on opening)
+  and maps a look onto its colour controls. Its `main.js` calls
+  `setupPresets()` with those, the countries "Random country" may pick, and how
+  to show a country; then `start()` once the country list has loaded. A unit
+  test checks that every preset only names controls the page has.
+- The page needs the "Start from" group (`#preset`, `#rndCountry`,
+  `#rndLook`) at the top of its sidebar, and `shared/presets.css`.
+
 ## API keys
 
 GeoCards can use a personal REST Countries key. Keys are never

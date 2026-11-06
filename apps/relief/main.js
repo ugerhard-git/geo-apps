@@ -17,9 +17,12 @@
  *   terrain.js  tile maths, shading and colouring (pure)
  *   tiles.js    fetching and decoding tiles, with a small cache
  *   render.js   laying out and drawing the sheet
+ *   presets.js  examples to start from, and how a look colours the sheet
  */
 
 import { addBackLink } from "../../shared/back-link.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, MIN_RANDOM_AREA, landArea, lookToControls } from "./presets.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import {
@@ -534,7 +537,6 @@ async function start() {
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — start typing`;
-    input.focus();
     if (got.outlinesFailed)
       note(
         "Couldn't load the country borders, which the terrain is cut to. Reload to try again.",
@@ -550,7 +552,22 @@ async function start() {
   } finally {
     progress(null);
   }
+  if (COUNTRIES.length) await presets.start();
 }
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  // Only countries with an outline (the terrain is cut to it) and enough
+  // land to show some relief.
+  countries: () =>
+    COUNTRIES.filter((c) => {
+      const s = shapeFor(c);
+      return s && landArea(s.polys) >= MIN_RANDOM_AREA;
+    }).map((c) => c.code),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: (code) => pickCountry(COUNTRIES.find((c) => c.code === code)),
+});
 
 syncUI();
 start();

@@ -4,15 +4,18 @@
  *
  * Flow: pick a country → CLDR lists the languages spoken there and which have
  * character data → tick up to four → each is drawn as a grid of letters,
- * optionally with a sample sentence → export or copy.
+ * optionally with a sample sentence → export or copy. The examples to start
+ * from are in presets.js.
  */
 
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, progress, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, norm } from "../../shared/text.js";
 import { CLDR_VERSION } from "../../shared/cldr.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import {
   buildAlphabet,
   countryList,
@@ -257,14 +260,21 @@ const picker = createCountryPicker({
   code: (c) => c.code,
   label: (c) => c.name,
   normalise: norm,
-  onPick: (c) => {
-    if (!c) return;
-    chosenCountry = c.code;
-    $("country").value = c.name;
-    picker.close();
-    onCountryChange();
-  },
+  onPick: chooseCountry,
 });
+
+/**
+ * Show a country's languages, as if it had been picked in the search box.
+ *
+ * @param {{code: string, name: string} | undefined} c
+ */
+function chooseCountry(c) {
+  if (!c) return;
+  chosenCountry = c.code;
+  $("country").value = c.name;
+  picker.close();
+  return onCountryChange();
+}
 
 /* ═══════════════════════════════════════════════════════════
    Language picker
@@ -429,6 +439,15 @@ $("copyBtn").addEventListener("click", async () => {
    Start-up
    ═══════════════════════════════════════════════════════════ */
 
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  // Only countries with at least one language to show.
+  countries: () => COUNTRIES.filter((c) => languagesFor(c.code).length).map((c) => c.code),
+  currentCountry: () => chosenCountry || null,
+  pickCountry: (code) => chooseCountry(COUNTRIES.find((c) => c.code === code)),
+});
+
 syncExportState();
 progress("Loading CLDR", true);
 loadCore()
@@ -437,8 +456,10 @@ loadCore()
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — name or code`;
-    input.focus();
     progress(null);
+    presets
+      .start()
+      .catch((e) => note("Couldn't draw the example: " + cleanText(e && e.message, 70), true));
   })
   .catch((err) => {
     progress(null);
