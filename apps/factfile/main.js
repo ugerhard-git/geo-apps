@@ -13,6 +13,7 @@
  *   data.js      reading and checking the data files
  *   blackout.js  finding the names that could give the country away (pure)
  *   render.js    blocks, layout and drawing
+ *   presets.js   examples to start from, and how a look colours the card
  *
  * The data is built once by scripts/factfile/build-data.mjs: the Factbook
  * stopped in February 2026.
@@ -23,6 +24,8 @@ import { loadTerritories } from "../../shared/cldr.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { ALIASES } from "../../shared/map-countries.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
@@ -405,7 +408,6 @@ async function start() {
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — start typing`;
-    input.focus();
   } catch (e) {
     note(
       "Couldn't load the list of countries: " +
@@ -416,6 +418,15 @@ async function start() {
   } finally {
     progress(null);
   }
+  if (COUNTRIES.length) await presets.start();
 }
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: (code) => pickCountry(COUNTRIES.find((c) => c.code === code)),
+});
 
 start();

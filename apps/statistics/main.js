@@ -6,13 +6,14 @@
  * (sources.js, series.js) → the first four available are selected, and
  * labels that would give the country away are hidden (giveaway.js) → tick
  * charts on and off, show or hide labels → export. Drawing lives in
- * charts.js and render.js.
+ * charts.js and render.js; the examples to start from, in presets.js.
  */
 
 import { CLDR_VERSION } from "../../shared/cldr.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
 import { formatShare } from "./charts.js";
@@ -27,6 +28,7 @@ import {
 } from "./config.js";
 import { guessHidden, officialCounts } from "./giveaway.js";
 import { drawSheet } from "./render.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { buildSeries } from "./series.js";
 import { loadReference } from "./sources.js";
 
@@ -360,6 +362,28 @@ const picker = createCountryPicker({
   onPick: pickCountry,
 });
 
+/** Counts country loads, so a slower earlier one can't overwrite a later one. */
+let loading = 0;
+
+/** How many statistics are fetched at once. */
+const FETCH_AT_ONCE = 4;
+
+/**
+ * Run `fn` on every item, at most `n` at a time.
+ *
+ * @template T
+ * @param {T[]} items
+ * @param {number} n
+ * @param {(item: T) => Promise<void>} fn
+ */
+async function inBatches(items, n, fn) {
+  let next = 0;
+  const worker = async () => {
+    while (next < items.length) await fn(items[next++]);
+  };
+  await Promise.all(Array.from({ length: Math.min(n, items.length) }, worker));
+}
+
 /**
  * Fetch every statistic for a country and select the first four available.
  *
@@ -377,24 +401,29 @@ async function pickCountry(c) {
   if (!officialIn) officialIn = officialCounts(territoryInfo);
   renderStats();
   note("");
+  const mine = ++loading;
   await refresh();
-  progress("Fetching statistics", true);
-  const missing = [];
-  for (const stat of STATS) {
-    progress(`Fetching ${stat.title.toLowerCase()}`, true);
+  if (mine !== loading) return;
+  // Several at once: one slow source no longer holds up the rest.
+  let done = 0;
+  progress(`Fetching statistics (0 of ${STATS.length})`, true);
+  await inBatches(STATS, FETCH_AT_ONCE, async (stat) => {
     let series;
     try {
       series = await buildSeries(stat.id, c, territoryInfo);
     } catch {
       series = null;
     }
+    if (mine !== loading) return;
     available.set(stat.id, series);
-    if (!series) missing.push(stat.title);
-    else {
+    if (series)
       hiddenNames.set(stat.id, guessHidden(stat.id, series.slices, c, territoryInfo, officialIn));
-    }
+    progress(`Fetching statistics (${++done} of ${STATS.length})`, true);
     renderStats();
-  }
+  });
+  // Another country was picked meanwhile: its own load carries on.
+  if (mine !== loading) return;
+  const missing = STATS.filter((s) => !available.get(s.id)).map((s) => s.title);
   progress(null);
   // Offer a sensible starting set rather than an empty sheet.
   selected = STATS.map((s) => s.id)
@@ -547,6 +576,29 @@ $("maxCharts").textContent = String(MAX_CHARTS);
 $("capPosField").hidden = !cleanText($("capText").value, 120);
 $("notePosField").hidden = !cleanText($("noteText").value, 160);
 syncExportState();
+/**
+ * Show an example's charts, in its order, where the country has data for
+ * them; if it has data for none, keep the usual first four.
+ *
+ * @param {{stats?: string[]}} extra
+ */
+function showStats(extra) {
+  const ids = (extra?.stats || []).filter((id) => available.get(id)).slice(0, MAX_CHARTS);
+  if (!ids.length) return;
+  selected = ids;
+  renderStats();
+  refresh();
+}
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: (code) => pickCountry(COUNTRIES.find((c) => c.code === code)),
+  afterCountry: showStats,
+});
+
 progress("Loading reference data", true);
 loadReference()
   .then((ref) => {
@@ -555,8 +607,10 @@ loadReference()
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — name or code`;
-    input.focus();
     progress(null);
+    presets
+      .start()
+      .catch((e) => note("Couldn't draw the example: " + cleanText(e && e.message, 70), true));
   })
   .catch((err) => {
     progress(null);
