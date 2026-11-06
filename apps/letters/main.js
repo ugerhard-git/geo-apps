@@ -23,6 +23,11 @@ import { cleanText, slugify } from "../../shared/text.js";
 import { own } from "../../shared/util.js";
 import { barsFor, loadData } from "./data.js";
 import { drawSheet } from "./render.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("letters", WELCOME);
 
 addBackLink();
 

@@ -22,7 +22,7 @@
  */
 
 // The functions passed to page.evaluate run in the browser, not in Node.
-/* global document, Image, HTMLCanvasElement */
+/* global window, document, Image, HTMLCanvasElement */
 
 import { spawn } from "node:child_process";
 import { existsSync } from "node:fs";
@@ -30,6 +30,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { chromium } from "@playwright/test";
 import { ROOT, SITE_DIR } from "../apps.mjs";
+import { seenKey } from "../../shared/welcome.js";
 import { RECIPES } from "./recipes.mjs";
 
 const OUT = path.join(SITE_DIR, "shots");
@@ -150,6 +151,8 @@ async function grab(page, capture) {
  */
 async function shoot(browser, slug, recipe) {
   const page = await browser.newPage({ viewport: { width: 1600, height: 1100 } });
+  // Mark the welcome window as seen, so it doesn't cover the controls.
+  await page.addInitScript((key) => window.localStorage.setItem(key, "1"), seenKey(slug));
   try {
     await page.goto(`${BASE}/apps/${slug}/`, { waitUntil: "load" });
     for (const step of recipe.steps) await runStep(page, step);

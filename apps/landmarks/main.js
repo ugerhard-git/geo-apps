@@ -38,6 +38,11 @@ import { own } from "../../shared/util.js";
 import { ALT_PHOTOS, FULL_W, MAX_SELECTED, THUMB_W } from "./config.js";
 import { kindMatches, loadCountry } from "./data.js";
 import { drawSheet } from "./render.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("landmarks", WELCOME);
 
 addBackLink();
 

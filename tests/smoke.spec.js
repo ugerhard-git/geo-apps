@@ -58,4 +58,19 @@ for (const app of apps) {
     expect(errors).toEqual([]);
     expect(await visibleHidden(page)).toEqual([]);
   });
+
+  // The welcome window opens on the first visit only; "How it works" brings it back.
+  test(`${app.slug} welcomes a first-time visitor once`, async ({ page }) => {
+    await open(page, `/apps/${app.slug}/`);
+    const welcome = page.locator("dialog.welcome");
+    await expect(welcome).toBeVisible();
+    await expect(welcome.locator("h2")).toContainText("Welcome to");
+    await welcome.getByRole("button", { name: "Start" }).click();
+    await expect(welcome).toBeHidden();
+
+    await page.reload();
+    await expect(page.locator("dialog.welcome")).toBeHidden();
+    await page.getByRole("button", { name: "How it works" }).click();
+    await expect(page.locator("dialog.welcome")).toBeVisible();
+  });
 }

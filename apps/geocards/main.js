@@ -27,6 +27,11 @@ import { createCountryPicker, rankCountries } from "../../shared/country-picker.
 import { addBackLink } from "../../shared/back-link.js";
 import { setupPresets } from "../../shared/presets.js";
 import { EXAMPLES, lookToControls } from "./presets.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("geocards", WELCOME);
 
 addBackLink();
 

@@ -82,7 +82,9 @@ host to `connect-src` (or `img-src` for images), or the browser will block the r
    `<meta name="geo-apps:tags" content="Source, kind">`. That is all the overview page needs; there is
    no list to register in.
 3. Import shared code with relative paths, e.g. `import { $ } from "../../shared/dom.js"`.
-4. `npm run dev`, then the checks in `CONTRIBUTING.md` before opening a pull request.
+4. Give it presets and a welcome window: see [Presets](#presets) and
+   [Welcome window](#welcome-window).
+5. `npm run dev`, then the checks in `CONTRIBUTING.md` before opening a pull request.
 
 ## Shared modules
 
@@ -112,6 +114,8 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `keys.js`           | API keys shared by all apps (see below)                                            |
 | `back-link.js`      | The "Back to apps overview" link, shown only on the published site                 |
 | `fonts.js`          | Noto fonts per script from Google Fonts, loaded on demand (keyboards, baby names)  |
+| `presets.js`        | The "Start from" menu and the two dice (see below), with `looks.js`                |
+| `welcome.js`        | The welcome window shown on a first visit, and "How it works" (see below)          |
 
 ## Precomputed data: Landmarks
 
@@ -277,6 +281,26 @@ menu says "Custom (based on …)". Every app has them.
   test checks that every preset only names controls the page has.
 - The page needs the "Start from" group (`#preset`, `#rndCountry`,
   `#rndLook`) at the top of its sidebar, and `shared/presets.css`.
+
+## Welcome window
+
+On a visitor's first visit to an app, a window explains what the app makes,
+what its options do, and how the presets and dice work. "How it works", under
+the app's title, opens it again.
+
+- Each app's `welcome.js` holds its own text: what it makes and its options.
+  `shared/welcome.js` adds the parts every app shares: getting started, the
+  common options ("reveals", sheet and caption, export) and the presets.
+  An app can replace those where they don't fit (the OWID plotter, Geo
+  imagery, GeoCards, Export treemaps).
+- "Seen" is remembered per app in the browser (`geo-apps.welcome.<app>` in
+  `localStorage`). When storage is blocked, the window opens on every visit.
+- Its `main.js` calls `setupWelcome("<app>", WELCOME)` and its page links
+  `shared/welcome.css`. A unit test checks both for every app, and a smoke
+  test that the window opens once and comes back with "How it works".
+- The overview pictures (`scripts/screenshots/take.mjs`) mark it as seen
+  before a page loads, so it doesn't cover the controls.
+- When an app gains or loses an option, update its `welcome.js` too.
 
 ## API keys
 

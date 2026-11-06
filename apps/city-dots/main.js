@@ -24,6 +24,11 @@ import { clamp, own } from "../../shared/util.js";
 import { isFormatError, loadCities } from "../../shared/geonames.js";
 import { COUNT_MAX, COUNT_MIN } from "./config.js";
 import { dotsFor, drawSheet } from "./render.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("city-dots", WELCOME);
 
 addBackLink();
 

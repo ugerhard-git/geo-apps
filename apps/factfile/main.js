@@ -14,6 +14,7 @@
  *   blackout.js  finding the names that could give the country away (pure)
  *   render.js    blocks, layout and drawing
  *   presets.js   examples to start from, and how a look colours the card
+ *   welcome.js   the text of the welcome window
  *
  * The data is built once by scripts/factfile/build-data.mjs: the Factbook
  * stopped in February 2026.
@@ -33,6 +34,11 @@ import { own } from "../../shared/util.js";
 import { FIELDS, GROUPS, SOURCE_LINE } from "./config.js";
 import { loadIndex, loadRecord } from "./data.js";
 import { buildBlocks, drawSheet } from "./render.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("factfile", WELCOME);
 
 addBackLink();
 
