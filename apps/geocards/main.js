@@ -25,6 +25,8 @@ import { loadAlpha3, loadTerritories } from "../../shared/cldr.js";
 import { createCountryPicker, rankCountries } from "../../shared/country-picker.js";
 
 import { addBackLink } from "../../shared/back-link.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 
 addBackLink();
 
@@ -245,10 +247,23 @@ Promise.all([loadTerritories(), loadAlpha3()])
     }));
     /** @type {HTMLInputElement} */ ($("country")).placeholder =
       `${COUNTRIES.length} countries — name or code`;
+    return presets.start();
   })
   .catch(() => {
     /* no suggestions, but typing a name and pressing Enter still works */
   });
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  currentCountry: () => state.country?.iso2 || null,
+  pickCountry: (code) => {
+    const c = COUNTRIES.find((x) => x.code === code);
+    if (c) $("country").value = c.name;
+    return c ? lookUp(c.code, c.name) : undefined;
+  },
+});
 
 $("form").addEventListener("submit", (e) => {
   e.preventDefault();

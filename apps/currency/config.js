@@ -13,10 +13,15 @@ export const URL_CURRENCY_NAMES = cldrUrl("cldr-numbers-full", "main/en/currenci
 export const MAX_FILES = 120;
 /** Most images that fit on one sheet. */
 export const MAX_SELECTED = 12;
+/**
+ * Photo widths: Wikimedia only serves its standard thumbnail sizes reliably
+ * (…, 250, 330, 500, 960, 1280, 1920); other widths are throttled or refused,
+ * which left photos off sheets.
+ */
 /** Width of the picker thumbnails, in pixels. */
-export const THUMB_W = 400;
+export const THUMB_W = 330;
 /** Width of the renders drawn on the sheet, in pixels. */
-export const FULL_W = 1200;
+export const FULL_W = 1280;
 
 /**
  * Infobox rows safe to show without naming the currency. Everything else —

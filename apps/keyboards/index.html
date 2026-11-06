@@ -26,6 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../shared/presets.css" />
   </head>
   <body>
     <div class="shell">
@@ -33,6 +34,20 @@
         <div class="rail-head">
           <h1>Keyboard layouts</h1>
           <p>A country's keyboard, key by key — QWERTZ or AZERTY, its accents, its alphabet.</p>
+        </div>
+
+        <div class="group presets">
+          <h2>Start from</h2>
+          <div class="field">
+            <label for="preset">Preset</label>
+            <select id="preset" disabled>
+              <option>Loading…</option>
+            </select>
+          </div>
+          <div class="dice">
+            <button type="button" id="rndCountry" disabled>Random country</button>
+            <button type="button" id="rndLook" disabled>Random look</button>
+          </div>
         </div>
 
         <div class="group">

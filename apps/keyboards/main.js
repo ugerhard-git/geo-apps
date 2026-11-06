@@ -19,6 +19,8 @@ import { loadTerritories } from "../../shared/cldr.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { ALIASES } from "../../shared/map-countries.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
@@ -279,7 +281,8 @@ async function start() {
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — start typing`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
   } catch (e) {
     note(
       "Couldn't load the keyboards: " +
@@ -293,5 +296,13 @@ async function start() {
   // Fonts for Latin keyboards, ahead of the first pick.
   ensureFonts([], "QWERTZ").catch(() => {});
 }
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: (code) => pickCountry(COUNTRIES.find((c) => c.code === code)),
+});
 
 start();

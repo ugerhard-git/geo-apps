@@ -14,6 +14,8 @@ import { addBackLink } from "../../shared/back-link.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { MAINLAND_OVERRIDE, isNum } from "../../shared/geo.js";
 import { ALIASES, loadMapCountries } from "../../shared/map-countries.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
@@ -388,7 +390,8 @@ async function loadCountries() {
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — start typing`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
     if (got.outlinesFailed)
       note("Couldn't load the country outlines, so maps are framed on the cities alone.");
   } catch (e) {
@@ -403,6 +406,14 @@ async function loadCountries() {
     showLoading();
   }
 }
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: (code) => pickCountry(COUNTRIES.find((c) => c.code === code)),
+});
 
 syncUI();
 loadCountries();

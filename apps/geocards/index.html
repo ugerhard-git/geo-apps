@@ -32,6 +32,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../shared/presets.css" />
   </head>
   <body>
     <svg class="graticule" viewBox="0 0 400 400" aria-hidden="true" fill="none">
@@ -52,6 +53,17 @@
           <h1 class="wordmark"><span>Geo</span>Cards</h1>
           <p class="tagline">Country statistics, drawn as cards you can download.</p>
         </header>
+
+        <section class="rail-section presets">
+          <label class="lede" for="preset">Start from</label>
+          <select id="preset" disabled>
+            <option>Loading…</option>
+          </select>
+          <div class="dice">
+            <button type="button" id="rndCountry" disabled>Random country</button>
+            <button type="button" id="rndLook" disabled>Random look</button>
+          </div>
+        </section>
 
         <section class="rail-section">
           <form id="form" autocomplete="off">

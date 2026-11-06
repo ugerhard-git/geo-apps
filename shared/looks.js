@@ -20,6 +20,8 @@
  * @property {string} paper the sheet's background
  * @property {string} ink text
  * @property {string} accent highlights: bars, a second text colour
+ * @property {string} second a second highlight, set apart from the accent
+ *   (rain next to temperature, water next to land)
  * @property {string} relief the Relief app's height colours (a scheme id)
  * @property {string} chart the Country statistics app's palette (an id)
  */
@@ -32,6 +34,7 @@ export const LOOKS = [
     paper: "#f6f2ea",
     ink: "#23262d",
     accent: "#b4553a",
+    second: "#2f6f8f",
     relief: "atlas",
     chart: "okabe",
   },
@@ -41,6 +44,7 @@ export const LOOKS = [
     paper: "#14161c",
     ink: "#e8eaf0",
     accent: "#e2865c",
+    second: "#7fb8e6",
     relief: "night",
     chart: "bright",
   },
@@ -50,6 +54,7 @@ export const LOOKS = [
     paper: "#ffffff",
     ink: "#000000",
     accent: "#555555",
+    second: "#767676",
     relief: "grey",
     chart: "mono",
   },
@@ -59,6 +64,7 @@ export const LOOKS = [
     paper: "#eaf2f6",
     ink: "#12324a",
     accent: "#2a6f9e",
+    second: "#b4553a",
     relief: "atlas",
     chart: "okabe",
   },
@@ -68,6 +74,7 @@ export const LOOKS = [
     paper: "#eef2e8",
     ink: "#1f3324",
     accent: "#4f7d3a",
+    second: "#2f6f8f",
     relief: "tropical",
     chart: "earth",
   },
@@ -77,6 +84,7 @@ export const LOOKS = [
     paper: "#f4ead8",
     ink: "#3b2a1a",
     accent: "#b0581f",
+    second: "#2f6f8f",
     relief: "desert",
     chart: "earth",
   },
@@ -86,6 +94,7 @@ export const LOOKS = [
     paper: "#f3f5f7",
     ink: "#1d2733",
     accent: "#6a4f8f",
+    second: "#2e7d6b",
     relief: "alpine",
     chart: "okabe",
   },
@@ -95,6 +104,7 @@ export const LOOKS = [
     paper: "#1b2a6b",
     ink: "#ffd23f",
     accent: "#ff7a7f",
+    second: "#7fe0c4",
     relief: "night",
     chart: "bright",
   },
@@ -104,6 +114,7 @@ export const LOOKS = [
     paper: "#22302a",
     ink: "#f1efe6",
     accent: "#e7c66b",
+    second: "#8fc7e8",
     relief: "night",
     chart: "bright",
   },
@@ -113,6 +124,7 @@ export const LOOKS = [
     paper: "#fbeef0",
     ink: "#3d1f2b",
     accent: "#b8325a",
+    second: "#2f6f8f",
     relief: "desert",
     chart: "earth",
   },
@@ -125,6 +137,26 @@ export const LOOKS = [
  * @returns {Look | undefined}
  */
 export const lookById = (id) => LOOKS.find((l) => l.id === id);
+
+/**
+ * A colour part of the way from `a` to `b`: 0 is `a`, 1 is `b`. For tints such
+ * as a key a shade off the paper.
+ *
+ * @param {string} a "#rrggbb"
+ * @param {string} b "#rrggbb"
+ * @param {number} t
+ */
+export function mix(a, b, t) {
+  /** @param {string} hex @param {number} i */
+  const ch = (hex, i) => parseInt(hex.slice(i, i + 2), 16);
+  return (
+    "#" +
+    [1, 3, 5]
+      .map((i) => Math.round(ch(a, i) + (ch(b, i) - ch(a, i)) * t))
+      .map((v) => v.toString(16).padStart(2, "0"))
+      .join("")
+  );
+}
 
 /**
  * WCAG contrast ratio between two colours, 1 to 21.

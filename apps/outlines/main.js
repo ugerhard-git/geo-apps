@@ -11,6 +11,8 @@
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { MAINLAND_OVERRIDE, isNum } from "../../shared/geo.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, norm, slugify } from "../../shared/text.js";
@@ -445,6 +447,15 @@ $("dlJpg").addEventListener("click", () => exportSheet("image/jpeg", "jpg"));
 
 syncUI();
 progress("Loading country outlines", 0, true);
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.name),
+  currentCountry: () => chosen?.name || null,
+  // Outlines come from Natural Earth, which names its countries.
+  pickCountry: (name) => pickCountry(COUNTRIES.find((c) => c.name === name)),
+});
+
 fetch(TOPO_URL)
   .then((r) => {
     if (!r.ok) throw new Error("HTTP " + r.status);
@@ -456,7 +467,8 @@ fetch(TOPO_URL)
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — start typing`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
     progress(null);
   })
   .catch((err) => {

@@ -11,6 +11,8 @@ import { CLDR_VERSION, loadTerritories } from "../../shared/cldr.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { bareName, cleanText, slugify } from "../../shared/text.js";
 import { clamp, rng } from "../../shared/util.js";
@@ -451,6 +453,14 @@ renderSwatches();
 $("capPosField").hidden = !cleanText($("capText").value, 120);
 syncExportState();
 progress("Loading the country list", true);
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: (code) => pickCountry(COUNTRIES.find((c) => c.code === code)),
+});
+
 loadTerritories()
   .then((list) => {
     COUNTRIES = list.sort((a, b) => bareName(a.name).localeCompare(bareName(b.name)));
@@ -458,7 +468,8 @@ loadTerritories()
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — name or code`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
     progress(null);
   })
   .catch((err) => {

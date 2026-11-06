@@ -23,7 +23,7 @@
  */
 
 import { $ } from "./dom.js";
-import { LOOKS, lookById } from "./looks.js";
+import { LOOKS } from "./looks.js";
 
 /**
  * @typedef {import("./looks.js").Look} Look
@@ -43,9 +43,10 @@ import { LOOKS, lookById } from "./looks.js";
  *   id: string,
  *   name: string,
  *   look: string,
- *   country: string,
+ *   country?: string,
  *   extra?: any,
- * }} Example an example: a look id, a country (ISO alpha-2), the options it
+ * }} Example an example: a look id, a country (ISO alpha-2; left out by an
+ *   app that shows several, which then sets them in `extra`), the options it
  *   sets, and `extra`, handed to the app's `afterCountry` once the country is
  *   loaded (for options that only exist then)
  */
@@ -63,7 +64,19 @@ import { LOOKS, lookById } from "./looks.js";
  *   example's `extra`, after its country has loaded
  * @property {() => string | null} [currentCountry] the country shown, so the
  *   dice don't pick it again
+ * @property {Look[]} [looks] the app's own looks, for an app whose look isn't
+ *   a colour scheme (satellite layers, say); the shared ones by default
+ * @property {string} [looksLabel] the menu heading for the looks
  */
+
+/**
+ * Places "Random country" never picks, whatever the app: uninhabited or with
+ * only a few thousand people, so most apps have little or nothing to show
+ * (Antarctica, Bouvet Island, the U.S. Outlying Islands, Pitcairn…).
+ */
+export const SKIP_RANDOM = new Set(
+  "AC AQ BL BV CC CP CX DG EA GS HM IC IO MF NF NU PM PN SH SJ TA TF TK UM VA WF".split(" "),
+);
 
 /** Controls that aren't settings: the preset menu itself, buttons, text. */
 const NOT_SETTINGS = new Set(["preset", "rndCountry", "rndLook"]);
@@ -109,6 +122,12 @@ function snapshot(rail) {
  * @param {Controls} c
  */
 export function applyControls(c) {
+  // Buttons first: a mode can change what a menu offers (day or night layers).
+  for (const id of c.press || []) {
+    const el = $(id);
+    if (!el) console.warn(`preset: no control #${id}`);
+    else if (el.getAttribute("aria-pressed") !== "true") el.click();
+  }
   for (const [id, value] of Object.entries(c.set || {})) {
     const el = $(id);
     if (!el) {
@@ -124,11 +143,6 @@ export function applyControls(c) {
     }
     el.dispatchEvent(new Event("input", { bubbles: true }));
     el.dispatchEvent(new Event("change", { bubbles: true }));
-  }
-  for (const id of c.press || []) {
-    const el = $(id);
-    if (!el) console.warn(`preset: no control #${id}`);
-    else if (el.getAttribute("aria-pressed") !== "true") el.click();
   }
 }
 
@@ -147,6 +161,41 @@ export function pickOther(items, not, random = Math.random) {
 }
 
 /**
+ * Take up to `n` items, spread across their groups: one from each group in
+ * turn, in list order, so a sheet of road signs shows several kinds of sign
+ * rather than six of the first kind.
+ *
+ * @template T
+ * @param {T[]} items in order of preference
+ * @param {number} n
+ * @param {(item: T) => string} [groupOf] no grouping: the first `n`
+ * @returns {T[]}
+ */
+export function pickSpread(items, n, groupOf) {
+  if (!groupOf) return items.slice(0, n);
+  /** @type {Map<string, T[]>} */
+  const groups = new Map();
+  for (const it of items) {
+    const g = groupOf(it);
+    if (!groups.has(g)) groups.set(g, []);
+    /** @type {T[]} */ (groups.get(g)).push(it);
+  }
+  /** @type {T[]} */
+  const out = [];
+  for (let round = 0; out.length < n; round++) {
+    let any = false;
+    for (const list of groups.values()) {
+      if (round < list.length && out.length < n) {
+        out.push(list[round]);
+        any = true;
+      }
+    }
+    if (!any) break;
+  }
+  return out;
+}
+
+/**
  * Wire up the preset menu and the two dice. Call `start()` once the app can
  * pick countries; it draws the first example.
  *
@@ -158,7 +207,10 @@ export function setupPresets(app) {
   const rail = /** @type {HTMLElement} */ (menu.closest(".rail") || document.body);
   const baseline = snapshot(rail);
   /** The look in use, and what the menu shows when nothing was changed by hand. */
-  let lookId = "classic";
+  const looks = app.looks || LOOKS;
+  /** @param {string} id */
+  const findLook = (id) => looks.find((l) => l.id === id);
+  let lookId = looks[0].id;
   let busy = false;
 
   // The menu: examples, then looks, then a "custom" line for hand changes.
@@ -186,8 +238,8 @@ export function setupPresets(app) {
       app.examples.map((e) => [`ex:${e.id}`, e.name]),
     ),
     group(
-      "Looks (keep the country)",
-      LOOKS.map((l) => [`look:${l.id}`, l.name]),
+      app.looksLabel || "Looks (keep the country)",
+      looks.map((l) => [`look:${l.id}`, l.name]),
     ),
     custom,
   );
@@ -232,11 +284,11 @@ export function setupPresets(app) {
     busy = true;
     try {
       applyControls(baseline);
-      const look = lookById(ex.look) || LOOKS[0];
+      const look = findLook(ex.look) || looks[0];
       applyLook(look);
       applyControls(ex);
       show(`ex:${ex.id}`);
-      await app.pickCountry(ex.country);
+      if (ex.country) await app.pickCountry(ex.country);
       if (ex.extra !== undefined && app.afterCountry) await app.afterCountry(ex.extra);
     } finally {
       busy = false;
@@ -249,7 +301,7 @@ export function setupPresets(app) {
       const ex = app.examples.find((e) => e.id === id);
       if (ex) applyExample(ex);
     } else if (kind === "look") {
-      const look = lookById(id);
+      const look = findLook(id);
       if (!look) return;
       busy = true;
       try {
@@ -262,7 +314,8 @@ export function setupPresets(app) {
   });
 
   $("rndCountry").addEventListener("click", async () => {
-    const code = pickOther(app.countries(), app.currentCountry?.() ?? null);
+    const pool = app.countries().filter((c) => !SKIP_RANDOM.has(c));
+    const code = pickOther(pool, app.currentCountry?.() ?? null);
     if (!code) return;
     busy = true;
     try {
@@ -276,7 +329,7 @@ export function setupPresets(app) {
   });
 
   $("rndLook").addEventListener("click", () => {
-    const look = pickOther(LOOKS, lookById(lookId));
+    const look = pickOther(looks, findLook(lookId));
     if (!look) return;
     busy = true;
     try {
@@ -292,7 +345,9 @@ export function setupPresets(app) {
       menu.disabled = false;
       $("rndCountry").disabled = false;
       $("rndLook").disabled = false;
-      if (app.examples[0]) await applyExample(app.examples[0]);
+      // A failed example leaves the app as it was: empty, ready for a pick.
+      if (app.examples[0])
+        await applyExample(app.examples[0]).catch((e) => console.warn("preset:", e));
     },
   };
 }

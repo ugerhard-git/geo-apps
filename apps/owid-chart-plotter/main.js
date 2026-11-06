@@ -16,6 +16,8 @@
 import { loadAlpha3, loadTerritories } from "../../shared/cldr.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $ } from "../../shared/dom.js";
+import { pickOther, setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, LOOKS as BACKGROUNDS, lookToControls } from "./examples.js";
 import { downloadBlob } from "../../shared/sheet.js";
 import { setupPresetChecker } from "./checker.js";
 import {
@@ -648,4 +650,45 @@ setupPresetChecker({
   out: $("checkout"),
 });
 
-if (chartJsLoaded) load("life-expectancy");
+/** Show these entities, those the chart has data for, in this order. */
+function showEntities(/** @type {string[]} */ names) {
+  if (!data) return;
+  const d = data;
+  picked = names.filter((e) => d.byEntity.has(e)).slice(0, MAX_SERIES);
+  renderChips();
+  draw();
+}
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  // The looks here are the chart's backgrounds.
+  looks: /** @type {any} */ (BACKGROUNDS),
+  looksLabel: "Backgrounds (keep the chart)",
+  lookToControls: /** @type {any} */ (lookToControls),
+  // Countries with data in the chart shown (not regions or groups).
+  countries: () =>
+    pickable()
+      .map((c) => c.code)
+      .filter((code) => /^[A-Z]{2}$/.test(code)),
+  // "Random country": this one and two more, in place of the chart's countries.
+  pickCountry: (code) => {
+    const all = pickable().filter((c) => /^[A-Z]{2}$/.test(c.code));
+    const first = all.find((c) => c.code === code);
+    if (!first) return;
+    const rest = all.filter((c) => c !== first);
+    const two = [pickOther(rest, null)];
+    two.push(
+      pickOther(
+        rest.filter((c) => c !== two[0]),
+        null,
+      ),
+    );
+    showEntities([first, ...two].filter(Boolean).map((c) => /** @type {any} */ (c).entity));
+  },
+  afterCountry: async (/** @type {{slug: string, entities: string[]}} */ extra) => {
+    await load(extra.slug);
+    showEntities(extra.entities);
+  },
+});
+
+if (chartJsLoaded) presets.start();

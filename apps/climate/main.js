@@ -15,6 +15,8 @@ import { loadTerritories } from "../../shared/cldr.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { isNum } from "../../shared/geo.js";
 import { isFormatError, loadCities } from "../../shared/geonames.js";
 import { ALIASES } from "../../shared/map-countries.js";
@@ -422,7 +424,8 @@ async function start() {
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — start typing`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
   } catch (e) {
     note(
       "Couldn't load the list of countries: " +
@@ -435,6 +438,14 @@ async function start() {
     showLoading();
   }
 }
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: (code) => pickCountry(COUNTRIES.find((c) => c.code === code)),
+});
 
 syncUI();
 start();

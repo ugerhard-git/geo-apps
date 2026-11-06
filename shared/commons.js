@@ -153,10 +153,18 @@ export function widenThumb(thumburl, naturalWidth, maxWidth) {
   if (!m) return null;
   const have = parseInt(m[1], 10);
   const cap = Number.isFinite(naturalWidth) && naturalWidth > 0 ? naturalWidth : maxWidth;
-  const target = Math.min(maxWidth, cap);
-  if (!Number.isFinite(target) || target <= have) return null;
-  return safeImageUrl(thumburl.replace(/\/\d+px-([^/]+)$/, `/${Math.round(target)}px-$1`));
+  // Wikimedia serves its standard widths reliably and throttles or refuses
+  // others, so the widest standard one that fits is asked for.
+  const target = STANDARD_WIDTHS.filter((w) => w <= Math.min(maxWidth, cap)).pop();
+  if (!target || target <= have) return null;
+  return safeImageUrl(thumburl.replace(/\/\d+px-([^/]+)$/, `/${target}px-$1`));
 }
+
+/**
+ * Wikimedia's standard thumbnail widths, which are rendered ahead and cached.
+ * Other widths are rendered on request and, since 2025, throttled or refused.
+ */
+export const STANDARD_WIDTHS = [20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840];
 
 /**
  * @typedef {object} Licence

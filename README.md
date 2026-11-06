@@ -252,8 +252,18 @@ options, chosen to show what the app can do) and looks (matched colour
 schemes that keep the country). Two buttons give ideas: **Random country**
 keeps the look, **Random look** keeps the country. Text the user typed
 (caption, note) is never touched, and once a setting is changed by hand the
-menu says "Custom (based on …)". So far: Fact file, Shaded relief, Country
-statistics and Alphabets.
+menu says "Custom (based on …)". Every app has them.
+
+- In the apps with Commons photos (Currency, Endemics, Landmarks, Licence
+  plates, Road signs), an example or "Random country" puts six photos on the
+  sheet: openly licensed ones (public domain, CC0, CC BY) in the examples, the
+  best-known first for landmarks, and one of each kind in turn for signs,
+  plates and currency (`pickSpread`). "Random country" only picks countries
+  with enough to show where the app knows that in advance.
+- Two apps have their own kind of look: Geo imagery's are imagery layers
+  (night lights, relief), the OWID chart plotter's are chart backgrounds.
+  The plotter's examples are a chart and the countries to compare
+  (`examples.js`; its `presets.js` is the list of ready-made charts).
 
 - `shared/looks.js` holds the looks, shared by every app. Unit tests check
   that text stays readable on each (contrast at least 7 : 1).

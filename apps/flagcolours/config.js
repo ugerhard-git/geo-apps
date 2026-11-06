@@ -7,7 +7,7 @@
   stripe or a small emblem is still several pixels across, small enough that
   counting every pixel stays instant.
 */
-export const SAMPLE_WIDTH = 900;
+export const SAMPLE_WIDTH = 960; // one of Wikimedia's standard widths
 
 /*
   Below this alpha a pixel is treated as not part of the flag at all: Nepal's
