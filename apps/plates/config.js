@@ -49,10 +49,15 @@ export const NAME_PREFIXES = [
 export const MAX_FILES = 400;
 /** Most plates that fit on one sheet. */
 export const MAX_SELECTED = 12;
+/**
+ * Photo widths: Wikimedia only serves its standard thumbnail sizes reliably
+ * (…, 250, 330, 500, 960, 1280, 1920); other widths are throttled or refused,
+ * which left photos off sheets.
+ */
 /** Width of the picker thumbnails, in pixels. */
-export const THUMB_W = 400;
-/** Width of the renders drawn on the sheet: plenty, far less than originals. */
-export const FULL_W = 1200;
+export const THUMB_W = 330;
+/** Width of the renders drawn on the sheet, in pixels. */
+export const FULL_W = 1280;
 
 /** CLDR codes that are not countries. Kosovo is left out too: Commons files it apart. */
 export const NOT_A_COUNTRY = new Set(["EU", "EZ", "UN", "QO", "XA", "XB", "ZZ", "XK"]);

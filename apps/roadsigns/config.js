@@ -34,10 +34,15 @@ export const MAX_FILES = 1800;
 export const MAX_PER_CLASS = 300;
 /** Most signs that fit on one sheet. */
 export const MAX_SELECTED = 8;
+/**
+ * Photo widths: Wikimedia only serves its standard thumbnail sizes reliably
+ * (…, 250, 330, 500, 960, 1280, 1920); other widths are throttled or refused,
+ * which left photos off sheets.
+ */
 /** Width of the picker thumbnails, in pixels. */
-export const THUMB_W = 320;
+export const THUMB_W = 330;
 /** Width of the renders drawn on the sheet, in pixels. */
-export const FULL_W = 1000;
+export const FULL_W = 960;
 
 /*
   Commons keeps photographs under "Road signs IN X" and the official artwork

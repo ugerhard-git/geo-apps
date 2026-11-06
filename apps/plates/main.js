@@ -25,6 +25,8 @@ import {
   scaleOf,
   setSeg,
 } from "../../shared/dom.js";
+import { setupPresets, pickSpread } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { createImageLoader, TAINTED_MESSAGE } from "../../shared/images.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, norm, slugify } from "../../shared/text.js";
@@ -608,6 +610,30 @@ $("capPosField").hidden = !cleanText($("capText").value, 120);
 $("specPosField").hidden = !$("optSpec").checked;
 syncExportState();
 progress("Loading the country list from Commons", true);
+/** How many photos an example or "Random country" puts on the sheet. */
+const PRESET_PHOTOS = 6;
+
+/**
+ * Put the first photos on the sheet, one of each kind of plate in turn: what
+ * an example or "Random country" shows. The licence filter is respected.
+ */
+function autoPick() {
+  selected = pickSpread(candidates.filter(licenceAllowed), PRESET_PHOTOS, (r) => r.section);
+  renderGrid();
+  refresh();
+}
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code).filter(Boolean),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: async (code) => {
+    await pickCountry(COUNTRIES.find((c) => c.code === code));
+    autoPick();
+  },
+});
+
 loadCountries()
   .then(async ({ list, via }) => {
     const seen = new Set();
@@ -630,7 +656,8 @@ loadCountries()
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — name or code`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
     progress(null);
     sourceVia = via;
   })

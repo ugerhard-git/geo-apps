@@ -13,6 +13,8 @@
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { safeColour } from "../../shared/colour.js";
 import { $, bindColour } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { downloadBlob } from "../../shared/sheet.js";
 import {
   addLabels,
@@ -119,14 +121,22 @@ const picker = createCountryPicker({
   forms: (c) => [c.name, ...c.alts],
   code: (c) => c.code,
   label: (c) => c.name,
-  onPick: (c) => {
-    chosen = c;
-    els.country.value = c.name;
-    picker.close();
-    setDownloads(false);
-    generate();
-  },
+  onPick: chooseCountry,
 });
+
+/**
+ * Draw a country's treemap, as if it had been picked in the search box.
+ *
+ * @param {Choice | undefined} c
+ */
+function chooseCountry(c) {
+  if (!c) return;
+  chosen = c;
+  els.country.value = c.name;
+  picker.close();
+  setDownloads(false);
+  return generate();
+}
 
 /** Typing after a pick means a new search, so the old pick no longer counts. */
 els.country.addEventListener("input", () => {
@@ -139,7 +149,17 @@ async function loadCountries() {
   els.country.disabled = false;
   els.country.placeholder = `${choices.length} countries — name or code`;
   els.countrySrc.textContent = loaded.note;
+  await presets.start();
 }
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  // ISO alpha-2 entries only: the OEC-only ones (alpha-3) are regions and the like.
+  countries: () => choices.map((c) => c.code).filter((code) => /^[A-Z]{2}$/.test(code)),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: (code) => chooseCountry(choices.find((c) => c.code === code)),
+});
 
 /* ═══════════════════════════════════════════════════════════
    Rendering

@@ -26,6 +26,8 @@ import {
   scaleOf,
   setSeg,
 } from "../../shared/dom.js";
+import { setupPresets, pickSpread } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { createImageLoader, TAINTED_MESSAGE } from "../../shared/images.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
@@ -593,6 +595,29 @@ $("dlJpg").addEventListener("click", () => exportSheet("image/jpeg", "jpg"));
 $("capPosField").hidden = !cleanText($("capText").value, 120);
 syncExportState();
 progress("Loading reference data", true);
+/** How many photos an example or "Random country" puts on the sheet. */
+const PRESET_PHOTOS = 6;
+
+/**
+ * Put the first photos on the sheet, notes and coins in turn: what an example
+ * or "Random country" shows. The licence filter is respected.
+ */
+function autoPick() {
+  selected = pickSpread(candidates.filter(licenceAllowed), PRESET_PHOTOS, (r) => r.section);
+  renderGrid();
+  refresh();
+}
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  pickCountry: async (code) => {
+    await pickCountry(COUNTRIES.find((c) => c.code === code));
+    autoPick();
+  },
+});
+
 loadReference()
   .then((ref) => {
     COUNTRIES = ref.countries;
@@ -600,7 +625,8 @@ loadReference()
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — name or code`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
     progress(null);
   })
   .catch((err) => {

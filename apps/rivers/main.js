@@ -14,6 +14,8 @@ import { addBackLink } from "../../shared/back-link.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import { $, bindColour, debounce, isPressed, note, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { MAINLAND_OVERRIDE, isNum } from "../../shared/geo.js";
 import { ALIASES, loadMapCountries } from "../../shared/map-countries.js";
 import { getLargeJson } from "../../shared/net.js";
@@ -475,7 +477,8 @@ async function start() {
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — start typing`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
     if (got.outlinesFailed)
       note(
         "Couldn't load the country borders, which rivers are cut to. Reload to try again.",
@@ -493,6 +496,14 @@ async function start() {
     showLoading();
   }
 }
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: (code) => pickCountry(COUNTRIES.find((c) => c.code === code)),
+});
 
 syncUI();
 start();

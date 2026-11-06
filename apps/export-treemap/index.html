@@ -22,6 +22,7 @@
     />
     <meta name="geo-apps:tags" content="OEC, chart" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../shared/presets.css" />
   </head>
   <body>
     <div class="layout">
@@ -31,6 +32,17 @@
           <h1>Export treemaps</h1>
           <p>A country's exports as an unlabelled treemap: block size shows value, colour shows the product group.</p>
         </header>
+
+        <div class="field presets">
+          <label for="preset">Start from</label>
+          <select id="preset" disabled>
+            <option>Loading…</option>
+          </select>
+          <div class="dice">
+            <button type="button" id="rndCountry" disabled>Random country</button>
+            <button type="button" id="rndLook" disabled>Random look</button>
+          </div>
+        </div>
         <div class="field">
           <label for="country">Country</label>
           <div class="search-wrap">

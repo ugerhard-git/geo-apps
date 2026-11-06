@@ -25,6 +25,8 @@ import {
   scaleOf,
   setSeg,
 } from "../../shared/dom.js";
+import { setupPresets, pickSpread } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { createImageLoader, TAINTED_MESSAGE } from "../../shared/images.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { bareName, cleanText, norm, slugify } from "../../shared/text.js";
@@ -420,6 +422,27 @@ $("dlJpg").addEventListener("click", () => exportSheet("image/jpeg", "jpg"));
 $("capPosField").hidden = !cleanText($("capText").value, 120);
 syncUI();
 progress("Loading the country list", true);
+/** How many photos an example or "Random country" puts on the sheet. */
+const PRESET_PHOTOS = 6;
+
+/** Put the first photos on the sheet: what an example or "Random country" shows. */
+function autoPick() {
+  selected = pickSpread(candidates.filter(licenceAllowed), PRESET_PHOTOS);
+  filterGrid();
+  refresh();
+}
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  countries: () => COUNTRIES.map((c) => c.code),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: async (code) => {
+    await pickCountry(COUNTRIES.find((c) => c.code === code));
+    autoPick();
+  },
+});
+
 loadTerritories()
   .then((list) => {
     COUNTRIES = list.sort((a, b) => bareName(a.name).localeCompare(bareName(b.name)));
@@ -427,7 +450,8 @@ loadTerritories()
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — name or code`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
     progress(null);
   })
   .catch((err) => {

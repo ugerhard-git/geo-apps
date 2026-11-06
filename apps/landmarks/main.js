@@ -28,6 +28,8 @@ import {
   scaleOf,
   setSeg,
 } from "../../shared/dom.js";
+import { setupPresets, pickSpread } from "../../shared/presets.js";
+import { EXAMPLES, lookToControls } from "./presets.js";
 import { createImageLoader, TAINTED_MESSAGE } from "../../shared/images.js";
 import { ALIASES } from "../../shared/map-countries.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
@@ -53,6 +55,8 @@ let COUNTRIES = [];
 let NAMES = new Map();
 /** When the data was last refreshed, from data/index.json. */
 let dataUpdated = "";
+/** @type {Map<string, number>} landmarks per country, from data/index.json */
+const LANDMARK_COUNTS = new Map();
 
 /** @type {Country | null} */
 let chosen = null;
@@ -589,8 +593,42 @@ fetch("data/index.json")
   .then((idx) => {
     const d = idx && typeof idx.updated === "string" ? idx.updated : "";
     dataUpdated = /^\d{4}-\d{2}-\d{2}$/.test(d) ? d : "";
+    // How many landmarks each country has, so "Random country" skips the
+    // ones with too few for a sheet.
+    for (const [code, n] of Object.entries(idx?.countries || {}))
+      if (/^[A-Z]{2}$/.test(code) && Number.isFinite(n)) LANDMARK_COUNTS.set(code, n);
   })
   .catch(() => {});
+/** How many photos an example or "Random country" puts on the sheet. */
+const PRESET_PHOTOS = 6;
+
+/**
+ * Put the best-known landmarks on the sheet: what an example or "Random
+ * country" shows. The licence and kind filters are respected.
+ */
+function autoPick() {
+  const fit = landmarks.filter((l) => licenceAllowed(l) && kindMatches(l, kindFilter));
+  selected = pickSpread(fit, PRESET_PHOTOS).map((l) => l.id);
+  for (const l of landmarks) updateTile(l.id);
+  filterGrid();
+  refresh();
+}
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  lookToControls,
+  // Countries with enough landmarks for a sheet (all, if the counts didn't load).
+  countries: () =>
+    COUNTRIES.map((c) => c.code).filter(
+      (code) => !LANDMARK_COUNTS.size || (LANDMARK_COUNTS.get(code) || 0) >= PRESET_PHOTOS,
+    ),
+  currentCountry: () => chosen?.code || null,
+  pickCountry: async (code) => {
+    await pickCountry(COUNTRIES.find((c) => c.code === code));
+    autoPick();
+  },
+});
+
 loadTerritories()
   .then((list) => {
     COUNTRIES = list.sort((a, b) => bareName(a.name).localeCompare(bareName(b.name)));
@@ -598,7 +636,8 @@ loadTerritories()
     const input = $("country");
     input.disabled = false;
     input.placeholder = `${COUNTRIES.length} countries — name or code`;
-    input.focus();
+    // Draw the first example once the list is ready and the loading bar gone.
+    queueMicrotask(() => presets.start());
     progress(null);
   })
   .catch((err) => {

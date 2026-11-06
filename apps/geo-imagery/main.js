@@ -12,6 +12,8 @@
 
 import { clamp, own } from "../../shared/util.js";
 import { $, note, setSeg } from "../../shared/dom.js";
+import { setupPresets } from "../../shared/presets.js";
+import { EXAMPLES, LOOKS as IMAGERY, lookToControls } from "./presets.js";
 import { HEX6, safeColour } from "../../shared/colour.js";
 import { BIDI_AND_CONTROL, norm } from "../../shared/text.js";
 import {
@@ -1733,6 +1735,25 @@ syncCaptionUI();
 applyCaptionDefault();
 syncModeUI();
 
+/** Countries big enough to fill a frame with imagery worth guessing. */
+const bigEnough = (/** @type {any} */ c) =>
+  (c.polys || []).reduce((sum, /** @type {any} */ p) => sum + (p.area || 0), 0) >= 0.25;
+
+const presets = setupPresets({
+  examples: EXAMPLES,
+  // The looks here are imagery layers, not colour schemes.
+  looks: /** @type {any} */ (IMAGERY),
+  looksLabel: "Imagery (keeps the country)",
+  lookToControls: /** @type {any} */ (lookToControls),
+  countries: () => COUNTRIES.filter(bigEnough).map((c) => c.name),
+  currentCountry: () => current?.name || null,
+  // Countries are found by their Natural Earth name.
+  pickCountry: async (name) => {
+    if ($("modeCity").getAttribute("aria-pressed") === "true") await setMode(false);
+    pick(COUNTRIES.find((c) => c.name === name));
+  },
+});
+
 fetch(TOPO_URL)
   .then((r) => {
     if (!r.ok) throw new Error("http " + r.status);
@@ -1745,7 +1766,7 @@ fetch(TOPO_URL)
       .sort((a, b) => a.name.localeCompare(b.name));
     $("q").disabled = false;
     syncModeUI();
-    $("q").focus();
+    return presets.start();
   })
   .catch(() => {
     $("q").placeholder = "Country outlines unavailable";
