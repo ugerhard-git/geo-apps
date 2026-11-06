@@ -28,6 +28,11 @@ import { Region, clipLines } from "./clip.js";
 import { BORDER_KM, BORDER_RUN_KM, LAKES_URL, MAX_BYTES, REGIONAL, RIVERS_URL } from "./config.js";
 import { parseLakes, parseRivers } from "./data.js";
 import { drawSheet } from "./render.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("rivers", WELCOME);
 
 addBackLink();
 

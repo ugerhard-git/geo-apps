@@ -18,6 +18,7 @@
  *   tiles.js    fetching and decoding tiles, with a small cache
  *   render.js   laying out and drawing the sheet
  *   presets.js  examples to start from, and how a look colours the sheet
+ *   welcome.js  the text of the welcome window
  */
 
 import { addBackLink } from "../../shared/back-link.js";
@@ -53,6 +54,11 @@ import {
 import { drawSheet, neededBox, planSheet, prepareRelief } from "./render.js";
 import { chooseZoom, customRamp, tileKeys } from "./terrain.js";
 import { cachedTile, ensureTiles } from "./tiles.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("relief", WELCOME);
 
 addBackLink();
 

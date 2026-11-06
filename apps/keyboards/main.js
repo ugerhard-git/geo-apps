@@ -28,6 +28,11 @@ import { own } from "../../shared/util.js";
 import { loadData } from "./data.js";
 import { ensureFonts, familiesFor, fontStack } from "../../shared/fonts.js";
 import { drawSheet } from "./render.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("keyboards", WELCOME);
 
 addBackLink();
 

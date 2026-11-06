@@ -11,6 +11,7 @@
  *   preset-picker.js  the search box and the "Browse all" window
  *   checker.js     the "check every preset" tool
  *   main.js        this file: state, the form, rendering, wiring
+ *   welcome.js     the text of the welcome window
  */
 
 import { loadAlpha3, loadTerritories } from "../../shared/cldr.js";
@@ -35,6 +36,11 @@ import { setupPresetBrowser, setupPresetSearch } from "./preset-picker.js";
 import { PRESETS, presetFor } from "./presets.js";
 
 import { addBackLink } from "../../shared/back-link.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("owid-chart-plotter", WELCOME);
 
 addBackLink();
 

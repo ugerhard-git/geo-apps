@@ -26,6 +26,11 @@ import { clamp, own } from "../../shared/util.js";
 import { annual, loadNormals } from "./climate.js";
 import { CITY_CHOICES, PERIOD } from "./config.js";
 import { drawSheet, toF, toIn } from "./render.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("climate", WELCOME);
 
 addBackLink();
 

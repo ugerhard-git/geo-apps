@@ -33,6 +33,11 @@ import { buildSeries } from "./series.js";
 import { loadReference } from "./sources.js";
 
 import { addBackLink } from "../../shared/back-link.js";
+import { setupWelcome } from "../../shared/welcome.js";
+import { WELCOME } from "./welcome.js";
+
+// What the app does and how it works: opens by itself on the first visit.
+setupWelcome("statistics", WELCOME);
 
 addBackLink();
 
