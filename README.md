@@ -41,7 +41,8 @@ have instead, set `PW_CHROMIUM_PATH=/path/to/chrome`.
 ```
 apps/<slug>/        one folder per app — becomes /apps/<slug>/ on the site
 shared/             modules used by several apps
-site/               the overview page (template, styles, saved-keys panel)
+site/               the overview page (template, styles, saved-keys panel,
+                    external.json: pages on other sites listed there)
 scripts/            dev server, build, and app discovery
 tests/unit/         node:test unit tests for the pure modules
 tests/smoke.spec.js Playwright smoke test
@@ -224,6 +225,18 @@ heights, so a lowland country stays low-coloured. The sources the tiles are made
 ETOPO1, EU-DEM and others) ask to be credited, so the sheet carries a credit
 line by default and the Sources panel links to
 [their attributions](https://github.com/tilezen/joerd/blob/master/docs/attribution.md).
+
+## Pages on other sites
+
+The overview can also list pages that live elsewhere but help with the same
+game, such as Unofficial (random unofficial Street View locations for
+map-making.app). They're in `site/external.json`: an `id` (which names the
+card's picture, `site/shots/<id>.webp`), a `title`, an `https://` address, a
+`description` and `tags`, one of which is the kind of clue (`images`,
+`chart`, `maps`, `text` or `cards`). Their cards link to that address in the
+same tab, like every card, and are marked "Another site ↗". The build stops
+on a broken entry or an address that isn't `https://`. Their pictures are
+made by hand, as below.
 
 ## Overview pictures
 

@@ -24,9 +24,10 @@ await mkdir(OUT, { recursive: true });
 await cp(APPS_DIR, path.join(OUT, "apps"), { recursive: true });
 await cp(path.join(ROOT, "shared"), path.join(OUT, "shared"), { recursive: true });
 
-// Everything in site/ except the template, which is rendered below.
+// Everything in site/ except the template, which is rendered below, and the
+// list of pages on other sites, which goes into it.
 for (const name of await readdir(SITE_DIR)) {
-  if (name === "index.html") continue;
+  if (name === "index.html" || name === "external.json") continue;
   await cp(path.join(SITE_DIR, name), path.join(OUT, name), { recursive: true });
 }
 

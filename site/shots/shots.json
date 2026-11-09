@@ -20,5 +20,6 @@
   "rivers": {"w":720,"h":480,"alt":"The rivers of Brazil, led by the Amazon"},
   "roadsigns": {"w":720,"h":480,"alt":"Swedish road signs, including the moose warning"},
   "statistics": {"w":720,"h":480,"alt":"Charts of India's languages, religions and economy"},
-  "subdivisions": {"w":720,"h":480,"alt":"Australia's states and territories"}
+  "subdivisions": {"w":720,"h":480,"alt":"Australia's states and territories"},
+  "unofficial": {"w":720,"h":480,"alt":"A world map dotted with unofficial Street View locations, one of them open on a photo from China","custom":true}
 }

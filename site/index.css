@@ -342,6 +342,10 @@ footer {
   background: #fff1c7;
   color: var(--sun-ink);
 }
+.tags li.ext {
+  background: none;
+  box-shadow: inset 0 0 0 1px currentColor;
+}
 
 /* List layout: one app per row — title, description, tags side by side. */
 .apps[data-view="list"] {

@@ -11,6 +11,10 @@
  * ```
  *
  * Nothing else needs registering: add a folder and it appears on the index.
+ *
+ * Pages that live on another site but help with the same game are listed in
+ * `site/external.json` (see `readExternal`). Their cards link there, in the
+ * same tab like every card, and are marked "Another site".
  */
 
 import { createHash } from "node:crypto";
@@ -29,6 +33,7 @@ export const SITE_DIR = path.join(ROOT, "site");
  * @property {string} title
  * @property {string} description
  * @property {string[]} tags
+ * @property {string} [url] set for a page on another site: where its card links
  */
 
 /** @param {string} s */
@@ -87,6 +92,44 @@ export async function collectApps() {
     });
   }
   return apps.sort((a, b) => a.title.localeCompare(b.title));
+}
+
+/**
+ * The pages on other sites, from `site/external.json`: a list of
+ * `{id, title, url, description, tags}`. `id` names its picture in
+ * `site/shots/` like an app's folder name. A broken entry stops the build
+ * rather than being left out quietly, and only `https:` addresses are
+ * accepted, so a card can't run script or point at an unsafe page.
+ *
+ * @returns {AppInfo[]}
+ */
+export function readExternal() {
+  const file = path.join(SITE_DIR, "external.json");
+  if (!existsSync(file)) return [];
+  const list = JSON.parse(readFileSync(file, "utf8"));
+  if (!Array.isArray(list)) throw new Error("site/external.json: expected a list");
+  return list.map((e, i) => {
+    const where = `site/external.json, entry ${i + 1}`;
+    const text = (/** @type {unknown} */ v) => typeof v === "string" && v.trim() !== "";
+    if (!e || !/^[a-z0-9-]+$/.test(e.id)) throw new Error(`${where}: id must be a-z, 0-9 and -`);
+    if (!text(e.title) || !text(e.description))
+      throw new Error(`${where}: needs a title and a description`);
+    let url;
+    try {
+      url = new URL(e.url);
+    } catch {
+      throw new Error(`${where}: url is not a web address`);
+    }
+    if (url.protocol !== "https:") throw new Error(`${where}: url must start with https://`);
+    const tags = Array.isArray(e.tags) ? e.tags.filter(text).map((t) => t.trim()) : [];
+    return {
+      slug: e.id,
+      title: e.title.trim(),
+      description: e.description.trim(),
+      tags,
+      url: url.href,
+    };
+  });
 }
 
 /**
@@ -151,21 +194,23 @@ const KINDS = ["images", "chart", "maps", "text", "cards"];
 
 /**
  * Render one app's card. `data-kind` colours it by the kind of clue; the
- * "API key" tag gets its own style.
+ * "API key" tag gets its own style, and a page on another site a mark of its own.
  *
  * @param {AppInfo} app
  * @param {Record<string, Shot & {v: string}>} shots
  */
 function card(app, shots) {
   const kind = app.tags.find((t) => KINDS.includes(t.toLowerCase()))?.toLowerCase() || "other";
-  const tags = app.tags.length
-    ? `<ul class="tags">${app.tags
-        .map((t) => `<li${/^api key$/i.test(t) ? ' class="key"' : ""}>${escapeHtml(t)}</li>`)
-        .join("")}</ul>`
-    : "";
+  const items = app.tags.map(
+    (t) => `<li${/^api key$/i.test(t) ? ' class="key"' : ""}>${escapeHtml(t)}</li>`,
+  );
+  // A page on another site says so first, so nobody is surprised to leave.
+  if (app.url) items.unshift(`<li class="ext">Another site ↗</li>`);
+  const tags = items.length ? `<ul class="tags">${items.join("")}</ul>` : "";
+  const href = app.url ? escapeHtml(app.url) : `apps/${encodeURIComponent(app.slug)}/`;
   return `
-      <li class="app" data-kind="${kind}">
-        <a href="apps/${encodeURIComponent(app.slug)}/">
+      <li class="app${app.url ? " external" : ""}" data-kind="${kind}">
+        <a href="${href}">
           ${shotHtml(app, own(shots, app.slug))}
           <h2>${escapeHtml(app.title)}</h2>
           <p>${escapeHtml(app.description || "")}</p>
@@ -175,7 +220,8 @@ function card(app, shots) {
 }
 
 /**
- * Fill `site/index.html` with the app list.
+ * Fill `site/index.html` with the app list: the apps given, and the pages on
+ * other sites (`readExternal`), in one list sorted by title.
  *
  * @param {AppInfo[]} apps
  * @returns {Promise<string>}
@@ -183,7 +229,11 @@ function card(app, shots) {
 export async function renderIndex(apps) {
   const template = await readFile(path.join(SITE_DIR, "index.html"), "utf8");
   const shots = readShots();
+  const external = readExternal();
+  const clash = external.find((e) => apps.some((a) => a.slug === e.slug));
+  if (clash) throw new Error(`site/external.json: "${clash.slug}" is also an app's folder name`);
+  const all = [...apps, ...external].sort((a, b) => a.title.localeCompare(b.title));
   return template
-    .replace("<!-- APP_COUNT -->", String(apps.length))
-    .replace("<!-- APPS -->", apps.map((app) => card(app, shots)).join(""));
+    .replace("<!-- APP_COUNT -->", String(all.length))
+    .replace("<!-- APPS -->", all.map((app) => card(app, shots)).join(""));
 }
