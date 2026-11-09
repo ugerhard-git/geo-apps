@@ -97,17 +97,18 @@ test("parseAlpha3 reads CLDR's code mappings", () => {
   assert.throws(() => parseAlpha3({}), /unexpected/);
 });
 
-test("overviewUrl: only apps on the published site get a link back", () => {
+test("overviewUrl: every app in the site's layout gets a link back", () => {
   const at = (/** @type {string} */ url) => overviewUrl(new URL(url));
   const home = "https://ugerhard-git.github.io/geo-apps/";
   assert.equal(at("https://ugerhard-git.github.io/geo-apps/apps/geocards/"), home);
   assert.equal(at("https://ugerhard-git.github.io/geo-apps/apps/geocards/index.html"), home);
-  // the overview itself, other hosts and the dev server: no link
-  assert.equal(at("https://ugerhard-git.github.io/geo-apps/"), null);
-  assert.equal(at("https://someone-else.github.io/geo-apps/apps/geocards/"), null);
-  assert.equal(at("http://ugerhard-git.github.io/geo-apps/apps/geocards/"), null);
-  assert.equal(at("http://127.0.0.1:8080/apps/geocards/"), null);
-  assert.equal(at("https://example.com/apps/geocards/"), null);
+  // any web server: a site of its own, the dev server
+  assert.equal(at("https://example.com/apps/geocards/"), "https://example.com/");
+  assert.equal(at("http://127.0.0.1:8080/apps/geocards/"), "http://127.0.0.1:8080/");
+  // the overview itself, other pages, and files on disk: no link
+  assert.equal(at("https://example.com/"), null);
+  assert.equal(at("https://example.com/apps/geocards/data/x.json"), null);
+  assert.equal(at("file:///home/me/geo-apps/apps/geocards/index.html"), null);
 });
 
 test("parseNumeric reads ISO numeric codes, padded to three digits", () => {
