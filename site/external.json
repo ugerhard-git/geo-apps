@@ -1,0 +1,9 @@
+[
+  {
+    "id": "unofficial",
+    "title": "Unofficial",
+    "url": "https://ugerhard-git.github.io/map-generation-tool/unofficial/",
+    "description": "Random Street View spots that Google didn't take, such as photospheres, drone shots and roads others drove, ready to load into map-making.app.",
+    "tags": ["Google Street View", "Natural Earth", "images"]
+  }
+]

@@ -4,9 +4,10 @@
 // Libraries and fonts from CDNs are still allowed through.
 
 import { expect, test } from "@playwright/test";
-import { collectApps } from "../scripts/apps.mjs";
+import { collectApps, readExternal } from "../scripts/apps.mjs";
 
 const apps = await collectApps();
+const external = readExternal();
 const ALLOWED_HOSTS = [
   "127.0.0.1",
   "cdn.jsdelivr.net",
@@ -45,7 +46,14 @@ const visibleHidden = (page) =>
 
 test("the overview lists every app", async ({ page }) => {
   const errors = await open(page, "/");
-  await expect(page.locator(".app")).toHaveCount(apps.length);
+  await expect(page.locator(".app")).toHaveCount(apps.length + external.length);
+  // Pages on other sites link there, in the same tab, and say so.
+  for (const e of external) {
+    const link = page.locator(`.app.external a[href="${e.url}"]`);
+    await expect(link).toHaveCount(1);
+    await expect(link).not.toHaveAttribute("target", /./);
+    await expect(link.locator(".ext")).toHaveText("Another site ↗");
+  }
   await expect(page.locator(".key")).not.toHaveCount(0);
   expect(errors).toEqual([]);
   expect(await visibleHidden(page)).toEqual([]);
