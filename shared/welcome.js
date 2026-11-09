@@ -1,11 +1,11 @@
 /**
- * The welcome window: what the app makes, what its options do, and how the
- * presets and dice work. It opens by itself on a visitor's first visit to an
+ * The welcome window: what the app makes, how to get started, and how the
+ * presets and dice work. It's kept short on purpose, so it doesn't put people
+ * off: the options are on the page to try. It opens by itself on a visitor's first visit to an
  * app, and again whenever they press "How it works" under the app's title.
  *
  * Each app describes itself in its own `welcome.js` (a {@link Welcome}); the
- * getting-started steps, the options every app shares and the presets
- * section are written here, once.
+ * getting-started steps and the presets section are written here, once.
  *
  * "Seen" is remembered per app in the browser's `localStorage`, under
  * `geo-apps.welcome.<app>`. Storage can be blocked (private windows, strict
@@ -21,12 +21,8 @@ import { $ } from "./dom.js";
 /**
  * @typedef {object} Welcome
  * @property {string} intro what the app makes, and why it makes a good clue
- * @property {Array<[string, string]>} options the app's own option groups:
- *   name as on the page, then what it does
  * @property {string[]} [steps] getting started, if the usual three steps
  *   (pick a country, adjust, download) don't fit the app
- * @property {Array<[string, string]> | null} [basics] the options most apps
- *   share (reveals, sheet and caption, export); `null` leaves them out
  * @property {string} [presets] the presets paragraph, for an app whose
  *   presets work differently
  */
@@ -41,19 +37,6 @@ const STEPS = [
   "Download the sheet as a picture when you're happy with it.",
 ];
 
-/** Options most apps share. @type {Array<[string, string]>} */
-const BASICS = [
-  [
-    "“reveals”",
-    "Options marked like this give the answer away, for example by naming the country. Leave them off for a quiz.",
-  ],
-  [
-    "Sheet, caption and colours",
-    "The picture's size and background, a question above or below it, and the colours of text and background.",
-  ],
-  ["Export", "Download the sheet as PNG or JPG. File names don't give away the country."],
-];
-
 /**
  * The presets paragraph, with the dice buttons' own labels.
  *
@@ -61,10 +44,9 @@ const BASICS = [
  * @param {string} look label of the "Random look" button
  */
 const presetsText = (country, look) =>
-  "The app opens with an example already drawn. The “Start from” menu has more examples, and looks: " +
-  "colour schemes that keep the country and change only the colours. " +
-  `“${country}” picks another country and keeps your settings; “${look}” picks other colours and keeps the country. ` +
-  "Change something yourself and the menu shows “Custom”: your changes stay until you pick a preset.";
+  "The app opens with an example. “Start from” has more, and looks that change only the colours. " +
+  `“${country}” and “${look}” try something new. ` +
+  "Change something yourself and the menu shows “Custom”.";
 
 /**
  * Whether the welcome was already shown for this app. Blocked storage counts
@@ -99,17 +81,6 @@ function make(tag, text, cls) {
   if (text) el.textContent = text;
   if (cls) el.className = cls;
   return el;
-}
-
-/**
- * A list of names and what they do.
- *
- * @param {Array<[string, string]>} items
- */
-function termList(items) {
-  const dl = make("dl");
-  for (const [term, text] of items) dl.append(make("dt", term), make("dd", text));
-  return dl;
 }
 
 /**
@@ -149,8 +120,6 @@ export function setupWelcome(app, welcome) {
     make("p", welcome.intro, "welcome-intro"),
     make("h3", "Getting started"),
     steps,
-    make("h3", "The options"),
-    termList([...welcome.options, ...(welcome.basics === null ? [] : welcome.basics || BASICS)]),
     make("h3", "Presets and dice"),
     make("p", welcome.presets || presetsText(rndCountry, rndLook)),
   );

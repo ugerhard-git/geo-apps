@@ -15,14 +15,9 @@ test("every app has a welcome window, opened under its own name", async () => {
     const { WELCOME } = await import(`../../apps/${app}/welcome.js`);
     assert.equal(typeof WELCOME.intro, "string", app);
     assert.ok(WELCOME.intro.length > 40, `${app}: intro says what the app makes`);
-    assert.ok(WELCOME.options.length > 0, `${app}: options`);
-    for (const option of WELCOME.options) {
-      assert.equal(option.length, 2, `${app}: ${option[0]}`);
-      assert.ok(
-        option.every((s) => typeof s === "string" && s.trim()),
-        `${app}: ${option[0]}`,
-      );
-    }
+    // Short on purpose: no list of options, and a few sentences at most.
+    assert.equal(WELCOME.options, undefined, `${app}: no options list`);
+    assert.ok(WELCOME.intro.length < 260, `${app}: intro is short`);
 
     const main = readFileSync(new URL(`../../apps/${app}/main.js`, import.meta.url), "utf8");
     assert.ok(main.includes(`setupWelcome("${app}", WELCOME)`), `${app}: main.js opens it`);

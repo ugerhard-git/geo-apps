@@ -16,6 +16,8 @@ owner.
   - If one is still open, ask the owner whether to add to it or open a
     separate pull request.
 - **The owner approves and merges.** Open pull requests; never merge them.
+- **Link every new pull request.** After opening one, give the owner its link
+  (`https://github.com/ugerhard-git/geo-apps/pull/<number>`).
 - **Plan first when asked.** When the owner asks to plan or discuss an idea,
   agree on it before building. The same goes for a new app whose data has no
   published source: discuss it instead of building it.

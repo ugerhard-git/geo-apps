@@ -297,15 +297,15 @@ menu says "Custom (based on …)". Every app has them.
 
 ## Welcome window
 
-On a visitor's first visit to an app, a window explains what the app makes,
-what its options do, and how the presets and dice work. "How it works", under
-the app's title, opens it again.
+On a visitor's first visit to an app, a short window says what the app makes,
+how to get started, and how the presets and dice work. "How it works", under
+the app's title, opens it again. It's kept short on purpose, so it doesn't
+put people off: no list of options, which are on the page to try.
 
-- Each app's `welcome.js` holds its own text: what it makes and its options.
-  `shared/welcome.js` adds the parts every app shares: getting started, the
-  common options ("reveals", sheet and caption, export) and the presets.
-  An app can replace those where they don't fit (the OWID plotter, Geo
-  imagery, GeoCards, Export treemaps).
+- Each app's `welcome.js` holds what it makes, in a sentence or two.
+  `shared/welcome.js` adds the parts every app shares: getting started and
+  the presets. An app can replace those where they don't fit (the OWID
+  plotter, Geo imagery).
 - "Seen" is remembered per app in the browser (`geo-apps.welcome.<app>` in
   `localStorage`). When storage is blocked, the window opens on every visit.
 - Its `main.js` calls `setupWelcome("<app>", WELCOME)` and its page links
@@ -313,7 +313,6 @@ the app's title, opens it again.
   test that the window opens once and comes back with "How it works".
 - The overview pictures (`scripts/screenshots/take.mjs`) mark it as seen
   before a page loads, so it doesn't cover the controls.
-- When an app gains or loses an option, update its `welcome.js` too.
 
 ## API keys
 
