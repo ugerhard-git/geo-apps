@@ -71,8 +71,7 @@ dialog.welcome::backdrop {
   color: #5b6270;
 }
 .welcome-body p,
-.welcome-body ol,
-.welcome-body dl {
+.welcome-body ol {
   margin: 0;
 }
 .welcome-intro {
@@ -84,14 +83,6 @@ dialog.welcome::backdrop {
 .welcome-body li + li {
   margin-top: 3px;
 }
-.welcome-body dt {
-  margin-top: 10px;
-  font-weight: 650;
-}
-.welcome-body dd {
-  margin: 1px 0 0;
-}
-
 .welcome-foot {
   display: flex;
   flex-wrap: wrap;
