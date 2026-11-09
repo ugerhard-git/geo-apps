@@ -1,29 +1,27 @@
 /**
- * A small "Back to apps overview" link above each app's title — but only on
- * the published site, where the folder layout is known:
+ * A small "Back to apps overview" link above each app's title. The built site
+ * (`npm run build`) and the dev server both put the overview one level above
+ * the apps, on whatever web server they run:
  *
- *   https://ugerhard-git.github.io/geo-apps/            the overview
- *   https://ugerhard-git.github.io/geo-apps/apps/<app>/ an app
+ *   https://example.com/geo-apps/            the overview
+ *   https://example.com/geo-apps/apps/<app>/ an app
  *
- * Served anywhere else (the dev server, a copy on another host, a single
- * file), the link is left out, because the overview may not be where this
- * link would point.
+ * So the link appears on any web address of that shape. An app opened from a
+ * file on disk gets no link: there, nothing says the overview is next to it.
  *
  * @module shared/back-link
  */
 
-/** The only host the link appears on. */
-export const PUBLISHED_ORIGIN = "https://ugerhard-git.github.io";
-
 /**
- * The overview page's address, or `null` when this page isn't an app on the
- * published site.
+ * The overview page's address, or `null` when this page isn't an app in the
+ * site's layout.
  *
  * @param {{origin: string, pathname: string}} loc usually `window.location`
  * @returns {string | null}
  */
 export function overviewUrl(loc) {
-  if (loc.origin !== PUBLISHED_ORIGIN) return null;
+  // A page opened from disk has the origin "null".
+  if (!/^https?:\/\//.test(loc.origin)) return null;
   // ".../<site>/apps/<app>/..." → ".../<site>/"
   const m = /^(\/(?:[^/]+\/)*)apps\/[^/]+\/(?:index\.html)?$/.exec(loc.pathname);
   return m ? loc.origin + m[1] : null;

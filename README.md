@@ -112,7 +112,7 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `map-countries.js`  | CLDR countries matched to their world-atlas outlines, for the map apps             |
 | `geonames.js`       | The GeoNames city list (all-the-cities): a bounds-checked decoder and loader       |
 | `keys.js`           | API keys shared by all apps (see below)                                            |
-| `back-link.js`      | The "Back to apps overview" link, shown only on the published site                 |
+| `back-link.js`      | The "Back to apps overview" link, on any web server (not from a file on disk)      |
 | `fonts.js`          | Noto fonts per script from Google Fonts, loaded on demand (keyboards, baby names)  |
 | `presets.js`        | The "Start from" menu and the two dice (see below), with `looks.js`                |
 | `welcome.js`        | The welcome window shown on a first visit, and "How it works" (see below)          |
