@@ -129,6 +129,10 @@ export const RECIPES = {
     capture: ".table",
     alt: "Life expectancy over time in three countries",
   },
+  "place-endings": {
+    steps: [{ country: "Sweden" }],
+    alt: "The typical endings of Swedish place names: -torp, -fors, -holm, -by",
+  },
   plates: {
     steps: [OPEN, { country: "Netherlands" }, { click: ".tile .thumb", count: 6 }],
     alt: "Dutch licence plates, blurred, on a quiz sheet",

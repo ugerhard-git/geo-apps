@@ -239,6 +239,34 @@ every country shares one height scale, from sea level to 6,000 m (higher if
 the line is), so a flat country looks flat; "Stretch the heights to fit" fills
 the chart with the line's own heights instead, and the footnote says which.
 
+## Live data: Place-name endings
+
+Place-name endings uses the GeoNames list of places with at least 1,000
+inhabitants that City dots and Cross-sections already load
+(`shared/geonames.js`), this time with their names. Nothing is kept in the
+repository, and nothing is fetched after start-up.
+
+`apps/place-endings/endings.js` works out each country's typical endings
+when the page opens:
+
+- Each place counts once, by its longest word ("Nowy Dwór Mazowiecki" →
+  "mazowiecki"), so districts of one city don't count twice.
+- Every ending of two to six letters is counted, in each country and in the
+  whole world.
+- An ending is typical when at least 4 names (and 1.2% of them) end in it
+  and the country uses it at least four times as often as the world. They are
+  ranked by count × log(how much more often).
+- A cut-off ending grows into the syllable most of its names share ("-rp" →
+  "-torp"), and of an ending and a longer form of it only one is kept.
+
+Only countries with at least 150 distinct place names are offered; with
+fewer, the endings mean little. The sheet shows the endings as a cloud, or
+twelve real towns with their ending in colour, picked at random (the same
+ones for a country until "Other towns"), leaving out the ten largest cities
+by default. The Sources panel explains the method, and the sheet says the
+names come from GeoNames. The words are set in Literata rather than
+Fraunces, whose bold draws the macron of ā, ū and ō over the next letter.
+
 ## Pages on other sites
 
 The overview can also list pages that live elsewhere but help with the same

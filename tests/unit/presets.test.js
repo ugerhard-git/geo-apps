@@ -36,6 +36,7 @@ const APPS = {
   names: {},
   outlines: { names: true },
   "owid-chart-plotter": { file: "examples.js", noCountry: true },
+  "place-endings": {},
   plates: {},
   relief: {},
   rivers: {},

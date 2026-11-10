@@ -1,5 +1,6 @@
 /**
- * The GeoNames city list, shared by City dots, Climate charts and Cross-sections.
+ * The GeoNames city list, shared by City dots, Climate charts, Cross-sections
+ * and Place-name endings.
  *
  * The list comes from the all-the-cities package: every place GeoNames knows
  * with at least 1000 inhabitants, packed as a stream of length-prefixed
