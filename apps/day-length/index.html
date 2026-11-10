@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- No external scripts. Data: this site (capitals and time zones) and jsDelivr (CLDR country names). -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src 'self' https://cdn.jsdelivr.net;
+  img-src data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'"
+    />
+    <title>Day length</title>
+    <meta
+      name="description"
+      content="Sunrise, sunset and twilight in a country's capital through the year: summer nights that never get dark, even days at the equator, or a winter in June."
+    />
+    <meta name="geo-apps:tags" content="GeoNames, chart" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../shared/presets.css" />
+    <link rel="stylesheet" href="../../shared/welcome.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Day length</h1>
+          <p>
+            Sunrise, sunset and twilight in a country's capital through the year: summer nights that never get dark,
+            even days at the equator, or a winter in June.
+          </p>
+        </div>
+
+        <div class="group presets">
+          <h2>Start from</h2>
+          <div class="field">
+            <label for="preset">Preset</label>
+            <select id="preset" disabled>
+              <option>Loading…</option>
+            </select>
+          </div>
+          <div class="dice">
+            <button type="button" id="rndCountry" disabled>Random country</button>
+            <button type="button" id="rndLook" disabled>Random look</button>
+          </div>
+        </div>
+
+        <div class="group">
+          <div class="field search-wrap">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+            <div class="results" id="countryResults"></div>
+            <div class="hint">The chart is for its capital.</div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Show</h2>
+          <div class="field">
+            <div class="seg" role="group">
+              <button id="viewClock" aria-pressed="true">Day and night</button>
+              <button id="viewHours" aria-pressed="false">Hours of daylight</button>
+            </div>
+            <div class="hint" id="viewHint"></div>
+          </div>
+          <div id="clockOptions">
+            <label class="chk"><input type="checkbox" id="optTwilight" checked /><span>Twilight</span></label>
+            <label class="chk"
+              ><input type="checkbox" id="optLines" checked /><span>Sunrise and sunset lines</span></label
+            >
+            <label class="chk"><input type="checkbox" id="optLegend" checked /><span>Name the colours</span></label>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optExtremes" checked /><span>Longest and shortest day</span></label
+          >
+          <div class="hint">Printed under the caption. They narrow down how far from the equator the capital is.</div>
+        </div>
+
+        <div class="group">
+          <h2>Sheet</h2>
+          <div class="field">
+            <label for="frame">Size</label>
+            <select id="frame">
+              <option value="2400x1600">2400 × 1600 · 3:2</option>
+              <option value="1920x1080">1920 × 1080 · 16:9</option>
+              <option value="1600x1600">1600 × 1600 · 1:1</option>
+              <option value="3200x2400">3200 × 2400 · 4:3</option>
+              <option value="custom">Custom…</option>
+            </select>
+          </div>
+          <div class="field two" id="customSize" hidden>
+            <div>
+              <label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000" />
+            </div>
+            <div>
+              <label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000" />
+            </div>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optFootnote" checked /><span>Say how the times are worked out</span></label
+          >
+          <label class="chk"
+            ><input type="checkbox" id="optName" /><span>Name it on the sheet</span
+            ><em id="revealTag" hidden>reveals</em></label
+          >
+          <label class="chk"><input type="checkbox" id="optCredit" checked /><span>Credit line</span></label>
+          <div class="field">
+            <label for="bgHex">Background</label>
+            <div class="colour">
+              <input type="color" id="bgColor" value="#f6f2ea" aria-label="Background colour swatch" />
+              <input
+                type="text"
+                id="bgHex"
+                placeholder="#rrggbb"
+                value="#f6f2ea"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Background colour as hex"
+              />
+            </div>
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optTransparent" /><span>Transparent background</span
+            ><em id="pngOnly" hidden>PNG only</em></label
+          >
+          <div class="field">
+            <label for="capHex">Text</label>
+            <div class="colour">
+              <input type="color" id="capColor" value="#23262d" aria-label="Text colour swatch" />
+              <input
+                type="text"
+                id="capHex"
+                placeholder="#rrggbb"
+                value="#23262d"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Text colour as hex"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="dayHex">Day</label>
+            <div class="colour">
+              <input type="color" id="dayColor" value="#e8be7e" aria-label="Day colour swatch" />
+              <input
+                type="text"
+                id="dayHex"
+                placeholder="#rrggbb"
+                value="#e8be7e"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Day colour as hex"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="twilightHex">Twilight</label>
+            <div class="colour">
+              <input type="color" id="twilightColor" value="#658aab" aria-label="Twilight colour swatch" />
+              <input
+                type="text"
+                id="twilightHex"
+                placeholder="#rrggbb"
+                value="#658aab"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Twilight colour as hex"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="nightHex">Night</label>
+            <div class="colour">
+              <input type="color" id="nightColor" value="#1d344e" aria-label="Night colour swatch" />
+              <input
+                type="text"
+                id="nightHex"
+                placeholder="#rrggbb"
+                value="#1d344e"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Night colour as hex"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="lineHex">Sunrise and sunset</label>
+            <div class="colour">
+              <input type="color" id="lineColor" value="#b4553a" aria-label="Sunrise and sunset colour swatch" />
+              <input
+                type="text"
+                id="lineHex"
+                placeholder="#rrggbb"
+                value="#b4553a"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Sunrise and sunset colour as hex"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              value="Daylight through the year"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+              aria-label="Caption"
+            />
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <div class="actions">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="view" id="view">
+          <div class="empty" id="empty">
+            <strong>Pick a country to see a year of its days and nights.</strong>
+            Sunrise and sunset in its capital, in local clock time: how long the days get, when the sun comes up, and
+            when the clocks change are the clue.
+          </div>
+          <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+        </div>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="note" id="note"></div>
+
+        <section class="card sources" id="sources" hidden>
+          <header><h2>Sources</h2></header>
+          <div class="body">
+            <dl id="sourceList"></dl>
+            <p class="cav" id="caveat"></p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

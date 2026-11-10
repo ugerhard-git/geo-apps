@@ -24,6 +24,7 @@ const APPS = {
   climate: {},
   "cross-sections": {},
   currency: {},
+  "day-length": {},
   endemics: {},
   "export-treemap": {},
   factfile: { dynamic: ["optFrom", ...FIELDS.map((f) => `f-${f.id}`)] },

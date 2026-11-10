@@ -71,6 +71,10 @@ export const RECIPES = {
     steps: [PD, { country: "Japan" }, { click: ".tile .thumb", count: 4 }],
     alt: "Old Japanese banknotes on a quiz sheet",
   },
+  "day-length": {
+    steps: [{ country: "Iceland" }],
+    alt: "A year of day and night in Reykjavík: short winter days, summer nights that never get dark",
+  },
   endemics: {
     steps: [OPEN, { country: "Madagascar" }, { click: ".tile .thumb", count: 6 }],
     alt: "Animals found only in Madagascar",
