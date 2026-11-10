@@ -272,20 +272,11 @@ async function readLine(mine) {
  */
 function sheetOptions(l) {
   const { W, H } = frameSpec();
-  const stretch = $("optStretch").checked;
-  const scale = heightScale(l.profile.min, l.profile.max, stretch, SHARED_TOP_M);
   const parts = [
     $("optName").checked && chosen ? chosen.name : "",
     `${DIR_TEXT[l.dir]} ${THROUGH_TEXT[l.through]}`,
     $("optLength").checked ? `${Math.round(l.profile.lengthKm).toLocaleString("en-GB")} km` : "",
   ];
-  const scaleNote = !$("optScaleNote").checked
-    ? ""
-    : stretch
-      ? `Heights stretched to fit: the highest point on the line is ${Math.round(l.profile.max).toLocaleString("en-GB")} m`
-      : scale.bottom < 0
-        ? `Heights on the same scale for every country, from ${scale.bottom.toLocaleString("en-GB")} m to ${scale.top.toLocaleString("en-GB")} m`
-        : `Heights on the same scale for every country: sea level to ${scale.top.toLocaleString("en-GB")} m`;
   return {
     W,
     H,
@@ -295,7 +286,7 @@ function sheetOptions(l) {
     land: safeColour($("landColor").value, "#b4553a"),
     caption: cleanText($("capText").value, 120),
     subtitle: parts.filter(Boolean).join(" · "),
-    footnote: [scaleNote, cleanText($("noteText").value, 160)].filter(Boolean).join(" · "),
+    footnote: cleanText($("noteText").value, 160),
     ends: $("optEnds").checked ? /** @type {[string, string]} */ (ENDS[l.dir]) : null,
     heights: $("optHeights").checked,
     distances: $("optDistances").checked,
@@ -546,7 +537,6 @@ $("through").addEventListener("change", refresh);
 
 for (const id of [
   "optStretch",
-  "optScaleNote",
   "optHeights",
   "optDistances",
   "optEnds",
