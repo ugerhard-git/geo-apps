@@ -206,6 +206,24 @@ its files by its own codes ("ng" is Niger, "ni" Nigeria); the script matches
 them to ISO codes through the [country-codes](https://github.com/datasets/country-codes)
 table and stops if fewer than 200 countries come through.
 
+## Precomputed data: Day length
+
+The Day length app reads `apps/day-length/data/capitals.json`: each country's
+capital, its position and its time zone, from [GeoNames](https://www.geonames.org/)
+(CC BY 4.0). Capitals rarely move, so the file is built once and committed:
+
+```
+node scripts/day-length/build-data.mjs                  # downloads cities1000.zip
+node scripts/day-length/build-data.mjs cities1000.txt   # or reads a copy
+```
+
+`scripts/day-length/parse.js` keeps the places GeoNames marks as capitals
+(PPLC), the most populous one where a country has several, and drops any whose
+time zone the JavaScript runtime doesn't know. The run stops if fewer than 200
+capitals come through. Nothing else is looked up: sunrise, sunset and twilight
+are worked out in the browser (`apps/day-length/sun.js`, NOAA's solar
+equations), and summer time comes from the browser's own time-zone rules.
+
 ## Live data: Shaded relief and Cross-sections
 
 Shaded relief and Cross-sections have no data of their own. They read
@@ -441,6 +459,7 @@ apply when you reuse them:
 | `apps/names/data/`                | Wikipedia          | CC BY-SA 4.0                |
 | `apps/landmarks/data/`            | Wikidata           | CC0                         |
 | `apps/factfile/data/`             | CIA World Factbook | Public domain               |
+| `apps/day-length/data/`           | GeoNames           | CC BY 4.0                   |
 | `apps/owid-chart-plotter/vendor/` | Chart.js 4.4.6     | MIT (`chart.js-LICENSE.md`) |
 
 Data, photos and fonts the apps fetch while running (Wikimedia Commons, Our
