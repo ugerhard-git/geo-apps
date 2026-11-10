@@ -171,6 +171,12 @@ test("flat countries look flat on the shared scale; stretched, they fill it", ()
   assert.equal(heightScale(80, 8400, false, 6000).top, 9000);
   assert.equal(heightScale(-420, 1200, false, 6000).bottom, -500);
   const s = heightScale(-7, 93, true, 6000);
-  assert.ok(s.bottom <= -7 && s.bottom > -50 && s.top >= 93 && s.top <= 120, JSON.stringify(s));
+  assert.ok(s.bottom === 0 && s.top >= 93 && s.top <= 120, JSON.stringify(s));
   assert.ok((s.top - s.bottom) / s.step <= 7);
+  // Stretched, a dip of a few metres doesn't drop the floor a whole step…
+  assert.equal(heightScale(-3, 900, true, 6000).bottom, 0);
+  assert.equal(heightScale(-20, 900, true, 6000).bottom, 0);
+  // …but land well below the sea still does.
+  const deep = heightScale(-420, 1200, true, 6000);
+  assert.ok(deep.bottom <= -420 && deep.bottom > -1000, JSON.stringify(deep));
 });

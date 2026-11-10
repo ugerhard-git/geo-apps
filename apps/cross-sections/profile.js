@@ -372,6 +372,9 @@ export function highestPoint(points, z, tileAt) {
  * @property {number} step metres between grid lines
  */
 
+/** Land this far below sea level or less is drawn at sea level. */
+export const BELOW_SEA_M = 20;
+
 /** Grid steps to choose from, in metres. */
 const STEPS = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000, 2000];
 
@@ -383,7 +386,10 @@ const STEPS = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000, 2000];
  * country looks flat. Land well below sea level (the Dead Sea, the Caspian
  * shore) pushes the floor down; a few metres (Dutch polders) don't.
  *
- * Stretched, the axis fits the line's own heights, to show small hills.
+ * Stretched, the axis fits the line's own heights, to show small hills. It
+ * still starts at sea level unless the land goes well below it: a dip of a
+ * few metres, real or noise at the shore, would otherwise drop the floor a
+ * whole grid step.
  *
  * @param {number} min lowest height on the line
  * @param {number} max highest
@@ -392,13 +398,15 @@ const STEPS = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000, 2000];
  * @returns {Scale}
  */
 export function heightScale(min, max, stretch, top) {
+  // Below this, land counts as below sea level; above it, the floor stays at 0.
+  const deep = min < -BELOW_SEA_M;
   if (!stretch) {
     const step = 1000;
     const hi = Math.max(top, Math.ceil(max / step) * step);
-    const lo = min < -20 ? Math.floor(min / 100) * 100 : 0;
+    const lo = deep ? Math.floor(min / 100) * 100 : 0;
     return { bottom: lo, top: hi, step: lo < 0 && hi <= 2000 ? 100 : step };
   }
-  const lo = Math.min(0, min);
+  const lo = deep ? min : 0;
   const span = Math.max(10, max - lo);
   // About five grid lines.
   const step = STEPS.find((s) => span / s <= 6) || 5000;
