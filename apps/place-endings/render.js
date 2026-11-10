@@ -13,6 +13,7 @@
  * @property {number} W
  * @property {number} H
  * @property {string} bg background
+ * @property {boolean} transparent no background: only the drawing and text
  * @property {string} ink text
  * @property {string} accent first highlight
  * @property {string} second second highlight
@@ -101,8 +102,10 @@ export function drawSheet(canvas, o, c) {
   const u = Math.min(W, H) / 1000;
   const padX = Math.max(W * 0.06, 24 * u);
   const maxText = W - 2 * padX;
-  ctx.fillStyle = o.bg;
-  ctx.fillRect(0, 0, W, H);
+  if (!o.transparent) {
+    ctx.fillStyle = o.bg;
+    ctx.fillRect(0, 0, W, H);
+  }
   ctx.textBaseline = "alphabetic";
 
   // Top: caption and explanation.

@@ -290,6 +290,7 @@ function sheetOptions(l) {
     W,
     H,
     bg: safeColour($("bgColor").value, "#f6f2ea"),
+    transparent: $("optTransparent").checked,
     ink: safeColour($("capColor").value, "#23262d"),
     land: safeColour($("landColor").value, "#b4553a"),
     caption: cleanText($("capText").value, 120),
@@ -306,10 +307,12 @@ function sheetOptions(l) {
  * Draw the line that was read on `canvas`.
  *
  * @param {HTMLCanvasElement} canvas
+ * @param {boolean} [opaque] always fill the background (JPEG has no transparency)
  */
-async function paint(canvas) {
+async function paint(canvas, opaque = false) {
   if (!line) return;
   const o = sheetOptions(line);
+  if (opaque) o.transparent = false;
   // The canvas draws with whatever font is ready; wait for the sheet's own.
   await document.fonts.load(`500 40px "Space Grotesk"`).catch(() => {});
   drawSheet(
@@ -487,7 +490,12 @@ const repaint = debounce(async () => {
 function syncUI() {
   const ready = !!line;
   $("dlPng").disabled = !ready;
-  $("dlJpg").disabled = !ready;
+  const transparent = $("optTransparent").checked;
+  $("dlJpg").disabled = !ready || transparent;
+  $("dlJpg").title = transparent ? "JPEG cannot store transparency — export as PNG" : "";
+  $("bgColor").disabled = transparent;
+  $("bgHex").disabled = transparent;
+  $("pngOnly").hidden = !transparent;
   $("revealTag").hidden = !$("optName").checked;
   const t = through();
   $("throughHint").textContent =
@@ -508,7 +516,7 @@ async function exportSheet(type, ext) {
   if (!chosen || !line) return;
   try {
     const canvas = document.createElement("canvas");
-    await paint(canvas);
+    await paint(canvas, type === "image/jpeg");
     const blob = await canvasToBlob(canvas, type);
     if (!blob) {
       note("The browser refused to encode the image.", true);
@@ -545,6 +553,7 @@ for (const id of [
   "optLength",
   "optName",
   "optCredit",
+  "optTransparent",
 ])
   $(id).addEventListener("change", repaint);
 

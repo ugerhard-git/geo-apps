@@ -3,11 +3,14 @@
  * the fonts they use.
  */
 
+import { loadFontFamilies } from "../../shared/dom.js";
+
 /* ============================================================
  7. Canvas drawing
  ============================================================ */
 export const SANS = "Archivo, system-ui, -apple-system, sans-serif";
-export const SERIF = 'Fraunces, Georgia, "Times New Roman", serif';
+// Literata, not Fraunces: Fraunces puts the macron of ā, ū and ō over the next letter.
+export const SERIF = 'Literata, Georgia, "Times New Roman", serif';
 
 export function roundRect(ctx, x, y, w, h, r) {
   ctx.beginPath();
@@ -313,8 +316,8 @@ export async function ensureFonts() {
     await Promise.all([
       document.fonts.load("500 21px Archivo"),
       document.fonts.load("400 16px Archivo"),
-      document.fonts.load("600 96px Fraunces"),
-      document.fonts.load("500 34px Fraunces"),
+      // Every file of the serif, so accented letters draw correctly.
+      loadFontFamilies(["Literata"]),
     ]);
     await document.fonts.ready;
   } catch {

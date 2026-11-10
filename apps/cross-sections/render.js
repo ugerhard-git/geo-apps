@@ -12,6 +12,7 @@
  * @property {number} W
  * @property {number} H
  * @property {string} bg background
+ * @property {boolean} transparent no background: only the drawing and text
  * @property {string} ink text, lines and the profile's edge
  * @property {string} land the profile's fill
  * @property {string} caption "" for none
@@ -67,8 +68,10 @@ export function drawSheet(canvas, o, profile, scale) {
   const padX = Math.max(W * 0.06, 24 * u);
   const maxText = W - 2 * padX;
 
-  ctx.fillStyle = o.bg;
-  ctx.fillRect(0, 0, W, H);
+  if (!o.transparent) {
+    ctx.fillStyle = o.bg;
+    ctx.fillRect(0, 0, W, H);
+  }
   ctx.textBaseline = "alphabetic";
 
   // Top: caption and the line's description.
@@ -128,7 +131,8 @@ export function drawSheet(canvas, o, profile, scale) {
   // one (−400 m beside the Dead Sea).
   /** @type {number[]} */
   const levels = [];
-  const first = Math.ceil(scale.bottom / scale.step - 1e-9) * scale.step;
+  // `|| 0` turns −0 into 0, which would otherwise print as "-0 m".
+  const first = Math.ceil(scale.bottom / scale.step - 1e-9) * scale.step || 0;
   for (let v = first; v <= scale.top + 1e-6; v += scale.step) levels.push(v);
   if (scale.bottom < first) levels.unshift(scale.bottom);
   const labelW = o.heights

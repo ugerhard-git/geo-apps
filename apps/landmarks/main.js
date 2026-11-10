@@ -23,6 +23,7 @@ import {
   bindScale,
   debounce,
   isPressed,
+  loadFontFamilies,
   note,
   progress,
   scaleOf,
@@ -470,6 +471,8 @@ async function refresh() {
     return;
   }
   try {
+    // Every file of the serif, so accented names draw correctly.
+    await loadFontFamilies(["Literata"]);
     await drawSheet($("sheet"), currentOptions(), sheetContent());
     if (token !== busy) return;
     $("sheetWrap").hidden = false;
@@ -505,6 +508,7 @@ async function exportSheet(type, ext) {
   progress("Rendering for export", true);
   try {
     const canvas = document.createElement("canvas");
+    await loadFontFamilies(["Literata"]);
     await drawSheet(canvas, opts, sheetContent());
     const blob = await canvasToBlob(canvas, type);
     if (!blob) {

@@ -45,7 +45,7 @@ export function relativeSizes(values) {
 
 /** @param {number} px */
 export function tagFont(px) {
-  return `700 ${Math.max(1, Math.round(px))}px "Fraunces", Georgia, serif`;
+  return `700 ${Math.max(1, Math.round(px))}px "Literata", Georgia, serif`;
 }
 
 /**
