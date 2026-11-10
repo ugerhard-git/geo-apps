@@ -211,7 +211,7 @@ export function readShots() {
 }
 
 /**
- * The picture frame at the top of a card (or the left of a list row). It is
+ * The picture frame under a card's title (or at the left of a list row). It is
  * always there, so the cards line up; empty until the app has a picture.
  *
  * @param {AppInfo} app
@@ -254,8 +254,8 @@ function card(app, shots) {
   return `
       <li class="app${app.url ? " external" : ""}" data-kind="${kind}" data-slug="${escapeHtml(app.slug)}" data-added="${escapeHtml(app.added)}">
         <a href="${href}">
-          ${shotHtml(app, own(shots, app.slug))}
           <h3>${escapeHtml(app.title)}</h3>
+          ${shotHtml(app, own(shots, app.slug))}
           <p>${escapeHtml(app.description || "")}</p>
           ${tags}
         </a>

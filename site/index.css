@@ -419,8 +419,9 @@ footer {
   transform: translateY(-3px);
   box-shadow: 0 10px 24px rgba(24, 48, 63, 0.12);
 }
+/* The title comes first, above the picture, so a row of cards reads as a row of names. */
 .app h3 {
-  margin: 0 0 6px;
+  margin: -4px 0 12px;
   font-size: 19px;
   font-weight: 700;
   line-height: 1.25;
@@ -681,7 +682,7 @@ footer {
 .app .shot {
   display: block;
   aspect-ratio: 3 / 2;
-  margin: -6px -8px 16px;
+  margin: 0 -8px 16px;
   border-radius: 8px;
   background: var(--sky);
   overflow: hidden;
@@ -695,7 +696,9 @@ footer {
 .topics[data-view="list"] .apps .app a {
   grid-template-columns: 84px minmax(200px, 260px) 1fr auto;
 }
+/* In a list row the picture goes back to the left, before the title. */
 .topics[data-view="list"] .apps .app .shot {
+  order: -1;
   width: 84px;
   margin: 0;
   border-radius: 6px;
