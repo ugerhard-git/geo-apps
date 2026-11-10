@@ -57,7 +57,7 @@ export const LAYERS = {
   non-commercial and the attribution has to travel with the exported image.
   Their free tier is fair-use — fine for authoring, not for production traffic.
 */
-for (const year of [2024, 2023, 2022, 2021, 2020]) {
+for (const year of [2025, 2024, 2023, 2022, 2021, 2020]) {
   LAYERS.day.push({
     id: "s2cloudless-" + year,
     name: `Sentinel-2 cloudless ${year} — 10 m`,
