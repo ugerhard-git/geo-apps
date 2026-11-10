@@ -10,7 +10,16 @@
 import { CLDR_VERSION, loadTerritories } from "../../shared/cldr.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
-import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../../shared/dom.js";
+import {
+  $,
+  bindColour,
+  debounce,
+  isPressed,
+  loadFontFamilies,
+  note,
+  progress,
+  setSeg,
+} from "../../shared/dom.js";
 import { setupPresets } from "../../shared/presets.js";
 import { EXAMPLES, lookToControls } from "./presets.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
@@ -350,6 +359,7 @@ async function exportSheet(type, ext) {
   if (type === "image/jpeg" && opts.transparent) opts.transparent = false;
   try {
     const canvas = document.createElement("canvas");
+    await loadFontFamilies(["Literata"]);
     drawSheet(canvas, opts, sheetContent());
     const blob = await canvasToBlob(canvas, type);
     if (!blob) {
@@ -475,6 +485,9 @@ loadTerritories()
     input.placeholder = `${COUNTRIES.length} countries — name or code`;
     // Draw the first example once the list is ready and the loading bar gone.
     queueMicrotask(() => presets.start());
+    // The preview is drawn at once; draw it again when every file of the
+    // serif has arrived, so accented names don't stay in a fallback font.
+    loadFontFamilies(["Literata"]).then(() => refresh());
     progress(null);
   })
   .catch((err) => {

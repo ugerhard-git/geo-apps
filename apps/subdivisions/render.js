@@ -107,10 +107,10 @@ export function drawSheet(canvas, opts, content) {
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
     let px = Math.round(H * 0.045);
-    ctx.font = `500 ${px}px "Fraunces", Georgia, serif`;
+    ctx.font = `500 ${px}px "Literata", Georgia, serif`;
     while (px > 14 && ctx.measureText(opts.caption).width > W - pad * 2) {
       px -= 2;
-      ctx.font = `500 ${px}px "Fraunces", Georgia, serif`;
+      ctx.font = `500 ${px}px "Literata", Georgia, serif`;
     }
     if (opts.capTop) {
       ctx.fillText(opts.caption, W / 2, top + px * 0.6);

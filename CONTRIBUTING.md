@@ -84,6 +84,12 @@ repository's Security tab ("Report a vulnerability"), not in a public issue.
   the file name (exports use a hash unless naming is on). Options that reveal
   the answer are marked "reveals".
 - The preview and the export are drawn by the same code, from `render.js`.
+- **Every app offers a transparent background**, labelled "Transparent
+  background" (the OWID plotter: "Transparent" among its backgrounds). It is
+  PNG only: while it's on, JPG is switched off, and a JPG export always gets
+  a solid background. Where a sheet is a photo (Geo imagery), it leaves the
+  space around the picture empty, such as letterbox bars and caption bands. A
+  unit test checks that every app has it.
 - Sheets in any script need the right fonts: `shared/fonts.js` loads the Noto
   family per script on demand, and the canvas must wait for it.
 

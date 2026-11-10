@@ -83,10 +83,10 @@ export async function drawSheet(canvas, opts, { countryName, photos, loadImage }
   if (opts.caption) {
     ctx.fillStyle = opts.fg;
     let px = Math.round(H * 0.045 * opts.captionScale);
-    ctx.font = `600 ${px}px "Fraunces", Georgia, serif`;
+    ctx.font = `600 ${px}px "Literata", Georgia, serif`;
     while (px > 14 && ctx.measureText(opts.caption).width > W - pad * 2) {
       px -= 2;
-      ctx.font = `600 ${px}px "Fraunces", Georgia, serif`;
+      ctx.font = `600 ${px}px "Literata", Georgia, serif`;
     }
     if (opts.capTop) {
       ctx.fillText(opts.caption, W / 2, top + px * 0.6);
@@ -116,7 +116,7 @@ export async function drawSheet(canvas, opts, { countryName, photos, loadImage }
       names: opts.names,
       fg: opts.fg,
       at: opts.at,
-      labelFont: (px) => `500 ${px}px "Fraunces", Georgia, serif`,
+      labelFont: (px) => `500 ${px}px "Literata", Georgia, serif`,
       creditScale: opts.creditScale,
       creditFont: (px) => `400 ${px}px "Inter", sans-serif`,
       creditText,

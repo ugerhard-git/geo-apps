@@ -298,6 +298,23 @@ function reprojectFrom4326(src, win, box, crs, ctx, dx, dy, W, H) {
   }
 }
 
+/** True while a JPEG is being exported, which always gets a solid background. */
+let opaqueExport = false;
+
+/**
+ * Whether the background is see-through: the letterbox bars and the
+ * caption and credit bands are left empty ("Transparent background").
+ */
+const seeThrough = () => $("optTransparent").checked && !opaqueExport;
+
+/** JPEG can't store transparency, so its button is off while the option is on. */
+function syncTransparentUI() {
+  const on = $("optTransparent").checked;
+  $("pngOnly").hidden = !on;
+  $("dlJpg").disabled = $("dlPng").disabled || on;
+  $("dlJpg").title = on ? "JPEG cannot store transparency — export as PNG" : "";
+}
+
 /*
   Draw the imagery. spec is either {mode:"fit", H} or
   {mode:"fixed", W, H, letterbox}. Captions are applied afterwards by
@@ -361,8 +378,11 @@ async function render(canvas, spec, onProgress) {
   canvas.width = outW;
   canvas.height = outH;
   const ctx = canvas.getContext("2d");
-  ctx.fillStyle = "#000";
-  ctx.fillRect(0, 0, outW, outH);
+  // Black behind the imagery (the letterbox bars), unless the background is see-through.
+  if (!seeThrough()) {
+    ctx.fillStyle = "#000";
+    ctx.fillRect(0, 0, outW, outH);
+  }
 
   w = clamp(w, 16, 16000);
   h = clamp(h, 16, 16000);
@@ -603,11 +623,12 @@ function composeText(src, cap, credit, fixedFrame) {
   const crdBandTop = outH - strip.crdBand;
   const capBandBottomTop = crdBandTop - strip.capBand;
 
-  if (strip.crdBand) {
+  // A see-through background leaves the bands empty: only their text is drawn.
+  if (strip.crdBand && !seeThrough()) {
     ctx.fillStyle = rgb(crdScrim);
     ctx.fillRect(0, crdBandTop, outW, strip.crdBand);
   }
-  if (strip.capBand) {
+  if (strip.capBand && !seeThrough()) {
     ctx.fillStyle = rgb(capScrim);
     ctx.fillRect(0, cap.atTop ? 0 : capBandBottomTop, outW, strip.capBand);
   }
@@ -933,6 +954,7 @@ async function updatePreview() {
     $("preview").style.display = "block";
     $("empty").style.display = "none";
     ["dlPng", "dlJpg", "copyUrl"].forEach((id) => ($(id).disabled = false));
+    syncTransparentUI();
 
     if (!corsState.tainted) {
       try {
@@ -1118,6 +1140,8 @@ async function exportImage(type, ext) {
   const label = btn.textContent;
   btn.textContent = "Rendering…";
   btn.disabled = true;
+  // JPEG can't store transparency: a JPEG always gets its black bars and solid bands.
+  opaqueExport = type === "image/jpeg";
 
   renderBar(0);
 
@@ -1157,8 +1181,10 @@ async function exportImage(type, ext) {
   } catch (e) {
     note("Export failed while fetching imagery. Try a smaller frame, or a different date.", true);
   } finally {
+    opaqueExport = false;
     btn.textContent = label;
     btn.disabled = false;
+    syncTransparentUI();
     renderBar(null);
   }
 }
@@ -1627,6 +1653,10 @@ $("fillImg").addEventListener("click", () => {
 });
 $("fillBars").addEventListener("click", () => {
   setSeg($("fillBars"), $("fillImg"));
+  updatePreview();
+});
+$("optTransparent").addEventListener("change", () => {
+  syncTransparentUI();
   updatePreview();
 });
 

@@ -23,7 +23,16 @@ import { addBackLink } from "../../shared/back-link.js";
 import { loadTerritories } from "../../shared/cldr.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
-import { $, bindColour, debounce, isPressed, note, progress, setSeg } from "../../shared/dom.js";
+import {
+  $,
+  bindColour,
+  debounce,
+  isPressed,
+  loadFontFamilies,
+  note,
+  progress,
+  setSeg,
+} from "../../shared/dom.js";
 import { isFormatError, loadCities } from "../../shared/geonames.js";
 import { setupPresets } from "../../shared/presets.js";
 import { canvasToBlob, downloadBlob, frameSpec, hashSlug } from "../../shared/sheet.js";
@@ -135,6 +144,7 @@ function sheetOptions() {
     W,
     H,
     bg: safeColour($("bgColor").value, "#f6f2ea"),
+    transparent: $("optTransparent").checked,
     ink: safeColour($("capColor").value, "#23262d"),
     accent: safeColour($("accentColor").value, "#b4553a"),
     second: safeColour($("secondColor").value, "#2f6f8f"),
@@ -150,42 +160,23 @@ function sheetOptions() {
   };
 }
 
-/** Every file of the sheet's two fonts, loaded once. @type {Promise<unknown> | null} */
-let fontsLoading = null;
-
-/**
- * Wait for the sheet's fonts, every part of them. Google Fonts splits a font
- * into files by alphabet (basic Latin, extended Latin with ā, ł and ș,
- * Vietnamese), and a canvas draws with whatever is loaded: with only the
- * basic file, "ū" comes out as a "u" with a loose accent. So all of them are
- * loaded before the first drawing, rather than guessing which a sheet needs.
- */
-function sheetFonts() {
-  if (!fontsLoading)
-    fontsLoading = document.fonts.ready.then(() =>
-      Promise.all(
-        [...document.fonts]
-          .filter((f) => /Literata|Space Grotesk/.test(f.family))
-          .map((f) => f.load().catch(() => null)),
-      ),
-    );
-  return fontsLoading;
-}
-
 /**
  * Draw the chosen country on `canvas`.
  *
  * @param {HTMLCanvasElement} canvas
+ * @param {boolean} [opaque] always fill the background (JPEG has no transparency)
  */
-async function paint(canvas) {
+async function paint(canvas, opaque = false) {
   const o = sheetOptions();
+  if (opaque) o.transparent = false;
   const content = {
     view: view(),
     endings: shownEndings(),
     towns: view() === "towns" ? currentTowns() : [],
     colourEndings: $("optColourEndings").checked,
   };
-  await sheetFonts();
+  // Every file of the sheet's fonts, so accented letters draw correctly.
+  await loadFontFamilies(["Literata", "Space Grotesk"]);
   drawSheet(canvas, o, /** @type {import("./render.js").Content} */ (content));
 }
 
@@ -282,7 +273,12 @@ async function refresh() {
 function syncUI() {
   const ready = !!chosen;
   $("dlPng").disabled = !ready;
-  $("dlJpg").disabled = !ready;
+  const transparent = $("optTransparent").checked;
+  $("dlJpg").disabled = !ready || transparent;
+  $("dlJpg").title = transparent ? "JPEG cannot store transparency — export as PNG" : "";
+  $("bgColor").disabled = transparent;
+  $("bgHex").disabled = transparent;
+  $("pngOnly").hidden = !transparent;
   $("cloudOptions").hidden = view() !== "cloud";
   $("townOptions").hidden = view() !== "towns";
   $("revealTag").hidden = !$("optName").checked;
@@ -298,7 +294,7 @@ async function exportSheet(type, ext) {
   if (!chosen) return;
   try {
     const canvas = document.createElement("canvas");
-    await paint(canvas);
+    await paint(canvas, type === "image/jpeg");
     const blob = await canvasToBlob(canvas, type);
     if (!blob) {
       note("The browser refused to encode the image.", true);
@@ -347,6 +343,7 @@ for (const id of [
   "optFootnote",
   "optName",
   "optCredit",
+  "optTransparent",
 ])
   $(id).addEventListener("change", redraw);
 

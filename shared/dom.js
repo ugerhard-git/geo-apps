@@ -151,3 +151,35 @@ export function scaleOf(id) {
   const v = parseFloat(/** @type {HTMLInputElement} */ ($(id)).value);
   return Number.isFinite(v) ? Math.min(2, Math.max(0.5, Math.round(v) / 100)) : 1;
 }
+
+/** Font families already asked for, by name list. @type {Map<string, Promise<unknown>>} */
+const familyLoads = new Map();
+
+/**
+ * Load every file of these web fonts, once, and wait for them.
+ *
+ * Google Fonts splits a font into files by alphabet (basic Latin; extended
+ * Latin with ā, ł and ș; Vietnamese…), and a canvas draws with whatever has
+ * loaded: with only the basic file, "ū" can come out as a "u" with a loose
+ * accent. Loading them all before drawing is simpler and safer than guessing
+ * which a sheet needs; each is small.
+ *
+ * @param {string[]} families as named in the page's stylesheet, e.g. "Literata"
+ * @returns {Promise<unknown>} never rejects: a missing font falls back
+ */
+export function loadFontFamilies(families) {
+  const key = families.join("|");
+  let p = familyLoads.get(key);
+  if (!p) {
+    const wanted = new Set(families);
+    p = document.fonts.ready.then(() =>
+      Promise.all(
+        [...document.fonts]
+          .filter((f) => wanted.has(f.family.replace(/^["']|["']$/g, "")))
+          .map((f) => f.load().catch(() => null)),
+      ),
+    );
+    familyLoads.set(key, p);
+  }
+  return p;
+}
