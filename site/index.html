@@ -34,6 +34,19 @@
     </header>
 
     <main>
+      <!-- App of the day: filled in by index.js from one of the cards below. -->
+      <section class="spotlight" id="spotlight" aria-labelledby="spotTitle" hidden>
+        <a class="spot-link" id="spotLink" href="#">
+          <span class="spot-shot" id="spotShot" aria-hidden="true"></span>
+          <span class="spot-text">
+            <span class="spot-label" id="spotLabel">App of the day</span>
+            <span class="spot-title" id="spotTitle"></span>
+            <span class="spot-desc" id="spotDesc"></span>
+            <span class="spot-go" id="spotGo">Open it →</span>
+          </span>
+        </a>
+        <button type="button" class="spot-next" id="spotNext">Show me another</button>
+      </section>
       <div class="toolbar" role="search">
         <label class="search">
           <span class="sr-only">Search apps</span>
@@ -77,9 +90,9 @@
         </ul>
       </div>
 
-      <ul class="apps" id="apps" data-view="grid">
+      <div class="topics" id="apps" data-view="grid">
         <!-- APPS -->
-      </ul>
+      </div>
       <p class="no-match" id="noMatch" hidden>
         <span id="noMatchText"></span>
         <button type="button" class="link" id="clearSearch">show all apps</button>.

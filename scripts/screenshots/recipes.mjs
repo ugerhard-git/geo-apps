@@ -67,10 +67,6 @@ export const RECIPES = {
     steps: [{ country: "Chile" }],
     alt: "The land across Chile, rising from the Pacific into the Andes",
   },
-  currency: {
-    steps: [PD, { country: "Japan" }, { click: ".tile .thumb", count: 4 }],
-    alt: "Old Japanese banknotes on a quiz sheet",
-  },
   "day-length": {
     steps: [{ country: "Iceland" }],
     alt: "A year of day and night in Reykjavík: short winter days, summer nights that never get dark",
