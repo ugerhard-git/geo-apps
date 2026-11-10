@@ -4,7 +4,7 @@
 // Libraries and fonts from CDNs are still allowed through.
 
 import { expect, test } from "@playwright/test";
-import { collectApps, readExternal } from "../scripts/apps.mjs";
+import { TOPICS, collectApps, readExternal } from "../scripts/apps.mjs";
 
 const apps = await collectApps();
 const external = readExternal();
@@ -55,6 +55,12 @@ test("the overview lists every app", async ({ page }) => {
     await expect(link.locator(".ext")).toHaveText("Another site ↗");
   }
   await expect(page.locator(".key")).not.toHaveCount(0);
+  // One section per topic, and the app of the day at the top.
+  await expect(page.locator(".topic")).toHaveCount(TOPICS.length);
+  await expect(page.locator("#spotTitle")).not.toBeEmpty();
+  const first = await page.locator("#spotTitle").textContent();
+  await page.click("#spotNext");
+  await expect(page.locator("#spotTitle")).not.toHaveText(first || "");
   expect(errors).toEqual([]);
   expect(await visibleHidden(page)).toEqual([]);
 });

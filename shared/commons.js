@@ -1,7 +1,7 @@
 /**
  * Wikimedia Commons: the API, image URLs, and licences.
  *
- * Used by the apps that put Commons images on a sheet (currency, endemics,
+ * Used by the apps that put Commons images on a sheet (endemics,
  * plates, road signs, flag colours).
  *
  * @module shared/commons

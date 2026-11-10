@@ -68,7 +68,7 @@ the same split — `config.js` for settings, a data module for fetching, `render
 once you know one, the others read the same way. Pure logic (parsing, layout, colour maths) lives in
 modules without DOM access so it can be unit-tested.
 
-The "sheet" apps (road signs, plates, currency, endemics, statistics, …) share a page layout that
+The "sheet" apps (road signs, plates, endemics, statistics, …) share a page layout that
 `shared/dom.js` relies on: a `#country` search input with a `#countryResults` list, a `#note` status
 line, a `#bar` progress bar with `#loadLabel`, and the size controls `#frame`, `#customW`, `#customH`.
 
@@ -79,9 +79,12 @@ host to `connect-src` (or `img-src` for images), or the browser will block the r
 
 1. Create `apps/<slug>/` with `index.html`, `style.css` and `main.js`
    (`<script type="module" src="main.js">`). Copy a similar app as a starting point.
-2. Give `index.html` a `<title>`, a `<meta name="description">` and optionally
-   `<meta name="geo-apps:tags" content="Source, kind">`. That is all the overview page needs; there is
-   no list to register in.
+2. Give `index.html` a `<title>`, a `<meta name="description">`,
+   `<meta name="geo-apps:tags" content="Source, kind">`, the topic it goes under on the overview,
+   `<meta name="geo-apps:topic" content="land">` (one of `land`, `language`, `road`, `nature`,
+   `numbers`: see `TOPICS` in `scripts/apps.mjs`), and the day it goes live,
+   `<meta name="geo-apps:added" content="2026-11-10">`, which marks it "New" for three weeks. That is
+   all the overview page needs; there is no list to register in.
 3. Import shared code with relative paths, e.g. `import { $ } from "../../shared/dom.js"`.
 4. Give it presets and a welcome window: see [Presets](#presets) and
    [Welcome window](#welcome-window).
@@ -291,11 +294,21 @@ The overview can also list pages that live elsewhere but help with the same
 game, such as Unofficial (random unofficial Street View locations for
 map-making.app). They're in `site/external.json`: an `id` (which names the
 card's picture, `site/shots/<id>.webp`), a `title`, an `https://` address, a
-`description` and `tags`, one of which is the kind of clue (`images`,
-`chart`, `maps`, `text` or `cards`). Their cards link to that address in the
+`description`, `tags`, one of which is the kind of clue (`images`,
+`chart`, `maps`, `text` or `cards`), a `topic` and an `added` date, as for an app. Their cards link to that address in the
 same tab, like every card, and are marked "Another site ↗". The build stops
 on a broken entry or an address that isn't `https://`. Their pictures are
 made by hand, as below.
+
+## The overview page
+
+The apps come in sections by topic, each sorted by title. At the top is the
+app of the day: the date alone picks it (`site/spotlight.js`), so everyone
+sees the same app that day and every app gets its turn. "Show me another"
+picks at random, apps not yet opened first. A card is marked "New" for three
+weeks after its `geo-apps:added` date and "Not tried yet" once the visitor has
+opened some app but not this one; the page knows from what each app's welcome
+window remembers in the browser, and nothing is sent anywhere.
 
 ## Overview pictures
 
@@ -330,11 +343,11 @@ keeps the look, **Random look** keeps the country. Text the user typed
 (caption, note) is never touched, and once a setting is changed by hand the
 menu says "Custom (based on …)". Every app has them.
 
-- In the apps with Commons photos (Currency, Endemics, Landmarks, Licence
-  plates, Road signs), an example or "Random country" puts six photos on the
+- In the apps with Commons photos (Endemics, Landmarks, Licence plates,
+  Road signs), an example or "Random country" puts six photos on the
   sheet: openly licensed ones (public domain, CC0, CC BY) in the examples, the
-  best-known first for landmarks, and one of each kind in turn for signs,
-  plates and currency (`pickSpread`). "Random country" only picks countries
+  best-known first for landmarks, and one of each kind in turn for signs
+  and plates (`pickSpread`). "Random country" only picks countries
   with enough to show where the app knows that in advance.
 - Two apps have their own kind of look: Geo imagery's are imagery layers
   (night lights, relief), the OWID chart plotter's are chart backgrounds.

@@ -1,8 +1,15 @@
 /**
  * Overview page:
+ *   - app of the day: a big card at the top, the same for everyone on a given
+ *     day (spotlight.js), with a button to show another
+ *   - marks on the cards: "New" for a few weeks after an app went live, and
+ *     "Not tried yet" once this browser has opened at least one app (each
+ *     app's welcome window remembers it was seen; nothing leaves the browser)
  *   - search: filters the app list by title and description as you type
  *   - kinds: the colour key doubles as a filter; pick one or more kinds to
  *     see only those apps (none picked: all), together with the search
+ *   - topics: the apps come in sections; a section with nothing left to show
+ *     after a search hides
  *   - layout: grid or list, remembered in this browser
  *   - saved API keys: lists every service in shared/keys.js, says whether a
  *     key is saved, and lets the visitor save, replace or forget it for all
@@ -10,6 +17,8 @@
  */
 
 import { canRemember, forgetKey, getKey, saveKey, SERVICES } from "./shared/keys.js";
+import { seenKey } from "./shared/welcome.js";
+import { appOfTheDay, isNew } from "./spotlight.js";
 
 /** @typedef {keyof typeof SERVICES} ServiceId */
 
@@ -22,7 +31,7 @@ blockedNote.hidden = storageWorks;
 const appTitles = new Map(
   [...document.querySelectorAll(".app a")].map((a) => [
     (a.getAttribute("href") || "").replace(/^apps\/|\/$/g, ""),
-    a.querySelector("h2")?.textContent || "",
+    a.querySelector("h3")?.textContent || "",
   ]),
 );
 
@@ -112,6 +121,7 @@ updateKeySummary();
 const search = /** @type {HTMLInputElement} */ (document.getElementById("search"));
 const appList = /** @type {HTMLElement} */ (document.getElementById("apps"));
 const cards = /** @type {HTMLElement[]} */ ([...appList.querySelectorAll(".app")]);
+const sections = /** @type {HTMLElement[]} */ ([...appList.querySelectorAll(".topic")]);
 const count = /** @type {HTMLElement} */ (document.getElementById("count"));
 const noMatch = /** @type {HTMLElement} */ (document.getElementById("noMatch"));
 
@@ -125,7 +135,7 @@ const fold = (s) =>
 /** What each card is searched by: its title and description. */
 const haystacks = cards.map((c) =>
   fold(
-    (c.querySelector("h2")?.textContent || "") + " " + (c.querySelector("p")?.textContent || ""),
+    (c.querySelector("h3")?.textContent || "") + " " + (c.querySelector("p")?.textContent || ""),
   ),
 );
 
@@ -148,6 +158,7 @@ function applySearch() {
     c.hidden = !hit;
     if (hit) shown++;
   });
+  for (const s of sections) s.hidden = !s.querySelector(".app:not([hidden])");
   const filtered = words.length > 0 || kinds.size > 0;
   count.textContent = filtered ? `${shown} of ${cards.length} apps` : `${cards.length} apps`;
   noMatch.hidden = shown > 0;
@@ -214,3 +225,97 @@ try {
   /* private window or blocked storage: grid */
 }
 setView(savedView);
+
+/* ── New, Not tried yet ──────────────────────────────────── */
+
+const today = new Date();
+/** @param {HTMLElement} c */
+const slugOf = (c) => c.dataset.slug || "";
+/** @param {HTMLElement} c */
+const isExternal = (c) => c.classList.contains("external");
+
+/**
+ * Whether this browser has opened an app: its welcome window remembers.
+ *
+ * @param {string} slug
+ */
+function opened(slug) {
+  try {
+    return localStorage.getItem(seenKey(slug)) === "1";
+  } catch {
+    return false;
+  }
+}
+// Only once a visitor has opened an app: before that, every card would say so.
+const triedAny = cards.some((c) => !isExternal(c) && opened(slugOf(c)));
+/** @param {HTMLElement} c */
+const untried = (c) => triedAny && !isExternal(c) && !opened(slugOf(c));
+
+// "New" sits on the picture, where it catches the eye; "Not tried yet" is
+// quieter, first among the tags, since it is on most cards.
+for (const c of cards) {
+  if (isNew(c.dataset.added || "", today)) {
+    const box = make("span", "marks");
+    box.append(make("span", "new", "New"));
+    c.querySelector("a")?.append(box);
+  }
+  if (untried(c)) c.querySelector(".tags")?.prepend(make("li", "untried", "Not tried yet"));
+}
+
+/* ── app of the day ──────────────────────────────────────── */
+
+/** @param {string} id */
+const byId = (id) => /** @type {HTMLElement} */ (document.getElementById(id));
+const spotlight = byId("spotlight");
+const spotLink = /** @type {HTMLAnchorElement} */ (byId("spotLink"));
+
+/**
+ * Show one app's card in the spotlight: its picture, title and description,
+ * copied from its card as text.
+ *
+ * @param {HTMLElement} card
+ * @param {string} label
+ */
+function showSpot(card, label) {
+  const link = card.querySelector("a");
+  if (!link) return;
+  spotLink.href = link.href;
+  spotLink.dataset.slug = slugOf(card);
+  byId("spotLabel").textContent = label;
+  byId("spotTitle").textContent = card.querySelector("h3")?.textContent || "";
+  byId("spotDesc").textContent = card.querySelector("p")?.textContent || "";
+  byId("spotGo").textContent = isExternal(card) ? "Open it on another site ↗" : "Open it →";
+  const shot = byId("spotShot");
+  shot.replaceChildren();
+  const img = /** @type {HTMLImageElement | null} */ (card.querySelector(".shot img"));
+  if (img) {
+    const big = /** @type {HTMLImageElement} */ (make("img"));
+    big.src = img.src;
+    big.alt = ""; // the title next to it says what it is
+    big.width = img.width;
+    big.height = img.height;
+    shot.append(big);
+  }
+  spotlight.hidden = false;
+}
+
+const daily = cards.find((c) => slugOf(c) === appOfTheDay(cards.map(slugOf), today));
+if (daily) showSpot(daily, "App of the day");
+
+/** Shown in the spotlight since the page opened, so "another" doesn't repeat. */
+const shownSpots = new Set(daily ? [slugOf(daily)] : []);
+byId("spotNext").addEventListener("click", () => {
+  let pool = cards.filter((c) => !shownSpots.has(slugOf(c)));
+  if (!pool.length) {
+    // Seen them all: start again, without the one showing now.
+    shownSpots.clear();
+    pool = cards.filter((c) => slugOf(c) !== spotLink.dataset.slug);
+  }
+  // Apps this browser hasn't opened yet come first.
+  const fresh = pool.filter(untried);
+  if (fresh.length) pool = fresh;
+  const next = pool[Math.floor(Math.random() * pool.length)];
+  if (!next) return;
+  shownSpots.add(slugOf(next));
+  showSpot(next, "Another idea");
+});

@@ -262,6 +262,115 @@ footer {
   --k: var(--kind-cards);
 }
 
+/* ── app of the day ─────────────────────────────────────── */
+.spotlight {
+  position: relative;
+  margin: 0 0 28px;
+}
+.spot-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+  padding: 18px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(24, 48, 63, 0.08);
+}
+.spot-shot {
+  display: block;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--sky);
+}
+.spot-shot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.spot-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 8px 44px 0;
+}
+.spot-label {
+  align-self: flex-start;
+  padding: 3px 12px;
+  border-radius: 999px;
+  background: var(--sun);
+  color: var(--sun-ink);
+  font-size: 13px;
+  font-weight: 600;
+}
+.spot-title {
+  font-size: clamp(24px, 3.2vw, 34px);
+  font-weight: 800;
+  line-height: 1.15;
+}
+.spot-desc {
+  color: var(--muted);
+  font-size: 16.5px;
+}
+.spot-go {
+  color: var(--sea);
+  font-weight: 600;
+}
+.spot-link:hover .spot-go {
+  text-decoration: underline;
+}
+/* Outside the link, so it can be its own button: bottom right of the card. */
+.spot-next {
+  position: absolute;
+  right: 26px;
+  bottom: 22px;
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.spot-next:hover {
+  border-color: var(--sea);
+  color: var(--sea);
+}
+@media (max-width: 700px) {
+  .spot-link {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 14px;
+  }
+  .spot-text {
+    padding: 0 4px 48px;
+  }
+  .spot-next {
+    left: 18px;
+    right: auto;
+    bottom: 16px;
+  }
+}
+
+/* ── topics ─────────────────────────────────────────────── */
+.topic + .topic {
+  margin-top: 30px;
+}
+.topic h2 {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 /* ── app cards ─────────────────────────────────────────── */
 .apps {
   list-style: none;
@@ -310,7 +419,7 @@ footer {
   transform: translateY(-3px);
   box-shadow: 0 10px 24px rgba(24, 48, 63, 0.12);
 }
-.app h2 {
+.app h3 {
   margin: 0 0 6px;
   font-size: 19px;
   font-weight: 700;
@@ -342,17 +451,46 @@ footer {
   background: #fff1c7;
   color: var(--sun-ink);
 }
+/* "New", on the picture's corner. */
+.marks {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 6px;
+}
+.marks span {
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(24, 48, 63, 0.18);
+}
+.marks .new {
+  background: var(--sun);
+  color: var(--sun-ink);
+}
+.topics[data-view="list"] .marks {
+  top: 8px;
+  right: auto;
+  left: 14px;
+}
+.tags li.untried {
+  background: none;
+  box-shadow: inset 0 0 0 1px var(--line);
+  font-style: italic;
+}
 .tags li.ext {
   background: none;
   box-shadow: inset 0 0 0 1px currentColor;
 }
 
 /* List layout: one app per row — title, description, tags side by side. */
-.apps[data-view="list"] {
+.topics[data-view="list"] .apps {
   grid-template-columns: 1fr;
   gap: 8px;
 }
-.apps[data-view="list"] .app a {
+.topics[data-view="list"] .apps .app a {
   display: grid;
   grid-template-columns: minmax(200px, 260px) 1fr auto;
   align-items: center;
@@ -362,18 +500,18 @@ footer {
   border-left: 6px solid var(--kind);
   border-radius: 12px;
 }
-.apps[data-view="list"] .app h2 {
+.topics[data-view="list"] .apps .app h3 {
   margin: 0;
   font-size: 17px;
 }
-.apps[data-view="list"] .app p {
+.topics[data-view="list"] .apps .app p {
   margin: 0;
 }
-.apps[data-view="list"] .tags {
+.topics[data-view="list"] .apps .tags {
   justify-content: flex-end;
   max-width: 300px;
 }
-.apps[data-view="list"] .app a:hover {
+.topics[data-view="list"] .apps .app a:hover {
   transform: translateX(3px);
 }
 
@@ -524,11 +662,11 @@ footer {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .apps[data-view="list"] .app a {
+  .topics[data-view="list"] .apps .app a {
     grid-template-columns: 1fr;
     gap: 6px;
   }
-  .apps[data-view="list"] .tags {
+  .topics[data-view="list"] .apps .tags {
     justify-content: flex-start;
     max-width: none;
   }
@@ -554,10 +692,10 @@ footer {
   height: 100%;
   object-fit: contain;
 }
-.apps[data-view="list"] .app a {
+.topics[data-view="list"] .apps .app a {
   grid-template-columns: 84px minmax(200px, 260px) 1fr auto;
 }
-.apps[data-view="list"] .app .shot {
+.topics[data-view="list"] .apps .app .shot {
   width: 84px;
   margin: 0;
   border-radius: 6px;
@@ -567,15 +705,15 @@ footer {
 .app .shot:empty {
   display: none;
 }
-.apps[data-view="list"] .app .shot:empty {
+.topics[data-view="list"] .apps .app .shot:empty {
   display: block;
 }
 @media (max-width: 720px) {
-  .apps[data-view="list"] .app a {
+  .topics[data-view="list"] .apps .app a {
     grid-template-columns: 1fr;
   }
-  .apps[data-view="list"] .app .shot,
-  .apps[data-view="list"] .app .shot:empty {
+  .topics[data-view="list"] .apps .app .shot,
+  .topics[data-view="list"] .apps .app .shot:empty {
     display: none;
   }
 }

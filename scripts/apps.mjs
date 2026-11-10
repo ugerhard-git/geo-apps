@@ -8,7 +8,12 @@
  * <title>Road sign sheets</title>
  * <meta name="description" content="Official road sign artwork, arranged on a quiz sheet.">
  * <meta name="geo-apps:tags" content="Commons, images">          (optional)
+ * <meta name="geo-apps:topic" content="road">                     (one of TOPICS)
+ * <meta name="geo-apps:added" content="2026-10-14">              (when it went live)
  * ```
+ *
+ * The overview shows the apps in sections, one per topic. The date marks an
+ * app "New" for a few weeks; the page itself works that out (site/index.js).
  *
  * Nothing else needs registering: add a folder and it appears on the index.
  *
@@ -33,8 +38,37 @@ export const SITE_DIR = path.join(ROOT, "site");
  * @property {string} title
  * @property {string} description
  * @property {string[]} tags
+ * @property {string} topic one of the ids in TOPICS
+ * @property {string} added the day it went live, YYYY-MM-DD
  * @property {string} [url] set for a page on another site: where its card links
  */
+
+/**
+ * What the apps are about, in the order the overview shows them. Every app
+ * and every page on another site names one of these ids.
+ */
+export const TOPICS = [
+  { id: "land", label: "Land and maps" },
+  { id: "language", label: "Language and writing" },
+  { id: "road", label: "Things you see on the road" },
+  { id: "nature", label: "Nature and climate" },
+  { id: "numbers", label: "Numbers and facts" },
+];
+
+/**
+ * Check an entry's topic and date; a wrong one stops the build, so no card
+ * goes missing quietly.
+ *
+ * @param {string} where for the error message
+ * @param {unknown} topic
+ * @param {unknown} added
+ */
+export function checkTopicAndDate(where, topic, added) {
+  if (!TOPICS.some((t) => t.id === topic))
+    throw new Error(`${where}: topic must be one of ${TOPICS.map((t) => t.id).join(", ")}`);
+  if (typeof added !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(added) || isNaN(Date.parse(added)))
+    throw new Error(`${where}: "added" must be a date, YYYY-MM-DD`);
+}
 
 /** @param {string} s */
 const decode = (s) =>
@@ -81,6 +115,9 @@ export async function collectApps() {
     if (!existsSync(file)) continue;
     const html = await readFile(file, "utf8");
     const title = /<title>([\s\S]*?)<\/title>/i.exec(html);
+    const topic = meta(html, "geo-apps:topic");
+    const added = meta(html, "geo-apps:added");
+    checkTopicAndDate(`apps/${entry.name}/index.html`, topic, added);
     apps.push({
       slug: entry.name,
       title: title ? decode(title[1]) : entry.name,
@@ -89,6 +126,8 @@ export async function collectApps() {
         .split(",")
         .map((t) => t.trim())
         .filter(Boolean),
+      topic,
+      added,
     });
   }
   return apps.sort((a, b) => a.title.localeCompare(b.title));
@@ -96,7 +135,7 @@ export async function collectApps() {
 
 /**
  * The pages on other sites, from `site/external.json`: a list of
- * `{id, title, url, description, tags}`. `id` names its picture in
+ * `{id, title, url, description, tags, topic, added}`. `id` names its picture in
  * `site/shots/` like an app's folder name. A broken entry stops the build
  * rather than being left out quietly, and only `https:` addresses are
  * accepted, so a card can't run script or point at an unsafe page.
@@ -122,11 +161,14 @@ export function readExternal() {
     }
     if (url.protocol !== "https:") throw new Error(`${where}: url must start with https://`);
     const tags = Array.isArray(e.tags) ? e.tags.filter(text).map((t) => t.trim()) : [];
+    checkTopicAndDate(where, e.topic, e.added);
     return {
       slug: e.id,
       title: e.title.trim(),
       description: e.description.trim(),
       tags,
+      topic: e.topic,
+      added: e.added,
       url: url.href,
     };
   });
@@ -195,6 +237,7 @@ const KINDS = ["images", "chart", "maps", "text", "cards"];
 /**
  * Render one app's card. `data-kind` colours it by the kind of clue; the
  * "API key" tag gets its own style, and a page on another site a mark of its own.
+ * `data-slug` and `data-added` let the page mark it "New" or "Not tried yet".
  *
  * @param {AppInfo} app
  * @param {Record<string, Shot & {v: string}>} shots
@@ -209,10 +252,10 @@ function card(app, shots) {
   const tags = items.length ? `<ul class="tags">${items.join("")}</ul>` : "";
   const href = app.url ? escapeHtml(app.url) : `apps/${encodeURIComponent(app.slug)}/`;
   return `
-      <li class="app${app.url ? " external" : ""}" data-kind="${kind}">
+      <li class="app${app.url ? " external" : ""}" data-kind="${kind}" data-slug="${escapeHtml(app.slug)}" data-added="${escapeHtml(app.added)}">
         <a href="${href}">
           ${shotHtml(app, own(shots, app.slug))}
-          <h2>${escapeHtml(app.title)}</h2>
+          <h3>${escapeHtml(app.title)}</h3>
           <p>${escapeHtml(app.description || "")}</p>
           ${tags}
         </a>
@@ -221,7 +264,7 @@ function card(app, shots) {
 
 /**
  * Fill `site/index.html` with the app list: the apps given, and the pages on
- * other sites (`readExternal`), in one list sorted by title.
+ * other sites (`readExternal`), in one section per topic, each sorted by title.
  *
  * @param {AppInfo[]} apps
  * @returns {Promise<string>}
@@ -233,7 +276,17 @@ export async function renderIndex(apps) {
   const clash = external.find((e) => apps.some((a) => a.slug === e.slug));
   if (clash) throw new Error(`site/external.json: "${clash.slug}" is also an app's folder name`);
   const all = [...apps, ...external].sort((a, b) => a.title.localeCompare(b.title));
-  return template
-    .replace("<!-- APP_COUNT -->", String(all.length))
-    .replace("<!-- APPS -->", all.map((app) => card(app, shots)).join(""));
+  return template.replace("<!-- APP_COUNT -->", String(all.length)).replace(
+    "<!-- APPS -->",
+    TOPICS.map((t) => {
+      const cards = all.filter((app) => app.topic === t.id);
+      if (!cards.length) return "";
+      return `
+      <section class="topic" aria-labelledby="topic-${t.id}">
+        <h2 id="topic-${t.id}">${escapeHtml(t.label)}</h2>
+        <ul class="apps">${cards.map((app) => card(app, shots)).join("")}
+        </ul>
+      </section>`;
+    }).join(""),
+  );
 }

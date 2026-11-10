@@ -3,7 +3,6 @@
   "city-dots": {"w":720,"h":480,"alt":"Croatia's 20 largest cities as dots, from Zagreb down the Dalmatian coast","custom":true},
   "climate": {"w":720,"h":480,"alt":"A climate chart for India, with monsoon rain in summer"},
   "cross-sections": {"w":720,"h":480,"alt":"The land across Chile, rising from the Pacific into the Andes"},
-  "currency": {"w":720,"h":480,"alt":"Euro banknotes from 5 to 200, marked as specimens, on a quiz sheet","custom":true},
   "day-length": {"w":720,"h":480,"alt":"A year of day and night in Reykjavík: short winter days, summer nights that never get dark"},
   "endemics": {"w":720,"h":480,"alt":"Animals found only in Madagascar"},
   "export-treemap": {"w":720,"h":480,"alt":"A treemap of France's exports, led by aircraft, cars and medicines","custom":true},

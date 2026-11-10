@@ -3,7 +3,7 @@
  * underneath when its licence asks for one — in full, wrapped onto a few
  * lines (creditLines) and set smaller only if that isn't enough (credits.js).
  *
- * Used by the Commons image apps (currency, plates).
+ * Used by Licence plates and, through photo-sheet.js, the other photo apps.
  *
  * @module shared/image-grid
  */

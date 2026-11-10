@@ -132,9 +132,10 @@ Write it so they can follow it without help.
 - Plain ES modules, no bundler. Each app is `apps/<slug>/` with `index.html`,
   `style.css`, `main.js` and its modules; shared code is in `shared/`. See
   "Adding an app" in `README.md`.
-- The overview page is built from each app's `<title>`, meta description and
+- The overview page is built from each app's `<title>`, meta description,
   `geo-apps:tags` (the last tag is its kind: images, chart, maps, text or
-  cards).
+  cards), `geo-apps:topic` and `geo-apps:added`. The build stops if the topic
+  or the date is missing.
 - New behaviour gets a unit test in `tests/unit/`; a new app also gets a smoke
   test.
 - Update `README.md` when adding an app, a data source or a shared module.
