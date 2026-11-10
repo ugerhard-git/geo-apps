@@ -63,6 +63,10 @@ export const RECIPES = {
     steps: [{ country: "India" }],
     alt: "A climate chart for India, with monsoon rain in summer",
   },
+  "cross-sections": {
+    steps: [{ country: "Chile" }],
+    alt: "The land across Chile, rising from the Pacific into the Andes",
+  },
   currency: {
     steps: [PD, { country: "Japan" }, { click: ".tile .thumb", count: 4 }],
     alt: "Old Japanese banknotes on a quiz sheet",

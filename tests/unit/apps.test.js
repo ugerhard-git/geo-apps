@@ -32,7 +32,6 @@ import {
   chooseZoom,
   colourise,
   customRamp,
-  decodeTerrarium,
   heightColour,
   hillshade,
   lowestEdgeHeight,
@@ -41,6 +40,7 @@ import {
   tileKeys,
   tileRange,
 } from "../../apps/relief/terrain.js";
+import { decodeTerrarium } from "../../shared/terrain-tiles.js";
 import { applyAffix, detectAffix, stripAffix } from "../../apps/subdivisions/names.js";
 import { parseData } from "../../apps/keyboards/data.js";
 import {

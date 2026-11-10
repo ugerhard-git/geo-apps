@@ -5,7 +5,7 @@
  * Flow: CLDR names fill the picker and world-atlas supplies the outlines →
  * pick a country → the sheet is planned (render.js), which decides the area
  * of the map and with it the elevation tiles needed → the tiles load from
- * AWS (tiles.js) → heights are read, shaded (terrain.js) and kept, so that
+ * AWS (shared/terrain-tiles.js) → heights are read, shaded (terrain.js) and kept, so that
  * changing colours only repaints → export.
  *
  * The country can be shown three ways: on its background with its outline,
@@ -15,7 +15,9 @@
  *
  *   config.js   the tile server, limits, the light and the height colours
  *   terrain.js  tile maths, shading and colouring (pure)
- *   tiles.js    fetching and decoding tiles, with a small cache
+ * Fetching and decoding the tiles is shared with Cross-sections, in
+ * shared/terrain-tiles.js.
+ *
  *   render.js   laying out and drawing the sheet
  *   presets.js  examples to start from, and how a look colours the sheet
  *   welcome.js  the text of the welcome window
@@ -23,7 +25,8 @@
 
 import { addBackLink } from "../../shared/back-link.js";
 import { setupPresets } from "../../shared/presets.js";
-import { EXAMPLES, MIN_RANDOM_AREA, landArea, lookToControls } from "./presets.js";
+import { EXAMPLES, MIN_RANDOM_AREA, lookToControls } from "./presets.js";
+import { landArea } from "../../shared/world.js";
 import { safeColour } from "../../shared/colour.js";
 import { createCountryPicker } from "../../shared/country-picker.js";
 import {
@@ -43,17 +46,16 @@ import { projectCountry } from "../../shared/projection.js";
 import { canvasToBlob, downloadBlob, hashSlug } from "../../shared/sheet.js";
 import { cleanText, slugify } from "../../shared/text.js";
 import { clamp, own } from "../../shared/util.js";
-import {
-  ATTRIBUTION_URL,
-  CREDIT,
-  CUSTOM_HEIGHTS,
-  HEIGHT_SCHEMES,
-  MAX_TILES,
-  MAX_ZOOM,
-} from "./config.js";
+import { CUSTOM_HEIGHTS, HEIGHT_SCHEMES, MAX_TILES } from "./config.js";
 import { drawSheet, neededBox, planSheet, prepareRelief } from "./render.js";
 import { chooseZoom, customRamp, tileKeys } from "./terrain.js";
-import { cachedTile, ensureTiles } from "./tiles.js";
+import {
+  MAX_ZOOM,
+  TERRAIN_ATTRIBUTION_URL,
+  TERRAIN_CREDIT,
+  cachedTile,
+  ensureTiles,
+} from "../../shared/terrain-tiles.js";
 import { setupWelcome } from "../../shared/welcome.js";
 import { WELCOME } from "./welcome.js";
 
@@ -143,7 +145,7 @@ function currentOptions() {
     note: cleanText($("noteText").value, 160),
     noteTop: isPressed("noteTop"),
     capColour: safeColour($("capColor").value, "#1e2228"),
-    credit: $("optCredit").checked ? CREDIT : "",
+    credit: $("optCredit").checked ? TERRAIN_CREDIT : "",
   };
 }
 
@@ -254,7 +256,7 @@ function renderSources() {
   );
   row(
     "Elevation sources",
-    ATTRIBUTION_URL,
+    TERRAIN_ATTRIBUTION_URL,
     "SRTM, GMTED2010, ETOPO1, EU-DEM and others — credits and licences",
   );
   row(

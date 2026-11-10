@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- No external scripts. Data: jsDelivr (borders, CLDR names, GeoNames capitals) and AWS (elevation tiles, read as data, never shown). -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src https://cdn.jsdelivr.net https://s3.amazonaws.com/elevation-tiles-prod/;
+  img-src data: blob:;
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'"
+    />
+    <title>Cross-sections</title>
+    <meta
+      name="description"
+      content="The rise and fall of the land along a line across a country, from the coast to the mountains, with no names."
+    />
+    <meta name="geo-apps:tags" content="AWS Terrain Tiles, chart" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../shared/presets.css" />
+    <link rel="stylesheet" href="../../shared/welcome.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Cross-sections</h1>
+          <p>
+            The rise and fall of the land along a line across a country, from the coast to the mountains, with no names.
+          </p>
+        </div>
+
+        <div class="group presets">
+          <h2>Start from</h2>
+          <div class="field">
+            <label for="preset">Preset</label>
+            <select id="preset" disabled>
+              <option>Loading…</option>
+            </select>
+          </div>
+          <div class="dice">
+            <button type="button" id="rndCountry" disabled>Random country</button>
+            <button type="button" id="rndLook" disabled>Random look</button>
+          </div>
+        </div>
+
+        <div class="group">
+          <div class="field search-wrap">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled />
+            <div class="results" id="countryResults"></div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>The line</h2>
+          <div class="field">
+            <label>Direction</label>
+            <div class="seg" role="group">
+              <button id="dirWE" aria-pressed="true">West to east</button>
+              <button id="dirSN" aria-pressed="false">South to north</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="through">Through</label>
+            <select id="through">
+              <option value="capital">The capital</option>
+              <option value="middle">The middle of the country</option>
+              <option value="highest">The highest point</option>
+            </select>
+            <div class="hint" id="throughHint"></div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Heights</h2>
+          <label class="chk"><input type="checkbox" id="optStretch" /><span>Stretch the heights to fit</span></label>
+          <div class="hint" id="stretchHint">
+            Off: every country is drawn on the same scale, from sea level to 6,000 m, so flat countries look flat. On:
+            the heights fill the chart, which shows small hills but makes every country look hilly.
+          </div>
+          <label class="chk"
+            ><input type="checkbox" id="optScaleNote" checked /><span>Say how heights are drawn</span></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Sheet</h2>
+          <div class="field">
+            <label for="frame">Size</label>
+            <select id="frame">
+              <option value="2400x1600">2400 × 1600 · 3:2</option>
+              <option value="1920x1080">1920 × 1080 · 16:9</option>
+              <option value="1600x1600">1600 × 1600 · 1:1</option>
+              <option value="3200x2400">3200 × 2400 · 4:3</option>
+              <option value="custom">Custom…</option>
+            </select>
+          </div>
+          <div class="field two" id="customSize" hidden>
+            <div>
+              <label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000" />
+            </div>
+            <div>
+              <label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000" />
+            </div>
+          </div>
+          <label class="chk"><input type="checkbox" id="optHeights" checked /><span>Height figures</span></label>
+          <label class="chk"><input type="checkbox" id="optDistances" checked /><span>Distance figures</span></label>
+          <label class="chk"><input type="checkbox" id="optEnds" checked /><span>Compass at both ends</span></label>
+          <label class="chk"><input type="checkbox" id="optLength" checked /><span>Length of the line</span></label>
+          <label class="chk"
+            ><input type="checkbox" id="optName" /><span>Name it on the sheet</span
+            ><em id="revealTag" hidden>reveals</em></label
+          >
+          <label class="chk"><input type="checkbox" id="optCredit" checked /><span>Credit line</span></label>
+          <div class="field">
+            <label for="bgHex">Background</label>
+            <div class="colour">
+              <input type="color" id="bgColor" value="#f6f2ea" aria-label="Background colour swatch" />
+              <input
+                type="text"
+                id="bgHex"
+                placeholder="#rrggbb"
+                value="#f6f2ea"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Background colour as hex"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="landHex">Land</label>
+            <div class="colour">
+              <input type="color" id="landColor" value="#b4553a" aria-label="Land colour swatch" />
+              <input
+                type="text"
+                id="landHex"
+                placeholder="#rrggbb"
+                value="#b4553a"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Land colour as hex"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label for="capHex">Text and lines</label>
+            <div class="colour">
+              <input type="color" id="capColor" value="#23262d" aria-label="Text and lines colour swatch" />
+              <input
+                type="text"
+                id="capHex"
+                placeholder="#rrggbb"
+                value="#23262d"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Text and lines colour as hex"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              value="A walk across this country"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+              aria-label="Caption"
+            />
+          </div>
+          <div class="field">
+            <label for="noteText">Note</label>
+            <input
+              type="text"
+              id="noteText"
+              value=""
+              placeholder="Leave empty for no note"
+              maxlength="160"
+              autocomplete="off"
+            />
+            <div class="hint">A short line under the chart, e.g. "The line runs through the capital."</div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <div class="actions">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="view" id="view">
+          <div class="empty" id="empty">
+            <strong>Pick a country to walk across it.</strong>
+            The land along a straight line from one border to the other: where the mountains rise, how wide the plains
+            are and where the coast drops away is the clue.
+          </div>
+          <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+          <div class="busy" id="busy" role="status" aria-live="polite">
+            <span class="spinner" aria-hidden="true"></span><span id="busyLabel"></span>
+          </div>
+        </div>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="note" id="note"></div>
+
+        <section class="card sources" id="sources" hidden>
+          <header><h2>Sources</h2></header>
+          <div class="body">
+            <dl id="sourceList"></dl>
+            <p class="cav" id="caveat"></p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
