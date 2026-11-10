@@ -112,6 +112,7 @@ All are documented with JSDoc, so editors show the docs and types on hover.
 | `projection.js`     | Web Mercator, the mainland of a country, bounds — for the map apps                 |
 | `map-countries.js`  | CLDR countries matched to their world-atlas outlines, for the map apps             |
 | `geonames.js`       | The GeoNames city list (all-the-cities): a bounds-checked decoder and loader       |
+| `terrain-tiles.js`  | Elevation tiles (Shaded relief, Cross-sections): addresses, decoding, a cache      |
 | `keys.js`           | API keys shared by all apps (see below)                                            |
 | `back-link.js`      | The "Back to apps overview" link, on any web server (not from a file on disk)      |
 | `fonts.js`          | Noto fonts per script from Google Fonts, loaded on demand (keyboards, baby names)  |
@@ -205,14 +206,14 @@ its files by its own codes ("ng" is Niger, "ni" Nigeria); the script matches
 them to ISO codes through the [country-codes](https://github.com/datasets/country-codes)
 table and stops if fewer than 200 countries come through.
 
-## Live data: Shaded relief
+## Live data: Shaded relief and Cross-sections
 
-The Shaded relief app has no data of its own. It reads
+Shaded relief and Cross-sections have no data of their own. They read
 [Mapzen's Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) on
 AWS Open Data straight from the browser: PNG tiles in the "Terrarium"
 encoding, whose red, green and blue hold a height in metres. The tiles are
-never shown; `apps/relief/tiles.js` decodes each on a scratch canvas and
-keeps the heights in a small cache. The bucket allows any site to read them
+never shown; `shared/terrain-tiles.js` decodes each on a scratch canvas and
+keeps the heights in a small cache, shared by both apps. The bucket allows any site to read them
 (`Access-Control-Allow-Origin: *`), and no key is needed.
 
 `apps/relief/terrain.js` does the rest: it picks the zoom whose tiles are as
@@ -225,6 +226,18 @@ heights, so a lowland country stays low-coloured. The sources the tiles are made
 ETOPO1, EU-DEM and others) ask to be credited, so the sheet carries a credit
 line by default and the Sources panel links to
 [their attributions](https://github.com/tilezen/joerd/blob/master/docs/attribution.md).
+
+Cross-sections draws the land along one straight line across a country, west
+to east along a parallel or south to north along a meridian.
+`apps/cross-sections/profile.js` places the line through the capital (from
+the shared GeoNames city list), the centre of the country's area, or its
+highest ground (found on a coarse grid of heights), then cuts it exactly where
+it crosses the border of the mainland and nearby islands, so a bay, a lake or
+a neighbour's land shows as a gap. About 900 points are read along it, from
+tiles about as sharp as the points are close (at most 48 tiles). By default
+every country shares one height scale, from sea level to 6,000 m (higher if
+the line is), so a flat country looks flat; "Stretch the heights to fit" fills
+the chart with the line's own heights instead, and the footnote says which.
 
 ## Pages on other sites
 

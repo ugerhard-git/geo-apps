@@ -128,3 +128,27 @@ export function boxOfPolys(polys) {
       }
   return Number.isFinite(w) ? { w, s, e, n } : null;
 }
+
+/**
+ * A country's land area, roughly, in square degrees of latitude: enough to
+ * tell a country with something to show from a speck of islands. (One square
+ * degree is about 12,000 km².)
+ *
+ * @param {Polys} polys lon/lat polygons, outer ring first
+ */
+export function landArea(polys) {
+  let sum = 0;
+  for (const [outer] of polys) {
+    if (!outer || outer.length < 3) continue;
+    let a = 0;
+    let lat = 0;
+    for (let i = 0; i < outer.length; i++) {
+      const [x0, y0] = outer[i];
+      const [x1, y1] = outer[(i + 1) % outer.length];
+      a += x0 * y1 - x1 * y0;
+      lat += y0;
+    }
+    sum += (Math.abs(a) / 2) * Math.cos(((lat / outer.length) * Math.PI) / 180);
+  }
+  return sum;
+}

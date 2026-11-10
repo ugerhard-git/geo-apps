@@ -22,6 +22,7 @@ const APPS = {
   alphabets: {},
   "city-dots": {},
   climate: {},
+  "cross-sections": {},
   currency: {},
   endemics: {},
   "export-treemap": {},
@@ -118,7 +119,8 @@ test("pickOther never repeats the current choice when there is another", () => {
 });
 
 test("relief: land area tells a country from a speck", async () => {
-  const { landArea, MIN_RANDOM_AREA } = await import("../../apps/relief/presets.js");
+  const { MIN_RANDOM_AREA } = await import("../../apps/relief/presets.js");
+  const { landArea } = await import("../../shared/world.js");
   /** @param {number} lon @param {number} lat @param {number} d */
   const square = (lon, lat, d) => [
     [

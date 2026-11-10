@@ -23,8 +23,8 @@ import {
   rowMetres,
   sampleHeights,
   slopeQuantile,
-  worldPx,
 } from "./terrain.js";
+import { worldPx } from "../../shared/terrain-tiles.js";
 
 /** @typedef {import("../../shared/world.js").Polys} Polys */
 /** @typedef {import("../../shared/projection.js").Box} Box */

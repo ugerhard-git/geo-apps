@@ -6,7 +6,7 @@
  *
  * Coordinates: the plane is Web Mercator in radians, as in
  * shared/projection.js (x east, y north). "World pixels" are the tiles'
- * own grid at a zoom level: 256 × 2^z across the world, y running south.
+ * own grid at a zoom level (see shared/terrain-tiles.js).
  */
 
 import {
@@ -16,30 +16,17 @@ import {
   MIN_EXAGGERATION,
   TARGET_SLOPE_DEG,
 } from "./config.js";
+import { TILE, tileKey, worldPx } from "../../shared/terrain-tiles.js";
 import { clamp } from "../../shared/util.js";
 
 /** @typedef {import("../../shared/projection.js").Box} Box */
 /** @typedef {[number, number, number]} RGB */
 
-const TILE = 256;
 const EARTH_CIRCUMFERENCE_M = 40075016.686;
 
 /* ═══════════════════════════════════════════════════════════
    Tiles
    ═══════════════════════════════════════════════════════════ */
-
-/**
- * A plane point in world pixels at zoom `z`.
- *
- * @param {number} x
- * @param {number} y
- * @param {number} z
- * @returns {[number, number]}
- */
-export function worldPx(x, y, z) {
-  const size = TILE * 2 ** z;
-  return [((x + Math.PI) / (2 * Math.PI)) * size, ((Math.PI - y) / (2 * Math.PI)) * size];
-}
 
 /**
  * The tiles a box in the plane touches. Columns are not wrapped yet: a
@@ -77,18 +64,6 @@ export function chooseZoom(pxPerUnit, box, maxZoom, maxTiles) {
 }
 
 /**
- * The address of a tile, its column wrapped round the world.
- *
- * @param {number} z
- * @param {number} x
- * @param {number} y
- */
-export function tileKey(z, x, y) {
-  const n = 2 ** z;
-  return `${z}/${((x % n) + n) % n}/${y}`;
-}
-
-/**
  * Every tile a box needs, by key.
  *
  * @param {Box} box
@@ -101,20 +76,6 @@ export function tileKeys(box, z) {
   const keys = [];
   for (let y = r.y0; y <= r.y1; y++) for (let x = r.x0; x <= r.x1; x++) keys.push(tileKey(z, x, y));
   return [...new Set(keys)];
-}
-
-/**
- * Heights from a Terrarium tile's pixels: red × 256 + green + blue / 256,
- * minus 32768, in metres.
- *
- * @param {Uint8ClampedArray} rgba
- * @returns {Float32Array}
- */
-export function decodeTerrarium(rgba) {
-  const out = new Float32Array(rgba.length / 4);
-  for (let i = 0, j = 0; j < out.length; i += 4, j++)
-    out[j] = rgba[i] * 256 + rgba[i + 1] + rgba[i + 2] / 256 - 32768;
-  return out;
 }
 
 /* ═══════════════════════════════════════════════════════════
