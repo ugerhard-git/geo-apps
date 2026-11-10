@@ -133,10 +133,6 @@ export const RECIPES = {
     steps: [{ country: "Sweden" }],
     alt: "The typical endings of Swedish place names: -torp, -fors, -holm, -by",
   },
-  plates: {
-    steps: [OPEN, { country: "Netherlands" }, { click: ".tile .thumb", count: 6 }],
-    alt: "Dutch licence plates, blurred, on a quiz sheet",
-  },
   relief: {
     steps: [{ country: "Switzerland" }],
     alt: "A shaded relief map of Switzerland's mountains",

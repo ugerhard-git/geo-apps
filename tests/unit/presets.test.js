@@ -37,7 +37,6 @@ const APPS = {
   outlines: { names: true },
   "owid-chart-plotter": { file: "examples.js", noCountry: true },
   "place-endings": {},
-  plates: {},
   relief: {},
   rivers: {},
   roadsigns: {},
@@ -153,7 +152,7 @@ test("widenThumb asks only for Wikimedia's standard widths", async () => {
   // An original 600 px wide: 500, not 600, which Wikimedia would throttle.
   assert.match(widenThumb(url, 600, 1280) || "", /\/500px-Sign\.svg\.png$/);
   assert.equal(widenThumb(url, 300, 1280), null, "never narrower than what we have");
-  for (const app of ["roadsigns", "plates", "landmarks", "endemics"]) {
+  for (const app of ["roadsigns", "landmarks", "endemics"]) {
     const { THUMB_W, FULL_W } = await import(`../../apps/${app}/config.js`);
     assert.ok(STANDARD_WIDTHS.includes(THUMB_W) && STANDARD_WIDTHS.includes(FULL_W), app);
   }

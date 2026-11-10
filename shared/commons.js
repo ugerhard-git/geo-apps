@@ -2,7 +2,7 @@
  * Wikimedia Commons: the API, image URLs, and licences.
  *
  * Used by the apps that put Commons images on a sheet (endemics,
- * plates, road signs, flag colours).
+ * road signs, flag colours).
  *
  * @module shared/commons
  */
@@ -60,7 +60,7 @@ export function memberTitles(data) {
 /**
  * Subcategories of a Commons category.
  *
- * @param {string} title e.g. `"Category:License plates by country"`
+ * @param {string} title e.g. `"Category:Road signs by country"`
  * @param {number} [limit=500]
  * @returns {Promise<string[]>}
  */
