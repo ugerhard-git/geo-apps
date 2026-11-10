@@ -68,7 +68,7 @@ the same split — `config.js` for settings, a data module for fetching, `render
 once you know one, the others read the same way. Pure logic (parsing, layout, colour maths) lives in
 modules without DOM access so it can be unit-tested.
 
-The "sheet" apps (road signs, plates, endemics, statistics, …) share a page layout that
+The "sheet" apps (road signs, endemics, statistics, …) share a page layout that
 `shared/dom.js` relies on: a `#country` search input with a `#countryResults` list, a `#note` status
 line, a `#bar` progress bar with `#loadLabel`, and the size controls `#frame`, `#customW`, `#customH`.
 
@@ -343,11 +343,10 @@ keeps the look, **Random look** keeps the country. Text the user typed
 (caption, note) is never touched, and once a setting is changed by hand the
 menu says "Custom (based on …)". Every app has them.
 
-- In the apps with Commons photos (Endemics, Landmarks, Licence plates,
-  Road signs), an example or "Random country" puts six photos on the
+- In the apps with Commons photos (Endemics, Landmarks, Road signs), an example or "Random country" puts six photos on the
   sheet: openly licensed ones (public domain, CC0, CC BY) in the examples, the
-  best-known first for landmarks, and one of each kind in turn for signs
-  and plates (`pickSpread`). "Random country" only picks countries
+  best-known first for landmarks, and one of each kind in turn for
+  signs (`pickSpread`). "Random country" only picks countries
   with enough to show where the app knows that in advance.
 - Two apps have their own kind of look: Geo imagery's are imagery layers
   (night lights, relief), the OWID chart plotter's are chart backgrounds.
