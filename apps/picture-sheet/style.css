@@ -772,3 +772,159 @@ input[type="color"]:disabled {
   font-size: 12px;
   color: var(--muted);
 }
+
+/* ── Picture Sheet: cropping ─────────────────────────────── */
+.tile .cropmark {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  display: none;
+  padding: 0 6px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 10.5px;
+}
+.tile.cropped .cropmark {
+  display: block;
+}
+.cropper {
+  max-width: min(96vw, 1400px);
+  padding: 0;
+  border: 1px solid var(--rule);
+  background: var(--panel);
+  color: var(--text);
+}
+.cropper::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+.cropper > header {
+  padding: 14px 18px 4px;
+}
+.cropper h2 {
+  margin: 0 0 4px;
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 600;
+}
+.cropper header p,
+.crop-info {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+.crop-info {
+  padding: 0 18px;
+  min-height: 1.4em;
+}
+.crop-info.warn {
+  color: var(--warn);
+}
+.crop-wrap {
+  padding: 12px 18px;
+  text-align: center;
+}
+.crop-stage {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  touch-action: none;
+  user-select: none;
+  cursor: crosshair;
+  line-height: 0;
+}
+.crop-stage canvas {
+  display: block;
+  max-width: min(92vw, 1360px);
+  max-height: 66vh;
+  width: auto;
+  height: auto;
+}
+.crop-sel {
+  position: absolute;
+  outline: 2px solid var(--accent);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.55);
+  cursor: move;
+}
+.crop-sel .h {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  margin: -7px 0 0 -7px;
+  border: 2px solid #1a140b;
+  background: var(--accent);
+}
+.crop-sel .h[data-h="nw"] {
+  left: 0;
+  top: 0;
+  cursor: nwse-resize;
+}
+.crop-sel .h[data-h="n"] {
+  left: 50%;
+  top: 0;
+  cursor: ns-resize;
+}
+.crop-sel .h[data-h="ne"] {
+  left: 100%;
+  top: 0;
+  cursor: nesw-resize;
+}
+.crop-sel .h[data-h="e"] {
+  left: 100%;
+  top: 50%;
+  cursor: ew-resize;
+}
+.crop-sel .h[data-h="se"] {
+  left: 100%;
+  top: 100%;
+  cursor: nwse-resize;
+}
+.crop-sel .h[data-h="s"] {
+  left: 50%;
+  top: 100%;
+  cursor: ns-resize;
+}
+.crop-sel .h[data-h="sw"] {
+  left: 0;
+  top: 100%;
+  cursor: nesw-resize;
+}
+.crop-sel .h[data-h="w"] {
+  left: 0;
+  top: 50%;
+  cursor: ew-resize;
+}
+@media (pointer: coarse) {
+  .crop-sel .h {
+    width: 24px;
+    height: 24px;
+    margin: -12px 0 0 -12px;
+  }
+}
+.crop-actions {
+  display: flex;
+  gap: 8px;
+  padding: 12px 18px 16px;
+}
+.crop-actions .spacer {
+  flex: 1;
+}
+.crop-actions button {
+  padding: 7px 14px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--panel-2);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+.crop-actions button.primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #1a140b;
+  font-weight: 600;
+}
+.crop-actions button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}

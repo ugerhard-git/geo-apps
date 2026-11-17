@@ -15,11 +15,15 @@
  *      on a canvas leaves the original's metadata (a phone photo's location,
  *      say) behind, so it can't reach an exported sheet.
  *
+ * A crop (crop.js) is applied when the picture is decoded for the sheet or
+ * the tray: only that part is decoded, and never larger than it needs to be.
+ *
  * Files are read one after another, never together, so only one full-size
  * picture is ever in memory.
  */
 
-import { HEADER_BYTES, KEEP_SIDE, MAX_FILE_BYTES, THUMB_SIDE } from "./config.js";
+import { HEADER_BYTES, KEEP_SIDE, MAX_FILE_BYTES, SHEET_SIDE, THUMB_SIDE } from "./config.js";
+import { cropPixels } from "./crop.js";
 import { checkHeader, fitWithin } from "./files.js";
 
 /**
@@ -31,6 +35,7 @@ import { checkHeader, fitWithin } from "./files.js";
  * @property {number} h its height
  * @property {HTMLCanvasElement} thumb for the tray
  * @property {string} label typed by the visitor, "" for none
+ * @property {import("./crop.js").Crop | null} crop the part to use; null for all of it
  */
 
 let nextId = 1;
@@ -112,6 +117,7 @@ export async function readPicture(file) {
         h: keep.h,
         thumb,
         label: "",
+        crop: null,
       },
     };
   } catch {
@@ -122,8 +128,46 @@ export async function readPicture(file) {
 }
 
 /**
- * Decoded copies of the pictures on the sheet, by id. Only those on the sheet
- * are kept decoded; the rest stay compressed.
+ * Decode the part of a picture in use (all of it, or its crop), no longer
+ * than `side` on its longest side.
+ *
+ * @param {Picture} p
+ * @param {number} side
+ * @param {boolean} [whole] ignore the crop
+ * @returns {Promise<ImageBitmap>}
+ */
+export function decodePart(p, side, whole = false) {
+  const { sx, sy, sw, sh } = cropPixels(whole ? null : p.crop, p.w, p.h);
+  const size = fitWithin(sw, sh, side);
+  return createImageBitmap(p.blob, sx, sy, sw, sh, {
+    resizeWidth: size.w,
+    resizeHeight: size.h,
+    resizeQuality: "high",
+  });
+}
+
+/**
+ * Draw the tray's thumbnail again, after the crop changed.
+ *
+ * @param {Picture} p
+ */
+export async function redrawThumb(p) {
+  const b = await decodePart(p, THUMB_SIDE);
+  try {
+    p.thumb.width = b.width;
+    p.thumb.height = b.height;
+    /** @type {CanvasRenderingContext2D} */ (p.thumb.getContext("2d")).drawImage(b, 0, 0);
+  } finally {
+    b.close();
+  }
+}
+
+/** The cache key: a picture and the part of it in use. @param {Picture} p */
+const keyOf = (p) => (p.crop ? `${p.id}|${p.crop.x},${p.crop.y},${p.crop.w},${p.crop.h}` : p.id);
+
+/**
+ * Decoded copies of the pictures on the sheet. Only those on the sheet are
+ * kept decoded, at most SHEET_SIDE long; the rest stay compressed.
  */
 export function createDecodedCache() {
   /** @type {Map<string, Promise<ImageBitmap>>} */
@@ -131,22 +175,24 @@ export function createDecodedCache() {
   return {
     /** @param {Picture} p */
     get(p) {
-      let hit = cache.get(p.id);
+      const key = keyOf(p);
+      let hit = cache.get(key);
       if (!hit) {
-        hit = createImageBitmap(p.blob);
-        cache.set(p.id, hit);
-        hit.catch(() => cache.delete(p.id));
+        hit = decodePart(p, SHEET_SIDE);
+        cache.set(key, hit);
+        hit.catch(() => cache.delete(key));
       }
       return hit;
     },
     /**
-     * Let go of every decoded copy except those of `keep`.
+     * Let go of every decoded copy except those of `keep`, as cropped now.
      *
-     * @param {Set<string>} keep ids
+     * @param {Picture[]} keep
      */
     keepOnly(keep) {
+      const keys = new Set(keep.map(keyOf));
       // Dropped, not closed: a drawing still under way may be using one.
-      for (const id of [...cache.keys()]) if (!keep.has(id)) cache.delete(id);
+      for (const key of [...cache.keys()]) if (!keys.has(key)) cache.delete(key);
     },
   };
 }

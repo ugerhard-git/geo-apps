@@ -12,6 +12,8 @@
  *   config.js    limits on files, pictures and text
  *   files.js     what a file is and how large, from its bytes (pure)
  *   pictures.js  reading and keeping the pictures
+ *   crop.js      the part of a picture to use (pure)
+ *   cropper.js   the window for marking that part
  *   render.js    drawing the sheet
  *   welcome.js   the text of the welcome window
  */
@@ -37,7 +39,8 @@ import { cleanText } from "../../shared/text.js";
 import { setupWelcome } from "../../shared/welcome.js";
 import { MAX_CREDIT, MAX_LABEL, MAX_ON_SHEET, MAX_PICTURES } from "./config.js";
 import { sheetLabel } from "./files.js";
-import { createDecodedCache, readPicture } from "./pictures.js";
+import { setupCropper } from "./cropper.js";
+import { createDecodedCache, readPicture, redrawThumb } from "./pictures.js";
 import { drawSheet } from "./render.js";
 import { WELCOME } from "./welcome.js";
 
@@ -182,7 +185,7 @@ function tileFor(p) {
   const thumb = el("button", "thumb");
   thumb.setAttribute("type", "button");
   p.thumb.className = "pic";
-  thumb.append(p.thumb, el("span", "rank"));
+  thumb.append(p.thumb, el("span", "rank"), el("span", "cropmark", "cropped"));
   thumb.addEventListener("click", () => toggle(p.id));
 
   const meta = el("div", "meta");
@@ -201,6 +204,7 @@ function tileFor(p) {
   row.append(
     smallButton("←", "Move earlier", () => move(p.id, -1)),
     smallButton("→", "Move later", () => move(p.id, 1)),
+    smallButton("Crop", "Crop: use only part of this picture", () => openCropper(p)),
     el("span", "file", cleanText(p.fileName, 60)),
     smallButton("✕", "Remove this picture", () => remove(p.id)),
   );
@@ -221,6 +225,8 @@ function updateTray() {
     thumb.title = on ? "Take off the sheet" : "Put on the sheet";
     thumb.setAttribute("aria-pressed", String(on));
     /** @type {HTMLElement} */ (tile.querySelector(".rank")).textContent = on ? String(at + 1) : "";
+    const p = pictures.find((x) => x.id === id);
+    tile.classList.toggle("cropped", !!p?.crop);
   }
   const n = pictures.length;
   $("trayCount").textContent = n
@@ -308,7 +314,7 @@ function currentOptions() {
 function sheetContent() {
   const show = { numbers: $("optNumbers").checked, labels: $("optLabels").checked };
   const list = sheetPictures();
-  decoded.keepOnly(new Set(list.map((p) => p.id)));
+  decoded.keepOnly(list);
   const byId = new Map(list.map((p) => [p.id, p]));
   return {
     items: list.map((p, i) => ({ id: p.id, name: sheetLabel(i, p.label, show) })),
@@ -387,6 +393,20 @@ async function exportSheet(type, ext) {
     progress(null);
   }
 }
+
+/* ═══════════════════════════════════════════════════════════
+   Cropping
+   ═══════════════════════════════════════════════════════════ */
+
+const openCropper = setupCropper(async (p) => {
+  try {
+    await redrawThumb(p);
+  } catch {
+    /* the old thumbnail stays */
+  }
+  updateTray();
+  if (onSheet.has(p.id)) refresh();
+});
 
 /* ═══════════════════════════════════════════════════════════
    Looks
