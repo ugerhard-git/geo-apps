@@ -82,7 +82,7 @@ host to `connect-src` (or `img-src` for images), or the browser will block the r
 2. Give `index.html` a `<title>`, a `<meta name="description">`,
    `<meta name="geo-apps:tags" content="Source, kind">`, the topic it goes under on the overview,
    `<meta name="geo-apps:topic" content="land">` (one of `land`, `language`, `road`, `nature`,
-   `numbers`: see `TOPICS` in `scripts/apps.mjs`), and the day it goes live,
+   `numbers`, `own`: see `TOPICS` in `scripts/apps.mjs`), and the day it goes live,
    `<meta name="geo-apps:added" content="2026-11-10">`, which marks it "New" for three weeks. That is
    all the overview page needs; there is no list to register in.
 3. Import shared code with relative paths, e.g. `import { $ } from "../../shared/dom.js"`.
@@ -310,6 +310,15 @@ weeks after its `geo-apps:added` date and "Not tried yet" once the visitor has
 opened some app but not this one; the page knows from what each app's welcome
 window remembers in the browser, and nothing is sent anywhere.
 
+## Picture Sheet
+
+Picture Sheet has no country and no data of its own: the visitor drops,
+pastes or chooses pictures, which stay in the browser and are gone on
+reload. They are laid out by `shared/photo-sheet.js`, as in Landmarks, with
+an optional label and number under each and one credit line typed by the
+visitor. Instead of examples it has a look menu and "Random look". How its
+files are checked is under [Security](#security).
+
 ## Overview pictures
 
 Each card on the overview shows a small picture of the app's sheet, from
@@ -420,6 +429,17 @@ rules that keep that in check:
   CSVs in the OWID chart plotter, fetched, uploaded or pasted, are capped at
   40 MB, and a chart name must look like one before an address is built from
   it (`apps/owid-chart-plotter/owid.js`).
+- **Pictures from the visitor** (Picture Sheet) are read in the browser and
+  never sent anywhere; that page's policy has `connect-src 'none'` and
+  `img-src 'none'`. A file is judged by its first bytes, never its name or
+  reported type: only JPEG, PNG, GIF and WebP pass, so SVG (which can carry
+  scripts) never does. The size the header declares is checked before
+  decoding (at most 60 megapixels, 20,000 pixels a side, 40 MB a file, 60
+  pictures), so a small file that declares a huge picture can't exhaust the
+  browser's memory. Files are decoded one at a time and kept as copies of at
+  most 2,000 pixels; the sheet is drawn from those, so no EXIF data (a
+  photo's location) reaches an export (`apps/picture-sheet/files.js`,
+  `pictures.js`).
 - **No third-party scripts.** Libraries are kept in the repository (see
   `apps/owid-chart-plotter/vendor/`) instead of loaded from a CDN, because all
   apps share one origin, and with it the browser storage that can hold the

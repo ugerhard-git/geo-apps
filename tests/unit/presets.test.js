@@ -44,9 +44,20 @@ const APPS = {
   subdivisions: {},
 };
 
+/**
+ * Apps without examples: they have no country and no content of their own
+ * to start from, so they offer only a look menu (#look) and "Random look".
+ */
+const NO_EXAMPLES = ["picture-sheet"];
+
 test("every app has presets", () => {
   const apps = readdirSync("apps").filter((a) => existsSync(`apps/${a}/index.html`));
-  assert.deepEqual(apps.sort(), Object.keys(APPS).sort());
+  assert.deepEqual(apps.sort(), [...Object.keys(APPS), ...NO_EXAMPLES].sort());
+  for (const app of NO_EXAMPLES) {
+    const html = readFileSync(`apps/${app}/index.html`, "utf8");
+    for (const id of ["look", "rndLook"])
+      assert.match(html, new RegExp(`id="${id}"`), `${app}: #${id}`);
+  }
 });
 
 test("every look is readable", () => {
