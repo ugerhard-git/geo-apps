@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Your own pictures, read where they are: nothing is fetched or sent, so
+     connect-src and img-src are 'none' (the tray's thumbnails are canvases).
+     Only the fonts come from elsewhere. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+  default-src 'none';
+  script-src 'self';
+  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+  font-src https://fonts.gstatic.com;
+  connect-src 'none';
+  img-src 'none';
+  base-uri 'none';
+  form-action 'none';
+  object-src 'none'"
+    />
+    <title>Picture Sheet</title>
+    <meta
+      name="description"
+      content="Your own pictures, arranged on a quiz sheet with captions, labels and numbers. They never leave your device."
+    />
+    <meta name="geo-apps:tags" content="Your own pictures, images" />
+    <meta name="geo-apps:topic" content="own" />
+    <meta name="geo-apps:added" content="2026-11-17" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:wght@500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../shared/presets.css" />
+    <link rel="stylesheet" href="../../shared/welcome.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1>Picture Sheet</h1>
+          <p>Your own pictures on a quiz sheet.</p>
+        </div>
+
+        <div class="group">
+          <h2>Pictures</h2>
+          <button type="button" class="add" id="addBtnRail">Add pictures</button>
+          <div class="hint">Or drop or paste them anywhere on the page. They stay on your device.</div>
+        </div>
+
+        <div class="group presets">
+          <h2>Look</h2>
+          <div class="field">
+            <label for="look">Colours</label>
+            <select id="look"></select>
+          </div>
+          <div class="dice">
+            <button type="button" id="rndLook">Random look</button>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Sheet</h2>
+          <div class="field">
+            <label for="frame">Size</label>
+            <select id="frame">
+              <option value="2400x1600" selected>2400 × 1600 · 3:2</option>
+              <option value="1920x1080">1920 × 1080 · 16:9</option>
+              <option value="1600x1600">1600 × 1600 · 1:1</option>
+              <option value="custom">Custom…</option>
+            </select>
+          </div>
+          <div class="field two" id="customSize" hidden>
+            <div>
+              <label for="customW">Width</label><input type="number" id="customW" value="2400" min="64" max="8000" />
+            </div>
+            <div>
+              <label for="customH">Height</label><input type="number" id="customH" value="1600" min="64" max="8000" />
+            </div>
+          </div>
+          <label class="chk"><input type="checkbox" id="optLabels" checked /><span>Print the labels</span></label>
+          <label class="chk"><input type="checkbox" id="optNumbers" /><span>Number the pictures</span></label>
+          <label class="chk"
+            ><input type="checkbox" id="optTransparent" /><span>Transparent background</span
+            ><em id="pngOnly" hidden>PNG only</em></label
+          >
+        </div>
+
+        <div class="group">
+          <h2>Caption</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="capText"
+              value="Where were these pictures taken?"
+              placeholder="Leave empty for no caption"
+              maxlength="120"
+              autocomplete="off"
+              aria-label="Caption"
+            />
+          </div>
+          <div class="field" id="capPosField">
+            <div class="seg" role="group">
+              <button id="capTop" aria-pressed="true">Above</button>
+              <button id="capBottom" aria-pressed="false">Below</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="capSize">Caption size <span class="val" id="capSizeVal">100%</span></label>
+            <input type="range" id="capSize" min="50" max="200" step="10" value="100" />
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Credit</h2>
+          <div class="field">
+            <input
+              type="text"
+              id="credText"
+              value=""
+              placeholder="e.g. Photos: Jane Doe, CC BY 4.0"
+              maxlength="160"
+              autocomplete="off"
+              aria-label="Credit line"
+            />
+            <div class="hint">
+              Printed small at the bottom. Name the pictures' sources if their licences ask for it.
+            </div>
+          </div>
+          <div class="field">
+            <label for="credSize">Credit size <span class="val" id="credSizeVal">100%</span></label>
+            <input type="range" id="credSize" min="50" max="200" step="10" value="100" />
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Colours</h2>
+          <div class="field two">
+            <div>
+              <label for="fgHex">Text</label>
+              <div class="colour">
+                <input type="color" id="fgColor" value="#f1ebe0" aria-label="Text colour swatch" />
+                <input
+                  type="text"
+                  id="fgHex"
+                  value="#f1ebe0"
+                  placeholder="#rrggbb"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Text colour as hex"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="bgHex">Background</label>
+              <div class="colour">
+                <input type="color" id="bgColor" value="#16130f" aria-label="Background colour swatch" />
+                <input
+                  type="text"
+                  id="bgHex"
+                  value="#16130f"
+                  placeholder="#rrggbb"
+                  maxlength="7"
+                  spellcheck="false"
+                  autocomplete="off"
+                  aria-label="Background colour as hex"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="atHex">Credit text</label>
+            <div class="colour">
+              <input type="color" id="atColor" value="#a69c8a" aria-label="Credit colour swatch" />
+              <input
+                type="text"
+                id="atHex"
+                value="#a69c8a"
+                placeholder="#rrggbb"
+                maxlength="7"
+                spellcheck="false"
+                autocomplete="off"
+                aria-label="Credit colour as hex"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="group">
+          <h2>Export</h2>
+          <div class="actions">
+            <button id="dlPng" disabled>PNG</button>
+            <button id="dlJpg" disabled>JPG</button>
+          </div>
+        </div>
+      </aside>
+
+      <main class="stage">
+        <div class="sheet" id="sheetWrap" hidden><canvas id="sheet"></canvas></div>
+        <div class="bar" id="bar"><i></i></div>
+        <div class="loading" id="loadLabel"></div>
+        <div class="note" id="note"></div>
+
+        <section class="card" id="tray">
+          <header>
+            <h2>Your pictures</h2>
+            <p id="trayCount"></p>
+            <span class="spacer"></span>
+            <button type="button" class="linkish" id="clearAll" hidden>Remove all</button>
+          </header>
+          <div class="drop" id="drop">
+            <p>
+              <strong>Drop pictures here</strong>, paste them, or
+              <button type="button" id="addBtn">choose files</button>
+            </p>
+            <p class="small">
+              JPEG, PNG, GIF or WebP, up to 60 pictures. They stay on your device: nothing is uploaded, and photo
+              locations and other details in the files never reach the sheet.
+            </p>
+            <input type="file" id="fileInput" multiple accept="image/jpeg,image/png,image/gif,image/webp" hidden />
+          </div>
+          <ul class="problems" id="problems" hidden></ul>
+          <div class="grid" id="trayGrid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

@@ -16,6 +16,7 @@
   "names": {"w":720,"h":480,"alt":"The most popular baby names in Spain"},
   "outlines": {"w":720,"h":480,"alt":"The outline of Greece and its islands"},
   "owid-chart-plotter": {"w":720,"h":426,"alt":"Life expectancy over time in three countries"},
+  "picture-sheet": {"w":720,"h":480,"alt":"Six photos of bridges, cities and coasts on a quiz sheet asking where they were taken","custom":true},
   "place-endings": {"w":720,"h":480,"alt":"The typical endings of Swedish place names: -torp, -fors, -holm, -by"},
   "relief": {"w":720,"h":480,"alt":"A shaded relief map of Switzerland's mountains"},
   "rivers": {"w":720,"h":480,"alt":"The rivers of Brazil, led by the Amazon"},
