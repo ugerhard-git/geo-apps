@@ -229,6 +229,38 @@
       </main>
     </div>
 
+    <dialog class="cropper" id="cropper" aria-labelledby="cropTitle">
+      <header>
+        <h2 id="cropTitle">Crop the picture</h2>
+        <p>
+          Drag across the picture to mark the part to use. Drag the part to move it, or its edges to resize it. Arrow
+          keys move it; Shift and the arrow keys resize it.
+        </p>
+      </header>
+      <div class="crop-wrap">
+        <div
+          class="crop-stage"
+          id="cropStage"
+          tabindex="0"
+          aria-label="The picture. Use the arrow keys to mark and move the part to use, Shift and the arrow keys to resize it."
+        >
+          <canvas id="cropCanvas"></canvas>
+          <div class="crop-sel" id="cropSel" hidden>
+            <span class="h" data-h="nw"></span><span class="h" data-h="n"></span><span class="h" data-h="ne"></span
+            ><span class="h" data-h="e"></span><span class="h" data-h="se"></span><span class="h" data-h="s"></span
+            ><span class="h" data-h="sw"></span><span class="h" data-h="w"></span>
+          </div>
+        </div>
+      </div>
+      <p class="crop-info" id="cropInfo" aria-live="polite"></p>
+      <div class="crop-actions">
+        <button type="button" id="cropWhole">Use the whole picture</button>
+        <span class="spacer"></span>
+        <button type="button" id="cropCancel">Cancel</button>
+        <button type="button" class="primary" id="cropUse">Use this part</button>
+      </div>
+    </dialog>
+
     <script type="module" src="main.js"></script>
   </body>
 </html>

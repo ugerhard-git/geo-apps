@@ -316,7 +316,9 @@ Picture Sheet has no country and no data of its own: the visitor drops,
 pastes or chooses pictures, which stay in the browser and are gone on
 reload. They are laid out by `shared/photo-sheet.js`, as in Landmarks, with
 an optional label and number under each and one credit line typed by the
-visitor. Instead of examples it has a look menu and "Random look". How its
+visitor. Each picture can be cropped to a rectangle (`crop.js`, `cropper.js`),
+kept as fractions of the picture and checked to lie inside it; only that part
+is decoded, at most 2,000 pixels long, for the sheet. Instead of examples it has a look menu and "Random look". How its
 files are checked is under [Security](#security).
 
 ## Overview pictures
@@ -437,7 +439,7 @@ rules that keep that in check:
   decoding (at most 60 megapixels, 20,000 pixels a side, 40 MB a file, 60
   pictures), so a small file that declares a huge picture can't exhaust the
   browser's memory. Files are decoded one at a time and kept as copies of at
-  most 2,000 pixels; the sheet is drawn from those, so no EXIF data (a
+  most 4,096 pixels; the sheet is drawn from those, so no EXIF data (a
   photo's location) reaches an export (`apps/picture-sheet/files.js`,
   `pictures.js`).
 - **No third-party scripts.** Libraries are kept in the repository (see

@@ -281,3 +281,131 @@ test("a very large photo is taken, kept smaller, and the page stays responsive",
   await expect(page.locator("#sheetWrap")).toBeVisible();
   expect(errors).toEqual([]);
 });
+
+/**
+ * A picture whose left half is red and right half blue, as PNG.
+ *
+ * @param {import("@playwright/test").Page} page
+ */
+async function halves(page) {
+  const b64 = await page.evaluate(async () => {
+    const c = document.createElement("canvas");
+    c.width = 1000;
+    c.height = 500;
+    const ctx = /** @type {CanvasRenderingContext2D} */ (c.getContext("2d"));
+    ctx.fillStyle = "#ff0000";
+    ctx.fillRect(0, 0, 500, 500);
+    ctx.fillStyle = "#0000ff";
+    ctx.fillRect(500, 0, 500, 500);
+    const blob = /** @type {Blob} */ (await new Promise((r) => c.toBlob(r, "image/png")));
+    const bytes = new Uint8Array(await blob.arrayBuffer());
+    let s = "";
+    for (const x of bytes) s += String.fromCharCode(x);
+    return btoa(s);
+  });
+  return Buffer.from(b64, "base64");
+}
+
+/**
+ * How much clear red and clear blue the sheet shows.
+ *
+ * @param {import("@playwright/test").Page} page
+ */
+const sheetColours = (page) =>
+  page.evaluate(() => {
+    const c = /** @type {HTMLCanvasElement} */ (document.getElementById("sheet"));
+    const d = /** @type {CanvasRenderingContext2D} */ (c.getContext("2d")).getImageData(
+      0,
+      0,
+      c.width,
+      c.height,
+    ).data;
+    let red = 0;
+    let blue = 0;
+    for (let i = 0; i < d.length; i += 16) {
+      if (d[i] > 200 && d[i + 1] < 60 && d[i + 2] < 60) red++;
+      if (d[i + 2] > 200 && d[i] < 60 && d[i + 1] < 60) blue++;
+    }
+    return { red, blue };
+  });
+
+test("a crop puts only the part marked on the sheet, and can be taken back", async ({ page }) => {
+  const errors = await open(page);
+  await choose(page, [{ name: "halves.png", mimeType: "image/png", buffer: await halves(page) }]);
+  await expect(trayCount(page)).toHaveText("1 picture · 1 of 12 on the sheet");
+  await expect.poll(async () => (await sheetColours(page)).red).toBeGreaterThan(1000);
+
+  await page.getByRole("button", { name: "Crop: use only part of this picture" }).click();
+  const dialog = page.locator("#cropper");
+  await expect(dialog).toBeVisible();
+  await expect(page.locator("#cropUse")).toBeDisabled();
+
+  // A click without a drag marks nothing.
+  const box = /** @type {{x: number, y: number, width: number, height: number}} */ (
+    await page.locator("#cropCanvas").boundingBox()
+  );
+  const P = (/** @type {number} */ fx, /** @type {number} */ fy) => [
+    box.x + box.width * fx,
+    box.y + box.height * fy,
+  ];
+  await page.mouse.click(...P(0.3, 0.3));
+  await expect(page.locator("#cropSel")).toBeHidden();
+  await expect(page.locator("#cropUse")).toBeDisabled();
+
+  // Mark part of the blue half.
+  await page.mouse.move(...P(0.6, 0.1));
+  await page.mouse.down();
+  await page.mouse.move(...P(0.8, 0.5), { steps: 5 });
+  await page.mouse.move(...P(0.95, 0.9), { steps: 5 });
+  await page.mouse.up();
+  await expect(page.locator("#cropSel")).toBeVisible();
+  // About 350 × 400 pixels; a pointer lands between pixels.
+  await expect(page.locator("#cropInfo")).toContainText(/The part marked: 35\d × 40\d pixels/);
+  await page.click("#cropUse");
+  await expect(dialog).toBeHidden();
+  await expect(page.locator("#trayGrid .tile.cropped")).toHaveCount(1);
+  await expect.poll(async () => (await sheetColours(page)).red).toBe(0);
+  expect((await sheetColours(page)).blue).toBeGreaterThan(1000);
+
+  // Drag the part onto the red half: the sheet follows.
+  await page.getByRole("button", { name: "Crop: use only part of this picture" }).click();
+  await expect(page.locator("#cropSel")).toBeVisible();
+  await page.mouse.move(...P(0.75, 0.5));
+  await page.mouse.down();
+  await page.mouse.move(...P(0.1, 0.5), { steps: 8 });
+  await page.mouse.up();
+  await page.click("#cropUse");
+  await expect.poll(async () => (await sheetColours(page)).blue).toBe(0);
+
+  // Cancel changes nothing; "Use the whole picture" brings it all back.
+  await page.getByRole("button", { name: "Crop: use only part of this picture" }).click();
+  await expect(dialog).toBeVisible();
+  await page.keyboard.press("Escape");
+  await expect(dialog).toBeHidden();
+  await expect(page.locator("#trayGrid .tile.cropped")).toHaveCount(1);
+  await page.getByRole("button", { name: "Crop: use only part of this picture" }).click();
+  await expect(dialog).toBeVisible();
+  await page.click("#cropWhole");
+  await expect(page.locator("#trayGrid .tile.cropped")).toHaveCount(0);
+  await expect.poll(async () => (await sheetColours(page)).red).toBeGreaterThan(1000);
+  expect((await sheetColours(page)).blue).toBeGreaterThan(1000);
+  expect(errors).toEqual([]);
+});
+
+test("the crop can be marked and sized with the keyboard, and a small part is flagged", async ({
+  page,
+}) => {
+  const errors = await open(page);
+  await choose(page, [{ name: "halves.png", mimeType: "image/png", buffer: await halves(page) }]);
+  await expect(trayCount(page)).toHaveText("1 picture · 1 of 12 on the sheet");
+  await page.getByRole("button", { name: "Crop: use only part of this picture" }).click();
+  await expect(page.locator("#cropStage")).toBeFocused();
+  await page.keyboard.press("ArrowRight"); // marks the middle
+  await expect(page.locator("#cropInfo")).toContainText("500 × 250 pixels");
+  for (let i = 0; i < 40; i++) await page.keyboard.press("Shift+ArrowLeft");
+  await expect(page.locator("#cropInfo")).toContainText("That's small");
+  await page.keyboard.press("Tab"); // through the buttons to "Use this part"
+  await page.click("#cropUse");
+  await expect(page.locator("#trayGrid .tile.cropped")).toHaveCount(1);
+  expect(errors).toEqual([]);
+});

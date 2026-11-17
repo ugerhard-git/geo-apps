@@ -22,8 +22,20 @@ export const MAX_SIDE = 20_000;
 /** How much of a file is read to find its size: JPEG puts it after the EXIF data. */
 export const HEADER_BYTES = 1024 * 1024;
 
-/** Each picture is kept at most this long on its longest side: plenty for any sheet. */
-export const KEEP_SIDE = 2000;
+/**
+ * Each picture is kept at most this long on its longest side: a 4K screenshot
+ * keeps every pixel, so a small part cropped from it stays sharp. The copy is
+ * kept compressed.
+ */
+export const KEEP_SIDE = 4096;
+/** A picture, or the part cropped from it, is decoded for the sheet at most this long. */
+export const SHEET_SIDE = 2000;
+/** The cropping window shows the picture at most this long. */
+export const CROP_VIEW_SIDE = 2000;
+/** The smallest part that can be cropped, in the kept copy's pixels. */
+export const MIN_CROP_PX = 16;
+/** A part narrower or shorter than this may look blurry on a large sheet. */
+export const BLURRY_PX = 300;
 /** The thumbnails in the tray. */
 export const THUMB_SIDE = 240;
 
